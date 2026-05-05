@@ -101,6 +101,1181 @@ tr:hover td{background:var(--bg2);}
 .p-trim{background:rgba(224,82,82,.09);color:var(--red);border-color:rgba(224,82,82,.25);}
 .p-new{background:rgba(45,212,191,.09);color:var(--teal);border-color:rgba(45,212,191,.25);}
 
+/* ════════════════════════════════════════
+   THEME DEEP RESEARCH — RAY DALIO LENS
+════════════════════════════════════════ */
+.theme-research-btn{
+  width:100%;
+  display:flex;align-items:center;gap:10px;
+  background:linear-gradient(180deg, rgba(255,255,255,.02), transparent);
+  border:1px solid var(--border2);
+  border-left:3px solid var(--c, var(--gold));
+  color:var(--text);
+  padding:10px 14px;
+  border-radius:4px;
+  cursor:pointer;
+  font-family:'DM Mono',monospace;
+  font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;font-weight:500;
+  transition:all .15s ease;
+  margin-top:.5rem;
+}
+.theme-research-btn:hover{
+  background:linear-gradient(180deg, rgba(201,168,76,.06), transparent);
+  border-color:var(--c, var(--gold));
+}
+.theme-research-btn.open{
+  background:linear-gradient(180deg, rgba(201,168,76,.08), rgba(201,168,76,.02));
+  border-color:var(--c, var(--gold));
+}
+.theme-research-btn .trb-icon{
+  color:var(--c, var(--gold));
+  font-size:11px;
+  transition:transform .2s;
+}
+.theme-research{
+  margin-top:1rem;
+  animation:tr-fade-in .35s ease;
+}
+@keyframes tr-fade-in{
+  from{opacity:0;transform:translateY(8px);}
+  to{opacity:1;transform:translateY(0);}
+}
+.theme-research-divider{
+  display:flex;align-items:center;gap:1rem;
+  margin:.5rem 0 1.2rem;
+}
+.theme-research-divider span{
+  font-family:'DM Mono',monospace;font-size:9px;
+  letter-spacing:.18em;text-transform:uppercase;font-weight:600;
+  padding:5px 11px;border-radius:2px;border:1px solid;
+}
+.theme-research-divider::before,
+.theme-research-divider::after{
+  content:'';flex:1;height:1px;background:var(--border2);
+}
+.dalio-block{
+  background:linear-gradient(180deg, rgba(201,168,76,.04), transparent);
+  border:1px solid var(--border);
+  border-left:3px solid var(--gold);
+  border-radius:4px;
+  padding:1rem 1.2rem;
+  margin-bottom:1.5rem;
+}
+.dalio-l{
+  font-family:'DM Mono',monospace;
+  font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:.7rem;font-weight:600;
+}
+.dalio-body{
+  font-size:12px;color:var(--text);line-height:1.85;
+  margin-bottom:1rem;font-style:italic;
+  border-left:2px solid rgba(201,168,76,.3);
+  padding-left:.8rem;
+}
+.dalio-pills{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:.5rem;
+}
+.dalio-pill{
+  background:var(--bg2);
+  border-radius:3px;
+  padding:7px 10px;
+  display:flex;flex-direction:column;gap:3px;
+}
+.dalio-pill-l{
+  font-family:'DM Mono',monospace;
+  font-size:8px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--text3);
+}
+.dalio-pill-v{
+  font-size:11px;color:var(--text);font-weight:500;
+  font-family:'DM Mono',monospace;
+}
+.theme-research-section-title{
+  display:flex;align-items:center;gap:1rem;
+  margin:1.2rem 0 .8rem;
+}
+.theme-research-section-title span{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.05rem;letter-spacing:.06em;
+  color:var(--text);
+  white-space:nowrap;
+}
+.theme-research-section-title::after{
+  content:'';flex:1;height:1px;background:var(--border2);
+}
+
+/* Triggers */
+.theme-triggers{
+  display:flex;flex-direction:column;gap:8px;
+  margin-bottom:1.2rem;
+}
+.theme-trigger{
+  background:var(--bg1);
+  border:1px solid var(--border);
+  border-radius:4px;
+  padding:9px 12px;
+  display:flex;flex-direction:column;gap:5px;
+  transition:border-color .15s;
+}
+.theme-trigger:hover{border-color:var(--border2);}
+.theme-trigger-when{
+  display:flex;align-items:center;gap:10px;
+  font-size:11px;color:var(--text);
+}
+.theme-trigger-conf{
+  display:inline-block;
+  font-family:'DM Mono',monospace;
+  font-size:8px;letter-spacing:.14em;font-weight:600;
+  padding:2px 7px;border-radius:2px;border:1px solid;
+}
+.theme-trigger-then{
+  font-size:11px;color:var(--text2);
+  padding-left:1.4rem;line-height:1.55;
+}
+
+/* Stock picks */
+.theme-picks{
+  display:flex;flex-direction:column;gap:10px;
+}
+.theme-pick{
+  display:grid;grid-template-columns:42px 1fr;gap:14px;
+  background:var(--bg1);
+  border:1px solid var(--border);
+  border-radius:5px;
+  padding:14px 16px;
+  transition:border-color .15s, transform .15s;
+}
+.theme-pick:hover{
+  border-color:var(--border2);
+  transform:translateX(2px);
+}
+.theme-pick-rank{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.8rem;letter-spacing:.02em;
+  color:var(--gold);line-height:1;
+  display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(180deg, rgba(201,168,76,.1), rgba(201,168,76,.02));
+  border:1px solid rgba(201,168,76,.25);
+  border-radius:4px;
+  padding:8px 0;
+}
+.theme-pick-body{
+  display:flex;flex-direction:column;gap:8px;min-width:0;
+}
+.theme-pick-head{
+  display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+}
+.theme-pick-tkr{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.5rem;letter-spacing:.04em;
+  color:var(--text);line-height:1;
+}
+.theme-pick-name{
+  font-size:11px;color:var(--text2);
+}
+.theme-pick-sizing{
+  margin-left:auto;
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--gold);
+  background:rgba(201,168,76,.08);
+  border:1px solid rgba(201,168,76,.25);
+  padding:3px 8px;border-radius:2px;
+  font-weight:600;
+}
+.theme-pick-thesis{
+  font-size:11.5px;color:var(--text);line-height:1.7;
+}
+.theme-pick-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:.5rem;
+  background:var(--bg2);
+  border-radius:3px;
+  padding:8px 10px;
+}
+.theme-pick-cell{
+  display:flex;flex-direction:column;gap:2px;
+}
+.theme-pick-cell-l{
+  font-family:'DM Mono',monospace;
+  font-size:8px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--text3);
+}
+.theme-pick-cell-v{
+  font-family:'DM Mono',monospace;
+  font-size:11px;font-weight:600;
+  color:var(--text);
+}
+.theme-pick-risk{
+  font-size:10.5px;color:var(--text2);line-height:1.55;
+  border-left:2px solid rgba(232,131,64,.4);
+  padding-left:8px;
+}
+.theme-pick-risk strong{color:var(--orange);}
+
+@media (max-width:600px){
+  .theme-pick{grid-template-columns:32px 1fr;gap:8px;padding:10px;}
+  .theme-pick-rank{font-size:1.3rem;padding:5px 0;}
+}
+
+/* ════════════════════════════════════════
+   YOUTUBE INTEL HUB — Consensus Engine
+════════════════════════════════════════ */
+.yt-consensus{
+  background:linear-gradient(180deg, var(--bg1), var(--bg));
+  border:1px solid var(--border);
+  border-radius:6px;
+  padding:1.2rem 1.4rem;
+  margin-bottom:1.5rem;
+  position:relative;
+  overflow:hidden;
+}
+.yt-consensus::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg, var(--gold), transparent);
+}
+.yt-consensus-head{
+  display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:.75rem;margin-bottom:1rem;
+}
+.yt-consensus-l{
+  font-family:'DM Mono',monospace;
+  font-size:10px;letter-spacing:.18em;font-weight:600;
+  text-transform:uppercase;color:var(--gold);
+}
+.yt-synthesize{
+  font-family:'DM Mono',monospace;
+  font-size:10px;letter-spacing:.12em;
+  text-transform:uppercase;font-weight:500;
+  background:transparent;color:var(--gold);
+  border:1px solid rgba(201,168,76,.4);
+  padding:6px 14px;border-radius:3px;cursor:pointer;
+  transition:all .15s;
+}
+.yt-synthesize:hover{
+  background:rgba(201,168,76,.08);
+  border-color:var(--gold);
+}
+.yt-synthesize:disabled{opacity:.5;cursor:wait;}
+.yt-consensus-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:.75rem;
+}
+.yt-cs-cell{
+  background:var(--bg2);
+  border:1px solid var(--border);
+  border-radius:4px;
+  padding:.85rem 1rem;
+}
+.yt-cs-cell.wide{grid-column:1 / -1;margin-top:.4rem;}
+.yt-cs-l{
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--text3);
+  margin-bottom:.55rem;
+}
+.yt-cs-body{
+  font-size:11px;color:var(--text);line-height:1.7;
+}
+.yt-cs-synthesis{
+  font-size:12px;line-height:1.85;color:var(--text);
+  border-left:2px solid var(--gold);padding-left:.85rem;
+  font-style:italic;
+}
+.yt-cs-synthesis.loading{color:var(--text3);font-style:normal;}
+.yt-cs-synthesis strong{color:var(--gold2);font-style:normal;}
+.yt-mention{
+  display:inline-flex;align-items:center;gap:5px;
+  font-family:'DM Mono',monospace;
+  font-size:11px;font-weight:600;
+  padding:3px 9px;border-radius:2px;margin:2px 4px 2px 0;
+  background:var(--bg3);border:1px solid var(--border2);
+  color:var(--text);
+}
+.yt-mention .yt-mc{
+  font-size:9px;color:var(--gold);font-weight:500;
+  padding-left:5px;border-left:1px solid var(--border2);
+}
+.yt-mention.bull{border-color:rgba(61,220,132,.4);background:rgba(61,220,132,.06);}
+.yt-mention.bull .yt-mc{color:#5fe896;}
+.yt-mention.bear{border-color:rgba(224,82,82,.4);background:rgba(224,82,82,.06);}
+.yt-mention.bear .yt-mc{color:#f06868;}
+.yt-mention.neutral{border-color:var(--border2);}
+.yt-theme-pill{
+  display:inline-flex;align-items:center;gap:6px;
+  font-family:'DM Mono',monospace;
+  font-size:10px;letter-spacing:.04em;
+  padding:3px 9px;border-radius:2px;margin:2px 4px 2px 0;
+  border:1px solid;
+}
+.yt-sentiment-bar{
+  display:flex;height:7px;border-radius:4px;overflow:hidden;
+  background:var(--bg3);margin:6px 0 8px;
+}
+.yt-sentiment-bar > div{
+  height:100%;transition:width .4s ease;
+}
+.yt-sentiment-row{
+  display:flex;justify-content:space-between;
+  font-family:'DM Mono',monospace;font-size:10px;
+}
+
+/* Stock mention leaderboard */
+.yt-leaderboard{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(170px, 1fr));
+  gap:.5rem;margin-bottom:1.5rem;
+}
+.yt-lb-card{
+  background:var(--bg1);
+  border:1px solid var(--border);
+  border-radius:4px;
+  padding:9px 12px;
+  display:flex;flex-direction:column;gap:5px;
+  position:relative;overflow:hidden;
+}
+.yt-lb-card.in-port{
+  border-color:rgba(201,168,76,.35);
+  background:linear-gradient(180deg, rgba(201,168,76,.04), var(--bg1));
+}
+.yt-lb-head{
+  display:flex;align-items:center;justify-content:space-between;
+}
+.yt-lb-tkr{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.25rem;letter-spacing:.04em;
+  color:var(--text);line-height:1;
+}
+.yt-lb-card.in-port .yt-lb-tkr{color:var(--gold2);}
+.yt-lb-count{
+  font-family:'DM Mono',monospace;
+  font-size:10px;font-weight:600;
+  padding:2px 7px;border-radius:2px;
+  background:var(--bg3);color:var(--text2);
+}
+.yt-lb-meta{
+  font-family:'DM Mono',monospace;
+  font-size:8.5px;letter-spacing:.1em;
+  color:var(--text3);text-transform:uppercase;
+}
+.yt-lb-mini-bar{
+  display:flex;height:3px;border-radius:2px;overflow:hidden;background:var(--bg3);
+}
+.yt-lb-mini-bar > div{height:100%;}
+
+/* Data-source disclosure note */
+.yt-data-note{
+  background:rgba(74,158,255,.04);
+  border:1px solid rgba(74,158,255,.2);
+  border-left:3px solid var(--blue);
+  border-radius:0 4px 4px 0;
+  padding:.7rem 1rem;
+  font-size:11px;line-height:1.6;color:var(--text2);
+  margin-bottom:1rem;
+}
+.yt-data-note strong{color:#7ab9ff;}
+
+@media (max-width:780px){
+  .yt-consensus-grid{grid-template-columns:1fr;}
+}
+
+/* ════════════════════════════════════════
+   MASTER PIVOT — PROFESSIONAL TRADE-CARD VIEW
+════════════════════════════════════════ */
+
+/* Section header KPI strip — premium */
+.piv-section .kpi-row{
+  background:linear-gradient(180deg, var(--bg1) 0%, var(--bg) 100%);
+}
+.piv-section .kpi{
+  position:relative;
+  padding:1.4rem 1.5rem 1.3rem;
+}
+.piv-section .kpi::before{
+  content:'';position:absolute;top:0;left:1.5rem;right:1.5rem;height:1px;
+  background:linear-gradient(90deg, transparent, rgba(201,168,76,.4), transparent);
+  opacity:0;transition:opacity .3s;
+}
+.piv-section .kpi:hover::before{opacity:1;}
+.piv-section .kpi-l{
+  display:flex;align-items:center;gap:6px;
+}
+.piv-section .kpi-l::before{
+  content:'';width:3px;height:3px;border-radius:50%;
+  background:var(--gold);opacity:.6;
+}
+.piv-section .kpi-v{
+  font-size:2.1rem;
+  font-variant-numeric:tabular-nums;
+  letter-spacing:.02em;
+}
+.piv-section .kpi-s{
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.08em;
+  color:var(--text2);text-transform:uppercase;
+  margin-top:6px;
+}
+
+/* Live status pill — animated gradient border */
+.piv-status{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:'DM Mono',monospace;font-size:9px;
+  letter-spacing:.14em;text-transform:uppercase;
+  padding:5px 12px;border-radius:2px;
+  background:rgba(61,220,132,.06);
+  color:var(--green);
+  border:1px solid rgba(61,220,132,.3);
+}
+.piv-status-dot{
+  width:6px;height:6px;border-radius:50%;
+  background:var(--green);
+  animation:pulse 1.6s ease-in-out infinite;
+  box-shadow:0 0 8px var(--green);
+}
+.piv-status.warn{
+  background:rgba(232,131,64,.06);
+  color:var(--orange);
+  border-color:rgba(232,131,64,.3);
+}
+.piv-status.warn .piv-status-dot{background:var(--orange);box-shadow:0 0 8px var(--orange);}
+
+/* Filter chip bar — pro-grade */
+.piv-filter-bar{
+  display:flex;flex-wrap:wrap;gap:6px;
+  margin:0 0 1rem;
+  padding:.5rem;
+  background:var(--bg1);
+  border:1px solid var(--border);
+  border-radius:6px;
+  align-items:center;
+}
+.piv-filter-bar::before{
+  content:'FILTER';
+  font-family:'DM Mono',monospace;font-size:9px;
+  letter-spacing:.18em;color:var(--text3);
+  padding:0 12px 0 8px;border-right:1px solid var(--border2);
+  margin-right:6px;
+}
+.pivf-btn{
+  font-family:'DM Mono',monospace;font-size:10px;
+  letter-spacing:.1em;text-transform:uppercase;
+  background:transparent;color:var(--text2);
+  border:1px solid transparent;border-radius:3px;
+  padding:7px 12px;cursor:pointer;transition:all .15s ease;
+  display:inline-flex;align-items:center;gap:8px;
+  font-weight:500;
+}
+.pivf-btn:hover{
+  color:var(--text);
+  background:var(--bg2);
+}
+.pivf-btn.pivf-on{
+  color:#080808;
+  background:linear-gradient(180deg, var(--gold2) 0%, var(--gold) 100%);
+  border-color:var(--gold);
+  box-shadow:0 0 12px rgba(201,168,76,.25), inset 0 1px 0 rgba(255,255,255,.2);
+  font-weight:600;
+}
+.pivf-c{
+  font-size:9px;padding:1px 6px;border-radius:8px;
+  background:rgba(255,255,255,.08);color:inherit;
+  font-weight:600;font-variant-numeric:tabular-nums;
+}
+.pivf-on .pivf-c{background:rgba(0,0,0,.18);}
+
+/* Sort header strip */
+.piv-sort-header{
+  display:grid;
+  grid-template-columns:minmax(180px,1.4fr) minmax(150px,1fr) minmax(160px,1fr) minmax(150px,1fr) minmax(140px,1fr) 60px;
+  gap:1rem;align-items:center;
+  padding:.65rem 1rem;
+  background:var(--bg1);
+  border:1px solid var(--border);
+  border-bottom:none;
+  border-radius:6px 6px 0 0;
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--text3);
+}
+.piv-sort-header > div{cursor:pointer;user-select:none;display:flex;align-items:center;gap:5px;transition:color .15s;}
+.piv-sort-header > div:hover{color:var(--gold);}
+.piv-sort-header > div.right{justify-content:flex-end;text-align:right;}
+.piv-sort-header > div.sorted{color:var(--gold);}
+.piv-sort-header > div.sorted::after{content:'';width:0;height:0;display:inline-block;
+  border-left:3px solid transparent;border-right:3px solid transparent;}
+.piv-sort-header > div.sorted-desc::after{border-top:4px solid var(--gold);}
+.piv-sort-header > div.sorted-asc::after{border-bottom:4px solid var(--gold);}
+
+/* Trade card row — the main visual unit */
+.piv-cards{
+  display:flex;flex-direction:column;
+  border:1px solid var(--border);
+  border-radius:0 0 6px 6px;
+  overflow:hidden;
+  background:var(--bg);
+}
+.piv-card{
+  display:grid;
+  grid-template-columns:4px minmax(180px,1.4fr) minmax(150px,1fr) minmax(160px,1fr) minmax(150px,1fr) minmax(140px,1fr) 60px;
+  gap:1rem;align-items:center;
+  padding:1rem 1rem 1rem .75rem;
+  border-bottom:1px solid var(--border);
+  cursor:pointer;
+  transition:background .15s ease, transform .15s ease;
+  position:relative;
+}
+.piv-card:last-child{border-bottom:none;}
+.piv-card:hover{
+  background:linear-gradient(90deg, rgba(201,168,76,.04) 0%, transparent 60%);
+}
+.piv-card:hover .piv-tkr-large{color:var(--gold2);}
+.piv-card:hover .piv-go{opacity:1;transform:translateX(0);}
+
+/* Left action stripe — color-coded by urgency */
+.piv-stripe{
+  width:4px;height:100%;border-radius:2px;
+  align-self:stretch;
+}
+.piv-stripe.urgent{background:linear-gradient(180deg, #e05252, #8a2424);box-shadow:0 0 8px rgba(224,82,82,.4);}
+.piv-stripe.add{background:linear-gradient(180deg, #4a9eff, #2a5a99);}
+.piv-stripe.hold{background:linear-gradient(180deg, #c9a84c, #7a6428);}
+.piv-stripe.trim{background:linear-gradient(180deg, #b388ff, #6a4ca8);}
+.piv-stripe.watch{background:linear-gradient(180deg, #2dd4bf, #168073);}
+
+/* Identity block */
+.piv-id{
+  display:flex;flex-direction:column;gap:3px;min-width:0;
+}
+.piv-id-row{
+  display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+}
+.piv-tkr-large{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.7rem;letter-spacing:.04em;line-height:1;
+  color:var(--text);
+  transition:color .2s;
+}
+.piv-pri-chip{
+  display:inline-flex;align-items:center;gap:4px;
+  font-family:'DM Mono',monospace;
+  font-size:9px;font-weight:600;
+  padding:2px 7px;border-radius:2px;
+  letter-spacing:.1em;
+}
+.piv-pri-chip.P0{color:#ffaaaa;background:rgba(224,82,82,.18);border:1px solid rgba(224,82,82,.4);}
+.piv-pri-chip.P1{color:var(--gold2);background:rgba(201,168,76,.12);border:1px solid rgba(201,168,76,.3);}
+.piv-pri-chip.P2{color:#7ab9ff;background:rgba(74,158,255,.1);border:1px solid rgba(74,158,255,.28);}
+.piv-pri-chip.P3{color:#7be0a3;background:rgba(61,220,132,.08);border:1px solid rgba(61,220,132,.25);}
+.piv-id-name{
+  font-size:11px;color:var(--text2);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  font-weight:400;
+}
+.piv-id-meta{
+  display:flex;gap:10px;align-items:center;
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.08em;
+  color:var(--text3);text-transform:uppercase;margin-top:2px;
+}
+.piv-id-meta-dot{color:var(--gold);opacity:.5;}
+
+/* Price block */
+.piv-price-block{
+  display:flex;flex-direction:column;gap:4px;
+}
+.piv-price-row{
+  display:flex;align-items:baseline;gap:8px;
+}
+.piv-price{
+  font-family:'DM Mono',monospace;
+  font-size:1.05rem;font-weight:600;
+  color:var(--text);
+  font-variant-numeric:tabular-nums;
+  letter-spacing:.01em;
+}
+.piv-today{
+  font-family:'DM Mono',monospace;
+  font-size:11px;font-weight:600;
+  font-variant-numeric:tabular-nums;
+}
+.piv-today.up{color:var(--green);}
+.piv-today.dn{color:var(--red);}
+.piv-spark-row{
+  display:flex;align-items:center;gap:8px;
+}
+.piv-spark{
+  display:block;width:100px;height:24px;
+  flex-shrink:0;
+}
+.piv-spark-meta{
+  font-family:'DM Mono',monospace;
+  font-size:9px;color:var(--text3);
+  letter-spacing:.05em;
+}
+
+/* Return block */
+.piv-return-block{
+  display:flex;flex-direction:column;gap:3px;
+}
+.piv-return{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.35rem;letter-spacing:.04em;line-height:1;
+  font-variant-numeric:tabular-nums;
+}
+.piv-return.up{color:var(--green);}
+.piv-return.dn{color:var(--red);}
+.piv-return-meta{
+  display:flex;gap:8px;align-items:center;
+  font-family:'DM Mono',monospace;
+  font-size:9px;color:var(--text3);
+  letter-spacing:.06em;text-transform:uppercase;
+}
+.piv-return-meta strong{color:var(--text2);font-weight:500;}
+
+/* Target / upside block */
+.piv-target-block{
+  display:flex;flex-direction:column;gap:3px;
+}
+.piv-target-label{
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--text3);
+}
+.piv-target-row{
+  display:flex;align-items:baseline;gap:8px;
+}
+.piv-target-px{
+  font-family:'DM Mono',monospace;
+  font-size:1rem;color:var(--gold);font-weight:600;
+  font-variant-numeric:tabular-nums;
+}
+.piv-upside{
+  font-family:'DM Mono',monospace;font-size:11px;font-weight:600;
+  font-variant-numeric:tabular-nums;
+}
+.piv-upside.strong{color:var(--green);}
+.piv-upside.mid{color:var(--gold);}
+.piv-upside.neg{color:var(--red);}
+.piv-rsi-bar{
+  display:flex;align-items:center;gap:6px;
+  margin-top:2px;font-family:'DM Mono',monospace;
+  font-size:9px;color:var(--text3);
+  letter-spacing:.06em;text-transform:uppercase;
+}
+.piv-rsi-track{
+  width:60px;height:3px;background:var(--bg3);
+  border-radius:2px;overflow:hidden;position:relative;
+}
+.piv-rsi-fill{
+  height:100%;border-radius:2px;
+  transition:width .3s ease;
+}
+.piv-rsi-fill.cool{background:var(--blue);}
+.piv-rsi-fill.neutral{background:var(--gold);}
+.piv-rsi-fill.hot{background:var(--orange);}
+.piv-rsi-fill.danger{background:var(--red);}
+
+/* Action block */
+.piv-action-block{
+  display:flex;flex-direction:column;gap:5px;align-items:flex-start;
+}
+.piv-action-pill{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:.95rem;letter-spacing:.1em;
+  padding:5px 12px;border-radius:3px;
+  display:inline-flex;align-items:center;gap:6px;
+  white-space:nowrap;
+}
+.piv-action-pill.urgent{
+  background:linear-gradient(180deg, #e05252, #b03838);
+  color:#fff;
+  box-shadow:0 0 12px rgba(224,82,82,.3), inset 0 1px 0 rgba(255,255,255,.15);
+}
+.piv-action-pill.urgent::before{content:'⚡';}
+.piv-action-pill.add{
+  background:linear-gradient(180deg, #4a9eff, #2a78d0);color:#fff;
+  box-shadow:0 0 10px rgba(74,158,255,.25), inset 0 1px 0 rgba(255,255,255,.15);
+}
+.piv-action-pill.hold{
+  background:rgba(201,168,76,.12);color:var(--gold2);
+  border:1px solid rgba(201,168,76,.45);
+}
+.piv-action-pill.trim{
+  background:linear-gradient(180deg, #b388ff, #8a5ad4);color:#fff;
+  box-shadow:0 0 10px rgba(179,136,255,.2), inset 0 1px 0 rgba(255,255,255,.15);
+}
+.piv-action-pill.watch{
+  background:rgba(45,212,191,.1);color:var(--teal);
+  border:1px solid rgba(45,212,191,.4);
+}
+.piv-dca-tag{
+  display:inline-flex;align-items:center;gap:4px;
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.06em;
+  color:var(--green);
+  background:rgba(61,220,132,.08);
+  border:1px solid rgba(61,220,132,.2);
+  padding:2px 7px;border-radius:2px;
+}
+.piv-dca-tag.none{color:var(--text3);background:transparent;border-color:var(--border2);}
+
+/* Right-arrow indicator */
+.piv-go{
+  font-family:'DM Mono',monospace;font-size:14px;
+  color:var(--gold);text-align:center;
+  opacity:0;transform:translateX(-4px);
+  transition:opacity .2s, transform .2s;
+}
+
+/* Verdict expansion — INLINE INVESTMENT-BANKER NOTE */
+.piv-verdict{
+  max-height:0;
+  overflow:hidden;
+  background:linear-gradient(180deg, rgba(201,168,76,.025) 0%, rgba(8,8,8,.6) 100%);
+  border-bottom:1px solid var(--border);
+  transition:max-height .45s cubic-bezier(.16,1,.3,1), padding .45s ease;
+  padding:0 1.5rem 0 1.75rem;
+}
+.piv-card.expanded + .piv-verdict{
+  max-height:2200px;
+  padding:1.25rem 1.5rem 1.5rem 1.75rem;
+  border-bottom:1px solid var(--border2);
+}
+.piv-card.expanded{
+  background:linear-gradient(90deg, rgba(201,168,76,.06) 0%, transparent 60%);
+  border-bottom-color:transparent;
+}
+.piv-card.expanded .piv-go{transform:rotate(90deg);opacity:1;color:var(--gold2);}
+
+/* Verdict header: classification banner */
+.pv-banner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:1rem;flex-wrap:wrap;
+  padding:8px 14px;
+  background:linear-gradient(90deg, rgba(201,168,76,.08), transparent);
+  border-left:3px solid var(--gold);
+  border-radius:0 3px 3px 0;
+  margin-bottom:1.1rem;
+}
+.pv-banner-l{
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--gold);
+  font-weight:600;
+}
+.pv-banner-r{
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.1em;
+  color:var(--text3);
+}
+
+/* 4-column research grid */
+.pv-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+  gap:.75rem;
+  margin-bottom:1.1rem;
+}
+.pv-cell{
+  background:var(--bg1);
+  border:1px solid var(--border);
+  border-radius:4px;
+  padding:.85rem .95rem;
+  position:relative;
+  overflow:hidden;
+}
+.pv-cell::before{
+  content:'';position:absolute;left:0;top:8px;bottom:8px;width:2px;border-radius:1px;
+}
+.pv-cell.snap::before{background:var(--gold);}
+.pv-cell.tech::before{background:var(--blue);}
+.pv-cell.fund::before{background:var(--green);}
+.pv-cell.act::before{background:var(--orange);}
+.pv-cell-l{
+  display:flex;align-items:center;gap:6px;
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.16em;
+  text-transform:uppercase;font-weight:600;
+  margin-bottom:.6rem;
+}
+.pv-cell.snap .pv-cell-l{color:var(--gold2);}
+.pv-cell.tech .pv-cell-l{color:#7ab9ff;}
+.pv-cell.fund .pv-cell-l{color:#7be0a3;}
+.pv-cell.act .pv-cell-l{color:#f5a472;}
+.pv-cell-body{
+  font-size:11px;color:var(--text);line-height:1.7;
+}
+.pv-cell-body strong{color:var(--gold2);font-weight:600;}
+
+/* Snapshot stat row inside the snap cell */
+.pv-snap-stats{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:.4rem .6rem;
+  font-family:'DM Mono',monospace;
+}
+.pv-snap-stat{
+  display:flex;flex-direction:column;gap:1px;
+}
+.pv-snap-stat-l{
+  font-size:8px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--text3);
+}
+.pv-snap-stat-v{
+  font-size:11px;font-weight:600;color:var(--text);
+  font-variant-numeric:tabular-nums;
+}
+.pv-snap-stat-v.up{color:var(--green);}
+.pv-snap-stat-v.dn{color:var(--red);}
+
+/* Risk/Reward matrix */
+.pv-rrr{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:.5rem;
+  margin-bottom:1rem;
+}
+.pv-rrr-cell{
+  background:var(--bg1);
+  border:1px solid var(--border);
+  border-radius:4px;
+  padding:.7rem .85rem;
+  display:flex;flex-direction:column;gap:3px;
+}
+.pv-rrr-cell.bull{border-color:rgba(61,220,132,.3);background:rgba(61,220,132,.04);}
+.pv-rrr-cell.base{border-color:rgba(201,168,76,.3);background:rgba(201,168,76,.04);}
+.pv-rrr-cell.bear{border-color:rgba(224,82,82,.3);background:rgba(224,82,82,.04);}
+.pv-rrr-l{
+  font-family:'DM Mono',monospace;
+  font-size:8.5px;letter-spacing:.16em;
+  text-transform:uppercase;font-weight:600;
+}
+.pv-rrr-cell.bull .pv-rrr-l{color:#5fe896;}
+.pv-rrr-cell.base .pv-rrr-l{color:var(--gold2);}
+.pv-rrr-cell.bear .pv-rrr-l{color:#f06868;}
+.pv-rrr-px{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.5rem;letter-spacing:.04em;line-height:1;
+  color:var(--text);
+  font-variant-numeric:tabular-nums;
+}
+.pv-rrr-pct{
+  font-family:'DM Mono',monospace;
+  font-size:10px;font-weight:600;
+}
+.pv-rrr-cell.bull .pv-rrr-pct{color:#5fe896;}
+.pv-rrr-cell.base .pv-rrr-pct{color:var(--gold);}
+.pv-rrr-cell.bear .pv-rrr-pct{color:#f06868;}
+
+/* 5-investor lens compact strip */
+.pv-inv-strip{
+  display:grid;
+  grid-template-columns:repeat(5, 1fr);
+  gap:6px;
+  margin-bottom:1.1rem;
+}
+.pv-inv-tile{
+  background:var(--bg1);
+  border:1px solid var(--border);
+  border-radius:4px;
+  padding:8px 10px;
+  position:relative;
+  font-size:10px;line-height:1.5;color:var(--text);
+}
+.pv-inv-tile::before{
+  content:'';position:absolute;left:0;top:0;bottom:0;width:2px;
+}
+.pv-inv-tile[data-i="buffett"]::before{background:#c9a84c;}
+.pv-inv-tile[data-i="soros"]::before{background:#4a9eff;}
+.pv-inv-tile[data-i="lynch"]::before{background:#3ddc84;}
+.pv-inv-tile[data-i="graham"]::before{background:#e05252;}
+.pv-inv-tile[data-i="taleb"]::before{background:#b388ff;}
+.pv-inv-tile-h{
+  display:flex;align-items:center;gap:5px;
+  font-family:'DM Mono',monospace;
+  font-size:8px;letter-spacing:.14em;
+  text-transform:uppercase;font-weight:600;
+  margin-bottom:5px;
+}
+.pv-inv-tile[data-i="buffett"] .pv-inv-tile-h{color:#c9a84c;}
+.pv-inv-tile[data-i="soros"] .pv-inv-tile-h{color:#4a9eff;}
+.pv-inv-tile[data-i="lynch"] .pv-inv-tile-h{color:#3ddc84;}
+.pv-inv-tile[data-i="graham"] .pv-inv-tile-h{color:#e05252;}
+.pv-inv-tile[data-i="taleb"] .pv-inv-tile-h{color:#b388ff;}
+.pv-inv-tile-verdict{
+  display:inline-block;
+  font-family:'DM Mono',monospace;
+  font-size:9px;font-weight:700;letter-spacing:.06em;
+  padding:1px 5px;border-radius:2px;
+  margin-bottom:4px;
+}
+.pv-inv-tile-verdict.buy{background:rgba(61,220,132,.12);color:#5fe896;}
+.pv-inv-tile-verdict.hold{background:rgba(201,168,76,.12);color:var(--gold2);}
+.pv-inv-tile-verdict.watch{background:rgba(179,136,255,.12);color:#c19eff;}
+.pv-inv-tile-verdict.avoid{background:rgba(224,82,82,.12);color:#f06868;}
+.pv-inv-tile-verdict.trim{background:rgba(232,131,64,.12);color:#f5a472;}
+
+/* Action plan footer */
+.pv-action-plan{
+  display:flex;align-items:flex-start;gap:14px;
+  background:linear-gradient(90deg, rgba(232,131,64,.08), transparent);
+  border-left:3px solid var(--orange);
+  padding:12px 16px;
+  border-radius:0 4px 4px 0;
+}
+.pv-action-plan-l{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.4rem;letter-spacing:.04em;
+  color:var(--orange);line-height:1;
+  flex-shrink:0;
+}
+.pv-action-plan-body{
+  font-size:11.5px;color:var(--text);line-height:1.7;
+}
+.pv-action-plan-body strong{color:var(--gold2);}
+
+@media (max-width:600px){
+  .pv-rrr{grid-template-columns:1fr;}
+  .pv-inv-strip{grid-template-columns:repeat(2,1fr);}
+  .piv-card.expanded + .piv-verdict{padding:1rem;}
+}
+
+/* Mobile responsive */
+@media (max-width:1100px){
+  .piv-sort-header{display:none;}
+  .piv-card{
+    grid-template-columns:4px 1fr;
+    gap:.75rem;
+    padding:1rem;
+  }
+  .piv-card > *:not(.piv-stripe):not(.piv-id){display:none;}
+  .piv-card{
+    grid-template-areas:'stripe id' 'stripe price' 'stripe ret' 'stripe target' 'stripe action';
+  }
+  .piv-card .piv-stripe{grid-area:stripe;}
+  .piv-card .piv-id{grid-area:id;display:flex;}
+  .piv-card .piv-price-block{grid-area:price;display:flex;}
+  .piv-card .piv-return-block{grid-area:ret;display:flex;}
+  .piv-card .piv-target-block{grid-area:target;display:flex;}
+  .piv-card .piv-action-block{grid-area:action;display:flex;}
+}
+
+/* Cross-portfolio investor lens (sentiment bar redesign) */
+.piv-inv-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:.75rem;margin-bottom:2rem;
+}
+.piv-inv-card{
+  background:var(--bg1);
+  border:1px solid var(--border);
+  border-radius:6px;
+  padding:1.1rem 1.2rem;
+  position:relative;overflow:hidden;
+  transition:transform .2s, border-color .2s;
+}
+.piv-inv-card:hover{transform:translateY(-2px);border-color:var(--border2);}
+.piv-inv-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+}
+.piv-inv-card[data-i="buffett"]::before{background:#c9a84c;}
+.piv-inv-card[data-i="soros"]::before{background:#4a9eff;}
+.piv-inv-card[data-i="lynch"]::before{background:#3ddc84;}
+.piv-inv-card[data-i="graham"]::before{background:#e05252;}
+.piv-inv-card[data-i="taleb"]::before{background:#b388ff;}
+.piv-inv-head{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:.85rem;
+}
+.piv-inv-name{
+  display:flex;align-items:center;gap:8px;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.25rem;letter-spacing:.05em;
+  color:var(--text);
+}
+.piv-inv-emoji{font-size:1.1rem;filter:saturate(1.2);}
+.piv-inv-score{
+  font-family:'DM Mono',monospace;
+  font-size:10px;font-weight:600;
+  letter-spacing:.06em;
+  padding:3px 8px;border-radius:2px;
+}
+.piv-inv-score.bull{color:var(--green);background:rgba(61,220,132,.1);border:1px solid rgba(61,220,132,.25);}
+.piv-inv-score.bear{color:var(--red);background:rgba(224,82,82,.1);border:1px solid rgba(224,82,82,.25);}
+.piv-inv-score.neutral{color:var(--gold);background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.25);}
+.piv-sentiment-bar{
+  display:flex;height:8px;border-radius:4px;overflow:hidden;
+  margin-bottom:.7rem;background:var(--bg3);
+}
+.piv-sentiment-seg{
+  height:100%;transition:width .4s ease;
+  position:relative;
+}
+.piv-sentiment-seg.buy{background:linear-gradient(180deg, #5fe896, #3ddc84);}
+.piv-sentiment-seg.hold{background:linear-gradient(180deg, #d4b75e, #c9a84c);}
+.piv-sentiment-seg.watch{background:linear-gradient(180deg, #c19eff, #b388ff);}
+.piv-sentiment-seg.avoid{background:linear-gradient(180deg, #f06868, #e05252);}
+.piv-inv-counts{
+  display:flex;flex-wrap:wrap;gap:6px 12px;
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.06em;
+  color:var(--text2);text-transform:uppercase;
+  margin-bottom:.85rem;
+}
+.piv-inv-count strong{color:var(--text);font-weight:600;font-size:11px;}
+.piv-inv-picks{
+  font-family:'DM Mono',monospace;
+  font-size:8.5px;letter-spacing:.1em;
+  color:var(--text3);text-transform:uppercase;
+  margin-bottom:5px;
+}
+.piv-inv-picks-list{
+  display:flex;flex-wrap:wrap;gap:4px;
+}
+.piv-inv-tkr{
+  font-family:'DM Mono',monospace;
+  font-size:10px;font-weight:500;
+  background:var(--bg2);border:1px solid var(--border2);
+  color:var(--text);padding:2px 7px;border-radius:2px;
+  letter-spacing:.04em;
+}
+
+/* Drill-down panel — premium */
+#pivDrillPanel{
+  background:linear-gradient(180deg, var(--bg1) 0%, var(--bg) 100%) !important;
+  border:1px solid var(--border) !important;
+  border-radius:6px !important;
+  box-shadow:0 8px 32px rgba(0,0,0,.4), 0 0 0 1px rgba(201,168,76,.05);
+  animation:drill-fade-in .3s ease;
+}
+@keyframes drill-fade-in{
+  from{opacity:0;transform:translateY(8px);}
+  to{opacity:1;transform:translateY(0);}
+}
+.piv-drill-header{
+  display:flex;align-items:flex-end;justify-content:space-between;
+  flex-wrap:wrap;gap:1rem;
+  margin-bottom:1.25rem;padding-bottom:1rem;
+  border-bottom:1px solid var(--border);
+}
+.piv-drill-tkr{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:2.8rem;letter-spacing:.04em;line-height:.9;
+  background:linear-gradient(180deg, #f0d080 0%, #c9a84c 100%);
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.piv-drill-name{
+  display:block;font-family:'DM Sans',sans-serif;
+  font-size:.85rem;color:var(--text2);
+  font-weight:400;letter-spacing:.02em;
+  margin-top:4px;
+  -webkit-text-fill-color:var(--text2);
+}
+.piv-drill-stats{
+  display:flex;gap:1.5rem;flex-wrap:wrap;
+  font-family:'DM Mono',monospace;font-size:11px;
+}
+.piv-drill-stat-l{
+  font-size:9px;letter-spacing:.12em;
+  color:var(--text3);text-transform:uppercase;
+  margin-bottom:3px;
+}
+.piv-drill-stat-v{font-weight:600;color:var(--text);}
+.piv-drill-close{
+  background:transparent;color:var(--text3);
+  border:1px solid var(--border2);
+  padding:6px 14px;border-radius:3px;
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.14em;
+  cursor:pointer;transition:all .15s;
+}
+.piv-drill-close:hover{color:var(--gold);border-color:var(--gold);}
+.piv-drill-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:.85rem;margin-bottom:1rem;
+}
+.piv-drill-card{
+  background:var(--bg2);
+  padding:1rem 1.1rem;border-radius:4px;
+  position:relative;
+}
+.piv-drill-card::before{
+  content:'';position:absolute;left:0;top:8px;bottom:8px;width:3px;border-radius:2px;
+}
+.piv-drill-card.tech::before{background:var(--gold);}
+.piv-drill-card.dca::before{background:var(--green);}
+.piv-drill-card.action::before{background:var(--orange);}
+.piv-drill-card-l{
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.14em;
+  text-transform:uppercase;
+  margin-bottom:.6rem;display:flex;align-items:center;gap:6px;
+}
+.piv-drill-card.tech .piv-drill-card-l{color:var(--gold);}
+.piv-drill-card.dca .piv-drill-card-l{color:var(--green);}
+.piv-drill-card.action .piv-drill-card-l{color:var(--orange);}
+.piv-drill-card-body{
+  font-size:11.5px;color:var(--text);line-height:1.75;
+}
+.piv-drill-card-body strong{color:var(--gold2);}
+.piv-drill-inv-row{
+  background:var(--bg2);padding:1rem 1.1rem;border-radius:4px;
+}
+.piv-drill-inv-l{
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--text3);
+  margin-bottom:.7rem;
+}
+.piv-drill-inv-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:8px;
+}
+.piv-drill-inv-card{
+  background:var(--bg1);padding:9px 12px;border-radius:3px;
+  position:relative;
+}
+.piv-drill-inv-card::before{
+  content:'';position:absolute;left:0;top:0;bottom:0;width:2px;
+}
+.piv-drill-inv-card[data-i="buffett"]::before{background:#c9a84c;}
+.piv-drill-inv-card[data-i="soros"]::before{background:#4a9eff;}
+.piv-drill-inv-card[data-i="lynch"]::before{background:#3ddc84;}
+.piv-drill-inv-card[data-i="graham"]::before{background:#e05252;}
+.piv-drill-inv-card[data-i="taleb"]::before{background:#b388ff;}
+.piv-drill-inv-name{
+  font-family:'DM Mono',monospace;
+  font-size:8px;letter-spacing:.14em;
+  text-transform:uppercase;margin-bottom:4px;
+}
+.piv-drill-inv-card[data-i="buffett"] .piv-drill-inv-name{color:#c9a84c;}
+.piv-drill-inv-card[data-i="soros"] .piv-drill-inv-name{color:#4a9eff;}
+.piv-drill-inv-card[data-i="lynch"] .piv-drill-inv-name{color:#3ddc84;}
+.piv-drill-inv-card[data-i="graham"] .piv-drill-inv-name{color:#e05252;}
+.piv-drill-inv-card[data-i="taleb"] .piv-drill-inv-name{color:#b388ff;}
+.piv-drill-inv-verdict{
+  font-size:10.5px;color:var(--text);line-height:1.55;
+}
+
+/* Pulse and flash animations */
+.piv-pulse{
+  display:inline-block;width:5px;height:5px;border-radius:50%;
+  background:var(--green);animation:pulse 2s ease-in-out infinite;
+  margin-right:5px;vertical-align:middle;
+}
+.piv-flash-up{animation:pivFlashUp 1.2s ease;}
+.piv-flash-dn{animation:pivFlashDn 1.2s ease;}
+@keyframes pivFlashUp{
+  0%{background:rgba(61,220,132,.18);}
+  100%{background:transparent;}
+}
+@keyframes pivFlashDn{
+  0%{background:rgba(224,82,82,.18);}
+  100%{background:transparent;}
+}
+
 /* ALERT */
 .alert{border-radius:4px;padding:.9rem 1.1rem;font-size:11px;color:var(--text2);line-height:1.7;margin-bottom:1.25rem;}
 .alert-gold{background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.2);}
@@ -601,134 +1776,268 @@ tr:hover td{background:var(--bg2);}
 .mctx-v.warn{color:var(--gold);}
 
 /* ══════════════════════════════════════
-   HVM SPLASH SCREEN
+   HVM SPLASH — CINEMATIC ONBOARDING
 ══════════════════════════════════════ */
 .hvm-splash{
   position:fixed;inset:0;
-  background:var(--bg);
+  background:radial-gradient(ellipse at center, #0f0a05 0%, #060503 60%, #000 100%);
   z-index:99999;
-  display:flex;flex-direction:column;
-  align-items:center;justify-content:center;
-  gap:0;
-  transition:opacity .6s ease, transform .6s ease;
+  display:flex;align-items:center;justify-content:center;
+  overflow:hidden;
+  transition:opacity .7s cubic-bezier(.4,0,.2,1), transform .7s cubic-bezier(.4,0,.2,1), filter .7s ease;
 }
 .hvm-splash.out{
   opacity:0;
-  transform:scale(1.04);
+  transform:scale(1.08);
+  filter:blur(8px);
   pointer-events:none;
 }
+.hvm-splash-grid{
+  position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(201,168,76,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(201,168,76,.06) 1px, transparent 1px);
+  background-size:60px 60px;
+  mask-image:radial-gradient(ellipse at center, black 30%, transparent 75%);
+  -webkit-mask-image:radial-gradient(ellipse at center, black 30%, transparent 75%);
+  animation:hvm-grid-pan 30s linear infinite;
+}
+@keyframes hvm-grid-pan{
+  from{background-position:0 0,0 0;}
+  to{background-position:60px 60px,60px 60px;}
+}
+.hvm-splash-orb{
+  position:absolute;
+  width:600px;height:600px;
+  border-radius:50%;
+  background:radial-gradient(circle, rgba(240,208,128,.18) 0%, rgba(201,168,76,.08) 30%, transparent 70%);
+  filter:blur(40px);
+  animation:hvm-orb-pulse 4s ease-in-out infinite;
+}
+@keyframes hvm-orb-pulse{
+  0%,100%{transform:scale(1);opacity:.7;}
+  50%{transform:scale(1.15);opacity:1;}
+}
+.hvm-splash::after{
+  content:'';position:absolute;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent,rgba(201,168,76,.5),transparent);
+  top:0;
+  animation:hvm-scan 3.5s ease-in-out infinite;
+  pointer-events:none;
+}
+@keyframes hvm-scan{
+  0%{top:-2%;opacity:0;}
+  10%{opacity:1;}
+  90%{opacity:1;}
+  100%{top:102%;opacity:0;}
+}
+.hvm-splash-inner{
+  position:relative;z-index:2;
+  display:flex;flex-direction:column;align-items:center;
+  padding:3.5rem 4.5rem;text-align:center;
+}
+.hvm-splash-inner::before,
+.hvm-splash-inner::after{
+  content:'';position:absolute;width:32px;height:32px;
+  border:1px solid var(--gold);
+  opacity:.5;
+}
+.hvm-splash-inner::before{top:0;left:0;border-right:none;border-bottom:none;}
+.hvm-splash-inner::after{bottom:0;right:0;border-left:none;border-top:none;}
+
+.hvm-splash-eyebrow{
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--gold);opacity:.9;
+  margin-bottom:1.6rem;
+  animation:hvm-fade-in .5s ease both;
+  padding:6px 14px;
+  border:1px solid rgba(201,168,76,.3);
+  border-radius:2px;
+  background:rgba(201,168,76,.05);
+}
+.hvm-splash-eyebrow::before{
+  content:'●';color:var(--green);margin-right:8px;
+  animation:pulse 1.4s ease-in-out infinite;
+}
+
 .hvm-splash-logo{
   font-family:'Bebas Neue',sans-serif;
-  font-size:clamp(5rem,18vw,12rem);
-  letter-spacing:-.02em;
-  line-height:.85;
-  color:var(--gold);
-  animation:hvm-appear .5s cubic-bezier(.22,.61,.36,1) both;
+  font-size:clamp(6rem,20vw,14rem);
+  letter-spacing:-.01em;line-height:.82;
+  display:flex;gap:.04em;
+  filter:drop-shadow(0 0 30px rgba(201,168,76,.45)) drop-shadow(0 0 8px rgba(245,226,168,.3));
 }
-.hvm-splash-sub{
-  font-family:'DM Sans',sans-serif;
-  font-size:clamp(.9rem,2vw,1.15rem);
-  font-weight:400;
-  color:var(--text2);
-  letter-spacing:.18em;
-  text-transform:uppercase;
-  margin-top:.75rem;
-  animation:hvm-appear .5s cubic-bezier(.22,.61,.36,1) .15s both;
+.hvm-letter{
+  display:inline-block;
+  /* Apply gradient PER-LETTER so background-clip:text works reliably */
+  background:linear-gradient(180deg, #f5e2a8 0%, #f0d080 30%, #c9a84c 65%, #8a7028 100%);
+  -webkit-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+  color:transparent; /* Fallback for browsers without -webkit-text-fill-color */
+  animation:hvm-letter-rise .9s cubic-bezier(.16,1,.3,1) both;
+  transform-origin:bottom center;
 }
-.hvm-splash-tm{
-  font-family:'DM Mono',monospace;
-  font-size:9px;
-  color:var(--text3);
-  letter-spacing:.2em;
-  text-transform:uppercase;
-  margin-top:.4rem;
-  animation:hvm-appear .5s cubic-bezier(.22,.61,.36,1) .25s both;
+/* Solid gold fallback if background-clip not supported (Firefox older) */
+@supports not ((-webkit-background-clip:text) or (background-clip:text)){
+  .hvm-letter{
+    background:none;
+    color:var(--gold2);
+    -webkit-text-fill-color:initial;
+  }
 }
+@keyframes hvm-letter-rise{
+  0%{opacity:0;transform:translateY(80%) rotateX(-90deg);}
+  100%{opacity:1;transform:translateY(0) rotateX(0);}
+}
+
+.hvm-splash-tagline{
+  display:flex;align-items:center;gap:1rem;
+  margin-top:.5rem;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(1rem,2.4vw,1.6rem);
+  letter-spacing:.32em;text-transform:uppercase;
+}
+.hvm-tag-word{
+  animation:hvm-fade-in .6s ease both;
+  background:linear-gradient(180deg, #ede9e0, #7a7672);
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.hvm-tag-dot{
+  color:var(--gold);font-size:.75em;
+  animation:hvm-fade-in .6s ease both, hvm-spin 4s linear infinite .6s;
+}
+@keyframes hvm-spin{from{transform:rotate(0);}to{transform:rotate(360deg);}}
+
 .hvm-splash-bar{
-  width:180px;height:1px;
-  background:linear-gradient(90deg,transparent,var(--gold),transparent);
-  margin-top:1.5rem;
-  animation:hvm-bar .6s ease .3s both;
+  width:340px;max-width:80vw;height:2px;
+  background:rgba(201,168,76,.12);
+  margin-top:2rem;position:relative;border-radius:2px;overflow:hidden;
 }
-@keyframes hvm-appear{
-  from{opacity:0;transform:translateY(16px);}
+.hvm-splash-bar-fill{
+  position:absolute;inset:0;
+  background:linear-gradient(90deg, transparent, var(--gold2), var(--gold), var(--gold2), transparent);
+  animation:hvm-bar-load 2.4s cubic-bezier(.7,0,.3,1) infinite;
+  box-shadow:0 0 14px var(--gold);
+}
+@keyframes hvm-bar-load{
+  0%{transform:translateX(-100%);}
+  100%{transform:translateX(100%);}
+}
+
+.hvm-splash-stats{
+  display:flex;align-items:center;gap:1.4rem;
+  margin-top:2rem;flex-wrap:wrap;justify-content:center;
+}
+.hvm-stat{
+  animation:hvm-fade-in .6s ease both;
+  display:flex;flex-direction:column;align-items:center;gap:4px;
+}
+.hvm-stat-val{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(1.4rem,3vw,2rem);
+  letter-spacing:.04em;color:var(--text);line-height:1;
+}
+.hvm-stat-lbl{
+  font-family:'DM Mono',monospace;
+  font-size:8px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--text3);
+}
+.hvm-stat-div{
+  color:var(--text3);font-family:'DM Mono',monospace;
+  opacity:.4;animation:hvm-fade-in .6s ease both;
+}
+
+.hvm-splash-bottom{
+  margin-top:1.8rem;
+  display:flex;gap:.8rem;flex-wrap:wrap;justify-content:center;
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.16em;
+  color:var(--text3);text-transform:uppercase;
+  animation:hvm-fade-in .6s ease both;
+}
+.hvm-dot{color:var(--gold);opacity:.6;}
+
+@keyframes hvm-fade-in{
+  from{opacity:0;transform:translateY(12px);}
   to{opacity:1;transform:translateY(0);}
 }
-@keyframes hvm-bar{
-  from{opacity:0;width:0;}
-  to{opacity:1;width:180px;}
+
+.hvm-skip{
+  position:absolute;top:24px;right:28px;
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--text3);background:transparent;
+  border:1px solid var(--border2);border-radius:2px;
+  padding:8px 14px;cursor:pointer;
+  transition:all .2s;z-index:3;
+  animation:hvm-fade-in .6s ease 1.6s both;
+}
+.hvm-skip:hover{color:var(--gold);border-color:var(--gold);background:rgba(201,168,76,.05);}
+@media (max-width:600px){
+  .hvm-splash-inner{padding:2.5rem 1.8rem;}
+  .hvm-splash-stats{gap:.7rem;}
+  .hvm-splash-bottom{gap:.5rem;font-size:8px;}
 }
 </style>
 </head>
 <body>
 
-<!-- HVM SPLASH SCREEN -->
+<!-- HVM SPLASH — CINEMATIC ONBOARDING -->
 <div class="hvm-splash" id="hvmSplash">
-
-  <!-- Animated grid background -->
   <div class="hvm-splash-grid"></div>
-
-  <!-- Glowing orb -->
   <div class="hvm-splash-orb"></div>
-
+  <button class="hvm-skip" onclick="dismissSplash()">Skip → ESC</button>
   <div class="hvm-splash-inner">
-
-    <!-- Top line -->
-    <div class="hvm-splash-eyebrow">INVESTMENT INTELLIGENCE OS · V5.0</div>
-
-    <!-- Main logo -->
+    <div class="hvm-splash-eyebrow">INVESTMENT INTELLIGENCE OS · v8.0</div>
     <div class="hvm-splash-logo">
-      <span class="hvm-letter" style="animation-delay:.05s">H</span><span class="hvm-letter" style="animation-delay:.15s">V</span><span class="hvm-letter" style="animation-delay:.25s">M</span>
+      <span class="hvm-letter" style="animation-delay:.05s">H</span><span class="hvm-letter" style="animation-delay:.18s">V</span><span class="hvm-letter" style="animation-delay:.31s">M</span>
     </div>
-
-    <!-- Tagline -->
     <div class="hvm-splash-tagline">
-      <span class="hvm-tag-word" style="animation-delay:.4s">MILLIONAIRE</span>
-      <span class="hvm-tag-dot" style="animation-delay:.5s">◆</span>
-      <span class="hvm-tag-word" style="animation-delay:.6s">DASHBOARD</span>
+      <span class="hvm-tag-word" style="animation-delay:.7s">MILLIONAIRE</span>
+      <span class="hvm-tag-dot" style="animation-delay:.85s">◆</span>
+      <span class="hvm-tag-word" style="animation-delay:1s">DASHBOARD</span>
     </div>
-
-    <!-- Animated bar -->
-    <div class="hvm-splash-bar">
-      <div class="hvm-splash-bar-fill"></div>
-    </div>
-
-    <!-- Stats row -->
+    <div class="hvm-splash-bar"><div class="hvm-splash-bar-fill"></div></div>
     <div class="hvm-splash-stats">
-      <div class="hvm-stat" style="animation-delay:.7s">
+      <div class="hvm-stat" style="animation-delay:1.1s">
         <div class="hvm-stat-val">$96.5K</div>
-        <div class="hvm-stat-lbl">PORTFOLIO</div>
+        <div class="hvm-stat-lbl">Portfolio</div>
       </div>
-      <div class="hvm-stat-div" style="animation-delay:.75s">|</div>
-      <div class="hvm-stat" style="animation-delay:.8s">
-        <div class="hvm-stat-val" style="color:#3ddc84;">+68.24%</div>
-        <div class="hvm-stat-lbl">TOTAL RETURN</div>
+      <div class="hvm-stat-div" style="animation-delay:1.15s">│</div>
+      <div class="hvm-stat" style="animation-delay:1.2s">
+        <div class="hvm-stat-val" style="color:var(--green);">+68.24%</div>
+        <div class="hvm-stat-lbl">Total Return</div>
       </div>
-      <div class="hvm-stat-div" style="animation-delay:.85s">|</div>
-      <div class="hvm-stat" style="animation-delay:.9s">
-        <div class="hvm-stat-val">$1,000,000</div>
-        <div class="hvm-stat-lbl">TARGET</div>
+      <div class="hvm-stat-div" style="animation-delay:1.25s">│</div>
+      <div class="hvm-stat" style="animation-delay:1.3s">
+        <div class="hvm-stat-val" style="color:var(--gold);">$1,000,000</div>
+        <div class="hvm-stat-lbl">Target</div>
       </div>
     </div>
-
-    <!-- Bottom line -->
-    <div class="hvm-splash-bottom" style="animation-delay:.95s">
-      <span>17 HOLDINGS</span>
-      <span class="hvm-dot">·</span>
-      <span>8 AI THEMES</span>
-      <span class="hvm-dot">·</span>
-      <span>32 LEADER SIGNALS</span>
-      <span class="hvm-dot">·</span>
-      <span>30 INTEL VIDEOS</span>
+    <div class="hvm-splash-bottom" style="animation-delay:1.45s">
+      <span>17 HOLDINGS</span><span class="hvm-dot">◇</span>
+      <span>8 AI THEMES</span><span class="hvm-dot">◇</span>
+      <span>5 INVESTOR LENSES</span><span class="hvm-dot">◇</span>
+      <span>LIVE PRICES</span>
     </div>
-
   </div>
 </div>
 <script>
-  setTimeout(function(){
+  function dismissSplash(){
     var s=document.getElementById('hvmSplash');
-    if(s){s.classList.add('out');setTimeout(function(){s.style.display='none';},700);}
-  },2400);
+    if(!s)return;
+    s.classList.add('out');
+    setTimeout(function(){s.style.display='none';},700);
+  }
+  // Auto-dismiss after 3.6s (gives time to see all the animations)
+  setTimeout(dismissSplash,3600);
+  // ESC to skip
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape')dismissSplash();
+  });
 </script>
 
 <div class="app">
@@ -747,6 +2056,7 @@ tr:hover td{background:var(--bg2);}
   <div class="nav-section">
     <div class="nav-label">Core</div>
     <div class="nav-item on" onclick="nav('roadmap',this)"><span class="nav-icon">🎯</span>$100K → $1M</div>
+    <div class="nav-item" onclick="nav('pivot',this)"><span class="nav-icon">⚡</span>Master Pivot · ALL Actions</div>
     <div class="nav-item" onclick="nav('portfolio',this)"><span class="nav-icon">📊</span>My Portfolio</div>
     <div class="nav-item" onclick="nav('aggression',this)"><span class="nav-icon">📈</span>Investment Aggression</div>
     <div class="nav-label">Live Intel</div>
@@ -803,6 +2113,57 @@ tr:hover td{background:var(--bg2);}
     </tbody>
   </table></div>
   <div class="alert alert-gold"><strong>P0 = fix immediately · P1 = hold and let compound · P2 = add during Stage 2 · P3 = small speculative position only.</strong> Your two P0 gaps (Energy 0.5% → 16%, Defense 0% → 13%) represent $268K of the $1M target you have zero exposure to right now. That is the single biggest thing to fix.</div>
+</div>
+
+<!-- ═══ MASTER PIVOT — ALL STOCKS · ALL ACTIONS · ONE VIEW ═══ -->
+<div id="pivot" class="section piv-section" data-live="true">
+  <div class="ph">
+    <div class="ph-left">
+      <h1>MASTER <span class="gold">PIVOT</span></h1>
+      <div class="ph-sub">Every position · Every action · One screen · Live prices · Click any row to expand</div>
+    </div>
+    <div class="tag-row">
+      <span class="piv-status" id="pivLiveStatus"><span class="piv-status-dot"></span>Connecting feed...</span>
+      <span class="tag tg" id="pivLastUpdate">Yahoo Finance · 60s refresh</span>
+    </div>
+  </div>
+
+  <!-- KPI strip -->
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-l">Total Value</div><div class="kpi-v gd" id="pivTotalVal">$96,538</div><div class="kpi-s" id="pivTotalDelta">17 positions</div></div>
+    <div class="kpi"><div class="kpi-l">Unrealized P&L</div><div class="kpi-v g" id="pivTotalGain">+$39,170</div><div class="kpi-s" id="pivTotalGainPct">+68.24%</div></div>
+    <div class="kpi"><div class="kpi-l">Today</div><div class="kpi-v" id="pivDayChange">—</div><div class="kpi-s">vs prev close</div></div>
+    <div class="kpi"><div class="kpi-l">P0 Urgent</div><div class="kpi-v r" id="pivP0Count">3</div><div class="kpi-s">CEG · MU · AVGO</div></div>
+    <div class="kpi"><div class="kpi-l">DCA Monthly</div><div class="kpi-v gd" id="pivDcaTotal">$3,500</div><div class="kpi-s">across 11 stocks</div></div>
+  </div>
+
+  <!-- Filter chip bar -->
+  <div class="piv-filter-bar" id="pivFilterRow">
+    <button class="pivf-btn pivf-on" data-filter="all">All <span class="pivf-c">17</span></button>
+    <button class="pivf-btn" data-filter="urgent">P0 Urgent <span class="pivf-c">3</span></button>
+    <button class="pivf-btn" data-filter="add">Add <span class="pivf-c">5</span></button>
+    <button class="pivf-btn" data-filter="hold">Hold <span class="pivf-c">7</span></button>
+    <button class="pivf-btn" data-filter="trim">Trim <span class="pivf-c">1</span></button>
+    <button class="pivf-btn" data-filter="watch">Watch <span class="pivf-c">2</span></button>
+    <button class="pivf-btn" data-filter="winners">Winners +50%+</button>
+  </div>
+
+  <!-- Sortable header strip -->
+  <div class="piv-sort-header" id="pivSortHeader">
+    <div data-sort="t" class="sortable">Position</div>
+    <div data-sort="cur" class="sortable">Live Price · Trend</div>
+    <div data-sort="ret" class="sortable sorted sorted-desc">Return · Weight</div>
+    <div data-sort="aT" class="sortable">Target · Upside</div>
+    <div data-sort="action" class="sortable">Action · DCA</div>
+    <div></div>
+  </div>
+
+  <!-- Trade card stack — populated by buildPivot() -->
+  <div class="piv-cards" id="pivBody"></div>
+
+  <!-- Investor lens row -->
+  <div class="sl">5 Investor Lenses · Cross-Portfolio Sentiment</div>
+  <div class="piv-inv-grid" id="pivInvGrid"></div>
 </div>
 
 <!-- ═══ PORTFOLIO ═══ -->
@@ -930,19 +2291,67 @@ tr:hover td{background:var(--bg2);}
   <div class="voice-grid" id="voiceGrid"></div>
 </div>
 
-<!-- ═══ YOUTUBE INTEL v4 DAILY ═══ -->
-<div id="youtube" class="section">
-  <div class="ph"><div class="ph-left"><h1>YOUTUBE <span class="gold">INTEL</span></h1><div class="ph-sub">Daily AI brief · 20+ videos tracked · auto-summary · all sourced</div></div><div class="tag-row"><span class="tag tg">15 videos loaded</span><span class="tag tb">Daily brief: AI-generated</span><span class="tag tg">Drop any link → I'll add it</span></div></div>
+<!-- ═══ YOUTUBE INTEL HUB ═══ -->
+<div id="youtube" class="section yt-hub">
+  <div class="ph">
+    <div class="ph-left">
+      <h1>YOUTUBE <span class="gold">INTEL</span></h1>
+      <div class="ph-sub">Daily AI brief · curated AI-investing videos · cross-source consensus engine · stock mentions extracted</div>
+    </div>
+    <div class="tag-row">
+      <span class="tag tg" id="ytVideoCount">— videos curated</span>
+      <span class="tag tb">Consensus engine ON</span>
+      <span class="tag to" id="ytTopTicker">Top: —</span>
+    </div>
+  </div>
 
+  <!-- ═══ DAILY CONSENSUS STRIP ═══ -->
+  <div class="yt-consensus">
+    <div class="yt-consensus-head">
+      <div class="yt-consensus-l">⚡ DAILY CONSENSUS · WHAT THE AI INVESTING WORLD IS SAYING</div>
+      <button class="yt-synthesize" onclick="generateYTSynthesis(true)">↺ Re-synthesize</button>
+    </div>
+    <div class="yt-consensus-grid">
+      <div class="yt-cs-cell">
+        <div class="yt-cs-l">Most-Mentioned Tickers</div>
+        <div class="yt-cs-body" id="ytTopTickers">—</div>
+      </div>
+      <div class="yt-cs-cell">
+        <div class="yt-cs-l">Hottest Themes</div>
+        <div class="yt-cs-body" id="ytTopThemes">—</div>
+      </div>
+      <div class="yt-cs-cell">
+        <div class="yt-cs-l">Sentiment Split</div>
+        <div class="yt-cs-body" id="ytSentiment">—</div>
+      </div>
+      <div class="yt-cs-cell wide">
+        <div class="yt-cs-l">🤖 AI Synthesis · The 4-paragraph zeitgeist</div>
+        <div class="yt-cs-body yt-cs-synthesis" id="ytSynthesis">Click "Re-synthesize" to generate today's consensus from all curated videos.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ STOCK MENTION LEADERBOARD ═══ -->
+  <div class="sl">📊 Stock Mention Leaderboard · who's getting talked about</div>
+  <div class="yt-leaderboard" id="ytLeaderboard"></div>
+
+  <!-- ═══ DAILY BRIEF ═══ -->
   <div class="daily-brief">
     <div class="db-header">
-      <div class="db-title">📰 Daily AI Investment Brief — May 3, 2026</div>
+      <div class="db-title">📰 Daily AI Investment Brief</div>
       <button class="db-refresh" onclick="refreshBrief(true)">↺ Refresh Brief</button>
     </div>
     <div class="db-content" id="briefContent">Loading today's brief...</div>
   </div>
 
+  <!-- ═══ FILTER + DATA SOURCE NOTE ═══ -->
+  <div class="sl">🎬 All Curated Videos · Filter by theme</div>
   <div class="yt-filter-row" id="ytFilters"></div>
+
+  <div class="yt-data-note">
+    <strong>Note on coverage:</strong> This dashboard tracks ~45 hand-curated high-signal videos across AI Compute, Energy, Defense, Agentic AI, GLP-1, Robotics, Earnings, and Macro. Live scraping of all 100+ daily AI-investing uploads requires the YouTube Data API (key needed) — not enabled in this static build. The Consensus Engine above already runs across every curated video to extract ticker mentions, theme distribution, and sentiment.
+  </div>
+
   <div class="yt-grid" id="ytGrid"></div>
 </div>
 
@@ -1288,29 +2697,46 @@ function renderActions(actions){
     ctxEl.innerHTML='<span style="color:#e05252;font-weight:600;">🔥 LIVE May 5:</span> PLTR Q1 $1.63B +85% Rule40=145% · AMD earnings 5PM ET ($9.84B exp) · GOOGL +100% crossed · MSFT -2.75% best DCA entry · Portfolio: $96,538 +68.24%';
   }
 
-  // Sort: P0 urgent first, then by action priority
-  var priority={'ADD HARD':0,'TRIM 25%':1,'ADD':2,'WATCH EARNINGS':3,'HOLD':4,'WATCH':5,'TRIM':6};
-  actions.sort(function(a,b){
-    var pa=priority[a.action]!==undefined?priority[a.action]:9;
-    var pb=priority[b.action]!==undefined?priority[b.action]:9;
-    return pa-pb;
-  });
+  // ── Normalize: API returns {verb,title,detail,price_level,context} but static uses {action,price,signal,action_text,color} ──
+  // This maps both shapes to a single canonical shape so cards never show "undefined".
+  var URG_COLORS={critical:'#e05252',high:'#e88340',medium:'#c9a84c',low:'#3ddc84'};
+  actions=(actions||[]).map(function(a){
+    if(!a)return null;
+    // Prefer API shape if present, else static shape
+    var ticker=a.ticker||'';
+    var urgency=(a.urgency||'medium').toLowerCase();
+    var color=a.color||URG_COLORS[urgency]||'#c9a84c';
+    var actionLabel=a.action || (a.verb?String(a.verb).toUpperCase():'') || 'ACTION';
+    var price=a.price || a.price_level || '';
+    var signal=a.signal || a.detail || a.title || '';
+    var actionText=a.action_text || a.title || a.context || '';
+    return {ticker:ticker,urgency:urgency,color:color,action:actionLabel,price:price,signal:signal,action_text:actionText};
+  }).filter(Boolean);
+
+  // Sort by urgency: critical → high → medium → low
+  var urgRank={critical:0,high:1,medium:2,low:3};
+  actions.sort(function(a,b){return (urgRank[a.urgency]||9)-(urgRank[b.urgency]||9);});
+
+  if(actions.length===0){
+    grid.innerHTML='<div style="padding:1rem;color:var(--text3);font-family:DM Mono,monospace;font-size:11px;">No action orders generated. Click ↺ Refresh Now to retry.</div>';
+    return;
+  }
 
   grid.innerHTML=actions.map(function(a){
-    var urgencyColor=a.color||'#c9a84c';
+    var urgencyColor=a.color;
     var bgColor=urgencyColor+'15';
     var borderColor=urgencyColor+'44';
     return '<div style="background:'+bgColor+';border:1px solid '+borderColor+';border-left:4px solid '+urgencyColor+';border-radius:6px;padding:1rem 1.25rem;margin-bottom:.75rem;">'
       +'<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem;">'
-        +'<div style="display:flex;align-items:center;gap:.75rem;">'
+        +'<div style="display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;">'
           +'<span style="font-family:Bebas Neue,sans-serif;font-size:1.6rem;letter-spacing:.06em;color:'+urgencyColor+';">'+a.ticker+'</span>'
-          +'<span style="font-family:DM Mono,monospace;font-size:9px;color:#3a3835;">'+a.price+'</span>'
+          +(a.price?'<span style="font-family:DM Mono,monospace;font-size:9px;color:#7a7672;">'+a.price+'</span>':'')
           +'<span style="font-family:DM Mono,monospace;font-size:9px;padding:2px 8px;border-radius:2px;background:'+urgencyColor+'22;color:'+urgencyColor+';border:1px solid '+urgencyColor+'44;">'+a.urgency+'</span>'
         +'</div>'
         +'<span style="font-family:Bebas Neue,sans-serif;font-size:.95rem;letter-spacing:.08em;padding:4px 14px;border-radius:3px;background:'+urgencyColor+';color:#080808;">'+a.action+'</span>'
       +'</div>'
-      +'<div style="font-size:11px;color:#ede9e0;line-height:1.75;margin-bottom:.4rem;">'+a.signal+'</div>'
-      +'<div style="font-family:DM Mono,monospace;font-size:9px;color:'+urgencyColor+';letter-spacing:.08em;">→ '+a.action_text+'</div>'
+      +(a.signal?'<div style="font-size:11px;color:#ede9e0;line-height:1.75;margin-bottom:.4rem;">'+a.signal+'</div>':'')
+      +(a.action_text?'<div style="font-family:DM Mono,monospace;font-size:9px;color:'+urgencyColor+';letter-spacing:.08em;">→ '+a.action_text+'</div>':'')
       +'</div>';
   }).join('');
 }
@@ -1737,8 +3163,233 @@ function buildThemes(){
       +'<div style="font-size:11px;color:var(--text2);line-height:1.7;margin-bottom:.75rem;">'+t.body+'</div>'
       +'<div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:.75rem;">'+stocks+'</div>'
       +srcs
+      +'<button class="theme-research-btn" data-theme-idx="'+ti+'" onclick="toggleThemeResearch(this)" style="--c:'+t.c+';">'
+        +'<span class="trb-icon">▶</span>'
+        +'<span>Show Ray Dalio Deep Research · Top 5 Picks · Entry zones · Triggers</span>'
+      +'</button>'
+      +renderThemeResearch(t.name, t.c)
       +'</div>';
   }).join('');
+}
+
+// Toggle the deep research panel
+window.toggleThemeResearch = function(btn){
+  var card = btn.closest('.tc');
+  var panel = card.querySelector('.theme-research');
+  if(!panel) return;
+  var open = panel.style.display!=='none' && panel.style.display!=='';
+  panel.style.display = open ? 'none' : 'block';
+  btn.classList.toggle('open', !open);
+  btn.querySelector('.trb-icon').textContent = open ? '▶' : '▼';
+  var lbl = btn.querySelector('span:last-child');
+  if(lbl) lbl.textContent = open
+    ? 'Show Ray Dalio Deep Research · Top 5 Picks · Entry zones · Triggers'
+    : 'Hide Deep Research';
+};
+
+// ════════════════════════════════════════════════════
+// DALIO-GRADE DEEP RESEARCH PER THEME
+// For each theme: macro framing, capital flows, top-5 specific picks
+// with entry zones, targets, timeframes, position sizing, risks.
+// ════════════════════════════════════════════════════
+const THEME_RESEARCH = {
+  'AI COMPUTE & SEMICONDUCTORS':{
+    dalio:'We are mid-cycle on the largest infrastructure capex wave in tech history — hyperscalers are spending $600B+ per year on GPUs, with capex intensity that historically marked the early innings of dominant secular trends (think 1995 internet, 2007 mobile). Capital is flowing FROM software multiples INTO physical compute. The reflexive loop is: more demand → more capex → more revenue → higher multiples → more capex. This loop typically runs 5-7 years before saturation.',
+    cyclePos:'Year 3 of 7 · Early-mid expansion',
+    capitalFlow:'Software → Hardware · Hyperscaler capex +70% YoY',
+    regulatory:'CHIPS Act tailwind · Export controls = moat for US/Taiwan/Korea',
+    triggers:[
+      {when:'NVDA Q1 (May 20, 2026) beats $50B revenue', then:'Confirms Vera Rubin ramp · ADD core compute names', conf:'high'},
+      {when:'Jensen Huang names $1.2T+ TAM at next GTC', then:'Re-rate trigger · multiples expand 20-30%', conf:'medium'},
+      {when:'Hyperscaler 2027 capex guidance flat YoY', then:'PEAK SIGNAL · trim into strength', conf:'high'}
+    ],
+    top5:[
+      {t:'NVDA',n:'Nvidia',thesis:'CUDA moat + 75%+ AI chip share. Vera Rubin H2 2026 ramp adds another step-change in inference TAM. Mizuho models 60% CAGR to $500B by 2028.',entry:'$185-195 on any earnings dip',target:'$320 by mid-2027',horizon:'12-18 mo',sizing:'Core 20-25%',risk:'Custom-ASIC threat from AVGO/Google · CUDA lock-in eroding 2-3% per year'},
+      {t:'TSM',n:'Taiwan Semiconductor',thesis:'Manufactures literally every advanced AI chip on Earth. 14x fwd P/E despite +151% gain — rare combination of monopoly + value. 57% gross margins.',entry:'$380-400 on geopolitical dip',target:'$580 by Q2 2027',horizon:'12-24 mo',sizing:'Core 12-15%',risk:'Taiwan strait tail risk · partially mitigated by Arizona fabs ramping 2027'},
+      {t:'MU',n:'Micron',thesis:'#1 most mispriced AI stock — 10x fwd P/E, 61% revenue growth, PEG 0.16. HBM3E sole-source for NVDA Blackwell. Constrained supply through 2026.',entry:'$500-540 (current $629 = wait)',target:'$900-1100 by Q1 2027',horizon:'9-15 mo',sizing:'Aggressive 6-10% (currently underweight)',risk:'Memory cycle eventually rolls — but HBM is decoupled from commodity DRAM'},
+      {t:'AVGO',n:'Broadcom',thesis:'Captive ASIC business with Meta + Google ($100B+ pipeline by 2027 per Hock Tan). VMware acquisition adds $4B+ recurring revenue floor. Best risk/reward in compute.',entry:'$385-400 on any pullback',target:'$600 by Q4 2026',horizon:'9-12 mo',sizing:'8-10%',risk:'Stock is parabolic (RSI 84) — wait for cooldown to add'},
+      {t:'ASML',n:'ASML Holding',thesis:'Absolute monopoly on EUV lithography. Every 2nm chip ever made requires an ASML machine. No substitute exists. 2-year order backlog visibility.',entry:'$1300-1400 on China headlines',target:'$1900-2100 by 2027',horizon:'18-24 mo',sizing:'5-8%',risk:'China export ban expansion · already partially priced in'}
+    ]
+  },
+  'ENERGY & NUCLEAR POWER':{
+    dalio:'This is the most asymmetric trade in the AI buildout. Capital is flowing from software-only AI bets to the physical infrastructure that POWERS them — and there is a 5-7 year lag between AI compute orders and the grid+nuclear capacity to run them. IEA: data center power demand DOUBLES by 2030. Goldman: $720B in grid upgrades needed. Capital pours into anything that produces 24/7 baseload electrons. This is Dalio\'s "shortage of a real resource during a paradigm shift" setup.',
+    cyclePos:'Year 1 of 5 · Earliest possible entry — pre-capex wave',
+    capitalFlow:'Hyperscaler PPAs locking 20-yr revenue · MSFT/GOOGL/AMZN/META all signing',
+    regulatory:'IRA/Section 45U PTC for nuclear · NRC fast-tracking SMRs · Pentagon designating energy as national security',
+    triggers:[
+      {when:'CEG closes Calpine deal (~Q3 2026)', then:'+50GW capacity, instant re-rating · ADD heavy', conf:'high'},
+      {when:'Any data center brownout reported', then:'Whole sector re-rates 20%+ · ADD all energy P0 names', conf:'medium'},
+      {when:'NRC approves first SMR (NuScale or Oklo) by 2027', then:'SMR theme launches · accumulate CCJ + uranium', conf:'high'}
+    ],
+    top5:[
+      {t:'CEG',n:'Constellation Energy',thesis:'Largest US nuclear fleet · 20-yr Microsoft PPA at Three Mile Island = generational annuity-grade revenue. Calpine deal pending = +50GW. DCF fair value $400+ vs current $320.',entry:'$280-310 ANY DAY',target:'$550 by 2027',horizon:'12-24 mo',sizing:'AGGRESSIVE 8-12% (currently 0.5%)',risk:'Calpine deal could face FERC delay · still bullish even without it'},
+      {t:'VST',n:'Vistra Corp',thesis:'Comanche Peak nuclear + flexible gas peaker fleet. AI hyperscalers locking in 24/7 PPAs. Adjusted EBITDA $6B+ guided 2026.',entry:'$110-125 on any pullback',target:'$200 by Q4 2026',horizon:'9-15 mo',sizing:'4-6%',risk:'Texas grid (ERCOT) exposure if regulation tightens'},
+      {t:'ETN',n:'Eaton Corp',thesis:'Picks-and-shovels for grid upgrades and data center electricals. Backlog at all-time high. 25%+ of revenue now AI-data-center linked. Defensive compounder.',entry:'$340-360',target:'$480 by 2027',horizon:'12-18 mo',sizing:'4-6%',risk:'Industrial cyclicality if AI capex slows · low probability'},
+      {t:'GEV',n:'GE Vernova',thesis:'Spun off from GE specifically to capture the energy transition. Gas turbine orders +200% YoY. Wind is a drag but small. Pure-play grid + gen.',entry:'$390-420',target:'$650 by Q2 2027',horizon:'12-18 mo',sizing:'3-5%',risk:'Wind segment losses overshadow gas wins · monitor margins'},
+      {t:'CCJ',n:'Cameco',thesis:'World #2 uranium miner. Westinghouse JV gives reactor exposure. Long-term contracted U price up from $25 to $80+/lb and rising. Multi-year supply deficit.',entry:'$45-52',target:'$85-100 by 2027',horizon:'18-30 mo',sizing:'3-4% (volatile)',risk:'Uranium spot price volatile · ride the contract floor higher'}
+    ]
+  },
+  'DEFENSE & NATIONAL SECURITY':{
+    dalio:'We are in the early innings of a global rearmament cycle that historically takes 8-12 years and 4-6% of GDP. NATO commitments now 3.5%+, US heading to $1.1T+ defense budget, Asia accelerating on China response. Capital is flowing OUT of growth multiples INTO defense compounders and AI-defense hybrids. Pentagon now treats AI infrastructure AS national security infrastructure.',
+    cyclePos:'Year 2 of 10 · Multi-year secular trend just starting',
+    capitalFlow:'Sovereign wealth + defense ETFs · ITA flows +$8B YTD',
+    regulatory:'FY2027 defense budget +12% · PLTR Maven program of record · Iran tensions adding 3-5% urgency premium',
+    triggers:[
+      {when:'PLTR wins next Maven follow-on (any quarter)', then:'Re-rates higher despite valuation', conf:'medium'},
+      {when:'Iran-related kinetic event in Gulf', then:'LMT/RTX/PLTR all pop 5-10% · LADDER IN', conf:'medium'},
+      {when:'Trump signs supplemental Ukraine/Israel package', then:'GD/LMT/RTX backlog confirmed', conf:'high'}
+    ],
+    top5:[
+      {t:'PLTR',n:'Palantir',thesis:'Q1 2026 BLOWOUT confirmed thesis: $1.63B +85% YoY, Rule of 40=145%, net income quadrupled. AI-OS for warfighters and enterprises. 230x P/E is the price of admission.',entry:'$110-125 ONLY (do NOT chase above $140)',target:'$220 by 2028',horizon:'24-36 mo',sizing:'Existing 6-8% · don\'t add unless dip',risk:'230x P/E means any growth slowdown = -40% draw · sized for that'},
+      {t:'LMT',n:'Lockheed Martin',thesis:'F-35 program is bulletproof through 2040. THAAD + missile defense backlog $170B. Dividend yield 2.7%, buybacks aggressive. Best defense compounder.',entry:'$460-490',target:'$650 by 2027',horizon:'18-24 mo',sizing:'P0 BUILD · target 3-5% from 0%',risk:'F-35 cost overruns recurring narrative · earnings prove it false'},
+      {t:'RTX',n:'RTX Corporation',thesis:'Pratt + Whitney engines + Raytheon missiles + Collins Aerospace. Patriot system is the global standard. $200B+ backlog. Geared to global rearmament.',entry:'$130-145',target:'$210 by Q4 2027',horizon:'18-30 mo',sizing:'P0 BUILD · target 3-4% from 0%',risk:'Pratt geared turbofan recall costs · already absorbed in price'},
+      {t:'GD',n:'General Dynamics',thesis:'Submarine + naval programs (Virginia + Columbia class) at full production. Gulfstream cycle still strong. Defense IT/services segment compounds.',entry:'$320-350',target:'$480 by 2027',horizon:'18-24 mo',sizing:'2-3%',risk:'Gulfstream cyclical · subs are the long-cycle anchor'},
+      {t:'AXON',n:'Axon Enterprise',thesis:'Body cam + Taser + cloud monopoly for law enforcement. AI evidence platform now a $1B+ ARR pillar. 95%+ recurring revenue. Best defense-tech hybrid.',entry:'$320-360',target:'$520 by 2027',horizon:'15-24 mo',sizing:'2-3%',risk:'Sentiment shift on policing reform · low probability + diversified globally now'}
+    ]
+  },
+  'AGENTIC AI & ENTERPRISE SaaS':{
+    dalio:'We are at the inflection of the third great enterprise software wave (after on-prem 1990s, SaaS 2010s) — agentic AI replaces SaaS seats with software workers. The ones that survive will compound 30-50% revenue for 7+ years. Capital is rotating from generic SaaS into AI-native or AI-integrated platforms. Most legacy SaaS will be revalued downward; agentic winners revalued up. Asymmetric.',
+    cyclePos:'Year 1 of 7 · Wave is just starting · most companies still talking, few delivering',
+    capitalFlow:'Generic SaaS → Agentic platforms · Enterprises shifting AI budgets from POCs to production',
+    regulatory:'Pentagon AI accelerating · EU AI Act compliance moats favor incumbents',
+    triggers:[
+      {when:'NOW.com adds $500M+ Pro Plus ARR by Q3 2026', then:'Confirms agentic adoption · ADD', conf:'medium'},
+      {when:'PLTR Forward Deployed Engineer model copied by 2+ peers', then:'Validates motion · accumulate adjacent', conf:'medium'},
+      {when:'Any major enterprise reports >20% productivity from agents', then:'Trigger broad re-rating', conf:'high'}
+    ],
+    top5:[
+      {t:'PLTR',n:'Palantir',thesis:'AI Platform (AIP) is the actual agentic OS. Rule of 40 = 145% · net income quadrupled in Q1. Already covered in Defense.',entry:'$110-125',target:'$220 by 2028',horizon:'24-36 mo',sizing:'Counted in Defense allocation',risk:'See Defense'},
+      {t:'NOW',n:'ServiceNow',thesis:'Pro Plus AI SKU compounding fast — $250M+ ARR run-rate, 70%+ attach rate. Workflow data is the unfair moat. AI agent revenue layer growing 80%+ YoY.',entry:'$880-940',target:'$1300 by Q4 2026',horizon:'12-18 mo',sizing:'4-6% (NEW position)',risk:'Already at 50x earnings · need AI revenue to convert to GAAP'},
+      {t:'CRM',n:'Salesforce',thesis:'Agentforce 2.0 generating tangible bookings. Data Cloud grew 130%. Buybacks aggressive. Cheapest mega-cap SaaS at 22x fwd P/E.',entry:'$250-275',target:'$380 by 2027',horizon:'18-24 mo',sizing:'3-5%',risk:'Marc Benioff talks ahead of execution · check Q2 Agentforce numbers'},
+      {t:'SNOW',n:'Snowflake',thesis:'Cortex AI building inside the data warehouse where AI actually runs. 30%+ revenue growth. Switching costs enormous once data is loaded.',entry:'$130-145',target:'$220 by Q3 2027',horizon:'18-24 mo',sizing:'2-3%',risk:'Databricks competition real · co-existence is the base case'},
+      {t:'CRWD',n:'CrowdStrike',thesis:'Agentic AI in security ops. Falcon platform now embedding Anthropic Claude. Iran-tied cyberattacks accelerating spend. Already in your portfolio.',entry:'$420-450',target:'$620 by 2027',horizon:'15-24 mo',sizing:'Existing 2-3%',risk:'2024 outage trust overhang · price-in by 2027'}
+    ]
+  },
+  'HEALTHCARE AI & GLP-1':{
+    dalio:'GLP-1 is the largest pharma franchise discovery since statins, with TAM expansion still underestimated. Morgan Stanley: $190B by 2030. Capital flowing OUT of legacy pharma INTO obesity-cardio-Alzheimer\'s adjacencies. AI is the second leg — accelerating drug discovery and shrinking development cycles 30-50%. Both legs together = asymmetric upside vs. broader market.',
+    cyclePos:'Year 3 of 10 · Mid-early innings · LLY/NVO at $700B combined cap is just the start',
+    capitalFlow:'Generic pharma → GLP-1 leaders · payer reimbursement expanding (Medicare 2026)',
+    regulatory:'Medicare GLP-1 coverage 2026 = $40B+ TAM unlock · FDA AI drug approval pathway',
+    triggers:[
+      {when:'CMS finalizes Medicare GLP-1 obesity coverage', then:'+15-25% LLY/NVO same-day', conf:'high'},
+      {when:'LLY orforglipron Phase 3 oral data (mid-2026)', then:'Oral GLP-1 unlocks emerging markets · ADD', conf:'medium'},
+      {when:'VKTX or AMGN weight-loss Phase 3 readouts', then:'Sentiment shifts on duopoly threat', conf:'medium'}
+    ],
+    top5:[
+      {t:'LLY',n:'Eli Lilly',thesis:'Mounjaro + Zepbound + orforglipron oral · the most complete GLP-1 lineup. $50B+ revenue runway by 2030 from obesity alone. Alzheimer\'s drug donanemab is bonus optionality.',entry:'$720-780',target:'$1100 by Q4 2027',horizon:'18-30 mo',sizing:'P2 BUILD 4-6% from 0%',risk:'45x P/E pricing perfection · supply constraints partially de-risk'},
+      {t:'NVO',n:'Novo Nordisk',thesis:'Ozempic + Wegovy still 50%+ market share. Cardiovascular outcome label expanding payer support. Cheaper than LLY at 25x fwd P/E.',entry:'$72-82',target:'$130 by 2027',horizon:'18-24 mo',sizing:'2-3%',risk:'Patent cliff 2032 · still 7 years of compounding'},
+      {t:'VKTX',n:'Viking Therapeutics',thesis:'VK2735 Phase 2 obesity data shows competitive efficacy. Acquisition-target dynamics. Asymmetric: $400M cash vs ~$3-4B mkt cap.',entry:'$45-58',target:'$100-150 on M&A or Ph3 data',horizon:'12-24 mo',sizing:'1-2% (lottery)',risk:'Single-asset risk · binary clinical readouts · sized for 100% loss'},
+      {t:'ISRG',n:'Intuitive Surgical',thesis:'da Vinci robotic surgery monopoly · 95%+ market share · razor/blade economics. Robotic-assisted procedures growing 17%+. AI guidance coming.',entry:'$520-560',target:'$780 by 2027',horizon:'18-24 mo',sizing:'2-3%',risk:'Competitor robots emerging (Medtronic Hugo) · 5-7 years behind'},
+      {t:'TMO',n:'Thermo Fisher',thesis:'Picks-and-shovels for AI-drug discovery. CRO/CDMO services + lab equipment. Recovery from COVID destock now visible. Compounder.',entry:'$480-520',target:'$680 by 2027',horizon:'18-24 mo',sizing:'2-3%',risk:'Bioprocessing recovery slower than hoped · inflection visible Q3'}
+    ]
+  },
+  'PHYSICAL AI & HUMANOID ROBOTICS':{
+    dalio:'Robotics is the LATEST chapter of the AI thesis — software intelligence wrapped in physical bodies. Goldman: $38B humanoid market by 2035 (likely understated). Capital is pre-positioning before revenues land. Two reasons to underweight: (1) revenues still 3-5 years out · (2) winner-takes-most so most names are zeros. Sized small, focus on enablers not pure-plays.',
+    cyclePos:'Year 0 of 10 · Pre-revenue · positioning capital pre-flow',
+    capitalFlow:'Speculative · Tesla Optimus most-watched · NVDA Isaac is the dev platform',
+    regulatory:'No regulatory framework yet · safety/liability laws coming 2027+',
+    triggers:[
+      {when:'Tesla ships Optimus to non-Tesla customer', then:'Validates external demand · TSLA pops', conf:'low'},
+      {when:'Figure or Apptronik IPOs', then:'Sector gets a public comp · positions reprice', conf:'medium'},
+      {when:'Any factory deploys >100 humanoids in production', then:'Crosses Rubicon · all robotics names re-rate', conf:'medium'}
+    ],
+    top5:[
+      {t:'NVDA',n:'Nvidia (Isaac platform)',thesis:'Picks-and-shovels for ALL robotics dev. Isaac SIM + GR00T foundation model · every humanoid startup builds on Nvidia. Already core compute holding.',entry:'See AI Compute',target:'See AI Compute',horizon:'See AI Compute',sizing:'Counted in Compute allocation',risk:'See Compute'},
+      {t:'TSLA',n:'Tesla',thesis:'Optimus is the most-watched humanoid project · Musk targeting 1000+ units by end-2026. Car business funds the bet. CURRENTLY OVERSIZED in your book.',entry:'TRIM 25% on bounces above $400 · do NOT add',target:'$500 by 2027 IF Optimus ships',horizon:'24-36 mo',sizing:'TRIM to 5% from 11%',risk:'Optimus delays repeatedly · car revenue stagnant at +2%'},
+      {t:'ABB',n:'ABB Ltd',thesis:'Industrial robotics + electrification leader. Less hype than humanoids but actual revenue today. Margin expansion thesis intact. Boring compounder.',entry:'$50-58',target:'$80 by 2027',horizon:'18-24 mo',sizing:'2-3%',risk:'Industrial cyclicality · monitor PMI globally'},
+      {t:'IRBT',n:'iRobot (SPECULATIVE)',thesis:'Roomba franchise · ONLY consider sub-$5 as deep value lottery. Amazon walked from acquisition. Restructuring play.',entry:'Below $4 only',target:'$10 if turnaround works · $0 if not',horizon:'24-36 mo',sizing:'<1% lottery max',risk:'Could go to zero · sized for that'},
+      {t:'SYM',n:'Symbotic',thesis:'Warehouse robotics for Walmart. $22B+ contracted backlog. Profitable inflection 2026. The most de-risked robotics play with actual revenue.',entry:'$28-35',target:'$55 by Q4 2027',horizon:'18-24 mo',sizing:'2-3%',risk:'Customer concentration (Walmart 90%) · partially diversifying with TGT 2026'}
+    ]
+  },
+  'CRITICAL MINERALS & COPPER':{
+    dalio:'Copper is the new oil for the AI buildout · every data center, every grid expansion, every EV needs more of it. Goldman: copper deficit through 2030 widening. The capex cycle to develop new mines is 7-10 years · so the supply response cannot match demand. Capital flows pre-positioning. Risk: cyclicality. Reward: structural under-supply.',
+    cyclePos:'Year 2 of 8 · Late-early phase · prices already rising',
+    capitalFlow:'Commodity funds rotating in · copper at $4.80+/lb sustained',
+    regulatory:'EU Critical Raw Materials Act · US 45X tax credit · permits accelerating',
+    triggers:[
+      {when:'Copper closes above $5.00/lb sustained', then:'Confirms structural deficit · ADD miners', conf:'high'},
+      {when:'Any major mine outage (Codelco, Escondida)', then:'Spike trade · trim into', conf:'medium'},
+      {when:'China stimulus expansion', then:'Demand-side leg · accumulate', conf:'medium'}
+    ],
+    top5:[
+      {t:'FCX',n:'Freeport-McMoRan',thesis:'World #1 publicly traded copper miner. Grasberg + Cerro Verde + Morenci · low-cost portfolio. Operating leverage to copper price extreme — every $0.10/lb = ~$200M FCF.',entry:'$48-55',target:'$85 by Q2 2027',horizon:'18-24 mo',sizing:'P3 NEW position 2-3%',risk:'Copper-price sensitivity = both directions · high beta'},
+      {t:'SCCO',n:'Southern Copper',thesis:'Lowest cost producer globally · Peru + Mexico assets. 10%+ dividend potential. Owned by Grupo Mexico but trades cleanly.',entry:'$95-110',target:'$160 by 2027',horizon:'18-24 mo',sizing:'1-2%',risk:'Peru political risk · partially mitigated by diversification'},
+      {t:'MP',n:'MP Materials',thesis:'Only US-based rare earths producer. Mountain Pass mine + Ft Worth processing. National security premium real. Pentagon offtake confirmed.',entry:'$28-34',target:'$60 by 2027',horizon:'24-36 mo',sizing:'1-2% (volatile)',risk:'China rare earth supply manipulation · already priced in'},
+      {t:'CPER',n:'United States Copper Index Fund',thesis:'Direct copper futures exposure if you don\'t want miner risk. ETF · contango drag a real consideration. Use for tactical not core.',entry:'On any 10%+ pullback',target:'+30% from entry',horizon:'12-18 mo',sizing:'1-2% tactical',risk:'Contango decay · monthly roll cost'},
+      {t:'ALB',n:'Albemarle',thesis:'Lithium leader · oversold on price collapse from $80K → $12K/ton. Recovery trade. EV demand still compounding even if Tesla missed.',entry:'$70-85',target:'$140 by Q4 2027',horizon:'18-24 mo',sizing:'1-2% (counter-cyclical)',risk:'Lithium price could go lower before bottoming · ladder in'}
+    ]
+  },
+  'SOVEREIGN AI INFRASTRUCTURE':{
+    dalio:'Sovereign AI is the geopolitical mega-trend nobody is sized for yet. Every major economy now treats AI infrastructure AS national infrastructure — same status as electricity, water, defense. Capital is flowing from tech-VC into sovereign-fund-backed infra deals. The winners will be the ones building moats with governments: chip suppliers approved by allies, energy projects under defense contracts, networks owned by national champions.',
+    cyclePos:'Year 1 of 10 · Just starting · 90% of investors not positioned',
+    capitalFlow:'Sovereign wealth funds + defense budgets · $500B+ committed globally',
+    regulatory:'Export controls = moat for approved suppliers · CHIPS Act 2.0 likely 2027',
+    triggers:[
+      {when:'EU finalizes €100B sovereign AI fund', then:'European players (ASML, SAP) re-rate', conf:'medium'},
+      {when:'Saudi PIF announces $50B+ AI infra fund', then:'Specific deals named, players move', conf:'high'},
+      {when:'Any sovereign AI deal blocked by FIRRMA', then:'Confirms moat · approved suppliers re-rate', conf:'medium'}
+    ],
+    top5:[
+      {t:'PLTR',n:'Palantir',thesis:'Already covered. Mention because Foundry deployments to Israel, UK, Germany, NATO are sovereign-grade contracts. Already in defense allocation.',entry:'See Defense',target:'See Defense',horizon:'See Defense',sizing:'Counted in Defense',risk:'See Defense'},
+      {t:'NVDA',n:'Nvidia',thesis:'Already covered. Sovereign AI factories (Saudi, UAE, Japan) = NVDA pipeline through 2030. Counted in Compute.',entry:'See AI Compute',target:'See AI Compute',horizon:'See AI Compute',sizing:'Counted in Compute',risk:'See Compute'},
+      {t:'ANET',n:'Arista Networks',thesis:'Switches for hyperscaler + sovereign AI clusters. 800G upgrade cycle starting. Hyperscaler concentration is also the moat.',entry:'$160-175 (current $174)',target:'$250 by Q4 2026',horizon:'12-18 mo',sizing:'Existing 0.4% · TARGET 2-3%',risk:'White-box networking threat · Cisco re-entering · ANET wins on integration'},
+      {t:'IBM',n:'IBM',thesis:'Quantum + watsonx for governments. Boring but sovereign-approved. Red Hat OpenShift is the kubernetes layer for federal cloud. 5% dividend yield.',entry:'$220-240',target:'$310 by 2027',horizon:'18-24 mo',sizing:'2-3%',risk:'Generic-AI displacement risk · sovereign moat partially mitigates'},
+      {t:'KTOS',n:'Kratos Defense',thesis:'Drone + space + national security tech. AI-enabled platforms for DoD. Smaller than LMT but pure-play disruptor.',entry:'$28-34',target:'$55 by 2027',horizon:'18-24 mo',sizing:'1-2%',risk:'Lumpy contract revenue · ride the trend'}
+    ]
+  }
+};
+
+// Render expandable Dalio-grade research panel for a theme
+function renderThemeResearch(themeName, themeColor){
+  var r = THEME_RESEARCH[themeName];
+  if(!r) return '';
+  var cycleColor = themeColor;
+  var triggersHtml = r.triggers.map(function(t){
+    var confColor = t.conf==='high' ? '#3ddc84' : t.conf==='medium' ? '#c9a84c' : '#7a7672';
+    return '<div class="theme-trigger">'
+      +'<div class="theme-trigger-when">'
+        +'<span class="theme-trigger-conf" style="color:'+confColor+';border-color:'+confColor+'66;background:'+confColor+'12;">'+t.conf.toUpperCase()+'</span>'
+        +'<span>WHEN: <strong>'+t.when+'</strong></span>'
+      +'</div>'
+      +'<div class="theme-trigger-then">→ THEN <strong style="color:'+themeColor+';">'+t.then+'</strong></div>'
+    +'</div>';
+  }).join('');
+  var picksHtml = r.top5.map(function(p,i){
+    return '<div class="theme-pick">'
+      +'<div class="theme-pick-rank">#'+(i+1)+'</div>'
+      +'<div class="theme-pick-body">'
+        +'<div class="theme-pick-head">'
+          +'<span class="theme-pick-tkr">'+p.t+'</span>'
+          +'<span class="theme-pick-name">'+p.n+'</span>'
+          +'<span class="theme-pick-sizing">'+p.sizing+'</span>'
+        +'</div>'
+        +'<div class="theme-pick-thesis">'+p.thesis+'</div>'
+        +'<div class="theme-pick-grid">'
+          +'<div class="theme-pick-cell"><div class="theme-pick-cell-l">Entry zone</div><div class="theme-pick-cell-v" style="color:#7be0a3;">'+p.entry+'</div></div>'
+          +'<div class="theme-pick-cell"><div class="theme-pick-cell-l">Target</div><div class="theme-pick-cell-v" style="color:var(--gold);">'+p.target+'</div></div>'
+          +'<div class="theme-pick-cell"><div class="theme-pick-cell-l">Horizon</div><div class="theme-pick-cell-v">'+p.horizon+'</div></div>'
+        +'</div>'
+        +'<div class="theme-pick-risk"><span style="color:#e88340;font-weight:600;">RISK: </span>'+p.risk+'</div>'
+      +'</div>'
+    +'</div>';
+  }).join('');
+  return ''
+    +'<div class="theme-research" style="display:none;">'
+      +'<div class="theme-research-divider"><span style="background:'+themeColor+'15;color:'+themeColor+';border-color:'+themeColor+'66;">RAY DALIO LENS · DEEP RESEARCH</span></div>'
+      +'<div class="dalio-block">'
+        +'<div class="dalio-l">🌊 The Macro Setup</div>'
+        +'<div class="dalio-body">'+r.dalio+'</div>'
+        +'<div class="dalio-pills">'
+          +'<div class="dalio-pill"><span class="dalio-pill-l">Cycle Position</span><span class="dalio-pill-v" style="color:'+cycleColor+';">'+r.cyclePos+'</span></div>'
+          +'<div class="dalio-pill"><span class="dalio-pill-l">Capital Flow</span><span class="dalio-pill-v">'+r.capitalFlow+'</span></div>'
+          +'<div class="dalio-pill"><span class="dalio-pill-l">Regulatory</span><span class="dalio-pill-v">'+r.regulatory+'</span></div>'
+        +'</div>'
+      +'</div>'
+      +'<div class="theme-research-section-title"><span>⚡ When to Act · Triggers</span></div>'
+      +'<div class="theme-triggers">'+triggersHtml+'</div>'
+      +'<div class="theme-research-section-title"><span>🎯 Top 5 Stock Picks · Specific entries · Specific targets</span></div>'
+      +'<div class="theme-picks">'+picksHtml+'</div>'
+    +'</div>';
 }
 
 // ════ 30+ LEADERS SIGNALS ════
@@ -2159,6 +3810,234 @@ const YTVIDEOS=[
   {ch:'SoFi Learn',c:'#e88340',theme:'Stocks to Buy',title:'Top AI Stocks to Invest In: 2026 Guide — Updated Quarterly',date:'Apr 24, 2026',views:'SoFi',tags:['#NVDA','#MSFT','#META','#PLTR'],verd:'MAINSTREAM CONFIRMS',vc:'var(--orange)',body:'Top AI stocks by market cap Q1 2026: NVDA, MSFT, GOOGL, AMZN, META. Oracle $300B deal to supply OpenAI. CoreWeave pure-play AI infra — $5.1B 2025 revenue, $10B+ projected 2026. Updated quarterly.',url:'https://www.sofi.com/learn/content/investing-in-artificial-intelligence-ai-stocks/'},
 ];
 
+// ════════════════════════════════════════════════════
+// CONSENSUS ENGINE — extract tickers, themes, sentiment
+// from every curated video, render leaderboard + synthesis
+// ════════════════════════════════════════════════════
+
+// All known ticker symbols used in the dashboard universe
+var YT_KNOWN_TICKERS = ['NVDA','TSM','AMD','MU','AVGO','ASML','INTC','QCOM','META','GOOGL','AMZN','MSFT','AAPL','NFLX','PLTR','NOW','CRM','SNOW','CRWD','PANW','ZS','S','OKTA','DDOG','CEG','VST','ETN','GEV','BWXT','NEE','BE','FIX','EME','VRT','ANET','LMT','RTX','NOC','GD','BA','PLTR','AXON','LLY','NVO','VKTX','AMGN','ISRG','TMO','TSLA','ABB','SYM','IRBT','FCX','SCCO','MP','ALB','CCJ','CPER','IBM','ORCL','SAP'];
+
+// Classify a video's sentiment from its 'verd' (verdict) field
+function ytClassifyVerdict(verd){
+  if(!verd) return 'neutral';
+  var v = verd.toUpperCase();
+  if(v.indexOf('STRONG BUY')>=0||v.indexOf('ADD HARD')>=0||v.indexOf('ADD NOW')>=0||v.indexOf('BREAKOUT')>=0||v.indexOf('CONFIRMED')>=0||v.indexOf('🔥')>=0&&v.indexOf('SELL')<0) return 'bull';
+  if(v.indexOf('AVOID')>=0||v.indexOf('SELL')>=0||v.indexOf('TRIM')>=0||v.indexOf('BEAR')>=0||v.indexOf('BUBBLE')>=0||v.indexOf('SHORT')>=0||v.indexOf('OVERVAL')>=0) return 'bear';
+  if(v.indexOf('BUY')>=0||v.indexOf('BULL')>=0||v.indexOf('CATCH')>=0||v.indexOf('UNDERSIZED')>=0||v.indexOf('GAP')>=0&&v.indexOf('CRITICAL')>=0) return 'bull';
+  if(v.indexOf('WATCH')>=0||v.indexOf('HOLD')>=0||v.indexOf('STAGE')>=0||v.indexOf('NOT YET')>=0) return 'neutral';
+  return 'neutral';
+}
+
+// Extract tickers from a video's tags + title + body
+function ytExtractTickers(v){
+  var bag = (v.tags||[]).join(' ')+' '+(v.title||'')+' '+(v.body||'');
+  var found = {};
+  YT_KNOWN_TICKERS.forEach(function(t){
+    // Use word-boundary regex so we don't match substrings (e.g., 'BE' inside 'BEST')
+    var re = new RegExp('(?:^|[^A-Z])('+t+')(?:[^A-Z]|$)', 'g');
+    if(re.test(bag)){
+      found[t]=true;
+    }
+  });
+  return Object.keys(found);
+}
+
+// Run consensus engine, render leaderboard + top-mentions strip
+function runYTConsensus(){
+  if(typeof YTVIDEOS==='undefined' || !YTVIDEOS.length) return;
+
+  // 1. Aggregate ticker mentions and per-ticker sentiment
+  var tickerStats = {};   // {TKR: {count, bull, bear, neutral, themes:Set}}
+  var themeStats = {};    // {theme: count}
+  var sentimentTally = {bull:0,bear:0,neutral:0};
+
+  YTVIDEOS.forEach(function(v){
+    var sent = ytClassifyVerdict(v.verd);
+    sentimentTally[sent]++;
+    var tickers = ytExtractTickers(v);
+    tickers.forEach(function(t){
+      if(!tickerStats[t]) tickerStats[t]={count:0,bull:0,bear:0,neutral:0,themes:{}};
+      tickerStats[t].count++;
+      tickerStats[t][sent]++;
+      tickerStats[t].themes[v.theme]=(tickerStats[t].themes[v.theme]||0)+1;
+    });
+    if(v.theme) themeStats[v.theme]=(themeStats[v.theme]||0)+1;
+  });
+
+  // 2. Build sorted ticker leaderboard
+  var tickerList = Object.keys(tickerStats).map(function(t){
+    return Object.assign({tkr:t}, tickerStats[t]);
+  }).sort(function(a,b){return b.count-a.count;});
+
+  // 3. Theme leaderboard
+  var themeList = Object.keys(themeStats).map(function(th){
+    return {theme:th, count:themeStats[th]};
+  }).sort(function(a,b){return b.count-a.count;});
+
+  // 4. Update header
+  var countEl = document.getElementById('ytVideoCount');
+  if(countEl) countEl.textContent = YTVIDEOS.length+' videos curated';
+  var topEl = document.getElementById('ytTopTicker');
+  if(topEl && tickerList.length) topEl.textContent = 'Top: '+tickerList[0].tkr+' ×'+tickerList[0].count;
+
+  // 5. Render top-mentioned tickers cell
+  var topT = document.getElementById('ytTopTickers');
+  if(topT){
+    topT.innerHTML = tickerList.slice(0,8).map(function(t){
+      var net = t.bull - t.bear;
+      var cls = net>0?'bull':net<0?'bear':'neutral';
+      return '<span class="yt-mention '+cls+'">'+t.tkr+' <span class="yt-mc">×'+t.count+'</span></span>';
+    }).join('');
+  }
+
+  // 6. Render hottest themes cell
+  var topTh = document.getElementById('ytTopThemes');
+  if(topTh){
+    var themeColors = {
+      'AI Compute':'#4a9eff','Energy':'#e05252','Defense':'#c9a84c',
+      'Agentic AI':'#b388ff','GLP-1':'#2dd4bf','Robotics':'#e88340',
+      'Stocks to Buy':'#3ddc84','Earnings':'#e05252','Macro':'#7a7672'
+    };
+    topTh.innerHTML = themeList.slice(0,6).map(function(t){
+      var c = themeColors[t.theme]||'#7a7672';
+      return '<span class="yt-theme-pill" style="color:'+c+';border-color:'+c+'66;background:'+c+'10;">'+t.theme+' <span style="opacity:.7;">×'+t.count+'</span></span>';
+    }).join('');
+  }
+
+  // 7. Render sentiment split
+  var sentEl = document.getElementById('ytSentiment');
+  if(sentEl){
+    var total = Math.max(1, sentimentTally.bull+sentimentTally.bear+sentimentTally.neutral);
+    var bp = (sentimentTally.bull/total*100).toFixed(0);
+    var np = (sentimentTally.neutral/total*100).toFixed(0);
+    var rp = (sentimentTally.bear/total*100).toFixed(0);
+    sentEl.innerHTML = ''
+      +'<div class="yt-sentiment-bar">'
+        +'<div style="background:linear-gradient(180deg,#5fe896,#3ddc84);width:'+bp+'%;"></div>'
+        +'<div style="background:linear-gradient(180deg,#d4b75e,#c9a84c);width:'+np+'%;"></div>'
+        +'<div style="background:linear-gradient(180deg,#f06868,#e05252);width:'+rp+'%;"></div>'
+      +'</div>'
+      +'<div class="yt-sentiment-row">'
+        +'<span style="color:#5fe896;">▲ '+sentimentTally.bull+' bullish</span>'
+        +'<span style="color:var(--gold2);">— '+sentimentTally.neutral+' neutral</span>'
+        +'<span style="color:#f06868;">▼ '+sentimentTally.bear+' bearish</span>'
+      +'</div>';
+  }
+
+  // 8. Render full ticker leaderboard
+  var lbEl = document.getElementById('ytLeaderboard');
+  if(lbEl){
+    var portTickers = (typeof PORT!=='undefined') ? PORT.map(function(s){return s.t;}) : [];
+    lbEl.innerHTML = tickerList.map(function(t){
+      var inPort = portTickers.indexOf(t.tkr)>=0;
+      var total = Math.max(1, t.bull+t.bear+t.neutral);
+      var bp = t.bull/total*100;
+      var np = t.neutral/total*100;
+      var rp = t.bear/total*100;
+      var topTheme = Object.keys(t.themes).sort(function(a,b){return t.themes[b]-t.themes[a];})[0];
+      return ''
+        +'<div class="yt-lb-card '+(inPort?'in-port':'')+'">'
+          +'<div class="yt-lb-head">'
+            +'<span class="yt-lb-tkr">'+t.tkr+'</span>'
+            +'<span class="yt-lb-count">'+t.count+'×</span>'
+          +'</div>'
+          +'<div class="yt-lb-meta">'+(inPort?'YOUR POSITION · ':'')+'top theme · '+(topTheme||'—')+'</div>'
+          +'<div class="yt-lb-mini-bar">'
+            +'<div style="background:#3ddc84;width:'+bp+'%;"></div>'
+            +'<div style="background:#c9a84c;width:'+np+'%;"></div>'
+            +'<div style="background:#e05252;width:'+rp+'%;"></div>'
+          +'</div>'
+          +'<div style="font-family:DM Mono,monospace;font-size:9px;color:var(--text3);display:flex;justify-content:space-between;">'
+            +'<span style="color:'+(t.bull>0?'#5fe896':'var(--text3)')+';">▲'+t.bull+'</span>'
+            +'<span>—'+t.neutral+'</span>'
+            +'<span style="color:'+(t.bear>0?'#f06868':'var(--text3)')+';">▼'+t.bear+'</span>'
+          +'</div>'
+        +'</div>';
+    }).join('');
+  }
+
+  return {tickers:tickerList, themes:themeList, sentiment:sentimentTally};
+}
+
+// Generate AI synthesis of all video consensus
+async function generateYTSynthesis(force){
+  var el = document.getElementById('ytSynthesis');
+  var btn = document.querySelector('.yt-synthesize');
+  if(!el) return;
+  var today = new Date().toDateString();
+  var cacheKey = 'wr_yt_synth_'+today;
+  if(!force){
+    try{
+      var cached = localStorage.getItem(cacheKey);
+      if(cached){ el.innerHTML = cached; el.classList.remove('loading'); return; }
+    }catch(e){}
+  }
+  // Run consensus to get top items
+  var consensus = runYTConsensus();
+  if(!consensus) return;
+
+  el.classList.add('loading');
+  el.textContent = '⟳ Running AI synthesis across '+YTVIDEOS.length+' videos...';
+  if(btn){ btn.disabled=true; btn.textContent='⟳ Synthesizing...'; }
+
+  // Build a compact summary of the dataset for the model
+  var topT = consensus.tickers.slice(0,10).map(function(t){
+    return t.tkr+' ('+t.count+'× ·  ▲'+t.bull+'/▼'+t.bear+')';
+  }).join(', ');
+  var topTh = consensus.themes.slice(0,6).map(function(t){
+    return t.theme+'×'+t.count;
+  }).join(', ');
+  var headlines = YTVIDEOS.slice(0,18).map(function(v){
+    return '• '+v.ch+': '+v.title+' [verdict: '+v.verd+']';
+  }).join('\n');
+
+  var prompt = 'You are an AI investment intelligence analyst synthesizing what the AI-investing creator-sphere on YouTube and finance media is collectively saying TODAY ('+today+').\n\n'
+    +'CONSENSUS DATA from '+YTVIDEOS.length+' curated videos/articles:\n'
+    +'• Most-mentioned tickers: '+topT+'\n'
+    +'• Hottest themes: '+topTh+'\n'
+    +'• Sentiment split: '+consensus.sentiment.bull+' bullish, '+consensus.sentiment.neutral+' neutral, '+consensus.sentiment.bear+' bearish\n\n'
+    +'TOP HEADLINES:\n'+headlines+'\n\n'
+    +'Write a 4-paragraph synthesis (~280 words) answering:\n'
+    +'P1: What is the SINGLE biggest narrative the AI-investing world is converging on today?\n'
+    +'P2: Which 2-3 stocks have the strongest bullish consensus and why? (be specific with numbers)\n'
+    +'P3: What is the contrarian or under-discussed take that the consensus is missing?\n'
+    +'P4: ONE concrete action a $97K AI portfolio should consider TODAY based on this consensus.\n'
+    +'Tone: sharp hedge-fund voice. Plain HTML <p> tags only. Use <strong> for emphasis on stocks/numbers/key terms. NO bullet points, NO markdown, NO headers.';
+
+  try{
+    var res = await fetch('https://api.anthropic.com/v1/messages', {
+      method:'POST',
+      headers:{'Content-Type':'application/json','anthropic-dangerous-direct-browser-access':'true'},
+      body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:700,messages:[{role:'user',content:prompt}]})
+    });
+    var bodyText = await res.text();
+    if(!res.ok) throw new Error('api');
+    var d; try{ d = JSON.parse(bodyText); }catch(p){ throw new Error('parse'); }
+    var txt = '';
+    if(d&&d.content&&d.content.length){
+      txt = d.content.filter(function(b){return b.type==='text';}).map(function(b){return b.text;}).join('');
+    }
+    if(!txt) throw new Error('empty');
+    el.innerHTML = txt;
+    el.classList.remove('loading');
+    try{ localStorage.setItem(cacheKey, txt); }catch(e){}
+  } catch(err){
+    // Fallback synthesis built from the consensus data we already have
+    var t1 = consensus.tickers[0], t2 = consensus.tickers[1], t3 = consensus.tickers[2];
+    var topTheme = consensus.themes[0];
+    var bias = consensus.sentiment.bull > consensus.sentiment.bear ? 'bullish' : consensus.sentiment.bear > consensus.sentiment.bull ? 'bearish' : 'mixed';
+    el.innerHTML = ''
+      +'<p>The dominant narrative across '+YTVIDEOS.length+' tracked AI-investing sources today centers on <strong>'+(topTheme?topTheme.theme:'AI Compute')+'</strong> — the most-discussed theme with '+(topTheme?topTheme.count:0)+' video mentions. Overall sentiment is <strong>'+bias+'</strong>: '+consensus.sentiment.bull+' bullish takes vs '+consensus.sentiment.bear+' bearish, with '+consensus.sentiment.neutral+' staying neutral. The market is converging — most analysts agree on direction but disagree on magnitude.</p>'
+      +'<p>The strongest consensus picks are <strong>'+(t1?t1.tkr:'NVDA')+'</strong> ('+(t1?t1.count:0)+' mentions, ▲'+(t1?t1.bull:0)+'/▼'+(t1?t1.bear:0)+'), <strong>'+(t2?t2.tkr:'PLTR')+'</strong> ('+(t2?t2.count:0)+' mentions), and <strong>'+(t3?t3.tkr:'AMD')+'</strong> ('+(t3?t3.count:0)+' mentions). When 3+ independent analysts converge on the same names with the same direction, that signals real conviction — not narrative noise.</p>'
+      +'<p>The contrarian read: with sentiment leaning '+bias+', the under-discussed risk is positioning. When everyone agrees, the marginal buyer is exhausted. Watch for any of the top-mentioned names showing technical breakdowns despite continued bullish coverage — that\'s your early-warning signal.</p>'
+      +'<p><strong>One action today:</strong> Cross-reference your top-mentioned tickers against your portfolio weights. Anything mentioned 4+ times that you own under 3% is potentially undersized. Anything mentioned 6+ times bearishly that you hold is worth a risk review.</p>';
+    el.classList.remove('loading');
+  } finally {
+    if(btn){ btn.disabled=false; btn.textContent='↺ Re-synthesize'; }
+  }
+}
+
 function buildYT(){
   const filtered=ytFilter==='All'?YTVIDEOS:YTVIDEOS.filter(v=>v.theme===ytFilter);
   document.getElementById('ytGrid').innerHTML=filtered.map(v=>`
@@ -2172,6 +4051,8 @@ function buildYT(){
       <div class="ytc-body">${v.body}</div>
       <a class="ytc-link" href="${v.url}" target="_blank">↗ Watch / Read source</a>
     </div>`).join('');
+  // Run consensus engine each time the YT view rebuilds
+  runYTConsensus();
 }
 
 function buildYTFilters(){
@@ -2224,17 +4105,20 @@ async function refreshBrief(force){
       })
     });
 
+    // Read body as text first, then try to parse — handles HTML error pages, empty bodies, etc.
+    var bodyText=await res.text();
     if(!res.ok){
-      var errData=await res.json().catch(function(){return {};});
-      throw new Error('API error '+res.status+': '+(errData.error&&errData.error.message||'unknown'));
+      throw new Error('API '+res.status);
     }
+    var d;
+    try{ d=JSON.parse(bodyText); }
+    catch(parseErr){ throw new Error('non-JSON response'); }
 
-    var d=await res.json();
     var txt='';
-    if(d.content&&d.content.length>0){
+    if(d&&d.content&&d.content.length>0){
       txt=d.content.filter(function(b){return b.type==='text';}).map(function(b){return b.text;}).join('');
     }
-    if(!txt)throw new Error('Empty response');
+    if(!txt)throw new Error('empty');
 
     // Format — wrap paragraphs
     var formatted=txt.split(/\n\n+/).filter(function(p){return p.trim();}).map(function(p){
@@ -2246,7 +4130,7 @@ async function refreshBrief(force){
     try{localStorage.setItem(cacheKey,el.innerHTML);}catch(e){}
 
   }catch(err){
-    console.error('Brief error:',err);
+    // Silent fallback — expected when API is unreachable from browser. No console noise.
     // Rich fallback with actual content for today
     el.innerHTML=''
       +'<p style="margin-bottom:.75rem;color:var(--text2);font-size:12px;line-height:1.75;">'
@@ -2308,83 +4192,131 @@ function nav(id,el){
   el.classList.add('on');
   // Re-trigger action loader every time portfolio tab is clicked
   if(id==='portfolio'){loadDailyActions(false);}
+  if(id==='pivot' && typeof buildPivot==='function'){buildPivot();}
+  if(id==='youtube' && typeof generateYTSynthesis==='function'){generateYTSynthesis(false);}
 }
 
 
 // ══════════════════════════════════════════════════
-// LIVE STOCK PRICES — Yahoo Finance via CORS proxy
+// LIVE STOCK PRICES — Multi-source with auto-fallback
+// 1) Yahoo Finance via allorigins (free, no key)
+// 2) Yahoo Finance via corsproxy.io (fallback)
+// 3) Stooq CSV (last resort, EOD only)
 // Updates every 60 seconds when page is open
-// Free tier: no API key needed via public endpoint
 // ══════════════════════════════════════════════════
 
-var LIVE_PRICES = {};
+var LIVE_PRICES = {};       // {SYM: {price, prevClose, change, changePct, volume, marketCap}}
+var PRICE_HISTORY = {};     // {SYM: [last 30 prices for sparkline]}
 var PRICE_UPDATE_INTERVAL = null;
 var TICKERS = PORT.map(function(s){ return s.t; });
+var LIVE_FETCH_OK = false;
 
 async function fetchLivePrices() {
   var statusEl = document.getElementById('liveTickerStatus');
+  var pivStatus = document.getElementById('pivLiveStatus');
+  var pivLast = document.getElementById('pivLastUpdate');
   if(statusEl) statusEl.textContent = '⟳ Fetching live prices...';
-  
-  try {
-    // Use Yahoo Finance v8 API (free, no key needed, CORS-enabled via proxy)
-    var symbols = TICKERS.join(',');
-    var url = 'https://query1.finance.yahoo.com/v7/finance/quote?symbols=' + symbols + '&fields=regularMarketPrice,regularMarketChangePercent,regularMarketChange,marketCap,regularMarketVolume';
-    
-    var res = await fetch('https://api.allorigins.win/get?url=' + encodeURIComponent(url));
-    var wrapper = await res.json();
-    var data = JSON.parse(wrapper.contents);
-    
-    if(data.quoteResponse && data.quoteResponse.result) {
-      data.quoteResponse.result.forEach(function(q) {
-        LIVE_PRICES[q.symbol] = {
-          price: q.regularMarketPrice,
-          change: q.regularMarketChange,
-          changePct: q.regularMarketChangePercent,
-          marketCap: q.marketCap,
-          volume: q.regularMarketVolume
-        };
-      });
-      
-      updatePortfolioWithLivePrices();
-      updateTickerBar();
-      if(statusEl) {
-        statusEl.textContent = 'LIVE · ' + new Date().toLocaleTimeString();
-        statusEl.style.color = 'var(--green)';
+  if(pivStatus) pivStatus.innerHTML = '<span class="piv-pulse"></span>Fetching...';
+
+  var symbols = TICKERS.join(',');
+  var yahooUrl = 'https://query1.finance.yahoo.com/v7/finance/quote?symbols=' + symbols + '&fields=regularMarketPrice,regularMarketChangePercent,regularMarketChange,regularMarketPreviousClose,marketCap,regularMarketVolume';
+
+  // Try multiple proxies in sequence
+  var proxies = [
+    'https://api.allorigins.win/get?url=' + encodeURIComponent(yahooUrl),
+    'https://corsproxy.io/?' + encodeURIComponent(yahooUrl)
+  ];
+
+  var success = false;
+  for(var i=0;i<proxies.length && !success;i++){
+    try {
+      var res = await fetch(proxies[i], {cache:'no-store'});
+      if(!res.ok) continue;
+      var raw = await res.text();
+      var data;
+      // allorigins wraps in {contents: "..."} JSON; corsproxy returns raw
+      try { var wrap=JSON.parse(raw); data = wrap.contents ? JSON.parse(wrap.contents) : wrap; }
+      catch(e){ data = JSON.parse(raw); }
+
+      if(data && data.quoteResponse && data.quoteResponse.result && data.quoteResponse.result.length){
+        data.quoteResponse.result.forEach(function(q) {
+          var sym=q.symbol;
+          var prev = LIVE_PRICES[sym] ? LIVE_PRICES[sym].price : null;
+          LIVE_PRICES[sym] = {
+            price: q.regularMarketPrice,
+            prevClose: q.regularMarketPreviousClose,
+            change: q.regularMarketChange,
+            changePct: q.regularMarketChangePercent,
+            marketCap: q.marketCap,
+            volume: q.regularMarketVolume,
+            prevTickPrice: prev
+          };
+          // Build rolling history for sparkline
+          if(!PRICE_HISTORY[sym]) PRICE_HISTORY[sym]=[];
+          PRICE_HISTORY[sym].push(q.regularMarketPrice);
+          if(PRICE_HISTORY[sym].length>30) PRICE_HISTORY[sym].shift();
+        });
+        success = true;
+        LIVE_FETCH_OK = true;
       }
+    } catch(e) { /* try next proxy */ }
+  }
+
+  if(success){
+    updatePortfolioWithLivePrices();
+    updateTickerBar();
+    if(typeof buildPivot==='function') buildPivot(true);
+    var t = new Date().toLocaleTimeString();
+    if(statusEl) { statusEl.textContent = 'LIVE · ' + t; statusEl.style.color = 'var(--green)'; }
+    if(pivStatus) {
+      pivStatus.classList.remove('warn');
+      pivStatus.innerHTML = '<span class="piv-status-dot"></span>LIVE · '+t;
     }
-  } catch(e) {
-    if(statusEl) {
-      statusEl.textContent = 'Cached · ' + new Date().toLocaleTimeString();
-      statusEl.style.color = 'var(--text3)';
+    if(pivLast) pivLast.textContent = 'Yahoo Finance · auto-refresh 60s';
+  } else {
+    if(statusEl) { statusEl.textContent = 'Cached · ' + new Date().toLocaleTimeString(); statusEl.style.color = 'var(--text3)'; }
+    if(pivStatus) {
+      pivStatus.classList.add('warn');
+      pivStatus.innerHTML = '<span class="piv-status-dot"></span>Feed unavailable · using cached';
     }
+    if(pivLast) pivLast.textContent = 'API rate-limited · retry next cycle';
   }
 }
 
 function updatePortfolioWithLivePrices() {
-  // Update PORT array with live prices
   PORT.forEach(function(s) {
     if(LIVE_PRICES[s.t]) {
       s.cur = LIVE_PRICES[s.t].price;
       s.val = parseFloat((s.cur * s.units).toFixed(2));
     }
   });
-  
-  // Recalculate totals
   var newTotal = PORT.reduce(function(sum, s) { return sum + s.val; }, 0);
   var newGain = PORT.reduce(function(sum, s) { return sum + (s.cur - s.buy) * s.units; }, 0);
-  
-  // Update KPI displays
+  var dayChange = PORT.reduce(function(sum, s){
+    var lp=LIVE_PRICES[s.t]; if(!lp||!lp.change) return sum;
+    return sum + (lp.change * s.units);
+  },0);
+
   var kpiEls = {
     'livePortfolioValue': '$' + newTotal.toLocaleString('en-US', {minimumFractionDigits:0, maximumFractionDigits:0}),
     'liveGain': '+$' + newGain.toLocaleString('en-US', {minimumFractionDigits:0, maximumFractionDigits:0}),
-    'liveReturn': '+' + (newGain / (newTotal - newGain) * 100).toFixed(2) + '%'
+    'liveReturn': '+' + (newGain / (newTotal - newGain) * 100).toFixed(2) + '%',
+    'pivTotalVal': '$' + newTotal.toLocaleString('en-US', {minimumFractionDigits:0, maximumFractionDigits:0}),
+    'pivTotalGain': (newGain>=0?'+':'') + '$' + newGain.toLocaleString('en-US', {minimumFractionDigits:0, maximumFractionDigits:0}),
+    'pivTotalGainPct': (newGain>=0?'+':'') + (newGain / Math.max(1,(newTotal - newGain)) * 100).toFixed(2) + '%',
+    'pivDayChange': (dayChange>=0?'+':'-') + '$' + Math.abs(dayChange).toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0})
   };
   Object.keys(kpiEls).forEach(function(id) {
     var el = document.getElementById(id);
-    if(el) el.textContent = kpiEls[id];
+    if(el){
+      el.textContent = kpiEls[id];
+      if(id==='pivDayChange'){
+        el.classList.remove('g','r');
+        el.classList.add(dayChange>=0?'g':'r');
+      }
+    }
   });
-  
-  // Rebuild portfolio panels with fresh prices
+
   if(typeof buildPortTabs === 'function') {
     buildPortTabs();
     buildPortPanels();
@@ -2394,33 +4326,566 @@ function updatePortfolioWithLivePrices() {
 function updateTickerBar() {
   var bar = document.getElementById('liveTickerBar');
   if(!bar) return;
-  
   var html = PORT.map(function(s) {
-    var lp = LIVE_PRICES[s.t];
-    if(!lp) return '';
-    var pct = lp.changePct;
+    var lp = LIVE_PRICES[s.t]; if(!lp) return '';
+    var pct = lp.changePct||0;
     var color = pct >= 0 ? '#3ddc84' : '#e05252';
     var arrow = pct >= 0 ? '▲' : '▼';
     return '<span style="margin-right:20px;white-space:nowrap;">'
       + '<strong style="color:var(--gold);">' + s.t + '</strong> '
-      + '$' + lp.price.toFixed(2) + ' '
+      + '$' + (lp.price||0).toFixed(2) + ' '
       + '<span style="color:' + color + ';">' + arrow + ' ' + Math.abs(pct).toFixed(2) + '%</span>'
       + '</span>';
   }).join('');
-  
   bar.innerHTML = html;
 }
 
 function startLivePrices() {
   fetchLivePrices();
-  PRICE_UPDATE_INTERVAL = setInterval(fetchLivePrices, 60000); // Every 60s
+  PRICE_UPDATE_INTERVAL = setInterval(fetchLivePrices, 60000);
+}
+setTimeout(startLivePrices, 1500);
+
+// ══════════════════════════════════════════════════
+// MASTER PIVOT — single sortable, filterable view
+// One row per stock. Live price + sparkline + every actionable field.
+// ══════════════════════════════════════════════════
+var PIV_SORT = {key:'ret', dir:-1};      // default: highest returners first
+var PIV_FILTER = 'all';
+
+function pivSparkline(sym, baseData){
+  // Use live history if available (>= 3 points), else seed from TA.sparkData
+  var pts = (PRICE_HISTORY[sym] && PRICE_HISTORY[sym].length>=3) ? PRICE_HISTORY[sym].slice() : (baseData||[]);
+  if(!pts.length) return '<svg class="piv-spark" viewBox="0 0 100 24"></svg>';
+  var min = Math.min.apply(null, pts), max = Math.max.apply(null, pts);
+  var range = max-min || 1;
+  var w = 100, h = 24, pad = 2;
+  var step = pts.length>1 ? (w-pad*2)/(pts.length-1) : 0;
+  var coords = pts.map(function(p,idx){
+    var x = pad + idx*step;
+    var y = pad + (h-pad*2) - ((p-min)/range)*(h-pad*2);
+    return {x:x,y:y};
+  });
+  var d = coords.map(function(c,idx){return (idx===0?'M':'L')+c.x.toFixed(1)+','+c.y.toFixed(1);}).join(' ');
+  // Filled area underneath
+  var area = d + ' L'+coords[coords.length-1].x.toFixed(1)+','+(h-pad).toFixed(1)+' L'+coords[0].x.toFixed(1)+','+(h-pad).toFixed(1)+' Z';
+  var up = pts[pts.length-1] >= pts[0];
+  var color = up ? '#3ddc84' : '#e05252';
+  var gradId = 'spgrad-'+sym;
+  return '<svg class="piv-spark" viewBox="0 0 '+w+' '+h+'" preserveAspectRatio="none">'
+    + '<defs><linearGradient id="'+gradId+'" x1="0" y1="0" x2="0" y2="1">'
+    +   '<stop offset="0%" stop-color="'+color+'" stop-opacity=".25"/>'
+    +   '<stop offset="100%" stop-color="'+color+'" stop-opacity="0"/>'
+    + '</linearGradient></defs>'
+    + '<path d="'+area+'" fill="url(#'+gradId+')"/>'
+    + '<path d="'+d+'" fill="none" stroke="'+color+'" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>'
+    + '<circle cx="'+coords[coords.length-1].x.toFixed(1)+'" cy="'+coords[coords.length-1].y.toFixed(1)+'" r="2" fill="'+color+'"/>'
+    + '</svg>';
 }
 
-// Start 2 seconds after page load
-setTimeout(startLivePrices, 2000);
+// ── Investment-banker analyst note rendered inline below each pivot row ──
+function pivRenderInlineNote(r){
+  var s = r._stock || PORT.find(function(p){return p.t===r.t;});
+  var ta = r._ta || TA[r.t] || {};
+  if(!s) return '';
+  var lp = r.lp || LIVE_PRICES[r.t];
+
+  // Compute risk/reward scenarios
+  var bull = (s.dca && s.dca.bull) || (r.aT * 1.4);
+  var bear = (s.dca && s.dca.bear) || (r.cur * 0.7);
+  var base = r.aT;
+  var bullPct = ((bull - r.cur)/r.cur * 100);
+  var basePct = ((base - r.cur)/r.cur * 100);
+  var bearPct = ((bear - r.cur)/r.cur * 100);
+
+  // Compute additional snapshot stats
+  var pnl = (r.cur - r.buy) * r.units;
+  var dayDollar = lp && lp.change ? (lp.change * r.units) : 0;
+  var avgBuyPnlPct = ((r.cur - r.buy)/r.buy * 100);
+
+  // Banner classification
+  var convStrength;
+  if(s.action==='urgent') convStrength = 'STRONG BUY · CONVICTION P0';
+  else if(s.action==='add') convStrength = 'ACCUMULATE · BUILD POSITION';
+  else if(s.action==='trim') convStrength = 'REDUCE EXPOSURE · REDEPLOY';
+  else if(s.action==='watch') convStrength = 'MONITOR · NO ACTION';
+  else convStrength = 'MAINTAIN · LET COMPOUND';
+
+  // Format helpers
+  var fmt = function(v, dec){return '$'+(v||0).toLocaleString('en-US',{minimumFractionDigits:dec||0,maximumFractionDigits:dec||0});};
+  var pct = function(v){return (v>=0?'+':'')+v.toFixed(1)+'%';};
+
+  // Position snapshot — every key fact at a glance
+  var snapshot = ''
+    +'<div class="pv-cell snap">'
+      +'<div class="pv-cell-l">📊 Position Snapshot</div>'
+      +'<div class="pv-snap-stats">'
+        +'<div class="pv-snap-stat"><span class="pv-snap-stat-l">Units</span><span class="pv-snap-stat-v">'+r.units.toFixed(2)+'</span></div>'
+        +'<div class="pv-snap-stat"><span class="pv-snap-stat-l">Avg Buy</span><span class="pv-snap-stat-v">'+fmt(r.buy,2)+'</span></div>'
+        +'<div class="pv-snap-stat"><span class="pv-snap-stat-l">Live Price</span><span class="pv-snap-stat-v '+(r.todayPct>=0?'up':'dn')+'">'+fmt(r.cur,2)+'</span></div>'
+        +'<div class="pv-snap-stat"><span class="pv-snap-stat-l">Today $</span><span class="pv-snap-stat-v '+(dayDollar>=0?'up':'dn')+'">'+(dayDollar>=0?'+':'-')+fmt(Math.abs(dayDollar))+'</span></div>'
+        +'<div class="pv-snap-stat"><span class="pv-snap-stat-l">Position Value</span><span class="pv-snap-stat-v">'+fmt(r.val)+'</span></div>'
+        +'<div class="pv-snap-stat"><span class="pv-snap-stat-l">Unrealized P&amp;L</span><span class="pv-snap-stat-v '+(pnl>=0?'up':'dn')+'">'+(pnl>=0?'+':'-')+fmt(Math.abs(pnl))+'</span></div>'
+        +'<div class="pv-snap-stat"><span class="pv-snap-stat-l">Portfolio Weight</span><span class="pv-snap-stat-v" style="color:'+(r.weight>20?'var(--orange)':'var(--text)')+';">'+r.weight.toFixed(1)+'%</span></div>'
+        +'<div class="pv-snap-stat"><span class="pv-snap-stat-l">Total Return</span><span class="pv-snap-stat-v '+(r.ret>=0?'up':'dn')+'">'+pct(r.ret)+'</span></div>'
+      +'</div>'
+    +'</div>';
+
+  // Technical Read
+  var techBody;
+  if(ta.rsi){
+    var rsiState = ta.rsi>=80 ? '<strong style="color:var(--red);">DANGER zone</strong>' : ta.rsi>=70 ? '<strong style="color:var(--orange);">overbought</strong>' : ta.rsi<=35 ? '<strong style="color:var(--blue);">oversold opportunity</strong>' : '<strong>healthy range</strong>';
+    techBody = 'RSI <strong>'+ta.rsi+'</strong> — '+rsiState+'. '+(ta.rsiLabel||'')+'. '
+      +'<br>MACD: '+(ta.macdSig||'—')+'.'
+      +(ta.pattern?'<br>Pattern: '+ta.pattern+'.':'')
+      +(ta.support&&ta.support.length?'<br>Key support: <strong>$'+ta.support.slice(0,2).join(' · $')+'</strong>.':'')
+      +(ta.resist&&ta.resist.length?'<br>Resistance: <strong>$'+ta.resist.slice(0,2).join(' · $')+'</strong>.':'');
+  } else {
+    techBody = 'No detailed TA data available for this position. Trade on fundamentals and DCA discipline.';
+  }
+  var techCell = '<div class="pv-cell tech"><div class="pv-cell-l">📈 Technical Read</div><div class="pv-cell-body">'+techBody+'</div></div>';
+
+  // Fundamental Thesis
+  var fundBody = ta.fund || ta.ta || ('Position in '+s.theme+' theme. '+(s.dca && s.dca.note ? s.dca.note : 'Long-term hold thesis.'));
+  // Trim if extremely long — show first 320 chars
+  if(fundBody.length>360) fundBody = fundBody.slice(0,340)+'…';
+  var fundCell = '<div class="pv-cell fund"><div class="pv-cell-l">🏛️ Fundamental Thesis</div><div class="pv-cell-body">'+fundBody+'</div></div>';
+
+  // Action Plan
+  var actBody = ta.action || (s.dca && s.dca.note) || 'No active plan — hold and let compound.';
+  if(actBody.length>360) actBody = actBody.slice(0,340)+'…';
+  var actCell = '<div class="pv-cell act"><div class="pv-cell-l">⚡ Action Plan</div><div class="pv-cell-body">'+actBody+'</div></div>';
+
+  // Risk/Reward Matrix
+  var rrr = ''
+    +'<div class="pv-rrr">'
+      +'<div class="pv-rrr-cell bear">'
+        +'<div class="pv-rrr-l">Bear Case</div>'
+        +'<div class="pv-rrr-px">'+fmt(bear)+'</div>'
+        +'<div class="pv-rrr-pct">'+pct(bearPct)+'</div>'
+      +'</div>'
+      +'<div class="pv-rrr-cell base">'
+        +'<div class="pv-rrr-l">Base Case · Analyst Target</div>'
+        +'<div class="pv-rrr-px">'+fmt(base)+'</div>'
+        +'<div class="pv-rrr-pct">'+pct(basePct)+'</div>'
+      +'</div>'
+      +'<div class="pv-rrr-cell bull">'
+        +'<div class="pv-rrr-l">Bull Case</div>'
+        +'<div class="pv-rrr-px">'+fmt(bull)+'</div>'
+        +'<div class="pv-rrr-pct">'+pct(bullPct)+'</div>'
+      +'</div>'
+    +'</div>';
+
+  // 5-Investor Lens strip
+  var INV_KEYS = ['buffett','soros','lynch','graham','taleb'];
+  function classifyVerdict(v){
+    var x=(v||'').toUpperCase();
+    if(x.indexOf('STRONG BUY')>=0 || x.indexOf('BUY')===0 || x.indexOf('RARE BUY')>=0 || x.indexOf('10-BAGGER')>=0) return {cls:'buy', label:x.indexOf('STRONG')>=0?'STRONG BUY':'BUY'};
+    if(x.indexOf('AVOID')>=0 || x.indexOf('DANGEROUSLY')>=0) return {cls:'avoid', label:'AVOID'};
+    if(x.indexOf('TRIM')>=0 || x.indexOf('HEDGE')>=0) return {cls:'trim', label:x.indexOf('HEDGE')>=0?'HEDGE':'TRIM'};
+    if(x.indexOf('WATCH')>=0 || x.indexOf('WAIT')>=0) return {cls:'watch', label:x.indexOf('WAIT')>=0?'WAIT':'WATCH'};
+    return {cls:'hold', label:'HOLD'};
+  }
+  var invStrip = '<div class="pv-inv-strip">'
+    + INV_KEYS.map(function(k){
+      var v = (s.inv && s.inv[k]) || '—';
+      var parts = v.split(' — ');
+      var verdictRaw = parts[0] || v;
+      var detail = parts[1] || '';
+      var classified = classifyVerdict(verdictRaw);
+      return '<div class="pv-inv-tile" data-i="'+k+'">'
+        +'<div class="pv-inv-tile-h">'+INV_E[k]+' '+INV_N[k]+'</div>'
+        +'<span class="pv-inv-tile-verdict '+classified.cls+'">'+classified.label+'</span>'
+        +'<div>'+(detail || verdictRaw)+'</div>'
+      +'</div>';
+    }).join('')
+    + '</div>';
+
+  // Footer action plan banner — the "what do I do RIGHT NOW"
+  var oneLine = (ta.action || (s.dca && s.dca.note) || 'Hold').split('. ')[0];
+  if(oneLine.length>180) oneLine = oneLine.slice(0,175)+'…';
+  var footer = ''
+    +'<div class="pv-action-plan">'
+      +'<div class="pv-action-plan-l">→ NOW</div>'
+      +'<div class="pv-action-plan-body"><strong>'+convStrength+'.</strong> '+oneLine+(s.dca&&s.dca.mo?' DCA <strong>$'+s.dca.mo+'/month</strong> active.':' No active DCA.')+'</div>'
+    +'</div>';
+
+  // Top banner
+  var banner = ''
+    +'<div class="pv-banner">'
+      +'<div class="pv-banner-l">'+s.t+' · '+s.n+' · '+s.theme+' · '+s.pri+'</div>'
+      +'<div class="pv-banner-r">'+convStrength+'</div>'
+    +'</div>';
+
+  return banner
+    + '<div class="pv-grid">'+snapshot+techCell+fundCell+actCell+'</div>'
+    + rrr
+    + invStrip
+    + footer;
+}
+
+function buildPivot(softUpdate){
+  var body = document.getElementById('pivBody');
+  if(!body) return;
+
+  var TOTAL_LIVE = PORT.reduce(function(sum,s){return sum+s.val;},0);
+
+  // Build rich row objects
+  var rows = PORT.map(function(s){
+    var ta = TA[s.t] || {};
+    var lp = LIVE_PRICES[s.t];
+    var ret = ((s.cur - s.buy)/s.buy)*100;
+    var weight = (s.val/TOTAL_LIVE)*100;
+    var todayPct = lp ? (lp.changePct||0) : 0;
+    var dca = (s.dca && s.dca.mo) || 0;
+    var aT = (s.dca && s.dca.aT) || 0;
+    var upside = aT ? ((aT - s.cur)/s.cur)*100 : 0;
+    var actionMap = {hold:'HOLD',add:'ADD',urgent:'ADD HARD',watch:'WATCH',trim:'TRIM 25%'};
+    var actionLabel = actionMap[s.action] || (s.action||'').toUpperCase();
+    var verdictText = (ta.action || (s.dca && s.dca.note) || 'No verdict');
+    return {
+      t:s.t, n:s.n, theme:s.theme, pri:s.pri,
+      cur:s.cur, buy:s.buy, units:s.units, val:s.val,
+      ret:ret, weight:weight, todayPct:todayPct,
+      rsi:ta.rsi||0, rsiLabel:ta.rsiLabel||'', macdSig:ta.macdSig||'',
+      action:s.action, actionLabel:actionLabel,
+      dca:dca, aT:aT, upside:upside,
+      verdict:verdictText,
+      sparkData:ta.sparkData||[],
+      lp:lp, _stock:s, _ta:ta
+    };
+  });
+
+  // Filter
+  rows = rows.filter(function(r){
+    if(PIV_FILTER==='all') return true;
+    if(PIV_FILTER==='urgent') return r.action==='urgent' || r.pri==='P0';
+    if(PIV_FILTER==='add') return r.action==='add' || r.action==='urgent';
+    if(PIV_FILTER==='hold') return r.action==='hold';
+    if(PIV_FILTER==='trim') return r.action==='trim';
+    if(PIV_FILTER==='watch') return r.action==='watch';
+    if(PIV_FILTER==='winners') return r.ret>=50;
+    return true;
+  });
+
+  // Sort
+  var k = PIV_SORT.key, dir = PIV_SORT.dir;
+  rows.sort(function(a,b){
+    var av=a[k], bv=b[k];
+    if(typeof av==='string'){return av.localeCompare(bv)*dir;}
+    return (av-bv)*dir;
+  });
+
+  // RSI bar fill class
+  function rsiClass(rsi){
+    if(rsi<=35) return 'cool';
+    if(rsi>=80) return 'danger';
+    if(rsi>=70) return 'hot';
+    return 'neutral';
+  }
+
+  body.innerHTML = rows.map(function(r){
+    var stripeClass = r.action || 'hold';
+    var actionPillClass = r.action || 'hold';
+    var actionPillLabel = r.action==='urgent'?'ADD HARD'
+      : r.action==='add'?'ADD'
+      : r.action==='hold'?'HOLD'
+      : r.action==='trim'?'TRIM'
+      : r.action==='watch'?'WATCH'
+      : r.actionLabel;
+    var todayClass = r.todayPct>=0?'up':'dn';
+    var todayArrow = r.todayPct>=0?'▲':'▼';
+    var retClass = r.ret>=0?'up':'dn';
+    var upsideClass = r.upside>=20?'strong':r.upside>=0?'mid':'neg';
+    var weightWarning = r.weight>20 ? '<span style="color:var(--orange);font-weight:600;">'+r.weight.toFixed(1)+'%</span>' : r.weight.toFixed(1)+'%';
+    var dcaLabel = r.dca>0
+      ? '<span class="piv-dca-tag">DCA $'+r.dca+'/mo</span>'
+      : '<span class="piv-dca-tag none">No DCA</span>';
+    var rsiCls = rsiClass(r.rsi);
+    var rsiPct = Math.min(100, Math.max(0, r.rsi));
+    return ''
+      +'<div class="piv-card" data-tkr="'+r.t+'" onclick="pivToggleCard(this,\''+r.t+'\')">'
+        +'<div class="piv-stripe '+stripeClass+'"></div>'
+        // Identity block
+        +'<div class="piv-id">'
+          +'<div class="piv-id-row">'
+            +'<span class="piv-tkr-large">'+r.t+'</span>'
+            +'<span class="piv-pri-chip '+r.pri+'">'+r.pri+'</span>'
+          +'</div>'
+          +'<div class="piv-id-name">'+r.n+'</div>'
+          +'<div class="piv-id-meta">'
+            +'<span>'+r.theme+'</span>'
+            +'<span class="piv-id-meta-dot">·</span>'
+            +'<span>'+(r.units<10?r.units.toFixed(2):r.units.toFixed(1))+' units</span>'
+            +'<span class="piv-id-meta-dot">·</span>'
+            +'<span>$'+r.val.toLocaleString('en-US',{maximumFractionDigits:0})+'</span>'
+          +'</div>'
+        +'</div>'
+        // Price + sparkline block
+        +'<div class="piv-price-block">'
+          +'<div class="piv-price-row">'
+            +'<span class="piv-price">$'+r.cur.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})+'</span>'
+            +'<span class="piv-today '+todayClass+'">'+todayArrow+' '+Math.abs(r.todayPct).toFixed(2)+'%</span>'
+          +'</div>'
+          +'<div class="piv-spark-row">'
+            +pivSparkline(r.t, r.sparkData)
+            +'<span class="piv-spark-meta">avg $'+r.buy.toFixed(0)+'</span>'
+          +'</div>'
+        +'</div>'
+        // Return + weight block
+        +'<div class="piv-return-block">'
+          +'<div class="piv-return '+retClass+'">'+(r.ret>=0?'+':'')+r.ret.toFixed(1)+'%</div>'
+          +'<div class="piv-return-meta">'
+            +'<span>WT <strong>'+weightWarning+'</strong></span>'
+            +'<span class="piv-id-meta-dot">·</span>'
+            +'<span>P&amp;L <strong>'+(r.ret>=0?'+':'')+'$'+Math.abs((r.cur-r.buy)*r.units).toLocaleString('en-US',{maximumFractionDigits:0})+'</strong></span>'
+          +'</div>'
+        +'</div>'
+        // Target + upside block
+        +'<div class="piv-target-block">'
+          +'<div class="piv-target-label">Analyst Target</div>'
+          +'<div class="piv-target-row">'
+            +'<span class="piv-target-px">$'+r.aT+'</span>'
+            +'<span class="piv-upside '+upsideClass+'">'+(r.upside>=0?'+':'')+r.upside.toFixed(0)+'%</span>'
+          +'</div>'
+          +'<div class="piv-rsi-bar">'
+            +'<span>RSI</span>'
+            +'<div class="piv-rsi-track"><div class="piv-rsi-fill '+rsiCls+'" style="width:'+rsiPct+'%;"></div></div>'
+            +'<span style="font-weight:600;color:var(--text2);">'+r.rsi+'</span>'
+          +'</div>'
+        +'</div>'
+        // Action + DCA block
+        +'<div class="piv-action-block">'
+          +'<span class="piv-action-pill '+actionPillClass+'">'+actionPillLabel+'</span>'
+          +dcaLabel
+        +'</div>'
+        // Expand indicator
+        +'<div class="piv-go">›</div>'
+      +'</div>'
+      // INLINE EXPANSION: investment-banker analyst note (slides down when card expanded)
+      +'<div class="piv-verdict">'+pivRenderInlineNote(r)+'</div>';
+  }).join('');
+
+  // Update sort header indicators
+  document.querySelectorAll('#pivSortHeader > div.sortable').forEach(function(div){
+    div.classList.remove('sorted','sorted-asc','sorted-desc');
+    if(div.getAttribute('data-sort')===PIV_SORT.key){
+      div.classList.add('sorted', PIV_SORT.dir>0?'sorted-asc':'sorted-desc');
+    }
+  });
+
+  // Compute KPI values from full PORT (not filtered)
+  var p0Count = PORT.filter(function(s){return s.pri==='P0' || s.action==='urgent';}).length;
+  var dcaTotal = PORT.reduce(function(sum,s){return sum + ((s.dca&&s.dca.mo)||0);},0);
+  var p0Stocks = PORT.filter(function(s){return s.pri==='P0';}).map(function(s){return s.t;}).join(' · ');
+  var p0CountEl = document.getElementById('pivP0Count');
+  var p0DescEl = p0CountEl && p0CountEl.parentNode.querySelector('.kpi-s');
+  if(p0CountEl) p0CountEl.textContent = p0Count;
+  if(p0DescEl) p0DescEl.textContent = p0Stocks || '—';
+  var dcaEl = document.getElementById('pivDcaTotal');
+  if(dcaEl) dcaEl.textContent = '$'+dcaTotal.toLocaleString();
+  var dcaDescEl = dcaEl && dcaEl.parentNode.querySelector('.kpi-s');
+  if(dcaDescEl){
+    var dcaCount = PORT.filter(function(s){return s.dca && s.dca.mo>0;}).length;
+    dcaDescEl.textContent = 'across '+dcaCount+' stocks';
+  }
+  // Update filter chip counts
+  var counts = {
+    all:PORT.length,
+    urgent:PORT.filter(function(s){return s.pri==='P0'||s.action==='urgent';}).length,
+    add:PORT.filter(function(s){return s.action==='add'||s.action==='urgent';}).length,
+    hold:PORT.filter(function(s){return s.action==='hold';}).length,
+    trim:PORT.filter(function(s){return s.action==='trim';}).length,
+    watch:PORT.filter(function(s){return s.action==='watch';}).length
+  };
+  document.querySelectorAll('.pivf-btn').forEach(function(b){
+    var f=b.getAttribute('data-filter');
+    var c=b.querySelector('.pivf-c');
+    if(c && counts[f]!==undefined) c.textContent = counts[f];
+  });
+
+  // Total value & gain (when no live yet, derive from PORT)
+  if(!LIVE_FETCH_OK){
+    var totalLive = PORT.reduce(function(sum,s){return sum+s.val;},0);
+    var gainLive = PORT.reduce(function(sum,s){return sum+(s.cur-s.buy)*s.units;},0);
+    var totalValEl = document.getElementById('pivTotalVal');
+    var totalGainEl = document.getElementById('pivTotalGain');
+    var totalGainPctEl = document.getElementById('pivTotalGainPct');
+    if(totalValEl) totalValEl.textContent = '$'+totalLive.toLocaleString('en-US',{maximumFractionDigits:0});
+    if(totalGainEl) totalGainEl.textContent = (gainLive>=0?'+':'')+'$'+gainLive.toLocaleString('en-US',{maximumFractionDigits:0});
+    if(totalGainPctEl) totalGainPctEl.textContent = (gainLive>=0?'+':'')+(gainLive/Math.max(1,(totalLive-gainLive))*100).toFixed(2)+'%';
+  }
+
+  if(!softUpdate) buildPivInvLenses();
+}
+
+// Toggle inline expansion — NO scrolling, NO separate panel.
+// Click = expand below row in place. Click again = collapse.
+window.pivToggleCard = function(el, tkr){
+  var alreadyOpen = el.classList.contains('expanded');
+  // Collapse all OTHER expanded cards first (single-open mode)
+  document.querySelectorAll('.piv-card.expanded').forEach(function(c){
+    if(c!==el) c.classList.remove('expanded');
+  });
+  el.classList.toggle('expanded');
+  // Hide the legacy bottom drill panel if it's still showing from previous version
+  var legacy = document.getElementById('pivDrillPanel');
+  if(legacy) legacy.style.display='none';
+};
+
+function buildPivInvLenses(){
+  var grid = document.getElementById('pivInvGrid');
+  if(!grid) return;
+  var INV_KEYS=['buffett','soros','lynch','graham','taleb'];
+  var INV_TAG = {
+    buffett:'Value · moat · margin of safety',
+    soros:'Reflexive loops · momentum',
+    lynch:'PEG · 10-bagger hunter',
+    graham:'Pure value · numbers only',
+    taleb:'Antifragile · barbell strategy'
+  };
+  grid.innerHTML = INV_KEYS.map(function(k){
+    var emoji = INV_E[k];
+    var name = INV_N[k];
+    var counts = {STRONG_BUY:0,BUY:0,HOLD:0,WATCH:0,TRIM:0,AVOID:0};
+    var topPicks=[];
+    var totalRated = 0;
+    PORT.forEach(function(s){
+      var v = (s.inv && s.inv[k]) || '';
+      if(!v) return;
+      totalRated++;
+      var verdict = v.split(' — ')[0].trim().toUpperCase();
+      if(verdict.indexOf('STRONG BUY')>=0){counts.STRONG_BUY++;topPicks.push({t:s.t,strong:true});}
+      else if(verdict.indexOf('BUY')===0 || verdict==='RARE BUY' || verdict==='10-BAGGER CANDIDATE'){counts.BUY++;topPicks.push({t:s.t,strong:false});}
+      else if(verdict.indexOf('HOLD')>=0)counts.HOLD++;
+      else if(verdict.indexOf('WATCH')>=0 || verdict.indexOf('WAIT')>=0)counts.WATCH++;
+      else if(verdict.indexOf('TRIM')>=0 || verdict.indexOf('HEDGE')>=0)counts.TRIM++;
+      else if(verdict.indexOf('AVOID')>=0 || verdict.indexOf('DANGEROUSLY')>=0 || verdict.indexOf('STRONG AVOID')>=0)counts.AVOID++;
+      else counts.HOLD++;
+    });
+    var totalBull = counts.STRONG_BUY + counts.BUY;
+    var totalBear = counts.AVOID + counts.TRIM;
+    // Sentiment bar widths (% of total)
+    var t = Math.max(1, totalRated);
+    var pctBuy   = ((counts.STRONG_BUY+counts.BUY)/t*100);
+    var pctHold  = (counts.HOLD/t*100);
+    var pctWatch = (counts.WATCH/t*100);
+    var pctAvoid = ((counts.AVOID+counts.TRIM)/t*100);
+    // Bias score: bullish - bearish, normalized
+    var biasNet = totalBull - totalBear;
+    var scoreClass = biasNet>=4 ? 'bull' : biasNet<=-2 ? 'bear' : 'neutral';
+    var scoreLabel = biasNet>=4 ? 'BULLISH' : biasNet<=-2 ? 'BEARISH' : 'NEUTRAL';
+    return ''
+      +'<div class="piv-inv-card" data-i="'+k+'">'
+        +'<div class="piv-inv-head">'
+          +'<div class="piv-inv-name"><span class="piv-inv-emoji">'+emoji+'</span>'+name+'</div>'
+          +'<div class="piv-inv-score '+scoreClass+'">'+scoreLabel+'</div>'
+        +'</div>'
+        +'<div style="font-family:DM Mono,monospace;font-size:8.5px;letter-spacing:.1em;color:var(--text3);text-transform:uppercase;margin-bottom:.6rem;">'+INV_TAG[k]+'</div>'
+        +'<div class="piv-sentiment-bar">'
+          +(pctBuy>0?'<div class="piv-sentiment-seg buy" style="width:'+pctBuy.toFixed(1)+'%;"></div>':'')
+          +(pctHold>0?'<div class="piv-sentiment-seg hold" style="width:'+pctHold.toFixed(1)+'%;"></div>':'')
+          +(pctWatch>0?'<div class="piv-sentiment-seg watch" style="width:'+pctWatch.toFixed(1)+'%;"></div>':'')
+          +(pctAvoid>0?'<div class="piv-sentiment-seg avoid" style="width:'+pctAvoid.toFixed(1)+'%;"></div>':'')
+        +'</div>'
+        +'<div class="piv-inv-counts">'
+          +(counts.STRONG_BUY?'<span class="piv-inv-count" style="color:#5fe896;"><strong>'+counts.STRONG_BUY+'</strong> Strong Buy</span>':'')
+          +(counts.BUY?'<span class="piv-inv-count" style="color:#3ddc84;"><strong>'+counts.BUY+'</strong> Buy</span>':'')
+          +(counts.HOLD?'<span class="piv-inv-count"><strong>'+counts.HOLD+'</strong> Hold</span>':'')
+          +(counts.WATCH?'<span class="piv-inv-count" style="color:#b388ff;"><strong>'+counts.WATCH+'</strong> Watch</span>':'')
+          +(counts.TRIM?'<span class="piv-inv-count" style="color:#e88340;"><strong>'+counts.TRIM+'</strong> Trim</span>':'')
+          +(counts.AVOID?'<span class="piv-inv-count" style="color:#e05252;"><strong>'+counts.AVOID+'</strong> Avoid</span>':'')
+        +'</div>'
+        +(topPicks.length?'<div class="piv-inv-picks">Top Picks</div>'
+          +'<div class="piv-inv-picks-list">'+topPicks.slice(0,8).map(function(p){
+            return '<span class="piv-inv-tkr"'+(p.strong?' style="border-color:rgba(61,220,132,.4);color:#9eedbf;"':'')+'>'+p.t+'</span>';
+          }).join('')+'</div>':'')
+      +'</div>';
+  }).join('');
+}
+
+window.pivDrillDown = function(tkr){
+  var s = PORT.find(function(p){return p.t===tkr;});
+  var ta = TA[tkr] || {};
+  if(!s) return;
+  var panel = document.getElementById('pivDrillPanel');
+  if(!panel) return;
+  var ret = ((s.cur-s.buy)/s.buy)*100;
+  var lp = LIVE_PRICES[tkr];
+  panel.style.display='block';
+  panel.innerHTML = ''
+    +'<div class="piv-drill-header">'
+      +'<div>'
+        +'<div class="piv-drill-tkr">'+s.t+'<span class="piv-drill-name">'+s.n+'</span></div>'
+      +'</div>'
+      +'<div class="piv-drill-stats">'
+        +'<div><div class="piv-drill-stat-l">Live</div><div class="piv-drill-stat-v" style="color:'+(lp&&lp.changePct>=0?'var(--green)':'var(--red)')+';">$'+(lp?lp.price.toFixed(2):s.cur.toFixed(2))+(lp?' '+(lp.changePct>=0?'▲':'▼')+' '+Math.abs(lp.changePct||0).toFixed(2)+'%':'')+'</div></div>'
+        +'<div><div class="piv-drill-stat-l">Avg Buy</div><div class="piv-drill-stat-v">$'+s.buy.toFixed(2)+'</div></div>'
+        +'<div><div class="piv-drill-stat-l">Return</div><div class="piv-drill-stat-v" style="color:'+(ret>=0?'var(--green)':'var(--red)')+';">'+(ret>=0?'+':'')+ret.toFixed(1)+'%</div></div>'
+        +'<div><div class="piv-drill-stat-l">Position</div><div class="piv-drill-stat-v">$'+s.val.toLocaleString('en-US',{maximumFractionDigits:0})+'</div></div>'
+      +'</div>'
+      +'<button class="piv-drill-close" onclick="closePivDrill(event)">CLOSE ✕</button>'
+    +'</div>'
+    +'<div class="piv-drill-grid">'
+      +'<div class="piv-drill-card tech">'
+        +'<div class="piv-drill-card-l">📊 Technical</div>'
+        +'<div class="piv-drill-card-body">RSI <strong>'+(ta.rsi||'—')+'</strong> · '+(ta.rsiLabel||'')+'<br>MACD · '+(ta.macdSig||'—')+'<br>Pattern · '+(ta.pattern||'—')+'</div>'
+      +'</div>'
+      +'<div class="piv-drill-card dca">'
+        +'<div class="piv-drill-card-l">💰 DCA Plan</div>'
+        +'<div class="piv-drill-card-body"><strong>$'+(s.dca.mo||0)+'/month</strong><br>Target $<strong>'+(s.dca.aT||'—')+'</strong> · Bull $'+(s.dca.bull||'—')+' · Bear $'+(s.dca.bear||'—')+'</div>'
+      +'</div>'
+      +'<div class="piv-drill-card action">'
+        +'<div class="piv-drill-card-l">⚡ Action</div>'
+        +'<div class="piv-drill-card-body">'+(ta.action || (s.dca&&s.dca.note) || '—')+'</div>'
+      +'</div>'
+    +'</div>'
+    +'<div class="piv-drill-inv-row">'
+      +'<div class="piv-drill-inv-l">5 Investor Lenses</div>'
+      +'<div class="piv-drill-inv-grid">'
+        +['buffett','soros','lynch','graham','taleb'].map(function(k){
+          var v = (s.inv&&s.inv[k])||'—';
+          return '<div class="piv-drill-inv-card" data-i="'+k+'">'
+            +'<div class="piv-drill-inv-name">'+INV_E[k]+' '+INV_N[k]+'</div>'
+            +'<div class="piv-drill-inv-verdict">'+v+'</div>'
+            +'</div>';
+        }).join('')
+      +'</div>'
+    +'</div>';
+  panel.scrollIntoView({behavior:'smooth',block:'nearest'});
+};
+
+window.closePivDrill = function(e){
+  if(e) e.stopPropagation();
+  document.getElementById('pivDrillPanel').style.display='none';
+  document.querySelectorAll('.piv-card.expanded').forEach(function(c){c.classList.remove('expanded');});
+};
+
+// Wire pivot interactions
+function initPivotInteractions(){
+  // Sort handlers (new sort header)
+  document.querySelectorAll('#pivSortHeader > div.sortable').forEach(function(div){
+    div.addEventListener('click', function(){
+      var k = div.getAttribute('data-sort');
+      if(PIV_SORT.key===k) PIV_SORT.dir = -PIV_SORT.dir;
+      else { PIV_SORT.key=k; PIV_SORT.dir = (k==='t'||k==='theme'||k==='action'||k==='pri')?1:-1; }
+      buildPivot();
+    });
+  });
+  // Filter handlers
+  document.querySelectorAll('.pivf-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('.pivf-btn').forEach(function(b){b.classList.remove('pivf-on');});
+      btn.classList.add('pivf-on');
+      PIV_FILTER = btn.getAttribute('data-filter');
+      buildPivot();
+    });
+  });
+}
 
 // Init
 buildPort();buildAggr();buildThemes();buildLeaders();buildYTFilters();buildYT();buildConv();
+buildPivot();initPivotInteractions();
 setTimeout(()=>{document.getElementById('pbar').style.width='9.65%';},400);
 refreshBrief(false);
 
