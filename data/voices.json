@@ -1,5 +1,118 @@
 {
-  "updated_at": null,
-  "source": "placeholder",
-  "items": []
+  "updated_at": "2026-05-14T08:12:09.526508+05:30",
+  "source": "claude+web_search",
+  "items": [
+    {
+      "name": "Jensen Huang",
+      "role": "CEO",
+      "org": "Nvidia",
+      "cat": "CEO",
+      "date": "2026-05-13",
+      "themes": [
+        "#NVDA",
+        "#OpenAI"
+      ],
+      "quotes": [
+        {
+          "t": "We are going to make a huge investment in OpenAI...probably the largest investment we've ever made",
+          "k": true
+        },
+        {
+          "t": "We're ramping AWS like mad",
+          "k": true
+        }
+      ],
+      "src": "https://finance.yahoo.com/news/sam-altman-thanks-jensen-huang-183023240.html"
+    },
+    {
+      "name": "Sam Altman",
+      "role": "CEO",
+      "org": "OpenAI",
+      "cat": "CEO",
+      "date": "2026-05-13",
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Very grateful to Jensen for working to expand Nvidia capacity at AWS so much for us!",
+          "k": true
+        }
+      ],
+      "src": "https://finance.yahoo.com/news/sam-altman-thanks-jensen-huang-183023240.html"
+    },
+    {
+      "name": "Satya Nadella",
+      "role": "CEO",
+      "org": "Microsoft",
+      "cat": "CEO",
+      "date": "2026-05-11",
+      "themes": [
+        "#MSFT",
+        "#OpenAI"
+      ],
+      "quotes": [
+        {
+          "t": "If these tokens are not improving health outcomes, education outcomes...then even the social license to use scarce energy will be lost very quickly",
+          "k": true
+        }
+      ],
+      "src": "https://finance.biggo.com/news/4ZriIZ0BOIb5XxavGH9-"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-05-12",
+      "themes": [
+        "#AI",
+        "#Software"
+      ],
+      "quotes": [
+        {
+          "t": "Software continues to be 'in the winners circle'",
+          "k": true
+        }
+      ],
+      "src": "https://www.cnbc.com/fastmoney/"
+    },
+    {
+      "name": "Jim Cramer",
+      "role": "Host",
+      "org": "CNBC",
+      "cat": "Analyst",
+      "date": "2026-05-10",
+      "themes": [
+        "#AI",
+        "#Hyperscalers"
+      ],
+      "quotes": [
+        {
+          "t": "The five biggest cloud companies will spend approximately $805 billion on AI infrastructure in 2026",
+          "k": true
+        }
+      ],
+      "src": "https://primaryignition.com/2026/05/10/the-3-ai-stocks-jim-cramer-cathie-wood-and-stanley-druckenmiller-all-agree-on-thats-never-happened-before/"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "CEO",
+      "org": "Tesla",
+      "cat": "CEO",
+      "date": "2026-05-13",
+      "themes": [
+        "#TSLA",
+        "#Robotics"
+      ],
+      "quotes": [
+        {
+          "t": "Custom orders of the Tesla Model S & X have come to an end. I love those cars",
+          "k": true
+        }
+      ],
+      "src": "https://electrek.co/2026/04/01/tesla-model-s-x-production-over-only-inventory-left/"
+    }
+  ]
 }

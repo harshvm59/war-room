@@ -1,5 +1,86 @@
 {
-  "updated_at": null,
-  "source": "placeholder",
-  "items": []
+  "updated_at": "2026-05-14T08:12:09.526110+05:30",
+  "source": "claude+web_search",
+  "items": [
+    {
+      "ch": "CNBC Fast Money",
+      "c": "#ff6b6b",
+      "theme": "AI Compute",
+      "title": "Software continues to be 'in the winners circle' - Dan Ives on AI trade",
+      "date": "2026-05-12",
+      "views": "CNBC",
+      "tags": [
+        "#NVDA",
+        "#AI"
+      ],
+      "verd": "Wedbush's Ives bullish on software as AI infrastructure spend hits $805B",
+      "vc": "var(--green)",
+      "body": "Dan Ives highlights software stocks continuing AI leadership as hyperscalers ramp capital expenditures. Five biggest cloud companies projected to spend $805 billion on AI infrastructure in 2026, rising to $1 trillion in 2027.",
+      "url": "https://www.cnbc.com/fastmoney/"
+    },
+    {
+      "ch": "CNBC Fast Money",
+      "c": "#ff6b6b",
+      "theme": "AI Compute",
+      "title": "Fast Money traders talk Nvidia hitting an all-time high",
+      "date": "2026-05-13",
+      "views": "CNBC",
+      "tags": [
+        "#NVDA",
+        "#AI"
+      ],
+      "verd": "NVDA reaches new record as chip momentum accelerates into earnings",
+      "vc": "var(--green)",
+      "body": "Traders discuss Nvidia's new all-time high as semiconductor rally continues. Stock trading around $225 with powerful momentum ahead of May 20 earnings release.",
+      "url": "https://www.cnbc.com/video/2026/05/13/fast-money-traders-talks-nvidia-hitting-an-all-time-high.html"
+    },
+    {
+      "ch": "Bloomberg Surveillance",
+      "c": "#4a9eff",
+      "theme": "Sovereign AI",
+      "title": "Bloomberg Surveillance: Jensen Huang joins Trump Beijing visit",
+      "date": "2026-05-13",
+      "views": "Bloomberg",
+      "tags": [
+        "#NVDA",
+        "#China"
+      ],
+      "verd": "Nvidia CEO accompanies Trump to China for high-stakes trade discussions",
+      "vc": "var(--gold)",
+      "body": "Jensen Huang joins President Trump's delegation to China alongside Tim Cook and Elon Musk for critical summit. Air Force One made Alaska stop to pick up Huang for May 14-15 Beijing meetings.",
+      "url": "https://www.cnbc.com/latest-video/"
+    },
+    {
+      "ch": "The Motley Fool",
+      "c": "#00a67e",
+      "theme": "AI Compute",
+      "title": "Prediction: Nvidia Stock Will Soar on May 20",
+      "date": "2026-05-13",
+      "views": "Motley Fool",
+      "tags": [
+        "#NVDA",
+        "#Earnings"
+      ],
+      "verd": "Beat-and-raise quarter expected as hyperscaler demand accelerates",
+      "vc": "var(--green)",
+      "body": "Analysts expect Nvidia to report strong Q1 FY2027 results on May 20 with EPS of $1.76 (up 116.9% YoY) and revenue of $78.5B (up 78.2% YoY). Amazon, Microsoft, Alphabet continue massive AI infrastructure spending.",
+      "url": "https://www.fool.com/investing/2026/05/13/prediction-nvidia-stock-will-soar-on-may-20/"
+    },
+    {
+      "ch": "TheStreet",
+      "c": "#1a73e8",
+      "theme": "AI Compute",
+      "title": "Stock Market Today: Nasdaq, S&P 500 set new records as tech leads despite inflation scare",
+      "date": "2026-05-13",
+      "views": "TheStreet",
+      "tags": [
+        "#SPY",
+        "#QQQ"
+      ],
+      "verd": "Markets shrug off 6% PPI surge; Nasdaq +1.20%, S&P 500 +0.58% to new highs",
+      "vc": "var(--green)",
+      "body": "Tech stocks rally despite wholesale inflation hitting 6% YoY in April. Nasdaq closed at 26,402 and S&P 500 at 7,444, both new record closes, as semiconductor momentum continues.",
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-may-13-2026-updates"
+    }
+  ]
 }

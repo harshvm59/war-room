@@ -1,5 +1,86 @@
 {
-  "updated_at": null,
-  "source": "placeholder",
-  "items": []
+  "updated_at": "2026-05-14T08:12:09.526742+05:30",
+  "source": "claude+web_search",
+  "items": [
+    {
+      "ticker": "NVDA",
+      "headline": "Nvidia hits all-time high as Huang joins Trump China trip",
+      "date": "2026-05-13",
+      "summary": "NVDA trading around $225 reached new record as Jensen Huang accompanies Trump to Beijing for May 14-15 summit. Air Force One stopped in Alaska to pick up Nvidia CEO.",
+      "tag": "product",
+      "url": "https://www.cnbc.com/latest-video/"
+    },
+    {
+      "ticker": "TSLA",
+      "headline": "Tesla officially ends Model S and X production",
+      "date": "2026-05-13",
+      "summary": "Elon Musk confirms custom orders have ended with only ~600 units left in inventory globally. Fremont lines converting to Optimus robot production with 1M unit/year target.",
+      "tag": "product",
+      "url": "https://electrek.co/2026/04/01/tesla-model-s-x-production-over-only-inventory-left/"
+    },
+    {
+      "ticker": "PLTR",
+      "headline": "Palantir delivers record Q1 beat, raises full-year guidance",
+      "date": "2026-05-05",
+      "summary": "Q1 revenue jumped 85% to $1.63B (vs est. $1.53B), EPS $0.33 (vs est. $0.28). Company raised FY guidance to $7.65-7.66B, up from $7.18-7.20B prior.",
+      "tag": "earnings",
+      "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-sp-500-earnings-growth-trend-impresses-100000216.html"
+    },
+    {
+      "ticker": "AMD",
+      "headline": "AMD crushes Q1 estimates, stock jumps 6% after hours",
+      "date": "2026-05-06",
+      "summary": "Q1 EPS $1.37 vs est. $1.28, revenue $10.25B vs est. $9.89B. Data center revenue $5.8B, up 57% YoY. Q2 guidance $10.9-11.5B vs est. $10.52B.",
+      "tag": "earnings",
+      "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-sp-500-earnings-growth-trend-impresses-100000216.html"
+    },
+    {
+      "ticker": "GOOGL",
+      "headline": "Alphabet capex to significantly accelerate in 2027",
+      "date": "2026-05-13",
+      "summary": "Management notes capex spending already elevated at $180-190B in 2026 will 'significantly accelerate' in 2027 to support AI infrastructure buildout.",
+      "tag": "macro",
+      "url": "https://www.fool.com/investing/2026/05/13/prediction-nvidia-stock-will-soar-on-may-20/"
+    },
+    {
+      "ticker": "AMZN",
+      "headline": "Amazon plans $200B AI infrastructure spend through 2026",
+      "date": "2026-05-13",
+      "summary": "Amazon still plans to dish out ~$200B on AI infrastructure, with less than 25% spent as of Q1 end. Company remains major Nvidia customer.",
+      "tag": "macro",
+      "url": "https://www.fool.com/investing/2026/05/13/prediction-nvidia-stock-will-soar-on-may-20/"
+    },
+    {
+      "ticker": "META",
+      "headline": "Meta among top AI spenders as infrastructure race intensifies",
+      "date": "2026-05-13",
+      "summary": "Meta Platforms continues aggressive AI chip purchases alongside hyperscaler peers. Nvidia expanding infrastructure support for Meta as AI race accelerates.",
+      "tag": "macro",
+      "url": "https://www.fool.com/investing/2026/05/13/prediction-nvidia-stock-will-soar-on-may-20/"
+    },
+    {
+      "ticker": "CEG",
+      "headline": "Constellation Energy falls 7.8% on May 13 session",
+      "date": "2026-05-13",
+      "summary": "CEG declined 7.8% in Wednesday trading as part of broader market rotation. Stock remains key beneficiary of data center power demand.",
+      "tag": "macro",
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-may-13-2026-updates"
+    },
+    {
+      "ticker": "MU",
+      "headline": "Micron bulls say 'even more confident now' ahead of results",
+      "date": "2026-05-13",
+      "summary": "Memory stock momentum continues with DRAM ETF soaring nearly 30% in recent week. Analysts increasingly bullish on memory demand supporting AI infrastructure.",
+      "tag": "upgrade",
+      "url": "https://www.cnbc.com/investing/"
+    },
+    {
+      "ticker": "AVGO",
+      "headline": "Broadcom up nearly 40% since April, Citi says 'best chip name in 2026'",
+      "date": "2026-05-13",
+      "summary": "AVGO surges on custom AI chip momentum. Citi raises price target ahead of June 3 earnings, citing CEO Hock Tan's projection of $100B+ custom AI chip revenue.",
+      "tag": "upgrade",
+      "url": "https://robinhood.com/us/en/stocks/AVGO/"
+    }
+  ]
 }
