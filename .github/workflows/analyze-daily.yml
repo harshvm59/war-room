@@ -1,10 +1,15 @@
 name: Daily TA Analysis
 
-# Runs once per US trading day, AFTER market close.
-# 21:30 UTC = 3 AM IST next day (or 2 AM during US winter DST).
+# Schedule: hourly during US market hours + once post-close.
+# US market: 13:30-20:00 UTC EDT (winter: 14:30-21:00 UTC EST).
+# Hourly during market: catches morning open, mid-day, late-day moves.
+# 21:30 UTC = post-close summary (= 3 AM IST next morning).
 
 on:
   schedule:
+    # Hourly at the top of each market hour (14:00..20:00 UTC, Mon-Fri)
+    - cron: "0 14-20 * * 1-5"
+    # Post-close end-of-day summary
     - cron: "30 21 * * 1-5"
   workflow_dispatch:
 
@@ -45,7 +50,7 @@ jobs:
             echo "actions.json unchanged — skipping commit."
             exit 0
           fi
-          DATE=$(date -u +"%Y-%m-%d")
+          STAMP=$(date -u +"%Y-%m-%d %H:%MZ")
           git add data/actions.json
-          git commit -m "Daily TA analysis ${DATE} [skip ci]"
+          git commit -m "TA refresh ${STAMP} [skip ci]"
           git push
