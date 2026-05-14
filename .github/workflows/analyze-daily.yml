@@ -1,12 +1,8 @@
 name: Daily TA Analysis
 
-# Schedule: hourly during US market hours + once post-close.
-# 14:00-20:00 UTC = US market hours window (covers EDT and EST).
-# 21:30 UTC = post-close end-of-day summary.
-
 on:
   schedule:
-    - cron: "0 14-20 * * 1-5"
+    - cron: "0,30 14-20 * * 1-5"
     - cron: "30 21 * * 1-5"
   workflow_dispatch:
 
@@ -22,23 +18,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
-
       - name: Run daily TA analysis + Telegram push
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/analyze_daily.py
-
       - name: Commit + push with rebase-retry
         run: |
           git config user.name  "war-room-bot"
@@ -51,14 +43,10 @@ jobs:
           git add data/actions.json
           git commit -m "TA refresh ${STAMP} [skip ci]"
           for attempt in 1 2 3 4 5; do
-            if git push; then
-              echo "Pushed successfully on attempt ${attempt}"
-              exit 0
-            fi
-            echo "Push rejected (attempt ${attempt}); rebasing onto latest main..."
+            if git push; then echo "Pushed on attempt ${attempt}"; exit 0; fi
+            echo "rebasing..."
             git fetch origin main
             git pull --rebase --autostash origin main || git rebase --abort || true
             sleep 2
           done
-          echo "Failed to push after 5 attempts"
           exit 1
