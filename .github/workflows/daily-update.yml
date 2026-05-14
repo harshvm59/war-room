@@ -1,0 +1,17 @@
+# This workflow has been split into 3 separate cadences:
+#   - actions-15min.yml   (every 15 min, market hours)
+#   - news-daily.yml      (daily 09:00 IST)
+#   - themes-biweekly.yml (every other day 09:00 IST)
+#
+# This file is kept only so existing badges don't 404. It is a no-op.
+
+name: Daily War Room Update (deprecated)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This workflow is deprecated. See actions-15min.yml, news-daily.yml, themes-biweekly.yml."
