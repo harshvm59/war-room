@@ -1,5 +1,206 @@
 {
-  "updated_at": null,
-  "source": "placeholder",
-  "items": []
+  "updated_at": "2026-05-14T20:57:14.315248+05:30",
+  "source": "claude+web_search",
+  "items": [
+    {
+      "theme": "AI Compute & Semiconductors",
+      "rating": "HOT",
+      "rc": "var(--red)",
+      "summary": "The PHLX Semiconductor Index surged 65% YTD through May 2026, driven by record AI infrastructure investment. Memory chip spending jumped from $216B (2025) to $633B (2026). However, analysts warn valuations resemble 1999-2000 dot-com bubble levels, with potential 25-30% corrections ahead. Micron's Q2 FY2026 EPS jumped 8x YoY to $12.20; Q3 guidance at $19.15 signals 10x YoY growth.",
+      "news": [
+        {
+          "title": "Qualcomm drops 11% as chip stocks pull back from record AI-driven rally",
+          "date": "2026-05-12",
+          "url": "https://www.cnbc.com/2026/05/12/qualcomm-chip-stocks-record-ai.html"
+        },
+        {
+          "title": "Sandisk reports 251% YoY revenue growth to $5.95B; adjusted EPS of $23.41 vs $-0.30 prior year",
+          "date": "2026-05-08",
+          "url": "https://www.fool.com/investing/2026/05/08/the-best-ai-chips-stocks-to-buy-right-now-in-2026/"
+        }
+      ],
+      "tickers": [
+        "NVDA",
+        "MU",
+        "TSM",
+        "AVGO",
+        "AMD"
+      ]
+    },
+    {
+      "theme": "Energy & Nuclear Power",
+      "rating": "HOT",
+      "rc": "var(--red)",
+      "summary": "Nuclear energy resurgence driven by AI data center power demand. Cameco Q1 2026 consolidated net earnings rose to C$131M (US$96M), up 87% YoY. NuScale reported Q1 revenue of $565K (down from $13.4M due to completion of licensing deals) but secured $1.2B+ liquidity for TVA partnership covering up to 6 GW deployment. NANO Nuclear announced strategic MOU with Supermicro (May 6) for nuclear-powered AI data centers.",
+      "news": [
+        {
+          "title": "NANO Nuclear announces strategic MOU with Supermicro on May 6 for nuclear-powered AI data centers",
+          "date": "2026-05-13",
+          "url": "https://www.investorideas.com/news/2026/energy/05131-nuclear-stocks-ai-power-demand.asp"
+        },
+        {
+          "title": "Humanoid signed landmark Schaeffler deployment deal for thousands of robots across factories by 2032",
+          "date": "2026-05-13",
+          "url": "https://www.roboticstomorrow.com/news/2026/05/13/humanoid-secures-landmark-deal-with-schaeffler-to-deploy-thousands-of-humanoid-robots/26562/"
+        }
+      ],
+      "tickers": [
+        "CCJ",
+        "NNE",
+        "SMR",
+        "OKLO",
+        "CEG"
+      ]
+    },
+    {
+      "theme": "Defense & National Security",
+      "rating": "WARM",
+      "rc": "var(--gold)",
+      "summary": "U.S. defense budget nearing $1 trillion; ~$150B already appropriated including Golden Dome anti-missile initiative and $10.8B nuclear arsenal modernization (OBBBA act). Leidos accelerating hypersonic weapons production (May 12 announcement). Rocket Lab, Boeing, GE Aerospace, RTX, and Howmet Aerospace among key watchlist stocks. Geopolitical conflicts in Europe/Middle East driving replenishment demand and multi-year revenue visibility.",
+      "news": [
+        {
+          "title": "Defense Stocks To Consider – May 12th (Rocket Lab, Boeing, GE Aerospace top watchlist)",
+          "date": "2026-05-12",
+          "url": "https://www.dailypolitical.com/2026/05/12/defense-stocks-to-consider-may-12th.html"
+        },
+        {
+          "title": "Leidos to Accelerate Hypersonic Weapons Production for U.S. Army and Navy",
+          "date": "2026-05-12",
+          "url": "https://www.stocktitan.net/stocks/themes/defense-military-stocks"
+        }
+      ],
+      "tickers": [
+        "RTX",
+        "NOC",
+        "LMT",
+        "LDOS",
+        "GE"
+      ]
+    },
+    {
+      "theme": "Agentic AI & Enterprise SaaS",
+      "rating": "HOT",
+      "rc": "var(--red)",
+      "summary": "Bain & Company estimates $100B US SaaS market opportunity for agentic AI automation; vendors currently capture only $4-6B (5-6% penetration). Deloitte predicts 50% of orgs allocating >50% digital transformation budgets to AI automation in 2026. SAP launched Business AI Platform with 200+ agents and 50+ assistants (May 2026 Sapphire keynote). Pricing models shifting from seat-based to usage/outcome-based; IDC forecasts 70% of vendors refactoring pricing by 2028.",
+      "news": [
+        {
+          "title": "SAP launches Autonomous Suite with 200+ agents and 50+ assistants across 5 domains",
+          "date": "2026-05-13",
+          "url": "https://news.sap.com/2026/05/sap-sapphire-keynote-business-ai-platform-power-autonomous-enterprise/"
+        },
+        {
+          "title": "Bain: $100B US agentic AI SaaS market with only $4-6B currently captured by vendors",
+          "date": "2026-05-11",
+          "url": "https://michaelbriancotter.wordpress.com/2026/05/11/bain-sees-us100-billion-saas-market-in-agentic-ai-automation/"
+        }
+      ],
+      "tickers": [
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "MSFT"
+      ]
+    },
+    {
+      "theme": "Healthcare AI & GLP-1",
+      "rating": "HOT",
+      "rc": "var(--red)",
+      "summary": "GLP-1 market trajectory: Morgan Stanley projects $190B by 2035; BCC Research forecasts $268.4B by 2030. Patient adoption expected to reach 25-30M Americans by 2030 vs. ~10M in 2026. IQVIA calls 2026 the 'year of the orals' with oral formulations improving accessibility and compliance. Eli Lilly's oral GLP-1 (orforglipron) expected launch in 2026 for weight loss; diabetes approval follows. Pfizer Q1 2026 showed 22% operational growth from newer products including Eliquis.",
+      "news": [
+        {
+          "title": "Next-Generation GLP-1 Innovation Could Unlock Massive Metabolic Healthcare Market Opportunities",
+          "date": "2026-05-13",
+          "url": "https://www.chartmill.com/news/MRK/gnwcq-2026-5-13-next-generation-glp-1-innovation-could-unlock-massive-metabolic-healthcare-market-opportunities"
+        },
+        {
+          "title": "Hims & Hers launches Labs AI and GLP-1 expansion to diversify telehealth offerings",
+          "date": "2026-05-10",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hims-labs-ai-glp-1-170913332.html"
+        }
+      ],
+      "tickers": [
+        "LLY",
+        "NVO",
+        "HIMS",
+        "REGN",
+        "JNJ"
+      ]
+    },
+    {
+      "theme": "Physical AI & Humanoid Robotics",
+      "rating": "HOT",
+      "rc": "var(--red)",
+      "summary": "Humanoid robotics approaching inflection point from pilots to production. Humanoid secured landmark Schaeffler deal (May 13) for phased deployment of 4-digit units by 2032. Japan Airlines deployed Unitree robots at Haneda Airport (May 2026) for baggage/aircraft operations. BMW's Figure 02 robots produced 30,000+ vehicles with 1,250+ operational hours, handling 90,000+ parts. Unitree filed for $610M IPO (March 2026) targeting $7B valuation; first profitability proof point in sector.",
+      "news": [
+        {
+          "title": "Humanoid secures landmark deal with Schaeffler to deploy thousands of robots by 2032",
+          "date": "2026-05-13",
+          "url": "https://www.roboticstomorrow.com/news/2026/05/13/humanoid-secures-landmark-deal-with-schaeffler-to-deploy-thousands-of-humanoid-robots/26562/"
+        },
+        {
+          "title": "Japan Airlines deploys Unitree humanoid robots at Tokyo Haneda Airport in May 2026 operational trial",
+          "date": "2026-05-14",
+          "url": "https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform/"
+        }
+      ],
+      "tickers": [
+        "NVDA",
+        "TSLA",
+        "SCHW",
+        "AVGO",
+        "INTC"
+      ]
+    },
+    {
+      "theme": "Critical Minerals & Copper",
+      "rating": "WARM",
+      "rc": "var(--gold)",
+      "summary": "Copper prices reached record $13,387/tonne (Jan 2026) but trading ~$13,000/mt (May 2026). JPMorgan forecasts $12,500/mt in Q2 2026, averaging $12,075 YTD. Supply-demand tension: Goldman Sachs projects 160kt surplus in 2026 (down from 500kt in 2025), moving toward structural deficit by 2029. BloombergNEF warns copper may enter deficit as early as 2026 with energy transition demand potentially tripling by 2045. China suspended sulfuric acid exports (May 2026), tightening smelting capacity.",
+      "news": [
+        {
+          "title": "Copper prices surge above $13,000 as AI data centers and electrification drive demand",
+          "date": "2026-05-13",
+          "url": "https://tradingeconomics.com/commodity/copper"
+        },
+        {
+          "title": "JPMorgan expects copper at $12,500/mt in Q2 2026; BloombergNEF warns structural deficit by 2026",
+          "date": "2026-05-11",
+          "url": "https://www.expertmarketresearch.com/price-forecast/copper-price-forecast"
+        }
+      ],
+      "tickers": [
+        "FCX",
+        "SCCO",
+        "JRVR",
+        "RIO",
+        "BHP"
+      ]
+    },
+    {
+      "theme": "Sovereign AI Infrastructure",
+      "rating": "WARM",
+      "rc": "var(--gold)",
+      "summary": "Global AI sovereignty shift from policy to infrastructure reality. WEF & Bain (Jan 2026 report) frame sovereignty as strategic interdependence; US+China capture ~65% of global AI investment. Europe building federated sovereign cloud/AI network across borders (announced March 2026) to reduce US/China reliance. IDC forecasts 60% of orgs with digital sovereignty requirements will migrate sensitive workloads by 2028. Microsoft, SAP, Oracle rolling out sovereign cloud regions with regulatory compliance controls.",
+      "news": [
+        {
+          "title": "World Economic Forum & Bain publish AI Infrastructure Sovereignty framework emphasizing strategic interdependence",
+          "date": "2026-05-14",
+          "url": "https://www.weforum.org/publications/ai-infrastructure-in-the-age-of-sovereignty-requirements-strategies-and-a-trusted-framework-for-digital-embassies/"
+        },
+        {
+          "title": "Europe unites to build sovereign cloud and AI infrastructure to stop reliance on US/China",
+          "date": "2026-03-03",
+          "url": "https://www.euronews.com/next/2026/03/03/europe-unites-to-build-sovereign-cloud-and-ai-infrastructure-to-stop-reliance-on-us"
+        }
+      ],
+      "tickers": [
+        "MSFT",
+        "ORCL",
+        "SAP",
+        "DXCQ",
+        "CIQ"
+      ]
+    }
+  ]
 }
