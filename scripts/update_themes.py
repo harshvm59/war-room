@@ -17,7 +17,7 @@ from anthropic import Anthropic
 
 from _common import envelope, now_ist, require_key, write_json
 
-MODEL = "claude-sonnet-4-5-20250929"
+MODEL = "claude-haiku-4-5-20251001"
 
 THEMES = [
     "AI Compute & Semiconductors",
