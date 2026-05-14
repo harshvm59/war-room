@@ -1,15 +1,12 @@
 name: Daily TA Analysis
 
 # Schedule: hourly during US market hours + once post-close.
-# US market: 13:30-20:00 UTC EDT (winter: 14:30-21:00 UTC EST).
-# Hourly during market: catches morning open, mid-day, late-day moves.
-# 21:30 UTC = post-close summary (= 3 AM IST next morning).
+# 14:00-20:00 UTC = US market hours window (covers EDT and EST).
+# 21:30 UTC = post-close end-of-day summary.
 
 on:
   schedule:
-    # Hourly at the top of each market hour (14:00..20:00 UTC, Mon-Fri)
     - cron: "0 14-20 * * 1-5"
-    # Post-close end-of-day summary
     - cron: "30 21 * * 1-5"
   workflow_dispatch:
 
@@ -42,15 +39,26 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/analyze_daily.py
 
-      - name: Commit if changed
+      - name: Commit + push with rebase-retry
         run: |
           git config user.name  "war-room-bot"
           git config user.email "war-room-bot@users.noreply.github.com"
           if git diff --quiet -- data/actions.json; then
-            echo "actions.json unchanged — skipping commit."
+            echo "actions.json unchanged \u2014 skipping commit."
             exit 0
           fi
           STAMP=$(date -u +"%Y-%m-%d %H:%MZ")
           git add data/actions.json
           git commit -m "TA refresh ${STAMP} [skip ci]"
-          git push
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed successfully on attempt ${attempt}"
+              exit 0
+            fi
+            echo "Push rejected (attempt ${attempt}); rebasing onto latest main..."
+            git fetch origin main
+            git pull --rebase --autostash origin main || git rebase --abort || true
+            sleep 2
+          done
+          echo "Failed to push after 5 attempts"
+          exit 1
