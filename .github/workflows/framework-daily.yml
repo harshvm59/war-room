@@ -32,9 +32,11 @@ jobs:
         run: |
           git config user.name  "war-room-bot"
           git config user.email "war-room-bot@users.noreply.github.com"
-          if git diff --quiet -- data/framework.json; then exit 0; fi
-          DATE=$(date -u +"%Y-%m-%d")
           git add data/framework.json
+          if git diff --cached --quiet -- data/framework.json; then
+            echo "framework.json unchanged"; exit 0
+          fi
+          DATE=$(date -u +"%Y-%m-%d")
           git commit -m "Tom 7Q framework refresh ${DATE} [skip ci]"
           for a in 1 2 3 4 5; do
             if git push; then exit 0; fi
