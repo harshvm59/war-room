@@ -1,0 +1,47 @@
+name: Daily News + YouTube Scrape
+
+on:
+  schedule:
+    # 09:00 IST = 03:30 UTC, every day
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-daily
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Run daily scrape
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/update_news_youtube.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "war-room-bot"
+          git config user.email "war-room-bot@users.noreply.github.com"
+          if git diff --quiet -- data/news.json data/youtube.json data/voices.json; then
+            echo "No new news/youtube/voices content — skipping commit."
+            exit 0
+          fi
+          DATE=$(date -u +"%Y-%m-%d")
+          git add data/news.json data/youtube.json data/voices.json
+          git commit -m "Daily news + YouTube scrape ${DATE} [skip ci]"
+          git push
