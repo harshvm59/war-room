@@ -1,8 +1,7 @@
 name: Daily TA Analysis
 
 # Runs once per US trading day, AFTER market close.
-# US market closes 16:00 ET (= 20:00 UTC EDT / 21:00 UTC EST).
-# 21:30 UTC catches both DST modes safely, posts before user's morning IST.
+# 21:30 UTC = 3 AM IST next day (or 2 AM during US winter DST).
 
 on:
   schedule:
@@ -31,9 +30,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
-      - name: Run daily TA analysis
+      - name: Run daily TA analysis + Telegram push
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/analyze_daily.py
 
       - name: Commit if changed
