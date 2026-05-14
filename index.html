@@ -5009,5 +5009,64 @@ window.selectPortInv=function(si,ii,el){
 
 
 </script>
+<!--
+  HVM War Room — JSON data bootstrap
+  ===================================
+  Fetches data/*.json on load and overrides inline arrays. Auto-polls actions.json every 60s.
+-->
+<script>
+(function(){
+  function bust(url){ return url + '?t=' + Date.now(); }
+  function getJSON(path){
+    return fetch(bust(path), {cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+      .catch(function(){ return null; });
+  }
+  function safeCall(fn){ try { if (typeof fn === 'function') fn(); } catch(_) {} }
+  function show(stamp){
+    var el = document.getElementById('hvm-last-sync');
+    if(!el) return;
+    el.textContent = 'Synced ' + stamp;
+  }
+  Promise.all([
+    getJSON('data/actions.json'),
+    getJSON('data/youtube.json'),
+    getJSON('data/voices.json'),
+    getJSON('data/themes.json'),
+    getJSON('data/news.json')
+  ]).then(function(results){
+    var a = results[0], y = results[1], v = results[2], t = results[3], n = results[4];
+    if (a && Array.isArray(a.items) && a.items.length) {
+      try { window.TODAY_ACTIONS_MAY5 = a.items; } catch(_) {}
+      safeCall(function(){ if (typeof renderActions === 'function') renderActions(a.items); });
+    }
+    if (y && Array.isArray(y.items) && y.items.length) {
+      try { window.YTVIDEOS = y.items.concat(window.YTVIDEOS || []); } catch(_) {}
+      safeCall(function(){ if (typeof renderYTVideos === 'function') renderYTVideos(); });
+    }
+    if (v && Array.isArray(v.items) && v.items.length) {
+      try { window.VOICES = v.items.concat(window.VOICES || []); } catch(_) {}
+      safeCall(function(){ if (typeof renderVoices === 'function') renderVoices(); });
+    }
+    if (t && Array.isArray(t.items) && t.items.length) {
+      try { window.THEMES_LIVE = t.items; } catch(_) {}
+      safeCall(function(){ if (typeof renderThemes === 'function') renderThemes(t.items); });
+    }
+    if (n && Array.isArray(n.items) && n.items.length) {
+      try { window.NEWS_LIVE = n.items; } catch(_) {}
+    }
+    var newest = [a,y,v,t,n].map(function(x){ return x && x.updated_at; }).filter(Boolean).sort().pop();
+    if (newest) show(new Date(newest).toLocaleString());
+  });
+  setInterval(function(){
+    getJSON('data/actions.json').then(function(a){
+      if (a && Array.isArray(a.items) && a.items.length) {
+        try { window.TODAY_ACTIONS_MAY5 = a.items; } catch(_) {}
+        safeCall(function(){ if (typeof renderActions === 'function') renderActions(a.items); });
+      }
+    });
+  }, 60000);
+})();
+</script>
 </body>
 </html>
