@@ -1,0 +1,50 @@
+name: Actions Refresh (15-min intraday)
+
+on:
+  schedule:
+    # GitHub cron is UTC. US market hours = 13:30–20:00 UTC (Mon–Fri).
+    # We run every 15 min from 13:30–20:00 UTC.
+    # GitHub does NOT support */15 within a sub-hour window, so we list explicitly.
+    - cron: "30,45 13 * * 1-5"
+    - cron: "0,15,30,45 14-19 * * 1-5"
+    - cron: "0 20 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actions-15min
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Run intraday refresh
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/update_actions.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "war-room-bot"
+          git config user.email "war-room-bot@users.noreply.github.com"
+          if git diff --quiet -- data/actions.json; then
+            echo "actions.json unchanged — skipping commit."
+            exit 0
+          fi
+          git add data/actions.json
+          git commit -m "Intraday actions refresh $(date -u +%H:%MZ) [skip ci]"
+          git push
