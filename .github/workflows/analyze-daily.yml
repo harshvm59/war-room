@@ -1,0 +1,50 @@
+name: Daily TA Analysis
+
+# Runs once per US trading day, AFTER market close.
+# US market closes 16:00 ET (= 20:00 UTC EDT / 21:00 UTC EST).
+# 21:30 UTC catches both DST modes safely, posts before user's morning IST.
+
+on:
+  schedule:
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: analyze-daily
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Run daily TA analysis
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/analyze_daily.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "war-room-bot"
+          git config user.email "war-room-bot@users.noreply.github.com"
+          if git diff --quiet -- data/actions.json; then
+            echo "actions.json unchanged — skipping commit."
+            exit 0
+          fi
+          DATE=$(date -u +"%Y-%m-%d")
+          git add data/actions.json
+          git commit -m "Daily TA analysis ${DATE} [skip ci]"
+          git push
