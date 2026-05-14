@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Intra-day actions refresh — runs every 15 minutes during US market hours.
+Intra-day actions refresh — runs every 30 minutes during US market hours.
 
 Steps:
   1. Pull live last-trade prices from Yahoo Finance (no API key needed).
-  2. Ask Claude for one fresh action recommendation per ticker, using the
-     live prices as today's context.
+  2. Ask Claude (Haiku 4.5 — cheap, fast, structured-output specialist) for one
+     fresh action recommendation per ticker, using the live prices as context.
   3. Write the array to `data/actions.json` so the dashboard's bootstrap
      fetch can pick it up.
 
@@ -31,7 +31,7 @@ from _common import (
     write_json,
 )
 
-MODEL = "claude-sonnet-4-5-20250929"
+MODEL = "claude-haiku-4-5-20251001"
 
 YAHOO_QUOTE_URL = (
     "https://query1.finance.yahoo.com/v7/finance/quote?symbols={syms}"
