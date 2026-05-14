@@ -23,7 +23,7 @@ from anthropic import Anthropic
 
 from _common import TICKERS, envelope, now_ist, require_key, write_json
 
-MODEL = "claude-sonnet-4-5-20250929"
+MODEL = "claude-haiku-4-5-20251001"
 
 CHANNELS = [
     "Tom Nash", "CNBC Fast Money", "Bloomberg Markets", "Yahoo Finance",
@@ -118,7 +118,6 @@ def call_claude_with_search() -> dict:
         ],
     )
 
-    # Anthropic returns a list of content blocks; the final text block holds the JSON.
     text_blocks = [b.text for b in msg.content if getattr(b, "type", "") == "text"]
     raw = "\n".join(text_blocks).strip()
     raw = re.sub(r"^```(?:json)?", "", raw).strip()
