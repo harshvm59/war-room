@@ -1,0 +1,266 @@
+{
+  "holdings": [
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia Corporation",
+      "units": 120.896848615,
+      "avg_cost": 86.44,
+      "theme": "AI Compute",
+      "priority": "P1",
+      "target_value": {
+        "price": 187,
+        "bull": 600,
+        "bear": 150
+      },
+      "monthly_dca": 500,
+      "thesis": "+155% from avg $86. Blackwell demand unprecedented — TSMC CoWoS booked through 2027. Hold entire position. Next DCA add only on -15% dip to ~$187. Do NOT sell."
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor",
+      "units": 28.221813182,
+      "avg_cost": 160.48,
+      "theme": "AI Compute",
+      "priority": "P1",
+      "target_value": {
+        "price": 390,
+        "bull": 500,
+        "bear": 280
+      },
+      "monthly_dca": 300,
+      "thesis": "+158% from avg $160. Best semiconductor value at 15x fwd P/E. CoWoS packaging monopoly for NVDA/AVGO/AMD. $300/month DCA on dips below $390."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla Inc",
+      "units": 27.156680144,
+      "avg_cost": 266.84,
+      "theme": "Physical AI",
+      "priority": "P2",
+      "target_value": {
+        "price": 320,
+        "bull": 700,
+        "bear": 150
+      },
+      "monthly_dca": 0,
+      "thesis": "TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO."
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "units": 16.009156068,
+      "avg_cost": 430.88,
+      "theme": "AI Infra",
+      "priority": "P1",
+      "target_value": {
+        "price": 570,
+        "bull": 900,
+        "bear": 450
+      },
+      "monthly_dca": 200,
+      "thesis": "+42% from avg $430. Llama 4 multimodal + AI Ads revenue +27% YoY. Reality Labs losses narrowing. $200/month DCA. Add aggressively on dips below $570."
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc",
+      "units": 19.617116379,
+      "avg_cost": 195.15,
+      "theme": "AI Infra",
+      "priority": "P1",
+      "target_value": {
+        "price": 370,
+        "bull": 500,
+        "bear": 280
+      },
+      "monthly_dca": 200,
+      "thesis": "+104% — doubled! Gemini 2.0 + TPU v5 driving Search AI monetization. Waymo expanding 10 cities. $200/month. Add dips below $370."
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon Inc",
+      "units": 24.776504475,
+      "avg_cost": 195.8,
+      "theme": "AI Infra",
+      "priority": "P1",
+      "target_value": {
+        "price": 260,
+        "bull": 400,
+        "bear": 200
+      },
+      "monthly_dca": 200,
+      "thesis": "+41% from avg $195. AWS Bedrock AI inference compounding. Project Kuiper launching. $200/month — add aggressively below $260."
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies",
+      "units": 44.750469539,
+      "avg_cost": 92.56,
+      "theme": "AI Software",
+      "priority": "P2",
+      "target_value": {
+        "price": 120,
+        "bull": 280,
+        "bear": 70
+      },
+      "monthly_dca": 100,
+      "thesis": "+51% from avg $92. AIP platform — 85% US commercial revenue growth. Rule of 40 = 145%. Government contracts expanding NATO. Do NOT add above $140."
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "units": 11.172868458,
+      "avg_cost": 422.94,
+      "theme": "AI Infra",
+      "priority": "P1",
+      "target_value": {
+        "price": 380,
+        "bull": 700,
+        "bear": 320
+      },
+      "monthly_dca": 500,
+      "thesis": "FLAT at -0.1% from avg $422 — ONLY red position. Best DCA entry in portfolio. Copilot seats growing 25% QoQ. Azure AI market share gaining. $500/month NOW."
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "units": 9.712667918,
+      "avg_cost": 178.81,
+      "theme": "AI Compute",
+      "priority": "P1",
+      "target_value": {
+        "price": 440,
+        "bull": 600,
+        "bear": 300
+      },
+      "monthly_dca": 0,
+      "thesis": "+163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440."
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings",
+      "units": 5.496161548,
+      "avg_cost": 429.42,
+      "theme": "AI Security",
+      "priority": "P2",
+      "target_value": {
+        "price": 380,
+        "bull": 550,
+        "bear": 320
+      },
+      "monthly_dca": 0,
+      "thesis": "+26% from avg $429. ARR growing 22% but slowing. Consider rotating 50% into PANW (stronger AI cyber, better margins). Watch Q2 earnings closely."
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "units": 3.81197998,
+      "avg_cost": 403.53,
+      "theme": "AI Compute",
+      "priority": "P0",
+      "target_value": {
+        "price": 700,
+        "bull": 1100,
+        "bear": 450
+      },
+      "monthly_dca": 500,
+      "thesis": "MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month minimum."
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "units": 7.266933811,
+      "avg_cost": 221.8,
+      "theme": "AI Infra",
+      "priority": "P1",
+      "target_value": {
+        "price": 310,
+        "bull": 500,
+        "bear": 220
+      },
+      "monthly_dca": 0,
+      "thesis": "+57% from avg $221. Data center cooling backlog $18B+. Liquid cooling orders +280% QoQ. Wait for pullback to $310–325 before adding. Hold entire position."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc",
+      "units": 4.286080622,
+      "avg_cost": 338.64,
+      "theme": "AI Compute",
+      "priority": "P0",
+      "target_value": {
+        "price": 400,
+        "bull": 700,
+        "bear": 300
+      },
+      "monthly_dca": 420,
+      "thesis": "URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips below $420."
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding NV",
+      "units": 1.036766296,
+      "avg_cost": 1012.44,
+      "theme": "AI Compute",
+      "priority": "P1",
+      "target_value": {
+        "price": 1500,
+        "bull": 2000,
+        "bear": 1000
+      },
+      "monthly_dca": 200,
+      "thesis": "+61% from avg $1,012. Now 1.04 units. EUV monopoly — EVERY AI chip requires ASML machines. Irreplaceable. $200/month forever. Target 3 units ($5,000 position)."
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "units": 3.018309165,
+      "avg_cost": 289.02,
+      "theme": "AI Energy",
+      "priority": "P0",
+      "target_value": {
+        "price": 400,
+        "bull": 600,
+        "bear": 250
+      },
+      "monthly_dca": 580,
+      "thesis": "URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just starting. Target $10K+."
+    },
+    {
+      "ticker": "BE",
+      "name": "Bloom Energy Corp",
+      "units": 1.748257462,
+      "avg_cost": 248.52,
+      "theme": "AI Energy",
+      "priority": "P3",
+      "target_value": {
+        "price": 180,
+        "bull": 350,
+        "bear": 80
+      },
+      "monthly_dca": 0,
+      "thesis": "Lottery ticket — +8% at $267. Solid-oxide fuel cells for AI data centers. $467 correctly sized. Wait for 2 consecutive earnings beats before adding. Do NOT size up."
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "units": 3.623430319,
+      "avg_cost": 147.02,
+      "theme": "AI Infra",
+      "priority": "P1",
+      "target_value": {
+        "price": 130,
+        "bull": 200,
+        "bear": 90
+      },
+      "monthly_dca": 150,
+      "thesis": "-1.2% from avg $147. 3.62 units now. 800G AI networking upgrade cycle just starting. Every hyperscaler GPU cluster needs Arista. $150/month DCA. Add dips below $130."
+    }
+  ],
+  "meta": {
+    "owner": "harshvm59",
+    "total_holdings": 17,
+    "source": "extracted from index.html PORT array on 2026-05-14",
+    "currency": "USD",
+    "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth."
+  }
+}
