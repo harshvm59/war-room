@@ -1,5 +1,159 @@
 {
-  "updated_at": null,
-  "source": "placeholder",
-  "items": []
+  "updated_at": "2026-05-14T08:26:58.331517+05:30",
+  "source": "claude+yahoo",
+  "items": [
+    {
+      "ticker": "TSLA",
+      "action": "TRIM",
+      "urgency": "critical",
+      "color": "#e05252",
+      "price": "price unavailable",
+      "signal": "Portfolio overweight position requires trimming on any intraday strength per mandate. Without live price data, exercise caution but standing instruction is to reduce exposure on bounces. Technical resistance likely near $180-185 range based on recent trading patterns. Lock profits into portfolio rebalance.",
+      "action_text": "Trim overweight position on strength"
+    },
+    {
+      "ticker": "MU",
+      "action": "ADD",
+      "urgency": "high",
+      "color": "#c9a84c",
+      "price": "price unavailable",
+      "signal": "P0 conviction name in memory cycle recovery with HBM3E ramp accelerating. Data center DRAM pricing inflecting positively into summer. Any weakness below $90 is strategic entry for AI infrastructure exposure. Lean ADD per portfolio mandate on core compute thesis.",
+      "action_text": "Add to P0 conviction position"
+    },
+    {
+      "ticker": "CEG",
+      "action": "ADD",
+      "urgency": "high",
+      "color": "#c9a84c",
+      "price": "price unavailable",
+      "signal": "P0 conviction nuclear play essential for AI data center power demands. Microsoft and hyperscaler nuclear deals validate thesis. Energy infrastructure bottleneck becoming critical constraint for compute expansion. Accumulate on any dips as long-duration AI infrastructure hold.",
+      "action_text": "Build P0 power infrastructure position"
+    },
+    {
+      "ticker": "AVGO",
+      "action": "ADD",
+      "urgency": "high",
+      "color": "#c9a84c",
+      "price": "price unavailable",
+      "signal": "P0 conviction name with custom AI accelerator dominance and networking exposure. VMware integration progressing, software revenue diversification reducing cyclical risk. Trading at reasonable valuation relative to AI infrastructure growth. Add on weakness per mandate.",
+      "action_text": "Accumulate P0 AI infrastructure exposure"
+    },
+    {
+      "ticker": "MSFT",
+      "action": "ADD",
+      "urgency": "high",
+      "color": "#c9a84c",
+      "price": "price unavailable",
+      "signal": "P0 conviction with deepest AI monetization through Azure OpenAI and Copilot adoption. Enterprise AI spending cycles extending into 2026-2027. Cloud infrastructure capacity expansion supporting margin trajectory. Core holding to add per portfolio guidelines.",
+      "action_text": "Scale P0 enterprise AI leader"
+    },
+    {
+      "ticker": "NVDA",
+      "action": "HOLD",
+      "urgency": "medium",
+      "color": "#4a9eff",
+      "price": "price unavailable",
+      "signal": "Core position never to be sold per mandate. Blackwell ramp continuing with GB200 systems shipping to hyperscalers. Maintain full exposure as foundational AI compute holding. Any volatility is noise against multi-year data center buildout cycle.",
+      "action_text": "Protect core position—never sell"
+    },
+    {
+      "ticker": "TSM",
+      "action": "HOLD",
+      "urgency": "medium",
+      "color": "#4a9eff",
+      "price": "price unavailable",
+      "signal": "Core position protected per portfolio rules. 2nm ramp on track for late 2025, 3nm utilization remains strong across Apple and NVDA. Arizona fab progress de-risking geopolitical concerns. Foundational semiconductor infrastructure hold through cycles.",
+      "action_text": "Maintain core foundry exposure"
+    },
+    {
+      "ticker": "CRWD",
+      "action": "HOLD",
+      "urgency": "medium",
+      "color": "#4a9eff",
+      "price": "price unavailable",
+      "signal": "Cybersecurity essential layer for AI infrastructure expansion. Platform consolidation trends favoring CrowdStrike's endpoint dominance. Recovery from July incident complete, net new ARR growth reaccelerating. Hold quality position but not P0 conviction tier for adding.",
+      "action_text": "Hold cybersecurity infrastructure play"
+    },
+    {
+      "ticker": "PLTR",
+      "action": "HOLD",
+      "urgency": "medium",
+      "color": "#4a9eff",
+      "price": "price unavailable",
+      "signal": "AIP platform gaining commercial traction but valuation stretched after strong run. Government business stable, commercial acceleration key debate. Await pullback for better entry rather than chasing. Hold existing but not urgent add candidate.",
+      "action_text": "Hold—await better entry point"
+    },
+    {
+      "ticker": "ANET",
+      "action": "HOLD",
+      "urgency": "medium",
+      "color": "#4a9eff",
+      "price": "price unavailable",
+      "signal": "Data center networking leader capturing AI fabric buildout. Back-end networking for GPU clusters drives multiyear tailwind. Execution remains flawless but valuation reflects optimism. Hold quality position, add only on meaningful weakness below $320.",
+      "action_text": "Hold networking infrastructure leader"
+    },
+    {
+      "ticker": "AMD",
+      "action": "HOLD",
+      "urgency": "low",
+      "color": "#2dd4bf",
+      "price": "price unavailable",
+      "signal": "MI300 ramp progressing but NVDA dominance remains unchallenged in training workloads. Inference opportunity exists but monetization timeline uncertain. Data center CPU share stable. Hold position but not adding given P0 alternatives with better risk/reward.",
+      "action_text": "Hold—monitor MI300 traction"
+    },
+    {
+      "ticker": "META",
+      "action": "HOLD",
+      "urgency": "low",
+      "color": "#2dd4bf",
+      "price": "price unavailable",
+      "signal": "AI capex driving Llama ecosystem and infrastructure efficiency gains. Advertising business stable but engagement trends mixed. Trading at reasonable valuation with buyback support. Hold but not priority given P0 pure-play AI infrastructure alternatives.",
+      "action_text": "Hold large-cap AI exposure"
+    },
+    {
+      "ticker": "GOOGL",
+      "action": "HOLD",
+      "urgency": "low",
+      "color": "#2dd4bf",
+      "price": "price unavailable",
+      "signal": "Cloud AI momentum with Gemini rollout but search disruption risks from ChatGPT rising. TPU infrastructure advantage underappreciated. Valuation reasonable with regulatory overhang. Hold position but not adding given execution questions and P0 alternatives.",
+      "action_text": "Hold cloud AI optionality"
+    },
+    {
+      "ticker": "AMZN",
+      "action": "HOLD",
+      "urgency": "low",
+      "color": "#2dd4bf",
+      "price": "price unavailable",
+      "signal": "AWS AI services scaling with Trainium/Inferentia custom silicon gaining share. Retail business steady cash generation funding infrastructure spend. Trading at fair value. Hold diversified exposure but P0 names offer better pure AI leverage.",
+      "action_text": "Hold AWS infrastructure exposure"
+    },
+    {
+      "ticker": "ASML",
+      "action": "HOLD",
+      "urgency": "low",
+      "color": "#2dd4bf",
+      "price": "price unavailable",
+      "signal": "EUV monopoly secures long-term position but near-term orders lumpy. China exposure remains policy risk. 2nm and future node transitions guarantee demand but timing uncertain. Hold strategic position, not urgent add without clearer order trajectory.",
+      "action_text": "Hold semiconductor tooling monopoly"
+    },
+    {
+      "ticker": "VRT",
+      "action": "HOLD",
+      "urgency": "low",
+      "color": "#2dd4bf",
+      "price": "price unavailable",
+      "signal": "Data center infrastructure REIT benefiting from AI capacity demands. Occupancy and pricing power strong in key markets. Dividend yield attractive but growth limited by capital intensity. Hold for infrastructure exposure but not priority versus operating companies.",
+      "action_text": "Hold for data center real estate"
+    },
+    {
+      "ticker": "BE",
+      "action": "HOLD",
+      "urgency": "low",
+      "color": "#2dd4bf",
+      "price": "price unavailable",
+      "signal": "Energy storage thesis valid for grid modernization but execution inconsistent. Project delays and margin pressure concerning. Competitive landscape intensifying with Chinese suppliers. Hold small position but avoid adding until operational improvement materializes.",
+      "action_text": "Hold small—show execution first"
+    }
+  ]
 }
