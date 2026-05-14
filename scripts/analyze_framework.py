@@ -86,7 +86,7 @@ INPUT (current prices + thesis from user):
 
 def call_claude(blob):
     c = Anthropic(api_key=require_key())
-    msg = c.messages.create(model=MODEL, max_tokens=10000, system=SYS_PROMPT,
+    msg = c.messages.create(model=MODEL, max_tokens=16000, system=SYS_PROMPT,
         messages=[{"role": "user", "content": PROMPT.format(date=now_ist().strftime("%a %b %-d, %Y"), blob=blob)}])
     raw = (msg.content[0].text if msg.content else "").strip()
     raw = re.sub(r"^```(?:json)?", "", raw).strip()
