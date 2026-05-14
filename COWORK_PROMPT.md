@@ -1,21 +1,26 @@
-# HVM War Room — Daily Update Cowork Prompt
+# HVM War Room — Daily Update (Legacy Cowork Prompt)
 
-Copy this EXACTLY into your Cowork routine. Schedule: Daily at 9:00 AM.
+> **Note**: This file is kept for reference only. The actual automation now runs as a
+> GitHub Action — see `.github/workflows/daily-update.yml`. You no longer need to paste
+> this prompt into Cowork; the workflow handles it automatically every day.
+
+If you ever want to run a one-off manual update outside the workflow, you can still
+paste the prompt below into Cowork.
 
 ---
 
-## PROMPT
+## MANUAL PROMPT
 
 ```
 Today is [TODAY'S DATE]. Update my HVM Investment OS dashboard on GitHub.
 
 GITHUB CONFIG:
-- Repo: YOUR_USERNAME/war-room  
+- Repo: harshvm59/war-room
 - File: index.html
 - Token: Read from ~/war_room_config.txt
 
 STEP 1 — Read current index.html from GitHub API:
-GET https://api.github.com/repos/YOUR_USERNAME/war-room/contents/index.html
+GET https://api.github.com/repos/harshvm59/war-room/contents/index.html
 Header: Authorization: token [YOUR_TOKEN]
 
 STEP 2 — Search the web for today's AI investment signals:
@@ -40,24 +45,24 @@ Rate each HOT/WARM/COLD: AI Compute | Energy/Nuclear | Defense | Agentic AI | GL
 STEP 3 — Update the file:
 In the downloaded index.html:
 1. Add 5 new entries to YTVIDEOS array at the top with today's videos
-2. Add 3 new entries to VOICES array with today's leader signals  
+2. Add 3 new entries to VOICES array with today's leader signals
 3. Update TODAY_ACTIONS_MAY5 with today's specific action recommendations
 
 STEP 4 — Push back to GitHub:
-PUT https://api.github.com/repos/YOUR_USERNAME/war-room/contents/index.html
+PUT https://api.github.com/repos/harshvm59/war-room/contents/index.html
 Body: {"message": "Daily update [TODAY DATE]", "content": [base64 of updated file], "sha": [sha from step 1]}
 Authorization: token [YOUR_TOKEN]
 
 STEP 5 — Email nitrharsh@gmail.com:
 Subject: "⚡ HVM War Room Updated — [TODAY DATE]"
 List the 5 new videos and 3 new signals added today.
-Include link: https://YOUR_USERNAME.github.io/war-room
+Include link: https://harshvm59.github.io/war-room
 ```
 
-## SETUP STEPS
+## PREFERRED PATH (GitHub Action)
 
-1. Create ~/war_room_config.txt with your GitHub token on line 1
-2. Replace YOUR_USERNAME with your actual GitHub username
-3. Set Cowork to run Daily at 9:00 AM
-4. Click "Select Folder" → point to your Downloads folder
-5. First run: click "Run Now" to test
+The GitHub Action at `.github/workflows/daily-update.yml` automates the same flow:
+
+1. Set the `ANTHROPIC_API_KEY` secret in your repo
+2. The workflow runs every day at 09:00 IST
+3. To trigger manually: Actions tab → "Daily War Room Update" → "Run workflow"
