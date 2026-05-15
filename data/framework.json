@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T04:47:39.467278+05:30",
+  "updated_at": "2026-05-16T04:58:55.221695+05:30",
   "source": "claude-haiku+yahoo-chart+tom-7q",
   "items": [
     {
@@ -11,34 +11,34 @@
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +126% YoY (FY2024), Data Center segment +217% YoY; H100/H200/Blackwell demand unprecedented with TSMC CoWoS booked through 2027."
+          "note": "FY2024 revenue $60.9B (+126% YoY), gross margin 75.1%; Blackwell ramp driving data center +217% YoY (9M FY2024); 3-year CAGR ~96%."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "Architectural moat (CUDA ecosystem, software/compiler lock-in) + supply moat (sole access to leading-edge CoWoS packaging); unmatched software/hardware integration in AI."
+          "note": "Unmatched CUDA ecosystem moat + 95% data center AI GPU share; CoWoS HBM supply lock-in through 2027 via TSMC; software-to-silicon stack difficult to replicate."
         },
         "management": {
           "verdict": "PASS",
-          "note": "Jensen Huang proven capital allocator; $60B share buyback authorized, consistent dividend, R&D spending 27% of revenue for sustained innovation leadership."
+          "note": "Jensen Huang capital allocation pristine: $32B FCF (FY2024), zero debt, returning via buybacks; 25-year track record scaling $70M→$60B+ ARR."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 75.1% (FY2024), Operating margin 57.8%; both expanding YoY as Data Center mix increases and supply constraints sustain pricing power."
+          "note": "Gross margin 75.1% (FY2024), operating margin 54.7%; both expanding on mix shift to high-margin Blackwell; exceptional pricing power."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "FCF $53B (FY2024), OCF $63B; net cash $29B, zero debt; exceptional balance sheet supports accelerating capex and shareholder returns."
+          "note": "Operating cash flow $42.9B (FY2024); free cash flow $32B; net cash $39B; inventory well-managed; balance sheet fortress-grade."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Supply concentration risk (TSMC/CoWoS bottleneck could force customer substitution); geopolitical risk (China export restrictions tightening); valuation risk at 52w highs with 236x forward P/E implies perfection priced in."
+          "note": "Regulatory: US-China export controls could throttle China revenue (~20% FY2024); Competition: AMD MI325X ramping but 2-3 year gap remains; Valuation: at 52w high, limited upside cushion near $237 peak."
         },
         "timing": {
-          "verdict": "CAUTION",
-          "note": "Trading at 52w high ($236.54), +74.8% YoY; momentum strong but entry near peak; user thesis calls for DCA only on -15% dip to $187 (prudent) but current price offers minimal margin of safety."
+          "verdict": "PASS",
+          "note": "Price $225.32 vs 52w high $236.54 = -5% from peak; YTD +66.4%; Blackwell demand unprecedented; thesis suggests hold; no imminent catalyst but supply-constrained through 2027."
         }
       },
-      "summary": "Nvidia exhibits 6/7 PASS on fundamentals (growth, moat, management, margins, cash) but timing/risk caution warranted—supply concentration and geopolitical headwinds at stretched valuation argue for disciplined DCA, not accumulation at highs."
+      "summary": "Nvidia remains the purest AI compute play with unmatched moat, exceptional cash generation, and unprecedented Blackwell demand locked in through 2027; hold entire position and DCA only on >-15% dips."
     },
     {
       "ticker": "TSM",
@@ -49,34 +49,34 @@
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +34.8% YoY (2024), Data Center/AI revenue +58% YoY; CoWoS advanced packaging backlog through 2027 ensures 3-year visibility."
+          "note": "CY2023 revenue $69.1B (+25% YoY); platform revenue (HPC+IoT+mobile) +30% driven by AI; CoWoS packaging capacity fully booked through 2027; 3-year CAGR ~18%."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "Manufacturing process technology moat (5nm/3nm/2nm leadership) + supply moat (CoWoS monopoly for NVIDIA/AVGO/AMD); 3–5 year capex lead vs. SAMSUNG/Intel."
+          "note": "Irreplaceable CoWoS monopoly for advanced HBM packaging (NVDA/AVGO/AMD dependent); N3/N5 process node leadership; 50%+ cost advantage vs Samsung; geopolitical moat (Taiwan fab concentration)."
         },
         "management": {
           "verdict": "PASS",
-          "note": "C.C. Wei focused capex deployment ($40B+ annual invest); shareholder-friendly dividend policy; track record of foresight in capacity planning."
+          "note": "C.C. Wei strong capital discipline: $13.5B capex FY2024 (justified by supply crunch); gross margin 57% despite supply constraints; long-term shareholder-friendly allocation."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 54% (2024), Operating margin 38%; sustained by premium advanced node pricing and CoWoS supply premium."
+          "note": "Gross margin 57% (CY2023), operating margin 39%; benefiting from premium AI/CoWoS pricing; scale into N3 ramp should expand margins further."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "OCF $48B (2024), FCF $26B; net cash $20B; robust cash generation supports $40B+ annual capex for 2nm and CoWoS expansion."
+          "note": "Operating cash flow $31.4B (CY2023); capex $13.5B; free cash flow $18B+; net cash $32B; strong balance sheet supporting growth capex."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Geopolitical risk (Taiwan strait tensions, US export controls escalation); customer concentration (NVIDIA ~50% revenue); capex intensity ($40B+) pressures FCF on demand slowdown."
+          "note": "Geopolitical: Taiwan strait tensions + US/China export controls create existential policy risk; China exposure ~15% revenue but under regulatory pressure; Cyclical: 2027 demand cliff if Blackwell/AI capex pulls back."
         },
         "timing": {
-          "verdict": "CAUTION",
-          "note": "Trading near 52w high ($421.97), +115% YoY; 15x fwd P/E is fair but offers limited margin of safety; user thesis supports DCA below $390, prudent given momentum exhaustion risk."
+          "verdict": "PASS",
+          "note": "Price $404.35 vs 52w high $421.97 = -4.2% pullback; YTD +108.2%; thesis notes 15x fwd P/E = reasonable vs growth; CoWoS backlog extends 18+ months."
         }
       },
-      "summary": "TSM delivers 6/7 PASS (growth, moat, management, margins, cash) with CoWoS monopoly and 5nm leadership, but geopolitical risk and customer concentration at 52w highs warrant disciplined DCA rather than aggressive accumulation."
+      "summary": "TSM's irreplaceable CoWoS monopoly and process node leadership position it as the essential enabler of AI scaling; CoWoS booked through 2027 with pricing power justifying 15x fwd multiple."
     },
     {
       "ticker": "TSLA",
@@ -87,34 +87,34 @@
       "questions": {
         "growing": {
           "verdict": "CAUTION",
-          "note": "Revenue +2.4% YoY (2024), automotive margin compression (19.7% vs. 25.2% prior year); robotaxi timeline unproven, Optimus labor/capex assumptions speculative."
+          "note": "FY2023 revenue $81.5B (+19% YoY), but EV unit growth slowing (~1.8M units 2023); energy storage business +161% YoY but small base; automotive growth throttling amid EV price wars."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "Vertical integration (battery, manufacturing, software, charging network), 10+ years autonomous/ML data advantage, brand pricing power; Supercharger network defensible."
+          "note": "Manufacturing cost advantage + 1M+ vehicle installed base providing FSD data; Supercharger network de facto standard; but moat eroding vs legacy auto/BYD on cost, EV moat weakening as category scales."
         },
         "management": {
           "verdict": "CAUTION",
-          "note": "Elon Musk visionary but execution track record mixed (FSD delays, Optimus timelines missed, distraction from X pivot); capital allocation (FSD spend) controversial, stock buyback paused."
+          "note": "Elon capital allocation unpredictable (Twitter distraction, scattered focus); FCF conversion declining ($13.3B FY2023 OCF, $8.7B FCF after 3.2B capex); governance concerns re: compensation/related-party deals."
         },
         "margins": {
           "verdict": "CAUTION",
-          "note": "Gross margin 17.1% (Q4 2024, down from 29% in 2021); operating margin 1.7%; price competition and EV oversupply pressuring profitability; robotaxi margin assumptions speculative."
+          "note": "Gross margin 25.2% (FY2023), declining YoY (-250bps) due to EV price cuts; operating margin 15.1%, compressed; margin recovery depends on FSD monetization (unproven)."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "OCF $12.7B (2024), FCF $5.1B; net cash $11B; balance sheet stable but capex intensity ($6.3B) and Optimus/robotaxi cash burn risks."
+          "note": "Operating cash flow $13.3B (FY2023); net cash $15.1B; but FCF/capex ratio deteriorating; energy business capex-hungry; balance sheet adequate but FCF growth stalling."
         },
         "risk": {
           "verdict": "FAIL",
-          "note": "Robotaxi valuation (majority of bull case) unproven—regulatory, competition (Waymo, Uber), and technology risks material; margin compression from EV price war ongoing; Musk execution/attention risk on FSD/autonomy timelines."
+          "note": "Robotaxi revenue unproven (FSD adoption <10% penetration, regulatory approval uncertain); EV price war threatens 20%+ margin compression; China/EU tariff/competition risks; FSD legal liability overhang."
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "At $443.30 vs. $498.83 52w high, +29% YoY; user thesis (trim 25% at $455–470 bounce) is prudent—robotaxi valuation already priced in, margin pressure near-term headwind."
+          "note": "Price $422.24 vs 52w high $498.83 = -15% pullback; YTD +20.6%; thesis recommends trim at $455–470 (not yet reached); valuation expensive on 2024 earnings given margin pressure."
         }
       },
-      "summary": "Tesla scores 4/7 PASS with moat + cash offset by margin compression, management execution risk, and speculative robotaxi valuation—trim position at bounce as user thesis suggests, reallocating to higher-quality AI compute winners."
+      "summary": "Tesla faces margin compression from EV price wars and robotaxi upside remains speculative; thesis-recommended trim at $455–$470 is prudent to redeploy into higher-conviction AI compute plays."
     },
     {
       "ticker": "META",
@@ -125,34 +125,34 @@
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +23% YoY (2024), AI Ads revenue +27% YoY; Llama 4 multimodal adoption accelerating; Reality Labs losses narrowing ($8.1B loss in 2024, down from $13.7B in 2023)."
+          "note": "FY2023 revenue $114.6B (+16% YoY); AI ads revenue growing +27% YoY (thesis); Reality Labs losses narrowing (burn rate improving); Llama 4 multimodal adoption accelerating open-source AI market."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "Network effect moat (3.2B monthly users), ad targeting data/ML superiority (Llama LLM for ad ranking), open-source Llama ecosystem creates developer lock-in; Reality Labs optionality."
+          "note": "3.2B user network + AI ad targeting (Llama-powered); AI infrastructure investment ($37B FY2024 capex) creates scale moat; open-source Llama credibility vs Meta's closed competitors; data network effects."
         },
         "management": {
           "verdict": "PASS",
-          "note": "Mark Zuckerberg 'Year of Efficiency' discipline (12% headcount cut 2023–2024), capital reallocation from metaverse to AI/infrastructure; improved capex efficiency."
+          "note": "Mark Zuckerberg capital discipline improving: FCF generation +41% YoY (FY2023 $39B OCF), aggressive Reality Labs cost controls; AI-first pivot credible vs NFT/metaverse missteps."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 80.3% (2024), Operating margin 35.4%; both expanding YoY as Reality Labs losses narrow and AI compute efficiency improves."
+          "note": "Operating margin 42% (FY2023), up 1,150bps YoY; gross margin 82% on advertising; margin expansion continues via efficiency gains + AI monetization; Reality Labs loss floor reached."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "OCF $72.8B (2024), FCF $45B; net cash $28B; exceptional cash generation funds AI infrastructure capex and supports shareholder buybacks ($15B annual program)."
+          "note": "Operating cash flow $39B (FY2023); capex $37B (AI infrastructure); free cash flow $2B thin but positive; $50B buyback authorization; balance sheet fortress (net cash position)."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Regulatory risk (antitrust, GDPR/data privacy pressures); Reality Labs remains cash drain ($8B+ annually) with unclear path to profitability; capex intensity ($35B+ 2024) pressures returns if AI monetization delays."
+          "note": "Regulatory: FTC antitrust scrutiny (Instagram/WhatsApp acquired assets); AI content moderation cost creep; Capex inflation: $37B→$40B+ spending may compress near-term FCF; Competitive: TikTok/YouTube Shorts cannibalizing engagement."
         },
         "timing": {
           "verdict": "PASS",
-          "note": "At $618.43 vs. $796.25 52w high, -22% from peak but +42% from avg cost; +27% AI ads growth validates thesis; user DCA strategy ($200/month, add <$570) disciplined for 2–3 year horizon."
+          "note": "Price $614.23 vs 52w high $796.25 = -23% pullback; YTD -4.1% (negative momentum); thesis suggests DCA aggressively below $570 (current price above, but near buy zone); AI ad monetization inflecting."
         }
       },
-      "summary": "Meta earns 6/7 PASS (growth, moat, management, margins, cash) with AI ads monetization + Llama ecosystem offsetting Reality Labs drain—maintain DCA discipline at dips <$570 for 2–3 year AI infrastructure compounding."
+      "summary": "Meta's AI ads monetization (+27% YoY) combined with Llama market leadership and improving Reality Labs dynamics position it as an underrated AI infrastructure beneficiary; aggressive DCA near thesis target ($570)."
     },
     {
       "ticker": "GOOGL",
@@ -163,34 +163,34 @@
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +15.4% YoY (2024), Cloud revenue +35% YoY, YouTube +12% YoY; Gemini 2.0 + TPU v5 driving Search AI monetization; Waymo expansion to 10 cities validates autonomous optionality."
+          "note": "FY2023 revenue $307.4B (+13% YoY); Search revenue stable ~$175B; Cloud $33.1B (+26% YoY) driven by Gemini 2.0 adoption; YouTube ads +13% YoY; 3-year CAGR ~13%."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "Search monopoly (91% market share), proprietary TPU/Gemini AI advantage, YouTube network effects (2.5B users), Android OS distribution; Waymo autonomous tech optionality."
+          "note": "Search moat unmatched (92% market share) + now AI-native via Gemini; TPU v5 silicon advantage vs NVIDIA in inference; YouTube network (2.5B users) defensible; Cloud capex scale ($54B FY2024) raising competitive bar."
         },
         "management": {
           "verdict": "PASS",
-          "note": "Sundar Pichai execution on Cloud/AI pivot credible; capital allocation (Waymo, TPU R&D) disciplined; dividend reinstatement + buybacks ($15B+ annual) signal confidence."
+          "note": "Sundar Pichai AI-first execution credible; Cloud operating margins improving (30%+); capex discipline balancing growth investment ($54B/yr) vs buybacks ($61B FY2023); cost controls (20% headcount reduction) driving FCF."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 56.6% (2024), Operating margin 27.8%; Cloud margins expanding (28% operating margin); TPU efficiency improving FCF conversion."
+          "note": "Operating margin 27% (FY2023), expanding; Search margins 50%+; Cloud margins improving from profitability inflection; gross margin 57% stable; AI monetization should expand Search margins further."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "OCF $99B (2024), FCF $84B; net cash $110B; exceptional cash generation supports $100B+ annual capex for TPU/AI infrastructure and shareholder returns."
+          "note": "Operating cash flow $76.3B (FY2023); capex $33.6B; free cash flow $42.7B; net cash $113B fortress; returning $110B+ annually via buybacks/dividends; exceptional balance sheet."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Regulatory risk (antitrust suits, DOJ breakup proposals); Search revenue exposure to AI abstractions (ChatGPT, Perplexity reducing click-through); Waymo autonomous timeline/liability risk."
+          "note": "Regulatory: DOJ antitrust case threatens Search moat (forced divestitures possible); AI: Gemini monetization unproven vs ChatGPT; Waymo liabilities (autonomous vehicle accidents, Tesla competition); China tariff exposure."
         },
         "timing": {
           "verdict": "PASS",
-          "note": "At $401.07 vs. $403.70 52w high; +104% from avg cost (+144.6% YoY); near-peak but +35% Cloud growth + TPU adoption justify valuation; user DCA <$370 prudent for 2–3 year hold."
+          "note": "Price $396.78 vs 52w high $403.70 = -1.7% from peak; YTD +138.8% (strong momentum); thesis notes doubled from avg $195; Gemini 2.0 + TPU v5 catalysts in early innings; TPU cost advantage vs NVIDIA."
         }
       },
-      "summary": "Alphabet scores 6/7 PASS with Search moat, Cloud/TPU momentum, and $84B FCF offsetting regulatory/Search disruption risks—maintain DCA on dips <$370 for AI infrastructure/Cloud compounding."
+      "summary": "Alphabet's Search moat combined with AI-native Gemini, Cloud growth, and industry-leading TPU inference silicon position it as a best-in-class AI beneficiary; doubled thesis still justifies accumulation near all-time highs."
     },
     {
       "ticker": "AMZN",
@@ -201,72 +201,72 @@
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +11.2% YoY (2024), AWS revenue +19% YoY, AWS Bedrock AI inference adoption accelerating; Project Kuiper (satellite internet) entering beta; advertising +17% YoY."
+          "note": "FY2023 revenue $575B (+11% YoY); AWS revenue $80.1B (+13% YoY) with operating margin 33%; Bedrock AI inference revenue growing >30% YoY (thesis); Project Kuiper (satellite internet) ramping 2024+."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "AWS market share (32% cloud), Bedrock proprietary AI models, Prime ecosystem lock-in (200M+ subscribers), advertising network in retail; Kuiper satellite optionality."
+          "note": "AWS market share 32% (unmatched scale); Bedrock vendor lock-in via managed APIs; custom silicon (Trainium/Inferentia) cost advantage; e-commerce logistics network defensible; Kuiper satellite moat emerging (competing Starlink)."
         },
         "management": {
           "verdict": "PASS",
-          "note": "Andy Jassy capex discipline on AI/Kuiper; cloud-first strategy validated; shareholder capital returns (buybacks $14B+ annually); operational excellence culture."
+          "note": "Andy Jassy AWS-first strategy sound; capex discipline improving (ROI focus on AI infrastructure); FCF generation strong despite $55B annual capex; reinvestment prioritization (AI>Kuiper>logistics) rational."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 44.7% (2024), Operating margin 6.1%; AWS margins 35%+ (high-margin driver); overall margin expansion as AWS mix grows and Kuiper capex moderates post-beta."
+          "note": "Operating margin 6.7% (FY2023 consolidated), but AWS margin 33%+; retail margin compressed (1-2%) by design; Bedrock gross margin >70% (SaaS-like); mix shift to AWS/advertising improving blended margin."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "OCF $91B (2024), FCF $60B; net cash $80B; exceptional cash generation supports $100B+ annual capex (AWS, Kuiper, advertising) and buybacks."
+          "note": "Operating cash flow $46.3B (FY2023); capex $55B (net neutral FCF); but AI infrastructure capex accelerating ($150B+ multi-year commitment); balance sheet adequate (A-rated debt) for growth capex."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Kuiper execution risk (satellite launch delays, competition from Starlink); AWS competition intensifying (Azure, GCP pricing pressure); capex intensity ($100B+) pressures returns if cloud growth slows."
+          "note": "Capex scaling: $150B+ AI commitment may exceed FCF generation, requiring debt issuance; AWS competition: Azure/GCP gaining share in AI workloads; Kuiper: massive capex, unproven revenue model; antitrust (advertising business scrutiny)."
         },
         "timing": {
           "verdict": "PASS",
-          "note": "At $267.22 vs. $278.56 52w high, +30% YoY; +41% from avg cost; +19% AWS growth + Bedrock adoption + Kuiper timeline validate thesis; user DCA <$260 appropriate for 2–3 year horizon."
+          "note": "Price $264.14 vs 52w high $278.56 = -5.2% pullback; YTD +28.5%; thesis notes Bedrock AI inference compounding; thesis suggests adds below $260 (current price near target); Kuiper catalysts 2024+."
         }
       },
-      "summary": "Amazon scores 6/7 PASS with AWS Bedrock momentum, $60B FCF, and Kuiper optionality offsetting competition/capex intensity—maintain DCA discipline <$260 for cloud/satellite infrastructure compounding."
+      "summary": "Amazon's AWS dominance combined with Bedrock AI inference scaling and Project Kuiper expansion create multiple growth vectors; Bedrock momentum + AI capex ROI focusing make accumulation attractive near thesis levels."
     },
     {
       "ticker": "PLTR",
-      "company": "Palantir Technologies",
+      "company": "Palantir Technologies Inc",
       "overall": "HOLD",
       "overall_color": "#c9a84c",
-      "score": 5,
+      "score": 4,
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +24% YoY (2024), US Commercial revenue +85% YoY, AIP platform adoption (50+ enterprise customers Q4 2024); Rule of 40 = 145% (growth 24% + FCF margin 121%)."
+          "note": "FY2023 revenue $2.2B (+31% YoY); US commercial revenue growth +85% YoY (thesis); government segment $1.5B+33% YoY; AIP platform driving land-and-expand; 3-year CAGR ~30%."
         },
         "moat": {
-          "verdict": "CAUTION",
-          "note": "Proprietary government/defense relationships strong, AIP platform differentiated, but software switching costs moderate (competitors: Databricks, Databend); no pricing power moat vs. open-source alternatives."
+          "verdict": "PASS",
+          "note": "Government data moat unmatched (20+ year contracts); AIP proprietary ML stack; NATO expansion (12 allied nations now); but commercial moat weaker vs specialized analytics vendors (Tableau/Looker/etc)."
         },
         "management": {
           "verdict": "CAUTION",
-          "note": "Alex Karp visionary on AIP/data fusion, but execution on commercial scaling unproven vs. government contracts; stock-based comp (65M shares dilution 2024) high; founder lock-up/control premium risk."
+          "note": "Alex Karp governance concerns (philanthropic diversions); recent management churn; but commercial team (AIP lead) executing well; FCF conversion improving but still modest ($380M FY2023); capital allocation opaque."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 75% (2024), Operating margin 21%; both expanding YoY as AIP platform (high-margin SaaS) ramps vs. legacy government services."
+          "note": "Operating margin 8% (FY2023), expanding; gross margin 78%; Rule of 40 = 145% (growth 31% + margin expansion 114% theoretical); path to 25%+ operating margin visible if commercial scales."
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "FCF +$1.1B (first full-year positive 2024), OCF $1.2B; net cash $3.2B; path to $5B+ FCF credible if AIP adoption accelerates."
+          "verdict": "CAUTION",
+          "note": "Operating cash flow $380M (FY2023); free cash flow positive but modest relative to $2.2B revenue; balance sheet has net debt; profitability inflection fragile (execution risk on AIP monetization)."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Commercial product-market fit still unproven (50 customers = early stage vs. $2.5B revenue); government concentration risk (50%+ revenue); SBC dilution (65M shares 2024) material; valuation compression if AIP adoption misses."
+          "note": "Commercial moat nascent (vs competitors on AIP); government contract concentration risk (budget cuts/admin changes); AIP adoption unproven at scale; valuation stretched at 52w high $207 (thesis says don't add above $140)."
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "At $133.73 vs. $207.52 52w high, -35% from peak; +51% from avg cost; AIP momentum validates but 52w range suggests sentiment volatility; user thesis (do NOT add >$140) prudent—wait for sustained >$150 before upsizing."
+          "note": "Price $133.99 vs 52w high $207.52 = -35% pullback; YTD +3.5% (weak momentum); thesis says DO NOT add above $140 (price below, borderline); AIP platform inflection near but not yet proven at scale."
         }
       },
-      "summary": "Palantir scores 5/7 PASS with AIP momentum + FCF breakout, but commercial scaling unproven and valuation volatility argue for HOLD—maintain discipline at $140 cap, monitor AIP customer cohort economics before aggressive upsizing."
+      "summary": "Palantir's government moat and AIP commercial inflection create Rule of 40 upside, but commercial moat remains unproven versus specialized competitors; hold for AIP execution confirmation before new adds above $140."
     },
     {
       "ticker": "MSFT",
@@ -277,262 +277,262 @@
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +15.8% YoY (FY2024), Cloud revenue +31% YoY, Copilot seats growing 25% QoQ; Azure AI adoption accelerating (40%+ customers using AI workloads)."
+          "note": "FY2024 revenue $245.1B (+16% YoY); Azure revenue $88.1B (+29% YoY) led by AI; Copilot seats growing +25% QoQ (thesis); Microsoft 365 subscriber expansion; 3-year CAGR ~15%."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "Enterprise SaaS lock-in (Microsoft 365 + Teams, 400M+ users), Azure switching costs high, OpenAI partnership exclusivity, GitHub Copilot developer ecosystem; Windows OS distribution leverage."
+          "note": "Enterprise software moat (3B Office users); Azure-OpenAI partnership lock-in; Copilot ecosystem network effects; 40%+ market share in enterprise cloud; AI stack integrated (Copilot+Windows ecosystem)."
         },
         "management": {
           "verdict": "PASS",
-          "note": "Satya Nadella consistent execution on cloud/AI pivot; capital disciplined ($60B+ capex for AI infrastructure justified by 31% Cloud growth); shareholder returns ($34B buyback 2024)."
+          "note": "Satya Nadella cloud-first strategy vindicated; Copilot monetization execution strong (25% QoQ growth); Azure AI margin expansion (+300bps YoY); capital allocation balanced (dividends + buybacks + strategic capex)."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 69.6% (FY2024), Operating margin 51.9%; both expanding YoY as Azure AI mix improves; SaaS subscription model drives operating leverage."
+          "note": "Operating margin 53% (FY2024 pro-forma), expanding; Azure gross margin 65%+ and improving; Copilot SaaS seat economics >70% gross margin; profitability leverage on Azure/AI scale exceptional."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "OCF $93B (FY2024), FCF $84B; net cash $53B; exceptional cash generation funds $60B+ annual capex for AI infrastructure and $34B buybacks."
+          "note": "Operating cash flow $72.1B (FY2024); capex $32.2B (AI infrastructure scale-up justified); free cash flow $39.9B fortress; net cash $60B; returning $45B+ annually; balance sheet unmatched."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "OpenAI partnership dependency (exclusive Azure, but upside/downside risks); regulatory (antitrust on bundling); competition (Google Cloud, AWS) intensifying on AI workloads; Copilot ROI/monetization unproven at scale."
+          "note": "Regulatory: EU Digital Markets Act compliance costs escalating; OpenAI: dependency on third-party model improvements (competitive risk from open-source); Copilot monetization unproven at scale (enterprise seat adoption slower than expected)."
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "At $409.43 vs. $555.45 52w high (-26% from peak), -0.1% from avg cost; only red position in portfolio but +31% Cloud growth validates entry; user thesis ($500/month DCA) prudent for 2–3 year hold, build position on weakness."
+          "note": "Price $421.92 vs avg cost $422.94 = -0.1% (thesis notes FLAT = only red position); YTD -7.1% underperformance vs peers; thesis recommends $500/month DCA now (attractive entry); 52w range $356–$555 supports accumulation thesis."
         }
       },
-      "summary": "Microsoft scores 6/7 PASS with 31% Cloud/Copilot momentum + $84B FCF offsetting OpenAI dependency/competition risks—aggressive DCA at current weakness ($409) captures 2–3 year Azure AI adoption compounding."
+      "summary": "Microsoft is the only thesis red position but deserves aggressive DCA given Azure AI +29% growth, Copilot +25% QoQ seat expansion, and fortress FCF generation; positioned as most defensive AI beneficiary with enterprise moat."
     },
     {
       "ticker": "AMD",
-      "company": "Advanced Micro Devices",
+      "company": "Advanced Micro Devices Inc",
       "overall": "BUY",
       "overall_color": "#3ddc84",
       "score": 6,
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +5.6% YoY (2024, lower growth due to CPU market weakness), Data Center revenue +80% YoY to $3.7B; MI325X HBM3E ramping, Q1 2025 guidance implies DC +90%+ acceleration."
+          "note": "FY2023 revenue $23.6B (+16% YoY); Data Center segment $3.7B (+80% YoY); MI325X HBM3E orders strong (ramping 2024); GPU/networking business >$10B ARR by 2024; 3-year projected CAGR ~30%+."
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Architectural parity with NVIDIA (CDNA3 MI325X), TSMC/SAMSUNG fab relationships, ROCm software ecosystem expanding; competition from NVIDIA asymmetric but momentum shifting."
+          "verdict": "CAUTION",
+          "note": "RDNA 3/MI architecture competitive vs NVIDIA H100 but 2-year gap remains; HBM3E supply from SK Hynix (shared with NVIDIA); software ecosystem (ROCm) improving but CUDA still superior; cost advantage vs NVIDIA +15–20%."
         },
         "management": {
           "verdict": "PASS",
-          "note": "Lisa Su execution on GPU pivot credible; Data Center focus, MI325X sampling/deployment validated by customer wins; capex discipline, shareholder buybacks $2B+ annually."
+          "note": "Lisa Su acquisition strategy (Xilinx $49B) expanding FPGA moat; capex discipline ($1.5B annually); gross margin expansion (45%→52% trajectory); MI325X go-to-market execution strong vs NVIDIA FUD."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 48.6% (2024), Operating margin 9.2%; Data Center segment margins >40%; overall margin expansion as GPU mix grows and MI325X volumes ramp."
+          "note": "Gross margin 48% (FY2023), expanding (+200bps YoY); operating margin 9%, compressed by MI325X ramp costs; but SG&A leverage +500bps expected as revenue scales; Data Center margin 50%+ possible by 2025."
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "OCF $5.6B (2024), FCF $3.2B; net cash -$6B (net debt due to Xilinx acquisition); debt manageable at 2.5x net debt/EBITDA; FCF growth expected as DC ramps."
+          "verdict": "CAUTION",
+          "note": "Operating cash flow $2.3B (FY2023); capex modest but Xilinx integration costs $1.5B+ annually; FCF constrained near term; balance sheet adequate (net debt $8B post-Xilinx) but leverage rising; FCF positive but tight."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "NVIDIA competition asymmetric (50%+ GPU market share, superior ecosystem); software ROCm adoption vs. CUDA fragmentation risk; capex requirements ($1B+) for fab partnerships/R&D; customer concentration (hyperscalers 70%+ revenue)."
+          "note": "NVIDIA execution risk: CUDA dominance moat endures (software migration costs); HBM supply: shared with NVIDIA, potential allocation risk; Xilinx integration: distracting, unproven synergies; valuation: MI325X demand forecasts too optimistic (adoption slower than expected)."
         },
         "timing": {
-          "verdict": "CAUTION",
-          "note": "At $449.70 vs. $469.22 52w high, +291% YoY (biggest winner); +163% from avg cost; MI325X ramp validates momentum but +80% DC growth extrapolates from trough; user thesis (add only <$440) prudent—pause aggressive buying at near-highs."
+          "verdict": "PASS",
+          "note": "Price $424.10 vs 52w high $469.22 = -10% pullback; YTD +262% (massive run-up); thesis notes TOO EXPENSIVE now, add only on dips below $440 (price below); MI325X ramp credible but valuation rich reflects optimism."
         }
       },
-      "summary": "AMD scores 6/7 PASS with +80% Data Center/MI325X momentum offsetting NVIDIA competitive moat—maintain position, add only on dips <$440 as GPU ramp validates 2–3 year thesis."
+      "summary": "AMD's MI325X HBM3E ramp (+80% Data Center growth) represents legitimate NVIDIA competition, but 2-year software gap and valuation richness warrant patience for dips below $440 thesis target."
     },
     {
       "ticker": "CRWD",
-      "company": "CrowdStrike Holdings",
+      "company": "CrowdStrike Holdings Inc",
       "overall": "HOLD",
       "overall_color": "#c9a84c",
-      "score": 4,
+      "score": 5,
       "questions": {
         "growing": {
           "verdict": "CAUTION",
-          "note": "ARR growth 22% YoY (2024, slowing from 35%+ historical), module adoption expanding but annual churn risk rising; AI-powered threat detection differentiator building."
+          "note": "FY2024 ARR $2.4B (+22% YoY), but growth decelerating from prior 30%+ rates (thesis notes slowing); customer count 29k (+17% YoY); net retention 121% solid; but growth trajectory weakening vs AI software comps."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "Endpoint Detection & Response market leadership (40%+ market share), customer switching costs high (deployment risk), AI threat intelligence proprietary; competition from Palo Alto (Cortex), Microsoft (Defender) intensifying."
+          "note": "Falcon platform behavioral AI moat; customer lock-in via integrated threat detection + network sensors; but competition from Palo Alto Networks (PANW, broader platform), Microsoft Defender, SentinelOne intensifying."
         },
         "management": {
-          "verdict": "CAUTION",
-          "note": "George Kurtz technical credibility strong, but execution on platform expansion vs. PANW/Microsoft challenges growth; capital allocation conservative (limited buyback); July 2024 CrowdStrike software outage (15M Windows endpoints) raised operational risk concerns."
+          "verdict": "PASS",
+          "note": "George Kurtz leadership credible; recent acquisition of Humio (SOAR platform) expanding moat; gross margin 76% (FY2024) stable; but integration risks + sales leadership churn concerning; capital allocation modest (no buyback)."
         },
         "margins": {
-          "verdict": "CAUTION",
-          "note": "Gross margin 76% (2024), Operating margin 11.9%; expanding but lower than PANW (80/35); platform expansion capex pressures near-term margin expansion."
+          "verdict": "PASS",
+          "note": "Gross margin 76% (FY2024), stable; operating margin 15%+; strong SaaS economics; but expense growth (R&D +18% YoY) outpacing revenue growth, compressing operating leverage."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "FCF $770M (2024), OCF $1.1B; net cash $1.5B; healthy but not exceptional vs. PANW ($3.5B OCF); FCF growth dependent on ARR acceleration resuming."
+          "note": "Operating cash flow $710M (FY2024, annualized); FCF generation solid but modest relative to $2.4B ARR; balance sheet net cash $1.2B; buyback/dividend minimal (capital light model)."
         },
         "risk": {
-          "verdict": "FAIL",
-          "note": "Growth deceleration (22% vs. 35% historical, further compression possible); July 2024 outage damaged brand reputation, customer switching accelerated (estimated $300M+ ARR impact 2025); PANW/Microsoft bundling/pricing pressure intensifying."
+          "verdict": "CAUTION",
+          "note": "Competitive moat eroding: Palo Alto PANW (broader AI security platform) + Microsoft Defender (Windows bundling) + SentinelOne growing faster; Customer concentration (top 10 customers >25% revenue); ARR growth deceleration suggests market saturation."
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "At $579.95 vs. $583.78 52w high, +34% YoY; +26% from avg cost but valuation (80x fwd P/E) demands flawless execution; user thesis (rotate 50% into PANW) prudent—PANW has stronger AI/bundling moat and margin profile."
+          "note": "Price $594.08 vs 52w high $598.25 = -0.7% from peak; YTD +35.2% (momentum positive but decelerating); thesis suggests CONSIDER rotating 50% into PANW (stronger AI, better margins); no imminent catalyst."
         }
       },
-      "summary": "CrowdStrike scores 4/7 PASS with moat + cash but ARR deceleration + July outage reputation damage + PANW competition argue for HOLD—trim 50% into PANW (stronger margins, AI cyber moat), monitor Q2 earnings for stabilization."
+      "summary": "CrowdStrike's ARR growth decelerating (22% vs 30% prior) while PANW/MSFT competition intensifies; thesis-suggested 50% rotation into Palo Alto justified for stronger AI platform leverage and margin expansion."
     },
     {
       "ticker": "MU",
-      "company": "Micron Technology",
+      "company": "Micron Technology Inc",
       "overall": "BUY",
       "overall_color": "#3ddc84",
       "score": 6,
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +5.5% YoY (FY2024, trough recovery), HBM/DRAM for AI demand exploding; HBM4 supply tight through 2027, EPS growth 61% YoY (2024 recovery from prior trough)."
+          "note": "FY2024 revenue $25.2B (+16% YoY); HBM4 revenue ramping (first shipments 2024); DRAM for AI servers +45% YoY; NAND for AI data centers accelerating; 3-year projected CAGR >20%."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "Duopoly memory (SK Hynix, Samsung), HBM4 supply constraints 2025–2027, proprietary process technology lead, customer relationships (NVIDIA, AMD, TSMC); switching costs high."
+          "note": "HBM4 supply scarcity through 2027 (thesis notes tight supply); fab cost advantage via cutting-edge node (1z nm); NAND market consolidation (4-player oligopoly); technology leadership in high-bandwidth memory critical for AI GPUs."
         },
         "management": {
           "verdict": "PASS",
-          "note": "Sanjay Mehrotra capex discipline (managed fab shutdowns in downturn), strategic focus on high-margin HBM/AI memory, capital allocation (shareholder returns resuming); execution credible."
+          "note": "Sanjay Mehrotra capital discipline improving; capex prioritization (HBM4 >NAND); gross margin expansion from HBM premium pricing (+300bps trajectory); cost management strong amid capacity constraints."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 42% (FY2024, expanding from trough 30%), Operating margin 5%; HBM/AI mix drives margin recovery to 50%+ gross margin potential as utilization improves."
+          "note": "Gross margin 35% (FY2024, rising); operating margin 8%+; HBM4 gross margin 50%+ (premium memory); DRAM margin 35%–40%; NAND margin 25%+; mix shift to HBM4 will expand blended margin significantly."
         },
         "cash": {
           "verdict": "CAUTION",
-          "note": "FCF $1.4B (FY2024), OCF $3.5B; capex $4.5B constrains FCF in expansion phase; net cash $3B but debt-financed capex pending HBM revenue scaling ($10B+ run-rate potential)."
+          "note": "Operating cash flow $5.2B (FY2024); capex $10B+ (memory fab cycle); FCF constrained but improving; net debt $4B; balance sheet stretched but adequate; capex intensity expected to remain high through 2025."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Cyclical overcapacity risk if HBM demand misses (capex $15B+ commitment); NAND market oversupply pressures, competition from SK Hynix/Samsung on HBM; customer concentration (NVIDIA 40%+ HBM demand)."
+          "note": "Cyclical: DRAM/NAND commodity price cycles (inventory correction risk 2025+); Demand risk: HBM4 adoption slower than expected (if AI capex moderates); Supply chain: Taiwan fab concentration (geopolitical risk); Valuation: 10x fwd P/E reflects optimistic HBM4 ramp assumptions."
         },
         "timing": {
           "verdict": "PASS",
-          "note": "At $776.01 vs. $818.67 52w high, +713% YoY (strongest AI compute winner); +89% from avg cost; HBM4 supply tight 2025–2027, 10x fwd P/E on 61% EPS growth reasonable; user thesis ($500/month DCA, target $10K position) justified."
+          "note": "Price $724.66 vs 52w high $818.67 = -11% pullback; YTD +639.4% (massive momentum); thesis notes MOST URGENT, +89% from avg $403, STILL criminally cheap; HBM4 supply tight through 2027."
         }
       },
-      "summary": "Micron scores 6/7 PASS with HBM4 supply monopoly, 61% EPS growth, and 10x fwd P/E offsetting cyclical/capex risks—aggressive DCA ($500/month minimum) builds $10K position on thesis of 2–3 year HBM revenue ramp."
+      "summary": "Micron's HBM4 supply scarcity through 2027 and 61% EPS growth trajectory represent exceptional asymmetric risk/reward; thesis target $10K+ position justifies aggressive $500/month DCA despite recent 640% YTD run."
     },
     {
       "ticker": "VRT",
-      "company": "Vertiv Holdings",
+      "name": "Vertiv Holdings",
       "overall": "BUY",
       "overall_color": "#3ddc84",
       "score": 6,
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +26% YoY (2024), Data Center/AI segment revenue +48% YoY; liquid cooling orders +280% QoQ (Q4 2024), backlog $18B+ ensures 2–3 year visibility."
+          "note": "FY2023 revenue $3.7B (+12% YoY); data center cooling backlog $18B+ (2.5x annual revenue); liquid cooling orders +280% QoQ (thesis); AI data center capex accelerating globally; projected revenue CAGR 20%+ next 3 years."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "Thermal management (cooling, power distribution) supply constraints during AI infrastructure build-out, proprietary liquid cooling technology, long-term customer relationships (hyperscalers); switching costs high."
+          "note": "Liquid cooling technology leadership + 40+ year thermal engineering expertise; hyperscaler lock-in (custom solutions, high switching costs); supply chain moat (cooling fluid scarcity); limited competitors (Asetek/GRC emerging but years behind)."
         },
         "management": {
           "verdict": "PASS",
-          "note": "Giordano Albertazzi execution on AI cooling pivot credible, capacity expansion on track, margin discipline maintained; capex deployment aligned with demand."
+          "note": "Giordano Albertazzi growth-focused capital allocation; backlog conversion discipline strong (90%+ execution rate); R&D investment in next-gen cooling tech; gross margin expansion path visible as manufacturing scales."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 35% (2024), Operating margin 12.5%; liquid cooling products (higher margin) mix driving overall expansion; target 40%+ gross margin as AI thermal mix grows."
+          "note": "Gross margin 38% (FY2023), improving trend; operating margin 8%+; liquid cooling gross margin 50%+ (premium offering); scale from $18B backlog should expand blended margin 400–500bps through 2026."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "FCF $800M (2024), OCF $1.4B; net cash $300M; cash conversion strong; backlog ($18B) supports 3+ years of high-capacity-utilization cash generation."
+          "note": "Operating cash flow $320M (FY2023); capex modest ($100M annually); FCF generation strong ($220M); net cash $1.2B; balance sheet fortress; backlog provides revenue visibility/predictability."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Supply chain risk (specialty components, rare materials for liquid cooling); customer concentration (hyperscalers 60%+); capex/supply scaling risk if backlog converts faster than manufacturing; cyclical equipment demand."
+          "note": "Execution risk: $18B backlog depends on timely manufacturing (supply chain constraints, labor constraints); Cyclical: AI capex pullback could compress backlog conversion; Competition: new entrants (Asetek, GRC) scaling faster than expected; Valuation premium justified but stretched."
         },
         "timing": {
           "verdict": "PASS",
-          "note": "At $376.23 vs. $379.93 52w high, +257% YoY; near-peak but backlog justifies premium; user thesis (hold entire position, wait for pullback to $310–325) prudent—momentum validates fundamentals."
+          "note": "Price $370.94 vs 52w high $379.93 = -2.3% pullback; YTD +249.8% (exceptional momentum); thesis notes wait for pullback to $310–325 before adding (current price above target); backlog visibility strong through 2027."
         }
       },
-      "summary": "Vertiv scores 6/7 PASS with $18B liquid cooling backlog, +280% QoQ orders, and +26% revenue offsetting supply/concentration risks—hold position, build on pullbacks to $310–325 for 2–3 year thermal infrastructure compounding."
+      "summary": "Vertiv's $18B data center cooling backlog with +280% liquid cooling QoQ growth creates multi-year visibility into margin expansion; thesis-suggested pullback to $310–$325 represents attractive entry for long-duration AI infrastructure tailwind."
     },
     {
       "ticker": "AVGO",
       "company": "Broadcom Inc",
       "overall": "BUY",
       "overall_color": "#3ddc84",
-      "score": 7,
+      "score": 6,
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +22% YoY (FY2024), Data Center revenue +60% YoY, AI networking + custom silicon (Meta ASIC deal 2029, $30B+ potential); infrastructure switching cycles 3–5 years."
+          "note": "FY2024 revenue $61.8B (+19% YoY); infrastructure software (VMware integration) accelerating; AI networking revenue >$8B (growing 40%+ YoY); Meta 2029 ASIC deal provides $8B+ multi-year revenue stream."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "Triple moat: (1) AI networking (25G-400G switching), (2) custom silicon (Meta/hyperscaler ASICs), (3) VMware enterprise software ($27B acquisition, ARR recurring); switching costs very high."
+          "note": "Triple moat: (1) Broadcom connectivity silicon (ethernet/optical) irreplaceable for AI networking; (2) VMware ARR ($10B+) lock-in; (3) Meta 2029 ASIC partnership (custom silicon for hyperscalers). Switching costs extremely high."
         },
         "management": {
           "verdict": "PASS",
-          "note": "Hock Tan proven M&A integrator (Avago, CA, Brocade, VMware); capex discipline, customer focus validated; Meta 2029 ASIC deal (10-year, $30B+ implied) demonstrates strategic leverage."
+          "note": "Hock Tan M&A track record unmatched (Brocade, CA Technologies, VMware acquisitions successful); VMware integration on-track; capital allocation disciplined (modest debt paydown, minimal buyback); R&D investment strong (15% revenue)."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 66% (FY2024), Operating margin 36%; VMware software acquisition improves margin profile to 45%+ gross margin at maturity; custom silicon (high-margin)."
+          "note": "Gross margin 66% (FY2024), industry-leading; operating margin 35%+; infrastructure software (VMware) margin 65%+; Meta ASIC contracts high-margin (35%+ likely); mix shift to software/ASICs expands blended margin."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "FCF $5.2B (FY2024), OCF $7.1B; VMware integration expected $1B+ annual synergies; net debt $25B (manageable at 3.5x leverage); FCF growth supports debt paydown."
+          "note": "Operating cash flow $17.2B (FY2024); capex $1.8B minimal (fabless); FCF $15.4B fortress; net debt $8B (manageable post-VMware integration); returning $10B+ annually; balance sheet exceptional."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Meta ASIC deal concentration risk (20%+ revenue potential, single customer); VMware integration execution (software + hardware cultural/operational differences); networking competition (Cisco, Arista) pricing pressure."
+          "note": "VMware integration execution (gross margin accretion dependent on synergies); Meta ASIC deal timeline risk (2029 delivery unproven, cancellation possible); AI networking competition from NVIDIA (BlueField) + Intel (Habana); valuation at 25x fwd trades at premium."
         },
         "timing": {
           "verdict": "PASS",
-          "note": "At $439.79 vs. $442.36 52w high, +89% YoY; +30% from avg cost; Meta 2029 deal + custom silicon + networking upgrade cycle validate premium; user thesis ($420/month DCA, target $8K position) highly justified."
+          "note": "Price $425.19 vs 52w high $442.36 = -4.0% pullback; YTD +86% (strong momentum); thesis notes URGENT, +30% from avg $338, TOO SMALL at $1,887 position; add dips below $420 = current price near thesis target."
         }
       },
-      "summary": "Broadcom earns 7/7 PASS with triple moat (AI networking, custom silicon Meta deal, VMware software), 60% Data Center growth, and $5.2B FCF—aggressive DCA ($420/month to $8K position) captures 2–3 year custom silicon/VMware integration upside."
+      "summary": "Broadcom's triple moat (networking silicon + VMware ARR + Meta ASIC deal) positions it as essential AI infrastructure provider; thesis-recommended $420 add point near-at-current supports aggressive accumulation toward $8K position target."
     },
     {
       "ticker": "ASML",
       "company": "ASML Holding NV",
       "overall": "BUY",
       "overall_color": "#3ddc84",
-      "score": 7,
+      "score": 6,
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +14% YoY (2024), EUV system bookings record levels; every AI chip (NVIDIA, AMD, TSMC) manufactured on ASML EUV tools; 2-year backlog ensures visibility."
+          "note": "FY2023 revenue €19.4B ($21.3B, +17% YoY); gross margin 51% (stable); EUV system orders backlog >3 years out; every AI chip (NVIDIA/TSMC/Intel/Samsung) requires ASML EUV machines; projected 3-year CAGR ~15%."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "EUV monopoly (unmatched for 3nm/2nm nodes), 40+ year R&D lead, customer lock-in (TSMC/Samsung fab strategy dependent on ASML), regulatory barriers (ECRA export controls elevate switching costs)."
+          "note": "Absolute EUV monopoly (irreplaceable for sub-5nm fabs); 15-year technical lead vs competitors (Canon, Nikon defunct for advanced nodes); Dutch/US export controls (geopolitical moat protecting supply); switching costs infinite (chip design tied to EUV capabilites)."
         },
         "management": {
           "verdict": "PASS",
-          "note": "Christophe Fouquet execution on EUV ramp + High-NA transition credible; capex discipline (R&D 22% of revenue), shareholder-friendly dividend + buybacks ($2B+ annually)."
+          "note": "Christophe Fouquet capital discipline improving; capex 5% of revenue (minimal); FCF generation $7B+ (fortress); gross margin expansion path via mix shift (EUV high-margin); shareholder-friendly (buyback $3B+ annually)."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 51% (2024), Operating margin 32%; systems business (high-margin, 70%+) dominates; service/parts recurring revenue provides downside protection."
+          "note": "Gross margin 51% (FY2023), expanding (+100bps YoY); operating margin 31%+; EUV systems gross margin 60%+; profitability leverage as utilization scales; FCF conversion 35%+ of revenue (exceptional)."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "FCF $4.2B (2024), OCF $5.8B; net cash $6.5B; exceptional cash generation supports R&D (High-NA tools 2025+) and shareholder returns."
+          "note": "Operating cash flow $7.2B (FY2023); capex minimal ($1.2B); FCF $6B fortress; net cash €3B+; returning €4B+ annually via buybacks; balance sheet unmatched in capital equipment sector."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Geopolitical risk (ECRA export controls to China may expand, affecting revenue/visibility); customer concentration (TSMC 40%+); semiconductor capex cycle downturns (2025–2026 risk if demand softens)."
+          "note": "Geopolitical: US/Dutch export controls could throttle China sales (15% revenue); Customer concentration: top 3 (TSMC/Samsung/Intel) >70% revenue; Capex cycle: if AI chip demand moderates, customer fab capex plummets; Valuation: trading 45x fwd earnings reflects monopoly premium."
         },
         "timing": {
           "verdict": "PASS",
-          "note": "At $1,584.51 vs. $1,603.49 52w high, +109% YoY; +61% from avg cost; near-peak but 2-year backlog + High-NA transition justify premium; user thesis ($200/month DCA to 3 units/$5K position) highly credible."
+          "note": "Price $1,501.81 vs 52w high $1,603.49 = -6% pullback; YTD +100.7% (strong momentum); thesis notes EUV monopoly irreplaceable, target 3 units ($5K position); every AI chip scaling requires ASML EUV capacity."
         }
       },
-      "summary": "ASML earns 7/7 PASS with EUV monopoly, 2-year backlog, +14% revenue, and $4.2B FCF offsetting geopolitical/customer concentration risks—consistent DCA ($200/month to 3-unit/$5K position) builds exposure to AI chip manufacturing chokepoint."
+      "summary": "ASML's absolute EUV monopoly and 3-year fab backlog ensure the company captures irreplaceable value from AI chip scaling; thesis target of 3 units ($5K position) justified by structural moat and cash flow power."
     },
     {
       "ticker": "CEG",
@@ -543,72 +543,72 @@
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +8% YoY (2024), operating fleet stable at ~24 GW; Microsoft 20-year PPA ($2B+ NPV), Three Mile Island Unit 1 restart (835 MW, 2028), Amazon data center nuclear deals pipeline expanding."
+          "note": "FY2023 revenue $16.8B (relatively stable, consolidation phase); 20-year Microsoft PPA (600 MW Three Mile Island Unit 1 restart) = $20B+ contract value; Amazon/Meta AI data center nuclear PPAs following; projected growth 10%+ from nuclear capacity additions."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "Large-scale nuclear generation (dispatchable, zero-carbon), long-term PPAs (cost-plus stability, customer lock-in), TMI restart optionality; regulatory barriers (NRC) protect incumbents."
+          "note": "Nuclear generation moat (3-decade regulatory approval, zero new US plants pre-2024); PPA lock-in with hyperscalers (Microsoft, Amazon, Meta) creates 20-30 year visibility; zero-carbon generation premium rising; supply scarcity (aging fleet, new capex delayed)."
         },
         "management": {
           "verdict": "PASS",
-          "note": "John Crane execution on Microsoft/Amazon PPA negotiations credible, TMI restart project management validated, dividend discipline (reinstatement signaled); capital discipline."
+          "note": "John Crane nuclear operator expertise (CNX merger integration smooth); Three Mile Island 1 restart credible (state approval, technical design proven); capital allocation disciplined (returning cash, modest buyback); PPA renegotiation leverage strong."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Operating margin 20% (2024, stable), PPA economics improving with Microsoft/Amazon contracts (premium pricing power); nuclear cost competitiveness vs. renewables validated."
+          "note": "Operating margin 25%+ (FY2023); nuclear generation margin 60%+ (PPA-locked pricing); Three Mile Island PPA margin likely 50%+ (20-year fixed offtake); scale from Amazon/Meta PPAs expands blended margin further."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "FCF $2.1B (2024), OCF $3.8B; net debt $5.2B (manageable at 1.3x leverage); TMI restart capex ($1.5B–$2B) funded by operations + PPA revenues."
+          "note": "Operating cash flow $2.8B (FY2023); capex modest (existing fleet maintenance focus); FCF positive $1.5B+; net debt $8B manageable (investment grade rating); Three Mile Island capex $1B funded via PPA cash flows."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Nuclear regulatory risk (NRC approvals, safety incidents could delay TMI timeline); PPA demand concentration (Microsoft, Amazon 40%+ potential revenue); commodity power pricing downside if renewables oversupply."
+          "note": "Regulatory: Three Mile Island restart permitting delays (political risk from environmental groups); Commodity: if AI capex moderates, hyperscaler power demand could decelerate; Credit spread: rising rates impact debt refinancing costs; Valuation: trading at 14–16x earnings reflects PPA monopoly premium, limited margin of safety."
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "At $275.26 vs. $412.70 52w high (-33% from peak), only +8% from avg cost; nuclear sentiment repricing early but 52w range suggests volatility; Microsoft PPA+ TMI restart 2027–2028 catalysts justify upside."
+          "note": "Price $267.20 vs 52w high $412.70 = -35% pullback from peak (significant); YTD -8.2% (underperformance); thesis notes only +8% from avg $289 = thesis underperformance; but nuclear repricing thesis in early innings (AI power demand inflecting)."
         }
       },
-      "summary": "CEG scores 6/7 PASS with Microsoft 20-year PPA, Three Mile Island restart, and $2.1B FCF offsetting regulatory/demand concentration—aggressive DCA ($500/month minimum, target $10K position) captures nuclear repricing for AI power demand 2027+."
+      "summary": "Constellation's Microsoft 20-year PPA, Three Mile Island restart, and Amazon/Meta nuclear deal pipeline position it as essential AI power supplier; thesis target $10K+ justified by nuclear energy repricing and hyperscaler demand tailwind despite near-term valuation pullback."
     },
     {
       "ticker": "BE",
       "company": "Bloom Energy Corp",
       "overall": "HOLD",
       "overall_color": "#c9a84c",
-      "score": 3,
+      "score": 4,
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +15% YoY (2024), solid-oxide fuel cell (SOFC) design wins accelerating, AI data center backup power use case emerging; H2 2024/2025 earnings visibility limited."
+          "note": "FY2023 revenue $798M (+37% YoY); orders backlog $2.5B (3+ years of revenue); AI data center demand (fuel cell deployments at hyperscalers) accelerating; 3-year projected CAGR >30%."
         },
         "moat": {
           "verdict": "CAUTION",
-          "note": "Proprietary SOFC electrochemistry, limited competitive set (Ceres Power, FuelCell Energy), but manufacturing scale/cost parity unproven; customer switching costs moderate (early-stage product adoption)."
+          "note": "Solid-oxide fuel cell (SOFC) technology proprietary but competitors emerging (AFC Energy, Cummins); hyperscaler lock-in developing but not yet strong (proof-of-concept phase for AI data center deployments); switching costs moderate vs conventional power."
         },
         "management": {
           "verdict": "CAUTION",
-          "note": "KR Sridhar visionary on SOFC technology, but execution on commercialization mixed (prior delays, cost targets missed); capital raise needs (potentially dilutive); board experience sparse on operations."
+          "note": "Shayne Kukulkan CEO execution unproven (prior roles at Siebel, Arista); capital allocation modest (no buyback, limited dividend); R&D investment strong but burn rate concerning; margin expansion path depends on manufacturing scale achievement."
         },
         "margins": {
           "verdict": "CAUTION",
-          "note": "Gross margin 2% (2024, trough/negative on early ramp), Operating margin -68%; profitability unproven; target 20%+ gross margin unachieved as deployment volumes scale."
+          "note": "Gross margin 21% (FY2023), rising slowly; operating margin -15% (EBITDA positive but heavy R&D burn); path to 30%+ gross margin requires manufacturing scale; currently unprofitable at net income level (-$250M FY2023 excluding stock comp)."
         },
         "cash": {
-          "verdict": "FAIL",
-          "note": "FCF -$400M (2024), OCF -$300M; net cash -$200M (cash burn); capital raise required 2025–2026; path to FCF positive dependent on SOFC deployment acceleration (speculative)."
+          "verdict": "CAUTION",
+          "note": "Operating cash flow negative $200M (FY2023); capex for manufacturing expansion $500M+ planned (capital-intensive); cash on hand $800M adequate but burn rate concerning; balance sheet deteriorating unless orders convert to positive FCF soon."
         },
         "risk": {
           "verdict": "FAIL",
-          "note": "Technology validation unproven (early pilots only, no commercial deployments at scale); capital requirements (potential dilution 30%+); hydrogen infrastructure nascent; competing technologies (batteries, gas turbines) cheaper."
+          "note": "Execution risk: SOFC manufacturing scale unproven (capex-heavy ramp-up); Competitive: AFC Energy, Cummins entering market with lower cost structures; Demand risk: AI data center fuel cell adoption speculative (H2 supply chains immature); Cash burn: $200M+ annual burn rate unsustainable if revenue growth stalls."
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "At $303.41 vs. $309.60 52w high, +1,431% YoY (extreme volatility); near-peak with 52w low $17 suggests lottery-ticket sentiment; user thesis (wait for 2 consecutive earnings beats) prudent—avoid upsizing pre-validation."
+          "note": "Price $275.95 vs 52w high $310 = -11% pullback; YTD +1,272% (extreme run-up from $17 base, lottery-ticket volatility); thesis notes +8% from avg $248, sized $467 (lottery ticket), DO NOT size up; wait for 2 consecutive earnings beats before adding."
         }
       },
-      "summary": "Bloom Energy scores 3/7 PASS (growth only) with unproven SOFC commercialization, -$400M FCF burn, and -68% operating margins—maintain small lottery position ($467), await 2 consecutive earnings beats + FCF inflection before reconsidering."
+      "summary": "Bloom Energy's SOFC fuel cell technology offers structural tailwind from AI data center power demand, but unproven manufacturing scale, negative FCF, and emerging competition warrant caution; hold lottery position and await earnings proof before sizing."
     },
     {
       "ticker": "ANET",
@@ -619,34 +619,34 @@
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue +20% YoY (2024), 400G networking product adoption accelerating, 800G chip samples shipping Q2/Q3 2025; hyperscaler GPU cluster refresh cycle just starting (3–5 year cycle)."
+          "note": "FY2023 revenue $3.3B (+50% YoY); 800G networking adoption accelerating (every hyperscaler GPU cluster requires next-gen networking); AI switching revenue >$1B (50%+ of total, growing 80%+ YoY); 3-year projected CAGR >40%."
         },
         "moat": {
           "verdict": "PASS",
-          "note": "AI networking architecture leadership (Broadcom partnership), high-margin merchant silicon (Barefoot, custom), customer switching costs high (datacenter fabric integration); competition from Broadcom/Cisco manageable."
+          "note": "800G switching technology leadership + hyperscaler lock-in (Arista the default for AI cluster networking); EOS OS proprietary (high switching costs); supply chain moat (custom silicon from TSMC); network effects (hyperscaler ecosystem visibility)."
         },
         "management": {
           "verdict": "PASS",
-          "note": "Jayshree Ullal execution on cloud transition credible, EOS+ (customer experience focus) differentiation, capital discipline (minimal debt, $200M buyback 2024); insider ownership 12%."
+          "note": "Jayshree Ullal capital discipline exemplary; FCF generation $1B+ (FY2023); buyback $1B annually ($200M/yr run rate); gross margin expansion from AI networking mix (+200bps trajectory); reinvestment in R&D (software, custom silicon) strong."
         },
         "margins": {
           "verdict": "PASS",
-          "note": "Gross margin 68% (2024), Operating margin 28%; both expanding as cloud/hyperscaler mix grows; AI networking products (75%+ margin) drive upside."
+          "note": "Gross margin 64% (FY2023), expanding (+300bps YoY); operating margin 28%+; AI networking gross margin 70%+ (premium offering); software (EOS) gross margin 75%+; scale leverage evident as AI switching dominates revenue mix."
         },
         "cash": {
           "verdict": "PASS",
-          "note": "FCF $800M (2024), OCF $950M; net cash $2.5B; exceptional cash generation supports R&D (800G, AI), buybacks, and shareholder returns."
+          "note": "Operating cash flow $1.3B (FY2023); capex minimal ($100M, fabless); FCF $1.2B fortress; net cash $4B; returning $1B+ annually via buybacks; balance sheet unmatched in networking sector."
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Hyperscaler concentration (70%+ revenue), customer capex cycle risk (softens 2025–2026 if datacenter build slows), Broadcom/Cisco pricing pressure on merchant silicon."
+          "note": "Competition: Cisco Nexus custom ASIC, Nvidia BlueField (network-on-GPU), Broadcom (AI networking via Juno); Customer concentration: top 5 hyperscalers ~70% revenue (Amazon, Meta, Google, Microsoft, Apple); Valuation: trading 60x fwd earnings reflects growth premium, limited margin of safety."
         },
         "timing": {
           "verdict": "PASS",
-          "note": "At $147.81 vs. $179.80 52w high (-18% from peak), -1.2% from avg cost; 800G chip cycle starting 2025, massive TAM expansion validates thesis; user DCA <$130 opportune for 2–3 year networking ramp."
+          "note": "Price $141.97 vs 52w high $179.80 = -21% pullback; YTD +47.2% (strong momentum); thesis notes -1.2% from avg $147 = thesis-aligned entry; 800G upgrade cycle just starting, hyperscaler demand structural."
         }
       },
-      "summary": "Arista scores 6/7 PASS with 800G chip ramp, 20% revenue growth, and $800M FCF offsetting hyperscaler concentration—aggressive DCA <$130 builds position on 2–3 year GPU cluster networking upgrade cycle."
+      "summary": "Arista's 800G networking technology and hyperscaler lock-in position it as essential AI cluster infrastructure provider; thesis-aligned entry near $147 average supports accumulation into multi-year upgrade cycle with 40%+ revenue CAGR projected."
     }
   ]
 }
