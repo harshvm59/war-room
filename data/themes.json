@@ -1,205 +1,204 @@
 {
-  "updated_at": "2026-05-14T20:57:14.315248+05:30",
+  "updated_at": "2026-05-15T12:15:43.430542+05:30",
   "source": "claude+web_search",
   "items": [
     {
       "theme": "AI Compute & Semiconductors",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "The PHLX Semiconductor Index surged 65% YTD through May 2026, driven by record AI infrastructure investment. Memory chip spending jumped from $216B (2025) to $633B (2026). However, analysts warn valuations resemble 1999-2000 dot-com bubble levels, with potential 25-30% corrections ahead. Micron's Q2 FY2026 EPS jumped 8x YoY to $12.20; Q3 guidance at $19.15 signals 10x YoY growth.",
+      "summary": "U.S. cleared ~10 Chinese firms to buy Nvidia H200 chips but zero deliveries have occurred as of May 14, 2026. Nvidia controls 81% of AI data center chip market; NVIDIA H100 GPU waits hit 6-12 months at peak demand in 2024. AI chip market hit $120B in 2025, triple 2023 levels, with custom AI chips from hyperscalers growing rapidly.",
       "news": [
         {
-          "title": "Qualcomm drops 11% as chip stocks pull back from record AI-driven rally",
-          "date": "2026-05-12",
-          "url": "https://www.cnbc.com/2026/05/12/qualcomm-chip-stocks-record-ai.html"
+          "title": "U.S. clears H200 chip sales to 10 China firms as Nvidia CEO looks for breakthrough",
+          "date": "2026-05-14",
+          "url": "https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html"
         },
         {
-          "title": "Sandisk reports 251% YoY revenue growth to $5.95B; adjusted EPS of $23.41 vs $-0.30 prior year",
+          "title": "The Evidence Is Piling Up: Nvidia's AI Chip Dominance May Be About to Come to an End",
           "date": "2026-05-08",
-          "url": "https://www.fool.com/investing/2026/05/08/the-best-ai-chips-stocks-to-buy-right-now-in-2026/"
+          "url": "https://www.fool.com/investing/2026/05/08/the-evidence-is-piling-up-nvidias-ai-chip-dominanc/"
         }
       ],
       "tickers": [
         "NVDA",
-        "MU",
-        "TSM",
-        "AVGO",
-        "AMD"
+        "AMD",
+        "INTC",
+        "QCOM"
       ]
     },
     {
       "theme": "Energy & Nuclear Power",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "Nuclear energy resurgence driven by AI data center power demand. Cameco Q1 2026 consolidated net earnings rose to C$131M (US$96M), up 87% YoY. NuScale reported Q1 revenue of $565K (down from $13.4M due to completion of licensing deals) but secured $1.2B+ liquidity for TVA partnership covering up to 6 GW deployment. NANO Nuclear announced strategic MOU with Supermicro (May 6) for nuclear-powered AI data centers.",
+      "summary": "U.S. secured largest-ever HALEU shipment (1.7 metric tons) from Japan on May 7, 2026, advancing next-generation reactor fuel supply. GE Vernova and Hitachi signed MOU for BWRX-300 small modular reactor deployment in Southeast Asia. Spot uranium price reached $86.55/lb on May 1, 2026, up 24% year-over-year.",
       "news": [
         {
-          "title": "NANO Nuclear announces strategic MOU with Supermicro on May 6 for nuclear-powered AI data centers",
-          "date": "2026-05-13",
-          "url": "https://www.investorideas.com/news/2026/energy/05131-nuclear-stocks-ai-power-demand.asp"
+          "title": "U.S. Secures Largest-Ever HALEU Shipment to Power American Nuclear Industry",
+          "date": "2026-05-07",
+          "url": "https://www.energy.gov/nnsa/articles/us-secures-largest-ever-haleu-shipment-power-american-nuclear-industry"
         },
         {
-          "title": "Humanoid signed landmark Schaeffler deployment deal for thousands of robots across factories by 2032",
-          "date": "2026-05-13",
-          "url": "https://www.roboticstomorrow.com/news/2026/05/13/humanoid-secures-landmark-deal-with-schaeffler-to-deploy-thousands-of-humanoid-robots/26562/"
+          "title": "Industry Update—May 2026",
+          "date": "2026-05-04",
+          "url": "https://www.ans.org/news/article-7957/industry-updatemay-2026/"
         }
       ],
       "tickers": [
-        "CCJ",
-        "NNE",
-        "SMR",
+        "GEV",
         "OKLO",
-        "CEG"
+        "SMR",
+        "NNE",
+        "NUCL"
       ]
     },
     {
       "theme": "Defense & National Security",
-      "rating": "WARM",
-      "rc": "var(--gold)",
-      "summary": "U.S. defense budget nearing $1 trillion; ~$150B already appropriated including Golden Dome anti-missile initiative and $10.8B nuclear arsenal modernization (OBBBA act). Leidos accelerating hypersonic weapons production (May 12 announcement). Rocket Lab, Boeing, GE Aerospace, RTX, and Howmet Aerospace among key watchlist stocks. Geopolitical conflicts in Europe/Middle East driving replenishment demand and multi-year revenue visibility.",
+      "rating": "HOT",
+      "rc": "var(--red)",
+      "summary": "U.S. defense spending rose 17%+ in FY2026 to $1.05 trillion. Trump administration proposed $1.5 trillion defense budget for FY2027, roughly 40% increase. Global defense spending reached $2.63 trillion in 2025, up from $2.48 trillion in 2024, with strong increases in Europe and Middle East.",
       "news": [
         {
-          "title": "Defense Stocks To Consider – May 12th (Rocket Lab, Boeing, GE Aerospace top watchlist)",
-          "date": "2026-05-12",
-          "url": "https://www.dailypolitical.com/2026/05/12/defense-stocks-to-consider-may-12th.html"
+          "title": "U.S. Defense Spending Rises by More Than 17 Percent",
+          "date": "2026-03-24",
+          "url": "https://www.armscontrol.org/act/2026-03/news/us-defense-spending-rises-more-17-percent"
         },
         {
-          "title": "Leidos to Accelerate Hypersonic Weapons Production for U.S. Army and Navy",
-          "date": "2026-05-12",
-          "url": "https://www.stocktitan.net/stocks/themes/defense-military-stocks"
+          "title": "Military budget of the United States - Wikipedia",
+          "date": "2026-05-11",
+          "url": "https://en.wikipedia.org/wiki/Military_budget_of_the_United_States"
         }
       ],
       "tickers": [
         "RTX",
-        "NOC",
         "LMT",
-        "LDOS",
-        "GE"
+        "GD",
+        "NOC",
+        "BA"
       ]
     },
     {
       "theme": "Agentic AI & Enterprise SaaS",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "Bain & Company estimates $100B US SaaS market opportunity for agentic AI automation; vendors currently capture only $4-6B (5-6% penetration). Deloitte predicts 50% of orgs allocating >50% digital transformation budgets to AI automation in 2026. SAP launched Business AI Platform with 200+ agents and 50+ assistants (May 2026 Sapphire keynote). Pricing models shifting from seat-based to usage/outcome-based; IDC forecasts 70% of vendors refactoring pricing by 2028.",
+      "summary": "Gartner predicts 40% of enterprise apps will feature task-specific AI agents by end of 2026, up from <5% in 2025. Agentic AI market projected to grow at 53% CAGR from $8.5B in 2026 to $45B by 2030. Google expanded Forward Deployed Engineer program on May 12, 2026 to help enterprises move agentic AI from pilots to production.",
       "news": [
         {
-          "title": "SAP launches Autonomous Suite with 200+ agents and 50+ assistants across 5 domains",
+          "title": "The human side of agentic AI adoption: Why Google is sending builders, not salespeople, into the enterprise",
           "date": "2026-05-13",
-          "url": "https://news.sap.com/2026/05/sap-sapphire-keynote-business-ai-platform-power-autonomous-enterprise/"
+          "url": "https://techstartups.com/2026/05/13/the-human-side-of-agentic-ai-adoption-why-google-is-sending-builders-not-salespeople-into-the-enterprise/"
         },
         {
-          "title": "Bain: $100B US agentic AI SaaS market with only $4-6B currently captured by vendors",
-          "date": "2026-05-11",
-          "url": "https://michaelbriancotter.wordpress.com/2026/05/11/bain-sees-us100-billion-saas-market-in-agentic-ai-automation/"
+          "title": "Gartner Predicts 40% of Enterprise Apps Will Feature Task-Specific AI Agents by 2026",
+          "date": "2025-08-26",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025"
         }
       ],
       "tickers": [
+        "GOOGL",
+        "MSFT",
         "CRM",
-        "NOW",
         "ADBE",
-        "WDAY",
-        "MSFT"
+        "SNOW"
       ]
     },
     {
       "theme": "Healthcare AI & GLP-1",
-      "rating": "HOT",
-      "rc": "var(--red)",
-      "summary": "GLP-1 market trajectory: Morgan Stanley projects $190B by 2035; BCC Research forecasts $268.4B by 2030. Patient adoption expected to reach 25-30M Americans by 2030 vs. ~10M in 2026. IQVIA calls 2026 the 'year of the orals' with oral formulations improving accessibility and compliance. Eli Lilly's oral GLP-1 (orforglipron) expected launch in 2026 for weight loss; diabetes approval follows. Pfizer Q1 2026 showed 22% operational growth from newer products including Eliquis.",
+      "rating": "WARM",
+      "rc": "var(--gold)",
+      "summary": "Novo Nordisk and Eli Lilly's oral GLP-1 drugs launching in 2026. Foundayo (Lilly) generated $146M Q2 estimate and $1.6B for all 2026. Oral Wegovy had 135,000 prescriptions by late April 2026. Novo Nordisk partnered with OpenAI for enterprise-wide AI integration targeting full implementation by end of 2026.",
       "news": [
         {
-          "title": "Next-Generation GLP-1 Innovation Could Unlock Massive Metabolic Healthcare Market Opportunities",
-          "date": "2026-05-13",
-          "url": "https://www.chartmill.com/news/MRK/gnwcq-2026-5-13-next-generation-glp-1-innovation-could-unlock-massive-metabolic-healthcare-market-opportunities"
+          "title": "The Oral GLP-1 Tracker: Early Foundayo numbers may lack telehealth contributions, Citi says",
+          "date": "2026-05-08",
+          "url": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill"
         },
         {
-          "title": "Hims & Hers launches Labs AI and GLP-1 expansion to diversify telehealth offerings",
-          "date": "2026-05-10",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hims-labs-ai-glp-1-170913332.html"
+          "title": "GLP-1 giant Novo Nordisk partners with OpenAI as pharma industry's AI race accelerates",
+          "date": "2026-04-15",
+          "url": "https://www.proactiveinvestors.com/companies/news/1090487/glp-1-giant-novo-nordisk-partners-with-openai-as-pharma-industry-s-ai-race-accelerates-1090487.html"
         }
       ],
       "tickers": [
-        "LLY",
         "NVO",
-        "HIMS",
-        "REGN",
-        "JNJ"
+        "LLY",
+        "BNTX",
+        "MRNA",
+        "VRTX"
       ]
     },
     {
       "theme": "Physical AI & Humanoid Robotics",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "Humanoid robotics approaching inflection point from pilots to production. Humanoid secured landmark Schaeffler deal (May 13) for phased deployment of 4-digit units by 2032. Japan Airlines deployed Unitree robots at Haneda Airport (May 2026) for baggage/aircraft operations. BMW's Figure 02 robots produced 30,000+ vehicles with 1,250+ operational hours, handling 90,000+ parts. Unitree filed for $610M IPO (March 2026) targeting $7B valuation; first profitability proof point in sector.",
+      "summary": "Unitree shipped 5,500+ humanoid robots in 2025, targeting 20,000 units in 2026; prices fell from $85K (2023) to $25K (2025). Bessemer Venture noted 'GPT-2.5 moment for robotics' in May 2026. Boston Dynamics unveiled Electric Atlas at CES 2026. ~$6B flowed into world model companies in Q1 2026 alone. China placed robotics at core of 15th Five-Year Plan.",
       "news": [
         {
-          "title": "Humanoid secures landmark deal with Schaeffler to deploy thousands of robots by 2032",
+          "title": "Humanoid Robotics In 2026: The Race From Pilot To Platform",
           "date": "2026-05-13",
-          "url": "https://www.roboticstomorrow.com/news/2026/05/13/humanoid-secures-landmark-deal-with-schaeffler-to-deploy-thousands-of-humanoid-robots/26562/"
+          "url": "https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform/"
         },
         {
-          "title": "Japan Airlines deploys Unitree humanoid robots at Tokyo Haneda Airport in May 2026 operational trial",
-          "date": "2026-05-14",
-          "url": "https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform/"
+          "title": "National Robotics Week — Latest Physical AI Research, Breakthroughs and Resources",
+          "date": "2026-04-13",
+          "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/"
         }
       ],
       "tickers": [
-        "NVDA",
         "TSLA",
-        "SCHW",
-        "AVGO",
-        "INTC"
+        "NVDA",
+        "QCOM",
+        "INF",
+        "STM"
       ]
     },
     {
       "theme": "Critical Minerals & Copper",
-      "rating": "WARM",
-      "rc": "var(--gold)",
-      "summary": "Copper prices reached record $13,387/tonne (Jan 2026) but trading ~$13,000/mt (May 2026). JPMorgan forecasts $12,500/mt in Q2 2026, averaging $12,075 YTD. Supply-demand tension: Goldman Sachs projects 160kt surplus in 2026 (down from 500kt in 2025), moving toward structural deficit by 2029. BloombergNEF warns copper may enter deficit as early as 2026 with energy transition demand potentially tripling by 2045. China suspended sulfuric acid exports (May 2026), tightening smelting capacity.",
+      "rating": "HOT",
+      "rc": "var(--red)",
+      "summary": "IEA projects 30% copper supply deficit by 2035; demand hit 27M tonnes in 2024, growing to 37M by 2050. Refined copper demand rose 3.2% in 2024; BloombergNEF warns structural deficit may start in 2026. Copper prices up 40% in 2025 (largest annual gain since 2009). AI data centers creating additional demand pressures.",
       "news": [
         {
-          "title": "Copper prices surge above $13,000 as AI data centers and electrification drive demand",
-          "date": "2026-05-13",
-          "url": "https://tradingeconomics.com/commodity/copper"
+          "title": "Copper's tight supply and tariff risks set for a volatile 2026",
+          "date": "2025-12-22",
+          "url": "https://www.mining.com/coppers-tight-supply-and-tariff-risks-set-for-a-volatile-2026/"
         },
         {
-          "title": "JPMorgan expects copper at $12,500/mt in Q2 2026; BloombergNEF warns structural deficit by 2026",
-          "date": "2026-05-11",
-          "url": "https://www.expertmarketresearch.com/price-forecast/copper-price-forecast"
+          "title": "Copper Demand Set to Hit 37M Tonnes by 2050—Can Supply Keep Up?",
+          "date": "2026-05-07",
+          "url": "https://carboncredits.com/copper-demand-set-to-hit-37m-tonnes-by-2050-can-supply-keep-up/"
         }
       ],
       "tickers": [
         "FCX",
+        "TECK",
         "SCCO",
-        "JRVR",
-        "RIO",
-        "BHP"
+        "BHP",
+        "MARA"
       ]
     },
     {
       "theme": "Sovereign AI Infrastructure",
-      "rating": "WARM",
-      "rc": "var(--gold)",
-      "summary": "Global AI sovereignty shift from policy to infrastructure reality. WEF & Bain (Jan 2026 report) frame sovereignty as strategic interdependence; US+China capture ~65% of global AI investment. Europe building federated sovereign cloud/AI network across borders (announced March 2026) to reduce US/China reliance. IDC forecasts 60% of orgs with digital sovereignty requirements will migrate sensitive workloads by 2028. Microsoft, SAP, Oracle rolling out sovereign cloud regions with regulatory compliance controls.",
+      "rating": "HOT",
+      "rc": "var(--red)",
+      "summary": "Canada's TELUS-government partnership advancing sovereign AI data centres on May 11, 2026. Asia Pacific governments ranked Sovereign AI as 2nd-highest investment priority (IDC May 2026 survey of 360 IT decision-makers). Global spending on sovereign AI systems projected to exceed $100B by 2026. Red Hat-Core42 collaboration announced for UAE sovereign AI on May 11, 2026.",
       "news": [
         {
-          "title": "World Economic Forum & Bain publish AI Infrastructure Sovereignty framework emphasizing strategic interdependence",
-          "date": "2026-05-14",
-          "url": "https://www.weforum.org/publications/ai-infrastructure-in-the-age-of-sovereignty-requirements-strategies-and-a-trusted-framework-for-digital-embassies/"
+          "title": "Government of Canada and TELUS advance work to build sovereign AI infrastructure",
+          "date": "2026-05-11",
+          "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/government-of-canada-and-telus-advance-work-to-build-sovereign-ai-infrastructure.html"
         },
         {
-          "title": "Europe unites to build sovereign cloud and AI infrastructure to stop reliance on US/China",
-          "date": "2026-03-03",
-          "url": "https://www.euronews.com/next/2026/03/03/europe-unites-to-build-sovereign-cloud-and-ai-infrastructure-to-stop-reliance-on-us"
+          "title": "Asia Pacific Governments Embrace Sovereign AI as a Strategic National Priority",
+          "date": "2026-05-13",
+          "url": "https://www.manilatimes.net/2026/05/13/tmt-newswire/media-outreach-newswire/asia-pacific-governments-embrace-sovereign-ai-as-a-strategic-national-priority-but-scale-hinges-on-trust-skills-and-infrastructure-readiness/2342434"
         }
       ],
       "tickers": [
+        "GOOGL",
+        "AMZN",
         "MSFT",
-        "ORCL",
-        "SAP",
-        "DXCQ",
-        "CIQ"
+        "NVDA",
+        "CRM"
       ]
     }
   ]
