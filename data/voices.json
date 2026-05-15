@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T08:12:09.526508+05:30",
+  "updated_at": "2026-05-15T12:17:06.550999+05:30",
   "source": "claude+web_search",
   "items": [
     {
@@ -7,112 +7,57 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-05-13",
-      "themes": [
-        "#NVDA",
-        "#OpenAI"
-      ],
-      "quotes": [
-        {
-          "t": "We are going to make a huge investment in OpenAI...probably the largest investment we've ever made",
-          "k": true
-        },
-        {
-          "t": "We're ramping AWS like mad",
-          "k": true
-        }
-      ],
-      "src": "https://finance.yahoo.com/news/sam-altman-thanks-jensen-huang-183023240.html"
-    },
-    {
-      "name": "Sam Altman",
-      "role": "CEO",
-      "org": "OpenAI",
-      "cat": "CEO",
-      "date": "2026-05-13",
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Very grateful to Jensen for working to expand Nvidia capacity at AWS so much for us!",
-          "k": true
-        }
-      ],
-      "src": "https://finance.yahoo.com/news/sam-altman-thanks-jensen-huang-183023240.html"
-    },
-    {
-      "name": "Satya Nadella",
-      "role": "CEO",
-      "org": "Microsoft",
-      "cat": "CEO",
       "date": "2026-05-11",
       "themes": [
-        "#MSFT",
-        "#OpenAI"
-      ],
-      "quotes": [
-        {
-          "t": "If these tokens are not improving health outcomes, education outcomes...then even the social license to use scarce energy will be lost very quickly",
-          "k": true
-        }
-      ],
-      "src": "https://finance.biggo.com/news/4ZriIZ0BOIb5XxavGH9-"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-05-12",
-      "themes": [
+        "#NVDA",
         "#AI",
-        "#Software"
+        "#Compute"
       ],
       "quotes": [
         {
-          "t": "Software continues to be 'in the winners circle'",
+          "t": "AI will accelerate the expansion of human knowledge and help solve problems once beyond our reach",
           "k": true
         }
       ],
-      "src": "https://www.cnbc.com/fastmoney/"
+      "src": "https://singjupost.com/jensen-huangs-2026-cmu-commencement-speech-transcript/"
     },
     {
-      "name": "Jim Cramer",
-      "role": "Host",
-      "org": "CNBC",
-      "cat": "Analyst",
-      "date": "2026-05-10",
-      "themes": [
-        "#AI",
-        "#Hyperscalers"
-      ],
-      "quotes": [
-        {
-          "t": "The five biggest cloud companies will spend approximately $805 billion on AI infrastructure in 2026",
-          "k": true
-        }
-      ],
-      "src": "https://primaryignition.com/2026/05/10/the-3-ai-stocks-jim-cramer-cathie-wood-and-stanley-druckenmiller-all-agree-on-thats-never-happened-before/"
-    },
-    {
-      "name": "Elon Musk",
+      "name": "Hock Tan",
       "role": "CEO",
-      "org": "Tesla",
+      "org": "Broadcom",
       "cat": "CEO",
-      "date": "2026-05-13",
+      "date": "2026-03-05",
       "themes": [
-        "#TSLA",
-        "#Robotics"
+        "#AVGO",
+        "#AI",
+        "#Compute"
       ],
       "quotes": [
         {
-          "t": "Custom orders of the Tesla Model S & X have come to an end. I love those cars",
+          "t": "We have line of sight to achieve AI revenue from chips in excess of $100 billion in 2027",
           "k": true
         }
       ],
-      "src": "https://electrek.co/2026/04/01/tesla-model-s-x-production-over-only-inventory-left/"
+      "src": "https://www.fool.com/investing/2026/05/14/broadcom-vs-taiwan-semiconductor-which-ai-chip-gia/"
+    },
+    {
+      "name": "Cathie Wood",
+      "role": "CEO/CIO",
+      "org": "ARK Invest",
+      "cat": "Investor",
+      "date": "2026-05-15",
+      "themes": [
+        "#AI",
+        "#Energy",
+        "#Deflation"
+      ],
+      "quotes": [
+        {
+          "t": "AI drives structural deflation the bond market is only starting to price",
+          "k": true
+        }
+      ],
+      "src": "https://www.ark-invest.com/videos/market-commentary/may-2026-in-the-know-cathie-wood"
     }
   ]
 }
