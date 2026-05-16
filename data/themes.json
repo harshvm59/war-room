@@ -1,204 +1,202 @@
 {
-  "updated_at": "2026-05-15T12:15:43.430542+05:30",
+  "updated_at": "2026-05-16T11:40:53.613839+05:30",
   "source": "claude+web_search",
   "items": [
     {
       "theme": "AI Compute & Semiconductors",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "U.S. cleared ~10 Chinese firms to buy Nvidia H200 chips but zero deliveries have occurred as of May 14, 2026. Nvidia controls 81% of AI data center chip market; NVIDIA H100 GPU waits hit 6-12 months at peak demand in 2024. AI chip market hit $120B in 2025, triple 2023 levels, with custom AI chips from hyperscalers growing rapidly.",
+      "summary": "The Philadelphia Semiconductor Index surged 64% since late March 2026. Broadcom reported Q1 AI semiconductor revenue of $8.4B (+106% YoY) and guided Q2 AI revenue to $10.7B, targeting $100B in AI sales by 2027. Memory chips remain the most valuable commodity in the AI economy with DRAM shortages driving price increases.",
       "news": [
         {
-          "title": "U.S. clears H200 chip sales to 10 China firms as Nvidia CEO looks for breakthrough",
-          "date": "2026-05-14",
-          "url": "https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html"
+          "title": "Broadcom Posts Fiscal Q1 AI Semiconductor Revenue of $8.4B, Up 106% YoY; Guides Q2 to $10.7B",
+          "date": "2026-05-15",
+          "url": "https://247wallst.com/investing/2026/05/15/the-ai-chip-rally-is-masking-a-dangerous-truth-half-the-sp-500-is-being-left-behind/"
         },
         {
-          "title": "The Evidence Is Piling Up: Nvidia's AI Chip Dominance May Be About to Come to an End",
-          "date": "2026-05-08",
-          "url": "https://www.fool.com/investing/2026/05/08/the-evidence-is-piling-up-nvidias-ai-chip-dominanc/"
+          "title": "CME Group Launches Compute Futures Market for GPU Pricing",
+          "date": "2026-05-12",
+          "url": "https://www.cnbc.com/amp/2026/05/12/new-futures-market-for-semiconductors-comes-as-ai-drives-costs-skyward.html"
         }
       ],
       "tickers": [
         "NVDA",
-        "AMD",
-        "INTC",
-        "QCOM"
+        "AVGO",
+        "TSM",
+        "MU",
+        "MRVL"
       ]
     },
     {
       "theme": "Energy & Nuclear Power",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "U.S. secured largest-ever HALEU shipment (1.7 metric tons) from Japan on May 7, 2026, advancing next-generation reactor fuel supply. GE Vernova and Hitachi signed MOU for BWRX-300 small modular reactor deployment in Southeast Asia. Spot uranium price reached $86.55/lb on May 1, 2026, up 24% year-over-year.",
+      "summary": "Three DOE Reactor Pilot Program reactors (Aalo, Antares, Valar) received DSA approval in May 2026 and are on schedule for July 4 criticality. TerraPower's Natrium reactor received final NRC approval to begin construction in Wyoming. X-energy completed its IPO raising over $1 billion, the largest nuclear energy IPO on record, on April 24, 2026.",
       "news": [
         {
-          "title": "U.S. Secures Largest-Ever HALEU Shipment to Power American Nuclear Industry",
-          "date": "2026-05-07",
-          "url": "https://www.energy.gov/nnsa/articles/us-secures-largest-ever-haleu-shipment-power-american-nuclear-industry"
+          "title": "Three Advanced Reactors Approved for Fuel Loading; July Criticality on Track",
+          "date": "2026-05-14",
+          "url": "https://nuclearinnovationalliance.org/index.php/us-nuclear-energy-project-tracker-update-may-2026"
         },
         {
-          "title": "Industry Update—May 2026",
-          "date": "2026-05-04",
-          "url": "https://www.ans.org/news/article-7957/industry-updatemay-2026/"
+          "title": "U.S. Secures Largest-Ever HALEU Shipment from Japan - 1.7 Metric Tons",
+          "date": "2026-05-07",
+          "url": "https://www.energy.gov/nnsa/articles/us-secures-largest-ever-haleu-shipment-power-american-nuclear-industry"
         }
       ],
       "tickers": [
-        "GEV",
         "OKLO",
-        "SMR",
-        "NNE",
-        "NUCL"
+        "NEUP",
+        "GE",
+        "LDRY"
       ]
     },
     {
       "theme": "Defense & National Security",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "U.S. defense spending rose 17%+ in FY2026 to $1.05 trillion. Trump administration proposed $1.5 trillion defense budget for FY2027, roughly 40% increase. Global defense spending reached $2.63 trillion in 2025, up from $2.48 trillion in 2024, with strong increases in Europe and Middle East.",
+      "summary": "The U.S. Navy is conducting Project Freedom operations in the Strait of Hormuz with military escorts for commercial shipping. The Air Force committed to purchasing at least seven E-7A Wedgetail aircraft, reversing prior cancellation plans. Defense budget allocations emphasize shipbuilding, munitions, Coast Guard expansion, and Golden Dome missile defense ($1.2 trillion estimate).",
       "news": [
         {
-          "title": "U.S. Defense Spending Rises by More Than 17 Percent",
-          "date": "2026-03-24",
-          "url": "https://www.armscontrol.org/act/2026-03/news/us-defense-spending-rises-more-17-percent"
+          "title": "Air Force Plans to Buy At Least Seven E-7A Wedgetail Aircraft",
+          "date": "2026-05-12",
+          "url": "https://insidedefense.com/"
         },
         {
-          "title": "Military budget of the United States - Wikipedia",
-          "date": "2026-05-11",
-          "url": "https://en.wikipedia.org/wiki/Military_budget_of_the_United_States"
+          "title": "U.S. Military Escorts Commercial Ships Through Hormuz Amid Iran Tensions",
+          "date": "2026-05-09",
+          "url": "https://www.nbcnews.com/politics/national-security/us-commercial-ships-military-security-hormuz-transit-sources-say-rcna343742"
         }
       ],
       "tickers": [
-        "RTX",
         "LMT",
-        "GD",
+        "RTX",
         "NOC",
-        "BA"
+        "HII"
       ]
     },
     {
       "theme": "Agentic AI & Enterprise SaaS",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "Gartner predicts 40% of enterprise apps will feature task-specific AI agents by end of 2026, up from <5% in 2025. Agentic AI market projected to grow at 53% CAGR from $8.5B in 2026 to $45B by 2030. Google expanded Forward Deployed Engineer program on May 12, 2026 to help enterprises move agentic AI from pilots to production.",
+      "summary": "Bain & Company estimates agentic AI could create a $100 billion market in the US for SaaS by automating coordination work. Deloitte forecasts 75% of companies will invest in agentic AI in 2026. IDC predicts by 2028, 70% of software vendors will shift to usage-, agent-, or outcome-based pricing models, abandoning seat-based pricing.",
       "news": [
         {
-          "title": "The human side of agentic AI adoption: Why Google is sending builders, not salespeople, into the enterprise",
-          "date": "2026-05-13",
-          "url": "https://techstartups.com/2026/05/13/the-human-side-of-agentic-ai-adoption-why-google-is-sending-builders-not-salespeople-into-the-enterprise/"
+          "title": "Bain & Company: Agentic AI to Create $100 Billion SaaS Market",
+          "date": "2026-05-12",
+          "url": "https://www.pizzafranchisehub.com/archives/31485"
         },
         {
-          "title": "Gartner Predicts 40% of Enterprise Apps Will Feature Task-Specific AI Agents by 2026",
-          "date": "2025-08-26",
-          "url": "https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025"
+          "title": "Boomi Announces Strategic Collaboration with Red Hat for Agentic AI at Scale",
+          "date": "2026-05-15",
+          "url": "https://siliconangle.com/2026/05/15/saas-applications-transform-headless-enterprise-boomiworld/"
         }
       ],
       "tickers": [
-        "GOOGL",
-        "MSFT",
         "CRM",
-        "ADBE",
-        "SNOW"
+        "NOW",
+        "WDAY",
+        "HUBS"
       ]
     },
     {
       "theme": "Healthcare AI & GLP-1",
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Novo Nordisk and Eli Lilly's oral GLP-1 drugs launching in 2026. Foundayo (Lilly) generated $146M Q2 estimate and $1.6B for all 2026. Oral Wegovy had 135,000 prescriptions by late April 2026. Novo Nordisk partnered with OpenAI for enterprise-wide AI integration targeting full implementation by end of 2026.",
+      "summary": "The Medicare GLP-1 Bridge program was extended through 2027 (updated May 11, 2026) with beneficiaries paying $50/month. Medicaid GLP-1 coverage expanded through the BALANCE Model beginning May 2026. AI-based research identified GLP-1 side effects missed in clinical trials by analyzing 400,000 Reddit posts, showing AI's role in post-market surveillance.",
       "news": [
         {
-          "title": "The Oral GLP-1 Tracker: Early Foundayo numbers may lack telehealth contributions, Citi says",
-          "date": "2026-05-08",
-          "url": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill"
+          "title": "Medicare GLP-1 Bridge Extended Through 2027; Medicaid Expansion Begins May 2026",
+          "date": "2026-05-11",
+          "url": "https://www.kff.org/medicare/what-to-know-about-the-balance-model-for-glp-1s-in-medicare-and-medicaid/what-to-know-about-the-balance-model-for-glp-1s-in-medicare-and-medicaid/"
         },
         {
-          "title": "GLP-1 giant Novo Nordisk partners with OpenAI as pharma industry's AI race accelerates",
-          "date": "2026-04-15",
-          "url": "https://www.proactiveinvestors.com/companies/news/1090487/glp-1-giant-novo-nordisk-partners-with-openai-as-pharma-industry-s-ai-race-accelerates-1090487.html"
+          "title": "ChatGPT for Clinicians Launches to Support Clinical Decision-Making",
+          "date": "2026-05-11",
+          "url": "https://digitalhealthwire.com/newsletter/chatgpt-for-clinicians-joyful-and-new-glp-1-sides/"
         }
       ],
       "tickers": [
-        "NVO",
+        "UNH",
+        "CVS",
         "LLY",
-        "BNTX",
-        "MRNA",
-        "VRTX"
+        "JNJ",
+        "AMGN"
       ]
     },
     {
       "theme": "Physical AI & Humanoid Robotics",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "Unitree shipped 5,500+ humanoid robots in 2025, targeting 20,000 units in 2026; prices fell from $85K (2023) to $25K (2025). Bessemer Venture noted 'GPT-2.5 moment for robotics' in May 2026. Boston Dynamics unveiled Electric Atlas at CES 2026. ~$6B flowed into world model companies in Q1 2026 alone. China placed robotics at core of 15th Five-Year Plan.",
+      "summary": "Japan Airlines deployed humanoid robots at Tokyo's Haneda Airport in May 2026 as part of a three-year operational commitment. Figure AI's humanoid robots sorted packages for 50 hours nonstop without intervention. Bessemer VC noted the industry is at 'GPT-2.5 moment for robotics' with capabilities real but production reliability gap remaining.",
       "news": [
         {
-          "title": "Humanoid Robotics In 2026: The Race From Pilot To Platform",
-          "date": "2026-05-13",
-          "url": "https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform/"
+          "title": "Figure AI Humanoid Robots Complete 50-Hour Uninterrupted Package Sorting Task",
+          "date": "2026-05-15",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-15/robotics-ceo-vows-no-intervention-in-humanoids-viral-trial-run"
         },
         {
-          "title": "National Robotics Week — Latest Physical AI Research, Breakthroughs and Resources",
-          "date": "2026-04-13",
-          "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/"
+          "title": "Japan Airlines Deploys Humanoid Robots at Haneda Airport in May 2026",
+          "date": "2026-05-07",
+          "url": "https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform/"
         }
       ],
       "tickers": [
-        "TSLA",
         "NVDA",
-        "QCOM",
-        "INF",
-        "STM"
+        "NXTX",
+        "TSM",
+        "LG",
+        "TSLA"
       ]
     },
     {
       "theme": "Critical Minerals & Copper",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "IEA projects 30% copper supply deficit by 2035; demand hit 27M tonnes in 2024, growing to 37M by 2050. Refined copper demand rose 3.2% in 2024; BloombergNEF warns structural deficit may start in 2026. Copper prices up 40% in 2025 (largest annual gain since 2009). AI data centers creating additional demand pressures.",
+      "summary": "Copper prices hit record $14,500/tonne in January 2026 and remain near records as of mid-May. Global copper demand driven by AI data centers and electrification is expected to grow 2.6% YoY in 2026. U.S. committed $10 billion to Project Vault Strategic Critical Minerals Reserve and $1.3 billion to Reko Diq copper-gold project in Pakistan.",
       "news": [
         {
-          "title": "Copper's tight supply and tariff risks set for a volatile 2026",
-          "date": "2025-12-22",
-          "url": "https://www.mining.com/coppers-tight-supply-and-tariff-risks-set-for-a-volatile-2026/"
+          "title": "Copper Prices Surge Above $14,000; AI Data Centers and Electrification Drive Demand",
+          "date": "2026-05-12",
+          "url": "https://www.mining.com/ranked-the-worlds-top-10-biggest-copper-mines/"
         },
         {
-          "title": "Copper Demand Set to Hit 37M Tonnes by 2050—Can Supply Keep Up?",
-          "date": "2026-05-07",
-          "url": "https://carboncredits.com/copper-demand-set-to-hit-37m-tonnes-by-2050-can-supply-keep-up/"
+          "title": "U.S. Announces $10 Billion Project Vault Strategic Critical Minerals Reserve",
+          "date": "2026-02-05",
+          "url": "https://asean.usmission.gov/2026-critical-minerals-ministerial/"
         }
       ],
       "tickers": [
         "FCX",
         "TECK",
-        "SCCO",
-        "BHP",
-        "MARA"
+        "LUNDIN",
+        "VALE",
+        "RIO"
       ]
     },
     {
       "theme": "Sovereign AI Infrastructure",
-      "rating": "HOT",
-      "rc": "var(--red)",
-      "summary": "Canada's TELUS-government partnership advancing sovereign AI data centres on May 11, 2026. Asia Pacific governments ranked Sovereign AI as 2nd-highest investment priority (IDC May 2026 survey of 360 IT decision-makers). Global spending on sovereign AI systems projected to exceed $100B by 2026. Red Hat-Core42 collaboration announced for UAE sovereign AI on May 11, 2026.",
+      "rating": "WARM",
+      "rc": "var(--gold)",
+      "summary": "Canada announced sovereign AI infrastructure partnership with TELUS on May 11, 2026, with plans for 60,000+ GPUs and 150 MW by 2032. Red Hat and Core42 unveiled sovereign AI collaboration for UAE public sector and defense. IBM released IBM Sovereign Core enabling enterprises to deploy AI with customer control over operations and governance.",
       "news": [
         {
-          "title": "Government of Canada and TELUS advance work to build sovereign AI infrastructure",
+          "title": "Government of Canada and TELUS Advance Sovereign AI Data Centre Initiative",
           "date": "2026-05-11",
           "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/government-of-canada-and-telus-advance-work-to-build-sovereign-ai-infrastructure.html"
         },
         {
-          "title": "Asia Pacific Governments Embrace Sovereign AI as a Strategic National Priority",
-          "date": "2026-05-13",
-          "url": "https://www.manilatimes.net/2026/05/13/tmt-newswire/media-outreach-newswire/asia-pacific-governments-embrace-sovereign-ai-as-a-strategic-national-priority-but-scale-hinges-on-trust-skills-and-infrastructure-readiness/2342434"
+          "title": "Red Hat and Core42 Set Standard for Sovereign AI Infrastructure in UAE",
+          "date": "2026-05-11",
+          "url": "https://www.hpcwire.com/aiwire/2026/05/11/red-hat-and-core42-set-the-standard-for-sovereign-ai-infrastructure/"
         }
       ],
       "tickers": [
-        "GOOGL",
-        "AMZN",
-        "MSFT",
-        "NVDA",
-        "CRM"
+        "IBM",
+        "RHT",
+        "CSCO",
+        "JNPR",
+        "PLTR"
       ]
     }
   ]
