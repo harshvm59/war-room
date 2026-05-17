@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-05-16T11:40:53.613839+05:30",
+  "updated_at": "2026-05-17T12:04:28.003339+05:30",
   "source": "claude+web_search",
   "items": [
     {
       "theme": "AI Compute & Semiconductors",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "The Philadelphia Semiconductor Index surged 64% since late March 2026. Broadcom reported Q1 AI semiconductor revenue of $8.4B (+106% YoY) and guided Q2 AI revenue to $10.7B, targeting $100B in AI sales by 2027. Memory chips remain the most valuable commodity in the AI economy with DRAM shortages driving price increases.",
+      "summary": "Philadelphia Semiconductor Index surged 60–64% in six weeks. Broadcom Q1 AI revenue hit $8.4B (+106% YoY) with Q2 guidance at $10.7B and a $100B AI sales target by 2027. Memory chip crisis intensifies with Micron up 38% in one week (best week since 2008); servers account for 60–70% of memory demand versus 30% pre-AI boom.",
       "news": [
         {
-          "title": "Broadcom Posts Fiscal Q1 AI Semiconductor Revenue of $8.4B, Up 106% YoY; Guides Q2 to $10.7B",
+          "title": "Broadcom posts fiscal Q1 AI semiconductor revenue of $8.4B, guides Q2 to $10.7B",
           "date": "2026-05-15",
           "url": "https://247wallst.com/investing/2026/05/15/the-ai-chip-rally-is-masking-a-dangerous-truth-half-the-sp-500-is-being-left-behind/"
         },
         {
-          "title": "CME Group Launches Compute Futures Market for GPU Pricing",
+          "title": "CME Group launches compute futures market for GPU pricing hedging",
           "date": "2026-05-12",
           "url": "https://www.cnbc.com/amp/2026/05/12/new-futures-market-for-semiconductors-comes-as-ai-drives-costs-skyward.html"
         }
@@ -22,8 +22,8 @@
       "tickers": [
         "NVDA",
         "AVGO",
-        "TSM",
         "MU",
+        "TSM",
         "MRVL"
       ]
     },
@@ -31,47 +31,47 @@
       "theme": "Energy & Nuclear Power",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "Three DOE Reactor Pilot Program reactors (Aalo, Antares, Valar) received DSA approval in May 2026 and are on schedule for July 4 criticality. TerraPower's Natrium reactor received final NRC approval to begin construction in Wyoming. X-energy completed its IPO raising over $1 billion, the largest nuclear energy IPO on record, on April 24, 2026.",
+      "summary": "Three DOE Reactor Pilot Program units (Aalo, Antares, Valar) received Documented Safety Analysis approval May 2026, on track for July 2026 criticality. U.S. secured largest-ever HALEU shipment (1.7 metric tons) from Japan. DOE awarded $94M for SMR deployments. Terra Power's Natrium plant (Wyoming) provides 500 MW to Rocky Mountain Power; X-energy raised $1B+ in IPO (largest nuclear energy IPO on record).",
       "news": [
         {
-          "title": "Three Advanced Reactors Approved for Fuel Loading; July Criticality on Track",
+          "title": "Three DOE reactor pilots receive DSA approval, on track for July 2026 criticality",
           "date": "2026-05-14",
           "url": "https://nuclearinnovationalliance.org/index.php/us-nuclear-energy-project-tracker-update-may-2026"
         },
         {
-          "title": "U.S. Secures Largest-Ever HALEU Shipment from Japan - 1.7 Metric Tons",
+          "title": "U.S. secures largest HALEU shipment in history from Japan (1.7 metric tons)",
           "date": "2026-05-07",
           "url": "https://www.energy.gov/nnsa/articles/us-secures-largest-ever-haleu-shipment-power-american-nuclear-industry"
         }
       ],
       "tickers": [
-        "OKLO",
-        "NEUP",
-        "GE",
-        "LDRY"
+        "XLE",
+        "CEG",
+        "EXE"
       ]
     },
     {
       "theme": "Defense & National Security",
-      "rating": "HOT",
-      "rc": "var(--red)",
-      "summary": "The U.S. Navy is conducting Project Freedom operations in the Strait of Hormuz with military escorts for commercial shipping. The Air Force committed to purchasing at least seven E-7A Wedgetail aircraft, reversing prior cancellation plans. Defense budget allocations emphasize shipbuilding, munitions, Coast Guard expansion, and Golden Dome missile defense ($1.2 trillion estimate).",
+      "rating": "WARM",
+      "rc": "var(--gold)",
+      "summary": "U.S. secured 100,000 tons of copper plus 50,000 for allies via Orion Critical Minerals Consortium (Feb 2026 Ministerial). Air Force commits to seven E-7A Wedgetail aircraft (backed off 2025 cancellation plans). CBO estimates Trump's missile defense system ('Iron Dome for America') would cost $1.2 trillion over 20 years. Agentic AI adoption accelerating in Pentagon with cybersecurity implications.",
       "news": [
         {
-          "title": "Air Force Plans to Buy At Least Seven E-7A Wedgetail Aircraft",
+          "title": "Air Force reverses course, plans purchase of at least seven E-7A Wedgetail aircraft",
           "date": "2026-05-12",
           "url": "https://insidedefense.com/"
         },
         {
-          "title": "U.S. Military Escorts Commercial Ships Through Hormuz Amid Iran Tensions",
-          "date": "2026-05-09",
-          "url": "https://www.nbcnews.com/politics/national-security/us-commercial-ships-military-security-hormuz-transit-sources-say-rcna343742"
+          "title": "Pentagon leaders love agentic AI but it's giving cyber criminals nation-state-like powers",
+          "date": "2026-05-14",
+          "url": "https://www.defenseone.com/threats/"
         }
       ],
       "tickers": [
         "LMT",
-        "RTX",
         "NOC",
+        "GD",
+        "RTX",
         "HII"
       ]
     },
@@ -79,89 +79,89 @@
       "theme": "Agentic AI & Enterprise SaaS",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "Bain & Company estimates agentic AI could create a $100 billion market in the US for SaaS by automating coordination work. Deloitte forecasts 75% of companies will invest in agentic AI in 2026. IDC predicts by 2028, 70% of software vendors will shift to usage-, agent-, or outcome-based pricing models, abandoning seat-based pricing.",
+      "summary": "IDC forecasts 70% of SaaS vendors will shift to consumption/outcome-based pricing by 2028 (seat-based pricing obsolete). Over 40% of large enterprises now scaling agentic deployments beyond pilots. Cognizant launched Secure AI Services (May 7, 2026) for enterprise agentic governance. Deloitte predicts 75% of enterprises will invest in agentic AI in 2026, market CAGR of 53% through 2030 (reaching $45B by 2030 from $8.5B in 2026).",
       "news": [
         {
-          "title": "Bain & Company: Agentic AI to Create $100 Billion SaaS Market",
-          "date": "2026-05-12",
-          "url": "https://www.pizzafranchisehub.com/archives/31485"
+          "title": "Cognizant launches Secure AI Services for agentic system governance and scaling",
+          "date": "2026-05-07",
+          "url": "https://news.cognizant.com/2026-05-07-Cognizant-Launches-Secure-AI-Services-to-Help-Enterprises-Safely-Scale-Agentic-Systems"
         },
         {
-          "title": "Boomi Announces Strategic Collaboration with Red Hat for Agentic AI at Scale",
-          "date": "2026-05-15",
-          "url": "https://siliconangle.com/2026/05/15/saas-applications-transform-headless-enterprise-boomiworld/"
+          "title": "MIT Technology Review: sovereignty is the strongest predictor of enterprise AI success",
+          "date": "2026-05-14",
+          "url": "https://www.morningstar.com/news/pr-newswire/20260514ph59405/sovereignty-is-the-new-operating-system-for-agentic-ai-new-mit-technology-review-insights-report-finds"
         }
       ],
       "tickers": [
         "CRM",
         "NOW",
-        "WDAY",
-        "HUBS"
+        "CTSH",
+        "ADBE",
+        "MSFT"
       ]
     },
     {
       "theme": "Healthcare AI & GLP-1",
-      "rating": "WARM",
-      "rc": "var(--gold)",
-      "summary": "The Medicare GLP-1 Bridge program was extended through 2027 (updated May 11, 2026) with beneficiaries paying $50/month. Medicaid GLP-1 coverage expanded through the BALANCE Model beginning May 2026. AI-based research identified GLP-1 side effects missed in clinical trials by analyzing 400,000 Reddit posts, showing AI's role in post-market surveillance.",
+      "rating": "HOT",
+      "rc": "var(--red)",
+      "summary": "Medicare GLP-1 Bridge extended through end of 2027 (originally Dec 2026). Medvi, AI-powered GLP-1 telehealth startup, hit $401M annual revenue with 250,000+ customers; on track to be a $1B company in 2026. OpenAI launched ChatGPT for Clinicians (May 11, 2026). GLP-1 market continues expansion with new data on cardiovascular and addiction-related applications under development.",
       "news": [
         {
-          "title": "Medicare GLP-1 Bridge Extended Through 2027; Medicaid Expansion Begins May 2026",
+          "title": "Medicare GLP-1 Bridge program extended through end of 2027",
           "date": "2026-05-11",
-          "url": "https://www.kff.org/medicare/what-to-know-about-the-balance-model-for-glp-1s-in-medicare-and-medicaid/what-to-know-about-the-balance-model-for-glp-1s-in-medicare-and-medicaid/"
+          "url": "https://www.kff.org/medicare/what-to-know-about-the-balance-model-for-glp-1s-in-medicare-and-medicaid/"
         },
         {
-          "title": "ChatGPT for Clinicians Launches to Support Clinical Decision-Making",
+          "title": "OpenAI launches ChatGPT for Clinicians; AI-powered telehealth startup Medvi on path to $1B valuation",
           "date": "2026-05-11",
           "url": "https://digitalhealthwire.com/newsletter/chatgpt-for-clinicians-joyful-and-new-glp-1-sides/"
         }
       ],
       "tickers": [
-        "UNH",
-        "CVS",
-        "LLY",
         "JNJ",
-        "AMGN"
+        "NOVO",
+        "LLY",
+        "ELV"
       ]
     },
     {
       "theme": "Physical AI & Humanoid Robotics",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "Japan Airlines deployed humanoid robots at Tokyo's Haneda Airport in May 2026 as part of a three-year operational commitment. Figure AI's humanoid robots sorted packages for 50 hours nonstop without intervention. Bessemer VC noted the industry is at 'GPT-2.5 moment for robotics' with capabilities real but production reliability gap remaining.",
+      "summary": "Japan Airlines deployed humanoid robots at Tokyo Haneda Airport (May 2026) for three-year operational commitment—industry validation of production-ready systems. SoftBank acquired ABB Robotics for $5.4B, explicitly positioning physical AI as 'next frontier.' Physical Intelligence raised ~$11B in Series C funding. April pi-0.7 demonstrated zero-shot task performance on previously unseen objects. Warehouse automation sector projected €9.5–14.2B by 2026 (15–20% CAGR).",
       "news": [
         {
-          "title": "Figure AI Humanoid Robots Complete 50-Hour Uninterrupted Package Sorting Task",
-          "date": "2026-05-15",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-15/robotics-ceo-vows-no-intervention-in-humanoids-viral-trial-run"
-        },
-        {
-          "title": "Japan Airlines Deploys Humanoid Robots at Haneda Airport in May 2026",
+          "title": "Japan Airlines deploys humanoid robots at Tokyo Haneda for three-year operational commitment",
           "date": "2026-05-07",
           "url": "https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform/"
+        },
+        {
+          "title": "NVIDIA releases new physical AI models (Cosmos, GR00T) for next-generation humanoid robots",
+          "date": "2026-05-14",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots"
         }
       ],
       "tickers": [
         "NVDA",
-        "NXTX",
-        "TSM",
-        "LG",
-        "TSLA"
+        "TSLA",
+        "AMZN",
+        "SNPS",
+        "QCOM"
       ]
     },
     {
       "theme": "Critical Minerals & Copper",
       "rating": "HOT",
       "rc": "var(--red)",
-      "summary": "Copper prices hit record $14,500/tonne in January 2026 and remain near records as of mid-May. Global copper demand driven by AI data centers and electrification is expected to grow 2.6% YoY in 2026. U.S. committed $10 billion to Project Vault Strategic Critical Minerals Reserve and $1.3 billion to Reko Diq copper-gold project in Pakistan.",
+      "summary": "Copper added to USGS 2025 critical minerals list (Trump Administration expanded scope). Copper prices reached record $14,500/tonne in January 2026. JP Morgan estimates copper demand from data centers alone will hit 475,000 metric tons in 2026. International Copper Study Group abandoned surplus projections, now forecasting 150,000-tonne deficit for 2026. Supply constraints from geopolitical disruptions (Grasberg, Kamoa-Kakula incidents in 2025).",
       "news": [
         {
-          "title": "Copper Prices Surge Above $14,000; AI Data Centers and Electrification Drive Demand",
+          "title": "Copper prices surge above $14,000 as AI data centers and electrification drive demand",
           "date": "2026-05-12",
           "url": "https://www.mining.com/ranked-the-worlds-top-10-biggest-copper-mines/"
         },
         {
-          "title": "U.S. Announces $10 Billion Project Vault Strategic Critical Minerals Reserve",
+          "title": "Critical minerals ministerial: U.S. secures 100,000 tons copper via Orion Consortium",
           "date": "2026-02-05",
           "url": "https://asean.usmission.gov/2026-critical-minerals-ministerial/"
         }
@@ -169,24 +169,24 @@
       "tickers": [
         "FCX",
         "TECK",
-        "LUNDIN",
-        "VALE",
-        "RIO"
+        "BHP",
+        "RIO",
+        "SCCO"
       ]
     },
     {
       "theme": "Sovereign AI Infrastructure",
-      "rating": "WARM",
-      "rc": "var(--gold)",
-      "summary": "Canada announced sovereign AI infrastructure partnership with TELUS on May 11, 2026, with plans for 60,000+ GPUs and 150 MW by 2032. Red Hat and Core42 unveiled sovereign AI collaboration for UAE public sector and defense. IBM released IBM Sovereign Core enabling enterprises to deploy AI with customer control over operations and governance.",
+      "rating": "HOT",
+      "rc": "var(--red)",
+      "summary": "Canada-TELUS partnership advancing sovereign AI data center cluster in B.C. (to scale 60,000+ GPUs, 150 MW by 2032). Red Hat and Core42 collaborate on sovereign cloud/AI services for UAE public sector (May 11, 2026). IBM Sovereign Core launched for customer-controlled AI workloads. Semidynamics and SiPearl (May 7, 2026) partnering on EU sovereign rack-scale AI platform using European CPUs and accelerators. MIT report finds data sovereignty the strongest predictor of enterprise AI success.",
       "news": [
         {
-          "title": "Government of Canada and TELUS Advance Sovereign AI Data Centre Initiative",
+          "title": "Canada-TELUS advance sovereign AI factory cluster in B.C. (60K+ GPUs, 150 MW by 2032)",
           "date": "2026-05-11",
           "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/government-of-canada-and-telus-advance-work-to-build-sovereign-ai-infrastructure.html"
         },
         {
-          "title": "Red Hat and Core42 Set Standard for Sovereign AI Infrastructure in UAE",
+          "title": "Red Hat and Core42 set standard for sovereign AI infrastructure in UAE",
           "date": "2026-05-11",
           "url": "https://www.hpcwire.com/aiwire/2026/05/11/red-hat-and-core42-set-the-standard-for-sovereign-ai-infrastructure/"
         }
@@ -194,9 +194,9 @@
       "tickers": [
         "IBM",
         "RHT",
-        "CSCO",
-        "JNPR",
-        "PLTR"
+        "MSFT",
+        "ORCL",
+        "CSCO"
       ]
     }
   ]
