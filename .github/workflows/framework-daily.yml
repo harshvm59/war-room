@@ -1,8 +1,11 @@
 name: Framework Refresh (Tom 7Q daily)
 
 on:
-  schedule:
-    - cron: "30 22 * * 1-5"
+  # DISABLED: this refresh calls the Anthropic API, which needs paid credits.
+  # The account is out of credits, so a scheduled run only fails. Re-enable by
+  # uncommenting the schedule once credits are funded.
+  # schedule:
+  #   - cron: "30 22 * * 1-5"
   workflow_dispatch:
 
 permissions:

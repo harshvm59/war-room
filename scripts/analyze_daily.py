@@ -1,16 +1,23 @@
 #!/usr/bin/env python3
-"""analyze_daily.py - TA + fundamentals + plain-text Telegram every run."""
+"""analyze_daily.py — TA + fundamentals → rule-based action cards + live prices.
+
+No external LLM. Everything is computed deterministically from price history
+(Yahoo v8 chart, free, no key) plus the portfolio file. Writes:
+  - data/actions.json  (action cards for the dashboard)
+  - data/prices.json   (live-ish prices the frontend reads instead of Yahoo)
+and optionally pushes a plain-text Telegram digest.
+"""
 
 from __future__ import annotations
-import json, os, re, sys
+import json, os, sys
 import requests
-from anthropic import Anthropic
-from _common import DATA_DIR, URGENCY_COLORS, envelope, now_ist, require_key, write_json
+from _common import DATA_DIR, URGENCY_COLORS, envelope, now_ist, write_json
 
-MODEL = "claude-haiku-4-5-20251001"
 PORTFOLIO_PATH = os.path.join(DATA_DIR, "portfolio.json")
 YAHOO_CHART = "https://query1.finance.yahoo.com/v8/finance/chart/{s}?range=6mo&interval=1d&includePrePost=false"
 HDR = {"User-Agent": "Mozilla/5.0 (war-room-bot)"}
+
+CORE = {"NVDA", "TSM"}  # never trim/sell the core compute holdings
 
 
 def load_portfolio():
@@ -65,13 +72,14 @@ def analyze_ticker(sym, h):
     o = fetch_ohlcv(sym)
     if not o: return None
     cl, hi, lo, vo = o["close"], o["high"], o["low"], o["volume"]
-    last = _dn(cl)[-1] if _dn(cl) else None
+    cln = _dn(cl)
+    last = cln[-1] if cln else None
     if last is None: return None
+    prev_close = cln[-2] if len(cln) >= 2 else last
     s20 = sma(cl, 20); s50 = sma(cl, 50); s200 = sma(cl, 200)
     r = rsi(cl, 14); m = macd(cl)
     va = sma(vo, 20); cv = _dn(vo)[-1] if _dn(vo) else None
     vr = round(cv/va, 2) if cv and va else None
-    cln = _dn(cl)
     def pct(sp):
         if len(cln) <= sp: return None
         return round((cln[-1]/cln[-1-sp]-1)*100, 2)
@@ -80,72 +88,121 @@ def analyze_ticker(sym, h):
     pnl = round((last/ac-1)*100, 2) if ac else None
     return {
         "ticker": sym, "name": h["name"], "theme": h["theme"], "priority": h["priority"],
-        "holding": {"units": units, "avg_cost": ac, "current_price": last, "invested": inv, "current_value": cv2, "pnl_pct": pnl},
+        "monthly_dca": h.get("monthly_dca", 0),
+        "holding": {"units": units, "avg_cost": ac, "current_price": last, "prev_close": round(prev_close, 2),
+                    "invested": inv, "current_value": cv2, "pnl_pct": pnl},
         "ta": {"rsi14": r, "macd": m["macd"], "macd_signal": m["signal"], "macd_hist": m["histogram"],
                "sma20": round(s20,2) if s20 else None, "sma50": round(s50,2) if s50 else None, "sma200": round(s200,2) if s200 else None,
                "vs_sma50_pct": round((last/s50-1)*100, 2) if s50 else None,
                "vs_sma200_pct": round((last/s200-1)*100, 2) if s200 else None,
                "vol_ratio_20d": vr, "ret_1d": pct(1), "ret_5d": pct(5), "ret_20d": pct(20)},
-        "thesis_note": h.get("thesis", "")[:200],
+        "thesis_note": h.get("thesis", "")[:160],
     }
 
 
-SYS = "You are an institutional equities analyst. Cite specific TA values + thesis in every signal. Plain text only - no HTML chars (less-than, greater-than, ampersand, asterisk, underscore, backtick)."
+def _decide(sym, weight, ta, pnl, pri):
+    """Pure rule engine — returns (action, urgency)."""
+    rsi_v = ta.get("rsi14")
+    vs50 = ta.get("vs_sma50_pct") or 0
+    hist = ta.get("macd_hist")
+    overbought = rsi_v is not None and rsi_v > 70 and vs50 > 10
+    oversold = rsi_v is not None and rsi_v < 35
+    uptrend = hist is not None and hist > 0 and vs50 > 0
+    downtrend = vs50 < -5
 
-PROMPT = """Date: {date}. For EACH ticker output one JSON object. Final: single JSON ARRAY sorted by urgency. No markdown.
-
-Schema:
-{{
-  "ticker": "NVDA",
-  "action": "ADD" | "HOLD" | "TRIM" | "WATCH",
-  "urgency": "critical" | "high" | "medium" | "low",
-  "color": "#hex",
-  "price": "$199.97, +131% from $86.44",
-  "signal": "4-5 sentences citing 2+ TA values (RSI/MACD/SMA distance) + reasoning. Plain text only.",
-  "entry": "$185-192",
-  "stop": "$178",
-  "target": "$240 (3 mo)",
-  "sizing": "$500 monthly DCA, already 12% of portfolio",
-  "action_text": "Tight imperative max 70 chars"
-}}
-
-Hex: critical=#e05252, high=#c9a84c, medium=#4a9eff, low=#2dd4bf.
-
-RULES: ADD/critical needs positive TA AND fundamental green light. RSI>70 + price >10% above SMA50: WATCH only. TSLA: lean TRIM. Never SELL NVDA/TSM core. Position >15%: bias HOLD/TRIM. Earnings within 7 days: HOLD/WATCH.
-
-INPUT:
-{blob}
-"""
+    if sym == "TSLA":
+        return ("TRIM", "high") if ((pnl or 0) > 30 or weight > 8) else ("HOLD", "medium")
+    if weight > 15 and sym not in CORE:
+        return ("TRIM", "high")                 # over-concentrated, lock gains
+    if overbought:
+        return ("WATCH", "medium")              # extended — don't chase
+    if oversold and pri in ("P0", "P1"):
+        return ("ADD", "critical")              # quality on sale
+    if pri == "P0":
+        return ("ADD", "critical")              # priority underweight gap
+    if uptrend and pri == "P1":
+        return ("ADD", "high")                  # healthy trend, keep building
+    if sym in CORE:
+        return ("HOLD", "low")                  # never trim the core
+    if downtrend and pri in ("P0", "P1"):
+        return ("ADD", "medium")                # buy the dip on quality
+    return ("HOLD", "medium")
 
 
-def call_claude(blob):
-    c = Anthropic(api_key=require_key())
-    msg = c.messages.create(model=MODEL, max_tokens=6000, system=SYS,
-        messages=[{"role": "user", "content": PROMPT.format(date=now_ist().strftime("%a %b %-d, %Y %H:%M IST"), blob=blob)}])
-    raw = (msg.content[0].text if msg.content else "").strip()
-    raw = re.sub(r"^```(?:json)?", "", raw).strip()
-    raw = re.sub(r"```$", "", raw).strip()
-    s, e = raw.find("["), raw.rfind("]")
-    if s == -1 or e == -1: raise ValueError(f"No JSON array:\n{raw[:500]}")
-    data = json.loads(raw[s:e+1])
-    if not isinstance(data, list) or not data: raise ValueError("empty")
-    for it in data:
-        u = str(it.get("urgency", "medium")).lower()
-        it["urgency"] = u if u in URGENCY_COLORS else "medium"
-        it["color"] = URGENCY_COLORS[it["urgency"]]
-        for k in ("ticker","action","price","signal","action_text"): it.setdefault(k, "")
-        for k in ("entry","stop","target","sizing"): it.setdefault(k, None)
-    return data
+def generate_actions(per, total_value):
+    """Deterministic action cards from TA + position — same schema the UI expects."""
+    out = []
+    for p in per:
+        sym = p["ticker"]; ta = p["ta"]; hold = p["holding"]
+        last = hold["current_price"]; ac = hold["avg_cost"]; pnl = hold["pnl_pct"] or 0
+        pri = p["priority"]; dca = p.get("monthly_dca", 0)
+        weight = (hold["current_value"] / total_value * 100) if total_value else 0
+        action, urgency = _decide(sym, weight, ta, pnl, pri)
+
+        rsi_v = ta.get("rsi14"); hist = ta.get("macd_hist"); vs50 = ta.get("vs_sma50_pct")
+        s50 = ta.get("sma50"); s20 = ta.get("sma20")
+        # entry / stop / target derived from trend levels
+        anchor = s50 or s20 or last
+        entry = f"${anchor*0.97:.0f}–${anchor*1.02:.0f}"
+        stop = f"${min(anchor, last)*0.92:.0f}"
+        target = f"${last*1.20:.0f} (3 mo)"
+        price = f"${last:.2f}, {'+' if pnl>=0 else ''}{pnl:.1f}% from ${ac:.2f}"
+        sizing = (f"${dca}/mo DCA · {weight:.1f}% of portfolio" if dca
+                  else f"{weight:.1f}% of portfolio · no active DCA")
+
+        rsi_tag = ("overbought" if rsi_v and rsi_v > 70 else
+                   "oversold" if rsi_v and rsi_v < 35 else "neutral")
+        signal = (
+            f"RSI {rsi_v if rsi_v is not None else 'n/a'} ({rsi_tag}), "
+            f"MACD histogram {'+' if (hist or 0)>=0 else ''}{hist if hist is not None else 'n/a'}, "
+            f"price {'+' if (vs50 or 0)>=0 else ''}{vs50 if vs50 is not None else 'n/a'}% vs SMA50. "
+            f"Position {'+' if pnl>=0 else ''}{pnl:.1f}% at {weight:.1f}% weight ({pri}). "
+            f"{p.get('thesis_note','')}"
+        ).strip()
+
+        if action == "ADD":
+            action_text = f"Accumulate near {entry}; stop {stop}"
+        elif action == "TRIM":
+            action_text = f"Trim into strength near ${last:.0f}; redeploy to P0 names"
+        elif action == "WATCH":
+            action_text = f"Extended — wait for pullback to {entry}, do not chase"
+        else:
+            action_text = "Hold; review on next signal"
+
+        out.append({
+            "ticker": sym, "action": action, "urgency": urgency,
+            "color": URGENCY_COLORS[urgency], "price": price, "signal": signal,
+            "entry": entry, "stop": stop, "target": target, "sizing": sizing,
+            "action_text": action_text,
+            "_rank": {"critical": 0, "high": 1, "medium": 2, "low": 3}.get(urgency, 9),
+        })
+    out.sort(key=lambda a: a["_rank"])
+    for a in out: a.pop("_rank", None)
+    return out
+
+
+def build_prices(per):
+    """prices.json — exact shape the frontend's LIVE_PRICES expects."""
+    prices = {}
+    for p in per:
+        h = p["holding"]; last = h["current_price"]; prev = h["prev_close"]
+        prices[p["ticker"]] = {
+            "price": round(last, 2),
+            "prevClose": prev,
+            "change": round(last - prev, 2),
+            "changePct": p["ta"].get("ret_1d"),
+            "volume": p["ta"].get("vol_ratio_20d"),
+            "marketCap": None,
+        }
+    return prices
 
 
 def notify_telegram(actions, snap):
     """Plain text push. Top 5 critical+high every run."""
     tok = os.environ.get("TELEGRAM_BOT_TOKEN"); cid = os.environ.get("TELEGRAM_CHAT_ID")
     if not tok or not cid:
-        print("[notify] secrets missing"); return
-    items = [a for a in actions if a.get("urgency") in ("critical", "high")][:5]
-    if not items:
-        items = actions[:5]  # fallback: top 5 overall
+        print("[notify] secrets missing — skipping push"); return
+    items = [a for a in actions if a.get("urgency") in ("critical", "high")][:5] or actions[:5]
     ts = now_ist().strftime("%a %b %-d %H:%M IST")
     v = snap.get("total_value", 0); p = snap.get("pnl_pct", 0)
     lines = [f"🚨 War Room - {ts}", f"Portfolio: ${v:,.0f} ({p:+.1f}%)", "", f"🔥 Top {len(items)} actionables:"]
@@ -176,16 +233,26 @@ def main():
     for sym, h in portfolio.items():
         x = analyze_ticker(sym, h)
         if x: per.append(x); print(f"[analyze_daily] {sym} ${x['holding']['current_price']:.2f} RSI={x['ta']['rsi14']}")
-        else: print(f"[analyze_daily] {sym}: skipped")
-    if not per: print("[FATAL] no data"); return 1
-    actions = call_claude(json.dumps(per, indent=2))
-    print(f"[analyze_daily] got {len(actions)} actions")
+        else: print(f"[analyze_daily] {sym}: skipped (no data)")
+    if not per:
+        print("[FATAL] no price data for any ticker", file=sys.stderr); return 1
+
     inv = round(sum(p["holding"]["invested"] for p in per), 2)
     val = round(sum(p["holding"]["current_value"] for p in per), 2)
     snap = {"total_invested": inv, "total_value": val, "pnl_pct": round((val/inv-1)*100, 2) if inv else 0}
-    out = envelope(actions, source="claude-haiku+yahoo+local-ta")
+
+    actions = generate_actions(per, val)
+    print(f"[analyze_daily] generated {len(actions)} actions (rule-based)")
+    out = envelope(actions, source="yahoo+local-ta+rules")
     out["portfolio_snapshot"] = snap
     write_json("actions.json", out)
+
+    prices_doc = envelope([], source="yahoo")
+    prices_doc.pop("items", None)
+    prices_doc["prices"] = build_prices(per)
+    write_json("prices.json", prices_doc)
+    print(f"[analyze_daily] wrote prices for {len(prices_doc['prices'])} tickers")
+
     notify_telegram(actions, snap)
     print(f"[DONE] ${val:,.0f} ({snap['pnl_pct']:+.1f}%)")
     return 0

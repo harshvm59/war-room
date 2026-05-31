@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#080808">
 <meta property="og:title" content="HVM Investment OS — Millionaire Dashboard">
 <meta property="og:description" content="$100K → $1M Investment Intelligence Platform">
-<meta property="og:image" content="https://har-mourya.github.io/war-room/og-image.png">
+<meta property="og:image" content="https://harshvm59.github.io/war-room/og-image.png">
 <link rel="manifest" href="manifest.json">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HVM — Millionaire Dashboard · $100K → $1M</title>
@@ -2581,105 +2581,31 @@ function loadDailyActions(forceRefresh){
   var ctxEl=document.getElementById('marketContextBar');
   if(!grid)return;
 
-  var now=new Date();
-  var cacheKey='wr_actions_v5';
-  var cacheTimeKey='wr_actions_time_v5';
-  var ONE_HOUR=60*60*1000;
+  // Action orders are generated server-side (scripts/analyze_daily.py, rule-based
+  // TA — no LLM, no API key in the browser) and committed to data/actions.json.
+  // The bootstrap loader at the bottom of this file fetches that file, overrides
+  // window.TODAY_ACTIONS_MAY5 with the fresh items, and calls renderActions().
+  // Here we just (re)render whatever is currently loaded, and on a manual refresh
+  // re-pull actions.json directly so the button does something useful.
+  if(btnEl){btnEl.disabled=true;btnEl.textContent='⏳ Refreshing...';}
 
-  // Show static May 5 actions immediately
-  renderActions(TODAY_ACTIONS_MAY5);
+  function done(){ if(btnEl){btnEl.disabled=false;btnEl.textContent='↺ Refresh Now';} }
 
-  // Check 1-hour cache unless forced
-  if(!forceRefresh){
-    try{
-      var cachedTime=localStorage.getItem(cacheTimeKey);
-      var cachedData=localStorage.getItem(cacheKey);
-      if(cachedTime&&cachedData&&(now.getTime()-parseInt(cachedTime))<ONE_HOUR){
-        renderActions(JSON.parse(cachedData));
-        return;
-      }
-    }catch(e){}
+  if(forceRefresh){
+    fetch('data/actions.json?t=' + Date.now(), {cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function(d){
+        if(d && Array.isArray(d.items) && d.items.length){
+          window.TODAY_ACTIONS_MAY5 = d.items;
+        }
+        renderActions(window.TODAY_ACTIONS_MAY5);
+      })
+      .catch(function(){ renderActions(window.TODAY_ACTIONS_MAY5); })
+      .finally(done);
+  } else {
+    renderActions(window.TODAY_ACTIONS_MAY5);
+    done();
   }
-
-  // Show skeleton
-  grid.innerHTML='<div class="action-skeleton">'
-    +'<div class="skeleton-row"></div>'
-    +'<div class="skeleton-row" style="animation-delay:.1s"></div>'
-    +'<div class="skeleton-row" style="animation-delay:.2s"></div>'
-    +'<div class="skeleton-row" style="animation-delay:.3s"></div>'
-    +'<div class="skeleton-row" style="animation-delay:.4s"></div>'
-    +'</div>';
-  if(tsEl)tsEl.textContent='Generating fresh orders...';
-  if(btnEl){btnEl.disabled=true;btnEl.textContent='⏳ Generating...';}
-
-  // Build the prompt with full live context
-  var today=now.toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
-  var timeStr=now.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
-
-  var portSnapshot=PORT.map(function(s){
-    var ta=TA[s.t]||{};
-    var ret=((s.cur-s.buy)/s.buy*100).toFixed(1);
-    return s.t+'(+'+ret+'%,RSI:'+(ta.rsi||'?')+',verdict:'+(ta.verdict||'hold')+',weight:'+(s.val/TOTAL*100).toFixed(1)+'%)';
-  }).join('; ');
-
-  var earningsContext='PLTR earnings TONIGHT 5 PM ET (96% beat prob, triangle at $146.50). AMD earnings TOMORROW May 5 after close (ATH $362, HSBC downgrade to Hold $340). MU +4.84% today on SanDisk news. Iran-US warship conflict — oil surging. Markets mixed-to-down.';
-
-  var prompt='Today is '+today+', time is '+timeStr+' EST.\n\n'
-    +'You are a personal AI portfolio advisor for a $96,538 portfolio of 17 AI stocks on a $100K → $1M journey.\n\n'
-    +'PORTFOLIO: '+portSnapshot+'\n\n'
-    +'TODAY\'S LIVE CONTEXT: '+earningsContext+'\n\n'
-    +'STANDING STRATEGY: P0 urgency = CEG (nuclear, 0.5% vs 16% target) and TSLA trim (11% vs 5% target). DCA priorities: MU $500/mo, CEG $580/mo, AVGO $420/mo, MSFT $500/mo. Never sell NVDA or TSM.\n\n'
-    +'Generate EXACTLY 6 specific, actionable orders for today. Each order must be concrete (specific stock, specific price level, specific action). Format your response as ONLY a JSON array with no other text:\n'
-    +'[{"ticker":"PLTR","verb":"buy","urgency":"critical","title":"Buy PLTR dip before 5 PM earnings","detail":"If PLTR drops to $140–142 on market noise, execute buy order. Triangle support holds there. 96% beat probability tonight. Stop loss $138.","price_level":"$140–142","context":"Earnings tonight"},{"ticker":"AMD","verb":"hold",...},...]\n\n'
-    +'Rules:\n'
-    +'- urgency must be: critical, high, medium, or low\n'
-    +'- verb must be: buy, sell, trim, hold, watch, add, wait\n'
-    +'- title max 60 chars\n'
-    +'- detail max 180 chars, include specific $ levels\n'
-    +'- price_level: specific entry/exit price or range\n'
-    +'- context: 1–4 word reason (e.g. "Earnings tonight", "P0 gap", "RSI overbought")\n'
-    +'- Order by urgency: critical first, then high, medium, low\n'
-    +'- ONLY return the JSON array. No markdown, no explanation, no backticks.';
-
-  fetch('https://api.anthropic.com/v1/messages',{
-    method:'POST',
-    headers:{'Content-Type':'application/json','anthropic-dangerous-direct-browser-access':'true'},
-    body:JSON.stringify({
-      model:'claude-sonnet-4-20250514',
-      max_tokens:1200,
-      messages:[{role:'user',content:prompt}]
-    })
-  })
-  .then(function(r){return r.json();})
-  .then(function(d){
-    var raw=d.content&&d.content[0]?d.content[0].text:'';
-    var cleaned=raw.replace(/```json|```/g,'').trim();
-    // Find first [ and last ]
-    var start=cleaned.indexOf('[');
-    var end=cleaned.lastIndexOf(']');
-    if(start!==-1&&end!==-1)cleaned=cleaned.slice(start,end+1);
-    var actions=JSON.parse(cleaned);
-    // Cache it
-    try{
-      localStorage.setItem(cacheKey,JSON.stringify(actions));
-      localStorage.setItem(cacheTimeKey,now.getTime().toString());
-    }catch(e){}
-    renderActions(actions);
-  })
-  .catch(function(err){
-    // Fallback hardcoded actions if API fails
-    renderActions([
-      {ticker:'PLTR',verb:'buy',urgency:'critical',title:'Buy PLTR dip before 5 PM earnings',detail:'If PLTR drops to $140–142 on Iran market noise, execute buy. Triangle support. 96% beat probability tonight at 5 PM ET. Stop loss at $138.',price_level:'$140–142',context:'Earnings TONIGHT'},
-      {ticker:'AMD',verb:'hold',urgency:'critical',title:'Hold AMD into tomorrow earnings',detail:'AMD pulled back from ATH $362 to $342. HSBC downgraded. Hold existing — do NOT add above $350 before May 5 results. Post-beat entry: $310–330.',price_level:'Hold at $342',context:'Earnings TOMORROW'},
-      {ticker:'TSLA',verb:'trim',urgency:'high',title:'Trim TSLA on any bounce today',detail:'Use any bounce to $290–295 to trim 6% of position. Redeploy into CEG. War Room target is 5%, you hold ~11%. Overweight by $5,700.',price_level:'$290–295 trim zone',context:'Overweight P2'},
-      {ticker:'CEG',verb:'add',urgency:'high',title:'Add CEG — Iran news accelerates thesis',detail:'Iran warship conflict today proves nuclear/energy thesis. CEG at $308, DCF fair value $334. P0 gap: $494 vs $160K target. Buy now and on every dip.',price_level:'$308 or below',context:'P0 Emergency'},
-      {ticker:'MU',verb:'wait',urgency:'medium',title:'Do NOT chase MU +4.84% today',detail:'MU spiked on SanDisk news. RSI 72 = overbought. Let it cool. Add zone: $500–515. Stop loss $480. Still your best long-term conviction play.',price_level:'Wait for $500–515',context:'RSI overbought'},
-      {ticker:'MSFT',verb:'add',urgency:'medium',title:'Add MSFT — best Mag7 value right now',detail:'MSFT at $413, down 15.7% YTD despite Q1 beat (+18% rev, Copilot +250%). RSI 48 = room. Add $500–1000 today. Target $480–500.',price_level:'$413 — add now',context:'Laggard catch-up'}
-    ]);
-  })
-  .finally(function(){
-    if(btnEl){btnEl.disabled=false;btnEl.textContent='↺ Refresh Now';}
-  });
 }
 
 function renderActions(actions){
@@ -2689,12 +2615,23 @@ function renderActions(actions){
   if(!grid)return;
 
   if(tsEl){
-    var now=new Date();
-    tsEl.textContent='Updated: '+now.toLocaleTimeString()+' · May 5, 2026 · AMD earnings tonight 5PM ET · PLTR +85% Q1 confirmed';
+    var stamp=window.ACTIONS_UPDATED_AT?new Date(window.ACTIONS_UPDATED_AT):new Date();
+    var nCrit=(actions||[]).filter(function(a){return (a&&(a.urgency||'')).toLowerCase()==='critical';}).length;
+    tsEl.textContent='Updated: '+stamp.toLocaleString()+' · '+((actions||[]).length)+' signals · '+nCrit+' critical · rule-based TA';
   }
 
   if(ctxEl){
-    ctxEl.innerHTML='<span style="color:#e05252;font-weight:600;">🔥 LIVE May 5:</span> PLTR Q1 $1.63B +85% Rule40=145% · AMD earnings 5PM ET ($9.84B exp) · GOOGL +100% crossed · MSFT -2.75% best DCA entry · Portfolio: $96,538 +68.24%';
+    var tVal=PORT.reduce(function(s,p){return s+(p.cur*p.units);},0);
+    var tInv=PORT.reduce(function(s,p){return s+(p.buy*p.units);},0);
+    var gPct=tInv?((tVal-tInv)/tInv*100):0;
+    function rOf(p){return p.buy?((p.cur-p.buy)/p.buy*100):0;}
+    var srt=PORT.slice().sort(function(a,b){return rOf(b)-rOf(a);});
+    var lead=srt[0], lag=srt[srt.length-1];
+    ctxEl.innerHTML='<span style="color:var(--gold);font-weight:600;">📊 LIVE:</span> Portfolio $'
+      +Math.round(tVal).toLocaleString('en-US')+' ('+(gPct>=0?'+':'')+gPct.toFixed(2)+'%) · '
+      +'Top '+lead.t+' '+(rOf(lead)>=0?'+':'')+rOf(lead).toFixed(0)+'% · '
+      +'Laggard '+lag.t+' '+(rOf(lag)>=0?'+':'')+rOf(lag).toFixed(0)+'% · '
+      +'Signals refresh every 30 min (market hours)';
   }
 
   // ── Normalize: API returns {verb,title,detail,price_level,context} but static uses {action,price,signal,action_text,color} ──
@@ -2741,35 +2678,42 @@ function renderActions(actions){
   }).join('');
 }
 function loadPortfolioHealth(){
+  // Deterministic assessment computed from live PORT data — no LLM, no API key.
+  // PORT[].cur is kept current by updatePortfolioWithLivePrices() from prices.json.
   var el=document.getElementById('portHealthText');
   if(!el)return;
-  var today=new Date().toDateString();
-  var cached=null;
-  try{cached=localStorage.getItem('wr_port_health_'+today);}catch(e){}
-  if(cached){el.innerHTML=cached;return;}
-  el.style.cssText='color:var(--text3);font-family:DM Mono,monospace;font-size:9px;';
-  el.innerHTML='⏳ Generating live portfolio assessment...';
-  var portSummary=PORT.map(function(s){
-    var ta=TA[s.t];
-    var ret=((s.cur-s.buy)/s.buy*100).toFixed(1);
-    return s.t+' (+'+ret+'% gain, RSI '+(ta?ta.rsi:'?')+', verdict: '+(ta?ta.verdict:'hold')+')';
-  }).join('; ');
-  var prompt='Today is '+new Date().toLocaleDateString('en-US',{weekday:"long",year:"numeric",month:"long",day:"numeric"})+'. I have a $96,538 portfolio of 17 AI stocks on a journey from $100K to $1M. '+
-    'Portfolio summary: '+portSummary+'. '+
-    'Key context: PLTR reports earnings TONIGHT at 5 PM ET (96% beat probability, symmetrical triangle at $146.50). AMD reports TOMORROW May 5. Iran-US warship conflict unfolding now — oil surging. Markets down. '+
-    'Write a 4-sentence live portfolio health assessment covering: (1) overall portfolio momentum today, (2) the single most urgent action needed RIGHT NOW, (3) the earnings catalyst risk/opportunity tonight, (4) one contrarian observation. Be direct, specific, use actual numbers. No generic advice. Format as plain HTML with <strong> tags for emphasis.';
-  fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json','anthropic-dangerous-direct-browser-access':'true'},
-    body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:400,messages:[{role:'user',content:prompt}]})})
-  .then(function(r){return r.json();})
-  .then(function(d){
-    var txt=d.content&&d.content[0]?d.content[0].text:'Analysis unavailable.';
-    el.style.cssText='font-size:12px;color:var(--text2);line-height:1.75;';
-    el.innerHTML=txt;
-    try{localStorage.setItem('wr_port_health_'+today,txt);}catch(e){}
-  }).catch(function(){
-    el.style.cssText='font-size:12px;color:var(--text2);line-height:1.75;';
-    el.innerHTML='<strong>Portfolio running hot.</strong> Your 17-stock AI portfolio is up +68.2% overall. <strong>Most urgent action today:</strong> PLTR earnings at 5 PM ET — triangle breakout setup, 96% beat probability. Pre-earnings dip to $140–142 = buy signal. <strong>Biggest structural gap:</strong> CEG at $494 vs $160K target — Iran warship news today proves the nuclear thesis. Trim TSLA to fund it. <strong>Contrarian note:</strong> MSFT at -15.7% YTD while Azure accelerates = most mispriced Mag7 in your book.';
-  });
+  el.style.cssText='font-size:12px;color:var(--text2);line-height:1.75;';
+
+  var totalVal=PORT.reduce(function(s,p){return s+(p.cur*p.units);},0);
+  var totalInv=PORT.reduce(function(s,p){return s+(p.buy*p.units);},0);
+  var gainPct=totalInv?((totalVal-totalInv)/totalInv*100):0;
+
+  function retOf(p){return p.buy?((p.cur-p.buy)/p.buy*100):0;}
+  var sorted=PORT.slice().sort(function(a,b){return retOf(b)-retOf(a);});
+  var top=sorted[0], laggard=sorted[sorted.length-1];
+
+  // Most urgent: a P0 name flagged add/urgent that is underweight, else the laggard.
+  var p0=PORT.filter(function(p){return p.pri==='P0'&&(p.action==='add'||p.action==='urgent');})
+             .sort(function(a,b){return (a.val/totalVal)-(b.val/totalVal);});
+  var urgent=p0[0];
+  // Overbought watch: highest RSI from TA.
+  var ob=PORT.map(function(p){return {t:p.t,rsi:(TA[p.t]&&TA[p.t].rsi)||0};})
+             .sort(function(a,b){return b.rsi-a.rsi;})[0];
+
+  var f0=function(n){return '$'+Math.round(n).toLocaleString('en-US');};
+  var html='<strong>Portfolio: '+f0(totalVal)+' ('+(gainPct>=0?'+':'')+gainPct.toFixed(1)+'%).</strong> '
+    +'Strongest position is <strong>'+top.t+'</strong> at '+(retOf(top)>=0?'+':'')+retOf(top).toFixed(0)+'%; '
+    +'the laggard is <strong>'+laggard.t+'</strong> at '+(retOf(laggard)>=0?'+':'')+retOf(laggard).toFixed(0)+'%. ';
+  if(urgent){
+    html+='<strong>Most urgent:</strong> '+urgent.t+' is a P0 name still under-sized at '
+      +(urgent.val/totalVal*100).toFixed(1)+'% of the book'
+      +(urgent.dca&&urgent.dca.mo?' — keep the $'+urgent.dca.mo+'/mo DCA running':'')+'. ';
+  }
+  if(ob&&ob.rsi>=70){
+    html+='<strong>Watch:</strong> '+ob.t+' RSI '+ob.rsi+' is overbought — let it cool rather than chase. ';
+  }
+  html+='<strong>Contrarian note:</strong> '+laggard.t+' is your weakest performer — if the thesis is intact, that is where fresh capital compounds hardest.';
+  el.innerHTML=html;
 }
 
 function buildPort(){
@@ -4022,6 +3966,10 @@ async function generateYTSynthesis(force){
     +'Tone: sharp hedge-fund voice. Plain HTML <p> tags only. Use <strong> for emphasis on stocks/numbers/key terms. NO bullet points, NO markdown, NO headers.';
 
   try{
+    // In-browser Claude calls are disabled (no key can be safely shipped in a
+    // public page, and the request 401s without one). Fall through to the
+    // deterministic local synthesis built from the data we already have.
+    throw new Error('in-browser AI disabled');
     var res = await fetch('https://api.anthropic.com/v1/messages', {
       method:'POST',
       headers:{'Content-Type':'application/json','anthropic-dangerous-direct-browser-access':'true'},
@@ -4108,6 +4056,8 @@ async function refreshBrief(force){
     +'Tone: direct, sharp, like a hedge fund morning note. No bullet points. Plain paragraphs only. No markdown.';
 
   try{
+    // In-browser Claude calls are disabled — see note above. Use local fallback.
+    throw new Error('in-browser AI disabled');
     var res=await fetch('https://api.anthropic.com/v1/messages',{
       method:'POST',
       headers:{
@@ -4214,11 +4164,11 @@ function nav(id,el){
 
 
 // ══════════════════════════════════════════════════
-// LIVE STOCK PRICES — Multi-source with auto-fallback
-// 1) Yahoo Finance via allorigins (free, no key)
-// 2) Yahoo Finance via corsproxy.io (fallback)
-// 3) Stooq CSV (last resort, EOD only)
-// Updates every 60 seconds when page is open
+// LIVE STOCK PRICES — server-generated data/prices.json
+// Yahoo blocks direct/proxied browser calls (HTTP 429), so prices are
+// fetched server-side by the GitHub Action (scripts/analyze_daily.py) and
+// committed to data/prices.json. This refreshes them every 30 min during
+// market hours — no API key in the browser, no blocked cross-origin calls.
 // ══════════════════════════════════════════════════
 
 var LIVE_PRICES = {};       // {SYM: {price, prevClose, change, changePct, volume, marketCap}}
@@ -4234,68 +4184,57 @@ async function fetchLivePrices() {
   if(statusEl) statusEl.textContent = '⟳ Fetching live prices...';
   if(pivStatus) pivStatus.innerHTML = '<span class="piv-pulse"></span>Fetching...';
 
-  var symbols = TICKERS.join(',');
-  var yahooUrl = 'https://query1.finance.yahoo.com/v7/finance/quote?symbols=' + symbols + '&fields=regularMarketPrice,regularMarketChangePercent,regularMarketChange,regularMarketPreviousClose,marketCap,regularMarketVolume';
-
-  // Try multiple proxies in sequence
-  var proxies = [
-    'https://api.allorigins.win/get?url=' + encodeURIComponent(yahooUrl),
-    'https://corsproxy.io/?' + encodeURIComponent(yahooUrl)
-  ];
-
   var success = false;
-  for(var i=0;i<proxies.length && !success;i++){
-    try {
-      var res = await fetch(proxies[i], {cache:'no-store'});
-      if(!res.ok) continue;
-      var raw = await res.text();
-      var data;
-      // allorigins wraps in {contents: "..."} JSON; corsproxy returns raw
-      try { var wrap=JSON.parse(raw); data = wrap.contents ? JSON.parse(wrap.contents) : wrap; }
-      catch(e){ data = JSON.parse(raw); }
-
-      if(data && data.quoteResponse && data.quoteResponse.result && data.quoteResponse.result.length){
-        data.quoteResponse.result.forEach(function(q) {
-          var sym=q.symbol;
+  var updatedAt = null;
+  try {
+    var res = await fetch('data/prices.json?t=' + Date.now(), {cache:'no-store'});
+    if(res.ok){
+      var data = await res.json();
+      var prices = data && data.prices ? data.prices : null;
+      if(prices && Object.keys(prices).length){
+        updatedAt = data.updated_at || null;
+        Object.keys(prices).forEach(function(sym){
+          var q = prices[sym];
+          if(!q || q.price == null) return;
           var prev = LIVE_PRICES[sym] ? LIVE_PRICES[sym].price : null;
           LIVE_PRICES[sym] = {
-            price: q.regularMarketPrice,
-            prevClose: q.regularMarketPreviousClose,
-            change: q.regularMarketChange,
-            changePct: q.regularMarketChangePercent,
+            price: q.price,
+            prevClose: q.prevClose,
+            change: q.change,
+            changePct: q.changePct,
             marketCap: q.marketCap,
-            volume: q.regularMarketVolume,
+            volume: q.volume,
             prevTickPrice: prev
           };
           // Build rolling history for sparkline
           if(!PRICE_HISTORY[sym]) PRICE_HISTORY[sym]=[];
-          PRICE_HISTORY[sym].push(q.regularMarketPrice);
+          PRICE_HISTORY[sym].push(q.price);
           if(PRICE_HISTORY[sym].length>30) PRICE_HISTORY[sym].shift();
         });
         success = true;
         LIVE_FETCH_OK = true;
       }
-    } catch(e) { /* try next proxy */ }
-  }
+    }
+  } catch(e) { /* fall through to cached */ }
 
   if(success){
     updatePortfolioWithLivePrices();
     updateTickerBar();
     if(typeof buildPivot==='function') buildPivot(true);
-    var t = new Date().toLocaleTimeString();
+    var t = updatedAt ? new Date(updatedAt).toLocaleString() : new Date().toLocaleTimeString();
     if(statusEl) { statusEl.textContent = 'LIVE · ' + t; statusEl.style.color = 'var(--green)'; }
     if(pivStatus) {
       pivStatus.classList.remove('warn');
       pivStatus.innerHTML = '<span class="piv-status-dot"></span>LIVE · '+t;
     }
-    if(pivLast) pivLast.textContent = 'Yahoo Finance · auto-refresh 60s';
+    if(pivLast) pivLast.textContent = 'Yahoo via server · refreshed every 30 min (market hours)';
   } else {
     if(statusEl) { statusEl.textContent = 'Cached · ' + new Date().toLocaleTimeString(); statusEl.style.color = 'var(--text3)'; }
     if(pivStatus) {
       pivStatus.classList.add('warn');
       pivStatus.innerHTML = '<span class="piv-status-dot"></span>Feed unavailable · using cached';
     }
-    if(pivLast) pivLast.textContent = 'API rate-limited · retry next cycle';
+    if(pivLast) pivLast.textContent = 'prices.json unavailable · retry next cycle';
   }
 }
 
@@ -4931,6 +4870,8 @@ async function loadThemeNews(){
   }catch(e){}
 
   try{
+    // In-browser Claude calls are disabled — see note above. Use local fallback.
+    throw new Error('in-browser AI disabled');
     var res=await fetch('https://api.anthropic.com/v1/messages',{
       method:'POST',headers:{'Content-Type':'application/json','anthropic-dangerous-direct-browser-access':'true'},
       body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1500,
@@ -5037,7 +4978,7 @@ window.selectPortInv=function(si,ii,el){
   ]).then(function(results){
     var a = results[0], y = results[1], v = results[2], t = results[3], n = results[4];
     if (a && Array.isArray(a.items) && a.items.length) {
-      try { window.TODAY_ACTIONS_MAY5 = a.items; } catch(_) {}
+      try { window.TODAY_ACTIONS_MAY5 = a.items; window.ACTIONS_UPDATED_AT = a.updated_at; } catch(_) {}
       safeCall(function(){ if (typeof renderActions === 'function') renderActions(a.items); });
     }
     if (y && Array.isArray(y.items) && y.items.length) {
@@ -5061,7 +5002,7 @@ window.selectPortInv=function(si,ii,el){
   setInterval(function(){
     getJSON('data/actions.json').then(function(a){
       if (a && Array.isArray(a.items) && a.items.length) {
-        try { window.TODAY_ACTIONS_MAY5 = a.items; } catch(_) {}
+        try { window.TODAY_ACTIONS_MAY5 = a.items; window.ACTIONS_UPDATED_AT = a.updated_at; } catch(_) {}
         safeCall(function(){ if (typeof renderActions === 'function') renderActions(a.items); });
       }
     });

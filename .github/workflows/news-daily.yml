@@ -1,9 +1,12 @@
 name: Daily News + YouTube Scrape
 
 on:
-  schedule:
-    # 09:00 IST = 03:30 UTC, every day
-    - cron: "30 3 * * *"
+  # DISABLED: this scrape calls the Anthropic API, which needs paid credits.
+  # The account is out of credits, so a scheduled run only fails. Re-enable by
+  # uncommenting the schedule once credits are funded.
+  # schedule:
+  #   # 09:00 IST = 03:30 UTC, every day
+  #   - cron: "30 3 * * *"
   workflow_dispatch:
 
 permissions:

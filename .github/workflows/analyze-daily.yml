@@ -27,7 +27,6 @@ jobs:
           pip install -r scripts/requirements.txt
       - name: Run daily TA analysis + Telegram push
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/analyze_daily.py
@@ -35,12 +34,12 @@ jobs:
         run: |
           git config user.name  "war-room-bot"
           git config user.email "war-room-bot@users.noreply.github.com"
-          if git diff --quiet -- data/actions.json; then
-            echo "actions.json unchanged \u2014 skipping commit."
+          if git diff --quiet -- data/actions.json data/prices.json; then
+            echo "actions.json/prices.json unchanged - skipping commit."
             exit 0
           fi
           STAMP=$(date -u +"%Y-%m-%d %H:%MZ")
-          git add data/actions.json
+          git add data/actions.json data/prices.json
           git commit -m "TA refresh ${STAMP} [skip ci]"
           for attempt in 1 2 3 4 5; do
             if git push; then echo "Pushed on attempt ${attempt}"; exit 0; fi
