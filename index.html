@@ -3376,7 +3376,7 @@ function hideTip(){
 }
 
 
-const VOICES=[{name:'Jensen Huang',role:'CEO',org:'Nvidia',cat:'CEO',date:'2026-05-07',themes:['#NVDA','#AI','#HBM'],quotes:[{t:'H200 supply will remain tight through 2026. Every token of intelligence requires compute — and we are only at the beginning of the scaling law era.',k:true}],src:'https://cnbc.com'},
+var VOICES=[{name:'Jensen Huang',role:'CEO',org:'Nvidia',cat:'CEO',date:'2026-05-07',themes:['#NVDA','#AI','#HBM'],quotes:[{t:'H200 supply will remain tight through 2026. Every token of intelligence requires compute — and we are only at the beginning of the scaling law era.',k:true}],src:'https://cnbc.com'},
 {name:'Alex Karp',role:'CEO',org:'Palantir',cat:'CEO',date:'2026-05-07',themes:['#PLTR','#AIP','#Enterprise'],quotes:[{t:'AIP is not a product — it is an operating system for the modern enterprise. The companies that deploy it fastest will compound their advantages for decades.',k:true}],src:'https://seekingalpha.com'},
 {name:'Dan Ives',role:'Senior Analyst',org:'Wedbush Securities',cat:'Analyst',date:'2026-05-07',themes:['#NVDA','#META','#GOOGL'],quotes:[{t:'We are in the first innings of a $2 trillion AI capex cycle. Big Tech Q1 earnings prove the AI monetization flywheel is real — this is a generational buying opportunity on any dip.',k:true}],src:'https://wedbush.com'},
 
@@ -3644,7 +3644,7 @@ function buildLeaders(){
 const YTFILTERS=['All','AI Compute','Energy','Defense','Agentic AI','GLP-1','Robotics','Stocks to Buy','Earnings'];
 let ytFilter='All';
 
-const YTVIDEOS=[{"ch":"INDmoney","c":"#00b386","theme":"Portfolio Update","title":"Your Portfolio Hit ₹1.30 Cr — Up 75.8% Overall | Live INDmoney Sync","date":"2026-05-07","views":"INDmoney API","tags":["#NVDA","#TSM","#TSLA"],"verd":"BULLISH","vc":"var(--green)","body":"Live INDmoney data now powering this dashboard. US stocks lead at 72.8% of portfolio. NVDA (+127%), TSM (+146%), AMD (+99%) are the top performers. 6 positions added new shares this week: META, PLTR, AVGO, CEG, BE, ANET.","url":"https://indmoney.com"},
+var YTVIDEOS=[{"ch":"INDmoney","c":"#00b386","theme":"Portfolio Update","title":"Your Portfolio Hit ₹1.30 Cr — Up 75.8% Overall | Live INDmoney Sync","date":"2026-05-07","views":"INDmoney API","tags":["#NVDA","#TSM","#TSLA"],"verd":"BULLISH","vc":"var(--green)","body":"Live INDmoney data now powering this dashboard. US stocks lead at 72.8% of portfolio. NVDA (+127%), TSM (+146%), AMD (+99%) are the top performers. 6 positions added new shares this week: META, PLTR, AVGO, CEG, BE, ANET.","url":"https://indmoney.com"},
 {"ch":"Yahoo Finance","c":"#6001d2","theme":"AI Earnings","title":"Big Tech Q1 2026 Sweep — AMZN AWS +29%, META AI Ads +35%, GOOGL Cloud +28%","date":"2026-05-07","views":"Yahoo Finance","tags":["#AMZN","#META","#GOOGL"],"verd":"BULLISH","vc":"var(--green)","body":"All four hyperscalers beat Q1 estimates. AWS grew 29% YoY driven by AI workloads. Meta's AI-powered ad targeting lifted revenue 35%. Alphabet's TPU advantage is showing in Cloud margins. The AI capex super-cycle is translating to real revenue growth.","url":"https://finance.yahoo.com"},
 {"ch":"CNBC","c":"#1b62ab","theme":"AI Compute","title":"NVDA H200 Demand Still Outstrips Supply — Jensen Eyes $400B AI Infra Market","date":"2026-05-07","views":"CNBC","tags":["#NVDA","#TSM","#MU"],"verd":"BULLISH","vc":"var(--green)","body":"Nvidia CEO Jensen Huang says H200 and upcoming Blackwell Ultra remain supply-constrained through end of 2026. TSMC is ramping 3nm for GB300. Micron's HBM3E allocation to Nvidia is sold out — MU is the key bottleneck in the AI compute stack.","url":"https://cnbc.com"},
 {"ch":"Bloomberg","c":"#f5a623","theme":"AI Energy","title":"Nuclear Renaissance: Constellation Energy Signs 3rd Major AI Data Center Deal","date":"2026-05-07","views":"Bloomberg","tags":["#CEG","#BE","#VRT"],"verd":"BULLISH","vc":"var(--green)","body":"CEG signed its third large-scale nuclear power agreement with a major hyperscaler for dedicated clean energy supply. Bloom Energy's solid oxide fuel cells also seeing renewed interest as data centers seek 24/7 carbon-free power. Vertiv's cooling solutions in high demand.","url":"https://bloomberg.com"},
@@ -4987,16 +4987,20 @@ window.selectPortInv=function(si,ii,el){
       safeCall(function(){ if (typeof renderActions === 'function') renderActions(a.items); });
     }
     if (y && Array.isArray(y.items) && y.items.length) {
+      // YTVIDEOS is a top-level `var`, so this reassignment is the same binding
+      // buildYT() reads. Prepend fresh items, then re-render the YouTube tab.
       try { window.YTVIDEOS = y.items.concat(window.YTVIDEOS || []); } catch(_) {}
-      safeCall(function(){ if (typeof renderYTVideos === 'function') renderYTVideos(); });
+      safeCall(function(){ if (typeof buildYTFilters === 'function') buildYTFilters(); });
+      safeCall(function(){ if (typeof buildYT === 'function') buildYT(); });
     }
     if (v && Array.isArray(v.items) && v.items.length) {
       try { window.VOICES = v.items.concat(window.VOICES || []); } catch(_) {}
-      safeCall(function(){ if (typeof renderVoices === 'function') renderVoices(); });
+      safeCall(function(){ if (typeof buildLeaders === 'function') buildLeaders(); });
     }
     if (t && Array.isArray(t.items) && t.items.length) {
+      // Themes tab is structural (market-size charts), driven by the inline
+      // THEMES const; themes.json is kept for reference only.
       try { window.THEMES_LIVE = t.items; } catch(_) {}
-      safeCall(function(){ if (typeof renderThemes === 'function') renderThemes(t.items); });
     }
     if (n && Array.isArray(n.items) && n.items.length) {
       try { window.NEWS_LIVE = n.items; } catch(_) {}

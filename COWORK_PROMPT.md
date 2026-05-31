@@ -1,68 +1,97 @@
-# HVM War Room — Daily Update (Legacy Cowork Prompt)
+# HVM War Room — Content Refresh via Claude Cowork
 
-> **Note**: This file is kept for reference only. The actual automation now runs as a
-> GitHub Action — see `.github/workflows/daily-update.yml`. You no longer need to paste
-> this prompt into Cowork; the workflow handles it automatically every day.
+The dashboard's **prices + action cards** refresh automatically and for free
+(GitHub Action → `scripts/analyze_daily.py`, rule-based TA, no LLM).
 
-If you ever want to run a one-off manual update outside the workflow, you can still
-paste the prompt below into Cowork.
+The two **content feeds** — *Leader Signals* and *YouTube Intel* — are generated
+by **Claude** (Cowork / Claude Code), not the paid Anthropic API. Re-run the
+prompt below any time you want them refreshed. Claude writes two JSON files and
+pushes; GitHub Pages redeploys and the dashboard picks them up on next load.
+
+> The old paid-API workflows (`news-daily`, `themes-biweekly`, `framework-daily`)
+> are disabled — they needed funded `ANTHROPIC_API_KEY` credits. This Cowork flow
+> replaces them at zero marginal cost.
 
 ---
 
-## MANUAL PROMPT
+## How the data reaches the UI
 
-```
-Today is [TODAY'S DATE]. Update my HVM Investment OS dashboard on GitHub.
+- `data/voices.json` → prepended to the `VOICES` array → **Leader Signals** tab (`buildLeaders`)
+- `data/youtube.json` → prepended to the `YTVIDEOS` array → **YouTube Intel** tab (`buildYT`)
 
-GITHUB CONFIG:
-- Repo: harshvm59/war-room
-- File: index.html
-- Token: Read from ~/war_room_config.txt
+Both are loaded by the bootstrap at the bottom of `index.html`, which merges them
+into the live arrays and re-renders. **Match these schemas exactly** or cards
+render blank.
 
-STEP 1 — Read current index.html from GitHub API:
-GET https://api.github.com/repos/harshvm59/war-room/contents/index.html
-Header: Authorization: token [YOUR_TOKEN]
-
-STEP 2 — Search the web for today's AI investment signals:
-
-A) TOP 10 YOUTUBE VIDEOS (last 24h):
-Search YouTube for AI investment videos from: Tom Nash, CNBC Fast Money,
-Bloomberg Markets, Yahoo Finance, Motley Fool, ARK Invest, Andrei Jikh,
-Patrick Boyle, Meet Kevin, Joseph Hogue CFA, Schwab Network, Benzinga.
-For each: channel, title, date, key stocks, 2-line thesis.
-
-B) LEADER SIGNALS (new in last 24h):
-Check for new quotes/signals from: Jensen Huang, Sam Altman, Dan Ives (Wedbush),
-Satya Nadella, Lisa Su, Hock Tan, Chamath, Cathie Wood, Marc Andreessen.
-
-C) PORTFOLIO NEWS:
-Check earnings, upgrades, downgrades for:
-NVDA, TSLA, TSM, META, GOOGL, AMZN, PLTR, MSFT, AMD, CRWD, MU, VRT, AVGO, ASML, CEG, ANET, BE
-
-D) THEME RATINGS:
-Rate each HOT/WARM/COLD: AI Compute | Energy/Nuclear | Defense | Agentic AI | GLP-1 | Robotics
-
-STEP 3 — Update the file:
-In the downloaded index.html:
-1. Add 5 new entries to YTVIDEOS array at the top with today's videos
-2. Add 3 new entries to VOICES array with today's leader signals
-3. Update TODAY_ACTIONS_MAY5 with today's specific action recommendations
-
-STEP 4 — Push back to GitHub:
-PUT https://api.github.com/repos/harshvm59/war-room/contents/index.html
-Body: {"message": "Daily update [TODAY DATE]", "content": [base64 of updated file], "sha": [sha from step 1]}
-Authorization: token [YOUR_TOKEN]
-
-STEP 5 — Email nitrharsh@gmail.com:
-Subject: "⚡ HVM War Room Updated — [TODAY DATE]"
-List the 5 new videos and 3 new signals added today.
-Include link: https://harshvm59.github.io/war-room
+### `data/voices.json`
+```json
+{
+  "updated_at": "ISO-8601",
+  "source": "claude-cowork",
+  "items": [
+    {
+      "name": "Jensen Huang",
+      "role": "CEO",
+      "org": "Nvidia",
+      "cat": "CEO",                         // CEO | Analyst | Investor
+      "date": "YYYY-MM-DD",
+      "themes": ["#NVDA", "#AI"],
+      "quotes": [{ "t": "Direct quote.", "k": true }],
+      "src": "https://real-source-url"
+    }
+  ]
+}
 ```
 
-## PREFERRED PATH (GitHub Action)
+### `data/youtube.json`
+```json
+{
+  "updated_at": "ISO-8601",
+  "source": "claude-cowork",
+  "items": [
+    {
+      "ch": "Channel/publisher",
+      "c": "#4a9eff",                        // accent hex
+      "theme": "AI Compute",                 // AI Compute|Energy|Defense|Agentic AI|Healthcare|Robotics|Critical Minerals|Sovereign AI
+      "title": "Video title",
+      "date": "YYYY-MM-DD",
+      "views": "Views or source label",
+      "tags": ["#NVDA", "#AI"],
+      "verd": "SHORT UPPERCASE VERDICT",
+      "vc": "var(--green)",                  // var(--green|red|gold|blue|purple|teal|orange)
+      "body": "2-3 sentence thesis with numbers.",
+      "url": "https://real-source-url"
+    }
+  ]
+}
+```
 
-The GitHub Action at `.github/workflows/daily-update.yml` automates the same flow:
+> Note: the **AI Themes** tab is an evergreen market-size projection view driven
+> by the inline `THEMES` const in `index.html` — it is not a daily-news feed and
+> does not need refreshing. `data/themes.json` is kept for reference only.
 
-1. Set the `ANTHROPIC_API_KEY` secret in your repo
-2. The workflow runs every day at 09:00 IST
-3. To trigger manually: Actions tab → "Daily War Room Update" → "Run workflow"
+---
+
+## Re-run prompt (paste into Claude Cowork / Claude Code)
+
+```
+Refresh my HVM War Room content feeds in harshvm59/war-room.
+
+1. Web-search for the last ~10 days of:
+   A) 8-10 AI-investing videos/segments (Tom Nash, CNBC Fast Money, Bloomberg,
+      Yahoo Finance, Motley Fool, ARK Invest, Meet Kevin, Benzinga, etc.) covering
+      NVDA TSLA TSM META GOOGL AMZN PLTR MSFT AMD CRWD MU VRT AVGO ASML CEG ANET BE.
+   B) 6-8 fresh quotes from Jensen Huang, Sam Altman, Dan Ives, Satya Nadella,
+      Lisa Su, Hock Tan, Chamath, Cathie Wood, Marc Andreessen, Alex Karp, Jim Cramer.
+
+2. Write data/youtube.json and data/voices.json using the EXACT schemas in
+   COWORK_PROMPT.md (envelope: {updated_at, source:"claude-cowork", items:[...]}).
+   Every item must have a real working URL found via search.
+
+3. Commit + push to main. GitHub Pages auto-deploys.
+```
+
+### Or run the saved workflow
+A multi-agent version (`war-room-content-refresh`) fans out the research across
+parallel agents and returns schema-validated JSON for both files. Re-invoke it,
+write the two files, and push — the automated equivalent of the prompt above.

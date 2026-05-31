@@ -1,5 +1,166 @@
 {
-  "updated_at": "2026-05-15T12:17:06.550752+05:30",
-  "source": "claude+web_search",
-  "items": []
+  "updated_at": "2026-05-31T22:44:29.965040+05:30",
+  "source": "claude-cowork",
+  "items": [
+    {
+      "ch": "CNBC Fast Money",
+      "c": "#3ddc84",
+      "theme": "AI Compute",
+      "title": "Nvidia adds $80B to buyback plan — Susquehanna's Chris Rolland grades the quarter",
+      "date": "2026-05-20",
+      "views": "CNBC Video",
+      "tags": [
+        "#NVDA",
+        "#AI"
+      ],
+      "verd": "EARNINGS CATALYST",
+      "vc": "var(--green)",
+      "body": "Nvidia posted record Q1 FY27 revenue of $81.6B (up 85% YoY) with Data Center revenue of $75.2B (up 92%), beating Street estimates of $73.2B. Adjusted EPS of $1.98 crushed the $1.76 consensus, and the board authorized an additional $80B buyback while hiking the dividend from $0.01 to $0.25. Susquehanna's Chris Rolland framed revenue, not gross margin, as the bigger story going forward.",
+      "url": "https://www.cnbc.com/video/2026/05/20/nvidia-adds-80-billion-to-buyback-plan-returns-more-money-to-shareholders-susquehannas-roland-weighs-in.html"
+    },
+    {
+      "ch": "CNBC Closing Bell",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Tom Lee: Nvidia earnings show 'unrelenting demand' — can the AI trade go higher?",
+      "date": "2026-05-21",
+      "views": "CNBC Video",
+      "tags": [
+        "#NVDA",
+        "#AI"
+      ],
+      "verd": "BUY THE DIP",
+      "vc": "var(--blue)",
+      "body": "Fundstrat's Tom Lee called the post-earnings sell-off an overreaction and a buying opportunity, despite NVDA sliding nearly 2% — the fourth straight post-print drop. He argued Nvidia is the most important company in the biggest structural change in the world economy, pointing to Jensen Huang's 'demand has gone parabolic' commentary. Lee sees the AI trade taking another leg higher from current levels.",
+      "url": "https://www.cnbc.com/video/2026/05/21/nvidia-earnings-shows-unrelenting-demand-says-fundstrats-tom-lee.html"
+    },
+    {
+      "ch": "ARK Invest",
+      "c": "#b388ff",
+      "theme": "Sovereign AI",
+      "title": "A 30-Year Pattern Reversed: Inflation & AI Outlook | ITK With Cathie Wood",
+      "date": "2026-05-22",
+      "views": "ARK Invest",
+      "tags": [
+        "#TSLA",
+        "#AI"
+      ],
+      "verd": "STRUCTURAL DEFLATION",
+      "vc": "var(--purple)",
+      "body": "Cathie Wood's May 'In The Know' lays out a framework where AI drives structural deflation and a 30+ year base in US capital spending breaks to the upside. ARKK held 46 names with the top 10 at ~51% of assets, and Tesla remained the cornerstone position at 10.46%. Wood reiterated Tesla is no longer just an auto company as focus shifts to robotaxi and robotics.",
+      "url": "https://www.ark-invest.com/videos/market-commentary/may-2026-in-the-know-cathie-wood"
+    },
+    {
+      "ch": "Motley Fool",
+      "c": "#e88340",
+      "theme": "Robotics",
+      "title": "Tesla Stock Gets Wall Street Upgrade on Robotaxi Potential",
+      "date": "2026-05-27",
+      "views": "Fool.com",
+      "tags": [
+        "#TSLA",
+        "#Robotaxi"
+      ],
+      "verd": "UPGRADE — MIXED RISK",
+      "vc": "var(--orange)",
+      "body": "TSLA is heading for its best month since September, but Texas regulatory data shows just 42 authorized driverless vehicles versus Waymo's 577 — a 13x gap. Bulls Piper Sandler, Canaccord and Wedbush carry $500/$450/$600 targets while UBS and Barclays sit at $364/$360. Robotaxi won't be material to revenue until 2027, where consensus models only ~1.6% of sales.",
+      "url": "https://www.fool.com/investing/2026/05/27/tesla-stock-gets-wall-street-upgrade-on-robotaxi-p/"
+    },
+    {
+      "ch": "Yahoo Finance",
+      "c": "#c9a84c",
+      "theme": "AI Compute",
+      "title": "TSMC raises global chip market forecast to $1.5 trillion as AI demand surges",
+      "date": "2026-05-26",
+      "views": "Yahoo Finance",
+      "tags": [
+        "#TSM",
+        "#AI"
+      ],
+      "verd": "SUPERCYCLE INTACT",
+      "vc": "var(--gold)",
+      "body": "TSMC reported record Q1 2026 revenue of $35.9B (up 40.6% YoY) with gross margin of 66.2% and net margin of 50.5%. Management now guides 2026 revenue growth above 30% in USD and capex to the high end of the $52B–$56B range. AI accelerator wafer demand is projected to rise 11-fold between 2022 and 2026, fed by Nvidia and Apple orders.",
+      "url": "https://ca.finance.yahoo.com/news/tsmc-raises-global-chip-market-073000195.html"
+    },
+    {
+      "ch": "Motley Fool",
+      "c": "#3ddc84",
+      "theme": "AI Compute",
+      "title": "Prediction: This AI Inference Specialist Is Going to Soar After June 3",
+      "date": "2026-05-30",
+      "views": "Fool.com",
+      "tags": [
+        "#AVGO",
+        "#ASIC"
+      ],
+      "verd": "EARNINGS SETUP",
+      "vc": "var(--green)",
+      "body": "Broadcom reports fiscal Q2 on June 3 with guidance for $22B revenue (up ~47% YoY) and AI chip revenue of $10.7B, a potential 143% jump. The company controls roughly 60% of the custom-ASIC market and has line of sight to $100B+ in AI chip revenue in 2027. AVGO is up 28% YTD and at ~$2.1T is now worth nearly half a trillion more than Tesla.",
+      "url": "https://www.fool.com/investing/2026/05/30/prediction-this-artificial-intelligence-ai-inferen/"
+    },
+    {
+      "ch": "Schwab Network",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Boom Before Bust? MU, WDC & SNDK Lead Memory Chip Rally",
+      "date": "2026-05-27",
+      "views": "Schwab Network",
+      "tags": [
+        "#MU",
+        "#HBM"
+      ],
+      "verd": "MOMENTUM RUN",
+      "vc": "var(--teal)",
+      "body": "Micron has surged roughly 150% YTD to near $795 as HBM behaves less like a commodity and more like a contracted AI input. MU sold out its entire 2026 HBM3e and HBM4 inventory under binding contracts by February, with no new supply until late 2027. Consensus FY26 revenue of ~$76B nearly doubles FY25, with base-case valuations of $900–$1,000.",
+      "url": "https://schwabnetwork.com/video/boom-before-bust-mu-wdc-sndk-lead-memory-chip-rally"
+    },
+    {
+      "ch": "Foreign Policy Journal",
+      "c": "#b388ff",
+      "theme": "Agentic AI",
+      "title": "CrowdStrike Maintains Cybersecurity Leadership as AI Threats Accelerate",
+      "date": "2026-05-22",
+      "views": "Web",
+      "tags": [
+        "#CRWD",
+        "#AI"
+      ],
+      "verd": "PRE-EARNINGS POP",
+      "vc": "var(--purple)",
+      "body": "CRWD jumped 8.5% on May 29 and surged nearly 50% month-to-date on renewed AI-security enthusiasm ahead of early-June earnings. Q1 consensus calls for $1.36B revenue (up 23.5% YoY) and adjusted EPS of $1.07 (up 46.2%), with ARR already at $1.9B (up 45%). The Street holds 37 buy, 13 hold and 1 sell, a Moderate Buy consensus.",
+      "url": "https://www.foreignpolicyjournal.com/2026/05/22/crowdstrike-nasdaq-crwd-maintains-cybersecurity-leadership-as-ai-threats-accelerate/"
+    },
+    {
+      "ch": "Yahoo Finance",
+      "c": "#e88340",
+      "theme": "Energy",
+      "title": "AI Power Needs Are Soaring: Is Vistra, Vertiv, or Constellation the Better Buy?",
+      "date": "2026-05-25",
+      "views": "Yahoo Finance",
+      "tags": [
+        "#VRT",
+        "#CEG"
+      ],
+      "verd": "PICKS & SHOVELS",
+      "vc": "var(--orange)",
+      "body": "Vertiv posted Q1 adjusted EPS of $1.17 (vs $1.01 expected) on $2.65B revenue (up 30%), with Americas organic sales up 44% and TTM organic orders up 81%; FY26 EPS guidance was raised to $6.30–$6.40. Constellation closed its Calpine deal in January to become the largest US private power producer at 55 GW, running PPAs with Microsoft and Meta. Both are direct levers on the AI data-center electrification buildout.",
+      "url": "https://finance.yahoo.com/news/ai-power-needs-soaring-vistra-192140637.html"
+    },
+    {
+      "ch": "Yahoo Finance",
+      "c": "#c9a84c",
+      "theme": "AI Compute",
+      "title": "Hyperscalers Hit $700 Billion in 2026 AI Spending Plans",
+      "date": "2026-05-24",
+      "views": "Yahoo Finance",
+      "tags": [
+        "#META",
+        "#GOOGL"
+      ],
+      "verd": "CAPEX TAILWIND",
+      "vc": "var(--gold)",
+      "body": "Combined 2026 capex from Microsoft, Alphabet, Meta and Amazon is now tracking $650B–$700B, the largest concentrated infrastructure cycle in tech history. Meta lifted full-year capex to $125B–$145B, Alphabet spent $35.7B in Q1 with Google Cloud backlog above $460B, and Amazon led at $44.2B as AWS grew 28%. The spend underpins insatiable demand for AI chips, power and cooling.",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/hyperscalers-hit-700-billion-2026-111243744.html"
+    }
+  ]
 }
