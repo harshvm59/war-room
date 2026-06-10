@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T03:06:00.540404+05:30",
+  "updated_at": "2026-06-11T04:34:16.839647+05:30",
   "source": "yahoo+local-ta+rules",
   "items": [
     {
@@ -72,13 +72,13 @@
       "action": "TRIM",
       "urgency": "high",
       "color": "#c9a84c",
-      "price": "$381.59, +43.0% from $266.84",
-      "signal": "RSI 39.37 (neutral), MACD histogram +n/a, price -3.94% vs SMA50. Position +43.0% at 10.7% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+      "price": "$396.68, +48.7% from $266.84",
+      "signal": "RSI 43.87 (neutral), MACD histogram +n/a, price -0.01% vs SMA50. Position +48.7% at 11.1% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
       "entry": "$385–$405",
-      "stop": "$351",
-      "target": "$458 (3 mo)",
-      "sizing": "10.7% of portfolio · no active DCA",
-      "action_text": "Trim into strength near $382; redeploy to P0 names"
+      "stop": "$365",
+      "target": "$476 (3 mo)",
+      "sizing": "11.1% of portfolio · no active DCA",
+      "action_text": "Trim into strength near $397; redeploy to P0 names"
     },
     {
       "ticker": "META",
@@ -164,11 +164,11 @@
       "urgency": "medium",
       "color": "#4a9eff",
       "price": "$1734.19, +71.3% from $1012.44",
-      "signal": "RSI 60.46 (neutral), MACD histogram +n/a, price +14.44% vs SMA50. Position +71.3% at 1.9% weight (P1). +61% from avg $1,012. Now 1.04 units. EUV monopoly — EVERY AI chip requires ASML machines. Irreplaceable. $200/month forever. Target 3 units ($5,000 position).",
+      "signal": "RSI 60.46 (neutral), MACD histogram +n/a, price +14.44% vs SMA50. Position +71.3% at 1.8% weight (P1). +61% from avg $1,012. Now 1.04 units. EUV monopoly — EVERY AI chip requires ASML machines. Irreplaceable. $200/month forever. Target 3 units ($5,000 position).",
       "entry": "$1470–$1546",
       "stop": "$1394",
       "target": "$2081 (3 mo)",
-      "sizing": "$200/mo DCA · 1.9% of portfolio",
+      "sizing": "$200/mo DCA · 1.8% of portfolio",
       "action_text": "Hold; review on next signal"
     },
     {
@@ -203,11 +203,11 @@
       "urgency": "low",
       "color": "#2dd4bf",
       "price": "$200.42, +131.9% from $86.44",
-      "signal": "RSI 41.07 (neutral), MACD histogram +n/a, price -2.57% vs SMA50. Position +131.9% at 25.0% weight (P1). +155% from avg $86. Blackwell demand unprecedented — TSMC CoWoS booked through 2027. Hold entire position. Next DCA add only on -15% dip to ~$187. Do NOT sell.",
+      "signal": "RSI 41.07 (neutral), MACD histogram +n/a, price -2.57% vs SMA50. Position +131.9% at 24.9% weight (P1). +155% from avg $86. Blackwell demand unprecedented — TSMC CoWoS booked through 2027. Hold entire position. Next DCA add only on -15% dip to ~$187. Do NOT sell.",
       "entry": "$200–$210",
       "stop": "$184",
       "target": "$241 (3 mo)",
-      "sizing": "$500/mo DCA · 25.0% of portfolio",
+      "sizing": "$500/mo DCA · 24.9% of portfolio",
       "action_text": "Hold; review on next signal"
     },
     {
@@ -226,7 +226,7 @@
   ],
   "portfolio_snapshot": {
     "total_invested": 58258.54,
-    "total_value": 96903.32,
-    "pnl_pct": 66.33
+    "total_value": 97313.11,
+    "pnl_pct": 67.04
   }
 }
