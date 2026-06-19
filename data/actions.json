@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T04:44:39.459628+05:30",
+  "updated_at": "2026-06-19T21:58:28.899274+05:30",
   "source": "yahoo+local-ta+rules",
   "items": [
     {
@@ -125,11 +125,11 @@
       "urgency": "medium",
       "color": "#4a9eff",
       "price": "$537.37, +200.5% from $178.81",
-      "signal": "RSI 61.19 (neutral), MACD histogram +n/a, price +30.73% vs SMA50. Position +200.5% at 5.0% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+      "signal": "RSI 61.19 (neutral), MACD histogram +n/a, price +30.73% vs SMA50. Position +200.5% at 5.1% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
       "entry": "$399–$419",
       "stop": "$378",
       "target": "$645 (3 mo)",
-      "sizing": "5.0% of portfolio · no active DCA",
+      "sizing": "5.1% of portfolio · no active DCA",
       "action_text": "Hold; review on next signal"
     },
     {
@@ -137,11 +137,11 @@
       "action": "HOLD",
       "urgency": "medium",
       "color": "#4a9eff",
-      "price": "$684.86, +59.5% from $429.42",
-      "signal": "RSI 58.16 (neutral), MACD histogram +n/a, price +21.1% vs SMA50. Position +59.5% at 3.6% weight (P2). +26% from avg $429. ARR growing 22% but slowing. Consider rotating 50% into PANW (stronger AI cyber, better margins). Watch Q2 earnings closely.",
-      "entry": "$549–$577",
-      "stop": "$520",
-      "target": "$822 (3 mo)",
+      "price": "$682.96, +59.0% from $429.42",
+      "signal": "RSI 57.83 (neutral), MACD histogram +n/a, price +n/a% vs SMA50. Position +59.0% at 3.6% weight (P2). +26% from avg $429. ARR growing 22% but slowing. Consider rotating 50% into PANW (stronger AI cyber, better margins). Watch Q2 earnings closely.",
+      "entry": "$662–$697",
+      "stop": "$628",
+      "target": "$820 (3 mo)",
       "sizing": "3.6% of portfolio · no active DCA",
       "action_text": "Hold; review on next signal"
     },
@@ -150,12 +150,12 @@
       "action": "HOLD",
       "urgency": "medium",
       "color": "#4a9eff",
-      "price": "$333.05, +50.2% from $221.80",
-      "signal": "RSI 56.65 (neutral), MACD histogram +n/a, price +3.58% vs SMA50. Position +50.2% at 2.3% weight (P1). +57% from avg $221. Data center cooling backlog $18B+. Liquid cooling orders +280% QoQ. Wait for pullback to $310–325 before adding. Hold entire position.",
-      "entry": "$312–$328",
-      "stop": "$296",
-      "target": "$400 (3 mo)",
-      "sizing": "2.3% of portfolio · no active DCA",
+      "price": "$317.58, +43.2% from $221.80",
+      "signal": "RSI 51.37 (neutral), MACD histogram +n/a, price +n/a% vs SMA50. Position +43.2% at 2.2% weight (P1). +57% from avg $221. Data center cooling backlog $18B+. Liquid cooling orders +280% QoQ. Wait for pullback to $310–325 before adding. Hold entire position.",
+      "entry": "$308–$324",
+      "stop": "$292",
+      "target": "$381 (3 mo)",
+      "sizing": "2.2% of portfolio · no active DCA",
       "action_text": "Hold; review on next signal"
     },
     {
@@ -203,11 +203,11 @@
       "urgency": "low",
       "color": "#2dd4bf",
       "price": "$210.69, +143.7% from $86.44",
-      "signal": "RSI 50.38 (neutral), MACD histogram +n/a, price +0.66% vs SMA50. Position +143.7% at 24.6% weight (P1). +155% from avg $86. Blackwell demand unprecedented — TSMC CoWoS booked through 2027. Hold entire position. Next DCA add only on -15% dip to ~$187. Do NOT sell.",
+      "signal": "RSI 50.38 (neutral), MACD histogram +n/a, price +0.66% vs SMA50. Position +143.7% at 24.7% weight (P1). +155% from avg $86. Blackwell demand unprecedented — TSMC CoWoS booked through 2027. Hold entire position. Next DCA add only on -15% dip to ~$187. Do NOT sell.",
       "entry": "$203–$213",
       "stop": "$193",
       "target": "$253 (3 mo)",
-      "sizing": "$500/mo DCA · 24.6% of portfolio",
+      "sizing": "$500/mo DCA · 24.7% of portfolio",
       "action_text": "Hold; review on next signal"
     },
     {
@@ -226,7 +226,7 @@
   ],
   "portfolio_snapshot": {
     "total_invested": 58258.54,
-    "total_value": 103400.42,
-    "pnl_pct": 77.49
+    "total_value": 103277.56,
+    "pnl_pct": 77.27
   }
 }
