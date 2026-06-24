@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T01:45:48.643425+05:30",
+  "updated_at": "2026-06-25T03:22:23.285777+05:30",
   "source": "yahoo+local-ta+rules",
   "items": [
     {
@@ -215,8 +215,8 @@
       "action": "HOLD",
       "urgency": "low",
       "color": "#2dd4bf",
-      "price": "$440.80, +174.7% from $160.48",
-      "signal": "RSI 54.54 (neutral), MACD histogram +n/a, price +7.41% vs SMA50. Position +174.7% at 12.7% weight (P1). +158% from avg $160. Best semiconductor value at 15x fwd P/E. CoWoS packaging monopoly for NVDA/AVGO/AMD. $300/month DCA on dips below $390.",
+      "price": "$440.83, +174.7% from $160.48",
+      "signal": "RSI 54.54 (neutral), MACD histogram +n/a, price +7.42% vs SMA50. Position +174.7% at 12.7% weight (P1). +158% from avg $160. Best semiconductor value at 15x fwd P/E. CoWoS packaging monopoly for NVDA/AVGO/AMD. $300/month DCA on dips below $390.",
       "entry": "$398–$419",
       "stop": "$378",
       "target": "$529 (3 mo)",
@@ -226,7 +226,7 @@
   ],
   "portfolio_snapshot": {
     "total_invested": 58258.54,
-    "total_value": 97838.78,
+    "total_value": 97839.63,
     "pnl_pct": 67.94
   }
 }
