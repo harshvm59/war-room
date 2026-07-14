@@ -1,141 +1,141 @@
 {
-  "updated_at": "2026-07-15T00:42:55.003475+05:30",
+  "updated_at": "2026-07-15T02:05:11.045682+05:30",
   "source": "yahoo",
   "prices": {
     "NVDA": {
-      "price": 211.77,
+      "price": 211.8,
       "prevClose": 203.53,
-      "change": 8.24,
-      "changePct": 4.05,
-      "volume": 0.6,
+      "change": 8.27,
+      "changePct": 4.06,
+      "volume": 0.81,
       "marketCap": null
     },
     "TSM": {
-      "price": 422.0,
+      "price": 420.39,
       "prevClose": 421.58,
-      "change": 0.42,
-      "changePct": 0.1,
-      "volume": 0.76,
+      "change": -1.19,
+      "changePct": -0.28,
+      "volume": 0.97,
       "marketCap": null
     },
     "TSLA": {
-      "price": 397.11,
+      "price": 396.18,
       "prevClose": 394.76,
-      "change": 2.35,
-      "changePct": 0.6,
-      "volume": 0.42,
+      "change": 1.42,
+      "changePct": 0.36,
+      "volume": 0.52,
       "marketCap": null
     },
     "META": {
-      "price": 659.28,
+      "price": 661.04,
       "prevClose": 656.73,
-      "change": 2.55,
-      "changePct": 0.39,
-      "volume": 0.44,
+      "change": 4.31,
+      "changePct": 0.66,
+      "volume": 0.65,
       "marketCap": null
     },
     "GOOGL": {
-      "price": 359.44,
+      "price": 359.51,
       "prevClose": 352.51,
-      "change": 6.93,
-      "changePct": 1.97,
-      "volume": 0.31,
+      "change": 7.0,
+      "changePct": 1.99,
+      "volume": 0.53,
       "marketCap": null
     },
     "AMZN": {
-      "price": 247.36,
+      "price": 247.49,
       "prevClose": 247.31,
-      "change": 0.05,
-      "changePct": 0.02,
-      "volume": 0.31,
-      "marketCap": null
-    },
-    "PLTR": {
-      "price": 134.51,
-      "prevClose": 130.04,
-      "change": 4.47,
-      "changePct": 3.44,
-      "volume": 0.9,
-      "marketCap": null
-    },
-    "MSFT": {
-      "price": 385.4,
-      "prevClose": 390.99,
-      "change": -5.59,
-      "changePct": -1.43,
-      "volume": 0.39,
-      "marketCap": null
-    },
-    "AMD": {
-      "price": 552.16,
-      "prevClose": 534.39,
-      "change": 17.77,
-      "changePct": 3.33,
-      "volume": 0.57,
-      "marketCap": null
-    },
-    "CRWD": {
-      "price": 208.86,
-      "prevClose": 187.91,
-      "change": 20.95,
-      "changePct": 11.15,
-      "volume": 0.8,
-      "marketCap": null
-    },
-    "MU": {
-      "price": 979.1,
-      "prevClose": 937.0,
-      "change": 42.1,
-      "changePct": 4.49,
+      "change": 0.18,
+      "changePct": 0.07,
       "volume": 0.47,
       "marketCap": null
     },
-    "VRT": {
-      "price": 302.67,
-      "prevClose": 305.87,
-      "change": -3.2,
-      "changePct": -1.05,
-      "volume": 0.38,
+    "PLTR": {
+      "price": 133.72,
+      "prevClose": 130.04,
+      "change": 3.68,
+      "changePct": 2.83,
+      "volume": 1.08,
       "marketCap": null
     },
-    "AVGO": {
-      "price": 391.27,
-      "prevClose": 384.05,
-      "change": 7.22,
-      "changePct": 1.88,
-      "volume": 0.42,
-      "marketCap": null
-    },
-    "ASML": {
-      "price": 1778.99,
-      "prevClose": 1726.04,
-      "change": 52.95,
-      "changePct": 3.07,
-      "volume": 0.9,
-      "marketCap": null
-    },
-    "CEG": {
-      "price": 257.92,
-      "prevClose": 257.57,
-      "change": 0.35,
-      "changePct": 0.14,
+    "MSFT": {
+      "price": 384.93,
+      "prevClose": 390.99,
+      "change": -6.06,
+      "changePct": -1.55,
       "volume": 0.57,
       "marketCap": null
     },
+    "AMD": {
+      "price": 548.13,
+      "prevClose": 534.39,
+      "change": 13.74,
+      "changePct": 2.57,
+      "volume": 0.71,
+      "marketCap": null
+    },
+    "CRWD": {
+      "price": 210.73,
+      "prevClose": 187.91,
+      "change": 22.82,
+      "changePct": 12.14,
+      "volume": 1.05,
+      "marketCap": null
+    },
+    "MU": {
+      "price": 983.12,
+      "prevClose": 937.0,
+      "change": 46.12,
+      "changePct": 4.92,
+      "volume": 0.58,
+      "marketCap": null
+    },
+    "VRT": {
+      "price": 303.58,
+      "prevClose": 305.87,
+      "change": -2.29,
+      "changePct": -0.75,
+      "volume": 0.47,
+      "marketCap": null
+    },
+    "AVGO": {
+      "price": 389.11,
+      "prevClose": 384.05,
+      "change": 5.06,
+      "changePct": 1.32,
+      "volume": 0.61,
+      "marketCap": null
+    },
+    "ASML": {
+      "price": 1775.64,
+      "prevClose": 1726.04,
+      "change": 49.6,
+      "changePct": 2.87,
+      "volume": 1.16,
+      "marketCap": null
+    },
+    "CEG": {
+      "price": 256.43,
+      "prevClose": 257.57,
+      "change": -1.14,
+      "changePct": -0.44,
+      "volume": 0.81,
+      "marketCap": null
+    },
     "BE": {
-      "price": 235.77,
+      "price": 243.4,
       "prevClose": 233.49,
-      "change": 2.28,
-      "changePct": 0.98,
-      "volume": 0.36,
+      "change": 9.91,
+      "changePct": 4.24,
+      "volume": 0.48,
       "marketCap": null
     },
     "ANET": {
-      "price": 181.1,
+      "price": 182.57,
       "prevClose": 181.15,
-      "change": -0.05,
-      "changePct": -0.02,
-      "volume": 0.5,
+      "change": 1.42,
+      "changePct": 0.78,
+      "volume": 0.66,
       "marketCap": null
     }
   }
