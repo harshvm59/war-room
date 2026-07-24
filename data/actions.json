@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T01:41:52.428269+05:30",
+  "updated_at": "2026-07-25T03:03:48.233862+05:30",
   "source": "yahoo+local-ta+rules",
   "items": [
     {
@@ -150,11 +150,11 @@
       "action": "ADD",
       "urgency": "medium",
       "color": "#4a9eff",
-      "price": "$290.42, +30.9% from $221.80",
-      "signal": "RSI 43.27 (neutral), MACD histogram +n/a, price -8.19% vs SMA50. Position +30.9% at 2.3% weight (P1). +57% from avg $221. Data center cooling backlog $18B+. Liquid cooling orders +280% QoQ. Wait for pullback to $310–325 before adding. Hold entire position.",
+      "price": "$290.36, +30.9% from $221.80",
+      "signal": "RSI 43.25 (neutral), MACD histogram +n/a, price -8.21% vs SMA50. Position +30.9% at 2.3% weight (P1). +57% from avg $221. Data center cooling backlog $18B+. Liquid cooling orders +280% QoQ. Wait for pullback to $310–325 before adding. Hold entire position.",
       "entry": "$307–$323",
       "stop": "$267",
-      "target": "$349 (3 mo)",
+      "target": "$348 (3 mo)",
       "sizing": "2.3% of portfolio · no active DCA",
       "action_text": "Accumulate near $307–$323; stop $267"
     },
@@ -176,8 +176,8 @@
       "action": "HOLD",
       "urgency": "medium",
       "color": "#4a9eff",
-      "price": "$185.08, -25.5% from $248.52",
-      "signal": "RSI 36.14 (neutral), MACD histogram +n/a, price -31.42% vs SMA50. Position -25.5% at 0.3% weight (P3). Lottery ticket — +8% at $267. Solid-oxide fuel cells for AI data centers. $467 correctly sized. Wait for 2 consecutive earnings beats before adding. Do NOT size",
+      "price": "$184.89, -25.6% from $248.52",
+      "signal": "RSI 36.11 (neutral), MACD histogram +n/a, price -31.49% vs SMA50. Position -25.6% at 0.3% weight (P3). Lottery ticket — +8% at $267. Solid-oxide fuel cells for AI data centers. $467 correctly sized. Wait for 2 consecutive earnings beats before adding. Do NOT size",
       "entry": "$262–$275",
       "stop": "$170",
       "target": "$222 (3 mo)",
@@ -189,8 +189,8 @@
       "action": "HOLD",
       "urgency": "medium",
       "color": "#4a9eff",
-      "price": "$174.07, +18.4% from $147.02",
-      "signal": "RSI 52.92 (neutral), MACD histogram +n/a, price +6.23% vs SMA50. Position +18.4% at 0.7% weight (P1). -1.2% from avg $147. 3.62 units now. 800G AI networking upgrade cycle just starting. Every hyperscaler GPU cluster needs Arista. $150/month DCA. Add dips below",
+      "price": "$173.99, +18.3% from $147.02",
+      "signal": "RSI 52.85 (neutral), MACD histogram +n/a, price +6.18% vs SMA50. Position +18.3% at 0.7% weight (P1). -1.2% from avg $147. 3.62 units now. 800G AI networking upgrade cycle just starting. Every hyperscaler GPU cluster needs Arista. $150/month DCA. Add dips below",
       "entry": "$159–$167",
       "stop": "$151",
       "target": "$209 (3 mo)",
@@ -215,8 +215,8 @@
       "action": "HOLD",
       "urgency": "low",
       "color": "#2dd4bf",
-      "price": "$403.63, +151.5% from $160.48",
-      "signal": "RSI 42.46 (neutral), MACD histogram +n/a, price -5.27% vs SMA50. Position +151.5% at 12.2% weight (P1). +158% from avg $160. Best semiconductor value at 15x fwd P/E. CoWoS packaging monopoly for NVDA/AVGO/AMD. $300/month DCA on dips below $390.",
+      "price": "$403.41, +151.4% from $160.48",
+      "signal": "RSI 42.4 (neutral), MACD histogram +n/a, price -5.32% vs SMA50. Position +151.4% at 12.2% weight (P1). +158% from avg $160. Best semiconductor value at 15x fwd P/E. CoWoS packaging monopoly for NVDA/AVGO/AMD. $300/month DCA on dips below $390.",
       "entry": "$413–$435",
       "stop": "$371",
       "target": "$484 (3 mo)",
@@ -226,7 +226,7 @@
   ],
   "portfolio_snapshot": {
     "total_invested": 58258.54,
-    "total_value": 93154.49,
-    "pnl_pct": 59.9
+    "total_value": 93147.19,
+    "pnl_pct": 59.89
   }
 }
