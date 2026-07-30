@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T01:41:21.557564+05:30",
+  "updated_at": "2026-07-31T03:09:03.630732+05:30",
   "source": "yahoo",
   "prices": {
     "NVDA": {
@@ -11,11 +11,11 @@
       "marketCap": null
     },
     "TSM": {
-      "price": 403.27,
+      "price": 403.31,
       "prevClose": 374.67,
-      "change": 28.6,
-      "changePct": 7.63,
-      "volume": 0.98,
+      "change": 28.64,
+      "changePct": 7.64,
+      "volume": 1.12,
       "marketCap": null
     },
     "TSLA": {
@@ -31,7 +31,7 @@
       "prevClose": 585.61,
       "change": -46.58,
       "changePct": -7.95,
-      "volume": 2.2,
+      "volume": 2.23,
       "marketCap": null
     },
     "GOOGL": {
@@ -39,7 +39,7 @@
       "prevClose": 336.71,
       "change": -3.05,
       "changePct": -0.91,
-      "volume": 0.99,
+      "volume": 1.03,
       "marketCap": null
     },
     "AMZN": {
@@ -55,7 +55,7 @@
       "prevClose": 123.0,
       "change": -0.74,
       "changePct": -0.6,
-      "volume": 0.72,
+      "volume": 0.77,
       "marketCap": null
     },
     "MSFT": {
@@ -63,7 +63,7 @@
       "prevClose": 390.54,
       "change": 60.56,
       "changePct": 15.51,
-      "volume": 3.06,
+      "volume": 3.1,
       "marketCap": null
     },
     "AMD": {
@@ -91,11 +91,11 @@
       "marketCap": null
     },
     "VRT": {
-      "price": 227.61,
+      "price": 227.5,
       "prevClose": 223.04,
-      "change": 4.57,
-      "changePct": 2.05,
-      "volume": 2.33,
+      "change": 4.46,
+      "changePct": 2.0,
+      "volume": 2.46,
       "marketCap": null
     },
     "AVGO": {
@@ -123,18 +123,18 @@
       "marketCap": null
     },
     "BE": {
-      "price": 207.21,
+      "price": 207.12,
       "prevClose": 163.75,
-      "change": 43.46,
-      "changePct": 26.54,
-      "volume": 1.91,
+      "change": 43.37,
+      "changePct": 26.49,
+      "volume": 2.07,
       "marketCap": null
     },
     "ANET": {
-      "price": 170.93,
+      "price": 171.02,
       "prevClose": 157.97,
-      "change": 12.96,
-      "changePct": 8.2,
+      "change": 13.05,
+      "changePct": 8.26,
       "volume": 0.81,
       "marketCap": null
     }
