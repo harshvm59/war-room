@@ -1,11 +1,9 @@
 name: Themes Refresh (daily)
 
 on:
-  # DISABLED: this refresh calls the Anthropic API, which needs paid credits.
-  # The account is out of credits, so a scheduled run only fails. Re-enable by
-  # uncommenting the schedule once credits are funded.
-  # schedule:
-  #   - cron: "30 3 * * *"
+  schedule:
+    # 09:15 IST = 03:45 UTC, every day
+    - cron: "45 3 * * *"
   workflow_dispatch:
 
 permissions:
