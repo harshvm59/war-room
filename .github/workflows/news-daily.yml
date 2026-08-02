@@ -31,9 +31,17 @@ jobs:
       - name: Run daily scrape
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        id: scrape
+        continue-on-error: true
         run: python scripts/update_news_youtube.py
 
+      - name: Report scrape skip
+        if: steps.scrape.outcome == 'failure'
+        run: |
+          echo "::warning::News/YouTube refresh failed, usually because Anthropic credits are unavailable. Keeping the last published data."
+
       - name: Commit if changed
+        if: steps.scrape.outcome == 'success'
         run: |
           git config user.name  "war-room-bot"
           git config user.email "war-room-bot@users.noreply.github.com"

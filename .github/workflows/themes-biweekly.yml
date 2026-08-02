@@ -28,8 +28,15 @@ jobs:
       - name: Run themes refresh
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        id: themes
+        continue-on-error: true
         run: python scripts/update_themes.py
+      - name: Report themes skip
+        if: steps.themes.outcome == 'failure'
+        run: |
+          echo "::warning::Themes refresh failed, usually because Anthropic credits are unavailable. Keeping the last published data."
       - name: Commit + push with rebase-retry
+        if: steps.themes.outcome == 'success'
         run: |
           git config user.name  "war-room-bot"
           git config user.email "war-room-bot@users.noreply.github.com"

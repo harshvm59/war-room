@@ -28,8 +28,15 @@ jobs:
       - name: Run 7-Q framework refresh
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        id: framework
+        continue-on-error: true
         run: python scripts/analyze_framework.py
+      - name: Report framework skip
+        if: steps.framework.outcome == 'failure'
+        run: |
+          echo "::warning::Framework refresh failed, usually because Anthropic credits are unavailable. Keeping the last published data."
       - name: Commit + push with rebase-retry
+        if: steps.framework.outcome == 'success'
         run: |
           git config user.name  "war-room-bot"
           git config user.email "war-room-bot@users.noreply.github.com"
