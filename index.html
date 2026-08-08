@@ -5174,7 +5174,7 @@ window.selectPortInv=function(si,ii,el){
     if(typeof AGGR!=='undefined' && Array.isArray(AGGR)){
       AGGR.forEach(function(a){
         var map={'AI Compute & Semis':'AI Compute','Energy & Nuclear':'AI Energy','Defense & Security':'AI Security','AI Adopters (Big Tech)':'AI Infra','Agentic AI / SaaS':'AI Software','Physical AI / Robotics':'Physical AI'};
-        var key=map[a.n]; if(key) a.now=+(byTheme[key]||0)/total*100;
+        var key=map[a.n]; if(key) a.now=+((byTheme[key]||0)/total*100).toFixed(1);
       });
       if(typeof window.buildAggr==='function') window.buildAggr();
     }
@@ -5202,6 +5202,14 @@ window.selectPortInv=function(si,ii,el){
     if(aggrBody) aggrBody.innerHTML=planRows;
     var deployBody=document.querySelector('#deploy .tw tbody');
     if(deployBody) deployBody.innerHTML=planRows;
+    var aggrHead=document.querySelector('#aggression .tw thead tr');
+    if(aggrHead) aggrHead.innerHTML='<th>Priority</th><th>Stock</th><th>Live price</th><th>Current position</th><th>Monthly DCA</th><th>P-Level</th><th>Rule-based action</th>';
+    var deployHead=document.querySelector('#deploy .tw thead tr');
+    if(deployHead) deployHead.innerHTML='<th>Priority</th><th>Stock</th><th>Live price</th><th>Current position</th><th>Monthly DCA</th><th>P-Level</th><th>Rule-based action</th>';
+    set('#deploy .ph-sub','Live deployment plan · current price, position value and daily technical action');
+    var deployTags=document.querySelector('#deploy .tag-row'); if(deployTags) deployTags.innerHTML='<span class="tag tgn">Wallet '+money(wallet,0)+'</span><span class="tag tg">'+money(dcaTotal,0)+'/mo configured DCA</span>';
+    set('#conviction .ph-sub','Live ranking · current return, position weight and daily rule-based target');
+    var convictionTags=document.querySelector('#conviction .tag-row'); if(convictionTags) convictionTags.innerHTML='<span class="tag tg">Live market data</span><span class="tag tr">Refreshes with daily TA feed</span>';
     var aggrKpis=document.querySelectorAll('#aggression .kpi-row .kpi');
     var p0=ordered.filter(function(p){return p.pri==='P0';});
     if(aggrKpis[0]) {aggrKpis[0].querySelector('.kpi-v').textContent=p0.map(function(p){return p.t;}).join(' · ')||'—';aggrKpis[0].querySelector('.kpi-s').textContent='Live P0 positions';}
