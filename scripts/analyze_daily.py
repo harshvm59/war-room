@@ -251,7 +251,11 @@ def main():
     prices_doc.pop("items", None)
     prices_doc["prices"] = build_prices(per)
     write_json("prices.json", prices_doc)
-    print(f"[analyze_daily] wrote prices for {len(prices_doc['prices'])} tickers")
+    # Full daily technical snapshot consumed by the frontend. Unlike the old
+    # inline TA constants this contains fresh RSI, MACD, moving averages and
+    # rule-based entry/stop/target data for every ticker.
+    write_json("analysis.json", envelope(per, source="yahoo+local-ta+rules"))
+    print(f"[analyze_daily] wrote prices and analysis for {len(prices_doc['prices'])} tickers")
 
     notify_telegram(actions, snap)
     print(f"[DONE] ${val:,.0f} ({snap['pnl_pct']:+.1f}%)")
