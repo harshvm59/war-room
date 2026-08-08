@@ -3217,17 +3217,21 @@ function buildThemes(){
         +(status?'<span class="tc-stock-status">'+status+'</span>':'')+'</span>';
     }).join('');
 
-    // New source grid — 7-8 sources in a 2-column grid
+    // The card source grid is reserved for the current rolling-24h packet.
+    // Historical thesis sources must not masquerade as today's research.
+    var liveSrcs=Array.isArray(t.srcs)?t.srcs:[],sourceLabel=t.liveUpdatedAt
+      ?liveSrcs.length+' fresh sources in the rolling 24h packet'
+      :liveSrcs.length+' long-range reference sources';
     var srcs='<div class="tc-src">'
-      +'<div class="tc-src-label">'+t.srcs.length+' sources backing this thesis</div>'
+      +'<div class="tc-src-label">'+sourceLabel+'</div>'
       +'<div class="tc-src-grid">'
-      +t.srcs.map(function(s){
+      +(liveSrcs.length?liveSrcs.map(function(s){
         return '<div class="tc-src-item">'
           +'<div><span class="src-org">'+s.org+'</span></div>'
           +'<a href="'+s.u+'" target="_blank" class="src-title" style="font-size:8px;color:var(--blue);text-decoration:none;">↗ '+s.title+'</a>'
           +(s.stat?'<span class="src-stat">'+s.stat+'</span>':'')
           +'</div>';
-      }).join('')
+      }).join(''):'<div class="tc-src-item"><div><span class="src-org">24H MONITOR · QUIET</span></div><span class="src-stat">No qualifying fresh article passed the relevance gate. The cohort and prices were still refreshed; no old headline was recycled.</span></div>')
       +'</div></div>';
 
     return '<div class="tc" data-priority="'+t.priority+'" data-theme="'+t.name+'">'
@@ -5530,7 +5534,7 @@ window.selectPortInv=function(si,ii,el){
             });
           }
         }
-        if (Array.isArray(live.news) && live.news.length) local.srcs=live.news.map(function(item){return {org:item.source||'Daily research feed',title:item.title||'Market update',stat:item.date||'',u:item.url||'#'};});
+        local.srcs=Array.isArray(live.news)?live.news.map(function(item){return {org:item.source||'Daily research feed',title:item.title||'Market update',stat:item.date||'',u:item.url||'#'};}) : [];
       });
       if (typeof buildThemes === 'function') buildThemes();
       if (typeof buildCohortAllocator === 'function') buildCohortAllocator();
