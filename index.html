@@ -3220,7 +3220,7 @@ function buildThemes(){
     // The card source grid is reserved for the current rolling-24h packet.
     // Historical thesis sources must not masquerade as today's research.
     var liveSrcs=Array.isArray(t.srcs)?t.srcs:[],sourceLabel=t.liveUpdatedAt
-      ?liveSrcs.length+' fresh sources in the rolling 24h packet'
+      ?(liveSrcs.length===1?'1 fresh source':liveSrcs.length+' fresh sources')+' in the rolling 24h packet'
       :liveSrcs.length+' long-range reference sources';
     var srcs='<div class="tc-src">'
       +'<div class="tc-src-label">'+sourceLabel+'</div>'
