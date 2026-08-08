@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T22:01:57.817753+05:30",
+  "updated_at": "2026-08-09T03:47:55.386560+05:30",
   "source": "google-news-rss+deterministic-cohorts",
   "items": [
     {
@@ -9,21 +9,21 @@
       "target_pct": 28,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: 7 Best-Performing Semiconductor Stocks for August 2026 - NerdWallet",
+      "summary": "Daily automated RSS scan on 2026-08-09. Latest source-linked signal: 7 Best-Performing Semiconductor Stocks for August 2026 - NerdWallet",
       "news": [
         {
           "title": "7 Best-Performing Semiconductor Stocks for August 2026 - NerdWallet",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DcnBsYjFUWnVXMUpGeFdXcnBtd2Q5YjFEcW9OUmZXcjU4Y1Vnbk5zME5CVklCc1JoX182SVlCRFE2WmhRMDB6VjZQeGdwRkRhdW9zUjE4dmlpbnB2dVNGXzJXNFVYVGxwZXJJbm5WWExyZVR6QnBB?oc=5"
         },
         {
           "title": "5 Semiconductor Stocks Poised to Outperform This Summer - The Motley Fool",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSC14YklUZUZZU1FrRk8yX0tndXNyRXpicVdEaDlqUWJKNzh0aWUydTI0dzhBUUdSLTE2dXlXejVJUDQxWl9YTVlXd05OUkNTVmpubDluQVl3UE82UmVobm9LSDN6WGRDM0tJY2xRYkFaLVRJNFdiOTdIczRuN2dVU1RocFQyXy1LdGtndENNZ2t6ZGg5YlE?oc=5"
         },
         {
           "title": "7 Best Semiconductor ETFs to Buy for 2026 - U.S. News - Money",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NNDJ4SUhnVzEwWENRQ3NnbjJGVUIteElZbW1WRkR5WGxNZkNQdm8wbHJkdTVqZ0tvVk9qMnhvVnBFcmFPSHBLS0dHaU5iUGxvMXAyVFR3UmN5ZGpkUW10VWtRME9hcmVGZlRyRDExOHBTbWl1X3paVnRBVEZ1Q1k?oc=5"
         }
       ],
@@ -36,8 +36,8 @@
           "priority": "P1",
           "price": 483.36,
           "change_pct": -1.21,
-          "units": 9.712667918,
-          "current_value": 4694.72,
+          "units": 10.547953941,
+          "current_value": 5098.46,
           "source_hits": 0,
           "reason": "Second-source accelerator and server CPU exposure",
           "rank": 1
@@ -50,8 +50,8 @@
           "priority": "P1",
           "price": 427.76,
           "change_pct": 1.71,
-          "units": 4.286080622,
-          "current_value": 1833.41,
+          "units": 5.44228665,
+          "current_value": 2327.99,
           "source_hits": 0,
           "reason": "Custom AI accelerators and networking",
           "rank": 2
@@ -64,8 +64,8 @@
           "priority": "P1",
           "price": 877.57,
           "change_pct": -0.44,
-          "units": 3.81197998,
-          "current_value": 3345.28,
+          "units": 4.463030313,
+          "current_value": 3916.62,
           "source_hits": 0,
           "reason": "HBM and memory-cycle exposure",
           "rank": 3
@@ -78,8 +78,8 @@
           "priority": "P1",
           "price": 1740.99,
           "change_pct": 2.15,
-          "units": 1.036766296,
-          "current_value": 1805.0,
+          "units": 1.079121631,
+          "current_value": 1878.74,
           "source_hits": 0,
           "reason": "EUV lithography monopoly",
           "rank": 4
@@ -92,8 +92,8 @@
           "priority": "P1",
           "price": 223.96,
           "change_pct": 2.27,
-          "units": 120.896848615,
-          "current_value": 27076.06,
+          "units": 119.93097887,
+          "current_value": 26859.74,
           "source_hits": 0,
           "reason": "GPU compute and CUDA platform leader",
           "rank": 5
@@ -106,8 +106,8 @@
           "priority": "P1",
           "price": 420.04,
           "change_pct": 0.44,
-          "units": 28.221813182,
-          "current_value": 11854.29,
+          "units": 28.960011046,
+          "current_value": 12164.36,
           "source_hits": 0,
           "reason": "Leading-edge foundry and CoWoS bottleneck",
           "rank": 6
@@ -144,7 +144,7 @@
       "candidate_count": 2,
       "owned_count": 6,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T22:01:57.817480+05:30"
+      "cohort_updated_at": "2026-08-09T03:47:55.386353+05:30"
     },
     {
       "theme": "Energy & Nuclear Power",
@@ -153,21 +153,21 @@
       "target_pct": 16,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: 7 Sectors Powering the AI Boom Behind the Scenes - Schaeffer's Investment Research",
+      "summary": "Daily automated RSS scan on 2026-08-09. Latest source-linked signal: 7 Sectors Powering the AI Boom Behind the Scenes - Schaeffer's Investment Research",
       "news": [
         {
           "title": "7 Sectors Powering the AI Boom Behind the Scenes - Schaeffer's Investment Research",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWnRPT3JTSUo4ZEFpMUsxaWlXcVQwSS02TmZSMFhTNUcyaHM3aVZVLUNkSGFlZF9hdlhWY1JJM3gyTkxtWmZMaFk4bGc0LUVaYUZaa3BfNGZOV19CdE9vdG1CZXZaY2xaSEhlZi1YbnpXeFVBam9qUHZSY0h1Y0s2anB2YWtjTTFfb2IyV1VBeENvc1Z6NkZuSVlXQmxwMGJIN3MyUllQUzJLOUo3TnJZMlRn?oc=5"
         },
         {
           "title": "ETN, GEV, NEE, PWR, VRT Stocks Stand To Gain After US Flags Power Grid As Defense Priority - Stocktwits",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZlVCMEU4ODZtQktlODdIUXFPRHVxMm9FRjV5SDN6cVh3dGhFMC1ZVm9oYmtkeUtBdzJwN1VQQmNWQWxQZkh1bV9TN3JLQnNXX3YyTGY1M3diVVdlRjBRMGhvM1EzRG41TlNjWEcxVTk0RDlobzNwa0VkUV93Yk8ydU9BOTNBY1ZHQUZwNThzLUdLR3cxaXdJWjkyM0VhR1FxTjdKNFhKS1liNWZqdV9FUDhjUE5SWnJodlZmaURZcjRnekdISkwtczNoMDlTMWVhVktjUm1jMEdXLTRUUk5NRFFQc2o?oc=5"
         },
         {
           "title": "A Rotational AI Portfolio Strategy - Seeking Alpha",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQb1JYQmRYMDJjUDNUZWd0MzUtRGE3aXE0alhFMXRjLS13cHdGb1FEVXV1ZXVyX2tMb3BPZXRIMGVLT1BJczBtYzlUYjZYS1lic1ZwM1VBR1g4WDVHX3J3TUtScnR0a2Q2RGhyYklreThiaFVVYXUxQWFibXYwb3ZyMA?oc=5"
         }
       ],
@@ -180,8 +180,8 @@
           "priority": "P0",
           "price": 272.4,
           "change_pct": -1.01,
-          "units": 7.266933811,
-          "current_value": 1979.51,
+          "units": 8.810567154,
+          "current_value": 2400.0,
           "source_hits": 1,
           "reason": "Data-centre cooling and power distribution",
           "rank": 1
@@ -194,8 +194,8 @@
           "priority": "P0",
           "price": 269.89,
           "change_pct": 3.37,
-          "units": 3.018309165,
-          "current_value": 814.61,
+          "units": 4.795418203,
+          "current_value": 1294.24,
           "source_hits": 0,
           "reason": "Nuclear fleet and hyperscaler power contracts",
           "rank": 2
@@ -236,8 +236,8 @@
           "priority": "P0",
           "price": 219.34,
           "change_pct": -4.2,
-          "units": 1.748257462,
-          "current_value": 383.46,
+          "units": 3.47128982,
+          "current_value": 761.39,
           "source_hits": 1,
           "reason": "On-site fuel-cell power; speculative execution risk",
           "rank": 5
@@ -274,7 +274,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T22:01:57.817561+05:30"
+      "cohort_updated_at": "2026-08-09T03:47:55.386402+05:30"
     },
     {
       "theme": "Defense & National Security",
@@ -283,21 +283,21 @@
       "target_pct": 13,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: Defense Stocks to Research in 2026: Key Names, Risks, and Outlook - techi.com",
+      "summary": "Daily automated RSS scan on 2026-08-09. Latest source-linked signal: 6 Best Defense ETFs for 2026 and How to Invest - The Motley Fool",
       "news": [
         {
-          "title": "Defense Stocks to Research in 2026: Key Names, Risks, and Outlook - techi.com",
-          "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4WEp2dElubFUxbjZIc1hYSTBfT0EyUDNSWk9lRDlrekNrVmNPVEFXTnZlWERfMDAzendFZGZ6Y2wxMXlUY05RcmNkQThvOW4zQmZ3Yw?oc=5"
-        },
-        {
           "title": "6 Best Defense ETFs for 2026 and How to Invest - The Motley Fool",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVXgyNnZQWW0yZkVVckFpTG1OcEV5Y1k0bVE2UHk5Z3pJU1Z0S1BNVXNfMlpIdEgtSU1JUHVGdWY2QmpJeGJ3SjFaazFkUHFaVVI2WmVhYmFjNTJXZHNydUJwZXZKNUthU181a2pFSHR4Ym5QOWV4UWpHNGhxME9MMFdabnNWSkNWa2NFQW9wdERhb2x4?oc=5"
         },
         {
+          "title": "Defense Stocks to Research in 2026: Key Names, Risks, and Outlook - techi.com",
+          "date": "2026-08-09",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4WEp2dElubFUxbjZIc1hYSTBfT0EyUDNSWk9lRDlrekNrVmNPVEFXTnZlWERfMDAzendFZGZ6Y2wxMXlUY05RcmNkQThvOW4zQmZ3Yw?oc=5"
+        },
+        {
           "title": "U.S. Military Expert Issues Grave Warning: 'We Need More Munitions, and Deliveries Are Years Behind.' What Stocks Can Benefit? - 24/7 Wall St.",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTlNhRzRybVhfdk80MTdqQUYwUWhJeVRXRDRxSGxuRTVjdV8yNDV5cVp0aHBKMGNKNUhONk5aM0J0SlhicU1QYThsYm53RFlUcENUZ1dmazlMSkk1RmhIYzRqZW95cHZJdUZYeWY1d0RZTHQtaGV0SU5XTk93Q0ZnLTB0akpPU1hTYzRqOG9UV3NnYTl6YmU1bjRsb2ZyVjRLR3YzcThpZ0xqenNMeC05bHJVeFp2UWE5a2Rzbk85WVEyaTNYS21oZEljbDdBdHZUbGRBREFNZGhhQzkzeTlmcl9oWXJOZDEtdEktbm1md28zb0NnVFE?oc=5"
         }
       ],
@@ -338,8 +338,8 @@
           "priority": "P0",
           "price": 172.01,
           "change_pct": 10.32,
-          "units": 44.750469539,
-          "current_value": 7697.53,
+          "units": 47.185855591,
+          "current_value": 8116.44,
           "source_hits": 0,
           "reason": "Defense software and operational AI",
           "rank": 3
@@ -390,7 +390,7 @@
       "candidate_count": 5,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T22:01:57.817594+05:30"
+      "cohort_updated_at": "2026-08-09T03:47:55.386427+05:30"
     },
     {
       "theme": "Agentic AI & Enterprise SaaS",
@@ -399,21 +399,21 @@
       "target_pct": 10,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: History Says Software-as-a-Service (SaaS) Stocks Will Be the Ultimate AI Winners. 3 SaaS Stocks to Buy Now. - AOL.com",
+      "summary": "Daily automated RSS scan on 2026-08-09. Latest source-linked signal: History Says Software-as-a-Service (SaaS) Stocks Will Be the Ultimate AI Winners. 3 SaaS Stocks to Buy Now. - AOL.com",
       "news": [
         {
           "title": "History Says Software-as-a-Service (SaaS) Stocks Will Be the Ultimate AI Winners. 3 SaaS Stocks to Buy Now. - AOL.com",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdXVHUXhqX19XdU5yVk1wTkYzVHNvajJWV3hSZlptblF0SVRiWnNPYmFCaWdkVHRSZW1aUTRMN184alU0VHJ0NERiY3BDM1lEOTZ3b2MwUWRFWDRBNEJORTd6NTlhc0NGQ1JrOGc4eUh5S0x2YW9CaDVXQzBnNGxqZ2FXMA?oc=5"
         },
         {
           "title": "Salesforce Remains Down But Turning Positive: 100%+ Returns Lie Ahead According to This Analyst - 24/7 Wall St.",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdWlGcWtvOS1xajJ2MnVWUVFqa2lWUE9rQkpmdEs4LWF4QUdyZWdsbDdTT1QyaWZBQ25UTl9mLUFZUnExZzZ6OWhqUERYa2o5c015R3ZSQ3V4VzJTUkExcVpSd19EdU9MMkxFWjhKVXpsZjVuaC1hc3I4WXNiNWJXTEpCRzdHUUpBcXZIUVZ2WE05MGNseEtBMHBoV3BlRC00dG9WN1JleXRwMGFxUmtvTkt6T21DUlhxSHVqTjhmVVVSMmJUbjVjZWxyZWpwVXN6UHc?oc=5"
         },
         {
-          "title": "Forget SaaS: Why AI Agents Could Make ServiceNow and Palantir Technologies the Next Trillion-Dollar Platforms - Yahoo Finance",
-          "date": "2026-08-08",
+          "title": "Forget SaaS: Why AI Agents Could Make ServiceNow and Palantir Technologies the Next Trillion-Dollar Platforms - finance.yahoo.com",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWEtlWEJleGNPYlMyZEViS09vS3VaTDdicXNzNUpCU0pWbGxONXJjRzVNQ3JBMDM4aTU0Mk4zT2tVcDV5OU5KWUNHVlZ1ZXJUT0lPU0NTYy1sWGt1Q185ZXlhU2J4amFrd3N0Z1RrYnBPaFRFa0xYaWJIN2xMWnJsejJuTVpyMndmUl9HYk92cjY1SWQ2?oc=5"
         }
       ],
@@ -440,8 +440,8 @@
           "priority": "P1",
           "price": 172.01,
           "change_pct": 10.32,
-          "units": 44.750469539,
-          "current_value": 7697.53,
+          "units": 47.185855591,
+          "current_value": 8116.44,
           "source_hits": 1,
           "reason": "Operational AI platform and deployment velocity",
           "rank": 2
@@ -454,8 +454,8 @@
           "priority": "P1",
           "price": 499.99,
           "change_pct": 0.03,
-          "units": 11.172868458,
-          "current_value": 5586.32,
+          "units": 7.092138707,
+          "current_value": 3546.0,
           "source_hits": 0,
           "reason": "Copilot distribution and Azure AI platform",
           "rank": 3
@@ -468,8 +468,8 @@
           "priority": "P1",
           "price": 274.48,
           "change_pct": 0.82,
-          "units": 24.776504475,
-          "current_value": 6800.65,
+          "units": 25.227043572,
+          "current_value": 6924.32,
           "source_hits": 0,
           "reason": "AWS Bedrock and custom AI infrastructure",
           "rank": 4
@@ -482,8 +482,8 @@
           "priority": "P1",
           "price": 354.3,
           "change_pct": -0.96,
-          "units": 19.617116379,
-          "current_value": 6950.34,
+          "units": 19.92975778,
+          "current_value": 7061.11,
           "source_hits": 0,
           "reason": "Gemini distribution and cloud AI",
           "rank": 5
@@ -496,8 +496,8 @@
           "priority": "P1",
           "price": 592.1,
           "change_pct": 0.37,
-          "units": 16.009156068,
-          "current_value": 9479.02,
+          "units": 16.34891344,
+          "current_value": 9680.19,
           "source_hits": 0,
           "reason": "AI advertising and open-model optionality",
           "rank": 6
@@ -534,7 +534,7 @@
       "candidate_count": 3,
       "owned_count": 5,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T22:01:57.817634+05:30"
+      "cohort_updated_at": "2026-08-09T03:47:55.386461+05:30"
     },
     {
       "theme": "Healthcare AI & GLP-1",
@@ -543,21 +543,21 @@
       "target_pct": 8,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: The Artificial Intelligence Opportunity Beyond Big Tech: 3 Healthcare Stocks to Watch - The Motley Fool",
+      "summary": "Daily automated RSS scan on 2026-08-09. Latest source-linked signal: The Artificial Intelligence Opportunity Beyond Big Tech: 3 Healthcare Stocks to Watch - The Motley Fool",
       "news": [
         {
           "title": "The Artificial Intelligence Opportunity Beyond Big Tech: 3 Healthcare Stocks to Watch - The Motley Fool",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSXFXbTB1eklwZ1laLTZfODNfckZxRVZobEZMNGo4SElRSFBsZ0R1X0Exc0ZlbnhHTWVxY29uSC1adHJNLVNfZW5aaTlQSVk2NW1aRkdTcDZSR1JnQkhHUW1xdnZ0RUZvOE9CQnV5V09fTmRqNXZqWHU0M2ozT3JGcV81Tll1TjV2UDRRaWpQOVdkb0xNR1dhUA?oc=5"
         },
         {
-          "title": "U.S. Healthcare Spending Just Hit $5.7 Trillion and Continues to Grow: 2 Stocks to Buy to Profit From the Trend - The Globe and Mail",
-          "date": "2026-08-08",
+          "title": "U.S. Healthcare Spending Just Hit $5.7 Trillion and Continues to Grow: 2 Stocks to Buy to Profit From the Trend - theglobeandmail.com",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxObEk2Tk5Ca2JwWXctR1ZRdXBhZTdfUHY0VnlwbzY4U2pWWmdXaUxQVGFoSGsxaTF5TXBtS01FZmdTd05GMHRpY0RMNVN2QXZ1dFZsSnVHN3Jld3YwTENKa2ZreVBIN0tuVlZhamlrOUpBNWF1SVpBaHlLanhfUUxxMjBWTmVEc2hJRlhZNmRUVFJRMjlYZXcxQWpUSnY3Wm93Ujg2aWg3Sk1VNFQ3RGh2SWx1TXA5MkJsRjlxLVRIcEZPYU5hazlBenRpWmhpZzdHRkVzOWhpT1lKT29jdTB5OUYybmk0WkVpY0xFLURLY0FiT25PQ3FTX3hhMEpsSHVfRE53Uzg1MS1kMXQ1UlNxUmxMTXZ3T0Rud3VPUUlxTQ?oc=5"
         },
         {
           "title": "14 Healthcare Stocks for 2026: Ranked by Growth and Value - EBC Financial Group",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYjhCSTJtVV9WTXV4OEFvWEdsSVRib1VZTkZwRFlJbUJPY1lzdGZRN051b3ltbjU1d0JKNFZsel9SVEphTnd2MVBrdjBEVUhZUjVXdnp5aG1FOW5pSUFSbjZTUmxYcEItMFB2bktvekFxUmFvNVgtaktHUk9hcjFBU3ZhTWRnamFnWGc?oc=5"
         }
       ],
@@ -636,7 +636,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T22:01:57.817657+05:30"
+      "cohort_updated_at": "2026-08-09T03:47:55.386479+05:30"
     },
     {
       "theme": "Physical AI & Humanoid Robotics",
@@ -645,21 +645,21 @@
       "target_pct": 5,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: Elon Musk Predicts 'Money Won't Matter in 2036.' Is This His Worst Prediction Yet or Prophetic? - 24/7 Wall St.",
+      "summary": "Daily automated RSS scan on 2026-08-09. Latest source-linked signal: Elon Musk Predicts 'Money Won't Matter in 2036.' Is This His Worst Prediction Yet or Prophetic? - 24/7 Wall St.",
       "news": [
         {
           "title": "Elon Musk Predicts 'Money Won't Matter in 2036.' Is This His Worst Prediction Yet or Prophetic? - 24/7 Wall St.",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPR2Zjdzk5RV96T0pOWEtONWRzeURoazlCYllLZnh3UThXRW1FRmdNU1d3MkE0b3lzT1NBUThkcXpGR3lDOXBUM25wV0JWSW93NnNpd0tpY3h1QVdyanVzZ3pON0FXY2dhX09ZNkRCRjFMQzd1M0RnMXZlTjhNWTRIdWowWWhSZm9qRTJ6N3Flb0tqc0lURWJ0SDczemI4TmNPelJzWmlRQlJibTgzTWJpQ2dTVi1mMWZvR3VLaDViTTJBeWU0ZlJaUTNXR200UTA?oc=5"
         },
         {
           "title": "The First Major Robotics IPO Is Here: 5 Robotics Stocks That Could Run in the Second Half of 2026 - 24/7 Wall St.",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTRWTTJJYjFtbUVENngwdUp3QVZmZFA0ZExERi1PeFBPYm5LSkxoaEt3VGVHYjBWVjQtd3ZPMVBEMW9SN09zQ0lCZjJJTHpuVnVkVnFKc0FUYm13U3dORmlTUG1lajdtTjVVUTNuY0lhME5ad0dUaDVPNjJCTFh0bkEta1J1dU5OYThLSzN4c0p4ZjJJRGVmVURjdTEtOTFFYzBfZ3N3TElBbm1ONW4xdkh4YTJFc2I5WVd1SDBWTy15NmU1SG5ocHV5R1V4dk5BanJ2NkpmOA?oc=5"
         },
         {
           "title": "SA Asks: What's the most attractive robotics stock right now? (TER:NASDAQ) - Seeking Alpha",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTmc0ZjM1UmZLUFdVMUxkSUJjSkJ0djhKNzBMcGMzczIzc3dzLU8xa2lrN1c1R2pjYVVjNFJyalB6dVk2Mll4N1p2WURCMG5IT05TZDdOOEQ3MzRtRHZSXzAxdHJqYWlENGw1QW5ZMnFNcmtOaUYzSjRmVzRnZTUzV0JWcml0OVhrUmxRMTNVcE4xOEU1cXUwN1FaSHE?oc=5"
         }
       ],
@@ -728,8 +728,8 @@
           "priority": "P2",
           "price": 328.58,
           "change_pct": 2.83,
-          "units": 27.156680144,
-          "current_value": 8923.14,
+          "units": 26.567292392,
+          "current_value": 8729.48,
           "source_hits": 0,
           "reason": "Autonomy and humanoid optionality with valuation risk",
           "rank": 5
@@ -738,7 +738,7 @@
       "candidate_count": 4,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T22:01:57.817680+05:30"
+      "cohort_updated_at": "2026-08-09T03:47:55.386499+05:30"
     },
     {
       "theme": "Critical Minerals & Copper",
@@ -824,7 +824,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T22:01:57.817698+05:30"
+      "cohort_updated_at": "2026-08-09T03:47:55.386512+05:30"
     },
     {
       "theme": "Sovereign AI Infrastructure",
@@ -833,11 +833,11 @@
       "target_pct": 17,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: ⚡ NVIDIA's $1 Trillion Outlook - appeconomyinsights.com",
+      "summary": "Daily automated RSS scan on 2026-08-09. Latest source-linked signal: ⚡ NVIDIA's $1 Trillion Outlook - appeconomyinsights.com",
       "news": [
         {
           "title": "⚡ NVIDIA's $1 Trillion Outlook - appeconomyinsights.com",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xeDlQUEJtdUVFamJGbi1fSnFpS2JJQnhTWUY1MEoySXh4RW81M2pzTkwyVElpeW4tMjBhS1AzOVRRdXpJV3Y3RDdVMDFrZW5KT09BRlMyazBrS1hSZXppVzVzeWRlblhtZXVCbTBLa3M?oc=5"
         }
       ],
@@ -850,8 +850,8 @@
           "priority": "P2",
           "price": 272.4,
           "change_pct": -1.01,
-          "units": 7.266933811,
-          "current_value": 1979.51,
+          "units": 8.810567154,
+          "current_value": 2400.0,
           "source_hits": 0,
           "reason": "Power and thermal infrastructure for AI facilities",
           "rank": 1
@@ -878,8 +878,8 @@
           "priority": "P2",
           "price": 188.67,
           "change_pct": -1.9,
-          "units": 3.623430319,
-          "current_value": 683.63,
+          "units": 4.772337377,
+          "current_value": 900.4,
           "source_hits": 0,
           "reason": "High-speed networking for AI clusters",
           "rank": 3
@@ -892,8 +892,8 @@
           "priority": "P2",
           "price": 214.42,
           "change_pct": 3.39,
-          "units": 5.496161548,
-          "current_value": 1178.49,
+          "units": 24.140204609,
+          "current_value": 5176.14,
           "source_hits": 0,
           "reason": "Cloud workload security and sovereign environments",
           "rank": 4
@@ -944,7 +944,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T22:01:57.817727+05:30"
+      "cohort_updated_at": "2026-08-09T03:47:55.386536+05:30"
     }
   ]
 }
