@@ -2749,13 +2749,13 @@ function renderActions(actions){
   }
 
   if(ctxEl){
-    var tVal=PORT.reduce(function(s,p){return s+(p.cur*p.units);},0);
+    var tVal=PORT.reduce(function(s,p){return s+hvmMarketValue(p);},0);
     var tInv=PORT.reduce(function(s,p){return s+(p.buy*p.units);},0);
     var gPct=tInv?((tVal-tInv)/tInv*100):0;
-    function rOf(p){return p.buy?((p.cur-p.buy)/p.buy*100):0;}
+    function rOf(p){var price=hvmMarkPrice(p);return p.buy?((price-p.buy)/p.buy*100):0;}
     var srt=PORT.slice().sort(function(a,b){return rOf(b)-rOf(a);});
     var lead=srt[0], lag=srt[srt.length-1];
-    ctxEl.innerHTML='<span style="color:var(--gold);font-weight:600;">📊 LIVE:</span> Portfolio $'
+    ctxEl.innerHTML='<span style="color:var(--gold);font-weight:600;">📊 PUBLIC MARKET ESTIMATE:</span> Strategy stocks $'
       +Math.round(tVal).toLocaleString('en-US')+' ('+(gPct>=0?'+':'')+gPct.toFixed(2)+'%) · '
       +'Top '+lead.t+' '+(rOf(lead)>=0?'+':'')+rOf(lead).toFixed(0)+'% · '
       +'Laggard '+lag.t+' '+(rOf(lag)>=0?'+':'')+rOf(lag).toFixed(0)+'% · '
@@ -2807,16 +2807,16 @@ function renderActions(actions){
 }
 function loadPortfolioHealth(){
   // Deterministic assessment computed from live PORT data — no LLM, no API key.
-  // PORT[].cur is kept current by updatePortfolioWithLivePrices() from prices.json.
+  // Broker values stay immutable; public quotes populate marketCur/marketVal.
   var el=document.getElementById('portHealthText');
   if(!el)return;
   el.style.cssText='font-size:12px;color:var(--text2);line-height:1.75;';
 
-  var totalVal=PORT.reduce(function(s,p){return s+(p.cur*p.units);},0);
+  var totalVal=PORT.reduce(function(s,p){return s+hvmMarketValue(p);},0);
   var totalInv=PORT.reduce(function(s,p){return s+(p.buy*p.units);},0);
   var gainPct=totalInv?((totalVal-totalInv)/totalInv*100):0;
 
-  function retOf(p){return p.buy?((p.cur-p.buy)/p.buy*100):0;}
+  function retOf(p){var price=hvmMarkPrice(p);return p.buy?((price-p.buy)/p.buy*100):0;}
   var sorted=PORT.slice().sort(function(a,b){return retOf(b)-retOf(a);});
   var top=sorted[0], laggard=sorted[sorted.length-1];
 
@@ -2859,20 +2859,21 @@ function buildPortPanels(){
   var PC_COLOR={P0:'#e05252',P1:'#c9a84c',P2:'#4a9eff',P3:'#3ddc84'};
   var MONTHS=[3,6,12,24];
   el.innerHTML=PORT.map(function(s,i){
-    var ret=((s.cur-s.buy)/s.buy*100).toFixed(1);
-    var gain=((s.cur-s.buy)*s.units).toFixed(0);
-    var w=(s.val/TOTAL*100).toFixed(1);
+    var price=hvmMarkPrice(s), brokerVal=hvmBrokerValue(s), marketVal=hvmMarketValue(s);
+    var ret=((price-s.buy)/s.buy*100).toFixed(1);
+    var gain=((price-s.buy)*s.units).toFixed(0);
+    var w=(brokerVal/TOTAL*100).toFixed(1);
     var pc=PC_COLOR[s.pri]||'#c9a84c';
     var rc=parseFloat(ret)>=0?'#3ddc84':'#e05252';
     var gc=parseFloat(gain)>=0?'#3ddc84':'#e05252';
-    var dca=s.dca||{mo:0,note:'No DCA plan.',aT:s.cur,bull:s.cur*1.5,bear:s.cur*0.7};
-    var upA=(((dca.aT-s.cur)/s.cur)*100).toFixed(0);
-    var upB=(((dca.bull-s.cur)/s.cur)*100).toFixed(0);
+    var dca=s.dca||{mo:0,note:'No DCA plan.',aT:price,bull:price*1.5,bear:price*0.7};
+    var upA=(((dca.aT-price)/price)*100).toFixed(0);
+    var upB=(((dca.bull-price)/price)*100).toFixed(0);
     var ta=TA[s.t]||{};
     var rsiPct=Math.min(Math.max(ta.rsi||50,0),100);
     var rsiColor=rsiPct<30?'#4a9eff':rsiPct>70?'#e05252':'#3ddc84';
     var patColor=ta.patternColor||'#c9a84c';
-    var kpis=[['Ticker','<span style="font-family:Bebas Neue,sans-serif;font-size:2rem;letter-spacing:.04em;color:'+pc+';">'+s.t+'</span><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-top:2px;">'+s.pri+' · '+s.theme+'</div>'],['Avg Buy','$'+s.buy.toFixed(2)],['Current','$'+s.cur.toFixed(2)],['Your Return','<span style="color:'+rc+';">'+(parseFloat(ret)>=0?'+':'')+ret+'%</span>'],['Units',s.units.toFixed(2)],['Value','$'+s.val.toLocaleString()],['Weight',w+'%'],['Rule Target (3mo)','<span style="color:#c9a84c;">$'+dca.aT+'</span>'],['Rule Target Upside','<span style="color:#3ddc84;">+'+upA+'%</span>'],['Bull Case','<span style="color:#3ddc84;">$'+dca.bull+'</span>'],['Bear Case','<span style="color:#e05252;">$'+dca.bear+'</span>'],['P&L','<span style="color:'+gc+';">$'+parseInt(gain).toLocaleString()+'</span>']];
+    var kpis=[['Ticker','<span style="font-family:Bebas Neue,sans-serif;font-size:2rem;letter-spacing:.04em;color:'+pc+';">'+s.t+'</span><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-top:2px;">'+s.pri+' · '+s.theme+'</div>'],['Avg Buy','$'+s.buy.toFixed(2)],['Market Price','$'+price.toFixed(2)],['Your Return','<span style="color:'+rc+';">'+(parseFloat(ret)>=0?'+':'')+ret+'%</span>'],['Units',s.units.toFixed(2)],['Broker Value','$'+brokerVal.toLocaleString()],['Market Est.','$'+marketVal.toLocaleString()],['Weight',w+'%'],['Rule Target (3mo)','<span style="color:#c9a84c;">$'+dca.aT+'</span>'],['Rule Target Upside','<span style="color:#3ddc84;">+'+upA+'%</span>'],['Bull Case','<span style="color:#3ddc84;">$'+dca.bull+'</span>'],['Bear Case','<span style="color:#e05252;">$'+dca.bear+'</span>'],['P&L (Market)','<span style="color:'+gc+';">$'+parseInt(gain).toLocaleString()+'</span>']];
     var kpiHtml=kpis.map(function(k){return '<div style="background:#0f0f0f;border:1px solid #202020;border-radius:4px;padding:.75rem .9rem;"><div style="font-family:DM Mono,monospace;font-size:7px;letter-spacing:.12em;text-transform:uppercase;color:#3a3835;margin-bottom:.3rem;">'+k[0]+'</div><div style="font-family:Bebas Neue,sans-serif;font-size:1.5rem;letter-spacing:.04em;line-height:1.1;">'+k[1]+'</div></div>';}).join('');
     var rsiGauge='<div class="rsi-gauge-wrap"><div class="rsi-label-row"><span>Oversold 30</span><span>RSI: <strong style="color:'+rsiColor+';">'+rsiPct+'</strong> — '+(ta.rsiLabel||'')+'</span><span>Overbought 70</span></div><div class="rsi-track"><div class="rsi-needle" style="left:'+rsiPct+'%;background:'+rsiColor+';"></div></div><div class="rsi-zones"><span style="color:#4a9eff;">Oversold=Buy</span><span style="color:#3ddc84;">Neutral=OK</span><span style="color:#e05252;">Overbought=Caution</span></div></div>';
     var macdBars=[.2,.4,.6,.8,.7,.5,.6,.8,1,.9,.7,.8].map(function(v){var h=Math.round(v*36);var c=(ta.macdVal||0)>0?'#3ddc8488':'#e0525288';return '<div class="macd-bar" style="height:'+h+'px;background:'+c+';"></div>';}).join('');
@@ -2886,7 +2887,7 @@ function buildPortPanels(){
     var vClass={buy:'vb-buy',hold:'vb-hold',wait:'vb-wait',trim:'vb-trim',add:'vb-buy'}[ta.verdict||'hold']||'vb-hold';
     var vSig={buy:'<span class="sig-buy">▲ BUY / ADD</span>',hold:'<span class="sig-hold">◆ HOLD</span>',wait:'<span class="sig-wait">◉ WAIT</span>',trim:'<span class="sig-trim">▼ TRIM</span>',add:'<span class="sig-add">▲ ADD NOW</span>'}[ta.verdict||'hold']||'<span class="sig-hold">◆ HOLD</span>';
     var earnFlag=ta.earns?'<span class="earn-alert">⚡ EARNINGS '+ta.earns+'</span>':'';
-    var dcaRows=dca.mo>0?MONTHS.map(function(m){var inv=dca.mo*m;var nu=(dca.mo/s.cur)*m;var tu=s.units+nu;var baseV=(tu*dca.aT)|0;var bullV=(tu*dca.bull)|0;var rb=(((tu*dca.aT-s.val-inv)/(s.val+inv))*100)|0;return '<tr style="border-bottom:1px solid #161616;"><td style="color:#7a7672;padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;">'+m+'mo</td><td style="padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;">$'+dca.mo.toLocaleString()+'/mo</td><td style="padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;">$'+inv.toLocaleString()+'</td><td style="padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;color:#3ddc84;">+'+nu.toFixed(2)+' units</td><td style="padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;color:#c9a84c;">$'+baseV.toLocaleString()+'</td><td style="padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;color:#3ddc84;">$'+bullV.toLocaleString()+'</td><td style="padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;color:'+(rb>=0?'#3ddc84':'#e05252')+';">'+(rb>=0?'+':'')+rb+'%</td></tr>';}).join(''):'<tr><td colspan="7" style="padding:1rem;text-align:center;color:#7a7672;font-family:DM Mono,monospace;font-size:10px;">'+dca.note+'</td></tr>';
+    var dcaRows=dca.mo>0?MONTHS.map(function(m){var inv=dca.mo*m;var nu=(dca.mo/price)*m;var tu=s.units+nu;var baseV=(tu*dca.aT)|0;var bullV=(tu*dca.bull)|0;var rb=(((tu*dca.aT-marketVal-inv)/(marketVal+inv))*100)|0;return '<tr style="border-bottom:1px solid #161616;"><td style="color:#7a7672;padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;">'+m+'mo</td><td style="padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;">$'+dca.mo.toLocaleString()+'/mo</td><td style="padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;">$'+inv.toLocaleString()+'</td><td style="padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;color:#3ddc84;">+'+nu.toFixed(2)+' units</td><td style="padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;color:#c9a84c;">$'+baseV.toLocaleString()+'</td><td style="padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;color:#3ddc84;">$'+bullV.toLocaleString()+'</td><td style="padding:6px 10px;font-family:DM Mono,monospace;font-size:11px;color:'+(rb>=0?'#3ddc84':'#e05252')+';">'+(rb>=0?'+':'')+rb+'%</td></tr>';}).join(''):'<tr><td colspan="7" style="padding:1rem;text-align:center;color:#7a7672;font-family:DM Mono,monospace;font-size:10px;">'+dca.note+'</td></tr>';
     var invKeys=['buffett','soros','lynch','graham','taleb'];
     var invTabsHtml=invKeys.map(function(k,j){var isFirst=j===0;return '<div onclick="window.selectPortInv('+i+','+j+',this)" style="cursor:pointer;display:flex;align-items:center;gap:5px;padding:5px 12px;border-radius:3px;border:1px solid '+(isFirst?INV_C[k]+'66':'#2c2c2c')+';background:#0f0f0f;font-size:11px;font-weight:500;color:'+(isFirst?INV_C[k]:'#3a3835')+';'+(isFirst?'border-bottom:2px solid '+INV_C[k]+';':'')+'">'+'<span>'+INV_E[k]+'</span>'+INV_N[k]+'</div>';}).join('');
     var invPanelsHtml=invKeys.map(function(k,j){var verdict=s.inv?s.inv[k]:'Data loading...';var parts=verdict.split(' — ');var vLabel=parts[0]||verdict;var vDetail=parts[1]||'';var vc=verdict.indexOf('BUY')>=0?'#3ddc84':verdict.indexOf('AVOID')>=0||verdict.indexOf('TRIM')>=0?'#e05252':verdict.indexOf('WATCH')>=0?'#b388ff':'#c9a84c';return '<div id="pinv-'+i+'-'+j+'" style="display:'+(j===0?'block':'none')+';"><div style="background:#0f0f0f;border:1px solid #202020;border-radius:6px;padding:1.1rem;position:relative;"><div style="position:absolute;top:0;left:0;right:0;height:2px;background:'+INV_C[k]+';border-radius:6px 6px 0 0;"></div><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.6rem;"><div style="font-family:Bebas Neue,sans-serif;font-size:1.5rem;letter-spacing:.04em;color:#ede9e0;">'+INV_E[k]+' '+INV_N[k]+'</div><div style="font-family:Bebas Neue,sans-serif;font-size:.9rem;letter-spacing:.06em;padding:3px 12px;border-radius:3px;border:1px solid;color:'+vc+';background:'+vc+'18;border-color:'+vc+'44;">'+vLabel+'</div></div>'+(vDetail?'<div style="font-size:12px;color:#7a7672;line-height:1.7;padding:.5rem .75rem;border-left:3px solid '+INV_C[k]+';margin-top:.4rem;">'+vDetail+'</div>':'')+'</div></div>';}).join('');
@@ -2895,7 +2896,7 @@ function buildPortPanels(){
       +'<div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:.75rem;margin-bottom:1.25rem;padding-bottom:1rem;border-bottom:1px solid #202020;">'
         +'<div><div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><span style="font-family:Bebas Neue,sans-serif;font-size:2.5rem;letter-spacing:.04em;color:'+pc+';">'+s.t+'</span><span style="font-family:Bebas Neue,sans-serif;font-size:1.5rem;color:#ede9e0;">'+s.n+'</span>'+earnFlag+'</div>'
         +'<div style="font-family:DM Mono,monospace;font-size:9px;color:#3a3835;margin-top:2px;">'+s.theme+' · '+s.pri+' Priority · '+w+'% of portfolio</div>'
-        +'<div style="display:flex;align-items:baseline;gap:8px;margin-top:6px;"><span style="font-family:Bebas Neue,sans-serif;font-size:2rem;letter-spacing:.04em;">$'+(ta.price||s.cur)+'</span><span style="font-family:DM Mono,monospace;font-size:10px;color:'+(ta.chg&&ta.chg.indexOf('-')<0?'#3ddc84':'#e05252')+';">'+(ta.chg||'')+'</span></div>'
+        +'<div style="display:flex;align-items:baseline;gap:8px;margin-top:6px;"><span style="font-family:Bebas Neue,sans-serif;font-size:2rem;letter-spacing:.04em;">$'+price.toFixed(2)+'</span><span style="font-family:DM Mono,monospace;font-size:10px;color:'+(ta.chg&&ta.chg.indexOf('-')<0?'#3ddc84':'#e05252')+';">'+(ta.chg||'')+'</span></div>'
         +'<div style="font-family:DM Mono,monospace;font-size:9px;color:#3a3835;margin-top:2px;">Avg buy: $'+s.buy.toFixed(2)+' · Return: <span style="color:'+rc+';">'+(parseFloat(ret)>=0?'+':'')+ret+'%</span> · Vol: '+(ta.vol||'—')+'</div></div>'
         +'<div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px;">'+vSig+'<div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;">Live market price · daily TA data feed</div></div>'
       +'</div>'
@@ -2943,7 +2944,7 @@ function buildPortTabs(){
   if(!el)return;
   var PC_COLOR={P0:'#e05252',P1:'#c9a84c',P2:'#4a9eff',P3:'#3ddc84'};
   el.innerHTML=PORT.map(function(s,i){
-    var ret=((s.cur-s.buy)/s.buy*100).toFixed(0);
+    var ret=((hvmMarkPrice(s)-s.buy)/s.buy*100).toFixed(0);
     var rc=parseFloat(ret)>=0?'#3ddc84':'#e05252';
     var pc=PC_COLOR[s.pri]||'#c9a84c';
     var isFirst=i===0;
@@ -4388,27 +4389,34 @@ async function fetchLivePrices() {
   }
 }
 
+function hvmBrokerValue(s) {
+  return Number(s && s.brokerVal != null ? s.brokerVal : (s && s.val) || 0);
+}
+function hvmMarkPrice(s) {
+  return Number(s && (s.marketCur || s.cur) || 0);
+}
+function hvmMarketValue(s) {
+  return Number(s && (s.marketVal || (hvmMarkPrice(s) * Number(s.units || 0))) || hvmBrokerValue(s));
+}
+
 function updatePortfolioWithLivePrices() {
+  // Public quotes are a market estimate, not the broker ledger.  Never mutate
+  // cur/val here: those fields are the last authenticated INDmoney marks and
+  // drive the official account total throughout the dashboard.
   PORT.forEach(function(s) {
     if(LIVE_PRICES[s.t]) {
-      s.cur = LIVE_PRICES[s.t].price;
-      s.val = parseFloat((s.cur * s.units).toFixed(2));
+      s.marketCur = LIVE_PRICES[s.t].price;
+      s.marketVal = parseFloat((s.marketCur * s.units).toFixed(2));
     }
   });
-  var newTotal = PORT.reduce(function(sum, s) { return sum + s.val; }, 0);
-  var newGain = PORT.reduce(function(sum, s) { return sum + (s.cur - s.buy) * s.units; }, 0);
+  var marketStockTotal = PORT.reduce(function(sum, s) { return sum + hvmMarketValue(s); }, 0);
+  var marketGain = PORT.reduce(function(sum, s) { return sum + (hvmMarkPrice(s) - s.buy) * s.units; }, 0);
   var dayChange = PORT.reduce(function(sum, s){
     var lp=LIVE_PRICES[s.t]; if(!lp||!lp.change) return sum;
     return sum + (lp.change * s.units);
   },0);
 
   var kpiEls = {
-    'livePortfolioValue': '$' + newTotal.toLocaleString('en-US', {minimumFractionDigits:0, maximumFractionDigits:0}),
-    'liveGain': '+$' + newGain.toLocaleString('en-US', {minimumFractionDigits:0, maximumFractionDigits:0}),
-    'liveReturn': '+' + (newGain / (newTotal - newGain) * 100).toFixed(2) + '%',
-    'pivTotalVal': '$' + newTotal.toLocaleString('en-US', {minimumFractionDigits:0, maximumFractionDigits:0}),
-    'pivTotalGain': (newGain>=0?'+':'') + '$' + newGain.toLocaleString('en-US', {minimumFractionDigits:0, maximumFractionDigits:0}),
-    'pivTotalGainPct': (newGain>=0?'+':'') + (newGain / Math.max(1,(newTotal - newGain)) * 100).toFixed(2) + '%',
     'pivDayChange': (dayChange>=0?'+':'-') + '$' + Math.abs(dayChange).toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0})
   };
   Object.keys(kpiEls).forEach(function(id) {
@@ -4422,9 +4430,13 @@ function updatePortfolioWithLivePrices() {
     }
   });
 
+  window.HVM_MARKET_ESTIMATE = {stockTotal:marketStockTotal,gain:marketGain,updatedAt:new Date().toISOString()};
+  document.dispatchEvent(new CustomEvent('hvm:market-prices-updated',{detail:window.HVM_MARKET_ESTIMATE}));
+
   if(typeof buildPortTabs === 'function') {
     buildPortTabs();
     buildPortPanels();
+    loadPortfolioHealth();
   }
 }
 
@@ -4633,24 +4645,25 @@ function buildPivot(softUpdate){
   var body = document.getElementById('pivBody');
   if(!body) return;
 
-  var TOTAL_LIVE = PORT.reduce(function(sum,s){return sum+s.val;},0);
+  var TOTAL_LIVE = PORT.reduce(function(sum,s){return sum+hvmBrokerValue(s);},0);
 
   // Build rich row objects
   var rows = PORT.map(function(s){
     var ta = TA[s.t] || {};
     var lp = LIVE_PRICES[s.t];
-    var ret = ((s.cur - s.buy)/s.buy)*100;
-    var weight = (s.val/TOTAL_LIVE)*100;
+    var price = hvmMarkPrice(s), brokerVal = hvmBrokerValue(s);
+    var ret = ((price - s.buy)/s.buy)*100;
+    var weight = (brokerVal/TOTAL_LIVE)*100;
     var todayPct = lp ? (lp.changePct||0) : 0;
     var dca = (s.dca && s.dca.mo) || 0;
     var aT = (s.dca && s.dca.aT) || 0;
-    var upside = aT ? ((aT - s.cur)/s.cur)*100 : 0;
+    var upside = aT ? ((aT - price)/price)*100 : 0;
     var actionMap = {hold:'HOLD',add:'ADD',urgent:'ADD HARD',watch:'WATCH',trim:'TRIM 25%'};
     var actionLabel = actionMap[s.action] || (s.action||'').toUpperCase();
     var verdictText = (ta.action || (s.dca && s.dca.note) || 'No verdict');
     return {
       t:s.t, n:s.n, theme:s.theme, pri:s.pri,
-      cur:s.cur, buy:s.buy, units:s.units, val:s.val,
+      cur:price, buy:s.buy, units:s.units, val:brokerVal,
       ret:ret, weight:weight, todayPct:todayPct,
       rsi:ta.rsi||0, rsiLabel:ta.rsiLabel||'', macdSig:ta.macdSig||'',
       action:s.action, actionLabel:actionLabel,
@@ -4811,8 +4824,8 @@ function buildPivot(softUpdate){
 
   // Total value & gain (when no live yet, derive from PORT)
   if(!LIVE_FETCH_OK){
-    var totalLive = PORT.reduce(function(sum,s){return sum+s.val;},0);
-    var gainLive = PORT.reduce(function(sum,s){return sum+(s.cur-s.buy)*s.units;},0);
+    var totalLive = PORT.reduce(function(sum,s){return sum+hvmBrokerValue(s);},0);
+    var gainLive = PORT.reduce(function(sum,s){return sum+(hvmMarkPrice(s)-s.buy)*s.units;},0);
     var totalValEl = document.getElementById('pivTotalVal');
     var totalGainEl = document.getElementById('pivTotalGain');
     var totalGainPctEl = document.getElementById('pivTotalGainPct');
@@ -4915,7 +4928,8 @@ window.pivDrillDown = function(tkr){
   if(!s) return;
   var panel = document.getElementById('pivDrillPanel');
   if(!panel) return;
-  var ret = ((s.cur-s.buy)/s.buy)*100;
+  var livePrice=hvmMarkPrice(s);
+  var ret = ((livePrice-s.buy)/s.buy)*100;
   var lp = LIVE_PRICES[tkr];
   panel.style.display='block';
   panel.innerHTML = ''
@@ -4924,10 +4938,10 @@ window.pivDrillDown = function(tkr){
         +'<div class="piv-drill-tkr">'+s.t+'<span class="piv-drill-name">'+s.n+'</span></div>'
       +'</div>'
       +'<div class="piv-drill-stats">'
-        +'<div><div class="piv-drill-stat-l">Live</div><div class="piv-drill-stat-v" style="color:'+(lp&&lp.changePct>=0?'var(--green)':'var(--red)')+';">$'+(lp?lp.price.toFixed(2):s.cur.toFixed(2))+(lp?' '+(lp.changePct>=0?'▲':'▼')+' '+Math.abs(lp.changePct||0).toFixed(2)+'%':'')+'</div></div>'
+        +'<div><div class="piv-drill-stat-l">Live</div><div class="piv-drill-stat-v" style="color:'+(lp&&lp.changePct>=0?'var(--green)':'var(--red)')+';">$'+livePrice.toFixed(2)+(lp?' '+(lp.changePct>=0?'▲':'▼')+' '+Math.abs(lp.changePct||0).toFixed(2)+'%':'')+'</div></div>'
         +'<div><div class="piv-drill-stat-l">Avg Buy</div><div class="piv-drill-stat-v">$'+s.buy.toFixed(2)+'</div></div>'
         +'<div><div class="piv-drill-stat-l">Return</div><div class="piv-drill-stat-v" style="color:'+(ret>=0?'var(--green)':'var(--red)')+';">'+(ret>=0?'+':'')+ret.toFixed(1)+'%</div></div>'
-        +'<div><div class="piv-drill-stat-l">Position</div><div class="piv-drill-stat-v">$'+s.val.toLocaleString('en-US',{maximumFractionDigits:0})+'</div></div>'
+        +'<div><div class="piv-drill-stat-l">Broker position</div><div class="piv-drill-stat-v">$'+hvmBrokerValue(s).toLocaleString('en-US',{maximumFractionDigits:0})+'</div></div>'
       +'</div>'
       +'<button class="piv-drill-close" onclick="closePivDrill(event)">CLOSE ✕</button>'
     +'</div>'
@@ -5057,7 +5071,7 @@ function launchOfficeGame(actions,news,themes,ops){
   var persona={PULSE:{look:'long'},MOSAIC:{look:'crop',glasses:true},VECTOR:{look:'long'},CATALYST:{look:'short'},ECHO:{look:'long'},ATLAS:{look:'curly'},LEDGER:{look:'crop',glasses:true},SENTINEL:{look:'short',glasses:true},MACRO:{look:'long'},SOURCECHECK:{look:'curly',glasses:true}};
   var deskWork={PULSE:'NEWS TAPE',MOSAIC:'THEME MAP',VECTOR:'SIGNAL MODEL',CATALYST:'EARNINGS',ECHO:'LEADER SIGNALS',ATLAS:'PRICE TAPE',LEDGER:'BROKER LEDGER',SENTINEL:'RISK STRESS',MACRO:'MACRO MODEL',SOURCECHECK:'SOURCE CHECK'};
   var people=CEO_WORKERS.map(function(w,i){var code=w[0],op=opsByCode[code]||{},v=visual[code]||visual.PULSE,a=persona[code]||{look:'short'},sx=slots[i][0],sy=slots[i][1];return {code:code,name:op.name||AGENT_PEOPLE[code]||code,role:op.desk||w[1],activity:op.activity||ceoOfficeState(code,actions,news,themes),task:deskWork[code]||'RESEARCH',color:['#57d6ff','#b886ff','#66a9ff','#f5ad57','#ff76a7','#45dc9c','#f2cc4e','#ff6b6b','#8fa8ff','#5ce0c4'][i],skin:v[0],hair:v[1],shirt:v[2],look:a.look,glasses:!!a.glasses,x:sx,y:sy,homeX:sx,homeY:sy,slot:i};});
-  var portfolioValue=(Array.isArray(PORT)?PORT:[]).reduce(function(sum,p){return sum+(Number(p.val)||((Number(p.cur)||0)*(Number(p.units)||0)));},0);
+  var portfolioValue=(Array.isArray(PORT)?PORT:[]).reduce(function(sum,p){return sum+hvmBrokerValue(p);},0);
   var lastAction=(actions&&actions[0])||{};
   var stageText=['Scanning fresh market sources','Reviewing earnings catalyst','Cross-checking position risk','Mapping theme allocation','Preparing CIO brief','Comparing today\'s live signals','Sending a finding to the CIO'];
   stage.innerHTML='<canvas class="hvm-office-canvas" aria-label="Live animated HVM Trade Firm research floor. Click any desk to open its research packet."></canvas><div class="office-live-caption">◉ LIVE · 10 RESEARCH DESKS</div>';
@@ -5215,7 +5229,7 @@ function launchPixelOfficeFinal(actions,news,themes,ops){
     var code=w[0],op=opsByCode[code]||{},colors=palette[code]||palette.PULSE,seat=seats[i]||[105+(i%5)*187,280+Math.floor(i/5)*198];
     return {code:code,name:op.name||AGENT_PEOPLE[code]||code,role:op.desk||w[1],activity:op.activity||ceoOfficeState(code,actions,news,themes),mission:op.mission||'Refreshing the assigned investment research packet.',status:op.status||'WORKING',accent:['#52cfff','#be88ff','#71aaff','#f3b25d','#ff7cad','#52dba4','#e6c84f','#ff7373','#91aaff','#61dec4'][i],skin:colors[0],hair:colors[1],shirt:colors[2],homeX:seat[0],homeY:seat[1],x:seat[0],y:seat[1]+44,slot:i,atDesk:true,mode:deskModes[i%deskModes.length],dir:'up',remaining:3.5+(i%4)*1.4,route:[],routeIndex:0,returning:false,trip:null,frame:0};
   });
-  var portfolioValue=(Array.isArray(PORT)?PORT:[]).reduce(function(sum,p){var live=(Number(p.cur)||0)*(Number(p.units)||0);return sum+(live||Number(p.val)||0);},0);
+  var portfolioValue=(Array.isArray(PORT)?PORT:[]).reduce(function(sum,p){return sum+hvmBrokerValue(p);},0);
   var portfolioLabel='$'+(portfolioValue/1000).toFixed(1)+'K';
   var actionLead=(actions&&actions[0])||{},marketTicker=actionLead.ticker||'AI',marketAction=actionLead.action||'REVIEW';
   stage.innerHTML='<canvas class="hvm-office-canvas" aria-label="Live pixel-art HVM Trade Firm. Ten active floor desks, seven control and committee seats, and the CEO decision gate are driven by the latest work packets."></canvas><div class="office-pixel-tip"><b>HVM LIVE FLOOR</b> · click a worker or desk to inspect assigned work</div><div class="office-live-caption">● 17 EMPLOYEES · DATA → RESEARCH → RISK → CIO → CEO</div><div class="office-pixel-controls"><button class="office-pixel-btn" data-office-action="pause">Ⅱ PAUSE</button><button class="office-pixel-btn" data-office-action="speed">1× SPEED</button><button class="office-pixel-btn" data-office-action="ceo">◎ FIND CEO</button></div>';
@@ -5475,8 +5489,8 @@ window.selectPortInv=function(si,ii,el){
           old.patternColor=rsi>=70?'#e05252':rsi<=30?'#4a9eff':'#3ddc84';
           old.ta='Yahoo daily data: RSI '+rsi.toFixed(1)+', MACD '+Number(q.macd || 0).toFixed(2)+', '+(q.vs_sma50_pct>=0?'+':'')+Number(q.vs_sma50_pct || 0).toFixed(1)+'% vs SMA50.';
           var livePos=PORT.find(function(z){return z.t===row.ticker;});
-          var liveReturn=livePos&&livePos.buy?((livePos.cur/livePos.buy-1)*100):Number(h.pnl_pct||0);
-          old.fund='Live broker position: '+Number(livePos?livePos.units:h.units||0).toFixed(2)+' units · $'+Number(livePos?livePos.val:h.current_value||0).toLocaleString('en-US',{maximumFractionDigits:0})+' market value · '+(liveReturn>=0?'+':'')+liveReturn.toFixed(1)+'% return.';
+          var liveReturn=livePos&&livePos.buy?((hvmMarkPrice(livePos)/livePos.buy-1)*100):Number(h.pnl_pct||0);
+          old.fund='Live broker position: '+Number(livePos?livePos.units:h.units||0).toFixed(2)+' units · $'+Number(livePos?hvmBrokerValue(livePos):h.current_value||0).toLocaleString('en-US',{maximumFractionDigits:0})+' broker value · '+(liveReturn>=0?'+':'')+liveReturn.toFixed(1)+'% market return.';
           var action=actionByTicker[row.ticker];
           if (action) {
             old.action=action.action_text || action.signal || old.action;
