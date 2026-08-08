@@ -5138,7 +5138,8 @@ window.selectPortInv=function(si,ii,el){
       if(typeof window.buildThemes==='function') window.buildThemes();
     }
   }
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',function(){setTimeout(render,0)}); else setTimeout(render,0);
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',function(){setTimeout(render,0);setTimeout(render,2500)}); else {setTimeout(render,0);setTimeout(render,2500);}
+  setInterval(render,60000);
 })();
 </script>
 <!-- INDMONEY_RUNTIME_END -->
