@@ -2285,7 +2285,7 @@ tr:hover td{background:var(--bg2);}
 
 <!-- ═══ AI THEMES v4 ═══ -->
 <div id="themes" class="section">
-  <div class="ph"><div class="ph-left"><h1>AI THEMES <span class="gold">P0–P3</span></h1><div class="ph-sub">Absolute market sizes in $B · 5yr trend · 5yr projection · all sourced</div></div><div class="tag-row"><span class="tag tr">P0: 2 themes · 0% exposure</span><span class="tag tg">8 themes total</span><span class="tag tg">All numbers sourced</span></div></div>
+  <div class="ph"><div class="ph-left"><h1>AI THEMES <span class="gold">P0–P3</span></h1><div class="ph-sub">Research feed refreshes daily · live portfolio exposure is calculated from INDmoney</div></div><div class="tag-row"><span class="tag tr">P0: 2 themes · 0% exposure</span><span class="tag tg">8 themes total</span><span class="tag tg">All numbers sourced</span></div></div>
   <div class="alert alert-gold"><strong>P0 = Emergency — fix immediately · P1 = High conviction, hold/add · P2 = Build in Stage 2 · P3 = Small speculative only.</strong> Every absolute market size number below is sourced from IEA, Goldman Sachs, Morgan Stanley, Gartner, or cited analyst reports. No fabrications.</div>
   <div style="display:flex;gap:8px;margin-bottom:1rem;flex-wrap:wrap;align-items:center;">
   <span style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#3a3835;">Filter by priority:</span>
@@ -2302,7 +2302,7 @@ tr:hover td{background:var(--bg2);}
 
 <!-- ═══ LEADERS 30+ ═══ -->
 <div id="leaders" class="section">
-  <div class="ph"><div class="ph-left"><h1>30+ LEADER <span class="gold">SIGNALS</span></h1><div class="ph-sub">CEOs · VCs · Analysts · Reddit/Twitter signals · All sourced</div></div><div class="tag-row"><span class="tag tg">30 leaders loaded</span><span class="tag tg">Unanimous: POWER bottleneck</span></div></div>
+  <div class="ph"><div class="ph-left"><h1>30+ LEADER <span class="gold">SIGNALS</span></h1><div class="ph-sub">Fresh signals load from the daily research feed · source links on every card</div></div><div class="tag-row"><span class="tag tg">30 leaders loaded</span><span class="tag tg">Unanimous: POWER bottleneck</span></div></div>
   <div class="leaders-summary" id="leaderSummary"></div>
   <div class="sl">All 30+ signals — click source to verify</div>
   <div class="voice-grid" id="voiceGrid"></div>
@@ -2405,7 +2405,7 @@ const PORT=[{"t":"NVDA","n":"Nvidia Corporation","buy":86.44,"cur":219.11,"units
 const INV_C={"buffett": "#c9a84c", "soros": "#4a9eff", "lynch": "#3ddc84", "graham": "#e05252", "taleb": "#b388ff"};
 const INV_E={"buffett": "\ud83c\udfa9", "soros": "\ud83c\udf0a", "lynch": "\ud83d\udcc8", "graham": "\ud83d\udcda", "taleb": "\ud83c\udfb2"};
 const INV_N={"buffett": "Buffett", "soros": "Soros", "lynch": "Lynch", "graham": "Graham", "taleb": "Taleb"};
-const TOTAL=96538;
+const TOTAL=PORT.reduce(function(sum,p){return sum+Number(p.val||0);},0);
 const PMAP={hold:['p-hold','HOLD'],add:['p-add','ADD'],urgent:['p-urg','ADD HARD'],watch:['p-watch','WATCH'],trim:['p-trim','TRIM 25%']};
 const PRIMAP={P0:'#e05252',P1:'#c9a84c',P2:'#4a9eff',P3:'#3ddc84'};
 
@@ -5018,12 +5018,30 @@ window.selectPortInv=function(si,ii,el){
       safeCall(function(){ if (typeof buildLeaders === 'function') buildLeaders(); });
     }
     if (t && Array.isArray(t.items) && t.items.length) {
-      // Themes tab is structural (market-size charts), driven by the inline
-      // THEMES const; themes.json is kept for reference only.
+      // Research content is updated from data/themes.json; the live allocation is
+      // separately derived from INDmoney PORT data in the runtime renderer.
       try { window.THEMES_LIVE = t.items; } catch(_) {}
+      safeCall(function(){
+        if (typeof THEMES === 'undefined') return;
+        t.items.forEach(function(live){
+          var key=String(live.theme||'').toUpperCase();
+          var local=THEMES.find(function(x){ return x.name===key; });
+          if (!local) return;
+          if (live.summary) local.body=live.summary;
+          local.consensus='DAILY RSS · '+(live.rating||'UPDATED')+' · '+new Date(t.updated_at).toLocaleDateString();
+          if (Array.isArray(live.news) && live.news.length) local.srcs=live.news.map(function(item){return {org:'Daily research feed',title:item.title||'Market update',stat:item.date||'',u:item.url||'#'};});
+        });
+        if (typeof buildThemes === 'function') buildThemes();
+      });
     }
     if (n && Array.isArray(n.items) && n.items.length) {
       try { window.NEWS_LIVE = n.items; } catch(_) {}
+      safeCall(function(){
+        var brief=document.getElementById('briefContent');
+        if (!brief) return;
+        brief.innerHTML='<div style="font-family:DM Mono,monospace;font-size:9px;color:var(--green);margin-bottom:.7rem;letter-spacing:.08em;">LIVE DAILY RESEARCH · '+new Date(n.updated_at).toLocaleString()+'</div>'
+          +n.items.slice(0,6).map(function(item){return '<div style="margin:0 0 .7rem;padding:0 0 .7rem;border-bottom:1px solid #202020;"><a href="'+String(item.url||'#').replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'" target="_blank" style="color:var(--gold);font-weight:600;text-decoration:none;font-size:12px;">'+String(item.ticker||'MARKET')+' · '+String(item.headline||'Update').replace(/</g,'&lt;')+'</a><div style="margin-top:.25rem;color:var(--text2);font-size:11px;line-height:1.6;">'+String(item.summary||'').replace(/</g,'&lt;')+'</div></div>';}).join('');
+      });
     }
     var newest = [a,y,v,t,n].map(function(x){ return x && x.updated_at; }).filter(Boolean).sort().pop();
     if (newest) show(new Date(newest).toLocaleString());
