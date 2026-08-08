@@ -5179,8 +5179,38 @@ window.selectPortInv=function(si,ii,el){
       });
       if(typeof window.buildThemes==='function') window.buildThemes();
     }
+
+    /* Plans and conviction views are rendered from the live position model, not old copied values. */
+    var rank={P0:0,P1:1,P2:2,P3:3};
+    var ordered=PORT.slice().sort(function(a,b){return (rank[a.pri]-rank[b.pri]) || Number(b.dca&&b.dca.mo||0)-Number(a.dca&&a.dca.mo||0) || b.val-a.val;});
+    function actionLabel(p){ return ({urgent:'ADD HARD',add:'ADD',trim:'TRIM',watch:'WATCH',hold:'HOLD'})[p.action] || String(p.action||'HOLD').toUpperCase(); }
+    function actionColor(p){ return p.action==='trim'?'var(--red)':p.action==='urgent'?'var(--orange)':p.action==='add'?'var(--green)':'var(--gold)'; }
+    var dcaTotal=PORT.reduce(function(sum,p){return sum+Number((p.dca||{}).mo||0);},0);
+    var planRows=ordered.filter(function(p){return Number((p.dca||{}).mo||0)>0;}).map(function(p,i){
+      var w=total?p.val/total*100:0, d=p.dca||{};
+      return '<tr><td class="mono" style="color:var(--gold);">'+String(i+1).padStart(2,'0')+'</td><td><span class="tkr">'+p.t+'</span></td><td class="mono">'+money(p.cur,2)+'</td><td class="mono">'+money(p.val,0)+' · '+w.toFixed(1)+'%</td><td class="mono" style="color:var(--gold);">'+money(Number(d.mo||0),0)+'/mo</td><td><span class="pill '+pillClass(p.pri)+'">'+p.pri+'</span></td><td class="dim" style="font-size:11px;">'+esc(actionLabel(p))+' · rule target '+money(Number(d.aT||p.cur),0)+'</td></tr>';
+    }).join('') || '<tr><td colspan="7" class="dim">No active DCA plans configured.</td></tr>';
+    var aggrBody=document.querySelector('#aggression .tw tbody');
+    if(aggrBody) aggrBody.innerHTML=planRows;
+    var deployBody=document.querySelector('#deploy .tw tbody');
+    if(deployBody) deployBody.innerHTML=planRows;
+    var aggrKpis=document.querySelectorAll('#aggression .kpi-row .kpi');
+    var p0=ordered.filter(function(p){return p.pri==='P0';});
+    if(aggrKpis[0]) {aggrKpis[0].querySelector('.kpi-v').textContent=p0.map(function(p){return p.t;}).join(' · ')||'—';aggrKpis[0].querySelector('.kpi-s').textContent='Live P0 positions';}
+    if(aggrKpis[1]) {aggrKpis[1].querySelector('.kpi-v').textContent=ordered[0] ? ordered[0].t : '—';aggrKpis[1].querySelector('.kpi-s').textContent='Top current strategy priority';}
+    if(aggrKpis[2]) {var trim=PORT.find(function(p){return p.action==='trim';});aggrKpis[2].querySelector('.kpi-v').textContent=trim?trim.t:'—';aggrKpis[2].querySelector('.kpi-s').textContent=trim?'Live rule signal: TRIM':'No live trim signal';}
+    if(aggrKpis[3]) {aggrKpis[3].querySelector('.kpi-v').textContent=money(dcaTotal,0)+'/mo';aggrKpis[3].querySelector('.kpi-s').textContent='Configured DCA plan';}
+    if(typeof CONV!=='undefined' && Array.isArray(CONV)){
+      CONV.splice.apply(CONV,[0,CONV.length].concat(ordered.slice(0,10).map(function(p,i){
+        var ret=p.buy?((p.cur/p.buy-1)*100):0, weight=total?p.val/total*100:0;
+        return {rank:String(i+1).padStart(2,'0'),t:p.t,n:p.n,up:(ret>=0?'+':'')+ret.toFixed(1)+'%',tier:p.pri==='P0'?'t1':p.pri==='P1'?'t2':'t3',meta:'Live '+money(p.cur,2)+' · '+money(p.val,0)+' · '+weight.toFixed(1)+'% weight · rule target '+money(Number((p.dca||{}).aT||p.cur),0),you:actionLabel(p),yc:actionColor(p),ybc:'rgba(201,168,76,.2)'};
+      })));
+      if(typeof window.buildConv==='function') window.buildConv();
+    }
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',function(){setTimeout(render,0);setTimeout(render,2500)}); else {setTimeout(render,0);setTimeout(render,2500);}
+  // Public market-price refreshes can update PORT after page load. Re-derive every
+  // visible portfolio total from the same holdings model so the screens never diverge.
   setInterval(render,60000);
 })();
 </script>
