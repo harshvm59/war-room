@@ -17,6 +17,29 @@ from _common import TICKERS, envelope, now_ist, require_key, write_json
 
 MODEL = "claude-haiku-4-5-20251001"
 CHANNELS = ["Tom Nash", "CNBC Fast Money", "Bloomberg Markets", "Yahoo Finance", "Motley Fool", "ARK Invest", "Benzinga"]
+COMPANY_TICKERS = {
+    "NVIDIA":"NVDA", "MICRON":"MU", "PALANTIR":"PLTR", "TESLA":"TSLA",
+    "BROADCOM":"AVGO", "CROWDSTRIKE":"CRWD", "VERTIV":"VRT",
+    "CONSTELLATION":"CEG", "ARISTA":"ANET", "MICROSOFT":"MSFT",
+    "ALPHABET":"GOOGL", "GOOGLE":"GOOGL", "AMAZON":"AMZN", "META":"META",
+    "AMD":"AMD", "TSMC":"TSM", "ASML":"ASML", "BLOOM ENERGY":"BE",
+}
+INVESTMENT_TERMS = (
+    "AI", "ARTIFICIAL INTELLIGENCE", "STOCK", "SHARE", "MARKET", "INVESTOR",
+    "EARNINGS", "REVENUE", "GUIDANCE", "CAPEX", "DATA CENTER", "SEMICONDUCTOR",
+    "CHIP", "CLOUD", "SOFTWARE", "ENERGY", "POWER", "NUCLEAR", "ROBOT",
+    "AUTONOM", "VALUATION", "PRICE TARGET", "FORECAST", "SPENDING", "GROWTH",
+)
+LOW_SIGNAL_TERMS = (
+    "LAYOFF EMAIL", "WEDDING", "DIVORCE", "HOUSE", "MANSION", "BIRTHDAY",
+    "NET WORTH", "WARDROBE", "VACATION", "DIET", "FAMILY PHOTO",
+)
+HIGH_QUALITY_SOURCES = (
+    "REUTERS", "BLOOMBERG", "CNBC", "FINANCIAL TIMES", "WALL STREET JOURNAL",
+    "BARRON", "FORTUNE", "YAHOO FINANCE", "INVESTOR'S BUSINESS DAILY",
+    "THE MOTLEY FOOL", "SEEKING ALPHA", "BLOG.GOOGLE", "MICROSOFT", "NVIDIA",
+)
+LOW_QUALITY_SOURCES = ("MSHALE", "AD-HOC-NEWS", "TECH-INSIDER", "MEMEBURN", "COINGAPE", "STOCKTWITS")
 LEADERS = [
     {"name":"Jensen Huang","role":"CEO","org":"Nvidia","cat":"CEO"},
     {"name":"Sam Altman","role":"CEO","org":"OpenAI","cat":"CEO"},
@@ -86,9 +109,39 @@ def date_label(item: dict) -> str:
 def ticker_from_title(title: str) -> str:
     up=title.upper()
     for t in TICKERS:
-        if t in up: return t
-    aliases={"NVIDIA":"NVDA","MICRON":"MU","PALANTIR":"PLTR","TESLA":"TSLA","BROADCOM":"AVGO","CROWDSTRIKE":"CRWD","VERTIV":"VRT","CONSTELLATION":"CEG","ARISTA":"ANET"}
-    return next((t for n,t in aliases.items() if n in up), "AI")
+        if re.search(r"(?<![A-Z0-9])"+re.escape(t)+r"(?![A-Z0-9])", up): return t
+    return next((t for n,t in COMPANY_TICKERS.items() if n in up), "AI")
+
+
+def relevance_score(item: dict, profile: dict) -> int:
+    """Rank a headline for investment relevance; recency alone is not enough."""
+    title = str(item.get("title", "")).upper()
+    source = str(item.get("source", "")).upper()
+    score = 0
+    if profile["name"].upper() in title:
+        score += 5
+    org_words = [word for word in re.findall(r"[A-Z0-9]+", profile.get("org", "").upper()) if len(word) > 2]
+    if any(word in title for word in org_words):
+        score += 3
+    if any(term in title for term in INVESTMENT_TERMS):
+        score += 4
+    if ticker_from_title(title) != "AI":
+        score += 3
+    if any(source_name in source for source_name in HIGH_QUALITY_SOURCES):
+        score += 2
+    if any(source_name in source for source_name in LOW_QUALITY_SOURCES):
+        score -= 4
+    if any(term in title for term in LOW_SIGNAL_TERMS):
+        score -= 10
+    return score
+
+
+def profile_mentioned(title: str, profile: dict) -> bool:
+    """Do not attribute a generic company article to a person not in its headline."""
+    up = str(title or "").upper()
+    full = profile["name"].upper()
+    last = re.findall(r"[A-Z]+", full)[-1]
+    return full in up or bool(re.search(r"(?<![A-Z])" + re.escape(last) + r"(?![A-Z])", up))
 
 def theme_for(title: str) -> str:
     u=title.upper()
@@ -115,20 +168,31 @@ def fetch_leader_signal(profile: dict) -> dict | None:
     """Return a source-linked headline from the last day; never invent a quote."""
     name = profile["name"]
     try:
-        found = rss('"%s" (AI OR stocks OR earnings OR investment) when:1d' % name, 1)
+        found = rss('"%s" (%s OR AI OR stocks OR earnings OR revenue OR capex) when:1d' % (name, profile["org"]), 6)
     except Exception as exc:
         print("[leader-watch] %s: %s" % (name, exc), file=sys.stderr)
         return None
     if not found:
         return None
-    item = found[0]
+    found = [item for item in found if profile_mentioned(item.get("title", ""), profile)]
+    if not found:
+        print("[leader-watch] %s: no headline explicitly names the monitored leader" % name, file=sys.stderr)
+        return None
+    ranked = sorted(found, key=lambda item: relevance_score(item, profile), reverse=True)
+    item = ranked[0]
+    score = relevance_score(item, profile)
+    if score < 7:
+        print("[leader-watch] %s: no material portfolio-relevant result (best score %d)" % (name, score), file=sys.stderr)
+        return None
+    ticker = ticker_from_title(item["title"])
     return {
         **profile,
         "date": date_label(item),
         "published": item.get("published", ""),
         "source_name": item.get("source", "Google News"),
         "signal_type": "source-linked headline",
-        "themes": ["#AI", "#" + ticker_from_title(item["title"])],
+        "relevance_score": score,
+        "themes": ["#AI"] + (["#" + ticker] if ticker != "AI" else []),
         "quotes": [{"t": "Headline signal (not a direct quote): " + item["title"], "k": True}],
         "src": item["url"],
     }
@@ -187,6 +251,7 @@ def main() -> int:
     voices_doc["monitored_leaders"] = len(LEADERS)
     voices_doc["fresh_window_hours"] = 24
     voices_doc["fresh_signal_count"] = len(bundle["voices"])
+    voices_doc["quality_gate"] = "24h source-linked + portfolio relevance score >= 7"
     write_json("voices.json", voices_doc)
     write_json("news.json", envelope(bundle["news"], source=source))
     print("[update_news_youtube] yt=%d voices=%d news=%d" % (len(bundle["youtube"]),len(bundle["voices"]),len(bundle["news"])))

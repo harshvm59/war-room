@@ -5510,7 +5510,7 @@ window.selectPortInv=function(si,ii,el){
         local.priority=live.priority||local.priority;
         local.targetPct=Number(live.target_pct||0);
         local.liveUpdatedAt=live.cohort_updated_at||t.updated_at;
-        local.consensus=(live.research_mode||'DAILY RESEARCH')+' · '+(live.rating||'UPDATED')+' · '+new Date(t.updated_at).toLocaleDateString();
+        local.consensus=(live.research_mode||'DAILY RESEARCH')+' · ACTIVITY '+(live.rating||'UPDATED')+' · '+new Date(t.updated_at).toLocaleDateString();
         if (Array.isArray(live.tickers) && live.tickers.length) {
           local.liveTickers=live.tickers;
           local.stocks=live.tickers.slice(0,8).map(function(row){
@@ -5530,7 +5530,7 @@ window.selectPortInv=function(si,ii,el){
             });
           }
         }
-        if (Array.isArray(live.news) && live.news.length) local.srcs=live.news.map(function(item){return {org:'Daily research feed',title:item.title||'Market update',stat:item.date||'',u:item.url||'#'};});
+        if (Array.isArray(live.news) && live.news.length) local.srcs=live.news.map(function(item){return {org:item.source||'Daily research feed',title:item.title||'Market update',stat:item.date||'',u:item.url||'#'};});
       });
       if (typeof buildThemes === 'function') buildThemes();
       if (typeof buildCohortAllocator === 'function') buildCohortAllocator();

@@ -34,6 +34,14 @@ from _common import DATA_DIR, envelope, now_ist, require_key, write_json
 MODEL = "claude-haiku-4-5-20251001"
 YAHOO_CHART = "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?range=5d&interval=1d&includePrePost=false"
 HEADERS = {"User-Agent": "Mozilla/5.0 (HVM-WarRoom/3.0)"}
+QUERY_STOPWORDS = {
+    "AI", "AND", "THE", "FOR", "STOCK", "STOCKS", "THEME", "INVESTING",
+    "TECHNOLOGY", "COMPANY", "COMPANIES", "MARKET", "US", "DATA", "CENTER",
+}
+LOW_SIGNAL_ARTICLE_TERMS = (
+    "STOCK PRICE, NEWS, QUOTE & HISTORY", "HISTORICAL DATA", "COMPANY PROFILE",
+    "MESSAGE BOARD", "NET WORTH", "WEDDING", "DIVORCE", "MANSION",
+)
 
 
 def stock(ticker: str, name: str, reason: str, default_action: str = "WATCH") -> dict:
@@ -160,7 +168,7 @@ THEME_CONFIG = {
 THEMES = list(THEME_CONFIG)
 
 PROMPT = """Today is {date}. Use web_search to refresh these investment themes: {themes}.
-Return a JSON array where each item has theme, rating HOT|WARM|COLD, rc,
+Return a JSON array where each item has theme, rating HOT|ACTIVE|QUIET, rc,
 summary, news:[{{title,date,url}}], and tickers. Tickers must be US-listed stock
 symbols that are directly relevant to the theme. Every statement needs a source
 URL; never invent a data point. This is research, not an order instruction."""
@@ -203,39 +211,71 @@ def rss(query: str, limit: int = 3) -> list[dict]:
     root = ET.fromstring(response.content)
     out = []
     for item in root.findall(".//item")[:limit]:
+        source = item.find("source")
         out.append({
             "title": (item.findtext("title") or "Market update").strip(),
             "date": now_ist().strftime("%Y-%m-%d"),
             "url": (item.findtext("link") or "").strip(),
+            "source": source.text.strip() if source is not None and source.text else "Google News",
+            "published": (item.findtext("pubDate") or "").strip(),
         })
     return out
 
 
-def fallback_themes() -> list[dict]:
-    previous = {
-        str(item.get("theme", "")): item
-        for item in read_json("themes.json").get("items", [])
-        if isinstance(item, dict)
+def article_relevance_score(article: dict, cfg: dict) -> int:
+    """Score explicit theme/ticker matches so name-adjacent noise is discarded."""
+    title = str(article.get("title", "")).upper()
+    if any(term in title for term in LOW_SIGNAL_ARTICLE_TERMS):
+        return -10
+    score = 0
+    for spec in cfg["universe"]:
+        ticker = spec["ticker"]
+        if re.search(r"(?<![A-Z0-9])" + re.escape(ticker) + r"(?![A-Z0-9])", title):
+            score += 5
+        if len(spec["name"]) > 3 and spec["name"].upper() in title:
+            score += 4
+    keywords = {
+        word for word in re.findall(r"[A-Z0-9-]+", cfg["query"].upper())
+        if len(word) >= 4 and word not in QUERY_STOPWORDS
     }
+    score += min(6, sum(2 for word in keywords if word in title))
+    return score
+
+
+def relevant_articles(articles: list[dict], cfg: dict, limit: int = 3) -> list[dict]:
+    ranked = []
+    for article in articles:
+        if not isinstance(article, dict) or not str(article.get("url", "")).startswith("http"):
+            continue
+        score = article_relevance_score(article, cfg)
+        if score < 2:
+            continue
+        clean = dict(article)
+        clean["relevance_score"] = score
+        ranked.append(clean)
+    ranked.sort(key=lambda row: row["relevance_score"], reverse=True)
+    return ranked[:limit]
+
+
+def fallback_themes() -> list[dict]:
     out = []
     for theme, cfg in THEME_CONFIG.items():
-        prior = previous.get(theme, {})
         try:
-            articles = rss(cfg["query"])
+            articles = relevant_articles(rss(cfg["query"] + " when:1d", 8), cfg)
         except Exception as exc:
             print(f"[update_themes] RSS unavailable for {theme}: {exc}", file=sys.stderr)
-            articles = prior.get("news", []) if isinstance(prior.get("news"), list) else []
+            articles = []
         headline = articles[0]["title"] if articles else "No fresh RSS headline returned"
         summary = (
             "Daily automated RSS scan on %s. Latest source-linked signal: %s"
             % (now_ist().strftime("%Y-%m-%d"), headline)
             if articles
-            else prior.get("summary") or "No fresh RSS headline returned; retaining the configured cohort."
+            else "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring."
         )
         out.append({
             "theme": theme,
-            "rating": prior.get("rating", "WARM"),
-            "rc": prior.get("rc", "var(--gold)"),
+            "rating": "ACTIVE" if articles else "QUIET",
+            "rc": "var(--gold)" if articles else "var(--blue)",
             "summary": summary,
             "news": articles,
             "tickers": [],
@@ -326,7 +366,8 @@ def normalize_themes(raw_items: list[dict], source: str) -> list[dict]:
     normalized = []
     for theme, cfg in THEME_CONFIG.items():
         live = raw_by_name.get(theme, {})
-        articles = live.get("news") if isinstance(live.get("news"), list) else []
+        incoming_articles = live.get("news") if isinstance(live.get("news"), list) else []
+        articles = relevant_articles(incoming_articles, cfg)
         title_blob = " ".join(str(x.get("title", "")) for x in articles).upper()
         discovered = []
         for value in live.get("tickers", []) if isinstance(live.get("tickers"), list) else []:
@@ -366,14 +407,37 @@ def normalize_themes(raw_items: list[dict], source: str) -> list[dict]:
             row["rank"] = rank
             row.pop("score", None)
 
+        source_hits = sum(int(row.get("source_hits", 0)) for row in rows)
+        daily_moves = [float(row["change_pct"]) for row in rows if row.get("change_pct") is not None]
+        average_move = sum(daily_moves) / len(daily_moves) if daily_moves else 0.0
+        raw_signal_score = min(5.0, len(articles) * 1.5) + min(3.0, source_hits * 0.75) + max(-1.0, min(2.0, average_move * 0.5))
+        signal_score = round(max(0.0, min(10.0, raw_signal_score)), 1)
+        if not articles:
+            rating = "QUIET"
+        elif signal_score >= 6.0:
+            rating = "HOT"
+        else:
+            rating = "ACTIVE"
+        rc = {"HOT": "var(--green)", "ACTIVE": "var(--gold)", "QUIET": "var(--blue)"}[rating]
+        signal_basis = "%d fresh sources · %d direct cohort mentions · %+.2f%% average 1D cohort move" % (
+            len(articles), source_hits, average_move
+        )
+        base_summary = live.get("summary") or "Daily research packet refreshed from the configured evidence feed."
+        summary = "%s Signal score %.1f/10 (%s). This is research activity, not an automatic trade order." % (
+            base_summary, signal_score, signal_basis
+        )
+
         normalized.append({
             "theme": theme,
             "dashboard_name": cfg["dashboard_name"],
             "priority": cfg["priority"],
             "target_pct": cfg["target_pct"],
-            "rating": live.get("rating", "WARM"),
-            "rc": live.get("rc", "var(--gold)"),
-            "summary": live.get("summary") or "Daily research packet refreshed from the configured evidence feed.",
+            "rating": rating,
+            "rc": rc,
+            "signal_score": signal_score,
+            "signal_basis": signal_basis,
+            "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
+            "summary": summary,
             "news": articles,
             "tickers": rows,
             "candidate_count": sum(1 for row in rows if not row["owned"]),
@@ -394,7 +458,10 @@ def main() -> int:
         raw = fallback_themes()
         source = "google-news-rss+deterministic-cohorts"
     themes = normalize_themes(raw, source)
-    write_json("themes.json", envelope(themes, source=source))
+    document = envelope(themes, source=source)
+    document["fresh_window_hours"] = 24
+    document["rating_method"] = "fresh-source breadth + direct cohort mentions + 1D cohort momentum"
+    write_json("themes.json", document)
     print("[update_themes] themes=%d tickers=%d" % (
         len(themes), sum(len(item["tickers"]) for item in themes)
     ))
