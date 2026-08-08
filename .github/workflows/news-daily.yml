@@ -52,4 +52,10 @@ jobs:
           DATE=$(date -u +"%Y-%m-%d")
           git add data/news.json data/youtube.json data/voices.json
           git commit -m "Daily news + YouTube scrape ${DATE} [skip ci]"
-          git push
+          for a in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            git fetch origin main
+            git pull --rebase --autostash origin main || git rebase --abort || true
+            sleep 2
+          done
+          exit 1
