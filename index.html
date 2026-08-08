@@ -2049,25 +2049,14 @@ tr:hover td{background:var(--bg2);}
 </style>
 
 <style id="hvm-live-cartoon-workers-v3">
-/* The room stays an empty illustrated set; every visible person below is a browser-rendered animated sprite. */
-.office-room{min-height:0;aspect-ratio:3/2;background:#080909;overflow:hidden}
-.office-backdrop{background-position:center;background-size:cover;filter:saturate(1.02) contrast(1.02) brightness(.94);animation:dollhouseCamera 34s ease-in-out infinite alternate}
-.office-room:after{opacity:.025}.office-department{display:none}.office-actors{z-index:6;overflow:hidden}
-.office-firm-brand{z-index:14;top:12px;padding:6px 10px;border-color:#e2b95f9c;background:rgba(5,9,10,.85)}
-.office-firm-brand b{font-size:8px}.office-firm-brand span{font-size:6px}
-.office-worker{position:absolute;width:var(--person-size,5%);padding:0;border:0;background:transparent;transform:translate(-50%,-100%);transform-origin:50% 100%;cursor:pointer;z-index:8;will-change:left,top}
-.worker-shadow{position:absolute;z-index:0;left:50%;bottom:1%;width:64%;height:8%;border-radius:50%;transform:translateX(-50%);background:radial-gradient(ellipse,rgba(0,0,0,.55),transparent 67%);filter:blur(1px)}
-.worker-figure{position:relative;z-index:2;display:block;width:100%;transform-origin:50% 100%;filter:drop-shadow(0 5px 4px rgba(0,0,0,.45));animation:workerTyping .72s ease-in-out var(--delay,0s) infinite alternate}.worker-figure img{display:block;width:100%;height:auto}
-.worker-keyboard{position:absolute;z-index:3;left:49%;top:43%;width:30%;height:3.6%;border:1px solid color-mix(in srgb,var(--agent) 70%,white);border-radius:2px;transform:translateX(-50%) perspective(18px) rotateX(42deg);background:repeating-linear-gradient(90deg,color-mix(in srgb,var(--agent) 80%,white) 0 2px,transparent 2px 4px);box-shadow:0 0 8px color-mix(in srgb,var(--agent) 70%,transparent);opacity:.62;animation:keyboardLive .42s steps(2,end) var(--delay,0s) infinite}
-.worker-name,.worker-task{position:absolute;left:50%;min-width:max-content;transform:translateX(-50%);pointer-events:none;opacity:0;transition:opacity .18s ease,transform .18s ease}.worker-name{top:97%;padding:3px 5px;border:1px solid color-mix(in srgb,var(--agent) 75%,white);border-radius:3px;background:#050b0ee8;color:#f5f2e5;font:7px 'DM Mono',monospace;letter-spacing:.04em;box-shadow:0 3px 9px #0009;transform:translate(-50%,4px)}.worker-name b{color:var(--agent)}
-.worker-task{bottom:97%;max-width:138px;padding:4px 5px;border:1px solid #e3bd65;border-radius:4px;background:#fff5dce8;color:#332718;font:6px/1.32 'DM Mono',monospace;letter-spacing:.04em;text-align:left;box-shadow:0 5px 12px #0009;transform:translate(-50%,4px)}
-.office-worker:hover .worker-name,.office-worker.active .worker-name,.office-worker.active .worker-task{opacity:1;transform:translate(-50%,0)}.office-worker.talking .worker-figure{animation-name:workerTalking}.office-worker.talking .worker-keyboard{opacity:.34}
-.office-leader-cartoon{position:absolute;width:var(--person-size,8%);padding:0;border:0;background:transparent;transform:translate(-50%,-100%);cursor:pointer;z-index:11;will-change:left,top}.leader-shadow{position:absolute;z-index:0;left:50%;bottom:1%;width:66%;height:7%;border-radius:50%;transform:translateX(-50%);background:radial-gradient(ellipse,rgba(0,0,0,.62),transparent 67%);filter:blur(1px)}.leader-figure{position:relative;z-index:2;display:block;width:100%;transform-origin:50% 100%;filter:drop-shadow(0 7px 5px rgba(0,0,0,.52));animation:leaderWalk .55s ease-in-out infinite alternate}.leader-figure img{display:block;width:100%;height:auto}.office-leader-cartoon-cio .leader-figure{animation:leaderPresent 1.1s ease-in-out infinite alternate}
-.leader-name,.leader-task{position:absolute;left:50%;min-width:max-content;transform:translateX(-50%);pointer-events:none}.leader-name{top:98%;padding:3px 5px;border:1px solid color-mix(in srgb,var(--agent) 78%,white);border-radius:3px;background:#050b0eea;color:#f5f2e5;font:7px 'DM Mono',monospace;letter-spacing:.05em;box-shadow:0 3px 9px #0009}.leader-name b{color:var(--agent)}.leader-task{bottom:98%;padding:3px 5px;border:1px solid color-mix(in srgb,var(--agent) 70%,white);border-radius:3px;background:#071110df;color:#e7d78e;font:6px 'DM Mono',monospace;letter-spacing:.05em;box-shadow:0 3px 9px #0009}.office-leader-cartoon-cio .leader-task{color:#a2efd0}
-.office-conversation{z-index:15;max-width:150px;padding:5px 6px;border:1px solid #e2c372;border-radius:5px;background:rgba(255,247,224,.95);color:#2d281d;font:6.5px/1.35 'DM Mono',monospace;box-shadow:0 6px 16px #0009;transform:translate(-50%,-100%);pointer-events:none;animation:officeTalk 4.6s ease-in-out infinite}.office-conversation b{display:block;margin-bottom:2px;color:#62501f;font-weight:800}.office-conversation:after{content:'';position:absolute;left:50%;bottom:-5px;border:5px solid transparent;border-top-color:#e2c372;border-bottom:0}
-.office-live-caption{position:absolute;z-index:14;right:12px;bottom:10px;padding:4px 6px;border:1px solid #7fd9bd70;border-radius:3px;background:#07100edb;color:#7de7bb;font:6px 'DM Mono',monospace;letter-spacing:.08em;pointer-events:none}
-@keyframes workerTyping{from{transform:translateY(0) rotate(-.45deg)}to{transform:translateY(-2px) rotate(.45deg)}}@keyframes workerTalking{from{transform:translateY(0) rotate(-1.2deg)}to{transform:translateY(-3px) rotate(1.2deg)}}@keyframes keyboardLive{from{filter:brightness(.72);opacity:.38}to{filter:brightness(1.4);opacity:.9}}@keyframes leaderWalk{from{transform:translateY(1px) rotate(-1.4deg)}to{transform:translateY(-3px) rotate(1.4deg)}}@keyframes leaderPresent{from{transform:translateY(0) rotate(-.8deg)}to{transform:translateY(-2px) rotate(.8deg)}}
-@media(max-width:900px){.office-room{min-height:560px;aspect-ratio:auto}.office-firm-brand{top:8px}.office-firm-brand span{display:none}.office-worker{width:max(var(--person-size,7%),42px)}.office-leader-cartoon{width:max(var(--person-size,10%),58px)}.worker-name{font-size:5.5px}.worker-task{font-size:5px;max-width:96px}.leader-name{font-size:5.5px}.leader-task{display:none}.office-conversation{max-width:105px;font-size:5.5px}.office-live-caption{font-size:5px}}
+/* HVM Trade Firm is drawn as a single living game scene. No photo background or cut-out figures. */
+.office-room{min-height:0;aspect-ratio:3/2;overflow:hidden;isolation:isolate;border:1px solid #b89445;border-radius:14px;background:#05090a;box-shadow:0 24px 60px #000c,inset 0 0 0 1px #fff2;}
+.office-backdrop,.office-firm-brand,.office-department,.office-hud,.office-help,.office-camera-badge{display:none!important}
+.office-actors{position:absolute;inset:0;z-index:6;overflow:hidden}
+.hvm-office-canvas{display:block;width:100%;height:100%;cursor:default;touch-action:manipulation;background:#060a0b}
+.office-live-caption{position:absolute;right:14px;bottom:12px;z-index:10;padding:5px 7px;border:1px solid #67d9ab88;border-radius:4px;background:#07110edc;color:#8ce8c1;font:7px 'DM Mono',monospace;letter-spacing:.09em;pointer-events:none;box-shadow:0 4px 12px #0008}
+.office-chat{min-height:0;border-color:#315447;background:linear-gradient(145deg,#0e1b18,#07100f);box-shadow:inset 0 0 0 1px #ffffff05}.office-chat-head{padding:12px 0 10px;border-bottom-color:#355548}.office-thread{gap:8px}.office-msg{border-left-color:#54e4a580;background:#07100e;line-height:1.45}.office-msg b{color:#e1c365}.office-msg small{color:#79a390}
+@media(max-width:900px){.office-room{min-height:560px;aspect-ratio:auto;border-radius:10px}.office-live-caption{font-size:5.5px;right:9px;bottom:9px}.hvm-office-canvas{min-height:560px}}
 </style>
 </head>
 <body>
@@ -4982,29 +4971,115 @@ function ceoOfficeMessage(name,actions,news,themes){
 function launchOfficeGame(actions,news,themes,ops){
   var stage=document.getElementById('officeActors');if(!stage)return;
   if(window.__officeGame&&window.__officeGame.stop)window.__officeGame.stop();
-  var opsByCode={};(Array.isArray(ops)?ops:[]).forEach(function(op){opsByCode[op.code]=op;});
-  var palette=['#57d6ff','#b886ff','#66a9ff','#f5ad57','#ff76a7','#45dc9c','#f2cc4e','#ff6b6b','#8fa8ff','#5ce0c4'];
-  // These are real browser-rendered cartoon workers, each seated at a matching desk in an otherwise empty illustrated office.
-  var desks=[[.15,.45],[.31,.39],[.48,.49],[.75,.45],[.23,.65],[.67,.67],[.36,.82],[.54,.81],[.77,.67],[.71,.29]];
-  var deskWork={PULSE:'LIVE NEWS SCREEN',MOSAIC:'AI THEME MAP',VECTOR:'SIGNAL MODEL',CATALYST:'EARNINGS MEMO',ECHO:'LEADERSHIP REVIEW',ATLAS:'PRICE TAPE',LEDGER:'HOLDINGS LEDGER',SENTINEL:'RISK STRESS TEST',MACRO:'MACRO MODEL',SOURCECHECK:'SOURCE VERIFICATION'};
-  var people=CEO_WORKERS.map(function(w,i){var code=w[0],op=opsByCode[code]||{};return {code:code,name:op.name||AGENT_PEOPLE[code]||code,desk:op.desk||w[1],task:op.activity||ceoOfficeState(code,actions,news,themes),deskWork:deskWork[code]||'RESEARCH MODEL',recommendation:op.recommendation||'',color:palette[i],slot:i,x:desks[i][0],y:desks[i][1],el:null};});
-  stage.innerHTML='<div class="office-conversation" id="officeConversation" aria-live="polite"></div><div class="office-live-caption">LIVE FLOOR SIMULATION · 10 ACTIVE DESKS</div>';
-  var conversation=stage.querySelector('#officeConversation');
-  people.forEach(function(p,i){var el=document.createElement('button');el.type='button';el.className='office-worker typing';el.style.setProperty('--agent',p.color);el.style.setProperty('--delay',(-.13*i)+'s');el.setAttribute('aria-label','Open '+p.name+' work packet');el.innerHTML='<span class="worker-shadow" aria-hidden="true"></span><span class="worker-figure"><img alt="" src="assets/workers/'+p.code.toLowerCase()+'.png"></span><span class="worker-keyboard" aria-hidden="true"></span><span class="worker-name"><b>'+ceoEsc(p.name.split(' ')[0])+'</b> · '+p.code+'</span><span class="worker-task"></span>';el.addEventListener('click',function(){window.openCeoPacket(p.code);});stage.appendChild(el);p.el=el;});
-  var ceo=document.createElement('button');ceo.type='button';ceo.className='office-leader-cartoon office-leader-cartoon-ceo walking';ceo.style.setProperty('--agent','#e9c465');ceo.setAttribute('aria-label','Open CEO briefing');ceo.innerHTML='<span class="leader-shadow" aria-hidden="true"></span><span class="leader-figure"><img alt="HVM CEO" src="assets/workers/ceo.png"></span><span class="leader-name"><b>HVM</b> · CEO</span><span class="leader-task">ALLOCATION GATE</span>';ceo.addEventListener('click',function(){window.openCeoPacket('CEO');});stage.appendChild(ceo);
-  var cio=document.createElement('button');cio.type='button';cio.className='office-leader-cartoon office-leader-cartoon-cio presenting';cio.style.setProperty('--agent','#66d9a5');cio.setAttribute('aria-label','Open Chief Investment Officer dossier');cio.innerHTML='<span class="leader-shadow" aria-hidden="true"></span><span class="leader-figure"><img alt="Chief Investment Officer" src="assets/workers/cio.png"></span><span class="leader-name"><b>Vikram</b> · CIO</span><span class="leader-task">COMMITTEE REVIEW</span>';cio.addEventListener('click',function(){window.openCeoPacket('CIO');});stage.appendChild(cio);
-  var talks=[{x:.30,y:.30,who:'RESEARCH POD',text:'Technical, earnings and source checks are running.'},{x:.76,y:.37,who:'FINANCE → ACCOUNTS',text:'Portfolio ledger reconciled with the latest snapshot.'},{x:.49,y:.31,who:'CIO → CEO',text:'Risk brief is ready for your allocation gate.'},{x:.48,y:.67,who:'CEO → ANALYSTS',text:'Prioritise the highest-conviction signals.'},{x:.17,y:.58,who:'ANALYSTS',text:'Live tape refreshed. Flag material moves.'}];
-  var ceoRoute=[[.46,.67,'RESEARCH WALKTHROUGH'],[.63,.54,'PORTFOLIO REVIEW'],[.70,.31,'CEO BRIEFING'],[.44,.73,'ALLOCATION GATE']],cioRoute=[[.46,.32,'COMMITTEE REVIEW'],[.42,.30,'CIO RISK REVIEW'],[.50,.31,'ALLOCATION SYNTHESIS']];
-  var ceoState={x:.46,y:.67,tx:.46,ty:.67},cioState={x:.46,y:.22,tx:.46,ty:.22},raf=0,last=0,focus=0,lastFocus=0,lastTalk=-1;
-  function pos(el,x,y,isLeader){el.style.left=(x*100)+'%';el.style.top=(y*100)+'%';var size=isLeader?Math.max(7.5,Math.min(10.2,6.8+y*3.2)):Math.max(4.2,Math.min(7.1,3.55+y*4.25));el.style.setProperty('--person-size',size.toFixed(2)+'%');}
-  function frame(ms){var t=ms/1000,dt=Math.min(.05,(ms-last||16)/1000);last=ms;
-    people.forEach(function(p,i){var active=i===focus,talking=(i===((Math.floor(t/4.6)+2)%people.length)||i===((Math.floor(t/4.6)+7)%people.length));p.el.classList.toggle('active',active);p.el.classList.toggle('talking',talking);p.el.querySelector('.worker-task').textContent=active?p.deskWork:'';pos(p.el,p.x,p.y,false);});
-    var ceoPlan=ceoRoute[Math.floor(t/5)%ceoRoute.length],cioPlan=cioRoute[Math.floor(t/6)%cioRoute.length];ceoState.tx=ceoPlan[0];ceoState.ty=ceoPlan[1];cioState.tx=cioPlan[0];cioState.ty=cioPlan[1];ceoState.x+=(ceoState.tx-ceoState.x)*dt*.72;ceoState.y+=(ceoState.ty-ceoState.y)*dt*.72;cioState.x+=(cioState.tx-cioState.x)*dt*.65;cioState.y+=(cioState.ty-cioState.y)*dt*.65;pos(ceo,ceoState.x,ceoState.y,true);pos(cio,cioState.x,cioState.y,true);ceo.querySelector('.leader-task').textContent=ceoPlan[2];cio.querySelector('.leader-task').textContent=cioPlan[2];
-    var talkIndex=Math.floor(t/4.6)%talks.length;if(talkIndex!==lastTalk&&conversation){var talk=talks[talkIndex];conversation.style.left=(talk.x*100)+'%';conversation.style.top=(talk.y*100)+'%';conversation.innerHTML='<b>'+ceoEsc(talk.who)+'</b><span>'+ceoEsc(talk.text)+'</span>';lastTalk=talkIndex;}
-    if(ms-lastFocus>4000){focus=(focus+1)%people.length;lastFocus=ms;}
-    raf=requestAnimationFrame(frame);
+  var opsByCode={};(Array.isArray(ops)?ops:[]).forEach(function(op){opsByCode[op.code]=op||{};});
+  var visual={
+    PULSE:['#c78358','#241a18','#2d8dce'],MOSAIC:['#a96b48','#1b191a','#8450c4'],VECTOR:['#8e593d','#181513','#268fc6'],CATALYST:['#d29a72','#57311f','#be6b36'],ECHO:['#b67b57','#2d2220','#b44b76'],
+    ATLAS:['#9a613d','#171717','#278d71'],LEDGER:['#613e2c','#151515','#c79f2b'],SENTINEL:['#8a563f','#241916','#ae4444'],MACRO:['#c58b63','#3d2b1e','#5676c6'],SOURCECHECK:['#70452f','#211815','#319a8e']
+  };
+  var slots=[[205,410],[438,372],[670,414],[1016,376],[1268,421],[295,707],[560,741],[825,698],[1070,754],[1305,698]];
+  var persona={PULSE:{look:'long'},MOSAIC:{look:'crop',glasses:true},VECTOR:{look:'long'},CATALYST:{look:'short'},ECHO:{look:'long'},ATLAS:{look:'curly'},LEDGER:{look:'crop',glasses:true},SENTINEL:{look:'short',glasses:true},MACRO:{look:'long'},SOURCECHECK:{look:'curly',glasses:true}};
+  var deskWork={PULSE:'NEWS TAPE',MOSAIC:'THEME MAP',VECTOR:'SIGNAL MODEL',CATALYST:'EARNINGS',ECHO:'LEADER SIGNALS',ATLAS:'PRICE TAPE',LEDGER:'BROKER LEDGER',SENTINEL:'RISK STRESS',MACRO:'MACRO MODEL',SOURCECHECK:'SOURCE CHECK'};
+  var people=CEO_WORKERS.map(function(w,i){var code=w[0],op=opsByCode[code]||{},v=visual[code]||visual.PULSE,a=persona[code]||{look:'short'};return {code:code,name:op.name||AGENT_PEOPLE[code]||code,role:op.desk||w[1],activity:op.activity||ceoOfficeState(code,actions,news,themes),task:deskWork[code]||'RESEARCH',color:['#57d6ff','#b886ff','#66a9ff','#f5ad57','#ff76a7','#45dc9c','#f2cc4e','#ff6b6b','#8fa8ff','#5ce0c4'][i],skin:v[0],hair:v[1],shirt:v[2],look:a.look,glasses:!!a.glasses,x:slots[i][0],y:slots[i][1],slot:i};});
+  var portfolioValue=(Array.isArray(PORT)?PORT:[]).reduce(function(sum,p){return sum+(Number(p.val)||((Number(p.cur)||0)*(Number(p.units)||0)));},0);
+  var lastAction=(actions&&actions[0])||{};
+  var stageText=['Scanning fresh market sources','Reviewing earnings catalyst','Cross-checking position risk','Mapping theme allocation','Preparing CIO brief'];
+  stage.innerHTML='<canvas class="hvm-office-canvas" aria-label="Live animated HVM Trade Firm research floor. Click any desk to open its research packet."></canvas><div class="office-live-caption">◉ LIVE · 10 RESEARCH DESKS</div>';
+  var canvas=stage.querySelector('canvas'),ctx=canvas.getContext('2d'),raf=0,alive=true,hover=null,lastNow=0;
+  var view={w:0,h:0,s:1,ox:0,oy:0,dpr:1};
+  function resize(){var r=stage.getBoundingClientRect(),d=Math.min(2,window.devicePixelRatio||1);view.w=Math.max(1,r.width);view.h=Math.max(1,r.height);view.dpr=d;canvas.width=Math.round(view.w*d);canvas.height=Math.round(view.h*d);canvas.style.width=view.w+'px';canvas.style.height=view.h+'px';view.s=Math.min(view.w/1500,view.h/1000);view.ox=(view.w-1500*view.s)/2;view.oy=(view.h-1000*view.s)/2;}
+  resize();var observer=window.ResizeObserver?new ResizeObserver(resize):null;if(observer)observer.observe(stage);else window.addEventListener('resize',resize);
+  function rr(x,y,w,h,r){ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h,r);ctx.arcTo(x+w,y+h,x,y+h,r);ctx.arcTo(x,y+h,x,y,r);ctx.arcTo(x,y,x+w,y,r);ctx.closePath();}
+  function fillRound(x,y,w,h,r,fill,stroke){rr(x,y,w,h,r);ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=1;ctx.stroke();}}
+  function line(x1,y1,x2,y2,color,width){ctx.beginPath();ctx.moveTo(x1,y1);ctx.lineTo(x2,y2);ctx.strokeStyle=color;ctx.lineWidth=width||1;ctx.stroke();}
+  function text(str,x,y,size,color,align,weight){ctx.font=(weight||'500')+' '+size+'px "DM Mono",monospace';ctx.fillStyle=color||'#d8ddd6';ctx.textAlign=align||'left';ctx.textBaseline='middle';ctx.fillText(str,x,y);}
+  function poly(points,fill,stroke){ctx.beginPath();ctx.moveTo(points[0][0],points[0][1]);for(var i=1;i<points.length;i++)ctx.lineTo(points[i][0],points[i][1]);ctx.closePath();ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=1;ctx.stroke();}}
+  function shade(hex,amt){var n=parseInt(hex.slice(1),16),r=Math.max(0,Math.min(255,(n>>16)+amt)),g=Math.max(0,Math.min(255,((n>>8)&255)+amt)),b=Math.max(0,Math.min(255,(n&255)+amt));return '#'+((1<<24)|(r<<16)|(g<<8)|b).toString(16).slice(1);}
+  function drawPlant(x,y,s){ctx.save();ctx.translate(x,y);ctx.shadowColor='#0009';ctx.shadowBlur=10;fillRound(-14*s,0,28*s,19*s,5*s,'#59432e','#87653d');ctx.shadowBlur=0;ctx.fillStyle='#285f48';for(var i=0;i<7;i++){ctx.save();ctx.rotate((i-3)*.34);ctx.beginPath();ctx.ellipse(0,-20*s,7*s,20*s,0,0,Math.PI*2);ctx.fill();ctx.restore();}ctx.fillStyle='#3d8f62';ctx.beginPath();ctx.ellipse(-5*s,-21*s,6*s,15*s,.35,0,Math.PI*2);ctx.fill();ctx.restore();}
+  function drawScreen(x,y,w,h,title,color,t,mode){ctx.save();ctx.shadowColor='#000c';ctx.shadowBlur=12;fillRound(x,y,w,h,6,'#080f14','#3b5360');ctx.shadowBlur=0;fillRound(x+7,y+7,w-14,h-14,3,'#081b22');var grad=ctx.createLinearGradient(x+8,y+8,x+w-8,y+h-8);grad.addColorStop(0,color+'42');grad.addColorStop(1,'#071014');ctx.fillStyle=grad;ctx.fillRect(x+8,y+8,w-16,h-16);ctx.save();ctx.beginPath();ctx.rect(x+10,y+16,w-20,h-29);ctx.clip();for(var i=0;i<5;i++){var yy=y+24+i*12;line(x+13,yy,x+w-13,yy,'#8bc9da19',1);}if(mode==='chart'){ctx.beginPath();for(var j=0;j<7;j++){var px=x+13+j*(w-26)/6,py=y+h-18-(Math.sin(t*.0016+j*1.7)*.5+.5)*(h-38);if(j)ctx.lineTo(px,py);else ctx.moveTo(px,py);}ctx.strokeStyle=color;ctx.lineWidth=2;ctx.stroke();for(var k=0;k<7;k++){var bx=x+16+k*(w-34)/7,by=y+h-20-(Math.cos(t*.0012+k)*.5+.5)*(h-38);ctx.fillStyle=(k%2?color:'#d7b85e');ctx.fillRect(bx,by,4,h-20-by);}}else{for(var q=0;q<4;q++){ctx.fillStyle=q===1?color:'#5ecce83c';ctx.fillRect(x+16,y+24+q*11,(w-34)*(q===1?.68:(.28+((q*13)%50)/100)),3);}}ctx.restore();text(title,x+10,y+h-7,6,'#b9d9e1','left','700');ctx.restore();}
+  function drawBackground(t){
+    var bg=ctx.createLinearGradient(0,0,1500,1000);bg.addColorStop(0,'#071011');bg.addColorStop(.54,'#121e1f');bg.addColorStop(1,'#080d0f');ctx.fillStyle=bg;ctx.fillRect(0,0,1500,1000);
+    var glow=ctx.createRadialGradient(750,460,80,750,460,850);glow.addColorStop(0,'#27665a28');glow.addColorStop(1,'#00000000');ctx.fillStyle=glow;ctx.fillRect(0,0,1500,1000);
+    // back wall and skyline windows
+    fillRound(35,35,1430,220,18,'#0b1417','#40584d');ctx.fillStyle='#0b1015';ctx.fillRect(58,58,1384,172);
+    for(var wx=86;wx<1430;wx+=126){fillRound(wx,70,108,122,4,'#06131c','#385866');var city=ctx.createLinearGradient(wx,70,wx,192);city.addColorStop(0,'#123144');city.addColorStop(1,'#071018');ctx.fillStyle=city;ctx.fillRect(wx+5,75,98,112);for(var l=0;l<12;l++){var lx=wx+9+(l*17)%82,ly=104+(l*23)%67;ctx.fillStyle=l%4?'#74c4ef35':'#e6ba5e80';ctx.fillRect(lx,ly,2+(l%2),3+(l%4));}}
+    // central glass committee room
+    fillRound(528,46,440,196,13,'#0e1a1e','#6c977d');ctx.fillStyle='rgba(71,146,137,.12)';ctx.fillRect(540,59,416,170);for(var g=0;g<5;g++)line(540+g*83,59,540+g*83,229,'#77bca144',1);line(540,116,956,116,'#77bca128',1);fillRound(668,125,165,43,20,'#352715','#c8aa57');fillRound(690,134,121,25,13,'#624425');for(var c=0;c<6;c++){ctx.fillStyle='#141819';ctx.beginPath();ctx.arc(686+c*25,177+(c%2)*6,10,0,Math.PI*2);ctx.fill();}
+    text('HVM INVESTMENT COMMITTEE',748,93,9,'#b9e8d4','center','700');
+    // hall sign and live wall
+    fillRound(74,55,322,38,7,'#101714','#c5a450');text('HVM TRADE FIRM',96,75,12,'#e6c76c','left','800');text('FINANCE · INVESTMENT · RISK',250,75,6,'#8cc3b1','left','700');
+    drawScreen(83,107,126,74,'AI MARKETS','#4dd9ff',t,'chart');drawScreen(219,107,126,74,'PORTFOLIO','#65e0a5',t,'chart');drawScreen(355,107,126,74,'RISK TAPE','#e8b85e',t,'chart');
+    // big live portfolio TV and CEO office console
+    fillRound(1045,54,330,151,10,'#101514','#685d3d');drawScreen(1060,69,300,112,'LIVE PORTFOLIO','#5de0a5',t,'chart');text('LIVE PORTFOLIO',1080,96,7,'#8ce8c1','left','700');text('$'+Math.round(portfolioValue||0).toLocaleString(),1080,126,23,'#f4efe4','left','800');text((lastAction.ticker||'MARKET')+' · '+(lastAction.action||'REVIEW'),1080,158,7,'#e0bf65','left','700');
+    // floor
+    poly([[45,250],[1455,250],[1437,956],[74,956]],'#10191b','#3f584e');ctx.save();ctx.beginPath();ctx.moveTo(45,250);ctx.lineTo(1455,250);ctx.lineTo(1437,956);ctx.lineTo(74,956);ctx.closePath();ctx.clip();
+    for(var fy=0;fy<12;fy++){var yy=260+fy*67;line(40,yy,1460,yy,'#56706a20',1);}for(var fx=-200;fx<1700;fx+=105){line(fx,250,fx+120,960,'#56706a1c',1);}var floorGlow=ctx.createRadialGradient(760,600,30,760,600,620);floorGlow.addColorStop(0,'#b57d2b18');floorGlow.addColorStop(1,'#00000000');ctx.fillStyle=floorGlow;ctx.fillRect(0,230,1500,750);ctx.restore();
+    // department zones / fixtures
+    fillRound(55,268,300,51,8,'#0b1516dc','#3f6958');text('RESEARCH FLOOR',74,289,9,'#66dca6','left','800');text('NEWS · THEMES · TECHNICALS',74,305,6,'#8ca89d','left','700');
+    fillRound(1140,268,274,51,8,'#12150edc','#806935');text('FINANCE & ACCOUNTS',1158,289,9,'#e0c166','left','800');text('LEDGER · ALLOCATION · RISK',1158,305,6,'#b2a874','left','700');
+    // side fittings
+    drawPlant(93,245,.75);drawPlant(1387,245,.82);drawPlant(108,870,.9);drawPlant(1374,858,.8);drawPlant(714,260,.62);drawPlant(938,255,.58);
+    fillRound(66,805,148,80,8,'#21180f','#73563a');for(var k=0;k<3;k++){ctx.fillStyle='#b07b38';ctx.beginPath();ctx.arc(96+k*43,874,13,0,Math.PI*2);ctx.fill();}text('BREW BAR',82,824,7,'#d9b965','left','700');
+    fillRound(1290,806,113,81,8,'#171310','#5f5139');for(var s=0;s<4;s++){ctx.fillStyle=['#375e80','#c7aa53','#4e8a6c','#8c4d55'][s];ctx.fillRect(1306+s*20,829,13,42);}text('RESEARCH LIBRARY',1300,870,6,'#b7b29f','left','700');
+    // edge lighting
+    line(70,950,1425,950,'#d1a84b66',1);line(58,244,1444,244,'#5de0a533',1);
   }
-  raf=requestAnimationFrame(frame);window.__officeGame={stop:function(){cancelAnimationFrame(raf);stage.innerHTML='';},people:function(){return people.map(function(p){return {code:p.code,x:p.x,y:p.y,mode:'TYPING'};});}};
+  function drawDesk(p,t,active){
+    var sc=.68+p.y/1350, x=p.x,y=p.y, pulse=(Math.sin(t*.004+p.slot)*.5+.5), arm=Math.sin(t*.011+p.slot*1.8)*3, accent=p.color;
+    // floor shadow and chair
+    ctx.save();ctx.shadowColor='#000b';ctx.shadowBlur=16;ctx.fillStyle='#000a';ctx.beginPath();ctx.ellipse(x,y+42*sc,104*sc,25*sc,0,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;
+    fillRound(x-33*sc,y+8*sc,66*sc,48*sc,9*sc,'#121719','#42504f');ctx.fillStyle='#0c1012';ctx.fillRect(x-28*sc,y+47*sc,56*sc,17*sc);line(x,y+56*sc,x,y+72*sc,'#59615f',3*sc);line(x-17*sc,y+73*sc,x+17*sc,y+73*sc,'#59615f',2*sc);
+    // rear monitor and market glow
+    ctx.save();ctx.shadowColor=accent;ctx.shadowBlur=18+pulse*7;fillRound(x-55*sc,y-108*sc,110*sc,66*sc,5*sc,'#101d23','#4e6670');ctx.shadowBlur=0;fillRound(x-49*sc,y-102*sc,98*sc,53*sc,3*sc,'#06141b');ctx.save();ctx.beginPath();ctx.rect(x-47*sc,y-100*sc,94*sc,49*sc);ctx.clip();for(var i=0;i<4;i++)line(x-43*sc,y-87*sc+i*10*sc,x+43*sc,y-87*sc+i*10*sc,'#75c3d127',1);ctx.beginPath();for(var j=0;j<6;j++){var px=x-42*sc+j*17*sc,py=y-59*sc-(Math.sin(t*.002+j+p.slot)*.5+.5)*27*sc;j?ctx.lineTo(px,py):ctx.moveTo(px,py);}ctx.strokeStyle=accent;ctx.lineWidth=1.8*sc;ctx.stroke();ctx.restore();ctx.fillStyle=accent;ctx.fillRect(x-17*sc,y-45*sc,34*sc,4*sc);line(x,y-42*sc,x,y-28*sc,'#637879',2*sc);line(x-20*sc,y-28*sc,x+20*sc,y-28*sc,'#637879',2*sc);
+    // seated analyst body and head - always physically behind their workstation
+    var bob=Math.sin(t*.007+p.slot*1.7)*1.6*sc;fillRound(x-28*sc,y-39*sc+bob,56*sc,50*sc,15*sc,p.shirt,shade(p.shirt,-35));ctx.fillStyle=shade(p.shirt,-19);ctx.fillRect(x-12*sc,y-34*sc+bob,24*sc,34*sc);
+    // Every analyst is drawn in the same world as the chair, desk and monitor — individual hair, face and glasses keep the floor human rather than icon-like.
+    if(p.look==='long'){fillRound(x-25*sc,y-84*sc+bob,50*sc,62*sc,19*sc,p.hair);}
+    ctx.fillStyle=p.skin;ctx.beginPath();ctx.arc(x,y-59*sc+bob,23*sc,0,Math.PI*2);ctx.fill();ctx.fillStyle=shade(p.skin,18);ctx.beginPath();ctx.ellipse(x-5*sc,y-64*sc+bob,10*sc,15*sc,-.3,0,Math.PI*2);ctx.fill();
+    ctx.fillStyle=p.hair;
+    if(p.look==='curly'){for(var curl=0;curl<5;curl++){ctx.beginPath();ctx.arc(x-16*sc+curl*8*sc,y-76*sc+bob-(curl%2)*3*sc,8*sc,0,Math.PI*2);ctx.fill();}}
+    else if(p.look==='long'){fillRound(x-22*sc,y-84*sc+bob,44*sc,18*sc,11*sc,p.hair);ctx.fillRect(x-22*sc,y-74*sc+bob,12*sc,22*sc);ctx.fillRect(x+10*sc,y-74*sc+bob,12*sc,22*sc);}
+    else {fillRound(x-22*sc,y-83*sc+bob,44*sc,19*sc,11*sc,p.hair);ctx.fillRect(x-20*sc,y-73*sc+bob,40*sc,8*sc);}
+    ctx.fillStyle='#201a18';ctx.beginPath();ctx.arc(x-8*sc,y-58*sc+bob,2.1*sc,0,Math.PI*2);ctx.arc(x+8*sc,y-58*sc+bob,2.1*sc,0,Math.PI*2);ctx.fill();line(x-4*sc,y-46*sc+bob,x+4*sc,y-46*sc+bob,'#724536',1.25*sc);
+    if(p.glasses){ctx.strokeStyle='#172326';ctx.lineWidth=1.4*sc;ctx.strokeRect(x-15*sc,y-64*sc+bob,11*sc,8*sc);ctx.strokeRect(x+4*sc,y-64*sc+bob,11*sc,8*sc);line(x-4*sc,y-60*sc+bob,x+4*sc,y-60*sc+bob,'#172326',1.2*sc);}
+    // desk surface and typing hands
+    poly([[x-114*sc,y-12*sc],[x+114*sc,y-12*sc],[x+96*sc,y+23*sc],[x-96*sc,y+23*sc]],'#6b4324','#b2824a');fillRound(x-41*sc,y-9*sc,82*sc,14*sc,3*sc,'#151b1d','#607673');for(var key=0;key<8;key++){ctx.fillStyle=key%2?'#748c88':'#385753';ctx.fillRect(x-34*sc+key*9*sc,y-5*sc,5*sc,3*sc);}
+    ctx.lineCap='round';line(x-20*sc,y-26*sc+bob,x-31*sc+arm,y-2*sc,p.skin,9*sc);line(x+20*sc,y-26*sc+bob,x+31*sc-arm,y-2*sc,p.skin,9*sc);ctx.lineCap='butt';ctx.fillStyle=p.skin;ctx.beginPath();ctx.arc(x-31*sc+arm,y-2*sc,6*sc,0,Math.PI*2);ctx.arc(x+31*sc-arm,y-2*sc,6*sc,0,Math.PI*2);ctx.fill();
+    // desk front gives the figure a grounded lower body
+    poly([[x-96*sc,y+23*sc],[x+96*sc,y+23*sc],[x+82*sc,y+59*sc],[x-82*sc,y+59*sc]],'#3e261a','#a37442');ctx.fillStyle='#2b1b13';ctx.fillRect(x-71*sc,y+31*sc,142*sc,6*sc);ctx.fillStyle='#bd8a48';ctx.fillRect(x-1*sc,y+27*sc,2*sc,27*sc);
+    if(active){ctx.strokeStyle=accent;ctx.lineWidth=1.5;ctx.shadowColor=accent;ctx.shadowBlur=12;rr(x-122*sc,y-121*sc,244*sc,188*sc,12*sc);ctx.stroke();ctx.shadowBlur=0;}
+    ctx.restore();
+  }
+  function drawLeader(kind,x,y,t,hovered){
+    var ceo=kind==='CEO',accent=ceo?'#e2bf63':'#74e1ae',s=ceo?1.12:1.02,step=Math.sin(t*.011+(ceo?0:1))*4;
+    ctx.save();ctx.shadowColor='#000b';ctx.shadowBlur=15;ctx.fillStyle='#0009';ctx.beginPath();ctx.ellipse(x,y+51*s,27*s,9*s,0,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;
+    // legs and shoes for a genuinely moving person in the aisle
+    ctx.lineCap='round';line(x-9*s,y+18*s,x-15*s,y+46*s+step*.35,'#1a2731',12*s);line(x+9*s,y+18*s,x+15*s,y+46*s-step*.35,'#1a2731',12*s);ctx.lineCap='butt';fillRound(x-25*s,y+43*s+step*.35,18*s,8*s,4*s,'#101719');fillRound(x+8*s,y+43*s-step*.35,18*s,8*s,4*s,'#101719');
+    fillRound(x-27*s,y-30*s,54*s,57*s,15*s,ceo?'#203c56':'#315c58',accent);ctx.fillStyle=ceo?'#e2bf63':'#6ac59d';ctx.fillRect(x-2*s,y-24*s,4*s,45*s);ctx.fillStyle='#f1f1e8';ctx.beginPath();ctx.moveTo(x,y-20*s);ctx.lineTo(x-8*s,y+9*s);ctx.lineTo(x+8*s,y+9*s);ctx.closePath();ctx.fill();
+    ctx.fillStyle=ceo?'#c7845d':'#bf815c';ctx.beginPath();ctx.arc(x,y-55*s,21*s,0,Math.PI*2);ctx.fill();ctx.fillStyle='#1a1716';ctx.beginPath();ctx.arc(x,y-62*s,22*s,Math.PI,0);ctx.lineTo(x+21*s,y-53*s);ctx.lineTo(x-21*s,y-53*s);ctx.closePath();ctx.fill();
+    if(!ceo){ctx.strokeStyle='#192529';ctx.lineWidth=2*s;ctx.strokeRect(x-13*s,y-60*s,10*s,7*s);ctx.strokeRect(x+3*s,y-60*s,10*s,7*s);line(x-3*s,y-57*s,x+3*s,y-57*s,'#192529',2*s);}
+    ctx.lineCap='round';line(x-24*s,y-17*s,x-43*s,y+7*s+(ceo?step*.25:0),'#c7845d',8*s);line(x+24*s,y-17*s,x+43*s,y-4*s-(ceo?step*.25:0),'#c7845d',8*s);ctx.lineCap='butt';
+    if(!ceo){ctx.strokeStyle=accent;ctx.lineWidth=2;line(x+44*s,y-4*s,x+68*s,y-28*s,accent,2);ctx.beginPath();ctx.arc(x+68*s,y-30*s,4*s,0,Math.PI*2);ctx.fillStyle=accent;ctx.fill();}
+    if(hovered){fillRound(x-68*s,y-109*s,136*s,22*s,5,'#07110fe8',accent);text(ceo?'HVM · CEO':'VIKRAM · CIO',x,y-98*s,7,'#f3efe2','center','800');}
+    ctx.restore();
+  }
+  function drawTooltip(p){if(!p)return;var x=p.x,y=p.y-155,body=p.activity||p.task;var w=Math.min(260,Math.max(155,body.length*4.8));x=Math.max(18,Math.min(1500-w-18,x-w/2));y=Math.max(34,y);fillRound(x,y,w,49,7,'#071310ef',p.color);text(p.name+' · '+p.task,x+10,y+15,7,'#f2efe4','left','800');text(body.slice(0,46)+(body.length>46?'…':''),x+10,y+32,6.2,'#a7c8bc','left','500');}
+  function drawSpeech(p,t){if(!p)return;var phrase=stageText[Math.floor(t/4800)%stageText.length],x=p.x+63,y=p.y-137;fillRound(x,y,142,32,8,'#f3e8ce','#d9b45d');text(phrase.slice(0,24),x+9,y+13,5.4,'#4b3b21','left','700');text(phrase.slice(24,49),x+9,y+23,5.4,'#4b3b21','left','700');poly([[x+14,y+32],[x+24,y+32],[x+17,y+40]],'#f3e8ce');}
+  var ceoRoute=[[685,544],[910,575],[1090,490],[1040,302],[755,566]],cioRoute=[[754,164],[830,174],[714,171]],leader={ceo:{x:685,y:544,idx:0},cio:{x:754,y:164,idx:0}};
+  function tick(now){if(!alive)return;var dt=Math.min(52,now-lastNow||16);lastNow=now;ctx.setTransform(view.dpr,0,0,view.dpr,0,0);ctx.clearRect(0,0,view.w,view.h);ctx.translate(view.ox,view.oy);ctx.scale(view.s,view.s);drawBackground(now);
+    var order=people.slice().sort(function(a,b){return a.y-b.y;});order.forEach(function(p){drawDesk(p,now,hover&&hover.type==='person'&&hover.obj===p);});
+    var ci=cioRoute[Math.floor(now/6200)%cioRoute.length],cr=leader.cio;cr.x+=(ci[0]-cr.x)*dt*.0011;cr.y+=(ci[1]-cr.y)*dt*.0011;drawLeader('CIO',cr.x,cr.y,now,hover&&hover.type==='cio');
+    var cp=ceoRoute[Math.floor(now/5400)%ceoRoute.length],er=leader.ceo;er.x+=(cp[0]-er.x)*dt*.00105;er.y+=(cp[1]-er.y)*dt*.00105;drawLeader('CEO',er.x,er.y,now,hover&&hover.type==='ceo');
+    var speaker=people[Math.floor(now/4600)%people.length];drawSpeech(speaker,now);if(hover&&hover.type==='person')drawTooltip(hover.obj);
+    // premium corner HUD kept deliberately small; all names live on hover, not all over the floor
+    fillRound(64,926,224,26,5,'#07110ddd','#46665b');text('CLICK A DESK · OPEN LIVE PACKET',76,939,6.5,'#b9e7d2','left','800');fillRound(1168,926,268,26,5,'#0d120fdd','#806a34');text('10 DESKS · RESEARCH → CIO → CEO',1302,939,6.5,'#ead078','center','800');
+    raf=requestAnimationFrame(tick);
+  }
+  function point(e){var r=canvas.getBoundingClientRect();return {x:(e.clientX-r.left-view.ox)/view.s,y:(e.clientY-r.top-view.oy)/view.s};}
+  function targetAt(q){for(var i=people.length-1;i>=0;i--){var p=people[i];if(Math.abs(q.x-p.x)<125&&Math.abs(q.y-(p.y-36))<125)return {type:'person',obj:p};}if(Math.abs(q.x-leader.ceo.x)<65&&Math.abs(q.y-(leader.ceo.y-24))<108)return {type:'ceo'};if(Math.abs(q.x-leader.cio.x)<65&&Math.abs(q.y-(leader.cio.y-24))<108)return {type:'cio'};return null;}
+  function move(e){hover=targetAt(point(e));canvas.style.cursor=hover?'pointer':'default';}
+  function click(e){var hit=targetAt(point(e));if(!hit)return;if(hit.type==='person')window.openCeoPacket(hit.obj.code);else window.openCeoPacket(hit.type==='ceo'?'CEO':'CIO');}
+  canvas.addEventListener('pointermove',move);canvas.addEventListener('pointerleave',function(){hover=null;canvas.style.cursor='default';});canvas.addEventListener('click',click);
+  raf=requestAnimationFrame(tick);window.__officeGame={stop:function(){alive=false;cancelAnimationFrame(raf);canvas.removeEventListener('pointermove',move);canvas.removeEventListener('click',click);if(observer)observer.disconnect();else window.removeEventListener('resize',resize);stage.innerHTML='';},people:function(){return people.map(function(p){return {code:p.code,x:p.x,y:p.y,mode:'TYPING'};});}};
 }
 function ceoEsc(v){return String(v==null?'':v).replace(/[&<>'"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c];});}
 function ceoOps(){var d=window.AGENT_OPS_LIVE;return d&&Array.isArray(d.items)?d.items:[];}
