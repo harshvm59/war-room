@@ -2,8 +2,12 @@ name: Daily News + YouTube Scrape
 
 on:
   schedule:
-    # 09:00 IST = 03:30 UTC, every day
+    # 09:00 IST: morning leader/news packet.
     - cron: "30 3 * * *"
+    # 19:05 IST weekdays: refresh near the US open.
+    - cron: "35 13 * * 1-5"
+    # 23:05 IST weekdays: refresh during the US session.
+    - cron: "35 17 * * 1-5"
   workflow_dispatch:
 
 permissions:

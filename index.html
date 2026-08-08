@@ -2167,7 +2167,7 @@ tr:hover td{background:var(--bg2);}
     <div class="nav-item" onclick="nav('aggression',this)"><span class="nav-icon">📈</span>Investment Aggression</div>
     <div class="nav-label">Live Intel</div>
     <div class="nav-item" onclick="nav('themes',this)"><span class="nav-icon">🌊</span>AI Themes (P0–P3)</div>
-    <div class="nav-item" onclick="nav('leaders',this)"><span class="nav-icon">🎤</span>30+ Leader Signals</div>
+    <div class="nav-item" onclick="nav('leaders',this)"><span class="nav-icon">🎤</span>30-Leader Signal Desk</div>
     <div class="nav-item" onclick="nav('youtube',this)"><span class="nav-icon">▶️</span>YouTube Intel (Daily)</div>
     <div class="nav-item" onclick="nav('agents',this)"><span class="nav-icon">🤖</span>CEO Agent Workspace</div>
     <div class="nav-label">Strategy</div>
@@ -2388,7 +2388,7 @@ tr:hover td{background:var(--bg2);}
 
 <!-- ═══ AI THEMES v4 ═══ -->
 <div id="themes" class="section">
-  <div class="ph"><div class="ph-left"><h1>AI THEMES <span class="gold">P0–P3</span></h1><div class="ph-sub">Research feed refreshes daily · live portfolio exposure is calculated from INDmoney</div></div><div class="tag-row"><span class="tag tr">P0: 2 themes · 0% exposure</span><span class="tag tg">8 themes total</span><span class="tag tg">All numbers sourced</span></div></div>
+  <div class="ph"><div class="ph-left"><h1>AI THEMES <span class="gold">P0–P3</span></h1><div class="ph-sub">Source-linked theme graph refreshes three times daily · live exposure comes from INDmoney</div></div><div class="tag-row"><span class="tag tr" id="themeP0Exposure">P0 exposure loading…</span><span class="tag tg" id="themePacketCount">8 themes monitored</span><span class="tag tg" id="themeFreshness">Checking theme feed…</span></div></div>
   <div class="alert alert-gold"><strong>P0 = Emergency — fix immediately · P1 = High conviction, hold/add · P2 = Build in Stage 2 · P3 = Small speculative only.</strong> Every absolute market size number below is sourced from IEA, Goldman Sachs, Morgan Stanley, Gartner, or cited analyst reports. No fabrications.</div>
   <div style="display:flex;gap:8px;margin-bottom:1rem;flex-wrap:wrap;align-items:center;">
   <span style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#3a3835;">Filter by priority:</span>
@@ -2403,11 +2403,11 @@ tr:hover td{background:var(--bg2);}
 <div class="theme-scroll-hint">← scroll horizontally to see all 8 themes →</div><div class="theme-grid" id="themeGrid"></div>
 </div>
 
-<!-- ═══ LEADERS 30+ ═══ -->
+<!-- ═══ LIVE LEADER SIGNAL DESK ═══ -->
 <div id="leaders" class="section">
-  <div class="ph"><div class="ph-left"><h1>30+ LEADER <span class="gold">SIGNALS</span></h1><div class="ph-sub">Fresh signals load from the daily research feed · source links on every card</div></div><div class="tag-row"><span class="tag tg">30 leaders loaded</span><span class="tag tg">Unanimous: POWER bottleneck</span></div></div>
+  <div class="ph"><div class="ph-left"><h1>LIVE LEADER <span class="gold">SIGNALS</span></h1><div class="ph-sub">Rolling 24-hour source-linked signal desk · 30 CEOs, analysts and investors monitored</div></div><div class="tag-row"><span class="tag tg" id="leaderFreshCount">Loading fresh signals…</span><span class="tag tr" id="leaderFreshness">Checking feed…</span></div></div>
   <div class="leaders-summary" id="leaderSummary"></div>
-  <div class="sl">All 30+ signals — click source to verify</div>
+  <div class="sl">Fresh source-linked signals — click every source to verify</div>
   <div class="voice-grid" id="voiceGrid"></div>
 </div>
 
@@ -3742,38 +3742,57 @@ var VOICES=[{name:'Jensen Huang',role:'CEO',org:'Nvidia',cat:'CEO',date:'2026-05
    src:'https://www.benzinga.com/markets/tech/26/05/52238301/jensen-huang-rejects-ai-job-doom-says-extreme-forecasts-not-helpful'},
 ];
 
+/* Historical hand-authored entries are retained only as an internal archive.
+   The live desk never mixes them into today's source-linked signal packet. */
+var VOICE_ARCHIVE=VOICES.slice();
+VOICES=[];
+
+function leaderEsc(value){return String(value==null?'':value).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function leaderUrl(value){value=String(value||'');return /^https?:\/\//i.test(value)?value:'#';}
+function leaderSourceLabel(v){
+  if(v.source_name)return v.source_name;
+  try{return new URL(v.src).hostname.replace(/^www\./,'');}catch(_){return 'Source';}
+}
 function buildLeaders(){
-  // Summary panel
-  const themeCount={};
-  VOICES.forEach(v=>v.themes.forEach(t=>{const key=t.replace('#','');themeCount[key]=(themeCount[key]||0)+1;}));
-  const topThemes=Object.entries(themeCount).sort((a,b)=>b[1]-a[1]).slice(0,8);
-  const summaryHtml=`
-    <div class="ls-title">CONSENSUS SUMMARY — What all ${VOICES.length} signals agree on</div>
-    <div class="ls-consensus">
-      <strong style="color:var(--text);">Power/Energy is the #1 bottleneck (${VOICES.filter(v=>v.themes.some(t=>t.includes('Energy')||t.includes('Power')||t.includes('Nuclear'))).length}/${VOICES.length} signals agree):</strong> Every CEO, every VC, every analyst independently pointed to electricity as the constraint on AI growth. Not chips. Not software. Electricity. Your portfolio has $494 in energy.
-      <br><br>
-      <strong style="color:var(--text);">AI monetization shift underway (${VOICES.filter(v=>v.themes.some(t=>t.includes('Monetiz')||t.includes('Agentic')||t.includes('AI'))).length}/${VOICES.length} signals):</strong> Dan Ives, Gartner, Sequoia, a16z all agree: 2026 is the shift from AI experimentation to real enterprise integration. $155B agentic AI market by 2030.
-      <br><br>
-      <strong style="color:var(--text);">Defense + sovereign AI = new mega-theme (${VOICES.filter(v=>v.themes.some(t=>t.includes('Defense')||t.includes('Sovereign')||t.includes('Multipolar'))).length}/${VOICES.length} signals):</strong> Morgan Stanley top performer 2025. WEF April 2026 declared AI infrastructure national security. Iran drone strikes on AWS = turning point.
-      <br><br>
-      <strong style="color:var(--text);">Chamath contrarian call — copper (2/27 signals):</strong> Only Chamath and Goldman are flagging critical minerals / copper. Contrarian but well-sourced. Small P3 position in FCX justified.
-    </div>
-    <div class="ls-theme-bars">
-      ${(function(){var mx=topThemes.length>0?topThemes[0][1]:1;return topThemes.map(function(x){var t=x[0],c=x[1];return'<div class="ls-bar-row"><div class="ls-bar-label">#'+t+'</div><div class="ls-bar-track"><div class="ls-bar-fill" style="width:'+Math.round(c/mx*100)+'%;background:var(--gold);"></div></div><div class="ls-bar-count">'+c+'/'+VOICES.length+' signals</div></div>';}).join('');})()}
-    </div>`;
-  document.getElementById('leaderSummary').innerHTML=summaryHtml;
-  // Voice cards
-  document.getElementById('voiceGrid').innerHTML=VOICES.map(v=>`
-    <div class="vc">
-      <div class="vc-top">
-        <div class="vc-name">${v.name}</div>
-        <span class="vc-badge" style="background:${v.bc};color:${v.bt};border:1px solid ${v.bt}44;">${v.badge}</span>
-      </div>
-      <div class="vc-role">${v.role}</div>
-      ${v.quotes.map(function(q){return '<div class="vc-q'+(q.k?' key':'')+'">'+q.t+'</div>';}).join('')}
-      <div class="vc-themes">${v.themes.map(function(t){return '<span class="vc-tag">'+t+'</span>';}).join('')}</div>
-      <div class="vc-src"><a href="${v.srcUrl}" target="_blank">↗ ${v.src}</a></div>
-    </div>`).join('');
+  var summary=document.getElementById('leaderSummary'),grid=document.getElementById('voiceGrid');
+  if(!summary||!grid)return;
+  var monitored=Number(window.VOICES_MONITORED||30),updated=window.VOICES_UPDATED_AT?new Date(window.VOICES_UPDATED_AT):null;
+  var ageHours=updated?(Date.now()-updated.getTime())/36e5:Infinity;
+  var freshCount=document.getElementById('leaderFreshCount'),freshness=document.getElementById('leaderFreshness');
+  if(freshCount)freshCount.textContent=VOICES.length+' fresh · '+monitored+' monitored';
+  if(freshness){freshness.textContent=updated?(ageHours<=26?'LIVE · ':'STALE · ')+updated.toLocaleString():'Waiting for live packet';freshness.className='tag '+(ageHours<=26?'tg':'tr');}
+
+  if(!VOICES.length){
+    summary.innerHTML='<div class="ls-title">LIVE SIGNAL DESK</div><div class="ls-consensus"><strong>No fresh source-linked leader signal is available yet.</strong> The 30-person monitor is running; historical cards are intentionally hidden so old commentary cannot masquerade as today\'s intelligence.</div>';
+    grid.innerHTML='<div class="vc"><div class="vc-name">MONITORING 30 LEADERS</div><div class="vc-role">Next scheduled refresh will publish only verified source-linked items.</div></div>';
+    return;
+  }
+
+  var themeCount={},categoryCount={},orgs={};
+  VOICES.forEach(function(v){
+    (Array.isArray(v.themes)?v.themes:[]).forEach(function(t){var key=String(t).replace(/^#/,'')||'Other';themeCount[key]=(themeCount[key]||0)+1;});
+    var cat=v.cat||'Research';categoryCount[cat]=(categoryCount[cat]||0)+1;
+    if(v.org)orgs[v.org]=1;
+  });
+  var topThemes=Object.entries(themeCount).sort(function(a,b){return b[1]-a[1];}).slice(0,8),max=topThemes.length?topThemes[0][1]:1;
+  summary.innerHTML='<div class="ls-title">ROLLING 24-HOUR SIGNAL GRAPH · '+VOICES.length+' FRESH NODES</div>'
+    +'<div class="ls-consensus"><strong style="color:var(--text);">Feed-first, not prompt-first:</strong> '+VOICES.length+' source-linked leader signals across '+Object.keys(orgs).length+' organizations. '
+    +'The graph below is rebuilt from today\'s published headlines and verified links; it does not reuse the '+VOICE_ARCHIVE.length+' historical archive cards. '
+    +'<strong>Headline signals are not presented as direct quotes.</strong><br><br>'
+    +Object.entries(categoryCount).map(function(x){return '<span class="vc-tag">'+leaderEsc(x[0])+' '+x[1]+'</span>';}).join(' ')+'</div>'
+    +'<div class="ls-theme-bars">'+topThemes.map(function(x){return '<div class="ls-bar-row"><div class="ls-bar-label">#'+leaderEsc(x[0])+'</div><div class="ls-bar-track"><div class="ls-bar-fill" style="width:'+Math.round(x[1]/max*100)+'%;background:var(--gold);"></div></div><div class="ls-bar-count">'+x[1]+'/'+VOICES.length+' fresh</div></div>';}).join('')+'</div>';
+
+  var colors={CEO:['rgba(61,220,132,.12)','#3ddc84'],Analyst:['rgba(74,158,255,.12)','#4a9eff'],Investor:['rgba(201,168,76,.12)','#c9a84c'],Research:['rgba(179,136,255,.12)','#b388ff']};
+  grid.innerHTML=VOICES.map(function(v){
+    var cat=v.cat||'Research',style=colors[cat]||colors.Research,quotes=Array.isArray(v.quotes)?v.quotes:[],themes=Array.isArray(v.themes)?v.themes:[];
+    return '<div class="vc">'
+      +'<div class="vc-top"><div class="vc-name">'+leaderEsc(v.name)+'</div><span class="vc-badge" style="background:'+style[0]+';color:'+style[1]+';border:1px solid '+style[1]+'44;">'+leaderEsc(cat.toUpperCase())+'</span></div>'
+      +'<div class="vc-role">'+leaderEsc(v.role)+' · '+leaderEsc(v.org)+' · '+leaderEsc(v.date||'Today')+'</div>'
+      +quotes.map(function(q){return '<div class="vc-q'+(q.k?' key':'')+'">'+leaderEsc(q.t)+'</div>';}).join('')
+      +'<div class="vc-themes">'+themes.map(function(t){return '<span class="vc-tag">'+leaderEsc(t)+'</span>';}).join('')+'</div>'
+      +'<div class="vc-src"><a href="'+leaderEsc(leaderUrl(v.src))+'" target="_blank" rel="noopener">↗ '+leaderEsc(leaderSourceLabel(v))+' · verify source</a></div>'
+      +'</div>';
+  }).join('');
 }
 
 // ════ YOUTUBE v4 — 20 videos + daily brief ════
@@ -5456,6 +5475,67 @@ window.selectPortInv=function(si,ii,el){
     if(!el) return;
     el.textContent = 'Synced ' + stamp;
   }
+  function applyVoicesPacket(v){
+    if(!v || !Array.isArray(v.items)) return;
+    /* Feed-first: today's source-linked packet replaces the live signal desk.
+       The historical VOICE_ARCHIVE remains available in code but is never
+       appended to the current feed or counted as fresh research. */
+    try {
+      window.VOICES = v.items;
+      window.VOICES_UPDATED_AT = v.updated_at || '';
+      window.VOICES_MONITORED = Number(v.monitored_leaders || 30);
+      window.VOICES_SOURCE = v.source || '';
+    } catch(_) {}
+    safeCall(function(){ if (typeof buildLeaders === 'function') buildLeaders(); });
+  }
+  function applyThemesPacket(t){
+    if(!t || !Array.isArray(t.items)) return;
+    var count=document.getElementById('themePacketCount'),freshness=document.getElementById('themeFreshness');
+    var updated=t.updated_at?new Date(t.updated_at):null,ageHours=updated?(Date.now()-updated.getTime())/36e5:Infinity;
+    if(count) count.textContent=t.items.length+' themes live';
+    if(freshness){
+      freshness.textContent=updated?(ageHours<=12?'LIVE · ':'STALE · ')+updated.toLocaleString():'Waiting for theme packet';
+      freshness.className='tag '+(ageHours<=12?'tg':'tr');
+    }
+    // Research content is updated from data/themes.json; the live allocation is
+    // separately derived from INDmoney PORT data in the runtime renderer.
+    try { window.THEMES_LIVE = t.items; window.THEMES_UPDATED_AT=t.updated_at||''; } catch(_) {}
+    safeCall(function(){
+      if (typeof THEMES === 'undefined') return;
+      t.items.forEach(function(live){
+        var key=String(live.dashboard_name||live.theme||'').toUpperCase();
+        var local=THEMES.find(function(x){ return String(x.name||'').toUpperCase()===key; });
+        if (!local) return;
+        if (live.summary) local.body=live.summary;
+        local.priority=live.priority||local.priority;
+        local.targetPct=Number(live.target_pct||0);
+        local.liveUpdatedAt=live.cohort_updated_at||t.updated_at;
+        local.consensus=(live.research_mode||'DAILY RESEARCH')+' · '+(live.rating||'UPDATED')+' · '+new Date(t.updated_at).toLocaleDateString();
+        if (Array.isArray(live.tickers) && live.tickers.length) {
+          local.liveTickers=live.tickers;
+          local.stocks=live.tickers.slice(0,8).map(function(row){
+            if(typeof row==='string') return {s:row,c:'watch',status:'WATCH'};
+            var status=String(row.status||'WATCH').toUpperCase(), cls='watch';
+            if(status==='ADD') cls='add';
+            else if(status==='NEW BUY') cls='new-buy';
+            else if(status==='OWN'||status==='HOLD') cls='own';
+            else if(status==='TRIM') cls='trim';
+            return {s:row.ticker,c:cls,status:status,price:row.price,reason:row.reason};
+          });
+          var researchKey=local.name;
+          if(typeof THEME_RESEARCH!=='undefined' && THEME_RESEARCH[researchKey]){
+            THEME_RESEARCH[researchKey].top5=live.tickers.slice(0,5).map(function(row){
+              var status=String(row.status||'WATCH').toUpperCase(),price=Number(row.price);
+              return {t:row.ticker,n:row.name||row.ticker,thesis:(row.reason||'Daily source-linked theme candidate')+' · Research status: '+status+'.',entry:isFinite(price)&&price>0?'Reference price $'+price.toFixed(2):'Reference price pending',target:'Re-score on next theme refresh',horizon:'Daily monitored cohort',sizing:row.owned?'Existing holding · CEO review':status==='NEW BUY'?'New-position candidate · CEO sizing required':'Watchlist · no allocation by default',risk:'Source and risk gates must pass before any CEO decision'};
+            });
+          }
+        }
+        if (Array.isArray(live.news) && live.news.length) local.srcs=live.news.map(function(item){return {org:'Daily research feed',title:item.title||'Market update',stat:item.date||'',u:item.url||'#'};});
+      });
+      if (typeof buildThemes === 'function') buildThemes();
+      if (typeof buildCohortAllocator === 'function') buildCohortAllocator();
+    });
+  }
   Promise.all([
     getJSON('data/actions.json'),
     getJSON('data/youtube.json'),
@@ -5526,50 +5606,8 @@ window.selectPortInv=function(si,ii,el){
       safeCall(function(){ if (typeof buildYTFilters === 'function') buildYTFilters(); });
       safeCall(function(){ if (typeof buildYT === 'function') buildYT(); });
     }
-    if (v && Array.isArray(v.items) && v.items.length) {
-      try { window.VOICES = v.items.concat(window.VOICES || []); } catch(_) {}
-      safeCall(function(){ if (typeof buildLeaders === 'function') buildLeaders(); });
-    }
-    if (t && Array.isArray(t.items) && t.items.length) {
-      // Research content is updated from data/themes.json; the live allocation is
-      // separately derived from INDmoney PORT data in the runtime renderer.
-      try { window.THEMES_LIVE = t.items; } catch(_) {}
-      safeCall(function(){
-        if (typeof THEMES === 'undefined') return;
-        t.items.forEach(function(live){
-          var key=String(live.dashboard_name||live.theme||'').toUpperCase();
-          var local=THEMES.find(function(x){ return String(x.name||'').toUpperCase()===key; });
-          if (!local) return;
-          if (live.summary) local.body=live.summary;
-          local.priority=live.priority||local.priority;
-          local.targetPct=Number(live.target_pct||0);
-          local.liveUpdatedAt=live.cohort_updated_at||t.updated_at;
-          local.consensus=(live.research_mode||'DAILY RESEARCH')+' · '+(live.rating||'UPDATED')+' · '+new Date(t.updated_at).toLocaleDateString();
-          if (Array.isArray(live.tickers) && live.tickers.length) {
-            local.liveTickers=live.tickers;
-            local.stocks=live.tickers.slice(0,8).map(function(row){
-              if(typeof row==='string') return {s:row,c:'watch',status:'WATCH'};
-              var status=String(row.status||'WATCH').toUpperCase(), cls='watch';
-              if(status==='ADD') cls='add';
-              else if(status==='NEW BUY') cls='new-buy';
-              else if(status==='OWN'||status==='HOLD') cls='own';
-              else if(status==='TRIM') cls='trim';
-              return {s:row.ticker,c:cls,status:status,price:row.price,reason:row.reason};
-            });
-            var researchKey=local.name;
-            if(typeof THEME_RESEARCH!=='undefined' && THEME_RESEARCH[researchKey]){
-              THEME_RESEARCH[researchKey].top5=live.tickers.slice(0,5).map(function(row){
-                var status=String(row.status||'WATCH').toUpperCase(),price=Number(row.price);
-                return {t:row.ticker,n:row.name||row.ticker,thesis:(row.reason||'Daily source-linked theme candidate')+' · Research status: '+status+'.',entry:isFinite(price)&&price>0?'Reference price $'+price.toFixed(2):'Reference price pending',target:'Re-score on next theme refresh',horizon:'Daily monitored cohort',sizing:row.owned?'Existing holding · CEO review':status==='NEW BUY'?'New-position candidate · CEO sizing required':'Watchlist · no allocation by default',risk:'Source and risk gates must pass before any CEO decision'};
-              });
-            }
-          }
-          if (Array.isArray(live.news) && live.news.length) local.srcs=live.news.map(function(item){return {org:'Daily research feed',title:item.title||'Market update',stat:item.date||'',u:item.url||'#'};});
-        });
-        if (typeof buildThemes === 'function') buildThemes();
-        if (typeof buildCohortAllocator === 'function') buildCohortAllocator();
-      });
-    }
+    applyVoicesPacket(v);
+    applyThemesPacket(t);
     if (o && Array.isArray(o.items) && o.items.length) {
       try { window.AGENT_OPS_LIVE = o; } catch(_) {}
       safeCall(function(){ if (typeof buildCEOGame === 'function') buildCEOGame(); });
@@ -5605,6 +5643,15 @@ window.selectPortInv=function(si,ii,el){
       }
     });
   }, 60000);
+  // Keep open dashboards current without a manual reload. These requests only
+  // consume already-published read-only packets; scheduled workflows perform
+  // the actual online research and source verification.
+  setInterval(function(){
+    Promise.all([getJSON('data/voices.json'),getJSON('data/themes.json')]).then(function(rows){
+      applyVoicesPacket(rows[0]);
+      applyThemesPacket(rows[1]);
+    });
+  }, 300000);
 })();
 </script>
 <script defer src="data/bootstrap-v2.js"></script><!-- INDMONEY_RUNTIME_START -->
@@ -5643,6 +5690,8 @@ window.selectPortInv=function(si,ii,el){
     var byTheme={};
     PORT.forEach(function(p){var t=p.theme||'Other';byTheme[t]=(byTheme[t]||0)+brokerValue(p);});
     var themes=Object.keys(targets).map(function(name){return {name:name,value:byTheme[name]||0,meta:targets[name]};});
+    var p0Exposure=total?((byTheme['AI Energy']||0)+(byTheme['AI Security']||0))/total*100:0;
+    set('#themeP0Exposure','P0: 2 themes · '+p0Exposure.toFixed(1)+'% live exposure');
 
     /* Keep broker account value and public market estimate visibly separate. */
     var marketBox=document.getElementById('hvm-market-estimate');
