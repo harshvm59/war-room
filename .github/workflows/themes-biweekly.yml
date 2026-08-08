@@ -1,9 +1,13 @@
-name: Themes Refresh (daily)
+name: Themes + Cohorts Refresh (3x daily)
 
 on:
   schedule:
-    # 09:15 IST = 03:45 UTC, every day
+    # 09:15 IST: morning research and cohort refresh.
     - cron: "45 3 * * *"
+    # 19:15 IST weekdays: refresh candidates and reference prices near US open.
+    - cron: "45 13 * * 1-5"
+    # 23:15 IST weekdays: refresh the cohort during the US session.
+    - cron: "45 17 * * 1-5"
   workflow_dispatch:
 
 permissions:
