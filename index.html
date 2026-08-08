@@ -69,6 +69,9 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9000;
 
 /* Interactive pseudo-3D LEGO-style CEO office */
 .office-room{min-height:590px;background:linear-gradient(145deg,#1d211f,#0b1010);isolation:isolate}.office-room:before{display:none}.office-room canvas{display:block;width:100%;height:590px;cursor:crosshair;touch-action:manipulation}.office-floor-label,.office-window,.office-ceo,.office-desks,.office-plant{display:none}.office-hud{position:absolute;left:13px;right:13px;top:12px;display:flex;justify-content:space-between;pointer-events:none;font:8px 'DM Mono',monospace;letter-spacing:.13em;color:#d5b861;z-index:2}.office-hud span:last-child{color:#53df9a}.office-help{position:absolute;left:13px;bottom:11px;padding:4px 7px;border:1px solid #ffffff22;border-radius:3px;background:#0b0e0dd9;color:#a7aa9f;font:7px 'DM Mono',monospace;letter-spacing:.08em;pointer-events:none;z-index:2}@media(max-width:900px){.office-room{min-height:570px}.office-room canvas{height:570px}.office-hud{font-size:7px}.office-hud span:last-child{display:none}}
+
+/* Cinematic dollhouse layer — generated office diorama + live AR activity overlay */
+.office-room{min-height:610px;background:#060a0d;border-color:#bf9a4a;box-shadow:0 22px 56px #000b,inset 0 0 0 1px #ffffff12;perspective:1000px}.office-backdrop{position:absolute;inset:0;background:url('assets/ceo-office-diorama.png') center center/cover no-repeat;transform:scale(1.035);transform-origin:center;animation:godCameraDrift 18s ease-in-out infinite alternate;filter:saturate(1.07) contrast(1.04) brightness(.92)}.office-backdrop:after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 52% 44%,transparent 30%,#02040655 82%),linear-gradient(120deg,#03100a24,transparent 38%,#eebd5c14 68%,#0206063d);mix-blend-mode:screen}.office-room:after{content:'';position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,#ffffff00 0 3px,#00000012 4px 5px);opacity:.28;z-index:2}.office-room canvas{position:absolute;inset:0;width:100%;height:100%;z-index:3;background:transparent}.office-hud{z-index:4;text-shadow:0 1px 8px #000}.office-help{z-index:4;background:#07100ddd;border-color:#a6e7da55;color:#d4efe9;backdrop-filter:blur(8px)}.office-room .office-camera-badge{position:absolute;right:13px;bottom:11px;z-index:4;pointer-events:none;border:1px solid #d7b45a77;background:#10100ccc;color:#efd47d;border-radius:4px;padding:5px 7px;font:7px 'DM Mono',monospace;letter-spacing:.1em;backdrop-filter:blur(8px)}@keyframes godCameraDrift{0%{transform:scale(1.035) translate3d(-.35%,-.25%,0)}100%{transform:scale(1.09) translate3d(.45%,.32%,0)}}@media(max-width:900px){.office-room{min-height:560px}.office-room canvas{height:100%}.office-backdrop{background-position:center center}.office-room .office-camera-badge{display:none}}
 @media(max-width:1100px){.office-suite{grid-template-columns:1fr}.office-chat{max-height:210px}.office-desks{grid-template-columns:repeat(5,minmax(82px,1fr));gap:6px;padding-left:9px;padding-right:9px}.office-work{display:none}}@media(max-width:900px){.office-desks{grid-template-columns:repeat(2,minmax(0,1fr));padding-top:88px}.office-room{min-height:690px}.office-window{width:95px}.ceo-worker-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ceo-analyst-grid{grid-template-columns:1fr}.cio-card{grid-template-columns:1fr}.ceo-decision{align-items:flex-start;flex-direction:column}}
 
 
@@ -4922,88 +4925,52 @@ function ceoOfficeMessage(name,actions,news,themes){
 function launchOfficeGame(actions,news,themes){
   var canvas=document.getElementById('officeCanvas');if(!canvas||!canvas.getContext)return;
   if(window.__officeGame&&window.__officeGame.stop)window.__officeGame.stop();
-  var ctx=canvas.getContext('2d'),dpr=Math.min(window.devicePixelRatio||1,2),raf=0,hover=null,targets=[],lastMs=0,focus=0,lastFocus=0;
-  var palette=['#4a9eff','#a866db','#50a4e9','#e38b3b','#eb729f','#3bbf8b','#e6c44c','#e05252','#7299dc','#55bfac'];
-  var people=CEO_WORKERS.map(function(w,i){var c=CEO_OFFICE[w[0]]||CEO_OFFICE.PULSE;return {code:w[0],name:AGENT_PEOPLE[w[0]]||w[0],role:w[1],color:palette[i],skin:c[0],hair:c[1],slot:i,x:0,y:0,tx:0,ty:0,mode:'work',lastMode:''};});
+  var ctx=canvas.getContext('2d'),dpr=Math.min(window.devicePixelRatio||1,2),raf=0,hover=null,hotspots=[],lastMs=0,focus=0,lastFocus=0;
+  var palette=['#55d6ff','#b886ff','#64aaff','#f5ad57','#ff76a7','#45dc9c','#f2cc4e','#ff6b6b','#8fa8ff','#5ce0c4'];
+  // Coordinates are placed over the corresponding people/desks in the cinematic diorama.
+  var bases=[[.25,.48],[.36,.38],[.47,.34],[.58,.40],[.69,.47],[.34,.64],[.46,.62],[.58,.61],[.70,.62],[.82,.53]];
+  var people=CEO_WORKERS.map(function(w,i){var c=CEO_OFFICE[w[0]]||CEO_OFFICE.PULSE;return {code:w[0],name:AGENT_PEOPLE[w[0]]||w[0],role:w[1],task:ceoOfficeState(w[0],actions,news,themes),color:palette[i],skin:c[0],hair:c[1],slot:i,x:0,y:0,tx:0,ty:0,mode:'DESK'};});
   var ceo={x:0,y:0,tx:0,ty:0};
   function resize(){var r=canvas.getBoundingClientRect();canvas.width=Math.max(1,Math.round(r.width*dpr));canvas.height=Math.max(1,Math.round(r.height*dpr));ctx.setTransform(dpr,0,0,dpr,0,0);}
-  function poly(points,fill,stroke){ctx.beginPath();points.forEach(function(p,i){i?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]);});ctx.closePath();if(fill){ctx.fillStyle=fill;ctx.fill();}if(stroke){ctx.strokeStyle=stroke;ctx.stroke();}}
   function round(x,y,w,h,r,fill,stroke){ctx.beginPath();ctx.roundRect(x,y,w,h,r);if(fill){ctx.fillStyle=fill;ctx.fill();}if(stroke){ctx.strokeStyle=stroke;ctx.stroke();}}
   function txt(t,x,y,size,color,align){ctx.font=(size||9)+'px DM Mono,monospace';ctx.fillStyle=color||'#eee';ctx.textAlign=align||'left';ctx.fillText(String(t),x,y);}
-  function shadow(x,y,w){ctx.fillStyle='#0007';ctx.beginPath();ctx.ellipse(x,y,w,Math.max(3,w*.18),0,0,Math.PI*2);ctx.fill();}
-  function desk(cx,cy,person,sc,active){
-    var w=110*sc,h=43*sc,drop=29*sc;
-    shadow(cx+w*.5,cy+h+drop+9,w*.42);
-    poly([[cx,cy],[cx+w/2,cy-h/2],[cx+w,cy],[cx+w/2,cy+h/2]],active?'#9d7930':'#57472d','#e6bd50');
-    poly([[cx,cy],[cx+w/2,cy+h/2],[cx+w/2,cy+h/2+drop],[cx,cy+drop]],active?'#664e1d':'#332923','#17120d');
-    poly([[cx+w,cy],[cx+w/2,cy+h/2],[cx+w/2,cy+h/2+drop],[cx+w,cy+drop]],active?'#806326':'#463626','#17120d');
-    // computer's thick monitor, keyboard and cables
-    round(cx+w*.29,cy-h*.84,w*.43,h*.56,4,'#282d2e','#d8c38f');round(cx+w*.31,cy-h*.79,w*.39,h*.43,2,'#071313');
-    ctx.fillStyle=person.color+'dd';for(var i=0;i<3;i++)ctx.fillRect(cx+w*.35,cy-h*.72+i*6*sc,w*.30,2.5*sc);
-    ctx.strokeStyle='#9b978b';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(cx+w*.50,cy-h*.29);ctx.lineTo(cx+w*.50,cy-h*.05);ctx.stroke();
-    poly([[cx+w*.30,cy+h*.01],[cx+w*.56,cy-h*.08],[cx+w*.72,cy+h*.03],[cx+w*.46,cy+h*.12]],'#303231','#818078');
-    // chair left behind if worker has walked away
-    round(cx+w*.40,cy+h*.48,w*.20,h*.40,4,'#272928','#070707');
-    txt(person.name.toUpperCase(),cx+w/2,cy+h/2+drop+14*sc,6.4*sc,'#f8eee1','center');
-    txt(person.code+' · '+person.role.toUpperCase(),cx+w/2,cy+h/2+drop+23*sc,5.1*sc,'#c3b18a','center');
-    return {x:cx+w*.5,y:cy+h*.43,w:w,h:h,drop:drop};
-  }
-  function drawMini(person,t,scale,isCEO){
-    var x=person.x,y=person.y,bob=Math.sin(t*3.2+person.slot)*1.4*scale,walking=person.mode!=='work',sway=walking?Math.sin(t*8+person.slot)*5*scale:Math.sin(t*8+person.slot)*2*scale;
-    shadow(x,y+21*scale,11*scale);
-    // legs, made chunky to look like toys
-    ctx.fillStyle=isCEO?'#1b2842':'#242424';ctx.fillRect(x-9*scale,y+6*scale,7*scale,13*scale);ctx.fillRect(x+2*scale,y+6*scale,7*scale,13*scale);
-    // arms move distinctly while walking/typing
-    ctx.strokeStyle=person.skin;ctx.lineWidth=5*scale;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(x-9*scale,y-2*scale);ctx.lineTo(x-18*scale,y+3*scale+sway);ctx.moveTo(x+9*scale,y-2*scale);ctx.lineTo(x+18*scale,y+3*scale-sway);ctx.stroke();
-    round(x-11*scale,y-11*scale+bob,22*scale,20*scale,4*scale,isCEO?'#172349':person.color,'#181717');
-    ctx.fillStyle=person.hair;ctx.beginPath();ctx.arc(x,y-22*scale+bob,10.5*scale,0,Math.PI*2);ctx.fill();ctx.fillStyle=person.skin;ctx.beginPath();ctx.arc(x,y-20*scale+bob,8.4*scale,0,Math.PI*2);ctx.fill();
-    ctx.fillStyle='#251913';ctx.fillRect(x-3*scale,y-22*scale+bob,1.5*scale,1.5*scale);ctx.fillRect(x+2*scale,y-22*scale+bob,1.5*scale,1.5*scale);
-    if(isCEO){ctx.fillStyle='#d9ad41';ctx.fillRect(x-2*scale,y-8*scale+bob,4*scale,14*scale);}
-    txt(person.name.toUpperCase(),x,y+31*scale,6.2*scale,isCEO?'#f4cf64':'#efe7d9','center');
-    return {x:x,y:y};
-  }
-  function bubble(x,y,text,color,side){
-    var max=172,words=String(text).split(' '),lines=[],line='';words.forEach(function(word){var n=(line?line+' ':'')+word;if(n.length>26){lines.push(line);line=word;}else line=n;});if(line)lines.push(line);lines=lines.slice(0,2);var ww=Math.min(max,Math.max(82,Math.max.apply(null,lines.map(function(l){return l.length*5.6;}))+16)),hh=13+lines.length*11,xx=side==='left'?x-ww:x;
-    round(xx,y-hh,ww,hh,5,'#f4ead3','#5a4523');lines.forEach(function(l,i){txt(l,xx+7,y-hh+11+i*10,6.8,'#302819');});
-    poly([[xx+(side==='left'?ww-13:13),y],[xx+(side==='left'?ww-7:7),y],[xx+(side==='left'?ww-10:10),y+6]],'#f4ead3');
-  }
-  function propCoffee(x,y,sc){shadow(x+22*sc,y+21*sc,26*sc);round(x,y,42*sc,17*sc,3,'#5f4228','#d1a74b');round(x+10*sc,y-16*sc,18*sc,18*sc,3,'#1c2827','#8ccfbf');ctx.fillStyle='#e4d2a5';ctx.fillRect(x+14*sc,y-14*sc,10*sc,9*sc);txt('COFFEE BAR',x+21*sc,y+32*sc,5.5*sc,'#eacb72','center');}
-  function propLounge(x,y,sc){shadow(x+45*sc,y+38*sc,48*sc);round(x,y,90*sc,26*sc,8,'#25484a','#92d6ce');round(x+8*sc,y-13*sc,74*sc,20*sc,8,'#315c5f','#a8dfd2');txt('IDEA LOUNGE',x+45*sc,y+48*sc,5.5*sc,'#9cf1e3','center');}
-  function propWhiteboard(x,y,sc){round(x,y,94*sc,47*sc,3,'#e8e1c7','#9d7b38');ctx.strokeStyle='#4a8ddb';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(x+11*sc,y+33*sc);ctx.lineTo(x+33*sc,y+22*sc);ctx.lineTo(x+48*sc,y+28*sc);ctx.lineTo(x+77*sc,y+10*sc);ctx.stroke();txt('THESIS MAP',x+47*sc,y+42*sc,5*sc,'#2b3753','center');}
-  function frame(ms){
-    var t=ms/1000,r=canvas.getBoundingClientRect(),w=r.width,h=r.height;if(!w||!h){raf=requestAnimationFrame(frame);return;}var dt=Math.min(.05,(ms-lastMs||16)/1000);lastMs=ms;ctx.clearRect(0,0,w,h);
-    // Gentle god-camera drift.
-    var camX=Math.sin(t*.31)*7,camY=Math.cos(t*.23)*3;ctx.save();ctx.translate(camX,camY);
-    var bg=ctx.createLinearGradient(0,0,0,h);bg.addColorStop(0,'#1e2b29');bg.addColorStop(.38,'#131b19');bg.addColorStop(1,'#080b0b');ctx.fillStyle=bg;ctx.fillRect(-15,-15,w+30,h+30);
-    // glass walls, rails, and stock wall
-    for(var gx=-30;gx<w+50;gx+=44){ctx.strokeStyle='#bdf4ef0b';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(gx,0);ctx.lineTo(gx-w*.11,h*.40);ctx.stroke();}
-    round(w*.31,18,w*.38,44,5,'#102a33','#cba54a');txt('HVM INVESTMENT OPS · GOD CAMERA',w*.50,42,10,'#8ae9ff','center');
-    round(18,h*.17,105,28,4,'#243a39','#7cd7b8');txt('LIVE DATA WALL',70,h*.19,6,'#b7ffe7','center');txt('17 HOLDINGS · 8 THEMES',70,h*.213,5.5,'#7eaaa2','center');
-    // Floor slabs with perspective grid.
-    var fy=h*.245;poly([[-10,fy],[w+10,fy],[w+10,h+8],[-10,h+8]],'#171715','#5c4b2d');for(var row=0;row<12;row++){var yy=fy+row*row*h*.076;ctx.strokeStyle='#e8bf4c18';ctx.beginPath();ctx.moveTo(0,yy);ctx.lineTo(w,yy);ctx.stroke();}for(var q=-w;q<w*2;q+=59){ctx.strokeStyle='#ffffff0c';ctx.beginPath();ctx.moveTo(q,fy);ctx.lineTo(q+w*.23,h);ctx.stroke();}
-    var sc=Math.min(1.1,Math.max(.68,w/950)),baseY=h*.43,rowGap=h*.29,cw=w/5,homes=[];targets=[];
-    people.forEach(function(p,i){var col=i%5,row=Math.floor(i/5),cx=9+col*cw+cw*.085,cy=baseY+row*rowGap+(col%2?8:-1);var home=desk(cx,cy,p,sc,i===focus);homes[i]=home;targets.push({x:cx,y:cy,w:home.w,h:home.h+home.drop+36,code:p.code});});
-    // Walkable places. Three agents can leave their desks at any moment.
-    var coffee={x:w*.105,y:h*.33},lounge={x:w*.78,y:h*.31},board={x:w*.82,y:h*.16},meeting={x:w*.50,y:h*.28};propCoffee(coffee.x-20,coffee.y,sc);propLounge(lounge.x-47,lounge.y,sc);propWhiteboard(board.x-45,board.y-30,sc);
-    people.forEach(function(p,i){var phase=(Math.floor(t/6.5)+i*3)%10,home=homes[i],goal={x:home.x,y:home.y+15*sc,mode:'work'};if(phase===0)goal={x:coffee.x+(i%2)*24,y:coffee.y+21,mode:'coffee'};if(phase===1)goal={x:board.x+(i%2)*22,y:board.y+47,mode:'whiteboard'};if(phase===2)goal={x:lounge.x+(i%2)*25,y:lounge.y+33,mode:'chat'};if(phase===3)goal={x:meeting.x+(i%2?18:-18),y:meeting.y+34,mode:'briefing'};p.mode=goal.mode;if(!p.x){p.x=goal.x;p.y=goal.y;}p.tx=goal.x;p.ty=goal.y;var speed=dt*(p.mode==='work'?3.8:1.5);p.x+=(p.tx-p.x)*speed;p.y+=(p.ty-p.y)*speed;});
-    // Meeting table in middle, then characters sorted by depth.
-    shadow(meeting.x,meeting.y+28,38*sc);poly([[meeting.x-45*sc,meeting.y+4],[meeting.x,meeting.y-16*sc],[meeting.x+45*sc,meeting.y+4],[meeting.x,meeting.y+23*sc]],'#6d5528','#dfb747');
-    people.slice().sort(function(a,b){return a.y-b.y;}).forEach(function(p){drawMini(p,t,sc,false);});
-    // CEO walks toward an assigned worker and speaks to them.
-    var focusPerson=people[focus],work=actions[focus%Math.max(1,actions.length)]||{},targetX=focusPerson?focusPerson.x-42*sc:w*.5,targetY=focusPerson?focusPerson.y-30*sc:h*.18;if(!ceo.x){ceo.x=w*.5;ceo.y=h*.18;}ceo.tx=targetX;ceo.ty=Math.min(targetY,h*.34);ceo.x+=(ceo.tx-ceo.x)*dt*.55;ceo.y+=(ceo.ty-ceo.y)*dt*.55;
-    var ceoPerson={name:'HVM · CEO',slot:44,color:'#d0a33f',skin:'#c88b5d',hair:'#2a1d16',x:ceo.x,y:ceo.y,mode:'walk'};drawMini(ceoPerson,t,sc*1.28,true);bubble(ceo.x+18*sc,ceo.y-35*sc,(focusPerson?focusPerson.name:'Team')+', review '+(work.ticker||'the live queue')+' and send it to CIO.', '#f4ead3');
-    // Casual collaborator conversation close to their current locations.
-    var a=people[(focus+2)%people.length],b=people[(focus+3)%people.length];if(a&&b&&Math.abs(a.y-b.y)<h*.2){bubble((a.x+b.x)/2,(a.y+b.y)/2-30*sc,'Quick sync: '+(a.mode==='coffee'?'coffee + thesis check':'cross-checking the signal'), '#f4ead3');}
-    // God camera telemetry.
-    round(15,h-35,196,23,4,'#080d0ddb','#4bd19d55');txt('GODCAM 01 · FLOOR ACTIVITY',24,h-21,6.5,'#7ce3b4');txt('10 AGENTS · '+people.filter(function(p){return p.mode==='work';}).length+' AT DESKS · '+people.filter(function(p){return p.mode!=='work';}).length+' COLLABORATING',24,h-11,5.6,'#b4c3bc');
-    if(hover){txt('CLICK '+(AGENT_PEOPLE[hover.code]||hover.code).toUpperCase()+' TO OPEN LIVE PACKET',w/2,h-15,7.4,'#63f0a9','center');}
+  function pulse(x,y,r,color,t){ctx.strokeStyle=color;ctx.lineWidth=1;ctx.globalAlpha=.55+.35*Math.sin(t*3);ctx.beginPath();ctx.arc(x,y,r+(Math.sin(t*2)+1)*2,0,Math.PI*2);ctx.stroke();ctx.globalAlpha=1;}
+  function marker(p,t,scale,active){
+    var x=p.x,y=p.y,r=8*scale;ctx.save();ctx.shadowColor=p.color;ctx.shadowBlur=active?15:8;ctx.fillStyle=p.color;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;ctx.fillStyle='#07100e';ctx.beginPath();ctx.arc(x,y,r*.48,0,Math.PI*2);ctx.fill();
+    // animated position halo = person moving in the dollhouse.
+    pulse(x,y,r+4*scale,p.color+'cc',t+p.slot);if(p.mode!=='DESK'){ctx.strokeStyle=p.color;ctx.setLineDash([3,4]);ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(p.tx,p.ty);ctx.stroke();ctx.setLineDash([]);}
+    var name=p.name.split(' ')[0].toUpperCase(),label=name+' · '+p.code;ctx.font=(6.4*scale)+'px DM Mono,monospace';var wid=ctx.measureText(label).width+13*scale,ly=y-17*scale;round(x-wid/2,ly,wid,12*scale,3*scale,'#07100edb',p.color+'a0');txt(label,x,ly+8.5*scale,6.4*scale,'#f7f4e9','center');
+    if(active){ctx.font=(6*scale)+'px DM Mono,monospace';var task=(p.mode==='DESK'?p.task:p.mode+' · '+p.task).slice(0,35),tw=ctx.measureText(task).width+14*scale;round(x-tw/2,y+14*scale,tw,13*scale,3*scale,'#f5ead3','#e8c162');txt(task,x,y+23*scale,6*scale,'#2c251a','center');}
     ctx.restore();
+  }
+  function miniAvatar(x,y,p,scale,t,isCEO){
+    // Small moving LEGO-style digital twin, layered onto the real dollhouse photo.
+    var s=scale*(isCEO?1.35:1),bob=Math.sin(t*3+p.slot)*1.2*s,walk=Math.sin(t*9+p.slot)*3*s;ctx.save();ctx.shadowColor='#000';ctx.shadowBlur=5;ctx.fillStyle='#0007';ctx.beginPath();ctx.ellipse(x,y+13*s,10*s,3*s,0,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;
+    ctx.fillStyle=isCEO?'#173765':p.color;round(x-7*s,y-6*s+bob,14*s,14*s,3*s,ctx.fillStyle,'#111');ctx.fillStyle=p.skin;ctx.beginPath();ctx.arc(x,y-13*s+bob,6*s,0,Math.PI*2);ctx.fill();ctx.fillStyle=p.hair;ctx.beginPath();ctx.arc(x,y-16*s+bob,7*s,Math.PI,Math.PI*2);ctx.fill();ctx.strokeStyle=p.skin;ctx.lineWidth=3*s;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(x-6*s,y-2*s);ctx.lineTo(x-12*s,y+walk);ctx.moveTo(x+6*s,y-2*s);ctx.lineTo(x+12*s,y-walk);ctx.stroke();ctx.fillStyle='#1e2025';ctx.fillRect(x-6*s,y+7*s,5*s,7*s);ctx.fillRect(x+1*s,y+7*s,5*s,7*s);ctx.restore();
+  }
+  function bubble(x,y,text,color){var words=String(text).split(' '),lines=[],line='';words.forEach(function(word){var next=(line?line+' ':'')+word;if(next.length>30){lines.push(line);line=word;}else line=next;});if(line)lines.push(line);lines=lines.slice(0,2);var width=Math.max.apply(null,lines.map(function(v){return v.length*5.4;}))+16,height=lines.length*10+12;round(x,y-height,width,height,6,'#f8f0dfed',color||'#e1bb63');lines.forEach(function(v,i){txt(v,x+8,y-height+10+i*10,6.4,'#31281b');});}
+  function frame(ms){
+    var t=ms/1000,rect=canvas.getBoundingClientRect(),w=rect.width,h=rect.height;if(!w||!h){raf=requestAnimationFrame(frame);return;}var dt=Math.min(.05,(ms-lastMs||16)/1000);lastMs=ms;ctx.clearRect(0,0,w,h);
+    // Lens glints and moving focus cue, intentionally light so the photoreal diorama stays dominant.
+    var grad=ctx.createLinearGradient(0,0,w,h);grad.addColorStop(0,'#4ee2ff09');grad.addColorStop(.52,'#ffffff00');grad.addColorStop(1,'#f5b9460b');ctx.fillStyle=grad;ctx.fillRect(0,0,w,h);
+    hotspots=[];var zones={coffee:[.86,.58,'COFFEE SYNC'],lounge:[.68,.38,'IDEA LOUNGE'],board:[.83,.34,'WHITEBOARD'],brief:[.52,.47,'CIO BRIEF']};
+    people.forEach(function(p,i){var phase=(Math.floor(t/7)+i*3)%10,base=bases[i],goal=[base[0],base[1],'DESK'];if(phase===0)goal=zones.coffee;if(phase===1)goal=zones.lounge;if(phase===2)goal=zones.board;if(phase===3)goal=zones.brief;p.mode=goal[2];p.tx=goal[0]*w;p.ty=goal[1]*h;if(!p.x){p.x=p.tx;p.y=p.ty;}var speed=dt*(p.mode==='DESK'?4.8:1.0);p.x+=(p.tx-p.x)*speed;p.y+=(p.ty-p.y)*speed;hotspots.push({x:p.x,y:p.y,r:22,code:p.code});});
+    // Moving micro-figures make off-desk activities unmistakable; desk agents have a subtle holographic presence only.
+    people.forEach(function(p,i){if(p.mode!=='DESK')miniAvatar(p.x,p.y,p,1,t,false);});
+    people.forEach(function(p,i){marker(p,t,Math.min(1.18,Math.max(.75,w/1100)),i===focus);});
+    var target=people[focus],act=actions[focus%Math.max(1,actions.length)]||{},ceoGoal=target?{x:target.x-38,y:target.y-30}:{x:w*.5,y:h*.4};if(!ceo.x){ceo.x=w*.52;ceo.y=h*.45;}ceo.x+=(ceoGoal.x-ceo.x)*dt*.6;ceo.y+=(ceoGoal.y-ceo.y)*dt*.6;var ceoP={name:'HVM',slot:20,skin:'#c88b5d',hair:'#281c17',color:'#c79a3b'};miniAvatar(ceo.x,ceo.y,ceoP,1.12,t,true);pulse(ceo.x,ceo.y,15,'#e7bd5d',t);bubble(ceo.x+18,ceo.y-28,'CEO → '+(target?target.name:'Team')+': review '+(act.ticker||'today\'s priority')+' before CIO.', '#e9c465');
+    var chatA=people[(focus+2)%people.length],chatB=people[(focus+3)%people.length];if(chatA&&chatB){var mx=(chatA.x+chatB.x)/2,my=(chatA.y+chatB.y)/2-15;bubble(mx,my,'Quick sync: '+(chatA.mode==='DESK'?'cross-checking the thesis':'taking this to the lounge'), '#5cd8bd');}
+    // cinematic camera UI
+    round(15,15,184,42,6,'#06110ee0','#75e7c488');txt('◉  GOD CAMERA · FLOOR 01',25,31,7.5,'#8df5cc');txt('10 PEOPLE TRACKED · LIVE TASKS',25,46,6.1,'#d7ebe4');round(w-165,15,150,42,6,'#101009d7','#e5be6577');txt('CEO WALKTHROUGH',w-154,31,7,'#f0cf75');txt((target?target.name:'TEAM')+' · '+(target?target.mode:'LIVE'),w-154,46,6,'#e8e5d6');
+    // Camera reticle follows current task.
+    if(target){ctx.strokeStyle='#f3cc63';ctx.lineWidth=1;ctx.setLineDash([3,4]);ctx.beginPath();ctx.arc(target.x,target.y,28+Math.sin(t*2)*3,0,Math.PI*2);ctx.stroke();ctx.setLineDash([]);}
+    if(hover){txt('OPEN '+(AGENT_PEOPLE[hover.code]||hover.code).toUpperCase()+"'S ASSIGNMENT",w/2,h-17,7.5,'#93f4cc','center');}
     if(ms-lastFocus>6500){focus=(focus+1)%people.length;lastFocus=ms;}
     raf=requestAnimationFrame(frame);
   }
-  function pick(e){var b=canvas.getBoundingClientRect(),x=e.clientX-b.left,y=e.clientY-b.top;return targets.find(function(a){return x>=a.x&&x<=a.x+a.w&&y>=a.y-a.h*.70&&y<=a.y+a.h;})||null;}
+  function pick(e){var b=canvas.getBoundingClientRect(),x=e.clientX-b.left,y=e.clientY-b.top;return hotspots.find(function(h){return Math.hypot(x-h.x,y-h.y)<=h.r+10;})||null;}
   canvas.onmousemove=function(e){hover=pick(e);canvas.style.cursor=hover?'pointer':'crosshair';};canvas.onclick=function(e){var hit=pick(e);if(hit&&typeof window.openCeoPacket==='function')window.openCeoPacket(hit.code);};
-  resize();window.addEventListener('resize',resize);raf=requestAnimationFrame(frame);window.__officeGame={stop:function(){cancelAnimationFrame(raf);canvas.onmousemove=null;canvas.onclick=null;window.removeEventListener('resize',resize);}};
+  resize();window.addEventListener('resize',resize);raf=requestAnimationFrame(frame);window.__officeGame={stop:function(){cancelAnimationFrame(raf);canvas.onmousemove=null;canvas.onclick=null;window.removeEventListener('resize',resize);},hotspots:function(){return hotspots.slice();}};
 }
 function buildCEOGame(){
   var el=document.getElementById('ceoGame');if(!el)return;
@@ -5016,7 +4983,7 @@ function buildCEOGame(){
   var chatNames=['PULSE','VECTOR','MOSAIC','LEDGER','SENTINEL'];
   var chat=chatNames.map(function(name,i){return '<div class="office-msg"><b>'+((AGENT_PEOPLE[name]||name)+' / '+name)+'</b> · '+ceoOfficeMessage(name,actions.slice(i),news.slice(i),themes.slice(i))+'<small>just now · routed to Finance Analysts</small></div>';}).join('');
   var cioText=(p0.length?p0.map(function(p){return p.t;}).join(', ')+' require priority review. ':'')+(actions.length?actions.filter(function(a){return a.urgency==='critical'||a.urgency==='high';}).length+' material market signals are in the analyst queue. ':'Research feed is loading. ')+'No trade instruction is issued until CEO approval.';
-  el.innerHTML='<div class="ceo-game-eyebrow">HVM INVESTMENT OS · LIVE GOD CAMERA</div><div class="ceo-game-title">THE CEO FLOOR · GOD VIEW</div><div class="ceo-game-sub">Watch the whole floor from above: agents work, walk to briefings, compare research at the lounge, and report back to you. Click a minifigure to inspect their live packet.</div><div class="office-toolbar"><span class="office-live">OFFICE OPEN · '+(liveResearch?'RESEARCH FLOWING':'SYNCING FEEDS')+'</span><span class="office-clock">10 AGENTS · '+(actions.length||0)+' ACTIONS IN REVIEW</span></div><div class="office-suite"><div class="office-room"><div class="office-hud"><span>GODCAM 01 · LIVE RESEARCH FLOOR</span><span>AGENTS MOVING · TASKS ASSIGNED</span></div><canvas id="officeCanvas" aria-label="Interactive HVM agent office"></canvas><div class="office-help">GOD VIEW · CLICK A MINIFIGURE TO OPEN THEIR ASSIGNED WORK</div></div><aside class="office-chat"><div class="office-chat-head">TEAM CHAT <span>LIVE RESEARCH BUS</span></div><div class="office-thread" id="officeThread">'+chat+'</div></aside></div>'
+  el.innerHTML='<div class="ceo-game-eyebrow">HVM INVESTMENT OS · CINEMATIC CEO DIORAMA</div><div class="ceo-game-title">THE CEO FLOOR · CINEMATIC GOD VIEW</div><div class="ceo-game-sub">A cinematic, living miniature of your investment firm: the CEO gives assignments, agents collaborate across the floor, and each person carries a live research task.</div><div class="office-toolbar"><span class="office-live">OFFICE OPEN · '+(liveResearch?'RESEARCH FLOWING':'SYNCING FEEDS')+'</span><span class="office-clock">10 AGENTS · '+(actions.length||0)+' ACTIONS IN REVIEW</span></div><div class="office-suite"><div class="office-room"><div class="office-backdrop" aria-hidden="true"></div><div class="office-hud"><span>GODCAM 01 · LIVE RESEARCH FLOOR</span><span>AGENTS MOVING · TASKS ASSIGNED</span></div><canvas id="officeCanvas" aria-label="Interactive cinematic HVM agent office"></canvas><div class="office-help">GOD VIEW · CLICK A MINIFIGURE TO OPEN THEIR ASSIGNED WORK</div><div class="office-camera-badge">◉ LIVE · AUTO-TRACKING</div></div><aside class="office-chat"><div class="office-chat-head">TEAM CHAT <span>LIVE RESEARCH BUS</span></div><div class="office-thread" id="officeThread">'+chat+'</div></aside></div>'
     +'<div class="ceo-stage"><div class="ceo-stage-head"><div class="ceo-stage-label">Stage 02 · Finance analyst team</div><div class="ceo-stage-state">REVIEWING</div></div><div class="ceo-analyst-grid"><div class="ceo-analyst"><h3>Portfolio Analyst</h3><p>Checks current weight, return, units, DCA exposure and rebalancing gaps.</p></div><div class="ceo-analyst"><h3>Risk Analyst</h3><p>Reviews concentration, technical risk, downside levels and P0 gaps.</p></div><div class="ceo-analyst"><h3>Sector Analyst</h3><p>Cross-checks theme research, catalysts, earnings and market regime.</p></div></div></div><div class="ceo-arrow">↓</div>'
     +'<div class="ceo-stage"><div class="ceo-stage-head"><div class="ceo-stage-label">Stage 03 · Chief Investment Officer review</div><div class="ceo-stage-state">AWAITING CEO</div></div><div class="cio-card"><div class="cio-badge">CIO</div><div><div class="cio-title">Investment committee synthesis</div><div class="cio-body">'+cioText+'</div></div><button class="ceo-btn" onclick="openCeoPacket(\'CIO\')">OPEN DOSSIER</button></div></div><div class="ceo-arrow">↓</div>'
     +'<div class="ceo-decision"><div><h3>CEO DECISION GATE · HVM</h3><p>Final conclusion stays with you. The system records research and proposes a review queue; it does not execute a trade.</p></div><button class="ceo-btn" onclick="openCeoPacket(\'CEO\')">VIEW CEO BRIEFING</button></div><div class="ceo-packet" id="ceoPacket"></div>';
