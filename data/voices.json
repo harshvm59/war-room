@@ -1,200 +1,114 @@
 {
-  "updated_at": "2026-05-31T22:44:29.965040+05:30",
-  "source": "claude-cowork",
+  "updated_at": "2026-08-08T10:30:02.456166+05:30",
+  "source": "google-news-rss-fallback",
   "items": [
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-05-20",
+      "date": "2026-08-08",
       "themes": [
-        "#NVDA",
         "#AI",
-        "#Blackwell",
-        "#VeraRubin",
-        "#TSM"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "On the May 20 earnings call, Huang said the Vera Rubin platform will be more successful than Blackwell, noting that every single frontier model company is adopting Vera Rubin from its launch date, which wasn't true for Blackwell. (paraphrase)",
+          "t": "Headline signal (not a direct quote): Nvidia's growing web of AI deals has investors asking an uncomfortable question - Business Insider",
           "k": true
-        },
-        {
-          "t": "We are huge supporters of the United States having the first, the most, and the best when it comes to AI hardware.",
-          "k": false
         }
       ],
-      "src": "https://www.fool.com/investing/2026/05/27/jensen-huang-delivered-incredible-news-for-nvidia/"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Analyst",
-      "org": "Wedbush Securities",
-      "cat": "Analyst",
-      "date": "2026-05-21",
-      "themes": [
-        "#NVDA",
-        "#AI",
-        "#Semis"
-      ],
-      "quotes": [
-        {
-          "t": "A golden quarter for Nvidia with demand massive and well above Street whisper numbers. These numbers validate the AI Revolution is still early days and send the bears back into hibernation mode.",
-          "k": true
-        },
-        {
-          "t": "We're still less than 10-15% through the AI revolution. The base case is Nvidia at $250 by the end of 2026.",
-          "k": false
-        }
-      ],
-      "src": "https://money.whatfinger.com/2026/05/21/market-bears-still-in-hibernation-mode-after-nvidia-earnings-says-wedbushs-dan-ives/"
-    },
-    {
-      "name": "Jim Cramer",
-      "role": "Host, CNBC Mad Money",
-      "org": "CNBC",
-      "cat": "Investor",
-      "date": "2026-05-20",
-      "themes": [
-        "#NVDA",
-        "#Semis",
-        "#AI",
-        "#AMD",
-        "#AVGO"
-      ],
-      "quotes": [
-        {
-          "t": "It's a new era. Semis are now in charge. Software is taking a back seat.",
-          "k": true
-        },
-        {
-          "t": "You buy NVIDIA not for China, not because of the Cerebras IPO, but because it's actually a cheap stock, cheaper than Intel, cheaper than AMD, cheaper than Broadcom.",
-          "k": false
-        }
-      ],
-      "src": "https://www.cnbc.com/2026/05/20/jim-cramer-says-the-world-of-tech-investing-has-changed-and-its-not-going-back.html"
-    },
-    {
-      "name": "Alex Karp",
-      "role": "CEO",
-      "org": "Palantir",
-      "cat": "CEO",
-      "date": "2026-05-04",
-      "themes": [
-        "#PLTR",
-        "#AI",
-        "#AISlop"
-      ],
-      "quotes": [
-        {
-          "t": "Karp repeatedly warned that most AI competitors are selling 'AI slop' — polished demos and convincing pitches that fall apart when they meet a real enterprise. (paraphrase)",
-          "k": true
-        },
-        {
-          "t": "Palantir grew 85% in Q1 2026 — our highest-ever year-over-year growth rate — by more than doubling our U.S. business, and we raised full-year revenue guidance to 71% growth. (paraphrase)",
-          "k": false
-        }
-      ],
-      "src": "https://www.thestreet.com/investing/stocks/palantir-ceo-issues-blunt-warning-to-ai-slop-competitors"
-    },
-    {
-      "name": "Chamath Palihapitiya",
-      "role": "Founder & CEO",
-      "org": "Social Capital",
-      "cat": "Investor",
-      "date": "2026-05-12",
-      "themes": [
-        "#AI",
-        "#ROI",
-        "#SP500",
-        "#Compute"
-      ],
-      "quotes": [
-        {
-          "t": "There is literally not a scintilla of evidence that AI has helped lift the operating margins of the S&P 500.",
-          "k": true
-        },
-        {
-          "t": "To the extent that OpenAI missed, I think what that is is an insight into not enough compute capacity today and that problem is only getting worse.",
-          "k": false
-        }
-      ],
-      "src": "https://247wallst.com/investing/2026/05/12/chamath-warns-companies-must-prove-roi-from-ai-within-500-days/"
-    },
-    {
-      "name": "Cathie Wood",
-      "role": "Founder & CEO",
-      "org": "ARK Invest",
-      "cat": "Investor",
-      "date": "2026-05-18",
-      "themes": [
-        "#TSLA",
-        "#NVDA",
-        "#AI",
-        "#Robotaxi",
-        "#AMD",
-        "#TSM"
-      ],
-      "quotes": [
-        {
-          "t": "ARK sold over $28 million in AMD and TSMC shares while adding to Nvidia and Tesla, keeping Tesla at the center of its bet on autonomous driving, robotics and next-generation consumer technology. (paraphrase)",
-          "k": true
-        },
-        {
-          "t": "ARK's long-term model still predicts that 90% of Tesla's enterprise value will eventually come from its Robotaxi fleet, with a 2026 price target of $4,600. (paraphrase)",
-          "k": false
-        }
-      ],
-      "src": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/05/52653442/cathie-wood-sells-amd-tsmc-buys-nvidia-tesla-flying-taxis"
+      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOUpQYl9mem5RNDdVQndvVlBDMXB2cElsVjg5cW5qYzBqa09CcU5RN2s3WmRyQlpwQWJTdklUcldFdGFjYXZhNGZOejBMZXVud2J1SEZnc3pFdHZJTkQzdjJwSVdWbno1OURsdjRuR0R5MzdhOU1NMXZMb2hOeEJpZ0lScHZ5d2haUXpDN01xczhNa0V3a0p4S0RpOEZBRWZ0VHV6SA?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-05-26",
+      "date": "2026-08-08",
       "themes": [
         "#AI",
-        "#OpenAI",
-        "#Jobs",
-        "#IPO"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Speaking in Sydney, Altman said AI is unlikely to cause a 'jobs apocalypse,' admitting his team was 'pretty wrong' on the social and economic impact even as they were 'roughly right' on the technology itself. (paraphrase)",
+          "t": "Headline signal (not a direct quote): Sam Altman reveals the investing advice billionaire Peter Thiel gave him that's led to a $3.3 billion net worth - Fortune",
           "k": true
-        },
-        {
-          "t": "I am delighted to be wrong about the impact AI would have on employment.",
-          "k": false
         }
       ],
-      "src": "https://time.com/article/2026/05/26/sam-altman-ai-job-losses-openAI-/"
+      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUHBKVVhwSGNQem9fSTJhZW5VNDF3VG82OW5pQkQ2YlM2ek40SjBheVRLTXBsRlJBcmY2S0RZeGI1Wk8wQUNCMDExSTkxbTQxNkM2aGNoYkFyanRyY18telk5X1RiOXViZHdFc0l5ZVJrelhKSHc5TWpzN2NWRVRDMW9QeTZaeGMzWGRQdFRyVkhmVUE5aWR3MkN6QmJvVC1yd3puVDQzeHpibWp4ZGFFQmRmUHd4YVFIVVNESXdRR3dPbFZ3bFlnekVQbVR1b2ZW?oc=5"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-08-08",
+      "themes": [
+        "#AI",
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Why Dan Ives Sees Apple WWDC As A Major AI Catalyst for AAPL - Stocktwits",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQanh4dmthZ2JxNW1jU3ZHQzhtNUJhLUZVVFpDUGl5WGJpTllPSlNyclc4ZHBYWktGbDh0TTIyVXNpZUp0cEZoZDkzUUR2MEJFM1FyR3lzOVZTazdZUGlKNjIydzdSTXBhaFRfVFY0bTk4QWZWZW8tQkJTME9iTFZiUDFJRFIwWWRQVUFHRTRub2drd0l5R3Q1MXhqWC1feTdnUDJhSHVnaU1ieFVRWmc?oc=5"
+    },
+    {
+      "name": "Satya Nadella",
+      "role": "CEO",
+      "org": "Microsoft",
+      "cat": "CEO",
+      "date": "2026-08-08",
+      "themes": [
+        "#AI",
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains. Here's Why That Matters for Investors - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRjZkZnRxWDZIbFJoczVfQVd0SlZMZGg1eTFDTzdTTGRNWVF3UFFZVUF4eWptMDZyMUg5SC1PUnFFbTBob3hJaHY1TlJIbTJySmFMTThVMFBVYl9fMzJaYjA0VENSSVVDVlJiRTV0QURZRnplMmVmZ0FwZkk3NXNGSmtoUGhTNG1zcEQ2cVVqNnlxOWJZUzhFMFFZaEdfQQ?oc=5"
     },
     {
       "name": "Lisa Su",
-      "role": "Chair & CEO",
+      "role": "CEO",
       "org": "AMD",
       "cat": "CEO",
-      "date": "2026-05-29",
+      "date": "2026-08-08",
       "themes": [
-        "#AMD",
         "#AI",
-        "#MI400",
-        "#Inference"
+        "#AMD"
       ],
       "quotes": [
         {
-          "t": "The MI400 series was a major inflection point in terms of delivering leadership training across all workloads, inference, scientific computing.",
+          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su on AI demand and hyperscaler spending: 'We're seeing the returns' - Yahoo Finance",
           "k": true
-        },
-        {
-          "t": "As AI adoption accelerates, we are entering the era of yotta-scale computing, driven by unprecedented growth in both training and inference.",
-          "k": false
         }
       ],
-      "src": "https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance/"
+      "src": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTzB0UGtzRDFFckFCaFJhejFzVmtRLXJoV3M2NFBQU014cEtudHd2dEx5NVVtXzNtaXRya1VOeWxkaGVoSEJsRkt1cExpNjhITmVtaGtvVHBiYTV3LWtUT0NfSzRMMlFobDlzWC1tblZRcjJrcUdSNTQ2N1paZEZkWmhSWDNTZk9YRUhudE5HbnI4VGhUc0ZyOFZDZUlyenU1S2FpcEhnZ1BuTGpzOHNBMGd2cmRyc0tXdDlMdlcyZWRXT1RGdmdHWnFRZXAyTU95R0Nj?oc=5"
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "role": "Investor",
+      "org": "Social Capital",
+      "cat": "Investor",
+      "date": "2026-08-08",
+      "themes": [
+        "#AI",
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Chamath Palihapitiya says soaring AI token spend will hit companies' earnings - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WOHdUOW9Lb1ZqOEFzM0ZlcTBmWmZfSDJSTXBacnRVNWc1VVpBcVpNOGlrU1JiM2NjQm0zR1dMUnU1WC1KcUR5bFctSnFuZ0J3N1VLUGtUQjA0bjdaVU14eGdnTkVvX0NYWWlHclQwSjd4b3FtOG9rYy1EaXFlZ9IBgwFBVV95cUxPdzdWTGxwOHlwMjZPWG5JZV9UUF9lakRfM282SmZidGJsM09WcFJtY3RCWUxfcElvblNjMXJFRG8yUWNwRHhZMXAzZmJEdUpEOUlNVnkwdk5nSTl0aWVtbEV6eTk4WW5yYlU2d2hkYkhMdlZFdXBRNTRhV3Fzb0d1UWxDYw?oc=5"
     }
   ]
 }
