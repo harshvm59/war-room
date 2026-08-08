@@ -29,9 +29,19 @@ def rss(query, limit=2):
     return out
 
 def fallback_themes():
+    queries={
+      'AI Compute & Semiconductors':'Nvidia AMD TSM semiconductor AI stocks',
+      'Energy & Nuclear Power':'nuclear energy data center power CEG stocks',
+      'Defense & National Security':'defense technology AI stocks national security',
+      'Agentic AI & Enterprise SaaS':'enterprise AI software Palantir agentic AI stocks',
+      'Healthcare AI & GLP-1':'GLP-1 healthcare AI stocks Eli Lilly Novo Nordisk',
+      'Physical AI & Humanoid Robotics':'humanoid robotics Tesla physical AI stocks',
+      'Critical Minerals & Copper':'copper critical minerals AI data center stocks',
+      'Sovereign AI Infrastructure':'sovereign AI infrastructure government data center stocks',
+    }
     out=[]
     for theme in THEMES:
-        articles=rss('"%s" investing market' % theme)
+        articles=rss(queries[theme])
         headline=articles[0]['title'] if articles else 'No fresh RSS headline returned'
         out.append({'theme':theme,'rating':'WARM','rc':'var(--gold)','summary':'Daily automated RSS scan on %s. Latest source-linked signal: %s' % (now_ist().strftime('%Y-%m-%d'),headline),'news':articles,'tickers':[]})
     return out
