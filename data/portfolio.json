@@ -3,8 +3,8 @@
     {
       "ticker": "NVDA",
       "name": "Nvidia Corporation",
-      "units": 120.896848615,
-      "avg_cost": 86.44,
+      "units": 119.93097887,
+      "avg_cost": 87.78,
       "theme": "AI Compute",
       "priority": "P1",
       "target_value": {
@@ -18,8 +18,8 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor",
-      "units": 28.221813182,
-      "avg_cost": 160.48,
+      "units": 28.960011046,
+      "avg_cost": 166.99,
       "theme": "AI Compute",
       "priority": "P1",
       "target_value": {
@@ -33,8 +33,8 @@
     {
       "ticker": "TSLA",
       "name": "Tesla Inc",
-      "units": 27.156680144,
-      "avg_cost": 266.84,
+      "units": 26.567292392,
+      "avg_cost": 267.74,
       "theme": "Physical AI",
       "priority": "P2",
       "target_value": {
@@ -48,8 +48,8 @@
     {
       "ticker": "META",
       "name": "Meta Platforms",
-      "units": 16.009156068,
-      "avg_cost": 430.88,
+      "units": 16.34891344,
+      "avg_cost": 436.1,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -63,8 +63,8 @@
     {
       "ticker": "GOOGL",
       "name": "Alphabet Inc",
-      "units": 19.617116379,
-      "avg_cost": 195.15,
+      "units": 19.92975778,
+      "avg_cost": 199.08,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -78,8 +78,8 @@
     {
       "ticker": "AMZN",
       "name": "Amazon Inc",
-      "units": 24.776504475,
-      "avg_cost": 195.8,
+      "units": 25.227043572,
+      "avg_cost": 197.66,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -93,8 +93,8 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies",
-      "units": 44.750469539,
-      "avg_cost": 92.56,
+      "units": 47.185855591,
+      "avg_cost": 97.11,
       "theme": "AI Software",
       "priority": "P2",
       "target_value": {
@@ -108,8 +108,8 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "units": 11.172868458,
-      "avg_cost": 422.94,
+      "units": 7.092138707,
+      "avg_cost": 423.32,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -123,8 +123,8 @@
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices",
-      "units": 9.712667918,
-      "avg_cost": 178.81,
+      "units": 10.547953941,
+      "avg_cost": 204.09,
       "theme": "AI Compute",
       "priority": "P1",
       "target_value": {
@@ -138,8 +138,8 @@
     {
       "ticker": "CRWD",
       "name": "CrowdStrike Holdings",
-      "units": 5.496161548,
-      "avg_cost": 429.42,
+      "units": 24.140204609,
+      "avg_cost": 113.95,
       "theme": "AI Security",
       "priority": "P2",
       "target_value": {
@@ -153,8 +153,8 @@
     {
       "ticker": "MU",
       "name": "Micron Technology",
-      "units": 3.81197998,
-      "avg_cost": 403.53,
+      "units": 4.463030313,
+      "avg_cost": 477.85,
       "theme": "AI Compute",
       "priority": "P0",
       "target_value": {
@@ -168,8 +168,8 @@
     {
       "ticker": "VRT",
       "name": "Vertiv Holdings",
-      "units": 7.266933811,
-      "avg_cost": 221.8,
+      "units": 8.810567154,
+      "avg_cost": 242.06,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -183,8 +183,8 @@
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc",
-      "units": 4.286080622,
-      "avg_cost": 338.64,
+      "units": 5.44228665,
+      "avg_cost": 356.58,
       "theme": "AI Compute",
       "priority": "P0",
       "target_value": {
@@ -198,8 +198,8 @@
     {
       "ticker": "ASML",
       "name": "ASML Holding NV",
-      "units": 1.036766296,
-      "avg_cost": 1012.44,
+      "units": 1.079121631,
+      "avg_cost": 1058.68,
       "theme": "AI Compute",
       "priority": "P1",
       "target_value": {
@@ -213,8 +213,8 @@
     {
       "ticker": "CEG",
       "name": "Constellation Energy",
-      "units": 3.018309165,
-      "avg_cost": 289.02,
+      "units": 4.795418203,
+      "avg_cost": 285.44,
       "theme": "AI Energy",
       "priority": "P0",
       "target_value": {
@@ -228,8 +228,8 @@
     {
       "ticker": "BE",
       "name": "Bloom Energy Corp",
-      "units": 1.748257462,
-      "avg_cost": 248.52,
+      "units": 3.47128982,
+      "avg_cost": 252.27,
       "theme": "AI Energy",
       "priority": "P3",
       "target_value": {
@@ -243,8 +243,8 @@
     {
       "ticker": "ANET",
       "name": "Arista Networks",
-      "units": 3.623430319,
-      "avg_cost": 147.02,
+      "units": 4.772337377,
+      "avg_cost": 151.59,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -261,6 +261,25 @@
     "total_holdings": 17,
     "source": "extracted from index.html PORT array on 2026-05-14",
     "currency": "USD",
-    "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth."
+    "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
+    "broker_source": "INDmoney MCP",
+    "broker_synced_at": "2026-08-08T22:12:25.408Z",
+    "broker_synced_at_ist": "9 Aug 2026, 3:42 am",
+    "usd_inr": 95.21,
+    "strategy_holdings": 17,
+    "other_linked_assets": [
+      {
+        "name": "Space Exploration Technologies Corp. Class A Common Stock",
+        "units": 0.414793535,
+        "current_value_usd": 47.69
+      },
+      {
+        "name": "SK hynix Inc. American Depositary Shares",
+        "units": 1.537974112,
+        "current_value_usd": 220.87
+      }
+    ],
+    "usd_wallet": 569.23,
+    "broker_account_value_usd": 105953.99
   }
 }
