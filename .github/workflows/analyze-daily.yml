@@ -34,12 +34,12 @@ jobs:
         run: |
           git config user.name  "war-room-bot"
           git config user.email "war-room-bot@users.noreply.github.com"
-          if git diff --quiet -- data/actions.json data/prices.json; then
+          if git diff --quiet -- data/actions.json data/prices.json data/analysis.json; then
             echo "actions.json/prices.json unchanged - skipping commit."
             exit 0
           fi
           STAMP=$(date -u +"%Y-%m-%d %H:%MZ")
-          git add data/actions.json data/prices.json
+          git add data/actions.json data/prices.json data/analysis.json data/analysis.json
           git commit -m "TA refresh ${STAMP} [skip ci]"
           for attempt in 1 2 3 4 5; do
             if git push; then echo "Pushed on attempt ${attempt}"; exit 0; fi
