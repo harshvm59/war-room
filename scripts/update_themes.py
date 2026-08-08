@@ -1,105 +1,46 @@
 #!/usr/bin/env python3
-"""
-Themes refresh — runs every 2 days at 09:00 IST.
-
-Uses Anthropic's `web_search` tool to gather the latest data points for each of
-the 8 macro investment themes the dashboard tracks. Writes a single
-`data/themes.json` consumed by the dashboard.
-"""
-
+"""Daily themes refresh with source-linked RSS fallback when paid research is unavailable."""
 from __future__ import annotations
-
-import json
-import re
-import sys
-
+import json, re, sys
+from urllib.parse import quote_plus
+from xml.etree import ElementTree as ET
+import requests
 from anthropic import Anthropic
-
 from _common import envelope, now_ist, require_key, write_json
 
-MODEL = "claude-haiku-4-5-20251001"
+MODEL="claude-haiku-4-5-20251001"
+THEMES=["AI Compute & Semiconductors","Energy & Nuclear Power","Defense & National Security","Agentic AI & Enterprise SaaS","Healthcare AI & GLP-1","Physical AI & Humanoid Robotics","Critical Minerals & Copper","Sovereign AI Infrastructure"]
+PROMPT="""Today is {date}. Use web_search to refresh these investment themes: {themes}. Return a JSON array where each item has theme, rating HOT|WARM|COLD, rc, summary, news:[{{title,date,url}}], and tickers. Every statement needs a source URL; never make up a data point."""
 
-THEMES = [
-    "AI Compute & Semiconductors",
-    "Energy & Nuclear Power",
-    "Defense & National Security",
-    "Agentic AI & Enterprise SaaS",
-    "Healthcare AI & GLP-1",
-    "Physical AI & Humanoid Robotics",
-    "Critical Minerals & Copper",
-    "Sovereign AI Infrastructure",
-]
-
-
-PROMPT = """Today is {date}. Use web_search to refresh the 8 investment themes
-the HVM Investment OS tracks. For each theme, find 1–2 fresh data points or
-news items from the past 7 days and assign a heat rating.
-
-OUTPUT a single JSON array, one object per theme, in this exact order:
-{themes}
-
-Each object shape:
-{{
-  "theme": "AI Compute & Semiconductors",
-  "rating": "HOT|WARM|COLD",
-  "rc": "var(--red)|var(--gold)|var(--blue)",   // red=hot, gold=warm, blue=cold
-  "summary": "2-3 sentence current state of the theme, with hard numbers and dated data.",
-  "news": [
-    {{ "title": "Headline", "date": "YYYY-MM-DD", "url": "https://..." }}
-  ],
-  "tickers": ["NVDA", "MU", "TSM"]
-}}
-
-Rules:
-- Each item MUST include at least one real news URL from web_search.
-- Skip anything older than 7 days.
-- Return ONLY the JSON array, nothing else.
-"""
-
-
-def call_claude_with_search() -> list[dict]:
-    client = Anthropic(api_key=require_key())
-
-    msg = client.messages.create(
-        model=MODEL,
-        max_tokens=8000,
-        tools=[
-            {
-                "type": "web_search_20250305",
-                "name": "web_search",
-                "max_uses": 10,
-            }
-        ],
-        messages=[
-            {
-                "role": "user",
-                "content": PROMPT.format(
-                    date=now_ist().strftime("%Y-%m-%d"),
-                    themes="\n".join(f"  - {t}" for t in THEMES),
-                ),
-            }
-        ],
-    )
-    text_blocks = [b.text for b in msg.content if getattr(b, "type", "") == "text"]
-    raw = "\n".join(text_blocks).strip()
-    raw = re.sub(r"^```(?:json)?", "", raw).strip()
-    raw = re.sub(r"```$", "", raw).strip()
-    s, e = raw.find("["), raw.rfind("]")
-    if s == -1 or e == -1:
-        raise ValueError(f"No JSON array in response:\n{raw[:600]}")
-    data = json.loads(raw[s : e + 1])
-    if not isinstance(data, list) or not data:
-        raise ValueError("Parsed response is not a non-empty list.")
+def call_claude_with_search():
+    client=Anthropic(api_key=require_key())
+    msg=client.messages.create(model=MODEL,max_tokens=8000,tools=[{"type":"web_search_20250305","name":"web_search","max_uses":10}],messages=[{"role":"user","content":PROMPT.format(date=now_ist().strftime('%Y-%m-%d'),themes='; '.join(THEMES))}])
+    raw='\n'.join(b.text for b in msg.content if getattr(b,'type','')=='text').strip()
+    a,b=raw.find('['),raw.rfind(']')
+    if a<0 or b<0: raise ValueError('No JSON array returned')
+    data=json.loads(raw[a:b+1])
+    if not isinstance(data,list) or not data: raise ValueError('Invalid themes response')
     return data
 
+def rss(query, limit=2):
+    r=requests.get('https://news.google.com/rss/search?q='+quote_plus(query)+'&hl=en-US&gl=US&ceid=US:en',timeout=15,headers={'User-Agent':'HVM-WarRoom/1.0'}); r.raise_for_status()
+    root=ET.fromstring(r.content); out=[]
+    for x in root.findall('.//item')[:limit]: out.append({'title':(x.findtext('title') or 'Market update').strip(),'date':now_ist().strftime('%Y-%m-%d'),'url':(x.findtext('link') or '').strip()})
+    return out
 
-def main() -> int:
-    print(f"[update_themes] {now_ist().isoformat()}")
-    themes = call_claude_with_search()
-    print(f"[update_themes] got {len(themes)} themes")
-    write_json("themes.json", envelope(themes, source="claude+web_search"))
-    return 0
+def fallback_themes():
+    out=[]
+    for theme in THEMES:
+        articles=rss('"%s" investing market' % theme)
+        headline=articles[0]['title'] if articles else 'No fresh RSS headline returned'
+        out.append({'theme':theme,'rating':'WARM','rc':'var(--gold)','summary':'Daily automated RSS scan on %s. Latest source-linked signal: %s' % (now_ist().strftime('%Y-%m-%d'),headline),'news':articles,'tickers':[]})
+    return out
 
-
-if __name__ == "__main__":
-    sys.exit(main())
+def main():
+    print('[update_themes]',now_ist().isoformat())
+    try: themes=call_claude_with_search(); source='claude+web_search'
+    except Exception as exc:
+        print('[update_themes] paid research unavailable; using RSS fallback:',exc,file=sys.stderr)
+        themes=fallback_themes(); source='google-news-rss-fallback'
+    write_json('themes.json',envelope(themes,source=source)); print('[update_themes] themes=%d' % len(themes)); return 0
+if __name__=='__main__': sys.exit(main())
