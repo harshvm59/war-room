@@ -5028,11 +5028,17 @@ window.selectPortInv=function(si,ii,el){
           old.pattern='Daily rule-based technical scan';
           old.patternColor=rsi>=70?'#e05252':rsi<=30?'#4a9eff':'#3ddc84';
           old.ta='Yahoo daily data: RSI '+rsi.toFixed(1)+', MACD '+Number(q.macd || 0).toFixed(2)+', '+(q.vs_sma50_pct>=0?'+':'')+Number(q.vs_sma50_pct || 0).toFixed(1)+'% vs SMA50.';
-          old.fund='Live position: '+Number(h.units || 0).toFixed(2)+' units · $'+Number(h.current_value || 0).toLocaleString('en-US',{maximumFractionDigits:0})+' market value · '+(h.pnl_pct>=0?'+':'')+Number(h.pnl_pct || 0).toFixed(1)+'% return.';
+          var livePos=PORT.find(function(z){return z.t===row.ticker;});
+          var liveReturn=livePos&&livePos.buy?((livePos.cur/livePos.buy-1)*100):Number(h.pnl_pct||0);
+          old.fund='Live broker position: '+Number(livePos?livePos.units:h.units||0).toFixed(2)+' units · $'+Number(livePos?livePos.val:h.current_value||0).toLocaleString('en-US',{maximumFractionDigits:0})+' market value · '+(liveReturn>=0?'+':'')+liveReturn.toFixed(1)+'% return.';
           var action=actionByTicker[row.ticker];
           if (action) {
             old.action=action.action_text || action.signal || old.action;
             var pos=PORT.find(function(z){return z.t===row.ticker;});
+            if (pos) {
+              var verb=String(action.action||'').toLowerCase();
+              pos.action=verb==='add'?'add':verb==='trim'?'trim':verb==='watch'?'watch':'hold';
+            }
             if (pos && pos.dca) {
               var target=Number(String(action.target||'').replace(/[^0-9.]/g,''));
               var stop=Number(String(action.stop||'').replace(/[^0-9.]/g,''));
