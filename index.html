@@ -5058,31 +5058,85 @@ window.selectPortInv=function(si,ii,el){
 </script>
 <script defer src="data/bootstrap-v2.js"></script><!-- INDMONEY_RUNTIME_START -->
 <script>
+/* INDMONEY_RUNTIME_START: one live portfolio model for every portfolio-derived screen. */
 (function(){
   function money(n, decimals){ return new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:decimals,maximumFractionDigits:decimals}).format(n); }
+  function compact(n){ return '$'+(n/1000).toFixed(1)+'K'; }
   function set(selector, value){ var el=document.querySelector(selector); if(el) el.textContent=value; }
+  function esc(v){ return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+  var targets={
+    'AI Compute':{target:28,priority:'P1',action:'HOLD'},
+    'AI Infra':{target:17,priority:'P1',action:'HOLD'},
+    'AI Software':{target:10,priority:'P2',action:'ADD'},
+    'AI Security':{target:13,priority:'P0',action:'BUILD'},
+    'AI Energy':{target:16,priority:'P0',action:'BUILD'},
+    'Physical AI':{target:5,priority:'P2',action:'WATCH'},
+    'Healthcare / GLP-1':{target:8,priority:'P2',action:'RESEARCH'},
+    'Critical Minerals':{target:3,priority:'P3',action:'RESEARCH'}
+  };
+  function pillClass(priority){ return priority==='P0'?'p-urg':priority==='P1'?'p-hold':priority==='P2'?'p-add':'p-new'; }
   function render(){
-    if(!Array.isArray(window.PORT)) return;
-    var stockTotal=window.PORT.reduce(function(s,p){return s+Number(p.val||0);},0);
+    if(!Array.isArray(PORT) || !PORT.length) return;
+    var stockTotal=PORT.reduce(function(s,p){return s+Number(p.val||0);},0);
     var wallet=568.82;
     var total=stockTotal+wallet;
-    var invested=window.PORT.reduce(function(s,p){return s+Number(p.buy||0)*Number(p.units||0);},0)+wallet;
+    var invested=PORT.reduce(function(s,p){return s+Number(p.buy||0)*Number(p.units||0);},0)+wallet;
     var gain=total-invested, pct=invested?(gain/invested)*100:0;
-    var full=money(total,0), compact='$'+(total/1000).toFixed(1)+'K', gap=money(Math.max(0,1000000-total),0);
-    var splash=document.querySelector('.hvm-splash-stat .hvm-stat-val, .hvm-splash .hvm-stat-val'); if(splash) splash.textContent=compact;
-    set('#roadmap .tag.tgn','Current: '+compact);
+    var full=money(total,0), short=compact(total), gap=money(Math.max(0,1000000-total),0);
+    var byTheme={};
+    PORT.forEach(function(p){var t=p.theme||'Other';byTheme[t]=(byTheme[t]||0)+Number(p.val||0);});
+    var themes=Object.keys(targets).map(function(name){return {name:name,value:byTheme[name]||0,meta:targets[name]};});
+
+    /* All portfolio totals. */
+    var splash=document.querySelector('.hvm-splash-stat .hvm-stat-val, .hvm-splash .hvm-stat-val'); if(splash) splash.textContent=short;
+    set('#roadmap .tag.tgn','Current: '+short);
     set('#roadmap .prog-stat .pv',full);
-    var milestones=document.querySelectorAll('#roadmap .prog-m.done'); if(milestones[1]) milestones[1].textContent=compact+' ← you';
-    set('#roadmap .stage.now .stage-r',compact+' → $250K');
-    var roadmapCenter=document.querySelector('#roadmap .prog-head > div[style*="text-align:center"] div:last-child'); if(roadmapCenter) roadmapCenter.textContent='+'+gap;
-    set('#pivTotalVal',full); set('#pivTotalDelta',window.PORT.length+' positions · '+((total/1000000)*100).toFixed(1)+'% to $1M');
-    set('#portfolio .ph-sub','HVM™ · '+window.PORT.length+' holdings · '+full+' · INDmoney auto-sync');
+    var milestones=document.querySelectorAll('#roadmap .prog-m.done'); if(milestones[1]) milestones[1].textContent=short+' ← you';
+    set('#roadmap .stage.now .stage-r',short+' → $250K');
+    var roadCenter=document.querySelector('#roadmap .prog-head > div[style*="text-align:center"] div:last-child'); if(roadCenter) roadCenter.textContent='+'+gap;
+    var pbar=document.getElementById('pbar'); if(pbar) pbar.style.width=Math.min(100,total/1000000*100)+'%';
+    set('#pivTotalVal',full); set('#pivTotalDelta',PORT.length+' positions · '+((total/1000000)*100).toFixed(1)+'% to $1M');
+    set('#pivTotalGain',(gain>=0?'+':'')+money(gain,0)); set('#pivTotalGainPct',(pct>=0?'+':'')+pct.toFixed(1)+'%');
+    set('#pivP0Count',PORT.filter(function(p){return p.pri==='P0';}).length);
+    set('#pivDcaTotal',money(PORT.reduce(function(s,p){return s+Number((p.dca||{}).mo||0);},0),0));
+
+    /* Portfolio title, tags and KPI row. */
+    set('#portfolio .ph-sub','HVM™ · '+PORT.length+' holdings · '+full+' · INDmoney live sync');
+    var tagRow=document.querySelector('#portfolio .tag-row');
+    var largest=themes.slice().sort(function(a,b){return b.value-a.value;})[0];
+    if(tagRow) tagRow.innerHTML='<span class="tag tgn">'+(gain>=0?'+':'')+money(gain,1)+' unrealised</span><span class="tag tr">'+money(wallet,0)+' wallet</span><span class="tag to">'+(largest.value/total*100).toFixed(1)+'% '+esc(largest.name)+'</span>';
     var portfolioKpis=document.querySelectorAll('#portfolio .kpi-row .kpi');
-    if(portfolioKpis[0]) { var v=portfolioKpis[0].querySelector('.kpi-v'); if(v) v.textContent=compact; }
-    if(portfolioKpis[1]) { var v=portfolioKpis[1].querySelector('.kpi-v'); if(v) v.textContent=money(invested,1); }
-    if(portfolioKpis[2]) { var v=portfolioKpis[2].querySelector('.kpi-v'); if(v) v.textContent=(gain>=0?'+':'')+money(gain,1); }
-    if(portfolioKpis[3]) { var v=portfolioKpis[3].querySelector('.kpi-v'); if(v) v.textContent=(pct>=0?'+':'')+pct.toFixed(1)+'%'; }
-    var bar=document.getElementById('pbar'); if(bar) bar.style.width=Math.min(100,total/1000000*100)+'%';
+    if(portfolioKpis[0]) portfolioKpis[0].querySelector('.kpi-v').textContent=short;
+    if(portfolioKpis[1]) portfolioKpis[1].querySelector('.kpi-v').textContent=money(invested,1);
+    if(portfolioKpis[2]) portfolioKpis[2].querySelector('.kpi-v').textContent=(gain>=0?'+':'')+money(gain,1);
+    if(portfolioKpis[3]) portfolioKpis[3].querySelector('.kpi-v').textContent=(pct>=0?'+':'')+pct.toFixed(1)+'%';
+
+    /* Replace the old hard-coded Roadmap allocation table with exact INDmoney exposure. */
+    var allocation=document.querySelector('#roadmap .tw tbody');
+    if(allocation) allocation.innerHTML=themes.map(function(x){
+      var weight=total?x.value/total*100:0, m=x.meta, targetDollar=m.target*10000;
+      return '<tr><td style="font-weight:600;">'+esc(x.name)+'</td><td><span class="pill '+pillClass(m.priority)+'">'+m.priority+' · '+esc(m.action)+'</span></td><td class="mono" style="color:'+(weight? 'var(--green)':'var(--red)')+';">'+weight.toFixed(1)+'%</td><td class="mono dim">'+money(x.value,0)+'</td><td class="mono" style="color:var(--gold);">'+m.target+'%</td><td class="mono" style="color:var(--gold);">'+money(targetDollar,0)+'</td><td><span class="pill '+pillClass(m.priority)+'">'+esc(m.action)+'</span></td><td class="dim">'+PORT.filter(function(p){return p.theme===x.name;}).map(function(p){return p.t;}).join(' · ')||'No current holding'+'</td></tr>';
+    }).join('');
+    var allocationTitle=document.querySelector('#roadmap .sl:nth-of-type(2)');
+    if(allocationTitle) allocationTitle.textContent='Live INDmoney allocation — current exposure vs manual $1M strategy target';
+
+    /* Keep the Aggression graph and theme-card exposure values tied to live holdings. */
+    if(typeof AGGR!=='undefined' && Array.isArray(AGGR)){
+      AGGR.forEach(function(a){
+        var map={'AI Compute & Semis':'AI Compute','Energy & Nuclear':'AI Energy','Defense & Security':'AI Security','AI Adopters (Big Tech)':'AI Infra','Agentic AI / SaaS':'AI Software','Physical AI / Robotics':'Physical AI'};
+        var key=map[a.n]; if(key) a.now=+(byTheme[key]||0)/total*100;
+      });
+      if(typeof window.buildAggr==='function') window.buildAggr();
+    }
+    var aggressionTags=document.querySelector('#aggression .tag-row');
+    if(aggressionTags) aggressionTags.innerHTML='<span class="tag tg">Live allocation from INDmoney</span><span class="tag tr">AI Energy '+((byTheme['AI Energy']||0)/total*100).toFixed(1)+'% → 16% strategy target</span>';
+    if(typeof THEMES!=='undefined' && Array.isArray(THEMES)){
+      THEMES.forEach(function(t){
+        var key=t.name.indexOf('COMPUTE')>=0?'AI Compute':t.name.indexOf('ENERGY')>=0?'AI Energy':t.name.indexOf('AGENTIC')>=0?'AI Software':t.name.indexOf('PHYSICAL')>=0?'Physical AI':null;
+        if(key){var v=byTheme[key]||0;t.expo=(total?v/total*100:0).toFixed(1)+'% ('+money(v,0)+')';t.expoC='var(--green)';}
+      });
+      if(typeof window.buildThemes==='function') window.buildThemes();
+    }
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',function(){setTimeout(render,0)}); else setTimeout(render,0);
 })();
