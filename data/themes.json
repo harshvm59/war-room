@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T21:09:00.472850+05:30",
+  "updated_at": "2026-08-08T22:01:57.817753+05:30",
   "source": "google-news-rss+deterministic-cohorts",
   "items": [
     {
@@ -9,17 +9,22 @@
       "target_pct": 28,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: How Will Intel Really Be Able to Beat TSMC in The Next Year? - 24/7 Wall St.",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: 7 Best-Performing Semiconductor Stocks for August 2026 - NerdWallet",
       "news": [
         {
-          "title": "How Will Intel Really Be Able to Beat TSMC in The Next Year? - 24/7 Wall St.",
+          "title": "7 Best-Performing Semiconductor Stocks for August 2026 - NerdWallet",
           "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVjhlN08xYmFyMWRCYnZqYzZOOGhRNExtc1c3d0lOMVJueHhHTHdrdnM1NzZvbU9TaFpvYmJzQk1nWWJTSUdCUk5jM3VNOTVzZEJJanBZN0JLT3NEb05kUHZPclY0LWNBRFhJTmJaZGZmbzF1MTZ1TldvaUdUYWZIenN1amFDS2lGLWtmMDE0UV9rTkNnekRNcWNoVXNHY1J0TGpNaVhR?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DcnBsYjFUWnVXMUpGeFdXcnBtd2Q5YjFEcW9OUmZXcjU4Y1Vnbk5zME5CVklCc1JoX182SVlCRFE2WmhRMDB6VjZQeGdwRkRhdW9zUjE4dmlpbnB2dVNGXzJXNFVYVGxwZXJJbm5WWExyZVR6QnBB?oc=5"
         },
         {
-          "title": "Chip stocks shed more than $1 trillion as selloff hits companies powering AI boom - CNBC",
+          "title": "5 Semiconductor Stocks Poised to Outperform This Summer - The Motley Fool",
           "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWm5mYzh3X2p6d2t2clJubjIzc1VBR2txNEU4V2FvVEM5RmNHZGdHOFJOX1cxZlhEMG5zaEpJQ21WRmZncG0tZm1EQVF4ZnFDMTBhMHFKMXBxN0pUaVFaYmtUbTJ5b0ZxVzJXWHpOVkFqNXBxRTNxTU5tQ3VBS0ZsbNIBhgFBVV95cUxQT0hDOFV0dDBHN25YOE5KWGNWdGlvUEhuSF9XVjhpSV9sWDdxSXozSTJwSXNSTFZnZk0zNVc1bGJJTFVkX2Z5MmpYTXRqNjVRekNHN3B4ZlJIdFZmVk9heW0wY3ZiXzFIQUNfM2o5NVNWYmxWb3RXSHBZbHJ4LWNOSWd4SUQwZw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSC14YklUZUZZU1FrRk8yX0tndXNyRXpicVdEaDlqUWJKNzh0aWUydTI0dzhBUUdSLTE2dXlXejVJUDQxWl9YTVlXd05OUkNTVmpubDluQVl3UE82UmVobm9LSDN6WGRDM0tJY2xRYkFaLVRJNFdiOTdIczRuN2dVU1RocFQyXy1LdGtndENNZ2t6ZGg5YlE?oc=5"
+        },
+        {
+          "title": "7 Best Semiconductor ETFs to Buy for 2026 - U.S. News - Money",
+          "date": "2026-08-08",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NNDJ4SUhnVzEwWENRQ3NnbjJGVUIteElZbW1WRkR5WGxNZkNQdm8wbHJkdTVqZ0tvVk9qMnhvVnBFcmFPSHBLS0dHaU5iUGxvMXAyVFR3UmN5ZGpkUW10VWtRME9hcmVGZlRyRDExOHBTbWl1X3paVnRBVEZ1Q1k?oc=5"
         }
       ],
       "tickers": [
@@ -66,20 +71,6 @@
           "rank": 3
         },
         {
-          "ticker": "TSM",
-          "name": "Taiwan Semiconductor",
-          "status": "HOLD",
-          "owned": true,
-          "priority": "P1",
-          "price": 420.04,
-          "change_pct": 0.44,
-          "units": 28.221813182,
-          "current_value": 11854.29,
-          "source_hits": 1,
-          "reason": "Leading-edge foundry and CoWoS bottleneck",
-          "rank": 4
-        },
-        {
           "ticker": "ASML",
           "name": "ASML",
           "status": "HOLD",
@@ -91,7 +82,7 @@
           "current_value": 1805.0,
           "source_hits": 0,
           "reason": "EUV lithography monopoly",
-          "rank": 5
+          "rank": 4
         },
         {
           "ticker": "NVDA",
@@ -105,6 +96,20 @@
           "current_value": 27076.06,
           "source_hits": 0,
           "reason": "GPU compute and CUDA platform leader",
+          "rank": 5
+        },
+        {
+          "ticker": "TSM",
+          "name": "Taiwan Semiconductor",
+          "status": "HOLD",
+          "owned": true,
+          "priority": "P1",
+          "price": 420.04,
+          "change_pct": 0.44,
+          "units": 28.221813182,
+          "current_value": 11854.29,
+          "source_hits": 0,
+          "reason": "Leading-edge foundry and CoWoS bottleneck",
           "rank": 6
         },
         {
@@ -113,8 +118,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P1",
-          "price": null,
-          "change_pct": null,
+          "price": 282.57,
+          "change_pct": 17.89,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -127,8 +132,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P1",
-          "price": null,
-          "change_pct": null,
+          "price": 218.72,
+          "change_pct": 16.61,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -139,7 +144,7 @@
       "candidate_count": 2,
       "owned_count": 6,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T21:09:00.472742+05:30"
+      "cohort_updated_at": "2026-08-08T22:01:57.817480+05:30"
     },
     {
       "theme": "Energy & Nuclear Power",
@@ -148,34 +153,25 @@
       "target_pct": 16,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: 3 Nuclear Energy Stocks Powering the AI Boom in August - 24/7 Wall St.",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: 7 Sectors Powering the AI Boom Behind the Scenes - Schaeffer's Investment Research",
       "news": [
         {
-          "title": "3 Nuclear Energy Stocks Powering the AI Boom in August - 24/7 Wall St.",
+          "title": "7 Sectors Powering the AI Boom Behind the Scenes - Schaeffer's Investment Research",
           "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRUE5ZU8yTTd2cHdwdGZJNTBoVFRXTmRuT2FGdWZjX2UyYUJsd01HVjZ6RFdJV19KOTB3S2hfbVJuNm5vdW9Jb0lEQ2pyZUVmWnp4NlBuanhpenZMVV9abV9CT2dCeEhRenBURmswX3JVdVVWUzRJMlJZNjRhdktrZWtSXzhzd2hOeDFjZG1QU25SMk5CV1hrR0VfRlBGQ1E?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWnRPT3JTSUo4ZEFpMUsxaWlXcVQwSS02TmZSMFhTNUcyaHM3aVZVLUNkSGFlZF9hdlhWY1JJM3gyTkxtWmZMaFk4bGc0LUVaYUZaa3BfNGZOV19CdE9vdG1CZXZaY2xaSEhlZi1YbnpXeFVBam9qUHZSY0h1Y0s2anB2YWtjTTFfb2IyV1VBeENvc1Z6NkZuSVlXQmxwMGJIN3MyUllQUzJLOUo3TnJZMlRn?oc=5"
         },
         {
-          "title": "Constellation Signed 920 Megawatts of New Power Deals, Including a Walmart PPA. Here's What It Means for CEG Stock. - The Motley Fool",
+          "title": "ETN, GEV, NEE, PWR, VRT Stocks Stand To Gain After US Flags Power Grid As Defense Priority - Stocktwits",
           "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRGtEWHNCRWNtTVRXUlZQYkZ0UGk3Z2JNZmJMdkhfTVk3R2hPbnVhbFFLUHVpRlJ6NWNLT2FESzVJdkJKclZNTkVLUTc0d0EtUGFfeEpFZ29vN0t4SE5HX2NPam1NUzVrMHdERWs0eGQ0TnpBbzNLNDh6S0JWQkFRVmhNbW9KZFU4VVh1ZjhJMTZ1VkJ1d09VaU1EbEloQzltVHRES3ltOFA2T2xtWnJsb1Y2Q3lPNXlvbWk3QzBaR0ZNWXJNdFJIUEZrOUpqUUxCdVVVWmd4dHliVFBxVGw3WXJWQXVwd2Y2QVE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZlVCMEU4ODZtQktlODdIUXFPRHVxMm9FRjV5SDN6cVh3dGhFMC1ZVm9oYmtkeUtBdzJwN1VQQmNWQWxQZkh1bV9TN3JLQnNXX3YyTGY1M3diVVdlRjBRMGhvM1EzRG41TlNjWEcxVTk0RDlobzNwa0VkUV93Yk8ydU9BOTNBY1ZHQUZwNThzLUdLR3cxaXdJWjkyM0VhR1FxTjdKNFhKS1liNWZqdV9FUDhjUE5SWnJodlZmaURZcjRnekdISkwtczNoMDlTMWVhVktjUm1jMEdXLTRUUk5NRFFQc2o?oc=5"
+        },
+        {
+          "title": "A Rotational AI Portfolio Strategy - Seeking Alpha",
+          "date": "2026-08-08",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQb1JYQmRYMDJjUDNUZWd0MzUtRGE3aXE0alhFMXRjLS13cHdGb1FEVXV1ZXVyX2tMb3BPZXRIMGVLT1BJczBtYzlUYjZYS1lic1ZwM1VBR1g4WDVHX3J3TUtScnR0a2Q2RGhyYklreThiaFVVYXUxQWFibXYwb3ZyMA?oc=5"
         }
       ],
       "tickers": [
-        {
-          "ticker": "CEG",
-          "name": "Constellation Energy",
-          "status": "ADD",
-          "owned": true,
-          "priority": "P0",
-          "price": 269.89,
-          "change_pct": 3.37,
-          "units": 3.018309165,
-          "current_value": 814.61,
-          "source_hits": 1,
-          "reason": "Nuclear fleet and hyperscaler power contracts",
-          "rank": 1
-        },
         {
           "ticker": "VRT",
           "name": "Vertiv",
@@ -186,8 +182,22 @@
           "change_pct": -1.01,
           "units": 7.266933811,
           "current_value": 1979.51,
-          "source_hits": 0,
+          "source_hits": 1,
           "reason": "Data-centre cooling and power distribution",
+          "rank": 1
+        },
+        {
+          "ticker": "CEG",
+          "name": "Constellation Energy",
+          "status": "ADD",
+          "owned": true,
+          "priority": "P0",
+          "price": 269.89,
+          "change_pct": 3.37,
+          "units": 3.018309165,
+          "current_value": 814.61,
+          "source_hits": 0,
+          "reason": "Nuclear fleet and hyperscaler power contracts",
           "rank": 2
         },
         {
@@ -196,11 +206,11 @@
           "status": "NEW BUY",
           "owned": false,
           "priority": "P0",
-          "price": null,
-          "change_pct": null,
+          "price": 448.68,
+          "change_pct": 8.06,
           "units": 0,
           "current_value": 0.0,
-          "source_hits": 0,
+          "source_hits": 1,
           "reason": "Grid equipment and electrical backlog",
           "rank": 3
         },
@@ -210,8 +220,8 @@
           "status": "NEW BUY",
           "owned": false,
           "priority": "P0",
-          "price": null,
-          "change_pct": null,
+          "price": 140.59,
+          "change_pct": -5.13,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -228,23 +238,9 @@
           "change_pct": -4.2,
           "units": 1.748257462,
           "current_value": 383.46,
-          "source_hits": 0,
+          "source_hits": 1,
           "reason": "On-site fuel-cell power; speculative execution risk",
           "rank": 5
-        },
-        {
-          "ticker": "CCJ",
-          "name": "Cameco",
-          "status": "WATCH",
-          "owned": false,
-          "priority": "P0",
-          "price": null,
-          "change_pct": null,
-          "units": 0,
-          "current_value": 0.0,
-          "source_hits": 0,
-          "reason": "Uranium supply and nuclear fuel cycle",
-          "rank": 6
         },
         {
           "ticker": "GEV",
@@ -252,19 +248,33 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P0",
-          "price": null,
-          "change_pct": null,
+          "price": 990.32,
+          "change_pct": 0.0,
+          "units": 0,
+          "current_value": 0.0,
+          "source_hits": 1,
+          "reason": "Grid, turbine and electrification build-out",
+          "rank": 6
+        },
+        {
+          "ticker": "CCJ",
+          "name": "Cameco",
+          "status": "WATCH",
+          "owned": false,
+          "priority": "P0",
+          "price": 97.39,
+          "change_pct": 12.75,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
-          "reason": "Grid, turbine and electrification build-out",
+          "reason": "Uranium supply and nuclear fuel cycle",
           "rank": 7
         }
       ],
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T21:09:00.472764+05:30"
+      "cohort_updated_at": "2026-08-08T22:01:57.817561+05:30"
     },
     {
       "theme": "Defense & National Security",
@@ -273,17 +283,22 @@
       "target_pct": 13,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: Astera Labs vs. Kratos Defense & Security Solutions: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: Defense Stocks to Research in 2026: Key Names, Risks, and Outlook - techi.com",
       "news": [
         {
-          "title": "Astera Labs vs. Kratos Defense & Security Solutions: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
+          "title": "Defense Stocks to Research in 2026: Key Names, Risks, and Outlook - techi.com",
           "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYVdXa3VNbDZ2MDFTQktsWVVmTXZpSWx4RWpRWHZrazdIZnBfSEdtQmZHT3BBV3AyVHUzc1hERXdsVGZyM0N4SThCMmFrZzg2Y3UxczRVNWtnNGU5aUdkeVRIUktPWVdNOExCdTN0dlJvNUE4VlNRUGl6bk1YVHVhRVNIXzB6ekxBdlJ3OTNqWXZGdDg2dTczSFN2NlQ3Z0VPUkFEczNuaDRaSGN4bW5kclpaVVpWSWFDNU5SVzEyd2dDcXdSczgzbUVuTHhYdElhY3VyUEpYRGwyNDQ5cUVKTHBB?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4WEp2dElubFUxbjZIc1hYSTBfT0EyUDNSWk9lRDlrekNrVmNPVEFXTnZlWERfMDAzendFZGZ6Y2wxMXlUY05RcmNkQThvOW4zQmZ3Yw?oc=5"
         },
         {
-          "title": "Is BigBear.ai Emerging as a Key Homeland Security AI Stock? - Yahoo Finance",
+          "title": "6 Best Defense ETFs for 2026 and How to Invest - The Motley Fool",
           "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZHZzLTFrZzhxWHV2aXktd0xMMXR2eEp2TmVwRFMwRmdhVWdJT3NRcG5OWU9FajRXdUJQczlTVC1PaE56cFVabGNuNllkelEzVEdQZEI1dURyQXFoOEJENnhZX3ZwMG01eDNxVmdrdW80cU1fSGlSUGFqZ2RGRy1ZUkVzM3NfZGVOakExS2lZdGxxTVJiUUlCdTJtc0c2UQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVXgyNnZQWW0yZkVVckFpTG1OcEV5Y1k0bVE2UHk5Z3pJU1Z0S1BNVXNfMlpIdEgtSU1JUHVGdWY2QmpJeGJ3SjFaazFkUHFaVVI2WmVhYmFjNTJXZHNydUJwZXZKNUthU181a2pFSHR4Ym5QOWV4UWpHNGhxME9MMFdabnNWSkNWa2NFQW9wdERhb2x4?oc=5"
+        },
+        {
+          "title": "U.S. Military Expert Issues Grave Warning: 'We Need More Munitions, and Deliveries Are Years Behind.' What Stocks Can Benefit? - 24/7 Wall St.",
+          "date": "2026-08-08",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTlNhRzRybVhfdk80MTdqQUYwUWhJeVRXRDRxSGxuRTVjdV8yNDV5cVp0aHBKMGNKNUhONk5aM0J0SlhicU1QYThsYm53RFlUcENUZ1dmazlMSkk1RmhIYzRqZW95cHZJdUZYeWY1d0RZTHQtaGV0SU5XTk93Q0ZnLTB0akpPU1hTYzRqOG9UV3NnYTl6YmU1bjRsb2ZyVjRLR3YzcThpZ0xqenNMeC05bHJVeFp2UWE5a2Rzbk85WVEyaTNYS21oZEljbDdBdHZUbGRBREFNZGhhQzkzeTlmcl9oWXJOZDEtdEktbm1md28zb0NnVFE?oc=5"
         }
       ],
       "tickers": [
@@ -293,8 +308,8 @@
           "status": "NEW BUY",
           "owned": false,
           "priority": "P0",
-          "price": null,
-          "change_pct": null,
+          "price": 587.95,
+          "change_pct": 0.89,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -307,8 +322,8 @@
           "status": "NEW BUY",
           "owned": false,
           "priority": "P0",
-          "price": null,
-          "change_pct": null,
+          "price": 223.03,
+          "change_pct": 3.63,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -335,11 +350,11 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P0",
-          "price": null,
-          "change_pct": null,
+          "price": 60.77,
+          "change_pct": 30.41,
           "units": 0,
           "current_value": 0.0,
-          "source_hits": 1,
+          "source_hits": 0,
           "reason": "Autonomous systems and lower-cost defense platforms",
           "rank": 4
         },
@@ -349,8 +364,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P0",
-          "price": null,
-          "change_pct": null,
+          "price": 286.67,
+          "change_pct": 3.47,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -363,8 +378,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P0",
-          "price": null,
-          "change_pct": null,
+          "price": 571.58,
+          "change_pct": 5.36,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -375,7 +390,7 @@
       "candidate_count": 5,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T21:09:00.472778+05:30"
+      "cohort_updated_at": "2026-08-08T22:01:57.817594+05:30"
     },
     {
       "theme": "Agentic AI & Enterprise SaaS",
@@ -384,17 +399,22 @@
       "target_pct": 10,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: Palantir Surges 10%, UiPath Rises 7%, C3.ai Gains 5% as Agentic AI Stocks Rally Together - 24/7 Wall St.",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: History Says Software-as-a-Service (SaaS) Stocks Will Be the Ultimate AI Winners. 3 SaaS Stocks to Buy Now. - AOL.com",
       "news": [
         {
-          "title": "Palantir Surges 10%, UiPath Rises 7%, C3.ai Gains 5% as Agentic AI Stocks Rally Together - 24/7 Wall St.",
+          "title": "History Says Software-as-a-Service (SaaS) Stocks Will Be the Ultimate AI Winners. 3 SaaS Stocks to Buy Now. - AOL.com",
           "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObjBaN2Nxb1hjbzcwckxnQ3FkX1IwZXpheTRuMk5OWkhTYkJzX19KX0trdW5BeV9SYkU3QmY4SmVjTWN3Z05yOGFfVzdPSy1US3Z3eVJRb2F1TlFMY3cyNlRQLVRWUFlheUwxRzBqOEFoUnU1WXZyUktiTlFzM1ZsbURoeEJxOFFWa18yanEyRDZHdl9VZ1VpSEk1SEU2VDhEOWtkZkdvaEp0Y2dtbXBETGdkMWVlUEt3STItVmwzaUJjcnRPUmc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdXVHUXhqX19XdU5yVk1wTkYzVHNvajJWV3hSZlptblF0SVRiWnNPYmFCaWdkVHRSZW1aUTRMN184alU0VHJ0NERiY3BDM1lEOTZ3b2MwUWRFWDRBNEJORTd6NTlhc0NGQ1JrOGc4eUh5S0x2YW9CaDVXQzBnNGxqZ2FXMA?oc=5"
         },
         {
-          "title": "Best AI Stocks to Buy in 2026: 10 Top Picks & How to Invest - The Motley Fool",
+          "title": "Salesforce Remains Down But Turning Positive: 100%+ Returns Lie Ahead According to This Analyst - 24/7 Wall St.",
           "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcTN4SWRQbVZpY1lwSnJjN3YxWmY5LU5Qck5ia2psWWRwcWplZ0RGTFo3ZmJrZDZ1S1RQZFF2NUcwOTh0NXA3NlM0a25ieHhPWHprdTBmbWxzY2FtdHRIMlpSY1pzcTU5ZkhfN0wtcF9UeDg4WnZVYTZPSkRtcDNZaUJ1djdPQ1RVRkVQeVFUTnJrMFJ5VXdj?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdWlGcWtvOS1xajJ2MnVWUVFqa2lWUE9rQkpmdEs4LWF4QUdyZWdsbDdTT1QyaWZBQ25UTl9mLUFZUnExZzZ6OWhqUERYa2o5c015R3ZSQ3V4VzJTUkExcVpSd19EdU9MMkxFWjhKVXpsZjVuaC1hc3I4WXNiNWJXTEpCRzdHUUpBcXZIUVZ2WE05MGNseEtBMHBoV3BlRC00dG9WN1JleXRwMGFxUmtvTkt6T21DUlhxSHVqTjhmVVVSMmJUbjVjZWxyZWpwVXN6UHc?oc=5"
+        },
+        {
+          "title": "Forget SaaS: Why AI Agents Could Make ServiceNow and Palantir Technologies the Next Trillion-Dollar Platforms - Yahoo Finance",
+          "date": "2026-08-08",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWEtlWEJleGNPYlMyZEViS09vS3VaTDdicXNzNUpCU0pWbGxONXJjRzVNQ3JBMDM4aTU0Mk4zT2tVcDV5OU5KWUNHVlZ1ZXJUT0lPU0NTYy1sWGt1Q185ZXlhU2J4amFrd3N0Z1RrYnBPaFRFa0xYaWJIN2xMWnJsejJuTVpyMndmUl9HYk92cjY1SWQ2?oc=5"
         }
       ],
       "tickers": [
@@ -404,11 +424,11 @@
           "status": "NEW BUY",
           "owned": false,
           "priority": "P1",
-          "price": null,
-          "change_pct": null,
+          "price": 124.88,
+          "change_pct": 12.27,
           "units": 0,
           "current_value": 0.0,
-          "source_hits": 0,
+          "source_hits": 3,
           "reason": "Enterprise workflow agent monetisation",
           "rank": 1
         },
@@ -488,11 +508,11 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P1",
-          "price": null,
-          "change_pct": null,
+          "price": 192.74,
+          "change_pct": 4.74,
           "units": 0,
           "current_value": 0.0,
-          "source_hits": 0,
+          "source_hits": 1,
           "reason": "Agentforce distribution into CRM workflows",
           "rank": 7
         },
@@ -502,8 +522,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P1",
-          "price": null,
-          "change_pct": null,
+          "price": 363.86,
+          "change_pct": 9.65,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -514,7 +534,7 @@
       "candidate_count": 3,
       "owned_count": 5,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T21:09:00.472796+05:30"
+      "cohort_updated_at": "2026-08-08T22:01:57.817634+05:30"
     },
     {
       "theme": "Healthcare AI & GLP-1",
@@ -523,17 +543,22 @@
       "target_pct": 8,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: GLP-1’s Drove Eli Lilly’s Record-Breaking Q2, but AI Will Be Its Future - 24/7 Wall St.",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: The Artificial Intelligence Opportunity Beyond Big Tech: 3 Healthcare Stocks to Watch - The Motley Fool",
       "news": [
         {
-          "title": "GLP-1’s Drove Eli Lilly’s Record-Breaking Q2, but AI Will Be Its Future - 24/7 Wall St.",
+          "title": "The Artificial Intelligence Opportunity Beyond Big Tech: 3 Healthcare Stocks to Watch - The Motley Fool",
           "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUU9NQkplVHNoX0lkZ0hVZHFvUEhLazVwUkpIb3kydkpIREZVT1J3Vll4YlY2UHB3ZmZpLTNEdjBjMmgxdldpM2N0OWlpQnc2cU94cGlXYmV2dVJSSTR5U2ktY0xta0o0MXd3Xy01allrYTVLUUl2ZFlER3Y3bDl0NzlJUHFHMGZNejczRWk5ZXZOWm40YTFPY0NEV05iOV9ZMnI4VExEU0ZNTHpKRVVVSVZB?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSXFXbTB1eklwZ1laLTZfODNfckZxRVZobEZMNGo4SElRSFBsZ0R1X0Exc0ZlbnhHTWVxY29uSC1adHJNLVNfZW5aaTlQSVk2NW1aRkdTcDZSR1JnQkhHUW1xdnZ0RUZvOE9CQnV5V09fTmRqNXZqWHU0M2ozT3JGcV81Tll1TjV2UDRRaWpQOVdkb0xNR1dhUA?oc=5"
         },
         {
-          "title": "Is Eli Lilly (LLY) Undervalued After Novo Nordisk’s GLP 1 Advertising Lawsuit? - Yahoo Finance",
+          "title": "U.S. Healthcare Spending Just Hit $5.7 Trillion and Continues to Grow: 2 Stocks to Buy to Profit From the Trend - The Globe and Mail",
           "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVkpuNzdEbVRKT3VNRWlucWwxMF9hMmhJUXVsNVRlcXV2TWFWajVQazVMa3hpc0ZkZ0Y3Z09WXy1hMUtWaVMtdmRGTEpLZjdmSzhTdE9kZy12eUQ2YmRyMmpsY2tyQW9SLU9WOFVCNDJYYW1CZk9HVTYwZTBIZVk3Y0laLTJLQkVlSDZhcUFPbHA3cGdRbUdPcEpxYw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxObEk2Tk5Ca2JwWXctR1ZRdXBhZTdfUHY0VnlwbzY4U2pWWmdXaUxQVGFoSGsxaTF5TXBtS01FZmdTd05GMHRpY0RMNVN2QXZ1dFZsSnVHN3Jld3YwTENKa2ZreVBIN0tuVlZhamlrOUpBNWF1SVpBaHlLanhfUUxxMjBWTmVEc2hJRlhZNmRUVFJRMjlYZXcxQWpUSnY3Wm93Ujg2aWg3Sk1VNFQ3RGh2SWx1TXA5MkJsRjlxLVRIcEZPYU5hazlBenRpWmhpZzdHRkVzOWhpT1lKT29jdTB5OUYybmk0WkVpY0xFLURLY0FiT25PQ3FTX3hhMEpsSHVfRE53Uzg1MS1kMXQ1UlNxUmxMTXZ3T0Rud3VPUUlxTQ?oc=5"
+        },
+        {
+          "title": "14 Healthcare Stocks for 2026: Ranked by Growth and Value - EBC Financial Group",
+          "date": "2026-08-08",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYjhCSTJtVV9WTXV4OEFvWEdsSVRib1VZTkZwRFlJbUJPY1lzdGZRN051b3ltbjU1d0JKNFZsel9SVEphTnd2MVBrdjBEVUhZUjVXdnp5aG1FOW5pSUFSbjZTUmxYcEItMFB2bktvekFxUmFvNVgtaktHUk9hcjFBU3ZhTWRnamFnWGc?oc=5"
         }
       ],
       "tickers": [
@@ -543,27 +568,13 @@
           "status": "NEW BUY",
           "owned": false,
           "priority": "P2",
-          "price": null,
-          "change_pct": null,
+          "price": 1185.71,
+          "change_pct": 3.21,
           "units": 0,
           "current_value": 0.0,
-          "source_hits": 5,
+          "source_hits": 0,
           "reason": "GLP-1 category leader and pipeline depth",
           "rank": 1
-        },
-        {
-          "ticker": "NVO",
-          "name": "Novo Nordisk",
-          "status": "WATCH",
-          "owned": false,
-          "priority": "P2",
-          "price": null,
-          "change_pct": null,
-          "units": 0,
-          "current_value": 0.0,
-          "source_hits": 1,
-          "reason": "GLP-1 scale with valuation-reset potential",
-          "rank": 2
         },
         {
           "ticker": "HIMS",
@@ -571,13 +582,13 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P2",
-          "price": null,
-          "change_pct": null,
+          "price": 31.59,
+          "change_pct": 13.76,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
           "reason": "Digital health distribution with regulatory risk",
-          "rank": 3
+          "rank": 2
         },
         {
           "ticker": "ISRG",
@@ -585,12 +596,26 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P2",
-          "price": null,
-          "change_pct": null,
+          "price": 378.81,
+          "change_pct": 7.21,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
           "reason": "Robotic surgery platform and recurring instruments",
+          "rank": 3
+        },
+        {
+          "ticker": "NVO",
+          "name": "Novo Nordisk",
+          "status": "WATCH",
+          "owned": false,
+          "priority": "P2",
+          "price": 47.26,
+          "change_pct": 0.38,
+          "units": 0,
+          "current_value": 0.0,
+          "source_hits": 0,
+          "reason": "GLP-1 scale with valuation-reset potential",
           "rank": 4
         },
         {
@@ -599,8 +624,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P2",
-          "price": null,
-          "change_pct": null,
+          "price": 34.26,
+          "change_pct": 7.94,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -611,7 +636,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T21:09:00.472808+05:30"
+      "cohort_updated_at": "2026-08-08T22:01:57.817657+05:30"
     },
     {
       "theme": "Physical AI & Humanoid Robotics",
@@ -620,17 +645,22 @@
       "target_pct": 5,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: Better Robotics Stock: Tesla vs. Nvidia - The Globe and Mail",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: Elon Musk Predicts 'Money Won't Matter in 2036.' Is This His Worst Prediction Yet or Prophetic? - 24/7 Wall St.",
       "news": [
-        {
-          "title": "Better Robotics Stock: Tesla vs. Nvidia - The Globe and Mail",
-          "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONEdNZF9UQmF0Y0lrTUI1Mnd6N2RuRVh3VG5tV3l4WGoycnc3aHU0QVowQldxY3JoMDlyNnNxM2lScVpyeUM4bUV4cWdXaHJ0enFlU19FakY4UnlUczllVDVfRnlDMUFoSS1JOG1keWhYam9YeWExaUZXd2FmZVFpSWpOcHdNM0VNbWs2cWlWaEllNDhraG1nb1dyREQ1c0FKY25IajlMcGRmRE0tYXBsbU9kaWtRaFJJUWk0bg?oc=5"
-        },
         {
           "title": "Elon Musk Predicts 'Money Won't Matter in 2036.' Is This His Worst Prediction Yet or Prophetic? - 24/7 Wall St.",
           "date": "2026-08-08",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPR2Zjdzk5RV96T0pOWEtONWRzeURoazlCYllLZnh3UThXRW1FRmdNU1d3MkE0b3lzT1NBUThkcXpGR3lDOXBUM25wV0JWSW93NnNpd0tpY3h1QVdyanVzZ3pON0FXY2dhX09ZNkRCRjFMQzd1M0RnMXZlTjhNWTRIdWowWWhSZm9qRTJ6N3Flb0tqc0lURWJ0SDczemI4TmNPelJzWmlRQlJibTgzTWJpQ2dTVi1mMWZvR3VLaDViTTJBeWU0ZlJaUTNXR200UTA?oc=5"
+        },
+        {
+          "title": "The First Major Robotics IPO Is Here: 5 Robotics Stocks That Could Run in the Second Half of 2026 - 24/7 Wall St.",
+          "date": "2026-08-08",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeTRWTTJJYjFtbUVENngwdUp3QVZmZFA0ZExERi1PeFBPYm5LSkxoaEt3VGVHYjBWVjQtd3ZPMVBEMW9SN09zQ0lCZjJJTHpuVnVkVnFKc0FUYm13U3dORmlTUG1lajdtTjVVUTNuY0lhME5ad0dUaDVPNjJCTFh0bkEta1J1dU5OYThLSzN4c0p4ZjJJRGVmVURjdTEtOTFFYzBfZ3N3TElBbm1ONW4xdkh4YTJFc2I5WVd1SDBWTy15NmU1SG5ocHV5R1V4dk5BanJ2NkpmOA?oc=5"
+        },
+        {
+          "title": "SA Asks: What's the most attractive robotics stock right now? (TER:NASDAQ) - Seeking Alpha",
+          "date": "2026-08-08",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTmc0ZjM1UmZLUFdVMUxkSUJjSkJ0djhKNzBMcGMzczIzc3dzLU8xa2lrN1c1R2pjYVVjNFJyalB6dVk2Mll4N1p2WURCMG5IT05TZDdOOEQ3MzRtRHZSXzAxdHJqYWlENGw1QW5ZMnFNcmtOaUYzSjRmVzRnZTUzV0JWcml0OVhrUmxRMTNVcE4xOEU1cXUwN1FaSHE?oc=5"
         }
       ],
       "tickers": [
@@ -640,8 +670,8 @@
           "status": "NEW BUY",
           "owned": false,
           "priority": "P2",
-          "price": null,
-          "change_pct": null,
+          "price": 379.31,
+          "change_pct": 3.16,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 2,
@@ -654,8 +684,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P2",
-          "price": null,
-          "change_pct": null,
+          "price": 8.73,
+          "change_pct": 9.95,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -668,8 +698,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P2",
-          "price": null,
-          "change_pct": null,
+          "price": 441.04,
+          "change_pct": -8.13,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -682,8 +712,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P2",
-          "price": null,
-          "change_pct": null,
+          "price": 40.18,
+          "change_pct": -6.67,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -700,7 +730,7 @@
           "change_pct": 2.83,
           "units": 27.156680144,
           "current_value": 8923.14,
-          "source_hits": 1,
+          "source_hits": 0,
           "reason": "Autonomy and humanoid optionality with valuation risk",
           "rank": 5
         }
@@ -708,7 +738,7 @@
       "candidate_count": 4,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T21:09:00.472819+05:30"
+      "cohort_updated_at": "2026-08-08T22:01:57.817680+05:30"
     },
     {
       "theme": "Critical Minerals & Copper",
@@ -718,18 +748,7 @@
       "rating": "WARM",
       "rc": "var(--gold)",
       "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: The Mine-to-Magnet Strategy Is Spurring M&A in Rare Earths - Goldman Sachs",
-      "news": [
-        {
-          "title": "The Mine-to-Magnet Strategy Is Spurring M&A in Rare Earths - Goldman Sachs",
-          "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbld4dnJFRmVOT0gxTEdtZHVpM2lwb0VvY3EtWmx1RnF0RTl0M2dGdUY3RzdkOTBfeG45dldKOWFmeEJxc1Z0VnpJOTVwTTZsV0lqMkZVUmhSWGhOMEMxZ1BTbkNKb1BMaDVnU0dUVzZQcGhzc2doU0ZHdW9haVZZQ19ERWx5alpGd3FrM19Uem9sZVB5WUVxOERNNUtrMkdFaWN5TlZrdWM?oc=5"
-        },
-        {
-          "title": "3 Mining Stocks to Capitalize on the AI Data Center and Defense Buildout - business-review.eu",
-          "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZjVIT2ZkdDlDWjdZYnpfczhUdVdQaTNpd0hLNk9OZS15VVBNVExnVVBfcHF5a2kwTUtPNklqcmdnZWFkY2kwY3ROT0ZKaXREdktYOE9ua19BeHlxdGFVQS1Ea1BOQ2gzNXlXMnFjUzVWV25tMGRqR2V5LWZLcHROR3hQNjBCUVlhZ3hGV2NMV1ZtZEhsM2luOHdJa0FyZ2NKcHVrdFJSQ1ZZaDRlbXRRaW9XQWtIZm1qYVVoZ1cwcE4?oc=5"
-        }
-      ],
+      "news": [],
       "tickers": [
         {
           "ticker": "FCX",
@@ -737,8 +756,8 @@
           "status": "NEW BUY",
           "owned": false,
           "priority": "P3",
-          "price": null,
-          "change_pct": null,
+          "price": 69.62,
+          "change_pct": 11.16,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -751,8 +770,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P3",
-          "price": null,
-          "change_pct": null,
+          "price": 131.11,
+          "change_pct": 11.45,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -765,8 +784,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P3",
-          "price": null,
-          "change_pct": null,
+          "price": 88.03,
+          "change_pct": 11.63,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -779,8 +798,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P3",
-          "price": null,
-          "change_pct": null,
+          "price": 51.11,
+          "change_pct": 23.54,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -793,8 +812,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P3",
-          "price": null,
-          "change_pct": null,
+          "price": 199.06,
+          "change_pct": 8.95,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -805,7 +824,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T21:09:00.472828+05:30"
+      "cohort_updated_at": "2026-08-08T22:01:57.817698+05:30"
     },
     {
       "theme": "Sovereign AI Infrastructure",
@@ -814,17 +833,12 @@
       "target_pct": 17,
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: Napster, DETASAD, and Lenovo Enable Sovereign AI Infrastructure to Support Local Deployment in Saudi Arabia - markets.businessinsider.com",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: ⚡ NVIDIA's $1 Trillion Outlook - appeconomyinsights.com",
       "news": [
         {
-          "title": "Napster, DETASAD, and Lenovo Enable Sovereign AI Infrastructure to Support Local Deployment in Saudi Arabia - markets.businessinsider.com",
+          "title": "⚡ NVIDIA's $1 Trillion Outlook - appeconomyinsights.com",
           "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNVkN6Z3NDeVNUMHJxMmNDXzlDRFJXTkpYQjJ6UWhTbktWcjVGQXd1cmQ1YjBTNHEyZ0pwSFFOalBEaGFmTHRtdHNrWkd5SFp4cEhtVDhjUlJiTWRTLTNweVg1dzBvX0hpU1RNUHVZOFJSb3VBYmVwWWVFWnJZNTUxdmhlWXFRX3JvSlJWZ3gxcEhnOHNLdDR5MThNeHk2VjRpNDVXX0s1aE5JT3NaZjZhd04wdEZOV3RUR1RidUtQRnkyQURPY2ZsYVNMYndmQ2lrQU1ocFVBWE5uT0l4Qlk2eTZ6UTVjUVJPbUNVQWNwUFlRY2hzSlFB?oc=5"
-        },
-        {
-          "title": "Can NVIDIA's Sovereign AI Push Unlock New Revenue Streams Now? - The Globe and Mail",
-          "date": "2026-08-08",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPN3B0eDAtVS11UUJLOWlCOEwydHpTekhpdGcwV21NT0NnNTJNVTBnYkNVakpBM09idnNjX0UwOFJ3TVJpcW1SWXg3UWllSWFkUS1tekI0Qm1pZElkdXlNZU9fTHdaNnJfN3NDWDJjUnJkTGEtMVA2empNVjl5QkhhM244WDYzRUZhSXFlRkh3NTdRV1lycmRyRnpjQS1PVjJSM09EdEJzREk1eU1EN1N2T1BWVWdrZW00Y1Brc3J6WDNmUnhBMVBMTmV0blkwMTZ5cDliN2hBUHFaVllK?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xeDlQUEJtdUVFamJGbi1fSnFpS2JJQnhTWUY1MEoySXh4RW81M2pzTkwyVElpeW4tMjBhS1AzOVRRdXpJV3Y3RDdVMDFrZW5KT09BRlMyazBrS1hSZXppVzVzeWRlblhtZXVCbTBLa3M?oc=5"
         }
       ],
       "tickers": [
@@ -848,8 +862,8 @@
           "status": "NEW BUY",
           "owned": false,
           "priority": "P2",
-          "price": null,
-          "change_pct": null,
+          "price": 453.77,
+          "change_pct": 11.94,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -890,8 +904,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P2",
-          "price": null,
-          "change_pct": null,
+          "price": 237.28,
+          "change_pct": 6.09,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -904,8 +918,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P2",
-          "price": null,
-          "change_pct": null,
+          "price": 147.02,
+          "change_pct": 13.21,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -918,8 +932,8 @@
           "status": "WATCH",
           "owned": false,
           "priority": "P2",
-          "price": null,
-          "change_pct": null,
+          "price": 31.13,
+          "change_pct": 9.61,
           "units": 0,
           "current_value": 0.0,
           "source_hits": 0,
@@ -930,7 +944,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-08T21:09:00.472842+05:30"
+      "cohort_updated_at": "2026-08-08T22:01:57.817727+05:30"
     }
   ]
 }
