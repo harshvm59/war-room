@@ -5517,7 +5517,7 @@ window.selectPortInv=function(si,ii,el){
         if (typeof THEMES === 'undefined') return;
         t.items.forEach(function(live){
           var key=String(live.dashboard_name||live.theme||'').toUpperCase();
-          var local=THEMES.find(function(x){ return x.name===key; });
+          var local=THEMES.find(function(x){ return String(x.name||'').toUpperCase()===key; });
           if (!local) return;
           if (live.summary) local.body=live.summary;
           local.priority=live.priority||local.priority;
@@ -5535,8 +5535,9 @@ window.selectPortInv=function(si,ii,el){
               else if(status==='TRIM') cls='trim';
               return {s:row.ticker,c:cls,status:status,price:row.price,reason:row.reason};
             });
-            if(typeof THEME_RESEARCH!=='undefined' && THEME_RESEARCH[key]){
-              THEME_RESEARCH[key].top5=live.tickers.slice(0,5).map(function(row){
+            var researchKey=local.name;
+            if(typeof THEME_RESEARCH!=='undefined' && THEME_RESEARCH[researchKey]){
+              THEME_RESEARCH[researchKey].top5=live.tickers.slice(0,5).map(function(row){
                 var status=String(row.status||'WATCH').toUpperCase(),price=Number(row.price);
                 return {t:row.ticker,n:row.name||row.ticker,thesis:(row.reason||'Daily source-linked theme candidate')+' · Research status: '+status+'.',entry:isFinite(price)&&price>0?'Reference price $'+price.toFixed(2):'Reference price pending',target:'Re-score on next theme refresh',horizon:'Daily monitored cohort',sizing:row.owned?'Existing holding · CEO review':status==='NEW BUY'?'New-position candidate · CEO sizing required':'Watchlist · no allocation by default',risk:'Source and risk gates must pass before any CEO decision'};
               });
