@@ -1,205 +1,98 @@
 {
-  "updated_at": "2026-05-22T12:31:02.293833+05:30",
-  "source": "claude+web_search",
+  "updated_at": "2026-08-08T10:28:58.723470+05:30",
+  "source": "google-news-rss-fallback",
   "items": [
     {
       "theme": "AI Compute & Semiconductors",
-      "rating": "HOT",
-      "rc": "var(--red)",
-      "summary": "Nvidia's market cap hit a record $5.5 trillion in May 2026 with $45 billion AI supply chain investments. TSMC approved a $31.3 billion capital budget including a $20 billion Arizona injection. Memory chip demand surged with the Philadelphia Semiconductor Index up 60% in six weeks and Micron jumping 38% in one week.",
-      "news": [
-        {
-          "title": "Nvidia's record $5.5 trillion valuation driven by AI supply chain investments",
-          "date": "2026-05-15",
-          "url": "https://www.distillintelligence.com/briefings/semiconductors-ai-chips-2026-05-15"
-        },
-        {
-          "title": "CME launches compute futures market for GPU price indexing",
-          "date": "2026-05-12",
-          "url": "https://www.cnbc.com/2026/05/12/new-futures-market-for-semiconductors-comes-as-ai-drives-costs-skyward.html"
-        }
-      ],
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "MU",
-        "ASML",
-        "AMD"
-      ]
+      "rating": "WARM",
+      "rc": "var(--gold)",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: No fresh RSS headline returned",
+      "news": [],
+      "tickers": []
     },
     {
       "theme": "Energy & Nuclear Power",
-      "rating": "HOT",
-      "rc": "var(--red)",
-      "summary": "US Department of Energy awarded $94 million on May 14, 2026 to accelerate small modular reactor deployments. The US secured its largest-ever HALEU shipment (1.7 metric tons) from Japan in May for advanced nuclear fuel. However, a drone attack near UAE's Barakah nuclear plant on May 17-18 forced one reactor to temporary emergency diesel operation.",
+      "rating": "WARM",
+      "rc": "var(--gold)",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: Production cost of renewables undercuts fossil fuel energy & nuclear power for the first time - Windpower Engineering & Development",
       "news": [
         {
-          "title": "DOE awards $94 million to accelerate SMR deployments",
-          "date": "2026-05-14",
-          "url": "https://www.energy.gov/ne/office-nuclear-energy"
-        },
-        {
-          "title": "Drone strike forces one reactor at UAE Barakah plant to emergency operations",
-          "date": "2026-05-17",
-          "url": "https://www.aljazeera.com/news/2026/5/17/drone-strike-sparks-fire-at-uaes-barakah-nuclear-power-plant"
+          "title": "Production cost of renewables undercuts fossil fuel energy & nuclear power for the first time - Windpower Engineering & Development",
+          "date": "2026-08-08",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYzVZbXJFTWFTNXNranRtSndHMFpfWnZXLTFCOGpZdk5DVU5xNHNCM1JoU1ZicWpXcVlQdnNNVHdPckxPcVIyQzQ2V09zZVlheURqdkRCSW5kZ3NtU1FwcnVzNzBsSW5vLTF5VWxMeUpLQ2RFd2tNbjkwbXdXU2s2QTA0QTkyVGp1SW9ZcWZMZE1MaHRxQk5HRGEyU3NNSlpmUUFTWHpKVkNPOUQxZ0szT2tFWW9RU1NCQVo4dUFzaXg3QzJSMHlZTA?oc=5"
         }
       ],
-      "tickers": [
-        "EXC",
-        "CEG",
-        "NLR",
-        "GE"
-      ]
+      "tickers": []
     },
     {
       "theme": "Defense & National Security",
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "The 2026 National Defense Strategy emphasizes hemispheric security and deterrence with $150 billion additional defense funding through the One Big Beautiful Bill. Recent May 2026 announcements include Pentagon tapping Shield AI for drone swarm autonomy and Air Force reversing the E-7A Wedgetail budget cut with $1.5 billion request.",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: 2026 Perspectives in Private Equity: Defense & National Security - akingump.com",
       "news": [
         {
-          "title": "Pentagon counter-drone task force to give 25 allies access to defense marketplace",
-          "date": "2026-05-20",
-          "url": "https://insidedefense.com/"
+          "title": "2026 Perspectives in Private Equity: Defense & National Security - akingump.com",
+          "date": "2026-08-08",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMWluZ0lRNjZ4T2x3WjRSV0dyWmN6ODdDTXFBTVVZWEhFTVdNN0ZlRElydFhGTXdrSHZ1ekUzb1R3SmkzY3ZEMVFLU2l2eU9yT2FYQ1YwcW5mampFQUh2QWtKRlJLbzFIZWxlc0Y0Rk5QU0NiS2VqQVZMQ0J6NXh6d2V1WnBJb2pfeHBXaE15ekIzbkFsekJ6MVBiTmNIQmJTM1JyYURQamFrckpqa2VtUw?oc=5"
         },
         {
-          "title": "The National Defense Strategy demands strong allies and alliance systems",
-          "date": "2026-05-20",
-          "url": "https://smallwarsjournal.com/2026/05/20/the-national-defense-strategy-demands-strong-allies/"
+          "title": "Voyager Technologies Q2 2026 Earnings Call Transcript - MarketBeat",
+          "date": "2026-08-08",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPclY1aXdmT1RIUGdEaXJ6bG1PVnRMbVBFLVl0T2g1VGFJZkZlN2g5aUtyaW1kTEhDNW41aFQ4MG5vd28wM2xXb3prTjh6WDlzVlRuYWhQQkRmUVExM216Y1FGNlMyNVY3VG1TMThoMFFsME5sdlczU2thaE82R3JxVnZZV3lGZ2ZORFMtZkw5QQ?oc=5"
         }
       ],
-      "tickers": [
-        "NOC",
-        "RTX",
-        "LMT",
-        "HII",
-        "GD"
-      ]
+      "tickers": []
     },
     {
       "theme": "Agentic AI & Enterprise SaaS",
-      "rating": "HOT",
-      "rc": "var(--red)",
-      "summary": "Bain & Company identified a $100 billion SaaS market opportunity from agentic AI as of May 7, 2026. SAP launched its Autonomous Suite with over 200 agents across five domains on May 20, 2026. Fewer than 10% of enterprises have scaled agents to production value, but 40% of large enterprises report already scaling implementation.",
-      "news": [
-        {
-          "title": "Bain: $100 billion SaaS opportunity from agentic AI's cross-workflow automation",
-          "date": "2026-05-07",
-          "url": "https://www.bain.com/about/media-center/press-releases/2026/saas-next-$100-billion-opportunity-could-come-from-agentic-ai--bain--co-research/"
-        },
-        {
-          "title": "SAP launches Business AI Platform and Autonomous Suite with 200+ agents",
-          "date": "2026-05-20",
-          "url": "https://news.sap.com/2026/05/sap-sapphire-keynote-business-ai-platform-power-autonomous-enterprise/"
-        }
-      ],
-      "tickers": [
-        "SAP",
-        "ADBE",
-        "CRWD",
-        "NOW",
-        "MSFT"
-      ]
+      "rating": "WARM",
+      "rc": "var(--gold)",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: No fresh RSS headline returned",
+      "news": [],
+      "tickers": []
     },
     {
       "theme": "Healthcare AI & GLP-1",
-      "rating": "HOT",
-      "rc": "var(--red)",
-      "summary": "GLP-1 market expanded from $14.09 billion (2025) to $14.83 billion (2026) at 5.3% CAGR, projected to reach $18.32 billion by 2030. Weight-loss drug market surged from $15.5 billion (2025) to $18.02 billion (2026) at 16.3% CAGR. CMS extended Medicare GLP-1 Bridge through end of 2027 and launched BALANCE Model for Medicaid May 2026.",
-      "news": [
-        {
-          "title": "GLP-1 receptor agonist market grew to $14.83B in 2026; Roche acquired Carmot for $2.7B",
-          "date": "2026-05-21",
-          "url": "https://www.globenewswire.com/news-release/2026/05/21/3299530/28124/en/GLP-1-Receptor-Agonist-Market-Report-2026.html"
-        },
-        {
-          "title": "Study: AI-powered social media analysis identifies 400k+ GLP-1 side effect discussions",
-          "date": "2026-05-14",
-          "url": "https://telehealth.org/news/new-glp-1-side-effects-surface-through-social-media-analysis/"
-        }
-      ],
-      "tickers": [
-        "NVO",
-        "LLY",
-        "PFE",
-        "AMRX",
-        "RHHBY"
-      ]
+      "rating": "WARM",
+      "rc": "var(--gold)",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: No fresh RSS headline returned",
+      "news": [],
+      "tickers": []
     },
     {
       "theme": "Physical AI & Humanoid Robotics",
-      "rating": "HOT",
-      "rc": "var(--red)",
-      "summary": "Japan Airlines deployed humanoid robots at Tokyo Haneda Airport in May 2026 for a three-year operational trial. Humanoid and Schaeffler signed a binding deployment deal (May 13, 2026) for 1,000-2,000 robots by 2032. China placed robotics at the heart of its 15th Five-Year Plan (May 5, 2026). Physical AI market projected at $1.5 billion (2026) to $15+ billion (2032) at 47.2% CAGR.",
-      "news": [
-        {
-          "title": "Japan Airlines begins three-year humanoid robot trial at Haneda Airport",
-          "date": "2026-05-01",
-          "url": "https://memeburn.com/physical-ai-is-sending-humanoid-robots-to-real-factory-floors-in-2026/"
-        },
-        {
-          "title": "Humanoid and Schaeffler sign binding 1,000-2,000 robot deployment deal by 2032",
-          "date": "2026-05-13",
-          "url": "https://memeburn.com/physical-ai-is-sending-humanoid-robots-to-real-factory-floors-in-2026/"
-        }
-      ],
-      "tickers": [
-        "NVDA",
-        "TSLA",
-        "AMZN",
-        "GOOGL",
-        "TSM"
-      ]
+      "rating": "WARM",
+      "rc": "var(--gold)",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: No fresh RSS headline returned",
+      "news": [],
+      "tickers": []
     },
     {
       "theme": "Critical Minerals & Copper",
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Copper prices surged above $14,500/ton in January 2026 (record intraday), trading at ~$13,000/mt in May 2026. Goldman Sachs forecasted copper at $11,400/ton for 2026 with potential structural deficit emerging. China halted sulfuric acid exports from May 2026, a critical input for 15% of global copper production, intensifying supply constraints.",
-      "news": [
-        {
-          "title": "Copper prices hit record highs; Goldman Sachs calls it core target of AI supercycle",
-          "date": "2026-05-21",
-          "url": "https://carboncredits.com/copper-prices-surge-above-13000-best-copper-stocks-to-watch-in-2026/"
-        },
-        {
-          "title": "China bans sulfuric acid exports starting May 2026, straining 15% of global copper output",
-          "date": "2026-05-19",
-          "url": "https://source.benchmarkminerals.com/article/five-copper-market-takeaways-from-cesco-week-2026"
-        }
-      ],
-      "tickers": [
-        "FCX",
-        "SCCO",
-        "LUN",
-        "BHP",
-        "RIO"
-      ]
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: No fresh RSS headline returned",
+      "news": [],
+      "tickers": []
     },
     {
       "theme": "Sovereign AI Infrastructure",
       "rating": "WARM",
       "rc": "var(--gold)",
-      "summary": "Asia-Pacific sovereign AI infrastructure market sized at $9-14 billion (2026), projected to reach $23-47 billion by 2030 at 27-35% CAGR. Canada-TELUS partnership announced May 11, 2026 for large-scale sovereign data center in BC. Core42-Red Hat collaboration unveiled May 11, 2026 for UAE sovereign AI infrastructure. NTT DATA reports 95% of organizations consider sovereign AI important; 35% cite it as biggest adoption barrier.",
+      "summary": "Daily automated RSS scan on 2026-08-08. Latest source-linked signal: Sovereign AI Market Trends - MarketsandMarkets",
       "news": [
         {
-          "title": "Canada and TELUS advance sovereign AI data center initiative in BC",
-          "date": "2026-05-11",
-          "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/government-of-canada-and-telus-advance-work-to-build-sovereign-ai-infrastructure.html"
+          "title": "Sovereign AI Market Trends - MarketsandMarkets",
+          "date": "2026-08-08",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU1JGbjNhZjk2QW1aWkpKZXYweFJpM1haQTdpcU1LZ3hMVXIyZWRGZlIyN29CbUFraHlFVUwwb2ZuUVBIY3FTbnVxTl9qSzkydzdQcnRNVnBqVVpwdlQ1U0NuOEVuYkNHeVh4bW53QUxLeTdiaVNRUVRJeng1ODQyQjBjYWZrUWFheTZZ?oc=5"
         },
         {
-          "title": "APAC sovereign AI infrastructure market at $13B (2026), growing to $23-47B by 2030",
-          "date": "2026-05-19",
-          "url": "https://www.globenewswire.com/news-release/2026/05/19/3297355/0/en/asia-pacific-sovereign-ai-infrastructure-research-report-2026-the-hybrid-model-reshaping-a-13-billion-market-with-nvidia-dominating-size-strategy-and-forecast-to-2030.html"
+          "title": "Sovereign AI Infrastructure Market Size to Hit USD 177.09 Billion by 2035 - Precedence Research",
+          "date": "2026-08-08",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNeU1NV3BSLUdaUTZxckN3bnM0TEJFUTcwVG9hRDZHaWYyTXplTnJCQ0lCLS1DbWpRWlJmNm9JVnN5clFiOE1YMDFLcDA5dkJnTHVWV1JLT0hwNVViUm1PWENMN2xlbWhLUmcyclpObGstV3hxOG9rcg?oc=5"
         }
       ],
-      "tickers": [
-        "IBM",
-        "RHT",
-        "NVDA",
-        "CSCO",
-        "ORCL"
-      ]
+      "tickers": []
     }
   ]
 }
