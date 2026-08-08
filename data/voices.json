@@ -1,114 +1,513 @@
 {
-  "updated_at": "2026-08-08T10:30:02.456166+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-08-09T04:11:21.140450+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 18:30:02 GMT",
+      "source_name": "Barchart.com",
+      "signal_type": "source-linked headline",
       "themes": [
         "#AI",
-        "#NVDA"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia's growing web of AI deals has investors asking an uncomfortable question - Business Insider",
+          "t": "Headline signal (not a direct quote): Billionaire Jensen Huang Says That When America Goes to War He Would Rather Not Be Asked About His Own Technology: ‘I Would Really Appreciate Not Getting a Phone Call…' - Barchart.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOUpQYl9mem5RNDdVQndvVlBDMXB2cElsVjg5cW5qYzBqa09CcU5RN2s3WmRyQlpwQWJTdklUcldFdGFjYXZhNGZOejBMZXVud2J1SEZnc3pFdHZJTkQzdjJwSVdWbno1OURsdjRuR0R5MzdhOU1NMXZMb2hOeEJpZ0lScHZ5d2haUXpDN01xczhNa0V3a0p4S0RpOEZBRWZ0VHV6SA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOV2FXOEw5cE1nUmo1bXhsR0pDT3kyZmZ5c3Z3NUozY0xjOEoyN1hHVG5vRWxnMHZDMWZ2Y3lxWFVOOS0yWlNia1JZa1hCa19iUHBlOFJ6THNoWmFoSDZwN09FSi1KbEFmUzhpbXJpWVZDYzU1b3c1akdEblU3R0hELUozYjQ3UEt2Qy15c0VtVVJ1WHNCQWRDcm1iVFp6ZU41MDliQ0o5dUE0bURuRVNRREQ0QkJzNVJJQ1hRaEVOSEM4VjVGeUxmVXVUel92TjJpMDRYb0oxTVJUZ3JCZEl6dHQwTEdDbVBvd0N4NWtoSF9BTnJkc3NaM2NwZWtXUmUtWGNULVJfT2dyRUl0Ul8wMm1kek54d1JaN2NqSTIxZ1BWa0xTNEtiMVU4MWlSYVlBT3c?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 10:53:43 GMT",
+      "source_name": "stocktwits.com",
+      "signal_type": "source-linked headline",
       "themes": [
         "#AI",
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman reveals the investing advice billionaire Peter Thiel gave him that's led to a $3.3 billion net worth - Fortune",
+          "t": "Headline signal (not a direct quote): Sam Altman-backed OKLO Stock Drops As Q1 Loss Widens - stocktwits.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUHBKVVhwSGNQem9fSTJhZW5VNDF3VG82OW5pQkQ2YlM2ek40SjBheVRLTXBsRlJBcmY2S0RZeGI1Wk8wQUNCMDExSTkxbTQxNkM2aGNoYkFyanRyY18telk5X1RiOXViZHdFc0l5ZVJrelhKSHc5TWpzN2NWRVRDMW9QeTZaeGMzWGRQdFRyVkhmVUE5aWR3MkN6QmJvVC1yd3puVDQzeHpibWp4ZGFFQmRmUHd4YVFIVVNESXdRR3dPbFZ3bFlnekVQbVR1b2ZW?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ0hWdVh1OWM3eXFFMF9PZHlMRnNNTzBuUTRoWVBXaWZ5VlpxOUtwYVZ4UzF5YlRmZVgtNVFiVXBKb2s5ZTAxbHdyNWl6OUNValptaDBDSm5odWlzWHdocDc4VldCQnBERFJQSGg2M3VBV2VKUHNBN0NtV19GQ2lVRmVyNUJfWkgzUWNzQUxMcGRIbzQxNFAzTGFmbU5INFZ2b1BFNEdPaFJIalF3TG1EXzZrQXAxVjQ?oc=5"
     },
     {
       "name": "Dan Ives",
-      "role": "Analyst",
+      "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 10:24:57 GMT",
+      "source_name": "stocktwits.com",
+      "signal_type": "source-linked headline",
       "themes": [
         "#AI",
-        "#AI"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Why Dan Ives Sees Apple WWDC As A Major AI Catalyst for AAPL - Stocktwits",
+          "t": "Headline signal (not a direct quote): Dan Ives Says ‘Future AI Tech Winners Are Being Built’ As Software-Led Spending Wave Looms - stocktwits.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQanh4dmthZ2JxNW1jU3ZHQzhtNUJhLUZVVFpDUGl5WGJpTllPSlNyclc4ZHBYWktGbDh0TTIyVXNpZUp0cEZoZDkzUUR2MEJFM1FyR3lzOVZTazdZUGlKNjIydzdSTXBhaFRfVFY0bTk4QWZWZW8tQkJTME9iTFZiUDFJRFIwWWRQVUFHRTRub2drd0l5R3Q1MXhqWC1feTdnUDJhSHVnaU1ieFVRWmc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQUEpoc01kTXBFTUd6TE5SOGcxd0djNndIcExCSjVhN3FsSUI4eV91WUVKZnhVbWZIRHpXVWlQTG9hMV9XUXlJYm5SdXNHUFo0M3RBVWNmU0kxX0Y1WDhITmxNT3VIWGU3U2lmVHZhX012NEpySWEtU1ROM3VjWk04d29QU1AwMm5pclBQTFR6YTlzTUhwQnNCMTN3S2hSYWZZLTNJbUFkVGR6cURZVUp4UjJrMlVPZlQtcV9SLTZTRnZCZHJIOTFVY3lEWW50YlBjVFBHbVozUWFVTnRYRmlGaTAxUGdYMklqVWdMaTVrWGx4WWFDUVE?oc=5"
     },
     {
       "name": "Satya Nadella",
       "role": "CEO",
       "org": "Microsoft",
       "cat": "CEO",
-      "date": "2026-08-08",
-      "themes": [
-        "#AI",
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains. Here's Why That Matters for Investors - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRjZkZnRxWDZIbFJoczVfQVd0SlZMZGg1eTFDTzdTTGRNWVF3UFFZVUF4eWptMDZyMUg5SC1PUnFFbTBob3hJaHY1TlJIbTJySmFMTThVMFBVYl9fMzJaYjA0VENSSVVDVlJiRTV0QURZRnplMmVmZ0FwZkk3NXNGSmtoUGhTNG1zcEQ2cVVqNnlxOWJZUzhFMFFZaEdfQQ?oc=5"
-    },
-    {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "AMD",
-      "cat": "CEO",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 18:26:32 GMT",
+      "source_name": "aol.com",
+      "signal_type": "source-linked headline",
       "themes": [
         "#AI",
         "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su on AI demand and hyperscaler spending: 'We're seeing the returns' - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella Just Announced Great News for AMD Stock Investors - aol.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTzB0UGtzRDFFckFCaFJhejFzVmtRLXJoV3M2NFBQU014cEtudHd2dEx5NVVtXzNtaXRya1VOeWxkaGVoSEJsRkt1cExpNjhITmVtaGtvVHBiYTV3LWtUT0NfSzRMMlFobDlzWC1tblZRcjJrcUdSNTQ2N1paZEZkWmhSWDNTZk9YRUhudE5HbnI4VGhUc0ZyOFZDZUlyenU1S2FpcEhnZ1BuTGpzOHNBMGd2cmRyc0tXdDlMdlcyZWRXT1RGdmdHWnFRZXAyTU95R0Nj?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNEtPMXJaWnlmVUs5Nl9VRmIxOHhhT0tnbVVVNE9abGkxelBDTVVERXJTeGhHM0praV9LaTEzQ3dtNG5iSjB5RjlCdTRRdEFYcVFwY09aWXJ1ZW5iTDZSb3RFUGZfSUJmMG44QlZFdWxNWkxDOUZ3MVpMNnkwcTFLUDNR?oc=5"
+    },
+    {
+      "name": "Lisa Su",
+      "role": "CEO",
+      "org": "AMD",
+      "cat": "CEO",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 09:04:45 GMT",
+      "source_name": "Data Centre Magazine",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): AMD’s Record US$11.5bn Quarter: What’s Behind the Growth? - Data Centre Magazine",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNDBsNGljcVVrODduRzl6X1pxWGF6WlNkam5VeVotNWh6UFh5YXJrMDRzeDVaYnBIcFpaaTZYcUJTMm1CTFR5c1o3Y1lxd2E5RGRQN2QwSVIwa2xyT0tWUkFwV3A4TDF5VUxCTFI2RnVnS256OGwyNl8zWlpHclR3U0licXNlaFJZZ3lUMVNRRjMwTFU?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
       "role": "Investor",
       "org": "Social Capital",
       "cat": "Investor",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 03:51:52 GMT",
+      "source_name": "stocktwits.com",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): SPCX Stock Declines As Investors Weigh AI Investment Scale Despite Upbeat Q2 Earnings - stocktwits.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOURYQlVjajJZU1RKZGhpVGxwcVcxVlhPcU8xOHlYZFNUd0h4MXA4aEl3THRoMFFWMW1hX2xRRnhmMV9BMHdKclF2RG4wTzlFM3RUVWZmYTJlUGdtRnVtaFhMVTRtY0ZiSF9hYzhzZlpNN0E3ODhzY0JkOHFxSm50VGhSM0VDNjFnc1lqOEcySFFEOWxrbjYxdUUtQVBRVDVKOXoyMDNnY1VtMmc4TTBITnoyVVU2Vzh3bDh3OFNrRnB1VzdMZDlsa2Z2NDlSS0tlX0s1ZnhNTHRISFcwNEdUSFBMQQ?oc=5"
+    },
+    {
+      "name": "Alex Karp",
+      "role": "CEO",
+      "org": "Palantir",
+      "cat": "CEO",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 03:21:48 GMT",
+      "source_name": "Memeburn",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#PLTR"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Palantir’s Karp Says AI Labs Are ‘Trying to Drug Addict Us’ Again - Memeburn",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZWxFSjBOaHJyeTUxbExqU0RLLUQ4RGhOZ2ZFZlZDOC1uZUVqZGJyNTdqUG1PNFM2SFVqQU9MT05YUHdKejMxODJSeGotVTBZaG1MX090OTNJbUk4cnZ6OThNSWxUM0tXX1g1ZlFlN0VqMFVOOTJDdVZFN2ltRHZ5Zk5GY1daZXZxZ2dhUQ?oc=5"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "CEO",
+      "org": "Tesla / xAI / SpaceX",
+      "cat": "CEO",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 11:30:00 GMT",
+      "source_name": "The Motley Fool",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#MU"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher - The Motley Fool",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWEhMSjJYNWVZbTUtSVVydnRxMGlKNVZDdmNEWWlUWjNhTERUMDduZ0FTZXRWUk5idF9yODBZYVF2M29CNEdFUVZwTUdGZmNZZHN6NFBFcWNnVU9qWjg3cy1BbW5vLWZCWlVPNW9MU2lrX3lCdXotMnVSMXFBaGd3SVlCLTh6QVZrVnBsczVMYUZKMWJXVEZudw?oc=5"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "role": "CEO",
+      "org": "Meta",
+      "cat": "CEO",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 05:36:00 GMT",
+      "source_name": "The Times of India",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#META"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg gave an update on ‘Meta's 4 am layoff email’ to employees during earnings call, shared ex - The Times of India",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNcFpPWW5ZOU9DRE9QZ3piSENuVy1uTkdOYUd0NG1iTldyd0sxdjItT1dEeE1lQ0x5VG9qc3AySnZnWHRnWEEzWU9GdTMzbzQ4SnJKM1B6bmdmWGZZZ0JyM0xNOTd0YzZqTmRkVEYzRE10RHZqSFdnZ2JmVkNydk95NDBNcjNHaU5BNVphd3ZiejR1UTFXOUpubWRlakZSOVB1VjJEQ3JjQWtjaXdYQTFmY2syWWltVlpnZ0JKMGNucVl4a2w4bkx4RGM1Y0IwVnE2cWtCMXY5TnhCOXc3RnNaVTh4akN3YTRYR250cTl1TGEzV2lac042YVdHQ3pWYTdHTVp4UmRFRVhnSzZOczhPYnB1andjS2pEVnR5SkRnMNIBpAJBVV95cUxOeFJuR183eTNQN0pIMFl2QzUtT2xoMnlQOUthbVZUX2Z3R0toelhEVi0zRW16Xy1SanNnemY4T2pJVjZRbThFLUFiOVdHNVZCdDBSdXYzTU1iY3F6TEkzQVp6TGlsWW9idXFqVmpmRlhObzVhd2pOcU1XRHVnX0VQTDlpSjc0bmFOeDR5bjUzdVdTc183dm11bGtpNGozNnJGM1ZfNGQ3dnlaOGtZWk1pOWhDTXRNdlJqXzFtOGEtVWt0ekQyOFpPd3BKY25FOTN5cjFQbmZOUGZYZ1VJRWFpeG9DZGZVc1pCcHJpenAxZ3JWT0VGS1FKM3BMSmJEWThGNXR3NGZ0M0VPTm1vUXdPSFJzZ210UGVYSWRHQnZJNHhhb1dK?oc=5"
+    },
+    {
+      "name": "Sundar Pichai",
+      "role": "CEO",
+      "org": "Alphabet",
+      "cat": "CEO",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 22:40:16 GMT",
+      "source_name": "blog.google",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#GOOGL"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): The next chapter of our AI momentum - blog.google",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcFZsVmdKNHhSVnQ0VDZwRXY1VmZWQno1V3MwUzMxM2VJMW5UeFFmODZXa1VDcXVBS0dOMldjY0dwcTI1V05Pc0hHUzJWcGFzMnhVMnlVLW96U0J1ZjJFQWpQVENFdnRvd0dNUFpMU003dlFlbWhSQUJDNG9qX3ZkdmJFeWloYnQ4VmNVeQ?oc=5"
+    },
+    {
+      "name": "Andy Jassy",
+      "role": "CEO",
+      "org": "Amazon",
+      "cat": "CEO",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 11:02:02 GMT",
+      "source_name": "aol.com",
+      "signal_type": "source-linked headline",
       "themes": [
         "#AI",
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya says soaring AI token spend will hit companies' earnings - CNBC",
+          "t": "Headline signal (not a direct quote): 12 Words From Amazon CEO Andy Jassy That Should Have Artificial Intelligence (AI) Investors Cheering - aol.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WOHdUOW9Lb1ZqOEFzM0ZlcTBmWmZfSDJSTXBacnRVNWc1VVpBcVpNOGlrU1JiM2NjQm0zR1dMUnU1WC1KcUR5bFctSnFuZ0J3N1VLUGtUQjA0bjdaVU14eGdnTkVvX0NYWWlHclQwSjd4b3FtOG9rYy1EaXFlZ9IBgwFBVV95cUxPdzdWTGxwOHlwMjZPWG5JZV9UUF9lakRfM282SmZidGJsM09WcFJtY3RCWUxfcElvblNjMXJFRG8yUWNwRHhZMXAzZmJEdUpEOUlNVnkwdk5nSTl0aWVtbEV6eTk4WW5yYlU2d2hkYkhMdlZFdXBRNTRhV3Fzb0d1UWxDYw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCaXNCeEU3Q3JpWjZCTWpBRHBRby1KRUpVdWxBQ2l1NVRDMVhBcDNqQ1UzLXUtX3E2Q24tT0NpNVlObXp3MFk5UWEwYzRDand1OF96ZjU2elJmZ1lPaEVpeXZsMjlCdDRGZ3BxVzZiekdyNXlLUXdj?oc=5"
+    },
+    {
+      "name": "Hock Tan",
+      "role": "CEO",
+      "org": "Broadcom",
+      "cat": "CEO",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 20:42:34 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#AVGO"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc3diTDc1NXZtZ0R6Mks5cGY3Slk0MjdvbGoya0xuN0k1bXJ3UmdpNWRtQ0dxRTBLNzNGbjhPQnB5VEttODU0c25wb1lONlBmeURBazNYYXBVYUVUNkE4eDFONUgyS3E4TzVUanYtRk9JWlU5cmNhNHQzVkxSQzFMWXZ6YnNwb1ZLbnB0VmJrQzBLRjZOSWc?oc=5"
+    },
+    {
+      "name": "Sanjay Mehrotra",
+      "role": "CEO",
+      "org": "Micron",
+      "cat": "CEO",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 14:30:00 GMT",
+      "source_name": "24/7 Wall St.",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): AI’s Biggest Opportunity by 2027: NVIDIA vs. Micron - 24/7 Wall St.",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQnRjUi0wemhBNHUyOFREVG42YTJMZmdFYlVXOGpYa2V1SWQ5Qmx1VEFuTUUzWDR3bHNUV3V4TF9YT2dBSlhKQzNSalBkMklObFIwbGpwc05VdWJQRWhGeHpkYUtiM2dEN0w5Yi1sMjdseGNjeGRPVmpxRjdieHlVdnFTeGF1R3ZkVnNxT3pYSHVQZ0MwR2xN?oc=5"
+    },
+    {
+      "name": "C. C. Wei",
+      "role": "CEO",
+      "org": "TSMC",
+      "cat": "CEO",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 01:30:57 GMT",
+      "source_name": "tech-insider.org",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#TSM"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): TSMC Earnings Jump 77%, Capex Hits $64B [2026] - tech-insider.org",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PWi1td2FPbC1YV1pKUEZVR0lVMV9iZDNsUHpsZ25nTklIU0VhRElSS1BOaHVrbnJfd2gtZ0pJd1E4MVFsSV9xZzEyUFdkUDZyM0s1clZTZVRIVUtGamo2Q3NzYm1mbGhQeFE?oc=5"
+    },
+    {
+      "name": "Lip-Bu Tan",
+      "role": "CEO",
+      "org": "Intel",
+      "cat": "CEO",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 04:25:46 GMT",
+      "source_name": "aol.com",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): 1 Beaten-Down Semiconductor Stock That Could Make a Comeback - aol.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX1VrLUsyaXlSNnNlejRkWVlrZkdBbDF4MDlvbW9RV0NVdktENzNTa1ZFaVJiVmFqcmtHM2t0Vl95clBNTXlXQjVvQnFRbWZzSE1DRnBMX2FsTGtPVjNqQld6blhidnRxeXJUejFpaG1vZHV2WFhER2FENmVSMHFodEdndw?oc=5"
+    },
+    {
+      "name": "Arvind Krishna",
+      "role": "CEO",
+      "org": "IBM",
+      "cat": "CEO",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 20:09:27 GMT",
+      "source_name": "aol.com",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): IBM’s Post-Collapse Rebound: A Complex Risk Reward Profile Today at $233 - aol.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYWp4ekl1c21Bdm0taVhwUnZkZWNjaVRfRHhqaE1YNDVXa1lxUXdPaG50dHUyRVB0Q0ltQ3RQNnFSeVJzWjZ1cTQwNzRGd2VtZ1ZJaEE4ek1PVVNwUjloakFxcXN4alVFXzNYOFM0QXdDMmxaQmN6VG1kSkJfdXg4Vmx6MA?oc=5"
+    },
+    {
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
+      "cat": "CEO",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 08:20:56 GMT",
+      "source_name": "fortune.com",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Oracle (ORCL) Q3 2026 Earnings Call Transcript - fortune.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9GeDNhTko5cTRFX0FfdGtVdVVHUHFEYzBvRHlYVmREWTdxcC1CZl9qcEQxNTFEeXpzbE5yWU84dmxzVTUxSllURWlJYUJJZmgxdlFybGRmMmFQNzk1em4wWnJR?oc=5"
+    },
+    {
+      "name": "Cathie Wood",
+      "role": "CEO and CIO",
+      "org": "ARK Invest",
+      "cat": "Investor",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 12:54:18 GMT",
+      "source_name": "CoinGape",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): SpaceX, Coinbase, Circle Stocks Surge As Cathie Wood Buys Another $45M Stake - CoinGape",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUXV1OEY0LWwyVmJJLTViQXpNSGFFaVliOFZMUlg5X0ZpTHRzZ3NFbXBmZGVzVm5PZHpveTk4akhiMGxSeVZXcW5UYm5oTXp2S05HaUQ4eWZuM25RU1JBRS1rY1lMc1B0RDVsQU55eGVNY3N6aWNqd0xIU3EyUWJKVmYtalNlMEVJV0t2Q3hJU0Z4eWdRN3VlTXBfQQ?oc=5"
+    },
+    {
+      "name": "Jim Cramer",
+      "role": "Host",
+      "org": "CNBC",
+      "cat": "Analyst",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 19:51:41 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Jim Cramer Weighs In on Space Equities: Rocket Lab (RKLB) vs. Voyager Technologies (VOYG) - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ0ctYmhHODZ3MnF6Q3JneEt3YjNWOUhKXzI3MkNXRHQ4SHZZZWlIU3B2Z2pORHdZY01jRHZBNjVxdmwxajduVDR1WXNURmpaVGpzN0hjVWxyOGcxOHRvMW9uNThTUVhnMWpEbHZXeUp1bkZfM2Z3eGhjQ0dEX3hGdERTMjhEa3dkVGlOdmMxaEcwQ3hOcGc1TncycVFRQQ?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 02:17:30 GMT",
+      "source_name": "Mshale",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Apple Slides Most Since 2025 After Supply Shortages Hurt Outlook | Bloomberg Intelligence Polymarket (YNMaw0IG7k) - Mshale",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBfbzZ2S2lNdEdjWnF3X0ZOSC1VN1lVZm5WV1hDTEJHUTNPZTh3VllfUFNNc2dxM1RDMHA3cVJ3NDB0VXBUWEpVenFHRnB2aV81QXNkNGswZVRoTzg?oc=5"
+    },
+    {
+      "name": "Beth Kindig",
+      "role": "Lead Technology Analyst",
+      "org": "I/O Fund",
+      "cat": "Analyst",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 10:29:01 GMT",
+      "source_name": "stocktwits.com",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Nvidia’s Groq Bet To Drive Token Boom, Fuel Its Next Leg Of Revenue Growth, Says Analyst Beth Kindig - stocktwits.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV2g4MDU2ejBDa1E4Y2QzbE83SUlCOWVqc1hMamo2OVVxNW1WNG8tTTNVY0tmTmZVZjI4MFFXaGY2SThyck1keHpydEVpckt3S2FYci1EVWtfdEtKS2NJN1BRRTkxd0tFT2hJeXk3bUh6R1pDNkY3ZXVZN3k2SjRCQlhFeXkxYjdIVWY1YzktZVAxZUxjazJMeXdVOEF1YndlWFhLZjdqT19vYmlxSktEWXJCWjIwZmQ3ODVPTEMyWXU5eVk?oc=5"
+    },
+    {
+      "name": "Stacy Rasgon",
+      "role": "Senior Analyst",
+      "org": "Bernstein",
+      "cat": "Analyst",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 10:33:44 GMT",
+      "source_name": "Mshale",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): NVDA Stock After Earnings: Buy The Dip Or More Pain Ahead? (Investing Tutorial) | Nvidia Stock Porto Fc (9A79XPvKhI) - Mshale",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vV2F0ajUzaTB6TVRuRjFJN3dyQ2NWLVR1bk9QcWRFdTJxVzRSUTBKc3k4NkZORDEtX0NvOW9NbjAzV1A3NnJTZEV1Q2p2V0xiZFhwTFlTSlJfbjg?oc=5"
+    },
+    {
+      "name": "Vivek Arya",
+      "role": "Senior Analyst",
+      "org": "Bank of America",
+      "cat": "Analyst",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 14:36:57 GMT",
+      "source_name": "TradingKey",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#MU"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Micron Stock Price Forecast: Memory Supply Tightness to Last Through 2027 as Shares May Return to $1,000 - TradingKey",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMEVGMmUzRlBZWl9fSUVmTzJFSGJLOWxsZ0JKV3dodlA2QnpucEpwMzZhVU5MV0lIdm9uTE05ZW40NjVQY0hFQXlGSzZUaG95X1pfRE93aUt1R0xjVXpzclBPaTJoTDZyVE1ENEVkRjJnVUxGM0dPZjlTSGplRk5jWkFSVkxKdXQ4cDZsYzNBa1YzeUJqelREcXRiMzhhWENwWUJrRk5wQW1TeXdGQTFEbXJONGZOeHM?oc=5"
+    },
+    {
+      "name": "Patrick Moorhead",
+      "role": "CEO and Chief Analyst",
+      "org": "Moor Insights and Strategy",
+      "cat": "Analyst",
+      "date": "2026-08-09",
+      "published": "Sat, 08 Aug 2026 09:14:59 GMT",
+      "source_name": "stocktwits.com",
+      "signal_type": "source-linked headline",
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Why Is ADBE Stock Falling After Easy Q2 Beat? An Analyst Caught Something On The Earnings Call - stocktwits.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQTXF1eEhhUF9vMHZkYkZMb3VnOG05YWRYeUJQMmxmdjhuXzZWSmRTS2pDaldFRXMzV2paa1hCWTVfU01sQkhkZm13OEdaZXVjWjlDekQzMk5nbThRZEx6cl9UV3JzcVNRSTljWURkSDExZzg2ZW1icy1nMFp1TWV3WWhTQ0I2cGZRWXhGbVg2cVZiRGNPOXNBMjNjR1JSQmk1RkdQekZJMFpTVmNvVDFQajR3OUNnSnBNRmpjUEpJNGhyYW81YXlySWk0Q0J4WUNNdWl2M282bjhpYWhDOWVNMHdKQWc1dWtFczNLbHBR?oc=5"
     }
-  ]
+  ],
+  "monitored_leaders": 30,
+  "fresh_window_hours": 24,
+  "fresh_signal_count": 24
 }
