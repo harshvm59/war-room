@@ -3208,7 +3208,9 @@ function buildThemes(){
       var ticker=String(s.s||'').replace(/[^A-Z0-9.\-]/gi,'');
       var status=String(s.status||'').toUpperCase();
       var holding=Array.isArray(PORT)?PORT.find(function(row){return row.t===ticker;}):null;
-      var price=Number(holding?holding.cur:s.price);
+      // Held names use the public market mark when available; broker cur/val
+      // remain untouched and continue to drive the official account total.
+      var price=Number(holding?hvmMarkPrice(holding):s.price);
       var reason=String(s.reason||status||'Theme cohort').replace(/["<>]/g,'');
       return '<span class="tc-s '+String(s.c||'watch').replace(/[^a-z-]/gi,'')+'" title="'+reason+'">'
         +ticker+(isFinite(price)&&price>0?' $'+price.toFixed(2):'')
