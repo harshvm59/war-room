@@ -2761,7 +2761,7 @@ function buildPortPanels(){
     var rsiPct=Math.min(Math.max(ta.rsi||50,0),100);
     var rsiColor=rsiPct<30?'#4a9eff':rsiPct>70?'#e05252':'#3ddc84';
     var patColor=ta.patternColor||'#c9a84c';
-    var kpis=[['Ticker','<span style="font-family:Bebas Neue,sans-serif;font-size:2rem;letter-spacing:.04em;color:'+pc+';">'+s.t+'</span><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-top:2px;">'+s.pri+' · '+s.theme+'</div>'],['Avg Buy','$'+s.buy.toFixed(2)],['Current','$'+s.cur.toFixed(2)],['Your Return','<span style="color:'+rc+';">'+(parseFloat(ret)>=0?'+':'')+ret+'%</span>'],['Units',s.units.toFixed(2)],['Value','$'+s.val.toLocaleString()],['Weight',w+'%'],['Analyst Target','<span style="color:#c9a84c;">$'+dca.aT+'</span>'],['Analyst Upside','<span style="color:#3ddc84;">+'+upA+'%</span>'],['Bull Case','<span style="color:#3ddc84;">$'+dca.bull+'</span>'],['Bear Case','<span style="color:#e05252;">$'+dca.bear+'</span>'],['P&L','<span style="color:'+gc+';">$'+parseInt(gain).toLocaleString()+'</span>']];
+    var kpis=[['Ticker','<span style="font-family:Bebas Neue,sans-serif;font-size:2rem;letter-spacing:.04em;color:'+pc+';">'+s.t+'</span><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-top:2px;">'+s.pri+' · '+s.theme+'</div>'],['Avg Buy','$'+s.buy.toFixed(2)],['Current','$'+s.cur.toFixed(2)],['Your Return','<span style="color:'+rc+';">'+(parseFloat(ret)>=0?'+':'')+ret+'%</span>'],['Units',s.units.toFixed(2)],['Value','$'+s.val.toLocaleString()],['Weight',w+'%'],['Rule Target (3mo)','<span style="color:#c9a84c;">$'+dca.aT+'</span>'],['Rule Target Upside','<span style="color:#3ddc84;">+'+upA+'%</span>'],['Bull Case','<span style="color:#3ddc84;">$'+dca.bull+'</span>'],['Bear Case','<span style="color:#e05252;">$'+dca.bear+'</span>'],['P&L','<span style="color:'+gc+';">$'+parseInt(gain).toLocaleString()+'</span>']];
     var kpiHtml=kpis.map(function(k){return '<div style="background:#0f0f0f;border:1px solid #202020;border-radius:4px;padding:.75rem .9rem;"><div style="font-family:DM Mono,monospace;font-size:7px;letter-spacing:.12em;text-transform:uppercase;color:#3a3835;margin-bottom:.3rem;">'+k[0]+'</div><div style="font-family:Bebas Neue,sans-serif;font-size:1.5rem;letter-spacing:.04em;line-height:1.1;">'+k[1]+'</div></div>';}).join('');
     var rsiGauge='<div class="rsi-gauge-wrap"><div class="rsi-label-row"><span>Oversold 30</span><span>RSI: <strong style="color:'+rsiColor+';">'+rsiPct+'</strong> — '+(ta.rsiLabel||'')+'</span><span>Overbought 70</span></div><div class="rsi-track"><div class="rsi-needle" style="left:'+rsiPct+'%;background:'+rsiColor+';"></div></div><div class="rsi-zones"><span style="color:#4a9eff;">Oversold=Buy</span><span style="color:#3ddc84;">Neutral=OK</span><span style="color:#e05252;">Overbought=Caution</span></div></div>';
     var macdBars=[.2,.4,.6,.8,.7,.5,.6,.8,1,.9,.7,.8].map(function(v){var h=Math.round(v*36);var c=(ta.macdVal||0)>0?'#3ddc8488':'#e0525288';return '<div class="macd-bar" style="height:'+h+'px;background:'+c+';"></div>';}).join('');
@@ -2786,7 +2786,7 @@ function buildPortPanels(){
         +'<div style="font-family:DM Mono,monospace;font-size:9px;color:#3a3835;margin-top:2px;">'+s.theme+' · '+s.pri+' Priority · '+w+'% of portfolio</div>'
         +'<div style="display:flex;align-items:baseline;gap:8px;margin-top:6px;"><span style="font-family:Bebas Neue,sans-serif;font-size:2rem;letter-spacing:.04em;">$'+(ta.price||s.cur)+'</span><span style="font-family:DM Mono,monospace;font-size:10px;color:'+(ta.chg&&ta.chg.indexOf('-')<0?'#3ddc84':'#e05252')+';">'+(ta.chg||'')+'</span></div>'
         +'<div style="font-family:DM Mono,monospace;font-size:9px;color:#3a3835;margin-top:2px;">Avg buy: $'+s.buy.toFixed(2)+' · Return: <span style="color:'+rc+';">'+(parseFloat(ret)>=0?'+':'')+ret+'%</span> · Vol: '+(ta.vol||'—')+'</div></div>'
-        +'<div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px;">'+vSig+'<div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;">Live TA · May 4 2026</div></div>'
+        +'<div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px;">'+vSig+'<div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;">Live market price · daily TA data feed</div></div>'
       +'</div>'
       +'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin-bottom:1.25rem;">'+kpiHtml+'</div>'
       +'<div class="ta-fund-grid">'
@@ -2802,7 +2802,7 @@ function buildPortPanels(){
           +'<div style="font-size:11px;color:#7a7672;line-height:1.7;padding:.75rem .9rem;background:#161616;border-radius:4px;border-left:2px solid '+patColor+';margin-top:10px;">'+(ta.ta||'Analysis loading...')+'</div>'
         +'</div>'
         +'<div class="ta-module"><div class="ta-module-title">📊 Fundamental Analysis</div>'
-          +'<div class="fund-grid"><div class="fund-box"><div class="fund-label">Analyst Target</div><div class="fund-val" style="color:#c9a84c;">$'+dca.aT+'</div><div class="fund-sub">+'+upA+'% upside</div></div><div class="fund-box"><div class="fund-label">Bull Case</div><div class="fund-val" style="color:#3ddc84;">$'+dca.bull+'</div><div class="fund-sub">+'+upB+'% potential</div></div><div class="fund-box"><div class="fund-label">Bear Case</div><div class="fund-val" style="color:#e05252;">$'+dca.bear+'</div><div class="fund-sub">downside</div></div><div class="fund-box"><div class="fund-label">Your P&L</div><div class="fund-val" style="color:'+gc+';">$'+parseInt(gain).toLocaleString()+'</div><div class="fund-sub">'+(parseFloat(ret)>=0?'+':'')+ret+'%</div></div></div>'
+          +'<div class="fund-grid"><div class="fund-box"><div class="fund-label">Rule Target (3mo)</div><div class="fund-val" style="color:#c9a84c;">$'+dca.aT+'</div><div class="fund-sub">+'+upA+'% upside</div></div><div class="fund-box"><div class="fund-label">Bull Case</div><div class="fund-val" style="color:#3ddc84;">$'+dca.bull+'</div><div class="fund-sub">+'+upB+'% potential</div></div><div class="fund-box"><div class="fund-label">Bear Case</div><div class="fund-val" style="color:#e05252;">$'+dca.bear+'</div><div class="fund-sub">downside</div></div><div class="fund-box"><div class="fund-label">Your P&L</div><div class="fund-val" style="color:'+gc+';">$'+parseInt(gain).toLocaleString()+'</div><div class="fund-sub">'+(parseFloat(ret)>=0?'+':'')+ret+'%</div></div></div>'
           +'<div style="font-size:11px;color:#7a7672;line-height:1.75;padding:.75rem .9rem;background:#161616;border-radius:4px;margin-bottom:10px;">'+(ta.fund||'Fundamental data loading...')+'</div>'
           +'<div style="font-family:DM Mono,monospace;font-size:8px;letter-spacing:.1em;text-transform:uppercase;color:#3a3835;margin-bottom:6px;">What to do right now</div>'
           +'<div class="verdict-box '+vClass+'"><div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">'+vSig+'<span style="font-size:10px;color:#7a7672;">'+(ta.earns?'⚡ '+ta.earns:'No upcoming earnings')+'</span></div><div style="font-size:12px;color:#ede9e0;line-height:1.75;">'+(ta.action||dca.note||'Hold and monitor.')+'</div></div>'
@@ -2814,7 +2814,7 @@ function buildPortPanels(){
         +'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:6px;margin-bottom:.75rem;">'
           +'<div style="background:#161616;border:1px solid #202020;border-radius:4px;padding:.7rem .8rem;"><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-bottom:.3rem;">Monthly DCA</div><div style="font-family:Bebas Neue,sans-serif;font-size:1.4rem;letter-spacing:.04em;color:#c9a84c;">$'+dca.mo.toLocaleString()+'</div></div>'
           +'<div style="background:#161616;border:1px solid #202020;border-radius:4px;padding:.7rem .8rem;"><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-bottom:.3rem;">Bear Case</div><div style="font-family:Bebas Neue,sans-serif;font-size:1.4rem;letter-spacing:.04em;color:#e05252;">$'+dca.bear+'</div></div>'
-          +'<div style="background:#161616;border:1px solid #202020;border-radius:4px;padding:.7rem .8rem;"><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-bottom:.3rem;">Analyst Upside</div><div style="font-family:Bebas Neue,sans-serif;font-size:1.4rem;letter-spacing:.04em;color:#c9a84c;">+'+upA+'%</div></div>'
+          +'<div style="background:#161616;border:1px solid #202020;border-radius:4px;padding:.7rem .8rem;"><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-bottom:.3rem;">Rule Target Upside</div><div style="font-family:Bebas Neue,sans-serif;font-size:1.4rem;letter-spacing:.04em;color:#c9a84c;">+'+upA+'%</div></div>'
           +'<div style="background:#161616;border:1px solid #202020;border-radius:4px;padding:.7rem .8rem;"><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-bottom:.3rem;">Bull Upside</div><div style="font-family:Bebas Neue,sans-serif;font-size:1.4rem;letter-spacing:.04em;color:#3ddc84;">+'+upB+'%</div></div>'
         +'</div>'
         +'<div style="overflow-x:auto;border:1px solid #202020;border-radius:4px;"><table style="width:100%;border-collapse:collapse;font-size:11px;"><thead><tr style="border-bottom:1px solid #2c2c2c;background:#0f0f0f;">'+['Period','Monthly','Total Added','New Units','Value (Analyst)','Value (Bull)','Return'].map(function(h){return '<th style="font-family:DM Mono,monospace;font-size:8px;letter-spacing:.1em;text-transform:uppercase;color:#3a3835;padding:7px 10px;text-align:left;white-space:nowrap;">'+h+'</th>';}).join('')+'</tr></thead><tbody>'+dcaRows+'</tbody></table></div>'
@@ -4445,7 +4445,7 @@ function pivRenderInlineNote(r){
         +'<div class="pv-rrr-pct">'+pct(bearPct)+'</div>'
       +'</div>'
       +'<div class="pv-rrr-cell base">'
-        +'<div class="pv-rrr-l">Base Case · Analyst Target</div>'
+        +'<div class="pv-rrr-l">Base Case · Rule Target (3mo)</div>'
         +'<div class="pv-rrr-px">'+fmt(base)+'</div>'
         +'<div class="pv-rrr-pct">'+pct(basePct)+'</div>'
       +'</div>'
@@ -4623,7 +4623,7 @@ function buildPivot(softUpdate){
         +'</div>'
         // Target + upside block
         +'<div class="piv-target-block">'
-          +'<div class="piv-target-label">Analyst Target</div>'
+          +'<div class="piv-target-label">Rule Target (3mo)</div>'
           +'<div class="piv-target-row">'
             +'<span class="piv-target-px">$'+r.aT+'</span>'
             +'<span class="piv-upside '+upsideClass+'">'+(r.upside>=0?'+':'')+r.upside.toFixed(0)+'%</span>'
@@ -4999,12 +4999,54 @@ window.selectPortInv=function(si,ii,el){
     getJSON('data/youtube.json'),
     getJSON('data/voices.json'),
     getJSON('data/themes.json'),
-    getJSON('data/news.json')
+    getJSON('data/news.json'),
+    getJSON('data/analysis.json')
   ]).then(function(results){
-    var a = results[0], y = results[1], v = results[2], t = results[3], n = results[4];
+    var a = results[0], y = results[1], v = results[2], t = results[3], n = results[4], x = results[5];
     if (a && Array.isArray(a.items) && a.items.length) {
       try { window.TODAY_ACTIONS_MAY5 = a.items; window.ACTIONS_UPDATED_AT = a.updated_at; } catch(_) {}
       safeCall(function(){ if (typeof renderActions === 'function') renderActions(a.items); });
+    }
+    if (x && Array.isArray(x.items) && x.items.length) {
+      // Replace the stale hand-authored TA snapshot with the daily Yahoo
+      // price-history analysis. All account values remain sourced from PORT.
+      safeCall(function(){
+        var actionByTicker={};
+        if (a && Array.isArray(a.items)) a.items.forEach(function(item){ actionByTicker[item.ticker]=item; });
+        x.items.forEach(function(row){
+          if (!row || !row.ticker || !row.ta || !row.holding || typeof TA==='undefined') return;
+          var q=row.ta, h=row.holding, old=TA[row.ticker] || (TA[row.ticker]={});
+          var price=Number(h.current_price || 0), rsi=Number(q.rsi14 || 50), ret=Number(q.ret_1d || 0);
+          old.price=price.toFixed(2);
+          old.chg=(ret>=0?'+':'')+ret.toFixed(2)+'% today';
+          old.rsi=rsi; old.rsiLabel=rsi>=70?'Overbought':rsi<=30?'Oversold':'Neutral';
+          old.macdVal=Number(q.macd || 0); old.macdSig='Signal '+Number(q.macd_signal || 0).toFixed(2);
+          old.ma=[q.sma20?'SMA20 $'+Number(q.sma20).toFixed(0):'',q.sma50?'SMA50 $'+Number(q.sma50).toFixed(0):'',q.sma200?'SMA200 $'+Number(q.sma200).toFixed(0):''].filter(Boolean);
+          old.support=[q.sma20?'$'+Number(q.sma20).toFixed(0):'',q.sma50?'$'+Number(q.sma50).toFixed(0):''].filter(Boolean);
+          old.resist=[price?'$'+(price*1.05).toFixed(0):'',price?'$'+(price*1.10).toFixed(0):''].filter(Boolean);
+          old.vol=(q.vol_ratio_20d?'Vol '+Number(q.vol_ratio_20d).toFixed(2)+'x 20D avg':'Volume n/a');
+          old.pattern='Daily rule-based technical scan';
+          old.patternColor=rsi>=70?'#e05252':rsi<=30?'#4a9eff':'#3ddc84';
+          old.ta='Yahoo daily data: RSI '+rsi.toFixed(1)+', MACD '+Number(q.macd || 0).toFixed(2)+', '+(q.vs_sma50_pct>=0?'+':'')+Number(q.vs_sma50_pct || 0).toFixed(1)+'% vs SMA50.';
+          old.fund='Live position: '+Number(h.units || 0).toFixed(2)+' units · $'+Number(h.current_value || 0).toLocaleString('en-US',{maximumFractionDigits:0})+' market value · '+(h.pnl_pct>=0?'+':'')+Number(h.pnl_pct || 0).toFixed(1)+'% return.';
+          var action=actionByTicker[row.ticker];
+          if (action) {
+            old.action=action.action_text || action.signal || old.action;
+            var pos=PORT.find(function(z){return z.t===row.ticker;});
+            if (pos && pos.dca) {
+              var target=Number(String(action.target||'').replace(/[^0-9.]/g,''));
+              var stop=Number(String(action.stop||'').replace(/[^0-9.]/g,''));
+              if (target) pos.dca.aT=target;
+              if (stop) pos.dca.bear=stop;
+              if (target) pos.dca.bull=Math.round(target*1.15);
+              pos.dca.note='Daily rule-based plan: '+(action.action_text || action.signal || 'Review latest technical signal.');
+            }
+          }
+        });
+        if (typeof buildPortTabs==='function') buildPortTabs();
+        if (typeof buildPortPanels==='function') buildPortPanels();
+        if (typeof buildPivot==='function') buildPivot(true);
+      });
     }
     if (y && Array.isArray(y.items) && y.items.length) {
       // YTVIDEOS is a top-level `var`, so this reassignment is the same binding
@@ -5043,7 +5085,7 @@ window.selectPortInv=function(si,ii,el){
           +n.items.slice(0,6).map(function(item){return '<div style="margin:0 0 .7rem;padding:0 0 .7rem;border-bottom:1px solid #202020;"><a href="'+String(item.url||'#').replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'" target="_blank" style="color:var(--gold);font-weight:600;text-decoration:none;font-size:12px;">'+String(item.ticker||'MARKET')+' · '+String(item.headline||'Update').replace(/</g,'&lt;')+'</a><div style="margin-top:.25rem;color:var(--text2);font-size:11px;line-height:1.6;">'+String(item.summary||'').replace(/</g,'&lt;')+'</div></div>';}).join('');
       });
     }
-    var newest = [a,y,v,t,n].map(function(x){ return x && x.updated_at; }).filter(Boolean).sort().pop();
+    var newest = [a,y,v,t,n,x].map(function(x){ return x && x.updated_at; }).filter(Boolean).sort().pop();
     if (newest) show(new Date(newest).toLocaleString());
   });
   setInterval(function(){
