@@ -54,6 +54,10 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9000;
 .live-txt{font-family:'DM Mono',monospace;font-size:9px;color:var(--green);letter-spacing:.06em;}
 .ver-txt{font-family:'DM Mono',monospace;font-size:8px;color:var(--text3);letter-spacing:.06em;}
 
+
+/* AI CEO WORKSPACE */
+.agent-summary{display:flex;gap:14px;flex-wrap:wrap;padding:1rem 1.1rem;background:#0d1210;border:1px solid rgba(61,220,132,.25);border-radius:6px;margin:1rem 0}.agent-summary strong{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;color:var(--green);letter-spacing:.04em}.agent-summary span{font-family:'DM Mono',monospace;font-size:9px;color:var(--text3);display:block;margin-top:2px}.agent-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}.agent-card{background:var(--bg1);border:1px solid var(--border);border-radius:6px;padding:12px;min-height:154px;position:relative}.agent-card:hover{border-color:var(--border2)}.agent-top{display:flex;justify-content:space-between;gap:8px;align-items:start}.agent-name{font-family:'Bebas Neue',sans-serif;font-size:1.35rem;color:var(--text);letter-spacing:.06em}.agent-id{font-family:'DM Mono',monospace;font-size:8px;color:var(--text3);letter-spacing:.1em}.agent-status{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:.08em;padding:3px 6px;border:1px solid;border-radius:2px;white-space:nowrap}.agent-status.live{color:var(--green);border-color:#3ddc8460;background:#3ddc8412}.agent-status.scheduled{color:var(--gold);border-color:#c9a84c60;background:#c9a84c12}.agent-role{font-size:11px;font-weight:600;color:var(--text);margin:10px 0 5px}.agent-desc{font-size:10px;color:var(--text2);line-height:1.55;min-height:45px}.agent-meta{font-family:'DM Mono',monospace;font-size:8px;color:var(--text3);margin-top:9px;padding-top:8px;border-top:1px solid var(--border)}.agent-group{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;color:var(--gold);margin:1.4rem 0 .6rem;text-transform:uppercase;grid-column:1/-1}@media(max-width:1100px){.agent-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:700px){.agent-grid{grid-template-columns:repeat(1,minmax(0,1fr))}}
+
 /* MAIN */
 .main{overflow-y:auto;min-height:100vh;}
 .section{display:none;padding:2.5rem;animation:fadeUp .3s ease;}
@@ -2069,6 +2073,7 @@ tr:hover td{background:var(--bg2);}
     <div class="nav-item" onclick="nav('themes',this)"><span class="nav-icon">🌊</span>AI Themes (P0–P3)</div>
     <div class="nav-item" onclick="nav('leaders',this)"><span class="nav-icon">🎤</span>30+ Leader Signals</div>
     <div class="nav-item" onclick="nav('youtube',this)"><span class="nav-icon">▶️</span>YouTube Intel (Daily)</div>
+    <div class="nav-item" onclick="nav('agents',this)"><span class="nav-icon">🤖</span>CEO Agent Workspace</div>
     <div class="nav-label">Strategy</div>
     <div class="nav-item" onclick="nav('deploy',this)"><span class="nav-icon">⚡</span>Deploy Capital</div>
     <div class="nav-item" onclick="nav('conviction',this)"><span class="nav-icon">🔥</span>Conviction Picks</div>
@@ -2371,6 +2376,14 @@ tr:hover td{background:var(--bg2);}
   </div>
 
   <div class="yt-grid" id="ytGrid"></div>
+</div>
+
+
+<!-- ═══ CEO AGENT WORKSPACE ═══ -->
+<div id="agents" class="section">
+  <div class="ph"><div class="ph-left"><h1>CEO <span class="gold">AGENT WORKSPACE</span></h1><div class="ph-sub">20 specialist agents · one operating system · source-linked and auditable</div></div><div class="tag-row"><span class="tag tgn" id="agentLiveCount">— live feeds</span><span class="tag tg">CEO: HVM</span><span class="tag tb">No autonomous trading</span></div></div>
+  <div class="alert alert-gold"><strong>You are the CEO.</strong> Agents research, calculate, verify and publish; they never place trades or move money. Every research item remains source-linked and every holding comes from INDmoney.</div>
+  <div class="agent-summary" id="agentSummary"></div><div class="agent-grid" id="agentGrid"></div>
 </div>
 
 <!-- ═══ DEPLOY ═══ -->
@@ -4864,8 +4877,14 @@ function initPivotInteractions(){
   });
 }
 
+
+// ═══ CEO AGENT WORKSPACE ═══
+const AGENT_ROSTER=[
+['01','LEDGER','Portfolio Operations','INDmoney holdings, units, wallet and broker snapshot.','Portfolio'],['02','DELTA','Transaction Monitor','Detects unit changes between broker snapshots and records the audit ledger.','Portfolio'],['03','ATLAS','Market Price Agent','Publishes market-price marks and daily change data for every holding.','Markets'],['04','VECTOR','Technical Analyst','Computes daily RSI, MACD, moving averages, entry, stop and rule target.','Markets'],['05','SENTINEL','Risk Officer','Monitors concentration, drawdown, P0 exposure and trim signals.','Risk'],['06','ALLOCATOR','Theme Allocation','Maps every holding to live theme exposure and strategy gaps.','Portfolio'],['07','COMPASS','Rebalance Planner','Turns target weights and current exposure into a live rebalancing view.','Portfolio'],['08','DCA','Capital Planner','Keeps configured DCA plans aligned with current price and technical action.','Portfolio'],['09','CATALYST','Earnings Scout','Tracks earnings and company catalysts through the daily market-data feed.','Research'],['10','PULSE','News Researcher','Publishes daily source-linked portfolio and AI-investing news.','Research'],['11','RADAR','Video Researcher','Collects daily AI-investing videos and article signals.','Research'],['12','ECHO','Leader Signals','Tracks current CEO, investor and analyst signals with source links.','Research'],['13','MOSAIC','Theme Research Lead','Refreshes all eight investment-theme commentaries and references daily.','Research'],['14','MACRO','Macro Watch','Surfaces macro, energy, rates and geopolitical research in the daily feed.','Research'],['15','SOURCECHECK','Evidence Verifier','Rejects unsourced entries and keeps published research source-linked.','Risk'],['16','BRIEF','Chief of Staff','Produces the CEO daily brief from updated research and market data.','Operations'],['17','CONVICTION','Ranking Agent','Ranks live holdings by priority, return, weight and daily technical action.','Markets'],['18','DEPLOY','Capital Deployment','Builds the live deployment/DCA table from holdings and daily rules.','Portfolio'],['19','GUARDIAN','Dashboard QA','Checks sections render, data loads and no visible panel is blank.','Operations'],['20','ORCHESTRATOR','Automation COO','Coordinates scheduled syncs, publishing and Pages deployment.','Operations']];
+function buildAgents(){var grid=document.getElementById('agentGrid');if(!grid)return;var groups=['Portfolio','Markets','Research','Risk','Operations'],liveNames={LEDGER:1,DELTA:1,ATLAS:1,VECTOR:1,ALLOCATOR:1,COMPASS:1,DCA:1,PULSE:1,RADAR:1,ECHO:1,MOSAIC:1,BRIEF:1,CONVICTION:1,DEPLOY:1,ORCHESTRATOR:1},live=Object.keys(liveNames).length;var sum=document.getElementById('agentSummary');if(sum)sum.innerHTML='<div><strong>20</strong><span>specialist roles</span></div><div><strong>'+live+'</strong><span>live data pipelines</span></div><div><strong>4×</strong><span>daily INDmoney broker sync</span></div><div><strong>30m</strong><span>market-hours technical refresh</span></div><div><strong>1×</strong><span>daily research refresh</span></div>';var c=document.getElementById('agentLiveCount');if(c)c.textContent=live+' live pipelines';grid.innerHTML=groups.map(function(g){return '<div class="agent-group">'+g+' agents</div>'+AGENT_ROSTER.filter(function(a){return a[4]===g;}).map(function(a){var l=!!liveNames[a[1]];return '<div class="agent-card"><div class="agent-top"><div><div class="agent-id">AGENT '+a[0]+'</div><div class="agent-name">'+a[1]+'</div></div><span class="agent-status '+(l?'live':'scheduled')+'">'+(l?'LIVE PIPELINE':'SCHEDULED')+'</span></div><div class="agent-role">'+a[2]+'</div><div class="agent-desc">'+a[3]+'</div><div class="agent-meta">Reports to: HVM · CEO</div></div>';}).join('');}).join('');}
+
 // Init
-buildPort();buildAggr();buildThemes();buildLeaders();buildYTFilters();buildYT();buildConv();
+buildAgents();buildPort();buildAggr();buildThemes();buildLeaders();buildYTFilters();buildYT();buildConv();
 buildPivot();initPivotInteractions();
 setTimeout(()=>{document.getElementById('pbar').style.width='9.65%';},400);
 refreshBrief(false);
