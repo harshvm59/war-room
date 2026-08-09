@@ -85,8 +85,10 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9000;
 
 /* MAIN */
 .main{overflow-y:auto;min-height:100vh;}
-.section{display:none;padding:2.5rem;animation:fadeUp .3s ease;}
-.section.active{display:block;}
+.section{display:none;padding:2.5rem;opacity:1;transform:none;}
+/* Never depend on a first-frame opacity animation for page visibility. Some
+   browsers suspend that animation and leave the active dashboard at opacity 0. */
+.section.active{display:block;opacity:1!important;transform:none!important;animation:none!important;}
 @keyframes fadeUp{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
 
 /* PAGE HEADER */
