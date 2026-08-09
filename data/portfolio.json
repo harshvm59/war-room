@@ -263,23 +263,23 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-08-09T15:36:34.075Z",
-    "broker_synced_at_ist": "9 Aug 2026, 9:06 pm",
+    "broker_synced_at": "2026-08-09T17:38:51.105Z",
+    "broker_synced_at_ist": "9 Aug 2026, 11:08 pm",
     "usd_inr": 95.21,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
-        "name": "Space Exploration Technologies Corp. Class A Common Stock",
-        "units": 0.414793535,
-        "current_value_usd": 47.69
-      },
-      {
         "name": "SK hynix Inc. American Depositary Shares",
         "units": 1.537974112,
         "current_value_usd": 220.87
+      },
+      {
+        "name": "Space Exploration Technologies Corp. Class A Common Stock",
+        "units": 0.414793535,
+        "current_value_usd": 47.69
       }
     ],
     "usd_wallet": 569.23,
-    "broker_account_value_usd": 105934.7
+    "broker_account_value_usd": 105966.44
   }
 }
