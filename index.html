@@ -4334,6 +4334,11 @@ function nav(id,el){
   document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('on'));
   document.getElementById(id).classList.add('active');
   el.classList.add('on');
+  // A long prior tab can leave the document scrolled beyond the useful content
+  // of the next tab, which looks like a blank page. Every navigation starts at top.
+  window.scrollTo(0,0);
+  var mainPane=document.querySelector('.main');
+  if(mainPane)mainPane.scrollTop=0;
   // Re-trigger action loader every time portfolio tab is clicked
   if(id==='portfolio'){loadDailyActions(false);}
   if(id==='pivot' && typeof buildPivot==='function'){buildPivot();}
