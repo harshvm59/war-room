@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T10:47:57.866462+05:30",
+  "updated_at": "2026-08-13T20:09:12.936339+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,7 +8,7 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-08-13",
-      "published": "Wed, 12 Aug 2026 21:31:09 GMT",
+      "published": "Thu, 13 Aug 2026 08:41:00 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -18,11 +18,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): NVIDIA's Jensen Huang Says AI Isn’t Just Tech Anymore — It’s Infrastructure, and Wall Street Is Financing It - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jensen Huang Just Signed 7 Japanese Industrial Giants Into Nvidia's Physical AI Coalition. Here's Why $1 Trillion in Confirmed Demand Should Matter to Investors. - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYzRvdHBHYmRxWl9NT0pJU0xHVjN3ZWNYQ25MOFZMWVhoSXVkTjhtZ0ItTDRyaGZuOVFyXzlpeGktVW82RGl4MkdVS0NJYUtreDVzLUdMWWptSVdwNF93WWNHYmhLbzYza2tvbnlWQTZXZWM2RG1CZklrMnBxZ1NMQWlLbDZUSkpMdTA2T3RWVDFEcGJmb0ZZ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMExGMkVEQjNMSHFQemIwbEpMMjUyVlpGYlZ1UUl4QW9qSTkxclFvOG1jXzFMZW1rcFFIdThnNmJreGg1YmY5QkRvUWhqNVVxaGlVeHppTTYtdjNvME51bldzODNRX1BMdVBULWduRnpfVkdkZWNUY3lYcURaemgyR0tUcG4zVmVsYWRpeTJ1bTluRWM3?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,8 +30,8 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-08-13",
-      "published": "Thu, 13 Aug 2026 01:03:29 GMT",
-      "source_name": "Mashable",
+      "published": "Thu, 13 Aug 2026 13:00:00 GMT",
+      "source_name": "The San Francisco Standard",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Special OpenAI email is apparently a direct line to Sam Altman - Mashable",
+          "t": "Headline signal (not a direct quote): OpenAI’s comms team has a Sam Altman problem - The San Francisco Standard",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPN0g3dHZVZkdPNXdDeUhtcTJRbWxIR2JaTmZhVmV2OWdHYkxycmlnVDV5QkkzZnBhaHctcWJBS3lLUklNdlJkcjhYSGFWVHl3Y2dyeVl1MzNoQ3h5SEp4X2JWVmJDX2VJVW5UNmJURHVRTzlHNl85RTI1d0QtZU56UA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5INjlCREhvb3BmU0g3NFNPM29wSGFXRUJtaGtialhyVXpsdkUteU9RVDMyRktwaUhrZGU2cTB4MWgybVg1VlVodWQ1VkF2WFpyTmJLMkozejB1RjBvSUZFTXZVaEpDUXJLVXdJUg?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -94,8 +94,8 @@
       "org": "AMD",
       "cat": "CEO",
       "date": "2026-08-13",
-      "published": "Wed, 12 Aug 2026 23:14:29 GMT",
-      "source_name": "EE Times Asia",
+      "published": "Thu, 13 Aug 2026 10:11:18 GMT",
+      "source_name": "EE Times India",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -104,32 +104,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Lisa Su Puts Rack-scale AI at Center of AMD’s Next Growth Phase - EE Times Asia",
+          "t": "Headline signal (not a direct quote): Lisa Su Puts Rack-scale AI at Center of AMD’s Next Growth Phase - EE Times India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMjc4MHdfMG4zanZPM182WnNpQlZJTnFBN2EzSDhpT3pfUzBONXlZdUZZREZJeGV3VzU4MllSZmtrTEJWXzM1aDhZMnZkVGhJNXZ4dFVsNGlGVlpYRDdfdzRLSWpLMVhzN09TTFEtdVpENU5VSGM4bEhmZVlFT29ZTm9raEtDako5bUhQbDRxeFc?oc=5"
-    },
-    {
-      "name": "Chamath Palihapitiya",
-      "role": "Investor",
-      "org": "Social Capital",
-      "cat": "Investor",
-      "date": "2026-08-13",
-      "published": "Wed, 12 Aug 2026 08:35:50 GMT",
-      "source_name": "Traders Union",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya: Market divides between technology experts and non-technology participants - Traders Union",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdU5Scy1KOFphUEp1aElsRHU0VXBIVWNlb0hweTdGWmMxNmpYZTlVYW5LTHpiaDkzSkxhU0dVMlQwQ1NINlE2SXJZeU1fY0VVTXJ3R0NqVW9IT0c3YTgxbG9hNHZlNzlZNkpvczVLV002M001Wmd1ZkVfV1RoQURIQzFSYUlMM19LbFE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZXhsQ19ZSnVvYU5acW1TcnNCNXFqR0x0TzFtRkpTNkxIWkpvV1BGaTJlZUNXOU5HRjE5MEJuQWw4aWRIZU90RjFUTG5vSE5PSW5BUTk3eWViQTRLUzZuN0EyS1hyLUNWQ2F2dzNBb3pFWVNFQW9xN1VKeFNrc0dTTnNyWG9ydlhLZ2EzcEIyLUJGNEpP?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -137,21 +116,21 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-08-13",
-      "published": "Wed, 12 Aug 2026 07:20:53 GMT",
-      "source_name": "Pasquale Pillitteri",
+      "published": "Wed, 12 Aug 2026 16:19:42 GMT",
+      "source_name": "Yellow.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 10,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir vs OpenAI and Anthropic: Alex Karp's Second Round - Pasquale Pillitteri",
+          "t": "Headline signal (not a direct quote): Palantir Jumps 8% As Karp Slams OpenAI And Anthropic Pricing - Yellow.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOERMQzhxTTNFX0duU2M5allOWHp5c0xvQ3RSV3RkcE9sZUpxZVFhR25STm16NXFhWmtIMTh1Qk8ybU1KV1dtOEpSeTVvSXN4SG1GUmlzLVZPY09Well3eWVQVGhyUjZyV3dHNHZKU184NGloUEZ6YTJxMWlJSFZlSGlvN1Zua1NDUWc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42dXYtd2RmbmlxRjVjc1JGZm1hNUlXWWJXYXVwTnhVellrRWVSb1dOOUtUaWJQZE5ZUjUtTktXX3c0V1Y0VTZGai1ITFJKaVJtYXJuWDV5a081Q2ZjSEFBRzZJczNZTE5fS3c?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -159,20 +138,21 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-08-13",
-      "published": "Wed, 12 Aug 2026 17:54:07 GMT",
-      "source_name": "24/7 Wall St.",
+      "published": "Thu, 13 Aug 2026 14:03:00 GMT",
+      "source_name": "foreignpolicyjournal.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
-        "#AI"
+        "#AI",
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk: SpaceX’s AI Revenue Will Surpass Its Entire Space Business “Next Month” - 24/7 Wall St.",
+          "t": "Headline signal (not a direct quote): Elon Musk's Terafab Venture Targets 100 Million Square Feet Of Texas Manufacturing Space For AI Chip Production (NASDAQ: TSLA) - foreignpolicyjournal.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMUZNM01vYlFPVG5HS2RaZ2MzXzZXekRPTEZXWTFEV2lRUnhTZ3dPbHhtcXNCdVlremNIcmJFY0lJVnh3X2VFNDJ1VEZRVDVEa3Itajl6YkNIdk15QlRZb1ZicVpDZmpZUnZZTlBfM2V3NlN4eE0xN0FEdmpCdmN6cFlIZkw2Y0VvOFNvanE1Qno3dHNIQnppZlVKN3FBYnRQMVpGbmNGYnY2RjlhTjctZW80M2JmejZRLTFGdUZjRQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNWGl2aEJvdnJCaWx3a21sdlhkQlkzLS1YbVFkNk1uYi1UQjlZdHJGdU5YdnJscTZKQWJGV1pfbGw2R1RUeXhGMFRkUUVYV0hSOWpCU1c3bi02RFVyVnpwMlc3VWlXZ1B5UWF5LUhDTWcyV080SE5PR25JSXhxb2lNSWFUck1ORXFSSUlGQXpNVUtKTzlyR2xfWDRwUFJkb0VsVXptQTllVGlhbjYxbVJhWFhOLU8yN0hRSEh3UGFaaW5EUEp3Y0pTaTg5MnVFNENJTzJXTkk3WmdJTHZOWHpxUElrNzhMeEZQX1k3S1JqTXJCakhkbWttVzNmbHRHVllw?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -180,21 +160,20 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-08-13",
-      "published": "Wed, 12 Aug 2026 20:53:48 GMT",
-      "source_name": "LinkedIn",
+      "published": "Thu, 13 Aug 2026 12:00:00 GMT",
+      "source_name": "The Guardian",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#META"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg is making the case for an AI future where people embrace superintelligence rather than fear it. But that's been a challenge for Meta's CEO, who recently wrote a 6,500-word blog about AI-for-all and created a $1 billion fund for communities wh - LinkedIn",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg says the future of AI is for everyone. But who owns it? - The Guardian",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR2NteHN5SDBjTFlQMGVzdVg0bHlWSS00WGk5czNNNmd3WFJKa1R2VU5CVS00TVYxcXBHZnk5VURRd19TaWIwZm5tOXhudzdRMVdmUVEyNnJXTnhXR3dBLXMycXo5MmtxdXlIT1lTdWt4V09QVWJxN2c0SE9sVU1IM3kxeHU5Rjg3WTAtb1JIT3FIWFk4ZXVfMU5IaEpJWXdVUDZDZEtpRHlvTUtLaUNhMXQyNHR5RUExUjVBYlJQSQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYy02ZW5KcFlIdDFWdFhFdUZjck9Qelp1Mmt1eGkzMFpzdXhzY1Y1Y3JGalJPWlhHbmNsN2pJTTVZeU55Z1hDYjFJaEFrQ05wZk0ydllhRUVLREp4MG1zcWVFeUN4cFRkTkZROEVyMy1hSmgySEVRLUVhdXdqV2VQQ3U1VmRoUmZUNWc?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -203,7 +182,7 @@
       "cat": "CEO",
       "date": "2026-08-13",
       "published": "Wed, 12 Aug 2026 17:32:27 GMT",
-      "source_name": "americanbazaaronline.com",
+      "source_name": "The American Bazaar",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -212,7 +191,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai says Google Gemini AI hit 1 billion users - americanbazaaronline.com",
+          "t": "Headline signal (not a direct quote): Sundar Pichai says Google Gemini AI hit 1 billion users - The American Bazaar",
           "k": true
         }
       ],
@@ -246,41 +225,21 @@
       "org": "Intel",
       "cat": "CEO",
       "date": "2026-08-13",
-      "published": "Thu, 13 Aug 2026 03:21:15 GMT",
-      "source_name": "Benzinga",
+      "published": "Thu, 13 Aug 2026 13:52:32 GMT",
+      "source_name": "odaily.news",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
-        "#AI"
+        "#AI",
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Lip-Bu Tan Investing $12 Million of His Own Money into Intel Raise: Daniel Newman Calls It a ‘Strong Sign - Benzinga",
+          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan's Latest Interview: After Missing Mobile, Cloud, and AI, the Next Wave Cannot Be Missed Again - odaily.news",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOHVYT0xPTXB2azIyX0VkdldTTG9KYmZHdzFLTldkR08zdUtZa3RadGx4WGpSTGdVc0xnMHJBVmtNSDlZYlFtSUdNTWw0RWdPbFdZR1lSZVprLVdUaXN4Nm5lbHRadmktQTdGWkEwSm5oTFZoZEN3U1Nzc2c4TXZRMDV4dUdpTS1VUno5S0prWHFFS0RuY183NTY2bktwZkpOZXFrVU5aUHJkMmk4X0t0US1n?oc=5"
-    },
-    {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
-      "date": "2026-08-13",
-      "published": "Wed, 12 Aug 2026 12:42:07 GMT",
-      "source_name": "observer.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Larry Ellison’s Decades-Long Obsession With Competitive Sailing - observer.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwWm9ldGVCdm0ycEZHSUd6cWhkT0dNSGpHQUdfQjk4Yk1GWnY1Q1lNTnJQRkl2WHlPb3pzVmJjVTZha2o3czdNRWw3RTNTS2h1a0Y0YzVtNHU0cUtzYlI1TDBfR2tuVkVNbENmYmJWOFZxcXBZV3hVblg0aw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xQzdFeTBSZDVVWFJXZEpFazBacUpKa19IY2I5alozNHE4MEFnUGRSR0FlNHdoUjhlRmFNVEMyQnFtdGozaXdlYndJbzZSRmYw?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -288,21 +247,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-08-13",
-      "published": "Wed, 12 Aug 2026 16:58:27 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Thu, 13 Aug 2026 13:40:59 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#GOOGL"
+        "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood has a new demand for OpenAI, Anthropic and Google - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood Scoops $16 Million of Broadcom Ahead of Earnings - Broadcom (NASDAQ:AVGO), ARK Innovation ETF - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd0hldjA3d2dqV1RhSXFjaTlmN0lrVVhFZlBFTFlUUFlfWklLZXdhS3dFdXQ2QzVjVUk2RGRHSEtuVFdCLWgxWUxXanJrRVp0QndoQ1FuYVZzQk9Ya3EzS3lSVFBIRGhsZnpNQWMzdVpiRFF6a1lFWEVXZUdjWmZUWC1EN0VLUnhuN1l3MVRIc0dRMTB4aGFUa3dpZ1l4SXB6?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOHRvTFBLekI2WkU4UmdOYzIxMkczSDM2QmtEb05kVWY3cnZ5TGZJcGRXNjVIb09la2RjRTB0aVZyYkt0V1Vtck9XVDdFNEJLaEJXcFRsWWRRNC1PLUdTb2RfUkpZeV96bGJSUXN4MzFaOWNFLWp0Q3JRLS1UUkF3VDRiLTJjYVBBZkxHYkRTVThnTzV5MlZ2ZFZ5NlNoc2tHOEhNZEVNV2xGX2xtZ3YtSEplWWdiOHVpcEVfaGRjS1lqZ2k4bk1laEN0NENTTk0?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -324,75 +283,10 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRGxRUjRhdnE0eGZPZGc0SWlFQlZHbXBiX2dKdm4xdnRFNmxZWGUxYXpMNUM3YlNNbnFFTlVqMEMyV3RXX0J5WldiTDdOYUxhVk1GZnZELUhDN3EycWNEUzVFOUx4eDRJS3czMFJZUTZwc2NRb1I5M0dFd19zU015Vmw5LUdXV0FsWWdB0gGQAUFVX3lxTE9jbjlzRkJUaHhoYm1PV1dwSU5KdWRnVERncGhHOW1fOUJiamtXTzNGRGthZ2Q3cFZmZ1JzYlJjVF9fUFo4UXpXSFlCYU53SDl0NENlNmJxWWdWWktWSDZfc24yd2dHMW5SUjA5Y20tZjlnMzAzZFVEbW9aUURDRzdETXpTT1ZrTzNwWTNFSFpFNg?oc=5"
-    },
-    {
-      "name": "Stacy Rasgon",
-      "role": "Senior Analyst",
-      "org": "Bernstein",
-      "cat": "Analyst",
-      "date": "2026-08-13",
-      "published": "Wed, 12 Aug 2026 07:04:38 GMT",
-      "source_name": "Mshale",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Stacy Rasgon: Broadcom's New Client Orders Remind Me Of Nvidia's Revenue Ramp Thucydides Trap (etNOUoZgpe) - Mshale",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEZ1hncTFoNDNlaU9FTm1QdnAxTGJ0cFozS0UxN0ZOZndjaG1oVnllTGZ4ZmZ4RjZRQ3JOdWQyWFAxM0FwZDhaWWxuOU5MU083NzlJRzc5VVkwQQ?oc=5"
-    },
-    {
-      "name": "Vivek Arya",
-      "role": "Senior Analyst",
-      "org": "Bank of America",
-      "cat": "Analyst",
-      "date": "2026-08-13",
-      "published": "Wed, 12 Aug 2026 10:20:42 GMT",
-      "source_name": "TipRanks",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Vivek Arya Maintains Buy on Quantinuum, Modestly Cuts Price Target to $85 Amid Sector Multiple Compression and Strong Post-IPO Execution - TipRanks",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNVGJlOXFFMTR2dEUyUmpkY2N3bWU0OTlYSm9PX3NlTS1XUWd5UjllUU9ab0Q2cjBpa0N1SjJ3bjhzNFJGNXhvWXhmYkdDM0dESlhKMkFpVDZzRkJJblhmSlJxVTBxMUM1N0o5cE5fQkxDb3U1XzFPQXRYMXdSQUY0TmRtZWtBQlNyQUh4OU5lWHBQNUZEUWhVcEtDb05kTWxITlJ3ZmMyeEJYWGo5WHQ2cEtLTTU3RXpRNXAwYkVnc1FFbklTTjh5TGNBOE5xemkyOV81aTY2M0tQZGNhaENLeE51a2Q3TlI0dXJ5LUlxRVRKOG1BS0pPQ2tCUHNySDhQbVFNbDVMRWNPQWNmck9ScWlwWQ?oc=5"
-    },
-    {
-      "name": "Patrick Moorhead",
-      "role": "CEO and Chief Analyst",
-      "org": "Moor Insights and Strategy",
-      "cat": "Analyst",
-      "date": "2026-08-13",
-      "published": "Wed, 12 Aug 2026 08:43:36 GMT",
-      "source_name": "TradingKey",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Former AMD Executive Patrick Moorhead Says Nvidia Is Copying Intel’s Past Strategy to Suppress AMD - TradingKey",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcXBpa0tBRzBwejFkMTN0TmFybjQwaktiSVJqeXVCZzYzcTNMdDg3andkUThDN1ZTUi1JalBCWGoxeUFCdUVuNXc0REw1U2JROV95d2JFQTdRNWFZdE1OM1NGdVNwRlRSaDBINGl5TThERUhVWWtnZ2ROVkJGZWMyZm1hNWVxVXJjeHp0VWJhYnVON29FZjFVNFRiYnFacmo1NWRxc0E5bmlHejQ?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 18,
+  "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
