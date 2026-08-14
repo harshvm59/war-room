@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T20:03:58.562023+05:30",
+  "updated_at": "2026-08-14T23:57:07.891753+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,8 +8,8 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-08-14",
-      "published": "Fri, 14 Aug 2026 02:30:00 GMT",
-      "source_name": "The Motley Fool",
+      "published": "Fri, 14 Aug 2026 01:50:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -18,11 +18,32 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang Just Introduced a Bold $500 Billion Plan to Potentially Create Chip-Backed Securities. What Could Go Wrong? - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang Just Introduced a Bold $500 Billion Plan to Potentially Create Chip-Backed Securities. What Could Go Wrong? - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUmQ2M3A1ZzR6MnpQeklFNENIWlpKOFZiLUpwVWtjQ1RyN1NwWmd0eWtnUFpiRk9RS2Q0dHl0eVdnRkM3RTk2bWlxREhWQ2Z3VTc4X2FubTBFSHFpR085QUh3RlRsbl9nT0FjRmJ3dUw0NDFyN1Y3S1Q3SXlsZjhIVUdKSVlFZmo1VWVfNEZsNHRENk1IXzZwbQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS2FTWE95clBOa1JrWUdENTNuNzZrQ1lmNFotUEtFWnUyY3FwTERwejUzNjhvODMyVE8wODNOUWpibHlFazlFTlZnU1V2NDY1Q2hmcEN0RW9rV2RCUWxFUVVqWnhia2ItY21Ja2xKbkw1UWVIeW5xenBiWG53cWRtVktRMVQxMDNxN09aY1hCMlV5RmFhbTNMNA?oc=5"
+    },
+    {
+      "name": "Sam Altman",
+      "role": "CEO",
+      "org": "OpenAI",
+      "cat": "CEO",
+      "date": "2026-08-14",
+      "published": "Fri, 14 Aug 2026 13:59:35 GMT",
+      "source_name": "The Economic Times",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman says ChatGPT could have ‘perfect context of your whole life’ within six months - The Economic Times",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNMXhrTmx0cGEzTUxmcTRwdV91S19kZm91aU1xeFV3WXZDcEh1and2OUtyOUZMTEk3QVMxcW1VX1lfRHFYMXN0T3FNNkFzYnRpbkF4Z0E2a284aE0yNEZqRWt5SWZlWHF4ZHZabVlNZ1lPZWtUS0o0WUFWVTZReGZzZHlQb3puR1lpLWU3WnBUVm03ZHBHNzZ2bDd6VU81ZmE5MGVzVTJVRW1FcTVBWUpuUFE2bXZIUFNicnJ2R2wzdXpjZjhndW9mX211dWtScTJPN1NjN1lkc1NEOWRlNk0zcV9MN1JXMVJ4dkdOV0Q1YVhLSGNlMTFqS0lCYjVsZU1Qa0NhVmZLTTFaWnJKWURERHlxc083LWxQME9wOXlrc9IBmAJBVV95cUxQS1N6cl93bWxRRDRaSjVnSkJOdzduSjlZLS1sN3NoQTZVVThZMEdWX0NrcklBcVhLZmtBYWFUUUFudEZwc21YdFQySHJ6S0ZsYXJQUEF6b2p3cHYwaDByNEt3MVVGSjBtZW42QVd3RERzNXRaRmprajJPWWwwV1VFYzluTHFGUC15TWZtNm1EaUxOWXpkVXJiMjVFVUVsVUpWQ1l5cG95MC03T0JLMm94Uk4yYjZuNjZnbHRWVG03dmxyVUV2UjB3WHlEdGQxa1RjQ2FNUXhGQ0VILXMyZGh4Y3ptU0ZUSlB3Ry04Y3NDRmJ3aEFzb3R2eldiR3poc0VSXzMxaHRQWHA5REdxYV85U3dReUVMcGhk?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -30,8 +51,8 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-08-14",
-      "published": "Fri, 14 Aug 2026 11:30:06 GMT",
-      "source_name": "Asianet Newsable",
+      "published": "Fri, 14 Aug 2026 16:27:58 GMT",
+      "source_name": "AOL.com",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -39,33 +60,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Says Hyperscaler Earnings, Neoclouds Like CRWV, NBIS Show AI Has Entered Monetization Phase: 'That Was The Validation Sign Investors Needed' - Asianet Newsable",
+          "t": "Headline signal (not a direct quote): Dan Ives Says Software Stocks Just Saw Their Most Disconnected Sell-Off Since the Late 1990s. Here's Why He's Still Bullish. - AOL.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOWnFnOVNYa1Z3SkN3MVhIMGpFMzZZWjFzZWFqOHJ0RmZNM0plTC0tU0NnRjVOUFlINmJ1MHpnejUyTUlZMDhnYktydVN5SUQzWGlKczUyZGpaakVMRzlUQ1VlSkl2VGRub0NUekZTTS13R0hJeVlxX2xUOVhLN1ZNb1ZyM1hVT3o1Y2VWeWdDSE5rMkp4a29sSVIzNzdOR0V1R18tWHdPMzdNUVZUYVpfRG44d2c0ZGVSSnFTUkMteTgwTnRSVWpneEhva0pQNzE2MS1mSHlqWlpYc00zUnh0U1FCQjZDVXdPS2FNVGozeGRYb201b2oxU0lHMUhGU1FzX04tNVV4TkZDU2FSQ2lWRXQtT2xlSTd5YkxQVlVycTlRQ2hrUUJqOU5lLTBhd9IBswJBVV95cUxNMk5VdXB6cEg5dEVEem9nTnZEWmRKUWFmQVRQTGkxSUZuQlhZeDlXc2tWVWF6ckQ3TGpyUnRxUUZSRjBLQ0Y3NlNyRUR4WFQ3bE5pdGJ4d1ZGb3NpSDRBQXQzZWVkb2FSWTlpdTZGRXVtZ29DM3FST0k2WGV5TEZ4R0N2T29GZHl3TFlWNEIzLUpheTJPdEZ3dHZ5SXF5VnZiX1ZSYzVwQVdQRUlQNzM3NXNsTGMtZkhOTXFZZkNaREtNcURvYXBZVDA2X200b1VYUDNhMktoc3hoc09HSkRLazhUSG9Wam4tcm9PYlUxN0RaUURoeC1fYkNtUmpuOFZ3cGtyMWkySm14bThEcGQwUk9yLW5fSWwtZ1dkSGNZUHBueG5SM3ppN2lFbVU3bENJVlFN?oc=5"
-    },
-    {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "AMD",
-      "cat": "CEO",
-      "date": "2026-08-14",
-      "published": "Thu, 13 Aug 2026 15:28:36 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): AMD Stock Rips Higher — Here's What Lisa Su Just Said About AI Demand - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3BPcXdJWWszTXBPUFlkY0JuU0FmaU5nOHdnTmlRNk5kd3F0VklWV0dYWHZfQmZXTGRHOTA5UDJ0UzZRSnM3eHM4c3FHRDBSVlBXaDB2U0pzS3pfYWtnR3pYWkxqQTdFb09wbVVfUnllYTZ6UkhISk1mcG1KSWlBSldyRjRZVmRScTVObGVXS2FfR0UyVjNRRTNoeWRQWmphNXVkRDM0cm14aFVhTGVjdVVVN2NWbU9WZ1kyYm1YSVdTRzN5Z24xR3hvMi1oUQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yX2k0aTllNy1fRGhmOTk0UkczUkp4VzlqM3ZHTUVndUE2MGpJbFRhTjVuN3k1MHhDLTNfR2ZraTcxQ21QTnhLQnAxTnNiblBzTlRwUGwzVDdOT2tWbkdNR2hkOTAzYjcxODdHZTdoX3ZxcTFYWWZGbjJrd2ozUQ?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -74,20 +73,42 @@
       "cat": "Investor",
       "date": "2026-08-14",
       "published": "Fri, 14 Aug 2026 10:55:46 GMT",
-      "source_name": "finance.yahoo.com",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Sees Palantir As A Potential Winner In 3-Year Shift To Model-Agnostic AI - finance.yahoo.com",
+          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Sees Palantir As A Potential Winner In 3-Year Shift To Model-Agnostic AI - Yahoo Finance",
           "k": true
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd3pJblRLUW45QnhHd3hwWm5oNTdSbmxiWDVXdkxmbU9CSzFNVTFrZnRhal9NWmQybzlZdTRNNHEyTXBGN1Q4Z0NLRkRRakFNU0N3VGlfLXRmZVBJV2FMNG1nX3VBUUQ5V0NhSmhjXzkzRzR4SVFaMEs0bzJYa2Zpb1hTUHh5MmxyR2lCWW9Hb0prS0lSZ255cjMtOG5WdXY0ckZqTmZXNnJ0NkhQ?oc=5"
+    },
+    {
+      "name": "Alex Karp",
+      "role": "CEO",
+      "org": "Palantir",
+      "cat": "CEO",
+      "date": "2026-08-14",
+      "published": "Fri, 14 Aug 2026 00:45:13 GMT",
+      "source_name": "Mshale",
+      "signal_type": "source-linked headline",
+      "relevance_score": 7,
+      "themes": [
+        "#AI",
+        "#PLTR"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Alex Karp Just Changed The Palantir Story Ponzi Scheme (qOScrGjw9O) - Mshale",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zSXUzQnVPQXV4LWpJY2tGa1ZGV1JrRzVLN1h2QVlXbGxPWUZqdHk4LVQtTWV2QXJ2cTJLM1NScy0ydG1Gd254MG9BYWlwa2ZETWVBQ05NWE5Pbms?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -95,21 +116,21 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-08-14",
-      "published": "Thu, 13 Aug 2026 20:06:06 GMT",
-      "source_name": "Stocktwits",
+      "published": "Fri, 14 Aug 2026 13:15:00 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): SpaceX IPO Frenzy Gets Fresh AI Fuel: Elon Musk Cheers Nvidia Vera CPU For Training Smarter AI Models - Stocktwits",
+          "t": "Headline signal (not a direct quote): Elon Musk’s Tesla Compensation Was 2.5 Million Times the Median Worker’s Pay in 2025, 41 Times the EV Gia - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUl85YTNsUkkwVUhHTWZjTmxqbW1PbXJoc3RBUHpDQ1dXVUkzVjRubi1UMGVRdW9iTTNDNmlCSXpHNnVGYlRMOXBRbnYyUEN0YVNkcWJhcnh5cXBraUpNemR2TFJYTkFkbU83cGszQ0FTT3dKMGhzN0NLVEhma1VYTFNtbC10ZHpWZG1VeXM0ckVFSkI5aDdJMEFPOGduaVhNU3Rib2ZlM1FDMjdLYS1ER2R5THlnVlJoLXFEUA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNzNJXy1iXzluNVFIdHU3X2NmUXdMNVI2SC1aaEVyWDVldVNHajFHZ3VKSUwzaVR0dklKR2o1WDdFNFkwNk9WZGVVVm8teGx4X3BfblFLT1pyWE02ZFY0T01kbExrSUJJV2ZnQWJRTldvRXlRSFB0aEoxcjMtR1NWaWZITjJFbmRiejBSUlM4U2ZJNUxGbXItcXNrRmhKNWJLN0o2UVZGX2xqNXpadEF6czRha3EtVzBtYTNSMXo3dUtwM2M3WlZZWkNLbXoxb05sTkxBUXdhdWFVRk5ObkhfY0Fsc29OQmROdFhpcFFMTy1QNWU2aXhzMi1ZME4zcUxDcGJ3?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -117,8 +138,8 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-08-14",
-      "published": "Fri, 14 Aug 2026 10:30:46 GMT",
-      "source_name": "The Motley Fool",
+      "published": "Fri, 14 Aug 2026 10:20:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
       "themes": [
@@ -126,11 +147,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Just Said That Everyone Will Have \"An Exceptionally Capable Personal Agent.\" These 3 AI Stocks Will Benefit - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg Just Said That Everyone Will Have \"An Exceptionally Capable Personal Agent.\" These 3 AI Stocks Will Benefit - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVW5vV0l5TDU4VTlZMm8tb2xabXhrRU15alV5bWxzS1JNQlhsNXltaUtvd2VYakdkWDZaUVNQaEtRWUJyN2VUNWtmYU5Gcm02RzFKX3ZkUmlGUWFNTDNzcTZnUjR3dzQ1MVQwQmc0VFFxaHowQXdtVXhWelp1N1VPNXVPTWdoZ0lFUWhEWFNtbndGTkxXeE1B?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWlRwb0VRNUR4SHBLV3ZOZWViYWdxVkJ5SUFhNXF6R3ljQk9BWndZaURZNFQxWjBwbmhfa3dqb2NVUEpmdDJZc0NpRVlCWS04dF9ISWk1cm5GN05VZ3pSblBNbmtSS2pONFA4dlE4SmEyekM5THFMWmp2Q1JrWFpDb0VicFNXU3V6and4ZXVvTHlpZGFJZ2JFMUQwb180OFE?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -138,21 +159,21 @@
       "org": "Alphabet",
       "cat": "CEO",
       "date": "2026-08-14",
-      "published": "Fri, 14 Aug 2026 08:21:28 GMT",
-      "source_name": "Moneycontrol.com",
+      "published": "Fri, 14 Aug 2026 14:58:10 GMT",
+      "source_name": "AOL.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai annonuces Google’s new Gboard feature that lets Deaf users use sign language to type - Moneycontrol.com",
+          "t": "Headline signal (not a direct quote): Sundar Pichai's Alphabet Has Grown Google Cloud Revenue 82% Year Over Year. Here's Why That Growth Rate Justifies the Company's Capex Bet. - AOL.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPV2hrVkN3QUVpeHlvdEE2ZTJfdTNLUXQ1WTZsMkxmdGh2X1JEcGhpQjk3WWxGSjRmWGhreGxsd2JfRUVzc2N1a0ZXcTZGZTFnU3AzVXhjTWFFVGliSkw1bnVnWWl0V2h1U0RjTG51VzBCdTJRMmh1bUNKNzdjSW54dWt6RVVVVlBlYzJYeUtjZEJ3RlpJeVhTUGlndFhNQVNlYmlfTkhEbXBZUFh0Tk9uY0FjX3oxQnVZRnhCZkd2SzJYd2RkOTdMcWtIWnJRWHZDejZiOWwzeHQzd19pbi0tNFZORk9pdXBKNGlsdVRERFVxRFhLd3dv0gH3AUFVX3lxTE9XaGtWQ3dBRWl4eW90QTZlMl91M0tRdDVZNmwyTGZ0aHZfUkRwaGlCOTdZbEZKNGZYaGt4bGx3Yl9FRXNzY3VrRldxNkZlMWdTcDNVeGNNYUVUaWJKTDVudWdZaXRXaHVTRGNMbnVXMEJ1MlEyaHVtQ0o3N2NJbnh1a3pFVVVWUGVjMlh5S2NkQndGWkl5WFNQaWd0WE1BU2ViaV9OSERtcFlQWHROT25jQWNfejFCdVlGeEJmR3ZLMlh3ZGQ5N0xxa0haclFYdkN6NmI5bDN4dDN3X2luLS00Vk5GT2l1cEo0aWx1VEREVXFEWEt3d28?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRUdDME5EaWZERnpjYURweGJNQ1JHRHRYSm96Yk1iREFkM1NaMElPaExEM20wYVhZd3NnMnIyR1pYUlY0RGhDeVZKZUlLaXhsMTJBTmpnc3FPSWUyRjUtUGRycVdmUmpHdkFWeU5rd3ZEdFhZU2NYUW5CZzFuaVNXY2RMbW8xSzg?oc=5"
     },
     {
       "name": "Hock Tan",
@@ -161,7 +182,7 @@
       "cat": "CEO",
       "date": "2026-08-14",
       "published": "Fri, 14 Aug 2026 13:17:26 GMT",
-      "source_name": "aol.com",
+      "source_name": "AOL.com",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -170,7 +191,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Hock Tan Reaffirmed Broadcom's $100 Billion AI Forecast. Six Customers Carry Nearly All of It. - aol.com",
+          "t": "Headline signal (not a direct quote): Hock Tan Reaffirmed Broadcom's $100 Billion AI Forecast. Six Customers Carry Nearly All of It. - AOL.com",
           "k": true
         }
       ],
@@ -182,8 +203,8 @@
       "org": "Intel",
       "cat": "CEO",
       "date": "2026-08-14",
-      "published": "Fri, 14 Aug 2026 03:36:32 GMT",
-      "source_name": "digitimes",
+      "published": "Fri, 14 Aug 2026 13:41:00 GMT",
+      "source_name": "IndexBox",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -191,11 +212,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel's US$20B equity raise puts Lip-Bu Tan's turnaround strategy to the test - digitimes",
+          "t": "Headline signal (not a direct quote): Intel Returns to Memory: CEO Lip-Bu Tan Hints at New Architectures Amid AI Demand - News and Statistics - IndexBox",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcmZjZGNqSGdVTUx2Q1czZU1xa21CVTg4ckZXcWY2bWZ6LTFuRmlocXFsaV9MeXJwQU5jVmpDNUJOcjQ3YUtJR0NLRTdTYzNYaWltaERobnRRTlBfWktpdlhOMXh1TGRyMW9UYWxSU3ZHLUJTMlhPTzA2LWU4UDBQeQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQk9VN3I3eURVQTNUb1pxS2dmaml2VmJiRlQzejFCYUlNQTRaTVM4N1RvUEdYMlhLVnJhWFdXTWdPTUlMazNKRFFBeUpqc3FCbTBoZFJCbEVKQUUwNDNBcGlCeXd0UWdzRjBiRG9BUmU5a2JUR3JjclBVSlMzRUxCVFM3TlRLa0tPekhtbkxWRENDTVVTLUlRSWlB?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -204,16 +225,16 @@
       "cat": "Investor",
       "date": "2026-08-14",
       "published": "Fri, 14 Aug 2026 11:59:00 GMT",
-      "source_name": "finance.yahoo.com",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood's Ark Invest Is Buying Coinbase Stock Hand Over Fist. Should Crypto Investors Be Doing the Same? - finance.yahoo.com",
+          "t": "Headline signal (not a direct quote): Cathie Wood's Ark Invest Is Buying Coinbase Stock Hand Over Fist. Should Crypto Investors Be Doing the Same? - Yahoo Finance",
           "k": true
         }
       ],
@@ -243,6 +264,6 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 11,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
