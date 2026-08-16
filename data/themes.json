@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T09:44:02.306210+05:30",
+  "updated_at": "2026-08-16T09:50:44.987151+05:30",
   "source": "google-news-rss+deterministic-cohorts",
   "items": [
     {
@@ -7,28 +7,20 @@
       "dashboard_name": "AI COMPUTE & SEMICONDUCTORS",
       "priority": "P1",
       "target_pct": 28,
-      "rating": "HOT",
-      "rc": "var(--green)",
-      "signal_score": 6.1,
-      "signal_basis": "2 fresh sources · 4 direct cohort mentions · +0.25% average 1D cohort move",
+      "rating": "ACTIVE",
+      "rc": "var(--gold)",
+      "signal_score": 3.9,
+      "signal_basis": "1 fresh sources · 3 direct cohort mentions · +0.25% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "Daily automated RSS scan on 2026-08-15. Latest source-linked signal: TSMC vs. ASML: Which Is the Better Semiconductor Equipment Stock to Own for the Next 10 Years? - AOL.com Signal score 6.1/10 (2 fresh sources · 4 direct cohort mentions · +0.25% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "summary": "Daily automated RSS scan on 2026-08-16. Latest source-linked signal: TSMC vs. ASML: Which Is the Better Semiconductor Equipment Stock to Own for the Next 10 Years? - AOL.com Signal score 3.9/10 (1 fresh sources · 3 direct cohort mentions · +0.25% average 1D cohort move). This is research activity, not an automatic trade order.",
       "news": [
         {
           "title": "TSMC vs. ASML: Which Is the Better Semiconductor Equipment Stock to Own for the Next 10 Years? - AOL.com",
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaEJCZmQ1T3ZTNVdXVGhDQ0piLXpwa1NFbGpBQ3FhdVI3Ml9xMm9RVVNTNVB5V1VXdkw4dDFiTlZCOTRxaEJXY0pFdV9UX25qd0w0eHBRbG9LMmpKZFpDQ3B6SmduZ2prenRfRmdDaU80X1lzRG4xbmRiWW5kMDc0V2hxVQ?oc=5",
           "source": "AOL.com",
-          "published": "Fri, 14 Aug 2026 10:34:46 GMT",
+          "published": "Sat, 15 Aug 2026 22:35:27 GMT",
           "relevance_score": 13
-        },
-        {
-          "title": "AMD and Ouster rise - top AI stocks today, August 14, 2026 - StartupHub.ai",
-          "date": "2026-08-15",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVzFpcDNrM05xdG1TRUlSS19iUU5hUWdlcnpnRmJNdms1a0tXcDlZdHAwTTd1aXVCck5heGpiZVBKM3c0TlF6NWUxT0NzSUxaMHdidEVhQVJZb1ZPWUVRZzk2X2x3d3JnTEhWQmZTcE5UQVBTNUF5WndUUktsSWNaYw?oc=5",
-          "source": "StartupHub.ai",
-          "published": "Fri, 14 Aug 2026 22:48:52 GMT",
-          "relevance_score": 5
         }
       ],
       "tickers": [
@@ -75,20 +67,6 @@
           "rank": 3
         },
         {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "status": "HOLD",
-          "owned": true,
-          "priority": "P1",
-          "price": 514.39,
-          "change_pct": 6.5,
-          "units": 10.547953941,
-          "current_value": 5425.76,
-          "source_hits": 1,
-          "reason": "Second-source accelerator and server CPU exposure",
-          "rank": 4
-        },
-        {
           "ticker": "TSM",
           "name": "Taiwan Semiconductor",
           "status": "HOLD",
@@ -100,6 +78,20 @@
           "current_value": 12347.1,
           "source_hits": 1,
           "reason": "Leading-edge foundry and CoWoS bottleneck",
+          "rank": 4
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "status": "HOLD",
+          "owned": true,
+          "priority": "P1",
+          "price": 514.39,
+          "change_pct": 6.5,
+          "units": 10.547953941,
+          "current_value": 5425.76,
+          "source_hits": 0,
+          "reason": "Second-source accelerator and server CPU exposure",
           "rank": 5
         },
         {
@@ -148,20 +140,29 @@
       "candidate_count": 2,
       "owned_count": 6,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-15T09:44:02.305897+05:30"
+      "cohort_updated_at": "2026-08-16T09:50:44.986815+05:30"
     },
     {
       "theme": "Energy & Nuclear Power",
       "dashboard_name": "ENERGY & NUCLEAR POWER",
       "priority": "P0",
       "target_pct": 16,
-      "rating": "QUIET",
-      "rc": "var(--blue)",
-      "signal_score": 1.1,
-      "signal_basis": "0 fresh sources · 0 direct cohort mentions · +2.11% average 1D cohort move",
+      "rating": "ACTIVE",
+      "rc": "var(--gold)",
+      "signal_score": 3.3,
+      "signal_basis": "1 fresh sources · 1 direct cohort mentions · +2.11% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 1.1/10 (0 fresh sources · 0 direct cohort mentions · +2.11% average 1D cohort move). This is research activity, not an automatic trade order.",
-      "news": [],
+      "summary": "Daily automated RSS scan on 2026-08-16. Latest source-linked signal: Which Stocks Will Rise With The AI Boom? Part II: Electricity May Be The Longer Trade - Seeking Alpha Signal score 3.3/10 (1 fresh sources · 1 direct cohort mentions · +2.11% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "news": [
+        {
+          "title": "Which Stocks Will Rise With The AI Boom? Part II: Electricity May Be The Longer Trade - Seeking Alpha",
+          "date": "2026-08-16",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaHNOMk1pUll6MlpGV0pPeHNZMmEtNThYOWRrTHF3SW13NlV2aDFuTWZPX05TZkI2ZnBQSHBYZlZDTTl3bklHbk8zRjVnMWVjY19rN01peU5VNzBpeDBVQ240Sy1fcGZORE51TnNBS1NSZHBSdkFEUXZxbVo2eXp5MFg3QXBqaTdZWXZhYU9abVBBMWxFVGFmbTJ5YURaN0l3TkI5bms0YWdjLU9XM2pfY1VJNTRPTTRLY05FeGw2RjRHUQ?oc=5",
+          "source": "Seeking Alpha",
+          "published": "Sat, 15 Aug 2026 09:15:06 GMT",
+          "relevance_score": 5
+        }
+      ],
       "tickers": [
         {
           "ticker": "CEG",
@@ -215,7 +216,7 @@
           "change_pct": -2.66,
           "units": 3.47128982,
           "current_value": 798.19,
-          "source_hits": 0,
+          "source_hits": 1,
           "reason": "On-site fuel-cell power; speculative execution risk",
           "rank": 4
         },
@@ -265,7 +266,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-15T09:44:02.305953+05:30"
+      "cohort_updated_at": "2026-08-16T09:50:44.986916+05:30"
     },
     {
       "theme": "Defense & National Security",
@@ -368,29 +369,20 @@
       "candidate_count": 5,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-15T09:44:02.305987+05:30"
+      "cohort_updated_at": "2026-08-16T09:50:44.986954+05:30"
     },
     {
       "theme": "Agentic AI & Enterprise SaaS",
       "dashboard_name": "AGENTIC AI & ENTERPRISE SaaS",
       "priority": "P1",
       "target_pct": 10,
-      "rating": "ACTIVE",
-      "rc": "var(--gold)",
-      "signal_score": 2.4,
-      "signal_basis": "1 fresh sources · 1 direct cohort mentions · +0.21% average 1D cohort move",
+      "rating": "QUIET",
+      "rc": "var(--blue)",
+      "signal_score": 0.1,
+      "signal_basis": "0 fresh sources · 0 direct cohort mentions · +0.21% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "Daily automated RSS scan on 2026-08-15. Latest source-linked signal: JPMorgan Turns Bullish on Salesforce as the Stock Runs Three Straight Weeks - AOL.com Signal score 2.4/10 (1 fresh sources · 1 direct cohort mentions · +0.21% average 1D cohort move). This is research activity, not an automatic trade order.",
-      "news": [
-        {
-          "title": "JPMorgan Turns Bullish on Salesforce as the Stock Runs Three Straight Weeks - AOL.com",
-          "date": "2026-08-15",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUVAwTDZ0SHI5Y0FPQ2NkWjdMb2k1LTBPVXhhRHFZTzhoNFczWFRLRzk4OXUzV1FINGoyTjNHUG9JRURUYlJyMVJYOThLRlljekMtcUhTN095am5xZ0Q4S211ZU0yWkdKcUVyTldURGJRak9uQlk3N3JkRnNPdlhLdTByNjRodGFyNDBZ?oc=5",
-          "source": "AOL.com",
-          "published": "Sat, 15 Aug 2026 03:43:02 GMT",
-          "relevance_score": 6
-        }
-      ],
+      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 0.1/10 (0 fresh sources · 0 direct cohort mentions · +0.21% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "news": [],
       "tickers": [
         {
           "ticker": "NOW",
@@ -486,7 +478,7 @@
           "change_pct": 1.8,
           "units": 0,
           "current_value": 0.0,
-          "source_hits": 1,
+          "source_hits": 0,
           "reason": "Agentforce distribution into CRM workflows",
           "rank": 7
         },
@@ -508,7 +500,7 @@
       "candidate_count": 3,
       "owned_count": 5,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-15T09:44:02.306067+05:30"
+      "cohort_updated_at": "2026-08-16T09:50:44.986999+05:30"
     },
     {
       "theme": "Healthcare AI & GLP-1",
@@ -597,7 +589,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-15T09:44:02.306093+05:30"
+      "cohort_updated_at": "2026-08-16T09:50:44.987026+05:30"
     },
     {
       "theme": "Physical AI & Humanoid Robotics",
@@ -686,7 +678,7 @@
       "candidate_count": 4,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-15T09:44:02.306119+05:30"
+      "cohort_updated_at": "2026-08-16T09:50:44.987053+05:30"
     },
     {
       "theme": "Critical Minerals & Copper",
@@ -775,7 +767,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-15T09:44:02.306142+05:30"
+      "cohort_updated_at": "2026-08-16T09:50:44.987079+05:30"
     },
     {
       "theme": "Sovereign AI Infrastructure",
@@ -892,7 +884,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-15T09:44:02.306181+05:30"
+      "cohort_updated_at": "2026-08-16T09:50:44.987123+05:30"
     }
   ],
   "fresh_window_hours": 24,
