@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T09:50:44.987151+05:30",
+  "updated_at": "2026-08-17T09:55:46.835895+05:30",
   "source": "google-news-rss+deterministic-cohorts",
   "items": [
     {
@@ -7,20 +7,28 @@
       "dashboard_name": "AI COMPUTE & SEMICONDUCTORS",
       "priority": "P1",
       "target_pct": 28,
-      "rating": "ACTIVE",
-      "rc": "var(--gold)",
-      "signal_score": 3.9,
-      "signal_basis": "1 fresh sources · 3 direct cohort mentions · +0.25% average 1D cohort move",
+      "rating": "HOT",
+      "rc": "var(--green)",
+      "signal_score": 6.1,
+      "signal_basis": "2 fresh sources · 4 direct cohort mentions · +0.25% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "Daily automated RSS scan on 2026-08-16. Latest source-linked signal: TSMC vs. ASML: Which Is the Better Semiconductor Equipment Stock to Own for the Next 10 Years? - AOL.com Signal score 3.9/10 (1 fresh sources · 3 direct cohort mentions · +0.25% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "summary": "Daily automated RSS scan on 2026-08-17. Latest source-linked signal: Wall Street's Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the 'Smart Money?' - 24/7 Wall St. Signal score 6.1/10 (2 fresh sources · 4 direct cohort mentions · +0.25% average 1D cohort move). This is research activity, not an automatic trade order.",
       "news": [
         {
-          "title": "TSMC vs. ASML: Which Is the Better Semiconductor Equipment Stock to Own for the Next 10 Years? - AOL.com",
-          "date": "2026-08-16",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaEJCZmQ1T3ZTNVdXVGhDQ0piLXpwa1NFbGpBQ3FhdVI3Ml9xMm9RVVNTNVB5V1VXdkw4dDFiTlZCOTRxaEJXY0pFdV9UX25qd0w0eHBRbG9LMmpKZFpDQ3B6SmduZ2prenRfRmdDaU80X1lzRG4xbmRiWW5kMDc0V2hxVQ?oc=5",
-          "source": "AOL.com",
-          "published": "Sat, 15 Aug 2026 22:35:27 GMT",
-          "relevance_score": 13
+          "title": "Wall Street's Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the 'Smart Money?' - 24/7 Wall St.",
+          "date": "2026-08-17",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMEtfOFBhUXM3MXlFd243QVFtSmRUdHdhd2twRVpSSUxLSi1EQVNXWm4zV3RKOVZ2OGhwYTVUbUQxOUMtMTd0LXVheWMxU1VNX09hQXIwaEZwZnQtUVVEM0RPMTg4Q18ycllSWV83ZENRZFdjenVTWGEwV2hxU3RzQ3drZkhRM2RBdU5SUDl5TUlnX3lsY1VZTTV0RVp0Q2piU05vRjhaWmplaGU5M24xREpMQ0RrR2NsU1o4dFVkREl3WThGRlM0U0pwRTFzUlNOZm5KN3JHcVFRV2tIR0d1bGFZSHR1ZUEyQkE?oc=5",
+          "source": "24/7 Wall St.",
+          "published": "Sun, 16 Aug 2026 22:13:14 GMT",
+          "relevance_score": 12
+        },
+        {
+          "title": "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’ - Yahoo Finance",
+          "date": "2026-08-17",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbGtfMHU1eElHUkFlSmMzMHIxNUJTOWtDWkU2cndvb3ptaENvWjR4b0tmVmlwejFWblFWWDFMeTR6LVlCZUhydDBEZHo0YXprLVNaU04tTjRqbVJzdVlmWl84ZUNHSk1nQWNvOFg1NmNueU54clFqZ0J5ZUpMMUpaZnlBTVcySzV1NFVZaHFFdk1rVE5lRDdGQ0lHd0ZRQVE?oc=5",
+          "source": "Yahoo Finance",
+          "published": "Sun, 16 Aug 2026 22:13:14 GMT",
+          "relevance_score": 12
         }
       ],
       "tickers": [
@@ -34,7 +42,7 @@
           "change_pct": -5.94,
           "units": 5.44228665,
           "current_value": 2138.76,
-          "source_hits": 0,
+          "source_hits": 2,
           "reason": "Custom AI accelerators and networking",
           "rank": 1
         },
@@ -53,20 +61,6 @@
           "rank": 2
         },
         {
-          "ticker": "ASML",
-          "name": "ASML",
-          "status": "HOLD",
-          "owned": true,
-          "priority": "P1",
-          "price": 1844.08,
-          "change_pct": -0.21,
-          "units": 1.079121631,
-          "current_value": 1989.99,
-          "source_hits": 2,
-          "reason": "EUV lithography monopoly",
-          "rank": 3
-        },
-        {
           "ticker": "TSM",
           "name": "Taiwan Semiconductor",
           "status": "HOLD",
@@ -76,9 +70,9 @@
           "change_pct": -0.96,
           "units": 28.960011046,
           "current_value": 12347.1,
-          "source_hits": 1,
+          "source_hits": 2,
           "reason": "Leading-edge foundry and CoWoS bottleneck",
-          "rank": 4
+          "rank": 3
         },
         {
           "ticker": "AMD",
@@ -92,6 +86,20 @@
           "current_value": 5425.76,
           "source_hits": 0,
           "reason": "Second-source accelerator and server CPU exposure",
+          "rank": 4
+        },
+        {
+          "ticker": "ASML",
+          "name": "ASML",
+          "status": "HOLD",
+          "owned": true,
+          "priority": "P1",
+          "price": 1844.08,
+          "change_pct": -0.21,
+          "units": 1.079121631,
+          "current_value": 1989.99,
+          "source_hits": 0,
+          "reason": "EUV lithography monopoly",
           "rank": 5
         },
         {
@@ -140,29 +148,20 @@
       "candidate_count": 2,
       "owned_count": 6,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-16T09:50:44.986815+05:30"
+      "cohort_updated_at": "2026-08-17T09:55:46.835616+05:30"
     },
     {
       "theme": "Energy & Nuclear Power",
       "dashboard_name": "ENERGY & NUCLEAR POWER",
       "priority": "P0",
       "target_pct": 16,
-      "rating": "ACTIVE",
-      "rc": "var(--gold)",
-      "signal_score": 3.3,
-      "signal_basis": "1 fresh sources · 1 direct cohort mentions · +2.11% average 1D cohort move",
+      "rating": "QUIET",
+      "rc": "var(--blue)",
+      "signal_score": 1.1,
+      "signal_basis": "0 fresh sources · 0 direct cohort mentions · +2.11% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "Daily automated RSS scan on 2026-08-16. Latest source-linked signal: Which Stocks Will Rise With The AI Boom? Part II: Electricity May Be The Longer Trade - Seeking Alpha Signal score 3.3/10 (1 fresh sources · 1 direct cohort mentions · +2.11% average 1D cohort move). This is research activity, not an automatic trade order.",
-      "news": [
-        {
-          "title": "Which Stocks Will Rise With The AI Boom? Part II: Electricity May Be The Longer Trade - Seeking Alpha",
-          "date": "2026-08-16",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaHNOMk1pUll6MlpGV0pPeHNZMmEtNThYOWRrTHF3SW13NlV2aDFuTWZPX05TZkI2ZnBQSHBYZlZDTTl3bklHbk8zRjVnMWVjY19rN01peU5VNzBpeDBVQ240Sy1fcGZORE51TnNBS1NSZHBSdkFEUXZxbVo2eXp5MFg3QXBqaTdZWXZhYU9abVBBMWxFVGFmbTJ5YURaN0l3TkI5bms0YWdjLU9XM2pfY1VJNTRPTTRLY05FeGw2RjRHUQ?oc=5",
-          "source": "Seeking Alpha",
-          "published": "Sat, 15 Aug 2026 09:15:06 GMT",
-          "relevance_score": 5
-        }
-      ],
+      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 1.1/10 (0 fresh sources · 0 direct cohort mentions · +2.11% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "news": [],
       "tickers": [
         {
           "ticker": "CEG",
@@ -216,7 +215,7 @@
           "change_pct": -2.66,
           "units": 3.47128982,
           "current_value": 798.19,
-          "source_hits": 1,
+          "source_hits": 0,
           "reason": "On-site fuel-cell power; speculative execution risk",
           "rank": 4
         },
@@ -266,7 +265,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-16T09:50:44.986916+05:30"
+      "cohort_updated_at": "2026-08-17T09:55:46.835671+05:30"
     },
     {
       "theme": "Defense & National Security",
@@ -369,7 +368,7 @@
       "candidate_count": 5,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-16T09:50:44.986954+05:30"
+      "cohort_updated_at": "2026-08-17T09:55:46.835708+05:30"
     },
     {
       "theme": "Agentic AI & Enterprise SaaS",
@@ -500,7 +499,7 @@
       "candidate_count": 3,
       "owned_count": 5,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-16T09:50:44.986999+05:30"
+      "cohort_updated_at": "2026-08-17T09:55:46.835750+05:30"
     },
     {
       "theme": "Healthcare AI & GLP-1",
@@ -589,7 +588,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-16T09:50:44.987026+05:30"
+      "cohort_updated_at": "2026-08-17T09:55:46.835777+05:30"
     },
     {
       "theme": "Physical AI & Humanoid Robotics",
@@ -678,7 +677,7 @@
       "candidate_count": 4,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-16T09:50:44.987053+05:30"
+      "cohort_updated_at": "2026-08-17T09:55:46.835809+05:30"
     },
     {
       "theme": "Critical Minerals & Copper",
@@ -767,7 +766,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-16T09:50:44.987079+05:30"
+      "cohort_updated_at": "2026-08-17T09:55:46.835835+05:30"
     },
     {
       "theme": "Sovereign AI Infrastructure",
@@ -884,7 +883,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-16T09:50:44.987123+05:30"
+      "cohort_updated_at": "2026-08-17T09:55:46.835869+05:30"
     }
   ],
   "fresh_window_hours": 24,
