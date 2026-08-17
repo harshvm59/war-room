@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T09:42:19.470323+05:30",
+  "updated_at": "2026-08-17T19:33:34.570871+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -30,20 +30,20 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-08-17",
-      "published": "Mon, 17 Aug 2026 03:22:46 GMT",
-      "source_name": "firstpost.com",
+      "published": "Mon, 17 Aug 2026 11:08:13 GMT",
+      "source_name": "Mashable",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): ‘Two years was enough’: Sam Altman explains why he dropped out of college - firstpost.com",
+          "t": "Headline signal (not a direct quote): Special OpenAI email is apparently a direct line to Sam Altman - Mashable",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOFp3SDljWk40a2xhWlMzSkhTWjF1NjVfR2psakpZRXNvSFBxa1ZtWEwwY19oZkdKZU1pMDVCdE1DTWk5b0YzTXpBemE5YmNVb1dQS0dLYjdHOURsTS1UcndSazRtZkFtRENMbWJ5WklLZWtnWXdsdWNzOU91T2RXQzdaU0l2UFRFM0dleHZjUmkyYWlhQUxvZW1NbGowc3VhVnNtVkVPOHRSU0YzaXJUaUNSYlBtUdIBuwFBVV95cUxObVI2RWZFOUozcjRFelZ2SUNvWkhLOW1zZ2J3TU1TYlNRYUlKTWFiMlVrVWZpYU9HTzl5Q2k2T3QzMUk2MWNXZlI5WE5LakpDSnpyYmFjSldYSUJoYjdKS241RkNvVE5xdk9pbmNfa0lldWRSQTVQeGJwUjBJcGhaQWZubjV3ZThtSG0wbEdQVUgzYWFuQUFkWGg2S1hDd1g0S3BxUXkzWFhETEd1Z2lLZmRkR1RCOTdNUlRr?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPN0g3dHZVZkdPNXdDeUhtcTJRbWxIR2JaTmZhVmV2OWdHYkxycmlnVDV5QkkzZnBhaHctcWJBS3lLUklNdlJkcjhYSGFWVHl3Y2dyeVl1MzNoQ3h5SEp4X2JWVmJDX2VJVW5UNmJURHVRTzlHNl85RTI1d0QtZU56UA?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -52,20 +52,42 @@
       "cat": "CEO",
       "date": "2026-08-17",
       "published": "Sun, 16 Aug 2026 19:30:00 GMT",
-      "source_name": "The Motley Fool",
+      "source_name": "fool.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy? - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy? - fool.com",
           "k": true
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTEVhOGRmTTA1ZTcxLU1ZTVlOb3V1cXZPdkxySllyeUpUVlJ5R19YdVE2V3A2YV9WWGdmRTJVaUVLY040MlBma2pkUEZ4YmNWamRHZjdzY0dDWFNWODk5T2xYRXBtNzhEcklwdlFndm1vOU1oSXBQNjM4RGl2UWQ1ZUk3dDJaTUZxRFo3NjZuUXI1bFJPU0NYdw?oc=5"
+    },
+    {
+      "name": "Alex Karp",
+      "role": "CEO",
+      "org": "Palantir",
+      "cat": "CEO",
+      "date": "2026-08-17",
+      "published": "Mon, 17 Aug 2026 11:30:00 GMT",
+      "source_name": "Cloud Wars",
+      "signal_type": "source-linked headline",
+      "relevance_score": 10,
+      "themes": [
+        "#AI",
+        "#PLTR"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Palantir CEO Karp: 3 Simple Steps to Software Revolution - Cloud Wars",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeEZYZEJWVWhkeExpT1BaSGRWRjNsVDhaUG1yQ2tFWlFhY2JQRDhKbGRTc2pGX1RBQXJNTUdsT1dvQV9DUzhGV1kwMWd3MlVRWHJpMXRYVHYwLVd0d2RUX01KeWpDX1p3cWZjS09sN1ozb25BTVFBc0pLWjh5Y1d5clVyRE9RaDZ6ZU1tUzFaUkJmVVVJN09SbENCc3c?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -95,21 +117,20 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-08-17",
-      "published": "Sun, 16 Aug 2026 16:40:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Sun, 16 Aug 2026 20:32:01 GMT",
+      "source_name": "TechCrunch",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#META"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Should You Buy Meta Platforms Stock Below $600 Before Mark Zuckerberg Unveils Its AI Cloud Business? Here's My Honest Take - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Why people aren’t buying Mark Zuckerberg’s AI future - TechCrunch",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT24yMWp6NDludGhuXzhlMUJxcnRvSF8wYmh5VGNhY2FuWVU4Y2ppUmxsWndEd1BaX1JCRlgwaXJwZm5wb01vU0loeWNvbkpuWDBxNjVpRVNQZUpHdzFwdTVBdE12T21heGN2dTFsN2Y4V2R3bHA4M3k3THE0VU5FaW9UbTBwZ3Y3RzBfZWFhZmZtODVGdlRNSUNWZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT3gtMTl3WVhpRU94aGlhRVZxWThBZ1h1Y1NsMkVBZWdlXzFTSzNQam5hU3dSSGJaS2V4MzFaOHY2dHdzYlJoTW9fcTdFMGFxYnV4TmhQN3drWWRtX2ZENWxxbDh3S1g4cEIyX2p0bC1DZ0ZrZGNsd3U3TGl0czRBNFRVdXhHd1NrYlNMTmdR?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -140,7 +161,7 @@
       "cat": "CEO",
       "date": "2026-08-17",
       "published": "Sun, 16 Aug 2026 21:57:14 GMT",
-      "source_name": "AOL.com",
+      "source_name": "aol.com",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -149,20 +170,20 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Hock Tan Reaffirmed Broadcom's $100 Billion AI Forecast. Six Customers Carry Nearly All of It. - AOL.com",
+          "t": "Headline signal (not a direct quote): Hock Tan Reaffirmed Broadcom's $100 Billion AI Forecast. Six Customers Carry Nearly All of It. - aol.com",
           "k": true
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWmxRNFZlN2lTclE4UEViZ3pwU0kxbTBpSEZGZ2d6Uk4tUmxRQmFZSEVoWUhySEtZZWVIeFljTlkyX1lreDdjS0UxWGFTVV9jQVpqME5ITGlLYUpKdktKeFBVcjlKeU9IOS1nMWFGRGQzT2JFcWtQc1Vralg2Sm5GUjNJWQ?oc=5"
     },
     {
-      "name": "Lip-Bu Tan",
-      "role": "CEO",
-      "org": "Intel",
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
       "cat": "CEO",
       "date": "2026-08-17",
-      "published": "Sun, 16 Aug 2026 13:36:52 GMT",
-      "source_name": "InfotechLead",
+      "published": "Mon, 17 Aug 2026 11:24:04 GMT",
+      "source_name": "International Business Times UK",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -170,32 +191,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel’s Highest-Paid Employees in 2025: CEO Lip-Bu Tan Earns $92.99 Million - InfotechLead",
+          "t": "Headline signal (not a direct quote): Larry Ellison's AI Bet Made Him Richer Than Musk: Then Came Oracle's $129.5B Debt Problem - International Business Times UK",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTG9VVzdZSk4yRm5GdjBKY1hVWng1UUR6Nkh1TFJSb3dqZzNDUkhOYUNHRlA3UzJmOEJ6NFllWE4zVm9xZTlHNHVKY24xUWtMVVNJMkZaNDBaUms0c1EyTUpPcEw3RldjMURpMEVOVnY3dldZeWtueEdqQWhjS1Z6VGNmbkVvV2k5QjFYQ1lSdXRpbG9EWjUzS1diR2p6ejdWd2FaRWI1WVdfRG1sSlIzRzFR0gG6AUFVX3lxTFBKUzlQeUVGMVdoWDNwd2VwRUJqaUxmQ1VVdk95VmxmRUVQME1rVVljdjdjak00NHAxSmpYN1pTVnM1OVAzbG1POU1oMTRRZkJPVWVmYUsxa0RCMEtheGFJX0VWNUNXckRwTldVUXI4Nm5ncTlCMHJzUG9pYzBTRHcweHJLOVVRYmdTZUZMeGY4R0htVVkwUHZkOS1tNzJxU2pNdEFsd01IRFdEbWZ3WnhORDQwNGI4MHRZdw?oc=5"
-    },
-    {
-      "name": "Arvind Krishna",
-      "role": "CEO",
-      "org": "IBM",
-      "cat": "CEO",
-      "date": "2026-08-17",
-      "published": "Sun, 16 Aug 2026 13:14:07 GMT",
-      "source_name": "InfotechLead",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): IBM’s 5 Highest-Paid Executives in 2025: CEO Arvind Krishna Earns $37.99 million - InfotechLead",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcGdTaW84Qmw0SkdyR0dNSm1hM1NIRWN1VE5qVWJ6d0RzeXY5MmJnNWNHb2xTMjNZOWxYejg0SEMxM3c2RlFMQW0yQ25zM3lWUDNjZ1RFemFoWUlMNkRtNDhfdHZlc0UxcHlFbVYtTkxKZ0dETjF1aFJ0ZXBJMVdVMWhnRjE3NVdIVVFudjE3eWthdDhKeFpiaGRJb0hzRDlJUm1UMzFERE1MSnI2R2piSlAyNXEtQjV40gHAAUFVX3lxTE52d3ptUXBaUEdFVU8zUHBfZnV2RkFwR2pKTG4taWhlZzV6ckJFVVNQQWVULTFPclVpTVA5bmFpT1dScUlFTVBuYWFhS0FrS3dsMGk3VGxVMDNQTTRfREN0T3FZWGtYeFpuZkJaRHNON1VJR191dzZlRUQ3akhoRFA4ZjRHYzhTS182U3NXdlcyWGZFMlh3dFRJZGZ4OXJMRUxaTEpYQTRua1pleGhNaXllc094Vm9memVVMGNUY01lVg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBYVGMzdmlqQXVVeHQxUnV0MVpQZUc0elJjNmIwOTVFQ1JZczFWQ3V5Y0VNZDVicXNaVTZ1eE9ueXpQdFZDd2pRVVdiTUZUSklveU8zakdnWFVTOFRqNGFmTnpDVFp4SVRUUTBXcDBJQ3VjUEVBSDhDRUxTcGU?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -203,8 +203,29 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-08-17",
-      "published": "Sun, 16 Aug 2026 19:22:00 GMT",
-      "source_name": "foreignpolicyjournal.com",
+      "published": "Mon, 17 Aug 2026 12:19:29 GMT",
+      "source_name": "TradingView",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Cathie Wood Flags What SpaceX Investors Are Missing - TradingView",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOTZrYlE3V0VwcXZBS2Jwb0RmcVhDck5GaUtRdlhUaml1SlQyQlBvTF9zVE11eFVDWWdwdVRIaVoxa0pSdjM4cGIwVHhPSmZmZTdPbWFraWlGMHd1T1loanM1NnU1WG1NMlU2dWJod3oxdG5wQXFEdGJTdUNSdVE1TjN0X1M4RURpQ2ZGMUtyejJZakFyaDRYcnI4cXo2RTdXaDVDX3RCdDQ0YUxybDgySw?oc=5"
+    },
+    {
+      "name": "Jim Cramer",
+      "role": "Host",
+      "org": "CNBC",
+      "cat": "Analyst",
+      "date": "2026-08-17",
+      "published": "Mon, 17 Aug 2026 12:04:48 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -213,32 +234,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Databricks Hits $190 Billion Valuation, Rewarding Nvidia, Nancy Pelosi, And Cathie Wood - foreignpolicyjournal.com",
+          "t": "Headline signal (not a direct quote): Jim Cramer Slams Trump Team for Blocking Nvidia’s China Chip Sales: ‘So Ill-Advised’ as Beijing Pushes fo - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeXEyN2F1U0ZheGc0SVBsMUl6aEVUSlU2aUY4cVpBcFRtWG5sdXFrUXlYN2VnUGVRSGFwdnMyWEZrUjg3d0FrQW00eXZsSGNhZ3RTQi1yRVlzeDZBQldyVzc2MFZyXzVNVW5rNWxVd2RIZmhHbmhYeHlaNmMxbEdSbUFuclRDMGtxM212TFA1THZuWmZ3T3FNYzcxR0RwYUJkVTZrSHJFLV80RDJzQmkxU1BTdlFCMWh2Ri1tajRIVFZkWmpvX2dJaVFvbGw?oc=5"
-    },
-    {
-      "name": "Jim Cramer",
-      "role": "Host",
-      "org": "CNBC",
-      "cat": "Analyst",
-      "date": "2026-08-17",
-      "published": "Sun, 16 Aug 2026 10:27:22 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Jim Cramer Breaks Down McDonald’s (MCD) Q2 Earnings and Execution Flaws - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaG0yOWRzQUxHSEZLdzVNeWhsT2hiWHBQVWRNX0VJMmNySUpYYkE0ODVybTk5UW5RNTVPTkRrNXZFbUhnNElSclh4U0Q5TFU1NXlUMmp4YWNBSzFtLW5QaWxlbW5zc0lBN3ZWN0ZhTDNqYm9yT3BKVUotTTQzQjJyMTZVVENCWDNFWUw2d2M2VTlkdzUtcFBZR0dJdVU?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPZ25ORDg2U1ZKenJ3ZEVtbWc1Zk15SDJxYjByMU5HVDgxRU93MmZJejN1Yk9LQ3NmZmMybTRWNjU0b1RRYW1TRXl4RTFnV05vY0V6SmZPNWl6dTI3N05WWnRtb2pwVm1sVWxlbU5HOWlrQ01SaVBZT1A3TXA2N1ZpMFZnRkR1bU1sMHBGNG9MQnBFWUJnYTZlZERUVE5mZG1yVXhJSGpDNGFzN3RHcFFQOFBlRnFSTzlHWFh2cEZsZGUwdDNCN2VqeW5hMExWRTZsdnBkbVIxNXFxeGd5NFJsN29kTTNyNDVXeHN4czlZcE9ua1J5eWk5WDQ3V3c?oc=5"
     }
   ],
   "monitored_leaders": 30,
