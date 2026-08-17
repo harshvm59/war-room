@@ -78,8 +78,8 @@
     {
       "ticker": "AMZN",
       "name": "Amazon Inc",
-      "units": 25.418152947,
-      "avg_cost": 197.67,
+      "units": 25.514612987,
+      "avg_cost": 197.89,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -93,8 +93,8 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies",
-      "units": 47.185855591,
-      "avg_cost": 96.88,
+      "units": 47.243293778,
+      "avg_cost": 96.97,
       "theme": "AI Software",
       "priority": "P2",
       "target_value": {
@@ -138,8 +138,8 @@
     {
       "ticker": "CRWD",
       "name": "CrowdStrike Holdings",
-      "units": 24.140204609,
-      "avg_cost": 113.68,
+      "units": 24.187006773,
+      "avg_cost": 113.87,
       "theme": "AI Security",
       "priority": "P2",
       "target_value": {
@@ -213,8 +213,8 @@
     {
       "ticker": "CEG",
       "name": "Constellation Energy",
-      "units": 4.85107414,
-      "avg_cost": 284.58,
+      "units": 4.887113429,
+      "avg_cost": 284.52,
       "theme": "AI Energy",
       "priority": "P0",
       "target_value": {
@@ -263,8 +263,8 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-08-17T15:30:23.081Z",
-    "broker_synced_at_ist": "17 Aug 2026, 9:00 pm",
+    "broker_synced_at": "2026-08-17T17:30:19.897Z",
+    "broker_synced_at_ist": "17 Aug 2026, 11:00 pm",
     "usd_inr": 95.61,
     "strategy_holdings": 17,
     "other_linked_assets": [
@@ -279,7 +279,7 @@
         "current_value_usd": 67.59
       }
     ],
-    "usd_wallet": 403.18,
-    "broker_account_value_usd": 108835.08
+    "usd_wallet": 348.28,
+    "broker_account_value_usd": 108835.75
   }
 }
