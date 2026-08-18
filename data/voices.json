@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T23:26:56.609795+05:30",
+  "updated_at": "2026-08-18T09:38:29.366556+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -7,29 +7,29 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-08-17",
-      "published": "Mon, 17 Aug 2026 03:20:00 GMT",
+      "date": "2026-08-18",
+      "published": "Mon, 17 Aug 2026 14:23:07 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Doubled Nvidia's Own Sales Forecast to $1 Trillion Through 2027. Here's What That Guidance Means for the Stock's Valuation. - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): NVIDIA Corporation (NVDA) & KKR & Co (KKR): Wall Street Just Endorsed Jensen Huang’s “Big Concept.” What Happens Next? - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxQd0hzUEo4WE1sQTZnMWRDM3R3dHRSWWpzRXMwMXJES19RT1pRSTFORDZUMndBcmRocXd3ZkhjbjRyU19sQVNmSzd0N2hPMl9palVZMXE2d21aWUZxRjBHRVlaamRIcVN2bGVrZnZfZzJRcHlSanZRaXc5SnZDM09weC1BVGM0a1NNaTRxUi1sc2xiaURFSFh2ejJneXBvUQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVnRZdGpRcEE0dEJuU3F6M0hjVEY1N3g3LUt1Y2VLOFZ5UzVWZklvT3FIWUVjY08xN25sTk9vXy04LWxQMTJnemJWWTl2ekRPWXA1WDdTS2Q2dkQtSGRSZmF6NUk5Zzk4WmlvSjZlR29jMTNRMmFNMnJKTGdTMnpyX1M5d2IwVENZS0dnc21hYk5oSUZOSy1BSWhn?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "published": "Mon, 17 Aug 2026 11:08:13 GMT",
       "source_name": "Mashable",
       "signal_type": "source-linked headline",
@@ -46,99 +46,76 @@
       "src": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPN0g3dHZVZkdPNXdDeUhtcTJRbWxIR2JaTmZhVmV2OWdHYkxycmlnVDV5QkkzZnBhaHctcWJBS3lLUklNdlJkcjhYSGFWVHl3Y2dyeVl1MzNoQ3h5SEp4X2JWVmJDX2VJVW5UNmJURHVRTzlHNl85RTI1d0QtZU56UA?oc=5"
     },
     {
-      "name": "Satya Nadella",
-      "role": "CEO",
-      "org": "Microsoft",
-      "cat": "CEO",
-      "date": "2026-08-17",
-      "published": "Sun, 16 Aug 2026 19:30:00 GMT",
-      "source_name": "The Motley Fool",
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-08-18",
+      "published": "Mon, 17 Aug 2026 18:58:14 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#MSFT"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy? - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Government will have to play a role in AI regulation, says Yorkville Ives' Dan Ives - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTEVhOGRmTTA1ZTcxLU1ZTVlOb3V1cXZPdkxySllyeUpUVlJ5R19YdVE2V3A2YV9WWGdmRTJVaUVLY040MlBma2pkUEZ4YmNWamRHZjdzY0dDWFNWODk5T2xYRXBtNzhEcklwdlFndm1vOU1oSXBQNjM4RGl2UWQ1ZUk3dDJaTUZxRFo3NjZuUXI1bFJPU0NYdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTWxtMGJPV2R4Q05lWVQtX09wM2ltMjRzdVBITG4xQlFYcFgtU1FXUkdLRVJFYXNWM0VvVWNpYWZtd0ZKTnlGT29KVkFBTjVoQ2FSc2FPWVprMGdQX3h2eDNudHE5UGppM3FDT3lMOTNoREdfSXdUeGZZSzdqVDNTWHF4bTdpczBYODVhVWRtcHBPTGZETjc3WmtBaDN3NGp5ZjBiWXM4d3NYVEFVTjV1UHgwRjFBd0JaaFJjSENGcklWZw?oc=5"
     },
     {
       "name": "Alex Karp",
       "role": "CEO",
       "org": "Palantir",
       "cat": "CEO",
-      "date": "2026-08-17",
-      "published": "Mon, 17 Aug 2026 12:57:49 GMT",
-      "source_name": "Mshale",
+      "date": "2026-08-18",
+      "published": "Mon, 17 Aug 2026 11:30:00 GMT",
+      "source_name": "Cloud Wars",
       "signal_type": "source-linked headline",
-      "relevance_score": 7,
+      "relevance_score": 10,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AXIOS On HBO: Alex Karp, CEO Of Palantir (Promo) | HBO Daniel Dubois (iLgyQNxR86) - Mshale",
+          "t": "Headline signal (not a direct quote): Palantir CEO Karp: 3 Simple Steps to Software Revolution - Cloud Wars",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCTWwtZ1I0Y09fUDJMT2FTams5eUU4UkE5M2kzbUJueDZyekhndXFHYktUT3RSd1pOR2o1ZEJfNXdSd3JmSWE0QkdLR0daQl9aT3NhenV5a3RGU1U?oc=5"
-    },
-    {
-      "name": "Elon Musk",
-      "role": "CEO",
-      "org": "Tesla / xAI / SpaceX",
-      "cat": "CEO",
-      "date": "2026-08-17",
-      "published": "Sun, 16 Aug 2026 22:03:27 GMT",
-      "source_name": "BASENOR - Tesla Accessories",
-      "signal_type": "source-linked headline",
-      "relevance_score": 10,
-      "themes": [
-        "#AI",
-        "#TSLA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Musk's 'Intelligence/Joule' Pledge: 5 Details That Matter - BASENOR - Tesla Accessories",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUzQ3V3BDd09DVTFyVlFGZGwyUDRHVUVabDJCNUhWenRKcm5wUGwwM1U2WFpuc2RuMjUyR1huMlhTSlZLd3l2TVlrMzJHRzY3b3pVRGlYSl9remhFUm1hbTFKaGRZUHZMb0xCaXpoQ3NuS2t3b0hIb3ZtNFI3Z1lBRm1TNzRMZ01JVzFNdmNRSm5Pdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeEZYZEJWVWhkeExpT1BaSGRWRjNsVDhaUG1yQ2tFWlFhY2JQRDhKbGRTc2pGX1RBQXJNTUdsT1dvQV9DUzhGV1kwMWd3MlVRWHJpMXRYVHYwLVd0d2RUX01KeWpDX1p3cWZjS09sN1ozb25BTVFBc0pLWjh5Y1d5clVyRE9RaDZ6ZU1tUzFaUkJmVVVJN09SbENCc3c?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-08-17",
-      "published": "Mon, 17 Aug 2026 16:33:11 GMT",
-      "source_name": "Yahoo News Canada",
+      "date": "2026-08-18",
+      "published": "Mon, 17 Aug 2026 16:50:27 GMT",
+      "source_name": "nypost.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta CEO Mark Zuckerberg is shown on Feb. 18 in Los Angeles, when he testified at a case brought by a young woman over whether social media platforms contributed to her mental health issues. Zuckerberg could testify again in a major federal trial set to be - Yahoo News Canada",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg's Meta could face 'astronomical' damages as historic teen mental health case heads to trial - nypost.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FVUVObGV2V1FGUnE3MVY4UnNoeW11WUFpMi1yQnJTQ3RERHUyTVZMbk1IS0lfYmtOZTZjbkdpR1JERGRVSi1kd0Iya2laMHZmdmc3ZXdpS3VNMDdocmVkdmhfTVA3ai1wbTdEem1sNHFQLVBSd3ljRlkzMA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN3RNc1I4Wmo1RnFSYzk1UjVYRWpYNFdKVTNKU1VFelFldHRIeTJkTmlVLTVmNWJZV3JWVGVfZ3FIY1NnTk4yZEd3WDVZVkpuQ3RjWDJUb1ZSODZPTENNUlNvSXZLZU5kN0ZGQk5pWHR6MTdMZmlvZmZ1b21rT1NtWmdhclZKa0MzMTBRY2NvMVhvODduRXMteWFPa2Zkd3VMbXluQ1JFWG8zaGNNYmVCeU82TlpPWUlUYzRkX1dHNXdSaG90amMteC15eEFJLWJySzdEYnMtUQ?oc=5"
     },
     {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "published": "Mon, 17 Aug 2026 11:13:39 GMT",
       "source_name": "AOL.com",
       "signal_type": "source-linked headline",
@@ -160,7 +137,7 @@
       "role": "CEO",
       "org": "Amazon",
       "cat": "CEO",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "published": "Mon, 17 Aug 2026 06:43:08 GMT",
       "source_name": "InfotechLead",
       "signal_type": "source-linked headline",
@@ -178,137 +155,93 @@
       "src": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeVVQUXhjQTgwN3B3Tmo3UFg2aEtHM3F3Z2ZMVFNqaFlqWHZfQmY5aElRb25qQW5CRi1DMm1QWGhheVBDcHcxTzZNcVBObzFMTVJDQTFMX3psVHBreDA2Z1BTS0hod1hWVmJkel81MldGSnhpYWhGWnVCaU1CQ0t4b2xnZk1nYVlFbWVtZWVoaEsxS2NLd085LUYtTVY2RDEzc1E3X04xdkM5b3RhVWFQM0ctNWl3X3RQWW9N0gG7AUFVX3lxTFB5VVBReGNBODA3cHdOajdQWDZoS0czcXdnZkxUU2poWWpYdl9CZjloSVFvbmpBbkJGLUMybVBYaGF5UENwdzFPNk1xUE5vMUxNUkNBMUxfemxUcGt4MDZnUFNLSGh3WFZWYmR6XzUyV0ZKeGlhaEZadUJpTUJDS3hvbGdmTWdhWUVtZW1lZWhoSzFLY0t3TzktRi1NVjZEMTNzUTdfTjF2QzlvdGFVYVAzRy01aXdfdFBZb00?oc=5"
     },
     {
-      "name": "Hock Tan",
-      "role": "CEO",
-      "org": "Broadcom",
-      "cat": "CEO",
-      "date": "2026-08-17",
-      "published": "Sun, 16 Aug 2026 21:57:14 GMT",
-      "source_name": "AOL.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#AVGO"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Hock Tan Reaffirmed Broadcom's $100 Billion AI Forecast. Six Customers Carry Nearly All of It. - AOL.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWmxRNFZlN2lTclE4UEViZ3pwU0kxbTBpSEZGZ2d6Uk4tUmxRQmFZSEVoWUhySEtZZWVIeFljTlkyX1lreDdjS0UxWGFTVV9jQVpqME5ITGlLYUpKdktKeFBVcjlKeU9IOS1nMWFGRGQzT2JFcWtQc1Vralg2Sm5GUjNJWQ?oc=5"
-    },
-    {
       "name": "Lip-Bu Tan",
       "role": "CEO",
       "org": "Intel",
       "cat": "CEO",
-      "date": "2026-08-17",
-      "published": "Mon, 17 Aug 2026 11:29:31 GMT",
-      "source_name": "富途牛牛",
+      "date": "2026-08-18",
+      "published": "Mon, 17 Aug 2026 13:27:53 GMT",
+      "source_name": "Moomoo",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): CEO & Director of Intel Lip-Bu Tan Buys 8.6% More Shares - 富途牛牛",
+          "t": "Headline signal (not a direct quote): Captain Lip-Bu Tan is setting sail! Everyone, hold on tight! We will weather any storm together. Let's go! - Moomoo",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNlVxaWhkM0pqaWcydGRyOEpIbDk0WTRIZjBrQmZSNDhiZnVKdU0ySnFCUktGUHdMOVo4Qk83TkpEWXZ6eUU1eFh1c3lDcEhtNUxaTEtnUDZMZUhqVWM0YndOd1o3ejQwUldFRkVKdEtPNW1kb3BnT2stNTk4V2dkRU1RQXZCTjlvZmc?oc=5"
-    },
-    {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
-      "date": "2026-08-17",
-      "published": "Mon, 17 Aug 2026 11:24:04 GMT",
-      "source_name": "International Business Times UK",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Larry Ellison's AI Bet Made Him Richer Than Musk: Then Came Oracle's $129.5B Debt Problem - International Business Times UK",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBYVGMzdmlqQXVVeHQxUnV0MVpQZUc0elJjNmIwOTVFQ1JZczFWQ3V5Y0VNZDVicXNaVTZ1eE9ueXpQdFZDd2pRVVdiTUZUSklveU8zakdnWFVTOFRqNGFmTnpDVFp4SVRUUTBXcDBJQ3VjUEVBSDhDRUxTcGU?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM2F1dlZob1VyS1piVHQ4ci01eE04QVFzb0NSMGdLeW5UWDZrX1hjcW1VZGo5ZE0xbkt6cmd1bE52ZFZCS29uQU9uYld5SVprT09YbXp5RUVsSWF6TG5JQkU2bGNPeFR6cTdXN1l2bkUzUkI3elRIcnNzOHZPUmlDV3liYmlKaFg4NWxfaHI5ZWZUU1V0WHl5TGlRUG82NWs?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-08-17",
-      "published": "Mon, 17 Aug 2026 12:19:29 GMT",
-      "source_name": "TradingView",
+      "date": "2026-08-18",
+      "published": "Tue, 18 Aug 2026 00:12:31 GMT",
+      "source_name": "Investing.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
-        "#AI"
+        "#AI",
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Flags What SpaceX Investors Are Missing - TradingView",
+          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK sells Roblox stock, buys Nvidia - Investing.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOTZrYlE3V0VwcXZBS2Jwb0RmcVhDck5GaUtRdlhUaml1SlQyQlBvTF9zVE11eFVDWWdwdVRIaVoxa0pSdjM4cGIwVHhPSmZmZTdPbWFraWlGMHd1T1loanM1NnU1WG1NMlU2dWJod3oxdG5wQXFEdGJTdUNSdVE1TjN0X1M4RURpQ2ZGMUtyejJZakFyaDRYcnI4cXo2RTdXaDVDX3RCdDQ0YUxybDgySw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObjI2X1R6WWVHeFZYT0llU1JQYkZuMDlNMHBhOFM4aWozaXppNVk4Tm5GRktIVS15WDhWbHVsNlFaMEp5WFZBV1d3TTI3d1dZc0I3TndZeFpoZks2Qm5mSHp0MnVJcW1IOGY5QVExZ3d2TlRlQmJ5R1U3YnVmU3hnQ05keGl4eDQtaXV5cXl0UlhxN204LThDeWpKdmZEZDZMRTYwNElEYw?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-08-17",
-      "published": "Mon, 17 Aug 2026 12:04:48 GMT",
-      "source_name": "benzinga.com",
+      "date": "2026-08-18",
+      "published": "Mon, 17 Aug 2026 22:20:01 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Slams Trump Team for Blocking Nvidia’s China Chip Sales: ‘So Ill-Advised’ as Beijing Pushes fo - benzinga.com",
+          "t": "Headline signal (not a direct quote): Jim Cramer says it’s not too late to own any one of these 4 soaring memory stocks - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPZ25ORDg2U1ZKenJ3ZEVtbWc1Zk15SDJxYjByMU5HVDgxRU93MmZJejN1Yk9LQ3NmZmMybTRWNjU0b1RRYW1TRXl4RTFnV05vY0V6SmZPNWl6dTI3N05WWnRtb2pwVm1sVWxlbU5HOWlrQ01SaVBZT1A3TXA2N1ZpMFZnRkR1bU1sMHBGNG9MQnBFWUJnYTZlZERUVE5mZG1yVXhJSGpDNGFzN3RHcFFQOFBlRnFSTzlHWFh2cEZsZGUwdDNCN2VqeW5hMExWRTZsdnBkbVIxNXFxeGd5NFJsN29kTTNyNDVXeHN4czlZcE9ua1J5eWk5WDQ3V3c?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ha1JuTjc3MlZmb0RKVWwxcllxbzV6dFJFTFRrcEZPY0Ewd3lzWE1MdXRXM1VPYkItYnB3dmxjRWpPX1NWN25iZjEtdnEwdVFJNlZxSHBDb0tpSHA2Q3dIQlUyNG9vVkVsUl9fdlkzelJzOFhrbFlybdIBfkFVX3lxTE5JWmZBaUg3ZW13N3NWSmFZWUQ5MlUtbnV1eHpPaG5MWWVHYTBwM3g4al9VRlVzRzFJRmRHcVV6VURSanUxSEtmcExkZ2Q2VkROVU42Ml85VUh3VlFLckw1bWE4eG5aTUFWRW9UV3NHc1N2RHA3dzh5OGlrdmZQQQ?oc=5"
     },
     {
       "name": "Dylan Patel",
       "role": "Chief Analyst",
       "org": "SemiAnalysis",
       "cat": "Analyst",
-      "date": "2026-08-17",
-      "published": "Mon, 17 Aug 2026 17:09:00 GMT",
-      "source_name": "finance.biggo.com",
+      "date": "2026-08-18",
+      "published": "Mon, 17 Aug 2026 18:55:25 GMT",
+      "source_name": "app.dealroom.co",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dylan Patel: Nvidia's Throughput Economics Still Beat Cerebras, Even at 10x the Price - finance.biggo.com",
+          "t": "Headline signal (not a direct quote): Dylan Patel on AI rollups, escaped models and why compute prices keep climbing - app.dealroom.co",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zLTlQbS00UmVyZW54NE85WWJYM2FySmZOLVFvdjhZNW82bVNsOWFYakJzWXUteGpSODRmZ2xrMlBnNWlEek5MblY5RnFFRVpIT0dJbldQT3dDY2c?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT3hYQ1M5ZGJHS2dFZEdUdEcyQ0Q0dk95Yml1dGtBamY4TGFqcTV0NFl3T212WVNyLWRlX2licTkxbGtHaGt1Y25nYktEOVQwSVEwWm9IbldOUzZoV3dnVlgwdDZSeWctbWpEcWhhUm9sa2UzQkFaNXdORHlVck4yWXItLWdac2xqVkxUN1BZbTRieUcwbWx3YnJUSC11ZFB5X0NkZGpHT2NuODBJRE9sdA?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 14,
+  "fresh_signal_count": 11,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
