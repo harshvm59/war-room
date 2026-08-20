@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T19:42:01.814011+05:30",
+  "updated_at": "2026-08-20T23:28:15.058187+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,21 +8,21 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 16:25:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Thu, 20 Aug 2026 10:43:23 GMT",
+      "source_name": "AOL.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Just Signed AI Factory Deals Across Japan's Biggest Manufacturers. What That Means for Nvidia's Growth. - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): On Aug. 26, Nvidia CEO Jensen Huang Will Provide an Update on Nvidia's $1 Trillion GPU Opportunity. But There's a Smaller Part of the Business Investors Shouldn't Overlook - AOL.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQm9vRll5UWx0enMtMFRUXzFoa3MyRHNGS1hYT0hmMHNJWEdVMlpkSDNUTHFCc1N3Z2tGVi1uNC1zMmJpcXMxcmhTX1pTa3MzMVdoSHZlOXJUdGtBdGFBNDM1TTdIZEZxdWt6S3FYOUd5MUZpeGhucVJBNl8xSmU2LWFNMU5rb1BPaXFkZHF5eUw5MXhhVnc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vRF9RYk15aWlDTTJIcGJocUJnV3RyYnhPNjlKajFTSjZMeGxEMnVMTnlXcXZHbHlIcXNaN0k0ZUV6eTBQQmJpNkhZelVtMmNxWHFPd1A5TC1NT09DZ1hYZ0pvdGM2VUFzQnFJSDRhazhPZTB2VC1J?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -47,28 +47,6 @@
       "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYjg0WmI5MzFhazRPVlR5VmJRNFQtRWt0ZkM0cTZscmNuREprMklsVjMzQkNieGp3TTA0MmphVXFEczRVU29FSUdubnlsNXFGNHNvaHF0R0pxYVdwbVRGTzEwWElOUEpScC1UX0s3TzNwUEVHTnJzUGw4SGFzNlFSdFVMT1JWalNuNi14ak9VOGNqYmd1dk9HdHU0blM4QlpBem40RnJR?oc=5"
     },
     {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-08-20",
-      "published": "Thu, 20 Aug 2026 04:34:50 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#TSLA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Dan Ives Says He Would Be 'Shocked' If SPCX, TSLA Don't Merge Within A Year – Adds Tesla Shareholders Could Back Deal If Valuation Is Right - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSWJVOVJpOHBQRjBJQzZfUEFWY2c3LU1Kc2E3ZWthSFlCTXFkVERXcEFSVVFtekJpTy1KdEpoQVRuVlFnQld6UWtuTjQ1QTNGYXhiU3hDTzdLWDgyR2stM1ZvQ3hQbjctakVBcmpPRXVQNURfMlBzOFRSRjJBVDd2ZEJGVGpIVFNuZ0lKY3VFVEI2QmhUWXpoT0lqdHVBRlRDNjFPYjAyWHVlY0QtQ0MyS05VSnhmYUdqeWEzT1hfMA?oc=5"
-    },
-    {
       "name": "Satya Nadella",
       "role": "CEO",
       "org": "Microsoft",
@@ -89,28 +67,6 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc0dCYXVLT3AxLVFWdkRqUVNsMUQyWHl1Nm5uNG1ld1M3eVNVNHRMRFZGc18wMkFfc3VYaW5SeThQV2JMOUpGQXRqWHZ1SEY0NmdySTloRndhenZOM29oLWFQajJIU0R6WEpGMjBPYm1IelZzSFVCekRzTllZdUlRM1VUZHF3cFR0?oc=5"
-    },
-    {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "AMD",
-      "cat": "CEO",
-      "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 20:07:04 GMT",
-      "source_name": "AOL.ca",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Lisa Su Says AMD's Server Revenue Will Grow More Than 80% This Half -- and That's Not the AI Accelerator Business - AOL.ca",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02VHRpWk41TDFZUHVrYjdHWnA4WWtsY2xNNjZBMllnbHlRcjNrby02ZmpfRGlOZGdoTS1RN0d1aUJ6bG42d0Fjam92cFAyREh6eHJHWng3X1I1ZlBtcGhEbXBsUGw2TmpxQ0hJTHFGV3FPSlltS3c?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -161,8 +117,8 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 21:58:39 GMT",
-      "source_name": "Reuters",
+      "published": "Thu, 20 Aug 2026 10:51:00 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -171,11 +127,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg encouraged growth over child safety, ex-Meta executive testifies at trial - Reuters",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg's Meta Saw Free Cash Flow Plunge 91% to Just $784 Million as AI Spending Ballooned. Here's Why That Should Worry Investors. - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWEF4WlNJc2c1RjE1QVBCMDVobUhWSXotRWswaWtpQnVTem02RUF4Ykw3QTJzWnI0NmlCQmVkY1NDNUxJdVhfcGEtbEpPd3VaSkZsQUdGTjh1RnNNaGFWNTZEdi1jdmsxRFR5cGp3WDdKT1lRbmgtOUZuMm9VcDRDcE1TS2VKLWxlRVFvM2J1c2hscnBsaXRNcmd6cHZlQmRoNnBCTV80WTZDYW1qZG8yVEVZUXhUUXI0T0NJaS1VQ1ZlSi1pSWRYQUp3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ3E2SjV0cGUxTTIwNnF4dE9GUlNqLUFtb1JaNW55ZUpjZERkZ2k5Y0ZVM3FaT3JaRnlnVllFQXk1b2pDbG8wUW5TSG9vU1JHMlFQOFEzMXZjckd5amg4c1M1TW9GcnRvc09aeUdJYzgyVElzUU1mbTY1b2xKS2l6Q3ZBMjI2RUxTUFpDQlZGQWtvdUFrMWZ5eA?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -221,26 +177,47 @@
       "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOUZMQTBhTFJSLWhOeGFsNzY0TmJIRWxtaXpBVm1RbjFsVkFVTDhMRU9jNEpMNU5Md1ctMlFuTnlzaHlsN0J0djJlOGlZckc2a2FaelAyYVg1dmUzOGVNdXhSTUVCQU5LZ2VKWTV6bnMzalFQXzBFZDJJZWVNS2U1Vml0NDRjUnEzc09RVmVPN0RIdFZm?oc=5"
     },
     {
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
+      "cat": "CEO",
+      "date": "2026-08-20",
+      "published": "Wed, 19 Aug 2026 21:37:48 GMT",
+      "source_name": "AOL.ca",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Oracle Just Raised Its Dividend for a 12th Straight Year to $2 a Share, Even as AI Spending Pressures Free Cash Flow. Is Larry Ellison's Payout Still Safe? - AOL.ca",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdkxFcWMtOTh1bS1fNnJUVjZJVjBPdVFScmx4X1AtcGJqOURnYTNHbnVQc09vU0hYelNVX1UzamJMeTdGV0FvTEx1MkVuY2xocEFNUUNDQnl0Nm9jLWxyYjNzT193N3F6bzVjbEc4OU83cTVpdEpmdWtHVm9POHQ4Zw?oc=5"
+    },
+    {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-08-20",
-      "published": "Thu, 20 Aug 2026 08:47:02 GMT",
-      "source_name": "AOL.com",
+      "published": "Thu, 20 Aug 2026 17:21:00 GMT",
+      "source_name": "Investor's Business Daily",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
-        "#BE"
+        "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood's Ark Invest Is Buying Coinbase Stock Hand Over Fist. Should Crypto Investors Be Doing the Same? - AOL.com",
+          "t": "Headline signal (not a direct quote): Cathie Wood's Firm Launches New ETF; Buys Broadcom, Rocket Lab, Cloudflare - Investor's Business Daily",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOS3VtSk9VYXM3V3V3RkxhVGlhYm5HbVIxd0xXWFFrTVBoNS01UzFVT0x4SUpqTTROVXZWN2dGdS1meXdzZGp6eTFYNWRCcE5VUHNZZWdfRXU0SnljZ0lGT3pITTE1Ti1ackhhVlRGbFR2RFY2UlNHS0NCbVpYemc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ2poLWRQbHhVZ1RWdHRCZkxtdGJpdElZV2VpTXpoclNmR0dHdTdZcXpyQ1U0MFpmMktLM19LQUFMVUpGZkt2MmxCbFZmUDI1bExBOFpVV2MzS01lTGppX283WHVBSmtXTldnN090NFgxbTZXLUNVSm15ekducjJ0VnByMTFwMVRNdGV5am51R19DelU?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -248,20 +225,20 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 14:55:06 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Thu, 20 Aug 2026 13:06:10 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): “The Selling Goes Too Far”: Jim Cramer Defends ServiceNow, Salesforce, and Other Software Giants Against Extinction Fears - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Thursday - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdDcySktNOWhUNW5QaGc1VEJMcHNLM041MmdFUEtJaFdLckdMY1VoaDRuSWcydHJKNkdWM0JBb2RveGh0ZnBiYXJ5czVudmQ3aW9lZ19SUl9TT2hwVjk3NDM5djhsOFVEMW43bE00RHFPeE4wOXVaU3BGNGEtbE9yWnRydDA0Qm1Yd3ZQSXpQTXNYLW8?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcko1MGNDcWhVVklSM000ekRtQWlrcG9sanVlNGtDeS1RN0JsNlo0MjZYc3lNZHhuNC1XbzFieHdkaXQyXzRFbEFueTE2VVJ1cGxwQUpfcGQyVm1TelFLck05WW0wVGdkb1Ezb3A4LXM2RzB4a3F0MnJhNWRBMU8yak56djBtWERoQm1XTURhZHVpMUZUWFdhQV82bS1uU0pLeEE?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -310,6 +287,6 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 14,
+  "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
