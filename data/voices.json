@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T09:38:25.975016+05:30",
+  "updated_at": "2026-08-20T19:42:01.814011+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,8 +8,8 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 17:05:00 GMT",
-      "source_name": "The Motley Fool",
+      "published": "Wed, 19 Aug 2026 16:25:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -18,11 +18,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Just Signed AI Factory Deals Across Japan's Biggest Manufacturers. What That Means for Nvidia's Growth. - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Jensen Huang Just Signed AI Factory Deals Across Japan's Biggest Manufacturers. What That Means for Nvidia's Growth. - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWFQ0RHg1eTl0YzgtV3lVbzBkUlNtVE14OUJTbnloVkdXb3dNcWEyZHh5WkhlTzBuOUxLN0c3elZ0RU83TWpaRFdtc0FlallQYUlMRzZOd2ItLTluRE9PQWZnd0xwSmV3VC15MnIwZGZud0tZR2pjNGtXazVxUWVRSURNaXc1MEQxYVNQX2pvQWdVaHJTc1k0WQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQm9vRll5UWx0enMtMFRUXzFoa3MyRHNGS1hYT0hmMHNJWEdVMlpkSDNUTHFCc1N3Z2tGVi1uNC1zMmJpcXMxcmhTX1pTa3MzMVdoSHZlOXJUdGtBdGFBNDM1TTdIZEZxdWt6S3FYOUd5MUZpeGhucVJBNl8xSmU2LWFNMU5rb1BPaXFkZHF5eUw5MXhhVnc?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,21 +30,43 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 12:57:04 GMT",
-      "source_name": "Yellow.com",
+      "published": "Wed, 19 Aug 2026 22:05:53 GMT",
+      "source_name": "Fast Company",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 12,
       "themes": [
         "#AI",
-        "#AMZN"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Amazon Buries Finished Sam Altman Biopic After $50B OpenAI Bet - Yellow.com",
+          "t": "Headline signal (not a direct quote): Gwyneth Paltrow is rumored to be throwing a party for AI mogul Sam Altman. People don't love the optics - Fast Company",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORDNLSURtcDR3SVlkWjZEeTdsaWtUOVV4NXVkT0N1cHEtSDViUGEyal90SE9pZ0RMM1NCQUZMa2JlbUxYQlJZanNHT2JkLWwwc2d6d0NsS3pzd2ljdjU5MGVkenhJaFB2c2JwSHQ3cmdoOWZHUklyTzE5UHJTamlCYkZn?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYjg0WmI5MzFhazRPVlR5VmJRNFQtRWt0ZkM0cTZscmNuREprMklsVjMzQkNieGp3TTA0MmphVXFEczRVU29FSUdubnlsNXFGNHNvaHF0R0pxYVdwbVRGTzEwWElOUEpScC1UX0s3TzNwUEVHTnJzUGw4SGFzNlFSdFVMT1JWalNuNi14ak9VOGNqYmd1dk9HdHU0blM4QlpBem40RnJR?oc=5"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-08-20",
+      "published": "Thu, 20 Aug 2026 04:34:50 GMT",
+      "source_name": "Stocktwits",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#TSLA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Dan Ives Says He Would Be 'Shocked' If SPCX, TSLA Don't Merge Within A Year – Adds Tesla Shareholders Could Back Deal If Valuation Is Right - Stocktwits",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSWJVOVJpOHBQRjBJQzZfUEFWY2c3LU1Kc2E3ZWthSFlCTXFkVERXcEFSVVFtekJpTy1KdEpoQVRuVlFnQld6UWtuTjQ1QTNGYXhiU3hDTzdLWDgyR2stM1ZvQ3hQbjctakVBcmpPRXVQNURfMlBzOFRSRjJBVDd2ZEJGVGpIVFNuZ0lKY3VFVEI2QmhUWXpoT0lqdHVBRlRDNjFPYjAyWHVlY0QtQ0MyS05VSnhmYUdqeWEzT1hfMA?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -52,7 +74,7 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 11:22:17 GMT",
+      "published": "Thu, 20 Aug 2026 08:45:42 GMT",
       "source_name": "AOL.com",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -74,8 +96,8 @@
       "org": "AMD",
       "cat": "CEO",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 08:58:22 GMT",
-      "source_name": "AOL.com",
+      "published": "Wed, 19 Aug 2026 20:07:04 GMT",
+      "source_name": "AOL.ca",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -84,11 +106,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Lisa Su Says AMD's Server Revenue Will Grow More Than 80% This Half -- and That's Not the AI Accelerator Business - AOL.com",
+          "t": "Headline signal (not a direct quote): Lisa Su Says AMD's Server Revenue Will Grow More Than 80% This Half -- and That's Not the AI Accelerator Business - AOL.ca",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBuM1ZpUVpKeVVTcDNJQlp5RGdOakptUGFHc2l5NWtkb2VuRktzTEtXelFsejRJOG9Ta2QyOEZuTUxTdUxqeTNWOUF6RUxlb1E3ZVFpaW1NWXhNOHMzMU5mZU01eUFUbmQtOG0zZ1otMjBad0tUMEtN?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02VHRpWk41TDFZUHVrYjdHWnA4WWtsY2xNNjZBMllnbHlRcjNrby02ZmpfRGlOZGdoTS1RN0d1aUJ6bG42d0Fjam92cFAyREh6eHJHWng3X1I1ZlBtcGhEbXBsUGw2TmpxQ0hJTHFGV3FPSlltS3c?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -96,43 +118,21 @@
       "org": "Social Capital",
       "cat": "Investor",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 10:46:27 GMT",
-      "source_name": "TradingView",
+      "published": "Thu, 20 Aug 2026 10:46:08 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Says Mark Zuckerberg Knows ‘Great Engineers’ Want to Join ‘Space/Search/AI’ Companies, Not Meta’s Advertising Machine - TradingView",
+          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Says Mark Zuckerberg Knows ‘Great Engineers’ Want to Join ‘Space/Search/AI’ Companies, Not Meta’s Advertising Machine - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQRkRDRHVjVnR3cGNUdWVaUnB5Yjc0WHVPT29HNzQ3MWpUVUFVUzQ2aEZqWUdzN09GT01NeHZZakhxSTNYZE9ocDhoSDdRdHZOcUxmOWM0RDlORllIVEotb1BNbVFBYUlDSWUzbm1KWjBYRlVBeVpXZXlPQ0dXNy05RUlQejVOMnVqMjM4MnJKOHVVMVRjTGRCbkRMczk3ZG90R0FHYVdTWVVERFJidHJhSWppOFlBVnM1NWpiU1lWV0R4dWg5U3ZkZ0RWSDUycEE4UlZXYkFBQW5vbXNiZHZLbkw2bVdfb1JrV0E3TnBCblJYY0QtWU12NHpGUXh0Qi1weWN1ZTNKZG9zQVpqZ3JJeU1XNnZMbGl0VFh3bQ?oc=5"
-    },
-    {
-      "name": "Alex Karp",
-      "role": "CEO",
-      "org": "Palantir",
-      "cat": "CEO",
-      "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 10:12:00 GMT",
-      "source_name": "The Motley Fool",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#PLTR"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Palantir Stock Investors Just Got Good News From CEO Alex Karp. Wall Street Says It's Time to Buy. - The Motley Fool",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUGtQdndLTkZEekR4ZURKXzFJRF9Vb21ueEw4U3VmY1FMUHN5WUdreXlCV3o5OHdSdkZmZjNlZHdrQWRSRG56M3NjNnh3QTlBX1lGTGtXSm84VUlvajV4QmpsNHhKN0dMX0o1MXlRVXo0MklRamJVc3Z4Z3lrMWZzeUlEUnZYMnFxSmw5WDZn?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNVB6QWk0VjhHU0pVb1NVUjNkd3ZHSnVmWXJqWGJYNXR5dlAyczg1bEtnVTJ0TmhtYWJ4VjZoOHdCV0xuaXVhNU1mb3hVU2UxcjRjR01KRHFfbW1wR0NLZndxbTBHTXFOeHpEa29aaFlWdnpyb0Ixa1N5RGVPUG5SVE9VcTJYek5KOHNNZW10ZHZXMTA5bk1DWFlld01veXZ4ejhFNUZkeks?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -140,21 +140,20 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 05:57:01 GMT",
-      "source_name": "아시아경제",
+      "published": "Thu, 20 Aug 2026 10:52:49 GMT",
+      "source_name": "Goodreturns",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#TSLA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Tesla and SpaceX Value Chain Included... Mirae Asset's \"Musk Ecosystem Fund\" Now Available at Banks - 아시아경제",
+          "t": "Headline signal (not a direct quote): Did Elon Musk Become the World's First Trillionaire? Fact Check Reveals the Truth Behind SpaceX IPO - Goodreturns",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55eTNkSmNMLUtrTnRCbXlMUC16OE5RcWZxSFMtbzRmcW04aDNwdUQwUTdNemJDcmhEbm5fNGc5MkFtZXdIVGF6N3lLUXE5MS10UEp1RnRUNk1zelFULWlnX0JlZ2I?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU1RxZERBREltNTBlR2tIaGRMWUhKTE5PbVNQM1hCWFpCeWpFbU1SclpsY3dmZjd2ZEpjc1pMTWNHak1FWjhTZDFveVdKSWM0bGNlSE1fVDZGX3JrM2FOLWttVUdDRW83Qks0amVpVVlKMGU2R0pFcDkxajA3WXoyT1RyV1VzU2htUVk1c2w0WGY2T3B3VGJoOTdJYS1hWmJpazlEd3YyOWJXNXQtM3hiZ1NuZ3U3T0pXQnc0XzZVOFNCNDJoaWxaRG04SHRKY1dCYWdjZ2hNU3ZMZw?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -184,7 +183,7 @@
       "org": "Alphabet",
       "cat": "CEO",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 04:11:35 GMT",
+      "published": "Thu, 20 Aug 2026 08:52:21 GMT",
       "source_name": "AOL.com",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -194,11 +193,32 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai Raised Alphabet's Capex Guidance to $205 Billion the Same Quarter Google Cloud's Backlog Hit $514 Billion. Here's Which Number Actually Matters More. - AOL.com",
+          "t": "Headline signal (not a direct quote): Sundar Pichai's Alphabet Reported Negative Free Cash Flow for the First Time Ever. Here's Why That Milestone Matters for Shareholders. - AOL.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMU9CR2JXbzdvbkloMXVXZ2V0bzc0azdSNkxadjVFVEp2dFhOd2RuQ1RUOFZFcW9ybG1tc0lMOU15cEVYekZ4TVJwX0Zaa2hzSjgzOUlBcktUMXZHSjRQbGdwS1FKdXhiZHJxaV9vV1l6N054U1V5bkJFWXB0SVdsSWRDR3M0cHc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ1VpX0pPOW9nbmZNeW1OeU82U3k2NVNwUDk3eVRLcTNXSG5zb1VCanhLM2hzUDhMSGE0QU1USmZfX3FFdHpkLTBBLXlGRnE0U2daYWVPQjZRdlN4X05mSk9FSlRKUGVCOWl5TC12czBFWndlVlA5NzNEZXRfeXpNd1lDOU9NNFktTHBjN0pR?oc=5"
+    },
+    {
+      "name": "Arvind Krishna",
+      "role": "CEO",
+      "org": "IBM",
+      "cat": "CEO",
+      "date": "2026-08-20",
+      "published": "Thu, 20 Aug 2026 13:00:00 GMT",
+      "source_name": "crn.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 7,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): IBM CEO Krishna: In The Age Of AI, ‘Who Do You Want To Trust?’ - crn.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOUZMQTBhTFJSLWhOeGFsNzY0TmJIRWxtaXpBVm1RbjFsVkFVTDhMRU9jNEpMNU5Md1ctMlFuTnlzaHlsN0J0djJlOGlZckc2a2FaelAyYVg1dmUzOGVNdXhSTUVCQU5LZ2VKWTV6bnMzalFQXzBFZDJJZWVNS2U1Vml0NDRjUnEzc09RVmVPN0RIdFZm?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -206,21 +226,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 12:05:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Thu, 20 Aug 2026 08:47:02 GMT",
+      "source_name": "AOL.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Billionaire Cathie Wood's Ark Invest Bought $27 Million of Nvidia and $16 Million of Broadcom During the Recent Sell-Off. Is Now the Time to Follow Her Lead? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood's Ark Invest Is Buying Coinbase Stock Hand Over Fist. Should Crypto Investors Be Doing the Same? - AOL.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONTZ6eGxOZktYXzcxMDY2c0Q4YUNJbVdNZUZZRndMX3hfdW5TZk82MU1Pd2F3ckJEUko4YkFzY2FtS2FSMkg1RkZGa3FZZndpTFhDdjExRDFkR2QxSDJ2UndVVGZ4Wl9YZ0wtWE1EWXRwaU10WnFVUDdnSk5VTWYyV3g1WHVYTWF6bFJYQkMyTU1PdjBTQXNmbHM2ekJOeVZGV0E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOS3VtSk9VYXM3V3V3RkxhVGlhYm5HbVIxd0xXWFFrTVBoNS01UzFVT0x4SUpqTTROVXZWN2dGdS1meXdzZGp6eTFYNWRCcE5VUHNZZWdfRXU0SnljZ0lGT3pITTE1Ti1ackhhVlRGbFR2RFY2UlNHS0NCbVpYemc?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -228,20 +248,20 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 13:08:48 GMT",
-      "source_name": "CNBC",
+      "published": "Wed, 19 Aug 2026 14:55:06 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 11,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Wednesday - CNBC",
+          "t": "Headline signal (not a direct quote): “The Selling Goes Too Far”: Jim Cramer Defends ServiceNow, Salesforce, and Other Software Giants Against Extinction Fears - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb0Y3aDg4NVVaS0NEYkFLa2ZaNldMVnJNZGpRVl9sRjA2dWZ1dUhQR3h5UldNbU1ILXV2TUw4UW5Mek9qMlpLRE9FUzdHLTRHdVVfaUtidU9TN2F4Wk43LUdFTUo1MkZTcDJLeXllekRWbDRNb3N0dWt2dW9uV3lZeTU2b2sxMk1vLWpHRVdtQzhMblNWVUtuZWJWTE9mWEgyRFdF?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdDcySktNOWhUNW5QaGc1VEJMcHNLM041MmdFUEtJaFdLckdMY1VoaDRuSWcydHJKNkdWM0JBb2RveGh0ZnBiYXJ5czVudmQ3aW9lZ19SUl9TT2hwVjk3NDM5djhsOFVEMW43bE00RHFPeE4wOXVaU3BGNGEtbE9yWnRydDA0Qm1Yd3ZQSXpQTXNYLW8?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -249,25 +269,47 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-08-20",
-      "published": "Wed, 19 Aug 2026 04:33:24 GMT",
-      "source_name": "inkl",
+      "published": "Wed, 19 Aug 2026 23:23:43 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 8,
       "themes": [
         "#AI",
-        "#META"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Gene Munster on Meta Stock Slide: Teen Safety, Social Media Addiction Woes Are Just the 'Tip of The Iceberg' - inkl",
+          "t": "Headline signal (not a direct quote): Nvidia Stock Heads For Weekly Loss — Gene Munster Says SpaceX’s IPO Hype 'Sucked The Air' Out Of Blowout Earnings - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ0Znb3ZwTnEtR1Q0ZFl4aFJiMU1kcUdJYjVhY2JrMVNsUjBuOEE0NElCODg2NXQ3d1lTV2pEWnFsRFJwYmdDQ1hhb3ZxZmd2MjNJanluU0Jla3BsVk55V1ZxSVZKT3RyOExYdFlETTNsZmtYamFXYjgzd3BRaXdrbmdIVDRlWUNMcU13aEtSWGNZR3lldEsxallnUEVvUjdwemFVc0VBWUFXTUlJVFFfWExXai1UWGtsY290cEl2aHptSlM3SFROUEZB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdTlkb3VwT2hyT2dSUnNlMERyTlQ1NmdzNElqV2NEMnY1cVI4LXoyc3NKUFZSWXhFQUg5ZENhX3FPdEo2RFV0dHRaNHFrRTRwcVVNWkVUVk1DMFpXcG05eXlhX1ZiUWIzdlFidzBhSHlFSEZqbG1ITjF3dGhWWWV1UkRzR0ZyTnNPbGNOTGFnNHJMRThPT2lHZXExTjl2dFJod1hJVEpJMXlUdU5aYWN4VkpoR3NXZzl0SnBKOEtFbW9WTzFGV3Zubw?oc=5"
+    },
+    {
+      "name": "Pierre Ferragu",
+      "role": "Senior Analyst",
+      "org": "New Street Research",
+      "cat": "Analyst",
+      "date": "2026-08-20",
+      "published": "Thu, 20 Aug 2026 06:57:01 GMT",
+      "source_name": "Stocktwits",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Pierre Ferragu Says Tesla FSD Could Be At An 'Inflection Point,' Compares It To The iPhone Playbook — 'Give Us 2 More Quarters' - Stocktwits",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VXbFFIak5YSjF2dUZvQ2R4TTd4dFpoMmdhWm81UGFwRnZwSnZ4UkNDeG9ERmpxMjlkQWNFbE8ycmVLVnVxRkZpNmFMMmNRVldEOXVYUTlIX2JBYVAxZ1d6WktMekZfdWNjTTlMZllDcTNLcXE1SXNHVm9tQkZ5aXZiUVRtNjVnZ25NdVM3ZV9TQjlXNUFvSS1kd1NkLTF2ek1aN25FQ0RISHVHVER5R3J3aklKVlNLMHFvNFJB?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 12,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
