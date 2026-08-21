@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T19:39:11.825837+05:30",
+  "updated_at": "2026-08-21T23:28:35.738197+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -51,21 +51,20 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-08-21",
-      "published": "Fri, 21 Aug 2026 00:24:26 GMT",
-      "source_name": "Stocktwits",
+      "published": "Thu, 20 Aug 2026 19:48:00 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 7,
       "themes": [
-        "#AI",
-        "#MSFT"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Says ‘Market Is Mispricing’ MSFT Stock — Here’s Why - Stocktwits",
+          "t": "Headline signal (not a direct quote): Memory trade has become 'foundational,' not cyclical, says Yorkville Ives' Dan Ives - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEU5NldhOFZVX3p5emFad0ZXUXlweTVmbUJqMUZ4aWJjdzdhUG5pdFBQUDVpWkVDbkR4dFhVVXRUSTBWTWF1RF9nLUM0S25yQ2JHazRfNlBsSW44VkxGeUczY2M5X1IxYU9hRmV0V2g4NXkzNkVod0hRM0kxdkNQT09qbFdzM1U1S2c3TldZQ1Q0eGZ0TU5CSFBYeW1qc2xmSE1lWHdZeGFVQnRIRWVvb0hGOE4ya2FlZUE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTVRiakppMWdOd3dxMEJ5d2ZCYlpBQW54N28zV1M4bGRWU1R2ODY2U3k3OGduWXhwdzRqbHVQenBVSk1raTNocnIyYWZNbDFSdXJlVml6OUZlb0JPdkxyNVQwT0NQeFM2RUhzWkg3ZGJ0Q252REhQaTlfN2xwZjJUVkVudXVOZW95azFZRFpXM3hudjZwcUQtczlJQnFqUGdVUk41amR6WmtsTjNEU3A4OFBHYlBnR09lcGl5UTVB?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -134,6 +133,28 @@
       "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMEFab0FLRHJmY3NMaTYzYVJfQWRMQmN5dGNsSGVpcWRHd1lQMmoxd0NteC1pSk9OcFVTSkhlaDBZQ0pMU195SzlHTE41aUpnNmdwRVJNbGxBWTlPbG5TY2tiLXV3SFRoZ281TzJQblM3VkxBb3lZenNleW5PX1ZVaHlKd2tNRVFfT2ZLX3YyUk1OYlMtVV9acXFPQWx4WEkxRW4wNUxn?oc=5"
     },
     {
+      "name": "Alex Karp",
+      "role": "CEO",
+      "org": "Palantir",
+      "cat": "CEO",
+      "date": "2026-08-21",
+      "published": "Fri, 21 Aug 2026 15:52:59 GMT",
+      "source_name": "Mshale",
+      "signal_type": "source-linked headline",
+      "relevance_score": 7,
+      "themes": [
+        "#AI",
+        "#PLTR"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Holiday Greetings From Palantir CEO Alex Karp Classifica Serie A 2026 (DR0k9aDSXj) - Mshale",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55andsYnpEVEV4RHhxYmhTd1U3czhCNUxFV3BDS3NyNDViQ2pHaXBEN0VTOVFGV1h6S0JyNG1wRkZOT1ktcUMxVktXZVRRaEV5d1AydUk2TG5qRThhaHpRdA?oc=5"
+    },
+    {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
@@ -161,21 +182,21 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-08-21",
-      "published": "Fri, 21 Aug 2026 05:56:00 GMT",
-      "source_name": "Business Insider",
+      "published": "Fri, 21 Aug 2026 08:52:10 GMT",
+      "source_name": "tovima.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Is King… of an Irish Castle Near a Meta Office - Business Insider",
+          "t": "Headline signal (not a direct quote): Meet Mark Zuckerberg’s Right-Hand Man Who’s Unleashing AI at Meta - tovima.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcWVuaTRhMnNoUm9mTDBIbEZhTWp4VXFpOVpmUUdBQ0t0NHp6cmludzljTDhrT2ZCb0FjclRhN2lIclZiQzFzX2RwaE5sN2ZCS0ktX2p1NnhBRG4xSGJDWnhUaXRaMk0yTXVmdWEzak5GQXlLcnVjSEZMcnRtZnZyLWk0VzRpbnhZQ2NTQ19neTRvMDUtWWc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2N3UnlPUnpURGljdk1TMVRQNHJZcHZGUGg3MzdfVVFzS2pVZUtqcFktRzFzM19tMHl3WUNraFBzOW9RQVdNZlBpejN1Ni1JQ3hid1h1dWloa3VDTDdOODR2WEtkRDZVVXRCYmdBR0llYUEycGtrSHNjRlpOU2tWNmNVNHFndVMyeVJhVU5MeXZ4S1lNeXfSAZsBQVVfeXFMUGRZdHZocFlJN1hfMEUyUU40QXNrQWZidFJtYmUydFNXRnlqWm5GM1U4MzNtR3RrUXA0NzRBcDJvbXJHVE9JQnNCV01KT2dNN1I5VG9SWV85ZWpreThpY0lKaHJ6c0FrdFo3YkFKUmtYYWp6OEhrOG5CVVNMeWEtdEVXcExSUEpVdllhb0lvcFFyV2V5MHNXU19vOE0?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -248,21 +269,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-08-21",
-      "published": "Thu, 20 Aug 2026 17:21:00 GMT",
-      "source_name": "Investor's Business Daily",
+      "published": "Fri, 21 Aug 2026 04:10:45 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 11,
       "themes": [
         "#AI",
-        "#AVGO"
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood's Firm Launches New ETF; Buys Broadcom, Rocket Lab, Cloudflare - Investor's Business Daily",
+          "t": "Headline signal (not a direct quote): Tesla Stock Sits Out The Mag 7 Rally — Cathie Wood’s Ark Keeps Loading Up Anyway - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ2poLWRQbHhVZ1RWdHRCZkxtdGJpdElZV2VpTXpoclNmR0dHdTdZcXpyQ1U0MFpmMktLM19LQUFMVUpGZkt2MmxCbFZmUDI1bExBOFpVV2MzS01lTGppX283WHVBSmtXTldnN090NFgxbTZXLUNVSm15ekducjJ0VnByMTFwMVRNdGV5am51R19DelU?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcmdnU0FjbWNxRFY1MnM3MUs1TFBRTmJRMGhJdVFoTGRNQXJDNWFWYUtxeGxNWXNhalJLamtJTDdJVzlFTlpPT0h6ZUhMeWZrLUptUXdSUElmQXU4Sm9oaXlnaEVNUlJJNzd5X0xoUWc0S2FNSlhlTGdtand0RHBucEx6SDBrVWhZajgxYzFhMndUUVpRYXRPOHZGTnZ2dlZOblloUFNrTkpQa0lOTnBv?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -284,54 +305,10 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVmc0SkI5UG96TjJycVFTLV9CX1V1ZG90YlZWdW5id2JRS3JicDBtZGFoQkNzTkJSMWRTZlhMdS04ejdvZWxCVy1sTUNBQ2dfOVhKWTVPLTRZblRBNk0zbVI1Z2M3ZFVSSXhjMEJ2UXlEbU9fbVRZWXBEbEFyLWxWYWs4NXZ0Q2V20gGOAUFVX3lxTE10UXFzS3RQajVtcXBhbW9fSW04WmI3RG1yLUhQYU1rVU90eW5IcGU0Q2Jwcmdjb3ctRlp0VGJtRGY1Ny1veU5idVFXdy1Od3RIY2Q0LU8taC1POTJjZUNFOU42T2RickhaX01KN2kySGhtUnRVdFh6S2w4OVY3VTZuT1MzTUdJamE0ZUVmRWc?oc=5"
-    },
-    {
-      "name": "Stacy Rasgon",
-      "role": "Senior Analyst",
-      "org": "Bernstein",
-      "cat": "Analyst",
-      "date": "2026-08-21",
-      "published": "Thu, 20 Aug 2026 15:59:41 GMT",
-      "source_name": "Mshale",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Bernstein's Stacy Rasgon: Here's What To Expect For AMD Earnings Bhuvneshwar Kumar (j8oSiDLHiR) - Mshale",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KMHFGOC1FcnJadDVfVTlQa3NoMTJ5WDdleE1pVE9EWnNuZ0FKVjVuQVFZNkhCRGpsc2kwLVNlQ2VXbU9LNmNkQ0kxblFDZG1YM1dnRzlZblV1Y0k?oc=5"
-    },
-    {
-      "name": "Pierre Ferragu",
-      "role": "Senior Analyst",
-      "org": "New Street Research",
-      "cat": "Analyst",
-      "date": "2026-08-21",
-      "published": "Thu, 20 Aug 2026 22:42:18 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Pierre Ferragu Says Tesla FSD Could Be At An 'Inflection Point,' Compares It To The iPhone Playbook — 'Give Us 2 More Quarters' - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VXbFFIak5YSjF2dUZvQ2R4TTd4dFpoMmdhWm81UGFwRnZwSnZ4UkNDeG9ERmpxMjlkQWNFbE8ycmVLVnVxRkZpNmFMMmNRVldEOXVYUTlIX2JBYVAxZ1d6WktMekZfdWNjTTlMZllDcTNLcXE1SXNHVm9tQkZ5aXZiUVRtNjVnZ25NdVM3ZV9TQjlXNUFvSS1kd1NkLTF2ek1aN25FQ0RISHVHVER5R3J3aklKVlNLMHFvNFJB?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 15,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
