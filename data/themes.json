@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T09:47:06.703738+05:30",
+  "updated_at": "2026-08-23T09:52:32.436643+05:30",
   "source": "google-news-rss+deterministic-cohorts",
   "items": [
     {
@@ -9,18 +9,18 @@
       "target_pct": 28,
       "rating": "ACTIVE",
       "rc": "var(--gold)",
-      "signal_score": 1.2,
-      "signal_basis": "1 fresh sources · 0 direct cohort mentions · -0.55% average 1D cohort move",
+      "signal_score": 3.5,
+      "signal_basis": "1 fresh sources · 3 direct cohort mentions · -0.55% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "Daily automated RSS scan on 2026-08-22. Latest source-linked signal: Investing in Semiconductors: The Trillion-Dollar Cycle and Its Chokepoints - livetradingnews.com Signal score 1.2/10 (1 fresh sources · 0 direct cohort mentions · -0.55% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "summary": "Daily automated RSS scan on 2026-08-23. Latest source-linked signal: TSMC vs. ASML: Which Semi Monopoly Has the Wider Moat? - 24/7 Wall St. Signal score 3.5/10 (1 fresh sources · 3 direct cohort mentions · -0.55% average 1D cohort move). This is research activity, not an automatic trade order.",
       "news": [
         {
-          "title": "Investing in Semiconductors: The Trillion-Dollar Cycle and Its Chokepoints - livetradingnews.com",
-          "date": "2026-08-22",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1fRnJUaFhYNmU2bENGNEttQkZWNVc0cy1hWEhJMy03WE1CRnVJWU00MEtMZGVNd3phcW5MbmJLRGNkUUMxS1pyUlFLR2tkRl9XY1dzTjktd0ViMG14RVJyeWV3X1N2a0ZXRldZ?oc=5",
-          "source": "livetradingnews.com",
-          "published": "Fri, 21 Aug 2026 08:38:11 GMT",
-          "relevance_score": 2
+          "title": "TSMC vs. ASML: Which Semi Monopoly Has the Wider Moat? - 24/7 Wall St.",
+          "date": "2026-08-23",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWkRnZ3djVk8zOXVtNG0zZDQ2aVlHMVQ2MHBVTnRsUGEwWHExeWs3cGxadW5ycWtGRXVHN3Y3a3dWT2ZORmpqd1BiSUtFbUZEMVZjMWJaM1JGQzBDQ3Y3ZF91N1NqUHpOVzZiZm9QeXU3Y19sYzlnVG53NGI5NHVnM2FIMFZ5a2phaWltVzVaSGJxTGxsR3pTNkQwZw?oc=5",
+          "source": "24/7 Wall St.",
+          "published": "Sat, 22 Aug 2026 12:52:52 GMT",
+          "relevance_score": 11
         }
       ],
       "tickers": [
@@ -76,9 +76,23 @@
           "change_pct": 0.77,
           "units": 1.079121631,
           "current_value": 1903.31,
-          "source_hits": 0,
+          "source_hits": 2,
           "reason": "EUV lithography monopoly",
           "rank": 4
+        },
+        {
+          "ticker": "TSM",
+          "name": "Taiwan Semiconductor",
+          "status": "HOLD",
+          "owned": true,
+          "priority": "P1",
+          "price": 418.95,
+          "change_pct": 0.71,
+          "units": 29.299105496,
+          "current_value": 12274.86,
+          "source_hits": 1,
+          "reason": "Leading-edge foundry and CoWoS bottleneck",
+          "rank": 5
         },
         {
           "ticker": "NVDA",
@@ -92,20 +106,6 @@
           "current_value": 25761.3,
           "source_hits": 0,
           "reason": "GPU compute and CUDA platform leader",
-          "rank": 5
-        },
-        {
-          "ticker": "TSM",
-          "name": "Taiwan Semiconductor",
-          "status": "HOLD",
-          "owned": true,
-          "priority": "P1",
-          "price": 418.95,
-          "change_pct": 0.71,
-          "units": 29.299105496,
-          "current_value": 12274.86,
-          "source_hits": 0,
-          "reason": "Leading-edge foundry and CoWoS bottleneck",
           "rank": 6
         },
         {
@@ -140,7 +140,7 @@
       "candidate_count": 2,
       "owned_count": 6,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-22T09:47:06.703373+05:30"
+      "cohort_updated_at": "2026-08-23T09:52:32.436379+05:30"
     },
     {
       "theme": "Energy & Nuclear Power",
@@ -257,7 +257,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-22T09:47:06.703429+05:30"
+      "cohort_updated_at": "2026-08-23T09:52:32.436433+05:30"
     },
     {
       "theme": "Defense & National Security",
@@ -360,52 +360,21 @@
       "candidate_count": 5,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-22T09:47:06.703463+05:30"
+      "cohort_updated_at": "2026-08-23T09:52:32.436463+05:30"
     },
     {
       "theme": "Agentic AI & Enterprise SaaS",
       "dashboard_name": "AGENTIC AI & ENTERPRISE SaaS",
       "priority": "P1",
       "target_pct": 10,
-      "rating": "HOT",
-      "rc": "var(--green)",
-      "signal_score": 6.5,
-      "signal_basis": "2 fresh sources · 5 direct cohort mentions · +1.08% average 1D cohort move",
+      "rating": "QUIET",
+      "rc": "var(--blue)",
+      "signal_score": 0.5,
+      "signal_basis": "0 fresh sources · 0 direct cohort mentions · +1.08% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "Daily automated RSS scan on 2026-08-22. Latest source-linked signal: Salesforce Vs. ServiceNow: The Platform Play is On as AI Capital Pivots - AOL.com Signal score 6.5/10 (2 fresh sources · 5 direct cohort mentions · +1.08% average 1D cohort move). This is research activity, not an automatic trade order.",
-      "news": [
-        {
-          "title": "Salesforce Vs. ServiceNow: The Platform Play is On as AI Capital Pivots - AOL.com",
-          "date": "2026-08-22",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeGRIYm1jMzZ1YkVmZ2hWejNIa0ZpdjZDRnlIM3lVXzBRZEZaaXUyNkRHdzRmN1d6VkhGZWF2Z0dqNG40NzhOMFZUTjBIWXdfNWg0YnhIWWtMdFhfXzZnZEdTdEtiZTJtcXd3YndDaWdkSkNEeThBandvaEx1U3JIaWtrUlVuS3J5V1E?oc=5",
-          "source": "AOL.com",
-          "published": "Fri, 21 Aug 2026 13:53:44 GMT",
-          "relevance_score": 12
-        },
-        {
-          "title": "ServiceNow investors must consider latest alert from Bank of America - AOL.com",
-          "date": "2026-08-22",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMnhmNHJTOE42SXlZNVd6QUN4LTJDVXoxVm9talNaUVVJbkpqUWo2clVveHZpOVpCTXhtQm1vVm14Z1FvNVVWV2Y0T21pUHdfNmlRSGotMXJoZWhleGVmS3NRRUZNRDdzUG5tMmVJNXZkRkltM0wwOTZPdHRJU0czcTFyNTFVYzBoa1U4bkpB?oc=5",
-          "source": "AOL.com",
-          "published": "Fri, 21 Aug 2026 20:47:19 GMT",
-          "relevance_score": 6
-        }
-      ],
+      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 0.5/10 (0 fresh sources · 0 direct cohort mentions · +1.08% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "news": [],
       "tickers": [
-        {
-          "ticker": "NOW",
-          "name": "ServiceNow",
-          "status": "NEW BUY",
-          "owned": false,
-          "priority": "P1",
-          "price": 128.48,
-          "change_pct": 3.61,
-          "units": 0,
-          "current_value": 0.0,
-          "source_hits": 4,
-          "reason": "Enterprise workflow agent monetisation",
-          "rank": 1
-        },
         {
           "ticker": "META",
           "name": "Meta Platforms",
@@ -418,6 +387,20 @@
           "current_value": 9034.01,
           "source_hits": 0,
           "reason": "AI advertising and open-model optionality",
+          "rank": 1
+        },
+        {
+          "ticker": "NOW",
+          "name": "ServiceNow",
+          "status": "NEW BUY",
+          "owned": false,
+          "priority": "P1",
+          "price": 128.48,
+          "change_pct": 3.61,
+          "units": 0,
+          "current_value": 0.0,
+          "source_hits": 0,
+          "reason": "Enterprise workflow agent monetisation",
           "rank": 2
         },
         {
@@ -486,7 +469,7 @@
           "change_pct": 6.61,
           "units": 0,
           "current_value": 0.0,
-          "source_hits": 1,
+          "source_hits": 0,
           "reason": "Agentforce distribution into CRM workflows",
           "rank": 7
         },
@@ -508,7 +491,7 @@
       "candidate_count": 3,
       "owned_count": 5,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-22T09:47:06.703585+05:30"
+      "cohort_updated_at": "2026-08-23T09:52:32.436499+05:30"
     },
     {
       "theme": "Healthcare AI & GLP-1",
@@ -597,7 +580,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-22T09:47:06.703615+05:30"
+      "cohort_updated_at": "2026-08-23T09:52:32.436522+05:30"
     },
     {
       "theme": "Physical AI & Humanoid Robotics",
@@ -686,7 +669,7 @@
       "candidate_count": 4,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-22T09:47:06.703641+05:30"
+      "cohort_updated_at": "2026-08-23T09:52:32.436546+05:30"
     },
     {
       "theme": "Critical Minerals & Copper",
@@ -775,7 +758,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-22T09:47:06.703672+05:30"
+      "cohort_updated_at": "2026-08-23T09:52:32.436572+05:30"
     },
     {
       "theme": "Sovereign AI Infrastructure",
@@ -892,7 +875,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-22T09:47:06.703704+05:30"
+      "cohort_updated_at": "2026-08-23T09:52:32.436600+05:30"
     }
   ],
   "fresh_window_hours": 24,
