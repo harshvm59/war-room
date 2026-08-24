@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T09:39:51.808716+05:30",
+  "updated_at": "2026-08-24T09:51:44.452496+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -7,117 +7,74 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-08-23",
-      "published": "Sat, 22 Aug 2026 06:42:20 GMT",
-      "source_name": "매일경제",
+      "date": "2026-08-24",
+      "published": "Sun, 23 Aug 2026 08:30:34 GMT",
+      "source_name": "finance.biggo.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Madison Huang, the eldest daughter of 63-year-old CEO Jensen Huang, who has led Nvidia for more than.. - 매일경제",
+          "t": "Headline signal (not a direct quote): Jensen Huang Makes Low-Key Taiwan Arrival Ahead of Nvidia Earnings; Reportedly Meets TSMC to Lock Down AI Capacity - finance.biggo.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1GWmtXZFVtMEFadTJUOHJEZU9WQUtmc0s4ZG9EQTlFeW5QSTBRdTN0bWc1ZlJaMU1UVjdSVTI5cGt6aVdLOTlJaVJlNGJmMVE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuTTdZaWphdnQ3VFlpZVNSN2FkaEtQSm1VZkRnSkZjM3NsSElDcUszX2Rhbm1kb3JlcnNwMjNtUm1EVy1XUHhnV0h2dDB5VllqYnBJdm94cWxFbk9jakRTQ3JCWWZzV2NMSHlJajlHMk10OGZiWWc?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-08-23",
-      "published": "Sat, 22 Aug 2026 16:00:03 GMT",
-      "source_name": "YouTube",
+      "date": "2026-08-24",
+      "published": "Mon, 24 Aug 2026 01:39:00 GMT",
+      "source_name": "SiliconANGLE",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): OpenAI Is FALLING Apart And Sam Altman Is Panicking - YouTube",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11Z1g4TWl5ZEV3MTU5UDZ4cFppUElXZF9EUURwRzBRcEV1SlpzTk1GcWVCM3I3UmFkZWpaRVplR0dtSXl6TEdxWEFBZFhFZmg3eGZhcEV5TVlqb0JY?oc=5"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-08-23",
-      "published": "Sat, 22 Aug 2026 17:49:21 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
         "#AI",
-        "#MSFT"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Says ‘Market Is Mispricing’ MSFT Stock — Here’s Why - Stocktwits",
+          "t": "Headline signal (not a direct quote): Sam Altman voices fears that control of AI could be centered in too few hands - SiliconANGLE",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEU5NldhOFZVX3p5emFad0ZXUXlweTVmbUJqMUZ4aWJjdzdhUG5pdFBQUDVpWkVDbkR4dFhVVXRUSTBWTWF1RF9nLUM0S25yQ2JHazRfNlBsSW44VkxGeUczY2M5X1IxYU9hRmV0V2g4NXkzNkVod0hRM0kxdkNQT09qbFdzM1U1S2c3TldZQ1Q0eGZ0TU5CSFBYeW1qc2xmSE1lWHdZeGFVQnRIRWVvb0hGOE4ya2FlZUE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZzcyZUVsVmlZV0RUamJDV1NVTXhVQ3l3UDIyZjlYRU85TlpBSVlRblFGLTlobDFfTWo1TTJqTV94bS16RnhOcE82Ukc5T2I3UUxDYW9xbkJZdlg3dF9OTHA5Y0pzazVCa0ZpRGVMNmwzMWZEWkdFUFVLYUV4WmhVcWFGYk4wdzlhbkRfdmlBNkRVdmhUQUZUWXk2d2hQVnI0RnI1aWNZLU5pTlhkV2lia1pnaVY?oc=5"
     },
     {
-      "name": "Satya Nadella",
+      "name": "Lisa Su",
       "role": "CEO",
-      "org": "Microsoft",
+      "org": "AMD",
       "cat": "CEO",
-      "date": "2026-08-23",
-      "published": "Sun, 23 Aug 2026 00:49:17 GMT",
-      "source_name": "AOL.com",
+      "date": "2026-08-24",
+      "published": "Sun, 23 Aug 2026 16:30:00 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
-        "#MSFT"
+        "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy? - AOL.com",
+          "t": "Headline signal (not a direct quote): AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC. Here's What Lisa Su Is Actually Buying With That Money. - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc0dCYXVLT3AxLVFWdkRqUVNsMUQyWHl1Nm5uNG1ld1M3eVNVNHRMRFZGc18wMkFfc3VYaW5SeThQV2JMOUpGQXRqWHZ1SEY0NmdySTloRndhenZOM29oLWFQajJIU0R6WEpGMjBPYm1IelZzSFVCekRzTllZdUlRM1VUZHF3cFR0?oc=5"
-    },
-    {
-      "name": "Elon Musk",
-      "role": "CEO",
-      "org": "Tesla / xAI / SpaceX",
-      "cat": "CEO",
-      "date": "2026-08-23",
-      "published": "Sat, 22 Aug 2026 15:51:00 GMT",
-      "source_name": "The Times of India",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#TSLA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Elon Musk praises his teams across SpaceX, Tesla and other companies: What is said - The Times of India",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOYlpyZFc5aHNFSW5YTzZyUDZpbzF6cFdGTGR2a1dPbnJsaGJFTFJPZGYyTVRKeTYxcHpvc3FydUF0T0dKLXBWMU1XdzRYZDNCakNveEhBdEVTdWJzbG1vSWdwTUIzTHpzTVpNanRXdXNKNldicUhRa25nMERVRHRCZVZCN2hwb0xLNlZTT3U1anJkQWxxSDFTc3hQYVp4RklKVFp1RXlRZzJhanVrZ3l5akxFNmdIcGdzZDFiZUxCa0gzT3IyUm14QkZUNmpDTWRoNEJ0QUlvUmtoaU9jYnE3cWp0UktKbGhtX3lxa2RSVGdabFFfU2fSAfsBQVVfeXFMUFk0TXBFa05tY20tQ0hmbnVCY3AzT0VkaFlwRlR6M2RKT3lvYW41MGFpQ3ZrTHNXbnFRVjM5djdiZzFkNDh3eUlIWmlQRzk4eERDZE9heU1SN3AwdFRCcTlDaUdDeGpXNFBYRXh6aWhlTE0xaWl0SFc4c3JwblJoWWJ1V21zNWgxTk05Mm9JdTEzX0tZYWRrbGtOTXJHRXNDSXk2bzZRVGQ3VHNDSERmQWxhYmxPSi03VHV1NlNCQ2lQSC1wQlNiOVJQUU5iTk9ZUGR5Z3RKWU9MSkUzUFZTRUhjazZmWC1HU0RlejRJYlV2ZXZmeXB3RDhFM2M?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeW1DSUlhZXc5NFNVbE04NG51VU51WnJZM2hhWnBNUG5GcVRSS3ZGTTFFTzVsOG0wcEVGY3E2dFhWcmEyWDBISHU0M2dKVFRncHlzYzVXQ29mcHBJVnZoSFQxSk5GdmZnQWJuaGFERld1enRIWTQ2T2JrSmJJaDJ1MHBFemhDSUhSMHZJSk9ZNW1aYzlwTno3dw?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-08-23",
-      "published": "Sun, 23 Aug 2026 04:07:08 GMT",
+      "date": "2026-08-24",
+      "published": "Sun, 23 Aug 2026 05:00:00 GMT",
       "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -138,51 +95,73 @@
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-08-23",
-      "published": "Sat, 22 Aug 2026 08:00:00 GMT",
-      "source_name": "StartupHub.ai",
+      "date": "2026-08-24",
+      "published": "Sun, 23 Aug 2026 09:09:41 GMT",
+      "source_name": "AOL.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai Reading List: Books Behind Google's AI Bet - StartupHub.ai",
+          "t": "Headline signal (not a direct quote): Sundar Pichai Says Alphabet's AI Products Now Reach Over 2.5 Billion Monthly Users Through AI Overviews. Here's What That Scale Means for Investors. - AOL.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQm05ejFaNExGX1oxR085RmVnT1VpQ0RWZGhSQTI2WGlsYmtEX012aTR2eXVVYzBhcUZaSkF4ZUZLdDV6VGJiQUp6YVlyb2E0OHZPZ2syRjQ4c2pHWngxVUNUSm9DcGoyUlcyUkVpMVFJRVdwRDJqS3FKUUxDRlcwMXI0Ym5qblBkSl9YWnJpQVY5NzM5ekF4TGZwOA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNEJIdFZIYXJjY0pJZXVDUV9xZEEyRm02MlhMTnJramZ0OXBkVmZ6OXJrQ0dxaW9mcHVJdi1INHNtN0RPMGRsUEhnMTlQWHExa0gwRFpNTFBSMFRpX09Ea2hCX2hvMTdNaHlaM1k2OVk2TE05Y3JpMjVES0hKbFJWQQ?oc=5"
+    },
+    {
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
+      "cat": "CEO",
+      "date": "2026-08-24",
+      "published": "Sun, 23 Aug 2026 06:59:28 GMT",
+      "source_name": "theweek.in",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): ‘Genocide powered by Oracle’: Why Mark Ruffalo slammed Larry Ellison’s $111 Paramount merger with Warner Bros - theweek.in",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQMHFzWndSVVdpMjJFUjg0dmtPZlZ6NklrQ1RKTGt2dDU5RGprcXBxNV9yNDk2SHlIZnE0ZVZNUlNXUFJJR0l1Y0hRclpxYTRNWHNoX3RjZG8ydDlsSUVjbzNmTHJ6MXVKeFRsWVR2MlJTWlljTzgtcE9UVHpQYnV0a2Q5Tlh4T01Md085TXJaLTBxMERxZDJyUTIyX2xYSUZFckcwdE5PbzZIUFVSakwwOUlRM2ppcVN1cmdSMEFmY2JvZ1dKUFVMMk8xQ1AyM1dsb0RqMVpFVmU1a2JhcVRXdmRXLWhoLUhDeDZZQWhJMEwzVDVQSUZ4UTRYc1V3LXBGZDFySdIBigJBVV95cUxNb0JncnNGM043ZE85UXdqZ3lsR2lrYmtWWGhyenpQRERRSnhTR0J2dkF4cVhaWXBPbmhUTE1TN1hLQ1lOME96aVY5ZEdUS25MLWNCX29CZEdsdWFqYVNVZlpwVHF2b3JEZVhuREZxX2Q0TUFTTHNBQ0hpYTI4RTFtUlJqcXY1N1BzZXdaTElTaWJtM2NvT0ZON0hyTnpHbXpTdGVxNWhXdi01R25MeDR4d1FCMnp5UWw1M2RnVHJyb2t0M1Z4S3hiYi1neUdkSmJuZTJVd1VsaU1TazBWaTZxZ3JXN2tKTHJOVTRvSGgwOFdlN2RIaEtrS2ZlYV9zRnN5ZEdKQmhVcHdUdw?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-08-23",
-      "published": "Sat, 22 Aug 2026 13:47:00 GMT",
-      "source_name": "thestreet.com",
+      "date": "2026-08-24",
+      "published": "Sun, 23 Aug 2026 22:34:09 GMT",
+      "source_name": "AOL.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 15,
       "themes": [
-        "#AI"
+        "#AI",
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood buys $28.1 million of popular tech stock - thestreet.com",
+          "t": "Headline signal (not a direct quote): Cathie Wood's Ark Invest Held $1.16 Billion of Tesla Stock as of the End of the Second Quarter, Even as It Trails Every Other \"Magnificent Seven\" Stock in 2026. Is Her Conviction Still Justified? - AOL.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS2dRRFd3RGxBVVNOM3U4UE5ieTNlYWEwdElJT0pWVTNUNlFJd0M0aFYyOS1NVTIxN2IzQ1Y1UmgtczFpbGhjSWRKY2pmQXdMNjdPTE5LZ0pQcFRvell2Y3oyVGtMaTZpdEtseUowSTR0U2dYT05UODEwcld1eVc0R0NWanhSclFkRTgza1BOODhMajFrMFpKbUJlcGV2VG1FSXZqdG51cFdBdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0tZjBoWDJsUXJQRDVsZDJJVzFUekM2TEZib21aWWhaemNOVWNJQ3ZpWVp0U3FmWjNRNU1nbmloQlNvMDlHYjZKazFmNEVjUXExaTFlTXp3RGVnY183S3doQkduT2tFS2NralFoZ3p0UFp4Zk9meTdiWUVXMmY?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-08-23",
-      "published": "Sun, 23 Aug 2026 00:12:00 GMT",
+      "date": "2026-08-24",
+      "published": "Sun, 23 Aug 2026 20:31:16 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -191,11 +170,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Dismissed Market Reaction To Cisco Systems, Inc. (NASDAQ:CSCO) Following Earnings - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer Says Stocks and the Economy Are Telling Two Very Different Stories: ‘Jarring Gulf’ - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNblowQXZOMVpIVjZ5d3VZT3BlcFBhdUxjZGxDbU5MamJLX21sUnp3WDZ3MjI0SEZGZTNrOWpiemZSdUdUa1pnTk9GNzFlWXlRN1c4VWxpUkExQ2VVWEVNN1RsQkNjSjdrXzI5SXBKd3kzcGFOZ3REdG9DSmlaS1hFa09qdkxDNmFVM19SanNReFA5SHF0akdreG9iMjdQREFPZ2VF?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObTFrcnBjNWJMa0V3WmVsc0V5YTNSaC1WcWFGWkx5cjBKcnJCSlBhengteUthVVBFOGZVb19uSHVBTUQ5akU2clJJQmxocWtraU9lSFpHQ0VpMVdMbkMxWHhvaU1ZSXRNaHZBVGdvSXV3Y3NxbjA4aVVOcW9pQmZrVkRlUFpONTRYZnpkMmxPM0FDSGliRjkwU05IZw?oc=5"
+    },
+    {
+      "name": "Pierre Ferragu",
+      "role": "Senior Analyst",
+      "org": "New Street Research",
+      "cat": "Analyst",
+      "date": "2026-08-24",
+      "published": "Sun, 23 Aug 2026 20:04:08 GMT",
+      "source_name": "Stocktwits",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Pierre Ferragu Says Tesla FSD Could Be At An 'Inflection Point,' Compares It To The iPhone Playbook — 'Give Us 2 More Quarters' - Stocktwits",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VXbFFIak5YSjF2dUZvQ2R4TTd4dFpoMmdhWm81UGFwRnZwSnZ4UkNDeG9ERmpxMjlkQWNFbE8ycmVLVnVxRkZpNmFMMmNRVldEOXVYUTlIX2JBYVAxZ1d6WktMekZfdWNjTTlMZllDcTNLcXE1SXNHVm9tQkZ5aXZiUVRtNjVnZ25NdVM3ZV9TQjlXNUFvSS1kd1NkLTF2ek1aN25FQ0RISHVHVER5R3J3aklKVlNLMHFvNFJB?oc=5"
     }
   ],
   "monitored_leaders": 30,
