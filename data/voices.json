@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T19:51:40.829257+05:30",
+  "updated_at": "2026-08-27T00:54:43.528175+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -7,7 +7,7 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "published": "Wed, 26 Aug 2026 13:51:33 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
@@ -29,9 +29,9 @@
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-08-26",
-      "published": "Wed, 26 Aug 2026 05:00:00 GMT",
-      "source_name": "The Times",
+      "date": "2026-08-27",
+      "published": "Wed, 26 Aug 2026 17:35:36 GMT",
+      "source_name": "the-decoder.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,62 +39,40 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Can a tired Sam Altman keep OpenAI ahead of its rivals? - The Times",
+          "t": "Headline signal (not a direct quote): Sam Altman says OpenAI will have AGI by the end of 2026 if you accept his definition - the-decoder.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNHdINVBzZHNpMkkzRjRDRGx2RHFaLU9Dak9tbUc0Q1JETTNHSVJKYnlQZm8tcC01SW5WbGx0dkxNWEFMNlh3U3NzcU81X0Z3N0tWam5CUmFpRW5wcThfemg3UDZKQ3NJS3RsbUIwYWdqczVfbVlXUDFXNjUxLWFyRVdCSDF1a3B2?oc=5"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-08-26",
-      "published": "Wed, 26 Aug 2026 05:02:04 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Dan Ives Says Tech ‘Armageddon’ Trade May Be Nearing An End After Anthropic Event - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYzhSVFJwem5fSDdPUWtNaEp1NkJBakNYUWp0N242cmRFcE1FcTRhRjhVRllLbm1qTDB5QXJVU2pzU2xYT0phaldnWkU0LXdXNlEtOXM3LVhJUUpwUDE4cWY5a21EbFdsNDdld3lNY2VPNkREY0NZbWZQdUhOaWNHZmxCYl9RSWlPZWh0aTNDX01RTnVsZzFxYUxUM2RMQ0stdU5KeEFoR3c1N1dvWmQzWXhPY0xGT2lkaFlUUVJ6Um9zRGFXVnNnRjhKdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVhGdDR5RjF2dmZwRFZYRVV3QkZ0OUc2TUFLSVZJZjZtalhWT3JJeU5lUmVqYktaQVM5MVEwWV9UbjdaRGV0Y040T0RlWlRvU2ZfNWZ1Q20ySVZ6enNXYk5fNWhYVi1VZzc4RVBjUzZYZE54OUQ2UzV4LUQtNDNteVhaUUtUaUR6TkxVODNRaXVoTVcwM0hjcmJtMmJ1cWlBczV6VFNiUnNKRE1fMVE?oc=5"
     },
     {
       "name": "Satya Nadella",
       "role": "CEO",
       "org": "Microsoft",
       "cat": "CEO",
-      "date": "2026-08-26",
-      "published": "Wed, 26 Aug 2026 08:32:06 GMT",
-      "source_name": "Storyboard18",
+      "date": "2026-08-27",
+      "published": "Wed, 26 Aug 2026 18:07:17 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Satya Nadella’s pay jumps 22% to $96.5 million: How AI and cloud growth shaped Microsoft CEO’s package - Storyboard18",
+          "t": "Headline signal (not a direct quote): Satya Nadella's Total Pay Has Grown From $18 Million in 2015 to $96.5 Million Today as Microsoft Shares Multiplied. Here's the Track Record Behind the Raise. - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaXBWQUhFQm55dmRWb0JEajdGU1pJbVFqUkdsYXN4WG4wTmkxUnFwYXYxY0tJNklnaVdvamgzZTd0Mk44ekFkVHB5RnBFUmFRUG92M1AxZDNfYnJrU1V5cnJSV2U2QWVlUFRSNjhiSUpzUTBCMHdfYVV0bHZpM0J6cFpaSU9Lb25lX1Y3ZTkwdGJXLW5va01pcTFpNXk0VUF1VEdtVlJDd094SjFaWGVpS2hzREw1TS1tanFOUWE5YmhXNVZaaHoxUTRoU0RXdk9mdWRZdFczN3RzNG5VZUJr0gHkAUFVX3lxTE5wOHZhWTRGVFFHMXNpV1VIRTQ0Mk5lTFJzTkw0Nk5YcFpWdXpNVnFHUVlMUmt2YnZaMFBjbmNYNl9hRloyV3dkN1ZxSVItZnU0MDBFMXRudURxcUlnRHN5Y2dBSjB0TE9nVTUxbUxhTmdDeFhTNXYwenNjTE82ZzFteDZVQWVRZHY1VlpMR1NDbUNOWEVxTXpyQ2JqbjloVkp5SE51V3ZnLW1MMDQwVnk5ZkJBZmw5a0JKOVZWbDdQVlRMY2ZFNDk0d003Q0tfeDNtU0ZGM0dRN1VtVW9JT1RRRUpMUA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN3lMX1RXVzhoeTBhRXQtaVdNTTlLZE9DX3ExTER5d3hSTUhUeG5EU0N2YjQ3MU54MnlydEpIRHl0c1labU52OER6X0Z0S3JLYktwaEJTVUtoVV9Xa05MX1p3UUxfTS16cklOYTFUTGxhZmp5VmptbUI4Wk1FalZfRlYtaUhoZFhSUGdyNkYxRVZKMUFYSUdhdg?oc=5"
     },
     {
       "name": "Lisa Su",
       "role": "CEO",
       "org": "AMD",
       "cat": "CEO",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "published": "Wed, 26 Aug 2026 03:22:32 GMT",
       "source_name": "AOL.ca",
       "signal_type": "source-linked headline",
@@ -116,28 +94,28 @@
       "role": "Investor",
       "org": "Social Capital",
       "cat": "Investor",
-      "date": "2026-08-26",
-      "published": "Tue, 25 Aug 2026 15:42:29 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-08-27",
+      "published": "Tue, 25 Aug 2026 20:56:39 GMT",
+      "source_name": "AOL.ca",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Flags 3 AI Killers — Could Anthropic’s $2 Trillion IPO Dreams Crash First? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Flags 3 AI Killers — Could Anthropic’s $2 Trillion IPO Dreams Crash First? - AOL.ca",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd1NsaVdkbGgyN0lWTTg4TlF1Y0dXRTVQcnJSS1NlU0treldlSFhaTXBIakFpVndrUmxkUl9kd2t5dDE2Vk9tSlM2SDdLSGJTVWUwWXJfQW1RZUdGaXhBcWRBSkd2SzYybndCNnk1ZE8yMml6WFJveF9ra2hfeFF5aHJSN25wNlU5bVREN2VpVkowd09hYzN0R3JBNA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HeUZvRWhBd29RQy1OdEoxX3NKMDFNaXZPaDIyT2FRbmF4OGdDWVJaUnlvc3Rta1FBMFo3OWs5LWRnbWFzclhZaDY5UXVmY3BCQUt0c1p5TkpFZDJmTFFzNVZtVWdoVHpoeFdiazVsSktua29yRTVNbVg3ZHRVNDg?oc=5"
     },
     {
       "name": "Alex Karp",
       "role": "CEO",
       "org": "Palantir",
       "cat": "CEO",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "published": "Wed, 26 Aug 2026 11:00:00 GMT",
       "source_name": "Fortune",
       "signal_type": "source-linked headline",
@@ -151,14 +129,14 @@
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XWnBBSEV3TXJib3FnZG9Lazl0b1VOenBFV3NmOXNVQlZHUDhTVFNQZmZrWFo5N3A4NC1xaVZ1QndxOHpPYklYNjVQZzhLSHU3UkNVN202MVYtVFVvNFpRWVJLemFPRzBZekdyQ3lfTDh1ckQ4Z0RLV3pFMW9UcUU?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xR25Jd3IxLUZRWVZjWlpHb2o4VG5vWXhFVFg1dzJUVE4xSU1fbnFvR19wRTB1WDd2dXdwdkJROXBqTjVyVmY3LXRQaE5WbzI3QS1ZWkdPdzl0aElfVTdsZG1xSTdra2xfZXMyOFRmREM5RmNULXg1N2Rmam5FUQ?oc=5"
     },
     {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "published": "Wed, 26 Aug 2026 03:19:29 GMT",
       "source_name": "TradingView",
       "signal_type": "source-linked headline",
@@ -180,7 +158,7 @@
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "published": "Wed, 26 Aug 2026 10:07:00 GMT",
       "source_name": "Reuters",
       "signal_type": "source-linked headline",
@@ -202,31 +180,75 @@
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-08-26",
-      "published": "Tue, 25 Aug 2026 19:09:00 GMT",
-      "source_name": "The Motley Fool",
+      "date": "2026-08-27",
+      "published": "Wed, 26 Aug 2026 00:14:26 GMT",
+      "source_name": "AOL.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai Says Alphabet's AI Products Now Reach Over 2.5 Billion Monthly Users Through AI Overviews. Here's What That Scale Means for Ad Revenue Investors. - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Sundar Pichai Says Alphabet's AI Products Now Reach Over 2.5 Billion Monthly Users Through AI Overviews. Here's What That Scale Means for Investors. - AOL.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZEgyRHZDNkxFWjRCMmJLLThYRzZPTGJVY3RWTmdmZzhVT1g5eXFoMUhpdjBEc1RSYzBLNVVKTXNsNGFwVVhvaTdhY0dDRGVOWC1zUi1HVkxzLWxJanhjUnU1ZmttdWpkQVQ5TkY5S3V0THF4SUZGRTluUWlJaElOVDFydzBFU3NXcUZpYWVkcFRuTE1ubXk4cA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNEJIdFZIYXJjY0pJZXVDUV9xZEEyRm02MlhMTnJramZ0OXBkVmZ6OXJrQ0dxaW9mcHVJdi1INHNtN0RPMGRsUEhnMTlQWHExa0gwRFpNTFBSMFRpX09Ea2hCX2hvMTdNaHlaM1k2OVk2TE05Y3JpMjVES0hKbFJWQQ?oc=5"
+    },
+    {
+      "name": "Andy Jassy",
+      "role": "CEO",
+      "org": "Amazon",
+      "cat": "CEO",
+      "date": "2026-08-27",
+      "published": "Tue, 25 Aug 2026 20:42:32 GMT",
+      "source_name": "AOL.ca",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI",
+        "#AMZN"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Amazon CEO Andy Jassy Just Made a Shocking Trillion-Dollar Prediction - AOL.ca",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3eFFmNFFxZlRoRjk5dzRVMDdhcmJHNjZ3M21fMHpLbjNfU2xWcHJxV3pfOTl6TWtzeEpOZi1xUXlyYWkySl9yaU9UcUwxdnl6ODV0a29iNVJMS250S2VaQlIzZi1OOGxPdy1WUjAtWXgzRkYtdHA4Nw?oc=5"
+    },
+    {
+      "name": "Hock Tan",
+      "role": "CEO",
+      "org": "Broadcom",
+      "cat": "CEO",
+      "date": "2026-08-27",
+      "published": "Wed, 26 Aug 2026 08:58:06 GMT",
+      "source_name": "Mshale",
+      "signal_type": "source-linked headline",
+      "relevance_score": 7,
+      "themes": [
+        "#AI",
+        "#AVGO"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Broadcom's Hock Tan: The Ruthless Acquirer Behind Tech's Biggest Deals Fidelity Investment Data Breach Lawsuit (yWwwo9hNgy) - Mshale",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVNFBpdmpTNHl6OGMyQTJwaW5sRWJGVnp4bTh5ekNDVTAxZE5yLWRtcnNuRmpBRzRWa2JwbnQ0WUZ6THFjWDI4S3BsaEljc255S2FQVmFMS0loOGVfVWNQZA?oc=5"
     },
     {
       "name": "Sanjay Mehrotra",
       "role": "CEO",
       "org": "Micron",
       "cat": "CEO",
-      "date": "2026-08-26",
-      "published": "Wed, 26 Aug 2026 00:31:08 GMT",
-      "source_name": "Investing.com South Africa",
+      "date": "2026-08-27",
+      "published": "Wed, 26 Aug 2026 00:18:00 GMT",
+      "source_name": "Investing.com UK",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -235,18 +257,18 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Micron Technology CEO Sanjay Mehrotra sells $38.7 million in MU shares By Investing.com - Investing.com South Africa",
+          "t": "Headline signal (not a direct quote): Micron Technology CEO Sanjay Mehrotra sells $38.7 million in MU shares - Investing.com UK",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSHB3NGhRTU1IU3hua2NSaGFONTliREpfVFJGZUlKcnh0bnZRYXNWcU45N0o4MlJleml2VWpkZGhYNmFBTjhfc3lrcldjQjh5Q2VzM0RHZ3lCa3dSRTl0Rm8wZEtERmo0d3o3NjZ2TEVpN19WbzdLQU1yUlZuWGJrbDRZdFJtZU4tb3B4MEEwYmJBSUU4QnZZVEZDMGg2dEFNRGczaHlsVC1MazI3b3o1VGZFYnBkRnpuUHd3cEU0T05Dd3c3VXpKcg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNGxyVGVSZ2cwc2hOczVLVVY5NHRmWnpmVkNDa2pVVDJUVVE5ei1GNEdhYnU3Z1pYQVdkR1AwWWk2UF9TVTVKdmhTVThTR2xObzRzX3hyZWpxUUV1cmRadEJENEZDUVMtbndiVkl3bDZiQkwwU2NNcWh6UVlOMG9PLUR1TjdqUU80TGlZdURGYi1BMmxUYmVNOS1sMFNFSUJtWWlyU1dfc3VOTnJ5dGZVd3NsOEZUNHVsSVRJQlBzamV3dVRMRllzSw?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "published": "Wed, 26 Aug 2026 02:25:19 GMT",
       "source_name": "Benzinga",
       "signal_type": "source-linked headline",
@@ -268,8 +290,8 @@
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-08-26",
-      "published": "Tue, 25 Aug 2026 22:47:37 GMT",
+      "date": "2026-08-27",
+      "published": "Wed, 26 Aug 2026 12:55:01 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -278,19 +300,19 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dick’s Sporting Goods just had its worst day ever. Here's Jim Cramer's advice on the stock now - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Wednesday - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSkM3OWQ5djUtTzd3OUlsT3JZMlZiS2t6c3p0b2d2ZU1lT29yeXMwUTRNeGd4MzVQVHFjZnhvNWdJeS1QLTZWTHlTbG5fSDBGbWlhUkJXSTdUbXliOUN6Mk9GNkp4T2RubnY2ZzdvV1c4RFBXTGRPRkExX2dSNzJpclN1ZGlrN2J4WUZPRUtyQm95ekho0gGaAUFVX3lxTE83OEdYeFZfbnpSTkE4RzdZMFVCVjZuSFEtRm80ODZNQ0tMWkk2ak01NkxTWDJCNGY4eUlYaVNRYzRYWnh1dW5oS2F3VFVSYkMwbTZhYjNKdHp1ajlHUWJ3U1JjRzlPbzNIV0lyTGdXcDdXa1lMbV9ReVpIZWFmb0xBTlJCR2ZodjZ3aGhManlIZFBWWVdvT2huWVE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYzUxUks5MG85aVMxcFhDMmlmMkZqOHVYU3FkaVc4TXo0d29KeDZaZVRhZ2xFd2kwbHhvZzVxRTVXZ0I1NGFnanZlaEhtakV4T3FKb0w2enNYVlJJUlc2bkVyWXNRNzZiZ1Zsc3ZhSk5rLXhMM2tpY3o0N055c1RjT3g4bUJQdVd2V05kSEtlY29OUVNQTDQzd0ZSMzQ2NHlvemdj?oc=5"
     },
     {
       "name": "Vivek Arya",
       "role": "Senior Analyst",
       "org": "Bank of America",
       "cat": "Analyst",
-      "date": "2026-08-26",
-      "published": "Wed, 26 Aug 2026 11:10:55 GMT",
+      "date": "2026-08-27",
+      "published": "Wed, 26 Aug 2026 10:55:01 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -307,29 +329,52 @@
       "src": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUkMwWmhrLWl2dVFNemV2V0ZqMl90NzdIaTB1VU9xZXhIaU9qZXpIOTVGd3cwVVRrWVgxZVBxTmRUekIzaGhTTmhKVUVJVGYxOXpWRmwtRFNvSm1TQ2FiRFlJajVTcXRjc3J3c0lsQ09GdXFIOFR6SjNqNEtfY0VWRGdnZ09PdUl2Wnc2X3F0dUxQN3J1eGd2a3J4ZDB1NnZvdFVuQjdraW5GeFJLRmk0?oc=5"
     },
     {
+      "name": "Patrick Moorhead",
+      "role": "CEO and Chief Analyst",
+      "org": "Moor Insights and Strategy",
+      "cat": "Analyst",
+      "date": "2026-08-27",
+      "published": "Tue, 25 Aug 2026 23:11:41 GMT",
+      "source_name": "Mshale",
+      "signal_type": "source-linked headline",
+      "relevance_score": 7,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Nvidia, AMD Sell-off Makes 'absolutely No Sense,' Says Patrick Moorhead Bra Torres (FKRvZUIy9h) - Mshale",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rdGhiWkFJelctbnMyYUgyYkdSWlZxUzNBSGRlRTJmVG9CbTRiTlFXOEpSY0xvT1Fzb21xNGJWWXluSHExY2lLZjBSWnN2MFgtVl9BMF9xalJFX2pTMUxBbA?oc=5"
+    },
+    {
       "name": "Dylan Patel",
       "role": "Chief Analyst",
       "org": "SemiAnalysis",
       "cat": "Analyst",
-      "date": "2026-08-26",
-      "published": "Tue, 25 Aug 2026 17:10:52 GMT",
-      "source_name": "finance.biggo.com",
+      "date": "2026-08-27",
+      "published": "Wed, 26 Aug 2026 10:43:15 GMT",
+      "source_name": "OfficeChai",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
-        "#AI"
+        "#AI",
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dylan Patel: OpenAI and Anthropic Will Control Most of the World's Compute by 2028 - finance.biggo.com",
+          "t": "Headline signal (not a direct quote): Companies Like Jane Street, Meta Have Captured Most Of The Value In AI, Not App Layer: Semi Analysis' Dylan Patel - OfficeChai",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZUXNIVUJtYl9uZGdFYUVFYm9xaTlNQjBWMlI1RjJZWW92RVZOdzRlbGlMbTdHazhTeVdtZGFHUWp0NGJfVFBEdjhZR3d3NEZtWjhteWhJV3ZkZDQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdi15RjBQemxuSk5sT0ZjbVhTRzB5RktnazJISWlTaFJ3d2kyend6MXBnRWExQzBjZEUyQmYtd0w4X2I4R3Rrd2JyTENfUmw5V05JM3p1eXdjR1RVRWQxZ3FYU20yanJBZkRud29TM1NKVm45cDJRZVAtQ1YxZnpQOE5MLWhrVDJoeWFONldGM1FEcTZKSW1sVE1uZ0NPWlNjY0xTQ3VKZE1aSHk4MkhqcVFhcUNqVi1OQkFJcWp0QVA0RnFNcGU4Q1UyYXhBRUgxMnc?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 15,
+  "fresh_signal_count": 17,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
