@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T21:05:29.261482+05:30",
+  "updated_at": "2026-08-29T04:40:53.276815+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -7,7 +7,7 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-08-28",
+      "date": "2026-08-29",
       "published": "Fri, 28 Aug 2026 10:23:00 GMT",
       "source_name": "Fortune",
       "signal_type": "source-linked headline",
@@ -29,51 +29,9 @@
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-08-28",
-      "published": "Fri, 28 Aug 2026 01:49:39 GMT",
-      "source_name": "Sources | Alex Heath",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Sam Altman: OpenAI may reach AGI this year - Sources | Alex Heath",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1zUXhiTkVQRjJTNnB2SDYzRWE5YTBfNjR3UmdIektnNENkZ3RYazFLR2o5Mi1LOWMyQkxnOEYyeW41blpUbFFIdVlPeFo1VEVpZWtzVXNRQQ?oc=5"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-08-28",
-      "published": "Thu, 27 Aug 2026 19:51:00 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Dan Ives Says the AI Trade Is Only in the \"Third Inning.\" Should Investors Stay Long AI Stocks? - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPM2VjajdfNHJxQ2N4U3dVTlBfQks3X0JINHZweVRFV3VEekZ0cmNCSlp1UldaZlZ1dWd5VWxzOXJ3b2dHLVdWR2c0UzFQVVQtQ3NPYmp4WDdDeWs4dkZXTjcwUFF0TmhUREpDblFPaFVCOHk5SC1xU1FxODdoeXgzcDZMYlkxTXRyZkpNT2I0cw?oc=5"
-    },
-    {
-      "name": "Chamath Palihapitiya",
-      "role": "Investor",
-      "org": "Social Capital",
-      "cat": "Investor",
-      "date": "2026-08-28",
-      "published": "Thu, 27 Aug 2026 16:20:21 GMT",
-      "source_name": "Traders Union",
+      "date": "2026-08-29",
+      "published": "Fri, 28 Aug 2026 14:25:00 GMT",
+      "source_name": "AppleInsider",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -81,40 +39,61 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya: SaaS sector recovers with 41 percent stock gain since May - Traders Union",
+          "t": "Headline signal (not a direct quote): Sam Altman needs to put up or shut up about AI hacking - AppleInsider",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTWNLcjhTX3ZKN0dpRklyaUEtaUtDYzNZZ1hMUW9zNmhrN0c3RHVQaWtIZFZfbU42ZTh1THZseHdoM0xVT1R3VnlYcVV1ZVJ0UW1QXzZiZzNtc3otYmNTcnBBaThTaGg3b3pXUHFVN2lVYUlvY3BZa2FtSE5VbHd6dXpLVVRNYlFB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQkNTQkhKb2JVVW5yQjRqOExXbWRBUlJVOWRUT2pOQUpUQWRRSGw3NXlpZ0U2TjhkZkhrYWhRMktmSGZsNm9vWC1tNzhlekZleExwLWRjenFMbXVkWkdTWWJ5SHdiS0s4MFBNOGN2WlJuTXlZMHN5ZWdNd1M4S0Nrei04Zk5RVmVfOWo1cnhkQ3B5dEFUeE5XUXEyOGhMdw?oc=5"
     },
     {
-      "name": "Alex Karp",
-      "role": "CEO",
-      "org": "Palantir",
-      "cat": "CEO",
-      "date": "2026-08-28",
-      "published": "Thu, 27 Aug 2026 22:21:22 GMT",
-      "source_name": "Stocktwits",
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-08-29",
+      "published": "Fri, 28 Aug 2026 15:01:02 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 14,
       "themes": [
         "#AI",
-        "#PLTR"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Michael Burry Targets Palantir Again, Flags ‘Nefarious’ Accounting And CEO Alex Karp’s $17M Jet Bill - Stocktwits",
+          "t": "Headline signal (not a direct quote): Dan Ives: Nvidia Earnings Should 'Hang in the Louvre,' US Takes Lead Over China 'For First Time in 30 Years' - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRWZGbGltVHRLb05mcHBsYldNNms3d29tTUVNV2Q0WkZabU1tRWdiT09mdDNka2pkUXVobzBYR2hqRDJwZVpSLXBOdlBIUjhfeGhocHQxdzQ4MFVlN3dsVzVoZTZ2dXFjQWNHb0VZcGdncW82UFBjZU53S2Y4ZEJ2c2hvSzdpR01yWTJncXlwVktjWUQ3U0RsMkk3TnhOaE5XNjZLVmhaRlZnUTRlZTVRSzh0SmhyclhoWkE5S0I3cjJFUzBHYnVmM21JaHFzbnozSWhfdjNpQ1VBX05BdS1WYU03ZERKRXdpWU5MQXVjUTZhN3M?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSlhyT0lIMHpCTHNkclBub0dCc3djMFFnSk9EQjRQMUNFYWk4eWgxSkJuaTl4cGtqckRjV0Uxc0ptdE0tWHRSaXpVNDB3R2g5UUVIeGRialRTVUhTVW9HZE9fc1MzSDA4VUlZV3hNX0xINk1KbmFtMlBwY0NoU3o0OXd1eG0zUW42bnZfMlVmQmtUU29ZQ3ZxbQ?oc=5"
+    },
+    {
+      "name": "Satya Nadella",
+      "role": "CEO",
+      "org": "Microsoft",
+      "cat": "CEO",
+      "date": "2026-08-29",
+      "published": "Fri, 28 Aug 2026 08:00:00 GMT",
+      "source_name": "StartupHub.ai",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Satya Nadella vs Sundar Pichai Enterprise AI Strategy 2026 - StartupHub.ai",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUkRUSVZaQTZ2bzFzWWM3ek5OUmUwcGgwUWhMS3o1RVNvbVlOMzhlRnlMZjRlQ0kzLWRzd1lIbWVUSmhJRzFOOG1WZWVlRUt1clRyOVhFVFpia0dqNEZnbk50amtCZ3dUNHpfbWFLanJrb0poaktlY25leDZmcTNHM19lT19vRkNnNGd0WWxZZkhwVlhiU2NaZ1dlWjFRRmVubm5lOEtfb2V0em1tVDg0?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-08-28",
+      "date": "2026-08-29",
       "published": "Fri, 28 Aug 2026 12:55:28 GMT",
       "source_name": "Futurism",
       "signal_type": "source-linked headline",
@@ -136,8 +115,8 @@
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-08-28",
-      "published": "Fri, 28 Aug 2026 15:22:39 GMT",
+      "date": "2026-08-29",
+      "published": "Fri, 28 Aug 2026 16:15:00 GMT",
       "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -154,34 +133,13 @@
       "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOam51eWN2NERFalhxMDNFaGVQZ01Obk45NDZCWXNRWkU1cHlUc3NTMWJNRXE5Mkg1VkFYeFY3S1RMOHhMT3FMRHJvSHU4MjR6UXdfWU1Bc29ldEVMdzlVaHhHM2hoTFREWkJYQjZVR09lckxfQ21rbmxaR3pVWFBBWmlaY3d3aUxfUkUyTW5zWjBsSlhNcmtnTA?oc=5"
     },
     {
-      "name": "Lip-Bu Tan",
-      "role": "CEO",
-      "org": "Intel",
-      "cat": "CEO",
-      "date": "2026-08-28",
-      "published": "Thu, 27 Aug 2026 18:54:00 GMT",
-      "source_name": "calcalistech.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Intel cuts VP ranks from 450 to 200 under Lip-Bu Tan - calcalistech.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDMExXLWJINGRHdjRvT19RdVY5VlhSTkdWXzVLNHRKdldsRFNKUFBiQWNJVUI1UnFfanlrbHlsak9ybzBRSEp3TkgtSWMxa1VTQXZ6NlpNakZhR1ZNcGNHMUpZUDdORnc?oc=5"
-    },
-    {
       "name": "Arvind Krishna",
       "role": "CEO",
       "org": "IBM",
       "cat": "CEO",
-      "date": "2026-08-28",
-      "published": "Fri, 28 Aug 2026 06:06:00 GMT",
-      "source_name": "The Times of India",
+      "date": "2026-08-29",
+      "published": "Fri, 28 Aug 2026 22:20:19 GMT",
+      "source_name": "Kalkine Media",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -189,63 +147,61 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): 2026 TIME100 AI: IIT Kanpur graduate leads IBM’s AI strategy; why Arvind Krishna believes smaller models - The Times of India",
+          "t": "Headline signal (not a direct quote): IBM CEO Arvind Krishna Acquires 8,375 Phantom Stock Units Under Excess Savings Plan - Kalkine Media",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPTWNodDl3QjNrV25ITEs3MS1UVG5MZ0g0U3ZjSEk5YXlFYS1rd253RzNWVThnLTloQWgyUEpVdHdNMmlCQk1RcjhmQVE5aFFrMjRabGc3ajJGaU1YamhtWmI5MF9pSnhXTE01RmxGNkJqRUpDN2xnVG5oZlh1c2FBRXVWR29BaTBDM1Y3a1IyVW45VF9BYy13SEpuSi1ZQ3F6eV9TcDRWUUFKRFRPbHBRWHdDMUlnS3dBdVV0WjRWeU1ULUxBWXhiNWlJMzY2SjA1YjJPemV6a1RZUzVIbi1wNUxZN0NtS0JQMlpXNjdtWEJ1dkQ3eXlLTEZza0ZneWdHSlRoeEpJb0tkNVpORUY3LUg0eWrSAZoCQVVfeXFMTWtITXFfZmZySFZtRlY1MmpzeXhzcjAzMTRqODRvWEZKUFFydFBxbHJTMXVfZlFnck50LXFWSlFUT2c1X1pRWlhua3pUNWZXWjMtekN6WWtIdXBhcTkxYkxZSWFtMVZtTG9LUWlnSHlOWWlELWMwWmJhcW1VS0dlaHBQbFVORjVrSi1YcURMaEF3Q01yaUZ0XzA5REJBekN6RVJUQkwtc3c4dTJqT2hLQ2ZRNWI4NGYtcXhBM3FBV3hoNk5jaW8zYTN3QzFWTVZrTHRFWndadW16elVQX1dOU0hzM3MzendwbmhfUS1wb0hUemhUd09NMW9OTWNNWVdBNGRrV2tvT1FqMnpLQUFwdW5HS1VDRHVwcmNR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZGhHU3FDOTNQSGhnMWhwXzYtMHY0QXZJaXVVd3dMa19GN3pzb251TGR3a0g0MmxRZzd1NU84MVRlejJWYWdTcTN0SWJWckp5MVZFZF9raWplSWo3UE9TMnlzRmdIME1CTHVkUkFJcDJkejdCUE1JQ2hUZUstMHA4SWJLZkM2RHBJZS1NWXlmSF8zZXQwQ05UTHJQT1hhV2hyTEgyY1pFSlhxb1N0SERJeGRuaE5ZZG1VN1BWaEdYWFBHVy1Bb1JyTg?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-08-28",
-      "published": "Thu, 27 Aug 2026 21:19:00 GMT",
-      "source_name": "Barron's",
+      "date": "2026-08-29",
+      "published": "Fri, 28 Aug 2026 09:05:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 14,
       "themes": [
-        "#AI",
-        "#AMD"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK Just Dumped AMD Stock. What She’s Buying Instead. - Barron's",
+          "t": "Headline signal (not a direct quote): Cathie Wood Invested Roughly $1.4 Billion of Ark Invest's Flagship ETF in Just 3 Artificial Intelligence (AI) Stocks - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTFByaWs5cnpDTTNpSUk2N0FZMG9ZSmgyMGE1ampTZ0ppWDNEbWh1bF84UUpjQ2lYVjVzZ0ZXbkRsSjhtMUVSdFZnMWJ2aFFuMnBWUmtnb0hDNmJUdHduZk5NbEJodlRSOVViNjNmdEZ4TG1VXy10eTlKOW04V3dIQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRVhyaTRxZl9VZFExMmVRZ0luVDE5YWozZ1R1WFdlcE9KeUMtamNTdURCZDBidEprS1pyeGFidmplbHZXYUhWay1GY29maWl3Q2tLOXl5bnhMNWpRNTZ3OUh2S1luLUhHVmdFNGFNYnBzeTZhYXVSdEc1enZObjVKNWtWTDFreGRVUkdnRWd4WkNsMTBWWV9PWFhn?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-08-28",
-      "published": "Thu, 27 Aug 2026 22:20:14 GMT",
+      "date": "2026-08-29",
+      "published": "Fri, 28 Aug 2026 13:07:20 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 14,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer says Nvidia and Salesforce earnings upended two bear narratives - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Friday - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOY1VrWVl6dm5KSnNEZkhWTmVOZURhb3lfcWlUS2hqdWFCT1JNd3FXb1Jza29tSlJoaGN5bmtYRWpMS3BHSXhKMFFUX01QZXl4UmFDMlpGWjg3Mm5lT3JWVXQwVnQzdE5pbUUtVzlRa29MM3ZzaEdKYjF4QmdPdXFjR21ZbzkxRUpSaTdJa3pnZHctS2JqWWQwUHBWRGNGUG_SAaQBQVVfeXFMTmpvVjhaMl96eTVvSVBNLUFyNnpHa0hoXy1hM0ZrYTZfOTBUMEZ5X2tZNHNnMDJ2b0c4U2dCZ05icXdnd3dHdUN3UWF5TGNQZE9zdUZ5V3JpUGo0bnZuM1JTVUtZbFBQOWlLVm5mcTE1dHF3TWt6ZE5DeGEzSUJCbTVvTFE3ZFgyeEs1M1FWLTBySUFSQ2VqX3Z4UjBuZ05lTUZTd0U?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTjdJalpVcW5FdGJNX1pTTGdBelFXQUNoc1FyQ25hR3VnODZvREY2R1MwMVVFU0FqUlZYejVqTjl5S2F2WDNvdDJLTlN4bXkyYmx6UVRWcU9JR3Z6WEMzajZxTW81ZWlfUVVDQnFWQlV6NjFVYnFOV0ZiUC1ZUkpaM2xHbDRkbzgtNmd0dm9Dd3djeEVVUVVxc1RmX0NyNU0?oc=5"
     },
     {
       "name": "Gene Munster",
       "role": "Managing Partner",
       "org": "Deepwater Asset Management",
       "cat": "Investor",
-      "date": "2026-08-28",
-      "published": "Fri, 28 Aug 2026 00:00:00 GMT",
+      "date": "2026-08-29",
+      "published": "Fri, 28 Aug 2026 13:20:12 GMT",
       "source_name": "Bloomberg.com",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
@@ -264,6 +220,6 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 12,
+  "fresh_signal_count": 10,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
