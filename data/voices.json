@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T04:32:43.311582+05:30",
+  "updated_at": "2026-08-28T07:07:11.597799+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,21 +8,21 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-08-28",
-      "published": "Thu, 27 Aug 2026 05:15:00 GMT",
-      "source_name": "Fortune",
+      "published": "Thu, 27 Aug 2026 23:19:00 GMT",
+      "source_name": "Fox Business",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang eats dinner with someone ‘and their stock price doubles the next day’ - Fortune",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang rips 'the Band-Aid off' as AI chip giant resets expectations - Fox Business",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYUVXU3B4XzNEM0FmNDNYMVR1TDE3U3hQYXcwSVR4RE51NmIyRUp6OExqRVZ5bFFubWpKNkgzeF9SLXUwU0xRYTVSeWtRZ0ZOTXRaeWcybGd0MUpVLU9NWWJwZjdVbk51N2xXN1ZUaFplYkZ5ZmNnQTB3YzFtVm5nRlBIUQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnVJSlMzZjBScTl0MHA3a1lhRng4bTdkRlJQVjgzUjEtbEhHRU04TTRfVk4tZ191dTUwU3hzSFNYaDBuM2FvUC1ONEVjRFpSdXhkU2tOZ2d4cV9TYnYyVjlYOVNtSUtCcDhlSU1nblZCM1RsUFE2amhoUDNCbzJ2bnJxR3hWbVNURVNpb3RfTHprX0d0NmRsQVctVXd5MTFCSTQtMWFJWDRPeDdkVVHSAbMBQVVfeXFMTTBOekluSFRMM1ZYTk1PSWI2VF9wOTF4UHByUFZnb09PcWZJR1J5a3ZYM3NtekpULTlxeHRqbG0yVXpiNXgwV1BUY0NsYU1Cd1dzeXVYbTVKS0lfZmU0Yl9FRVA1dmZfNEZxU2lIY2FIYnR2dGc2ZUthc1VIWUJVU3dJbGtaQnZYWnZjLVprRjE1SEJXaXJoanljdTVfallrTERPTVVJZnZUWHhXMWVlVVdVQmM?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -283,6 +283,28 @@
       "src": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FRUpSTF9CU2EyR2xpY1ZBQ2Z4TzRidW9GTUVqS2dKcHYtWWQwalZTZDB5d2Vxd3phNzRwSVAzbnZnbUdhYjNRX0htcnNWdldoNkpOWFc4TFA4S1l3QzJtcDA5TTR1QlRic2c?oc=5"
     },
     {
+      "name": "Cathie Wood",
+      "role": "CEO and CIO",
+      "org": "ARK Invest",
+      "cat": "Investor",
+      "date": "2026-08-28",
+      "published": "Thu, 27 Aug 2026 21:19:00 GMT",
+      "source_name": "Barron's",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK Just Dumped AMD Stock. What She’s Buying Instead. - Barron's",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTFByaWs5cnpDTTNpSUk2N0FZMG9ZSmgyMGE1ampTZ0ppWDNEbWh1bF84UUpjQ2lYVjVzZ0ZXbkRsSjhtMUVSdFZnMWJ2aFFuMnBWUmtnb0hDNmJUdHduZk5NbEJodlRSOVViNjNmdEZ4TG1VXy10eTlKOW04V3dIQQ?oc=5"
+    },
+    {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
@@ -354,25 +376,25 @@
       "org": "New Street Research",
       "cat": "Analyst",
       "date": "2026-08-28",
-      "published": "Thu, 27 Aug 2026 14:53:35 GMT",
-      "source_name": "Bloomberg.com",
+      "published": "Thu, 27 Aug 2026 05:24:18 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Watch Data Center Opposition Could Hurt Nvidia, Ferragu Says - Bloomberg.com",
+          "t": "Headline signal (not a direct quote): Pierre Ferragu Says Tesla FSD Could Be At An 'Inflection Point,' Compares It To The iPhone Playbook — 'Give Us 2 More Quarters' - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOTdZTUJjUl9hWFJoN2JLVGpIX1FmQ1ItSy13MkI1Rjh5YVB3bHdEdWRMSXctdVA2SEFMYUNrWEpaVnJEa1lOYnhER2UtYmk3d05KQXh2a1R4aE9VT1NPYmJ4NDR5UE11SDdZLXk5V2U1TkxmM1dFNEtOcWdoQkIxbDRYMk5ETC1ob0ROZFhnN1A5MkJ0eFB2ZHdhQlJmSDItMUc3NGJPVmJ5LVly?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VXbFFIak5YSjF2dUZvQ2R4TTd4dFpoMmdhWm81UGFwRnZwSnZ4UkNDeG9ERmpxMjlkQWNFbE8ycmVLVnVxRkZpNmFMMmNRVldEOXVYUTlIX2JBYVAxZ1d6WktMekZfdWNjTTlMZllDcTNLcXE1SXNHVm9tQkZ5aXZiUVRtNjVnZ25NdVM3ZV9TQjlXNUFvSS1kd1NkLTF2ek1aN25FQ0RISHVHVER5R3J3aklKVlNLMHFvNFJB?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 17,
+  "fresh_signal_count": 18,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
