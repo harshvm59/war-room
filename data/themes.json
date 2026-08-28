@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T04:33:36.446219+05:30",
+  "updated_at": "2026-08-28T07:16:56.880812+05:30",
   "source": "google-news-rss+deterministic-cohorts",
   "items": [
     {
@@ -9,10 +9,10 @@
       "target_pct": 28,
       "rating": "ACTIVE",
       "rc": "var(--gold)",
-      "signal_score": 2.1,
-      "signal_basis": "1 fresh sources · 1 direct cohort mentions · -0.35% average 1D cohort move",
+      "signal_score": 3.0,
+      "signal_basis": "1 fresh sources · 1 direct cohort mentions · +1.46% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "Daily automated RSS scan on 2026-08-28. Latest source-linked signal: AI, chip stocks mixed after Nvidia's stellar earnings results - Seeking Alpha Signal score 2.1/10 (1 fresh sources · 1 direct cohort mentions · -0.35% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "summary": "Daily automated RSS scan on 2026-08-28. Latest source-linked signal: AI, chip stocks mixed after Nvidia's stellar earnings results - Seeking Alpha Signal score 3.0/10 (1 fresh sources · 1 direct cohort mentions · +1.46% average 1D cohort move). This is research activity, not an automatic trade order.",
       "news": [
         {
           "title": "AI, chip stocks mixed after Nvidia's stellar earnings results - Seeking Alpha",
@@ -30,10 +30,10 @@
           "status": "ADD",
           "owned": true,
           "priority": "P1",
-          "price": 480.93,
-          "change_pct": 0.37,
+          "price": 476.67,
+          "change_pct": -0.89,
           "units": 10.663157369,
-          "current_value": 5128.23,
+          "current_value": 5082.81,
           "source_hits": 0,
           "reason": "Second-source accelerator and server CPU exposure",
           "rank": 1
@@ -44,10 +44,10 @@
           "status": "ADD",
           "owned": true,
           "priority": "P1",
-          "price": 355.59,
-          "change_pct": -0.32,
+          "price": 371.54,
+          "change_pct": 4.49,
           "units": 5.468549393,
-          "current_value": 1944.56,
+          "current_value": 2031.78,
           "source_hits": 0,
           "reason": "Custom AI accelerators and networking",
           "rank": 2
@@ -58,10 +58,10 @@
           "status": "ADD",
           "owned": true,
           "priority": "P1",
-          "price": 938.4,
-          "change_pct": 0.58,
+          "price": 935.39,
+          "change_pct": -0.32,
           "units": 4.480430815,
-          "current_value": 4204.44,
+          "current_value": 4190.95,
           "source_hits": 0,
           "reason": "HBM and memory-cycle exposure",
           "rank": 3
@@ -72,10 +72,10 @@
           "status": "HOLD",
           "owned": true,
           "priority": "P1",
-          "price": 209.66,
-          "change_pct": -1.59,
+          "price": 227.98,
+          "change_pct": 8.74,
           "units": 119.976226097,
-          "current_value": 25154.22,
+          "current_value": 27352.18,
           "source_hits": 1,
           "reason": "GPU compute and CUDA platform leader",
           "rank": 4
@@ -86,10 +86,10 @@
           "status": "HOLD",
           "owned": true,
           "priority": "P1",
-          "price": 1745.64,
-          "change_pct": 0.08,
+          "price": 1735.01,
+          "change_pct": -0.61,
           "units": 1.079121631,
-          "current_value": 1883.76,
+          "current_value": 1872.29,
           "source_hits": 0,
           "reason": "EUV lithography monopoly",
           "rank": 5
@@ -100,10 +100,10 @@
           "status": "HOLD",
           "owned": true,
           "priority": "P1",
-          "price": 417.69,
-          "change_pct": 0.07,
+          "price": 427.3,
+          "change_pct": 2.3,
           "units": 29.299105496,
-          "current_value": 12237.94,
+          "current_value": 12519.51,
           "source_hits": 0,
           "reason": "Leading-edge foundry and CoWoS bottleneck",
           "rank": 6
@@ -140,7 +140,7 @@
       "candidate_count": 2,
       "owned_count": 6,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-28T04:33:36.445895+05:30"
+      "cohort_updated_at": "2026-08-28T07:16:56.880522+05:30"
     },
     {
       "theme": "Energy & Nuclear Power",
@@ -150,9 +150,9 @@
       "rating": "QUIET",
       "rc": "var(--blue)",
       "signal_score": 1.0,
-      "signal_basis": "0 fresh sources · 0 direct cohort mentions · +2.10% average 1D cohort move",
+      "signal_basis": "0 fresh sources · 0 direct cohort mentions · +1.96% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 1.0/10 (0 fresh sources · 0 direct cohort mentions · +2.10% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 1.0/10 (0 fresh sources · 0 direct cohort mentions · +1.96% average 1D cohort move). This is research activity, not an automatic trade order.",
       "news": [],
       "tickers": [
         {
@@ -161,10 +161,10 @@
           "status": "ADD",
           "owned": true,
           "priority": "P0",
-          "price": 279.52,
-          "change_pct": 0.4,
+          "price": 282.41,
+          "change_pct": 1.03,
           "units": 4.887113429,
-          "current_value": 1366.05,
+          "current_value": 1380.17,
           "source_hits": 0,
           "reason": "Nuclear fleet and hyperscaler power contracts",
           "rank": 1
@@ -175,10 +175,10 @@
           "status": "ADD",
           "owned": true,
           "priority": "P0",
-          "price": 263.81,
-          "change_pct": 3.15,
+          "price": 269.28,
+          "change_pct": 2.07,
           "units": 8.810567154,
-          "current_value": 2324.32,
+          "current_value": 2372.51,
           "source_hits": 0,
           "reason": "Data-centre cooling and power distribution",
           "rank": 2
@@ -217,10 +217,10 @@
           "status": "HOLD",
           "owned": true,
           "priority": "P0",
-          "price": 218.21,
-          "change_pct": 0.35,
+          "price": 217.83,
+          "change_pct": -0.17,
           "units": 3.677738391,
-          "current_value": 802.52,
+          "current_value": 801.12,
           "source_hits": 0,
           "reason": "On-site fuel-cell power; speculative execution risk",
           "rank": 5
@@ -257,7 +257,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-28T04:33:36.445989+05:30"
+      "cohort_updated_at": "2026-08-28T07:16:56.880586+05:30"
     },
     {
       "theme": "Defense & National Security",
@@ -267,9 +267,9 @@
       "rating": "QUIET",
       "rc": "var(--blue)",
       "signal_score": 0.0,
-      "signal_basis": "0 fresh sources · 0 direct cohort mentions · -1.53% average 1D cohort move",
+      "signal_basis": "0 fresh sources · 0 direct cohort mentions · -1.20% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 0.0/10 (0 fresh sources · 0 direct cohort mentions · -1.53% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 0.0/10 (0 fresh sources · 0 direct cohort mentions · -1.20% average 1D cohort move). This is research activity, not an automatic trade order.",
       "news": [],
       "tickers": [
         {
@@ -306,10 +306,10 @@
           "status": "HOLD",
           "owned": true,
           "priority": "P0",
-          "price": 177.5,
-          "change_pct": 2.76,
+          "price": 185.93,
+          "change_pct": 4.75,
           "units": 47.243293778,
-          "current_value": 8385.68,
+          "current_value": 8783.95,
           "source_hits": 0,
           "reason": "Defense software and operational AI",
           "rank": 3
@@ -360,7 +360,7 @@
       "candidate_count": 5,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-28T04:33:36.446031+05:30"
+      "cohort_updated_at": "2026-08-28T07:16:56.880621+05:30"
     },
     {
       "theme": "Agentic AI & Enterprise SaaS",
@@ -370,9 +370,9 @@
       "rating": "QUIET",
       "rc": "var(--blue)",
       "signal_score": 2.0,
-      "signal_basis": "0 fresh sources · 0 direct cohort mentions · +5.24% average 1D cohort move",
+      "signal_basis": "0 fresh sources · 0 direct cohort mentions · +5.32% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 2.0/10 (0 fresh sources · 0 direct cohort mentions · +5.24% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 2.0/10 (0 fresh sources · 0 direct cohort mentions · +5.32% average 1D cohort move). This is research activity, not an automatic trade order.",
       "news": [],
       "tickers": [
         {
@@ -390,18 +390,32 @@
           "rank": 1
         },
         {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "status": "OWN",
+          "owned": true,
+          "priority": "P1",
+          "price": 505.06,
+          "change_pct": 1.75,
+          "units": 7.092138707,
+          "current_value": 3581.96,
+          "source_hits": 0,
+          "reason": "Copilot distribution and Azure AI platform",
+          "rank": 2
+        },
+        {
           "ticker": "AMZN",
           "name": "Amazon",
           "status": "HOLD",
           "owned": true,
           "priority": "P1",
-          "price": 260.28,
-          "change_pct": -0.3,
+          "price": 256.26,
+          "change_pct": -1.54,
           "units": 25.553153245,
-          "current_value": 6650.97,
+          "current_value": 6548.25,
           "source_hits": 0,
           "reason": "AWS Bedrock and custom AI infrastructure",
-          "rank": 2
+          "rank": 3
         },
         {
           "ticker": "GOOGL",
@@ -409,13 +423,13 @@
           "status": "HOLD",
           "owned": true,
           "priority": "P1",
-          "price": 342.0,
-          "change_pct": -1.43,
+          "price": 340.65,
+          "change_pct": -0.39,
           "units": 20.002618801,
-          "current_value": 6840.9,
+          "current_value": 6813.89,
           "source_hits": 0,
           "reason": "Gemini distribution and cloud AI",
-          "rank": 3
+          "rank": 4
         },
         {
           "ticker": "META",
@@ -423,26 +437,12 @@
           "status": "HOLD",
           "owned": true,
           "priority": "P1",
-          "price": 576.14,
-          "change_pct": 1.07,
+          "price": 571.1,
+          "change_pct": -0.87,
           "units": 16.4284665,
-          "current_value": 9465.1,
+          "current_value": 9382.3,
           "source_hits": 0,
           "reason": "AI advertising and open-model optionality",
-          "rank": 4
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "status": "HOLD",
-          "owned": true,
-          "priority": "P1",
-          "price": 496.37,
-          "change_pct": 0.95,
-          "units": 7.092138707,
-          "current_value": 3520.32,
-          "source_hits": 0,
-          "reason": "Copilot distribution and Azure AI platform",
           "rank": 5
         },
         {
@@ -451,10 +451,10 @@
           "status": "HOLD",
           "owned": true,
           "priority": "P1",
-          "price": 177.5,
-          "change_pct": 2.76,
+          "price": 185.93,
+          "change_pct": 4.75,
           "units": 47.243293778,
-          "current_value": 8385.68,
+          "current_value": 8783.95,
           "source_hits": 0,
           "reason": "Operational AI platform and deployment velocity",
           "rank": 6
@@ -491,7 +491,7 @@
       "candidate_count": 3,
       "owned_count": 5,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-28T04:33:36.446079+05:30"
+      "cohort_updated_at": "2026-08-28T07:16:56.880669+05:30"
     },
     {
       "theme": "Healthcare AI & GLP-1",
@@ -580,7 +580,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-28T04:33:36.446107+05:30"
+      "cohort_updated_at": "2026-08-28T07:16:56.880698+05:30"
     },
     {
       "theme": "Physical AI & Humanoid Robotics",
@@ -590,9 +590,9 @@
       "rating": "QUIET",
       "rc": "var(--blue)",
       "signal_score": 0.0,
-      "signal_basis": "0 fresh sources · 0 direct cohort mentions · -1.52% average 1D cohort move",
+      "signal_basis": "0 fresh sources · 0 direct cohort mentions · -0.75% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 0.0/10 (0 fresh sources · 0 direct cohort mentions · -1.52% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 0.0/10 (0 fresh sources · 0 direct cohort mentions · -0.75% average 1D cohort move). This is research activity, not an automatic trade order.",
       "news": [],
       "tickers": [
         {
@@ -657,10 +657,10 @@
           "status": "TRIM",
           "owned": true,
           "priority": "P2",
-          "price": 345.82,
-          "change_pct": -1.26,
+          "price": 354.81,
+          "change_pct": 2.6,
           "units": 26.567292392,
-          "current_value": 9187.5,
+          "current_value": 9426.34,
           "source_hits": 0,
           "reason": "Autonomy and humanoid optionality with valuation risk",
           "rank": 5
@@ -669,7 +669,7 @@
       "candidate_count": 4,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-28T04:33:36.446135+05:30"
+      "cohort_updated_at": "2026-08-28T07:16:56.880727+05:30"
     },
     {
       "theme": "Critical Minerals & Copper",
@@ -758,7 +758,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-28T04:33:36.446159+05:30"
+      "cohort_updated_at": "2026-08-28T07:16:56.880752+05:30"
     },
     {
       "theme": "Sovereign AI Infrastructure",
@@ -768,9 +768,9 @@
       "rating": "QUIET",
       "rc": "var(--blue)",
       "signal_score": 2.0,
-      "signal_basis": "0 fresh sources · 0 direct cohort mentions · +4.89% average 1D cohort move",
+      "signal_basis": "0 fresh sources · 0 direct cohort mentions · +6.45% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 2.0/10 (0 fresh sources · 0 direct cohort mentions · +4.89% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 2.0/10 (0 fresh sources · 0 direct cohort mentions · +6.45% average 1D cohort move). This is research activity, not an automatic trade order.",
       "news": [],
       "tickers": [
         {
@@ -779,10 +779,10 @@
           "status": "ADD",
           "owned": true,
           "priority": "P2",
-          "price": 263.81,
-          "change_pct": 3.15,
+          "price": 269.28,
+          "change_pct": 2.07,
           "units": 8.810567154,
-          "current_value": 2324.32,
+          "current_value": 2372.51,
           "source_hits": 0,
           "reason": "Power and thermal infrastructure for AI facilities",
           "rank": 1
@@ -807,10 +807,10 @@
           "status": "HOLD",
           "owned": true,
           "priority": "P2",
-          "price": 202.25,
-          "change_pct": 5.92,
+          "price": 201.09,
+          "change_pct": -0.57,
           "units": 4.772337377,
-          "current_value": 965.21,
+          "current_value": 959.67,
           "source_hits": 0,
           "reason": "High-speed networking for AI clusters",
           "rank": 3
@@ -821,10 +821,10 @@
           "status": "HOLD",
           "owned": true,
           "priority": "P2",
-          "price": 189.18,
-          "change_pct": 2.05,
+          "price": 227.96,
+          "change_pct": 20.5,
           "units": 24.384716485,
-          "current_value": 4613.1,
+          "current_value": 5558.74,
           "source_hits": 0,
           "reason": "Cloud workload security and sovereign environments",
           "rank": 4
@@ -875,7 +875,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-28T04:33:36.446193+05:30"
+      "cohort_updated_at": "2026-08-28T07:16:56.880786+05:30"
     }
   ],
   "fresh_window_hours": 24,
