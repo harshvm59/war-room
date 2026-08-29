@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T04:40:53.276815+05:30",
+  "updated_at": "2026-08-29T06:37:23.656178+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -30,8 +30,8 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-08-29",
-      "published": "Fri, 28 Aug 2026 14:25:00 GMT",
-      "source_name": "AppleInsider",
+      "published": "Fri, 28 Aug 2026 23:59:28 GMT",
+      "source_name": "New York Daily News",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -39,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman needs to put up or shut up about AI hacking - AppleInsider",
+          "t": "Headline signal (not a direct quote): Gwyneth Paltrow scraps Sam Altman Hamptons party after anti-AI outrage: reports - New York Daily News",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQkNTQkhKb2JVVW5yQjRqOExXbWRBUlJVOWRUT2pOQUpUQWRRSGw3NXlpZ0U2TjhkZkhrYWhRMktmSGZsNm9vWC1tNzhlekZleExwLWRjenFMbXVkWkdTWWJ5SHdiS0s4MFBNOGN2WlJuTXlZMHN5ZWdNd1M4S0Nrei04Zk5RVmVfOWo1cnhkQ3B5dEFUeE5XUXEyOGhMdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQURRMmR6d3ViOU1LQ3ZDNGs0MnZyc1VVUVE3XzhZd2FiUlp5ZjRXOUJUX0FRUE44ejFHV1RlV0lVWmZrRmxpQzlMVmFjblM2ZFFydXFJMmNyVkxBRFRhbXllcXRzRDJYOFFjVFkyTGptUVE5LVczRmoyaTUySUlLTThB?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -87,6 +87,28 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUkRUSVZaQTZ2bzFzWWM3ek5OUmUwcGgwUWhMS3o1RVNvbVlOMzhlRnlMZjRlQ0kzLWRzd1lIbWVUSmhJRzFOOG1WZWVlRUt1clRyOVhFVFpia0dqNEZnbk50amtCZ3dUNHpfbWFLanJrb0poaktlY25leDZmcTNHM19lT19vRkNnNGd0WWxZZkhwVlhiU2NaZ1dlWjFRRmVubm5lOEtfb2V0em1tVDg0?oc=5"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "CEO",
+      "org": "Tesla / xAI / SpaceX",
+      "cat": "CEO",
+      "date": "2026-08-29",
+      "published": "Fri, 28 Aug 2026 13:23:44 GMT",
+      "source_name": "scanx.trade",
+      "signal_type": "source-linked headline",
+      "relevance_score": 10,
+      "themes": [
+        "#AI",
+        "#TSLA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Musk dismisses Tesla China sale rumors as valuation debate intensifies - scanx.trade",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd1VGRnNrclNXYjdsUmNMR0QxTWg5OG1NRU1LS1hibXBXLWdGaWI3bWVaQjc3WTZ5eXBuN2RMYlhtN0d2UU9FSXgtLWVtbS02OHNaR1dKSloyRHRvOTI0NkNlNjZib1IySXNQZnRRdXdlOUlSNXlpTzdhUkJ1YVBBNXNWMGgzU2FXaTVUcnBvLU5LSHpFai1rNVdUYTNMcVpvZUtXaHVnVVgwYTlxRW50TG13QXF3S3ZaVlE4SGE5aENzd19wR3c?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -201,25 +223,25 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-08-29",
-      "published": "Fri, 28 Aug 2026 13:20:12 GMT",
-      "source_name": "Bloomberg.com",
+      "published": "Fri, 28 Aug 2026 21:58:49 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Watch Munster Expects Nvidia Revenue to Grow by 90% in 2027 - Bloomberg.com",
+          "t": "Headline signal (not a direct quote): Nvidia Shares Will Be Rewarding Over The Long-Term, Says Gene Munster, Citing Strong Fundamentals - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTWhOcWRaUU9fRzFtSzNkbXU5TlM3STdlc2NycUlkdzJ3OU9Jb0lnVWNhc0w4bVlTUnh5UlkxeFlwOWFVMDU5bmhsbjJyT05xckFwbWhyVmpRXzFPY3R6MXBWRVlWQ0c0T3M0NFQ3Y0ptQ3RuVnVNZU92czl5U2QzRWR0ckFaQWxodVdlVFNZUzg3WVRqM2ZzaGRTV3NEZjdnWkNodWttMThIZEE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUGx4MEZJbEJMZDV6bk9oQWQ5d2tEWXRLOEFJNUMwTVl4aXpvRlFLVXViem5RbDlvQ2lSVEdQX2hBWlU4bU5yRzg0cUpuLWg5aXhaeXdOdjhGS0E0UGxlb3dvRjJiQzlJcC1JUUh3RTFqNjBZOVd0QjJ4TlhlV3dKRzlTQzJHeC1qVW92NmlqcTFnTjNJOTZYSzZZY3RLR1FFaWw0TVlGZ1BUTmRPTXh1WHJzZTZYbFA0ckFWb1hEYkV4MmFrb1pQdTkwaVA?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 10,
+  "fresh_signal_count": 11,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
