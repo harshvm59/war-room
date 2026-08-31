@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T14:58:42.910914+05:30",
+  "updated_at": "2026-08-31T15:36:04.507106+05:30",
   "source": "google-news-rss+deterministic-cohorts",
   "items": [
     {
@@ -7,13 +7,22 @@
       "dashboard_name": "AI COMPUTE & SEMICONDUCTORS",
       "priority": "P1",
       "target_pct": 28,
-      "rating": "QUIET",
-      "rc": "var(--blue)",
-      "signal_score": 0.0,
-      "signal_basis": "0 fresh sources · 0 direct cohort mentions · -2.85% average 1D cohort move",
+      "rating": "ACTIVE",
+      "rc": "var(--gold)",
+      "signal_score": 2.8,
+      "signal_basis": "1 fresh sources · 3 direct cohort mentions · -2.85% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 0.0/10 (0 fresh sources · 0 direct cohort mentions · -2.85% average 1D cohort move). This is research activity, not an automatic trade order.",
-      "news": [],
+      "summary": "Daily automated RSS scan on 2026-08-31. Latest source-linked signal: QQQ Rises More Than 1% as ASML and TSMC Prepare to Report, Goldman Sachs Expects Another Strong Earnings Season for US Stocks - TradingKey Signal score 2.8/10 (1 fresh sources · 3 direct cohort mentions · -2.85% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "news": [
+        {
+          "title": "QQQ Rises More Than 1% as ASML and TSMC Prepare to Report, Goldman Sachs Expects Another Strong Earnings Season for US Stocks - TradingKey",
+          "date": "2026-08-31",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPamVRakZiZHYyck55Q1I2QWMxeEV6d3dTZ2lfSFN4TmlJUGlhNlFXTXQyQXZNLWFmb0MzLTBBcld4Yml3cG1FZGY3MDVNX04zQ0JCdVV1aFh6ZGZUY0RRMU44YWtBMVVKYllndldlVlZsb1l1d25RT1pVRTl0RUxqTGo1TVdWVVRGWXQwSzc2X01QcmtMV3NJM1ZJQ2U0SXRCb1VVV0JqdzRDUW5WQzdzOUw2cE5WSmFCVjNSb0E0eHhLX0Y5?oc=5",
+          "source": "TradingKey",
+          "published": "Sun, 30 Aug 2026 13:03:59 GMT",
+          "relevance_score": 11
+        }
+      ],
       "tickers": [
         {
           "ticker": "AMD",
@@ -67,9 +76,23 @@
           "change_pct": -2.24,
           "units": 1.079121631,
           "current_value": 1830.36,
-          "source_hits": 0,
+          "source_hits": 2,
           "reason": "EUV lithography monopoly",
           "rank": 4
+        },
+        {
+          "ticker": "TSM",
+          "name": "Taiwan Semiconductor",
+          "status": "HOLD",
+          "owned": true,
+          "priority": "P1",
+          "price": 417.52,
+          "change_pct": -2.29,
+          "units": 29.299105496,
+          "current_value": 12232.96,
+          "source_hits": 1,
+          "reason": "Leading-edge foundry and CoWoS bottleneck",
+          "rank": 5
         },
         {
           "ticker": "NVDA",
@@ -83,20 +106,6 @@
           "current_value": 26100.83,
           "source_hits": 0,
           "reason": "GPU compute and CUDA platform leader",
-          "rank": 5
-        },
-        {
-          "ticker": "TSM",
-          "name": "Taiwan Semiconductor",
-          "status": "HOLD",
-          "owned": true,
-          "priority": "P1",
-          "price": 417.52,
-          "change_pct": -2.29,
-          "units": 29.299105496,
-          "current_value": 12232.96,
-          "source_hits": 0,
-          "reason": "Leading-edge foundry and CoWoS bottleneck",
           "rank": 6
         },
         {
@@ -131,7 +140,7 @@
       "candidate_count": 2,
       "owned_count": 6,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-30T14:58:42.910493+05:30"
+      "cohort_updated_at": "2026-08-31T15:36:04.506797+05:30"
     },
     {
       "theme": "Energy & Nuclear Power",
@@ -248,7 +257,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-30T14:58:42.910552+05:30"
+      "cohort_updated_at": "2026-08-31T15:36:04.506882+05:30"
     },
     {
       "theme": "Defense & National Security",
@@ -299,8 +308,8 @@
           "priority": "P0",
           "price": 186.29,
           "change_pct": 0.19,
-          "units": 47.243293778,
-          "current_value": 8800.95,
+          "units": 47.378038507,
+          "current_value": 8826.05,
           "source_hits": 0,
           "reason": "Defense software and operational AI",
           "rank": 3
@@ -351,7 +360,7 @@
       "candidate_count": 5,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-30T14:58:42.910588+05:30"
+      "cohort_updated_at": "2026-08-31T15:36:04.506916+05:30"
     },
     {
       "theme": "Agentic AI & Enterprise SaaS",
@@ -444,8 +453,8 @@
           "priority": "P1",
           "price": 186.29,
           "change_pct": 0.19,
-          "units": 47.243293778,
-          "current_value": 8800.95,
+          "units": 47.378038507,
+          "current_value": 8826.05,
           "source_hits": 0,
           "reason": "Operational AI platform and deployment velocity",
           "rank": 6
@@ -482,7 +491,7 @@
       "candidate_count": 3,
       "owned_count": 5,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-30T14:58:42.910633+05:30"
+      "cohort_updated_at": "2026-08-31T15:36:04.506971+05:30"
     },
     {
       "theme": "Healthcare AI & GLP-1",
@@ -571,7 +580,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-30T14:58:42.910661+05:30"
+      "cohort_updated_at": "2026-08-31T15:36:04.506998+05:30"
     },
     {
       "theme": "Physical AI & Humanoid Robotics",
@@ -660,7 +669,7 @@
       "candidate_count": 4,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-30T14:58:42.910818+05:30"
+      "cohort_updated_at": "2026-08-31T15:36:04.507024+05:30"
     },
     {
       "theme": "Critical Minerals & Copper",
@@ -749,7 +758,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-30T14:58:42.910850+05:30"
+      "cohort_updated_at": "2026-08-31T15:36:04.507047+05:30"
     },
     {
       "theme": "Sovereign AI Infrastructure",
@@ -866,7 +875,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-08-30T14:58:42.910885+05:30"
+      "cohort_updated_at": "2026-08-31T15:36:04.507077+05:30"
     }
   ],
   "fresh_window_hours": 24,
