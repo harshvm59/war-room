@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T14:21:27.290422+05:30",
+  "updated_at": "2026-09-01T22:55:49.763487+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,8 +8,8 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-09-01",
-      "published": "Tue, 01 Sep 2026 00:15:00 GMT",
-      "source_name": "The Motley Fool",
+      "published": "Tue, 01 Sep 2026 11:55:00 GMT",
+      "source_name": "Fortune",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -18,11 +18,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Told Investors in June to 'Buy at a Discount' During Nvidia's Sell-Off. Nearly Three Months Later, Nvidia Is Up 4%, and a Broader AI Basket Gained 8%. Did His Call Pay Off? - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang says AI will create 'hundreds of thousands' of new jobs—including in the trades - Fortune",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQamVoeDdtaTlOWjd0YXBnX3ZVck54Yms4NF9Xem5uVnBLUGhReFBzNkZZNk9JYmhGUVBmNEU3UkdkZEFSdGhmcU5LU3d3V0Z5TWlhQWlmcjVGR2xubWEtaFUtX1NkSWc5U2VRZEZDeTczWlRndW5NWVY0eFJud3FjZGt0eDJ4czBNWlVVQkZleHJGYnk0YUJWQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZ3hBNzNSX2lWRjFBRnh3WDdyd3FwXzZ3U3I3al81ODA2VFJyNXVJZjNQZDJsZExQVUluVzU5VjJBaTNNRUxpaE8wVjB1WWdjcTdES2Q3ZDluZGxOYlhHUzFuVmhqcnRIUnBrSzVxc080UTVHaHJlU0t5YmgtQ1JkYk43Y0xYYUo4b19ydVQxTlk4U0M3OVBWeFpBdkYtT005Vm9yNlFnZk9wUmpqcU1YN01Jb0VrNVNFWkFtVTBPY19EVmgzekZaclpjRGRBNTZK?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,42 +30,21 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-09-01",
-      "published": "Tue, 01 Sep 2026 01:20:00 GMT",
-      "source_name": "The Motley Fool",
+      "published": "Tue, 01 Sep 2026 13:43:27 GMT",
+      "source_name": "ABC11 News",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Sam Altman's “Last Resort” Just Became a $1 Billion Business. What It Means for OpenAI's IPO. - The Motley Fool",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaVVSMGpVYVdTSFhqZHJ4bEpPVFRBbmE5cnNBVnMtVzBvWWZQXzlUd0t0OElyR1YwWVA5U21GRkxoaHF1TnJXdFo3UFVsUVZJVzlGOXh1QUY3eWppTThiNnFHS0ZSbXFTOXpoNHB3NVFLYnVIYjR2a3BXQmdKVFBaUVIzcHVuN19LZGkzbFhFcER1SzdUeDJsRF9OS2dSaUp4QzNGcm5pNVJhTnpieTk3bWhFY2ZzWUJ3RXFOWEFFWDdBM1lUZTBqZw?oc=5"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-09-01",
-      "published": "Mon, 31 Aug 2026 14:28:57 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#GOOGL"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Believes MSFT Is The Most Oversold Large-Cap Stock, Draws Parallels To 'Negative' Narratives Around GOOGL A Year Ago - Stocktwits",
+          "t": "Headline signal (not a direct quote): NC G20 Innovation Ministerial brings global leaders, Sam Altman, OpenAI, Nvidia CEO to UNC; Elon Musk to attend virtually - ABC11 News",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQmJvSHpPdHVrcUdjYnlweThwc0VHUXZjV2lnaTdVNXRmNGZ5dTZ2aktWV2VkcklWSXZldWw3N3oya0k2dVZrRGNoRTFvUXNPdFQ2RHpLYjhFQjQ3cmZTdll3QmwtbWpLaVNkanUta2x1Sk5aclB5SVEwMlRPVEhwVUpUY0F1Rld6dzNaYjRlcm9CcVpwN0ZIOThGanEyUGNMdzJpWVJwRmZyZGJuaXg0N0dPbGtvVWhqZlJ4ZE9iYVhSRUFCek8zWUYteU8?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYWNUa3JmLUdZOWRTQ1htdWZ3SjBZQS1sSkg4Y1p6SmNzaFhpWHNZdjBGd1VnSm5xZl9xeTg2VHRPOWJURU1tSEwxZmlpZk5Vb0ZRREpiSkZhTFY5RWhwWTNGYzB0dkdSRDlfWVhnaUp2YVpQZWZwTFJ1eHlhVV9pSUd6bWJjeVZSTmxKT0k5czJydTF6Qm05MlRUb2EwTzJHbVBHZEtpS0U0Sk4yWlY4NzEtRnJBZlJ5Y1hGa3g5c09XZU5HRzRxenc1RWdFcjB3TWJvN0ZBZDNEVklGT0VUdm5n0gHiAUFVX3lxTE5hY1RrcmYtR1k5ZFNDWG11ZndKMFlBLWxKSDhjWnpKY3NoWGlYc1l2MEZ3VWdKbnFmX3F5ODZUdE85YlRFTW1ITDFmaWlmTlVvRlFESmJKRmFMVjlFaHBZM0ZjMHR2R1JEOV9ZWGdpSnZhWlBlZnBMUnV4eWFVX2lJR3ptYmN5VlJObEpPSTlzMnJ1MXpCbTkyVFRvYTBPMkdtUEdkS2lLRTRKTjJaVjg3MS1GckFmUnljWEZreDlzT1dlTkdHNHF6dzVFZ0VyMHdNYm83RkFkM0RWSUZPRVR2bmc?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -73,7 +52,7 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-09-01",
-      "published": "Tue, 01 Sep 2026 04:48:51 GMT",
+      "published": "Tue, 01 Sep 2026 08:19:04 GMT",
       "source_name": "FinanceBuzz",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -90,25 +69,25 @@
       "src": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CTkVIOGRaZFJ6aGFHUFZnOFN0OHpHWFYwOVJmZDZwaEpnYXJoU3BxQk1BWlJMeEtBanNIUzBCZ251MTAza3gyVGYyMDFzenR5SGhyS1plQk40cXpfRXMtclJQaTY?oc=5"
     },
     {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "AMD",
-      "cat": "CEO",
+      "name": "Chamath Palihapitiya",
+      "role": "Investor",
+      "org": "Social Capital",
+      "cat": "Investor",
       "date": "2026-09-01",
-      "published": "Mon, 31 Aug 2026 14:52:59 GMT",
-      "source_name": "Tom's Hardware",
+      "published": "Tue, 01 Sep 2026 15:31:04 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 11,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang and Lisa Su snubbed by TIME’s 2026 list of top 100 AI leaders — Paris Hilton and Ben Affleck, among others, make the list as ‘Architects of AI’ inexplicably not listed - Tom's Hardware",
+          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Says ‘Trust the Experts’ Approach To AI Is a Trap, Warns it Could Make COVID ‘Pale in Comparison’ - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivAJBVV95cUxObTIwTFN0R1FGUC1lMmVMYUdQbzBKUjVKQ014eUFLbVpRdXRFS283YnpVN2M4WTB4MnNqZGNCeUNiOE5WLXY4TDBXOU9iT09kMnhGV3cwanVfSUJUVGs0d09iT0wxVGI0MWtxOEplajJ5OEVtU25IcHM4c3gtMTRVVVJkdmcwLW5yWnhqT0NDWkd4RGJDT1JwXzN2WEc3XzdOSXZ4a3dLYmZaa1J1UE43NjBiTjdpc0d3RjU5Vk11QWFXeGR4dFFzd0J3RklBY2MxbzktRE02ZGd1YmtKVkk3Z21TdlBjd0dBclVhR3BFZ0xHNDhpTzAyMnZybFUweTZOZnYyMC1yTGZDZjFGbG12aU10bG5DSXR1TmVQLVdCS0p4Y0ZYZGdycS1SUUY2cWpxRkZERzFHN1Q1LXcx?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb2V0bmRMdXY0aUFDd0JVMTFpbjZSc2tkWF81dENJMVV5R3NkTHVGWjY1TXYyemFHbTNPdGVyNkJmbWp2LUwyZXY4Tm8wVGNGbFNqVmt0aGZPTEg3NmpVRkZGNVk4QkVkZ0xpTDZrRUxsU0NxMGpDUHZkbGZaZkdkVWxCMmRoaG9YZUd3YjR5YkJSUFVRUnpjRUFja0tfZ0EtbEpaR3pn?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -116,21 +95,21 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-01",
-      "published": "Mon, 31 Aug 2026 12:37:55 GMT",
-      "source_name": "Stocktwits",
+      "published": "Tue, 01 Sep 2026 16:27:00 GMT",
+      "source_name": "dev.ua",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Michael Burry Targets Palantir Again, Flags ‘Nefarious’ Accounting And CEO Alex Karp’s $17M Jet Bill - Stocktwits",
+          "t": "Headline signal (not a direct quote): Former Minister Mikhail Fedorov announced the launch of a new Defense Tech company with the support of Palantir CEO Alex Karp - dev.ua",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRWZGbGltVHRLb05mcHBsYldNNms3d29tTUVNV2Q0WkZabU1tRWdiT09mdDNka2pkUXVobzBYR2hqRDJwZVpSLXBOdlBIUjhfeGhocHQxdzQ4MFVlN3dsVzVoZTZ2dXFjQWNHb0VZcGdncW82UFBjZU53S2Y4ZEJ2c2hvSzdpR01yWTJncXlwVktjWUQ3U0RsMkk3TnhOaE5XNjZLVmhaRlZnUTRlZTVRSzh0SmhyclhoWkE5S0I3cjJFUzBHYnVmM21JaHFzbnozSWhfdjNpQ1VBX05BdS1WYU03ZERKRXdpWU5MQXVjUTZhN3M?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOWjcteG1QbTBjbllGdjZaQk1ENmNnY241YTlYR3pRdGdLWVRyNzE3UEZ6aU8tWHplTlRteGJtUXNYdFVtNjg2X0xseXo5T2M1cjVyMHNKYnVBWUlSekktczYzM015YkxXWl8zQy1NM2NpTzlvanFQT3Jud0JuTnFkMXg4TG90RHJLY0locFJVN2pCaTVVQW43WjVCQlI1YzQtRTJnUXozcTdHeXUzX3VlQ1hhMHIzc2RRWUJuaFBLUE1EYUt4QzJmNXd0YjZaUE04cGRzRUVfUEV2c1YwTVE?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -138,7 +117,7 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-09-01",
-      "published": "Tue, 01 Sep 2026 06:48:56 GMT",
+      "published": "Tue, 01 Sep 2026 05:50:00 GMT",
       "source_name": "The Globe and Mail",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -182,8 +161,8 @@
       "org": "Alphabet",
       "cat": "CEO",
       "date": "2026-09-01",
-      "published": "Tue, 01 Sep 2026 01:02:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Tue, 01 Sep 2026 16:04:06 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -192,19 +171,19 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai Says Alphabet Can't Build AI Capacity Fast Enough, and Anthropic Has Secured 5 Gigawatts of It. - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Sundar Pichai Says Alphabet's AI Overviews Now Reach 2.5 Billion Monthly Users as Ad Revenue Hit $82 Billion. Does That Scale Justify Spending Up to $205 Billion on AI Infrastructure This Year? - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPa2h4V0Q3YUNBQzdpeHVDSmEyck1OMm16THByNDBadHo2bE5RVWpIYjNBRkplNHBHYmhiTjl3SkFLa1VPdFlyRmRNZ0prY01lQ2pSa1RjVDRWbUstdWdVNW9tWW5XUG5PMVpQR1N2bHNyZmxlZUpkdXl3ZnJyM1kzN2pidVBSc1FoeXhDd3JOYndWUFcxWWkxNTJYT3A?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTVFxZ3lzSTcxeHUwaUdKUW5POXhmbFAtbkVmYWVWT2ZsNkJ0NFFaVFltREpPY2x5ZVpRN2xmQ0prZlJMc012MER1a2lkVVh0bDM2NEJKODdEczF6OEsyclJ4Z1VzN0N1dHBlR2I1RGozRFBweHIybVg3dlNncTFPQkVwV2o5VzZvbW9KZTZoTTlxSU9nWTltaA?oc=5"
     },
     {
-      "name": "Lip-Bu Tan",
-      "role": "CEO",
-      "org": "Intel",
-      "cat": "CEO",
+      "name": "Cathie Wood",
+      "role": "CEO and CIO",
+      "org": "ARK Invest",
+      "cat": "Investor",
       "date": "2026-09-01",
-      "published": "Mon, 31 Aug 2026 11:45:00 GMT",
+      "published": "Tue, 01 Sep 2026 13:14:43 GMT",
       "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -213,76 +192,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): CEO Lip-Bu Tan Just Gave 12 Million Reasons to Buy Intel Stock - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Cathie Wood's Ark Just Bought $7.6 Million of Nuclear Supplier BWX Technologies While Continuing to Dump Roblox Stock. Is Nuclear Power Ark's Next Big AI-Adjacent Bet? - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcUVYaHAxNThMMmVVVnoxb0JYU3d4cldSNHpVNXRxR0M1VWxXcVM0QkVoWnZ2cW5ZS2t1TnJZR3lUWjZFWFVSWmZ0NVBEZ3pmNTJVMjJ6RjZjTi1VSnRINklTdEhOc0s1eE9IOHh1TEgxN2IxM0lqU2JXR2ExbjlyS1BsY3lndFhnZGlRVlJ5dURxZHBmQWVvQg?oc=5"
-    },
-    {
-      "name": "Arvind Krishna",
-      "role": "CEO",
-      "org": "IBM",
-      "cat": "CEO",
-      "date": "2026-09-01",
-      "published": "Mon, 31 Aug 2026 09:52:56 GMT",
-      "source_name": "Business Today",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): From Sarvam’s Vivek Raghavan to IBM’s Arvind Krishna: 10 Indians named among TIME’s most influential AI leaders in 2026 - Business Today",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOSW1IR2RTR2ZCQ0RhMjJWV3pYZGJRV0xPZWlHSFJzMW9LcWQxdWl3UVA1YmJRV0J5YWlMZ3AwdnJLZlRCUFZ5djlNd1dCR3hfNVAzS2VSdW9iUTJsYTREWi1CT01rVFpzLUtoejVtUXFpRXA1MHV4TzVlSHA2SXBEU1F4SFlCdkliRDRDU0liWFlqU2Z1T1B3V2hHa3NPQWRCVklkVEZOWVB4Z0Vad3F3eFh5Zkt4VUpvMjcyQW5ZVXZBOGhFdDF4c0ZPekNoQXJ6V0t0RFRYR0tZSXM4aGluMVBVa0lvY29GMVdmNmxCa0ZXS0tRSTBiR2NFNzcwQnhvaTdVWURSSFYwUXBEaWxHMzdxdlJjc2vSAZcCQVVfeXFMTkltSEdkU0dmQkNEYTIyVld6WGRiUVdMT2VpR0hSczFvS3FkMXVpd1FQNWJiUVdCeWFpTGdwMHZyS2ZUQlBWeXY5TXdXQkd4XzVQM0tlUnVvYlEybGE0RFotQk9Na1Racy1LaHo1bVFxaUVwNTB1eE81ZUhwNklwRFNReEhZQnZJYkQ0Q1NJYlhZalNmdU9Qd1doR2tzT0FkQlZJZFRGTllQeGdFWndxd3hYeWZLeFVKbzI3MkFuWVV2QThoRXQxeHNGT3pDaEFyeldLdERUWEdLWUlzOGhpbjFQVWtJb2NvRjFXZjZsQmtGV0tLUUkwYkdjRTc3MEJ4b2k3VVlEUkhWMFFwRGlsRzM3cXZSY3Nr?oc=5"
-    },
-    {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
-      "date": "2026-09-01",
-      "published": "Mon, 31 Aug 2026 10:46:10 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 10,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Jensen Huang Passes Mark Zuckerberg, Larry Ellison: Here’s How Much Nvidia CEO is Worth - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOejZFZ2o1MzdrOF9TbzlhSGUtLWI0SV9wYkY1TkdpX2JNeVpQT2toOGw3N19BM08zSHVyWHFVZHJRUnJXbGJTSWtVNDBaUi1GWXQ1VDh3Rl9xWFFDS0FzaElsQ2ZwYUJPZ2VfbXJmbHIzQlViVkZpOUdvc1U2ekZ5T1BPeEVXck9Jdml6NjFjOWw4THhRVzZ2Q1piNHIzQnptT3c?oc=5"
-    },
-    {
-      "name": "Cathie Wood",
-      "role": "CEO and CIO",
-      "org": "ARK Invest",
-      "cat": "Investor",
-      "date": "2026-09-01",
-      "published": "Mon, 31 Aug 2026 12:58:14 GMT",
-      "source_name": "qz.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Cathie Wood's ARK Invest bought $53M of Nvidia stock after earnings - qz.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9iaEl4NzBDdjBndWNXN0ZXZzFFQVdXU0hCRy1LMEoxVll2dGhRRGdhSDQydHVwNW9EZzJwVGlKVlZ0VGxGMHp0QmFRczdmT3N5Qm1JajVXYVE0Y0VUMzF2YlgwMFYyNTZiX2ZGNTgzYllSLU1L?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNazFIWWZGUFktVlhabmVIUmwxVzVQOGhFNGx1eVhYUzJVYmNTbS1TclVFZjBuRmJBS3NxNUpKWmlqbHZRUkFrVzRaa3RVZlJna3VLUHcyRVc0WVhZclBRV01RQkNNb0VGU1oxWWVNeHZnTjd6UkhwUVFKdmpLQ3prQW1HbnRORTU4WVF2b25lelRkUUNieTNzZA?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -290,7 +204,7 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-09-01",
-      "published": "Mon, 31 Aug 2026 23:30:08 GMT",
+      "published": "Tue, 01 Sep 2026 12:59:37 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -299,11 +213,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer says to buy the 20% dip in this cruise line stock - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Tuesday - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdkFQc3B5a0d3UVdyZUZIS2lYZzljeC16LTRXTTRUZTBNc0RsRTd0THo4cnE2cS1tMTZXZE94RU5aUWVubEpwdGdFazdqYmxCbE5SVGFjcmdSVVFEUGJYaTAyVElRazNiQ290UUlvb3J0OHJ5TlZfZkFpUURfN0xFaEVadGxVWFlLeEc3N3ZoeW1ERFhhRzZqVEV1cW5JVUFKTlFMY0NR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVnJQX3I4QmNEa1hiVkx0enV3T2d0WG83Z1NuNkd4SDdKYi1qRmVBdEtQQXdSZGlic0FFeXltX1dvZUR6NjNEajBlRWJDMjF6WS11SjBQa2ViS1RFZmY5YWhjZ1dGVTZvaURONko4WTNVOEVQYVlHNklSMUhLek1lZU5ETno5VGVRcUFvMWl6RjVrVEphTWJyeWNfNDN2LUts?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -329,6 +243,6 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 15,
+  "fresh_signal_count": 11,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
