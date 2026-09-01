@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T01:50:07.639507+05:30",
+  "updated_at": "2026-09-02T04:11:46.439863+05:30",
   "source": "yahoo+local-ta+rules",
   "items": [
     {
@@ -34,12 +34,12 @@
       "urgency": "critical",
       "color": "#e05252",
       "price": "$280.31, -1.7% from $285.23",
-      "signal": "RSI 57.07 (neutral), MACD histogram +n/a, price +5.75% vs SMA50. Position -1.7% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
-      "entry": "$257–$270",
-      "stop": "$244",
+      "signal": "RSI 56.9 (neutral), MACD histogram +n/a, price +n/a% vs SMA50. Position -1.7% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+      "entry": "$272–$286",
+      "stop": "$258",
       "target": "$336 (3 mo)",
       "sizing": "$580/mo DCA · 1.3% of portfolio",
-      "action_text": "Accumulate near $257–$270; stop $244"
+      "action_text": "Accumulate near $272–$286; stop $258"
     },
     {
       "ticker": "TSLA",

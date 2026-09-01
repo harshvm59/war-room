@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T01:50:07.640208+05:30",
+  "updated_at": "2026-09-02T04:11:46.440699+05:30",
   "source": "yahoo+local-ta+rules",
   "items": [
     {
@@ -123,7 +123,7 @@
         "sma200": null,
         "vs_sma50_pct": -2.33,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.0,
+        "vol_ratio_20d": 1.01,
         "ret_1d": 1.08,
         "ret_5d": 1.49,
         "ret_20d": -1.6
@@ -283,7 +283,7 @@
         "sma200": null,
         "vs_sma50_pct": -8.61,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.79,
+        "vol_ratio_20d": 0.8,
         "ret_1d": -2.36,
         "ret_5d": -4.08,
         "ret_20d": -11.37
@@ -315,7 +315,7 @@
         "sma200": null,
         "vs_sma50_pct": 8.43,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.37,
+        "vol_ratio_20d": 1.39,
         "ret_1d": -6.9,
         "ret_5d": 16.02,
         "ret_20d": 1.82
@@ -466,19 +466,19 @@
         "pnl_pct": -1.72
       },
       "ta": {
-        "rsi14": 57.07,
-        "macd": 3.36,
+        "rsi14": 56.9,
+        "macd": 3.559,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 274.77,
-        "sma50": 265.08,
+        "sma20": null,
+        "sma50": null,
         "sma200": null,
-        "vs_sma50_pct": 5.75,
+        "vs_sma50_pct": null,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.94,
+        "vol_ratio_20d": null,
         "ret_1d": 2.02,
-        "ret_5d": 0.68,
-        "ret_20d": 4.89
+        "ret_5d": 2.52,
+        "ret_20d": 2.41
       },
       "thesis_note": "URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start"
     },
