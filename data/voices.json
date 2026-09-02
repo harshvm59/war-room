@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T01:37:16.203195+05:30",
+  "updated_at": "2026-09-02T13:35:01.378520+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -30,7 +30,7 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-09-02",
-      "published": "Tue, 01 Sep 2026 16:12:47 GMT",
+      "published": "Tue, 01 Sep 2026 13:43:27 GMT",
       "source_name": "ABC11 News",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -44,7 +44,29 @@
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSGVJX3FTUllja3o3akNqY2pNX0dSUEcyNDYxODBvX1BCTDRMbFlQMVBUTWZtUEwtUkNFa3JwSlU4c05hLUlfVUpJYVVlelFHRzNlVmszZFNqZzZ6eVhNd2lUa1RRWXM3VG02WHdZbWFfQUhJdE1ZS095cERBdFZJNXlaaGxsa2RsRUFGZ3d0aVRMRS1lSndYVWVGb0NZSUhkSGZVaHE5MXNZOHZ5UUtLMHliWDJYLTlMOUx6TWhqWFYxYldhN3dQcFB6aTRoQ2drWDloTUNGVk1BUDNj0gHiAUFVX3lxTE5hY1RrcmYtR1k5ZFNDWG11ZndKMFlBLWxKSDhjWnpKY3NoWGlYc1l2MEZ3VWdKbnFmX3F5ODZUdE85YlRFTW1ITDFmaWlmTlVvRlFESmJKRmFMVjlFaHBZM0ZjMHR2R1JEOV9ZWGdpSnZhWlBlZnBMUnV4eWFVX2lJR3ptYmN5VlJObEpPSTlzMnJ1MXpCbTkyVFRvYTBPMkdtUEdkS2lLRTRKTjJaVjg3MS1GckFmUnljWEZreDlzT1dlTkdHNHF6dzVFZ0VyMHdNYm83RkFkM0RWSUZPRVR2bmc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYWNUa3JmLUdZOWRTQ1htdWZ3SjBZQS1sSkg4Y1p6SmNzaFhpWHNZdjBGd1VnSm5xZl9xeTg2VHRPOWJURU1tSEwxZmlpZk5Vb0ZRREpiSkZhTFY5RWhwWTNGYzB0dkdSRDlfWVhnaUp2YVpQZWZwTFJ1eHlhVV9pSUd6bWJjeVZSTmxKT0k5czJydTF6Qm05MlRUb2EwTzJHbVBHZEtpS0U0Sk4yWlY4NzEtRnJBZlJ5Y1hGa3g5c09XZU5HRzRxenc1RWdFcjB3TWJvN0ZBZDNEVklGT0VUdm5n0gHiAUFVX3lxTE5hY1RrcmYtR1k5ZFNDWG11ZndKMFlBLWxKSDhjWnpKY3NoWGlYc1l2MEZ3VWdKbnFmX3F5ODZUdE85YlRFTW1ITDFmaWlmTlVvRlFESmJKRmFMVjlFaHBZM0ZjMHR2R1JEOV9ZWGdpSnZhWlBlZnBMUnV4eWFVX2lJR3ptYmN5VlJObEpPSTlzMnJ1MXpCbTkyVFRvYTBPMkdtUEdkS2lLRTRKTjJaVjg3MS1GckFmUnljWEZreDlzT1dlTkdHNHF6dzVFZ0VyMHdNYm83RkFkM0RWSUZPRVR2bmc?oc=5"
+    },
+    {
+      "name": "Satya Nadella",
+      "role": "CEO",
+      "org": "Microsoft",
+      "cat": "CEO",
+      "date": "2026-09-02",
+      "published": "Tue, 01 Sep 2026 22:08:53 GMT",
+      "source_name": "Stock Titan",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#MSFT"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Satya Nadella (NASDAQ: MSFT) just vested a 178K-share award; see how many shares went to taxes. - Stock Titan",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVE2cnAwcGFnVHhlYkJQS09FTVNaaU1adk84UkgwM2ZPU1JGd1VaT0N4eDBTN0g3NXB1NXdLUEhKWnF1bFdubXJFMUtDQldRUFcxTG40YV94OE5Ebm15MnFSZU0yRlY0cEFvNXZZV2p2SXA4dlpod0Z1VmM5c09ndUp0R0QxN0cxNllrWmhXa3lNdTVuVXdYQ0Q5eXE2andzb2RCU2o5Yjk5SEFj?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -73,7 +95,7 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-02",
-      "published": "Tue, 01 Sep 2026 18:22:30 GMT",
+      "published": "Tue, 01 Sep 2026 17:42:00 GMT",
       "source_name": "Business Insider",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -95,21 +117,42 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-09-02",
-      "published": "Tue, 01 Sep 2026 06:19:36 GMT",
-      "source_name": "The Globe and Mail",
+      "published": "Tue, 01 Sep 2026 08:49:30 GMT",
+      "source_name": "매일경제",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
-        "#AMD"
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD vs. Nvidia: SpaceX and Tesla CEO Elon Musk Weighs In on His Top Pick - The Globe and Mail",
+          "t": "Headline signal (not a direct quote): Global listed companies are mixed with Elon Musk, CEO of Tesla and SpaceX. When Musk mentions a new - 매일경제",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX254cDREejJjN0NjQTJRa21VbGRjQmhNR2hid284aGdqamFUbk15YzhIUk1COU1mMmxnWkVDcG14bjVuMWJCa1pMaC1icnFieUVNREpxX2sxUXpaaWxycWtYV3dicnQ0aUlDUVBkMzlpSE5ZWXVJRWY1MVBwczd4ZEtDRWdKVktXWjdhXzRHTjJJdmhWbERKaFlTY2VWaFFZMmJ1a0I4NmxSVzlJT2FoZ1NlOTdCbVR1c3BFaGtTbTNoMmQ4bkVFNDdEVnNzWnoxV2NMVVpsOVdEMmE0cDMwZE80NUNjNzVFNkE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9RcWRLa3R0X1RsN1VURmwzdkpNSEVOaDVRUHNnVVJ3aDNqSzI1d29rWkp6X3gyWno2QWwzV3NiSDlRa21hSGZSLTJXRlJXbXc?oc=5"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "role": "CEO",
+      "org": "Meta",
+      "cat": "CEO",
+      "date": "2026-09-02",
+      "published": "Tue, 01 Sep 2026 20:01:54 GMT",
+      "source_name": "finance.yahoo.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): How Mark Zuckerberg and Elon Musk made the case for AI at the G20 meeting - finance.yahoo.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQjRTWTM1cTBzZmo1cllLNElCcGtlU0ViNF9ZY1hKdktlelJ6aloyX0NjdmxPSktPajUxR3JNTUltWVphVWRaalFpZ2tPZ0tuZzFsamZKOXhUYWNsNFNnTVFZOE4yNnJ2QXM4Nk1kVmRhLWZRbExYM2xvZk1fcG43WGU2OUZJTGt6eWhzdlh2dWkyVjNTR2w0dko3VlFJZjlkSlNBOFdRa0VRLXNrTUx3bE9TVUN0MUt6U1lxSA?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -132,6 +175,27 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTVFxZ3lzSTcxeHUwaUdKUW5POXhmbFAtbkVmYWVWT2ZsNkJ0NFFaVFltREpPY2x5ZVpRN2xmQ0prZlJMc012MER1a2lkVVh0bDM2NEJKODdEczF6OEsyclJ4Z1VzN0N1dHBlR2I1RGozRFBweHIybVg3dlNncTFPQkVwV2o5VzZvbW9KZTZoTTlxSU9nWTltaA?oc=5"
+    },
+    {
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
+      "cat": "CEO",
+      "date": "2026-09-02",
+      "published": "Wed, 02 Sep 2026 01:46:00 GMT",
+      "source_name": "timesofindia.indiatimes.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Larry Ellison and son David accused of 'powering some of the most destructive forces in the world'; Param - timesofindia.indiatimes.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNcUNUYURHVE5BNEFSYWxjVjA0aUxJeG02VzlPRi1Scl96ODk0QkxQMHZKNHY2ZFl2aUFURmc4eDVDbkdWX2xRZmdSR2psdllWTF9nd2p4bkRrX0ZmM19vMi13QkNCWFJmRG5xcm02bWgyT0FJNmw2RzhJeHlVY0dGWkstdWlSQ2xtNXdZMFlhS0xiUk80cVJIMlJiYUR1RnllUGlxeUhlN1RQLWppc01EanFjYWg4M2JsNW9ibS1CY2pKQzdRdUxaQnR4bnVGY05XNkExQ2c0dkQyQWRzUWpvRnkyLXVvQ0VJWmw5X3gxNlcxSEM5aUwzR0NhcEdnZHFQMnpkb0RLdy1sbWl1UmlqRktuLTU1REJLVnk2QUw3TFdJbE1qU0dHeGREZ0ppOXBMX2tWQ0F30gG7AkFVX3lxTE9rRFJPR0dsanhXa0ZKbTF5WHV5QmVURkpjN2k4VktMVDZjdG1hU3NkckhHeW01Q2RwNVZlQ2N0RjU5aHh2UHpZTm5CVTlDc0JSWnNVTG4tMldGLU8wUE8xbUdtUXBrQjhzLWVGU0cxRGlNM1h1dXZlZEllcFNQMXBaUkF4TDRaSXZUSDNjd2QwVUV3bXIwaC1KWHB0QXpPRW1uRm03c1lqam9VQXhGUDBlNnk1WjMxaWlPUlRKeW5OUHhXRU5QdDMtNWNORW8tRzEwbmV6TFZuUndOWHdENWttSC1tcmxBdHNpRVR6em5PeEsyNzVnS21rVWNjQzMxY2pMdGFlcGNJQXJRTTl0cERSRTVEN2l2V2dXV3ItbG42RG5UUVZvVDB5RHBSQlVKNWlIXzVBWTNiOTllYw?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -161,20 +225,21 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-09-02",
-      "published": "Tue, 01 Sep 2026 12:59:37 GMT",
+      "published": "Tue, 01 Sep 2026 23:13:00 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 17,
       "themes": [
-        "#AI"
+        "#AI",
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Tuesday - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer says Nvidia should do a half-trillion dollar, Apple-style stock buyback - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVnJQX3I4QmNEa1hiVkx0enV3T2d0WG83Z1NuNkd4SDdKYi1qRmVBdEtQQXdSZGlic0FFeXltX1dvZUR6NjNEajBlRWJDMjF6WS11SjBQa2ViS1RFZmY5YWhjZ1dGVTZvaURONko4WTNVOEVQYVlHNklSMUhLek1lZU5ETno5VGVRcUFvMWl6RjVrVEphTWJyeWNfNDN2LUts?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYkpNWUhfalJRbEtDNWlDRTNrUEFNQUtfQXQ1bmpWWWFENVVoN2hLTG1tbGxFakdaQ25MRTJxMUJyVUJtbFEwUTJTaHUyMXpRS0MyWng3YVh6a0FvbzZXbVJHVlpWZloybGZVQnR3UlN0VXZGV21hbmg3RXhRaTk0b0hJNm9HN0NLbHU0Zk1iTko0bEhUZHJUY0dZLUlLQzZwWmJjVmlvRE5McWJ4bmRjdkMzZndCd1RqRmc?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -182,24 +247,46 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-09-02",
-      "published": "Tue, 01 Sep 2026 04:13:48 GMT",
+      "published": "Tue, 01 Sep 2026 22:06:00 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Reversing 'brain drain' should be top priority for new Apple CEO Ternus, says Deepwater's Munster - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaVRDTkF1em9qNGZFUjViVURBWXZZUTJGZjFGLXJKLUdlaTdwb0dQcFdQYVNxMlRFdjJlaG1KZ1ZEdkRXYXhBbHNuMmFRLWpDXzNTQVFIeFhRbzlLQmZZdTdIRmpwclIta2FUak1jcTdxYjhyX3NrVEZ6a0oyRXhUSnc1TFR2Q3BqOFNtRnY3WDVLcy1MVGxiQjlaVFB0bU9va0VIRnp5VXhGMTFkVFZkUzhmMk5jQmVqdmVoczRLZnJfM0hUYnFOTllRSDA5N0lMenc?oc=5"
+    },
+    {
+      "name": "Patrick Moorhead",
+      "role": "CEO and Chief Analyst",
+      "org": "Moor Insights and Strategy",
+      "cat": "Analyst",
+      "date": "2026-09-02",
+      "published": "Wed, 02 Sep 2026 03:18:21 GMT",
       "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Gene Munster Says Power Is The Next Big AI Investment Trade - Defiance AI & Power Infrastructure ETF (NAS - Benzinga",
+          "t": "Headline signal (not a direct quote): Jim Cramer Says 'WOW' as Dell Crushes Earnings; Patrick Moorhead Says the Company Is Doing 'Exactly What - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZmxWb05mazNUSUU0bG1SZ1RJS2FHT0UyTFAtS3ptZ1pVVXdnZWF5NEUxampfOVkxM2szbUhsZnJkWkN5aEJmd0F0YWNsMjRwUU5LRFZxSVdqajh0bXBZMkQxRHowN21lV2t3d0RRdnRkWTlpS05oNEVZVHJfcWk1ZTk1dHM3Q25nYUlmVFp5SXZLMzF5cFlhUnBQb1g4aG1ielgxVGtMZy1yNHIySy1vT1psczRLMlNXTG9ybmZR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM1hwTDljdGsyVk01b3c3NTV6RXAtekg5V3E3bXlURTlLQ2NJX1RXYlhTcDg3YThYQzVqUV9KMmRrYVJvRWtkVlZGcnRmN1NiUFVoY21aOTdHMjE0ckIzVmgzY1FGOXRaUkFZcUx3MkxlVTQxQkFoVTkzaTdvSnFTMmpJaXVINXNiYWdkaVBBRlBfbGNKTFN4aWltYkc2QQ?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 9,
+  "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
