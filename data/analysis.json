@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T01:49:29.216293+05:30",
+  "updated_at": "2026-09-03T04:14:12.320084+05:30",
   "source": "yahoo+local-ta+rules",
   "items": [
     {
@@ -27,7 +27,7 @@
         "sma200": null,
         "vs_sma50_pct": 7.23,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.21,
+        "vol_ratio_20d": 1.23,
         "ret_1d": 3.21,
         "ret_5d": 7.04,
         "ret_20d": 2.37
@@ -91,7 +91,7 @@
         "sma200": null,
         "vs_sma50_pct": -0.37,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.96,
+        "vol_ratio_20d": 0.97,
         "ret_1d": 0.26,
         "ret_5d": 3.24,
         "ret_20d": 11.03
@@ -123,7 +123,7 @@
         "sma200": null,
         "vs_sma50_pct": -0.02,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.02,
+        "vol_ratio_20d": 1.07,
         "ret_1d": 2.47,
         "ret_5d": 2.9,
         "ret_20d": 0.69
@@ -155,7 +155,7 @@
         "sma200": null,
         "vs_sma50_pct": -3.33,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.94,
+        "vol_ratio_20d": 1.0,
         "ret_1d": 0.63,
         "ret_5d": -1.43,
         "ret_20d": -6.98
@@ -187,7 +187,7 @@
         "sma200": null,
         "vs_sma50_pct": 0.85,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.71,
+        "vol_ratio_20d": 0.72,
         "ret_1d": 0.02,
         "ret_5d": -2.04,
         "ret_20d": -6.48
@@ -219,7 +219,7 @@
         "sma200": null,
         "vs_sma50_pct": 15.15,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.1,
+        "vol_ratio_20d": 1.11,
         "ret_1d": -5.81,
         "ret_5d": -4.53,
         "ret_20d": 6.96
@@ -251,7 +251,7 @@
         "sma200": null,
         "vs_sma50_pct": 13.34,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.61,
+        "vol_ratio_20d": 0.63,
         "ret_1d": -0.84,
         "ret_5d": 0.09,
         "ret_20d": 1.92
@@ -283,7 +283,7 @@
         "sma200": null,
         "vs_sma50_pct": -8.89,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.64,
+        "vol_ratio_20d": 0.65,
         "ret_1d": -0.55,
         "ret_5d": -4.96,
         "ret_20d": -5.18
@@ -315,7 +315,7 @@
         "sma200": null,
         "vs_sma50_pct": 2.22,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.21,
+        "vol_ratio_20d": 1.23,
         "ret_1d": -5.42,
         "ret_5d": 7.53,
         "ret_20d": -3.07
@@ -347,7 +347,7 @@
         "sma200": null,
         "vs_sma50_pct": 1.28,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.74,
+        "vol_ratio_20d": 0.75,
         "ret_1d": 2.43,
         "ret_5d": 1.88,
         "ret_20d": 7.04
@@ -370,19 +370,19 @@
         "pnl_pct": 15.8
       },
       "ta": {
-        "rsi14": 42.1,
-        "macd": -7.316,
+        "rsi14": 42.33,
+        "macd": -7.293,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": null,
-        "sma50": null,
+        "sma20": 269.68,
+        "sma50": 284.55,
         "sma200": null,
-        "vs_sma50_pct": null,
+        "vs_sma50_pct": -9.79,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": null,
+        "vol_ratio_20d": 0.74,
         "ret_1d": 0.29,
-        "ret_5d": 0.37,
-        "ret_20d": -4.9
+        "ret_5d": -2.7,
+        "ret_20d": -7.64
       },
       "thesis_note": "+57% from avg $221. Data center cooling backlog $18B+. Liquid cooling orders +280% QoQ. Wait for pullback to $310–325 before adding. Hold entire position."
     },
@@ -411,7 +411,7 @@
         "sma200": null,
         "vs_sma50_pct": -4.51,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.3,
+        "vol_ratio_20d": 1.55,
         "ret_1d": -0.66,
         "ret_5d": 3.28,
         "ret_20d": -12.2
@@ -434,19 +434,19 @@
         "pnl_pct": 73.56
       },
       "ta": {
-        "rsi14": 42.71,
-        "macd": -12.27,
+        "rsi14": 42.67,
+        "macd": -14.56,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": null,
-        "sma50": null,
+        "sma20": 1756.84,
+        "sma50": 1756.33,
         "sma200": null,
-        "vs_sma50_pct": null,
+        "vs_sma50_pct": -4.22,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": null,
+        "vol_ratio_20d": 0.76,
         "ret_1d": 1.03,
-        "ret_5d": -3.55,
-        "ret_20d": -1.73
+        "ret_5d": -3.63,
+        "ret_20d": 0.24
       },
       "thesis_note": "+61% from avg $1,012. Now 1.04 units. EUV monopoly — EVERY AI chip requires ASML machines. Irreplaceable. $200/month forever. Target 3 units ($5,000 position)."
     },
@@ -466,19 +466,19 @@
         "pnl_pct": 11.08
       },
       "ta": {
-        "rsi14": 63.32,
-        "macd": 4.385,
+        "rsi14": 63.83,
+        "macd": 4.193,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": null,
-        "sma50": null,
+        "sma20": 276.01,
+        "sma50": 265.47,
         "sma200": null,
-        "vs_sma50_pct": null,
+        "vs_sma50_pct": 9.25,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": null,
+        "vol_ratio_20d": 1.14,
         "ret_1d": 3.47,
-        "ret_5d": 4.17,
-        "ret_20d": 8.53
+        "ret_5d": 3.76,
+        "ret_20d": 9.4
       },
       "thesis_note": "URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start"
     },
@@ -507,7 +507,7 @@
         "sma200": null,
         "vs_sma50_pct": -5.29,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.77,
+        "vol_ratio_20d": 0.78,
         "ret_1d": 1.71,
         "ret_5d": -0.43,
         "ret_20d": -7.28
@@ -530,19 +530,19 @@
         "pnl_pct": 33.32
       },
       "ta": {
-        "rsi14": 47.86,
-        "macd": 3.001,
+        "rsi14": 47.43,
+        "macd": 2.772,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": null,
-        "sma50": null,
+        "sma20": 194.3,
+        "sma50": 181.77,
         "sma200": null,
-        "vs_sma50_pct": null,
+        "vs_sma50_pct": 2.38,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": null,
+        "vol_ratio_20d": 0.72,
         "ret_1d": -1.67,
-        "ret_5d": -2.53,
-        "ret_20d": -2.31
+        "ret_5d": -7.99,
+        "ret_20d": -5.68
       },
       "thesis_note": "-1.2% from avg $147. 3.62 units now. 800G AI networking upgrade cycle just starting. Every hyperscaler GPU cluster needs Arista. $150/month DCA. Add dips below "
     }
