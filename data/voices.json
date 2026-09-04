@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T01:34:58.502417+05:30",
+  "updated_at": "2026-09-04T13:40:19.854889+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,21 +8,21 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-09-04",
-      "published": "Thu, 03 Sep 2026 14:16:48 GMT",
-      "source_name": "Fast Company",
+      "published": "Thu, 03 Sep 2026 20:36:20 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang vows to keep Hugging Face 'an open platform for the entire AI ecosystem' - Fast Company",
+          "t": "Headline signal (not a direct quote): Nvidia's Jensen Huang is 'playing both sides' of AI with Hugging Face purchase - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjFCYmJwbFZyV3JYNFd4YXdLR3Q2V3ZRdjVzd1F4MTJhR1E0N2NuMjU2UHZDY1pwMFh4YWFlUTU1ZzZEVjAtWll2LVM5d0wtazJvdnNOelFzOWJzQ0o1QWFMU2p6dUNveXVieU1OMEhsUFdsZGhCbGhMU2ZaelgyVjUxbFYwbWU5Z2UwSndKSnprWUFCTWdrRVMwUXNfSXRPOXFQa1U5bw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdW0yWmU1WE80c0tPN1FqOE5iOGJ4eUVwVS1kbDhUUkpXTDI0V1h5elZWQldvdjBaU2lRMGFfMDRUR002WW1raGdsc3NWN282Qkt4V2VxVzNORjd6M2FYU2xXZG1MUnQ4UThMYTdCU2wtWkRxZVoyTmtaMnF3cG00Rko1Zk1GdU0?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,20 +30,41 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-09-04",
-      "published": "Thu, 03 Sep 2026 14:35:53 GMT",
-      "source_name": "Tom's Hardware",
+      "published": "Thu, 03 Sep 2026 20:24:20 GMT",
+      "source_name": "Bloomberg.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman says 38,000 ChatGPT queries use as much water as the production of one almond — says data centers use no more water than an office building - Tom's Hardware",
+          "t": "Headline signal (not a direct quote): Sam Altman Says OpenAI Has Fumbled at Communicating AI Benefits - Bloomberg.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNMWFOdnVQMC1RbXdnaU1vSG1McnZKVDZ3THZrQzNpTVJhQkpSUjc0WlotUVNROG9qZnlUdVRYS1psLThlTDFpeDAwb3FYb0JJZ0p0eEUyVmNHY3BzT1A0NWpoVEFUdWEwU2NaTmI0c3NReWJmZ1psb1p6VzVpMTBwb0R6cXUtUWpQLW9uTm54VDlzTDNNRE9tRXBvbkZrY3pjd2NOZmF1MEUzOF90eXlScE9kQXgzMG15RzYyU0RpTzBYZGw2dnhYbW82cUVNZllTYUdHYmx6ZWp2dGZvZEJiaERWU3ZaUklRQ3d0SVJMcXlLdjlkYmI4U2liSDNSMHNIbVBBM2tvdVc1My01YVl3OVZtVndZZ3ZvUklTc3dHZGFVQnlhNUNQbDZ6M25oODdTZVVRRDVrVFlVczg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOXzk2S3B4RUZXU01Ib1dmNVl0WXdIZE5BZUNiQmthVTFzcTJJYkRGVEJuSU1KMDFUaTBWemhFMFVrOEtKVGhOdkxLMjh2bVV1UVlmTGszTUhkMHRMQ0ZLdTZZRndaSWo1WXdkQVA2NksydktNOXZUUEZoTTJRSU1vMk9HVDYzMFdXMXA5c1VNWW1TWFc3aGdTTUdaT0IxVk5DRnpsMjN1TnotSjIwUUYwNXlNZlg?oc=5"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-09-04",
+      "published": "Thu, 03 Sep 2026 22:02:19 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNM2M4QUoxTEtuMVQ1S3UzRUVrTEZDRmQ0WF9YNTN5UGlSQWhXQTVIMjhiR3U1QnFTOFl6VUdmRVkxN1RSc25QYTJ5YjBEUHpVZVpJM2RWcVJzRWpwSHpEclZKWWN4clp0RS1HdXBUa1VZTFlBWmRTeDBnZ3NaTVpRSWFndXFKdldkWEF0RE9OY2g?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -73,21 +94,21 @@
       "org": "AMD",
       "cat": "CEO",
       "date": "2026-09-04",
-      "published": "Thu, 03 Sep 2026 03:41:00 GMT",
-      "source_name": "tbreak.com",
+      "published": "Fri, 04 Sep 2026 00:02:12 GMT",
+      "source_name": "stocktwits.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sheikh Khaled bin Mohamed meets AMD Chair/CEO Lisa Su in Abu Dhabi - tbreak.com",
+          "t": "Headline signal (not a direct quote): AMD Stock Rips Higher — Here's What Lisa Su Just Said About AI Demand - stocktwits.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMSXdXTi1lVEFIVWU2Q3hGZ1RpdC1LSm8yd3BnZjV2NW95WFhvMDNjdkYwcldQRTIyYVIwYkE2REpJSHRHOVRidTA3aTkxVTlTVUNwdXJ0bTYzVW9JR09GdmtWX0FVdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3BPcXdJWWszTXBPUFlkY0JuU0FmaU5nOHdnTmlRNk5kd3F0VklWV0dYWHZfQmZXTGRHOTA5UDJ0UzZRSnM3eHM4c3FHRDBSVlBXaDB2U0pzS3pfYWtnR3pYWkxqQTdFb09wbVVfUnllYTZ6UkhISk1mcG1KSWlBSldyRjRZVmRScTVObGVXS2FfR0UyVjNRRTNoeWRQWmphNXVkRDM0cm14aFVhTGVjdVVVN2NWbU9WZ1kyYm1YSVdTRzN5Z24xR3hvMi1oUQ?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -95,7 +116,7 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-04",
-      "published": "Thu, 03 Sep 2026 10:50:05 GMT",
+      "published": "Thu, 03 Sep 2026 20:48:04 GMT",
       "source_name": "Fox Business",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -105,7 +126,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir CEO Alex Karp reveals biggest danger of AI - Fox Business",
+          "t": "Headline signal (not a direct quote): Palantir's Alex Karp sheds light on the dangers of falling behind in the AI race - Fox Business",
           "k": true
         }
       ],
@@ -139,21 +160,21 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-09-04",
-      "published": "Thu, 03 Sep 2026 09:02:20 GMT",
-      "source_name": "36 Kr",
+      "published": "Thu, 03 Sep 2026 17:44:53 GMT",
+      "source_name": "ԱՐՑԱԽ ԼՐԱՏՎԱԿԱՆ",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta's New Model Matches Fable 5 Performance, Mark Zuckerberg Says: Fully Open-Source With Ultra-Affordable Cost That Makes Calculations Unnecessary - 36 Kr",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg had a bold plan to replace Meta staff with AI. Here’s how it imploded. - ԱՐՑԱԽ ԼՐԱՏՎԱԿԱՆ",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mRzc1RlFXRmpnMzZfalFQUFFiUDA0UkxJTlFib0p3MzB3Q2FhU1Z4YlJXdjgtb3UycndrdHFfQXBHczI0eXl1ZzROVnRTOFRENGN3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9yQ1dqd01zdWk5NTFCQXJHUWZzcWdsUzh4QlFHZWpJNEFvYUY5RUhxc3JCX2ZRVlQ3cldyZ2pZRFZHaW5BMEVBTlcySQ?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -178,48 +199,26 @@
       "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa3kwVFVoS2pyT01YSFZkNnRpazduMkhteGkzclFMRkhSY0tPY1UxS0QxbHYwQmk1QVVFZHlERS1JSDgtMlZSRm1DM1hFY081WlVqR0M5LXpSNDJaZW9DVk5EaU53OTRLUnZPUURqWHdJNlhpZk9WS1VXQlZXTnpRdDVINGEwbDgwLUxYX1d6a1lvank1Zjc0RkFxUlNrQlFVU3k1WEZB?oc=5"
     },
     {
-      "name": "Andy Jassy",
-      "role": "CEO",
-      "org": "Amazon",
-      "cat": "CEO",
-      "date": "2026-09-04",
-      "published": "Thu, 03 Sep 2026 08:10:00 GMT",
-      "source_name": "The Motley Fool",
-      "signal_type": "source-linked headline",
-      "relevance_score": 14,
-      "themes": [
-        "#AI",
-        "#MU"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Tim Cook, Elon Musk, Andy Jassy, and Jensen Huang All Just Warned Investors About the Same Thing. Spoiler Alert: It's Fantastic News for Micron and Sandisk. - The Motley Fool",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZTBGR0V6NVg1eUtvY0JHRjRjYVNiZ011ajZCenR4VGs3VXYxNFdTWGp2X0x5UmtzTXNrQTAzNS0yeUJsN2d6QnhiS01GcGhxTzdXNkVFMEIzYWE1Z2lRcTQtbmpmWEtZX2VuYnBMTEgtMnJ6OE1KN0pCSk5zOTA4dkNXWHZramV5Q0NsZEdNWTB5dlBQNnM2Yw?oc=5"
-    },
-    {
       "name": "Hock Tan",
       "role": "CEO",
       "org": "Broadcom",
       "cat": "CEO",
       "date": "2026-09-04",
-      "published": "Thu, 03 Sep 2026 10:53:40 GMT",
-      "source_name": "Benzinga",
+      "published": "Thu, 03 Sep 2026 23:12:01 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Sees Broadcom's Business Exploding as CEO Hock Tan Says Custom OpenAI Chip Beats Nvidia's Grac - Benzinga",
+          "t": "Headline signal (not a direct quote): Hock Tan Just Put a $230 Billion Number on Broadcom's 2028 AI Revenue. That Is 4 Times This Year's. - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQODFrWVp1eXZnR0c3d0g2TExqRk40VlpWQXhxbFNRTUVPNG54MGE0WHZORUN2b0Y5eXkzeExKd0VHMlQtY1dULVBGX1h2LWN2eVN4UmxLRUdjTm9mcjVDV0dWUWItVzJNMXhNQ21kNmZZUFFfVzhJN01QUElCa0NLSGk3X3VkYVVwd0JjYTFWNkI5cWhCcS1DSEpHbWdrcTNybFNlZGRtaWdnblg2LXBrR1RBVzAtLXRjM2Ffd08xWmd4ZmFHTmRpdzR5OXRKZkRTSDBPdEh4LU9oMW96YndxM0Z3bF8tSkVfTWRoYkRvam9QdlJ0eGU4WkRITF9MTk85SnJQdDI0bUJPbW9FYnBsMnhIdFZ4UU0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRGgyU3R6ZGNqbWN6VlJvVXFtenR0NnpvX0c3RV9lVVdoODg4WGx0Y1V3Y0MwZ2ZnZGo4MjNTdkF6QmJuampwSTR6Y1pvbER6ZU1LVDExOWlSNFhVN0FoNjFlUThGRVRGejNoOEhPQXBxdEg5dnRJT2JUUjIxNU5tWFR1NmtabEJtVWZMQ0Nn?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -227,29 +226,8 @@
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-09-04",
-      "published": "Thu, 03 Sep 2026 10:02:24 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 14,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Buy, Borrow, Die. How Larry Ellison Can Borrow Against Oracle Stock Instead of Selling It - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa0lKeWN4SXlraVJrNWZzcDVwRWJoZzVUSXdIM1dIY3E0THRUQV8xZnM3Q194TFZjZTNnbnM0X3hiXzFINGFSVV9TamJSSjJZV0ROWnNlU1VYNTdFNUQ0aDVPQTF2TUFhZ2kxM1REMHp5MU9jejhXQmZzWU1udFQ5NE1NeThFODEwYmVrZVFHNFIyaGlwSDZIOQ?oc=5"
-    },
-    {
-      "name": "Cathie Wood",
-      "role": "CEO and CIO",
-      "org": "ARK Invest",
-      "cat": "Investor",
-      "date": "2026-09-04",
-      "published": "Thu, 03 Sep 2026 00:21:59 GMT",
-      "source_name": "Investing.com Nigeria",
+      "published": "Thu, 03 Sep 2026 16:07:29 GMT",
+      "source_name": "Computer Weekly",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -257,11 +235,32 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK sells Shopify stock, buys Intellia Therapeutics By Investing.com - Investing.com Nigeria",
+          "t": "Headline signal (not a direct quote): Oracle executive chairman Larry Ellison called to testify over US health system overspend - Computer Weekly",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNC1NOWVrQ1FqSW42TnlmUlZDRjJJQzk4aHd2Wk1vaEEwZVRtcHBJNnJKazBjcG9kMzFCWHlweU9idzAxbjlkeVFZM0gzOF90Mmo1bktTY1JjdEtuLUtKT1RMWVZkRnRuVzVtbG9Ec0h4RzVNZXRzc2pQYnVlUkxaS0RiNWp3Z0E5RzZteDAwY1lqa3FrcGI4d3A0aVp4UXpueEwydTB2YmwzcEgwLWZ4VXNUTGJrNE9FVHZRNHRCTFczQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUHZwNHYwYlFYZTFUV3NCRE83TEl4LTFsd0ZkYzdRRllXcExpZGFtZmlPdGlERVBSc3BJN2d5NVd6d3k3VkFCQ2xaejlJeVRzUUh6ejBNeUFOODJFN0Z1S0o1U0MweEt1b3lTcnBqWUNQSlljWWFCOFc3cFFLUTNMYmxmTlNpQ19yVUFacG9GWGx1T3gtZU5oeWQ1TTdzTUFmYW9JMDJNZWQ2bjZ5NjRWbkV0Z2ZaTU12U2pGdkVtWm1PWDNZQ1NhZUhCOTZFR185?oc=5"
+    },
+    {
+      "name": "Cathie Wood",
+      "role": "CEO and CIO",
+      "org": "ARK Invest",
+      "cat": "Investor",
+      "date": "2026-09-04",
+      "published": "Fri, 04 Sep 2026 00:18:14 GMT",
+      "source_name": "Investing.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK buys Intellia stock, sells Brera holdings - Investing.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaTc0aEtmdk5lZDkwN0pxX1dUamtnby1Wc1V6cXlBdHZGQ3I4Q2VsSk9mM0F4bzV2UDM2TllKY2NzMml5N3JNM0IxcUxMb0hPN1N3OGR5cDBsNG9YRWgwcDVRTTlBMU9oamhxRnJmUm5JQnhMWVhkYTVoTjQwRzk4WkFQZnBhakZPc005TkpmMk5qYlhwMUdGVjR6UW15cE1VeG9tLWRudjlsd0I5OU5sMklBSWw?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -290,20 +289,21 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-09-04",
-      "published": "Thu, 03 Sep 2026 01:31:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Fri, 04 Sep 2026 06:29:45 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 12,
       "themes": [
-        "#AI"
+        "#AI",
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk Noted Natural Gas Will Still Fuel Data Centers, Gene Munster Says 'Makes Sense' to Put 'New Money to Work in Power' - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Gene Munster Says Tesla Cybercab's Austin Launch Signals Elon Musk’s ‘Paranoid’ Phase Over Robotaxi Accid - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT2JzazZteG5oSFFqU0wzZXBzcjBRZHFKdEhWRTRaUUhKbDM4TGRZUjN6V1ZIbUE2cFRpb2RudXYtdGdQQXplRHhUWHo5Rk1ucU1jRWdBTXBKMFhkdzd0SFR5ODczTVZDcHY5VVNLaFIxcjk3X2htNVVqYmxiakZka2hqZnRUNUt1Y1lCXw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQcVc2Mnh6YWpsbXVxMDlheGhEakp4Um9CbjRkRU8yZkpHRlBVcGtPUWJEM2ZmZXdKbGVsdDBwWWJLTGVjMllWc2syaHRiQ3pNZkdJVnA1OHhWZVFMaVlIY2FjNXRpMVg5cFViNFZ3QkxvWXVhQ0tvSGxGaG42VUFHNkphVWNidEpraFkwY2ZBdXdyT3lTYkxza1dpZEUzdmhCeEJhbU5YMXJQQ3dESlNzRWlNOVVRRlFYVEwtcnB5MzNZVVVXNGx6RUxiTG5Qd0g4VVJ6bjhNUTNlc1FzZUJMVG1sb2RiYl9CNHpiNUY2bkxULTIzdkctOWpqTVJDR0VzMzJ3V09DVVZTNGJBaHViZTM5dE0xQQ?oc=5"
     },
     {
       "name": "Stacy Rasgon",
@@ -311,21 +311,21 @@
       "org": "Bernstein",
       "cat": "Analyst",
       "date": "2026-09-04",
-      "published": "Wed, 02 Sep 2026 20:46:00 GMT",
-      "source_name": "CNBC",
+      "published": "Fri, 04 Sep 2026 00:57:23 GMT",
+      "source_name": "stocktwits.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 11,
       "themes": [
         "#AI",
-        "#AVGO"
+        "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Bernstein's Stacy Rasgon reacts to Broadcom results as stock slides in extended trading - CNBC",
+          "t": "Headline signal (not a direct quote): MU, AMD, MRVL, QCOM Stocks Surge — Bernstein’s Stacy Rasgon Says AI Demand Is Exploding, Memory Capacity Is 'Very Tight' - stocktwits.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYkRvRnVXYm5lZW5nSVlQNGxZc2k3d0F5NDlaSFFCbjdOQlRPUEVmc3dJSFIxUE1JZk5EYTdLLTM5NU01WTkySU1OTG9rYUE1N25NS29SVUlSQ1ByWno0elN1RzJPemtfMFBUNDB3UDEwTHpfcklmMlEzOVo0NnllYmpyTVY1OXp4d3pNOWsteVpMWHpCZS1BZTZjeWN1SnNJRy1VT25aU3E4aFZUNEcyQktTTnBDMHdzbzNfdHpxR0thdW5sdmhZMQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWk1VdGVNT2dIX2ZLdTdsNS13RkRVUm9OMm52LVNJVGZIMFZVTThDV1M5bmc4UzNobnlqZkFrQUIyNUtpbVlOZVpWMjNMYXdXSDIteFBxdXI3ZU5MX3JXdlRKa3ZZVFJkTDVWZ25ONWZNLURhNHBZX1hkQ3U0eFJqRkRZSkxyZkFrUEs1SEFmVjRDRWhpUVl6bXdFTmNKWHRsbG9RRGE5UmRBWVF3TjNrSHdlTWNCY3V3OWszTXQ4QjhsYmlnbXg0?oc=5"
     },
     {
       "name": "Patrick Moorhead",
