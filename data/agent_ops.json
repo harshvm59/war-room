@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T03:12:01.429432+05:30",
+  "updated_at": "2026-09-04T05:35:10.188501+05:30",
   "source": "broker+market+themes+rss+local-ta+rules",
   "items": [
     {
@@ -29,8 +29,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$958.07, +118.3% from $438.87",
-          "signal": "RSI 53.48 (neutral), MACD histogram +n/a, price +1.68% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
+          "price": "$958.16, +118.3% from $438.87",
+          "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +1.69% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
           "entry": "$914–$961",
           "stop": "$867",
           "target": "$1150 (3 mo)",
@@ -42,8 +42,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$357.23, +9.3% from $326.71",
-          "signal": "RSI 37.54 (neutral), MACD histogram +n/a, price -6.99% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
+          "price": "$357.16, +9.3% from $326.71",
+          "signal": "RSI 37.51 (neutral), MACD histogram +n/a, price -7.01% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
           "entry": "$373–$392",
           "stop": "$329",
           "target": "$429 (3 mo)",
@@ -55,8 +55,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -68,26 +68,26 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "AMD",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$455.96, +140.5% from $189.56",
-          "signal": "RSI 42.7 (neutral), MACD histogram +n/a, price -8.87% vs SMA50. Position +140.5% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+          "price": "$456.16, +140.6% from $189.56",
+          "signal": "RSI 42.75 (neutral), MACD histogram +n/a, price -8.84% vs SMA50. Position +140.6% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
           "entry": "$485–$510",
-          "stop": "$419",
+          "stop": "$420",
           "target": "$547 (3 mo)",
           "sizing": "4.4% of portfolio · no active DCA",
-          "action_text": "Accumulate near $485–$510; stop $419"
+          "action_text": "Accumulate near $485–$510; stop $420"
         }
       ],
       "latest": {
@@ -101,7 +101,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to DELTA, GUARDIAN, ALLOCATOR"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "DELTA",
@@ -129,8 +129,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$958.07, +118.3% from $438.87",
-          "signal": "RSI 53.48 (neutral), MACD histogram +n/a, price +1.68% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
+          "price": "$958.16, +118.3% from $438.87",
+          "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +1.69% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
           "entry": "$914–$961",
           "stop": "$867",
           "target": "$1150 (3 mo)",
@@ -142,8 +142,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$357.23, +9.3% from $326.71",
-          "signal": "RSI 37.54 (neutral), MACD histogram +n/a, price -6.99% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
+          "price": "$357.16, +9.3% from $326.71",
+          "signal": "RSI 37.51 (neutral), MACD histogram +n/a, price -7.01% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
           "entry": "$373–$392",
           "stop": "$329",
           "target": "$429 (3 mo)",
@@ -155,8 +155,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -168,26 +168,26 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "AMD",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$455.96, +140.5% from $189.56",
-          "signal": "RSI 42.7 (neutral), MACD histogram +n/a, price -8.87% vs SMA50. Position +140.5% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+          "price": "$456.16, +140.6% from $189.56",
+          "signal": "RSI 42.75 (neutral), MACD histogram +n/a, price -8.84% vs SMA50. Position +140.6% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
           "entry": "$485–$510",
-          "stop": "$419",
+          "stop": "$420",
           "target": "$547 (3 mo)",
           "sizing": "4.4% of portfolio · no active DCA",
-          "action_text": "Accumulate near $485–$510; stop $419"
+          "action_text": "Accumulate near $485–$510; stop $420"
         }
       ],
       "latest": {
@@ -201,7 +201,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to GUARDIAN, BRIEF"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "ATLAS",
@@ -230,8 +230,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$958.07, +118.3% from $438.87",
-          "signal": "RSI 53.48 (neutral), MACD histogram +n/a, price +1.68% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
+          "price": "$958.16, +118.3% from $438.87",
+          "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +1.69% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
           "entry": "$914–$961",
           "stop": "$867",
           "target": "$1150 (3 mo)",
@@ -243,8 +243,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$357.23, +9.3% from $326.71",
-          "signal": "RSI 37.54 (neutral), MACD histogram +n/a, price -6.99% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
+          "price": "$357.16, +9.3% from $326.71",
+          "signal": "RSI 37.51 (neutral), MACD histogram +n/a, price -7.01% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
           "entry": "$373–$392",
           "stop": "$329",
           "target": "$429 (3 mo)",
@@ -256,8 +256,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -269,26 +269,26 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "AMD",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$455.96, +140.5% from $189.56",
-          "signal": "RSI 42.7 (neutral), MACD histogram +n/a, price -8.87% vs SMA50. Position +140.5% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+          "price": "$456.16, +140.6% from $189.56",
+          "signal": "RSI 42.75 (neutral), MACD histogram +n/a, price -8.84% vs SMA50. Position +140.6% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
           "entry": "$485–$510",
-          "stop": "$419",
+          "stop": "$420",
           "target": "$547 (3 mo)",
           "sizing": "4.4% of portfolio · no active DCA",
-          "action_text": "Accumulate near $485–$510; stop $419"
+          "action_text": "Accumulate near $485–$510; stop $420"
         }
       ],
       "latest": {
@@ -302,7 +302,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to VECTOR, SENTINEL, ALLOCATOR"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "GUARDIAN",
@@ -332,8 +332,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$958.07, +118.3% from $438.87",
-          "signal": "RSI 53.48 (neutral), MACD histogram +n/a, price +1.68% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
+          "price": "$958.16, +118.3% from $438.87",
+          "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +1.69% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
           "entry": "$914–$961",
           "stop": "$867",
           "target": "$1150 (3 mo)",
@@ -345,8 +345,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$357.23, +9.3% from $326.71",
-          "signal": "RSI 37.54 (neutral), MACD histogram +n/a, price -6.99% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
+          "price": "$357.16, +9.3% from $326.71",
+          "signal": "RSI 37.51 (neutral), MACD histogram +n/a, price -7.01% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
           "entry": "$373–$392",
           "stop": "$329",
           "target": "$429 (3 mo)",
@@ -358,8 +358,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -371,26 +371,26 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "AMD",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$455.96, +140.5% from $189.56",
-          "signal": "RSI 42.7 (neutral), MACD histogram +n/a, price -8.87% vs SMA50. Position +140.5% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+          "price": "$456.16, +140.6% from $189.56",
+          "signal": "RSI 42.75 (neutral), MACD histogram +n/a, price -8.84% vs SMA50. Position +140.6% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
           "entry": "$485–$510",
-          "stop": "$419",
+          "stop": "$420",
           "target": "$547 (3 mo)",
           "sizing": "4.4% of portfolio · no active DCA",
-          "action_text": "Accumulate near $485–$510; stop $419"
+          "action_text": "Accumulate near $485–$510; stop $420"
         }
       ],
       "latest": {
@@ -404,7 +404,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to Research desks, BRIEF"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "PULSE",
@@ -437,8 +437,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$958.07, +118.3% from $438.87",
-          "signal": "RSI 53.48 (neutral), MACD histogram +n/a, price +1.68% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
+          "price": "$958.16, +118.3% from $438.87",
+          "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +1.69% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
           "entry": "$914–$961",
           "stop": "$867",
           "target": "$1150 (3 mo)",
@@ -450,21 +450,21 @@
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$455.96, +140.5% from $189.56",
-          "signal": "RSI 42.7 (neutral), MACD histogram +n/a, price -8.87% vs SMA50. Position +140.5% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+          "price": "$456.16, +140.6% from $189.56",
+          "signal": "RSI 42.75 (neutral), MACD histogram +n/a, price -8.84% vs SMA50. Position +140.6% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
           "entry": "$485–$510",
-          "stop": "$419",
+          "stop": "$420",
           "target": "$547 (3 mo)",
           "sizing": "4.4% of portfolio · no active DCA",
-          "action_text": "Accumulate near $485–$510; stop $419"
+          "action_text": "Accumulate near $485–$510; stop $420"
         },
         {
           "ticker": "NVDA",
           "action": "HOLD",
           "urgency": "low",
           "color": "#2dd4bf",
-          "price": "$228.39, +183.6% from $80.53",
-          "signal": "RSI 59.18 (neutral), MACD histogram +n/a, price +8.82% vs SMA50. Position +183.6% at 25.1% weight (P1). +155% from avg $86. Blackwell demand unprecedented — TSMC CoWoS booked through 2027. Hold entire position. Next DCA add only on -15% dip to ~$187. Do NOT sell.",
+          "price": "$228.45, +183.7% from $80.53",
+          "signal": "RSI 59.21 (neutral), MACD histogram +n/a, price +8.85% vs SMA50. Position +183.7% at 25.1% weight (P1). +155% from avg $86. Blackwell demand unprecedented — TSMC CoWoS booked through 2027. Hold entire position. Next DCA add only on -15% dip to ~$187. Do NOT sell.",
           "entry": "$204–$214",
           "stop": "$193",
           "target": "$274 (3 mo)",
@@ -473,17 +473,17 @@
         }
       ],
       "latest": {
-        "headline": "NVIDIA Earnings Test AI Stocks' Resilience - 조선일보",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZFlZQ2M5QUtZZXByZzkwZVVVdkJ5VXdmajQ0SnNqSFNoeDhKRzB4bzFIU292N2FKLV9CTlRjcmlJX1M5MjlCbmlRUjcydk8ybXd5MDIxRl9nU3k2c2ZaaDV6OEM0OGVuSjgzN3RVYjlfNVlVU0VqV25JeWNOQkdDMlhSaUppSnRQX2IzdVBB?oc=5",
-        "source": "조선일보",
-        "published": "Mon, 24 Aug 2026 07:00:00 GMT"
+        "headline": "AI Memory Stocks Rally After Nvidia Earnings: SanDisk, Micron and SK Hynix Rise — Which Stock Is Best to Buy? - Mitrade",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vM3huOXl5dmFRYXlSSDU0QkVBZnlybzJsTlBKTUMzclRQelFkTnRmNG5HcERRMERxYXp6UE91dXJCeXV3THhodllvaXBzSFktVmtXenpDNm1KQ25DWUdIOE5LQ0l0V3lEMTgwTmd1WnJEbVZYZl9OdzBBZ00?oc=5",
+        "source": "Mitrade",
+        "published": "Mon, 31 Aug 2026 07:00:00 GMT"
       },
       "completed_work": [
         "Refreshed CompanyResearchPacket",
         "Checked 3 relevant signal(s)",
         "Prepared hand-off to SOURCECHECK, VECTOR"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "MOSAIC",
@@ -518,8 +518,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$357.23, +9.3% from $326.71",
-          "signal": "RSI 37.54 (neutral), MACD histogram +n/a, price -6.99% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
+          "price": "$357.16, +9.3% from $326.71",
+          "signal": "RSI 37.51 (neutral), MACD histogram +n/a, price -7.01% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
           "entry": "$373–$392",
           "stop": "$329",
           "target": "$429 (3 mo)",
@@ -531,21 +531,21 @@
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$1646.53, +69.9% from $969.30",
-          "signal": "RSI 38.9 (neutral), MACD histogram +n/a, price -6.13% vs SMA50. Position +69.9% at 1.6% weight (P1). +61% from avg $1,012. Now 1.04 units. EUV monopoly — EVERY AI chip requires ASML machines. Irreplaceable. $200/month forever. Target 3 units ($5,000 position).",
+          "price": "$1646.19, +69.8% from $969.30",
+          "signal": "RSI 38.86 (neutral), MACD histogram +n/a, price -6.15% vs SMA50. Position +69.8% at 1.6% weight (P1). +61% from avg $1,012. Now 1.04 units. EUV monopoly — EVERY AI chip requires ASML machines. Irreplaceable. $200/month forever. Target 3 units ($5,000 position).",
           "entry": "$1701–$1789",
-          "stop": "$1515",
-          "target": "$1976 (3 mo)",
+          "stop": "$1514",
+          "target": "$1975 (3 mo)",
           "sizing": "$200/mo DCA · 1.6% of portfolio",
-          "action_text": "Accumulate near $1701–$1789; stop $1515"
+          "action_text": "Accumulate near $1701–$1789; stop $1514"
         },
         {
           "ticker": "VRT",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$268.76, +21.2% from $221.68",
-          "signal": "RSI 49.22 (neutral), MACD histogram +n/a, price -5.23% vs SMA50. Position +21.2% at 2.2% weight (P1). +57% from avg $221. Data center cooling backlog $18B+. Liquid cooling orders +280% QoQ. Wait for pullback to $310–325 before adding. Hold entire position.",
+          "price": "$268.83, +21.3% from $221.68",
+          "signal": "RSI 49.25 (neutral), MACD histogram +n/a, price -5.21% vs SMA50. Position +21.3% at 2.2% weight (P1). +57% from avg $221. Data center cooling backlog $18B+. Liquid cooling orders +280% QoQ. Wait for pullback to $310–325 before adding. Hold entire position.",
           "entry": "$275–$289",
           "stop": "$247",
           "target": "$323 (3 mo)",
@@ -557,8 +557,8 @@
           "action": "HOLD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$191.33, +37.1% from $139.59",
-          "signal": "RSI 51.45 (neutral), MACD histogram +n/a, price +4.92% vs SMA50. Position +37.1% at 0.9% weight (P1). -1.2% from avg $147. 3.62 units now. 800G AI networking upgrade cycle just starting. Every hyperscaler GPU cluster needs Arista. $150/month DCA. Add dips below",
+          "price": "$191.44, +37.1% from $139.59",
+          "signal": "RSI 51.53 (neutral), MACD histogram +n/a, price +4.98% vs SMA50. Position +37.1% at 0.9% weight (P1). -1.2% from avg $147. 3.62 units now. 800G AI networking upgrade cycle just starting. Every hyperscaler GPU cluster needs Arista. $150/month DCA. Add dips below",
           "entry": "$177–$186",
           "stop": "$168",
           "target": "$230 (3 mo)",
@@ -570,11 +570,11 @@
           "action": "HOLD",
           "urgency": "low",
           "color": "#2dd4bf",
-          "price": "$417.20, +168.3% from $155.49",
-          "signal": "RSI 49.74 (neutral), MACD histogram +n/a, price -0.79% vs SMA50. Position +168.3% at 11.2% weight (P1). +158% from avg $160. Best semiconductor value at 15x fwd P/E. CoWoS packaging monopoly for NVDA/AVGO/AMD. $300/month DCA on dips below $390.",
+          "price": "$417.01, +168.2% from $155.49",
+          "signal": "RSI 49.62 (neutral), MACD histogram +n/a, price -0.84% vs SMA50. Position +168.2% at 11.2% weight (P1). +158% from avg $160. Best semiconductor value at 15x fwd P/E. CoWoS packaging monopoly for NVDA/AVGO/AMD. $300/month DCA on dips below $390.",
           "entry": "$408–$429",
           "stop": "$384",
-          "target": "$501 (3 mo)",
+          "target": "$500 (3 mo)",
           "sizing": "$300/mo DCA · 11.2% of portfolio",
           "action_text": "Hold; review on next signal"
         }
@@ -590,7 +590,7 @@
         "Checked 5 relevant signal(s)",
         "Prepared hand-off to SOURCECHECK, VECTOR"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "ECHO",
@@ -624,8 +624,8 @@
           "action": "HOLD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$509.83, +31.5% from $387.58",
-          "signal": "RSI 66.01 (neutral), MACD histogram +n/a, price +15.55% vs SMA50. Position +31.5% at 3.3% weight (P1). FLAT at -0.1% from avg $422 — ONLY red position. Best DCA entry in portfolio. Copilot seats growing 25% QoQ. Azure AI market share gaining. $500/month NOW.",
+          "price": "$510.12, +31.6% from $387.58",
+          "signal": "RSI 66.11 (neutral), MACD histogram +n/a, price +15.61% vs SMA50. Position +31.6% at 3.3% weight (P1). FLAT at -0.1% from avg $422 — ONLY red position. Best DCA entry in portfolio. Copilot seats growing 25% QoQ. Azure AI market share gaining. $500/month NOW.",
           "entry": "$428–$450",
           "stop": "$406",
           "target": "$612 (3 mo)",
@@ -637,8 +637,8 @@
           "action": "HOLD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$610.77, +52.6% from $400.29",
-          "signal": "RSI 60.72 (neutral), MACD histogram +n/a, price +2.82% vs SMA50. Position +52.6% at 9.2% weight (P1). +42% from avg $430. Llama 4 multimodal + AI Ads revenue +27% YoY. Reality Labs losses narrowing. $200/month DCA. Add aggressively on dips below $570.",
+          "price": "$610.68, +52.6% from $400.29",
+          "signal": "RSI 60.69 (neutral), MACD histogram +n/a, price +2.81% vs SMA50. Position +52.6% at 9.2% weight (P1). +42% from avg $430. Llama 4 multimodal + AI Ads revenue +27% YoY. Reality Labs losses narrowing. $200/month DCA. Add aggressively on dips below $570.",
           "entry": "$576–$606",
           "stop": "$546",
           "target": "$733 (3 mo)",
@@ -651,7 +651,7 @@
           "urgency": "medium",
           "color": "#4a9eff",
           "price": "$342.48, +86.5% from $183.66",
-          "signal": "RSI 47.76 (neutral), MACD histogram +n/a, price -1.78% vs SMA50. Position +86.5% at 6.3% weight (P1). +104% — doubled! Gemini 2.0 + TPU v5 driving Search AI monetization. Waymo expanding 10 cities. $200/month. Add dips below $370.",
+          "signal": "RSI 47.77 (neutral), MACD histogram +n/a, price -1.78% vs SMA50. Position +86.5% at 6.3% weight (P1). +104% — doubled! Gemini 2.0 + TPU v5 driving Search AI monetization. Waymo expanding 10 cities. $200/month. Add dips below $370.",
           "entry": "$338–$356",
           "stop": "$315",
           "target": "$411 (3 mo)",
@@ -663,8 +663,8 @@
           "action": "HOLD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$258.84, +42.2% from $181.99",
-          "signal": "RSI 49.85 (neutral), MACD histogram +n/a, price +2.18% vs SMA50. Position +42.2% at 6.1% weight (P1). +41% from avg $195. AWS Bedrock AI inference compounding. Project Kuiper launching. $200/month — add aggressively below $260.",
+          "price": "$258.90, +42.3% from $181.99",
+          "signal": "RSI 49.9 (neutral), MACD histogram +n/a, price +2.2% vs SMA50. Position +42.3% at 6.1% weight (P1). +41% from avg $195. AWS Bedrock AI inference compounding. Project Kuiper launching. $200/month — add aggressively below $260.",
           "entry": "$246–$258",
           "stop": "$233",
           "target": "$311 (3 mo)",
@@ -673,9 +673,9 @@
         }
       ],
       "latest": {
-        "headline": "Will Amazon or Alphabet Better Digest AI Capex This Quarter? - 24/7 Wall St.",
+        "headline": "Will Amazon or Alphabet Better Digest AI Capex This Quarter? - 247wallst.com",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWl95YmhNTDV3X1k1eFhjTzRDcEp3LUd6S1NGTzFGeHdINXdpa2lNREZ3VndfTzdiQTRuR3NVMVVzRmFpTGRWSFczcC1mQnp4UXNaSi1xUVBnT2djWHhyZTdkUmJpMVZkSUM4b2VGMVJicnpTa0NpUFRoTlNrWWNuRmxiNEFGeDlGVkNMd3FPNEF6NUFnVDBRZ3lKVnJMYnJUMWF4V3F3?oc=5",
-        "source": "24/7 Wall St.",
+        "source": "247wallst.com",
         "published": "Mon, 31 Aug 2026 12:36:00 GMT"
       },
       "completed_work": [
@@ -683,7 +683,7 @@
         "Checked 4 relevant signal(s)",
         "Prepared hand-off to SOURCECHECK, VECTOR"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "CATALYST",
@@ -715,8 +715,8 @@
           "action": "HOLD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$182.41, +104.1% from $89.39",
-          "signal": "RSI 60.47 (neutral), MACD histogram +n/a, price +22.8% vs SMA50. Position +104.1% at 7.9% weight (P2). +51% from avg $92. AIP platform — 85% US commercial revenue growth. Rule of 40 = 145%. Government contracts expanding NATO. Do NOT add above $140.",
+          "price": "$182.53, +104.2% from $89.39",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +22.88% vs SMA50. Position +104.2% at 7.9% weight (P2). +51% from avg $92. AIP platform — 85% US commercial revenue growth. Rule of 40 = 145%. Government contracts expanding NATO. Do NOT add above $140.",
           "entry": "$144–$152",
           "stop": "$137",
           "target": "$219 (3 mo)",
@@ -728,8 +728,8 @@
           "action": "HOLD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$214.81, +104.3% from $105.15",
-          "signal": "RSI 53.92 (neutral), MACD histogram +n/a, price +7.44% vs SMA50. Position +104.3% at 4.8% weight (P2). +26% from avg $429. ARR growing 22% but slowing. Consider rotating 50% into PANW (stronger AI cyber, better margins). Watch Q2 earnings closely.",
+          "price": "$214.97, +104.4% from $105.15",
+          "signal": "RSI 53.98 (neutral), MACD histogram +n/a, price +7.51% vs SMA50. Position +104.4% at 4.8% weight (P2). +26% from avg $429. ARR growing 22% but slowing. Consider rotating 50% into PANW (stronger AI cyber, better margins). Watch Q2 earnings closely.",
           "entry": "$194–$204",
           "stop": "$184",
           "target": "$258 (3 mo)",
@@ -748,7 +748,7 @@
         "Checked 2 relevant signal(s)",
         "Prepared hand-off to SOURCECHECK, VECTOR"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "RADAR",
@@ -781,8 +781,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -794,32 +794,32 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "BE",
           "action": "HOLD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$235.36, +2.1% from $230.44",
-          "signal": "RSI 57.32 (neutral), MACD histogram +n/a, price +3.41% vs SMA50. Position +2.1% at 0.8% weight (P3). Lottery ticket — +8% at $267. Solid-oxide fuel cells for AI data centers. $467 correctly sized. Wait for 2 consecutive earnings beats before adding. Do NOT size",
+          "price": "$235.55, +2.2% from $230.44",
+          "signal": "RSI 57.39 (neutral), MACD histogram +n/a, price +3.49% vs SMA50. Position +2.2% at 0.8% weight (P3). Lottery ticket — +8% at $267. Solid-oxide fuel cells for AI data centers. $467 correctly sized. Wait for 2 consecutive earnings beats before adding. Do NOT size",
           "entry": "$221–$232",
           "stop": "$209",
-          "target": "$282 (3 mo)",
+          "target": "$283 (3 mo)",
           "sizing": "0.8% of portfolio · no active DCA",
           "action_text": "Hold; review on next signal"
         }
       ],
       "latest": {
-        "headline": "Elon Musk’s 15-Gigawatt Warning Points to a Very Different Set of AI Winners in 2027 - 24/7 Wall St.",
+        "headline": "Elon Musk’s 15-Gigawatt Warning Points to a Very Different Set of AI Winners in 2027 - 247wallst.com",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWTlLTVdIWkxfTXQ1aXdGdW5EWnlfbDZKbXBTUDRkVEY3b201ZzEybFhlU3FPLW5nLTJGeVJWc0E0NEx1RlVSdUFfOUFtalhKNkRXTWhPOFgxM1hfYlZ2cUNXVDM3U0h5Z3lyR2dNbEpxbVoxclNGSG1PWjJrVkNQYnFtcTl3cmlueFBIME9HbGVKbVM4YjlQb1U3Q0pEYlUwWmt0bm1Ob1BXMTFsX3FSV29GMFM5UnNia3dCVldka0J1QlVTWHc?oc=5",
-        "source": "24/7 Wall St.",
+        "source": "247wallst.com",
         "published": "Sun, 30 Aug 2026 15:13:00 GMT"
       },
       "completed_work": [
@@ -827,7 +827,7 @@
         "Checked 3 relevant signal(s)",
         "Prepared hand-off to SOURCECHECK, VECTOR"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "MACRO",
@@ -861,8 +861,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -874,37 +874,37 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "ASML",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$1646.53, +69.9% from $969.30",
-          "signal": "RSI 38.9 (neutral), MACD histogram +n/a, price -6.13% vs SMA50. Position +69.9% at 1.6% weight (P1). +61% from avg $1,012. Now 1.04 units. EUV monopoly — EVERY AI chip requires ASML machines. Irreplaceable. $200/month forever. Target 3 units ($5,000 position).",
+          "price": "$1646.19, +69.8% from $969.30",
+          "signal": "RSI 38.86 (neutral), MACD histogram +n/a, price -6.15% vs SMA50. Position +69.8% at 1.6% weight (P1). +61% from avg $1,012. Now 1.04 units. EUV monopoly — EVERY AI chip requires ASML machines. Irreplaceable. $200/month forever. Target 3 units ($5,000 position).",
           "entry": "$1701–$1789",
-          "stop": "$1515",
-          "target": "$1976 (3 mo)",
+          "stop": "$1514",
+          "target": "$1975 (3 mo)",
           "sizing": "$200/mo DCA · 1.6% of portfolio",
-          "action_text": "Accumulate near $1701–$1789; stop $1515"
+          "action_text": "Accumulate near $1701–$1789; stop $1514"
         },
         {
           "ticker": "BE",
           "action": "HOLD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$235.36, +2.1% from $230.44",
-          "signal": "RSI 57.32 (neutral), MACD histogram +n/a, price +3.41% vs SMA50. Position +2.1% at 0.8% weight (P3). Lottery ticket — +8% at $267. Solid-oxide fuel cells for AI data centers. $467 correctly sized. Wait for 2 consecutive earnings beats before adding. Do NOT size",
+          "price": "$235.55, +2.2% from $230.44",
+          "signal": "RSI 57.39 (neutral), MACD histogram +n/a, price +3.49% vs SMA50. Position +2.2% at 0.8% weight (P3). Lottery ticket — +8% at $267. Solid-oxide fuel cells for AI data centers. $467 correctly sized. Wait for 2 consecutive earnings beats before adding. Do NOT size",
           "entry": "$221–$232",
           "stop": "$209",
-          "target": "$282 (3 mo)",
+          "target": "$283 (3 mo)",
           "sizing": "0.8% of portfolio · no active DCA",
           "action_text": "Hold; review on next signal"
         },
@@ -913,11 +913,11 @@
           "action": "HOLD",
           "urgency": "low",
           "color": "#2dd4bf",
-          "price": "$417.20, +168.3% from $155.49",
-          "signal": "RSI 49.74 (neutral), MACD histogram +n/a, price -0.79% vs SMA50. Position +168.3% at 11.2% weight (P1). +158% from avg $160. Best semiconductor value at 15x fwd P/E. CoWoS packaging monopoly for NVDA/AVGO/AMD. $300/month DCA on dips below $390.",
+          "price": "$417.01, +168.2% from $155.49",
+          "signal": "RSI 49.62 (neutral), MACD histogram +n/a, price -0.84% vs SMA50. Position +168.2% at 11.2% weight (P1). +158% from avg $160. Best semiconductor value at 15x fwd P/E. CoWoS packaging monopoly for NVDA/AVGO/AMD. $300/month DCA on dips below $390.",
           "entry": "$408–$429",
           "stop": "$384",
-          "target": "$501 (3 mo)",
+          "target": "$500 (3 mo)",
           "sizing": "$300/mo DCA · 11.2% of portfolio",
           "action_text": "Hold; review on next signal"
         }
@@ -933,7 +933,7 @@
         "Checked 5 relevant signal(s)",
         "Prepared hand-off to SOURCECHECK, SENTINEL"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "SOURCECHECK",
@@ -962,8 +962,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$958.07, +118.3% from $438.87",
-          "signal": "RSI 53.48 (neutral), MACD histogram +n/a, price +1.68% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
+          "price": "$958.16, +118.3% from $438.87",
+          "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +1.69% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
           "entry": "$914–$961",
           "stop": "$867",
           "target": "$1150 (3 mo)",
@@ -975,8 +975,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$357.23, +9.3% from $326.71",
-          "signal": "RSI 37.54 (neutral), MACD histogram +n/a, price -6.99% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
+          "price": "$357.16, +9.3% from $326.71",
+          "signal": "RSI 37.51 (neutral), MACD histogram +n/a, price -7.01% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
           "entry": "$373–$392",
           "stop": "$329",
           "target": "$429 (3 mo)",
@@ -988,8 +988,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -1001,32 +1001,32 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "AMD",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$455.96, +140.5% from $189.56",
-          "signal": "RSI 42.7 (neutral), MACD histogram +n/a, price -8.87% vs SMA50. Position +140.5% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+          "price": "$456.16, +140.6% from $189.56",
+          "signal": "RSI 42.75 (neutral), MACD histogram +n/a, price -8.84% vs SMA50. Position +140.6% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
           "entry": "$485–$510",
-          "stop": "$419",
+          "stop": "$420",
           "target": "$547 (3 mo)",
           "sizing": "4.4% of portfolio · no active DCA",
-          "action_text": "Accumulate near $485–$510; stop $419"
+          "action_text": "Accumulate near $485–$510; stop $420"
         }
       ],
       "latest": {
-        "headline": "Nvidia Reportedly Agrees to Pay $12.9 Billion for the Central Hub of the Open-Source AI World, a Company With Just $150 Million in Revenue - 24/7 Wall St.",
+        "headline": "Nvidia Reportedly Agrees to Pay $12.9 Billion for the Central Hub of the Open-Source AI World, a Company With Just $150 Million in Revenue - 247wallst.com",
         "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPRldfTHljS0Z1YW9tWGtlanJ2MVVGLXVhdGxJNERZU012bkpIYUpoc01scktRNUxuY084cjJzeTFMSEdkSXlHaEljRjRKTnI4ME5pYnRpSEN5bURFWTJWcnVWbHdCU1JpYjFSNVBwVWNDSmdaNU1QSXZtcmtTUGpNeERPaXdyekVhYmpJZ1pUZXZ5RUtnN0dfbUtsTXhDSDU0Y2pnWFdLSnYwTEZsRmJRZ2ZlempfT0E5emNuYVg0OUVYRGhyTXVlRi1qYURkVEVOUUxGdk03Y2c3WjhVeTlxbWhCQWVDR09kQ1J6MEFwQW1vNVV5RVo2OWdtbno2SnE4ZnRHWW5TUi0wS0E?oc=5",
-        "source": "24/7 Wall St.",
+        "source": "247wallst.com",
         "published": "Thu, 27 Aug 2026 10:33:00 GMT"
       },
       "completed_work": [
@@ -1034,7 +1034,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to VECTOR, SENTINEL, ALLOCATOR"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "VECTOR",
@@ -1063,8 +1063,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$958.07, +118.3% from $438.87",
-          "signal": "RSI 53.48 (neutral), MACD histogram +n/a, price +1.68% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
+          "price": "$958.16, +118.3% from $438.87",
+          "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +1.69% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
           "entry": "$914–$961",
           "stop": "$867",
           "target": "$1150 (3 mo)",
@@ -1076,8 +1076,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$357.23, +9.3% from $326.71",
-          "signal": "RSI 37.54 (neutral), MACD histogram +n/a, price -6.99% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
+          "price": "$357.16, +9.3% from $326.71",
+          "signal": "RSI 37.51 (neutral), MACD histogram +n/a, price -7.01% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
           "entry": "$373–$392",
           "stop": "$329",
           "target": "$429 (3 mo)",
@@ -1089,8 +1089,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -1102,26 +1102,26 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "AMD",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$455.96, +140.5% from $189.56",
-          "signal": "RSI 42.7 (neutral), MACD histogram +n/a, price -8.87% vs SMA50. Position +140.5% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+          "price": "$456.16, +140.6% from $189.56",
+          "signal": "RSI 42.75 (neutral), MACD histogram +n/a, price -8.84% vs SMA50. Position +140.6% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
           "entry": "$485–$510",
-          "stop": "$419",
+          "stop": "$420",
           "target": "$547 (3 mo)",
           "sizing": "4.4% of portfolio · no active DCA",
-          "action_text": "Accumulate near $485–$510; stop $419"
+          "action_text": "Accumulate near $485–$510; stop $420"
         }
       ],
       "latest": {
@@ -1135,7 +1135,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to SENTINEL, ALLOCATOR"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "SENTINEL",
@@ -1166,8 +1166,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$958.07, +118.3% from $438.87",
-          "signal": "RSI 53.48 (neutral), MACD histogram +n/a, price +1.68% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
+          "price": "$958.16, +118.3% from $438.87",
+          "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +1.69% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
           "entry": "$914–$961",
           "stop": "$867",
           "target": "$1150 (3 mo)",
@@ -1179,8 +1179,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$357.23, +9.3% from $326.71",
-          "signal": "RSI 37.54 (neutral), MACD histogram +n/a, price -6.99% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
+          "price": "$357.16, +9.3% from $326.71",
+          "signal": "RSI 37.51 (neutral), MACD histogram +n/a, price -7.01% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
           "entry": "$373–$392",
           "stop": "$329",
           "target": "$429 (3 mo)",
@@ -1192,8 +1192,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -1205,26 +1205,26 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "AMD",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$455.96, +140.5% from $189.56",
-          "signal": "RSI 42.7 (neutral), MACD histogram +n/a, price -8.87% vs SMA50. Position +140.5% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+          "price": "$456.16, +140.6% from $189.56",
+          "signal": "RSI 42.75 (neutral), MACD histogram +n/a, price -8.84% vs SMA50. Position +140.6% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
           "entry": "$485–$510",
-          "stop": "$419",
+          "stop": "$420",
           "target": "$547 (3 mo)",
           "sizing": "4.4% of portfolio · no active DCA",
-          "action_text": "Accumulate near $485–$510; stop $419"
+          "action_text": "Accumulate near $485–$510; stop $420"
         }
       ],
       "latest": {
@@ -1238,7 +1238,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to ALLOCATOR, DEPLOY, CIO"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "ALLOCATOR",
@@ -1268,8 +1268,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$958.07, +118.3% from $438.87",
-          "signal": "RSI 53.48 (neutral), MACD histogram +n/a, price +1.68% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
+          "price": "$958.16, +118.3% from $438.87",
+          "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +1.69% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
           "entry": "$914–$961",
           "stop": "$867",
           "target": "$1150 (3 mo)",
@@ -1281,8 +1281,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$357.23, +9.3% from $326.71",
-          "signal": "RSI 37.54 (neutral), MACD histogram +n/a, price -6.99% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
+          "price": "$357.16, +9.3% from $326.71",
+          "signal": "RSI 37.51 (neutral), MACD histogram +n/a, price -7.01% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
           "entry": "$373–$392",
           "stop": "$329",
           "target": "$429 (3 mo)",
@@ -1294,8 +1294,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -1307,26 +1307,26 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "AMD",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$455.96, +140.5% from $189.56",
-          "signal": "RSI 42.7 (neutral), MACD histogram +n/a, price -8.87% vs SMA50. Position +140.5% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+          "price": "$456.16, +140.6% from $189.56",
+          "signal": "RSI 42.75 (neutral), MACD histogram +n/a, price -8.84% vs SMA50. Position +140.6% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
           "entry": "$485–$510",
-          "stop": "$419",
+          "stop": "$420",
           "target": "$547 (3 mo)",
           "sizing": "4.4% of portfolio · no active DCA",
-          "action_text": "Accumulate near $485–$510; stop $419"
+          "action_text": "Accumulate near $485–$510; stop $420"
         }
       ],
       "latest": {
@@ -1340,7 +1340,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to DEPLOY, CIO"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "DEPLOY",
@@ -1369,8 +1369,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$958.07, +118.3% from $438.87",
-          "signal": "RSI 53.48 (neutral), MACD histogram +n/a, price +1.68% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
+          "price": "$958.16, +118.3% from $438.87",
+          "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +1.69% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
           "entry": "$914–$961",
           "stop": "$867",
           "target": "$1150 (3 mo)",
@@ -1382,8 +1382,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$357.23, +9.3% from $326.71",
-          "signal": "RSI 37.54 (neutral), MACD histogram +n/a, price -6.99% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
+          "price": "$357.16, +9.3% from $326.71",
+          "signal": "RSI 37.51 (neutral), MACD histogram +n/a, price -7.01% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
           "entry": "$373–$392",
           "stop": "$329",
           "target": "$429 (3 mo)",
@@ -1395,8 +1395,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -1408,26 +1408,26 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "AMD",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$455.96, +140.5% from $189.56",
-          "signal": "RSI 42.7 (neutral), MACD histogram +n/a, price -8.87% vs SMA50. Position +140.5% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+          "price": "$456.16, +140.6% from $189.56",
+          "signal": "RSI 42.75 (neutral), MACD histogram +n/a, price -8.84% vs SMA50. Position +140.6% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
           "entry": "$485–$510",
-          "stop": "$419",
+          "stop": "$420",
           "target": "$547 (3 mo)",
           "sizing": "4.4% of portfolio · no active DCA",
-          "action_text": "Accumulate near $485–$510; stop $419"
+          "action_text": "Accumulate near $485–$510; stop $420"
         }
       ],
       "latest": {
@@ -1441,7 +1441,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to CIO"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "CIO",
@@ -1473,8 +1473,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$958.07, +118.3% from $438.87",
-          "signal": "RSI 53.48 (neutral), MACD histogram +n/a, price +1.68% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
+          "price": "$958.16, +118.3% from $438.87",
+          "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +1.69% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
           "entry": "$914–$961",
           "stop": "$867",
           "target": "$1150 (3 mo)",
@@ -1486,8 +1486,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$357.23, +9.3% from $326.71",
-          "signal": "RSI 37.54 (neutral), MACD histogram +n/a, price -6.99% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
+          "price": "$357.16, +9.3% from $326.71",
+          "signal": "RSI 37.51 (neutral), MACD histogram +n/a, price -7.01% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
           "entry": "$373–$392",
           "stop": "$329",
           "target": "$429 (3 mo)",
@@ -1499,8 +1499,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -1512,26 +1512,26 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "AMD",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$455.96, +140.5% from $189.56",
-          "signal": "RSI 42.7 (neutral), MACD histogram +n/a, price -8.87% vs SMA50. Position +140.5% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+          "price": "$456.16, +140.6% from $189.56",
+          "signal": "RSI 42.75 (neutral), MACD histogram +n/a, price -8.84% vs SMA50. Position +140.6% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
           "entry": "$485–$510",
-          "stop": "$419",
+          "stop": "$420",
           "target": "$547 (3 mo)",
           "sizing": "4.4% of portfolio · no active DCA",
-          "action_text": "Accumulate near $485–$510; stop $419"
+          "action_text": "Accumulate near $485–$510; stop $420"
         }
       ],
       "latest": {
@@ -1545,7 +1545,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to CEO, BRIEF"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     },
     {
       "code": "BRIEF",
@@ -1572,8 +1572,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$958.07, +118.3% from $438.87",
-          "signal": "RSI 53.48 (neutral), MACD histogram +n/a, price +1.68% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
+          "price": "$958.16, +118.3% from $438.87",
+          "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +1.69% vs SMA50. Position +118.3% at 3.9% weight (P0). MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi",
           "entry": "$914–$961",
           "stop": "$867",
           "target": "$1150 (3 mo)",
@@ -1585,8 +1585,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$357.23, +9.3% from $326.71",
-          "signal": "RSI 37.54 (neutral), MACD histogram +n/a, price -6.99% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
+          "price": "$357.16, +9.3% from $326.71",
+          "signal": "RSI 37.51 (neutral), MACD histogram +n/a, price -7.01% vs SMA50. Position +9.3% at 1.8% weight (P0). URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo",
           "entry": "$373–$392",
           "stop": "$329",
           "target": "$429 (3 mo)",
@@ -1598,8 +1598,8 @@
           "action": "ADD",
           "urgency": "critical",
           "color": "#e05252",
-          "price": "$285.06, +9.2% from $261.12",
-          "signal": "RSI 58.73 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+          "price": "$285.05, +9.2% from $261.12",
+          "signal": "RSI 58.72 (neutral), MACD histogram +n/a, price +7.24% vs SMA50. Position +9.2% at 1.3% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
           "entry": "$258–$271",
           "stop": "$245",
           "target": "$342 (3 mo)",
@@ -1611,26 +1611,26 @@
           "action": "TRIM",
           "urgency": "high",
           "color": "#c9a84c",
-          "price": "$376.60, +53.5% from $245.33",
-          "signal": "RSI 60.61 (neutral), MACD histogram +n/a, price +5.09% vs SMA50. Position +53.5% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
+          "price": "$376.36, +53.4% from $245.33",
+          "signal": "RSI 60.54 (neutral), MACD histogram +n/a, price +5.02% vs SMA50. Position +53.4% at 9.2% weight (P2). TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO.",
           "entry": "$348–$366",
           "stop": "$330",
           "target": "$452 (3 mo)",
           "sizing": "9.2% of portfolio · no active DCA",
-          "action_text": "Trim into strength near $377; redeploy to P0 names"
+          "action_text": "Trim into strength near $376; redeploy to P0 names"
         },
         {
           "ticker": "AMD",
           "action": "ADD",
           "urgency": "medium",
           "color": "#4a9eff",
-          "price": "$455.96, +140.5% from $189.56",
-          "signal": "RSI 42.7 (neutral), MACD histogram +n/a, price -8.87% vs SMA50. Position +140.5% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
+          "price": "$456.16, +140.6% from $189.56",
+          "signal": "RSI 42.75 (neutral), MACD histogram +n/a, price -8.84% vs SMA50. Position +140.6% at 4.4% weight (P1). +163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440.",
           "entry": "$485–$510",
-          "stop": "$419",
+          "stop": "$420",
           "target": "$547 (3 mo)",
           "sizing": "4.4% of portfolio · no active DCA",
-          "action_text": "Accumulate near $485–$510; stop $419"
+          "action_text": "Accumulate near $485–$510; stop $420"
         }
       ],
       "latest": {
@@ -1644,7 +1644,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to CEO"
       ],
-      "updated_at": "2026-09-04T03:11:58.853240+05:30"
+      "updated_at": "2026-09-04T05:35:06.906249+05:30"
     }
   ],
   "cadence": "hourly operating heartbeat; market TA refreshes separately during market hours",
@@ -2579,8 +2579,8 @@
   "action_queue": [
     {
       "ticker": "MU",
-      "current_price": 958.07,
-      "daily_change_pct": 0.21,
+      "current_price": 958.16,
+      "daily_change_pct": 0.22,
       "proposal": "ADD",
       "proposal_label": "PROPOSED ADD NOW",
       "urgency": "critical",
@@ -2600,8 +2600,8 @@
     },
     {
       "ticker": "AVGO",
-      "current_price": 357.23,
-      "daily_change_pct": -2.73,
+      "current_price": 357.16,
+      "daily_change_pct": -2.74,
       "proposal": "ADD",
       "proposal_label": "PROPOSED ADD NOW",
       "urgency": "critical",
@@ -2621,7 +2621,7 @@
     },
     {
       "ticker": "CEG",
-      "current_price": 285.06,
+      "current_price": 285.05,
       "daily_change_pct": -1.72,
       "proposal": "ADD",
       "proposal_label": "PROPOSED ADD NOW",
@@ -2642,8 +2642,8 @@
     },
     {
       "ticker": "TSLA",
-      "current_price": 376.6,
-      "daily_change_pct": 5.49,
+      "current_price": 376.36,
+      "daily_change_pct": 5.42,
       "proposal": "TRIM",
       "proposal_label": "PROPOSED TRIM",
       "urgency": "high",
@@ -2651,7 +2651,7 @@
       "stop": "$330",
       "target": "$452 (3 mo)",
       "sizing": "9.2% of portfolio · no active DCA",
-      "rationale": "Trim into strength near $377; redeploy to P0 names",
+      "rationale": "Trim into strength near $376; redeploy to P0 names",
       "price_owner": "Arjun Kapoor · ATLAS",
       "technical_owner": "Isha Nair · VECTOR",
       "risk_owner": "Kabir Singh · SENTINEL",
@@ -2663,16 +2663,16 @@
     },
     {
       "ticker": "AMD",
-      "current_price": 455.96,
-      "daily_change_pct": -0.24,
+      "current_price": 456.16,
+      "daily_change_pct": -0.2,
       "proposal": "ADD",
       "proposal_label": "PROPOSED ADD NOW",
       "urgency": "medium",
       "entry": "$485–$510",
-      "stop": "$419",
+      "stop": "$420",
       "target": "$547 (3 mo)",
       "sizing": "4.4% of portfolio · no active DCA",
-      "rationale": "Accumulate near $485–$510; stop $419",
+      "rationale": "Accumulate near $485–$510; stop $420",
       "price_owner": "Arjun Kapoor · ATLAS",
       "technical_owner": "Isha Nair · VECTOR",
       "risk_owner": "Kabir Singh · SENTINEL",
@@ -2684,8 +2684,8 @@
     },
     {
       "ticker": "VRT",
-      "current_price": 268.76,
-      "daily_change_pct": 4.7,
+      "current_price": 268.83,
+      "daily_change_pct": 4.73,
       "proposal": "ADD",
       "proposal_label": "PROPOSED ADD NOW",
       "urgency": "medium",
@@ -2705,16 +2705,16 @@
     },
     {
       "ticker": "ASML",
-      "current_price": 1646.53,
-      "daily_change_pct": -2.13,
+      "current_price": 1646.19,
+      "daily_change_pct": -2.15,
       "proposal": "ADD",
       "proposal_label": "PROPOSED ADD NOW",
       "urgency": "medium",
       "entry": "$1701–$1789",
-      "stop": "$1515",
-      "target": "$1976 (3 mo)",
+      "stop": "$1514",
+      "target": "$1975 (3 mo)",
       "sizing": "$200/mo DCA · 1.6% of portfolio",
-      "rationale": "Accumulate near $1701–$1789; stop $1515",
+      "rationale": "Accumulate near $1701–$1789; stop $1514",
       "price_owner": "Arjun Kapoor · ATLAS",
       "technical_owner": "Isha Nair · VECTOR",
       "risk_owner": "Kabir Singh · SENTINEL",
@@ -2726,8 +2726,8 @@
     },
     {
       "ticker": "META",
-      "current_price": 610.77,
-      "daily_change_pct": 3.02,
+      "current_price": 610.68,
+      "daily_change_pct": 3.01,
       "proposal": "HOLD",
       "proposal_label": "PROPOSED HOLD",
       "urgency": "medium",
@@ -2768,8 +2768,8 @@
     },
     {
       "ticker": "AMZN",
-      "current_price": 258.84,
-      "daily_change_pct": 1.51,
+      "current_price": 258.9,
+      "daily_change_pct": 1.54,
       "proposal": "HOLD",
       "proposal_label": "PROPOSED HOLD",
       "urgency": "medium",
@@ -2789,8 +2789,8 @@
     },
     {
       "ticker": "PLTR",
-      "current_price": 182.41,
-      "daily_change_pct": 7.64,
+      "current_price": 182.53,
+      "daily_change_pct": 7.71,
       "proposal": "HOLD",
       "proposal_label": "PROPOSED HOLD",
       "urgency": "medium",
@@ -2810,8 +2810,8 @@
     },
     {
       "ticker": "MSFT",
-      "current_price": 509.83,
-      "daily_change_pct": 2.62,
+      "current_price": 510.12,
+      "daily_change_pct": 2.68,
       "proposal": "HOLD",
       "proposal_label": "PROPOSED HOLD",
       "urgency": "medium",
@@ -2831,8 +2831,8 @@
     },
     {
       "ticker": "CRWD",
-      "current_price": 214.81,
-      "daily_change_pct": 5.6,
+      "current_price": 214.97,
+      "daily_change_pct": 5.68,
       "proposal": "HOLD",
       "proposal_label": "PROPOSED HOLD",
       "urgency": "medium",
@@ -2852,14 +2852,14 @@
     },
     {
       "ticker": "BE",
-      "current_price": 235.36,
-      "daily_change_pct": 8.32,
+      "current_price": 235.55,
+      "daily_change_pct": 8.41,
       "proposal": "HOLD",
       "proposal_label": "PROPOSED HOLD",
       "urgency": "medium",
       "entry": "$221–$232",
       "stop": "$209",
-      "target": "$282 (3 mo)",
+      "target": "$283 (3 mo)",
       "sizing": "0.8% of portfolio · no active DCA",
       "rationale": "Hold; review on next signal",
       "price_owner": "Arjun Kapoor · ATLAS",
@@ -2873,8 +2873,8 @@
     },
     {
       "ticker": "ANET",
-      "current_price": 191.33,
-      "daily_change_pct": 2.81,
+      "current_price": 191.44,
+      "daily_change_pct": 2.87,
       "proposal": "HOLD",
       "proposal_label": "PROPOSED HOLD",
       "urgency": "medium",
@@ -2894,8 +2894,8 @@
     },
     {
       "ticker": "NVDA",
-      "current_price": 228.39,
-      "daily_change_pct": 1.77,
+      "current_price": 228.45,
+      "daily_change_pct": 1.8,
       "proposal": "HOLD",
       "proposal_label": "PROPOSED HOLD",
       "urgency": "low",
@@ -2915,14 +2915,14 @@
     },
     {
       "ticker": "TSM",
-      "current_price": 417.2,
-      "daily_change_pct": 0.41,
+      "current_price": 417.01,
+      "daily_change_pct": 0.36,
       "proposal": "HOLD",
       "proposal_label": "PROPOSED HOLD",
       "urgency": "low",
       "entry": "$408–$429",
       "stop": "$384",
-      "target": "$501 (3 mo)",
+      "target": "$500 (3 mo)",
       "sizing": "$300/mo DCA · 11.2% of portfolio",
       "rationale": "Hold; review on next signal",
       "price_owner": "Arjun Kapoor · ATLAS",
@@ -2939,7 +2939,7 @@
     "chair": "Vikram Iyer · CIO",
     "status": "DEBATING",
     "ticker": "MU",
-    "current_price": 958.07,
+    "current_price": 958.16,
     "proposal": "ADD",
     "proposal_owner": "Meera Joshi · DEPLOY",
     "lenses": [
@@ -2996,8 +2996,8 @@
     "material_actions": 4,
     "top_action": {
       "ticker": "MU",
-      "current_price": 958.07,
-      "daily_change_pct": 0.21,
+      "current_price": 958.16,
+      "daily_change_pct": 0.22,
       "proposal": "ADD",
       "proposal_label": "PROPOSED ADD NOW",
       "urgency": "critical",
