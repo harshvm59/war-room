@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T01:19:13.814000+05:30",
+  "updated_at": "2026-09-05T13:19:42.443451+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,8 +8,8 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-09-05",
-      "published": "Fri, 04 Sep 2026 12:10:00 GMT",
-      "source_name": "Fortune",
+      "published": "Fri, 04 Sep 2026 21:08:00 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -18,11 +18,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia’s $13 billion Hugging Face bet reveals Jensen Huang’s vision for the next AI battleground - Fortune",
+          "t": "Headline signal (not a direct quote): Jensen Huang Said This Word Exactly 1 Time During Nvidia's Earnings Call, and That Was Enough to Put Artificial Intelligence (AI) Bubble Fears to Rest - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQVd2X1dnTS12d3ozWnJ4VWV4eW8wRFV2Qkg1TjR2T0E2WDdqTUg1SDMySE40NXJLUkp6RktXU2ZGYkgtc3oxRGVjWjM4Z1UxNU9wSDBJTFRIQm52MC1WQnlzcUlRYmpNTm5oZzdlVGpFYy05TXdfMWNMVEJVcDhyd09JS1k0Q294VkV1R2NIYmlFYkVIQmZBcWxfVW5uWDd1NDRObDBVTW55REZvMmI5ZzZGaW1GQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWlpWU2VJejYzMXVyNTIyYnhsVjFJNzdTeS1rZGVsQ2xwQ2tGWGxqUVpJUmJjTEc4RGQwNVhRWGtoNU9nQVZybFJqZF9CX055WTBfb1FBZ0RXNG01bFRvWUFTVHl6WFVwX2g4WkVHanV4WGhPTXB3QmxaSGRnVTRWZGJ3RlpfQjAzM2lnOVFfUTdkSVV2ZjBv?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -51,20 +51,21 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-09-05",
-      "published": "Thu, 03 Sep 2026 22:02:19 GMT",
-      "source_name": "finance.yahoo.com",
+      "published": "Fri, 04 Sep 2026 23:35:12 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "themes": [
-        "#AI"
+        "#AI",
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook - finance.yahoo.com",
+          "t": "Headline signal (not a direct quote): Dan Ives Says NVDA's Recent Underperformance Is A Bump Than Anything Else — 'There's One Chip In The World Fueling The AI Revolution' - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNM2M4QUoxTEtuMVQ1S3UzRUVrTEZDRmQ0WF9YNTN5UGlSQWhXQTVIMjhiR3U1QnFTOFl6VUdmRVkxN1RSc25QYTJ5YjBEUHpVZVpJM2RWcVJzRWpwSHpEclZKWWN4clp0RS1HdXBUa1VZTFlBWmRTeDBnZ3NaTVpRSWFndXFKdldkWEF0RE9OY2g?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUU5ObnlHeHY0N0VIc3ZvalRIazROX28yTGZVZ1MzYXlkUFpaSjNjUFhKc2hZMzNNUC04RktraHpBRnVVNkQtNjFwQUQ1S0JQcmpFOUpGdHZkaE1TXzRFMU5QNDdZVVdWY2RKRjV1YnNyUk42UmdmeHFNalVMakpyS3M4azdhSE1Cb296eXZnSndMZXFqSXU0WlRRNldzWTJvUUhobWIzNXU2cVpjNDB6UURWVDgtU3YxcFNmbklNR0huSkFKcklqcFp3?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -72,7 +73,7 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-09-05",
-      "published": "Fri, 04 Sep 2026 17:45:10 GMT",
+      "published": "Fri, 04 Sep 2026 18:20:00 GMT",
       "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -95,7 +96,7 @@
       "cat": "CEO",
       "date": "2026-09-05",
       "published": "Fri, 04 Sep 2026 12:09:00 GMT",
-      "source_name": "Al Arabiya English",
+      "source_name": "english.alarabiya.net",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -104,11 +105,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su on Saudi Arabia’s $10 billion AI investment & HUMAIN partnership - Al Arabiya English",
+          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su on Saudi Arabia’s $10 billion AI investment & HUMAIN partnership - english.alarabiya.net",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTEJULUltT2JDejhEb1NrTDRwdEJjdG1qVmduMTdTYS1IaTlSdm83VVFleC12bGNzWHBqQ3hraldjdWowVFYwQlRyZFZKOXFTdFV6SkkydF91Vko0aHdPMGV4NGlPM0JFaDhhSk1nSlM4MkhhQ1F6UC05YkczOGNqeVkzOXh1Sk5zYTBNLWVJTS1JbjQwMUxqanR3M2w3WG1HY0o2RXVSS2VDTE5UeGlRblNrcHZXWEpNSGZZeVNMMVpXMEFUX0lkVlk4SlhxbUhMUG5FVkJjZHdLQjFERllZRzZUb3ZUQdIB6wFBVV95cUxOTmNqWjkyVmxqalFHbVhNZWwzQjVtNXZ4V3NlNWFYdGxLYTdXU0hsUXRxNlNzWi1mYXpGRHdzQWRGU2FraWQ0MFVZa2VJTGU0bi1ZWG1ZVHFIVWpQRzFRdFJPbWlXUmdoLTI0aEpsblhZMFJzbUZia1hXZWdPcW1EenpGSHRHTWlzSGhUaFdDVkF3RFByNE50MFU0SVYzd3hlQjVld2ZxRXBibE05SGZ5Q3hwdEhyclduUC1XMFRYakllUEEyMEVsd1hzM2RxMGZYUmU5SUl3YmZUbGEtRDRxTWRFZ0xxWEttY09J?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTmNqWjkyVmxqalFHbVhNZWwzQjVtNXZ4V3NlNWFYdGxLYTdXU0hsUXRxNlNzWi1mYXpGRHdzQWRGU2FraWQ0MFVZa2VJTGU0bi1ZWG1ZVHFIVWpQRzFRdFJPbWlXUmdoLTI0aEpsblhZMFJzbUZia1hXZWdPcW1EenpGSHRHTWlzSGhUaFdDVkF3RFByNE50MFU0SVYzd3hlQjVld2ZxRXBibE05SGZ5Q3hwdEhyclduUC1XMFRYakllUEEyMEVsd1hzM2RxMGZYUmU5SUl3YmZUbGEtRDRxTWRFZ0xxWEttY09J0gHrAUFVX3lxTE5OY2paOTJWbGpqUUdtWE1lbDNCNW01dnhXc2U1YVh0bEthN1dTSGxRdHE2U3NaLWZhekZEd3NBZEZTYWtpZDQwVVlrZUlMZTRuLVlYbVlUcUhValBHMVF0Uk9taVdSZ2gtMjRoSmxuWFkwUnNtRmJrWFdlZ09xbUR6ekZIdEdNaXNIaFRoV0NWQXdEUHI0TnQwVTRJVjN3eGVCNWV3ZnFFcGJsTTlIZnlDeHB0SHJyV25QLVcwVFhqSWVQQTIwRWx3WHMzZHEwZlhSZTlJSXdiZlRsYS1ENHFNZEVnTHFYS21jT0k?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -137,21 +138,21 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-05",
-      "published": "Thu, 03 Sep 2026 20:48:04 GMT",
-      "source_name": "Fox Business",
+      "published": "Sat, 05 Sep 2026 06:32:16 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir's Alex Karp sheds light on the dangers of falling behind in the AI race - Fox Business",
+          "t": "Headline signal (not a direct quote): Michael Burry Targets Palantir Again, Flags ‘Nefarious’ Accounting And CEO Alex Karp’s $17M Jet Bill - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VWjd1SHAyS0JlRXFRX0FOLWZTY05Ta1lfb2JDV3BUQzFxRGY1RnB1SlFKT3g0TzRNSlAwMFlaeVJYMW1wcHNMLXJLOWtfbHctVGJOZ2Y3OTIwSzA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRWZGbGltVHRLb05mcHBsYldNNms3d29tTUVNV2Q0WkZabU1tRWdiT09mdDNka2pkUXVobzBYR2hqRDJwZVpSLXBOdlBIUjhfeGhocHQxdzQ4MFVlN3dsVzVoZTZ2dXFjQWNHb0VZcGdncW82UFBjZU53S2Y4ZEJ2c2hvSzdpR01yWTJncXlwVktjWUQ3U0RsMkk3TnhOaE5XNjZLVmhaRlZnUTRlZTVRSzh0SmhyclhoWkE5S0I3cjJFUzBHYnVmM21JaHFzbnozSWhfdjNpQ1VBX05BdS1WYU03ZERKRXdpWU5MQXVjUTZhN3M?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -159,21 +160,20 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-09-05",
-      "published": "Fri, 04 Sep 2026 01:04:15 GMT",
-      "source_name": "Stocktwits",
+      "published": "Fri, 04 Sep 2026 16:04:20 GMT",
+      "source_name": "marketscreener.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 7,
       "themes": [
-        "#AI",
-        "#TSLA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): SpaceX IPO Filing Shows Elon Musk’s Company Holds More Bitcoin Than Tesla - Stocktwits",
+          "t": "Headline signal (not a direct quote): Musk's xAI loses court bid to block Minnesota's AI 'nudification' ban - marketscreener.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUXc2Z0JvZlNKOGNXWVZlMFFFUUpjUDBoa3dEWFg2N210WVlHZUV0aGZqX08yS1hNMlM2czIxaFBmbm10OUpIM29BcW9kY2dfRzl5TVJpTTRtZzc5Nml0Z2tVdGNRUnYtWGJxWnozejcyZmxrLUZGVXJSM1BFWTJ0SjlWZDZSTF9nSkZzeEJacXVzblBiZG8yYnFWanNtRDF0cjcxbjBKODd0Uzhua3JIWnk5VUtJa2NBZlFraFAtcjhlWF9SV3RQdWQ2S3FHaENDM1E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcW5aa25mU0Y5VUtUOVAtWm9zYVNRczBPdm9yTi1XUDR0ZTZjTHVUZTMzNmltamY2OE50SURBUE0xYmdUbEM0UXVwM0M0RlBhNk5lRXd1UXJDcXkyWGxLMlhZcEt4eHA4UHFUX3RpWVllcWRDNG9aaGE1d21jeDBOcGpfUy1LSzZLMERvbWwzZDdYamtUV2JaLUdVbUZETlhlNkNJazJsd0lYeGpIbEFqUU9IWG9tMWVWTWxSVg?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -181,21 +181,21 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-09-05",
-      "published": "Thu, 03 Sep 2026 20:56:09 GMT",
-      "source_name": "reuters.com",
+      "published": "Fri, 04 Sep 2026 20:11:00 GMT",
+      "source_name": "The Guardian",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg had a bold plan to replace Meta staff with AI — and it imploded. Answering readers’ questions on Reddit - reuters.com",
+          "t": "Headline signal (not a direct quote): It’s time for Mark Zuckerberg to resign from Meta | Joan Donovan - The Guardian",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMUhhTnFBSEg4VHB4TjZiR3hPeHp3VmJ6UEt0ZTNkWXR6bWE2bElhOHc1SmJNeUdjUW5WSEFmNHFuSEpFc1RzMDA0U0VxNW4wME40OG44emg1TVBtbGxkQXBXMjNqSnRPVXc4R2dyRFVQdUNaM2tfSUdqWkxNYko2aHNGeThEdkdVUzd0c2FnbUlCVzFFcFFRRDRkVnlSbGtfNVRfd3M1bE1WUVNlZmpDaFYzRHktaXZJVXpNZlFCajlrbDFBcTY1NW1uUVZHQW5DSEY1LUFMZlJmY21MN2JPMXVUVQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2dkUkwwODY2b2tSYjc0emx0OXBoclV4a0VFVWVmWlRmdE56U29haGRFdmlBUDZ0cS1KMGJDcmJsSzFULUtzY1lhZ2R4dWxMRjZlTEFRWmN5WDJJeG9DbWg3Y1RjM0tyV3lYN3RnOGlhVXVNSldBS29SY3Q2TlZZQXRLcFEwTDJ0b0tkNkxZYXE1TkowWGJB?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -225,43 +225,21 @@
       "org": "Broadcom",
       "cat": "CEO",
       "date": "2026-09-05",
-      "published": "Thu, 03 Sep 2026 23:52:00 GMT",
-      "source_name": "The Motley Fool",
+      "published": "Sat, 05 Sep 2026 00:30:00 GMT",
+      "source_name": "finance.yahoo.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Hock Tan Just Put a $230 Billion Number on Broadcom's 2028 AI Revenue. That Is 4 Times This Year's. - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Why Broadcom CEO Hock Tan Called Anthropic and OpenAI 'Two Geniuses in the Middle of Mongolia' - finance.yahoo.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQanREUmFuT0RSems3bEUyNFpONmlWMU9xdkZ3S0stcUplY3dTVWhrREY3aHJWcU1vczF0MnJnaWRvMzlscEI4SVpKZl9qQ0NmRmtIUzVfbElqMVRULXdtN0Z2NUZZSHZJaEpwY0RUaFNJRnNZV0NJYlc0b1dtQTZMWUZDbzRHZUlzaEtnXzQ2T1lwSW43M2NfRjVzWFFVSVA2YmNHVUxuSXpKWlZoMzFldVNiOWo0anpwX0gzZEx3VHZiZkpKaXJVc0VvRWtPbk4tTWdUeG16TjRmdw?oc=5"
-    },
-    {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
-      "date": "2026-09-05",
-      "published": "Fri, 04 Sep 2026 19:36:39 GMT",
-      "source_name": "Fox News",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Fonda rushes to defend Mark Ruffalo against antisemitism accusation, says Larry Ellison 'should be ashamed' - Fox News",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYzBJbGZWdEVTemhzN09mdEJSVkdTUE1nSVZ6VmlNa0s0eWd0UG5mYWE2QmFwUGdyUlBGYlRiWGoyWE1qZk5jOHVlYWZhVVVFdENrMEs0X0tiUjhoWFh6elVPTTdYZkdCRDlLVmFmbGY3NmVFVm5rTDgtSThOeVFjTHBfRXRIdnNxcklVM3FGQ3dOME1UWlI4cmNoQlFRbndMS2RuMjJNRC1aX0Fv?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLW9vZ0lJRHhGVm44UTZRemdqcXgwTnZ0UmVBTkZ6TEcycHBRNTNhZjVYMGRtUmVETjdlRnp1LVZNUGs4OG1uWU9INU1KRHlKU2lOSklTWXJVUVVEQ0VzZlZ0MkVoZ2xEamlxZGpQWVpmdjlwTnBhdjJ5X0JoSVc4ZEFlaXI1ZDByaWNFUW4yT2JkRU0?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -269,20 +247,20 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-09-05",
-      "published": "Fri, 04 Sep 2026 14:00:27 GMT",
-      "source_name": "finance.yahoo.com",
+      "published": "Sat, 05 Sep 2026 00:22:49 GMT",
+      "source_name": "Investing.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Just Bought 705,102 Shares of a Rocket Company 50 Times Smaller Than SpaceX - finance.yahoo.com",
+          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK sees major stock moves with Robinhood and Twist Bioscience - Investing.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVEtSN3Nmejl4eGx4OTRUaFJnLVRneU1XTkFfcnEyMjAyR1BHNUhaWkFFbnR1bEI3VXd0Q3ZmZkdqdDhNZjJ4NU5DdUhncndoSmR2cVVGVWVXenJ2N1hjRmREbHdjSmJseXpWVUxWcE9hQ0VIQVVVS2dYTG5XY3F3OGcyOG9KVTc3c3g5a0FQMW9YVHZWblU4?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOX05ZeS13TE1YQlFXZDZ5dFJvb2FCQ1YtT2NISVBHdHhNM0pyS2ZrQWMzN1gxSGswQWtDX3Y1ZFhNcGh2b3NZbkFkQjBURlEzOG9YNTRTX3NrZkRFamNuNGllOC1kZ1ZYYmZzeWNEZlFBREU3Z0w5VEtfZFZQYnN1Y3ZEUVpPQXdNeWF4ZE5sZ0FSSElva2xrMVZiV2pqdGU0T3A4MVI0b0tKSW81SW5GQWtTZ1gxWGZ6OGV6OTFCTjdENjFWSU15Q1h1ZDg?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -290,21 +268,21 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-09-05",
-      "published": "Fri, 04 Sep 2026 18:10:33 GMT",
+      "published": "Fri, 04 Sep 2026 22:51:41 GMT",
       "source_name": "finance.yahoo.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Says Buy the Magnificent Seven Again, Traders See Nvidia as Clear Winner - finance.yahoo.com",
+          "t": "Headline signal (not a direct quote): Jim Cramer Says “Someone Must Know Something” About Broadcom Inc. (NASDAQ:AVGO)’s Post-Earnings Share Dip - finance.yahoo.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSUdvT21sMHpkWVlyZE9hRkZxLWNfaHFQLVZOZ1hkN1R2MTI2ZWZaM1JYWjhhM1ZteDk2SzhXbTdlSXhNY3NRa1VrNXJGdUdVWFpqVngxRDJkTmNTOVZRVlJDeHhVQ3E4endxY21PVjhuTjg1MXNwTTQ1ODdJbW43MUZpdE9ocmlCd3gzalY5anBQekVlT0ZNY3FucWs?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVVdxTnNldmFMY1F0NUdFbVFCcTBPTnhUcC0zcDBYS2c1dVhoUEFab2g2WUdjRkJoRUdWUlRSZGpLdjc5Wjl3M3hBTWI4Z0tGM3J0MGZ3OUN3X3ZqN2s0VTlOdGxhWXV6X2NJazh4cE1oVlRmZm5KX3JwTUU2SDFRUjJESURtMGIxckVNdWVGSVBDQnU1RDZKRA?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -312,7 +290,7 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-09-05",
-      "published": "Fri, 04 Sep 2026 06:29:45 GMT",
+      "published": "Sat, 05 Sep 2026 05:01:39 GMT",
       "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -322,37 +300,37 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Gene Munster Says Tesla Cybercab's Austin Launch Signals Elon Musk’s ‘Paranoid’ Phase Over Robotaxi Accid - Benzinga",
+          "t": "Headline signal (not a direct quote): Gene Munster Predicts Tesla Could Add 300 Cybercabs to Austin Robotaxi Fleet - Tesla (NASDAQ:TSLA) - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQcVc2Mnh6YWpsbXVxMDlheGhEakp4Um9CbjRkRU8yZkpHRlBVcGtPUWJEM2ZmZXdKbGVsdDBwWWJLTGVjMllWc2syaHRiQ3pNZkdJVnA1OHhWZVFMaVlIY2FjNXRpMVg5cFViNFZ3QkxvWXVhQ0tvSGxGaG42VUFHNkphVWNidEpraFkwY2ZBdXdyT3lTYkxza1dpZEUzdmhCeEJhbU5YMXJQQ3dESlNzRWlNOVVRRlFYVEwtcnB5MzNZVVVXNGx6RUxiTG5Qd0g4VVJ6bjhNUTNlc1FzZUJMVG1sb2RiYl9CNHpiNUY2bkxULTIzdkctOWpqTVJDR0VzMzJ3V09DVVZTNGJBaHViZTM5dE0xQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZzl1V2NuRXRvUzZWV2JHS29STlRvcGZVNEVDSXpvZTRBd1ZsbVBWSUdHTmpLVlB3T0JnNFFxZHNaNTdRb1JELWxubEhnbzBLU3h4bV81SUlUSEFsVk84Sjg3TlBXcDZuVjBSREdISUo5RHVjdnZ6NXY0bzR5bDNBY1U1RDRGWDFMYXU2QThoQ0RxQ09SaXhEMUY5RGV4VmI1Ul9fOQ?oc=5"
     },
     {
-      "name": "Patrick Moorhead",
-      "role": "CEO and Chief Analyst",
-      "org": "Moor Insights and Strategy",
+      "name": "Pierre Ferragu",
+      "role": "Senior Analyst",
+      "org": "New Street Research",
       "cat": "Analyst",
       "date": "2026-09-05",
-      "published": "Fri, 04 Sep 2026 02:43:48 GMT",
-      "source_name": "Mshale",
+      "published": "Sat, 05 Sep 2026 02:01:36 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 7,
+      "relevance_score": 8,
       "themes": [
         "#AI",
-        "#AMD"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia, AMD Sell-off Makes 'absolutely No Sense,' Says Patrick Moorhead Bra Torres (FKRvZUIy9h) - Mshale",
+          "t": "Headline signal (not a direct quote): Pierre Ferragu Says Tesla FSD Could Be At An 'Inflection Point,' Compares It To The iPhone Playbook — 'Give Us 2 More Quarters' - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDNTFwamNZTW1uOEYzWU9PRmRxeFNFOHNnek5rRUxuRFFXMGlQM0pjc0ZwV1loZ3dhaFdudlhBUVFaQkFzSlVlQnQ3Vl81TlFvako1VzFkSV85NWs?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VXbFFIak5YSjF2dUZvQ2R4TTd4dFpoMmdhWm81UGFwRnZwSnZ4UkNDeG9ERmpxMjlkQWNFbE8ycmVLVnVxRkZpNmFMMmNRVldEOXVYUTlIX2JBYVAxZ1d6WktMekZfdWNjTTlMZllDcTNLcXE1SXNHVm9tQkZ5aXZiUVRtNjVnZ25NdVM3ZV9TQjlXNUFvSS1kd1NkLTF2ek1aN25FQ0RISHVHVER5R3J3aklKVlNLMHFvNFJB?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 16,
+  "fresh_signal_count": 15,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
