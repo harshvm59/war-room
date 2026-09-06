@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T13:21:39.037655+05:30",
+  "updated_at": "2026-09-06T13:37:24.684513+05:30",
   "source": "google-news-rss+deterministic-cohorts",
   "items": [
     {
@@ -7,13 +7,22 @@
       "dashboard_name": "AI COMPUTE & SEMICONDUCTORS",
       "priority": "P1",
       "target_pct": 28,
-      "rating": "QUIET",
-      "rc": "var(--blue)",
-      "signal_score": 1.7,
-      "signal_basis": "0 fresh sources · 0 direct cohort mentions · +3.44% average 1D cohort move",
+      "rating": "ACTIVE",
+      "rc": "var(--gold)",
+      "signal_score": 4.0,
+      "signal_basis": "1 fresh sources · 1 direct cohort mentions · +3.44% average 1D cohort move",
       "rating_method": "fresh-source breadth + direct cohort mentions + 1D cohort momentum",
-      "summary": "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring. Signal score 1.7/10 (0 fresh sources · 0 direct cohort mentions · +3.44% average 1D cohort move). This is research activity, not an automatic trade order.",
-      "news": [],
+      "summary": "Daily automated RSS scan on 2026-09-06. Latest source-linked signal: From NVDA To QCOM: Choosing The Right Semiconductor Stocks In The AI Microchip Race - MethodShop Signal score 4.0/10 (1 fresh sources · 1 direct cohort mentions · +3.44% average 1D cohort move). This is research activity, not an automatic trade order.",
+      "news": [
+        {
+          "title": "From NVDA To QCOM: Choosing The Right Semiconductor Stocks In The AI Microchip Race - MethodShop",
+          "date": "2026-09-06",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJVEpndUp2MzFKQm9kbEliX0hqVHlmbVd1WWloNFdsdWUxQWM0VndvLXJib0RtQUQ2c242dU40Y1RxZUxZcDFQMjRBN1F2enhZOUhwQXZVTWNQTUV3V25ERTRDcUpUZDZQUWJYalNkWjZCY3Jo?oc=5",
+          "source": "MethodShop",
+          "published": "Sat, 05 Sep 2026 15:37:00 GMT",
+          "relevance_score": 7
+        }
+      ],
       "tickers": [
         {
           "ticker": "AVGO",
@@ -37,11 +46,25 @@
           "priority": "P1",
           "price": 1016.59,
           "change_pct": 6.1,
-          "units": 4.4804308,
-          "current_value": 4554.76,
+          "units": 4.4908881,
+          "current_value": 4565.39,
           "source_hits": 0,
           "reason": "HBM and memory-cycle exposure",
           "rank": 2
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "status": "HOLD",
+          "owned": true,
+          "priority": "P1",
+          "price": 230.36,
+          "change_pct": 0.84,
+          "units": 120.0915872,
+          "current_value": 27664.3,
+          "source_hits": 1,
+          "reason": "GPU compute and CUDA platform leader",
+          "rank": 3
         },
         {
           "ticker": "AMD",
@@ -55,7 +78,7 @@
           "current_value": 5092.4,
           "source_hits": 0,
           "reason": "Second-source accelerator and server CPU exposure",
-          "rank": 3
+          "rank": 4
         },
         {
           "ticker": "ASML",
@@ -69,20 +92,6 @@
           "current_value": 1850.56,
           "source_hits": 0,
           "reason": "EUV lithography monopoly",
-          "rank": 4
-        },
-        {
-          "ticker": "NVDA",
-          "name": "Nvidia",
-          "status": "HOLD",
-          "owned": true,
-          "priority": "P1",
-          "price": 230.36,
-          "change_pct": 0.84,
-          "units": 120.0915872,
-          "current_value": 27664.3,
-          "source_hits": 0,
-          "reason": "GPU compute and CUDA platform leader",
           "rank": 5
         },
         {
@@ -131,7 +140,7 @@
       "candidate_count": 2,
       "owned_count": 6,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-09-05T13:21:39.037402+05:30"
+      "cohort_updated_at": "2026-09-06T13:37:24.684238+05:30"
     },
     {
       "theme": "Energy & Nuclear Power",
@@ -248,7 +257,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-09-05T13:21:39.037456+05:30"
+      "cohort_updated_at": "2026-09-06T13:37:24.684293+05:30"
     },
     {
       "theme": "Defense & National Security",
@@ -351,7 +360,7 @@
       "candidate_count": 5,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-09-05T13:21:39.037489+05:30"
+      "cohort_updated_at": "2026-09-06T13:37:24.684328+05:30"
     },
     {
       "theme": "Agentic AI & Enterprise SaaS",
@@ -482,7 +491,7 @@
       "candidate_count": 3,
       "owned_count": 5,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-09-05T13:21:39.037528+05:30"
+      "cohort_updated_at": "2026-09-06T13:37:24.684368+05:30"
     },
     {
       "theme": "Healthcare AI & GLP-1",
@@ -571,7 +580,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-09-05T13:21:39.037554+05:30"
+      "cohort_updated_at": "2026-09-06T13:37:24.684396+05:30"
     },
     {
       "theme": "Physical AI & Humanoid Robotics",
@@ -660,7 +669,7 @@
       "candidate_count": 4,
       "owned_count": 1,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-09-05T13:21:39.037580+05:30"
+      "cohort_updated_at": "2026-09-06T13:37:24.684426+05:30"
     },
     {
       "theme": "Critical Minerals & Copper",
@@ -749,7 +758,7 @@
       "candidate_count": 5,
       "owned_count": 0,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-09-05T13:21:39.037603+05:30"
+      "cohort_updated_at": "2026-09-06T13:37:24.684451+05:30"
     },
     {
       "theme": "Sovereign AI Infrastructure",
@@ -866,7 +875,7 @@
       "candidate_count": 4,
       "owned_count": 3,
       "research_mode": "RSS + deterministic cohort",
-      "cohort_updated_at": "2026-09-05T13:21:39.037635+05:30"
+      "cohort_updated_at": "2026-09-06T13:37:24.684486+05:30"
     }
   ],
   "fresh_window_hours": 24,
