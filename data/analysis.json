@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T04:37:19.121954+05:30",
+  "updated_at": "2026-09-08T00:00:29.808069+05:30",
   "source": "yahoo+local-ta+rules",
   "items": [
     {
@@ -10,12 +10,12 @@
       "monthly_dca": 500,
       "holding": {
         "units": 120.0915872,
-        "avg_cost": 80.53,
+        "avg_cost": 80.94,
         "current_price": 230.36000061035156,
         "prev_close": 228.45,
-        "invested": 9670.98,
+        "invested": 9720.21,
         "current_value": 27664.3,
-        "pnl_pct": 186.05
+        "pnl_pct": 184.61
       },
       "ta": {
         "rsi14": 60.39,
@@ -27,7 +27,7 @@
         "sma200": null,
         "vs_sma50_pct": 9.4,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.03,
+        "vol_ratio_20d": 1.05,
         "ret_1d": 0.84,
         "ret_5d": 5.89,
         "ret_20d": 2.86
@@ -42,12 +42,12 @@
       "monthly_dca": 300,
       "holding": {
         "units": 29.2991054,
-        "avg_cost": 155.49,
+        "avg_cost": 156.28,
         "current_price": 428.9100036621094,
         "prev_close": 417.01,
-        "invested": 4555.72,
+        "invested": 4578.86,
         "current_value": 12566.68,
-        "pnl_pct": 175.84
+        "pnl_pct": 174.45
       },
       "ta": {
         "rsi14": 56.77,
@@ -74,12 +74,12 @@
       "monthly_dca": 0,
       "holding": {
         "units": 26.6372083,
-        "avg_cost": 245.33,
+        "avg_cost": 246.58,
         "current_price": 354.0799865722656,
         "prev_close": 376.37,
-        "invested": 6534.91,
+        "invested": 6568.2,
         "current_value": 9431.7,
-        "pnl_pct": 44.33
+        "pnl_pct": 43.6
       },
       "ta": {
         "rsi14": 50.93,
@@ -91,7 +91,7 @@
         "sma200": null,
         "vs_sma50_pct": -1.08,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.7,
+        "vol_ratio_20d": 1.71,
         "ret_1d": -5.92,
         "ret_5d": 1.53,
         "ret_20d": 7.76
@@ -106,12 +106,12 @@
       "monthly_dca": 200,
       "holding": {
         "units": 16.4903153,
-        "avg_cost": 400.29,
+        "avg_cost": 402.33,
         "current_price": 616.77001953125,
         "prev_close": 610.68,
-        "invested": 6600.91,
+        "invested": 6634.55,
         "current_value": 10170.73,
-        "pnl_pct": 54.08
+        "pnl_pct": 53.3
       },
       "ta": {
         "rsi14": 62.39,
@@ -123,7 +123,7 @@
         "sma200": null,
         "vs_sma50_pct": 3.57,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.98,
+        "vol_ratio_20d": 1.0,
         "ret_1d": 1.0,
         "ret_5d": 6.7,
         "ret_20d": 4.17
@@ -138,12 +138,12 @@
       "monthly_dca": 200,
       "holding": {
         "units": 20.1505854,
-        "avg_cost": 183.66,
+        "avg_cost": 184.59,
         "current_price": 338.4599914550781,
         "prev_close": 342.48,
-        "invested": 3700.86,
+        "invested": 3719.6,
         "current_value": 6820.17,
-        "pnl_pct": 84.29
+        "pnl_pct": 83.36
       },
       "ta": {
         "rsi14": 44.82,
@@ -155,7 +155,7 @@
         "sma200": null,
         "vs_sma50_pct": -2.9,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.94,
+        "vol_ratio_20d": 1.04,
         "ret_1d": -1.17,
         "ret_5d": -2.35,
         "ret_20d": -4.47
@@ -170,12 +170,12 @@
       "monthly_dca": 200,
       "holding": {
         "units": 25.6887192,
-        "avg_cost": 181.99,
+        "avg_cost": 182.92,
         "current_price": 258.510009765625,
         "prev_close": 258.9,
-        "invested": 4675.09,
+        "invested": 4698.98,
         "current_value": 6640.79,
-        "pnl_pct": 42.05
+        "pnl_pct": 41.32
       },
       "ta": {
         "rsi14": 49.55,
@@ -187,7 +187,7 @@
         "sma200": null,
         "vs_sma50_pct": 1.8,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.92,
+        "vol_ratio_20d": 0.94,
         "ret_1d": -0.15,
         "ret_5d": -2.97,
         "ret_20d": -5.82
@@ -202,12 +202,12 @@
       "monthly_dca": 100,
       "holding": {
         "units": 47.4867353,
-        "avg_cost": 89.39,
+        "avg_cost": 89.84,
         "current_price": 174.3300018310547,
         "prev_close": 182.53,
-        "invested": 4244.84,
+        "invested": 4266.21,
         "current_value": 8278.36,
-        "pnl_pct": 95.02
+        "pnl_pct": 94.04
       },
       "ta": {
         "rsi14": 54.16,
@@ -219,7 +219,7 @@
         "sma200": null,
         "vs_sma50_pct": 16.31,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.83,
+        "vol_ratio_20d": 0.84,
         "ret_1d": -4.49,
         "ret_5d": -6.42,
         "ret_20d": 1.35
@@ -234,12 +234,12 @@
       "monthly_dca": 500,
       "holding": {
         "units": 7.0921387,
-        "avg_cost": 387.58,
+        "avg_cost": 389.55,
         "current_price": 499.70001220703125,
         "prev_close": 510.12,
-        "invested": 2748.77,
+        "invested": 2762.74,
         "current_value": 3543.94,
-        "pnl_pct": 28.93
+        "pnl_pct": 28.28
       },
       "ta": {
         "rsi14": 59.36,
@@ -251,7 +251,7 @@
         "sma200": null,
         "vs_sma50_pct": 12.5,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.76,
+        "vol_ratio_20d": 0.79,
         "ret_1d": -2.04,
         "ret_5d": -2.69,
         "ret_20d": -0.06
@@ -266,12 +266,12 @@
       "monthly_dca": 0,
       "holding": {
         "units": 10.6631573,
-        "avg_cost": 189.56,
+        "avg_cost": 190.52,
         "current_price": 477.57000732421875,
         "prev_close": 456.16,
-        "invested": 2021.31,
+        "invested": 2031.54,
         "current_value": 5092.4,
-        "pnl_pct": 151.94
+        "pnl_pct": 150.67
       },
       "ta": {
         "rsi14": 49.67,
@@ -283,7 +283,7 @@
         "sma200": null,
         "vs_sma50_pct": -4.35,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.11,
+        "vol_ratio_20d": 1.12,
         "ret_1d": 4.69,
         "ret_5d": 2.58,
         "ret_20d": -1.2
@@ -298,12 +298,12 @@
       "monthly_dca": 0,
       "holding": {
         "units": 24.3847164,
-        "avg_cost": 105.15,
+        "avg_cost": 105.69,
         "current_price": 213.10000610351562,
         "prev_close": 214.97,
-        "invested": 2564.05,
+        "invested": 2577.22,
         "current_value": 5196.38,
-        "pnl_pct": 102.66
+        "pnl_pct": 101.63
       },
       "ta": {
         "rsi14": 53.12,
@@ -329,13 +329,13 @@
       "priority": "P0",
       "monthly_dca": 500,
       "holding": {
-        "units": 4.4804308,
-        "avg_cost": 438.87,
+        "units": 4.4908881,
+        "avg_cost": 442.12,
         "current_price": 1016.5900268554688,
         "prev_close": 958.16,
-        "invested": 1966.33,
-        "current_value": 4554.76,
-        "pnl_pct": 131.64
+        "invested": 1985.51,
+        "current_value": 4565.39,
+        "pnl_pct": 129.94
       },
       "ta": {
         "rsi14": 60.15,
@@ -347,7 +347,7 @@
         "sma200": null,
         "vs_sma50_pct": 8.35,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.26,
+        "vol_ratio_20d": 1.27,
         "ret_1d": 6.1,
         "ret_5d": 8.98,
         "ret_20d": 15.84
@@ -362,12 +362,12 @@
       "monthly_dca": 0,
       "holding": {
         "units": 8.8495241,
-        "avg_cost": 221.68,
+        "avg_cost": 222.81,
         "current_price": 280.5299987792969,
         "prev_close": 268.83,
-        "invested": 1961.76,
+        "invested": 1971.76,
         "current_value": 2482.56,
-        "pnl_pct": 26.55
+        "pnl_pct": 25.91
       },
       "ta": {
         "rsi14": 54.88,
@@ -394,24 +394,24 @@
       "monthly_dca": 420,
       "holding": {
         "units": 5.5362937,
-        "avg_cost": 326.71,
-        "current_price": 357.8949890136719,
+        "avg_cost": 328.37,
+        "current_price": 357.8999938964844,
         "prev_close": 357.16,
-        "invested": 1808.76,
-        "current_value": 1981.41,
-        "pnl_pct": 9.55
+        "invested": 1817.95,
+        "current_value": 1981.44,
+        "pnl_pct": 8.99
       },
       "ta": {
-        "rsi14": 38.04,
+        "rsi14": 38.05,
         "macd": -8.804,
         "macd_signal": null,
         "macd_hist": null,
         "sma20": 378.32,
         "sma50": 383.66,
         "sma200": null,
-        "vs_sma50_pct": -6.72,
+        "vs_sma50_pct": -6.71,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.39,
+        "vol_ratio_20d": 1.4,
         "ret_1d": 0.21,
         "ret_5d": -2.95,
         "ret_20d": -16.33
@@ -426,12 +426,12 @@
       "monthly_dca": 200,
       "holding": {
         "units": 1.0791216,
-        "avg_cost": 969.3,
+        "avg_cost": 974.23,
         "current_price": 1714.8800048828125,
         "prev_close": 1646.19,
-        "invested": 1045.99,
+        "invested": 1051.31,
         "current_value": 1850.56,
-        "pnl_pct": 76.92
+        "pnl_pct": 76.02
       },
       "ta": {
         "rsi14": 48.3,
@@ -443,7 +443,7 @@
         "sma200": null,
         "vs_sma50_pct": -2.09,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.09,
+        "vol_ratio_20d": 1.11,
         "ret_1d": 4.17,
         "ret_5d": 1.1,
         "ret_20d": -1.5
@@ -458,12 +458,12 @@
       "monthly_dca": 580,
       "holding": {
         "units": 4.8871134,
-        "avg_cost": 261.12,
+        "avg_cost": 262.44,
         "current_price": 298.9599914550781,
         "prev_close": 285.05,
-        "invested": 1276.12,
+        "invested": 1282.57,
         "current_value": 1461.05,
-        "pnl_pct": 14.49
+        "pnl_pct": 13.92
       },
       "ta": {
         "rsi14": 66.71,
@@ -475,7 +475,7 @@
         "sma200": null,
         "vs_sma50_pct": 12.21,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.14,
+        "vol_ratio_20d": 1.18,
         "ret_1d": 4.88,
         "ret_5d": 8.03,
         "ret_20d": 10.77
@@ -490,12 +490,12 @@
       "monthly_dca": 0,
       "holding": {
         "units": 3.6777383,
-        "avg_cost": 230.44,
+        "avg_cost": 231.61,
         "current_price": 252.8699951171875,
         "prev_close": 235.55,
-        "invested": 847.5,
+        "invested": 851.8,
         "current_value": 929.99,
-        "pnl_pct": 9.73
+        "pnl_pct": 9.18
       },
       "ta": {
         "rsi14": 63.09,
@@ -507,7 +507,7 @@
         "sma200": null,
         "vs_sma50_pct": 11.65,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.24,
+        "vol_ratio_20d": 1.34,
         "ret_1d": 7.35,
         "ret_5d": 19.97,
         "ret_20d": 15.29
@@ -522,12 +522,12 @@
       "monthly_dca": 150,
       "holding": {
         "units": 4.8759398,
-        "avg_cost": 139.59,
+        "avg_cost": 140.3,
         "current_price": 193.77999877929688,
         "prev_close": 191.44,
-        "invested": 680.63,
+        "invested": 684.09,
         "current_value": 944.86,
-        "pnl_pct": 38.82
+        "pnl_pct": 38.12
       },
       "ta": {
         "rsi14": 53.25,
@@ -539,7 +539,7 @@
         "sma200": null,
         "vs_sma50_pct": 5.93,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.73,
+        "vol_ratio_20d": 0.74,
         "ret_1d": 1.22,
         "ret_5d": -0.82,
         "ret_20d": 2.71
