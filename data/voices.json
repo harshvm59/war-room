@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T14:04:39.895387+05:30",
+  "updated_at": "2026-09-07T23:51:40.595911+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,7 +8,7 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-09-07",
-      "published": "Sun, 06 Sep 2026 21:39:37 GMT",
+      "published": "Mon, 07 Sep 2026 16:30:16 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -18,11 +18,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang Says AGI Has Arrived With OpenAI's GPT-6 Astra - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jensen Huang Declares “AGI Has Arrived” — Powered by 100,000+ Nvidia Grace Blackwell GPUs - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUZMYTliejlKS1dfSmZCRmZZUko2WjJHa2RvSW03UVh6V0wwY3VJUnJrSXBDaGczVEJnWTkxR204QzEzUE0tRk15TGlIbm9sQkNGNkVTQ3VUWlVLV1AyRkU5ZVVlaGctSGloX0dRWGdQYUppZEVFNnpnbWE3Y3ZVZ2c2ZXc3SUtLRWZtVlRJUlNyNXFhSy1GTA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOVVkWkxDUEF0RjIwMW45ZUQyTjR0N1U5M2RIcGNlaG80a09KdG85X0NqdjhxTjVOY1dGOTVveW0wMW5jdWtkcFNUTVdaUWpDTG9POHlqLUpTcnBNN3Q4MTFJY2E4OTRhX0FuU25mMWZTd241MUotVXlfLUVuWTZ1TnhITmhvaktEdm5uNW80UXYycWJiSEhWc0QtYTdtZw?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -31,7 +31,7 @@
       "cat": "CEO",
       "date": "2026-09-07",
       "published": "Mon, 07 Sep 2026 02:29:00 GMT",
-      "source_name": "timesofindia.indiatimes.com",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,11 +39,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman says sorry after OpenAI’s 'messy' GPT-6 Astra rollout locks out paying users, but apology miss - timesofindia.indiatimes.com",
+          "t": "Headline signal (not a direct quote): Sam Altman says sorry after OpenAI’s 'messy' GPT-6 Astra rollout locks out paying users, but apology miss - The Times of India",
           "k": true
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNWklsWGlTOEIzczZZR3pjVzRkVzVSRFRyOFFUbl9xTkI3VUlfOVkzbmRTR1IxMFR6WUNxRkNnWWhjaWRJSEFHQktKOFZzaGptSkRwTTFIZlRJUHBITHhSdk1GSTM5dlY4WHFKSV9jS0xZNlF1NkMtdmlTUnc2MDV4RnY2b3hzdTVxb0RzUFQ4RUlGem1LQ0RHWkptUVdGQm13X19icTRadHotTHRDWkt1b1pRSHYySndiODVac2lNTkJKZTVQcFVxUk5JNDdnbzVXNXpaSFNpaTNUU3FaQ1pCcEJ5ZDU5ZF93Rnpldk9kZUg2MHdVLTYydTFSYjZQMDBZR2tNVDV5cmhEUzltSnhUblNmLWFpNmNmdk9rUFVVdXM4b3BQMUV5MUVmb3hLSWVFWWRRX9IBugJBVV95cUxNX0RTX0dwRy1URlc2UTVKNk02SkR0QldXNi1iSDZGanY4TjRmRVFvRVA5S2gtQU5DTmFBWnZuLS1WUzg4NjRPMXZZVFNORU5VcEFYa1VuQVUzckNWRjFBMVU2eUlUZnVfZGVMM0dmTDNIaFR3T2ZMLW45UzB5ZDl0WUVoMHBtaTJFcVNENEJibnNBdUJhcklPQWwyakNxZkpHWVdnUXBDb2FlVWpXU0RnV0k4WDRDdE40RjdMemVwMV9leVhzLVV6bjhhS0RHN1ExeXg5bVJkemVhUUp1QTdDR2RJUGdpX0ZKQTRZQmFRaFZaR0Z1dWpTN1FmQlBpTm9oUnI3bXV5MGVTbVZjRTNHSlRmLTA1TmV6c2JyQzQyeDFod3FYeVRMaEtVQkgyNjV1dlpZMUw5M2hBdw?oc=5"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-09-07",
+      "published": "Mon, 07 Sep 2026 10:53:26 GMT",
+      "source_name": "Benzinga",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Dan Ives Warns 10%-15% of US Data Center Projects Could Be Cut as AI Boom Faces Political Backlash, Calls - Benzinga",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOYVE1aXBtay1CYjZhNVJYUmxtZmU0NTE2WUVBc21Bb3BNNTNneWJRN041dFlWUkl2OENrSFJlUUw0UUFPUzhRalk3bGx2dU9seTd3LTZzdkdNYmV0aEx4WU1BM2I0a3JzT0o0WUJqZV9kczkyTUZOQWd3WDZRZmtMNy1TSUtlLUF2c0VpamZJNExSd2t0VEZSQjVmcEQ5d2NzeHBNbXE5UWNBaWgwZHozVXlDdnlyMHMzZm96dXp1N1lTektGTDBTcXh1Ri1LdEhPcWlzOEdNX2YzajlQZUZhT1c2OWFJQXFxWnlOZmZZLXhqSEh4TjFnbF9hVjM2cUhRZklfOFgwUTA?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -51,21 +73,21 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-09-07",
-      "published": "Sun, 06 Sep 2026 17:56:02 GMT",
-      "source_name": "Firstpost",
+      "published": "Mon, 07 Sep 2026 00:22:48 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 8,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella announces new AI models for Copilot, powered by Opal frontier - Firstpost",
+          "t": "Headline signal (not a direct quote): MSFT Stock Heads For Weekly Drop: CEO Satya Nadella Says Azure Customers Are Already Using OpenAI’s New Astra AI Model - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOXdZa0lKUDBIR2J1aGY3eVZrR3U2YjJsSXMwUVVKcGJmeGpKbFFDRGQ1Y2hSNmZZQlIyU0Q4ZDVtZmw5VHo4Q1FYZ1NGeERGcXlwYmdOTC1UMFA0bG1DWll1MERkdkV0dzRINURsMnRtaFZ4TG5KNUV0M0UxcW4wMnVaSHhLM3VaNkhRV01wb25Ia1lDZHFXMHFxcFZiR2hMbWtyR2xXNEtWdnoxNkdrcnV2T0x0UTJ2cUFFMXJiRzBENW5pU1NPN2xYZjdod9IB0wFBVV95cUxOYlBrZTFhMllDWjZuOUtmNGNEU1BGOFhKMWszaXJwTDdQa2JKaTRKVTNRdE5uZzdRYUk0SGpPVjZ1T1UzVkdsTi04ZXNPWFluOTVua0lhWFBOSWlGaEhpMGIyV3dRcVA3LVNEWHNqTVE3NWhvMXgyR1FkTnNXMzFyQXpxUkN2aWk4UjBtT3hTbnRmMzM2U3ZiRlNwUlc1NGZINlotQjQzYjdfQ3ByeFY3ODAxVEptRWt2MUpVbGszZ1J0cE9yMDZ4YlI5Q3htY0RHd1NF?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOMnNMMTdtUmxLRWVfV2U0MF94RTN3LVZ5Q1N1T202X290dTFGUDRDS2hkZWRRLVpidmhXcV8yN00wbEtrWWUxenRRelNpVVpxVVFhTXVBdmJIc0tNWGpyU0hDY3QwV0t5bmhrMUtVNjk4NGlUQ0dFQnU2Q2xVX1JoSWtWbFpNMENxeHc3ZTBGeWlZTk5GSkJ0QUxqamdrZms1djRTQjJXQ2pINHJmb0NRNnVUNzdYWE5xbjRGX1JLN0hSN1prOEtHbVhrNERkRU40VWNYRFg2Sy1MaFNlaWpfclJhenYzNkltWE41cE5ZdmFmOUdjUlhxNmZHV2JLX2FscVZ3Q0pKQkJ4eVlVNHZB?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -95,20 +117,21 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-09-07",
-      "published": "Sun, 06 Sep 2026 09:18:35 GMT",
-      "source_name": "outlookbusiness.com",
+      "published": "Mon, 07 Sep 2026 11:49:59 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 17,
       "themes": [
-        "#AI"
+        "#AI",
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk’s xAI Fails To Halt Minnesota Law Targeting AI-Generated Fake Nudes - outlookbusiness.com",
+          "t": "Headline signal (not a direct quote): Tesla vs SpaceX: Elon Musk’s Two Companies Are Chasing the Same AI Prize. Only One Is Positioned to Win It - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZmNCcURDcXhHVzRUZ1FPM3NPTGo3cmVWdDEwX2J4a1VJd1Z3bllTalBqWWRZclNsVG9aT2FfOHYzalVOcWstWmJ6clJHODl0NVlScmQyUTB2UmtlZVh3anVoTXlTU044QldjVEVLMVl2dGJMSU1vVFpDb2ZDVENEQnMtRmdTSG0yQWliZzVsTG1wYXVTVll0dTZ4bEtGOEE5b0lqbjVLRE12VEJYQmExakVHdDNEcWFqZ2fSAccBQVVfeXFMUE1aXzllZEFneEdfYWVJS2xwYjlSdTZsSGwxZ196TlJfdXlnbWllWHlDdnZVZTlfSEdpWEZZeklHV1ZLd0JMSlNUaXg5OVMyMjBMWmdNX2hvOEZncno3dE4yNWkyVnRjNFNTM001NGoyME5pUW42N0F5NWN5WUFHRDhvSjdmeXFRSU11dG9PbE9neGNhOVBKcUtpMFdSYzVnVHFMVGtRUlVFOUxuUEU0SXpFY0VWakI4RGdXSkdTV0Z6cURfR01qUQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUXNFWUVYQ2FuMFExTEpSazQ5c0FiMmhLSHE2bkhvTkxDXy1MNEVEdHZibUtEdy1uWWJSazhVc3l4Vl9GTFdoRVNydjhZRVRaNUdCZVBQMWVBMmVCejFIUkFmalowY0lCWU1tQTV1RTB1eE5aLVZhZXBJQUl2eXRwaG1ic3owVUd4emxYRTNnNkhSd28?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -133,26 +156,47 @@
       "src": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wekdzdGEwQ1lqNFFjTi1LaEFVeXotZHVTY05kOHVMQk44aGVpU0Viang1ZmhMQmYxZVlvZmxsN0UyYTJveHdVS1lKMFNReFZTaUdB?oc=5"
     },
     {
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
+      "cat": "CEO",
+      "date": "2026-09-07",
+      "published": "Mon, 07 Sep 2026 09:29:19 GMT",
+      "source_name": "Moomoo",
+      "signal_type": "source-linked headline",
+      "relevance_score": 7,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Labeled as the \"face of the AI bubble,\" can Ellison respond to Wall Street this week with Oracle's earnings report? - Moomoo",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU1VWVXVRTnZ2aGprNW50M1JCdmRaaTNnZzRqLWdCSllIR28zMEMzUFh6MU9NQXVKRUd4UmtzYmJrTDhCX3JJdnA0UnFOWmc0VlVCTE12ai1vWE9jWFBqeVJkTFBuampyb0ZCYmNpMnBzRFdzWG1OZHFWZmMwQjVWX09nNEo2ZEROcG5yZ3YxVjdWWFBX?oc=5"
+    },
+    {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-09-07",
-      "published": "Mon, 07 Sep 2026 06:46:44 GMT",
-      "source_name": "Benzinga",
+      "published": "Mon, 07 Sep 2026 11:10:59 GMT",
+      "source_name": "seekingalpha.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#TSLA"
+        "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Says AI Revolution Could Supercharge Global Growth — TSLA, COIN and CRSP Stocks Are Among Her - Benzinga",
+          "t": "Headline signal (not a direct quote): Cathie Wood's weekly recap: loads Rocket Lab, Block; cuts Palantir, Tempus AI (ARKK:BATS) - seekingalpha.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWVhuSW1QUDFkTmJ0M25mamNUX1NYX2Nzd2F0bjIxZU9uYll1MjlCUmxveWRhdGxFZzBYQzltUHdhQXN2MjltTjNSeXkteGVaMGgyNjQtS1M5dDRfa1QyVjMzdjlHdVNhUk9tWmlLMkZyVHpzVHVWa2VIMm1YRXRCOEVzZkFJZkw4djZwYnZfUWdGUXJ4YUMzcTZMOVhKNGtvSVV0TlZ3SmRfSlhLb2dqT3JtejBxLVlEUXdoWGJUeGFTMUM2d2hoelF3MmIybWwyYjhNWjk1UGYyY2pocDM5ZG15LVVCZDFFUjd1M290NnpBUDJPRncxVDdNTl8?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeXRhSDJYMTJZUURtWFJHeE1wU00xenlVaGd5UXB1eXZDTG5SY0F2d25JQUhrWTBraW84bjk2ZGFOcXoyNUZRWnR4SktkenMtYmxWaTJza01VZTd3eUhxeHVUcHIzR1RsRS02a0lWMEJwazJITFBZZnpNeVYyTHNKRHotMlJhQjNYaTdfd0dZZlJMeDVoTEJMdTZCdWZtelhSX1A2aXZiaHBkM1RoelE?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -160,46 +204,68 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-09-07",
-      "published": "Sun, 06 Sep 2026 18:03:00 GMT",
-      "source_name": "thestreet.com",
+      "published": "Mon, 07 Sep 2026 17:41:39 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 11,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer sends strong 5-word message on surging biotech stock - thestreet.com",
+          "t": "Headline signal (not a direct quote): Jim Cramer Explains Why “Buyers Flocked in” for Dell (DELL) - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUhuVkk4NlNZMUVJTlplbUJNd1lfV3FNWW12a2hLdm11RnRtWUlFS1dnMGhUaG85U0xJVW1ESzlVbkY3WjFYX3ZLSjhwcEZfNG93Sklhal85ZFlxMmZnWGZ3RUhCc0drYl9ha3FOU3FLMU5wQXlqVlNmN21zTVVOUF9BN2Z6OVA3SU9jaXdFMFU?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYXN5UG1BWlJVMEdZdlN4S0g3Vno3X1dWcTNVazRjTjNKSnlrb2V0VUhKSGI1M3I5YjdGN1hEeXRiX3RxU2RscGJjdGZTM0JuWWtEaTUzVGdtd3pBMDBEUlBjOVByZlpyMmtpZkVyZ181MG13NUJRVlVRN2llTV90MGhtc0FCV3VUMFQ4Sm5Kd2JJRjNRWTBrT0pKcw?oc=5"
     },
     {
-      "name": "Gene Munster",
-      "role": "Managing Partner",
-      "org": "Deepwater Asset Management",
-      "cat": "Investor",
+      "name": "Stacy Rasgon",
+      "role": "Senior Analyst",
+      "org": "Bernstein",
+      "cat": "Analyst",
       "date": "2026-09-07",
-      "published": "Sun, 06 Sep 2026 17:43:08 GMT",
+      "published": "Mon, 07 Sep 2026 01:44:16 GMT",
+      "source_name": "Stocktwits",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): MU, AMD, MRVL, QCOM Stocks Surge — Bernstein’s Stacy Rasgon Says AI Demand Is Exploding, Memory Capacity Is 'Very Tight' - Stocktwits",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWk1VdGVNT2dIX2ZLdTdsNS13RkRVUm9OMm52LVNJVGZIMFZVTThDV1M5bmc4UzNobnlqZkFrQUIyNUtpbVlOZVpWMjNMYXdXSDIteFBxdXI3ZU5MX3JXdlRKa3ZZVFJkTDVWZ25ONWZNLURhNHBZX1hkQ3U0eFJqRkRZSkxyZkFrUEs1SEFmVjRDRWhpUVl6bXdFTmNKWHRsbG9RRGE5UmRBWVF3TjNrSHdlTWNCY3V3OWszTXQ4QjhsYmlnbXg0?oc=5"
+    },
+    {
+      "name": "Pierre Ferragu",
+      "role": "Senior Analyst",
+      "org": "New Street Research",
+      "cat": "Analyst",
+      "date": "2026-09-07",
+      "published": "Sun, 06 Sep 2026 23:37:13 GMT",
       "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
       "relevance_score": 8,
       "themes": [
         "#AI",
-        "#MSFT"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): MSFT Stock Faces A Bigger Test Than Earnings, Gene Munster Says — Why The ‘Bot Boogeyman’ Won’t Go Away - Stocktwits",
+          "t": "Headline signal (not a direct quote): Pierre Ferragu Says Tesla FSD Could Be At An 'Inflection Point,' Compares It To The iPhone Playbook — 'Give Us 2 More Quarters' - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOWjFzOWcyU0l4RWdoWEtPT2VhOXBHNnUtYzNRd2RJUnVFY1U4WTdaWDVpYU5WV3llbHJIM3NQQklGNkZCQy1Zc0ZncmJMaHRLa2tZQ25CVHA2LUNFakhIbFN4bUxjWmlpR3RwZXB5UC1IQ21NOUJfcFBvcldiZ1A5OHIteExENld3dnMtTTFleFVVaVI2ZzRUTnpGd2YtT1hxQVNJY1ZoS0ZNVDZ6VEp2QUJOb29zcUhRNG82anpRWnVzcTBibUk2QzVvckliUVp4N2FobHBOQlB5U2U3Q01aUGstNlB0UEVFX2l1NURZV1o?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VXbFFIak5YSjF2dUZvQ2R4TTd4dFpoMmdhWm81UGFwRnZwSnZ4UkNDeG9ERmpxMjlkQWNFbE8ycmVLVnVxRkZpNmFMMmNRVldEOXVYUTlIX2JBYVAxZ1d6WktMekZfdWNjTTlMZllDcTNLcXE1SXNHVm9tQkZ5aXZiUVRtNjVnZ25NdVM3ZV9TQjlXNUFvSS1kd1NkLTF2ek1aN25FQ0RISHVHVER5R3J3aklKVlNLMHFvNFJB?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 9,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
