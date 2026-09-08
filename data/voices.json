@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T13:47:03.127351+05:30",
+  "updated_at": "2026-09-08T22:55:35.897581+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,73 +8,8 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-09-08",
-      "published": "Mon, 07 Sep 2026 16:30:16 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Jensen Huang Declares “AGI Has Arrived” — Powered by 100,000+ Nvidia Grace Blackwell GPUs - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOVVkWkxDUEF0RjIwMW45ZUQyTjR0N1U5M2RIcGNlaG80a09KdG85X0NqdjhxTjVOY1dGOTVveW0wMW5jdWtkcFNUTVdaUWpDTG9POHlqLUpTcnBNN3Q4MTFJY2E4OTRhX0FuU25mMWZTd241MUotVXlfLUVuWTZ1TnhITmhvaktEdm5uNW80UXYycWJiSEhWc0QtYTdtZw?oc=5"
-    },
-    {
-      "name": "Sam Altman",
-      "role": "CEO",
-      "org": "OpenAI",
-      "cat": "CEO",
-      "date": "2026-09-08",
-      "published": "Tue, 08 Sep 2026 07:07:00 GMT",
-      "source_name": "The Times of India",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): In 2025, Sam Altman set a goal for OpenAI engineers to create 'automated research intern', a year later c - The Times of India",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPekI3WXQzd0Y2OXJNUnlOeFptUmt1V3ZUQmo0QXV2ck9kN1VfRFl1Y0h1RGMtYWhCN0hnLWtraG85T0c5OTRaR1B1anZmZ0RmekZyZjNGRFZUMU5aTFRuYjNLVTEwXzlHYXRjNDlVcG9mR2Rva2NSSUIySVFnYUpTRzZYRHlucnV2aVJvbEVyelFDU3ljcXFvTV9xQlRvd1pzYXVaNHRreGlubUdER3Bjc0tpV2cwaDFEa3hwWlZuUDFDMzNkX0VCQVMxTFFyd3VVNkhnMWdLdURLR3RxYm1JYUFzUnZ5TzBZaUgtbGdBX3NSb1o5TS1KS3dDS1hZWTVSRk9tODZDbkdsUkFaU1Nfc0FxOVlUMnRiRU5UXy1vVXQtYjNSSm83UzBLWm9pMUFyQmJSSHh2XzVvUdIBvwJBVV95cUxOUXk3Q3Y1UnpZTWZYSFNNMU1waWNydDVVb1pBMHZiWTBlMEpTcXhZZnBZY2M0aGZKLWlOUE1RMnNtb3VwaFZJTWhPdE9qeUNGb3pIaUM5VTRPQjBQRUZPVlotQVZlQlhuNk04Y0dBNUtLUUUwQks3LTBjUHpnQ3dqRXc4dFZqMnhKcldQNko5R0w1dU1OVEJNdnBwUHpZTG1Vd1NOYnVhWDlHek9nb2p6ZWJIb1Z4dUhhM25LYnVBbmFOMHBmS19wSmd0bHhJWE9yRWRraEtHVHZlOWJMTVlVS3lrbThxMjViX04wZmd2Um5LdnFaT2h4MlZVdkdvUzgzWmxhSFRKVGhsMkRIWjJZc282UzNvcC1SQ3ZrdHR2NXlSMzFKMkxiOU5pb19ZWU8xUDNLNkxWZHJKaDZOSkow?oc=5"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-09-08",
-      "published": "Mon, 07 Sep 2026 10:53:26 GMT",
-      "source_name": "Benzinga",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Dan Ives Warns 10%-15% of US Data Center Projects Could Be Cut as AI Boom Faces Political Backlash, Calls - Benzinga",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOYVE1aXBtay1CYjZhNVJYUmxtZmU0NTE2WUVBc21Bb3BNNTNneWJRN041dFlWUkl2OENrSFJlUUw0UUFPUzhRalk3bGx2dU9seTd3LTZzdkdNYmV0aEx4WU1BM2I0a3JzT0o0WUJqZV9kczkyTUZOQWd3WDZRZmtMNy1TSUtlLUF2c0VpamZJNExSd2t0VEZSQjVmcEQ5d2NzeHBNbXE5UWNBaWgwZHozVXlDdnlyMHMzZm96dXp1N1lTektGTDBTcXh1Ri1LdEhPcWlzOEdNX2YzajlQZUZhT1c2OWFJQXFxWnlOZmZZLXhqSEh4TjFnbF9hVjM2cUhRZklfOFgwUTA?oc=5"
-    },
-    {
-      "name": "Chamath Palihapitiya",
-      "role": "Investor",
-      "org": "Social Capital",
-      "cat": "Investor",
-      "date": "2026-09-08",
-      "published": "Mon, 07 Sep 2026 18:20:14 GMT",
-      "source_name": "Traders Union",
+      "published": "Tue, 08 Sep 2026 16:24:39 GMT",
+      "source_name": "Forbes",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -82,11 +17,53 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Innovation and economic growth may improve with reduced federal bureaucracy, Chamath Palihapitiya notes - Traders Union",
+          "t": "Headline signal (not a direct quote): Jensen Huang’s AGI Claim Is A Business Case, Not Settled Fact - Forbes",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcWhVUHFFcUg4RmdkbFAwZzZEZkZoRU02MTQ4cTlsVHY3bnNfclBsYjEwQTdVazBTMGxvQWFWSW1NWGgtLW1pZUdEUlFIWGpUazJHN0VlT0paakJqOGlOMEl3cGJ4NEkwbURLMmFYT3FrZlVqdWtabWU0Z1ZnclBWeFV3T0V3NW5pNnFpcnJDc3M?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeFZ0WDJmSVBxVV9mZVpSMlNucnNYMDJnRkE0NVU3Yk1wb0x4SlNsOVJaTDZFSVZUNTdCQkRTZE1nQ0VEVm90RWQtWF84OS1jR1p0bktrUG94ak92eXgwUll5cFVhRjQ2SG5BZmJqYWd1Tm1lTlhQenc5ZzkzbGR3dDRLSVV0Q3BvcDQtYlJwTzZTRms1Q0RqZDRrS2taVmJTUVJRZ1RwNXk4c3JTMFZpbA?oc=5"
+    },
+    {
+      "name": "Sam Altman",
+      "role": "CEO",
+      "org": "OpenAI",
+      "cat": "CEO",
+      "date": "2026-09-08",
+      "published": "Tue, 08 Sep 2026 15:22:00 GMT",
+      "source_name": "Variety",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): 'Artificial' Trailer: Andrew Garfield Is Sam Altman in OpenAI Biopic - Variety",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa0ZHMVp4OXhUT0YwQWNrZzlNbVFZa3NPU2RwZ2NPa2YzRndUcW1FOHE3OGNfcDFhbDVVajVjcjU5TEVZQ1pnWk1KS0UzaUVGbFFEbWJCMDFZeEtwTjR0YkJmSXdyVkp1ZThTYm9RbmVDWFFhREFEbXNBLVhBREZ3cFJyWkdUY3QzT0Nyb1Z0WDRjaFJKX2tURnZsTQ?oc=5"
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "role": "Investor",
+      "org": "Social Capital",
+      "cat": "Investor",
+      "date": "2026-09-08",
+      "published": "Tue, 08 Sep 2026 07:40:59 GMT",
+      "source_name": "TradingView",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Says Shrinking Federal Workforce Is ‘Very Good Sign’ For Innovation and Economic Growth - TradingView",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNOW5wM2JMcXZkNk5JUE1YQkJ4clEtU3hCOUxNd21wdnhQRlpFSmRWZTNjLVpNSmdSZFZEejkzNDJWOGIzQnFNeTBIbUxvblpNeFRiTzY5dUZJM3B0c2hDSGdmRV82SGE3c1ZBNWVCQk9tZ3hSQ0VyOVZDcDgyNzF0ZXR6dHdfN1ZkYzhSQUZpWEctbnMzTE9zWWVBTHpMZU1MaVJYODZMN2NmVXBGaXJhNjFOUGZEcGVoUTRibDZzczZJcWNSQ2pTNzNjdk50M3E0c2d1TzlPdUJva1drMVFSYUNieXo0Rmo0bUVMeGxpMHMxM2VOZzVjTQ?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -94,7 +71,7 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-08",
-      "published": "Tue, 08 Sep 2026 07:54:16 GMT",
+      "published": "Tue, 08 Sep 2026 08:15:00 GMT",
       "source_name": "simplywall.st",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -116,42 +93,43 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-09-08",
-      "published": "Mon, 07 Sep 2026 11:49:59 GMT",
+      "published": "Tue, 08 Sep 2026 14:00:22 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 9,
       "themes": [
         "#AI",
-        "#TSLA"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Tesla vs SpaceX: Elon Musk’s Two Companies Are Chasing the Same AI Prize. Only One Is Positioned to Win It - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Musk’s Trillionaire Status Disappears, And Won’t Be Back Soon - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUXNFWUVYQ2FuMFExTEpSazQ5c0FiMmhLSHE2bkhvTkxDXy1MNEVEdHZibUtEdy1uWWJSazhVc3l4Vl9GTFdoRVNydjhZRVRaNUdCZVBQMWVBMmVCejFIUkFmalowY0lCWU1tQTV1RTB1eE5aLVZhZXBJQUl2eXRwaG1ic3owVUd4emxYRTNnNkhSd28?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZkJmdnVmYXBXcDFsUU15Y29fZE44VWtZS1h2QVhkUE5SU1EzNVNoOTl1Yk9BS3JSSHNsb1BQdDI3dmFBNHMzVFVfU2RpSVJSNzF4NVVNb1Rva0ZIWXdsN3B2N1hhLThFODZvSno2WHpXVEFMbHRrbEp0OHZhQzlpVEdnZC1LM2M0X2JHOGh4SHl3TWxTSk15UXJIQjFOb3hKVkIwN3l6Zw?oc=5"
     },
     {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
+      "name": "Sundar Pichai",
+      "role": "CEO",
+      "org": "Alphabet",
       "cat": "CEO",
       "date": "2026-09-08",
-      "published": "Mon, 07 Sep 2026 09:29:19 GMT",
-      "source_name": "moomoo.com",
+      "published": "Tue, 08 Sep 2026 17:14:00 GMT",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
-      "relevance_score": 7,
+      "relevance_score": 12,
       "themes": [
-        "#AI"
+        "#AI",
+        "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Labeled as the \"face of the AI bubble,\" can Ellison respond to Wall Street this week with Oracle's earnings report? - moomoo.com",
+          "t": "Headline signal (not a direct quote): Google launches AlphaGenome Atlas, a map of human DNA: What CEO Sundar Pichai and Google DeepMind chief s - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU1VWVXVRTnZ2aGprNW50M1JCdmRaaTNnZzRqLWdCSllIR28zMEMzUFh6MU9NQXVKRUd4UmtzYmJrTDhCX3JJdnA0UnFOWmc0VlVCTE12ai1vWE9jWFBqeVJkTFBuampyb0ZCYmNpMnBzRFdzWG1OZHFWZmMwQjVWX09nNEo2ZEROcG5yZ3YxVjdWWFBX?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPZnM4SGdyZ2JYQkttVnc0Uk0zVHBRODdtWm5xM3RReFVmRWlPZmxrZTRqMmIzZUtTNnhfcWFpbjBlZkxLOVZ2UEVVTUEtMVc0YlFHM1ViTWNYQUVlTmI1OXN3WVdqZTlsWERGM19XNmhGQ3ZYZmZIY1llaHRBSFRTc0k3bFNiYV81MDlHdmNHNHhuNEFDMzVieEgxTXU1YWM4TkdfNzJNeHFsWUFUc21BaUVDSm5pd19PTVg4SVlmUERjVzBYYVRERzRfQXF1aWpxSWFFek1kODBmYXNmMjNrdUpybDNoMWZZNGlXbVNjT3F6UmFxdTFXNXRKU0E3ZUd3czZjRndpaC16bUVqcTdoa2lLcnNKVTN2M3dSWnp3c29hSWgzZkx5VE96ZjNrak9EbW9VSFdoay1Vd9IBvwJBVV95cUxNTDBoeEJYWXc0RUFXeEZsV0NUU0FUd09xRmZDeDJCZW94R3ZnazQzdEdNV21WczVHSkZyTDk2N1V4cF9Fbjk0Q3hkWlJFTnJmSDl4T3l3SjZXTXVUeUU3bThTZFBIODNWdXM2TVZ2ZG9xWGcwVEVRRUdDNm1mVFF2THZ2QmpFV3lNcmprSFEzU0w5MGVOYXF6SVJ0YzZaWmR0a0ttVGtMS1BNMUt1bGYwSFRXYnpIV0JzOVRWU1UyRnRoOWVnWi1BNTU1VEJ6X3hHWE04X1FJT19DWnEyLTVqUE9vbG9wd1VZMDB6UzF6dC1aelU1dHgzSk1FT0RaNmJBNnhWbWRCbHVFamQydjdxOXFIUTMwbDhGYXV3Q0paQnRLdmFjLVItV1JLYjhnYkJvMGhzbHNaTWhuaVU3Vmhr?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -159,30 +137,8 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-09-08",
-      "published": "Mon, 07 Sep 2026 11:10:59 GMT",
-      "source_name": "Seeking Alpha",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#PLTR"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Cathie Wood's weekly recap: loads Rocket Lab, Block; cuts Palantir, Tempus AI (ARKK:BATS) - Seeking Alpha",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeXRhSDJYMTJZUURtWFJHeE1wU00xenlVaGd5UXB1eXZDTG5SY0F2d25JQUhrWTBraW84bjk2ZGFOcXoyNUZRWnR4SktkenMtYmxWaTJza01VZTd3eUhxeHVUcHIzR1RsRS02a0lWMEJwazJITFBZZnpNeVYyTHNKRHotMlJhQjNYaTdfd0dZZlJMeDVoTEJMdTZCdWZtelhSX1A2aXZiaHBkM1RoelE?oc=5"
-    },
-    {
-      "name": "Jim Cramer",
-      "role": "Host",
-      "org": "CNBC",
-      "cat": "Analyst",
-      "date": "2026-09-08",
-      "published": "Mon, 07 Sep 2026 17:41:39 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Tue, 08 Sep 2026 15:01:21 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
       "themes": [
@@ -190,11 +146,54 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Explains Why “Buyers Flocked in” for Dell (DELL) - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood Just Went Bargain Hunting. Here Are the 3 AI Stocks She Bought. - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYXN5UG1BWlJVMEdZdlN4S0g3Vno3X1dWcTNVazRjTjNKSnlrb2V0VUhKSGI1M3I5YjdGN1hEeXRiX3RxU2RscGJjdGZTM0JuWWtEaTUzVGdtd3pBMDBEUlBjOVByZlpyMmtpZkVyZ181MG13NUJRVlVRN2llTV90MGhtc0FCV3VUMFQ4Sm5Kd2JJRjNRWTBrT0pKcw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRUxla2llZmV1aEwzNURXMjlzTm1nODBzUzRSR3FXaV9TTUFYVnNKZVBnRkswMDZOVmJjdXJOckZUcXp4NERCanQtdEd5dktKNVNnYld2c2VEeXl2dDFkMl96MHRjbHM4alhpOHFpckRvek5QeWxENTNHcHYteGJzVlBNb09nQQ?oc=5"
+    },
+    {
+      "name": "Jim Cramer",
+      "role": "Host",
+      "org": "CNBC",
+      "cat": "Analyst",
+      "date": "2026-09-08",
+      "published": "Tue, 08 Sep 2026 13:12:13 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 14,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Tuesday - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcFNkdU5kcVVJSGx1REpQMXlqSV9XbnUzRkF3ZmpGY0RSWkxSSjc5bXRpaWUtSG9VS0oxNWFncGRKdnh1MGtFVEZTeEJmOWNscWM0cS1UUnFNRVliRmFqY0NTdE9UdS10RXVLbWpnVWVIZ3BIckNuOVJsVUNaRWU0YVhlUUtxWGlLRGpMZnV6WkFvdi16Y3pCVlRQLU9OQzVQ?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-09-08",
+      "published": "Tue, 08 Sep 2026 10:08:49 GMT",
+      "source_name": "Benzinga",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#TSLA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Gene Munster Predicts TSLA Stock Rally Amid NHTSA Cybercab Probe, Calls It a 'Speed Bump' For Elon Musk - Benzinga",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPcnlHY0RmeDkyTnI4RWdaSEJOX1hWblM5MENNR0VZank3dllyalNtb2NxX3R3UThhY2pCSEtsV2ZfM05jTHI0WXEzSnNJZ0xOdzVhZGFHSUlRUzV6TUVEa0hINWpEYlFzOHpHRHlxSGJlX1FuOVpwZE05STBKZEJpWHY0Ynl3V0d4VUFNWTJIa0JvaTBqUHRTLVBuY3lZWUpIeTJmNWpvamJRSlppVjZKeXNDa3RjVEdISHFpdnRPYkZCMVZnRnlMQmdiZlc2cXhYSVFIRXZoQnA0N3J1ZUtRY2k4dThXTzY4MkRtbFppM2p3UG9ydldDOTRWTVhXZng5V1F1UA?oc=5"
     }
   ],
   "monitored_leaders": 30,
