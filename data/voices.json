@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T22:44:55.173623+05:30",
+  "updated_at": "2026-09-10T01:28:47.051706+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -7,9 +7,9 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "published": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source_name": "Fortune",
+      "source_name": "fortune.com",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -18,7 +18,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AGI is here, Nvidia CEO Jensen Huang has declared. Here’s why the market doesn’t care - Fortune",
+          "t": "Headline signal (not a direct quote): AGI is here, Nvidia CEO Jensen Huang has declared. Here’s why the market doesn’t care - fortune.com",
           "k": true
         }
       ],
@@ -29,7 +29,7 @@
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "published": "Wed, 09 Sep 2026 15:30:30 GMT",
       "source_name": "thepinknews.com",
       "signal_type": "source-linked headline",
@@ -46,33 +46,11 @@
       "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNzVlbm5VVEdNQmgydWRIQktfSC1EZUNzX0JoQ1NkSzFNb0NDME83N2FlcE1qb0I4RWYxU0t6bUVVeTNYYzlpeV9xa3NxaUpaVmxPX01Jc2FKdW5XVHhqeDFwNUFPTDd1SjVuNjFxNnZ4MFJtUUg1d2puMzFmWXZDUDNtSzEtX2VneFB3ZXhYbEQ2eGktSENB?oc=5"
     },
     {
-      "name": "Satya Nadella",
-      "role": "CEO",
-      "org": "Microsoft",
-      "cat": "CEO",
-      "date": "2026-09-09",
-      "published": "Tue, 08 Sep 2026 18:22:21 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#MSFT"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): MSFT Stock Heads For Weekly Drop: CEO Satya Nadella Says Azure Customers Are Already Using OpenAI’s New Astra AI Model - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOMnNMMTdtUmxLRWVfV2U0MF94RTN3LVZ5Q1N1T202X290dTFGUDRDS2hkZWRRLVpidmhXcV8yN00wbEtrWWUxenRRelNpVVpxVVFhTXVBdmJIc0tNWGpyU0hDY3QwV0t5bmhrMUtVNjk4NGlUQ0dFQnU2Q2xVX1JoSWtWbFpNMENxeHc3ZTBGeWlZTk5GSkJ0QUxqamdrZms1djRTQjJXQ2pINHJmb0NRNnVUNzdYWE5xbjRGX1JLN0hSN1prOEtHbVhrNERkRU40VWNYRFg2Sy1MaFNlaWpfclJhenYzNkltWE41cE5ZdmFmOUdjUlhxNmZHV2JLX2FscVZ3Q0pKQkJ4eVlVNHZB?oc=5"
-    },
-    {
       "name": "Lisa Su",
       "role": "CEO",
       "org": "AMD",
       "cat": "CEO",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "published": "Wed, 09 Sep 2026 02:01:52 GMT",
       "source_name": "Mshale",
       "signal_type": "source-linked headline",
@@ -94,17 +72,17 @@
       "role": "Investor",
       "org": "Social Capital",
       "cat": "Investor",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "published": "Wed, 09 Sep 2026 01:31:00 GMT",
-      "source_name": "finance.yahoo.com",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 11,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Says Shrinking Federal Workforce Is ‘Very Good Sign’ For Innovation and Economic Growth - finance.yahoo.com",
+          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Says Shrinking Federal Workforce Is ‘Very Good Sign’ For Innovation and Economic Growth - Yahoo Finance",
           "k": true
         }
       ],
@@ -115,7 +93,7 @@
       "role": "CEO",
       "org": "Palantir",
       "cat": "CEO",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "published": "Wed, 09 Sep 2026 09:20:00 GMT",
       "source_name": "x.com",
       "signal_type": "source-linked headline",
@@ -137,29 +115,28 @@
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-09-09",
-      "published": "Tue, 08 Sep 2026 18:22:36 GMT",
-      "source_name": "Stocktwits",
+      "date": "2026-09-10",
+      "published": "Wed, 09 Sep 2026 09:03:52 GMT",
+      "source_name": "DD News",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 7,
       "themes": [
-        "#AI",
-        "#TSLA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): SpaceX IPO Filing Shows Elon Musk’s Company Holds More Bitcoin Than Tesla - Stocktwits",
+          "t": "Headline signal (not a direct quote): SpaceX IPO filing lays bare losses and Musk control as it stakes future on AI - DD News",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUXc2Z0JvZlNKOGNXWVZlMFFFUUpjUDBoa3dEWFg2N210WVlHZUV0aGZqX08yS1hNMlM2czIxaFBmbm10OUpIM29BcW9kY2dfRzl5TVJpTTRtZzc5Nml0Z2tVdGNRUnYtWGJxWnozejcyZmxrLUZGVXJSM1BFWTJ0SjlWZDZSTF9nSkZzeEJacXVzblBiZG8yYnFWanNtRDF0cjcxbjBKODd0Uzhua3JIWnk5VUtJa2NBZlFraFAtcjhlWF9SV3RQdWQ2S3FHaENDM1E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWG8xekw4NkRUSm1nODBXelRYMXlzRG9EUUdJSmFYdEg4ekVCMHp6dEtPM21taFctbE1DQW9aZjRRUFZlNzJmSW5SNTM3Y2h4dEtmUllUajRJZ1p5TEZmdFp0NUlYcDMzMjJRZzkzcHFrUHVGYmtzY3J5RGVLQjBfUk1VdTN0RDJ5Uk9SMENjTzhkNnJVazhFUzQ4U0k2WHRvTmk0QVVR?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "published": "Wed, 09 Sep 2026 13:01:24 GMT",
       "source_name": "Business Insider",
       "signal_type": "source-linked headline",
@@ -181,18 +158,18 @@
       "role": "CEO",
       "org": "Amazon",
       "cat": "CEO",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "published": "Wed, 09 Sep 2026 10:54:00 GMT",
-      "source_name": "finance.yahoo.com",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#AMZN"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Amazon CEO Andy Jassy Explained Why Semiconductor Sales Could Keep Climbing for Years to Come. Here's My Favorite AI Chipmaker Right Now. - finance.yahoo.com",
+          "t": "Headline signal (not a direct quote): Amazon CEO Andy Jassy Explained Why Semiconductor Sales Could Keep Climbing for Years to Come. Here's My Favorite AI Chipmaker Right Now. - Yahoo Finance",
           "k": true
         }
       ],
@@ -203,7 +180,7 @@
       "role": "CEO",
       "org": "Broadcom",
       "cat": "CEO",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "published": "Tue, 08 Sep 2026 21:08:00 GMT",
       "source_name": "finance.biggo.com",
       "signal_type": "source-linked headline",
@@ -225,7 +202,7 @@
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "published": "Wed, 09 Sep 2026 13:06:00 GMT",
       "source_name": "Investor's Business Daily",
       "signal_type": "source-linked headline",
@@ -247,47 +224,47 @@
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-09-09",
-      "published": "Wed, 09 Sep 2026 12:53:57 GMT",
-      "source_name": "CNBC",
+      "date": "2026-09-10",
+      "published": "Wed, 09 Sep 2026 17:06:01 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
+      "themes": [
+        "#AI",
+        "#AMZN"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Jim Cramer Breaks Down Why Amazon (AMZN) Is a “Screaming Buy” on AI Potential - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQVc3YUltSkJ4SlFlV0ktWkJRVmMyNkJmaDRQZzhJSGN1YzNiTEpkQkd3N2EtMllCMktPb1VyNVJtRnFFbTgtNkVOZk9NR0wtS0ZzcTJNUHJBSUFYTUdsZFNLMGhxMHhCenJGSlVUTzZqcmhuWkxFS0hLTmlTS2ZIMXYya1ozMDlWRnp4endSdTA4VWxE?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-09-10",
+      "published": "Wed, 09 Sep 2026 17:39:30 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 10,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Wednesday - CNBC",
+          "t": "Headline signal (not a direct quote): Apple price increases have not budged retention rates, says Deepwater's Gene Munster - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeUZwdjYxVXFlZ1l1YWlETndBclBuVUJRYTdSczRhVnFjVnNqV0xuYkFycGZvV29tTG5HWWNzQUpLWEdONkdnTDJSTjF4b25YcHJhRmp5QlFaeDBvWFhFN0lYNFdYaDRiaDhEVF9MMHU5Mm5EOWVfaE11dGdaeUVwZ3FDaWQxUXpGU1RMalp1QWxyM3dsUm9qLW02WTRVcEl3Ql9n?oc=5"
-    },
-    {
-      "name": "Stacy Rasgon",
-      "role": "Senior Analyst",
-      "org": "Bernstein",
-      "cat": "Analyst",
-      "date": "2026-09-09",
-      "published": "Tue, 08 Sep 2026 19:27:54 GMT",
-      "source_name": "CNBC",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): New OpenAI model means more compute will be needed, says Bernstein's Stacy Rasgon - CNBC",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSTVOUnExRGVLUGRkN0lIcm9ENWt5MzJEc2otaVRybldud2lTdTJHNGF3ejh4TnZUZHctZ25adGotcnlvLW8wSXhxYnhfRG5jdGstamU4V29qTDFLMUl6NVRwbFpRZnpNeEFLYml2TnVIV1lYYkF1SVlYUlV3ZmpTSDk5ajQ1VXFTUnJmNU5aT1BjT2FxT1VYdk1BMmRBRnE0ZHZ5SVlxbkhSd09WRmZiRUlkZ0tjUE56aXprbmJjNA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaGNXSzI0aVEwMkd3dndDWGRVWGh3UDc3MkI5bVlON25UQmR6dW83NkNtQ1NQaHNUTUJweFgzcTdQeUhhVVBXX2dmbnZzamo1bTFLaUtCak9tNW44Z2FrejNOdVNnWkdLTERtRzV1ZkV6RTN1dGQ4bUtYc1REUlRBcHA4U192NkF4QkRuVFB0WHRPVmt6MGtUWkpDbHFtSzN5VkFwc1RCbTVZd2FCMEw3UHk0eWZjVFRTWktYbDB3d01lcjA?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 13,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
