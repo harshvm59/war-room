@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T01:28:47.051706+05:30",
+  "updated_at": "2026-09-10T22:38:35.928657+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,21 +8,21 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-09-10",
-      "published": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "source_name": "fortune.com",
+      "published": "Thu, 10 Sep 2026 16:30:33 GMT",
+      "source_name": "Yahoo! Finance Canada",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AGI is here, Nvidia CEO Jensen Huang has declared. Here’s why the market doesn’t care - fortune.com",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang isn't mincing words about the company's trajectory. With continuous momentum in AI infrastructure, Huang expressed strong confidence in maintaining rapid expansion. - Yahoo! Finance Canada",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95NFV1T1pXQ3laX1dzbXVMSXZ1bzJabHZDZDR6THVoRi1fT1lNdkFsRW5pOUZfT1E0UmpQZmFaSWRDamtNUFhxRkFDQWhnM0hfeEg4OE1fU21sWkhfOE5wZTU0aE9GNl84cXFsdXl3bUZYUnJUcVZYV291SGJCZzg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPY0NFQkF1TFc3ci1WQWpkVU9JdmIzcGZ4WEZWQnRJQkpqb1dIVzRITUFuYzBuYk1yRjZadjFQcjdYMm1uTWZQWkF1ckJLYmZyakFHbEZRLVhsTVFaVmlURmJiMFZqM3l1LWRaWktiUkVYQ3prcGdxLVFhLU90SUQ0aw?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,8 +30,8 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-09-10",
-      "published": "Wed, 09 Sep 2026 15:30:30 GMT",
-      "source_name": "thepinknews.com",
+      "published": "Thu, 10 Sep 2026 14:00:02 GMT",
+      "source_name": "Barchart.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,54 +39,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): First look at Andrew Garfield as OpenAI billionaire Sam Altman in Artificial - thepinknews.com",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman Says a Cure for Cancer Is Not Enough to Justify AI’s Risks, ‘We Should Set Our Sights Higher’ - Barchart.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNzVlbm5VVEdNQmgydWRIQktfSC1EZUNzX0JoQ1NkSzFNb0NDME83N2FlcE1qb0I4RWYxU0t6bUVVeTNYYzlpeV9xa3NxaUpaVmxPX01Jc2FKdW5XVHhqeDFwNUFPTDd1SjVuNjFxNnZ4MFJtUUg1d2puMzFmWXZDUDNtSzEtX2VneFB3ZXhYbEQ2eGktSENB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbUlCeXdVY0ZRam1hLWM3a1JwN3QydjhnX3FlOS0xeXFMVUNvU0V4cmMxZ2FIUGFQc2tZMHNvRkVtZkJKWkp2NmpVZDlPb2t0RzBRX25LWVZsNnU2dVQ5X3d1MlBDNFBSWkxPWHZnNjhkMmUwU1E5RUlnUmFVeHR2TWRudG8yN2YwNng0YVkycWZzTy1Ram02TFp6ODZVZFUtZ0l3bkJ2S1ZzYVlGaFF6Y1duU3d1d0d1SU9ibnVZeWJ6c3ZGVm5wcGY4VEtsLWdRWlVEdjJXOEtJQ1ZQZ3Q2TWRkYnFHUmJkQTc4?oc=5"
     },
     {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "AMD",
-      "cat": "CEO",
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
       "date": "2026-09-10",
-      "published": "Wed, 09 Sep 2026 02:01:52 GMT",
-      "source_name": "Mshale",
-      "signal_type": "source-linked headline",
-      "relevance_score": 7,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su: We're Seeing 30 Times More Performance With Our Helios Systems Roman Kopylov (ZgsDSbVyMc) - Mshale",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vT1pGVHRmZ1puUFZ1ZGhHUHZaSFV4UU1fYkF4clRzNWlRdXZmSzl6eXhmQ0NjaExDcG16M3dZSFBLVkRMYW04anU5QUxjRzUyWUF2dnVPNUdJQzRFNUxPaQ?oc=5"
-    },
-    {
-      "name": "Chamath Palihapitiya",
-      "role": "Investor",
-      "org": "Social Capital",
-      "cat": "Investor",
-      "date": "2026-09-10",
-      "published": "Wed, 09 Sep 2026 01:31:00 GMT",
+      "published": "Thu, 10 Sep 2026 00:30:00 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 14,
       "themes": [
-        "#AI"
+        "#AI",
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Says Shrinking Federal Workforce Is ‘Very Good Sign’ For Innovation and Economic Growth - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Dan Ives Warns 10%-15% of US Data Center Projects Could Be Cut as AI Boom Faces Political Backlash, Calls It the ‘Biggest Threat’ - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdVBqYkd2UTNwaFJSOTVYSjJnYnJfaFNKMjJKYjdGQ20xem5pRjdSOENwNnFLc0t4TmpJLUtWNEV1cnc1MWNSN2dGa3AtQThBLUFKNE9EVUlnOTdHb0l6cDF0QkxYbzQzRXNZcVlmb0FLRTI4bEsybjcxQjIzMEJuLWp4dFFheWdMRzVoZ3FKMnBub0FTWENQUzhsWHJ0NlVPSHAwanZIZHRPWU9T?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVGoxWmV5QkNBVkdPNlVpSENQTlh2RWhUS1dNR2hLcy1jUlJadUx4eXdCU1U4TENrSC1QSnY4UEVYU2FUQngwZGdpNUtMQWpCQm1FSEJiSnRFY1FCY0d2Zi1VOXRFZEhpc29FQlE0XzZTdmlnRXczX2pjYW1FNExxaUpNRE13UWxlWk5FQw?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -94,21 +73,20 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-10",
-      "published": "Wed, 09 Sep 2026 09:20:00 GMT",
-      "source_name": "x.com",
+      "published": "Thu, 10 Sep 2026 15:26:47 GMT",
+      "source_name": "The Jerusalem Post",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#PLTR"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): 🇩🇪 Palantir CEO Alex Karp says the AfD is stronger than the polls show, and Germany's political class isn't ready for it. \"I have friends who 5 years ago were telling me they would never vote for the AfD who are voting for the AfD, people who are Social Democr - x.com",
+          "t": "Headline signal (not a direct quote): No. 20: Alex Karp and Josh Jared Kushner: From AI battlefields to billion-dollar deals - The Jerusalem Post",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02YUZCZnk5a3ZnSXFkY0lTM0lUcTRrc3VKNHRaRDJpTm4wNEpzT1dxOUZjaGZvSlF6MVJBdDRCLVdKQV85WWV5cWhGekZnUzYtRlBpR3E5LUZwcE11M0VyZ0o1YU5yaUhKeDFXRg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10akpWT3lPYnVqOVQ0eWhNZXEtdGpxaXlOTUhQWjhNamFLSUNoOG1wNDRwck1IRE5ISnBkMVhOZUtxaFZYX2JhQnRjU1F3MW5QdHN0V3Z1Nnd2eGwzMDBKcHN0R2ZtV3daQ2ViWGNR?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -116,20 +94,21 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-09-10",
-      "published": "Wed, 09 Sep 2026 09:03:52 GMT",
-      "source_name": "DD News",
+      "published": "Thu, 10 Sep 2026 11:37:00 GMT",
+      "source_name": "Investor's Business Daily",
       "signal_type": "source-linked headline",
-      "relevance_score": 7,
+      "relevance_score": 17,
       "themes": [
-        "#AI"
+        "#AI",
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): SpaceX IPO filing lays bare losses and Musk control as it stakes future on AI - DD News",
+          "t": "Headline signal (not a direct quote): In A SpaceX-Tesla Merger, Elon Musk May Be The Big Winner. What It May Mean For Other Investors. - Investor's Business Daily",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWG8xekw4NkRUSm1nODBXelRYMXlzRG9EUUdJSmFYdEg4ekVCMHp6dEtPM21taFctbE1DQW9aZjRRUFZlNzJmSW5SNTM3Y2h4dEtmUllUajRJZ1p5TEZmdFp0NUlYcDMzMjJRZzkzcHFrUHVGYmtzY3J5RGVLQjBfUk1VdTN0RDJ5Uk9SMENjTzhkNnJVazhFUzQ4U0k2WHRvTmk0QVVR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVWlDMmg1T1RVMWxhQklIRWZZTFFWcmNTcy1sZ1dFdGJGVmlJU0xqalN1RFkzdURZZmZfVEctcldzd0hXRHhCTVp3N1MtQTFQeEJIM0EyWnFYR09YdVF2NE0tOHhneE9ETVNzN0cxVHpDcW9rbEZzU1B2MklzQ3I1X09DcDNURE96M1E?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -137,65 +116,20 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-09-10",
-      "published": "Wed, 09 Sep 2026 13:01:24 GMT",
-      "source_name": "Business Insider",
+      "published": "Thu, 10 Sep 2026 15:29:02 GMT",
+      "source_name": "The Jerusalem Post",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#META"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg laid out what he uses Meta's new AI agent for — kid-friendly cake recipes and MMA advice - Business Insider",
+          "t": "Headline signal (not a direct quote): No. 9: Sam Altman and Mark Zuckerberg: Tech leaders pushing AI beyond the digital world - The Jerusalem Post",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYkotaG9iRDBPbnVSclpsanNfeTYwd0FTZk9jSGFMeFQzaThnVHV3N0ZGQVZvaFlQQk1LdzFINzFWT0t3ZGh3TXRTZ2J1Njc4TlpNYjc5VmpuQmNPNnpWLWlXMVFQWmxpTXNGMTlqc1Q4MFhXNEptdWdwbnc3djRKLTY0ZUQ4NFVYQ0owcGRCb1E2RFhW?oc=5"
-    },
-    {
-      "name": "Andy Jassy",
-      "role": "CEO",
-      "org": "Amazon",
-      "cat": "CEO",
-      "date": "2026-09-10",
-      "published": "Wed, 09 Sep 2026 10:54:00 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#AMZN"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Amazon CEO Andy Jassy Explained Why Semiconductor Sales Could Keep Climbing for Years to Come. Here's My Favorite AI Chipmaker Right Now. - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOXZjZDhBY2lsa0xzVGlGVDZxWXlORTdUMnA3RVBaSmhZUDJuQnl3d05oUEx0Q211Zzkxb2IzbjR6U1pyMEFTSGRKT3g0MlZ3a3lObHBWTk9TcWdhc2d4a3k2Q3A0ZkRPTjFTd29kR05pV1g4b1FQdE0tbzZYT2hoQ0pnb29VYy1TRHRGMWQyNVNqWm5yTVFzU2I5Zw?oc=5"
-    },
-    {
-      "name": "Hock Tan",
-      "role": "CEO",
-      "org": "Broadcom",
-      "cat": "CEO",
-      "date": "2026-09-10",
-      "published": "Tue, 08 Sep 2026 21:08:00 GMT",
-      "source_name": "finance.biggo.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#AVGO"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Ben Bajarin Says 2027 Is Peak AI Chip Shortage; Broadcom's Hock Tan Told Not to Worry About Margins - finance.biggo.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzRnU4YlctUTZ5NWFqWXZ0VFVSX1dSUWFDV0tRN1F5Tnc2YUt6ZVVBU2s3eHJKcFFvOVlHdWNubUs4ZndFQjdBak4wbE94aVIyR3lqY1d2MTlDRm8?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XNzNGZ2MyQTc3RFpvRzVmV1ZnRmJZX1RiX21XanhMVGlkZmFEdEpPRms3M3U4eG1jdVZELThoQ2FockhnbHd6WGk5UjlJWUFlR0JuR0VBSWlfUEpyUFVzSi16QnRvWjRad2dDaVVR?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -203,21 +137,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-09-10",
-      "published": "Wed, 09 Sep 2026 13:06:00 GMT",
-      "source_name": "Investor's Business Daily",
+      "published": "Thu, 10 Sep 2026 07:46:41 GMT",
+      "source_name": "Seeking Alpha",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 13,
       "themes": [
         "#AI",
-        "#AMD"
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Grows Robinhood Stake; Sheds More AMD, Palantir - Investor's Business Daily",
+          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK Invest bets on Meta while cutting Alphabet exposure (ARKW:BATS) - Seeking Alpha",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ0pHa2w5R3JNTmVLMzhqelMwUzNIXzNoQ2dDMlgwVXlzUFVDbWxWcnRrUHdvVTBlWUFxY1ZCWFJnaVN2cktxLVByNC1fR29YWVBDZkh0TWZ4SWFVS2pnZnlvSm42MUhHREpPUTduTDJzSVdOSHdCSUJ4c0hEcnFQN20tLVVUUzB0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMURUYWw5VG9hbGM5aEJ6SXJudTM1UU5BV1NKcmY1MVhJSkVyYkFNT1h4VEs0YW9UM1JKck8wal9RS1lIS1IxRkNjTmZTWEhmMlZUaU5ncGd3VXUtRlNSVk5xVTRQMllmRUJzZ0hnRGdUWURYTG1DWFN4bnh3cUJRS3IzbGVqbnF5Q3RWZ3NTLS0wcll6UTExZ05NeXhwRFlBRXNNSFlHSk1XQQ?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -225,21 +159,20 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-09-10",
-      "published": "Wed, 09 Sep 2026 17:06:01 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Thu, 10 Sep 2026 13:19:23 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
-        "#AI",
-        "#AMZN"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Breaks Down Why Amazon (AMZN) Is a “Screaming Buy” on AI Potential - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Thursday - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQVc3YUltSkJ4SlFlV0ktWkJRVmMyNkJmaDRQZzhJSGN1YzNiTEpkQkd3N2EtMllCMktPb1VyNVJtRnFFbTgtNkVOZk9NR0wtS0ZzcTJNUHJBSUFYTUdsZFNLMGhxMHhCenJGSlVUTzZqcmhuWkxFS0hLTmlTS2ZIMXYya1ozMDlWRnp4endSdTA4VWxE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbm9qbG5OOXE5Mmd4LXZUV1UzUkZqaDFFRTBoNW5HeVpWaFZ3dzVyM1RRSG8xMjZESXkxcGNfNlpkQmx2TmFuc0NwMmZvTEVYVzZfSTZwT0xDbUt2cXdSLUs3ckJJQkhpbHB0WkxIdTl6enY4cjhYcUNFX0x1NllodTBmYWZPMTBBTVI1UTIwLW5KcHlJRG1JU3JnQTNuMC1kZFE?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -247,24 +180,45 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-09-10",
-      "published": "Wed, 09 Sep 2026 17:39:30 GMT",
+      "published": "Wed, 09 Sep 2026 21:59:00 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Apple price increases have not budged retention rates, says Deepwater's Gene Munster - CNBC",
+          "t": "Headline signal (not a direct quote): Deepwater's Gene Munster shares his takeaways from Apple's product launch - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaGNXSzI0aVEwMkd3dndDWGRVWGh3UDc3MkI5bVlON25UQmR6dW83NkNtQ1NQaHNUTUJweFgzcTdQeUhhVVBXX2dmbnZzamo1bTFLaUtCak9tNW44Z2FrejNOdVNnWkdLTERtRzV1ZkV6RTN1dGQ4bUtYc1REUlRBcHA4U192NkF4QkRuVFB0WHRPVmt6MGtUWkpDbHFtSzN5VkFwc1RCbTVZd2FCMEw3UHk0eWZjVFRTWktYbDB3d01lcjA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcnNwVk5HME5QLWg2Qkx6Qk51YVJVejI2WDh5ZThfSGhMVlZ1YV9WRF9yUWo5NVBnaDUzYUgxWEk5bFVJOVhuNTAtemRFd3F4N3g1cGE0MTJIbGNqem1nYkRST19TNXc3Q2JzZXZhYzdvTXptOHlWb21TSS1pYjdvRXFMMktGZDRSbnZZUnIyUi10Z3F2VWJLZ1JZRUhGa0txV3RzYWhtazBFQ2pmRXFwMUVHWG8?oc=5"
+    },
+    {
+      "name": "Patrick Moorhead",
+      "role": "CEO and Chief Analyst",
+      "org": "Moor Insights and Strategy",
+      "cat": "Analyst",
+      "date": "2026-09-10",
+      "published": "Wed, 09 Sep 2026 20:58:48 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 14,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Apple not going to create supercycle by raising prices, says Moor Insights' Patrick Moorhead - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOanhOb1FSbEdZbzB3b053b21VT1RsTGxWSkNEZHRlZVZXMEJYaENhdmN3U3RyT0ZacHRLMzBUN1ljS2lMdHE4d0JGblYzZUkzeUZ4ZjVJZ2NYRDBqWGtTcURUMVcwODdveExobmlsT0lLTEVYWW50aHVoRm5ZWGQzd3dmQWhnLUJGUmVJWEJ0M0tBMGZpS3diUE83ZV8wYTY4Znlna2JpbUlpWlFvcEMxSE1QcUhiRUYwMUVGOFBKNTFvUnNyU1EtSjRvdEE4dw?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 12,
+  "fresh_signal_count": 10,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7"
 }
