@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T04:46:40.652832+05:30",
+  "updated_at": "2026-09-11T22:55:52.980498+05:30",
   "source": "yahoo+local-ta+rules",
   "items": [
     {
@@ -11,26 +11,26 @@
       "holding": {
         "units": 120.0915872,
         "avg_cost": 80.94,
-        "current_price": 218.36000061035156,
-        "prev_close": 223.67,
+        "current_price": 219.30499267578125,
+        "prev_close": 218.36,
         "invested": 9720.21,
-        "current_value": 26223.2,
-        "pnl_pct": 169.78
+        "current_value": 26336.68,
+        "pnl_pct": 170.95
       },
       "ta": {
-        "rsi14": 49.81,
-        "macd": 3.088,
+        "rsi14": 50.59,
+        "macd": 2.654,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 220.51,
-        "sma50": 212.17,
+        "sma20": 220.21,
+        "sma50": 212.6,
         "sma200": null,
-        "vs_sma50_pct": 2.92,
+        "vs_sma50_pct": 3.15,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.79,
-        "ret_1d": -2.37,
-        "ret_5d": -2.7,
-        "ret_20d": -2.56
+        "vol_ratio_20d": 0.42,
+        "ret_1d": 0.43,
+        "ret_5d": -4.0,
+        "ret_20d": -2.66
       },
       "thesis_note": "+155% from avg $86. Blackwell demand unprecedented — TSMC CoWoS booked through 2027. Hold entire position. Next DCA add only on -15% dip to ~$187. Do NOT sell."
     },
@@ -43,26 +43,26 @@
       "holding": {
         "units": 29.2991054,
         "avg_cost": 156.28,
-        "current_price": 428.0299987792969,
-        "prev_close": 435.36,
+        "current_price": 433.1575012207031,
+        "prev_close": 428.03,
         "invested": 4578.86,
-        "current_value": 12540.9,
-        "pnl_pct": 173.89
+        "current_value": 12691.13,
+        "pnl_pct": 177.17
       },
       "ta": {
-        "rsi14": 54.09,
-        "macd": 3.155,
+        "rsi14": 56.84,
+        "macd": 3.596,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 421.57,
-        "sma50": 419.15,
+        "sma20": 421.7,
+        "sma50": 418.93,
         "sma200": null,
-        "vs_sma50_pct": 2.12,
+        "vs_sma50_pct": 3.4,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.91,
-        "ret_1d": -1.68,
-        "ret_5d": 3.02,
-        "ret_20d": -0.26
+        "vol_ratio_20d": 0.61,
+        "ret_1d": 1.2,
+        "ret_5d": 3.87,
+        "ret_20d": 0.62
       },
       "thesis_note": "+158% from avg $160. Best semiconductor value at 15x fwd P/E. CoWoS packaging monopoly for NVDA/AVGO/AMD. $300/month DCA on dips below $390."
     },
@@ -75,26 +75,26 @@
       "holding": {
         "units": 26.6372083,
         "avg_cost": 246.58,
-        "current_price": 363.55999755859375,
-        "prev_close": 367.81,
+        "current_price": 365.3599853515625,
+        "prev_close": 363.56,
         "invested": 6568.2,
-        "current_value": 9684.22,
-        "pnl_pct": 47.44
+        "current_value": 9732.17,
+        "pnl_pct": 48.17
       },
       "ta": {
-        "rsi14": 53.74,
-        "macd": 4.948,
+        "rsi14": 54.42,
+        "macd": 5.043,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 353.86,
-        "sma50": 355.7,
+        "sma20": 355.13,
+        "sma50": 354.5,
         "sma200": null,
-        "vs_sma50_pct": 2.21,
+        "vs_sma50_pct": 3.06,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.74,
-        "ret_1d": -1.16,
-        "ret_5d": 1.83,
-        "ret_20d": 11.01
+        "vol_ratio_20d": 0.5,
+        "ret_1d": 0.5,
+        "ret_5d": -2.93,
+        "ret_20d": 7.47
       },
       "thesis_note": "TRIM — +71% at $455, ~11% portfolio weight. Robotaxi valuation priced in. Use $455–470 bounce to trim 25% (~$3,100). Redeploy into MU/CEG/AVGO."
     },
@@ -107,26 +107,26 @@
       "holding": {
         "units": 16.4903153,
         "avg_cost": 402.33,
-        "current_price": 644.3800048828125,
-        "prev_close": 653.69,
+        "current_price": 650.3200073242188,
+        "prev_close": 644.38,
         "invested": 6634.55,
-        "current_value": 10626.03,
-        "pnl_pct": 60.16
+        "current_value": 10723.98,
+        "pnl_pct": 61.64
       },
       "ta": {
-        "rsi14": 66.38,
-        "macd": 11.601,
+        "rsi14": 67.65,
+        "macd": 14.206,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 583.81,
-        "sma50": 600.2,
+        "sma20": 586.58,
+        "sma50": 600.95,
         "sma200": null,
-        "vs_sma50_pct": 7.36,
+        "vs_sma50_pct": 8.22,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.16,
-        "ret_1d": -1.42,
-        "ret_5d": 8.69,
-        "ret_20d": 11.32
+        "vol_ratio_20d": 0.48,
+        "ret_1d": 0.92,
+        "ret_5d": 6.49,
+        "ret_20d": 9.3
       },
       "thesis_note": "+42% from avg $430. Llama 4 multimodal + AI Ads revenue +27% YoY. Reality Labs losses narrowing. $200/month DCA. Add aggressively on dips below $570."
     },
@@ -139,26 +139,26 @@
       "holding": {
         "units": 20.1505854,
         "avg_cost": 184.59,
-        "current_price": 332.6000061035156,
-        "prev_close": 330.65,
+        "current_price": 341.19500732421875,
+        "prev_close": 332.6,
         "invested": 3719.6,
-        "current_value": 6702.08,
-        "pnl_pct": 80.18
+        "current_value": 6875.28,
+        "pnl_pct": 84.84
       },
       "ta": {
-        "rsi14": 41.28,
-        "macd": -3.903,
+        "rsi14": 48.97,
+        "macd": -3.392,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 341.45,
-        "sma50": 347.63,
+        "sma20": 341.19,
+        "sma50": 347.23,
         "sma200": null,
-        "vs_sma50_pct": -4.32,
+        "vs_sma50_pct": -1.74,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.01,
-        "ret_1d": 0.59,
-        "ret_5d": -1.34,
-        "ret_20d": -3.18
+        "vol_ratio_20d": 0.56,
+        "ret_1d": 2.58,
+        "ret_5d": -0.38,
+        "ret_20d": -1.49
       },
       "thesis_note": "+104% — doubled! Gemini 2.0 + TPU v5 driving Search AI monetization. Waymo expanding 10 cities. $200/month. Add dips below $370."
     },
@@ -171,26 +171,26 @@
       "holding": {
         "units": 25.6887192,
         "avg_cost": 182.92,
-        "current_price": 251.88999938964844,
-        "prev_close": 252.4,
+        "current_price": 256.7283020019531,
+        "prev_close": 251.89,
         "invested": 4698.98,
-        "current_value": 6470.73,
-        "pnl_pct": 37.71
+        "current_value": 6595.02,
+        "pnl_pct": 40.35
       },
       "ta": {
-        "rsi14": 43.62,
-        "macd": -0.877,
+        "rsi14": 48.86,
+        "macd": -0.84,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 259.38,
-        "sma50": 254.95,
+        "sma20": 258.96,
+        "sma50": 255.25,
         "sma200": null,
-        "vs_sma50_pct": -1.2,
+        "vs_sma50_pct": 0.58,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.79,
-        "ret_1d": -0.2,
-        "ret_5d": -1.21,
-        "ret_20d": -5.76
+        "vol_ratio_20d": 0.4,
+        "ret_1d": 1.92,
+        "ret_5d": -0.84,
+        "ret_20d": -3.17
       },
       "thesis_note": "+41% from avg $195. AWS Bedrock AI inference compounding. Project Kuiper launching. $200/month — add aggressively below $260."
     },
@@ -203,26 +203,26 @@
       "holding": {
         "units": 47.4867353,
         "avg_cost": 89.84,
-        "current_price": 165.86000061035156,
-        "prev_close": 169.53,
+        "current_price": 167.0399932861328,
+        "prev_close": 165.86,
         "invested": 4266.21,
-        "current_value": 7876.15,
-        "pnl_pct": 84.62
+        "current_value": 7932.18,
+        "pnl_pct": 85.93
       },
       "ta": {
-        "rsi14": 48.09,
-        "macd": 4.741,
+        "rsi14": 49.01,
+        "macd": 3.87,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 176.14,
-        "sma50": 153.1,
+        "sma20": 175.55,
+        "sma50": 153.92,
         "sma200": null,
-        "vs_sma50_pct": 8.34,
+        "vs_sma50_pct": 8.52,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.71,
-        "ret_1d": -2.16,
-        "ret_5d": -2.12,
-        "ret_20d": -3.03
+        "vol_ratio_20d": 0.29,
+        "ret_1d": 0.71,
+        "ret_5d": -8.49,
+        "ret_20d": -6.69
       },
       "thesis_note": "+51% from avg $92. AIP platform — 85% US commercial revenue growth. Rule of 40 = 145%. Government contracts expanding NATO. Do NOT add above $140."
     },
@@ -235,26 +235,26 @@
       "holding": {
         "units": 7.0921387,
         "avg_cost": 389.55,
-        "current_price": 492.44000244140625,
-        "prev_close": 491.65,
+        "current_price": 495.6000061035156,
+        "prev_close": 492.44,
         "invested": 2762.74,
-        "current_value": 3492.45,
-        "pnl_pct": 26.41
+        "current_value": 3514.86,
+        "pnl_pct": 27.22
       },
       "ta": {
-        "rsi14": 55.02,
-        "macd": 11.025,
+        "rsi14": 56.67,
+        "macd": 10.169,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 494.5,
-        "sma50": 451.44,
+        "sma20": 494.43,
+        "sma50": 453.67,
         "sma200": null,
-        "vs_sma50_pct": 9.08,
+        "vs_sma50_pct": 9.24,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.75,
-        "ret_1d": 0.16,
-        "ret_5d": -0.88,
-        "ret_20d": 0.0
+        "vol_ratio_20d": 0.33,
+        "ret_1d": 0.64,
+        "ret_5d": -2.85,
+        "ret_20d": -0.26
       },
       "thesis_note": "FLAT at -0.1% from avg $422 — ONLY red position. Best DCA entry in portfolio. Copilot seats growing 25% QoQ. Azure AI market share gaining. $500/month NOW."
     },
@@ -267,26 +267,26 @@
       "holding": {
         "units": 10.6631573,
         "avg_cost": 190.52,
-        "current_price": 503.6000061035156,
-        "prev_close": 521.1,
+        "current_price": 515.25,
+        "prev_close": 503.6,
         "invested": 2031.54,
-        "current_value": 5369.97,
-        "pnl_pct": 164.33
+        "current_value": 5494.19,
+        "pnl_pct": 170.44
       },
       "ta": {
-        "rsi14": 55.09,
-        "macd": 0.986,
+        "rsi14": 57.77,
+        "macd": 3.266,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 480.38,
-        "sma50": 497.04,
+        "sma20": 481.99,
+        "sma50": 496.53,
         "sma200": null,
-        "vs_sma50_pct": 1.32,
+        "vs_sma50_pct": 3.77,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.88,
-        "ret_1d": -3.36,
-        "ret_5d": 10.18,
-        "ret_20d": 4.28
+        "vol_ratio_20d": 0.68,
+        "ret_1d": 2.31,
+        "ret_5d": 12.95,
+        "ret_20d": 6.67
       },
       "thesis_note": "+163% from avg $178 — biggest winner. MI325X HBM3E ramping. Data center revenue $3.7B growing 80% YoY. TOO EXPENSIVE to add now. Add only on dips below $440."
     },
@@ -299,26 +299,26 @@
       "holding": {
         "units": 24.3847164,
         "avg_cost": 105.69,
-        "current_price": 208.86000061035156,
-        "prev_close": 207.8,
+        "current_price": 205.6999969482422,
+        "prev_close": 208.86,
         "invested": 2577.22,
-        "current_value": 5092.99,
-        "pnl_pct": 97.62
+        "current_value": 5015.94,
+        "pnl_pct": 94.63
       },
       "ta": {
-        "rsi14": 51.1,
-        "macd": 2.799,
+        "rsi14": 49.41,
+        "macd": 2.258,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 208.45,
-        "sma50": 202.31,
+        "sma20": 207.46,
+        "sma50": 202.56,
         "sma200": null,
-        "vs_sma50_pct": 3.24,
+        "vs_sma50_pct": 1.55,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.71,
-        "ret_1d": 0.51,
-        "ret_5d": 2.67,
-        "ret_20d": -5.83
+        "vol_ratio_20d": 0.33,
+        "ret_1d": -1.51,
+        "ret_5d": -4.31,
+        "ret_20d": -8.79
       },
       "thesis_note": "+26% from avg $429. ARR growing 22% but slowing. Consider rotating 50% into PANW (stronger AI cyber, better margins). Watch Q2 earnings closely."
     },
@@ -331,26 +331,26 @@
       "holding": {
         "units": 4.4908881,
         "avg_cost": 442.12,
-        "current_price": 977.4099731445312,
-        "prev_close": 1027.77,
+        "current_price": 979.6749877929688,
+        "prev_close": 977.41,
         "invested": 1985.51,
-        "current_value": 4389.44,
-        "pnl_pct": 121.07
+        "current_value": 4399.61,
+        "pnl_pct": 121.59
       },
       "ta": {
-        "rsi14": 53.29,
-        "macd": 19.673,
+        "rsi14": 53.56,
+        "macd": 18.789,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 961.54,
-        "sma50": 929.75,
+        "sma20": 963.03,
+        "sma50": 928.7,
         "sma200": null,
-        "vs_sma50_pct": 5.13,
+        "vs_sma50_pct": 5.49,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.95,
-        "ret_1d": -4.9,
-        "ret_5d": 2.23,
-        "ret_20d": 7.26
+        "vol_ratio_20d": 0.57,
+        "ret_1d": 0.23,
+        "ret_5d": 2.25,
+        "ret_20d": 3.14
       },
       "thesis_note": "MOST URGENT — +89% from avg $403 and STILL criminally cheap. HBM4 supply tight through 2027. 10x fwd P/E on 61% EPS growth. Target $10K+ position. $500/month mi"
     },
@@ -363,26 +363,26 @@
       "holding": {
         "units": 8.8495241,
         "avg_cost": 222.81,
-        "current_price": 248.1300048828125,
-        "prev_close": 262.89,
+        "current_price": 256.55999755859375,
+        "prev_close": 248.13,
         "invested": 1971.76,
-        "current_value": 2195.83,
-        "pnl_pct": 11.36
+        "current_value": 2270.43,
+        "pnl_pct": 15.15
       },
       "ta": {
-        "rsi14": 41.21,
-        "macd": -3.998,
+        "rsi14": 44.93,
+        "macd": -4.427,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 267.85,
-        "sma50": 279.82,
+        "sma20": 266.32,
+        "sma50": 278.72,
         "sma200": null,
-        "vs_sma50_pct": -11.33,
+        "vs_sma50_pct": -7.95,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 2.13,
-        "ret_1d": -5.61,
-        "ret_5d": -3.34,
-        "ret_20d": -13.95
+        "vol_ratio_20d": 0.62,
+        "ret_1d": 3.4,
+        "ret_5d": -4.56,
+        "ret_20d": -10.63
       },
       "thesis_note": "+57% from avg $221. Data center cooling backlog $18B+. Liquid cooling orders +280% QoQ. Wait for pullback to $310–325 before adding. Hold entire position."
     },
@@ -395,26 +395,26 @@
       "holding": {
         "units": 5.5362937,
         "avg_cost": 328.37,
-        "current_price": 360.8299865722656,
-        "prev_close": 364.38,
+        "current_price": 365.1400146484375,
+        "prev_close": 360.83,
         "invested": 1817.95,
-        "current_value": 1997.66,
-        "pnl_pct": 9.89
+        "current_value": 2021.52,
+        "pnl_pct": 11.2
       },
       "ta": {
-        "rsi14": 41.39,
-        "macd": -7.714,
+        "rsi14": 44.41,
+        "macd": -7.24,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 370.29,
-        "sma50": 383.23,
+        "sma20": 367.65,
+        "sma50": 383.15,
         "sma200": null,
-        "vs_sma50_pct": -5.85,
+        "vs_sma50_pct": -4.7,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.85,
-        "ret_1d": -0.97,
-        "ret_5d": -1.75,
-        "ret_20d": -13.27
+        "vol_ratio_20d": 0.33,
+        "ret_1d": 1.19,
+        "ret_5d": 2.23,
+        "ret_20d": -12.61
       },
       "thesis_note": "URGENT — +30% from avg $338. Meta 2029 ASIC deal + VMware ARR + AI networking. Triple moat. Too small at $1,887. $420/month until $8,000 position. Add dips belo"
     },
@@ -427,26 +427,26 @@
       "holding": {
         "units": 1.0791216,
         "avg_cost": 974.23,
-        "current_price": 1687.4300537109375,
-        "prev_close": 1729.52,
+        "current_price": 1712.239990234375,
+        "prev_close": 1687.43,
         "invested": 1051.31,
-        "current_value": 1820.94,
-        "pnl_pct": 73.21
+        "current_value": 1847.72,
+        "pnl_pct": 75.75
       },
       "ta": {
-        "rsi14": 45.37,
-        "macd": -12.178,
+        "rsi14": 48.28,
+        "macd": -11.539,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 1744.57,
-        "sma50": 1741.77,
+        "sma20": 1737.78,
+        "sma50": 1739.15,
         "sma200": null,
-        "vs_sma50_pct": -3.12,
+        "vs_sma50_pct": -1.55,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.95,
-        "ret_1d": -2.43,
-        "ret_5d": 0.3,
-        "ret_20d": -6.78
+        "vol_ratio_20d": 0.45,
+        "ret_1d": 1.47,
+        "ret_5d": 4.01,
+        "ret_20d": -7.34
       },
       "thesis_note": "+61% from avg $1,012. Now 1.04 units. EUV monopoly — EVERY AI chip requires ASML machines. Irreplaceable. $200/month forever. Target 3 units ($5,000 position)."
     },
@@ -459,26 +459,26 @@
       "holding": {
         "units": 4.8871134,
         "avg_cost": 262.44,
-        "current_price": 285.9700012207031,
-        "prev_close": 293.9,
+        "current_price": 284.6199951171875,
+        "prev_close": 285.97,
         "invested": 1282.57,
-        "current_value": 1397.57,
-        "pnl_pct": 8.97
+        "current_value": 1390.97,
+        "pnl_pct": 8.45
       },
       "ta": {
-        "rsi14": 54.7,
-        "macd": 6.205,
+        "rsi14": 53.59,
+        "macd": 5.606,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 281.24,
-        "sma50": 268.56,
+        "sma20": 281.54,
+        "sma50": 269.53,
         "sma200": null,
-        "vs_sma50_pct": 6.48,
+        "vs_sma50_pct": 5.6,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.89,
-        "ret_1d": -2.7,
-        "ret_5d": -1.4,
-        "ret_20d": 2.62
+        "vol_ratio_20d": 0.3,
+        "ret_1d": -0.47,
+        "ret_5d": -0.15,
+        "ret_20d": 2.15
       },
       "thesis_note": "URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start"
     },
@@ -491,26 +491,26 @@
       "holding": {
         "units": 3.6777383,
         "avg_cost": 231.61,
-        "current_price": 258.489990234375,
-        "prev_close": 269.28,
+        "current_price": 275.4150085449219,
+        "prev_close": 258.49,
         "invested": 851.8,
-        "current_value": 950.66,
-        "pnl_pct": 11.61
+        "current_value": 1012.9,
+        "pnl_pct": 18.91
       },
       "ta": {
-        "rsi14": 60.49,
-        "macd": 9.394,
+        "rsi14": 64.96,
+        "macd": 11.507,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 225.84,
-        "sma50": 225.98,
+        "sma20": 227.8,
+        "sma50": 225.7,
         "sma200": null,
-        "vs_sma50_pct": 14.38,
+        "vs_sma50_pct": 22.03,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.89,
-        "ret_1d": -4.01,
-        "ret_5d": 18.97,
-        "ret_20d": 8.99
+        "vol_ratio_20d": 0.75,
+        "ret_1d": 6.55,
+        "ret_5d": 16.92,
+        "ret_20d": 16.59
       },
       "thesis_note": "Lottery ticket — +8% at $267. Solid-oxide fuel cells for AI data centers. $467 correctly sized. Wait for 2 consecutive earnings beats before adding. Do NOT size"
     },
@@ -523,26 +523,26 @@
       "holding": {
         "units": 4.8759398,
         "avg_cost": 140.3,
-        "current_price": 188.99000549316406,
-        "prev_close": 192.93,
+        "current_price": 198.3350067138672,
+        "prev_close": 188.99,
         "invested": 684.09,
-        "current_value": 921.5,
-        "pnl_pct": 34.7
+        "current_value": 967.07,
+        "pnl_pct": 41.36
       },
       "ta": {
-        "rsi14": 48.84,
-        "macd": 1.794,
+        "rsi14": 56.23,
+        "macd": 2.144,
         "macd_signal": null,
         "macd_hist": null,
-        "sma20": 193.36,
-        "sma50": 184.64,
+        "sma20": 193.1,
+        "sma50": 185.27,
         "sma200": null,
-        "vs_sma50_pct": 2.36,
+        "vs_sma50_pct": 7.05,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.54,
-        "ret_1d": -2.04,
-        "ret_5d": 1.55,
-        "ret_20d": -10.22
+        "vol_ratio_20d": 0.45,
+        "ret_1d": 4.94,
+        "ret_5d": 3.6,
+        "ret_20d": -2.6
       },
       "thesis_note": "-1.2% from avg $147. 3.62 units now. 800G AI networking upgrade cycle just starting. Every hyperscaler GPU cluster needs Arista. $150/month DCA. Add dips below "
     }
