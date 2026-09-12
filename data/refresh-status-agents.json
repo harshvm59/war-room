@@ -1,0 +1,12 @@
+{
+  "feed": "agents",
+  "status": "ok",
+  "last_attempt_at": "2026-09-12T17:43:43.191948+05:30",
+  "last_success_at": "2026-09-12T17:43:45.541131+05:30",
+  "error": null,
+  "source": "broker+market+themes+rss+local-ta+rules",
+  "outputs": [
+    "agent_ops.json"
+  ],
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/34693080701"
+}

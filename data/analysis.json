@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T04:54:01.601866+05:30",
+  "updated_at": "2026-09-12T17:43:33.631838+05:30",
   "source": "yahoo+local-ta+rules",
   "items": [
     {
@@ -9,13 +9,15 @@
       "priority": "P1",
       "monthly_dca": 500,
       "holding": {
-        "units": 120.0915872,
-        "avg_cost": 80.94,
+        "units": 120.1601067,
+        "avg_cost": 80.1,
         "current_price": 218.2899932861328,
         "prev_close": 218.36,
-        "invested": 9720.21,
-        "current_value": 26214.79,
-        "pnl_pct": 169.69
+        "invested": 9624.82,
+        "current_value": 26229.75,
+        "pnl_pct": 172.52,
+        "price_as_of": "2026-09-11T20:00:00+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:32.461460+05:30"
       },
       "ta": {
         "rsi14": 49.75,
@@ -27,7 +29,7 @@
         "sma200": null,
         "vs_sma50_pct": 2.68,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.68,
+        "vol_ratio_20d": 0.7,
         "ret_1d": -0.03,
         "ret_5d": -4.45,
         "ret_20d": -3.11
@@ -41,13 +43,15 @@
       "priority": "P1",
       "monthly_dca": 300,
       "holding": {
-        "units": 29.2991054,
-        "avg_cost": 156.28,
+        "units": 29.3218978,
+        "avg_cost": 154.72,
         "current_price": 433.239990234375,
         "prev_close": 428.03,
-        "invested": 4578.86,
-        "current_value": 12693.54,
-        "pnl_pct": 177.22
+        "invested": 4536.68,
+        "current_value": 12703.42,
+        "pnl_pct": 180.02,
+        "price_as_of": "2026-09-11T20:00:02+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:32.540763+05:30"
       },
       "ta": {
         "rsi14": 56.89,
@@ -59,7 +63,7 @@
         "sma200": null,
         "vs_sma50_pct": 3.41,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.13,
+        "vol_ratio_20d": 1.15,
         "ret_1d": 1.22,
         "ret_5d": 3.89,
         "ret_20d": 0.64
@@ -73,13 +77,15 @@
       "priority": "P2",
       "monthly_dca": 0,
       "holding": {
-        "units": 26.6372083,
-        "avg_cost": 246.58,
+        "units": 26.6644653,
+        "avg_cost": 243.91,
         "current_price": 365.44000244140625,
         "prev_close": 363.56,
-        "invested": 6568.2,
-        "current_value": 9734.3,
-        "pnl_pct": 48.2
+        "invested": 6503.73,
+        "current_value": 9744.26,
+        "pnl_pct": 49.83,
+        "price_as_of": "2026-09-11T20:00:00+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:32.604606+05:30"
       },
       "ta": {
         "rsi14": 54.45,
@@ -105,13 +111,15 @@
       "priority": "P1",
       "monthly_dca": 200,
       "holding": {
-        "units": 16.4903153,
-        "avg_cost": 402.33,
+        "units": 16.505598,
+        "avg_cost": 398,
         "current_price": 648.030029296875,
         "prev_close": 644.38,
-        "invested": 6634.55,
-        "current_value": 10686.22,
-        "pnl_pct": 61.07
+        "invested": 6569.23,
+        "current_value": 10696.12,
+        "pnl_pct": 62.82,
+        "price_as_of": "2026-09-11T20:00:01+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:32.675209+05:30"
       },
       "ta": {
         "rsi14": 67.17,
@@ -138,12 +146,14 @@
       "monthly_dca": 200,
       "holding": {
         "units": 20.1505854,
-        "avg_cost": 184.59,
+        "avg_cost": 182.53,
         "current_price": 338.5,
         "prev_close": 332.6,
-        "invested": 3719.6,
+        "invested": 3678.09,
         "current_value": 6820.97,
-        "pnl_pct": 83.38
+        "pnl_pct": 85.45,
+        "price_as_of": "2026-09-11T20:00:01+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:32.745418+05:30"
       },
       "ta": {
         "rsi14": 46.79,
@@ -155,7 +165,7 @@
         "sma200": null,
         "vs_sma50_pct": -2.5,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.06,
+        "vol_ratio_20d": 1.08,
         "ret_1d": 1.77,
         "ret_5d": -1.16,
         "ret_20d": -2.27
@@ -169,13 +179,15 @@
       "priority": "P1",
       "monthly_dca": 200,
       "holding": {
-        "units": 25.6887192,
-        "avg_cost": 182.92,
+        "units": 25.787512,
+        "avg_cost": 181.06,
         "current_price": 256.7799987792969,
         "prev_close": 251.89,
-        "invested": 4698.98,
-        "current_value": 6596.35,
-        "pnl_pct": 40.38
+        "invested": 4669.09,
+        "current_value": 6621.72,
+        "pnl_pct": 41.82,
+        "price_as_of": "2026-09-11T20:00:01+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:32.813985+05:30"
       },
       "ta": {
         "rsi14": 48.91,
@@ -187,7 +199,7 @@
         "sma200": null,
         "vs_sma50_pct": 0.6,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.83,
+        "vol_ratio_20d": 0.84,
         "ret_1d": 1.94,
         "ret_5d": -0.82,
         "ret_20d": -3.15
@@ -201,13 +213,15 @@
       "priority": "P2",
       "monthly_dca": 100,
       "holding": {
-        "units": 47.4867353,
-        "avg_cost": 89.84,
+        "units": 47.6352019,
+        "avg_cost": 89.04,
         "current_price": 167.22999572753906,
         "prev_close": 165.86,
-        "invested": 4266.21,
-        "current_value": 7941.21,
-        "pnl_pct": 86.14
+        "invested": 4241.44,
+        "current_value": 7966.03,
+        "pnl_pct": 87.81,
+        "price_as_of": "2026-09-11T20:00:00+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:32.878397+05:30"
       },
       "ta": {
         "rsi14": 49.16,
@@ -234,12 +248,14 @@
       "monthly_dca": 500,
       "holding": {
         "units": 7.0921387,
-        "avg_cost": 389.55,
+        "avg_cost": 385.19,
         "current_price": 495.6300048828125,
         "prev_close": 492.44,
-        "invested": 2762.74,
+        "invested": 2731.82,
         "current_value": 3515.08,
-        "pnl_pct": 27.23
+        "pnl_pct": 28.67,
+        "price_as_of": "2026-09-11T20:00:01+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:32.969105+05:30"
       },
       "ta": {
         "rsi14": 56.68,
@@ -251,7 +267,7 @@
         "sma200": null,
         "vs_sma50_pct": 9.25,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.69,
+        "vol_ratio_20d": 0.7,
         "ret_1d": 0.65,
         "ret_5d": -2.84,
         "ret_20d": -0.25
@@ -265,13 +281,15 @@
       "priority": "P1",
       "monthly_dca": 0,
       "holding": {
-        "units": 10.6631573,
-        "avg_cost": 190.52,
+        "units": 10.6926607,
+        "avg_cost": 189.14,
         "current_price": 516.1300048828125,
         "prev_close": 503.6,
-        "invested": 2031.54,
-        "current_value": 5503.58,
-        "pnl_pct": 170.91
+        "invested": 2022.41,
+        "current_value": 5518.8,
+        "pnl_pct": 172.88,
+        "price_as_of": "2026-09-11T20:00:00+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:33.041525+05:30"
       },
       "ta": {
         "rsi14": 57.96,
@@ -283,7 +301,7 @@
         "sma200": null,
         "vs_sma50_pct": 3.94,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 1.04,
+        "vol_ratio_20d": 1.05,
         "ret_1d": 2.49,
         "ret_5d": 13.15,
         "ret_20d": 6.86
@@ -297,13 +315,15 @@
       "priority": "P2",
       "monthly_dca": 0,
       "holding": {
-        "units": 24.3847164,
-        "avg_cost": 105.69,
+        "units": 24.457637,
+        "avg_cost": 104.75,
         "current_price": 206.74000549316406,
         "prev_close": 208.86,
-        "invested": 2577.22,
-        "current_value": 5041.3,
-        "pnl_pct": 95.61
+        "invested": 2561.94,
+        "current_value": 5056.37,
+        "pnl_pct": 97.37,
+        "price_as_of": "2026-09-11T20:00:01+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:33.104856+05:30"
       },
       "ta": {
         "rsi14": 49.95,
@@ -330,12 +350,14 @@
       "monthly_dca": 500,
       "holding": {
         "units": 4.4908881,
-        "avg_cost": 442.12,
+        "avg_cost": 437.17,
         "current_price": 975.260009765625,
         "prev_close": 977.41,
-        "invested": 1985.51,
+        "invested": 1963.28,
         "current_value": 4379.78,
-        "pnl_pct": 120.59
+        "pnl_pct": 123.08,
+        "price_as_of": "2026-09-11T20:00:01+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:33.200955+05:30"
       },
       "ta": {
         "rsi14": 52.99,
@@ -361,13 +383,15 @@
       "priority": "P1",
       "monthly_dca": 0,
       "holding": {
-        "units": 8.8495241,
-        "avg_cost": 222.81,
+        "units": 8.9441528,
+        "avg_cost": 220.52,
         "current_price": 257.05999755859375,
         "prev_close": 248.13,
-        "invested": 1971.76,
-        "current_value": 2274.86,
-        "pnl_pct": 15.37
+        "invested": 1972.36,
+        "current_value": 2299.18,
+        "pnl_pct": 16.57,
+        "price_as_of": "2026-09-11T20:00:03+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:33.271552+05:30"
       },
       "ta": {
         "rsi14": 45.14,
@@ -394,12 +418,14 @@
       "monthly_dca": 420,
       "holding": {
         "units": 5.5362937,
-        "avg_cost": 328.37,
+        "avg_cost": 324.69,
         "current_price": 361.989990234375,
         "prev_close": 360.83,
-        "invested": 1817.95,
+        "invested": 1797.58,
         "current_value": 2004.08,
-        "pnl_pct": 10.24
+        "pnl_pct": 11.49,
+        "price_as_of": "2026-09-11T20:00:01+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:33.352220+05:30"
       },
       "ta": {
         "rsi14": 42.24,
@@ -411,7 +437,7 @@
         "sma200": null,
         "vs_sma50_pct": -5.51,
         "vs_sma200_pct": null,
-        "vol_ratio_20d": 0.8,
+        "vol_ratio_20d": 0.82,
         "ret_1d": 0.32,
         "ret_5d": 1.35,
         "ret_20d": -13.36
@@ -425,13 +451,15 @@
       "priority": "P1",
       "monthly_dca": 200,
       "holding": {
-        "units": 1.0791216,
-        "avg_cost": 974.23,
+        "units": 1.0848608,
+        "avg_cost": 966.6,
         "current_price": 1698.300048828125,
         "prev_close": 1687.43,
-        "invested": 1051.31,
-        "current_value": 1832.67,
-        "pnl_pct": 74.32
+        "invested": 1048.63,
+        "current_value": 1842.42,
+        "pnl_pct": 75.7,
+        "price_as_of": "2026-09-11T20:00:01+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:33.429398+05:30"
       },
       "ta": {
         "rsi14": 46.69,
@@ -458,12 +486,14 @@
       "monthly_dca": 580,
       "holding": {
         "units": 4.8871134,
-        "avg_cost": 262.44,
+        "avg_cost": 259.5,
         "current_price": 284.75,
         "prev_close": 285.97,
-        "invested": 1282.57,
+        "invested": 1268.21,
         "current_value": 1391.61,
-        "pnl_pct": 8.5
+        "pnl_pct": 9.73,
+        "price_as_of": "2026-09-11T20:00:01+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:33.496732+05:30"
       },
       "ta": {
         "rsi14": 53.69,
@@ -489,13 +519,15 @@
       "priority": "P3",
       "monthly_dca": 0,
       "holding": {
-        "units": 3.6777383,
-        "avg_cost": 231.61,
+        "units": 3.7150694,
+        "avg_cost": 229.16,
         "current_price": 275.75,
         "prev_close": 258.49,
-        "invested": 851.8,
-        "current_value": 1014.14,
-        "pnl_pct": 19.06
+        "invested": 851.35,
+        "current_value": 1024.43,
+        "pnl_pct": 20.33,
+        "price_as_of": "2026-09-11T20:00:02+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:33.566112+05:30"
       },
       "ta": {
         "rsi14": 65.04,
@@ -522,12 +554,14 @@
       "monthly_dca": 150,
       "holding": {
         "units": 4.8759398,
-        "avg_cost": 140.3,
+        "avg_cost": 138.73,
         "current_price": 199.58999633789062,
         "prev_close": 188.99,
-        "invested": 684.09,
+        "invested": 676.44,
         "current_value": 973.19,
-        "pnl_pct": 42.26
+        "pnl_pct": 43.87,
+        "price_as_of": "2026-09-11T20:00:03+00:00",
+        "price_retrieved_at": "2026-09-12T17:43:33.629905+05:30"
       },
       "ta": {
         "rsi14": 57.06,

@@ -1,0 +1,17 @@
+{
+  "feed": "news",
+  "status": "degraded",
+  "last_attempt_at": "2026-09-12T17:43:33.689970+05:30",
+  "last_success_at": "2026-09-12T17:43:36.305058+05:30",
+  "error": {
+    "code": "provider_credits_exhausted",
+    "message": "Anthropic API credits are exhausted; paid research is unavailable."
+  },
+  "source": "google-news-rss-fallback; google-news-rss-fallback+30-leader-monitor",
+  "outputs": [
+    "news.json",
+    "youtube.json",
+    "voices.json"
+  ],
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/34693080701"
+}
