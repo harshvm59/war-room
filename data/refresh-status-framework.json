@@ -1,15 +1,15 @@
 {
   "feed": "framework",
   "status": "blocked",
-  "last_attempt_at": "2026-09-12T17:43:40.976105+05:30",
+  "last_attempt_at": "2026-09-12T18:08:27.112985+05:30",
   "last_success_at": "2026-05-22T05:04:33.918543+05:30",
   "error": {
-    "code": "provider_credits_exhausted",
-    "message": "Anthropic API credits are exhausted; paid research is unavailable."
+    "code": "provider_key_missing",
+    "message": "OPENAI_API_KEY is not configured; paid OpenAI research is unavailable."
   },
   "source": "claude-haiku+yahoo-chart+tom-7q",
   "outputs": [
     "framework.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/34693080701"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/34694210097"
 }

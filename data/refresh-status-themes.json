@@ -1,15 +1,15 @@
 {
   "feed": "themes",
   "status": "degraded",
-  "last_attempt_at": "2026-09-12T17:43:36.425740+05:30",
-  "last_success_at": "2026-09-12T17:43:40.847821+05:30",
+  "last_attempt_at": "2026-09-12T18:08:23.870945+05:30",
+  "last_success_at": "2026-09-12T18:08:27.050314+05:30",
   "error": {
-    "code": "provider_credits_exhausted",
-    "message": "Anthropic API credits are exhausted; paid research is unavailable."
+    "code": "provider_key_missing",
+    "message": "OPENAI_API_KEY is not configured; paid OpenAI research is unavailable."
   },
   "source": "google-news-rss+deterministic-cohorts",
   "outputs": [
     "themes.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/34693080701"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/34694210097"
 }

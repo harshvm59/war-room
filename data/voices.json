@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T17:43:36.305501+05:30",
+  "updated_at": "2026-09-12T18:08:23.809114+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -203,20 +203,20 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-09-12",
-      "published": "Fri, 11 Sep 2026 18:36:06 GMT",
+      "published": "Fri, 11 Sep 2026 21:39:00 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 10,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Just Bet $45 Million on This Beaten-Down Space Stock. Wall Street Sees 70% Upside. - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): 1 Popular Cryptocurrency Cathie Wood of Ark Invest Sees Soaring in Value by 1,490% - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZmdQLVBhbC1ieEZTX3JPekdEeVF3MDNUZWJ1UHNsRTlSSG12RVFDOVlMVm8xOTJ1NkJIQTJ6RGNoQTMyNzBWRjMzSTJVV1E1SXEyYWMxSXpJS3VJVnE4ekJYUjViMHBVTl9BT28xUGE1LWpfSUFjV1ZxNmdMY2JyNjBPYXA2NDNGX25QczBfdTZ5dw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdFdSTzFDeWR4QnZFX0V4d0c5Z1pudWRlNzdPMzFBd1FKNHN4Nk9qNGpFN3pHWjNDbmVsVkRicmNpVnpubnBEVVhtUHNqS0RrRHdoTHVEN1lHaGJocFlZNTJ2azBEOVZka1VzM2lDZWR1QmNPaFdmaTAyLWo2am5fdEhreW5FbWo0M0xsV1FheEZKSUJhZVJaa3p6SzB2dWo0NXJv?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -224,7 +224,7 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-09-12",
-      "published": "Sat, 12 Sep 2026 10:49:43 GMT",
+      "published": "Sat, 12 Sep 2026 10:56:48 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -233,11 +233,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Provided Live Commentary For This AI Stock’s Post Earnings Share Price Movement - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer Turned Out Right For This Particular AI Stock That’s Up Since Earnings - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQczcwVXBIalE2WWd0OTBFYjNWU0dXMmtETk5nd0w0dHg4VXZJNnhBSF9lWWp0Yjl2czQyclljQ1R2WmRHc3pQand4SHc3bFVUbmlyY1NpcjVJNXFKb1IyV3E3dEJXZS1EQzZFcGktRXJHUHZLdHFScXRrRTBmc2NuNnZoOUZBQkZMd0FyUmtLM0hKbFZTb3hLZGsxYkJveExrVVE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPS3loYUN1bU1pV1dFdkh5bXl5akJqbVRZd052SmQ0UWdwblpRa181N2NFQ3F0d1BLMno2NVB5c0p6UERuZDU3UFppZ1NJNG5XNXlDeWtEVjB3bXNKT1BZTVdBX1VFal9kZmRWalNvVjQycnFOaDNDUDhVZ0ZSMUx2SXdDaU53X1Y3TFFIRjhldGVDNThrTGZJX3BEY3o?oc=5"
     },
     {
       "name": "Stacy Rasgon",
@@ -289,7 +289,7 @@
   "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
-    "code": "provider_credits_exhausted",
-    "message": "Anthropic API credits are exhausted; paid research is unavailable."
+    "code": "provider_key_missing",
+    "message": "OPENAI_API_KEY is not configured; paid OpenAI research is unavailable."
   }
 }
