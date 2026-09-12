@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T22:38:15.681533+05:30",
+  "updated_at": "2026-09-13T00:49:18.413655+05:30",
   "source": "broker+market+themes+rss+local-ta+rules",
   "items": [
     {
@@ -101,7 +101,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to DELTA, GUARDIAN, ALLOCATOR"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "DELTA",
@@ -201,7 +201,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to GUARDIAN, BRIEF"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "ATLAS",
@@ -302,7 +302,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to VECTOR, SENTINEL, ALLOCATOR"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "GUARDIAN",
@@ -403,7 +403,7 @@
         "Checked file availability, quote coverage and source timestamps",
         "Broker reconciliation is not verified"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "PULSE",
@@ -482,7 +482,7 @@
         "Checked 3 relevant signal(s)",
         "Prepared hand-off to SOURCECHECK, VECTOR"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "MOSAIC",
@@ -589,7 +589,7 @@
         "Checked 5 relevant signal(s)",
         "Prepared hand-off to SOURCECHECK, VECTOR"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "ECHO",
@@ -682,7 +682,7 @@
         "Checked 4 relevant signal(s)",
         "Prepared hand-off to SOURCECHECK, VECTOR"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "CATALYST",
@@ -747,7 +747,7 @@
         "Checked 2 relevant signal(s)",
         "Prepared hand-off to SOURCECHECK, VECTOR"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "RADAR",
@@ -826,7 +826,7 @@
         "Checked 3 relevant signal(s)",
         "Prepared hand-off to SOURCECHECK, VECTOR"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "MACRO",
@@ -932,7 +932,7 @@
         "Checked 5 relevant signal(s)",
         "Prepared hand-off to SOURCECHECK, SENTINEL"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "SOURCECHECK",
@@ -1033,7 +1033,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to VECTOR, SENTINEL, ALLOCATOR"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "VECTOR",
@@ -1134,7 +1134,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to SENTINEL, ALLOCATOR"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "SENTINEL",
@@ -1237,7 +1237,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to ALLOCATOR, DEPLOY, CIO"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "ALLOCATOR",
@@ -1339,7 +1339,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to DEPLOY, CIO"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "DEPLOY",
@@ -1440,7 +1440,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to CIO"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "CIO",
@@ -1544,7 +1544,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to CEO, BRIEF"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     },
     {
       "code": "BRIEF",
@@ -1643,7 +1643,7 @@
         "Checked 17 relevant signal(s)",
         "Prepared hand-off to CEO"
       ],
-      "updated_at": "2026-09-12T22:38:12.727218+05:30"
+      "updated_at": "2026-09-13T00:49:15.759560+05:30"
     }
   ],
   "cadence": "hourly operating heartbeat; market TA refreshes separately during market hours",
@@ -3139,7 +3139,7 @@
     "next_gate": "HVM · CEO"
   },
   "eod_report": {
-    "report_date": "2026-09-12",
+    "report_date": "2026-09-13",
     "status": "LIVE DRAFT — closes after the US market",
     "employees_reporting": 17,
     "completed_packets": 17,
