@@ -36,13 +36,32 @@ Settings → Pages → Source → `main` branch → `/ (root)`
 Trigger manually: **Actions** tab → "Daily TA Analysis" → "Run workflow", or
 `gh workflow run analyze-daily.yml`.
 
-### Disabled workflows
+### Published data refresh
 
-`news-daily.yml`, `themes-biweekly.yml`, and `framework-daily.yml` generate
-written content with the Anthropic API. Their cron schedules are **commented
-out** because that needs paid Claude credits — re-enable by uncommenting the
-`schedule:` block in each file once an `ANTHROPIC_API_KEY` secret is funded.
-Their `data/*.json` stay static meanwhile.
+The dashboard checks all published feeds every 60 seconds and when the tab returns to the foreground. **Refresh dashboard**, **Refresh Now**, and **Refresh Brief** reload published data and report the source timestamp separately from the time the browser checked it. Loading a file does not regenerate server research.
+
+To regenerate public feeds now, open [Refresh all dashboard feeds](https://github.com/harshvm59/war-room/actions/workflows/refresh-all.yml), sign in to GitHub, and choose **Run workflow** on `main`. This run refreshes prices, actions, news, themes, framework and agent packets without sending a Telegram message. It publishes individual source status even if another source fails.
+
+| Source | Server schedule | Dependency |
+| --- | --- | --- |
+| Prices and technical signals | Every 30 minutes, 14:00–20:30 UTC weekdays; 21:30 UTC after-close run | Yahoo public market data |
+| News, leader signals, YouTube/source links | 03:30 UTC daily; 13:35 and 17:35 UTC weekdays | Public RSS fallback continues when paid research is unavailable |
+| Themes | 03:45 UTC daily; 13:45 and 17:45 UTC weekdays | Public RSS and deterministic cohort calculations |
+| Agent workboard | Hourly at :15 UTC | Published research packets and source checks |
+| Seven-question framework | 22:30 UTC daily | Funded Anthropic API; previous output is retained and labelled stale when blocked |
+| Broker holdings | 09:00, 19:00, 21:00 and 23:00 IST on the owner's Mac | Mac available, authenticated INDMoney connection and network |
+
+GitHub schedules are best effort and can run late. Prices do not change merely because a weekend refresh ran. Broker holdings are a separate local sync; public cloud jobs do not access broker credentials.
+
+`data/refresh-status-{feed}.json` records the last attempt, last successful packet timestamp, dependency failure and workflow link. Failed updates preserve prior source timestamps. RSS items retain their actual publication dates and must pass the freshness filter. An empty verified feed replaces old items instead of keeping historical headlines under a current date.
+
+### Refresh regression checks
+
+```sh
+python -m unittest discover -s scripts -p 'test_refresh*.py'
+node --test scripts/test_refresh*.mjs
+node scripts/test_cohort_planner.mjs
+```
 
 ## 🔑 API Keys
 
@@ -51,7 +70,7 @@ Their `data/*.json` stay static meanwhile.
 | Yahoo Finance  | Prices + history for TA (server-side, no key)   | **No key — FREE**          |
 | GitHub Actions | Runs the pipeline + commits data                | **FREE**                   |
 | Telegram Bot   | Optional digest push                            | Optional                   |
-| Anthropic      | Only the disabled content refreshers            | Optional (currently off)   |
+| Anthropic      | Written framework and optional research enrichment | Funded key required for framework |
 
 The core dashboard (prices + action cards) needs **no API keys at all.**
 

@@ -1,0 +1,48 @@
+name: Refresh all dashboard feeds
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-all
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+      - name: Refresh public feeds and record each result
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          failed=0
+          for feed in prices news themes framework agents; do
+            python scripts/run_refresh.py "$feed" --no-notify || failed=1
+          done
+          exit "$failed"
+      - name: Publish data and refresh status
+        if: always()
+        run: |
+          git config user.name "war-room-bot"
+          git config user.email "war-room-bot@users.noreply.github.com"
+          git add data/prices.json data/actions.json data/analysis.json data/news.json data/youtube.json data/voices.json data/themes.json data/framework.json data/agent_ops.json
+          git add -- 'data/refresh-status-*.json'
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Refresh dashboard feeds and publish source health [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            git fetch origin main
+            git pull --rebase --autostash origin main || git rebase --abort || true
+            sleep 2
+          done
+          exit 1

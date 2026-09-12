@@ -14,13 +14,14 @@ from __future__ import annotations
 
 import json
 import sys
+from datetime import timedelta
 from pathlib import Path
 from urllib.parse import quote_plus
 from xml.etree import ElementTree as ET
 
 import requests
 
-from _common import DATA_DIR, envelope, now_ist, write_json
+from _common import DATA_DIR, envelope, now_ist, write_json, publication_time
 
 
 AGENTS = [
@@ -266,6 +267,43 @@ def build_cio_committee(queue: list[dict]) -> dict:
     }
 
 
+def guardian_checks(docs: dict, now=None) -> dict:
+    """Check packet coverage and source ages; this is not broker reconciliation."""
+    now = now or now_ist()
+    issues = []
+    holdings = docs.get("portfolio", {}).get("holdings", [])
+    prices_doc = docs.get("prices", {})
+    prices = prices_doc.get("prices", {})
+    tickers = {str(row.get("ticker", "")).upper() for row in holdings if row.get("ticker")}
+    if not tickers:
+        issues.append("No broker holdings are available")
+    missing = sorted(ticker for ticker in tickers if not prices.get(ticker, {}).get("price"))
+    if missing:
+        issues.append("Missing prices: " + ", ".join(missing))
+
+    def check_age(label, value, max_hours):
+        stamp = publication_time(value)
+        if stamp is None:
+            issues.append(label + " timestamp is missing or invalid")
+        elif now - stamp > timedelta(hours=max_hours):
+            issues.append(label + " is older than %d hours" % max_hours)
+        elif stamp - now > timedelta(minutes=5):
+            issues.append(label + " timestamp is in the future")
+
+    check_age("Broker snapshot", docs.get("portfolio", {}).get("meta", {}).get("broker_synced_at"), 30)
+    check_age("Price packet", prices_doc.get("updated_at"), 96)
+    check_age("Action packet", docs.get("actions_updated_at"), 96)
+    for ticker in sorted(tickers - set(missing)):
+        check_age(ticker + " market quote", prices[ticker].get("as_of"), 96)
+    return {
+        "status": "blocked" if issues else "files_available",
+        "issues": issues,
+        "broker_reconciliation_verified": False,
+        "scope": "File availability, quote coverage and source timestamps only; broker reconciliation is not verified.",
+        "max_age_hours": {"broker": 30, "market": 96},
+    }
+
+
 def role_activity(spec: dict, relevant: list[dict], docs: dict) -> tuple[str, str, str]:
     primary = relevant[0] if relevant else {}
     code = spec["code"]
@@ -280,9 +318,10 @@ def role_activity(spec: dict, relevant: list[dict], docs: dict) -> tuple[str, st
     if code == "ATLAS":
         return "MONITORING", f"Validating live marks for {len(prices)} portfolio tickers.", "Price tape is published for technical, risk and allocation desks."
     if code == "GUARDIAN":
-        missing = max(0, len(holdings) - len(prices))
-        status = "BLOCKED" if missing else "COMPLETE"
-        return status, f"Checking data freshness, {missing} missing prices and dashboard health.", "Data gate passed." if not missing else f"Blocked: {missing} holdings do not have a current market mark."
+        checks = guardian_checks(docs)
+        if checks["issues"]:
+            return "BLOCKED", "Checked required files, quote coverage and source timestamps.", "Blocked: " + "; ".join(checks["issues"]) + ". Broker reconciliation is not verified."
+        return "REVIEWING", "Files available and source timestamps within configured limits.", "File availability checks completed; broker reconciliation is not verified."
     if code == "SOURCECHECK":
         return "REVIEWING", f"Verifying evidence and freshness across {len(themes)} theme packets and company research.", "Only direct, dated and source-linked claims move to analyst review."
     if code == "VECTOR":
@@ -322,6 +361,7 @@ def main() -> int:
     action_queue = build_action_queue(actions, prices)
     docs = {
         "actions": actions, "prices": prices_doc, "portfolio": portfolio,
+        "actions_updated_at": actions_doc.get("updated_at"),
         "themes": themes, "news": news, "transactions": transactions,
         "action_queue": action_queue,
     }
@@ -337,6 +377,8 @@ def main() -> int:
             f"Checked {len(relevant)} relevant signal(s)",
             f"Prepared hand-off to {', '.join(spec['hands_to'])}",
         ]
+        if spec["code"] == "GUARDIAN":
+            completed = ["Checked file availability, quote coverage and source timestamps", "Broker reconciliation is not verified"]
         out.append({
             **spec,
             "status": status,
@@ -389,6 +431,7 @@ def main() -> int:
         "action_queue": action_queue,
         "cio_committee": committee,
         "eod_report": eod_report,
+        "data_checks": guardian_checks(docs),
     })
     write_json("agent_ops.json", doc)
     print(f"[agent_heartbeat] wrote {len(out)} employee packets, {len(theme_packets)} themes and {len(action_queue)} action proposals")

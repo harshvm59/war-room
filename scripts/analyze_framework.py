@@ -117,7 +117,12 @@ def main():
     if not enriched: print("[FATAL] no data"); return 1
     framework = call_claude(json.dumps(enriched, indent=2))
     print(f"[framework] got {len(framework)} evaluations")
-    out = envelope(framework, source="claude-haiku+yahoo-chart+tom-7q")
+    out = envelope(framework, source="claude-haiku-training-knowledge+yahoo-chart+tom-7q")
+    out["fundamentals_verified"] = False
+    out["refresh_warning"] = {
+        "code": "fundamentals_unverified",
+        "message": "This model assessment uses training knowledge; current company fundamentals have not been independently verified.",
+    }
     write_json("framework.json", out)
     print(f"[DONE] wrote framework.json")
     return 0

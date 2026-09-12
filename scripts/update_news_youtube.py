@@ -13,7 +13,7 @@ from urllib.parse import quote_plus
 from xml.etree import ElementTree as ET
 import requests
 from anthropic import Anthropic
-from _common import TICKERS, envelope, now_ist, require_key, write_json
+from _common import TICKERS, envelope, now_ist, require_key, write_json, publication_time, is_recent, public_error
 
 MODEL = "claude-haiku-4-5-20251001"
 CHANNELS = ["Tom Nash", "CNBC Fast Money", "Bloomberg Markets", "Yahoo Finance", "Motley Fool", "ARK Invest", "Benzinga"]
@@ -95,16 +95,21 @@ def rss(query: str, limit: int = 8) -> list[dict]:
     url = "https://news.google.com/rss/search?q=" + quote_plus(query) + "&hl=en-US&gl=US&ceid=US:en"
     r = requests.get(url, timeout=15, headers={"User-Agent":"HVM-WarRoom/1.0"}); r.raise_for_status()
     root = ET.fromstring(r.content); out=[]
-    for item in root.findall(".//item")[:limit]:
+    for item in root.findall(".//item"):
         title=(item.findtext("title") or "Market update").strip()
         link=(item.findtext("link") or "").strip()
         published=(item.findtext("pubDate") or "").strip()
+        if not is_recent(published) or not link.startswith("https://"):
+            continue
         source=item.find("source")
         out.append({"title":title,"url":link,"source":(source.text if source is not None else "Google News"),"published":published})
+        if len(out) >= limit:
+            break
     return out
 
 def date_label(item: dict) -> str:
-    return now_ist().strftime("%Y-%m-%d")
+    stamp = publication_time(item.get("published", ""))
+    return stamp.astimezone(now_ist().tzinfo).strftime("%Y-%m-%d") if stamp else "Unknown publication date"
 
 def ticker_from_title(title: str) -> str:
     up=title.upper()
@@ -151,16 +156,15 @@ def theme_for(title: str) -> str:
     return "AI Compute"
 
 def fallback_bundle() -> dict:
-    general=rss("AI investing stocks Nvidia AMD Microsoft earnings", 12)
-    if not general: raise RuntimeError("RSS fallback returned no research")
+    general=rss("AI investing stocks Nvidia AMD Microsoft earnings when:1d", 12)
     news=[]
     for item in general[:8]:
         ticker=ticker_from_title(item["title"])
-        news.append({"ticker":ticker,"headline":item["title"],"date":date_label(item),"summary":"Automated RSS market signal from %s. Open the linked source for full context before acting." % item["source"],"tag":"market","url":item["url"]})
+        news.append({"ticker":ticker,"headline":item["title"],"date":date_label(item),"published":item["published"],"summary":"Automated RSS market signal from %s. Open the linked source for full context before acting." % item["source"],"tag":"market","url":item["url"]})
     youtube=[]
     for item in general[:8]:
         ticker=ticker_from_title(item["title"])
-        youtube.append({"ch":item["source"],"c":"#4a9eff","theme":theme_for(item["title"]),"title":item["title"],"date":date_label(item),"views":"RSS source","tags":["#"+ticker,"#AI"],"verd":"SOURCE-LINKED MARKET SIGNAL","vc":"var(--blue)","body":"Automated daily research feed. Read the linked source for the original reporting and context.","url":item["url"]})
+        youtube.append({"ch":item["source"],"c":"#4a9eff","theme":theme_for(item["title"]),"title":item["title"],"date":date_label(item),"published":item["published"],"views":"RSS source","tags":["#"+ticker,"#AI"],"verd":"SOURCE-LINKED MARKET SIGNAL","vc":"var(--blue)","body":"Automated daily research feed. Read the linked source for the original reporting and context.","url":item["url"]})
     return {"youtube":youtube,"voices":[],"news":news}
 
 
@@ -237,23 +241,32 @@ def merge_voices(primary: list[dict], monitored: list[dict]) -> list[dict]:
 
 def main() -> int:
     print("[update_news_youtube]", now_ist().isoformat())
+    provider_error = None
     try:
         bundle=call_claude_with_search(); source="claude+web_search"
     except Exception as exc:
+        provider_error = public_error(exc)
         print("[update_news_youtube] paid research unavailable; using RSS fallback:", exc, file=sys.stderr)
         bundle=fallback_bundle(); source="google-news-rss-fallback"
     for key in ("youtube","voices","news"):
         if not isinstance(bundle.get(key), list): bundle[key]=[]
     watched = fresh_leader_signals()
     bundle["voices"] = merge_voices(bundle["voices"], watched)
-    write_json("youtube.json", envelope(bundle["youtube"], source=source))
+    youtube_doc = envelope(bundle["youtube"], source=source)
+    youtube_doc["provider_error"] = provider_error
+    youtube_doc["fresh_window_hours"] = 24
+    write_json("youtube.json", youtube_doc)
     voices_doc = envelope(bundle["voices"], source=source + "+30-leader-monitor")
     voices_doc["monitored_leaders"] = len(LEADERS)
     voices_doc["fresh_window_hours"] = 24
     voices_doc["fresh_signal_count"] = len(bundle["voices"])
     voices_doc["quality_gate"] = "24h source-linked + portfolio relevance score >= 7"
+    voices_doc["provider_error"] = provider_error
     write_json("voices.json", voices_doc)
-    write_json("news.json", envelope(bundle["news"], source=source))
+    news_doc = envelope(bundle["news"], source=source)
+    news_doc["provider_error"] = provider_error
+    news_doc["fresh_window_hours"] = 24
+    write_json("news.json", news_doc)
     print("[update_news_youtube] yt=%d voices=%d news=%d" % (len(bundle["youtube"]),len(bundle["voices"]),len(bundle["news"])))
     return 0
 if __name__ == "__main__": sys.exit(main())

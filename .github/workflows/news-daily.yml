@@ -36,25 +36,19 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         id: scrape
-        continue-on-error: true
-        run: python scripts/update_news_youtube.py
-
-      - name: Report scrape skip
-        if: steps.scrape.outcome == 'failure'
-        run: |
-          echo "::warning::News/YouTube refresh failed, usually because Anthropic credits are unavailable. Keeping the last published data."
+        run: python scripts/run_refresh.py news
 
       - name: Commit if changed
-        if: steps.scrape.outcome == 'success'
+        if: always() && (steps.scrape.outcome == 'success' || steps.scrape.outcome == 'failure')
         run: |
           git config user.name  "war-room-bot"
           git config user.email "war-room-bot@users.noreply.github.com"
-          if git diff --quiet -- data/news.json data/youtube.json data/voices.json; then
+          git add data/news.json data/youtube.json data/voices.json data/refresh-status-news.json
+          if git diff --cached --quiet; then
             echo "No new news/youtube/voices content — skipping commit."
             exit 0
           fi
           DATE=$(date -u +"%Y-%m-%d")
-          git add data/news.json data/youtube.json data/voices.json
           git commit -m "Daily news + YouTube scrape ${DATE} [skip ci]"
           for a in 1 2 3 4 5; do
             if git push; then exit 0; fi

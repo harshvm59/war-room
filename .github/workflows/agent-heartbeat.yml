@@ -26,12 +26,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
       - name: Build live research workboard
-        run: python scripts/agent_heartbeat.py
+        id: heartbeat
+        run: python scripts/run_refresh.py agents
       - name: Commit agent workboard
+        if: always() && (steps.heartbeat.outcome == 'success' || steps.heartbeat.outcome == 'failure')
         run: |
           git config user.name "war-room-bot"
           git config user.email "war-room-bot@users.noreply.github.com"
-          git add data/agent_ops.json
+          git add data/agent_ops.json data/refresh-status-agents.json
           if git diff --cached --quiet; then
             echo "agent_ops.json unchanged"; exit 0
           fi

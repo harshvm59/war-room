@@ -22,13 +22,14 @@ import re
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+from datetime import datetime, timezone
 from urllib.parse import quote_plus
 from xml.etree import ElementTree as ET
 
 import requests
 from anthropic import Anthropic
 
-from _common import DATA_DIR, envelope, now_ist, require_key, write_json
+from _common import DATA_DIR, envelope, now_ist, require_key, write_json, publication_time, is_recent, public_error
 
 
 MODEL = "claude-haiku-4-5-20251001"
@@ -210,15 +211,20 @@ def rss(query: str, limit: int = 3) -> list[dict]:
     response.raise_for_status()
     root = ET.fromstring(response.content)
     out = []
-    for item in root.findall(".//item")[:limit]:
+    for item in root.findall(".//item"):
+        published = (item.findtext("pubDate") or "").strip()
+        if not is_recent(published):
+            continue
         source = item.find("source")
         out.append({
             "title": (item.findtext("title") or "Market update").strip(),
-            "date": now_ist().strftime("%Y-%m-%d"),
+            "date": publication_time(published).astimezone(now_ist().tzinfo).strftime("%Y-%m-%d"),
             "url": (item.findtext("link") or "").strip(),
             "source": source.text.strip() if source is not None and source.text else "Google News",
-            "published": (item.findtext("pubDate") or "").strip(),
+            "published": published,
         })
+        if len(out) >= limit:
+            break
     return out
 
 
@@ -259,10 +265,12 @@ def relevant_articles(articles: list[dict], cfg: dict, limit: int = 3) -> list[d
 
 def fallback_themes() -> list[dict]:
     out = []
+    failures = 0
     for theme, cfg in THEME_CONFIG.items():
         try:
             articles = relevant_articles(rss(cfg["query"] + " when:1d", 8), cfg)
         except Exception as exc:
+            failures += 1
             print(f"[update_themes] RSS unavailable for {theme}: {exc}", file=sys.stderr)
             articles = []
         headline = articles[0]["title"] if articles else "No fresh RSS headline returned"
@@ -280,6 +288,8 @@ def fallback_themes() -> list[dict]:
             "news": articles,
             "tickers": [],
         })
+    if failures == len(THEME_CONFIG):
+        raise RuntimeError("All theme RSS feeds failed; retaining the previous research packet")
     return out
 
 
@@ -297,19 +307,24 @@ def fetch_quote(ticker: str) -> tuple[str, dict]:
         result = response.json()["chart"]["result"][0]
         meta = result.get("meta", {})
         price = meta.get("regularMarketPrice")
-        previous = meta.get("chartPreviousClose") or meta.get("previousClose")
+        closes = result.get("indicators", {}).get("quote", [{}])[0].get("close", [])
+        closes = [x for x in closes if x is not None]
+        # chartPreviousClose is the beginning of the requested 5-day range,
+        # not yesterday's close. Use the adjacent daily closes for 1D change.
+        previous = closes[-2] if len(closes) > 1 else meta.get("previousClose")
         if price is None:
-            closes = result.get("indicators", {}).get("quote", [{}])[0].get("close", [])
-            closes = [x for x in closes if x is not None]
             price = closes[-1] if closes else None
         change = ((price / previous - 1) * 100) if price and previous else None
         return ticker, {
             "price": round(float(price), 2) if price is not None else None,
             "change_pct": round(float(change), 2) if change is not None else None,
+            "as_of": datetime.fromtimestamp(meta["regularMarketTime"], timezone.utc).isoformat() if meta.get("regularMarketTime") else None,
+            "retrieved_at": now_ist().isoformat(),
+            "status": "fetched" if price is not None else "missing",
         }
     except Exception as exc:
         print(f"[update_themes] quote unavailable for {ticker}: {exc}", file=sys.stderr)
-        return ticker, {"price": None, "change_pct": None}
+        return ticker, {"price": None, "change_pct": None, "as_of": None, "status": "missing"}
 
 
 def load_known_prices() -> dict[str, dict]:
@@ -318,20 +333,26 @@ def load_known_prices() -> dict[str, dict]:
         ticker: {
             "price": quote.get("price"),
             "change_pct": quote.get("changePct"),
+            "as_of": quote.get("as_of"),
+            "retrieved_at": quote.get("retrieved_at"),
+            "status": "retained",
         }
         for ticker, quote in raw.items()
     }
 
 
 def quote_universe(tickers: set[str], known: dict[str, dict]) -> dict[str, dict]:
-    missing = sorted(t for t in tickers if not known.get(t, {}).get("price"))
-    if not missing:
-        return known
+    # A theme refresh must request every quote, including held names. Existing
+    # prices are only a dated fallback when the current request fails.
+    missing = sorted(tickers)
     with ThreadPoolExecutor(max_workers=8) as pool:
         futures = [pool.submit(fetch_quote, ticker) for ticker in missing]
         for future in as_completed(futures):
             ticker, quote = future.result()
-            known[ticker] = quote
+            if quote.get("price") is not None or not known.get(ticker, {}).get("price"):
+                known[ticker] = quote
+            else:
+                known[ticker]["status"] = "retained"
     return known
 
 
@@ -344,6 +365,16 @@ def normalize_action(value: str) -> str:
     if "HOLD" in value:
         return "HOLD"
     return "WATCH"
+
+
+def fresh_daily_moves(rows: list[dict]) -> list[float]:
+    """Retained or undated quotes cannot contribute to a fresh momentum score."""
+    return [
+        float(row["change_pct"]) for row in rows
+        if row.get("change_pct") is not None
+        and row.get("price_status") == "fetched"
+        and is_recent(row.get("price_as_of"))
+    ]
 
 
 def normalize_themes(raw_items: list[dict], source: str) -> list[dict]:
@@ -393,6 +424,9 @@ def normalize_themes(raw_items: list[dict], source: str) -> list[dict]:
                 "priority": cfg["priority"],
                 "price": quotes.get(ticker, {}).get("price"),
                 "change_pct": quotes.get(ticker, {}).get("change_pct"),
+                "price_as_of": quotes.get(ticker, {}).get("as_of"),
+                "price_retrieved_at": quotes.get(ticker, {}).get("retrieved_at"),
+                "price_status": quotes.get(ticker, {}).get("status", "missing"),
                 "units": held.get(ticker, {}).get("units", 0),
                 "current_value": round(
                     float(held.get(ticker, {}).get("units", 0) or 0)
@@ -408,7 +442,7 @@ def normalize_themes(raw_items: list[dict], source: str) -> list[dict]:
             row.pop("score", None)
 
         source_hits = sum(int(row.get("source_hits", 0)) for row in rows)
-        daily_moves = [float(row["change_pct"]) for row in rows if row.get("change_pct") is not None]
+        daily_moves = fresh_daily_moves(rows)
         average_move = sum(daily_moves) / len(daily_moves) if daily_moves else 0.0
         raw_signal_score = min(5.0, len(articles) * 1.5) + min(3.0, source_hits * 0.75) + max(-1.0, min(2.0, average_move * 0.5))
         signal_score = round(max(0.0, min(10.0, raw_signal_score)), 1)
@@ -419,8 +453,9 @@ def normalize_themes(raw_items: list[dict], source: str) -> list[dict]:
         else:
             rating = "ACTIVE"
         rc = {"HOT": "var(--green)", "ACTIVE": "var(--gold)", "QUIET": "var(--blue)"}[rating]
-        signal_basis = "%d fresh sources · %d direct cohort mentions · %+.2f%% average 1D cohort move" % (
-            len(articles), source_hits, average_move
+        momentum_basis = ("%+.2f%% average 1D move from %d current quotes" % (average_move, len(daily_moves))) if daily_moves else "1D momentum unavailable; no current dated quotes"
+        signal_basis = "%d fresh sources · %d direct cohort mentions · %s" % (
+            len(articles), source_hits, momentum_basis
         )
         base_summary = live.get("summary") or "Daily research packet refreshed from the configured evidence feed."
         summary = "%s Signal score %.1f/10 (%s). This is research activity, not an automatic trade order." % (
@@ -450,10 +485,12 @@ def normalize_themes(raw_items: list[dict], source: str) -> list[dict]:
 
 def main() -> int:
     print("[update_themes]", now_ist().isoformat())
+    provider_error = None
     try:
         raw = call_claude_with_search()
         source = "claude+web_search"
     except Exception as exc:
+        provider_error = public_error(exc)
         print("[update_themes] paid research unavailable; using RSS fallback:", exc, file=sys.stderr)
         raw = fallback_themes()
         source = "google-news-rss+deterministic-cohorts"
@@ -461,6 +498,7 @@ def main() -> int:
     document = envelope(themes, source=source)
     document["fresh_window_hours"] = 24
     document["rating_method"] = "fresh-source breadth + direct cohort mentions + 1D cohort momentum"
+    document["provider_error"] = provider_error
     write_json("themes.json", document)
     print("[update_themes] themes=%d tickers=%d" % (
         len(themes), sum(len(item["tickers"]) for item in themes)

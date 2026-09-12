@@ -10,6 +10,7 @@ and optionally pushes a plain-text Telegram digest.
 
 from __future__ import annotations
 import json, os, sys
+from datetime import datetime, timezone
 import requests
 from _common import DATA_DIR, URGENCY_COLORS, envelope, now_ist, write_json
 
@@ -29,7 +30,9 @@ def fetch_ohlcv(s):
     try:
         r = requests.get(YAHOO_CHART.format(s=s), headers=HDR, timeout=15); r.raise_for_status()
         res = r.json()["chart"]["result"][0]; ind = res["indicators"]["quote"][0]
-        return {"open": ind["open"], "high": ind["high"], "low": ind["low"], "close": ind["close"], "volume": ind["volume"]}
+        return {"open": ind["open"], "high": ind["high"], "low": ind["low"], "close": ind["close"], "volume": ind["volume"],
+                "timestamps": res.get("timestamp", []), "market_time": res.get("meta", {}).get("regularMarketTime"),
+                "retrieved_at": now_ist().isoformat()}
     except Exception as e:
         print(f"[WARN] OHLCV {s}: {e}", file=sys.stderr); return None
 
@@ -75,6 +78,11 @@ def analyze_ticker(sym, h):
     cln = _dn(cl)
     last = cln[-1] if cln else None
     if last is None: return None
+    price_time = o.get("market_time")
+    if not price_time:
+        price_times = [stamp for stamp, close in zip(o.get("timestamps", []), cl) if close is not None]
+        price_time = price_times[-1] if price_times else None
+    price_as_of = datetime.fromtimestamp(price_time, timezone.utc).isoformat() if price_time else None
     prev_close = cln[-2] if len(cln) >= 2 else last
     s20 = sma(cl, 20); s50 = sma(cl, 50); s200 = sma(cl, 200)
     r = rsi(cl, 14); m = macd(cl)
@@ -90,7 +98,8 @@ def analyze_ticker(sym, h):
         "ticker": sym, "name": h["name"], "theme": h["theme"], "priority": h["priority"],
         "monthly_dca": h.get("monthly_dca", 0),
         "holding": {"units": units, "avg_cost": ac, "current_price": last, "prev_close": round(prev_close, 2),
-                    "invested": inv, "current_value": cv2, "pnl_pct": pnl},
+                    "invested": inv, "current_value": cv2, "pnl_pct": pnl,
+                    "price_as_of": price_as_of, "price_retrieved_at": o.get("retrieved_at")},
         "ta": {"rsi14": r, "macd": m["macd"], "macd_signal": m["signal"], "macd_hist": m["histogram"],
                "sma20": round(s20,2) if s20 else None, "sma50": round(s50,2) if s50 else None, "sma200": round(s200,2) if s200 else None,
                "vs_sma50_pct": round((last/s50-1)*100, 2) if s50 else None,
@@ -193,6 +202,8 @@ def build_prices(per):
             "changePct": p["ta"].get("ret_1d"),
             "volume": p["ta"].get("vol_ratio_20d"),
             "marketCap": None,
+            "as_of": h.get("price_as_of"),
+            "retrieved_at": h.get("price_retrieved_at"),
         }
     return prices
 
@@ -234,8 +245,8 @@ def main():
         x = analyze_ticker(sym, h)
         if x: per.append(x); print(f"[analyze_daily] {sym} ${x['holding']['current_price']:.2f} RSI={x['ta']['rsi14']}")
         else: print(f"[analyze_daily] {sym}: skipped (no data)")
-    if not per:
-        print("[FATAL] no price data for any ticker", file=sys.stderr); return 1
+    if not per or len(per) != len(portfolio):
+        print("[FATAL] incomplete portfolio quotes; retaining the previous complete snapshot", file=sys.stderr); return 1
 
     inv = round(sum(p["holding"]["invested"] for p in per), 2)
     val = round(sum(p["holding"]["current_value"] for p in per), 2)

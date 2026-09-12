@@ -29,19 +29,14 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         id: framework
-        continue-on-error: true
-        run: python scripts/analyze_framework.py
-      - name: Report framework skip
-        if: steps.framework.outcome == 'failure'
-        run: |
-          echo "::warning::Framework refresh failed, usually because Anthropic credits are unavailable. Keeping the last published data."
+        run: python scripts/run_refresh.py framework
       - name: Commit + push with rebase-retry
-        if: steps.framework.outcome == 'success'
+        if: always() && (steps.framework.outcome == 'success' || steps.framework.outcome == 'failure')
         run: |
           git config user.name  "war-room-bot"
           git config user.email "war-room-bot@users.noreply.github.com"
-          git add data/framework.json
-          if git diff --cached --quiet -- data/framework.json; then
+          git add data/framework.json data/refresh-status-framework.json
+          if git diff --cached --quiet; then
             echo "framework.json unchanged"; exit 0
           fi
           DATE=$(date -u +"%Y-%m-%d")

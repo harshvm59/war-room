@@ -29,17 +29,19 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scripts/analyze_daily.py
+        id: analyze
+        run: python scripts/run_refresh.py prices
       - name: Commit + push with rebase-retry
+        if: always() && (steps.analyze.outcome == 'success' || steps.analyze.outcome == 'failure')
         run: |
           git config user.name  "war-room-bot"
           git config user.email "war-room-bot@users.noreply.github.com"
-          if git diff --quiet -- data/actions.json data/prices.json data/analysis.json; then
+          git add data/actions.json data/prices.json data/analysis.json data/refresh-status-prices.json
+          if git diff --cached --quiet; then
             echo "actions.json/prices.json unchanged - skipping commit."
             exit 0
           fi
           STAMP=$(date -u +"%Y-%m-%d %H:%MZ")
-          git add data/actions.json data/prices.json data/analysis.json data/analysis.json
           git commit -m "TA refresh ${STAMP} [skip ci]"
           for attempt in 1 2 3 4 5; do
             if git push; then echo "Pushed on attempt ${attempt}"; exit 0; fi

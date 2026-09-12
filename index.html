@@ -2023,6 +2023,8 @@ tr:hover td{background:var(--bg2);}
   .hvm-splash-stats{gap:.7rem;}
   .hvm-splash-bottom{gap:.5rem;font-size:8px;}
 }
+.refresh-desk{border:1px solid var(--border,#292929);background:var(--bg2,#121212);padding:12px 14px;margin-bottom:20px;border-radius:6px;font-size:11px;color:var(--text2)}
+.refresh-desk-head{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.refresh-desk-note{margin:8px 0;line-height:1.6}.refresh-desk a{color:var(--blue)}.refresh-desk summary{cursor:pointer;color:var(--gold);padding:5px 0}.refresh-source{display:grid;grid-template-columns:145px 1fr;gap:8px;padding:8px 0;border-top:1px solid var(--border,#292929);line-height:1.6}.refresh-source small{display:block}.refresh-source[data-state="error"] b,.refresh-source[data-state="stale"] b{color:var(--orange)}.feed-check-status{font-size:10px;color:var(--text2);margin:8px 0;line-height:1.6}@media(max-width:600px){.refresh-source{grid-template-columns:1fr}}
 </style>
 
 <style id="hvm-trade-firm-office-v2">
@@ -2177,13 +2179,18 @@ tr:hover td{background:var(--bg2);}
     <div class="nav-item" onclick="nav('conviction',this)"><span class="nav-icon">🔥</span>Conviction Picks</div>
   </div>
   <div class="sb-footer">
-    <div class="live-row"><div class="live-dot"></div><span class="live-txt">Live · May 4, 2026</span></div>
+    <div class="live-row"><div class="live-dot"></div><span class="live-txt">Checking published feeds…</span></div>
     <div class="ver-txt" style="margin-top:3px;">HVM™ v5 · 30+ signals · P0–P3 themes · Daily brief</div>
   </div>
 </nav>
 
 <!-- MAIN -->
 <main class="main">
+<div class="refresh-desk" aria-label="Dashboard refresh and source status">
+  <div class="refresh-desk-head"><button type="button" class="action-refresh-btn" id="dashboardRefreshBtn">↻ Refresh dashboard</button><span id="dashboardRefreshSummary" role="status" aria-live="polite">Checking published feeds…</span></div>
+  <div class="refresh-desk-note">Checks published data every 60s and when you return. Cloud jobs generate research; broker sync needs your Mac. Server refresh: sign in, then select “Run workflow”. <a href="https://github.com/harshvm59/war-room/actions/workflows/refresh-all.yml" target="_blank" rel="noopener">Run server refresh ↗</a></div>
+  <details id="dashboardSourceDetails"><summary>Source freshness and automation status</summary><div id="dashboardSources"></div></details>
+</div>
 
 <!-- ═══ ROADMAP ═══ -->
 <div id="roadmap" class="section active">
@@ -2299,7 +2306,7 @@ tr:hover td{background:var(--bg2);}
     <div class="action-cmd-head">
       <div class="action-cmd-title">
         <div class="action-live-dot"></div>
-        TODAY'S ACTION ORDERS
+        PUBLISHED ACTION SIGNALS
       </div>
       <div class="action-meta">
         <span class="action-timestamp" id="actionTimestamp">Generating...</span>
@@ -2418,10 +2425,10 @@ tr:hover td{background:var(--bg2);}
   <div class="ph">
     <div class="ph-left">
       <h1>YOUTUBE <span class="gold">INTEL</span></h1>
-      <div class="ph-sub">Daily AI brief · curated AI-investing videos · cross-source consensus engine · stock mentions extracted</div>
+      <div class="ph-sub">Published videos and market-source headlines · source timestamps below · symbols counted locally</div>
     </div>
     <div class="tag-row">
-      <span class="tag tg" id="ytVideoCount">— videos curated</span>
+      <span class="tag tg" id="ytVideoCount">— published source items</span>
       <span class="tag tb">Consensus engine ON</span>
       <span class="tag to" id="ytTopTicker">Top: —</span>
     </div>
@@ -2431,7 +2438,7 @@ tr:hover td{background:var(--bg2);}
   <div class="yt-consensus">
     <div class="yt-consensus-head">
       <div class="yt-consensus-l">⚡ DAILY CONSENSUS · WHAT THE AI INVESTING WORLD IS SAYING</div>
-      <button class="yt-synthesize" onclick="generateYTSynthesis(true)">↺ Re-synthesize</button>
+      <button class="yt-synthesize" onclick="generateYTSynthesis(true)">↺ Refresh sources</button>
     </div>
     <div class="yt-consensus-grid">
       <div class="yt-cs-cell">
@@ -2447,8 +2454,8 @@ tr:hover td{background:var(--bg2);}
         <div class="yt-cs-body" id="ytSentiment">—</div>
       </div>
       <div class="yt-cs-cell wide">
-        <div class="yt-cs-l">🤖 AI Synthesis · The 4-paragraph zeitgeist</div>
-        <div class="yt-cs-body yt-cs-synthesis" id="ytSynthesis">Click "Re-synthesize" to generate today's consensus from all curated videos.</div>
+        <div class="yt-cs-l">Source summary · counted locally</div>
+        <div class="yt-cs-body yt-cs-synthesis" id="ytSynthesis">Checking the published source packet…</div>
       </div>
     </div>
   </div>
@@ -2460,18 +2467,19 @@ tr:hover td{background:var(--bg2);}
   <!-- ═══ DAILY BRIEF ═══ -->
   <div class="daily-brief">
     <div class="db-header">
-      <div class="db-title">📰 Daily AI Investment Brief</div>
+      <div class="db-title">📰 Published Daily Research</div>
       <button class="db-refresh" onclick="refreshBrief(true)">↺ Refresh Brief</button>
     </div>
     <div class="db-content" id="briefContent">Loading today's brief...</div>
   </div>
 
   <!-- ═══ FILTER + DATA SOURCE NOTE ═══ -->
-  <div class="sl">🎬 All Curated Videos · Filter by theme</div>
+  <div class="sl">🎬 Published Source Items · Filter by theme</div>
   <div class="yt-filter-row" id="ytFilters"></div>
 
   <div class="yt-data-note">
-    <strong>Note on coverage:</strong> This dashboard tracks ~45 hand-curated high-signal videos across AI Compute, Energy, Defense, Agentic AI, GLP-1, Robotics, Earnings, and Macro. Live scraping of all 100+ daily AI-investing uploads requires the YouTube Data API (key needed) — not enabled in this static build. The Consensus Engine above already runs across every curated video to extract ticker mentions, theme distribution, and sentiment.
+    <strong>Source coverage:</strong> The published packet can contain videos or linked market headlines when the research provider is unavailable. The source status shows that distinction. Refresh reloads published files; <a href="https://github.com/harshvm59/war-room/actions/workflows/refresh-all.yml" target="_blank" rel="noopener">GitHub Actions</a> runs research generation. Historical embedded items are excluded.
+
   </div>
 
   <div class="yt-grid" id="ytGrid"></div>
@@ -2509,7 +2517,7 @@ tr:hover td{background:var(--bg2);}
 
 </main>
 </div>
-<div class="disc">NOT FINANCIAL ADVICE · Educational only · May 3 2026 · Sources: Jensen Huang GTC Mar 16 2026 · Sam Altman BlackRock Summit Mar 11 2026 · Satya Nadella 2026 · Dan Ives Wedbush Dec 2025 · Chamath Palihapitiya All-In Jan 2026 · Morgan Stanley Apr 20 2026 · Goldman Sachs Q2 2026 · Future Nexus Dec 2025 · Motley Fool May 2026 · TipRanks May 2026 · Hennion & Walsh Dec 2025 · Roundly.io Nov 2025 · IEA 2025 · Gartner 2025 · Reddit/Twitter signals as cited · All market sizes from public institutional reports · DYOR</div>
+<div class="disc">Published snapshots · source dates and automation status are shown above · Strategy and DCA plans are configured assumptions, not automatically verified forecasts · Manual review required for any investment decision; no trades execute here</div>
 
 <script>
 
@@ -2701,42 +2709,14 @@ const TA={
 
 // ══════════════════════════════════════
 // DAILY ACTION COMMAND CENTER
-// Calls Claude API on every page load, cached 1 hour
+// Loads published rule-based signals through the shared feed coordinator
 // ══════════════════════════════════════
 var TODAY_ACTIONS_MAY5=[{"ticker": "AMD", "action": "WATCH EARNINGS", "urgency": "critical", "color": "#e05252", "price": "$351.48 · +96.6%", "signal": "Q1 2026 earnings tonight 5PM ET. Consensus $9.84B +32%, EPS $1.29. Data center key: $5.6B est. Beat+raise on DC → add $500 immediately. Miss → hold. AMD beaten revenue 14 straight quarters. Options ±8% move priced in.", "action_text": "HOLD — execute post-earnings plan at 5PM ET"}, {"ticker": "MSFT", "action": "ADD NOW", "urgency": "critical", "color": "#3ddc84", "price": "$411.30 · -2.75% (ONLY RED)", "signal": "Only RED position in portfolio — buying below your $422.94 avg. Copilot 1B seats, Azure AI +33%, $80B backlog, OpenAI stake. Every PLTR contract runs on Azure. Gift entry. Add $500/month × 4 months.", "action_text": "ADD — $500/month × 4 months NOW"}, {"ticker": "MU", "action": "ADD HARD", "urgency": "critical", "color": "#e05252", "price": "$629.50 · +56% · P0", "signal": "$2,352 is criminally undersized. 10x fwd P/E on 61% revenue growth. PEG 0.16 — most mispriced AI stock. HBM3E supply constrained through 2026. NVDA sole certified supplier. 25 analyst Buys. Target: $8,000+.", "action_text": "ADD — $500/month minimum, target $8K+"}, {"ticker": "CEG", "action": "ADD HARD", "urgency": "critical", "color": "#e05252", "price": "$319.75 · +10.6% · P0", "signal": "$767 vs $10,000 target — biggest sizing mistake in portfolio. 20yr Microsoft PPA locked. IEA: DC power demand doubles by 2030. Nuclear only 24/7 zero-carbon answer. Every hyperscaler CEO unanimous on nuclear.", "action_text": "ADD — $580/month NOW, target $10K+"}, {"ticker": "AVGO", "action": "ADD", "urgency": "critical", "color": "#e88340", "price": "$426.24 · +25.9% · P0", "signal": "$1,757 vs $6-8K target. Meta 2029 ASIC deal confirmed. AI semi +106% YoY. Hock Tan: $100B AI rev by 2027. VMware recurring revenue is safe floor. Morgan Stanley top pick alongside NVDA.", "action_text": "ADD — $420/month, target $6-8K"}, {"ticker": "TSLA", "action": "TRIM 25%", "urgency": "high", "color": "#b388ff", "price": "$398.58 · +49.4%", "signal": "11.2% weight too high for non-core thesis. Car revenue only +2% at 180x P/E — dangerous mismatch. Trim 25% (~$2,700). Split: $1,500 into MU + $1,200 into CEG to fix P0 gaps. Optimus covered via NVDA.", "action_text": "TRIM 25% → redeploy to MU+CEG"}, {"ticker": "PLTR", "action": "HOLD", "urgency": "high", "color": "#c9a84c", "price": "$138.43 · +49.6% · Q1 BLOWOUT", "signal": "Q1: $1.63B +85% YoY, EPS $0.33 beat, Rule of 40 = 145%, net income QUADRUPLED to $871M, guidance raised to $7.65B. Thesis confirmed. Stock only +1.36% AH — 230x P/E is the ceiling. Do not add above $120.", "action_text": "HOLD all 42.6 units · no add above $120"}, {"ticker": "NVDA", "action": "HOLD", "urgency": "high", "color": "#c9a84c", "price": "$199.97 · +131.3% · $24K", "signal": "Largest position at $24,176 (25% of portfolio). Fix P0 gaps (MU/CEG/AVGO) before adding more. Earnings May 20. Vera Rubin ramp H2 2026. Mizuho: 75%+ chip share, 60% CAGR to $500B by 2028.", "action_text": "HOLD · fix P0 gaps first · earnings May 20"}, {"ticker": "GOOGL", "action": "HOLD", "urgency": "high", "color": "#3ddc84", "price": "$391.13 · +100.4% 🎉", "signal": "Just doubled from $195.15! Still cheapest mega-cap AI at 20x fwd P/E after doubling — remarkable. Waymo expanding, Gemini 2.5 Flash leading benchmarks, GCP AI +35%. DCA $200/month.", "action_text": "HOLD · DCA $200/month"}, {"ticker": "TSM", "action": "HOLD", "urgency": "medium", "color": "#c9a84c", "price": "$402.94 · +151.1%", "signal": "Up 151% and still cheap at 14x fwd P/E. Makes ALL AI chips. +30% guidance 2026. AI chip CAGR mid-50s% through 2029. Best risk-adjusted Compute. DCA $300/month on geopolitical dips.", "action_text": "HOLD · DCA $300/month on dips"}, {"ticker": "ASML", "action": "ADD", "urgency": "medium", "color": "#4a9eff", "price": "$1,436.99 · +41.9% · 1 unit", "signal": "Still only 1.004 units — the best monopoly in the world deserves more. Every AI chip on Earth made on ASML EUV. No substitute exists anywhere. 30x fwd P/E for the most irreplaceable tech business alive.", "action_text": "ADD · $200/month · target 2+ units"}, {"ticker": "VRT", "action": "HOLD", "urgency": "medium", "color": "#c9a84c", "price": "$334.25 · +50.7%", "signal": "Q1 EPS +83%, backlog $15B+, guidance raised. Already ran hard. Cramer: do not sell. Add only on pullback to $290-300. Physical DC cooling cannot be disrupted by software updates.", "action_text": "HOLD · add only below $300"}, {"ticker": "META", "action": "HOLD", "urgency": "medium", "color": "#c9a84c", "price": "$606.88 · +40.8%", "signal": "82% gross margins — most defensive AI adopter. LLaMA flywheel, $135B capex 2026 building AI factories. AI ad revenue compounding. Most resilient position regardless of which AI model wins.", "action_text": "HOLD · DCA $200/month"}, {"ticker": "AMZN", "action": "HOLD", "urgency": "medium", "color": "#c9a84c", "price": "$277.98 · +41.97%", "signal": "AWS AI barely priced in. $200B capex 2026. Bedrock + Trainium2 compounding. Sum-of-parts: AWS alone worth more than entire market cap by multiple analyst models. At 28x fwd P/E the optionality is free.", "action_text": "HOLD · DCA $200/month"}, {"ticker": "ANET", "action": "ADD", "urgency": "medium", "color": "#4a9eff", "price": "$174.25 · +18.5% · $396", "signal": "Only $396 — target $1,500+. Every hyperscaler GPU cluster runs Arista switches. AI cluster networking scales 1:1 with GPU deployments. Each NVDA GPU sold eventually means more Arista revenue.", "action_text": "ADD · $150/month · target $1,500"}, {"ticker": "CRWD", "action": "WATCH", "urgency": "medium", "color": "#b388ff", "price": "$471.00 · +9.68% only", "signal": "Only +9.68% while portfolio is +68% — major underperformance. 2024 Falcon outage trust overhang at 70x fwd P/E. PANW has stronger AI cyber narrative. Consider rotating after one more earnings quarter.", "action_text": "WATCH · consider PANW rotation"}, {"ticker": "AMD", "action": "POST-EARNINGS PLAN", "urgency": "medium", "color": "#4a9eff", "price": "$351.48 · +96.6% · tonight", "signal": "DC revenue $5.6B+ AND guidance raised → add $500 tonight. MI450 confirmed AND beat → add $1,000. Revenue beats but DC misses → hold, do not add. Overall miss → hold long term thesis intact. Plan ready.", "action_text": "Execute at 5PM ET result"}, {"ticker": "BE", "action": "WATCH", "urgency": "low", "color": "#2dd4bf", "price": "$290.43 · +16.86% · $478", "signal": "$478 correctly sized as lottery ticket. Energy bypass theme correct, Tom Nash thesis intact. But management has missed guidance multiple times. Do NOT size up until 2 consecutive clean quarters delivered.", "action_text": "HOLD lottery size · no add yet"}];
 
 function loadDailyActions(forceRefresh){
+  if(window.HVMRefresh) return window.HVMRefresh.refresh(['prices','actions','analysis','framework','portfolio'], 'manual');
   var grid=document.getElementById('actionItemsGrid');
-  var tsEl=document.getElementById('actionTimestamp');
-  var btnEl=document.getElementById('actionRefreshBtn');
-  var ctxEl=document.getElementById('marketContextBar');
-  if(!grid)return;
-
-  // Action orders are generated server-side (scripts/analyze_daily.py, rule-based
-  // TA — no LLM, no API key in the browser) and committed to data/actions.json.
-  // The bootstrap loader at the bottom of this file fetches that file, overrides
-  // window.TODAY_ACTIONS_MAY5 with the fresh items, and calls renderActions().
-  // Here we just (re)render whatever is currently loaded, and on a manual refresh
-  // re-pull actions.json directly so the button does something useful.
-  if(btnEl){btnEl.disabled=true;btnEl.textContent='⏳ Refreshing...';}
-
-  function done(){ if(btnEl){btnEl.disabled=false;btnEl.textContent='↺ Refresh Now';} }
-
-  if(forceRefresh){
-    fetch('data/actions.json?t=' + Date.now(), {cache:'no-store'})
-      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function(d){
-        if(d && Array.isArray(d.items) && d.items.length){
-          window.TODAY_ACTIONS_MAY5 = d.items;
-        }
-        renderActions(window.TODAY_ACTIONS_MAY5);
-      })
-      .catch(function(){ renderActions(window.TODAY_ACTIONS_MAY5); })
-      .finally(done);
-  } else {
-    renderActions(window.TODAY_ACTIONS_MAY5);
-    done();
-  }
+  if(grid) grid.textContent='Checking published action signals…';
 }
 
 function renderActions(actions){
@@ -2746,9 +2726,9 @@ function renderActions(actions){
   if(!grid)return;
 
   if(tsEl){
-    var stamp=window.ACTIONS_UPDATED_AT?new Date(window.ACTIONS_UPDATED_AT):new Date();
+    var stamp=window.ACTIONS_UPDATED_AT?new Date(window.ACTIONS_UPDATED_AT):null;
     var nCrit=(actions||[]).filter(function(a){return (a&&(a.urgency||'')).toLowerCase()==='critical';}).length;
-    tsEl.textContent='Updated: '+stamp.toLocaleString()+' · '+((actions||[]).length)+' signals · '+nCrit+' critical · rule-based TA';
+    tsEl.textContent='Source updated: '+(stamp?stamp.toLocaleString():'unknown')+' · '+((actions||[]).length)+' signals · '+nCrit+' critical · rule-based TA';
   }
 
   if(ctxEl){
@@ -2762,7 +2742,7 @@ function renderActions(actions){
       +Math.round(tVal).toLocaleString('en-US')+' ('+(gPct>=0?'+':'')+gPct.toFixed(2)+'%) · '
       +'Top '+lead.t+' '+(rOf(lead)>=0?'+':'')+rOf(lead).toFixed(0)+'% · '
       +'Laggard '+lag.t+' '+(rOf(lag)>=0?'+':'')+rOf(lag).toFixed(0)+'% · '
-      +'Signals refresh every 30 min (market hours)';
+      +'Published signals checked every 60s; generation follows the server schedule';
   }
 
   // ── Normalize: API returns {verb,title,detail,price_level,context} but static uses {action,price,signal,action_text,color} ──
@@ -2778,15 +2758,15 @@ function renderActions(actions){
     var price=a.price || a.price_level || '';
     var signal=a.signal || a.detail || a.title || '';
     var actionText=a.action_text || a.title || a.context || '';
-    return {ticker:ticker,urgency:urgency,color:color,action:actionLabel,price:price,signal:signal,action_text:actionText};
+    return {ticker:ticker,urgency:urgency,color:color,action:actionLabel,price:price,signal:signal,action_text:actionText,entry:a.entry,stop:a.stop,target:a.target,sizing:a.sizing};
   }).filter(Boolean);
 
   // Sort by urgency: critical → high → medium → low
   var urgRank={critical:0,high:1,medium:2,low:3};
-  actions.sort(function(a,b){return (urgRank[a.urgency]||9)-(urgRank[b.urgency]||9);});
+  actions.sort(function(a,b){return (urgRank[a.urgency]??9)-(urgRank[b.urgency]??9);});
 
   if(actions.length===0){
-    grid.innerHTML='<div style="padding:1rem;color:var(--text3);font-family:DM Mono,monospace;font-size:11px;">No action orders generated. Click ↺ Refresh Now to retry.</div>';
+    grid.innerHTML='<div style="padding:1rem;color:var(--text3);font-family:DM Mono,monospace;font-size:11px;">No action signals in the latest published packet. Retain cash / no action remains available.</div>';
     return;
   }
 
@@ -2804,6 +2784,8 @@ function renderActions(actions){
         +'<span style="font-family:Bebas Neue,sans-serif;font-size:.95rem;letter-spacing:.08em;padding:4px 14px;border-radius:3px;background:'+urgencyColor+';color:#080808;">'+a.action+'</span>'
       +'</div>'
       +(a.signal?'<div style="font-size:11px;color:#ede9e0;line-height:1.75;margin-bottom:.4rem;">'+a.signal+'</div>':'')
+      +((a.entry||a.stop||a.target)?'<div style="font-size:11px;color:var(--text2);margin:.5rem 0;">Entry: '+(a.entry||'—')+' · Stop: '+(a.stop||'—')+' · Target: '+(a.target||'—')+'</div>':'')
+      +(a.sizing?'<div style="font-size:11px;color:var(--text2);">'+a.sizing+'</div>':'')
       +(a.action_text?'<div style="font-family:DM Mono,monospace;font-size:9px;color:'+urgencyColor+';letter-spacing:.08em;">→ '+a.action_text+'</div>':'')
       +'</div>';
   }).join('');
@@ -3157,6 +3139,7 @@ const THEMES=[
 function buildThemes(){
   const g=document.getElementById('themeGrid');
   if(!g)return;
+  if(Array.isArray(window.THEMES_LIVE)&&!window.THEMES_LIVE.length){g.textContent='No themes in the latest published packet.';return;}
   THEMES.sort(function(a,b){return a.priority.localeCompare(b.priority);});
   const YEARS=['2021','2022','2023','2024','2025','2026','2027','2028','2029','2030'];
   g.innerHTML=THEMES.map(function(t,ti){
@@ -3752,6 +3735,7 @@ var VOICES=[{name:'Jensen Huang',role:'CEO',org:'Nvidia',cat:'CEO',date:'2026-05
    The live desk never mixes them into today's source-linked signal packet. */
 var VOICE_ARCHIVE=VOICES.slice();
 VOICES=[];
+VOICES=[];
 
 function leaderEsc(value){return String(value==null?'':value).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
 function leaderUrl(value){value=String(value||'');return /^https?:\/\//i.test(value)?value:'#';}
@@ -3980,6 +3964,9 @@ var YTVIDEOS=[
   {ch:'SoFi Learn',c:'#e88340',theme:'Stocks to Buy',title:'Top AI Stocks to Invest In: 2026 Guide — Updated Quarterly',date:'Apr 24, 2026',views:'SoFi',tags:['#NVDA','#MSFT','#META','#PLTR'],verd:'MAINSTREAM CONFIRMS',vc:'var(--orange)',body:'Top AI stocks by market cap Q1 2026: NVDA, MSFT, GOOGL, AMZN, META. Oracle $300B deal to supply OpenAI. CoreWeave pure-play AI infra — $5.1B 2025 revenue, $10B+ projected 2026. Updated quarterly.',url:'https://www.sofi.com/learn/content/investing-in-artificial-intelligence-ai-stocks/'},
 ];
 
+// Historical embedded items are never presented as the current published feed.
+YTVIDEOS=[];
+
 // ════════════════════════════════════════════════════
 // CONSENSUS ENGINE — extract tickers, themes, sentiment
 // from every curated video, render leaderboard + synthesis
@@ -4047,7 +4034,7 @@ function runYTConsensus(){
 
   // 4. Update header
   var countEl = document.getElementById('ytVideoCount');
-  if(countEl) countEl.textContent = YTVIDEOS.length+' videos curated';
+  if(countEl) countEl.textContent = YTVIDEOS.length+' published source items';
   var topEl = document.getElementById('ytTopTicker');
   if(topEl && tickerList.length) topEl.textContent = 'Top: '+tickerList[0].tkr+' ×'+tickerList[0].count;
 
@@ -4130,91 +4117,21 @@ function runYTConsensus(){
   return {tickers:tickerList, themes:themeList, sentiment:sentimentTally};
 }
 
-// Generate AI synthesis of all video consensus
-async function generateYTSynthesis(force){
-  var el = document.getElementById('ytSynthesis');
-  var btn = document.querySelector('.yt-synthesize');
-  if(!el) return;
-  var today = new Date().toDateString();
-  var cacheKey = 'wr_yt_synth_'+today;
-  if(!force){
-    try{
-      var cached = localStorage.getItem(cacheKey);
-      if(cached){ el.innerHTML = cached; el.classList.remove('loading'); return; }
-    }catch(e){}
-  }
-  // Run consensus to get top items
-  var consensus = runYTConsensus();
-  if(!consensus) return;
-
-  el.classList.add('loading');
-  el.textContent = '⟳ Running AI synthesis across '+YTVIDEOS.length+' videos...';
-  if(btn){ btn.disabled=true; btn.textContent='⟳ Synthesizing...'; }
-
-  // Build a compact summary of the dataset for the model
-  var topT = consensus.tickers.slice(0,10).map(function(t){
-    return t.tkr+' ('+t.count+'× ·  ▲'+t.bull+'/▼'+t.bear+')';
-  }).join(', ');
-  var topTh = consensus.themes.slice(0,6).map(function(t){
-    return t.theme+'×'+t.count;
-  }).join(', ');
-  var headlines = YTVIDEOS.slice(0,18).map(function(v){
-    return '• '+v.ch+': '+v.title+' [verdict: '+v.verd+']';
-  }).join('\n');
-
-  var prompt = 'You are an AI investment intelligence analyst synthesizing what the AI-investing creator-sphere on YouTube and finance media is collectively saying TODAY ('+today+').\n\n'
-    +'CONSENSUS DATA from '+YTVIDEOS.length+' curated videos/articles:\n'
-    +'• Most-mentioned tickers: '+topT+'\n'
-    +'• Hottest themes: '+topTh+'\n'
-    +'• Sentiment split: '+consensus.sentiment.bull+' bullish, '+consensus.sentiment.neutral+' neutral, '+consensus.sentiment.bear+' bearish\n\n'
-    +'TOP HEADLINES:\n'+headlines+'\n\n'
-    +'Write a 4-paragraph synthesis (~280 words) answering:\n'
-    +'P1: What is the SINGLE biggest narrative the AI-investing world is converging on today?\n'
-    +'P2: Which 2-3 stocks have the strongest bullish consensus and why? (be specific with numbers)\n'
-    +'P3: What is the contrarian or under-discussed take that the consensus is missing?\n'
-    +'P4: ONE concrete action a $97K AI portfolio should consider TODAY based on this consensus.\n'
-    +'Tone: sharp hedge-fund voice. Plain HTML <p> tags only. Use <strong> for emphasis on stocks/numbers/key terms. NO bullet points, NO markdown, NO headers.';
-
-  try{
-    // In-browser Claude calls are disabled (no key can be safely shipped in a
-    // public page, and the request 401s without one). Fall through to the
-    // deterministic local synthesis built from the data we already have.
-    throw new Error('in-browser AI disabled');
-    var res = await fetch('https://api.anthropic.com/v1/messages', {
-      method:'POST',
-      headers:{'Content-Type':'application/json','anthropic-dangerous-direct-browser-access':'true'},
-      body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:700,messages:[{role:'user',content:prompt}]})
-    });
-    var bodyText = await res.text();
-    if(!res.ok) throw new Error('api');
-    var d; try{ d = JSON.parse(bodyText); }catch(p){ throw new Error('parse'); }
-    var txt = '';
-    if(d&&d.content&&d.content.length){
-      txt = d.content.filter(function(b){return b.type==='text';}).map(function(b){return b.text;}).join('');
-    }
-    if(!txt) throw new Error('empty');
-    el.innerHTML = txt;
-    el.classList.remove('loading');
-    try{ localStorage.setItem(cacheKey, txt); }catch(e){}
-  } catch(err){
-    // Fallback synthesis built from the consensus data we already have
-    var t1 = consensus.tickers[0], t2 = consensus.tickers[1], t3 = consensus.tickers[2];
-    var topTheme = consensus.themes[0];
-    var bias = consensus.sentiment.bull > consensus.sentiment.bear ? 'bullish' : consensus.sentiment.bear > consensus.sentiment.bull ? 'bearish' : 'mixed';
-    el.innerHTML = ''
-      +'<p>The dominant narrative across '+YTVIDEOS.length+' tracked AI-investing sources today centers on <strong>'+(topTheme?topTheme.theme:'AI Compute')+'</strong> — the most-discussed theme with '+(topTheme?topTheme.count:0)+' video mentions. Overall sentiment is <strong>'+bias+'</strong>: '+consensus.sentiment.bull+' bullish takes vs '+consensus.sentiment.bear+' bearish, with '+consensus.sentiment.neutral+' staying neutral. The market is converging — most analysts agree on direction but disagree on magnitude.</p>'
-      +'<p>The strongest consensus picks are <strong>'+(t1?t1.tkr:'NVDA')+'</strong> ('+(t1?t1.count:0)+' mentions, ▲'+(t1?t1.bull:0)+'/▼'+(t1?t1.bear:0)+'), <strong>'+(t2?t2.tkr:'PLTR')+'</strong> ('+(t2?t2.count:0)+' mentions), and <strong>'+(t3?t3.tkr:'AMD')+'</strong> ('+(t3?t3.count:0)+' mentions). When 3+ independent analysts converge on the same names with the same direction, that signals real conviction — not narrative noise.</p>'
-      +'<p>The contrarian read: with sentiment leaning '+bias+', the under-discussed risk is positioning. When everyone agrees, the marginal buyer is exhausted. Watch for any of the top-mentioned names showing technical breakdowns despite continued bullish coverage — that\'s your early-warning signal.</p>'
-      +'<p><strong>One action today:</strong> Cross-reference your top-mentioned tickers against your portfolio weights. Anything mentioned 4+ times that you own under 3% is potentially undersized. Anything mentioned 6+ times bearishly that you hold is worth a risk review.</p>';
-    el.classList.remove('loading');
-  } finally {
-    if(btn){ btn.disabled=false; btn.textContent='↺ Re-synthesize'; }
-  }
+// Recompute the local summary only from the currently published source packet.
+function generateYTSynthesis(force){
+  if(force && window.HVMRefresh) return window.HVMRefresh.refresh(['youtube'], 'manual');
+  var el=document.getElementById('ytSynthesis');
+  if(!el)return;
+  var consensus=runYTConsensus();
+  el.classList.remove('loading');
+  if(!YTVIDEOS.length){el.textContent='No source items in the latest published packet. No historical videos are substituted.';return;}
+  var names=consensus.tickers.slice(0,5).map(function(t){return t.tkr+' ('+t.count+' mentions)';});
+  el.textContent='Published source summary · '+YTVIDEOS.length+' items. Most-mentioned symbols: '+(names.join(', ')||'none detected')+'. '+consensus.sentiment.bull+' bullish labels, '+consensus.sentiment.bear+' bearish labels, '+consensus.sentiment.neutral+' neutral labels. This is a count of source labels, not a trade recommendation.';
 }
 
 function buildYT(){
   const filtered=ytFilter==='All'?YTVIDEOS:YTVIDEOS.filter(v=>v.theme===ytFilter);
-  document.getElementById('ytGrid').innerHTML=filtered.map(v=>`
+  document.getElementById('ytGrid').innerHTML=filtered.length?filtered.map(v=>`
     <div class="ytc">
       <div class="ytc-top" style="background:linear-gradient(90deg,${v.c}55,${v.c}22);"></div>
       <div class="ytc-channel">${v.ch} · ${v.date} · ${v.views} views</div>
@@ -4224,7 +4141,7 @@ function buildYT(){
       <div class="ytc-verdict" style="background:${v.vc}18;color:${v.vc};border:1px solid ${v.vc}40;">${v.verd}</div>
       <div class="ytc-body">${v.body}</div>
       <a class="ytc-link" href="${v.url}" target="_blank">↗ Watch / Read source</a>
-    </div>`).join('');
+    </div>`).join(''):'<div class="yt-data-note">No matching items in the latest published packet.</div>';
   // Run consensus engine each time the YT view rebuilds
   runYTConsensus();
 }
@@ -4235,101 +4152,11 @@ function buildYTFilters(){
 
 function setFilter(f){ytFilter=f;buildYTFilters();buildYT();}
 
-// Daily brief via Anthropic API
-async function refreshBrief(force){
+// Reload the published news packet; research generation runs on the server.
+function refreshBrief(force){
+  if(window.HVMRefresh) return window.HVMRefresh.refresh(['news'], 'manual');
   var el=document.getElementById('briefContent');
-  var btn=document.querySelector('.db-refresh');
-  if(!el)return;
-
-  var today=new Date().toDateString();
-  var cacheKey='wr_brief_'+today;
-
-  // Use cache unless forced
-  if(!force){
-    try{
-      var cached=localStorage.getItem(cacheKey);
-      if(cached){el.innerHTML=cached;return;}
-    }catch(e){}
-  }
-
-  // Loading state
-  el.innerHTML='<div class="db-loading" style="font-family:DM Mono,monospace;font-size:10px;color:var(--text3);text-align:center;padding:1.25rem;">⟳ Generating today\'s AI investment brief...</div>';
-  if(btn){btn.disabled=true;btn.textContent='⟳ Generating...';}
-
-  var today_str=new Date().toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
-  var prompt='You are an AI investment analyst. Today is '+today_str+'. '
-    +'Generate a crisp daily brief (250–300 words) for a $97K AI portfolio. Cover: '
-    +'1) The top 3 market-moving signals RIGHT NOW (PLTR earnings tonight at 5 PM ET with 96% beat probability on a symmetrical triangle setup; AMD earnings tomorrow May 5; Iran-US warship conflict near Strait of Hormuz causing oil surge and market volatility). '
-    +'2) Which of these themes is hottest today: AI Compute, Energy/Nuclear, Defense/Security, Agentic AI. '
-    +'3) The single most important trade to make today and exactly why. '
-    +'4) One key risk that could blow up the thesis. '
-    +'Tone: direct, sharp, like a hedge fund morning note. No bullet points. Plain paragraphs only. No markdown.';
-
-  try{
-    // In-browser Claude calls are disabled — see note above. Use local fallback.
-    throw new Error('in-browser AI disabled');
-    var res=await fetch('https://api.anthropic.com/v1/messages',{
-      method:'POST',
-      headers:{
-        'Content-Type':'application/json',
-        'anthropic-dangerous-direct-browser-access':'true'
-      },
-      body:JSON.stringify({
-        model:'claude-sonnet-4-20250514',
-        max_tokens:600,
-        messages:[{role:'user',content:prompt}]
-      })
-    });
-
-    // Read body as text first, then try to parse — handles HTML error pages, empty bodies, etc.
-    var bodyText=await res.text();
-    if(!res.ok){
-      throw new Error('API '+res.status);
-    }
-    var d;
-    try{ d=JSON.parse(bodyText); }
-    catch(parseErr){ throw new Error('non-JSON response'); }
-
-    var txt='';
-    if(d&&d.content&&d.content.length>0){
-      txt=d.content.filter(function(b){return b.type==='text';}).map(function(b){return b.text;}).join('');
-    }
-    if(!txt)throw new Error('empty');
-
-    // Format — wrap paragraphs
-    var formatted=txt.split(/\n\n+/).filter(function(p){return p.trim();}).map(function(p){
-      return '<p style="margin-bottom:.75rem;color:var(--text2);font-size:12px;line-height:1.75;">'+p.trim()+'</p>';
-    }).join('');
-
-    el.innerHTML=formatted||'<p style="color:var(--text2);font-size:12px;">Brief generated but empty. Try refreshing.</p>';
-
-    try{localStorage.setItem(cacheKey,el.innerHTML);}catch(e){}
-
-  }catch(err){
-    // Silent fallback — expected when API is unreachable from browser. No console noise.
-    // Rich fallback with actual content for today
-    el.innerHTML=''
-      +'<p style="margin-bottom:.75rem;color:var(--text2);font-size:12px;line-height:1.75;">'
-      +'<strong style="color:var(--text);">PLTR earnings tonight at 5 PM ET</strong> is the single biggest event for this portfolio today. '
-      +'The stock has been coiling in a symmetrical triangle with the apex at $146.50 — a classic compressed spring. '
-      +'Polymarket puts the beat probability at 96%, and the stock\'s RSI at 43 means there\'s no overbought risk heading into the print. '
-      +'A beat-and-raise breaks the triangle upward toward $153, then $165. A miss tests $140. '
-      +'If PLTR dips to $140–142 on Iran market noise before 5 PM, that is a textbook entry point.'
-      +'</p>'
-      +'<p style="margin-bottom:.75rem;color:var(--text2);font-size:12px;line-height:1.75;">'
-      +'The Iran-US warship conflict near the Strait of Hormuz is the macro wildcard today — oil is surging and markets are mixed-to-down. '
-      +'This directly validates the War Room\'s P0 thesis: <strong style="color:var(--text);">Defense and Energy are not optional, they are structural.</strong> '
-      +'CEG at $308 is the most actionable buy right now. DCF fair value is $334, it is 8% undervalued, and every Iran headline makes the nuclear thesis more urgent, not less. '
-      +'Your exposure is $494 against a $160K target — that gap is bleeding real money daily.'
-      +'</p>'
-      +'<p style="color:var(--text2);font-size:12px;line-height:1.75;">'
-      +'<strong style="color:var(--gold);">Key risk:</strong> AMD reports tomorrow May 5 and the stock hit an all-time high of $362.79 on May 1 — right at the top of a 6-year ascending channel. '
-      +'HSBC downgraded to Hold at $340 today. Hold your AMD position but do not add above $350 before results. '
-      +'A miss or soft MI450 guidance could pull back 10–15% and drag the rest of your semiconductor book with it.'
-      +'</p>';
-  }
-
-  if(btn){btn.disabled=false;btn.textContent='↺ Refresh Brief';}
+  if(el)el.textContent='Checking published news…';
 }
 
 // Conviction grid
@@ -4372,7 +4199,7 @@ function nav(id,el){
   var mainPane=document.querySelector('.main');
   if(mainPane)mainPane.scrollTop=0;
   // Re-trigger action loader every time portfolio tab is clicked
-  if(id==='portfolio'){loadDailyActions(false);}
+  if(window.HVMRefresh)window.HVMRefresh.refreshForSection(id);
   if(id==='pivot' && typeof buildPivot==='function'){buildPivot();}
   if(id==='youtube' && typeof generateYTSynthesis==='function'){generateYTSynthesis(false);}
   if(id==='agents' && typeof buildCEOGame==='function'){setTimeout(buildCEOGame,0);}
@@ -4393,65 +4220,8 @@ var PRICE_UPDATE_INTERVAL = null;
 var TICKERS = PORT.map(function(s){ return s.t; });
 var LIVE_FETCH_OK = false;
 
-async function fetchLivePrices() {
-  var statusEl = document.getElementById('liveTickerStatus');
-  var pivStatus = document.getElementById('pivLiveStatus');
-  var pivLast = document.getElementById('pivLastUpdate');
-  if(statusEl) statusEl.textContent = '⟳ Fetching live prices...';
-  if(pivStatus) pivStatus.innerHTML = '<span class="piv-pulse"></span>Fetching...';
-
-  var success = false;
-  var updatedAt = null;
-  try {
-    var res = await fetch('data/prices.json?t=' + Date.now(), {cache:'no-store'});
-    if(res.ok){
-      var data = await res.json();
-      var prices = data && data.prices ? data.prices : null;
-      if(prices && Object.keys(prices).length){
-        updatedAt = data.updated_at || null;
-        Object.keys(prices).forEach(function(sym){
-          var q = prices[sym];
-          if(!q || q.price == null) return;
-          var prev = LIVE_PRICES[sym] ? LIVE_PRICES[sym].price : null;
-          LIVE_PRICES[sym] = {
-            price: q.price,
-            prevClose: q.prevClose,
-            change: q.change,
-            changePct: q.changePct,
-            marketCap: q.marketCap,
-            volume: q.volume,
-            prevTickPrice: prev
-          };
-          // Build rolling history for sparkline
-          if(!PRICE_HISTORY[sym]) PRICE_HISTORY[sym]=[];
-          PRICE_HISTORY[sym].push(q.price);
-          if(PRICE_HISTORY[sym].length>30) PRICE_HISTORY[sym].shift();
-        });
-        success = true;
-        LIVE_FETCH_OK = true;
-      }
-    }
-  } catch(e) { /* fall through to cached */ }
-
-  if(success){
-    updatePortfolioWithLivePrices();
-    updateTickerBar();
-    if(typeof buildPivot==='function') buildPivot(true);
-    var t = updatedAt ? new Date(updatedAt).toLocaleString() : new Date().toLocaleTimeString();
-    if(statusEl) { statusEl.textContent = 'LIVE · ' + t; statusEl.style.color = 'var(--green)'; }
-    if(pivStatus) {
-      pivStatus.classList.remove('warn');
-      pivStatus.innerHTML = '<span class="piv-status-dot"></span>LIVE · '+t;
-    }
-    if(pivLast) pivLast.textContent = 'Yahoo via server · refreshed every 30 min (market hours)';
-  } else {
-    if(statusEl) { statusEl.textContent = 'Cached · ' + new Date().toLocaleTimeString(); statusEl.style.color = 'var(--text3)'; }
-    if(pivStatus) {
-      pivStatus.classList.add('warn');
-      pivStatus.innerHTML = '<span class="piv-status-dot"></span>Feed unavailable · using cached';
-    }
-    if(pivLast) pivLast.textContent = 'prices.json unavailable · retry next cycle';
-  }
+function fetchLivePrices() {
+  return window.HVMRefresh && window.HVMRefresh.refresh(['prices'], 'manual');
 }
 
 function hvmBrokerValue(s) {
@@ -4522,11 +4292,7 @@ function updateTickerBar() {
   bar.innerHTML = html;
 }
 
-function startLivePrices() {
-  fetchLivePrices();
-  PRICE_UPDATE_INTERVAL = setInterval(fetchLivePrices, 60000);
-}
-setTimeout(startLivePrices, 1500);
+// All feeds use the shared 60-second coordinator in data/bootstrap-v2.js.
 
 // ══════════════════════════════════════════════════
 // MASTER PIVOT — single sortable, filterable view
@@ -5453,6 +5219,11 @@ function renderCioCommittee(doc,actions){
 function renderEodBoard(doc){var r=doc.eod_report||{};var cells=[['17','EMPLOYEES REPORTING'],[r.completed_packets||0,'WORK PACKETS COMPLETE'],[r.themes_reviewed||0,'THEMES REVIEWED'],[r.actions_reviewed||0,'STOCKS REVIEWED'],[r.material_actions||0,'MATERIAL ACTIONS'],[r.ceo_decisions_pending||0,'CEO DECISIONS PENDING']];return '<div class="eod-board">'+cells.map(function(x){return '<div class="eod-cell"><div class="eod-value">'+ceoEsc(x[0])+'</div><div class="eod-label">'+ceoEsc(x[1])+'</div></div>';}).join('')+'</div>';}
 function buildCEOGame(){
   var el=document.getElementById('ceoGame');if(!el)return;
+  if(window.AGENT_OPS_LIVE&&Array.isArray(window.AGENT_OPS_LIVE.items)&&!window.AGENT_OPS_LIVE.items.length){
+    if(window.__officeGame&&window.__officeGame.stop)window.__officeGame.stop();
+    if(window.__officeChatTimer)clearInterval(window.__officeChatTimer);
+    el.textContent='No agent work packets in the latest published feed.';return;
+  }
   var actions=Array.isArray(window.TODAY_ACTIONS_MAY5)?window.TODAY_ACTIONS_MAY5:[],news=Array.isArray(window.NEWS_LIVE)?window.NEWS_LIVE:[],themes=Array.isArray(window.THEMES_LIVE)?window.THEMES_LIVE:[],doc=ceoOpsDoc(),ops=agentOpsItems(),opsByCode={};ops.forEach(function(op){opsByCode[op.code]=op;});
   var liveResearch=!!(news.length||themes.length||actions.length||ops.length),chatNames=['PULSE','MOSAIC','ECHO','RADAR','VECTOR','SENTINEL','DEPLOY'];
   var chat=chatNames.slice(0,5).map(function(code,i){var op=opsByCode[code]||{},name=op.name||AGENT_PEOPLE[code]||code,activity=op.activity||ceoOfficeMessage(code,actions.slice(i),news.slice(i),themes.slice(i));return '<div class="office-msg"><b>'+ceoEsc(name)+' / '+code+'</b> · '+ceoEsc(activity)+'<small>'+ceoEsc(op.updated_at?'work packet · '+op.updated_at.slice(11,16)+' IST':'latest local packet')+' · next hand-off: '+ceoEsc((op.hands_to||['Finance Analysts']).join(' · '))+'</small></div>';}).join('');
@@ -5497,207 +5268,13 @@ window.selectPortInv=function(si,ii,el){
 };
 
 
+// Legacy arrays above remain inputs for local sync scripts, but are never a live fallback.
+TODAY_ACTIONS_MAY5=[];
+Object.keys(TA).forEach(function(key){delete TA[key];});
 </script>
 <script src="data/cohort-planner.js"></script>
-<!--
-  HVM War Room — JSON data bootstrap
-  ===================================
-  Fetches data/*.json on load and overrides inline arrays. Auto-polls actions.json every 60s.
--->
-<script>
-(function(){
-  function bust(url){ return url + '?t=' + Date.now(); }
-  function getJSON(path){
-    return fetch(bust(path), {cache:'no-store'})
-      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
-      .catch(function(){ return null; });
-  }
-  function safeCall(fn){ try { if (typeof fn === 'function') fn(); } catch(_) {} }
-  function show(stamp){
-    var el = document.getElementById('hvm-last-sync');
-    if(!el) return;
-    el.textContent = 'Synced ' + stamp;
-  }
-  function applyVoicesPacket(v){
-    if(!v || !Array.isArray(v.items)) return;
-    /* Feed-first: today's source-linked packet replaces the live signal desk.
-       The historical VOICE_ARCHIVE remains available in code but is never
-       appended to the current feed or counted as fresh research. */
-    try {
-      window.VOICES = v.items;
-      window.VOICES_UPDATED_AT = v.updated_at || '';
-      window.VOICES_MONITORED = Number(v.monitored_leaders || 30);
-      window.VOICES_SOURCE = v.source || '';
-    } catch(_) {}
-    safeCall(function(){ if (typeof buildLeaders === 'function') buildLeaders(); });
-  }
-  function applyThemesPacket(t){
-    if(!t || !Array.isArray(t.items)) return;
-    var count=document.getElementById('themePacketCount'),freshness=document.getElementById('themeFreshness');
-    var updated=t.updated_at?new Date(t.updated_at):null,ageHours=updated?(Date.now()-updated.getTime())/36e5:Infinity;
-    if(count) count.textContent=t.items.length+' themes live';
-    if(freshness){
-      freshness.textContent=updated?(ageHours<=12?'LIVE · ':'STALE · ')+updated.toLocaleString():'Waiting for theme packet';
-      freshness.className='tag '+(ageHours<=12?'tg':'tr');
-    }
-    // Research content is updated from data/themes.json; the live allocation is
-    // separately derived from INDmoney PORT data in the runtime renderer.
-    try { window.THEMES_LIVE = t.items; window.THEMES_UPDATED_AT=t.updated_at||''; } catch(_) {}
-    safeCall(function(){
-      if (typeof THEMES === 'undefined') return;
-      t.items.forEach(function(live){
-        var key=String(live.dashboard_name||live.theme||'').toUpperCase();
-        var local=THEMES.find(function(x){ return String(x.name||'').toUpperCase()===key; });
-        if (!local) return;
-        if (live.summary) local.body=live.summary;
-        local.priority=live.priority||local.priority;
-        local.targetPct=Number(live.target_pct||0);
-        local.liveUpdatedAt=live.cohort_updated_at||t.updated_at;
-        local.consensus=(live.research_mode||'DAILY RESEARCH')+' · ACTIVITY '+(live.rating||'UPDATED')+' · '+new Date(t.updated_at).toLocaleDateString();
-        if (Array.isArray(live.tickers) && live.tickers.length) {
-          local.liveTickers=live.tickers;
-          local.stocks=live.tickers.slice(0,8).map(function(row){
-            if(typeof row==='string') return {s:row,c:'watch',status:'WATCH'};
-            var status=String(row.status||'WATCH').toUpperCase(), cls='watch';
-            if(status==='ADD') cls='add';
-            else if(status==='NEW BUY') cls='new-buy';
-            else if(status==='OWN'||status==='HOLD') cls='own';
-            else if(status==='TRIM') cls='trim';
-            return {s:row.ticker,c:cls,status:status,price:row.price,reason:row.reason};
-          });
-          var researchKey=local.name;
-          if(typeof THEME_RESEARCH!=='undefined' && THEME_RESEARCH[researchKey]){
-            THEME_RESEARCH[researchKey].top5=live.tickers.slice(0,5).map(function(row){
-              var status=String(row.status||'WATCH').toUpperCase(),price=Number(row.price);
-              return {t:row.ticker,n:row.name||row.ticker,thesis:(row.reason||'Daily source-linked theme candidate')+' · Research status: '+status+'.',entry:isFinite(price)&&price>0?'Reference price $'+price.toFixed(2):'Reference price pending',target:'Re-score on next theme refresh',horizon:'Daily monitored cohort',sizing:row.owned?'Existing holding · CEO review':status==='NEW BUY'?'New-position candidate · CEO sizing required':'Watchlist · no allocation by default',risk:'Source and risk gates must pass before any CEO decision'};
-            });
-          }
-        }
-        local.srcs=Array.isArray(live.news)?live.news.map(function(item){return {org:item.source||'Daily research feed',title:item.title||'Market update',stat:item.date||'',u:item.url||'#'};}) : [];
-      });
-      if (typeof buildThemes === 'function') buildThemes();
-      if (typeof buildCohortAllocator === 'function') buildCohortAllocator();
-    });
-  }
-  Promise.all([
-    getJSON('data/actions.json'),
-    getJSON('data/youtube.json'),
-    getJSON('data/voices.json'),
-    getJSON('data/themes.json'),
-    getJSON('data/news.json'),
-    getJSON('data/analysis.json'),
-    getJSON('data/agent_ops.json')
-  ]).then(function(results){
-    var a = results[0], y = results[1], v = results[2], t = results[3], n = results[4], x = results[5], o = results[6];
-    if (a && Array.isArray(a.items) && a.items.length) {
-      try { window.TODAY_ACTIONS_MAY5 = a.items; window.ACTIONS_UPDATED_AT = a.updated_at; } catch(_) {}
-      safeCall(function(){ if (typeof renderActions === 'function') renderActions(a.items); });
-    }
-    if (x && Array.isArray(x.items) && x.items.length) {
-      // Replace the stale hand-authored TA snapshot with the daily Yahoo
-      // price-history analysis. All account values remain sourced from PORT.
-      safeCall(function(){
-        var actionByTicker={};
-        if (a && Array.isArray(a.items)) a.items.forEach(function(item){ actionByTicker[item.ticker]=item; });
-        x.items.forEach(function(row){
-          if (!row || !row.ticker || !row.ta || !row.holding || typeof TA==='undefined') return;
-          var q=row.ta, h=row.holding, old=TA[row.ticker] || (TA[row.ticker]={});
-          var price=Number(h.current_price || 0), rsi=Number(q.rsi14 || 50), ret=Number(q.ret_1d || 0);
-          old.price=price.toFixed(2);
-          old.chg=(ret>=0?'+':'')+ret.toFixed(2)+'% today';
-          old.rsi=rsi; old.rsiLabel=rsi>=70?'Overbought':rsi<=30?'Oversold':'Neutral';
-          old.macdVal=Number(q.macd || 0); old.macdSig='Signal '+Number(q.macd_signal || 0).toFixed(2);
-          old.ma=[q.sma20?'SMA20 $'+Number(q.sma20).toFixed(0):'',q.sma50?'SMA50 $'+Number(q.sma50).toFixed(0):'',q.sma200?'SMA200 $'+Number(q.sma200).toFixed(0):''].filter(Boolean);
-          old.support=[q.sma20?'$'+Number(q.sma20).toFixed(0):'',q.sma50?'$'+Number(q.sma50).toFixed(0):''].filter(Boolean);
-          old.resist=[price?'$'+(price*1.05).toFixed(0):'',price?'$'+(price*1.10).toFixed(0):''].filter(Boolean);
-          old.vol=(q.vol_ratio_20d?'Vol '+Number(q.vol_ratio_20d).toFixed(2)+'x 20D avg':'Volume n/a');
-          old.pattern='Daily rule-based technical scan';
-          old.patternColor=rsi>=70?'#e05252':rsi<=30?'#4a9eff':'#3ddc84';
-          old.ta='Yahoo daily data: RSI '+rsi.toFixed(1)+', MACD '+Number(q.macd || 0).toFixed(2)+', '+(q.vs_sma50_pct>=0?'+':'')+Number(q.vs_sma50_pct || 0).toFixed(1)+'% vs SMA50.';
-          var livePos=PORT.find(function(z){return z.t===row.ticker;});
-          var liveReturn=livePos&&livePos.buy?((hvmMarkPrice(livePos)/livePos.buy-1)*100):Number(h.pnl_pct||0);
-          old.fund='Live broker position: '+Number(livePos?livePos.units:h.units||0).toFixed(2)+' units · $'+Number(livePos?hvmBrokerValue(livePos):h.current_value||0).toLocaleString('en-US',{maximumFractionDigits:0})+' broker value · '+(liveReturn>=0?'+':'')+liveReturn.toFixed(1)+'% market return.';
-          var action=actionByTicker[row.ticker];
-          if (action) {
-            old.action=action.action_text || action.signal || old.action;
-            var pos=PORT.find(function(z){return z.t===row.ticker;});
-            if (pos) {
-              var verb=String(action.action||'').toLowerCase();
-              pos.action=verb==='add'?'add':verb==='trim'?'trim':verb==='watch'?'watch':'hold';
-            }
-            if (pos && pos.dca) {
-              var targetMatch=String(action.target||'').match(/\$([0-9,.]+)/);
-              var stopMatch=String(action.stop||'').match(/\$([0-9,.]+)/);
-              var target=targetMatch?Number(targetMatch[1].replace(/,/g,'')):0;
-              var stop=stopMatch?Number(stopMatch[1].replace(/,/g,'')):0;
-              if (target) pos.dca.aT=target;
-              if (stop) pos.dca.bear=stop;
-              if (target) pos.dca.bull=Math.round(target*1.15);
-              pos.dca.note='Daily rule-based plan: '+(action.action_text || action.signal || 'Review latest technical signal.');
-            }
-          }
-        });
-        if (typeof buildPortTabs==='function') buildPortTabs();
-        if (typeof buildPortPanels==='function') buildPortPanels();
-        if (typeof buildPivot==='function') buildPivot(true);
-      });
-    }
-    if (y && Array.isArray(y.items) && y.items.length) {
-      // YTVIDEOS is a top-level `var`, so this reassignment is the same binding
-      // buildYT() reads. Prepend fresh items, then re-render the YouTube tab.
-      try { window.YTVIDEOS = y.items.concat(window.YTVIDEOS || []); } catch(_) {}
-      safeCall(function(){ if (typeof buildYTFilters === 'function') buildYTFilters(); });
-      safeCall(function(){ if (typeof buildYT === 'function') buildYT(); });
-    }
-    applyVoicesPacket(v);
-    applyThemesPacket(t);
-    if (o && Array.isArray(o.items) && o.items.length) {
-      try { window.AGENT_OPS_LIVE = o; } catch(_) {}
-      safeCall(function(){ if (typeof buildCEOGame === 'function') buildCEOGame(); });
-    }
-    if (n && Array.isArray(n.items) && n.items.length) {
-      try { window.NEWS_LIVE = n.items; } catch(_) {}
-      safeCall(function(){
-        var brief=document.getElementById('briefContent');
-        if (!brief) return;
-        brief.innerHTML='<div style="font-family:DM Mono,monospace;font-size:9px;color:var(--green);margin-bottom:.7rem;letter-spacing:.08em;">LIVE DAILY RESEARCH · '+new Date(n.updated_at).toLocaleString()+'</div>'
-          +n.items.slice(0,6).map(function(item){return '<div style="margin:0 0 .7rem;padding:0 0 .7rem;border-bottom:1px solid #202020;"><a href="'+String(item.url||'#').replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'" target="_blank" style="color:var(--gold);font-weight:600;text-decoration:none;font-size:12px;">'+String(item.ticker||'MARKET')+' · '+String(item.headline||'Update').replace(/</g,'&lt;')+'</a><div style="margin-top:.25rem;color:var(--text2);font-size:11px;line-height:1.6;">'+String(item.summary||'').replace(/</g,'&lt;')+'</div></div>';}).join('');
-      });
-    }
-    var newest = [a,y,v,t,n,x,o].map(function(x){ return x && x.updated_at; }).filter(Boolean).sort().pop();
-    if (newest) show(new Date(newest).toLocaleString());
-    safeCall(function(){ if (typeof buildCEOGame === 'function') buildCEOGame(); });
-  });
-  setInterval(function(){
-    getJSON('data/actions.json').then(function(a){
-      if (a && Array.isArray(a.items) && a.items.length) {
-        try { window.TODAY_ACTIONS_MAY5 = a.items; window.ACTIONS_UPDATED_AT = a.updated_at; } catch(_) {}
-        safeCall(function(){ if (typeof renderActions === 'function') renderActions(a.items); });
-      }
-    });
-  }, 60000);
-  // The CEO floor polls the published online desk packets once a minute; GitHub Actions
-  // refreshes the underlying source-linked packets hourly, independent of page views.
-  setInterval(function(){
-    getJSON('data/agent_ops.json').then(function(o){
-      if (o && Array.isArray(o.items) && o.items.length) {
-        try { window.AGENT_OPS_LIVE = o; } catch(_) {}
-        safeCall(function(){ if (typeof buildCEOGame === 'function') buildCEOGame(); });
-      }
-    });
-  }, 60000);
-  // Keep open dashboards current without a manual reload. These requests only
-  // consume already-published read-only packets; scheduled workflows perform
-  // the actual online research and source verification.
-  setInterval(function(){
-    Promise.all([getJSON('data/voices.json'),getJSON('data/themes.json')]).then(function(rows){
-      applyVoicesPacket(rows[0]);
-      applyThemesPacket(rows[1]);
-    });
-  }, 300000);
-})();
-</script>
-<script defer src="data/bootstrap-v2.js"></script><!-- INDMONEY_RUNTIME_START -->
+<!-- One coordinator reloads every published feed and its source status. -->
+<script defer src="data/bootstrap-v2.js?v=20260912-refresh"></script><!-- INDMONEY_RUNTIME_START -->
 <script>
 /* INDMONEY_RUNTIME_START: one live portfolio model for every portfolio-derived screen. */
 (function(){
