@@ -13,8 +13,10 @@ on:
 permissions:
   contents: write
 
+# Serialize all data writers; GitHub may coalesce pending runs. The next
+# surviving run reads the latest sources and publishes the latest snapshot.
 concurrency:
-  group: themes-daily
+  group: dashboard-data-refresh
   cancel-in-progress: false
 
 jobs:
@@ -31,7 +33,8 @@ jobs:
           pip install -r scripts/requirements.txt
       - name: Run themes refresh
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
         id: themes
         run: python scripts/run_refresh.py themes
       - name: Commit + push with rebase-retry

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Daily investment research feed with an Anthropic-web-search primary and RSS fallback.
+"""Daily investment research feed with an OpenAI web-search primary and RSS fallback.
 
 The fallback deliberately writes only source-linked headlines and labels leader items
 as signals rather than inventing quotes. It keeps the dashboard fresh when the paid
@@ -9,13 +9,12 @@ from __future__ import annotations
 import json, re, sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urlparse
 from xml.etree import ElementTree as ET
 import requests
-from anthropic import Anthropic
-from _common import TICKERS, envelope, now_ist, require_key, write_json, publication_time, is_recent, public_error
+from _research import research_json
+from _common import TICKERS, envelope, now_ist, write_json, publication_time, is_recent, public_error
 
-MODEL = "claude-haiku-4-5-20251001"
 CHANNELS = ["Tom Nash", "CNBC Fast Money", "Bloomberg Markets", "Yahoo Finance", "Motley Fool", "ARK Invest", "Benzinga"]
 COMPANY_TICKERS = {
     "NVIDIA":"NVDA", "MICRON":"MU", "PALANTIR":"PLTR", "TESLA":"TSLA",
@@ -73,22 +72,51 @@ LEADERS = [
     {"name":"Morris Chang","role":"Founder","org":"TSMC","cat":"Investor"},
 ]
 
-PROMPT = """Today is {date}. Use web_search to gather the past 24 hours of investment intel.
-OUTPUT ONE JSON OBJECT with keys youtube, voices and news. Each item must have a real working source URL.
-youtube: 5-10 recent AI-investing articles or videos with ch,c,theme,title,date,views,tags,verd,vc,body,url.
-voices: 3-6 fresh CEO/analyst signals with name,role,org,cat,date,themes,quotes:[{{t,k:true}}],src.
-news: 5-10 portfolio-relevant items with ticker,headline,date,summary,tag,url.
-Return JSON only; never fabricate a direct quote."""
+PROMPT = """Research time: {date}. Use web search to gather investment intel published in the past 24 hours.
+OUTPUT ONE JSON OBJECT with keys youtube, voices and news (arrays; fewer or zero qualifying items is allowed).
+Each item must link to the actual source article/video URL, never a search results page, and include published
+(the source's ISO 8601 publication timestamp with timezone) and date (the same source's calendar date).
+Never replace an unknown publication date with the research date, and exclude undated or older items.
+youtube: up to 8 AI-investing articles or videos with ch,c,theme,title,date,published,views,tags,verd,vc,body,url.
+voices: up to 6 fresh CEO/analyst signals with name,role,org,cat,date,published,themes,quotes:[{{t,k:true}}],src.
+For voices, t must be a short paraphrase starting 'Source-linked summary (not a direct quote): '. Do not
+invent a quote, attribute a company headline to a person it does not mention, or present paraphrases as verbatim.
+news: up to 8 portfolio-relevant items with ticker,headline,date,published,summary,tag,url.
+Every material statement must be supported by its linked source; use source reporting rather than training memory.
+Return JSON only."""
 
-def call_claude_with_search() -> dict:
-    client = Anthropic(api_key=require_key())
-    msg = client.messages.create(model=MODEL, max_tokens=8000, tools=[{"type":"web_search_20250305","name":"web_search","max_uses":8}], messages=[{"role":"user","content":PROMPT.format(date=now_ist().strftime('%Y-%m-%d'))}])
-    raw = "\n".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
-    raw = re.sub(r"^```(?:json)?", "", raw).strip(); raw = re.sub(r"```$", "", raw).strip()
-    a,b = raw.find("{"), raw.rfind("}")
-    if a < 0 or b < 0: raise ValueError("No JSON object returned")
-    data = json.loads(raw[a:b+1])
-    if not isinstance(data, dict): raise ValueError("Invalid research response")
+
+def source_url(value: str) -> bool:
+    parsed = urlparse(str(value or ""))
+    return parsed.scheme in {"http", "https"} and bool(parsed.hostname) and not parsed.username
+
+
+def call_research() -> dict:
+    data = research_json("news", PROMPT.format(date=now_ist().isoformat()))
+    if not isinstance(data, dict) or any(not isinstance(data.get(key), list) for key in ("youtube", "voices", "news")):
+        raise ValueError("Invalid research response: youtube, voices and news arrays are required")
+    for key in ("youtube", "voices", "news"):
+        clean = []
+        for item in data[key]:
+            if not isinstance(item, dict) or not source_url(item.get("src" if key == "voices" else "url")) or not is_recent(item.get("published")):
+                continue
+            required = {"youtube": ("ch", "theme", "title", "verd", "body"), "voices": ("name",), "news": ("ticker", "headline", "summary")}[key]
+            if any(not isinstance(item.get(field), str) or not item[field].strip() for field in required):
+                raise ValueError("Invalid research item schema")
+            if key == "youtube":
+                if not isinstance(item.get("tags"), list) or any(not isinstance(tag, str) for tag in item["tags"]):
+                    raise ValueError("Invalid source item tags")
+                item.setdefault("c", "#4a9eff")
+                item.setdefault("vc", "var(--blue)")
+                item.setdefault("views", "Source item")
+            if key == "voices":
+                quotes = item.get("quotes")
+                if not isinstance(quotes, list) or not quotes or any(not isinstance(q, dict) or not isinstance(q.get("t"), str) or not q["t"].startswith("Source-linked summary (not a direct quote): ") for q in quotes):
+                    continue
+            item = dict(item)
+            item["date"] = date_label(item)
+            clean.append(item)
+        data[key] = clean
     return data
 
 def rss(query: str, limit: int = 8) -> list[dict]:
@@ -224,13 +252,13 @@ def merge_voices(primary: list[dict], monitored: list[dict]) -> list[dict]:
         name = str(row.get("name", "")).strip()
         src = str(row.get("src", "")).strip()
         quotes = row.get("quotes")
-        if not name or not src.startswith("http") or not isinstance(quotes, list) or not quotes:
+        if not name or not source_url(src) or not is_recent(row.get("published")) or not isinstance(quotes, list) or not quotes:
             continue
         key = name.casefold()
         if key in seen:
             continue
         seen.add(key)
-        row.setdefault("date", now_ist().strftime("%Y-%m-%d"))
+        row["date"] = date_label(row)
         row.setdefault("themes", ["#AI"])
         row.setdefault("cat", "Research")
         row.setdefault("role", "Market signal")
@@ -243,7 +271,7 @@ def main() -> int:
     print("[update_news_youtube]", now_ist().isoformat())
     provider_error = None
     try:
-        bundle=call_claude_with_search(); source="claude+web_search"
+        bundle=call_research(); source="openai+web_search"
     except Exception as exc:
         provider_error = public_error(exc)
         print("[update_news_youtube] paid research unavailable; using RSS fallback:", exc, file=sys.stderr)

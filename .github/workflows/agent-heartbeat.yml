@@ -9,8 +9,10 @@ on:
 permissions:
   contents: write
 
+# Serialize all data writers; GitHub may coalesce pending runs. The next
+# surviving run reads the latest sources and publishes the latest snapshot.
 concurrency:
-  group: agent-heartbeat
+  group: dashboard-data-refresh
   cancel-in-progress: false
 
 jobs:

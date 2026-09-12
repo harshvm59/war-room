@@ -21,7 +21,7 @@
 
 Live at: `https://harshvm59.github.io/war-room`
 
-Settings → Pages → Source → `main` branch → `/ (root)`
+Settings → Pages → Source → **GitHub Actions**. `deploy-pages.yml` publishes the public site from the latest `main` checkout after refresh workflows complete and after site pushes.
 
 ## 🔄 Auto-Update via GitHub Actions
 
@@ -48,8 +48,10 @@ To regenerate public feeds now, open [Refresh all dashboard feeds](https://githu
 | News, leader signals, YouTube/source links | 03:30 UTC daily; 13:35 and 17:35 UTC weekdays | Public RSS fallback continues when paid research is unavailable |
 | Themes | 03:45 UTC daily; 13:45 and 17:45 UTC weekdays | Public RSS and deterministic cohort calculations |
 | Agent workboard | Hourly at :15 UTC | Published research packets and source checks |
-| Seven-question framework | 22:30 UTC daily | Funded Anthropic API; previous output is retained and labelled stale when blocked |
+| Seven-question framework | 22:30 UTC daily | OpenAI API; one paid attempt per IST day, previous output retained when blocked |
 | Broker holdings | 09:00, 19:00, 21:00 and 23:00 IST on the owner's Mac | Mac available, authenticated INDMoney connection and network |
+
+All cloud feed writers share one concurrency group, preventing manual refreshes from racing scheduled writers. GitHub may coalesce queued runs. `deploy-pages.yml` also listens for their completion (including partial failures), checks out the newest `main`, and deploys the public site files. This is required because a normal `GITHUB_TOKEN` push does not trigger a Pages build.
 
 GitHub schedules are best effort and can run late. Prices do not change merely because a weekend refresh ran. Broker holdings are a separate local sync; public cloud jobs do not access broker credentials.
 
@@ -58,7 +60,7 @@ GitHub schedules are best effort and can run late. Prices do not change merely b
 ### Refresh regression checks
 
 ```sh
-python -m unittest discover -s scripts -p 'test_refresh*.py'
+python -m unittest discover -s scripts -p 'test_*.py'
 node --test scripts/test_refresh*.mjs
 node scripts/test_cohort_planner.mjs
 ```
@@ -70,9 +72,27 @@ node scripts/test_cohort_planner.mjs
 | Yahoo Finance  | Prices + history for TA (server-side, no key)   | **No key — FREE**          |
 | GitHub Actions | Runs the pipeline + commits data                | **FREE**                   |
 | Telegram Bot   | Optional digest push                            | Optional                   |
-| Anthropic      | Written framework and optional research enrichment | Funded key required for framework |
+| OpenAI API     | Daily source-linked research and written framework | Separate API billing; OPENAI_API_KEY secret |
 
-The core dashboard (prices + action cards) needs **no API keys at all.**
+The core dashboard (prices + action cards) needs **no AI API keys at all.**
+
+### Switch to OpenAI with a $10 monthly budget
+
+1. Create a dedicated **HVM Dashboard** project in [OpenAI Platform](https://platform.openai.com/).
+2. Add $10 of API credit in [Billing](https://platform.openai.com/settings/organization/billing/overview). Keep automatic recharge off if you want to approve each top-up yourself. ChatGPT subscription billing is separate from API usage.
+3. In the project's **Limits → Spend → Edit spend limit**, set **$8** and enable **Enforce a hard limit**. A spend alert alone does not stop requests. OpenAI notes enforcement can lag slightly; the $2 buffer leaves room. See [spend controls](https://developers.openai.com/api/docs/guides/spend-limits).
+4. Create a project API key at [API keys](https://platform.openai.com/api-keys), with permission to create Responses. Add it in [this repo's Actions secrets](https://github.com/harshvm59/war-room/settings/secrets/actions) as **OPENAI_API_KEY**. Never put it in HTML, JavaScript, a commit or chat.
+5. Run [Refresh all dashboard feeds](https://github.com/harshvm59/war-room/actions/workflows/refresh-all.yml). Confirm an OpenAI source timestamp and successful usage entry in `.github/ai-usage.json`. After the first successful OpenAI run, the unused **ANTHROPIC_API_KEY** repository secret can be deleted. This repository no longer calls Anthropic; cancelling or changing billing for other Anthropic applications is separate.
+
+The model is **gpt-5.6-luna**, using the Responses API with live web search. Prices checked September 12, 2026: $0.20 per million input tokens, $1.20 per million output tokens, plus $0.01 per search and search-content tokens. [Current pricing](https://developers.openai.com/api/docs/pricing).
+
+The same guard covers scheduled, manual and concurrent runs. Before each paid call, a durable GitHub ledger atomically reserves that feed's slot for the IST calendar day. At most one paid attempt each for news, themes and framework is permitted daily. An uncertain timeout or failed call consumes the slot; the application never automatically retries a paid request. News/themes allow up to four searches each and framework up to six. Output limits are 6,000 / 6,000 / 14,000 tokens. Browser refreshes incur no AI charge.
+
+For 31 days, the search allowance is at most 434 calls ($4.34). Maximum generated tokens at those limits cost about $0.97; input/search-context tokens are additional. A normal month is **estimated around $6–8**, not yet measured for this integration. The app stops new paid calls when its recorded/reserved estimate would exceed $8. This is an application estimate, not a substitute for the provider's hard spend limit; it excludes taxes, other projects and future price changes.
+
+Free RSS, prices, leader monitoring and deterministic cohort calculations retain their existing schedules. Later same-day refreshes use those free sources and clearly report the paid-research daily limit. Missing keys, exhausted credit or an unavailable budget ledger cannot freeze free feeds. Framework failures keep the previous dated assessment. Framework figures are AI summaries with links and reporting periods; they are not independently reconciled financial data. Missing evidence is shown as REVIEW/CAUTION. Switching providers does not validate the separate technical trading rules or allocation engine.
+
+Do not delete or reset `.github/ai-usage.json`: it stores reservation and usage metadata across runner restarts. It contains no API keys, prompts or model text. Only the paid-call guard writes it during operation, using GitHub's commit-SHA conflict checks. A missing/corrupt ledger blocks paid calls until repaired.
 
 ## 📊 Stack
 

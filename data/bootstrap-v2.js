@@ -119,26 +119,28 @@
     document.querySelectorAll('.db-refresh,.yt-synthesize').forEach(function(el){el.disabled=value;});
   }
   function verdictColor(v){ return ({PASS:'#3ddc84',CAUTION:'#c9a84c',FAIL:'#e05252'})[v] || '#7a7672'; }
-  function overallColor(o){ return ({BUY:'#3ddc84',HOLD:'#c9a84c',AVOID:'#e05252'})[o] || '#7a7672'; }
+  function overallColor(o){ return ({BUY:'#3ddc84',HOLD:'#c9a84c',AVOID:'#e05252',REVIEW:'#7a7672'})[o] || '#7a7672'; }
   function frameworkBadge(item){
-    var oc = item.overall_color || overallColor(item.overall);
+    var oc = overallColor(item.overall);
     var qs = item.questions || {};
     var qKeys = ['growing','moat','management','margins','cash','risk','timing'];
     var qIcons = {growing:'📈',moat:'🛡️',management:'👤',margins:'💰',cash:'💵',risk:'⚠️',timing:'⏱️'};
     var qLabels = {growing:'GROW',moat:'MOAT',management:'MGMT',margins:'MARGIN',cash:'CASH',risk:'RISK',timing:'TIME'};
     var rows = qKeys.map(function(k){
       var q = qs[k] || {};
-      var v = q.verdict || 'FAIL';
+      var v = q.verdict || 'CAUTION';
       var col = verdictColor(v);
       var sym = v==='PASS'?'✓':(v==='CAUTION'?'~':'✗');
       return '<div style="display:flex;align-items:flex-start;gap:.5rem;padding:.35rem 0;border-bottom:1px solid #20202055;"><span style="display:inline-block;min-width:22px;text-align:center;color:'+col+';font-weight:600;">'+sym+'</span><span style="font-family:DM Mono,monospace;font-size:9px;color:#7a7672;min-width:60px;">'+qIcons[k]+' '+qLabels[k]+'</span><span style="font-size:11px;color:#ede9e0;line-height:1.4;flex:1;">'+esc(q.note||'')+'</span></div>';
     }).join('');
+    var sources = (Array.isArray(item.sources)?item.sources:[]).filter(function(source){try{var url=new URL(source.url);return ['https:','http:'].includes(url.protocol)&&!url.username;}catch(e){return false;}}).map(function(source){return '<a href="'+esc(source.url)+'" target="_blank" rel="noopener noreferrer">'+esc(source.title||source.reporting_period||'Source')+'</a>'+ (source.reporting_period?' · '+esc(source.reporting_period):'');}).join(' · ');
     return '<div style="margin-top:1rem;padding:1rem 1.25rem;background:'+oc+'10;border-left:4px solid '+oc+';border-radius:6px;">' +
       '<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem;">' +
         '<span style="font-family:DM Mono,monospace;font-size:9px;color:#7a7672;letter-spacing:.1em;">📋 TOM 7-Q QUALITY FRAMEWORK</span>' +
-        '<span style="font-family:Bebas Neue,sans-serif;font-size:1.3rem;letter-spacing:.06em;color:'+oc+';">' + (item.overall||'?') + ' · ' + (item.score||0) + '/7</span>' +
+        '<span style="font-family:Bebas Neue,sans-serif;font-size:1.3rem;letter-spacing:.06em;color:'+oc+';">' + esc(item.overall||'REVIEW') + ' · ' + esc(item.score||0) + '/7</span>' +
       '</div>' +
       rows +
+      (sources ? '<div class="feed-check-status">Research sources: '+sources+'</div>' : '') +
       (item.summary ? '<div style="font-size:11px;color:#c9a84c;margin-top:.6rem;font-style:italic;padding-top:.5rem;border-top:1px solid '+oc+'33;">💡 ' + esc(item.summary) + '</div>' : '') +
     '</div>';
   }

@@ -13,8 +13,10 @@ on:
 permissions:
   contents: write
 
+# Serialize all data writers; GitHub may coalesce pending runs. The next
+# surviving run reads the latest sources and publishes the latest snapshot.
 concurrency:
-  group: news-daily
+  group: dashboard-data-refresh
   cancel-in-progress: false
 
 jobs:
@@ -34,7 +36,8 @@ jobs:
 
       - name: Run daily scrape
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
         id: scrape
         run: python scripts/run_refresh.py news
 

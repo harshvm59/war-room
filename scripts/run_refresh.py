@@ -82,7 +82,7 @@ def run_feed(feed: str, execute=None) -> int:
             else:
                 path.write_bytes(content)
         status["error"] = public_error(exc)
-        status["status"] = "blocked" if status["error"]["code"].startswith("provider_") else "failed"
+        status["status"] = "blocked" if (status["error"]["code"].startswith("provider_") or status["error"]["code"] in {"daily_research_limit", "budget_limit", "budget_guard_unavailable"}) else "failed"
         traceback.print_exc()
     write_json("refresh-status-%s.json" % feed, status)
     print("[refresh-health] %s: %s; last successful data: %s" % (feed, status["status"], status["last_success_at"]))

@@ -23,16 +23,15 @@ import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from datetime import datetime, timezone
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urlparse
 from xml.etree import ElementTree as ET
 
 import requests
-from anthropic import Anthropic
+from _research import research_json
 
-from _common import DATA_DIR, envelope, now_ist, require_key, write_json, publication_time, is_recent, public_error
+from _common import DATA_DIR, envelope, now_ist, write_json, publication_time, is_recent, public_error
 
 
-MODEL = "claude-haiku-4-5-20251001"
 YAHOO_CHART = "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?range=5d&interval=1d&includePrePost=false"
 HEADERS = {"User-Agent": "Mozilla/5.0 (HVM-WarRoom/3.0)"}
 QUERY_STOPWORDS = {
@@ -168,12 +167,15 @@ THEME_CONFIG = {
 }
 THEMES = list(THEME_CONFIG)
 
-PROMPT = """Today is {date}. Use web_search to refresh these investment themes: {themes}.
-Return a JSON array where each item has theme, rating HOT|ACTIVE|QUIET, rc,
-summary, news:[{{title,date,url}}], and tickers. Tickers must be US-listed stock
-symbols that are directly relevant to the theme. Every statement needs a source
-URL; never invent a data point. This is research, not an order instruction."""
-
+PROMPT = """Research time: {date}. Use web search to refresh these investment themes: {themes}.
+Return a JSON array with theme, rating HOT|ACTIVE|QUIET, rc, summary,
+news:[{{title,date,published,url,source}}], and tickers (US-listed stock symbols directly relevant to the theme).
+Only include articles published in the last 24 hours. Every article must carry its actual source publication
+timestamp in published (ISO 8601 with timezone), its source date, and the direct article URL, not a search-results page.
+Never substitute the research date for a missing source date. Exclude undated or stale articles; use QUIET,
+empty news and an explicit no-fresh-evidence summary when no qualifying article exists.
+Every factual statement and discovered ticker must be supported by a linked article. Do not use training-memory
+financial figures or fabricate quotes. This is source-linked research, not an order instruction. Return JSON only."""
 
 def read_json(name: str) -> dict:
     try:
@@ -182,25 +184,27 @@ def read_json(name: str) -> dict:
         return {}
 
 
-def call_claude_with_search() -> list[dict]:
-    client = Anthropic(api_key=require_key())
-    msg = client.messages.create(
-        model=MODEL,
-        max_tokens=8000,
-        tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 10}],
-        messages=[{"role": "user", "content": PROMPT.format(
-            date=now_ist().strftime("%Y-%m-%d"), themes="; ".join(THEMES)
-        )}],
-    )
-    raw = "\n".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
-    start, end = raw.find("["), raw.rfind("]")
-    if start < 0 or end < 0:
-        raise ValueError("No JSON array returned")
-    data = json.loads(raw[start:end + 1])
-    if not isinstance(data, list) or not data:
+def call_research() -> list[dict]:
+    data = research_json("themes", PROMPT.format(date=now_ist().isoformat(), themes="; ".join(THEMES)))
+    if not isinstance(data, list) or any(not isinstance(item, dict) for item in data):
         raise ValueError("Invalid themes response")
+    for item in data:
+        clean = []
+        for article in item.get("news", []) if isinstance(item.get("news"), list) else []:
+            if not isinstance(article, dict):
+                continue
+            parsed = urlparse(str(article.get("url", "")))
+            if parsed.scheme not in {"http", "https"} or not parsed.hostname or parsed.username or not is_recent(article.get("published")):
+                continue
+            article = dict(article)
+            article["date"] = publication_time(article["published"]).astimezone(now_ist().tzinfo).strftime("%Y-%m-%d")
+            clean.append(article)
+        item["news"] = clean
+        if not clean:
+            item["rating"] = "QUIET"
+            item["summary"] = "No qualifying source-linked article in the rolling 24-hour window; the configured cohort remains under monitoring."
+            item["tickers"] = []
     return data
-
 
 def rss(query: str, limit: int = 3) -> list[dict]:
     response = requests.get(
@@ -477,7 +481,7 @@ def normalize_themes(raw_items: list[dict], source: str) -> list[dict]:
             "tickers": rows,
             "candidate_count": sum(1 for row in rows if not row["owned"]),
             "owned_count": sum(1 for row in rows if row["owned"]),
-            "research_mode": "AI + sources" if source == "claude+web_search" else "RSS + deterministic cohort",
+            "research_mode": "AI + sources" if source == "openai+web_search" else "RSS + deterministic cohort",
             "cohort_updated_at": now_ist().isoformat(),
         })
     return normalized
@@ -487,8 +491,8 @@ def main() -> int:
     print("[update_themes]", now_ist().isoformat())
     provider_error = None
     try:
-        raw = call_claude_with_search()
-        source = "claude+web_search"
+        raw = call_research()
+        source = "openai+web_search"
     except Exception as exc:
         provider_error = public_error(exc)
         print("[update_themes] paid research unavailable; using RSS fallback:", exc, file=sys.stderr)

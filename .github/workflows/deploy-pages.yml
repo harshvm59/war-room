@@ -1,0 +1,64 @@
+name: Deploy dashboard to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'data/**'
+      - 'assets/**'
+      - 'manifest.json'
+      - 'icon-192.png'
+      - 'icon-512.png'
+      - 'og-image.png'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_run:
+    # GITHUB_TOKEN data commits do not trigger push-based Pages builds.
+    workflows:
+      - 'Daily News + YouTube Scrape'
+      - 'Themes + Cohorts Refresh (3x daily)'
+      - 'Framework Refresh (Tom 7Q daily)'
+      - 'Refresh all dashboard feeds'
+      - 'Daily TA Analysis'
+      - 'Agent Operations Heartbeat'
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.head_repository.full_name == github.repository) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Read current main, including the data commit made by the completed run.
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/configure-pages@v5
+      - name: Stage public site assets only
+        run: |
+          mkdir -p _site
+          cp index.html manifest.json icon-192.png icon-512.png og-image.png _site/
+          cp -R data assets _site/
+          touch _site/.nojekyll
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Deploy public site
+        id: deployment
+        uses: actions/deploy-pages@v4

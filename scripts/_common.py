@@ -48,10 +48,10 @@ def envelope(items, source: str) -> dict:
 
 
 def require_key() -> str:
-    key = os.environ.get("ANTHROPIC_API_KEY")
+    key = os.environ.get("OPENAI_API_KEY")
     if not key:
         raise RuntimeError(
-            "ANTHROPIC_API_KEY not set. Add it as a repo secret "
+            "OPENAI_API_KEY not set. Add it as a repo secret "
             "(Settings → Secrets and variables → Actions)."
         )
     return key
@@ -76,11 +76,14 @@ def is_recent(value: str, hours: int = 24, now: datetime | None = None) -> bool:
 
 def public_error(exc: Exception) -> dict:
     """Public-safe health reason, without response bodies, credentials or URLs."""
+    safe_codes = {"provider_key_missing", "provider_auth_failed", "provider_credits_exhausted", "provider_unavailable", "provider_response_invalid", "daily_research_limit", "budget_limit", "budget_guard_unavailable", "research_input_invalid", "research_response_invalid"}
+    if getattr(exc, "code", None) in safe_codes and isinstance(getattr(exc, "message", None), str):
+        return {"code": exc.code, "message": exc.message}
     message = str(exc).lower()
     if "credit balance" in message and "too low" in message:
-        return {"code": "provider_credits_exhausted", "message": "Anthropic API credits are exhausted; paid research is unavailable."}
-    if "anthropic_api_key not set" in message:
-        return {"code": "provider_key_missing", "message": "The Anthropic API key is missing; paid research is unavailable."}
+        return {"code": "provider_credits_exhausted", "message": "Research API credits are exhausted; paid research is unavailable."}
+    if "openai_api_key not set" in message:
+        return {"code": "provider_key_missing", "message": "The OpenAI API key is missing; add OPENAI_API_KEY in GitHub Actions secrets."}
     if getattr(exc, "status_code", None) in {401, 403}:
         return {"code": "provider_auth_failed", "message": "The research provider rejected its credentials. Check the Actions secret."}
     return {"code": "refresh_failed", "message": "Refresh failed (%s). See the linked workflow logs." % type(exc).__name__}

@@ -86,3 +86,14 @@ assert.deepEqual(renderOrder,['actions','analysis','derived-screens'],'derived s
 assert.match(bootstrap,/changedKeys\.has\('actions'\)\|\|changedKeys\.has\('analysis'\)\)document\.dispatchEvent\(new CustomEvent\('hvm:market-prices-updated'/);
 assert.doesNotMatch(html,/videos curated/,'RSS items must not be mislabeled videos after consensus rebuild');
 console.log('Published action badges, immediate derived-screen rendering and source-item labels passed.');
+// Provider-supplied framework citations must be useful links, never executable URLs/markup.
+const badgeContext={URL,esc:value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))};
+vm.createContext(badgeContext);
+vm.runInContext(bootstrap.slice(bootstrap.indexOf('function verdictColor'),bootstrap.indexOf('function applyFramework')),badgeContext);
+const badge=badgeContext.frameworkBadge({overall:'REVIEW',overall_color:'red;position:fixed',score:0,questions:{},sources:[{url:'https://example.com/filing',title:'Q2 <report>',reporting_period:'FY2026 Q2'},{url:'javascript:alert(1)',title:'bad'}]});
+assert.match(badge,/href="https:\/\/example.com\/filing"/);
+assert.match(badge,/FY2026 Q2/);
+assert.match(badge,/Q2 &lt;report&gt;/);
+assert.doesNotMatch(badge,/javascript:|position:fixed|<report>/);
+assert.match(badge,/REVIEW/);
+console.log('Framework citations render safely with reporting periods and neutral review status.');

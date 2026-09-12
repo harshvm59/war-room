@@ -6,8 +6,10 @@ on:
 permissions:
   contents: write
 
+# Serialize all data writers; GitHub may coalesce pending runs. The next
+# surviving run reads the latest sources and publishes the latest snapshot.
 concurrency:
-  group: refresh-all
+  group: dashboard-data-refresh
   cancel-in-progress: false
 
 jobs:
@@ -23,7 +25,8 @@ jobs:
         run: pip install -r scripts/requirements.txt
       - name: Refresh public feeds and record each result
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           failed=0
           for feed in prices news themes framework agents; do
