@@ -263,23 +263,23 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-09-13T03:32:29.783Z",
-    "broker_synced_at_ist": "13 Sept 2026, 9:02 am",
+    "broker_synced_at": "2026-09-13T13:37:29.526Z",
+    "broker_synced_at_ist": "13 Sept 2026, 7:07 pm",
     "usd_inr": 95.56,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
         "name": "SK hynix Inc. (ADR)",
         "units": 1.7892596,
-        "current_value_usd": 340.57
+        "current_value_usd": 340.6
       },
       {
         "name": "SpaceX",
         "units": 0.802674,
-        "current_value_usd": 120.6
+        "current_value_usd": 120.61
       }
     ],
     "usd_wallet": 539.72,
-    "broker_account_value_usd": 109719.03
+    "broker_account_value_usd": 109730.45
   }
 }
