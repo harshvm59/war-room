@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T18:08:23.809114+05:30",
+  "updated_at": "2026-09-13T13:59:44.402133+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,7 +8,7 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-09-12",
-      "published": "Fri, 11 Sep 2026 22:57:07 GMT",
+      "published": "Sat, 12 Sep 2026 14:58:00 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -18,53 +18,55 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Says Cybersecurity Is AI’s Next Blockbuster App. CrowdStrike Is Already Building It With Nvidia - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): 40,000 Employees Today and 4 Million Agents Tomorrow: Nvidia CEO Jensen Huang Believes Agentic AI Will Soon Become the Norm in the Workplace - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOEFHb3dPT0ZqdEQ0UmJUcjRmelVaSnFxXzRpTEQwVl96QmJnZ0VxWXdaRDdhWUhleXRhS3hEVmdSQ2IweE9sYkRmNXFld2s0Ny1iSE5xR2dVSWljUHRoREdIZWtDRWdraG5LbWpBd2pqbmNXSWZCdnF6bzRsMXdXQllDaV9MTVdVbkl2dzM5NER5eWxXYndkTFh6dEtvam8?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMDhJVVVoWFdHOXVES0duZGJVaHVWY1RfVmhJcnFqY1RLeG5weG9mRWdhQXpRUTZCdWRiajhUZUZaYVUyWGJJZHdqYjR2ZnBtTk9Uel9Hc3RFRlZnZ0lPeEd1RnFxTVlXMW9pQmxhRkZMcWRoLWlrOUFNOGFUcldsTWNkd1JNVjNSTFNZNndiZFpDdw?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-09-11",
-      "published": "Fri, 11 Sep 2026 17:10:00 GMT",
-      "source_name": "New York Post",
+      "date": "2026-09-13",
+      "published": "Sat, 12 Sep 2026 20:31:29 GMT",
+      "source_name": "Forbes",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
-        "#AI"
+        "#AI",
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman says he’s open to slowing AI as safety risks mount: report - New York Post",
+          "t": "Headline signal (not a direct quote): Sam Altman Says It Would Be ‘Ill-Advised’ To Take OpenAI Public In 2026 - Forbes",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVmFxSm9VQVk4cF9zUUJ5Qnh4cmJoU0JJZVZfQU01WUxFWV9La2ItT25MSU9zSFNEYTdCOXhPYWFqczUtMHlUT2x4NHdFY2NKdkNOMnY4dURWMjZzRnJiT2N2dHRmY29HQ2lIOHZNM1ZKS3JqSkdqRUFXSGo2dWJoazNWSTRhclZYdDNobjRVUFNjS1I2b0ZmSzlQWUNERmdoNFB3SWlwaktKS19IM0J1djV1VzVZRU9JSkE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU0xFa3JZWDBLem5XZ3kzdmdBeUJwRGFQelFBbkI3ZVRoM2lDaXB1RmYtZTNZam1fM1RCNlp5eXA2dVhTUkRRTzBPWHNfWTlFZVhtMjNrSDl3VjJzVDNLUURDUEozUklnS0h1MFh3RV9aMFFJM2tzeENlWWhYRnlock1leng2M0JBNWxfRkRMSTNPUlFYNlVIbXo4ZnZaZGJjVU9FMkJ2TQ?oc=5"
     },
     {
       "name": "Dan Ives",
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-09-11",
-      "published": "Fri, 11 Sep 2026 16:51:43 GMT",
-      "source_name": "scanx.trade",
+      "date": "2026-09-12",
+      "published": "Sat, 12 Sep 2026 18:27:55 GMT",
+      "source_name": "stocktwits.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "themes": [
-        "#AI"
+        "#AI",
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives sees M&A as Apple's missing piece in AI arms race under Ternus - scanx.trade",
+          "t": "Headline signal (not a direct quote): Dan Ives Says NVDA's Recent Underperformance Is A Bump Than Anything Else — 'There's One Chip In The World Fueling The AI Revolution' - stocktwits.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOHIyU0I0WEk1WDRUWGt2UndVU0xaVUN6YmJlUTFrTWJZN2JId01hTEs0WkFKNDFBSVJoU2N1RDhiaU1FdUlOZURzbHdVeTlsMmRPVVhFWmRPQURSdURnb0tZV0tTRzZteXVuOE1wWDlzS1ZKVlNDUDc4ZFNoZFJyNEMxNHZIOVlrR1MwNVRTWEc4X01IRFdEY3ZlVy1oVGVkbnhPXzRMazB5Y0wySXRTNTlvdVkyR21kQnRJeg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUU5ObnlHeHY0N0VIc3ZvalRIazROX28yTGZVZ1MzYXlkUFpaSjNjUFhKc2hZMzNNUC04RktraHpBRnVVNkQtNjFwQUQ1S0JQcmpFOUpGdHZkaE1TXzRFMU5QNDdZVVdWY2RKRjV1YnNyUk42UmdmeHFNalVMakpyS3M4azdhSE1Cb296eXZnSndMZXFqSXU0WlRRNldzWTJvUUhobWIzNXU2cVpjNDB6UURWVDgtU3YxcFNmbklNR0huSkFKcklqcFp3?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -72,65 +74,42 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-09-12",
-      "published": "Sat, 12 Sep 2026 05:51:12 GMT",
-      "source_name": "Stocktwits",
+      "published": "Sat, 12 Sep 2026 17:28:46 GMT",
+      "source_name": "Firstpost",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): MSFT Stock Dips Overnight: Satya Nadella Calls Anthropic’s Fable 5 ‘Editorially Controlled’ Amid Backlash Over Safeguards - Stocktwits",
+          "t": "Headline signal (not a direct quote): Satya Nadella announces Grok rollout to Copilot, expanding Microsoft’s AI offering - Firstpost",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOeG92VzhrOGhub245THpqQTVoSmw4cUVxckpNdGlxQlJHc2IyYzVqbnNaSHlmUFJjakZmMWVfNmdDN3NxM2ZZd1YxblhkaHZGSlZpS0VVLUZGX1ZLaF9iZDk2dGt6dS05UmhFYTh0R25oR1M3SFNYejEwUml1elE4NFZkUmFveUxKTHZSV1JqdmNsTWhnM09xZHhQWGZaSUhqS3BtcnFyMlB1ZnF2bzdNM0FEVFdUT2I1MERpNDdSVV8tX2NIam8xckxsSzBKMThndWtvNkFhQl8wUXp5cjNCRkpDa2lEODNrLW9NdE5xWGxRbkpmT0VGd3R3M3VrZmhEQXF4dXRQYUFpY1A4OEJJ?oc=5"
-    },
-    {
-      "name": "Alex Karp",
-      "role": "CEO",
-      "org": "Palantir",
-      "cat": "CEO",
-      "date": "2026-09-12",
-      "published": "Sat, 12 Sep 2026 00:24:58 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#PLTR"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Galaxy's Novogratz Says Palantir CEO Alex Karp Exposed AI's ‘Human Commoditization’ Problem - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZGQzQUNManptaXBHdDZrZnoyN3FOZDZ4eHV1T0ZXUUp2Y2syYzhRSEhTWUk3SUFXQ2dCb2cyOVZxSWlPVUNKUndiOE44a2FiZmMtVWx5dkNfb2tHXzlINUkwM3dKakFSYk8ydmxWZU80UzdJV3pHSWFyWnVidG9UMFpGdVBtTUdUMWdZamtqR3Y2ME1UdHRsU0dhb0ZtRXU1ZUtTSw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbWRybU5TQ0ZqYnVGWFFGMk5wbS1kQlRpVHJ6d3pqQnE3MmRMZmFUT3kxbmhhTnVQdy1YQVVXSFJOQWdUVGFoSVc4cC1qWmp1cElETGZaYWxyanp0ZzdSUzBUUDNNRzB2cXZLZWJSVG9qZGhTcnFnbW1JNWc1Ulo1czdVU2dzN01pQ19oTGtPU21SbDVVWF9ZM3h5WU5sQlgtS0VJZnlSMVBnODlKV0k3NmhEX29BRXBtejJuc20xbW15LTjSAcgBQVVfeXFMTWEwX0VUbmdJdEM5YjNzSGpWc0NpTkYweGdEOVk0b2s2RHBwbkJyQzI0a25VSE9mLWhTVWtsLXN3NUExVXdkd0lMdGhYOWdYRHprN2tYUzBIZU9aTUFZV1JuM0ZEbEJRMW5QZDU2NTUtaUNzWmZSZFNJRDlJeDc0ZjZuQVVsT2ZnaDZLUjdlOGVzdDQzd3hyX1FSVlhhMlVVMEE3dzRuZVhnRzFuc2UwNFU0TGlabGlFOFlJMVFBSTRITTdISFpZZEM?oc=5"
     },
     {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-09-12",
-      "published": "Sat, 12 Sep 2026 05:21:23 GMT",
-      "source_name": "Stocktwits",
+      "date": "2026-09-13",
+      "published": "Sun, 13 Sep 2026 05:38:25 GMT",
+      "source_name": "Startup Fortune",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 7,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): SpaceX IPO Frenzy Gets Fresh AI Fuel: Elon Musk Cheers Nvidia Vera CPU For Training Smarter AI Models - Stocktwits",
+          "t": "Headline signal (not a direct quote): Elon Musk's Quiet Friend Antonio Gracias Stands to Make $90 Billion - Startup Fortune",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUl85YTNsUkkwVUhHTWZjTmxqbW1PbXJoc3RBUHpDQ1dXVUkzVjRubi1UMGVRdW9iTTNDNmlCSXpHNnVGYlRMOXBRbnYyUEN0YVNkcWJhcnh5cXBraUpNemR2TFJYTkFkbU83cGszQ0FTT3dKMGhzN0NLVEhma1VYTFNtbC10ZHpWZG1VeXM0ckVFSkI5aDdJMEFPOGduaVhNU3Rib2ZlM1FDMjdLYS1ER2R5THlnVlJoLXFEUA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOWhVQ3hMVmJWaHNaN1l0X0xtRlNpVjlXRV9ZczI0Nnc2T0hRX2dUUURWOW5USzVCNHNFTjVFY25ERWJ3cENjVkpDdXFHX2NfV1dzMURPQW9ReHVyT2VFUEZRaHBUNTBPdGNvdTdTZzNwa1prQzl5bzBuaFE5cnhQTVRBd1V5MmNITEZXRHU4YlNyXzBsV19IRA?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -182,7 +161,7 @@
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-09-12",
-      "published": "Sat, 12 Sep 2026 01:36:00 GMT",
+      "published": "Sat, 12 Sep 2026 17:14:56 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -191,40 +170,19 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Oracle's Larry Ellison adopts trading plan to sell up to $7.5 billion worth of stock - CNBC",
+          "t": "Headline signal (not a direct quote): Larry Ellison nixes plan to offload up to $7.5 billion worth of Oracle stock - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zR2VMZlJwWXhpVS1nM3NVZlhScXZtc1FYWVBEM1p5RUhjTDh4TWxEdS1ZVzB6N0RmNFFoeXhpbTJOM0EwOElHWEp6VWRBVkRuN3c1TW5tbHhaMnBiQ0NIN0NKaEJNRllsUmh4aEEycWVlQTZGRGl6OWpFRG5oaWvSAYQBQVVfeXFMTWVZQ096UGxxbU5DbmN5dzI5ZDFwRVZFbFA3am9SR3I2WkpkSnM5RUxkLVNUaDFCU3hiMS1OZ3d3VktQM1IwLXBlU2tKaFFCdjJCMzMzRUs5YmtDdjNFeWJvMFdacXpJMTV4RXlvSWtWRHdYeHplT05KOG91OXlYdldkNFJL?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbXlGeXFwWUV4Y0JJOVhXQ1FvMkxDTGhwOW1xX1hOQ0h6SU1nNXF5OXlMZnpheWdsMENTV05pMDYtTjR1WksxX1hjTmswMHJTazBBUzNxdjhvTkJMZTh2anB1QUV3T0NkNF9oajNvdkF1VkFaUlhoVGFFRW5aWHpEd0hoRTQwbW03enF0N3BGaHA0VWtWRjRTbHpsWS1NT0FNUlRSODMzVnBZRThlMVZlT1BXb0RzMXV50gG-AUFVX3lxTFByblB0dGY0VFViYXZvNjlpNFlRblBla0JBNGJVeDBPejVaVzZOaGVaMncwdmFLZmhqalRuNnBQVVVvSExzVDlBbFd0dTl3cmdxcElFSE80VFpTWjVTZzdYRHhDbWhQc1B2RkhLSE9FMmlVcmxEM192d19jempybTJFNVFkbmttV21FZU9ER3gzOUI1ZHFtTWZOUTdSVXZCbjROdlo0TEJEZERILXBKMV9BVXdEZzFsbE03VUxWV3c?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-09-12",
-      "published": "Fri, 11 Sep 2026 21:39:00 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 10,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): 1 Popular Cryptocurrency Cathie Wood of Ark Invest Sees Soaring in Value by 1,490% - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdFdSTzFDeWR4QnZFX0V4d0c5Z1pudWRlNzdPMzFBd1FKNHN4Nk9qNGpFN3pHWjNDbmVsVkRicmNpVnpubnBEVVhtUHNqS0RrRHdoTHVEN1lHaGJocFlZNTJ2azBEOVZka1VzM2lDZWR1QmNPaFdmaTAyLWo2am5fdEhreW5FbWo0M0xsV1FheEZKSUJhZVJaa3p6SzB2dWo0NXJv?oc=5"
-    },
-    {
-      "name": "Jim Cramer",
-      "role": "Host",
-      "org": "CNBC",
-      "cat": "Analyst",
-      "date": "2026-09-12",
-      "published": "Sat, 12 Sep 2026 10:56:48 GMT",
+      "date": "2026-09-13",
+      "published": "Sat, 12 Sep 2026 20:32:01 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -233,20 +191,63 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Turned Out Right For This Particular AI Stock That’s Up Since Earnings - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): 3 Reasons I Think Cathie Wood Is Buying Robinhood Stock Again - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPS3loYUN1bU1pV1dFdkh5bXl5akJqbVRZd052SmQ0UWdwblpRa181N2NFQ3F0d1BLMno2NVB5c0p6UERuZDU3UFppZ1NJNG5XNXlDeWtEVjB3bXNKT1BZTVdBX1VFal9kZmRWalNvVjQycnFOaDNDUDhVZ0ZSMUx2SXdDaU53X1Y3TFFIRjhldGVDNThrTGZJX3BEY3o?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQczczWUFyVFVSUUZibUtMd25UelJRN240c3dIQlRDY3I0akE2NXV4SEg2bDVWd3hJU0NZN1dKZXpxUThwR0RWTXBTdVNGeGQ0NHJpWGduYkdPR2pUYlpyc2VSYmcwRVlXZjBydnJ0YkdoOFhLX0JXd1hWcnRCN1p1bWFIZ05fek1jTTlaalBuM0xkdWFnMGdF?oc=5"
+    },
+    {
+      "name": "Jim Cramer",
+      "role": "Host",
+      "org": "CNBC",
+      "cat": "Analyst",
+      "date": "2026-09-12",
+      "published": "Sat, 12 Sep 2026 16:39:43 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Jim Cramer Flips the Script: Why Older Investors Should Ditch Growth Stocks for 30-Year Treasuries - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVFRYa1ZFZ016cWNuU01FZHByYVpWWGdFN1d6b0Z0VUZnZkdfdlhnVTNUZFZkWjZkQ0hmV1ItRVJ5NFRXXzI0YWlhOXhNUE5xMEdpWi1HUTlENEhTZ2t1OTBUQXlHeEE0bWRfd05uTUpaN2lvY2syN20zYXBQYzkyUUxQdHpHOXhKU3JtZmkxbFY1eFpPeVB3?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-09-13",
+      "published": "Sat, 12 Sep 2026 19:05:08 GMT",
+      "source_name": "stocktwits.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#MSFT"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): MSFT Stock Faces A Bigger Test Than Earnings, Gene Munster Says — Why The ‘Bot Boogeyman’ Won’t Go Away - stocktwits.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOWjFzOWcyU0l4RWdoWEtPT2VhOXBHNnUtYzNRd2RJUnVFY1U4WTdaWDVpYU5WV3llbHJIM3NQQklGNkZCQy1Zc0ZncmJMaHRLa2tZQ25CVHA2LUNFakhIbFN4bUxjWmlpR3RwZXB5UC1IQ21NOUJfcFBvcldiZ1A5OHIteExENld3dnMtTTFleFVVaVI2ZzRUTnpGd2YtT1hxQVNJY1ZoS0ZNVDZ6VEp2QUJOb29zcUhRNG82anpRWnVzcTBibUk2QzVvckliUVp4N2FobHBOQlB5U2U3Q01aUGstNlB0UEVFX2l1NURZV1o?oc=5"
     },
     {
       "name": "Stacy Rasgon",
       "role": "Senior Analyst",
       "org": "Bernstein",
       "cat": "Analyst",
-      "date": "2026-09-12",
-      "published": "Fri, 11 Sep 2026 23:16:01 GMT",
-      "source_name": "Stocktwits",
+      "date": "2026-09-13",
+      "published": "Sat, 12 Sep 2026 22:48:06 GMT",
+      "source_name": "stocktwits.com",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
       "themes": [
@@ -255,38 +256,16 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): MU, AMD, MRVL, QCOM Stocks Surge — Bernstein’s Stacy Rasgon Says AI Demand Is Exploding, Memory Capacity Is 'Very Tight' - Stocktwits",
+          "t": "Headline signal (not a direct quote): MU, AMD, MRVL, QCOM Stocks Surge — Bernstein’s Stacy Rasgon Says AI Demand Is Exploding, Memory Capacity Is 'Very Tight' - stocktwits.com",
           "k": true
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWk1VdGVNT2dIX2ZLdTdsNS13RkRVUm9OMm52LVNJVGZIMFZVTThDV1M5bmc4UzNobnlqZkFrQUIyNUtpbVlOZVpWMjNMYXdXSDIteFBxdXI3ZU5MX3JXdlRKa3ZZVFJkTDVWZ25ONWZNLURhNHBZX1hkQ3U0eFJqRkRZSkxyZkFrUEs1SEFmVjRDRWhpUVl6bXdFTmNKWHRsbG9RRGE5UmRBWVF3TjNrSHdlTWNCY3V3OWszTXQ4QjhsYmlnbXg0?oc=5"
-    },
-    {
-      "name": "Pierre Ferragu",
-      "role": "Senior Analyst",
-      "org": "New Street Research",
-      "cat": "Analyst",
-      "date": "2026-09-12",
-      "published": "Sat, 12 Sep 2026 02:45:16 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Pierre Ferragu Says Tesla FSD Could Be At An 'Inflection Point,' Compares It To The iPhone Playbook — 'Give Us 2 More Quarters' - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VXbFFIak5YSjF2dUZvQ2R4TTd4dFpoMmdhWm81UGFwRnZwSnZ4UkNDeG9ERmpxMjlkQWNFbE8ycmVLVnVxRkZpNmFMMmNRVldEOXVYUTlIX2JBYVAxZ1d6WktMekZfdWNjTTlMZllDcTNLcXE1SXNHVm9tQkZ5aXZiUVRtNjVnZ25NdVM3ZV9TQjlXNUFvSS1kd1NkLTF2ek1aN25FQ0RISHVHVER5R3J3aklKVlNLMHFvNFJB?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 13,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
     "code": "provider_key_missing",
