@@ -1,0 +1,16 @@
+{
+  "items": [],
+  "updated_at": null,
+  "last_attempt_at": "2026-09-14T00:17:13.963452+05:30",
+  "engine": "TauricResearch/TradingAgents",
+  "upstream_commit": "be952b8eccb49720509af544c6675233bc1f10d0",
+  "scope": "Market + fundamentals analysts, bull/bear debate and risk review. One holding per week; manual runs share the same weekly allowance.",
+  "budget": "Shares the $8 monthly estimated guard. Each attempt reserves $1 conservatively, including failed attempts. Maximum one attempt per IST week.",
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/workflows/tradingagents.yml",
+  "requested_ticker": "CRWD",
+  "status": "blocked",
+  "error": {
+    "code": "provider_key_missing",
+    "message": "OpenAI API key is missing in GitHub Actions. Add funded OPENAI_API_KEY to enable TradingAgents."
+  }
+}

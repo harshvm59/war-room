@@ -6,10 +6,8 @@
     actions:{label:'Action signals',file:'actions',job:'prices',hours:96},
     analysis:{label:'Technical analysis',file:'analysis',job:'prices',hours:96},
     news:{label:'Daily research',file:'news',job:'news',hours:30},
-    voices:{label:'Leader signals',file:'voices',job:'news',hours:30},
     themes:{label:'Theme research',file:'themes',job:'themes',hours:30},
-    youtube:{label:'Videos / source items',file:'youtube',job:'news',hours:30},
-    agents:{label:'Agent packets',file:'agent_ops',job:'agents',hours:30},
+    tradingagents:{label:'TradingAgents',file:'tradingagents',job:null,hours:192},
     framework:{label:'7-question framework',file:'framework',job:'framework',hours:192},
     portfolio:{label:'Broker holdings',file:'portfolio',job:null,hours:30}
   };
@@ -100,10 +98,10 @@
     document.querySelectorAll('.live-txt').forEach(function(el){el.textContent=bad.length?'Source checks · '+bad.length+' need attention':'Published feeds checked';});
     var container=document.getElementById('dashboardSources');
     if(container)container.innerHTML=Object.keys(FEEDS).map(function(key){
-      var cfg=FEEDS[key],st=state[key],job=jobs[cfg.job],run=cfg.job?(job?'Cloud run: '+job.status+' · Attempt: '+date(job.last_attempt_at)+' · Last success: '+date(job.last_success_at)+(job.error?' · '+job.error.message:'')+(jobErrors[cfg.job]?' · '+jobErrors[cfg.job]:''):jobErrors[cfg.job]||'Checking cloud run status…'):'Mac-dependent broker sync · requires the local automation and broker session';
+      var cfg=FEEDS[key],st=state[key],job=jobs[cfg.job],run=cfg.job?(job?'Cloud run: '+job.status+' · Attempt: '+date(job.last_attempt_at)+' · Last success: '+date(job.last_success_at)+(job.error?' · '+job.error.message:'')+(jobErrors[cfg.job]?' · '+jobErrors[cfg.job]:''):jobErrors[cfg.job]||'Checking cloud run status…'):key==='tradingagents'?'Cloud research: '+(packets.tradingagents&&packets.tradingagents.status||'checking')+(packets.tradingagents&&packets.tradingagents.error?' · '+packets.tradingagents.error.message:''):'Mac-dependent broker sync · requires the local automation and broker session';
       return '<div class="refresh-source" data-state="'+(st.error?'error':isStale(key,st.sourceAt)?'stale':'ok')+'"><b>'+cfg.label+'</b><div>'+esc(sourceLine(key,st))+'<small>'+esc(run)+'</small>'+(packets[key]&&packets[key].source?'<small>Source: '+esc(packets[key].source)+'</small>':'')+(key==='prices'?'<small>'+esc(quoteDates(packets.prices))+'</small>':'')+'</div></div>';
     }).join('');
-    var details=document.getElementById('dashboardSourceDetails');if(details&&bad.length&&!root.__sourceDetailsShown){details.open=true;root.__sourceDetailsShown=true;}
+    var details=document.getElementById('dashboardSourceDetails');/* Keep technical diagnostics collapsed; summary still shows failures. */
     text('actionTimestamp',sourceLine('actions',state.actions));
     text('liveTickerStatus',sourceLine('prices',state.prices));
     text('pivLiveStatus',(state.prices.error?'Check failed':isStale('prices',state.prices.sourceAt)?'STALE':'Published')+' · '+date(state.prices.sourceAt));
@@ -304,10 +302,11 @@
     else if(key==='youtube'){root.YTVIDEOS=d.items;root.YOUTUBE_UPDATED_AT=d.updated_at||'';buildYTFilters();buildYT();generateYTSynthesis(false);text('ytVideoCount',d.items.length+' published source items');}
     else if(key==='agents'){root.AGENT_OPS_LIVE=d;buildCEOGame();}
     else if(key==='framework')applyFramework(d);
+    else if(key==='tradingagents' && root.renderTradingAgents)root.renderTradingAgents(d);
   }
   root.HVMRefresh=createCoordinator({fetchJSON:getJSON,apply:apply,render:renderStatus,busy:busy,now:function(){return new Date().toISOString();}});
   root.HVMRefresh.refreshForSection=function(id){
-    var groups={portfolio:['prices','actions','analysis','framework','portfolio'],pivot:['prices','actions','analysis','portfolio'],youtube:['youtube','news'],leaders:['voices'],themes:['themes'],agents:['agents'],roadmap:['portfolio']};
+    var groups={tradingagents:['tradingagents'],portfolio:['prices','actions','analysis','framework','portfolio'],pivot:['prices','actions','analysis','portfolio'],youtube:['youtube','news'],leaders:['voices'],themes:['themes'],agents:['agents'],roadmap:['portfolio']};
     if(groups[id])return root.HVMRefresh.refresh(groups[id]);
   };
   var button=document.getElementById('dashboardRefreshBtn');if(button)button.addEventListener('click',function(){root.HVMRefresh.refresh();});

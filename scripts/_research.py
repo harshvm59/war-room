@@ -84,7 +84,7 @@ def _validate_ledger(doc):
             raise _guard_error()
         total = 0.0
         for key, attempt in section["attempts"].items():
-            if (not re.fullmatch(re.escape(month) + r"-\d{2}:(news|themes|framework)", key)
+            if (not re.fullmatch(re.escape(month) + r"-\d{2}:(news|themes|framework|tradingagents)", key)
                     or not isinstance(attempt, dict) or not isinstance(attempt.get("id"), str)
                     or not attempt["id"] or attempt.get("status") not in {"reserved", "completed", "failed", "uncertain"}
                     or not _nonnegative_number(attempt.get("estimated_usd"))):
@@ -92,7 +92,7 @@ def _validate_ledger(doc):
             usage = attempt.get("usage")
             if usage is not None and (not isinstance(usage, dict) or any(not _count(usage.get(k)) for k in ("input_tokens", "cached_input_tokens", "output_tokens", "web_search_calls"))):
                 raise _guard_error()
-            if usage is None and (attempt["status"] not in {"reserved", "uncertain"} or attempt["estimated_usd"] < RESERVATION_USD):
+            if usage is None and (attempt["status"] not in {"reserved", "uncertain"} or attempt["estimated_usd"] < (1.0 if key.endswith(":tradingagents") else RESERVATION_USD)):
                 raise _guard_error()
             if usage is not None and usage["cached_input_tokens"] > usage["input_tokens"]:
                 raise _guard_error()
@@ -179,19 +179,25 @@ def _totals(section):
 
 
 def _reserve(ledger, feed, stamp):
+    allowance = 1.0 if feed == "tradingagents" else RESERVATION_USD
     month, day = stamp.strftime("%Y-%m"), stamp.strftime("%Y-%m-%d")
     slot = day + ":" + feed
     reservation_id = uuid.uuid4().hex
     for _ in range(CAS_ATTEMPTS):
         doc, sha = _read(ledger)
+        if feed == "tradingagents":
+            week_start = (stamp - timedelta(days=stamp.weekday())).date().isoformat()
+            for old_section in doc["months"].values():
+                if any(k.endswith(":tradingagents") and k[:10] >= week_start for k in old_section["attempts"]):
+                    raise ResearchUnavailable("weekly_research_limit", "This week's TradingAgents attempt is already used. Previous reports remain available.")
         section = doc["months"].setdefault(month, {"attempts": {}, "estimated_usd": 0.0})
         if slot in section["attempts"]:
             raise ResearchUnavailable("daily_research_limit", "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date.")
-        if section["estimated_usd"] + RESERVATION_USD > MONTHLY_ESTIMATE_LIMIT_USD:
+        if section["estimated_usd"] + allowance > MONTHLY_ESTIMATE_LIMIT_USD:
             raise ResearchUnavailable("budget_limit", "The monthly $8 estimated AI budget guard has stopped additional paid research.")
         section["attempts"][slot] = {
             "id": reservation_id, "status": "reserved", "reserved_at": stamp.isoformat(),
-            "model": MODEL, "estimated_usd": RESERVATION_USD, "usage": None,
+            "model": MODEL, "estimated_usd": allowance, "usage": None,
             "billing_status": "provisional_estimate", "error_code": None,
         }
         _totals(section)

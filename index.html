@@ -2092,11 +2092,14 @@ tr:hover td{background:var(--bg2);}
 <style id="hvm-cohort-allocator-v1">
 .cohort-planner{margin:0 0 16px;border:1px solid #4b573b;border-radius:9px;background:radial-gradient(circle at 10% 0,#182118,#090d0b 55%);overflow:hidden}.cohort-planner-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;padding:15px 16px;border-bottom:1px solid #2d3a2e}.cohort-kicker{font:8px 'DM Mono',monospace;letter-spacing:.12em;color:#69dea9}.cohort-title{font:1.65rem 'Bebas Neue',sans-serif;letter-spacing:.06em;color:#ede7da;margin-top:4px}.cohort-sub{font:9px/1.55 'DM Mono',monospace;color:#82968b;margin-top:3px}.cohort-controls{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-end}.cohort-field label{display:block;font:7px 'DM Mono',monospace;color:#7f9389;margin-bottom:4px;letter-spacing:.08em}.cohort-field input,.cohort-field select{height:34px;border:1px solid #3a4d42;background:#080d0b;color:#e7dfcf;border-radius:4px;padding:0 9px;font:10px 'DM Mono',monospace}.cohort-field input{width:115px}.cohort-preset{height:34px;border:1px solid #806d3d;background:#18150d;color:#e4c96d;border-radius:4px;padding:0 10px;font:8px 'DM Mono',monospace;cursor:pointer}.cohort-preset:hover{background:#252013}.cohort-selector{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;padding:12px 14px}.cohort-chip{position:relative;text-align:left;border:1px solid #2a3b33;background:#0b1210;color:#96aaa1;border-radius:5px;padding:9px 10px;cursor:pointer;min-height:58px}.cohort-chip.on{border-color:#c6a949;background:#1a180f;color:#efe1ad;box-shadow:inset 0 0 0 1px #c6a94933}.cohort-chip b{display:block;font:9px/1.35 'DM Mono',monospace;color:#e6e0d4}.cohort-chip span{display:block;margin-top:4px;font:7px/1.35 'DM Mono',monospace;color:#758b80}.cohort-chip em{position:absolute;right:7px;top:7px;font:7px 'DM Mono',monospace;color:#d3b85f;font-style:normal}.cohort-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:#324139;border-top:1px solid #324139;border-bottom:1px solid #324139}.cohort-summary-cell{background:#09100d;padding:10px 12px}.cohort-summary-v{font:1.25rem 'Bebas Neue',sans-serif;color:#e6c868}.cohort-summary-l{font:7px/1.4 'DM Mono',monospace;color:#7f9188}.cohort-table-wrap{overflow:auto;max-height:520px}.cohort-table{width:100%;border-collapse:collapse}.cohort-table th{position:sticky;top:0;background:#0d1512;z-index:1;text-align:left;padding:8px 9px;border-bottom:1px solid #33433b;font:7px 'DM Mono',monospace;color:#83968d;letter-spacing:.07em}.cohort-table td{padding:9px;border-bottom:1px solid #1d2923;font:9px/1.45 'DM Mono',monospace;color:#c6cec8;vertical-align:top}.cohort-table .cohort-ticker{font:1rem 'Bebas Neue',sans-serif;color:#f1e7d3;letter-spacing:.06em}.cohort-action{display:inline-block;padding:3px 5px;border-radius:3px;border:1px solid #4b6558;color:#75dcae;font:7px 'DM Mono',monospace}.cohort-action.new-buy{border-color:#b99b4f;color:#e8c862}.cohort-action.watch{border-color:#426c93;color:#78b7f2}.cohort-action.trim{border-color:#934848;color:#ef7777}.cohort-footer{display:flex;justify-content:space-between;gap:12px;padding:10px 14px;background:#0c120f;font:7.5px/1.5 'DM Mono',monospace;color:#7e9288}.cohort-warning{color:#d7bb61}@media(max-width:1100px){.cohort-planner-head{display:block}.cohort-controls{margin-top:12px}.cohort-selector{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.cohort-selector,.cohort-summary{grid-template-columns:1fr}.cohort-controls{display:grid;grid-template-columns:1fr 1fr}.cohort-field input,.cohort-field select{width:100%}}
 </style>
-</head>
+<style>
+button.nav-item{width:100%;text-align:left;background:transparent;border:0;font:inherit;color:inherit}button.nav-item.on{color:var(--gold);background:rgba(201,168,76,.08)}
+.research-card{padding:24px;margin:0 0 18px;background:var(--bg1);border:1px solid var(--border);border-radius:10px;line-height:1.65;overflow-wrap:anywhere}.research-card h2{color:var(--gold);margin:0 0 12px;font-size:21px}.research-card p{margin:10px 0}.research-card a{color:var(--gold)}.research-card label{display:inline-flex;gap:10px;align-items:center;margin:12px 18px 12px 0;flex-wrap:wrap}.research-card input,.research-filter select{background:var(--bg2);color:var(--text);border:1px solid var(--border);padding:10px;border-radius:5px;max-width:180px}.research-filter{display:block;margin:16px 0}.research-card details{padding:12px 0;border-top:1px solid var(--border)}.research-card summary{cursor:pointer;color:var(--gold)}.research-report-text{white-space:pre-wrap;font:14px/1.7 'DM Sans',sans-serif;margin:12px 0}.research-note{color:var(--text2);font-size:12px}.research-status{font-weight:700;color:var(--gold)}
+</style></head>
 <body>
 
 <!-- HVM SPLASH — CINEMATIC ONBOARDING -->
-<div class="hvm-splash" id="hvmSplash">
+<div class="hvm-splash" id="hvmSplash" style="display:none">
   <div class="hvm-splash-grid"></div>
   <div class="hvm-splash-orb"></div>
   <button class="hvm-skip" onclick="dismissSplash()">Skip → ESC</button>
@@ -2163,24 +2166,16 @@ tr:hover td{background:var(--bg2);}
     <div style="font-family:'DM Sans',sans-serif;font-size:11px;font-weight:500;color:var(--text2);margin-bottom:.2rem;letter-spacing:.01em;">Millionaire Dashboard</div>
     <div class="sb-sub">$100K → $1,000,000</div>
   </div>
-  <div class="nav-section">
-    <div class="nav-label">Core</div>
-    <div class="nav-item on" onclick="nav('roadmap',this)"><span class="nav-icon">🎯</span>$100K → $1M</div>
-    <div class="nav-item" onclick="nav('pivot',this)"><span class="nav-icon">⚡</span>Master Pivot · ALL Actions</div>
-    <div class="nav-item" onclick="nav('portfolio',this)"><span class="nav-icon">📊</span>My Portfolio</div>
-    <div class="nav-item" onclick="nav('aggression',this)"><span class="nav-icon">📈</span>Investment Aggression</div>
-    <div class="nav-label">Live Intel</div>
-    <div class="nav-item" onclick="nav('themes',this)"><span class="nav-icon">🌊</span>AI Themes (P0–P3)</div>
-    <div class="nav-item" onclick="nav('leaders',this)"><span class="nav-icon">🎤</span>30-Leader Signal Desk</div>
-    <div class="nav-item" onclick="nav('youtube',this)"><span class="nav-icon">▶️</span>YouTube Intel (Daily)</div>
-    <div class="nav-item" onclick="nav('agents',this)"><span class="nav-icon">🤖</span>CEO Agent Workspace</div>
-    <div class="nav-label">Strategy</div>
-    <div class="nav-item" onclick="nav('deploy',this)"><span class="nav-icon">⚡</span>Deploy Capital</div>
-    <div class="nav-item" onclick="nav('conviction',this)"><span class="nav-icon">🔥</span>Conviction Picks</div>
+  <div class="nav-section" aria-label="Main navigation">
+    <div class="nav-label">Your investment room</div>
+    <button class="nav-item on" onclick="nav('portfolio',this)"><span class="nav-icon">📊</span>Portfolio</button>
+    <button class="nav-item" onclick="nav('roadmap',this)"><span class="nav-icon">🎯</span>Wealth Plan</button>
+    <button class="nav-item" onclick="nav('themes',this)"><span class="nav-icon">🌊</span>AI Themes</button>
+    <button class="nav-item" onclick="nav('tradingagents',this)"><span class="nav-icon">🔎</span>TradingAgents</button>
   </div>
   <div class="sb-footer">
     <div class="live-row"><div class="live-dot"></div><span class="live-txt">Checking published feeds…</span></div>
-    <div class="ver-txt" style="margin-top:3px;">HVM™ v5 · 30+ signals · P0–P3 themes · Daily brief</div>
+    <div class="ver-txt" style="margin-top:3px;">Holdings · Long-term planning · Research</div>
   </div>
 </nav>
 
@@ -2192,11 +2187,23 @@ tr:hover td{background:var(--bg2);}
   <details id="dashboardSourceDetails"><summary>Source freshness and automation status</summary><div id="dashboardSources"></div></details>
 </div>
 
+<div id="tradingagents" class="section">
+  <div class="ph"><div class="ph-left"><h1>TRADING<span class="gold">AGENTS</span></h1><div class="ph-sub">Independent stock research · Bull and bear debate · Your final decision</div></div></div>
+  <div class="research-card"><h2>A second opinion on your holdings</h2>
+    <p>The TauricResearch engine runs market and fundamentals analysts, a bull/bear debate, and a risk review. These reports complement your long-term plan; a model rating alone does not determine how much to invest.</p>
+    <p>One holding is reviewed each Sunday at 09:45 IST, rotating through your portfolio. Manual requests use the same weekly allowance. Each attempt reserves $1 within the shared $8 monthly estimated AI budget.</p>
+    <a href="https://github.com/harshvm59/war-room/actions/workflows/tradingagents.yml" target="_blank" rel="noopener">Request a review ↗</a> · <a href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noopener">About the engine ↗</a>
+  </div>
+  <div id="tradingagentsStatus" class="research-card" role="status">Checking research availability…</div>
+  <label class="research-filter">Holding <select id="tradingagentsTicker"><option value="">All reviewed holdings</option></select></label>
+  <div id="tradingagentsReports"></div>
+</div>
+
 <!-- ═══ ROADMAP ═══ -->
-<div id="roadmap" class="section active">
+<div id="roadmap" class="section">
   <div class="ph">
-    <div class="ph-left"><h1>$100K <span class="gold">→</span> $1M</h1><div class="ph-sub">HVM™ Millionaire Dashboard · 10x roadmap · 3 stages · fix the weights first</div></div>
-    <div class="tag-row"><span class="tag tg">Target: 10x</span><span class="tag tgn">Current: $109.7K</span><span class="tag tb">5–7 yr horizon</span></div>
+    <div class="ph-left"><h1>$100K <span class="gold">→</span> $1M</h1><div class="ph-sub">Long-term wealth building · Regular investing · Occasional rebalancing</div></div>
+    <div class="tag-row"><span class="tag tg">Target: 10x</span><span class="tag tgn">Current: $109.7K</span><span class="tag tb">Illustrative planning</span></div>
   </div>
   <div class="prog-wrap">
     <div class="prog-head">
@@ -2207,28 +2214,14 @@ tr:hover td{background:var(--bg2);}
     <div class="prog-track"><div class="prog-fill" id="pbar"></div></div>
     <div class="prog-ms"><span class="prog-m done">$0</span><span class="prog-m done">$109.7K ← you</span><span class="prog-m">$250K</span><span class="prog-m">$500K</span><span class="prog-m">$1M</span></div>
   </div>
-  <div class="sl">3 stages</div>
-  <div class="stages">
-    <div class="stage now"><div class="stage-n">Stage 01 — You Are Here</div><div class="stage-r">$109.7K → $250K</div><div class="stage-t">+155% needed · 18–30 months</div><div class="stage-b"><strong style="color:var(--gold);">Now:</strong> Fix weights. Max conviction in MU, CEG, AVGO. Build energy + defense from zero. DCA $2K+/month. Don't sell NVDA or TSM.</div></div>
-    <div class="stage"><div class="stage-n">Stage 02</div><div class="stage-r">$250K → $500K</div><div class="stage-t">+100% needed · 18–24 months</div><div class="stage-b"><strong style="color:var(--text);">Rotate</strong> profits into defense (LMT, RTX), GLP-1 (LLY), physical AI (TER). Rebalance to target weights. Keep DCA.</div></div>
-    <div class="stage"><div class="stage-n">Stage 03</div><div class="stage-r">$500K → $1M</div><div class="stage-t">+100% needed · 24–36 months</div><div class="stage-b"><strong style="color:var(--text);">Compounding</strong> does the work. Hold winners. Don't churn. Stage 3 is where most investors self-destruct by getting impatient.</div></div>
+  <div class="research-card">
+    <h2>Build wealth at your own pace</h2>
+    <p>Regular contributions, a diversified portfolio, and occasional rebalancing. Keep cash when the evidence is insufficient.</p>
+    <label>Monthly contribution (USD) <input id="wealthContribution" type="number" min="0" max="100000" value="1000"></label>
+    <label>Illustrative annual return (%) <input id="wealthReturn" type="number" min="0" max="20" step="0.5" value="7"></label>
+    <p id="wealthProjection" role="status"></p>
+    <small>Scenario only, not a forecast. Excludes tax, fees, inflation and currency changes. Returns can be negative.</small>
   </div>
-  <div class="sl">Theme allocation — NOW vs $1M target</div>
-  <div class="tw"><table>
-    <thead><tr><th>Theme</th><th>Priority</th><th>Now %</th><th>Now $</th><th>$1M Target %</th><th>$1M Target $</th><th>Action</th><th>Key stocks</th></tr></thead>
-    <tbody>
-      <tr><td style="font-weight:600;">AI Compute & Semis</td><td><span class="pill p-hold" style="background:rgba(61,220,132,.07);">P1 — HOLD</span></td><td class="mono" style="color:var(--orange);">44%</td><td class="mono dim">$43K</td><td class="mono" style="color:var(--gold);">28%</td><td class="mono" style="color:var(--gold);">$280K</td><td><span class="pill p-hold">HOLD</span></td><td><span class="tkr">NVDA</span> <span class="tkr">TSM</span> <span class="tkr">MU↑</span> <span class="tkr">AVGO↑</span></td></tr>
-      <tr><td style="font-weight:600;">Energy & Nuclear</td><td><span class="pill p-urg" style="font-family:'Bebas Neue',sans-serif;font-size:11px;">P0 — CRITICAL</span></td><td class="mono" style="color:var(--red);">0.5%</td><td class="mono dim">$494</td><td class="mono" style="color:var(--gold);">16%</td><td class="mono" style="color:var(--gold);">$160K</td><td><span class="pill p-urg">BUILD NOW</span></td><td><span class="tkr">CEG↑↑</span> <span class="tkr">ETN</span> <span class="tkr">VST</span></td></tr>
-      <tr><td style="font-weight:600;">Defense & Security</td><td><span class="pill p-urg" style="font-family:'Bebas Neue',sans-serif;font-size:11px;">P0 — CRITICAL</span></td><td class="mono" style="color:var(--red);">0%</td><td class="mono dim">$0</td><td class="mono" style="color:var(--gold);">13%</td><td class="mono" style="color:var(--gold);">$130K</td><td><span class="pill p-urg">BUILD NOW</span></td><td><span class="tkr">LMT</span> <span class="tkr">RTX</span> <span class="tkr">PLTR↑</span></td></tr>
-      <tr><td style="font-weight:600;">AI Adopters (Big Tech)</td><td><span class="pill p-hold">P1 — HOLD</span></td><td class="mono" style="color:var(--green);">24%</td><td class="mono dim">$23K</td><td class="mono" style="color:var(--gold);">17%</td><td class="mono" style="color:var(--gold);">$170K</td><td><span class="pill p-hold">HOLD</span></td><td><span class="tkr">META</span> <span class="tkr">AMZN</span> <span class="tkr">GOOGL</span></td></tr>
-      <tr><td style="font-weight:600;">Agentic AI & SaaS</td><td><span class="pill p-add">P2 — ADD</span></td><td class="mono" style="color:var(--green);">6.2%</td><td class="mono dim">$6K</td><td class="mono" style="color:var(--gold);">10%</td><td class="mono" style="color:var(--gold);">$100K</td><td><span class="pill p-add">ADD</span></td><td><span class="tkr">PLTR</span> <span class="tkr">NOW</span></td></tr>
-      <tr><td style="font-weight:600;">Healthcare / GLP-1</td><td><span class="pill p-add">P2 — ADD</span></td><td class="mono" style="color:var(--red);">0%</td><td class="mono dim">$0</td><td class="mono" style="color:var(--gold);">8%</td><td class="mono" style="color:var(--gold);">$80K</td><td><span class="pill p-add">Stage 2</span></td><td><span class="tkr">LLY</span> <span class="tkr">VKTX</span></td></tr>
-      <tr><td style="font-weight:600;">Physical AI / Robotics</td><td><span class="pill p-watch">P2 — WATCH</span></td><td class="mono dim">~11%</td><td class="mono dim">$11K</td><td class="mono" style="color:var(--gold);">5%</td><td class="mono" style="color:var(--gold);">$50K</td><td><span class="pill p-trim">TRIM TSLA</span></td><td><span class="tkr">NVDA</span> <span class="tkr">TSLA</span></td></tr>
-      <tr><td style="font-weight:600;">Critical Minerals / Copper</td><td><span class="pill p-new">P3 — EXPLORE</span></td><td class="mono" style="color:var(--red);">0%</td><td class="mono dim">$0</td><td class="mono" style="color:var(--gold);">3%</td><td class="mono" style="color:var(--gold);">$30K</td><td><span class="pill p-new">Small bets</span></td><td><span class="tkr">FCX</span> <span class="tkr">CPER</span> <span class="tkr">MP</span></td></tr>
-      <tr><td style="font-weight:600;">Hidden Gems (FIX/EME/BE)</td><td><span class="pill p-new">P3 — LOTTERY</span></td><td class="mono" style="color:var(--red);">~0.1%</td><td class="mono dim">$101</td><td class="mono" style="color:var(--gold);">2%</td><td class="mono" style="color:var(--gold);">$20K</td><td><span class="pill p-new">Lottery</span></td><td><span class="tkr">BE</span> <span class="tkr">FIX</span> <span class="tkr">EME</span></td></tr>
-    </tbody>
-  </table></div>
-  <div class="alert alert-gold"><strong>P0 = fix immediately · P1 = hold and let compound · P2 = add during Stage 2 · P3 = small speculative position only.</strong> Your two P0 gaps (Energy 0.5% → 16%, Defense 0% → 13%) represent $268K of the $1M target you have zero exposure to right now. That is the single biggest thing to fix.</div>
 </div>
 
 <!-- ═══ MASTER PIVOT — ALL STOCKS · ALL ACTIONS · ONE VIEW ═══ -->
@@ -2283,7 +2276,7 @@ tr:hover td{background:var(--bg2);}
 </div>
 
 <!-- ═══ PORTFOLIO ═══ -->
-<div id="portfolio" class="section" data-live="true">
+<div id="portfolio" class="section active" data-live="true">
   <div class="ph"><div class="ph-left"><h1>MY <span class="gold">PORTFOLIO</span></h1><div class="ph-sub">HVM™ · 17 strategy holdings · 2 other linked assets · $109,730 · INDmoney auto-sync</div></div><div class="tag-row"><span class="tag tgn">+$39.2K unrealised</span><span class="tag tr">$1,641 wallet</span><span class="tag to">44% AI Compute</span></div></div>
 
 <!-- INDMONEY_SYNC_START -->
@@ -2327,46 +2320,7 @@ tr:hover td{background:var(--bg2);}
       <div class="mctx-item">Market <span class="mctx-v warn" style="margin-left:3px;">Loading...</span></div>
     </div>
   </div>
-  <div class="port-ta-header">
-    <div class="port-ta-title">📡 Live Portfolio Intelligence</div>
-    <div class="port-ta-body" id="portHealthText">Loading AI-powered portfolio assessment...</div>
-  </div>
-  <div class="kpi-row">
-    <div class="kpi"><div class="kpi-l">Value</div><div class="kpi-v">$109.7K</div></div>
-    <div class="kpi"><div class="kpi-l">Invested</div><div class="kpi-v">$57,616.9</div></div>
-    <div class="kpi"><div class="kpi-l">Gain</div><div class="kpi-v g">+$52,113.5</div></div>
-    <div class="kpi"><div class="kpi-l">Return</div><div class="kpi-v g">90.4%</div></div>
-    <div class="kpi"><div class="kpi-l">Best</div><div class="kpi-v gd">TSM</div><div class="kpi-s">Live INDmoney sync</div></div>
-    <div class="kpi"><div class="kpi-l">USD Wallet</div><div class="kpi-v gd">$540</div><div class="kpi-s">Included in total</div></div>
-  </div>
-  <div class="sl">Theme breakdown</div>
-  <div class="donut-wrap">
-    <div class="donut">
-      <svg width="190" height="190" viewBox="0 0 190 190">
-        <circle cx="95" cy="95" r="75" fill="none" stroke="#1e1e1e" stroke-width="26"/>
-        <circle cx="95" cy="95" r="75" fill="none" stroke="#4a9eff" stroke-width="26" stroke-dasharray="206 265" stroke-dashoffset="0"/>
-        <circle cx="95" cy="95" r="75" fill="none" stroke="#3ddc84" stroke-width="26" stroke-dasharray="113 358" stroke-dashoffset="-206"/>
-        <circle cx="95" cy="95" r="75" fill="none" stroke="#b388ff" stroke-width="26" stroke-dasharray="56 415" stroke-dashoffset="-319"/>
-        <circle cx="95" cy="95" r="75" fill="none" stroke="#c9a84c" stroke-width="26" stroke-dasharray="29 442" stroke-dashoffset="-375"/>
-        <circle cx="95" cy="95" r="75" fill="none" stroke="#e88340" stroke-width="26" stroke-dasharray="12 459" stroke-dashoffset="-404"/>
-        <circle cx="95" cy="95" r="75" fill="none" stroke="#e05252" stroke-width="26" stroke-dasharray="3 468" stroke-dashoffset="-416"/>
-        <circle cx="95" cy="95" r="75" fill="none" stroke="#2dd4bf" stroke-width="26" stroke-dasharray="2 469" stroke-dashoffset="-419"/>
-        <circle cx="95" cy="95" r="75" fill="none" stroke="#202020" stroke-width="26" stroke-dasharray="52 419" stroke-dashoffset="-421"/>
-      </svg>
-      <div class="donut-label"><div class="donut-v">17</div><div class="donut-s">positions</div></div>
-    </div>
-    <div class="legend">
-      <div class="leg-row"><div class="leg-dot" style="background:#4a9eff;"></div><div class="leg-name">AI Compute & Semis</div><div class="leg-pct" style="color:#4a9eff;">44%</div></div>
-      <div class="leg-row"><div class="leg-dot" style="background:#3ddc84;"></div><div class="leg-name">AI Adopters</div><div class="leg-pct" style="color:#3ddc84;">24%</div></div>
-      <div class="leg-row"><div class="leg-dot" style="background:#b388ff;"></div><div class="leg-name">Physical AI / TSLA</div><div class="leg-pct" style="color:#b388ff;">11.8%</div></div>
-      <div class="leg-row"><div class="leg-dot" style="background:#c9a84c;"></div><div class="leg-name">Agentic AI / PLTR</div><div class="leg-pct" style="color:#c9a84c;">6.2%</div></div>
-      <div class="leg-row"><div class="leg-dot" style="background:#e88340;"></div><div class="leg-name">Cybersecurity / CRWD</div><div class="leg-pct" style="color:#e88340;">2.6%</div></div>
-      <div class="leg-row"><div class="leg-dot" style="background:#e05252;"></div><div class="leg-name">Energy (CEG+BE)</div><div class="leg-pct" style="color:#e05252;">0.6%</div></div>
-      <div class="leg-row"><div class="leg-dot" style="background:#2dd4bf;"></div><div class="leg-name">Networking / ANET</div><div class="leg-pct" style="color:#2dd4bf;">0.4%</div></div>
-      <div class="leg-row"><div class="leg-dot" style="background:#202020;border:1px solid #333;"></div><div class="leg-name" style="color:var(--red);">Defense / Healthcare · P0</div><div class="leg-pct" style="color:var(--red);">0%</div></div>
-    </div>
-  </div>
-  <div class="sl">Click any stock → TA · Fundamentals · Action · DCA · 5 Investors</div>
+  <div class="sl">Stock details · Technical indicators · Published research</div>
   <div id="portStockTabs" style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:1.5rem;"></div>
   <div id="portStockPanels"></div>
 </div>
@@ -2905,21 +2859,6 @@ function buildPortPanels(){
           +'<div class="verdict-box '+vClass+'"><div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">'+vSig+'<span style="font-size:10px;color:#7a7672;">'+(ta.earns?'⚡ '+ta.earns:'No upcoming earnings')+'</span></div><div style="font-size:12px;color:#ede9e0;line-height:1.75;">'+(ta.action||dca.note||'Hold and monitor.')+'</div></div>'
         +'</div>'
       +'</div>'
-      +'<div style="font-family:DM Mono,monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#3a3835;margin:1.25rem 0 .75rem;display:flex;align-items:center;gap:8px;">DCA Module<span style="flex:1;height:1px;background:#202020;display:inline-block;"></span></div>'
-      +'<div style="background:#0f0f0f;border:1px solid #202020;border-radius:6px;padding:1.25rem;margin-bottom:1rem;">'
-        +'<div style="font-family:Bebas Neue,sans-serif;font-size:1.3rem;letter-spacing:.04em;color:#c9a84c;margin-bottom:.75rem;">📊 DCA Plan — '+s.t+'</div>'
-        +'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:6px;margin-bottom:.75rem;">'
-          +'<div style="background:#161616;border:1px solid #202020;border-radius:4px;padding:.7rem .8rem;"><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-bottom:.3rem;">Monthly DCA</div><div style="font-family:Bebas Neue,sans-serif;font-size:1.4rem;letter-spacing:.04em;color:#c9a84c;">$'+dca.mo.toLocaleString()+'</div></div>'
-          +'<div style="background:#161616;border:1px solid #202020;border-radius:4px;padding:.7rem .8rem;"><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-bottom:.3rem;">Bear Case</div><div style="font-family:Bebas Neue,sans-serif;font-size:1.4rem;letter-spacing:.04em;color:#e05252;">$'+dca.bear+'</div></div>'
-          +'<div style="background:#161616;border:1px solid #202020;border-radius:4px;padding:.7rem .8rem;"><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-bottom:.3rem;">Rule Target Upside</div><div style="font-family:Bebas Neue,sans-serif;font-size:1.4rem;letter-spacing:.04em;color:#c9a84c;">+'+upA+'%</div></div>'
-          +'<div style="background:#161616;border:1px solid #202020;border-radius:4px;padding:.7rem .8rem;"><div style="font-family:DM Mono,monospace;font-size:8px;color:#3a3835;margin-bottom:.3rem;">Bull Upside</div><div style="font-family:Bebas Neue,sans-serif;font-size:1.4rem;letter-spacing:.04em;color:#3ddc84;">+'+upB+'%</div></div>'
-        +'</div>'
-        +'<div style="overflow-x:auto;border:1px solid #202020;border-radius:4px;"><table style="width:100%;border-collapse:collapse;font-size:11px;"><thead><tr style="border-bottom:1px solid #2c2c2c;background:#0f0f0f;">'+['Period','Monthly','Total Added','New Units','Value (Analyst)','Value (Bull)','Return'].map(function(h){return '<th style="font-family:DM Mono,monospace;font-size:8px;letter-spacing:.1em;text-transform:uppercase;color:#3a3835;padding:7px 10px;text-align:left;white-space:nowrap;">'+h+'</th>';}).join('')+'</tr></thead><tbody>'+dcaRows+'</tbody></table></div>'
-        +'<div style="background:rgba(201,168,76,.05);border:1px solid rgba(201,168,76,.2);border-radius:4px;padding:.75rem .9rem;margin-top:.75rem;font-size:11px;color:#7a7672;line-height:1.7;">'+dca.note+'</div>'
-      +'</div>'
-      +'<div style="font-family:DM Mono,monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#3a3835;margin:1.25rem 0 .75rem;display:flex;align-items:center;gap:8px;">5 Legend Investors<span style="flex:1;height:1px;background:#202020;display:inline-block;"></span></div>'
-      +'<div id="ptabs-'+i+'" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:.75rem;">'+invTabsHtml+'</div>'
-      +invPanelsHtml
       +'</div>';
   }).join('');
 }
@@ -5275,6 +5214,7 @@ TODAY_ACTIONS_MAY5=[];
 Object.keys(TA).forEach(function(key){delete TA[key];});
 </script>
 <script src="data/cohort-planner.js"></script>
+<script src="data/tradingagents.js"></script>
 <!-- One coordinator reloads every published feed and its source status. -->
 <script defer src="data/bootstrap-v2.js?v=20260912-refresh"></script><!-- INDMONEY_RUNTIME_START -->
 <script>

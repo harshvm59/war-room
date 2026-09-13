@@ -129,3 +129,46 @@ Do not delete or reset `.github/ai-usage.json`: it stores reservation and usage 
 ## ⚡ Not Financial Advice
 
 All data is for educational purposes. Do your own research.
+
+## TradingAgents and focused navigation (2026-09-14)
+
+The main navigation now contains Portfolio, Wealth Plan, AI Themes and TradingAgents.
+Duplicate capital screens, entertainment/leader feeds and the simulated CEO office
+are retired from navigation. Their old markup is retained for compatibility with the
+local broker writer. The browser no longer polls their feeds. Duplicate account KPIs,
+static allocation chart, stock DCA projections and fictional investor opinions were
+removed from the visible portfolio. Technical action cards are collapsed by default.
+
+`tradingagents.yml` runs the actual TauricResearch/TradingAgents graph, pinned to
+`be952b8eccb49720509af544c6675233bc1f10d0` (Apache-2.0). The separately installed
+optional dependencies are constrained to the tested versions. No upstream code is
+copied into the public browser. The adapter publishes only selected report strings
+and a rating to `data/tradingagents.json`; the browser renders these as text.
+
+Budget mode selects market and fundamentals analysts, plus the upstream bull/bear
+research debate, trader proposal and risk committee. News/social analysts are omitted.
+Yahoo Finance is the configured data vendor; only a funded `OPENAI_API_KEY` is required.
+The graph receives a ticker and date, not account balances, credentials or trade access.
+Reports are single-stock research opinions and always `actionable: false`; they do not
+change portfolio allocation or execute orders. Source assertions remain subject to
+manual review. Reports older than eight days are explicitly stale.
+
+Schedule: Sunday 04:15 UTC / 09:45 IST. Each week rotates to one current holding;
+manual dispatch accepts a current holding ticker and shares the same weekly slot.
+This is NOT a daily full-portfolio review. The GitHub CAS ledger reserves a conservative
+$1 per attempt within the existing shared $8 estimated monthly guard. The entire
+allowance remains reserved even after success, rather than claiming exact provider
+billing. Failed/uncertain attempts also consume the weekly slot. The weekly check
+spans month boundaries, while costs are reserved in the actual current month. This
+may reduce the number of other paid daily runs available; free fallbacks continue.
+Set an OpenAI project billing cap separately to bound actual billing.
+
+Execution caps: 24 model calls, 64,000 UTF-8 prompt bytes per call, 3,000 output tokens
+per call, no SDK retries, 90-second per-request timeout and a 15-minute workflow timeout.
+All graph nodes share a pre-request callback guard. Missing keys, dependency errors,
+budget exhaustion or incomplete reports retain prior reports and publish a blocker.
+A completed workflow triggers the existing GitHub Pages publisher even on failure.
+
+Validation: base Python/Node regressions plus an optional-dependency CI job that compiles
+the real pinned graph and proves the budget exception prevents model transport. A
+funded-key end-to-end model run remains necessary before claiming successful research.

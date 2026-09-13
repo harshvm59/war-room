@@ -13,7 +13,7 @@ const coordinator=createCoordinator({
   render(){},busy(){},now(){return clock;}
 });
 await coordinator.refresh();
-assert.equal(applied.length,10,'every feed loads on a full refresh');
+assert.equal(applied.length,8,'every feed loads on a full refresh');
 assert.equal(coordinator.state.news.sourceAt,sourceDate);
 assert.equal(coordinator.state.news.checkedAt,clock);
 requests=[];clock='2026-09-12T06:00:00Z';
@@ -56,7 +56,7 @@ assert.match(bootstrap,/setInterval\([\s\S]*60000\)/);
 assert.match(bootstrap,/addEventListener\('focus'/);
 assert.match(bootstrap,/addEventListener\('visibilitychange'/);
 assert.match(bootstrap,/ARCHIVED \/ STALE FRAMEWORK/);
-console.log('Refresh regression tests passed: ten feeds, empty replacement, checked/source dates, failure recovery, concurrent checks, manual brief routing and single scheduler.');
+console.log('Refresh regression tests passed: eight focused feeds, empty replacement, checked/source dates, failure recovery, concurrent checks, manual brief routing and single scheduler.');
 // Every successful empty collection clears its corresponding previous packet.
 for(const [key,feed] of Object.entries(FEEDS))docs['data/'+feed.file+'.json']=key==='prices'?{updated_at:sourceDate,prices:{}}:key==='portfolio'?{holdings:[],meta:{broker_synced_at:sourceDate}}:{updated_at:sourceDate,items:[]};
 await coordinator.refresh();
@@ -97,3 +97,6 @@ assert.match(badge,/Q2 &lt;report&gt;/);
 assert.doesNotMatch(badge,/javascript:|position:fixed|<report>/);
 assert.match(badge,/REVIEW/);
 console.log('Framework citations render safely with reporting periods and neutral review status.');
+
+assert.ok(FEEDS.tradingagents);
+assert.ok(!FEEDS.agents && !FEEDS.voices && !FEEDS.youtube, 'removed sections no longer poll');

@@ -21,6 +21,7 @@ on:
       - 'Refresh all dashboard feeds'
       - 'Daily TA Analysis'
       - 'Agent Operations Heartbeat'
+      - 'TradingAgents research'
     types: [completed]
     branches: [main]
   workflow_dispatch:
