@@ -1,8 +1,8 @@
 {
   "feed": "themes",
   "status": "degraded",
-  "last_attempt_at": "2026-09-15T00:21:56.510256+05:30",
-  "last_success_at": "2026-09-15T00:22:00.471157+05:30",
+  "last_attempt_at": "2026-09-15T02:33:50.028433+05:30",
+  "last_success_at": "2026-09-15T02:33:53.075866+05:30",
   "error": {
     "code": "provider_key_missing",
     "message": "OPENAI_API_KEY is not configured; paid OpenAI research is unavailable."
@@ -11,5 +11,5 @@
   "outputs": [
     "themes.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/34883385528"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/34896605051"
 }
