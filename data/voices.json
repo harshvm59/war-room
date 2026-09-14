@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T14:41:45.948858+05:30",
+  "updated_at": "2026-09-15T00:20:32.934110+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,8 +8,8 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 08:12:28 GMT",
-      "source_name": "TradingKey",
+      "published": "Mon, 14 Sep 2026 15:47:03 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -18,33 +18,54 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Trump Opposes Slowing AI Development: Have Nvidia Demand Concerns Eased? Jensen Huang Has Yet to Publicly Respond - TradingKey",
+          "t": "Headline signal (not a direct quote): Jensen Huang's ‘TSMC of AI’ Sees What's Next - Taiwan Semiconductor (NYSE:TSM), NVIDIA (NASDAQ:NVDA) - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQWlVtMFZYWFUxSFFpcDc0TFc2NTdZaUV1Z2t2ajMtbVZKZHVGQ2V2aGRVT1FIWXdYTHYxVUFpU1Joa1Vaay1FV3gwQnJ4UWhWODRsWW9JM3Q2SVZBYjIweGppYlRRYXJIYXBFY3JIS2FNYmZhM0k4bHlVeGZYMzVhbjNFRnYtUG1oMTZQS3F6LWdoNGpka3BsMlFmbjRkbzY3cFpJdFp2Z1Zta0wwNk9GSVZQbTV6ZEg2eVFqc3lickowT24wejZGMEJCWG1MNm9QbWQ3cVVnSlRHc1hVSjVqZ0s0RzBXMHJTcU5aTkdicnZNYmFEMmc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYVAyYk1zWjJMa3VqWjZyRzdQVkpIRVNBa1dKZ2UzS043MlA5ZEdiNldjdmFjTkl1T3h4MlNQdUlHZGNIa2t6TkN4WDdoVnc5LWpub0Y0ZS11MnpKR1c0a3N6WE92U283YndMQ1BlUjR1YUd2YjVJSTVlQXFiQjFlXzRR?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-09-13",
-      "published": "Sun, 13 Sep 2026 15:08:28 GMT",
+      "date": "2026-09-14",
+      "published": "Mon, 14 Sep 2026 10:16:36 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 14,
       "themes": [
-        "#AI",
-        "#BE"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): IPO Delayed: Sam Altman Says an OpenAI Going Public in 2026 Would Be ‘Ill-Advised’ - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman on AI: 'We could lose control' - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVjJ1SFg4UWo3aVpUQXBVckd2WU8xMjhZNUdMb3VjT2xubkM4MGJCVUluR1kwa2E5dW5HZ2lkcENfRVRlcHNfdVFsTFQ4MmhYMlBOcER0R3lKbEJ2d0R2el9MUUVJX3RLVEN5SFlxUVphNHRhLTkyNW1vbk9sbTQ5UkNwZEFSU0dreFdTRjBqQmdsT19Tdk00?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb2RPZm8yNWFPclE5WVBzc2ZtT0M0bDJZNURQblpGeXdfRk1DS2lKcXB6WWhoMGlOaWlxQjhrYzlaZEpTREdlcElSTlNqd0h1U1pNTFdxSGJ1WkN3cmVtRzl0dnBqbmZycTh3eEVwaG51YXJRQUVCTXRBYXBZYlp5eVRiazI4RF9VOXhGYVRUTlVsYl9HeEFOUjdWdUR6bHJwazNiRDE0VEVrRktBX0E?oc=5"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-09-14",
+      "published": "Mon, 14 Sep 2026 09:39:07 GMT",
+      "source_name": "Tekedia",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#PLTR"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Oracle Earnings Signal a Turning Point for Software Stocks as Dan Ives Backs Adobe, Palantir and Snowflake - Tekedia",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPODU3YjBwR0loNmRIRUxYREFrOWZpbXNGZWdZbDZzSGFUQUMzeTJKTHByRTJHSmNpNHgtV2l4eWkzS1kwWksyYW9iMUVkZm03OE1DcnlBMW9NM2hPSzRrRHVGUXZkQXNWVzduaE15R3ZSSGVTeFIzOVJIRmV2VVduX3RaYTAwdWZxMGIybmZzN3NmemxyVkw5OVNVMFlQcWNXVlNSNEpVRXR2U21nZWl6Y3FYb1pZdElYSmxFWDZFdXU3OVBpUWFpaGNn?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -69,35 +90,13 @@
       "src": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxNMkwxdURlY0VtN0RncHdxMkF3OUNKZmRTdHZBTDdxaHJJa0NKNml2OXN1OTV1RjBVVks1YlJQZTlDTHJkZC1LTWl2UFFGd3RXN3FzV2s4WXBmZkVkaXVheDRleEwzakJLTmxlNUVEY0lVeFk4UjFiNGhUdFhsM0pHRk9XQ0VFeE5GUFY1Zm1QemlLYUVZZU1mbDBUVjJhbnlBdHZ3ZS1oSFFPYmt5X20yUnFaYXhaYno3V0RfUTh1aEFoX08wRUgtNVNmZmRmUXRUSlY2ZktyTDd2cG05X1JMdzl2TDl1dHplX3dBWXhRamNoWXRaUWtqdHFKYjVYU3BYMlRjdjMweTlObGNrc2VnSk1SRGFseExnZjl0YWFnd29EamxMSy1tSTNqSDhiNGwyanlMSzhHMFJPZmhCT01lRTJkclNRYk54bFk4dUpuY1lmTnZFUm00aUhybS1OR2pqVmtuQnlsdlnSAe4CQVVfeXFMTkRGampWRmdsRXJ1dUZUOEZGTE5nWlItTFlTei0wY0Rxc0hKamxESnBnOVA5ZDBfbkdDS3N1YVllZE5JMDI5T2h3RU4tX2NieXVyOHZWbHJ0VUp3cHc3Q3Y2YTZ0T2RjR3g0djZIb09VV2ZHWnFDcGIyNlVGQ1l6SmxZZzI5QXFSdkZodkRWcldnbkJwM3V1bUZlODVIYlFvZ3BlS3hIejllTHlaUjE4N3djMmtHRzd3akREeTJzUUVCMVNvMmk5Q2diTEdlN0pMYnRtRVRYaGMtSmpyN2pBZ2J2SzBUOElwbjlOdkMydXBwVEF6Y21iNVJhRmgtNHV4alJlWDhkTGgyXzRSa1BTdzZ3Mk1MZnREejcwdnFjc2NWeVQ4bnFOLUpFY3FtQ2M2ZTNjS0xnZFhXZHlDN0poYTZYak5kOGNMQS1QYnFXVHlSS0RSUWtWNXRWVUV6Vm9DQmZkY0xSYzdaeDNKU2lR?oc=5"
     },
     {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "AMD",
-      "cat": "CEO",
-      "date": "2026-09-13",
-      "published": "Sun, 13 Sep 2026 09:50:49 GMT",
-      "source_name": "stocktwits.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): AMD Stock Is Having Its Best Year In A Decade — And CEO Lisa Su Gets $36M Equity Reward To Match - stocktwits.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTGc3ZlZNOENNNjhrSjQyUjJ5SVdfVDRyUE9wUW5VRHFpb01UVktVSnAxZEdRbE5STjRPQV9rQTQ1aU1Ca2d4YUZOX0RCb2trWGY3dERJVXdfMm9DcVVmSkJGRVAxUmxpN0o1d3RkSDhSdFJFVTV1TjFhbkh5ZlNPWFk1OHlCUHlYazBHUnk4SWlYQ3JhWDgtTURERlA4N2V4cklpcEFkcHJCX0c1RXh4SE5pa3VxdzZCWG1HQmRBYUdocVRZV3ZyOFJHQWp5eWh2M3ZELTBQR0RWcmZjM0JHT3NMRk1NZ2NQWXF0SElabw?oc=5"
-    },
-    {
       "name": "Chamath Palihapitiya",
       "role": "Investor",
       "org": "Social Capital",
       "cat": "Investor",
-      "date": "2026-09-13",
-      "published": "Sun, 13 Sep 2026 16:44:00 GMT",
-      "source_name": "24/7 Wall St.",
+      "date": "2026-09-14",
+      "published": "Mon, 14 Sep 2026 02:57:00 GMT",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -105,11 +104,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya: Anthropic Employee's \"Human Extinction\" AI Warning Risks $2.3 Trillion IPO - 24/7 Wall St.",
+          "t": "Headline signal (not a direct quote): As Nike stock sees worst fall in its history, tech VC Chamath Palihapitiya on what went wrong with the Am - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYWhVR1QtSU9vbTFEMmZLTW8wcUIxU0FReTMwQWlZNzNicmpmMFJ5S3M2NDRyVzN2aEMyc2NMUzlFQy10dl9WVjFFdTdFVllCd2JpaXhUUmlMVkhNTktGLVV4NXpqbjlFVDFDYzBlM1R6b3NjV3VTNFI3NklFTFJNTGVkR2VOVlBENGNEX1BuM2tFTjk2RHhoSV9yUDVFbHV3N3pwYlNuaTRWSzVuWHBqb2ozbGpxNlBlMWpydmUzS2xSdjVDT1RyU2JoZ1hJQWM1?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQeXlhWVVrY0I1VGRCYVFvdFNZc1owUlpGR0IwSTJqSHVfeFlOc0RJejIzc1ltczY2M2NtYXlpSzZVS3hEcEVNOWRnbldwbnRuakNfbEh0TjViaXcxb0hwQzgxZVZXUENhRXE0bGpUaG9WSnVnNnNlS2w0Sy1vd0xWZmRINEwwanNHeVZ0MWNsbkMwTFBpYWwwTzNBU29kSjBINXFkVzhfdkVZemlUSVEzeC04dEJid0Z2NzJ5ZDBLdnBJX2ctNzVjY1VUOU9qTHUtelZJWElCNW5YNVFBZUN2LTZYZ2tSMmNaWDJUcTZXN18ybE0tLU14cV9ST3N3M29Tblota3BTTjhBeS1jclJkdWRSWTZPNDZfOVNkaW1hYXhCa19iLVJfemtKNDVvc0pIOXBiRzhnQi12Q0o4Zi1lVU5pX21NMlNwMXZ1NTdR0gHTAkFVX3lxTFBUT3ZBTUp1VWZsSm1UdFZRX2RUZUhfU2VJM3ZycEoxM0I0TkpUaHlfQ1BTSkNhMk1yOTFua1Ita2xmLXFZOWt0MVhWY09TaFZCbHZWam5NZEJuS3BjM1RRenlOSmFGVGdLZFI2aW5xbTktWWMySjZndmF0TTJMeW43b0V0RXdXVFJKN2Z2ZVdlVzNOUE5NdUpQczdrVndrSm1WSlkxNjdfZ0pFU09OZHo2cEpuLU9LU1U2MmtLN1RaWTFvX0F6M3BEbnVyWHF3STJwRWhUV05QeDFGVUpBc0NURENweFpyckFYblZreXgzUVg5ZW5ILUxsdHI1RW1nUmc2UW1QeHJ4Z0dnWUtmUWplVTYwY09SQnBmWlVJaGE4ak81OEN2dVdQNVRJMk9ZY1hoWXdiRVJ4UjlWTXh1MnF0N3UwWngybHRqYTFkOFU2eG5yQQ?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -117,65 +116,43 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-09-14",
-      "published": "Sun, 13 Sep 2026 19:44:11 GMT",
-      "source_name": "stocktwits.com",
+      "published": "Mon, 14 Sep 2026 17:29:49 GMT",
+      "source_name": "Teslarati",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): SpaceX IPO Filing Shows Elon Musk’s Company Holds More Bitcoin Than Tesla - stocktwits.com",
+          "t": "Headline signal (not a direct quote): Elon Musk’s companies made up with Apple but OpenAI still on the hook - Teslarati",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUXc2Z0JvZlNKOGNXWVZlMFFFUUpjUDBoa3dEWFg2N210WVlHZUV0aGZqX08yS1hNMlM2czIxaFBmbm10OUpIM29BcW9kY2dfRzl5TVJpTTRtZzc5Nml0Z2tVdGNRUnYtWGJxWnozejcyZmxrLUZGVXJSM1BFWTJ0SjlWZDZSTF9nSkZzeEJacXVzblBiZG8yYnFWanNtRDF0cjcxbjBKODd0Uzhua3JIWnk5VUtJa2NBZlFraFAtcjhlWF9SV3RQdWQ2S3FHaENDM1E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTEZ6amhUNXBlR0xHS0Nad1l6VzhWNlpmQmNZNUdCUkZvcGtCeGt1ME5SNmV3Z1hCbmpFRmJmNkQxWXUxb3FJNVZaTDNnWlNxaHA5QV8tbTFXNVJYaFNDUEd4enpZTE9oSjlWZDI4Mjd6ZmttQlhIWFcxQU5paUZndlNoVXVFaVBNYmE3azhwc2RZNS02TnF4RjlWZw?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-09-13",
-      "published": "Sun, 13 Sep 2026 16:28:00 GMT",
+      "date": "2026-09-14",
+      "published": "Mon, 14 Sep 2026 10:46:00 GMT",
       "source_name": "The Times of India",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#META"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Meta CEO Mark Zuckerberg ran a secret project to make the company 'AI native'; asked teams to study impac - The Times of India",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNLUkzY3FZeGUwZUNjSWdQYXhmcW1VN3pVaWtfaHZGenhQU294RFM3T2RZbmo0ZHdIRFZyMnlZTmhYa0RfTm9RcWt1U0NrcktvODE1WlpIYm9BYTR5Q1dNNDBUTE1ES1hUM3h5aHBlRXhod0FYNkZ0XzJYM0xvZUVfU05XQ0w1bEtma3pxd0ZaSjNGcVBFcUI0QjMyV0FSZk05OV9Fa2pVYkNQdnEzXzNTM0wzSWdXWWtJOTh4ZUJHOTJJUzJHdmVBbUt2ZkRtYk9xdHQ0NjJsdWxsWXFFMXlUa1V0UGdUdW9aaGpkWk5vOWVJZEhNNXgtZVBSV1FGVWRGWUtna1Bzd2xTb3hYa0t1NHp2aVNhdzctSlHSAZ8CQVVfeXFMT2FhWUdkMHFHR01pZldCMlRXVjk3eGt0azNWNXlwRFlRMTZyTTQxZF9ncnd3MDc2Z1l0czdPNnU5N2FKSGRZa3JiWjh1dWZjNGw3aFFYa3IxYWJlc1VibzMydFFObmFPc2FKRHZqYW82VVBHcTdpeGlORV9mN2IwWXVfWE5WTS00SVA5VVZBNGxuZ0M2TnIzOGg3LWpELVliVDRSR0ZwUkNEemdtNUZMMjdsVHJ4Yi0yeUhrVWw3clcxZldaVHU1Nk8tZmFmVDgzdXQ1cXBKd0g3S3Y4WF9YbS1BNWhVRWU1aGNSU0xwcDZkdkUwa1kwdDRIOUpZeUd6UWY2UDVNMUxYa0ZCbklFY09ySVNHdnpLTXRrRnpqeDQ?oc=5"
-    },
-    {
-      "name": "Sundar Pichai",
-      "role": "CEO",
-      "org": "Alphabet",
-      "cat": "CEO",
-      "date": "2026-09-13",
-      "published": "Sun, 13 Sep 2026 12:23:00 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 8,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai Says Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter. Is Google Cloud Becoming a Bigger Growth Driver Than Search? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): When Mark Zuckerberg told his top execs to 'learn' how Apple, Google and Snap are not doing right on soci - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLVpsZHhsTWNoMjZFcjlBV1dEamd0aEZiVVROdkkxaXhnZHhmRlNKakNRUFJvYWFtNWs5LUNNZ1EtUC1tZWI5cDRPT0RBcUNHLWFaUGlwNF9EZzVFYmFEeV80d0otY24xbjlSN29CejVXNFlUV1ZueUhPRGxwNDJnR3dWZ19KVmNEOVpQMVJfSFBIS19iYXJGMTdPZ2VuTWpE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNbmpyQVFFLUxsSVNpdmZHeVFDTmVCdmZ6eDk1U01DR0c4MkRKT2gycEpnSXFQVFdqY3V3c2trcjJKeTJXbXV1YzVTYVZwNi1SLXpqYnNaWnM3Si1pWExLLVhiS3BwamtidDdGQVg2QTJoNFpXZy1uakhhaUdXRkxwRHBpTHM0eUI0U2h2Z2w3WTB2dzFTdG5zcnlOV3BSOF84SUY0QVRIWE1jcmZKV3NjQjhxTGxyam1BSnRkTHZ0MWVCcDNIaTQyek0zT0l1VGVrN2RXVWhCcmpfZmdFVkx5WV9PdUNTaVdDeXJCWm5ocjFqZmRhWU5jbk5iU1JwcVhUSHlNRVRDaE5CNklEdHUtRnBOODh6TEJtbkttcXZ6WXJHNEFlMm5zcEZQX1hCTC1neE42bV9Ma3NVdlJBMHfSAcMCQVVfeXFMT3lfaFNGNF9ZOVlfZzA1aUJSTXZTWHJabjhBNWtLdE10VjlMcHF2SHBveXJxek94V18xaGo3ajR0OXhGWE1QcmlGMHJiZDJkaU9sbHpLNWNqRzdOZkVMQTN0Umt2MDJ1TDNlcHczblBwaTE2MUhEa0daMDM4VjVPVEpBbFhVbFlyU3N0dm9NUWlmMTFldVJpVm12b25FdUEwQ0JUbXZydENaYThwbFNtbDBjWWxmVVQ5Z0pNZDFrQjktWS1sR1lsQlBBMEtyMllOaDl3b250bXNEMWlkWE1kbnFtanlfWVFTVEJWZUl1TTdBenhYWkFVb1h0Und2dUt1NWpkTFF2aW43WDdjenN4LWpsZkRTVjZoclB3cnYxVUtBNFFvRXdlZTZfdU4wQzJYeElCc2xhb0hRUFhQUGZuQ2tTVkE?oc=5"
     },
     {
       "name": "Andy Jassy",
@@ -183,43 +160,21 @@
       "org": "Amazon",
       "cat": "CEO",
       "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 03:55:54 GMT",
-      "source_name": "International Business Times Australia",
+      "published": "Sun, 13 Sep 2026 20:28:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#AMZN"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Amazon Stock Trades at Rare Discount as Andy Jassy Bets $220 Billion on AWS to Fuel Next Trillion-Dollar Leg - International Business Times Australia",
+          "t": "Headline signal (not a direct quote): Jeff Bezos Built Amazon Into a $1.8 Trillion Company. Here's How Andy Jassy Is Making It Worth Even More. - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcE9wSzd0T1E3MkQ1SENtWlYyeHFhemhBRmxUb2s1NUdHMS1WTHE2YnhySDJJMi0tVExYUC1Hc0o3U3B4MG1kcjhhak4xZHlJaWhScHI5bkt6NDFrRnRMYkRKM3hpclc1UWw3QzhCb0tlZDFyUWdlenhOQnhmM2F1YnNn?oc=5"
-    },
-    {
-      "name": "Hock Tan",
-      "role": "CEO",
-      "org": "Broadcom",
-      "cat": "CEO",
-      "date": "2026-09-13",
-      "published": "Sun, 13 Sep 2026 14:00:00 GMT",
-      "source_name": "The Motley Fool",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#AVGO"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Broadcom CEO Hock Tan Says Demand Already Exceeds Broadcom's $115 Billion AI Forecast. Here's What That Means for the Stock. - The Motley Fool",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNWw0dUJjemtfc01fS0QydmhIV1lsRkd1Y3ZIczdWQTZqUU9ZbTUyZFJMQ25JNVZxWFlrOUFTbHZGTkNFWjhodVlaRU9oakwyZHd3VktuZlJWckZQQXpXVUtISkFGTmU2c1ZuOURsRldZMFozVHotdHRDZ2xHcDEyOW5acnEyYVVSazFRdlFIN21mSDlGTzhR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMTZJUFBoYzlZTkNCa2dyUW90S3VHS3ZBV29iOGYtdDgzRkF6R3luTzNFT1ZWNXBvWURXYVhfemtFRnZjc09ZTjVITFEwbTF5WC1UeEY3Vl9IMGpZdjhTLTk5S0ZPeUlVd0FhdFQ0X2JiMkx3LWY2RHEzOXhvcDBBRW43dVVEb3E5QVhjSG5TYlVyelZ6?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -227,20 +182,20 @@
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-09-14",
-      "published": "Sun, 13 Sep 2026 20:49:38 GMT",
-      "source_name": "TechCrunch",
+      "published": "Mon, 14 Sep 2026 17:04:00 GMT",
+      "source_name": "Barron's",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Larry Ellison cancels $7.5 billion sale of Oracle stock - TechCrunch",
+          "t": "Headline signal (not a direct quote): Oracle Stock Drops on Surprising Larry Ellison Announcement - Barron's",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTWpZdk1qdEFpV2dZTmhXRGQ3cDZDY2NKUlFxUkMxRm5fYXhlX016OTBtWTRZcjhoZUdLWGZYTlJpTjZXX0IyX2phVjdLdnB2MGcxSGJfazFIVU1nRk41NHpraUpmYWE1UDhmWGtvZ3B5N3BjWTFicEZTWms3OXN1RW9kblppY1VtZ0k4VmgzVDRKRWc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BeG05UFN2bUVRdG5CdV9MWmYxN2x2c2MwQ084clktUE9fXzAxQXh1dUdKOUZ5SXJHV0VmNldRZ05SdjdobU8wZU5Sb3BiU2xqOHdYRTU1blR6Q2dXNUNueURVYmxFTXZxbnVXbGRXbnhwbUhqUzAw?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -248,20 +203,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 07:30:15 GMT",
-      "source_name": "Moomoo",
+      "published": "Mon, 14 Sep 2026 11:10:30 GMT",
+      "source_name": "Seeking Alpha",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 17,
       "themes": [
-        "#AI"
+        "#AI",
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood's investment moves on September 11! Increased holdings in Intellia, while reducing positions in biotech and AI-related stocks, led by BLSH - Moomoo",
+          "t": "Headline signal (not a direct quote): Cathie Wood's Ark weekly recap: buys Meta, gene-editing stocks while cutting Alphabet (ARKK:BATS) - Seeking Alpha",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNendNcDZrWWJkWkFRVUU2QXEwb19oeGptVE5MajRmRDY0cS1CcEZTQWJUREwzTC1hcXZCTWdXczJpcWlIQm9tcXNOMldhbTRqXzBUY1pFenJYSFFKN0ZiREc0dHdOOVBQTVhFREVib0JvdHU1SmRlRGtPYUdiTkVXQ2p6aVYzODc3dGF3THRFUzdTSXRIcGN4cHNwUVdoZGlrWGx0OXdMcHhSTE9IMnFTQVlkWkNSZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZFRRYVNZZHo3YXRZMmRYNnVya1FJVHozMkpOUk81V3RKekNhYlM3TlZweGhtNDlHSzVKa1VQVFVmZnhYNHJ5UVN1VTU3M2VJd251UE5VNUE2RnV5RmZlOVcyNEVQU2t4U0czTHdqRC1iTW1RcUZyd2I2bzhmeGpSeVk0MWxTTzVubTFkMEtyS3lJSTd3V19HRGRxZEhTRVFFcmQ0Z3lyNG5xYVZmS2lYZktHUXRTQQ?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -269,26 +225,25 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 06:57:00 GMT",
-      "source_name": "BeInCrypto",
+      "published": "Mon, 14 Sep 2026 16:11:22 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
-        "#AI",
-        "#CRWD"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Calls CrowdStrike a ‘MUST BUY' Over CEO's AI Security Post - BeInCrypto",
+          "t": "Headline signal (not a direct quote): Jim Cramer on why 'sitting on your hands' is worth it in this oversold market - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9JeHgxaUI0YURES3pnSGlmdGlaM1ZDYlNDa2ROaVh5UHNmNWFWdlVHemM0V3hacVVJRjFqOHZzTWlhb1FxSGkyZmRWTG9pcXJCYnF4bm9vaHN2Zm04Zko1LV9PN2M4QnFwb0gxQ09B?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZVFXSTdwNTJod0pvbklTeHBVRU1UczU2ZjI2ZF9mUVk5eDlXZFVDXy12Vjk5SDBRcHJrdk1JdGZ3a3Y3WDZlZGZJRG5lUnYwOFFzOF9EWGFRWnJZSGdBWWN1R0hFTHdQTWE1SHJ2TkZna1lPcF9UcGJoU2JqVXB1Yy05MDJHQlBSOUw3RjMzajhBcTNob1pXVUtVWjkxcnhvTjZLblpkemlLNnBZNzFWaGhn?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 13,
+  "fresh_signal_count": 11,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
     "code": "provider_key_missing",
