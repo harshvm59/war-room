@@ -1,11 +1,11 @@
 {
   "feed": "news",
-  "status": "degraded",
-  "last_attempt_at": "2026-09-15T02:31:52.620450+05:30",
+  "status": "failed",
+  "last_attempt_at": "2026-09-15T07:31:30.537104+05:30",
   "last_success_at": "2026-09-15T02:31:54.416325+05:30",
   "error": {
-    "code": "provider_key_missing",
-    "message": "OPENAI_API_KEY is not configured; paid OpenAI research is unavailable."
+    "code": "refresh_failed",
+    "message": "Refresh failed (HTTPError). See the linked workflow logs."
   },
   "source": "google-news-rss-fallback; google-news-rss-fallback+30-leader-monitor",
   "outputs": [
@@ -13,5 +13,5 @@
     "youtube.json",
     "voices.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/34896412118"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/34919555177"
 }
