@@ -220,10 +220,20 @@
           "reserved_at": "2026-09-15T08:04:01.646483+05:30",
           "status": "reserved",
           "usage": null
+        },
+        "2026-09-15:tradingagents_TSM": {
+          "billing_status": "provisional_estimate",
+          "error_code": null,
+          "estimated_usd": 0.25,
+          "id": "9b233483a2484539ae527a7103142783",
+          "model": "gpt-5.6-luna",
+          "reserved_at": "2026-09-15T08:04:01.646483+05:30",
+          "status": "reserved",
+          "usage": null
         }
       },
-      "estimated_usd": 5.05047606,
-      "unreconciled_attempts": 17,
+      "estimated_usd": 5.30047606,
+      "unreconciled_attempts": 18,
       "usage_totals": {
         "cached_input_tokens": 4323,
         "input_tokens": 39163,
