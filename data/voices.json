@@ -1,52 +1,49 @@
 {
-  "updated_at": "2026-09-15T07:39:49.046964+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-09-15T14:23:54.360245+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
+    {
+      "name": "Jensen Huang",
+      "role": "CEO",
+      "org": "Nvidia",
+      "cat": "CEO",
+      "date": "2026-09-15",
+      "published": "Tue, 15 Sep 2026 02:15:00 GMT",
+      "source_name": "Fox Business",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Trump calls Nvidia CEO Jensen Huang during summit, dismisses AI fears as 'hoax' - Fox Business",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVkU4djhYWHladGZiY0N6amVYeHA5RmVsTTJ2NFZoRThpaUhaMjhXTElKQUVoMzlZTUtxYXRnLV80Zmp3NlNvNVB5TngtUmdveS1tVjVLZ2phblF5d050RnFnQWdhdmVBTWt2VlJ2N0Y5V05qN2Q1elJQdTgzMDNmUzNXNkhza3hHaUtySWwxb25raDBsTXc4dWg5NkpnTGtXQlg5eDZMOXhLenVGbzM5ekJ30gG3AUFVX3lxTE1WN2tTRGx1Tnp3N0xULUdhUFBmUTJIUjA0cEJ1a1ROd09GTU1hdExMeXg4a1NTU2pFZDdpeC1ucS1HYkphRFlhWjR1aUhyel9QWTRsVDU4UXhUb3BwOExkLUVMUnlNNXdwb2M5dUVxbUZLbllqVjdDQXRnQjRUTEk2WVZrc1JHWG9oRDR1QWo4X0dnQTZGZWFtSFd2TC1SYkJ3MlN0LVBKT3NJTkZQZm9KR1U3R01XZw?oc=5"
+    },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
-      "cat": "AI safety and investment risk",
+      "cat": "CEO",
       "date": "2026-09-14",
-      "published": "2026-09-14T05:40:00-04:00",
+      "published": "Mon, 14 Sep 2026 10:16:36 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 14,
       "themes": [
-        "AI development pace",
-        "AI safety",
-        "IPO timing"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Source-linked summary (not a direct quote): Altman said OpenAI’s IPO would be ill-timed amid current safety concerns and is not expected until 2027.",
-          "k": true
-        },
-        {
-          "t": "Source-linked summary (not a direct quote): He indicated he would support pausing or stopping development if necessary to avoid unacceptable risks.",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman on AI: 'We could lose control' - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://fortune.com/2026/09/14/openai-ceo-sam-altman-fortune-interview-alyson-shontell/",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Jensen Huang",
-      "role": "CEO",
-      "org": "NVIDIA",
-      "cat": "AI policy and semiconductor sentiment",
-      "date": "2026-09-15",
-      "published": "2026-09-14T20:52:29-04:00",
-      "themes": [
-        "AI regulation",
-        "AI investment cycle",
-        "semiconductor sentiment"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Huang joined President Trump in rejecting arguments that the AI industry should broadly slow its development, a stance relevant to continued AI infrastructure investment.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/2026/09/14/trump-jensen-huang-nvidia-ai-all-in-summit",
-      "signal_type": "source-linked signal"
+      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb2RPZm8yNWFPclE5WVBzc2ZtT0M0bDJZNURQblpGeXdfRk1DS2lKcXB6WWhoMGlOaWlxQjhrYzlaZEpTREdlcElSTlNqd0h1U1pNTFdxSGJ1WkN3cmVtRzl0dnBqbmZycTh3eEVwaG51YXJRQUVCTXRBYXBZYlp5eVRiazI4RF9VOXhGYVRUTlVsYl9HeEFOUjdWdUR6bHJwazNiRDE0VEVrRktBX0E?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -115,47 +112,25 @@
       "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNa0hlQkpzaENGYmJwejZNbUdtTl9TS0p3cmlYRDJ6ZmdoV2x5X3lzSlFlWjVRRjN3THJSSjFkMnNnRWFKNnBWVGRDcXh6d2tOY2ctVHg0d1JsTS1zRlA1aTZqRVA4b21jU3pvYUJTNGZ0MkxBTVFfbXZaSGQtS0JpNkM5ZTJ6UmdFd2RJT1BWQnBpdDlxZzYxNmxqbmxNRFFBWll0azZSV0gyeGNEd0xhY2xXdlN4RjJYeGRRY2J1R2llT1A4TFlmTWFGSjFUWFgw?oc=5"
     },
     {
-      "name": "Chamath Palihapitiya",
-      "role": "Investor",
-      "org": "Social Capital",
-      "cat": "Investor",
-      "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 02:57:00 GMT",
-      "source_name": "The Times of India",
+      "name": "Elon Musk",
+      "role": "CEO",
+      "org": "Tesla / xAI / SpaceX",
+      "cat": "CEO",
+      "date": "2026-09-15",
+      "published": "Mon, 14 Sep 2026 20:17:32 GMT",
+      "source_name": "Al Jazeera",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): As Nike stock sees worst fall in its history, tech VC Chamath Palihapitiya on what went wrong with the Am - The Times of India",
+          "t": "Headline signal (not a direct quote): Elon Musk’s X Corp and SpaceXAI drop antitrust lawsuit against Apple - Al Jazeera",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQeXlhWVVrY0I1VGRCYVFvdFNZc1owUlpGR0IwSTJqSHVfeFlOc0RJejIzc1ltczY2M2NtYXlpSzZVS3hEcEVNOWRnbldwbnRuakNfbEh0TjViaXcxb0hwQzgxZVZXUENhRXE0bGpUaG9WSnVnNnNlS2w0Sy1vd0xWZmRINEwwanNHeVZ0MWNsbkMwTFBpYWwwTzNBU29kSjBINXFkVzhfdkVZemlUSVEzeC04dEJid0Z2NzJ5ZDBLdnBJX2ctNzVjY1VUOU9qTHUtelZJWElCNW5YNVFBZUN2LTZYZ2tSMmNaWDJUcTZXN18ybE0tLU14cV9ST3N3M29Tblota3BTTjhBeS1jclJkdWRSWTZPNDZfOVNkaW1hYXhCa19iLVJfemtKNDVvc0pIOXBiRzhnQi12Q0o4Zi1lVU5pX21NMlNwMXZ1NTdR0gHTAkFVX3lxTFBUT3ZBTUp1VWZsSm1UdFZRX2RUZUhfU2VJM3ZycEoxM0I0TkpUaHlfQ1BTSkNhMk1yOTFua1Ita2xmLXFZOWt0MVhWY09TaFZCbHZWam5NZEJuS3BjM1RRenlOSmFGVGdLZFI2aW5xbTktWWMySjZndmF0TTJMeW43b0V0RXdXVFJKN2Z2ZVdlVzNOUE5NdUpQczdrVndrSm1WSlkxNjdfZ0pFU09OZHo2cEpuLU9LU1U2MmtLN1RaWTFvX0F6M3BEbnVyWHF3STJwRWhUV05QeDFGVUpBc0NURENweFpyckFYblZreXgzUVg5ZW5ILUxsdHI1RW1nUmc2UW1QeHJ4Z0dnWUtmUWplVTYwY09SQnBmWlVJaGE4ak81OEN2dVdQNVRJMk9ZY1hoWXdiRVJ4UjlWTXh1MnF0N3UwWngybHRqYTFkOFU2eG5yQQ?oc=5"
-    },
-    {
-      "name": "Elon Musk",
-      "role": "CEO",
-      "org": "Tesla / xAI / SpaceX",
-      "cat": "CEO",
-      "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 17:29:49 GMT",
-      "source_name": "Teslarati",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#TSLA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Elon Musk’s companies made up with Apple but OpenAI still on the hook - Teslarati",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTEZ6amhUNXBlR0xHS0Nad1l6VzhWNlpmQmNZNUdCUkZvcGtCeGt1ME5SNmV3Z1hCbmpFRmJmNkQxWXUxb3FJNVZaTDNnWlNxaHA5QV8tbTFXNVJYaFNDUEd4enpZTE9oSjlWZDI4Mjd6ZmttQlhIWFcxQU5paUZndlNoVXVFaVBNYmE3azhwc2RZNS02TnF4RjlWZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdFQ5WkNVYzQxQ1pvdzNfUHFFdjc1RktURGtvdWhELTNIMlcyWHd0WjJ4WnpKVHRQTXJ2Z01rTFpfMnN4eU54dTJlMjdsME9PWkxScHJob3ByazJscVpDeDU0V0xPcFBZTFFQem1NWnpPSS1BeENBeGJlUHJlTHg1eGRoRFFCaTUtSXR2TTlWQVJMSWFqNmx5WjY1ZUJGbVFPQzVYZzVLQVpjb0JS0gGyAUFVX3lxTE5ZbUVzNUd5bjFoNVlXZGdRNkhkRUNfbDVQeFlsaFU3aExFN2lDUHozeU1NNWo4TGk3QlpadW5nZjVLb01xemdWaFVGX21RX1l4MkFWUy1hdHFoT2xrLWtHQzZQYjRiRkJic0JOTFlvWVpPdnRYZnBiV0hwYUM1bU14RGRiVGlFU0JWbzZJUGo0cjBDTEtIcHlmbWlvTWdQYUQydnQ0bEYxV0dQX21tb1l2dUE?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -186,7 +161,7 @@
       "cat": "CEO",
       "date": "2026-09-15",
       "published": "Mon, 14 Sep 2026 23:33:02 GMT",
-      "source_name": "cnbc.com",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -195,7 +170,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Generative AI will create huge value to enterprises and people, says Broadcom CEO Hock Tan - cnbc.com",
+          "t": "Headline signal (not a direct quote): Generative AI will create huge value to enterprises and people, says Broadcom CEO Hock Tan - CNBC",
           "k": true
         }
       ],
@@ -227,22 +202,21 @@
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 11:10:30 GMT",
-      "source_name": "Seeking Alpha",
+      "date": "2026-09-15",
+      "published": "Tue, 15 Sep 2026 02:49:21 GMT",
+      "source_name": "TradingKey",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#META"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood's Ark weekly recap: buys Meta, gene-editing stocks while cutting Alphabet (ARKK:BATS) - Seeking Alpha",
+          "t": "Headline signal (not a direct quote): Cathie Wood Bearish on 'Clarity Act'? Ark Invest Dumps Over $60 Million in Crypto Stocks Ahead of Vote - TradingKey",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZFRRYVNZZHo3YXRZMmRYNnVya1FJVHozMkpOUk81V3RKekNhYlM3TlZweGhtNDlHSzVKa1VQVFVmZnhYNHJ5UVN1VTU3M2VJd251UE5VNUE2RnV5RmZlOVcyNEVQU2t4U0czTHdqRC1iTW1RcUZyd2I2bzhmeGpSeVk0MWxTTzVubTFkMEtyS3lJSTd3V19HRGRxZEhTRVFFcmQ0Z3lyNG5xYVZmS2lYZktHUXRTQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRXR2by1rdDc1RWw5YmdxbVRXZTRKVm1zN2dNZ1ZDZmxtWE9QQW93XzJRaGlxNWZEWkNMaEJMb2h4d2ZNcnNidFh6aFZWZHRoR04wcFJET19nSmVVVTBaUUdocjZRWXB5YjQzTnhENll6bEEwOUJSVUNxRFVMTjBjNmZYbkFCeWItNnpIcG03VFRyM3JJV0hQSVk1ekRXX3VsTjFlRzVtbjMtQWJOWVEyQW1QbjZCVFB4Y0NSWjVscmtIbjNnUGJ2VUhzN2dUeVFXRDFV?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -251,7 +225,7 @@
       "cat": "Analyst",
       "date": "2026-09-15",
       "published": "Mon, 14 Sep 2026 22:41:46 GMT",
-      "source_name": "cnbc.com",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -259,16 +233,40 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer explains why the stock market avoided a dramatic sell-off on AI concerns - cnbc.com",
+          "t": "Headline signal (not a direct quote): Jim Cramer explains why the stock market avoided a dramatic sell-off on AI concerns - CNBC",
           "k": true
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16b0JKeFpQZml2ZmRyYk1PUU9KOGt5dXZLTk9CbFhPNjl6em5FUmJ3X3ZLakQtR2lMNzBsNmNXV0JHR2FyUExPUXpCX2sxbGV3cWNmM0lHY3hDczFsM2RnbW0wUTZJNmtPdnNuQTZJS2FKVFVxS0tZcE02VkRwZnfSAYQBQVVfeXFMUGVSelk5S3JmTlNIM1ZVdk15SElJa08zVHdyMmRkNGh3MHZWbzA2TFRpYnVxZ1VLTjd2REZNZmpqaGxzektObXVocWFHemZQNEwwV291MEc5SDI4SW9SR2JzM0xkOXU1THZvRVRWSG4xaXpUZXR4WDB2MVdRMFFlU0VDcllM?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-09-15",
+      "published": "Tue, 15 Sep 2026 06:55:18 GMT",
+      "source_name": "Benzinga",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Gene Munster Says Longer iPhone 18 Wait Times Signal Strong Demand - Apple (NASDAQ:AAPL) - Benzinga",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZFUybUtoWGJJdlFFZlp3NElBaXVrSlRRc2pmYUR6VTkxQ1V6eExHOThkemZ2aHJLcUhwNXJjUTg1WGtWMmFCWEJ4RFRvUXFoVkhtNDZDVXFrOE5kZm5VNGd4dlItVElfR21QamhEb1VFelE3amZHc0VOM3c2Sm9lcXQzNkpFdXpYVll0UkdzMElVdl90SnJ5VVdUVExHbUFnRTQ0cg?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
   "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
