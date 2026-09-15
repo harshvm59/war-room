@@ -183,13 +183,14 @@
           "usage": null
         },
         "2026-09-15:tradingagents_NVDA": {
-          "billing_status": "provisional_estimate",
-          "error_code": null,
+          "billing_status": "unknown_charge_provisional_hold",
+          "error_code": "conservative_run_allowance",
           "estimated_usd": 0.25,
+          "finished_at": "2026-09-15T08:12:50.794543+05:30",
           "id": "9596407dbeb34e55a1615dd4c96188a3",
           "model": "gpt-5.6-luna",
           "reserved_at": "2026-09-15T08:04:01.646483+05:30",
-          "status": "reserved",
+          "status": "uncertain",
           "usage": null
         },
         "2026-09-15:tradingagents_PLTR": {
