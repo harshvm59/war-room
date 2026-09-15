@@ -8,9 +8,10 @@
   function stale(item){var t=Date.parse(item.updated_at);return !Number.isFinite(t)||Date.now()-t>8*86400000||t>Date.now()+300000;}
   root.renderTradingAgents=function(data){
     packet=data;var status=document.getElementById('tradingagentsStatus'),select=document.getElementById('tradingagentsTicker');if(!status||!select)return;
-    status.replaceChildren(node('div',data.status==='ready'?'Research available':'Research blocked','research-status'));
+    status.replaceChildren(node('div',data.status==='ready'?'Research available':data.status==='partial'?'Research partly complete':data.status==='running'?'Research in progress':'Research blocked','research-status'));
     status.append(node('p',data.error&&data.error.message||'Reports are research opinions. Retain cash / no action until you have reviewed the evidence and portfolio fit.'));
     status.append(node('p','Last attempt: '+date(data.last_attempt_at)+' · Last completed: '+date(data.updated_at),'research-note'));
+    if(data.coverage){status.append(node('p',data.coverage.completed_today+' of '+data.coverage.total+' holdings reviewed today.'));Object.keys(data.coverage.failed||{}).forEach(function(t){status.append(node('p',t+': '+data.coverage.failed[t].message));});if(data.coverage.pending.length)status.append(node('p','Awaiting review: '+data.coverage.pending.join(', ')));}
     var selected=select.value;select.replaceChildren(node('option','All reviewed holdings'));select.options[0].value='';
     (data.items||[]).forEach(function(item){var option=node('option',item.ticker);option.value=item.ticker;select.append(option);});
     select.value=selected;draw();
@@ -19,7 +20,7 @@
     var target=document.getElementById('tradingagentsReports'),select=document.getElementById('tradingagentsTicker');if(!packet||!target)return;target.replaceChildren();
     var rows=(packet.items||[]).filter(function(item){return !select.value||item.ticker===select.value;});
     if(!rows.length){target.append(node('div','No completed TradingAgents reports yet. Once the API key and billing are configured, the next permitted run will generate a real report.','research-card'));return;}
-    rows.forEach(function(item){var card=node('article',undefined,'research-card');var limited=stale(item)||packet.status!=='ready';card.append(node('h2',item.ticker+' · '+(limited?'Previous research — review required':item.rating+' · research opinion')));card.append(node('p',date(item.updated_at)+(stale(item)?' · STALE':''),'research-note'));card.append(node('p',item.limitation||'Manual review required.'));
+    rows.forEach(function(item){var card=node('article',undefined,'research-card');var limited=stale(item);card.append(node('h2',item.ticker+' · '+(limited?'Previous research — review required':item.rating+' · research opinion')));card.append(node('p',date(item.updated_at)+(stale(item)?' · STALE':''),'research-note'));card.append(node('p',item.limitation||'Manual review required.'));
       Object.keys(labels).forEach(function(key){var text=item.reports&&item.reports[key];if(!text)return;var detail=node('details');detail.append(node('summary',labels[key]));detail.append(node('pre',text,'research-report-text'));card.append(detail);});target.append(card);});
   }
   function projection(){

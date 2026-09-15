@@ -84,7 +84,7 @@ def _validate_ledger(doc):
             raise _guard_error()
         total = 0.0
         for key, attempt in section["attempts"].items():
-            if (not re.fullmatch(re.escape(month) + r"-\d{2}:(news|themes|framework|tradingagents)", key)
+            if (not re.fullmatch(re.escape(month) + r"-\d{2}:(news|themes|framework|tradingagents|tradingagents_[A-Z][A-Z0-9.]{0,9})", key)
                     or not isinstance(attempt, dict) or not isinstance(attempt.get("id"), str)
                     or not attempt["id"] or attempt.get("status") not in {"reserved", "completed", "failed", "uncertain"}
                     or not _nonnegative_number(attempt.get("estimated_usd"))):

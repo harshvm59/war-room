@@ -5,6 +5,11 @@ on:
     - cron: '15 4 * * 0'
   workflow_dispatch:
     inputs:
+      all_holdings:
+        description: 'Review all current holdings today (reuses completed reports; $0.25 per new stock hold)'
+        required: false
+        type: boolean
+        default: false
       ticker:
         description: 'Current holding ticker (blank rotates automatically); one attempt per IST week'
         required: false
@@ -17,7 +22,7 @@ concurrency:
 jobs:
   research:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -37,8 +42,14 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GITHUB_TOKEN: ${{ github.token }}
+          HVM_ALL: ${{ inputs.all_holdings }}
           HVM_TICKER: ${{ inputs.ticker }}
-        run: python scripts/tradingagents_runner.py --ticker "$HVM_TICKER"
+        run: |
+          if [ "$HVM_ALL" = "true" ]; then
+            python -u scripts/tradingagents_runner.py --all
+          else
+            python scripts/tradingagents_runner.py --ticker "$HVM_TICKER"
+          fi
       - name: Publish research or blocker
         if: always() && steps.research.outcome != 'skipped'
         run: |

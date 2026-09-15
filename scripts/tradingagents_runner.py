@@ -41,7 +41,7 @@ def public_report(state, signal, ticker, stamp):
             'limitation': 'Single-stock research, not a portfolio allocation decision. Check source dates and account freshness; retain cash until you approve any change.'}
 
 
-def run_graph(ticker, stamp):
+def run_graph(ticker, stamp, budget=1.0):
     from langchain_core.callbacks import BaseCallbackHandler
     from tradingagents.default_config import DEFAULT_CONFIG
     from tradingagents.graph.trading_graph import TradingAgentsGraph
@@ -50,12 +50,31 @@ def run_graph(ticker, stamp):
         raise_error = True
         run_inline = True
         calls = 0
+        spent = 0.0
+        pending = {}
         def on_chat_model_start(self, serialized, messages, **kwargs):
             # Runs before every LLM request, including structured-output agents.
             size = len(str(messages).encode('utf-8'))
-            if self.calls >= 24 or size > 64000:
+            params_size = len(str(kwargs.get('invocation_params', {})).encode('utf-8'))
+            if self.calls >= 24 or size > 64000 or size + params_size > 80000 or self.spent + 0.05 > budget:
                 raise ResearchUnavailable('run_budget_limit', 'TradingAgents reached its per-run request/context limit; no new assessment was published.')
             self.calls += 1
+            # Conservative hold: <=80k input bytes/tokens plus <=3k output tokens,
+            # priced above this model's rates ($0.50/$1.80 per million).
+            self.spent += 0.05
+            self.pending[kwargs.get('run_id')] = True
+
+        def on_llm_end(self, response, **kwargs):
+            run_id = kwargs.get('run_id')
+            try:
+                usage = response.generations[0][0].message.usage_metadata
+                inp, out = usage['input_tokens'], usage['output_tokens']
+                if not all(isinstance(n, int) and n >= 0 for n in (inp, out)):
+                    return
+                if self.pending.pop(run_id, False):
+                    self.spent += max(0.0, (inp * 0.50 + out * 1.80) / 1000000) - 0.05
+            except (AttributeError, KeyError, TypeError, IndexError):
+                pass  # Missing usage retains the entire request hold.
 
     guard = Guard()
     with tempfile.TemporaryDirectory(prefix='hvm-research-') as tmp:
@@ -80,7 +99,11 @@ def run_graph(ticker, stamp):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--ticker', default='')
+    parser.add_argument('--all', action='store_true', help='Explicit one-off review of all current holdings')
     args = parser.parse_args()
+    if args.all:
+        from tradingagents_batch import run_batch
+        return run_batch()
     stamp = datetime.now(IST)
     path = ROOT / 'data/tradingagents.json'
     previous = json.loads(path.read_text()) if path.exists() else {'items': [], 'updated_at': None}
@@ -105,7 +128,7 @@ def main():
                 state, signal = run_graph(ticker, stamp)
             report = public_report(state, signal, ticker, datetime.now(IST))
             items = [i for i in previous.get('items', []) if i.get('ticker') != ticker]
-            packet.update(items=[report] + items[:16], updated_at=report['updated_at'], status='ready', error=None)
+            packet.update(items=[report] + items[:18], updated_at=report['updated_at'], status='ready', error=None)
         except Exception:
             raise ResearchUnavailable('research_failed', 'TradingAgents could not complete a grounded report within its limits. The weekly slot remains used; previous reports are retained.') from None
         finally:

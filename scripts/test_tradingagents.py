@@ -73,3 +73,24 @@ class UpstreamCompatibilityTests(unittest.TestCase):
         with patch.dict('os.environ', {'OPENAI_API_KEY':'unit-test-not-a-real-key'}), patch.object(TradingAgentsGraph, 'propagate', inspect):
             run_graph('NVDA', datetime(2026, 9, 14, tzinfo=IST))
         self.assertTrue(checked)
+
+class BatchTests(unittest.TestCase):
+    def test_batch_slots_reuse_guard_and_budget(self):
+        ledger=MemoryLedger()
+        stamp=datetime(2026,9,15,tzinfo=IST)
+        _reserve(ledger,'tradingagents',stamp)
+        for ticker in ('NVDA','TSM','SPCX','SKHY'):
+            _reserve(ledger,'tradingagents_'+ticker,stamp)
+        self.assertEqual(ledger.document['months']['2026-09']['estimated_usd'],2)
+        _validate_ledger(ledger.document)
+        with self.assertRaises(ResearchUnavailable):
+            _reserve(ledger,'tradingagents_NVDA',stamp)
+
+    def test_reuse_requires_todays_complete_report(self):
+        from tradingagents_batch import fresh
+        day=datetime(2026,9,15,tzinfo=IST).date()
+        item={'updated_at':'2026-09-15T07:00:00+05:30','reports':{k:'report' for k in REPORT_FIELDS}}
+        self.assertTrue(fresh(item,day))
+        item['updated_at']='2026-09-14T07:00:00+05:30'
+        self.assertFalse(fresh(item,day))
+        self.assertFalse(fresh({},day))
