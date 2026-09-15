@@ -94,3 +94,14 @@ class BatchTests(unittest.TestCase):
         item['updated_at']='2026-09-14T07:00:00+05:30'
         self.assertFalse(fresh(item,day))
         self.assertFalse(fresh({},day))
+
+class QualityTests(unittest.TestCase):
+    def test_conflicted_data_does_not_endorse_hold(self):
+        from tradingagents_runner import apply_quality_notes
+        r={'ticker':'SPCX','rating':'Hold','reports':{'fundamentals_report':'SPCX is a private aerospace company. Material inconsistencies remain.'}}
+        apply_quality_notes(r)
+        self.assertEqual(r['rating'],'REVIEW')
+        self.assertEqual(r['model_rating'],'Hold')
+        self.assertIn('outdated',r['quality_notes'][0])
+        apply_quality_notes(r)
+        self.assertEqual(r['model_rating'],'Hold')

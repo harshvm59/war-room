@@ -36,9 +36,30 @@ def public_report(state, signal, ticker, stamp):
     reports['risk_review'] = str(state.get('risk_debate_state', {}).get('judge_decision', ''))
     # Text only, capped. Never expose raw graph messages, tool traces, or local paths.
     reports = {k: v[:40000] for k, v in reports.items()}
-    return {'ticker': ticker, 'updated_at': stamp.isoformat(), 'rating': str(signal) if str(signal) in {'Buy', 'Overweight', 'Hold', 'Underweight', 'Sell', 'REVIEW'} else 'REVIEW',
+    report = {'ticker': ticker, 'updated_at': stamp.isoformat(), 'rating': str(signal) if str(signal) in {'Buy', 'Overweight', 'Hold', 'Underweight', 'Sell', 'REVIEW'} else 'REVIEW',
             'reports': reports, 'actionable': False,
             'limitation': 'Single-stock research, not a portfolio allocation decision. Check source dates and account freshness; retain cash until you approve any change.'}
+
+    return apply_quality_notes(report)
+
+
+def apply_quality_notes(report):
+    """Expose material source conflicts instead of endorsing an unreliable rating."""
+    text = report.get('reports', {}).get('fundamentals_report', '')
+    notes = [line.strip().lstrip('> ').replace('**', '') for line in text.splitlines()
+             if re.search(r'inconsisten|anomal|reconcil', line, re.I)]
+    report['quality_notes'] = notes[:6]
+    ticker = report['ticker']
+    if ticker in {'SKHY', 'SPCX'} and notes:
+        report.setdefault('model_rating', report['rating'])
+        report['rating'] = 'REVIEW'
+        report['assessment_status'] = 'data_review_required'
+        report['limitation'] = 'Review required: material source inconsistencies remain. Retain cash / no action based on this report until the figures are reconciled.'
+    if ticker == 'SPCX' and 'private aerospace company' in text:
+        correction = 'Correction: SpaceX announced its Nasdaq IPO under SPCX for June 12, 2026. The model statement below describing it as private is outdated. Its financial conclusions still require verification.'
+        report['quality_notes'].insert(0, correction)
+        report['verification_sources'] = [{'title': 'SpaceX IPO announcement', 'url': 'https://ir.spacex.com/updates/releases-details/2026/Space-Exploration-Technologies-Corp--Announces-Pricing-of-Initial-Public-Offering/default.aspx'}]
+    return report
 
 
 def run_graph(ticker, stamp, budget=1.0):

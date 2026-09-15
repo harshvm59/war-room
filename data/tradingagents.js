@@ -20,7 +20,9 @@
     var target=document.getElementById('tradingagentsReports'),select=document.getElementById('tradingagentsTicker');if(!packet||!target)return;target.replaceChildren();
     var rows=(packet.items||[]).filter(function(item){return !select.value||item.ticker===select.value;});
     if(!rows.length){target.append(node('div','No completed TradingAgents reports yet. Once the API key and billing are configured, the next permitted run will generate a real report.','research-card'));return;}
-    rows.forEach(function(item){var card=node('article',undefined,'research-card');var limited=stale(item);card.append(node('h2',item.ticker+' · '+(limited?'Previous research — review required':item.rating+' · research opinion')));card.append(node('p',date(item.updated_at)+(stale(item)?' · STALE':''),'research-note'));card.append(node('p',item.limitation||'Manual review required.'));
+    rows.forEach(function(item){var card=node('article',undefined,'research-card');var limited=stale(item);card.append(node('h2',item.ticker+' · '+(limited?'Previous research — review required':(item.rating==='REVIEW'?'Review required':item.rating)+' · research opinion')));card.append(node('p',date(item.updated_at)+(stale(item)?' · STALE':''),'research-note'));card.append(node('p',item.limitation||'Manual review required.'));
+      (item.quality_notes||[]).forEach(function(note){card.append(node('p',note,'research-note'));});
+      (item.verification_sources||[]).forEach(function(source){if(!/^https:\/\//.test(source.url))return;var link=node('a',source.title);link.href=source.url;link.target='_blank';link.rel='noopener noreferrer';card.append(link);});
       Object.keys(labels).forEach(function(key){var text=item.reports&&item.reports[key];if(!text)return;var detail=node('details');detail.append(node('summary',labels[key]));detail.append(node('pre',text,'research-report-text'));card.append(detail);});target.append(card);});
   }
   function projection(){
