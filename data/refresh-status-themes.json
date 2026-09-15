@@ -1,15 +1,12 @@
 {
   "feed": "themes",
-  "status": "failed",
-  "last_attempt_at": "2026-09-15T07:31:38.242675+05:30",
-  "last_success_at": "2026-09-15T02:33:53.075866+05:30",
-  "error": {
-    "code": "refresh_failed",
-    "message": "Refresh failed (RuntimeError). See the linked workflow logs."
-  },
-  "source": "google-news-rss+deterministic-cohorts",
+  "status": "ok",
+  "last_attempt_at": "2026-09-15T07:39:49.108463+05:30",
+  "last_success_at": "2026-09-15T07:40:06.352341+05:30",
+  "error": null,
+  "source": "openai+web_search",
   "outputs": [
     "themes.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/34919555177"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/34920075575"
 }

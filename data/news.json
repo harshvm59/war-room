@@ -1,83 +1,80 @@
 {
-  "updated_at": "2026-09-15T02:31:54.417297+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-09-15T07:39:49.047465+05:30",
+  "source": "openai+web_search",
   "items": [
     {
       "ticker": "NVDA",
-      "headline": "Forget the Magnificent 7. This Duo Says Broadcom, Not Nvidia, Wins the Next Leg of AI. - 247wallst.com",
+      "headline": "Wall Street’s AI doomsday trade is here: chipmakers sink while hyperscalers gain",
       "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 16:15:00 GMT",
-      "summary": "Automated RSS market signal from 247wallst.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeU5EZ0hySmIxQjBtYjlRdjdzVW9OZjU0MU82eGVEbVZqTHg0Q1RZVGwzbnNvcy1wVkhYTDRtalFxcUozSHZsbXRKbzMwX0hOcEFreVFmbFJ2ejlqN2ZlRUlocEFoenhaaVlYaHk2bWFGWlU4dlljN2x5dTE4WFFMcWNFNlpOaFNaaEN5cDVkVUpxX29mWEszRHV3ZUZIY1l1bjFKMl9iR0VrbTlGU1VnSVJVdnU2NzN3WWRBU2NSSUN2aGpF?oc=5"
+      "published": "2026-09-14T11:26:00-04:00",
+      "summary": "NVIDIA fell more than 3% during Monday trading as semiconductor stocks sold off after prominent AI leaders raised safety concerns and called for a slower development pace.",
+      "tag": "AI sentiment; semiconductors",
+      "url": "https://fortune.com/2026/09/14/ai-slowdown-stocks-nvidia-meta/"
     },
     {
-      "ticker": "AI",
-      "headline": "OpenAI’s Sam Altman Says an IPO Won’t Happen This Year. Should This Make You Cautious About AI Stocks, or Is It Time to Pile Into Certain AI Bargains? - The Globe and Mail",
+      "ticker": "AMD",
+      "headline": "Wall Street drops as AI worries pummel chipmakers",
       "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 16:25:52 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOb1hiSThHRjl2SWhndWJsVmd5Qnk1WDl0bzRZWVVQcHR5cmhRYkoyRFNLODJFOGZHTmRXZXFiQWFuMkprLTF1T0tjelBGb2NhZWk0UXVNTDdkandrNC1hLW1XODlHTGd5Z1ZVUl9waUozWVB1dDh1d2FFTEticDJTczktdXRybzlVSkpiRTBQVVVvMTk5d19RdVJDRk5SekZPck5ObGN0SDdNVWlWX1kzMF9FQ1RENlNtYkh5a0Y1T3lvYXI0MDBWbTBTazdiUVZjMm5US1R4bWFTeWxDTThBRl9vcldlOEZhNm1xaXZWWU5fVG1ZUWV0S3ZkV0IxWDhVNEpSTUxPRUlNdUczckRjX0lFVHJvdXRBUlh4WDdmRWstanBzZVo1QVRqelhSRmQySGtlNnd0VV9jOTV6dVVaWTEzUE5RZXY4WkVfY2dwQXJUdw?oc=5"
+      "published": "2026-09-14T05:16:00-04:00",
+      "summary": "Reuters reported that AMD and other chipmakers came under pressure as investors reacted to AI safety warnings, calls for slower development, and a 10-year Treasury yield briefly exceeding 5%.",
+      "tag": "AI sentiment; rates; semiconductors",
+      "url": "https://ca.investing.com/news/economy-news/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-4837497?ampMode=1"
     },
     {
-      "ticker": "BE",
-      "headline": "Forget Nvidia. Apple Could Be the AI Stock to Watch Next. - 247wallst.com",
+      "ticker": "INTC",
+      "headline": "Wall Street’s AI doomsday trade is here: chipmakers sink while hyperscalers gain",
       "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 15:00:00 GMT",
-      "summary": "Automated RSS market signal from 247wallst.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWDQzaDE2amVGUnYtekFQR3d2TVpRYzkxZXRmWTdPRW5TWVhCSjBWbjNjWUtyTUdZZlVNMGZkTElQSjVrNml5T0lTR0FCY0d0UXJDM0dDTzVyeExCdXhpQmowYU4wMWViVEd4dmlBWDVBbERiRFVQTjN6SXpqZnlMbFlqbl9Vb2d2Y0Q0M0x1eWJabDRwZEJQUzRGRHVOMHFV?oc=5"
+      "published": "2026-09-14T11:26:00-04:00",
+      "summary": "Intel declined between 5% and 6% in morning trading as the AI-safety debate pressured semiconductor and data-center infrastructure shares.",
+      "tag": "AI sentiment; semiconductors",
+      "url": "https://fortune.com/2026/09/14/ai-slowdown-stocks-nvidia-meta/"
+    },
+    {
+      "ticker": "MRVL",
+      "headline": "Wall Street’s AI doomsday trade is here: chipmakers sink while hyperscalers gain",
+      "date": "2026-09-14",
+      "published": "2026-09-14T11:26:00-04:00",
+      "summary": "Marvell fell between 5% and 6% in morning trading as investors reassessed the pace of AI infrastructure expansion.",
+      "tag": "AI sentiment; semiconductors",
+      "url": "https://fortune.com/2026/09/14/ai-slowdown-stocks-nvidia-meta/"
     },
     {
       "ticker": "META",
-      "headline": "Meta, Alphabet and Microsoft Rise While Nvidia Falls After Three AI Chiefs Call For Slowing Down Frontier Models - 247wallst.com",
-      "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 14:24:00 GMT",
-      "summary": "Automated RSS market signal from 247wallst.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQM1M2THVBN0IxTUo5NE1TRHc2MG9XbUVPRVhTemh6ZnVyMHVRTHhxR3dJQ09JWjBURUIwZ1dRU1lDWjhCclJfU3NsQzVrNHFWWmtKRXd4LTJwbXZJQmdQdEZIMG1FZF83WFFRa1d5MXFTc1g3M0xFaU5nX0hraHhhZ0lSbUhGNld3SGczV2ZhWFI1LVJaVTVZS1VVZUd4MkdQS0JmdEFLOXVJc25yWmpQYklVMlFxUWMyVVZlM2s0QUZFenpVOU9ZeUstdE9uRXhiTEd5ZURVbU1rUTRjbzJZZWJCLU01a21lWURB?oc=5"
+      "headline": "Why Wall Street is blowing off fears of an AI apocalypse",
+      "date": "2026-09-15",
+      "published": "2026-09-14T21:19:26-04:00",
+      "summary": "Axios reported that the Nasdaq pared heavier losses and that hyperscaler-related shares held up better than chipmakers as investors treated the AI safety debate as a risk rather than an immediate collapse in AI spending.",
+      "tag": "AI sentiment; hyperscalers",
+      "url": "https://www.axios.com/2026/09/14/ai-stocks-apocalypse-wall-street"
     },
     {
-      "ticker": "AMD",
-      "headline": "August Kicks Off: Palantir, AMD, SanDisk Earnings and NFP Jobs Report - 5 Stocks and 3 Macro Events to Watch - tradingkey.com",
-      "date": "2026-09-14",
-      "published": "Sun, 13 Sep 2026 22:23:40 GMT",
-      "summary": "Automated RSS market signal from tradingkey.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZzZJdXFEWWtqRHRXMDRrd1ZLNTdwY3YtMUk5TzYyUGx2NW1oT3lYc2xkcFZkMVFEMkYzTjZKeWhnY1l5RlcxaTlmSmZFczQ3RkplRk5XZmN6UzdqeDJxc3ZiaDIzWTdwb01OaG5mMzktRG1tNnBxTG5uWnFFZl9wVjhubTFQSHVTOTJhUnpZX3FONUdqOXB5X1N0X2FHZm9rWHl3bXlVcFJSMEg4RFRVcFRtNjJSSHRmYXp6bzlVU1dpdXpwZ3d4ZURxamZHLVQzYWJYQU84cVl5Zw?oc=5"
+      "ticker": "NVDA",
+      "headline": "Trump and Huang unite against AI doomers in surprise on-stage call",
+      "date": "2026-09-15",
+      "published": "2026-09-14T20:52:29-04:00",
+      "summary": "NVIDIA CEO Jensen Huang and President Trump publicly rejected calls for a broad pause in AI development, potentially supporting sentiment toward AI infrastructure companies.",
+      "tag": "AI policy; semiconductors",
+      "url": "https://www.axios.com/2026/09/14/trump-jensen-huang-nvidia-ai-all-in-summit"
     },
     {
-      "ticker": "AI",
-      "headline": "History Suggests That You'll Regret Not Buying This Struggling Tech Stock - The Globe and Mail",
+      "ticker": "OPENAI",
+      "headline": "OpenAI CEO Sam Altman’s exclusive interview with Fortune’s Alyson Shontell",
       "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 14:21:18 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdzdZUTRlSVc0M1ZFSFpaN29aUmpQYzJRZVlXMHJISFBJMUtwRzd6TXhKTzZTdTNpVHROYm42QlktMlFhbHVIbWNVZ2pzOWwxbVlyNXp0VE9wclhfOGpFTU9GUHBHcHF0U2lxb1RYX0NuVE1BVzRPd3JKZjZWcldvMC1SR0tHVXRHZmxmRHRJa0RWR040Mk9LclFNT19sUnZGTUtMMkZXakZvcWJncDIxN1VVTFdIRjl6OExqZ2Y1STlMV2tzVkVhSXNUTXhxZUJGVmk4SG1JbnFXZDZZc1pueV9zMW1jcndCel9HQUhkSk92Zw?oc=5"
+      "published": "2026-09-14T05:40:00-04:00",
+      "summary": "Sam Altman discussed AI safety, the possibility of pausing development if required, and an expected delay of an OpenAI IPO until 2027.",
+      "tag": "Private markets; AI safety; IPO",
+      "url": "https://fortune.com/2026/09/14/openai-ceo-sam-altman-fortune-interview-alyson-shontell/"
     },
     {
-      "ticker": "AMD",
-      "headline": "AMD Is Sitting at $515. Here Is What Most U.S. Investors Should Actually Do About It. - 247wallst.com",
+      "ticker": "SPX",
+      "headline": "Markets rebound after President Trump rejects AI regulation",
       "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 14:00:00 GMT",
-      "summary": "Automated RSS market signal from 247wallst.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZnMyM3FmQmxUTnJmWDVERXVSTEstMlFLenNPb1VsU2VZNWZoSUoteU1ybHNvd0NTUHE2Ui11bmdmcnpodDQzTlpFQXZLZjRXNElPbVBSaTcwNHpheWRZY3EwZmtBVkFTMlhqU09BaW9HbzFMUGRsS3A1WmJlXzVxbHRpT2pVay13Q0szZzNEYkd6Mko4Z2ZkLUp1aUxhazRPeHhXT3V5X2RTbDFrVnJzQXhoV2QzMnV2N2pTMTNYaldpZHM?oc=5"
-    },
-    {
-      "ticker": "MSFT",
-      "headline": "Microsoft (MSFT) Surged 8% After Earnings - Azure Hit 43%, Copilot 30M Seats, Capex Steady - tradingkey.com",
-      "date": "2026-09-14",
-      "published": "Sun, 13 Sep 2026 23:12:17 GMT",
-      "summary": "Automated RSS market signal from tradingkey.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaF9pM0tpSHRxU3cyUjR3cng0bElLN09DQlR0QmJLZkptZ3FSUDQwZG9BR3lCdGtyckdjenRQYjR3V2pFdFZsSjJ5aldIM1RiTXFDZjlzTy1XckdramlEZ0pSSmpNdG1jbktESU9JR25wVWQycHNWVnIxY183blRURzU2Q0l0SHlwcXRQNW9xdmcwRkJWWFlzeVBNVUpIcFYyVWVWQWxUc0lWTVpGVE5LejExUjJfcUVBT0NMel96ckpyWDVuSUdXX0FpLUlmekhRTi1YSUpB?oc=5"
+      "published": "2026-09-14T13:38:00-04:00",
+      "summary": "Interactive Brokers reported that Trump’s rejection of calls to slow or regulate AI helped major U.S. averages recover more than half of their earlier losses during the session.",
+      "tag": "AI policy; broad market",
+      "url": "https://www.interactivebrokers.com/campus/traders-insight/ibkr-economic-landscape/markets-rebound-after-president-trump-rejects-ai-regulation/"
     }
   ],
-  "provider_error": {
-    "code": "provider_key_missing",
-    "message": "OPENAI_API_KEY is not configured; paid OpenAI research is unavailable."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }

@@ -1,49 +1,52 @@
 {
-  "updated_at": "2026-09-15T02:31:54.416861+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-09-15T07:39:49.046964+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
-    {
-      "name": "Jensen Huang",
-      "role": "CEO",
-      "org": "Nvidia",
-      "cat": "CEO",
-      "date": "2026-09-15",
-      "published": "Mon, 14 Sep 2026 21:00:06 GMT",
-      "source_name": "LinkedIn",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Trump called Nvidia CEO Jensen Huang mid-interview to rip AI doomerism: 'The robots will not be taking over' - LinkedIn",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbXRDdDJndnBqVnhWVTczcElubE5QYkZ1VnVPVFFtQlEtWERnQTRkX1QzTGxpa25CY3pQangyUWMzRHFNYk9vc0NlVWlIa3BrZVNFNlVfM3dSenE2YzRITGQ4YjRiRC1FRnZXZGdkd0JKVHBBY1o3R25UeHJEYnh0RlpKSTVuWjFhMTdub0xnSF8wNnJFUENUNnNFZnVyVjRpM0VyY2UtRnFuX2hBNE5HdkxYcGVPMWgxREs0Vmt2UXNZbGQtcm8zUDJiQQ?oc=5"
-    },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
-      "cat": "CEO",
+      "cat": "AI safety and investment risk",
       "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 10:16:36 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "published": "2026-09-14T05:40:00-04:00",
       "themes": [
-        "#AI"
+        "AI development pace",
+        "AI safety",
+        "IPO timing"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman on AI: 'We could lose control' - Yahoo Finance",
+          "t": "Source-linked summary (not a direct quote): Altman said OpenAI’s IPO would be ill-timed amid current safety concerns and is not expected until 2027.",
+          "k": true
+        },
+        {
+          "t": "Source-linked summary (not a direct quote): He indicated he would support pausing or stopping development if necessary to avoid unacceptable risks.",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb2RPZm8yNWFPclE5WVBzc2ZtT0M0bDJZNURQblpGeXdfRk1DS2lKcXB6WWhoMGlOaWlxQjhrYzlaZEpTREdlcElSTlNqd0h1U1pNTFdxSGJ1WkN3cmVtRzl0dnBqbmZycTh3eEVwaG51YXJRQUVCTXRBYXBZYlp5eVRiazI4RF9VOXhGYVRUTlVsYl9HeEFOUjdWdUR6bHJwazNiRDE0VEVrRktBX0E?oc=5"
+      "src": "https://fortune.com/2026/09/14/openai-ceo-sam-altman-fortune-interview-alyson-shontell/",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Jensen Huang",
+      "role": "CEO",
+      "org": "NVIDIA",
+      "cat": "AI policy and semiconductor sentiment",
+      "date": "2026-09-15",
+      "published": "2026-09-14T20:52:29-04:00",
+      "themes": [
+        "AI regulation",
+        "AI investment cycle",
+        "semiconductor sentiment"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Huang joined President Trump in rejecting arguments that the AI industry should broadly slow its development, a stance relevant to continued AI infrastructure investment.",
+          "k": true
+        }
+      ],
+      "src": "https://www.axios.com/2026/09/14/trump-jensen-huang-nvidia-ai-all-in-summit",
+      "signal_type": "source-linked signal"
     },
     {
       "name": "Dan Ives",
@@ -72,9 +75,9 @@
       "role": "CEO",
       "org": "Microsoft",
       "cat": "CEO",
-      "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 05:55:00 GMT",
-      "source_name": "The Times of India",
+      "date": "2026-09-15",
+      "published": "Tue, 15 Sep 2026 00:01:46 GMT",
+      "source_name": "Business Insider",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -83,11 +86,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella agrees on slowing AI development, but also has 'wake-up message' for Dario Am - The Times of India",
+          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella posts an internal warning to employees about AI safety - Business Insider",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxNMkwxdURlY0VtN0RncHdxMkF3OUNKZmRTdHZBTDdxaHJJa0NKNml2OXN1OTV1RjBVVks1YlJQZTlDTHJkZC1LTWl2UFFGd3RXN3FzV2s4WXBmZkVkaXVheDRleEwzakJLTmxlNUVEY0lVeFk4UjFiNGhUdFhsM0pHRk9XQ0VFeE5GUFY1Zm1QemlLYUVZZU1mbDBUVjJhbnlBdHZ3ZS1oSFFPYmt5X20yUnFaYXhaYno3V0RfUTh1aEFoX08wRUgtNVNmZmRmUXRUSlY2ZktyTDd2cG05X1JMdzl2TDl1dHplX3dBWXhRamNoWXRaUWtqdHFKYjVYU3BYMlRjdjMweTlObGNrc2VnSk1SRGFseExnZjl0YWFnd29EamxMSy1tSTNqSDhiNGwyanlMSzhHMFJPZmhCT01lRTJkclNRYk54bFk4dUpuY1lmTnZFUm00aUhybS1OR2pqVmtuQnlsdlnSAe4CQVVfeXFMTkRGampWRmdsRXJ1dUZUOEZGTE5nWlItTFlTei0wY0Rxc0hKamxESnBnOVA5ZDBfbkdDS3N1YVllZE5JMDI5T2h3RU4tX2NieXVyOHZWbHJ0VUp3cHc3Q3Y2YTZ0T2RjR3g0djZIb09VV2ZHWnFDcGIyNlVGQ1l6SmxZZzI5QXFSdkZodkRWcldnbkJwM3V1bUZlODVIYlFvZ3BlS3hIejllTHlaUjE4N3djMmtHRzd3akREeTJzUUVCMVNvMmk5Q2diTEdlN0pMYnRtRVRYaGMtSmpyN2pBZ2J2SzBUOElwbjlOdkMydXBwVEF6Y21iNVJhRmgtNHV4alJlWDhkTGgyXzRSa1BTdzZ3Mk1MZnREejcwdnFjc2NWeVQ4bnFOLUpFY3FtQ2M2ZTNjS0xnZFhXZHlDN0poYTZYak5kOGNMQS1QYnFXVHlSS0RSUWtWNXRWVUV6Vm9DQmZkY0xSYzdaeDNKU2lR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLWFqOExIRHN4NFJyTlhrV0JFZmVJdXI1Tm8tbHh5NzFSc3dFZkFSZFNBczNFbnUxR0FiV0lsQUhicDUwUzE1aXN2N2pramNjOW52SXBQRXppaUJ4UGVoSmZldUpNZ2hUTHVZdUZRbS1Edzl5QzdyTTFNcjJfX29ma1FXemNWbXdoR1VrT1dPQmZSNkFmeGlxR0Fzcy0?oc=5"
+    },
+    {
+      "name": "Lisa Su",
+      "role": "CEO",
+      "org": "AMD",
+      "cat": "CEO",
+      "date": "2026-09-15",
+      "published": "Mon, 14 Sep 2026 21:13:16 GMT",
+      "source_name": "MarketBeat",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Advanced Micro Devices (NASDAQ:AMD) CEO Lisa Su Sells 70,000 Shares of Stock - MarketBeat",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNa0hlQkpzaENGYmJwejZNbUdtTl9TS0p3cmlYRDJ6ZmdoV2x5X3lzSlFlWjVRRjN3THJSSjFkMnNnRWFKNnBWVGRDcXh6d2tOY2ctVHg0d1JsTS1zRlA1aTZqRVA4b21jU3pvYUJTNGZ0MkxBTVFfbXZaSGQtS0JpNkM5ZTJ6UmdFd2RJT1BWQnBpdDlxZzYxNmxqbmxNRFFBWll0azZSV0gyeGNEd0xhY2xXdlN4RjJYeGRRY2J1R2llT1A4TFlmTWFGSjFUWFgw?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -117,7 +142,7 @@
       "cat": "CEO",
       "date": "2026-09-14",
       "published": "Mon, 14 Sep 2026 17:29:49 GMT",
-      "source_name": "teslarati.com",
+      "source_name": "Teslarati",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -126,7 +151,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk’s companies made up with Apple but OpenAI still on the hook - teslarati.com",
+          "t": "Headline signal (not a direct quote): Elon Musk’s companies made up with Apple but OpenAI still on the hook - Teslarati",
           "k": true
         }
       ],
@@ -138,43 +163,43 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-09-15",
-      "published": "Mon, 14 Sep 2026 19:50:10 GMT",
-      "source_name": "Gizmodo",
+      "published": "Mon, 14 Sep 2026 20:04:57 GMT",
+      "source_name": "Built In",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#BE"
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Profile Bravely Positions Him Exactly as He’d Like to be Seen - Gizmodo",
+          "t": "Headline signal (not a direct quote): Who Is Mark Zuckerberg? Inside the Meta CEO’s Career and AI Strategy - Built In",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOM0pTOEwzQVhVTzFrdmQxUE9ZN2Y5ZnFabElySU1Za19MYVd0RGk3T25TTl9DZHFzUTB2Q01reHFLdXBqc0pMQXZYRGg5WmNmRUlYN0t1YS01VXVuMFlUZkZFSm43TlQ1LUcta3AtNm45YnFzbld5dUoySUFrY0RGNGw0RU1IVWFMcTFOd3Vnemx4VlBLQ3drb0t4NnVldU1QNDdUenJEX3pzVkE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45ZS1saUZISUJWeXNNRzNwZlQtaGtBM3NOT2pjU2J3SHJtV1pTeGdPU2h1dk5fWUJfbndQOXItdzVVSjktaFFoRlduVWo4QlV1Y3lnclpNRUpZN3VSRUlGVA?oc=5"
     },
     {
-      "name": "Andy Jassy",
+      "name": "Hock Tan",
       "role": "CEO",
-      "org": "Amazon",
+      "org": "Broadcom",
       "cat": "CEO",
-      "date": "2026-09-14",
-      "published": "Sun, 13 Sep 2026 21:08:00 GMT",
-      "source_name": "The Motley Fool",
+      "date": "2026-09-15",
+      "published": "Mon, 14 Sep 2026 23:33:02 GMT",
+      "source_name": "cnbc.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 13,
+      "relevance_score": 17,
       "themes": [
         "#AI",
-        "#AMZN"
+        "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jeff Bezos Built Amazon Into a $1.8 Trillion Company. Here's How Andy Jassy Is Making It Worth Even More. - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Generative AI will create huge value to enterprises and people, says Broadcom CEO Hock Tan - cnbc.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ0tHUnQwaEZYbDkxc3R1Y2FRNU9aV2N6eGNOUnp5N3BWM2ZQbF9oaXREOGdyQ0N4S19meWNrNjFKaTJVbnBZNWRhVzlPQ01SUmc0amw1bHBjNERfT0hkUm9jREpWQ0tYX0RoNkJLX05oLWFLUFFyWmx4ZnhWQU5kMHpuakF4d2t5cEM3UWxYbXFvR0IzNnA4SA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQm9PUG5UaGtCUTBhcDQxUG1PYkJwWXlZdmF4OGVwbXJyU2VzNVpaSHJLUjNrX3RPMDY5aHlqMDRieEM5QUVqbEtMdFZ3SFBDR3JVT0V4cGRDUFA1R2gxLU1NMDU3M19qS1RNTXhfTVFpTFprNHdzWmVONUZadEJqZndMeEY1WGxBcW1LZmdLRzJaSld4ZDVCbzhCVGlHREc1Uk95R0t6b2FHYWdEME9VT1htVENEUHJERm12UlMxbHV2VnJidy1fS0lJVFQ?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -224,9 +249,9 @@
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-09-14",
-      "published": "Mon, 14 Sep 2026 16:11:22 GMT",
-      "source_name": "CNBC",
+      "date": "2026-09-15",
+      "published": "Mon, 14 Sep 2026 22:41:46 GMT",
+      "source_name": "cnbc.com",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -234,19 +259,16 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer on why 'sitting on your hands' is worth it in this oversold market - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer explains why the stock market avoided a dramatic sell-off on AI concerns - cnbc.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZVFXSTdwNTJod0pvbklTeHBVRU1UczU2ZjI2ZF9mUVk5eDlXZFVDXy12Vjk5SDBRcHJrdk1JdGZ3a3Y3WDZlZGZJRG5lUnYwOFFzOF9EWGFRWnJZSGdBWWN1R0hFTHdQTWE1SHJ2TkZna1lPcF9UcGJoU2JqVXB1Yy05MDJHQlBSOUw3RjMzajhBcTNob1pXVUtVWjkxcnhvTjZLblpkemlLNnBZNzFWaGhn?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16b0JKeFpQZml2ZmRyYk1PUU9KOGt5dXZLTk9CbFhPNjl6em5FUmJ3X3ZLakQtR2lMNzBsNmNXV0JHR2FyUExPUXpCX2sxbGV3cWNmM0lHY3hDczFsM2RnbW0wUTZJNmtPdnNuQTZJS2FKVFVxS0tZcE02VkRwZnfSAYQBQVVfeXFMUGVSelk5S3JmTlNIM1ZVdk15SElJa08zVHdyMmRkNGh3MHZWbzA2TFRpYnVxZ1VLTjd2REZNZmpqaGxzektObXVocWFHemZQNEwwV291MEc5SDI4SW9SR2JzM0xkOXU1THZvRVRWSG4xaXpUZXR4WDB2MVdRMFFlU0VDcllM?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 11,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "provider_key_missing",
-    "message": "OPENAI_API_KEY is not configured; paid OpenAI research is unavailable."
-  }
+  "provider_error": null
 }

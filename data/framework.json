@@ -1,652 +1,1030 @@
 {
-  "updated_at": "2026-05-22T05:04:33.918543+05:30",
-  "source": "claude-haiku+yahoo-chart+tom-7q",
+  "updated_at": "2026-09-15T07:40:56.084868+05:30",
+  "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
       "ticker": "NVDA",
       "company": "Nvidia Corporation",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2024 revenue ~$61B (+126% YoY); H100/H200 demand exponential; Blackwell ramp accelerating with TSMC CoWoS fully booked through 2027."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Unmatched GPU architecture + CUDA ecosystem + supply chain control; AI compute market structurally captured for 3+ years."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Jensen Huang's capital allocation flawless (R&D investment, 0 debt, $60B+ buyback); execution on roadmap flawless."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Gross margin ~70% (up from ~60% in FY2023); operating leverage expanding as revenue scales; FCF conversion >50%."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $33B+ (FY2024); net cash $35B+; zero financial risk; reinvestment rate optimal."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Valuation risk (52w high $236.54 vs current $219.51, still 73% above 52w low); customer concentration (MSFT/Meta/GOOG ~60% demand); geopolitical export controls (China restrictions)."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
-          "verdict": "PASS",
-          "note": "At $219.51, down 7% from 52w high; YTD +65%; prime entry zone near thesis $187–210; Blackwell shipments accelerating Q2/Q3 2026."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "NVDA is structurally dominant in AI compute with exponential revenue growth, fortress margins, and multi-year supply visibility; hold entire position and DCA on dips to $187."
+      }
     },
     {
       "ticker": "TSM",
-      "company": "Taiwan Semiconductor Manufacturing",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "company": "Taiwan Semiconductor",
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2024 revenue ~$70B+ (+16% YoY); AI/HPC segment growing 50%+ YoY; CoWoS capacity sold out through 2027; 3nm/5nm utilization >90%."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "50%+ foundry market share; exclusive CoWoS packaging monopoly for NVIDIA/AVGO/AMD; 2–3 year capex capex moat vs SAMSUNG/INTEL."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "C.C. Wei's capex discipline ($40B+ annual investment); shareholder returns ($4B+ buyback); zero debt; supply chain execution world-class."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Gross margin ~52–55% (premium pricing on AI nodes); operating margin ~38%; pricing power expanding in AI segment."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $30B+ (2024); net cash $20B+; CapEx $40B sustainable from FCF; balance sheet fortress-grade."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Geopolitical/Taiwan strait risk (US–China tensions); customer concentration on NVIDIA (>50% revenue); advanced node capex intensity ($40B annual)."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
-          "verdict": "PASS",
-          "note": "At $407.15, down 3.5% from 52w high $421.97; YTD +107.5%; fwd P/E ~15x is 40% discount to NVDA; DCA target $390 attractive entry."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "TSM is the irreplaceable foundry for AI chips with monopoly CoWoS packaging and supply-constrained capacity through 2027; valuation at 15x fwd P/E is exceptional for structural growth."
+      }
     },
     {
       "ticker": "TSLA",
       "company": "Tesla Inc",
-      "overall": "HOLD",
+      "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 4,
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
-          "note": "FY2024 vehicle deliveries ~1.81M (+2% YoY); margin compression YoY; energy storage +70% YoY but still 15% of revenue; robotaxi revenue $0 (vaporware risk)."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Vertical integration (battery, software, AI); Supercharger network; >50% EV market share in premium; full-self-driving data advantage structural."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
           "verdict": "CAUTION",
-          "note": "Elon's vision strong but execution gaps (robotaxi delay 5+ years); distractions (Twitter/X acquisition; Neuralink); governance concerns; capex volatility."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
           "verdict": "CAUTION",
-          "note": "Gross margin declined from 29% (2023) to 18% (2024) due to price cuts; operating margin compressed to 10% (vs 16% in 2022); still profitable but deteriorating."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $7.7B (2024); net cash $9B+; capex $8B (sustainable); no debt stress but returns on capex declining."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
-          "verdict": "FAIL",
-          "note": "Robotaxi valuation baked in but tech unproven (competitors WAYMO/CRUISE ahead); China competition intensifying (BYD outselling TSLA); regulatory risk (FSD safety scrutiny)."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "At $417.85, down 16% from 52w high $498.83; YTD +22.5% but near support; valuation stretched on robotaxi hope; user thesis to trim at $455–470 prudent."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "TSLA faces margin compression, robotaxi execution risk, and intensifying competition; trim 25% on rallies to $455–470 as suggested; hold remainder for energy/AI optionality."
+      }
     },
     {
       "ticker": "META",
-      "company": "Meta Platforms Inc",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "company": "Meta Platforms",
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2024 revenue ~$135B (+23% YoY); AI Ads revenue +27% YoY (monetizing Llama inference); Reality Labs losses narrowing (< -$3B annually now); family DAU 3.2B."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Advertising network moat unmatched (Instagram + Reels + Llama 4 multimodal targeting); 2.9B users globally; Llama open-source ecosystem defensible."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Mark Zuckerberg's pivot to AI (Llama 4, infrastructure) + 'Year of Efficiency' cost discipline; capex discipline improving; shareholder returns expanding."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Operating margin ~36% (2024, up from 28% in 2023); AI Ads commanding higher CPM; Reality Labs losses stabilizing; FCF conversion >30%."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $60B+ (2024); net cash $50B+; capex $40B (AI infrastructure sustainable); balanced buyback/dividend."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Regulatory scrutiny (antitrust, data privacy EU/US); Reality Labs cash burn ongoing ($3–4B annually); ad targeting regulation (iOS privacy rules); China competition."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
-          "verdict": "PASS",
-          "note": "At $607.38, up 42% from avg cost $430.88; YTD -4.6% (strength coming); 52w high $796.25 shows upside room; pullback to $570–600 DCA target reasonable."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "META is structurally remonetizing AI via Llama inference + advertising while improving margins and narrowing Reality Labs losses; AI advertising TAM inflection just beginning."
+      }
     },
     {
       "ticker": "GOOGL",
       "company": "Alphabet Inc",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2024 revenue ~$308B (+14% YoY); Google Search advertising still +11% YoY despite AI disruption; YouTube revenue +13%; GCP revenue accelerating (AI inference + Gemini 2.0)."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Search dominance 92% market share; Gemini 2.0 + TPU v5 ecosystem competitive vs OPENAI; YouTube creator lock-in; Android OS leverage unmatched."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Sundar Pichai's AI execution strong (Gemini 2.0, TPU scale); Waymo expansion (10 cities) on track; capex discipline improving; share buybacks $61B+ (2024)."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Operating margin ~29% (2024); Search margin premium (65%+); GCP margin expanding as scale increases; FCF yield >2% on market cap."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $100B+ (2024); net cash $95B+; capex $40B (TPU/data center buildout sustainable); fortress balance sheet."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Search disruption from Claude/ChatGPT (monetization unproven); antitrust trial (DOJ seeking breakup); China competition (ByteDance); capex inflation $40B+."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
-          "verdict": "PASS",
-          "note": "At $387.66, down 5% from 52w high $408.61; YTD +126.9%; valuation 25x fwd P/E fair for growth; Waymo/GCP catalysts building; dips below $370 ideal for DCA."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "GOOGL has doubled on Gemini 2.0 + TPU monetization + Search resilience, with Waymo expansion and GCP acceleration offering multi-year upside; hold and DCA on weakness."
+      }
     },
     {
       "ticker": "AMZN",
       "company": "Amazon Inc",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2024 revenue ~$575B (+11% YoY); AWS revenue ~$90B (+17% YoY); Bedrock AI inference revenue inflecting fast; Project Kuiper satellite internet launching."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "AWS 32% cloud market share; Bedrock API ecosystem defensible; vertical integration (chips, infra); logistics network unmatched; advertising growing (Prime video ads + native)."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Andy Jassy's AWS/AI focus disciplined; capex balance (data centers $50B+ sustainable); AWS margin management strong; advertising growth accelerating."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "AWS operating margin ~30%+ (highest margin business); retail margin expanding via ads + subscriptions; overall operating margin 6–7% (consolidating)."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $80B+ (2024); capex $60B (AI/data center sustainable); net cash $50B+; FCF conversion >15%."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Capex intensity ($60B annually) may compress returns; Azure/GCP competition for AI workloads; regulatory antitrust risk; Project Kuiper execution risk."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
-          "verdict": "PASS",
-          "note": "At $268.46, down 3.6% from 52w high $278.56; YTD +32.2%; fwd P/E ~35x fair for AWS growth + advertising; dips below $260 optimal for DCA."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "AMZN is AWS market leader with AI inference (Bedrock) inflecting, advertising business inflecting, and Kuiper satellite optionality; capex sustainable from FCF generation."
+      }
     },
     {
       "ticker": "PLTR",
       "company": "Palantir Technologies",
-      "overall": "HOLD",
+      "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 5,
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2024 revenue ~$2.2B (+26% YoY); AIP platform driving US commercial revenue +85% YoY; government revenue +11% (NATO expansion); Rule of 40 = ~145% (growth + margin)."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Government AI platform monopoly (DoD, IC agencies); AIP platform for enterprises defensible; data integration + AI pipeline sticky; NATO/allied government contracts expanding."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
           "verdict": "CAUTION",
-          "note": "Alex Karp's strategic vision strong (government + commercial pivot); but high equity compensation dilution; governance concentration risk; R&D allocation opaque."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
           "verdict": "CAUTION",
-          "note": "Gross margin ~78% (improving); operating margin ~15% (improving on AIP scale); but sales/marketing expense high at 25% of revenue; path to 30%+ op margin unclear."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $800M+ (2024); negative FCF historically but improving; net cash neutral (minimal debt); cash generation inflecting."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Government revenue concentration (60% of revenue); budget cycles risk; commercial AIP adoption still early (execution risk); valuation stretched at 150x P/E."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "At $137.41, near 52w high $207.52 (off 34%); but up 48% YTD; valuation extreme on 26% revenue growth; user thesis to hold (do not add above $140) prudent."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "PLTR has exceptional AIP + government moat but valuation is stretched at 150x P/E; hold for AI optionality but follow user guidance to not add above $140."
+      }
     },
     {
       "ticker": "MSFT",
       "company": "Microsoft Corporation",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2025 revenue ~$245B (+16% YoY); Copilot seats growing 25% QoQ; Azure AI revenue inflecting exponentially; Office 365/Microsoft 365 subscriber growth accelerating."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Enterprise AI platform + Copilot ecosystem lock-in; 400M+ Office users; Azure market share 23% (growing faster than AWS); OpenAI partnership defensible."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Satya Nadella's AI execution flawless (Azure + Copilot + OpenAI partnership); capital allocation balanced (buybacks $50B+ annual + dividends); shareholder-friendly."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Operating margin ~34% (2024); gross margin ~70%; Intelligent Cloud segment margin >40%; Azure pricing power intact despite competition."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $90B+ (2024); capex $55B (data center sustainable); net cash $75B+; FCF generation among best-in-class."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Valuation vulnerability (down 7.9% YTD, only 'red' position per thesis); Azure competition intensifying (GCP/AWS); Copilot monetization execution risk; antitrust scrutiny."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
-          "verdict": "PASS",
-          "note": "At $419.09, flat vs avg cost $422.94; down from 52w high $555.45 (25% drawdown); YTD -7.9%; exceptional DCA entry zone; $500/month thesis correct for accumulation."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "MSFT is the best DCA opportunity in portfolio: flat valuation + 25% pullback + Copilot inflection + Azure AI acceleration justify aggressive $500/month accumulation."
+      }
     },
     {
       "ticker": "AMD",
       "company": "Advanced Micro Devices",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2024 revenue ~$23.6B (+4% YoY); Data center revenue $3.7B (+80% YoY); MI325X HBM3E shipments accelerating; Ryzen AI + EPYC gaining traction."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "MI325X differentiated HBM3E architecture; TSMC relationship for N3/N2 capacity; Ryzen AI ecosystem defensible; hyperscaler customer switching costs high."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Lisa Su's product roadmap execution strong (MI325X on-time); data center focus disciplined; gross margin management improving; shareholder returns balanced."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Gross margin ~48% (2024, up from 46% in 2023); data center margin premium (55%+); operating margin expanding toward 20%; pricing power on GPU."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $3.5B (2024); capex minimal ($200–300M annually); net cash $1.5B+; FCF conversion >40%."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "NVIDIA competition remains intense (95%+ GPU market share); supply risk (TSMC N3 tight); customer concentration (Meta/Microsoft); MI325X ramp execution."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
-          "verdict": "PASS",
-          "note": "At $449.59, down 4% from 52w high $469.22; YTD +306.1% (biggest winner); valuation 40x fwd P/E stretched but justified on 50%+ GPU revenue growth; user thesis to add only dips below $440 prudent."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "AMD is +163% from cost and the portfolio's biggest winner; MI325X HBM3E ramp validates data center moat, but valuation at 40x P/E merits waiting for dips to $440."
+      }
     },
     {
       "ticker": "CRWD",
       "company": "CrowdStrike Holdings",
-      "overall": "HOLD",
+      "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 4,
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
-          "note": "FY2024 revenue ~$3.1B (+39% YoY); ARR growing 22% (decelerating from 40%+ prior years); platform growth strong but subscription churn risk evident."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Cloud-native endpoint security leadership; Falcon platform integration deep; enterprise switching costs moderate; AI threat detection emerging."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
           "verdict": "CAUTION",
-          "note": "George Kurtz's operational execution solid but AI security strategy less differentiated vs Palo Alto; R&D focus on Falcon integration; capital allocation conservative (no buyback)."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
           "verdict": "CAUTION",
-          "note": "Gross margin ~75%; operating margin 5–10% (margin expansion muted); R&D spending 20% of revenue (high); SG&A leverage improving slowly."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $1.2B (2024); FCF positive but modest; net cash neutral; capex minimal; balance sheet healthy."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
-          "verdict": "FAIL",
-          "note": "Growth deceleration (22% vs 40% prior; market saturation in endpoint); Palo Alto Networks (PANW) has stronger AI cyber + margins; M&A consolidation risk in cybersecurity."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "At $648.23, near 52w high $659.55; YTD +46%; valuation 150x P/E extreme for 22% growth; user thesis to rotate 50% into PANW prudent; Q2 earnings catalyst critical."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "CRWD is slowing (22% ARR growth) and overvalued at 150x P/E; user guidance to rotate 50% into PANW (better AI positioning + margins) is prudent; hold remainder for M&A optionality."
+      }
     },
     {
       "ticker": "MU",
       "company": "Micron Technology",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2025 revenue ~$28B (+30% YoY); HBM revenue inflecting (HBM4 capacity sold out 2027); DRAM/NAND pricing expanding on AI chip demand; EPS growth 61% YoY."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "HBM4 technology leadership; supply tight through 2027 (Micron + SK Hynix duopoly); DRAM/NAND cost leadership; customer qualification stickiness high."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Sanjay Mehrotra's capex discipline strong ($6–7B annually sustainable); HBM prioritization correct; shareholder returns expanding (buybacks); technology roadmap solid."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Gross margin ~45% (expanding on HBM premium pricing); operating margin inflecting toward 25%+ (from 15% historically); pricing power on memory chips."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $8B+ (2024); capex $6B (sustainable from FCF); net cash $2B+; FCF conversion >40%."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Memory chip cyclicality risk (DRAM/NAND pricing volatile); customer concentration (NVIDIA/AMD/MSFT/GOOGLE ~80% demand); geopolitical/tariff risk; capex intensity."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
-          "verdict": "PASS",
-          "note": "At $762.10, down 7% from 52w high $818.67; YTD +703.6% (extraordinary); valuation 10x fwd P/E on 61% EPS growth is a bargain; $500/month DCA to $10K position justified."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "MU is undervalued at 10x P/E on 61% EPS growth with HBM4 supply monopoly through 2027; most urgent accumulation target after price normalization post-AI boom."
+      }
     },
     {
       "ticker": "VRT",
       "company": "Vertiv Holdings",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2024 revenue ~$8.8B (+19% YoY); backlog $18B+ (7+ years of revenue visibility); liquid cooling orders +280% QoQ; data center cooling TAM inflecting."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Liquid cooling IP/design leadership; hyperscaler infrastructure lock-in (switching costs high); backlog provides pricing power; 3-phase systems defensible."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Giordano Albertazzi's operational discipline strong; backlog monetization on track; capex discipline; shareholder-friendly (no excess buyback)."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Gross margin ~32%; operating margin ~8–10% (expanding on scale); backlog revenue mix improving margins (higher-margin liquid cooling); path to 15%+ op margin clear."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $1.5B+ (2024); capex $200–300M (modest); net debt $1B (manageable); FCF conversion >30%."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Customer concentration (hyperscalers 60%+ of revenue); backlog execution risk (supply chain delays); capex intensity for manufacturing scale; competition from Rittal/eLiquid."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
-          "verdict": "PASS",
-          "note": "At $323.40, down 15% from 52w high $379.93; YTD +210.4%; backlog $18B provides strong support; DCA target $310–325 optimal entry; hold entire position thesis correct."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "VRT is the pure-play on data center cooling TAM with $18B+ backlog providing 7+ years revenue visibility and liquid cooling inflecting; hold position, wait for dips to $310–325."
+      }
     },
     {
       "ticker": "AVGO",
       "company": "Broadcom Inc",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2024 revenue ~$65B (+9% organic YoY); AI networking revenue accelerating (InfiniBand competitor); Meta 2029 ASIC deal ($10B+); VMware ARR $2.3B."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Triple moat: (1) AI networking (infrastructure software); (2) hyperscaler custom ASIC deals (Meta/others); (3) VMware software switching costs; design+IP leadership."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Hock Tan's M&A discipline strong (Symantec, Brocade, VMware); ASIC customer relationships deep; capex optimization; shareholder returns disciplined."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Gross margin ~60%; operating margin ~30%; software (VMware) margin premium (30%+); mix shift to ASICs/networking improving overall margins."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $15B+ (2024); capex minimal ($500M); net debt $5B (manageable from FCF); FCF conversion >40%."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "AI networking competition from Mellanox/NVIDIA (acquired); custom ASIC customer concentration; VMware growth deceleration (5–10%); high debt ratio leverage."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
-          "verdict": "PASS",
-          "note": "At $414.57, down 6% from 52w high $442.36; YTD +79.8%; valuation 20x fwd P/E fair for growth + ASICs; user thesis to target $8K position via $420/month DCA correct."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "AVGO has a triple moat (AI networking + hyperscaler ASIC deals + VMware software) with $10B+ Meta 2029 ASIC contract anchoring growth; accumulate via $420/month DCA to $8K position."
+      }
     },
     {
       "ticker": "ASML",
       "company": "ASML Holding NV",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2024 revenue ~€28B (+10% YoY); EUV system orders >40/year (sold out through 2027); High-NA EUV next-gen capacity 100% pre-booked; AI chip demand inflecting."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "EUV monopoly (only supplier globally); 10–15 year development lead over competitors; every advanced AI chip requires ASML EUV machines; irreplaceable."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Peter Wennink's execution flawless (EUV ramp, High-NA development); shareholder returns disciplined; supply chain partnerships (Carl Zeiss, Nikon); geopolitical navigation strong."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Gross margin ~52%; operating margin ~33%; pricing power on EUV systems (€200M+ per machine); mix shift to High-NA expands margins further."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow €8B+ (2024); capex €1.5B (minimal); net cash €10B+; FCF conversion >50%."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Geopolitical (China restrictions, US export controls tightening); single product concentration (EUV); customer concentration (TSMC/Samsung/Intel 80%); China fab ban potential."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
-          "verdict": "PASS",
-          "note": "At $1,592, at 52w high $1,603.49; YTD +114.9%; valuation 60x fwd P/E stretched but justified on monopoly + AI inflection; $200/month target to 3 units ($5K position) prudent."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "ASML is the unreplaceable EUV monopoly with every advanced AI chip requiring its machines; hold and DCA $200/month to 3-unit target as geopolitical moat deepens."
+      }
     },
     {
       "ticker": "CEG",
-      "company": "Constellation Energy Corporation",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "company": "Constellation Energy",
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2024 revenue ~$30B (organic +3%); nuclear capacity 21GW; Three Mile Island Unit 1 restart scheduled 2026 (835MW); Microsoft 20-year PPA for 600MW secured."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Nuclear generation monopoly (US regulatory barriers); long-term PPAs lock in revenue (20–25 year contracts); Three Mile Island asset uniqueness; political tailwind on nuclear."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Joseph Domone's execution on TMI restart strong; PPA deals with major tech customers (MSFT/AMZN); regulatory relationships strong; capex discipline."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Operating margin ~25%; nuclear generation margin premium (40%+); PPA revenue highly contracted/stable; regulated utility protection on growth."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $3.5B+ (2024); capex $1.5B (for TMI restart/upgrades); net debt $1B (manageable); FCF generation >$2B annually."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "TMI restart execution risk (regulatory/technical delays); nuclear accident tail risk (low probability); natural gas price volatility (alternative base load); political risk on nuclear."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "At $285.83, near 52w low $243.30; YTD -1.9% (weakness counterintuitive); 52w high $412.70 shows nuclear repricing upside; valuation 13x fwd P/E cheap; user thesis 'only +8% from cost' suggests early accumulation."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "CEG is the nuclear energy TAM pure-play with TMI restart 2026 + MSFT/AMZN PPAs + political tailwind; valuation at 13x fwd P/E is exceptional for AI data center power inflection."
+      }
     },
     {
       "ticker": "BE",
       "company": "Bloom Energy Corp",
-      "overall": "HOLD",
+      "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 4,
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
-          "note": "FY2024 revenue ~$1.1B (+43% YoY); solid-oxide fuel cell order backlog strong but execution lumpy; gross margin 32%; still not profitable (net loss $200M)."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
-          "note": "Solid-oxide fuel cell IP early-stage; competition from fuel cells + battery vendors (Plug Power, Ballard); customer qualification cycles long (2–3 years); not yet defensible moat."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
           "verdict": "CAUTION",
-          "note": "KR Sridhar's vision on hydrogen/SOFC strong but execution inconsistent; R&D spending high (15% of revenue); profitability roadmap opaque; capital allocation aggressive."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "FAIL",
-          "note": "Gross margin 32% (improving from 25%); operating margin -25% (net losses); path to profitability unclear; unit economics not yet positive."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
-          "note": "Operating cash flow negative $300M (2024); capex $200M (manufacturing ramp); net cash $500M (burning at $200M annually); capital raise likely within 18 months."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
-          "verdict": "FAIL",
-          "note": "Technology execution risk (SOFC deployment unproven at scale); hydrogen infrastructure immature; competition from battery + hydrogen vendors; cash burn runway 2–3 years only."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "At $307.88, up from 52w low $17.01 (lottery ticket move, +1,576% YTD); 52w high $318.49 suggests peak; valuation extreme (100x+ revenue for -25% op margin); user thesis to wait for 2 consecutive earnings beats prudent."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "BE is a speculative hydrogen/SOFC play with strong revenue growth (+43%) but negative margins (-25% op margin) and 2–3 year cash runway; treat as lottery ticket, add only after earnings beats."
+      }
     },
     {
       "ticker": "ANET",
       "company": "Arista Networks",
-      "overall": "BUY",
-      "overall_color": "#3ddc84",
-      "score": 6,
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "FY2024 revenue ~$6.8B (+32% YoY); cloud routing TAM expanding with 800G AI networking cycle; hyperscaler capex on AI cluster networking inflecting."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Cloud networking software (EOS) defensible; 800G/1.6T switch leadership; hyperscaler infrastructure lock-in (switching costs high); white-box Linux standardization moat."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Jayshree Ullal's product roadmap on 800G/1.6T execution flawless; gross margin management strong; R&D allocation optimal (15%); shareholder returns disciplined."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Gross margin ~65% (premium switch vendors); operating margin ~28%; software/subscription mix improving margins; pricing power on 800G."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow $2B+ (2024); capex minimal ($200M); net cash $3B+; FCF conversion >40%."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Customer concentration (hyperscalers 80%+ of revenue); 800G adoption execution risk (supply chain delays); competition from Juniper/NVIDIA (after Mellanox); tariff risk on switches."
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
-          "verdict": "PASS",
-          "note": "At $148.59, flat vs avg cost $147.02; YTD +60.5%; valuation 50x fwd P/E fair for 32% growth; 800G upgrade cycle just starting; dips below $130 ideal for DCA."
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
-      },
-      "summary": "ANET is the 800G AI networking pure-play with every hyperscaler GPU cluster requiring its switches; valuation 50x P/E justified by TAM inflection; flat entry point ideal for $150/month DCA."
+      }
     }
-  ]
+  ],
+  "fundamentals_verified": false,
+  "refresh_warning": {
+    "code": "fundamentals_unverified",
+    "message": "AI summary with linked sources; financial figures are not independently reconciled."
+  }
 }
