@@ -1,8 +1,8 @@
 {
   "feed": "prices",
   "status": "ok",
-  "last_attempt_at": "2026-09-16T05:03:42.406240+05:30",
-  "last_success_at": "2026-09-16T05:03:43.647143+05:30",
+  "last_attempt_at": "2026-09-16T23:22:38.758941+05:30",
+  "last_success_at": "2026-09-16T23:22:40.967532+05:30",
   "error": null,
   "source": "yahoo; yahoo+local-ta+rules",
   "outputs": [
@@ -10,5 +10,5 @@
     "actions.json",
     "analysis.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/35036202731"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/35130866700"
 }
