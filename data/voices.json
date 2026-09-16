@@ -1,7 +1,49 @@
 {
-  "updated_at": "2026-09-16T23:13:09.887803+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-09-17T01:53:03.273486+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Mark Zuckerberg",
+      "role": "CEO",
+      "org": "Meta Platforms",
+      "cat": "AI strategy",
+      "date": "2026-09-16",
+      "published": "2026-09-16T13:39:53Z",
+      "themes": [
+        "AI development pace",
+        "AI safety",
+        "industry coordination"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Zuckerberg opposed calls for a coordinated industry-wide slowdown in AI development and distanced Meta from that approach.",
+          "k": true
+        }
+      ],
+      "src": "https://apnews.com/article/2f4eab05b1e931456d00ebc2fe93c989",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Brad Gerstner",
+      "role": "Founder and CEO",
+      "org": "Altimeter Capital",
+      "cat": "AI equities",
+      "date": "2026-09-16",
+      "published": "2026-09-16T14:17:57-04:00",
+      "themes": [
+        "AI safety debate",
+        "AI stock selection",
+        "Qualcomm"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Gerstner said recent negativity about AI was being amplified for political reasons and discussed two AI stock picks; the report also highlighted the need for Qualcomm to demonstrate actual AI-related sales.",
+          "k": true
+        }
+      ],
+      "src": "https://finance.yahoo.com/technology/ai/articles/brad-gerstner-says-latest-negativity-141757194.html",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -9,7 +51,7 @@
       "cat": "CEO",
       "date": "2026-09-16",
       "published": "Tue, 15 Sep 2026 22:28:14 GMT",
-      "source_name": "NVIDIA Blog",
+      "source_name": "blogs.nvidia.com",
       "signal_type": "source-linked headline",
       "relevance_score": 13,
       "themes": [
@@ -18,7 +60,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): ‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce - NVIDIA Blog",
+          "t": "Headline signal (not a direct quote): ‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce - blogs.nvidia.com",
           "k": true
         }
       ],
@@ -117,42 +159,21 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-09-16",
-      "published": "Tue, 15 Sep 2026 19:08:00 GMT",
-      "source_name": "Fortune",
+      "published": "Wed, 16 Sep 2026 05:54:42 GMT",
+      "source_name": "Teslarati",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Elon Musk, the world’s richest man, says he’s living in an Airstream trailer to oversee xAI’s biggest expansion yet - Fortune",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ2lPcjlIZlRaMm9YTXh6NGFRYmRyVHF4Z0xPamg1QXZHbV9DdGFxb2RONEdOLUNuQnFVNE9sb0hhLVJVeUg1WlVQeERObW1yQkdHdkFOZXVEOWd4c3BhalhFbzVDSmV2OGZqWGxzYmtlZTgwRDlkLWJrT3d2WnJTUk40WWg2a0VTWWFGczRELWo0WjkwSWdyTmJwMk02RXFzSk9PQmlrdFpQb0lyWFMwSnJfQ2tVRWhqTWV1Y1pUTllwbDh6LXNBWHlTMnZ6VUFwcTI4N0NrLTdMd0Fhcnc?oc=5"
-    },
-    {
-      "name": "Mark Zuckerberg",
-      "role": "CEO",
-      "org": "Meta",
-      "cat": "CEO",
-      "date": "2026-09-16",
-      "published": "Wed, 16 Sep 2026 01:56:00 GMT",
-      "source_name": "CNBC",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 11,
       "themes": [
         "#AI",
-        "#META"
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta CEO Mark Zuckerberg sides with Nvidia's Huang on AI safety and slowdown debate - CNBC",
+          "t": "Headline signal (not a direct quote): Elon Musk gives his most telling Tesla-SpaceX merger conversation yet - Teslarati",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQamJwVnJmQjRaczZCX3ZrNkktNHJ2cWtsZk13cGZsZWwwaVJPMHRhVmtiZjY1OXNkclU4RmN1OElzRFdRSm9DeWF3dHFtSjE3Q3BIMG8yX25vdkhJdXJJQUI5OTRma2pFRjViVnlfekZMMXl5X2RnRVd5VmxEY2FNbWdUaHJJMTRwTk5pSTFMOF80SjRQVVp2SG5n0gGfAUFVX3lxTE9BaENab2dUdmlkWGJ2TzJVT0V2eDRLakRpdFh0c05zb1lkQ29hMW5XcWw1VU1vdmJMSmtVcFp1Y1JjSXh6SWZkOEF4YXpZMWlCR3c4b0VnbW9aX1c4NG9OWjYwVkE4NHh1UENkVVdRdlBIbGVJYl96TEFNdC1zS05Lbkw3NGIxTnF3QmZhWlVhenU4am9zak16QUM3bDJMNA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQV1B5NjFGUFlsTWhzS05WZjE5c0c0TmdiTzlhbmEwbXZtWV85S3pXY2N0bnI1YVoxLVJMTDVaM0lRTU1KQlRjNm9yOUxxR3Qzb21UZlFiN0gxNWkxXzhPTEtuUkgwVW43TVJLZWtxYkk4V3lOeC01U0MteWF6Mk5rUTRkVUxQSFEtYzBCZkpaTG1fZUxET0k0bjNOdDM?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -175,28 +196,6 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNT3JRcG9pOVl4c1VTXzdzdlliQzhKd3JFUzFDT19PRkZLeXJoTnBkUl9pNXVSOUxfRTgtODlTQ290alExaXZrS2o4eklGM00ydFNCaS1kd1YtNWhOdXo3aXVkNXUycFV0VzRmdktOOS1sRDhYR2RSVG5aZ2FIcnZZaXowMmxBb2lBQ090TXY3TXJUb0wxeXJybF9RdThGMjhSZUNEYi10LXVtUTdjRU5ia1NxTDRtWkp4RGhTV2c5RkdlLUtzUGlGek5VbUlVYnpRd3YzakpydzdiM1Fna3dBONIB7gFBVV95cUxOZFVfRDVwcnZCZHptdTc3Zmx1bUtkTWJEY25BUXZZX2pkbkxvNVpSbWxqVTd6TFRSZ2JUUWktYk5wS3h1QnV5WGJoTkZKZzJEaWJSZlk0enhOQ21KUWlJWnJzNk1JbHhvRko0MWRFWkJ6R3VWSTFTQ05vUTVoZVU0Q3cybXl5QzBvNGtpcHZOd2tJOUJPVmI3OHZwSjNyU3MzbC1zdTdHVW0yZWhsYUg0X2Y0ZHBwZllOaXg4NzJFQ1hESVZPVWNMN1hBM25peUdLMmFkMzQ0YkhZMW4wb3YzYmEwRFVoRGpmVUc4MVJB?oc=5"
-    },
-    {
-      "name": "Andy Jassy",
-      "role": "CEO",
-      "org": "Amazon",
-      "cat": "CEO",
-      "date": "2026-09-16",
-      "published": "Wed, 16 Sep 2026 05:19:08 GMT",
-      "source_name": "DD News",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#AMZN"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Amazon announces $48 billion investment in India by 2030 after CEO Andy Jassy meets PM Modi - DD News",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRWtuVlM3VTdlM2t1Ml80SzVOUk1zNmR5eTJWMnNUMWo5Tl9Pck44YmxBVS1sNlBUdEZmTHp4T1RIRWU0R1NNcWFJSzAzQjY0bDVfbDVXLTZlbzRwV2tSTkN5Nlh3aVAyVlBqbENCUkdObWw2cldUeDRlU2tSN3NoRWtaYVhYc18wQ1pPM1dyOFRlWTFNX2FGeXBZZExpLUNrSUJFUUU3R3VyakJucE92ZmVRTllab0k?oc=5"
     },
     {
       "name": "Hock Tan",
@@ -225,9 +224,9 @@
       "role": "CEO",
       "org": "Intel",
       "cat": "CEO",
-      "date": "2026-09-16",
-      "published": "Tue, 15 Sep 2026 22:23:11 GMT",
-      "source_name": "Stocktwits",
+      "date": "2026-09-17",
+      "published": "Wed, 16 Sep 2026 19:43:10 GMT",
+      "source_name": "Wccftech",
       "signal_type": "source-linked headline",
       "relevance_score": 8,
       "themes": [
@@ -235,11 +234,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Reportedly Says ‘Multiple Customers’ Eyeing Foundry Tie-Up - Stocktwits",
+          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Reportedly Moves Up 14A Risk Production To Q1 2027, As The Node’s Defect Density Races Toward Target - Wccftech",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMEtERFR0eTZIdl9CTEtwT1h2aEcwUkhfUG1YaG5Tcm5uR2c1blJBY2ZlajBHR0dLdkhac1cxcFQtb0Vva2piLUxLcTFtNWJLaU9Gbm1YNTl2aFhxY01wNHM5LWRiQ3NfZG9pWmZzSFZnb0JUVzd2X3BNeWdsOHM4dUpsRzRuLVZFN1NzbWtNYXVVY01GVnlTZ3dfbTVqRkFaWDFPci10VTViTUVucVAwUzV0WG5iZ0FMZ2tIMzRNa2RicHBxZXF5bjh3SXdrNFVZQ2ZxeTdUc3M?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZkFhUFhMZ2RvZUtBWkMzSTllanZMTXR1aktnblY5aGJDRmt4MjliS0FXYkNGdC1zZFFfekg0UkJ2NHUxdXpidWg4SVlyTDcycDliNlJBSmYzTy1aSkZIOHp5QW03c2VrejBzUVYwLU1xWXJlZE9vSkd5VFliQnl2eHFEWWlERUVrb3UxMmc1WFI3V0loZmd6dVpDNFpGVXVCajltUnc2R1Fza2R3RElGM1lWamI3SzQ2UXNRV0JTMUs0dGpCNUliQVlheW5hX0pSd3lFTU1vb1XSAd4BQVVfeXFMT0F1Z1JTLVdlU0NEX0YtVDl2RWM3eDdaNk9MM3luZkNFZktwUjBHalVvSmNtX2V2eXk4WGNQc2tOOGtnZGJzUl9ZODR2d3A3V0NJU05qTGJUekxvZWUzTjdPeTlKMUpwRjg4UElfSHVWODFBREh0ZGZSb3dnLTlKRnhQdTVBeFVkdkdnTzlWa0gteTA3STVySTAxSUl3U1BFOGdva25EVUdaUzNhUjNDYkN0WHhjMzVvd0ZmLXRmQ0M0SzhCZUp2YXJNdXFSOFVqN0hCMFNMNXdpdnNvWjhR?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -312,7 +311,7 @@
       "cat": "Investor",
       "date": "2026-09-16",
       "published": "Tue, 15 Sep 2026 21:30:05 GMT",
-      "source_name": "MacDailyNews",
+      "source_name": "macdailynews.com",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -320,41 +319,16 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Rising iPhone 18 Pro lead times point to solid early demand – Gene Munster - MacDailyNews",
+          "t": "Headline signal (not a direct quote): Rising iPhone 18 Pro lead times point to solid early demand – Gene Munster - macdailynews.com",
           "k": true
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdVRsSkxPU082R1I1VjdqRXJqMldSR2dZdUFuYkFtU01QUk40eFdlbVVibEx1cUF3eGtuRTA5amcyNWtKWHFsUmFSQVlNUHh3VDNWWVFTdTlHVldCMUZWeF9kTGxwZ3FacmtYaHV6YzJLQlQxd2VocVRsYVJYRUZkLS1DUlJHRjZEeERjV2Z6WFJBY1NzVGZ6akFhZVlsb2FTdEhwaEJUeWVCa0pFcHfSAbMBQVVfeXFMTjJxQk5fTG5ZTDJFM2luWmpVX3NZT1YtQUlLQkpKV0xMU2tmd1hsTTZRVmZyc2xUUEJkbGpYWVVnaGtlZDg0SXJqQ2ZOZkZPaEFUVjl3NnpKcy00Vmh6NTdYQ1lYTURxcFN4QTFFLXZnS2tvUzhjSTNrRTFkQ3U1VUtxQUkzYVJfUUxDRnNxT2x5UGkxcnZ2TjBpcksxSTlPWWZTWDA2SDBqVmFUUXpUUnBjak0?oc=5"
-    },
-    {
-      "name": "Pierre Ferragu",
-      "role": "Senior Analyst",
-      "org": "New Street Research",
-      "cat": "Analyst",
-      "date": "2026-09-16",
-      "published": "Tue, 15 Sep 2026 21:41:13 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Pierre Ferragu Says Tesla FSD Could Be At An 'Inflection Point,' Compares It To The iPhone Playbook — 'Give Us 2 More Quarters' - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VXbFFIak5YSjF2dUZvQ2R4TTd4dFpoMmdhWm81UGFwRnZwSnZ4UkNDeG9ERmpxMjlkQWNFbE8ycmVLVnVxRkZpNmFMMmNRVldEOXVYUTlIX2JBYVAxZ1d6WktMekZfdWNjTTlMZllDcTNLcXE1SXNHVm9tQkZ5aXZiUVRtNjVnZ25NdVM3ZV9TQjlXNUFvSS1kd1NkLTF2ek1aN25FQ0RISHVHVER5R3J3aklKVlNLMHFvNFJB?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 16,
+  "fresh_signal_count": 15,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }

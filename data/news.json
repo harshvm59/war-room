@@ -1,83 +1,26 @@
 {
-  "updated_at": "2026-09-16T23:13:09.888604+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-09-17T01:53:03.274020+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "ANET",
-      "headline": "Arista Networks highlighted as Zacks Bull and Yum! Brands Bear of the Day - The Globe and Mail",
+      "ticker": "META",
+      "headline": "Zuckerberg distances Meta from calls for a coordinated approach on an AI slowdown",
       "date": "2026-09-16",
-      "published": "Wed, 16 Sep 2026 14:05:59 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTHgwRDFMMUVDUWcyRmx6Nk9MU1FkeDBiYjBhMF93YUFNbllKcnl1MDBEMWdPQ2R1QlBtWG9ma0NHMmFQdjRLejNybk9FLUUzWlVSelRoQkVGQ0trbTc0SnVkZ1pPU3llUUZVVXJ2RE85SGU0OFZZMTU2WUhDMGNsN2UxZGZyYkpNSllPYjl0T3dCWjI0Nlo4T3ZCQ1B1V2MzQVNJTURVOXo5ZDdadXR5WUQ5X01ocG9Ba2Q5aEllYWcxSVoxR3p2Z1ExTkNTVGdVZ2NibWFESkxrSXJLN3FiTE5uTXdTRGVtNEE0ZDhB?oc=5"
+      "published": "2026-09-16T13:39:53Z",
+      "summary": "Meta CEO Mark Zuckerberg pushed back on a proposal for coordinated slowing of advanced AI development, creating a differentiated signal on AI-capex and development pacing among major technology companies.",
+      "tag": "AI strategy",
+      "url": "https://apnews.com/article/2f4eab05b1e931456d00ebc2fe93c989"
     },
     {
-      "ticker": "AI",
-      "headline": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Cloudflare Hits Buy Point - Investor's Business Daily",
+      "ticker": "QCOM",
+      "headline": "Brad Gerstner Says Latest ‘Negativity’ Around AI is ‘Political Agenda’; See His 2 New AI Stock Picks",
       "date": "2026-09-16",
-      "published": "Wed, 16 Sep 2026 11:23:00 GMT",
-      "summary": "Automated RSS market signal from Investor's Business Daily. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd2FkMG42Rmh3aXFzM0xLX2hESGVCcnR6NW1MWjhiaFZjNGtST2pXOGY4dzVnUzFnQy13dHY5OGh0QzlnRjlxcmZrbEhEcGFtc00xWjY3S2g2NGZzTllfMzNMaGdWTmNfUEgyTEVRekF6aWZNLTRUOGNzcTRQVjdBb2M1c0Fia21VUTM1QWw2UXRodw?oc=5"
-    },
-    {
-      "ticker": "BE",
-      "headline": "The Cheapest Stock in the Magnificent Seven Might Be the Real AI Winner - Memeburn",
-      "date": "2026-09-16",
-      "published": "Wed, 16 Sep 2026 13:17:28 GMT",
-      "summary": "Automated RSS market signal from Memeburn. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2Y1dqQUlveFNKWjVrcVFhb2tMYm9FTHRrS05GeEVERnhoalZkT0pNRGhsT21ydWpaWGFHbE9CaEw5aHJWa1FCNmtXZHFra1hwSjdYRnFBa0VGN2l1a1JCUlNTS0tzUEJNaldCWDhFZEZNbWhK?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "What Happens To Big Tech Stocks If AI's Bet Doesn't Pay Off - Yahoo Finance UK",
-      "date": "2026-09-15",
-      "published": "Tue, 15 Sep 2026 18:24:35 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance UK. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeFRqbmNpbWhTTTRQZE9uRW5LNjAwMGdGWjVFVG9kbFl0d0FRMndLYjV3TURsVDd2empWVVFkYmdadXRGbDZQeEpISnJyN2Q5ZTZxTkkzQlZlSXg3ZVVweXNFZVRqY0ZNekdKa1ZHeW0wT0ZzaDlIRk5qdThuQ3pkSUhR?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Trump discloses 21,000 securities trades during first year in office - ABC News - Breaking News, Latest News and Videos",
-      "date": "2026-09-16",
-      "published": "Tue, 15 Sep 2026 23:06:20 GMT",
-      "summary": "Automated RSS market signal from ABC News - Breaking News, Latest News and Videos. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRXRKN3Z0andHTXp5WjRNQ2xkUjcxS2tCeHpfdG9EeFRpaGM1Q2IxZFM4akNkQm5IZkt6NnEwRFNsNUQ2VUpYaXdaQW5LZEFsNC1OcHhKNWczS0QxSDZ6RE9qbGFieUdvaHpsNldGczhQa1hTQjF2aGZiSl9wcUhlaENId0I5VWx1cGJFZ1NCM0IyY2M2LWtKRkVDX3I4WDYz0gGmAUFVX3lxTE9Dc2ZEcnpkNmxPUVphbjRJcnBpaGNsM0EyVXlsQTFwdmg3TWZXekcxSUR0cGp3RWttdU5NMkRFVkZlV280MHV1V0RQOWtrTzlLQTlRQkE5eGpXaF9Yajh2NC1ITkdqSmhYcFY2ZFlLeE9nTjFKWUdKaG12WDlVTzl3VWIxeTdJRldpOFpsbEdXM29abG1KejFLLWdnWVBBVEtXSHdtU2c?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "7 Best Cloud Computing Stocks for 2026 and How to Invest - The Motley Fool",
-      "date": "2026-09-16",
-      "published": "Wed, 16 Sep 2026 00:42:00 GMT",
-      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU3Z3RHQxaUlqZ0tvdHF5ZzlJdUdJbE5HY1RHczcxeXdUclVMRUF6bkZjMVdaMnB3d3BSZ2NyMGxYQWlvQ0NJd3ZpVW9kNVJhNTdnRU9maV9jeFRFekI5TEZLcXZzN29sQWZwN3Q1MVZBMDZ4NmtVSndDTFBxZWJiYXoyUGxEYzM4dGYyMmQxdDVTaFJ3VEhMZHVTbw?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Nvidia Just Invited a Rival Chipmaker Into Its Own Racks. Here’s Why - 24/7 Wall St.",
-      "date": "2026-09-15",
-      "published": "Tue, 15 Sep 2026 17:45:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQjRYMy02cDZ0SHZXZEdRYm1iTFBkT1FRdHdQVjEzVzhRQmczQWVjcU9ORmtfZ2FZMF9vMlROU1Qtb2NUTUNwVzRRYVFpMmdva3pWWUdZMnVCRHFBVTFkS0pITHlaVnBlTHRPN2lLMkVLWjlBUmFfU0g4M1hYS1JrdWlGRUFSWnlETzZTZFBOVTIwZThYWk1xdUV0bHRZSUphdTRSd01SSzNGamlvYTNv?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Top \"Magnificent Seven\" Picks for Patient Long-Term Investors - The Globe and Mail",
-      "date": "2026-09-16",
-      "published": "Wed, 16 Sep 2026 06:59:49 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOV3JIbl9PdmprWlF0Qk1fSEVMN1ZwZVd4bDZHcFFtZnlnSUN5ekpxaGgwV1N5XzNIOXljaWl0LVk1RjNlcXZXbFFXVkJldE9Rb3ZKY3lLLW1tYTFqZk9qb0FNVUh3S0MwUnYwUjRWYnBtS3dLejVRUERqeEpTVzBpZDBwUnQxUVBRaGdwX2FBTnVBbDlWaEluM1lPbmNKYjFiaDgxZVBiMGpISXR4WG12bjBHbUFwWnlVNnkzbFlibDhaMkNodGwxOXBkdGdNQUZsVEtORw?oc=5"
+      "published": "2026-09-16T14:17:57-04:00",
+      "summary": "Gerstner argued that some AI concerns were exaggerated and discussed AI stock opportunities; the report said Qualcomm would need to show real AI sales to gain investor credit against Nvidia and hyperscaler-built chips.",
+      "tag": "AI equities",
+      "url": "https://finance.yahoo.com/technology/ai/articles/brad-gerstner-says-latest-negativity-141757194.html"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
