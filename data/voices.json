@@ -1,36 +1,15 @@
 {
-  "updated_at": "2026-09-16T01:54:40.318160+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-09-16T14:17:32.685511+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Dario Amodei",
-      "role": "CEO",
-      "org": "Anthropic",
-      "cat": "AI policy and risk",
-      "date": "2026-09-15",
-      "published": "2026-09-15T00:00:00Z",
-      "themes": [
-        "frontier AI",
-        "safety",
-        "development pace"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Amodei argued that frontier-AI progress should be paced more cautiously so safety, alignment and evaluation work can keep up.",
-          "k": true
-        }
-      ],
-      "src": "https://stockhitter.com/news/ai-stocks-selloff-september-14-2026",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-09-15",
-      "published": "Tue, 15 Sep 2026 02:15:00 GMT",
-      "source_name": "foxbusiness.com",
+      "date": "2026-09-16",
+      "published": "Wed, 16 Sep 2026 00:20:39 GMT",
+      "source_name": "TechCrunch",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -39,75 +18,77 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Trump calls Nvidia CEO Jensen Huang during summit, dismisses AI fears as 'hoax' - foxbusiness.com",
+          "t": "Headline signal (not a direct quote): We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says - TechCrunch",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVkU4djhYWHladGZiY0N6amVYeHA5RmVsTTJ2NFZoRThpaUhaMjhXTElKQUVoMzlZTUtxYXRnLV80Zmp3NlNvNVB5TngtUmdveS1tVjVLZ2phblF5d050RnFnQWdhdmVBTWt2VlJ2N0Y5V05qN2Q1elJQdTgzMDNmUzNXNkhza3hHaUtySWwxb25raDBsTXc4dWg5NkpnTGtXQlg5eDZMOXhLenVGbzM5ekJ30gG3AUFVX3lxTE1WN2tTRGx1Tnp3N0xULUdhUFBmUTJIUjA0cEJ1a1ROd09GTU1hdExMeXg4a1NTU2pFZDdpeC1ucS1HYkphRFlhWjR1aUhyel9QWTRsVDU4UXhUb3BwOExkLUVMUnlNNXdwb2M5dUVxbUZLbllqVjdDQXRnQjRUTEk2WVZrc1JHWG9oRDR1QWo4X0dnQTZGZWFtSFd2TC1SYkJ3MlN0LVBKT3NJTkZQZm9KR1U3R01XZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW5yQnNCZkM1c1JRdjA5eFNnTnV4d0dfa2xPcWNrcGFwZ3Z0eTR1UUlWRFhtMlBKU0JfNVdnU1ZzV25Ea282aXhfZ3BkLXVnZ1pHbTIxQkI1enlyMmh6RldUNllKUkhGNUtDZVJMU3JFaVQzaGtVN29zQWZMOTMwYXc1bjFsNnJ5YVVadGtmN29RTENOSDdOcWREY3V3eTUxS1dIOEEtdXJjdw?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-09-15",
-      "published": "Tue, 15 Sep 2026 16:20:00 GMT",
-      "source_name": "fortune.com",
+      "date": "2026-09-16",
+      "published": "Wed, 16 Sep 2026 06:57:32 GMT",
+      "source_name": "BBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 15,
       "themes": [
-        "#AI"
+        "#AI",
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman on the burden of leading OpenAI amid AI safety concerns: ‘You get used to anything’ - fortune.com",
+          "t": "Headline signal (not a direct quote): OpenAI's Sam Altman says world 'right to be afraid' but 'should trust' AI firms - BBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15S2MtbzZ5RndiMVNwZWpsOGhpdlRuWTZub0FyVjVEUkg2Y0c0Q0NoeExNeDZNSGlhd0RNUTVpR1l6Z0lWeGpnWlhuRUszRDQ4bFJwcUMwRVVVZlotV3Bsd0RUaXBzUTQ3MHMtOEYxT2JuVGptaFl4SDBpOWJGdW8?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlMUZ1NWNqazRyUWpPazM4OTJxTHFvNWdDYzZmSjh0Q3lJb0lDa0d1S1ZISG9CVlBSeEpheUN6ZTJNTEFKaEdfN3hoc0JqM3ZOUVFqanhFanhYRkk?oc=5"
     },
     {
       "name": "Dan Ives",
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-09-15",
-      "published": "Tue, 15 Sep 2026 11:28:18 GMT",
-      "source_name": "Benzinga",
+      "date": "2026-09-16",
+      "published": "Wed, 16 Sep 2026 07:45:01 GMT",
+      "source_name": "tradingview.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
-        "#AI"
+        "#AI",
+        "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Top 3 Stocks Dan Ives Says Will Lead the Next Tech Boom - Benzinga",
+          "t": "Headline signal (not a direct quote): Dan Ives Reignites Palantir’s $1 Trillion Thesis – But Retail Sentiment Remains Bearish - tradingview.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbmJBZmY1T2EzNEhBTjZodjlfdGs4ck56RHlCNFJnYTlyVnB6U3FiZFNZVUQ1UF9TWTdSelJEU0hhejRMczV0dHdOWHZaNXU1Q1E2dGpfNUJGRnhkd01mNXdnM1p0WDU0bnkxZDFJbW5Nb0xoNTZWdUpFOVcyQlBIUmhLLWdsSk50a21CMXdQMUVFZW1MSmJXVzBqY294cXRXdzZydmg1eHhVcGJNSXZITUx3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQb3h5aWdBd3pNY2dfWkFvUHBHc09fbGN4OHJxU09QNjZsVUZ6SXhiSkNjc2d6VHo4Qi1fc0R0OWhlVkxzaHRKaENPZUxwaXR2UUgxWnNjalQtb0J6dzc4OE0tblBfWDRZSTFCeHNXQzRaejdERjlWVzVpV0N2RURiakdWUVYybzBub1ZVSGhROXFHOEU1OVVMSGZ4ZnNycFVtb2x5MmpEWGNzcDNvVW5ybmxlV2dxSjVRNzl4MkhLLUZ3cUtoLUR6T1FRZThfYnZhaHVrS3VVVjM1NktxVmc?oc=5"
     },
     {
       "name": "Satya Nadella",
       "role": "CEO",
       "org": "Microsoft",
       "cat": "CEO",
-      "date": "2026-09-15",
-      "published": "Tue, 15 Sep 2026 00:01:46 GMT",
-      "source_name": "Business Insider",
+      "date": "2026-09-16",
+      "published": "Wed, 16 Sep 2026 07:32:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella posts an internal warning to employees about AI safety - Business Insider",
+          "t": "Headline signal (not a direct quote): Satya Nadella's Microsoft Disclosed Azure Topped $100 Billion in Annual Sales for the First Time -- but MSFT Has Trailed the Market All Year. Is the Stock Still a Buy? - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLWFqOExIRHN4NFJyTlhrV0JFZmVJdXI1Tm8tbHh5NzFSc3dFZkFSZFNBczNFbnUxR0FiV0lsQUhicDUwUzE1aXN2N2pramNjOW52SXBQRXppaUJ4UGVoSmZldUpNZ2hUTHVZdUZRbS1Edzl5QzdyTTFNcjJfX29ma1FXemNWbXdoR1VrT1dPQmZSNkFmeGlxR0Fzcy0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeWs0NC1kSGxkZkZ2bnVNYXAwdzhMS3JkTlZVQ1hVOXlXMnUtZnlreFJpSEN1VGIwTWJFdk03Vmo2RGprdDk1TzRsM0lNX0NJZ2xuMkZ0d3ozeklmdDA3RURMaHNRZGZFU3VNV2Jta3JwdFc5MVRpazk4Rjl0ODRLWEF1UzMwcEE3UE9RS1RaWG5HUUtBVlVLTUFkS1B6MWM2SUJVQTJMNFk?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -125,11 +106,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su sells $48M in shares amid stron... - Pluang",
+          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su sells $48M in stock amid strong summer rally and tech insider sell-off. - Pluang",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQa2xtaHdtUzdRSEVxa2Jocm9ZdzItVVp0c3RZaXNqSE05Ym9qWExPTUwxMmRmZlAxNUFkRndTUGNGQnBTSkpTdnNPcktoQnc0TGFEWlFQWkZ3NTJ1YXpZZFZTUDJNcVVUanJuX1Q5c0tvelJCNk5jNmFBLXJWSXN4b2RTcVh5a3ozcnc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRVQ2azh5VGp0VzdpOVhLUnd1OVlRMEQ5ZHpqM0h5WUdjbmdTM0JPbmVYVjF1RWh4M0VNUVNXdElMSVViMzE3elNFY2plMks0Yi01anU5UUJleW1WS05ZbnlWRGpuZXhVZkw1ZEN1cDVvYU1mRFBGaUZYUU9zYnF2LVNOY29fSlU?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -160,7 +141,7 @@
       "cat": "CEO",
       "date": "2026-09-16",
       "published": "Tue, 15 Sep 2026 19:08:00 GMT",
-      "source_name": "fortune.com",
+      "source_name": "Fortune",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -168,7 +149,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk, the world’s richest man, says he’s living in an Airstream trailer to oversee xAI’s biggest expansion yet - fortune.com",
+          "t": "Headline signal (not a direct quote): Elon Musk, the world’s richest man, says he’s living in an Airstream trailer to oversee xAI’s biggest expansion yet - Fortune",
           "k": true
         }
       ],
@@ -180,43 +161,43 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-09-16",
-      "published": "Tue, 15 Sep 2026 19:00:00 GMT",
-      "source_name": "Cryptonews",
+      "published": "Wed, 16 Sep 2026 01:56:00 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Meta AI Predicts an Explosive End to 2026 for Bitcoin - Cryptonews",
+          "t": "Headline signal (not a direct quote): Meta CEO Mark Zuckerberg sides with Nvidia's Huang on AI safety and slowdown debate - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT3pkM2NoZ0M3MVVNU0kzcTNzcEpWbzlwZmJ2VWs0VEY5Wm1qQVBPd0tHRmN3SVF4cDhZWENKNW1TSkI1dWd5a1FlTWRrekp6ZEtIbU9RTU9PLVJDX2ZiOVVCamdEQVVFelZVVDhEakNHVWRyckhzZGg2MWs4SF9hT2dDdURhTUUyenl6bm1BOGVEN21oUGM2ajZuR0p5WXM?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQamJwVnJmQjRaczZCX3ZrNkktNHJ2cWtsZk13cGZsZWwwaVJPMHRhVmtiZjY1OXNkclU4RmN1OElzRFdRSm9DeWF3dHFtSjE3Q3BIMG8yX25vdkhJdXJJQUI5OTRma2pFRjViVnlfekZMMXl5X2RnRVd5VmxEY2FNbWdUaHJJMTRwTk5pSTFMOF80SjRQVVp2SG5n0gGfAUFVX3lxTE9BaENab2dUdmlkWGJ2TzJVT0V2eDRLakRpdFh0c05zb1lkQ29hMW5XcWw1VU1vdmJMSmtVcFp1Y1JjSXh6SWZkOEF4YXpZMWlCR3c4b0VnbW9aX1c4NG9OWjYwVkE4NHh1UENkVVdRdlBIbGVJYl96TEFNdC1zS05Lbkw3NGIxTnF3QmZhWlVhenU4am9zak16QUM3bDJMNA?oc=5"
     },
     {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-09-15",
-      "published": "Tue, 15 Sep 2026 17:52:57 GMT",
-      "source_name": "Moneycontrol.com",
+      "date": "2026-09-16",
+      "published": "Wed, 16 Sep 2026 05:54:22 GMT",
+      "source_name": "Fortune India",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai details Google’s AI efforts across health, weather and education - Moneycontrol.com",
+          "t": "Headline signal (not a direct quote): 'Improve people’s lives': Sundar Pichai outlines Google’s big AI push across health, weather and education - Fortune India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWE1kMjZialZ2U0Z5YWhaTG9TZEN3NGpkNUI2V0ZaVmZGd08yZUF2MXZBX1Q5NEpwcHdjaWxQSHZoaFp6aUp0Mm5FSnRsbFB4SVA4X2daUmNQT0c5eVlxa01MNVVIUVhJUi1RZ3YzZXZTUTUzSW5VOERnYS1uUlAwaHU4RDE3Uk1Pcjk4SEhnaHh2U0VTMkNYV3Jkazh6MnE3VU1NSnJXNUQ3WXJGUHhhSENObGJIZExLcGNrWjJUZ3d5blRvWGZuY3ByMUszSlnSAdQBQVVfeXFMT1ZXcGhKUWh4ZVFycWctYnFSTEZYZEJKYnhXLXlFel9wemF5YUM1aFQyMy1RamllN3lMZTlwbDdDenZueko1bjNOLTFLWmJJSVFDTVEtTnJrRGpjOXhFdVd2RTAzWGpVTHdPWkpFQWRvcVJFdXpEQTNuUnNvVGRtWHlZQkp0VXhtQmtnRHlLLXZISTZ4YkctZGJXV3RQZndqNGw0YnBKdVZmaDdZOXNhdmllaVpPbU9LblpDc2gwVzJ6aXZGdzJxc3dIT05LWE1hazd2Ylc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNT3JRcG9pOVl4c1VTXzdzdlliQzhKd3JFUzFDT19PRkZLeXJoTnBkUl9pNXVSOUxfRTgtODlTQ290alExaXZrS2o4eklGM00ydFNCaS1kd1YtNWhOdXo3aXVkNXUycFV0VzRmdktOOS1sRDhYR2RSVG5aZ2FIcnZZaXowMmxBb2lBQ090TXY3TXJUb0wxeXJybF9RdThGMjhSZUNEYi10LXVtUTdjRU5ia1NxTDRtWkp4RGhTV2c5RkdlLUtzUGlGek5VbUlVYnpRd3YzakpydzdiM1Fna3dBONIB7gFBVV95cUxOZFVfRDVwcnZCZHptdTc3Zmx1bUtkTWJEY25BUXZZX2pkbkxvNVpSbWxqVTd6TFRSZ2JUUWktYk5wS3h1QnV5WGJoTkZKZzJEaWJSZlk0enhOQ21KUWlJWnJzNk1JbHhvRko0MWRFWkJ6R3VWSTFTQ05vUTVoZVU0Q3cybXl5QzBvNGtpcHZOd2tJOUJPVmI3OHZwSjNyU3MzbC1zdTdHVW0yZWhsYUg0X2Y0ZHBwZllOaXg4NzJFQ1hESVZPVWNMN1hBM25peUdLMmFkMzQ0YkhZMW4wb3YzYmEwRFVoRGpmVUc4MVJB?oc=5"
     },
     {
       "name": "Hock Tan",
@@ -224,21 +205,21 @@
       "org": "Broadcom",
       "cat": "CEO",
       "date": "2026-09-15",
-      "published": "Mon, 14 Sep 2026 23:33:02 GMT",
-      "source_name": "CNBC",
+      "published": "Tue, 15 Sep 2026 11:16:35 GMT",
+      "source_name": "qz.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Generative AI will create huge value to enterprises and people, says Broadcom CEO Hock Tan - CNBC",
+          "t": "Headline signal (not a direct quote): Broadcom CEO Hock Tan defends $230B AI chip revenue target - qz.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQm9PUG5UaGtCUTBhcDQxUG1PYkJwWXlZdmF4OGVwbXJyU2VzNVpaSHJLUjNrX3RPMDY5aHlqMDRieEM5QUVqbEtMdFZ3SFBDR3JVT0V4cGRDUFA1R2gxLU1NMDU3M19qS1RNTXhfTVFpTFprNHdzWmVONUZadEJqZndMeEY1WGxBcW1LZmdLRzJaSld4ZDVCbzhCVGlHREc1Uk95R0t6b2FHYWdEME9VT1htVENEUHJERm12UlMxbHV2VnJidy1fS0lJVFQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80RlRHa3lSV2xnMnFiQnZnSWI5b0pwaTBjd2ZrcTVJNXBsTlZHT1FEdTdSSTI4a3JBS0lCMkdPbDZYQW1PYTFxWmQ2bWlNS25nZ1RXNlh2YUtZcE83dHk1bEU4VW53ZWhFTEU0aU1fYTVBRWlw?oc=5"
     },
     {
       "name": "Sanjay Mehrotra",
@@ -246,8 +227,8 @@
       "org": "Micron",
       "cat": "CEO",
       "date": "2026-09-15",
-      "published": "Tue, 15 Sep 2026 13:30:44 GMT",
-      "source_name": "socialnews.xyz",
+      "published": "Tue, 15 Sep 2026 13:45:53 GMT",
+      "source_name": "Social News XYZ",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -256,11 +237,32 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Micron CEO Sanjay Mehrotra Meets Jaishankar in New Delhi #Gallery - socialnews.xyz",
+          "t": "Headline signal (not a direct quote): Micron CEO Sanjay Mehrotra Meets Jaishankar in New Delhi #Gallery - Social News XYZ",
           "k": true
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeWIwMklaenQycWVOQm1GeEpvUnU4eGNpaG5GMlR2bDc4aF9fTmc2QVd2TTBEcU9Db3UwT2VleUQ2SEx2aGxsWUNtY3Z6b09VcGxKNzRMMU1rc19JRFc4dkpSWHQ1Y0Q4VjVDSTVVb0s3d1R6Zy1hSE80YmxvT0FERlN1ZFlOQThFUVltTkJQT1R4eWxlU1pqOHNlWFR1ZU0tOHZDcUp3?oc=5"
+    },
+    {
+      "name": "Lip-Bu Tan",
+      "role": "CEO",
+      "org": "Intel",
+      "cat": "CEO",
+      "date": "2026-09-16",
+      "published": "Wed, 16 Sep 2026 02:35:00 GMT",
+      "source_name": "finance.biggo.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Intel's Lip-Bu Tan: CPUs Meet Only Half of Demand; 14A to Enter Production in Q1 Next Year - finance.biggo.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JSDRBd1Q5S09heWt3dVVtVzN2ZzhYS0ZCZkp1dEZuMXpOX3c1WGRPZTJpUVBBczJwUVBkSXVoWkd4M3lFYmZJUmtQQW9ZQllram85QmxPSE9LS1UxS3FWU2QyQVhCU18zN0xnRWlZdUtiQnRfc2c?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -268,7 +270,7 @@
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-09-16",
-      "published": "Tue, 15 Sep 2026 19:07:00 GMT",
+      "published": "Tue, 15 Sep 2026 23:45:19 GMT",
       "source_name": "thestreet.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -289,8 +291,8 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-09-15",
-      "published": "Tue, 15 Sep 2026 14:11:00 GMT",
-      "source_name": "Investor's Business Daily",
+      "published": "Tue, 15 Sep 2026 13:47:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -298,32 +300,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Pares Crypto Stock Holdings Ahead Of Clarity Act Vote - Investor's Business Daily",
+          "t": "Headline signal (not a direct quote): Investor Cathie Wood Sells Crypto Stocks As Prices Rally - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWVpXSW9FbGJhTTdfV01vb3duWFN5Um11dWQ1ODhFZHdBWlJFbVVRaHJjN1ozdnRQVzR2VEMxUEp3eEl3eUw1QTJUQ3hPSlg0VkNJNHl6aEZya0loZkYzcy1sdm5McWNsczF2R0REN3E4WXJfb3B6ejUyOFp0YzBNcGxzcEhHRGwtajBId0FWMm5wNU9iNTBXYmZQWGhRV3FtWlVfcmJBUlFsZ0x0cURBMGNUSVRCcEM2TXdrZmZn?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ2hBbFp0T2JKbEdpRV93Y2pDZTZfX1l4aWxpLWViV05lRXhVZk9qbnFtVTBVUFZtbFlZNDFCb0ZnMWxXMHpESWhONGpsZHkyRlRLVHJZdUJKbjZaUGlQZnpRMjgyNk1CdFlmVTJBZDFOMXJKX19WQnRyeE1jX1RWVVByQVVQRUVQaEROU0pVYmxSR3lYSHpneU1MSTlhY1U?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-09-15",
-      "published": "Tue, 15 Sep 2026 13:14:54 GMT",
+      "date": "2026-09-16",
+      "published": "Tue, 15 Sep 2026 23:41:53 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 13,
       "themes": [
-        "#AI"
+        "#AI",
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Tuesday - CNBC",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang sits down with Jim Cramer - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObGF2RFZOY0dHOTRFTnpGaEppaW5nTlBxYjZKOXBUOW1iZnFValBYbjI2VTRycFB5eTBjWFctYnRXcDAwTnUwOUxmN1JKZ2NrUWVONUxOY1JOYjVFY2Q1YkRTOGI3c3BWLVhaYlhNUFNZQmNJV2YyUnZpMTBFeHdHaUFLMW04aklLd1ppZW1DMUdrSHlRcS1JVHh3ZXgxOE1P?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRXpqVi1pUXZteXJqcm5OSVBNYmJBdWZ0RHc0NEVPVHdtTWlka2dQVlRoMUJqSkZQTi1KNEVIY0o4b0xYWld6NnBnSFFIMEwtV0Y5R0ladG1ZRC1tM0EtSnl3enQ1dzRzdmdSNEltcVNlSFdnbkNmc0xXSEhac3gyVk5RQjM4NDFEdFZ0c3BHbHp5MUgzM0Fz?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -331,8 +334,8 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-09-15",
-      "published": "Tue, 15 Sep 2026 06:55:18 GMT",
-      "source_name": "Benzinga",
+      "published": "Tue, 15 Sep 2026 08:55:18 GMT",
+      "source_name": "AOL.com",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -340,11 +343,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Gene Munster Says Longer iPhone 18 Wait Times Signal Strong Demand - Apple (NASDAQ:AAPL) - Benzinga",
+          "t": "Headline signal (not a direct quote): Gene Munster Says iPhone 18 Pre-Order Wait Times Are Climbing, Calls It a 'Favorable Sign for Demand' - AOL.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZFUybUtoWGJJdlFFZlp3NElBaXVrSlRRc2pmYUR6VTkxQ1V6eExHOThkemZ2aHJLcUhwNXJjUTg1WGtWMmFCWEJ4RFRvUXFoVkhtNDZDVXFrOE5kZm5VNGd4dlItVElfR21QamhEb1VFelE3amZHc0VOM3c2Sm9lcXQzNkpFdXpYVll0UkdzMElVdl90SnJ5VVdUVExHbUFnRTQ0cg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zbmRnY0xFMWoyTEtBRGRtMl8yVmJBVG9KZDV1MUFNdkZxNjcxb0NBMkRJaE5qaWxDcVFyeExpXzVDamFEb0lQeFB1VHRPeHpRVHVwNDBMRnVqTlU2QnRRTmUtaXZfd3VHeTNUcVp3THI0QWVhZVRJZVQxRQ?oc=5"
     },
     {
       "name": "Morris Chang",
@@ -373,5 +376,8 @@
   "fresh_window_hours": 24,
   "fresh_signal_count": 17,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
