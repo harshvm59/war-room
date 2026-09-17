@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T06:06:17.656414+05:30",
+  "updated_at": "2026-09-17T06:14:10.356746+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -11,10 +11,16 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.nvidia.com/home/default.aspx?page=1",
-          "title": "NVIDIA Investor Relations",
-          "published": "2026-09-10",
-          "reporting_period": "Latest investor-relations page; quarterly period not identified"
+          "url": "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+          "title": "NVIDIA 2027 Q2 Form 10-Q",
+          "published": "2026-08-27",
+          "reporting_period": "Quarter ended July 26, 2026"
+        },
+        {
+          "url": "https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf",
+          "title": "NVIDIA Q2 FY2027 Earnings Call Transcript",
+          "published": "2026-08-26",
+          "reporting_period": "Quarter ended July 26, 2026"
         }
       ],
       "questions": {
@@ -79,9 +85,15 @@
       "sources": [
         {
           "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
-          "title": "TSMC 2Q26 Quarterly Results",
-          "published": "2026-07-16",
-          "reporting_period": "Second quarter 2026"
+          "title": "TSMC 2026 Q2 Quarterly Results",
+          "published": null,
+          "reporting_period": "Quarter ended June 30, 2026"
+        },
+        {
+          "url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+          "title": "TSMC 2026 Monthly Revenue",
+          "published": null,
+          "reporting_period": "January-August 2026"
         }
       ],
       "questions": {
@@ -143,14 +155,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://ir.tesla.com/",
-          "title": "Tesla Investor Relations",
-          "published": null,
-          "reporting_period": "Latest listed quarterly disclosures through second quarter 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -210,14 +215,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/",
-          "title": "Meta Reports First Quarter 2026 Results",
-          "published": "2026-04-29",
-          "reporting_period": "First quarter 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
