@@ -1,28 +1,49 @@
 {
-  "updated_at": "2026-09-17T23:13:34.315042+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-09-18T02:00:49.494337+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Dario Amodei",
+      "role": "CEO",
+      "org": "Anthropic",
+      "cat": "AI safety and investment risk",
+      "date": "2026-09-17",
+      "published": "2026-09-16T21:24:21Z",
+      "themes": [
+        "AI development slowdown",
+        "coordination",
+        "technology risk"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Dario Amodei has proposed slowing AI development and increasing coordination among companies and countries, signaling potential regulatory and capital-spending risks for the AI sector.",
+          "k": true
+        }
+      ],
+      "src": "https://apnews.com/article/1d9615931af28a83cb97489178e90f2d",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-09-17",
-      "published": "Thu, 17 Sep 2026 15:24:40 GMT",
-      "source_name": "Bloomberg.com",
+      "published": "Thu, 17 Sep 2026 17:52:29 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia’s Huang Expects to Sell Twice as Many Chips Next Year - Bloomberg.com",
+          "t": "Headline signal (not a direct quote): Jensen Huang says Nvidia will sell twice as many chips next year - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLVNXeF9na2NiZUZoWUhUY013THdVSUNHcFE3YnI1d185eldJeHlxYzlUMHh0VGU1Z0g2SkV3bTQ5bzVFZlNER0xKcE9yNzRTeHNhU3hQT3NsOVUxdW1OaG10YTBUaEsyX0JkWERhMDF6UklqdHZfSDNqbXBwTktzZWFvT2ZHRkloWTY5VGViZUNxN2QtRWNNRnM2Q1cxRmlhRUpuQ2ZBQVg1aHdQOFlJSw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMZUVscTltc3BSMGJoVVhPeWlDQ2JiendDa3ZsRmF4VGwzVXAtYlNfUE5vVE13OXBsT1N3MXFYdFdRd25jYkhGaFp4QXEwb0g5cXNQdFhicVl0SWlySk1JTXhoc05qd08tcmhBR2VxQU5DLTVq0gF6QVVfeXFMTXo3S3oxZXdkNml4VG1yM09rSUh4cWp4Tlh2SXdSSGZ1Q0Z4NHBPclhJdmdmbUtWTWVUQnd4YUY0N25IV204WWY1QnZISUJ6bl9ZaXVEQ0dnMU1QdHdva0dSdmVOZWctZnBQaHE0WUdBSkFDYWItM2tQTXc?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,21 +51,20 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-09-17",
-      "published": "Wed, 16 Sep 2026 20:45:04 GMT",
-      "source_name": "facebook.com",
+      "published": "Wed, 16 Sep 2026 21:32:58 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 14,
       "themes": [
-        "#AI",
-        "#BE"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Washington Post. . OpenAI chief executive Sam Altman said that the world is “right to be afraid” about rapidly advancing artificial intelligence, but that industry leaders should be trusted to ensure it is developed safely. https://wapo.st/4xo5EP7 - facebook.com",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman will attend state dinner for Trump-Xi summit in Washington - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOM3VjX0t6MlNDNmU5UkF2VXZoOFJ3Unc3OEV5b2I5cFNuQnlPb3NrUXotSlhqZnFwUzd0TWtmYkFIamc4U0FlV3B6UkRmc3l6bUpqa3pQSEJ6MnRZNjdmQ2VGSnBNSDh2N0Z6NnZDZGVsUUItMHFGZnR2NF9mT3B3S0VzN2xMb2h6MzVLZGdXNDBSTTZYcFVSSDVrc2xzUlA3eGVVd1YyUnA5UFh2UGN2NzZMa1NnYmdkSjlaMlhSOEY2cWhDYUNYYTNRakJUbnlxU0YyS2cxT2JaVl8xNUE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GR0lQTjhxMkNSSVROT1FCM3psX21vUFV0MUw0NmczNmdxM1RhUHJXT2hlV0dKN3JuaDF1SVEyNkl1UnRoUlg2UTJjOEViQTk2U25SS1I5WHZJTlNhZ0pLdWhXeXdwT3J3YXE5UW15V0o4SHds0gF6QVVfeXFMUDdHLXV6cHNEOWZwQnJObmJMbTRSWUl3Ym9hNG94Wnh3TUF1Nl9vSkRmZHE2YVZCSkRFUDRjZHR5dUt0anNsUDVvLVFDQ0d5c3JoVkZLSUhVOVI4UVhyaldwZ3ludjNEUDZyckxxNHhtWi1OMEFlV0NRdXc?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -53,7 +73,7 @@
       "cat": "Analyst",
       "date": "2026-09-17",
       "published": "Thu, 17 Sep 2026 10:01:36 GMT",
-      "source_name": "Benzinga",
+      "source_name": "benzinga.com",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -61,7 +81,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Says Kevin Warsh-led Fed Had No Alternative But to Hike - iShares 7-10 Year Treasury Bond ETF (N - Benzinga",
+          "t": "Headline signal (not a direct quote): Dan Ives Says Kevin Warsh-led Fed Had No Alternative But to Hike - iShares 7-10 Year Treasury Bond ETF (N - benzinga.com",
           "k": true
         }
       ],
@@ -95,7 +115,7 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-17",
-      "published": "Thu, 17 Sep 2026 15:46:03 GMT",
+      "published": "Thu, 17 Sep 2026 15:34:48 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -138,30 +158,31 @@
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-09-16",
-      "published": "Wed, 16 Sep 2026 18:13:00 GMT",
-      "source_name": "Fortune",
+      "date": "2026-09-17",
+      "published": "Thu, 17 Sep 2026 12:33:00 GMT",
+      "source_name": "thestreet.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 12,
       "themes": [
-        "#AI"
+        "#AI",
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg says market forces can keep AI safe without an industry-wide slowdown - Fortune",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg and Nvidia CEO weigh in on Anthropic AI proposal - thestreet.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObnQxYlR2TldmQi1OY29uVk5YYkt4ckFzZVNkWGg1RDQtSVVfb3dPV0tocHFxLVYtMnp2cHpoMEM2eUtNU0EyT2hyeVMwLXdSR1N1ZWd3VWUyZmxZQkZyX3pYZjYwZFJhSmdPZTJzalRXb21RU29PaVUyVmJaOUVzOVF2aXZTT3JXMGpZemxJeDFodw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxPak9hLW9vd2p4Z3RCQVJEbmVjdnJBeWJ0ZTVhRGRFSllIdlhyRmxRMk4tSVduYkRwWHNHZktCQjZmTXVjalJtWC1vTnFoaXRWRHE1RkNxa1BScTZyei16OHIyaUVyNk45OGxkenRubDVDS0xTU29mN3VRbkVyWGlsZHFiZXEyeGVfUGlZRjh4V1JDT2l4Z1Z3dHdvMXRmUQ?oc=5"
     },
     {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-09-17",
-      "published": "Thu, 17 Sep 2026 01:41:12 GMT",
-      "source_name": "Stock Titan",
+      "date": "2026-09-18",
+      "published": "Thu, 17 Sep 2026 18:57:00 GMT",
+      "source_name": "Currently.com",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -170,11 +191,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai (NASDAQ: GOOG) updates Alphabet stake with new stock units - Stock Titan",
+          "t": "Headline signal (not a direct quote): Nearly 90% of the Fortune 100 Now Use Sundar Pichai's Gemini Enterprise Tool. Here's Why That Adoption Rate Matters for Alphabet Investors. - Currently.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObW5nbDdrN3R0RTN2aWJIS2Y5MGlkUzBVR0hFeHpGNnA0cUt2dEJTMzlyUkxiM1M3WlFWc1BnV21VUm1Da0NYejRUOER5VmpTWWl5MFI0V1JyWF9sSUFnbkY1Uy1VNGVhbVVCS3JJRlZxRGdrUXpjT0lnVDNWcGtQSUVNd2NrWTE0eHZERUp0QmpqWjJMU3NlSW9XVE95dk5MSGhPaGF3N1lydw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeElOQ1p0T0N6QmVobEZYTFNGQjFBdVRVVzd4UEZaclhUbUZtQzFiQmZWTVN6MHU1bjQtNkUxSTBYVjJZdENhclRJWGxMV29UcEg1bDN4aHJEbHdMZS1TeF82TURrMk1HRExLVDg4ZmZHa2FhenBCOHU2VXRkVzdXOElR?oc=5"
     },
     {
       "name": "Andy Jassy",
@@ -182,7 +203,7 @@
       "org": "Amazon",
       "cat": "CEO",
       "date": "2026-09-17",
-      "published": "Thu, 17 Sep 2026 15:38:47 GMT",
+      "published": "Thu, 17 Sep 2026 16:10:00 GMT",
       "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 13,
@@ -203,22 +224,22 @@
       "role": "CEO",
       "org": "Broadcom",
       "cat": "CEO",
-      "date": "2026-09-16",
-      "published": "Wed, 16 Sep 2026 17:45:00 GMT",
-      "source_name": "The Motley Fool",
+      "date": "2026-09-17",
+      "published": "Thu, 17 Sep 2026 14:54:33 GMT",
+      "source_name": "Barchart.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Hock Tan Just Guided Broadcom's AI Revenue to Reach $230 Billion by 2028. Should You Believe Him? - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Broadcom CEO Hock Tan Says He Isn’t Worried – ‘No, Not in the Least’ – About AVGO as AI Extinction Fears Rattle Stocks - Barchart.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQU9nLXpkeUVIVk9sMnRqYndQM2RBM19nNFF3OGFNa3hVYnZDX2llRU5GTXhCUjRHWDlRVkNtLXRKbFdxalJoODhuVTVBejQwWUhYMFBLSHNJR2pXTEJucm9IdDVCY3BYX2FTdVg3ZFQzYnVlZ195ZVBEOUNPZWh2emNfbzhEZ2hzUnNaQldwNVlyUDh1aFp6dA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdlFoaXUwYWFuOFpsbHZWQkZSMVBJTmxkX0pNd2xzNFpqeWdMVTdNLWRrVks4aDBXcmxYcUhzVHVqa2xBUG56aE9SVno4aDRGckJaNDVWbWFZQ3ltQWdnRWwyR1pVamQ0QmRfUWdVSzAtQmVtZnRNcm50TkNFNjNvU2FXUVBpTW1leG1pZm1EMzNfSnQycllJNDlrRGJNUlY2SmxkdTUtSlVpdENDb1RuQS0walBoOVNFNHcwUnlWYjVCRWQ0Sm9SdUc4a0tYYkFYZnpIeXhSa1BEQlp2ZFY2SXJIaUFVc2J1MXc?oc=5"
     },
     {
       "name": "Sanjay Mehrotra",
@@ -226,7 +247,7 @@
       "org": "Micron",
       "cat": "CEO",
       "date": "2026-09-17",
-      "published": "Wed, 16 Sep 2026 22:30:05 GMT",
+      "published": "Thu, 17 Sep 2026 04:30:05 GMT",
       "source_name": "BW Businessworld",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -304,57 +325,11 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9leGVVdVlTTEJra3hyTVBpY1ZuQ0FyQkh6V0NnaE1KRmVZUHhTbGJuYlZGVldXSjl1djFfTEZ4bXYxd1U1VkRvLTVaTGRPMmlKQUhIbHFXdGxUNFBfWjB6NDExRGF0MThiMEtTQ1VNTy1QRHZmU3hFaUQyb29LQdIBgwFBVV95cUxNXzU1QlcxTTF4ZFF5UVBEbjBnZzl3dHRQV0VIVmhETWFzN24xNDRoc0R1QkM0RlowbmNJdUhwd0NxT1RnUHYzQnU5eFRYWVVWd3g4RDQ1MFpiTjExZEUwNVg1S3BURHJWZS1Tb0JDcTAxT2JpczFHQkRBVjVabWc3TkpfSQ?oc=5"
-    },
-    {
-      "name": "Gene Munster",
-      "role": "Managing Partner",
-      "org": "Deepwater Asset Management",
-      "cat": "Investor",
-      "date": "2026-09-16",
-      "published": "Wed, 16 Sep 2026 18:00:46 GMT",
-      "source_name": "Yahoo Tech",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Apple Gives Siri AI Makeover With iOS 27, Caps Usage; Gene Munster Flags 'Way to Long, 5-15 Seconds' Response Time - Yahoo Tech",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRzE4RkNOM05oVlpHQmhXNEluOXMzTjY0b1NZdnZxRmpYTWR3dVFUM1lJYkxMV05IQzdFQ2RWYWdxVTdra1BURjlfSlNBdkNBWFM4eW5QUGNhdzgteW9RdDZlQlVLek9SYzQxZ2kzZTAwUjZQZ3lFanhZdUFtSm0yOWVHME1HUVNEUUIyNWhZTEVNOWxySV90R1J4MHFwZw?oc=5"
-    },
-    {
-      "name": "Beth Kindig",
-      "role": "Lead Technology Analyst",
-      "org": "I/O Fund",
-      "cat": "Analyst",
-      "date": "2026-09-17",
-      "published": "Wed, 16 Sep 2026 18:53:13 GMT",
-      "source_name": "Beth Kindig – Medium",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI",
-        "#PLTR"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): The AI Token Boom Is Hiding a Bigger Story on Palantir - Beth Kindig – Medium",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeGJ3cnJzUTRQV3ZnSnhLZEdMZDh3NG5WUFBCWTF1eURuV3ZqM19ZRzJZZWxoUVN0ZThxek9vR3dpUmRnVHgtc1B3ZnRMYmZ5NGo0cDNYSHc3b3ppYkxVSG1KREZUa0VsNXBmc2YyRHJvaGlSWkxYblZScGlrc09FLVFxMC1kd1VMUElieVUtaXp2UEJLWENicDFLRFZNMUE?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 16,
+  "fresh_signal_count": 15,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
