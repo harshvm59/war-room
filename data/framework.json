@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T06:14:10.356746+05:30",
+  "updated_at": "2026-09-18T06:02:12.305722+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -12,15 +12,15 @@
       "sources": [
         {
           "url": "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
-          "title": "NVIDIA 2027 Q2 Form 10-Q",
+          "title": "NVIDIA Q2 Fiscal 2027 Form 10-Q",
           "published": "2026-08-27",
           "reporting_period": "Quarter ended July 26, 2026"
         },
         {
           "url": "https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf",
-          "title": "NVIDIA Q2 FY2027 Earnings Call Transcript",
+          "title": "NVIDIA Q2 Fiscal 2027 Earnings Call Transcript",
           "published": "2026-08-26",
-          "reporting_period": "Quarter ended July 26, 2026"
+          "reporting_period": "Q2 fiscal 2027"
         }
       ],
       "questions": {
@@ -77,7 +77,7 @@
     },
     {
       "ticker": "TSM",
-      "company": "Taiwan Semiconductor",
+      "company": "Taiwan Semiconductor Manufacturing Company",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
       "score": 0,
@@ -87,13 +87,13 @@
           "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
           "title": "TSMC 2026 Q2 Quarterly Results",
           "published": null,
-          "reporting_period": "Quarter ended June 30, 2026"
+          "reporting_period": "Q2 2026"
         },
         {
           "url": "https://investor.tsmc.com/english/monthly-revenue/2026",
           "title": "TSMC 2026 Monthly Revenue",
           "published": null,
-          "reporting_period": "January-August 2026"
+          "reporting_period": "2026 monthly revenue through August 2026"
         }
       ],
       "questions": {
@@ -155,7 +155,20 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://ir.tesla.com/",
+          "title": "Tesla Investor Relations Documents and Events",
+          "published": null,
+          "reporting_period": "Q2 2026"
+        },
+        {
+          "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments",
+          "title": "Tesla Second Quarter 2026 Production, Deliveries & Deployments",
+          "published": "2026-07-02",
+          "reporting_period": "Q2 2026"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -215,7 +228,20 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/",
+          "title": "Meta Reports First Quarter 2026 Results",
+          "published": "2026-04-29",
+          "reporting_period": "Quarter ended March 31, 2026"
+        },
+        {
+          "url": "https://investor.atmeta.com/investor-events/event-details/2026/Q2-2026-Earnings-Call/default.aspx",
+          "title": "Meta Q2 2026 Earnings Call",
+          "published": null,
+          "reporting_period": "Q2 2026"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -275,7 +301,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Fourth-Quarter-2025-and-Fiscal-Year-Results-2026-KEvZIMKBLS/default.aspx",
+          "title": "Alphabet Announces Fourth Quarter 2025 and Fiscal Year Results",
+          "published": "2026-02-04",
+          "reporting_period": "Q4 and fiscal year 2025"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -335,7 +368,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx?mode=light",
+          "title": "Amazon.com Announces Second Quarter Results",
+          "published": "2026-07-30",
+          "reporting_period": "Quarter ended June 30, 2026"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -515,7 +555,20 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+          "title": "AMD Reports Second Quarter 2026 Financial Results",
+          "published": "2026-08-04",
+          "reporting_period": "Q2 2026"
+        },
+        {
+          "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000121/0000002488-26-000121.pdf",
+          "title": "AMD Q2 2026 Form 8-K",
+          "published": "2026-08-04",
+          "reporting_period": "Q2 2026"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
