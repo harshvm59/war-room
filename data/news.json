@@ -1,83 +1,71 @@
 {
-  "updated_at": "2026-09-18T22:40:16.318242+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-09-19T01:24:59.279533+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "AI",
-      "headline": "These Magnificent Seven Members Still Look Cheap - The Globe and Mail",
+      "ticker": "^GSPC",
+      "headline": "Stocks Fall, Yields Rise on Triple Witching Day",
       "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 16:40:12 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRmd2em1oX2NVOW5qeV9NSGJacUdhM1RINnlzRkZzU3UxQXQ3SE1zUFF1aHNFcGx0MVVrTTg2ZzRKQ2VFYWwxOHp2dXBjRU41cVhvaGRWdDZ5SU5WX1Zxd1FOZEtNY0t3TXBzdl9lNmNta3Z0T0ZFaEk0OTRVNWVBM0laTjBMVFlpRTJNOFJqTnpoa1dZRG1wRFQ4QXo0T3pGTHlCQm5qcUVLZm93b3ViZkRzMDdqVGVWWHk0d2R6bEloY1lOVjFISWhtTTE0UQ?oc=5"
+      "published": "2026-09-18T09:13:00-04:00",
+      "summary": "U.S. stocks eased as Treasury yields rose after the Bank of Japan increased rates; elevated activity and volatility were expected because of triple witching.",
+      "tag": "Macro",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
     },
     {
-      "ticker": "AI",
-      "headline": "Here Are the Members of Congress Invested in the AI Industry - readsludge.com",
+      "ticker": "^IXIC",
+      "headline": "The Dow Is Down for a Third Straight Week and the Nasdaq Is Somehow Up",
       "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 14:28:53 GMT",
-      "summary": "Automated RSS market signal from readsludge.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT0JNM2d5RVpnMjBKVktUb1BCR1cxUlQ1Nk1EVzZCTjYyVTEtbEpUZDZuSFh4NldrX04zcjRWblM2dkhwVUE2MEhBUmJNekN6S0Ztblo1dnJjb3hMWmhhc1UwSE1keXJ2WTB2a3pFbkh3MVFFdUJvNFhORUZNbERvOVE0RUF0T2pZOEdMN2JUY2dPN0VHcE0tdngxSQ?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "3 AI Stocks Stuck in Neutral to Buy Before Their Next Catalysts Hit - AOL.com",
-      "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 15:35:00 GMT",
-      "summary": "Automated RSS market signal from AOL.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBrb0JhclpELUJpdHRSOGhuOXhfSFdxd280bk1ocmFpY0o1dEFzYUFRNnpzcEZWc3lQRFE0Mk5xTklENk1zbVJVS2JoanNYT1BSZXo2QUJ3bU9pZDNRb3Jqa1ZWVWNBZ2xQa3gwXzBWZ3RVbWFkbVB5Vw?oc=5"
-    },
-    {
-      "ticker": "AMD",
-      "headline": "Prediction: AMD’s Biggest Growth Opportunity May Still Be Ahead - 24/7 Wall St.",
-      "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 14:00:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcHlwemxjLUlwRks1N2EtbTBnM3QxckE2cjB6blRhMlhWZUhrWUNjUk52cTBPTDNNNFZLcTJCdWFwamlDU3lhQW1ReHY4Zk5KQ2l3YTFDM2FfdzRUT1U1MmxYemYwbEJZUmRubFk3SjFkMk1ENFFJVXY0eTNKNWJCTzVNWGRieEhWY3hIanVjYTNlVHpPRUlLdXF1Mmp4OXBmanZ2Q0lHZmo?oc=5"
+      "published": "2026-09-18T13:05:00-04:00",
+      "summary": "The Nasdaq was modestly higher for the week while the Dow headed for a third consecutive weekly decline; technology stocks remained supported despite expectations for further rate increases.",
+      "tag": "AI and technology",
+      "url": "https://www.fool.com/investing/2026/09/18/the-dow-is-down-for-a-third-straight-week/"
     },
     {
       "ticker": "NVDA",
-      "headline": "Jensen Huang Calls Nvidia the \"World's First and Only Growth Value Stock,\" Pointing to Its 70% Revenue Growth Forecast Next Year. Here's Why That Framing Matters for How Investors Price NVDA. - The Motley Fool",
+      "headline": "Stock Market Midday, Sept. 18: Stocks Slip, Crypto Gains",
       "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 12:56:00 GMT",
-      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN251QVBYajlFNlJ3blgtWEpTQ1FLcU9LS3F5eDFiNER5dll0a1FnSG85RnRXelBoWktpT0xBNTFRdjJkV1dkTmx6OUdrSFJja2xzbzUya3p0OVY2WDZkUEJPaVRoYUltcW5KUjlocnc1U2lySm1UZTk2NVBSSW93ampqbURUbFYxYm9md3BlbGppQ0p4QXoxVg?oc=5"
+      "published": "2026-09-18T00:00:00Z",
+      "summary": "Stocks slipped as markets assessed the possibility of additional rate hikes; AI-safety concerns remained relevant to investors and Nvidia's weekly performance was muted.",
+      "tag": "AI risk",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/09/18/stock-market-midday-sept-18-stocks-slip-crypto-gains/"
     },
     {
-      "ticker": "AI",
-      "headline": "Columbia Disciplined Growth Fund Q2 2026 Commentary (RDLAX) - Seeking Alpha",
+      "ticker": "INTC",
+      "headline": "Stock Market News for Sep. 18, 2026",
       "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 09:31:00 GMT",
-      "summary": "Automated RSS market signal from Seeking Alpha. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZzFYVU9STzctRlREeDNVbl9yQmxBZWRQa2JqaGhrZW44WjI5a05xM2gxR1k3NDhPbU5RUndPN0lyQnhOdlF2X2ZPNlJQUjVfU1YxMVgxYlIyeEpzZ09oT25LWm82UF9fSjE3alpGcEY3Qk8wMEZqYlpQLWdVNmMxZk1iS28zVjZiMTNodEdvcWcwLV9HVWkw?oc=5"
+      "published": "2026-09-18T00:00:00Z",
+      "summary": "Technology and other growth-sensitive stocks benefited from lower Treasury yields, while Intel and AMD were highlighted in the market coverage.",
+      "tag": "Technology",
+      "url": "https://www.zacks.com/stock/news/2991913/stock-market-news-for-sep-18-2026"
     },
     {
       "ticker": "AMD",
-      "headline": "AMD posts record quarter with strong data cente... - Pluang",
+      "headline": "Stock Market News for Sep. 18, 2026",
       "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 16:10:03 GMT",
-      "summary": "Automated RSS market signal from Pluang. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaGtUREx0ZGdDYkNkbEEzd251Q0txbUN4aURPUEdrWkM3VGU4TkIzbjYyRkhuN3AtUjAzSE1HbkdTUlViVmdPYllQMnlETzkzdHJyV0lUQnN1NmlJT2hUMFZzaUpQOGpUdFV2bEktTlpSd2NiMFZjeGF2OVhRRlE5cWlSMWg4UnZEVGl2Z0daOENvZw?oc=5"
+      "published": "2026-09-18T00:00:00Z",
+      "summary": "Technology and other growth-sensitive stocks benefited from lower Treasury yields, while Intel and AMD were highlighted in the market coverage.",
+      "tag": "Technology",
+      "url": "https://www.zacks.com/stock/news/2991913/stock-market-news-for-sep-18-2026"
     },
     {
-      "ticker": "AI",
-      "headline": "Goldman’s top strategist just added hard numbers to his earnings-bubble warning - Fortune",
+      "ticker": "CRWV",
+      "headline": "Tech Leads Wall Street to Higher Close as Oil Eases, Treasury Yields Dip",
       "date": "2026-09-18",
-      "published": "Thu, 17 Sep 2026 18:45:00 GMT",
-      "summary": "Automated RSS market signal from Fortune. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONUVZV1lXMGdxS1RGMnE3VzRDWldWLTFVLTAtSElmS09uY2Nfa1JDMzZpd1RnZmMtSlREcDY1WEdmRGdTaDVvUkpGcXNmN2diRzJUdWFxTEE0RHhrUGNKTG5nWGpFWVFUY0V2R0xTUUZSeERSeHFkZkxQeGk4TTdLbUwycw?oc=5"
+      "published": "2026-09-18T05:43:00+08:00",
+      "summary": "Technology stocks led a broad rebound as oil prices and Treasury yields eased; CoreWeave fell after announcing plans to raise capital through stock and convertible-bond offerings.",
+      "tag": "AI infrastructure",
+      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-tech-leads-wall-street-higher-close-oil-eases-treasury-yields-dip"
+    },
+    {
+      "ticker": "^GSPC",
+      "headline": "US Stocks Sink as Treasury Yields Post Another Session of Gains",
+      "date": "2026-09-18",
+      "published": "2026-09-18T15:23:53+00:00",
+      "summary": "U.S. equities sold off as Treasury yields rose, with the 2-year yield reaching 4.75% and the 10-year yield moving back above 5%; triple witching added potential volatility.",
+      "tag": "Rates",
+      "url": "https://www.fxstreet.com/news/us-stocks-sink-as-treasury-yields-boast-another-session-of-gains-202609181523"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }

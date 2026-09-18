@@ -1,7 +1,50 @@
 {
-  "updated_at": "2026-09-18T22:40:16.317664+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-09-19T01:24:59.278914+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Robert Pavlik",
+      "role": "Senior Portfolio Manager",
+      "org": "Dakota Wealth",
+      "cat": "Market outlook",
+      "date": "2026-09-18",
+      "published": "2026-09-18T05:43:00+08:00",
+      "themes": [
+        "rate-sensitive stocks",
+        "technology rebound",
+        "Fed rate hike"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Pavlik said investor interest was returning to market areas that had sold off in anticipation of the Federal Reserve rate hike.",
+          "k": true
+        }
+      ],
+      "src": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-tech-leads-wall-street-higher-close-oil-eases-treasury-yields-dip",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Joe Mazzola",
+      "role": "Trading and Investing Strategist",
+      "org": "Charles Schwab",
+      "cat": "Market outlook",
+      "date": "2026-09-18",
+      "published": "2026-09-18T09:13:00-04:00",
+      "themes": [
+        "Treasury yields",
+        "Bank of Japan",
+        "triple witching",
+        "market volatility"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Mazzola reported that rising yields and the Bank of Japan's rate increase were weighing on stocks during a volatile triple-witching session.",
+          "k": true
+        }
+      ],
+      "src": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -52,7 +95,7 @@
       "cat": "Analyst",
       "date": "2026-09-18",
       "published": "Fri, 18 Sep 2026 13:29:38 GMT",
-      "source_name": "TradingView",
+      "source_name": "tradingview.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -61,7 +104,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Says AI Leaders Can't 'Stop The Elevator' With Meta In The 'Ferrari Left Lane' As AI Race Accelerates - TradingView",
+          "t": "Headline signal (not a direct quote): Dan Ives Says AI Leaders Can't 'Stop The Elevator' With Meta In The 'Ferrari Left Lane' As AI Race Accelerates - tradingview.com",
           "k": true
         }
       ],
@@ -95,8 +138,8 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-18",
-      "published": "Thu, 17 Sep 2026 22:33:00 GMT",
-      "source_name": "The Motley Fool",
+      "published": "Fri, 18 Sep 2026 01:24:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -105,33 +148,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): 'You’re Liable For Your Own Actions': Palantir CEO Alex Karp Opens a Third Front In The AI Safety Fight - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Palantir CEO Alex Karp Says Anthropic Wants AI Nationalization to Simply Dodge Lawsuits - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOWREOGJEb2p3OUVVeTl4SjNtSlpsRUZSbG4zdnNYa0JfdHhkSDhIT3ZUc3Y2bFBkNjRhT29YVnJ0RS0xTGgyVm52UEw5and1SUo0Tk81ZGVTNGxweGlSU1VMN3FzSzJ6bWNBQVl3dW9vWFRzTFoyOXZ5WUx0VlpYMmF4T2dSdEhaSGlrbVRucFJLZFRCOEFscEhfMXNOaHJINWVJbUUwNzRFWDZQeTEya0hDRDF3YnY0ZS1oMUdodkNfb3Z0RWM4SVhiSzNodXowWkVlbjJIQmtrdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2JwNEdMaVo1Ti02WWRCc3U3OFRjbEhlZFAxQ0VFcFhLN3ZkdFM1R3FZWW1JRWxfMFMta09POUtjZEd3cGUzNFhRdnlVWEx0dEtRZW92V1JWclNFeE9NZDIxc1I0RUZrY3d1T2NZeWo1UHN2RmFuVGJuUG5HMGdBV3ZndVFNXzVDeFFGSHYtYk92cTA1UWc?oc=5"
     },
     {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-09-17",
-      "published": "Thu, 17 Sep 2026 17:17:00 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-09-18",
+      "published": "Fri, 18 Sep 2026 13:02:13 GMT",
+      "source_name": "Luxurylaunches",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk sends strong message to SpaceX and Tesla investors - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Worth $954 billion, the world's richest man, Elon Musk, flies around Tesla factories in a plush $70 million private jet but lives in an Airstream trailer that is smaller than the cabin of his Gulfstream - Luxurylaunches",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbVk5WnVDRlRub3NSaVMwTFhKYVRERHZoVF9oV0lKZ3lvN2FPWkE4LU1wdVp2SzZWanNIZ05pMEdmNGlFQlFIZThlTjRpeVdYemt0LXpRV1BGaUJITzZCUEdSYlVJT0tSU1kwY2g4RWhHaHdsV2xoSG1UT1BIZlpsUEZYQnlqaXFhQWdhUE1ZYUZwT1RaYUtQdHdPaw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbk4zdllBbVZLcHBubndtY2poSXRfTHE0akUwbTB6WlpKQl9VQy1kZjZrMXNXWmtwazY2MGF0UDN4VG1yQ2d1ZlVqRFFzMHgtS2RldlZYbTBHZnpZbW9RY1Vad3MzUFFKLVI0RWFYZVFtUS1WMHNvTzlmd2ZuWjZERHBQZzdORFhsU3ZwNGtYS05ibHRRbjhnX05CYkg5VTNOUkd0Tmo3NnpJWXM?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -139,43 +182,21 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 14:27:45 GMT",
-      "source_name": "GMA Network",
+      "published": "Fri, 18 Sep 2026 18:01:52 GMT",
+      "source_name": "whec.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 10,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Philippine lawmaker urges Meta probe, says Mark Zuckerberg might want to attend - GMA Network",
+          "t": "Headline signal (not a direct quote): Zuckerberg distances Meta from calls for a coordinated approach on an AI slowdown - whec.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeWxseFpSN0ZsNXBMUkxabkM2WFBocTNnc3JXQ2FWcmZULS1XYzIwVF9Lc3hNWlVhRTNWUk9kTDVmYzV5V3R5WjZMSGFrOUh2dFNmUG5fajdaTE5qTkVwZUo4T2c0ZUJHMWY0RXJNd3FqSlJPOFJ5d1JlS0FPVGtxdklucGdKRHVzc09MYVJBM1pIR1ItaTN3STlHRHg1UWpjckZfazNUeHRGVzZDZVB5d0Rlc1gyaVhHUlNKXzFFa2U3V04ya1AwU3d4dnhRaDlwRkw1d1FIc0rSAd4BQVVfeXFMT094aVlfdW9rTGRRWWpUemRnYVVwUmJpZVVId1ZkYWd6WDFSR2lHSnlCaTJ1ZzZ0Y081YTdfUXdWbm50SmVyV2dqdUdZUFRsMkpCcnphbG9aRHZSLXhfdGRpeTA3OWRBY0M3RV9OMEdScTVhWmc2OUhKYnNNUzd1YlRpSW1xOXBTdVk4RW13NXkxelh3NVVmaHJLeWZEcEVUUFA1UF9KUkRTcXZKakJ5T1hnSjRpUkVpd0kzNzlnVjhlX1RZakR4Mm5HMFVoZ0dWWE9qaXJUSVpWX2pIUXZB?oc=5"
-    },
-    {
-      "name": "Sundar Pichai",
-      "role": "CEO",
-      "org": "Alphabet",
-      "cat": "CEO",
-      "date": "2026-09-18",
-      "published": "Thu, 17 Sep 2026 18:57:00 GMT",
-      "source_name": "Currently.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#GOOGL"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Nearly 90% of the Fortune 100 Now Use Sundar Pichai's Gemini Enterprise Tool. Here's Why That Adoption Rate Matters for Alphabet Investors. - Currently.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeElOQ1p0T0N6QmVobEZYTFNGQjFBdVRVVzd4UEZaclhUbUZtQzFiQmZWTVN6MHU1bjQtNkUxSTBYVjJZdENhclRJWGxMV29UcEg1bDN4aHJEbHdMZS1TeF82TURrMk1HRExLVDg4ZmZHa2FhenBCOHU2VXRkVzdXOElR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWndmOUd6aHJpMjktN0Rrbko3QmZWY2RHR21UNnh0RlpVS0Zhc0dUeVVhSDdod2tvZm82NzdtTmVxQ29MblZNQ1BfdFRKMGlNSzlBNGxIdzJ2TVF4MWZjT19fcVUwNFk5UWRWVkpJOFgtaXFZTTNZR1FsRjRCTV9zOHR0b0xRSkptTEppN1MyRmlVMXl6anFmQ0hIRnJRc0szazNVaWpINXNVR0hSbHdZTzkxcU9rZw?oc=5"
     },
     {
       "name": "Andy Jassy",
@@ -331,10 +352,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 15,
+  "fresh_signal_count": 16,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
