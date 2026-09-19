@@ -1,50 +1,7 @@
 {
-  "updated_at": "2026-09-19T01:24:59.278914+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-09-19T13:44:26.415515+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Robert Pavlik",
-      "role": "Senior Portfolio Manager",
-      "org": "Dakota Wealth",
-      "cat": "Market outlook",
-      "date": "2026-09-18",
-      "published": "2026-09-18T05:43:00+08:00",
-      "themes": [
-        "rate-sensitive stocks",
-        "technology rebound",
-        "Fed rate hike"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Pavlik said investor interest was returning to market areas that had sold off in anticipation of the Federal Reserve rate hike.",
-          "k": true
-        }
-      ],
-      "src": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-tech-leads-wall-street-higher-close-oil-eases-treasury-yields-dip",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Joe Mazzola",
-      "role": "Trading and Investing Strategist",
-      "org": "Charles Schwab",
-      "cat": "Market outlook",
-      "date": "2026-09-18",
-      "published": "2026-09-18T09:13:00-04:00",
-      "themes": [
-        "Treasury yields",
-        "Bank of Japan",
-        "triple witching",
-        "market volatility"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Mazzola reported that rising yields and the Bank of Japan's rate increase were weighing on stocks during a volatile triple-witching session.",
-          "k": true
-        }
-      ],
-      "src": "https://www.schwab.com/learn/story/stock-market-update-open",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -72,43 +29,43 @@
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 10:45:00 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-09-19",
+      "published": "Fri, 18 Sep 2026 22:40:06 GMT",
+      "source_name": "Reuters",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman, Elon Musk and Dario Amodei want AI slowed as tech stocks tumble. Is your retirement fund overexposed? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): EXCLUSIVE: OpenAI's Sam Altman to brief UN Security Council next week - Reuters",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVDFxUDBhR0lVVzkycE5QOHlwN1JneWxrMG5nMEtCU3lmQW1VOGktVnlmUjF5VVF5QzBVQm9IU1k2d3JLWERVZ3BjSmYzZnRKaExoMm9VUnRFLURZcEljdGpZQml0NXBIak8tTkF6LUIzaTQzWWp4MkVwbzcwWEx1YjQ5Y0hHMDVtd25sUy1fYncySEls?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTUFnSGpyQWtoZEdZY3IzTTEzZ2Npd2JTc0MtVUxfMW1LeWgwX0xBWXdXVmNHQ1p0NjF6Y1pPdFl6RnNtZTZjZEZfcW5FX2tWSE1ETHZxTmQyNWFIYzJGWHNoLVJxSFZ5SFFZdklHYWZvd0RMWk4tc3FuelVyck9LWDRzMUFmY2tpNDFlVmhIbVBGV2thR2N5UjlUM2pnMFlYT0FEOWhIVzRTaDRlZnc?oc=5"
     },
     {
       "name": "Dan Ives",
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 13:29:38 GMT",
-      "source_name": "tradingview.com",
+      "date": "2026-09-19",
+      "published": "Sat, 19 Sep 2026 05:16:37 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 8,
       "themes": [
         "#AI",
-        "#META"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Says AI Leaders Can't 'Stop The Elevator' With Meta In The 'Ferrari Left Lane' As AI Race Accelerates - tradingview.com",
+          "t": "Headline signal (not a direct quote): Dan Ives Says NVDA's Recent Underperformance Is A Bump Than Anything Else — 'There's One Chip In The World Fueling The AI Revolution' - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNX3VMeFc1MzVnc2l3WVZFMkU0LUl3LXVNN3NTT1lYY3ZfcDY2VFg2U3lHYmczVDVHQ0UtRkhBcjhhN2x6N2duTWZQZmUtR2kwcVdPTWk2VFFzV1pIcVhTUWRmXzIyUmlZMU0tQWMwalAwVHl5YTdXeERnaG83T3oxSjdHNW9qRlU0TGZrRXVWNmpJeG1CS3dMbnp2cnA5N0tEanVfTzlCalNNUFExbFEwMDJmVDRsNmh1Z19rR3pwS05jRGdUMmJYVWpkQ0FVbmhuN1hvdi01N2l4YS1nWW1pR1dnbTRvTmY0RS1JNmJoWU1XNDVOQll3aDF5MA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUU5ObnlHeHY0N0VIc3ZvalRIazROX28yTGZVZ1MzYXlkUFpaSjNjUFhKc2hZMzNNUC04RktraHpBRnVVNkQtNjFwQUQ1S0JQcmpFOUpGdHZkaE1TXzRFMU5QNDdZVVdWY2RKRjV1YnNyUk42UmdmeHFNalVMakpyS3M4azdhSE1Cb296eXZnSndMZXFqSXU0WlRRNldzWTJvUUhobWIzNXU2cVpjNDB6UURWVDgtU3YxcFNmbklNR0huSkFKcklqcFp3?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -138,21 +95,21 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 01:24:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Fri, 18 Sep 2026 15:20:50 GMT",
+      "source_name": "CryptoRank",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir CEO Alex Karp Says Anthropic Wants AI Nationalization to Simply Dodge Lawsuits - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Palantir vs. Anthropic: Alex Karp Says the AI Safety Debate Is About Liability - CryptoRank",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2JwNEdMaVo1Ti02WWRCc3U3OFRjbEhlZFAxQ0VFcFhLN3ZkdFM1R3FZWW1JRWxfMFMta09POUtjZEd3cGUzNFhRdnlVWEx0dEtRZW92V1JWclNFeE9NZDIxc1I0RUZrY3d1T2NZeWo1UHN2RmFuVGJuUG5HMGdBV3ZndVFNXzVDeFFGSHYtYk92cTA1UWc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVVZYNlU4Y3RmLXVBZjc1NWJrUVB4N19fWTFPQjRHNHhUZmlpRUVXbTZiRjNBWVVFUlo1VVBJMFNsRWlsRi1GS25xMW9COG5Kb19TV2JuRnU3WGJJSWZMWkdmU21GejRVdjR4c1FwR1NyYjVHdjZka0MweXRwdGNIT2NONVpiYmE2ZGUwbks3MmFMdmx5SG8zR3VGeGlaUEdGTUtZZUYxNm1sdDJUanBHeFFKRUI?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -182,8 +139,8 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 18:01:52 GMT",
-      "source_name": "whec.com",
+      "published": "Fri, 18 Sep 2026 16:23:47 GMT",
+      "source_name": "Axios",
       "signal_type": "source-linked headline",
       "relevance_score": 10,
       "themes": [
@@ -192,55 +149,55 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Zuckerberg distances Meta from calls for a coordinated approach on an AI slowdown - whec.com",
+          "t": "Headline signal (not a direct quote): Meta AI gains momentum with Zuckerberg's agent for the masses - Axios",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWndmOUd6aHJpMjktN0Rrbko3QmZWY2RHR21UNnh0RlpVS0Zhc0dUeVVhSDdod2tvZm82NzdtTmVxQ29MblZNQ1BfdFRKMGlNSzlBNGxIdzJ2TVF4MWZjT19fcVUwNFk5UWRWVkpJOFgtaXFZTTNZR1FsRjRCTV9zOHR0b0xRSkptTEppN1MyRmlVMXl6anFmQ0hIRnJRc0szazNVaWpINXNVR0hSbHdZTzkxcU9rZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zc05ybzhoSzFCcmVYd0piLUh4Sko5S0MwSkpZUkliUWtFdG1JSDlTS1JPekE2Vjl5OVdwRG1ldm9BOUxSS0M3MFJNTktLblEwdHQxM1NTSzJUOG0yWHBQZVMxM1ZESV9WeExhVUlpSkNKUFVyV0kw?oc=5"
+    },
+    {
+      "name": "Sundar Pichai",
+      "role": "CEO",
+      "org": "Alphabet",
+      "cat": "CEO",
+      "date": "2026-09-19",
+      "published": "Sat, 19 Sep 2026 01:00:00 GMT",
+      "source_name": "The Motley Fool",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#GOOGL"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Alphabet's Ad Business Got a Lift From a Key Antitrust Ruling, Helping End Google's Worst Losing Streak in Over a Decade. Is Sundar Pichai's Alphabet Stock a Buy Now? - The Motley Fool",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYnpJZDhSRC1yR19jYU9ZdXpYbkNxZHdOSlJuNkxfRTZVVnFRMGo3Vlc2cjh1RThyNjdka0R3RjItUlNwVzdzSkRfSVJaQ0VKb19zWmhMbk1PUzRTS2xrNXJ4UDRyTWI1T0lJWW9UUENISEVURUJhR3JTMlNLSlZQZkoyeEkyRFpmUzRjRzNMYnhxT2otdmdSaw?oc=5"
     },
     {
       "name": "Andy Jassy",
       "role": "CEO",
       "org": "Amazon",
       "cat": "CEO",
-      "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 03:55:12 GMT",
-      "source_name": "eciks.org",
+      "date": "2026-09-19",
+      "published": "Sat, 19 Sep 2026 08:12:58 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 13,
       "themes": [
         "#AI",
-        "#AMZN"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Andy Jassy says Amazon’s AI-chip unit tops $25 billion run rate - eciks.org",
+          "t": "Headline signal (not a direct quote): These 15 Words From Amazon’s Andy Jassy May Eliminate Nvidia’s Biggest Risk - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VWjdRR0ZqT0N6X3ZxVTBISXRSTDFKMVhGVV9LU3BBNy02b1dhdGJKSng2VmZtcDVvbnlOSTVMNzRuQi1aX2VBejlZNGlCNWR5bnl1TVJCNV9pbXZFT1d4ZF9KNTg?oc=5"
-    },
-    {
-      "name": "Sanjay Mehrotra",
-      "role": "CEO",
-      "org": "Micron",
-      "cat": "CEO",
-      "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 04:24:16 GMT",
-      "source_name": "electronics.economictimes.indiatimes.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#MU"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Micron begins shipping memory products from Gujarat plant to global customers: Sanjay Mehrotra - electronics.economictimes.indiatimes.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQcGY5bHk1eGpiZDJVWG5rbHNrUlRnaWU5aUZDb1JUcnlPR2FQakk1VGZJTEdxRTNaZm1RTFBBeXgtX3hGMFJPXzZHXy1CRktwanRkdEI0bWhhSHpvUUxxQnlhUFoxT1hpdmtmQkZpakxfRHFCelRjSHY3eGxUeV9BSE5KYU01SWFLVWFTOE93S0szMlNJQnZTb1BuejBVYzJPVTNtVEN0cmNYM1hGNVk0MDI4UzFIeEZIaFNNV1ZXdmNhdUd6S3N6bWVVM0JyTjhFbTd5NnNEbHBpNjZvS3BCbVotTlVlMEhNNU9Bb0R5S1hsTjZFLVNQQ2RENnVvOHJHZDVybFIxZ25KWGfSAYYCQVVfeXFMTlBrYVI4WnEwbGNtbjEydzAxeVJHWnlFSlZ6RG5udW4xQUx5czFOTjg2bWo0YjVHLWpBakRsUWh3cTIzMnNURFFBa1JUN2hPc251MGFSZ2h1M1NDdXloMmREV09CcG5QRzhWRHRkWkYzdzZNRDZVWkV0MWQ5N0pJT3pQTDRqa3VJOGV1VmJEVkdobk5yMGdJWktVX1M5enFNV0ZhTFVZODlycVlSZUx4bXJYamN6ZVNvNzhMX1AyZnVFVjhMN0JyeTd4RTl4MzhNeFp0TFlDbDdXb055NnRsXzQwd1JzaWFEMGhQbzVWVExnWGZ0azhZcjEtZldUdlYtaFg4OVB0UQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkgyU2xWV0p2WEs2bmpiZXZrR0oySGJxelh4Umd5Q0hjQ1pIS2IwYWtFcHA1TC1NZ2xkWVhDVUVILVo0ekszS0V5UnhhNDlFdy03NHdRUHg2N2F3TGxseWVBMGJLeDhtNm5ybW9FWGI2Q056aWE1UXVZWW00ekpJNDhkeXZhckNlVlgxU2NLUFNvcDFqYUdqNU1kY18yVWNVb081ak9xT0dGWTB1WUNXblVZUndGMEdPRlE?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -268,21 +225,21 @@
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-09-18",
-      "published": "Fri, 18 Sep 2026 05:37:00 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-09-19",
+      "published": "Sat, 19 Sep 2026 06:28:34 GMT",
+      "source_name": "finance.biggo.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): CRWV Stock Rebounds From 1-Month Low — Cathie Wood’s ARK Bets $19M As Retail Favors CoreWeave Over Nebius - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood's ARK Invests $19 Million in CoreWeave as AI Cloud Stock Rebounds - finance.biggo.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZXZCRXFMNmNfS0xHYVJwbmRsQmE1dU9xWnlxdWR4YTkwUlRIRGVKQ1hTVzdBcXY5SE5BRy1Wek9YbTFhN2djSW16V050eEpjdUQ5bU1SU0FlaGFNRXo3SUhPOThTSElPelJqN29TbExxMW95M0NCY2o0TVFycDJwTUJ5T2F6VldzLS1CYURKYTBnYmpOWFFz?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DTzRpSW10MjdGbHNNM0c5U3JwV0hUdldVZC1xM2dEQXF6YlNicEFuaHJ4d0IxNWRPT0VkNmJ6WkUyam9sSV83VU1FdjFJX3F6dkZzcG9ZWnJObkRKTVJTMEI4eXZmY0hUeDBmU0N1RXZHVU1YQVE?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -304,55 +261,14 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTVQyQUxlNDFlcTRvckpsdjZfbkUxSnU3aWx0eTR6QWpjbmYxbTNLY2FuckN5Qk05QW1ValVWUEtybzR5RjFLUUJUVHJTM0dNTnlicG0xRl9iYi1uQjAwQmpOclNEVm9JOW43dHVtZXhJSm9hcXMwUVUwVjNwUGF4Z1ppZ3NGYTcwV09qY3E2ZVFIa2Rkei03anlLdTEzNnM?oc=5"
-    },
-    {
-      "name": "Gene Munster",
-      "role": "Managing Partner",
-      "org": "Deepwater Asset Management",
-      "cat": "Investor",
-      "date": "2026-09-18",
-      "published": "Thu, 17 Sep 2026 22:13:57 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#TSLA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Dan Ives Says AI Capex Boom Continues 'Full Steam Ahead' After TSLA, GOOGL Earnings — Gene Munster Notes Tech Industry Still In '3rd Inning' - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNckJ1M3lOTUFSaDI4dTN2N29fcTdKTm1QVk5Pa3o5TzJnLS1wazJSQkRnbzNxOXd1R0xPZmpKM24yLU11cVUzZGJ3R1JyUExMakZFaU9wWXNnRXZpWWFUcHBSNXBFS2xoZWVSN25Vd0xaTXNSZmJTeE45R1Jibm5CMXlmc29zd2xKMm8wYldwVVFuVWxmZXBoazRJSEphUlZjNWc4RUtqejhLUWtZZ2QwM1VYQUx3eWRLWWhWaXk1V1ZxbTFzQmJHWlU2QzdTc05Nd2V0bHFwOGJCMXpJa2c?oc=5"
-    },
-    {
-      "name": "Beth Kindig",
-      "role": "Lead Technology Analyst",
-      "org": "I/O Fund",
-      "cat": "Analyst",
-      "date": "2026-09-18",
-      "published": "Thu, 17 Sep 2026 20:00:14 GMT",
-      "source_name": "Beth Kindig – Medium",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Nvidia, Palantir and the $500 Billion Sovereign AI Opportunity - Beth Kindig – Medium",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQXVNSlZmbjVISnM0dFBtNzUwZU5KVXVnak83djVfX09CNzR5VVV5Q3pNeDNsTnlfZERxX0RwSThNb21qaktCWDNtQl9CLXFPME5taHJHYjMzWGEyX2hhTTg3dnVQcTNhZWhWQTJ6VGhGQ1BFYk1DLTZ5WGRQQjZsRzh5d3lpV01jd0NSMmNkZGgtWTBpQkhTWVdOZ25CbU1CS1pr?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 16,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }

@@ -1,71 +1,83 @@
 {
-  "updated_at": "2026-09-19T01:24:59.279533+05:30",
-  "source": "openai+web_search",
+  "updated_at": "2026-09-19T13:44:26.415967+05:30",
+  "source": "google-news-rss-fallback",
   "items": [
     {
-      "ticker": "^GSPC",
-      "headline": "Stocks Fall, Yields Rise on Triple Witching Day",
-      "date": "2026-09-18",
-      "published": "2026-09-18T09:13:00-04:00",
-      "summary": "U.S. stocks eased as Treasury yields rose after the Bank of Japan increased rates; elevated activity and volatility were expected because of triple witching.",
-      "tag": "Macro",
-      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-    },
-    {
-      "ticker": "^IXIC",
-      "headline": "The Dow Is Down for a Third Straight Week and the Nasdaq Is Somehow Up",
-      "date": "2026-09-18",
-      "published": "2026-09-18T13:05:00-04:00",
-      "summary": "The Nasdaq was modestly higher for the week while the Dow headed for a third consecutive weekly decline; technology stocks remained supported despite expectations for further rate increases.",
-      "tag": "AI and technology",
-      "url": "https://www.fool.com/investing/2026/09/18/the-dow-is-down-for-a-third-straight-week/"
+      "ticker": "NVDA",
+      "headline": "Credo vs. NVIDIA After Earnings: Which AI Stock Should You Buy Now? - Yahoo Finance",
+      "date": "2026-09-19",
+      "published": "Fri, 18 Sep 2026 19:00:00 GMT",
+      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOekdjYlZOb2k3by1xMWRvb0FRMEpWd3BRRmFKMnIwUGlJSWVJaDhVTmlIY3NESXk4aW44STNITDU1bHlrWU1lVnZ5eV9PZ0pkcUpWY3QwVWhaTXY0NWRQOUVGVFNLNzZYOGVuNXltd3VucEM2bGVqSHpTdHNTWXU3X2FueThWMFRuSDJydXI4STZnNC1hSkE?oc=5"
     },
     {
       "ticker": "NVDA",
-      "headline": "Stock Market Midday, Sept. 18: Stocks Slip, Crypto Gains",
+      "headline": "Nvidia Paradox: Weak Stock, Strong Earnings - Barron's",
       "date": "2026-09-18",
-      "published": "2026-09-18T00:00:00Z",
-      "summary": "Stocks slipped as markets assessed the possibility of additional rate hikes; AI-safety concerns remained relevant to investors and Nvidia's weekly performance was muted.",
-      "tag": "AI risk",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/09/18/stock-market-midday-sept-18-stocks-slip-crypto-gains/"
+      "published": "Fri, 18 Sep 2026 18:25:15 GMT",
+      "summary": "Automated RSS market signal from Barron's. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nc3FmSlVTdEJDS0FyTmV2Y00yT0NEU3hFU0Y5cGJtNTlQTjdKaVU2SjJFaFE2dV8yYUR2dVk3b1BZb1FROG5CNV9RWnBhZlhUUUVfV3NLbm10TWhqRDM2clFqcFZvR2FSQ0kwbDZKLXpSRjNY?oc=5"
     },
     {
-      "ticker": "INTC",
-      "headline": "Stock Market News for Sep. 18, 2026",
-      "date": "2026-09-18",
-      "published": "2026-09-18T00:00:00Z",
-      "summary": "Technology and other growth-sensitive stocks benefited from lower Treasury yields, while Intel and AMD were highlighted in the market coverage.",
-      "tag": "Technology",
-      "url": "https://www.zacks.com/stock/news/2991913/stock-market-news-for-sep-18-2026"
+      "ticker": "AI",
+      "headline": "What’s Next for Stocks After the Fed Rate Hike - Morningstar",
+      "date": "2026-09-19",
+      "published": "Fri, 18 Sep 2026 21:03:12 GMT",
+      "summary": "Automated RSS market signal from Morningstar. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKYVV3N0R5TmJSNEg0Vmk2LTVBa0JneFZtUmFkRlJSamtZVnl0dkgwenR3RTRmS2dQYnVnZTFrOHR5Rkc5X205X1dZeXpZdFlGNTRZRjV4NzJ5WHpyNGphaEhnZTRpM0Vrem9vRHc0UXZhY0plcTNUZEFqLTg?oc=5"
     },
     {
-      "ticker": "AMD",
-      "headline": "Stock Market News for Sep. 18, 2026",
-      "date": "2026-09-18",
-      "published": "2026-09-18T00:00:00Z",
-      "summary": "Technology and other growth-sensitive stocks benefited from lower Treasury yields, while Intel and AMD were highlighted in the market coverage.",
-      "tag": "Technology",
-      "url": "https://www.zacks.com/stock/news/2991913/stock-market-news-for-sep-18-2026"
+      "ticker": "NVDA",
+      "headline": "Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing By Reuters - Investing.com",
+      "date": "2026-09-19",
+      "published": "Fri, 18 Sep 2026 22:04:59 GMT",
+      "summary": "Automated RSS market signal from Investing.com. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSWV0eDZZNDlOdzVJbV9jaE00ekVtVzlDeHBvRDZOby0zS2VyQUI4cGw5Y2dFTWQ2NDlSMmNNM2UtNVRHaDBWallzeEhiRm1lMUVmV2Mya1FJVDJWV0xDTllHZEFEVE1hcHNuS1BhRjVmRVk1LVNFdDhrc2hKeHQtMUd4SHVYRE1sRDhnRGlkaUJNUkpUOFNQcXh0a1NzRGRHalYySnRQTGpMWXJ6MHJiSHhQRjUydVk?oc=5"
     },
     {
-      "ticker": "CRWV",
-      "headline": "Tech Leads Wall Street to Higher Close as Oil Eases, Treasury Yields Dip",
+      "ticker": "AI",
+      "headline": "3 AI Stocks Stuck in Neutral to Buy Before Their Next Catalysts Hit - The Motley Fool",
       "date": "2026-09-18",
-      "published": "2026-09-18T05:43:00+08:00",
-      "summary": "Technology stocks led a broad rebound as oil prices and Treasury yields eased; CoreWeave fell after announcing plans to raise capital through stock and convertible-bond offerings.",
-      "tag": "AI infrastructure",
-      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-tech-leads-wall-street-higher-close-oil-eases-treasury-yields-dip"
+      "published": "Fri, 18 Sep 2026 16:15:00 GMT",
+      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPX0YyX00talNUY0lJMEl6T3M5U2JuM29peWxjWjFvT2MzZ3ZxX0FOTm9jdGhSZ2hMRFVkTzRnakpJY2FuUUpKMEdvN2hQZGo5TmdFMDBHaFNkUmJsekpWMldGTy01Nml5WWQtOVVoZ1RKTHIwczM4cU52Vk50T3ZhMEM1WC1CSV9kcm5aWXZZcW84XzFlbC1FNA?oc=5"
     },
     {
-      "ticker": "^GSPC",
-      "headline": "US Stocks Sink as Treasury Yields Post Another Session of Gains",
+      "ticker": "AI",
+      "headline": "Here Are the Members of Congress Invested in the AI Industry - readsludge.com",
       "date": "2026-09-18",
-      "published": "2026-09-18T15:23:53+00:00",
-      "summary": "U.S. equities sold off as Treasury yields rose, with the 2-year yield reaching 4.75% and the 10-year yield moving back above 5%; triple witching added potential volatility.",
-      "tag": "Rates",
-      "url": "https://www.fxstreet.com/news/us-stocks-sink-as-treasury-yields-boast-another-session-of-gains-202609181523"
+      "published": "Fri, 18 Sep 2026 14:28:53 GMT",
+      "summary": "Automated RSS market signal from readsludge.com. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT0JNM2d5RVpnMjBKVktUb1BCR1cxUlQ1Nk1EVzZCTjYyVTEtbEpUZDZuSFh4NldrX04zcjRWblM2dkhwVUE2MEhBUmJNekN6S0Ztblo1dnJjb3hMWmhhc1UwSE1keXJ2WTB2a3pFbkh3MVFFdUJvNFhORUZNbERvOVE0RUF0T2pZOEdMN2JUY2dPN0VHcE0tdngxSQ?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "Why Salesforce’s Homegrown AI Model Won’t Move the Stock Until 2027 - 24/7 Wall St.",
+      "date": "2026-09-19",
+      "published": "Fri, 18 Sep 2026 19:03:00 GMT",
+      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbDcyblRCa2ExUEVWVVFKQzdqdTNqQTE2bHFneU5lOEprSmtaZ3pRU3BhdThDc0NVcG1GWFpFQ0JYdWg4cWt4WTMwZGNNZ1NRTW1XSnVGVVVwSFhQbVB4bUkycFRBMjJma2ljb1VzQ3JQS3ZfbjZpRFZUeEs3NUpXOHdDNWRFT1R1djYyanBIS1o3blVLZjVpTG00SGp3LTlVRFIzYkljVEk2X0JhN0E?oc=5"
+    },
+    {
+      "ticker": "TSLA",
+      "headline": "TSLA Stock Slips — Investors Await Tesla’s Q2 Earnings And Semi Progress - Stocktwits",
+      "date": "2026-09-19",
+      "published": "Sat, 19 Sep 2026 00:03:27 GMT",
+      "summary": "Automated RSS market signal from Stocktwits. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbGZqanRpSnF5MFVCM0hxdHNRZks2ekt2V2pMYzNyd1JuZ1FqOExOcHIxTEExRmNGRmZMRUozMXJxZG9heFZ0WFZFZmpNVXY4a2w0NFZDajNZYTF2OWZFVUV4RDJMNW9XNlRGQ0xySVNKYzljc2J5R3lzTkZncnRma0czeWV4X200a0hiSDE0M2ZMb1FxM2lCUk41VC1UQi1nRFo3MGhiWDJoUFJOY2FMVU5kMzQ5RkoydVVIMFFWazdoLUJlRWd3eGRybjVaeFE?oc=5"
     }
   ],
-  "provider_error": null,
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
   "fresh_window_hours": 24
 }
