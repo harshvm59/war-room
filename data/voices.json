@@ -1,92 +1,49 @@
 {
-  "updated_at": "2026-09-20T14:16:43.969785+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-09-20T17:11:38.587666+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Jim Cramer",
-      "role": "Television host and market analyst",
-      "org": "CNBC",
-      "cat": "AI infrastructure spending",
-      "date": "2026-09-19",
-      "published": "2026-09-19T06:33:00-04:00",
-      "themes": [
-        "AI infrastructure demand",
-        "AI investment spending",
-        "frontier-AI safety concerns"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Cramer said he expects AI infrastructure spending to keep rising because leading AI laboratories are converting that spending into revenue.",
-          "k": true
-        }
-      ],
-      "src": "https://www.thestreet.com/investing/ai-safety-warnings-cramer-stock-picks",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "George Kurtz",
-      "role": "Chief executive officer",
-      "org": "CrowdStrike",
-      "cat": "AI cybersecurity",
-      "date": "2026-09-19",
-      "published": "2026-09-19T11:35:00-04:00",
-      "themes": [
-        "AI security",
-        "cybersecurity demand",
-        "deployed AI-model risk"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Kurtz argued that slowing frontier-model development would not remove risks from models already deployed, increasing the need for AI security products.",
-          "k": true
-        }
-      ],
-      "src": "https://www.thestreet.com/investing/stocks/crwd-crowdstrike-ceo-ai-safety-genie-out-of-the-bottle",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-09-20",
-      "published": "Sat, 19 Sep 2026 20:03:01 GMT",
-      "source_name": "INDIA New England News",
+      "published": "Sun, 20 Sep 2026 11:00:01 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang Urges India to Move Faster on AI - INDIA New England News",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZnhka05nSklWN1NXS2VIaXp4OUY0Mm1oWXZGVmNWLXJoZk5YWkdwZ1NWNC16ajg3ckUtN01CNmMxclR0VFJHbEtlejBEQ1pQQzYwVWRGbVpBSnVCRklOa0xJdlZEbVRrNG9Ya0N4SkZiT1NhMUNmS3pSQmdZaGxkYkoxamFtejZCbHNZRlRR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSnRwN284dVBRR1NqTHk3ellnNXcwQU1WRkNvR3RtdjdoZHF3Y21meXY0cGNEdmZzZUFjX2o4d3h4TG9HNXhmcFpZbkVaVkJQMEhrQ0NMTi1nRmw0ZU1OdF9JZndyUk1mcDdZS2J6STFhTVlHX1pOZ3JvR2xlUi1DQmdwcGlYMHhoWlNQSEZMUGZuazVXOUN1czVsMnBRajRoQ1HSAacBQVVfeXFMTzNvQ2VidEg5Uk9PbVdFWHdiSnJLLXZvamp3SFF6N1NlT2VGaGlEMGowMVQ3c19lNTZsdkJoWHJQSzFVLWpvbjc1RGlWVUdoRDJsbUpMOHdsU3J6eEJhVnJvTjdoU1JKdWtXQ0ktYjRUZG1QSVYyTWhyS2MyQU5qeldNVmZLbnhlVkViS2E5Zl9MXzFwVVJ6cjI2ZXVLZlEyRWMyTF83NnM?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-09-19",
-      "published": "Sat, 19 Sep 2026 08:50:00 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-09-20",
+      "published": "Sun, 20 Sep 2026 03:18:32 GMT",
+      "source_name": "Magzter",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): OpenAI’s Sam Altman to brief UN Security Council | The Business Guardian - newspaper - Magzter",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcEUtR25nQmNfelQyeVR3bmh5alhjNWxPdXhvcTlHcnNqMmNjZWNDdGVVaTBxUUV2YTJLSXVhQnJaUmdacjh0aWkyS0c1MFFjbGxMdFVKWWhIN0FuZ0N2bzVseVBqYkUxdFdfOHNjRENmck9DcGlxNmkwWWJBMThocXpNTGdZRkpnRGFQNGlEVjRWMjl6UDVqcg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONmwtTlpoeVVQRDdpakRGeDlLLXlPd0x1MXZrV3FmWHZTZkI4WUdwRjZaRFp0VElyNkZIR04xZ2huMlhrYTdSVVE0WGFyNFlkbmJ3cHpLbE15MFNQcDJXOFZ0a094TEVxOVhlRDRzVENXUFg0YUNkcHlPdU5xR2d0WmFpcC0wMVQweDE2VzNvQ3hXRl9IalFFLWZudTBpZGRmMFpUbTVWeHEyeG0tWVU4Vg?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -108,28 +65,6 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU29lMV82MWx3TmdOeWFJLU9Ib3VaaUpnM29MemJiU3J0dDRmQVdUODZmdUNZbjBUSnhYaWhJeGI1bzZra0p6ZklQUnl0OGdhR3J5MEI4TVcxVWkyM3l6Mm8wb3k3T0tOMkNEZmdNZlNldnN0NHR1S21MRlNSMFZ2WWcwNEJjVVdUWE1BZU1hQjBVUkU?oc=5"
-    },
-    {
-      "name": "Satya Nadella",
-      "role": "CEO",
-      "org": "Microsoft",
-      "cat": "CEO",
-      "date": "2026-09-19",
-      "published": "Sat, 19 Sep 2026 11:03:00 GMT",
-      "source_name": "The Times of India",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#MSFT"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella hails Seattle’s tech growth, deepening India ties at 'IDEAS4INDIA' forum - The Times of India",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOekdJU2EzV1FxaHBKZUpibEwwcE5uSXVrVEp6TlJ2T2N0Z3Z1aFJaclZqdWZoaEtjeHpFdXl4UkZmWVZNekZqTFZObzg3WUtfX25mamFMN2ZIdlNQQTM4THhEdlNwM25GRkFDZGIyaTF1dy1WVmMyQzRIZEIyelVOUXIybWNxYTVDWFhJU0lldGFqUmJPQTEzQnhTX1BrbjJDT2VhdmZNU3lOX1J1bzZlcVhsc1p1T2dDRW5UQjNHakhHU1dEX0lLeVdNSUJtdW1aT2U5WjBtWkl5TUV3X0J0cUpxWV9lZl9ETTlxRjFHY0QydWpZQXZn0gH8AUFVX3lxTE9NNHB4cVctUTVCZ2FFcjZSYzZYUDFUNzl0OXpVLWdFVGdYLXdvVzBVZllxY1E0VHVZbmM0dzd6S2JGbWpxZE91cFJuMnNZNFg3SXNUYWdvM0FVYkxNUlkzd1JxY29pSE9LVlJHaktRaUpJdnJMUHJzakU1cVJxWDdqRDcwU09rNHdvZVFjRnhwa3FOVmVXQWc4N2JQVkRSazQtWlM5QUhzejd6X0kwdUpfMnpLbG1hVklnaFZJX2RTQXFOUTRIN1g5SFpxWjh3YVh3UkVyYVYxaWF5alR2Ym90X3Rhcl9TWUdtb25HQUowcGNteEp6bERwN2R0SQ?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -179,44 +114,21 @@
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-09-19",
-      "published": "Sat, 19 Sep 2026 15:53:55 GMT",
-      "source_name": "Axios",
+      "date": "2026-09-20",
+      "published": "Sun, 20 Sep 2026 05:54:00 GMT",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#META"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta AI gains momentum with Zuckerberg's agent for the masses - Axios",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg 'confirms' technology industry is divided on AI regulation; tells OpenAI and Anthropic: Y - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zc05ybzhoSzFCcmVYd0piLUh4Sko5S0MwSkpZUkliUWtFdG1JSDlTS1JPekE2Vjl5OVdwRG1ldm9BOUxSS0M3MFJNTktLblEwdHQxM1NTSzJUOG0yWHBQZVMxM1ZESV9WeExhVUlpSkNKUFVyV0kw?oc=5"
-    },
-    {
-      "name": "Andy Jassy",
-      "role": "CEO",
-      "org": "Amazon",
-      "cat": "CEO",
-      "date": "2026-09-19",
-      "published": "Sat, 19 Sep 2026 09:08:00 GMT",
-      "source_name": "The Motley Fool",
-      "signal_type": "source-linked headline",
-      "relevance_score": 13,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): These 15 Words From Amazon’s Andy Jassy May Eliminate Nvidia’s Biggest Risk - The Motley Fool",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkgyU2xWV0p2WEs2bmpiZXZrR0oySGJxelh4Umd5Q0hjQ1pIS2IwYWtFcHA1TC1NZ2xkWVhDVUVILVo0ekszS0V5UnhhNDlFdy03NHdRUHg2N2F3TGxseWVBMGJLeDhtNm5ybW9FWGI2Q056aWE1UXVZWW00ekpJNDhkeXZhckNlVlgxU2NLUFNvcDFqYUdqNU1kY18yVWNVb081ak9xT0dGWTB1WUNXblVZUndGMEdPRlE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQRkFrTmg5cjBDQmVaOU5fTVg2Rld3OUhiOU1kalpYcWUwZk5RWGJmbnJzSVlPOWFvNUNoZW0xQUY2T24xbmVuQVpkaDNIWGl5eWdVTHBGM0NuNHJnWmVBTTFQdkZSdUdhdkpRQzdQbEY3TUlBdmtnY0gybnZFZklnclNXOGVvUUgzUEkwYVl6czI1VlBQcld5XzA0Vzc4VFZRc2RpWjZJcEtsdVRDSGhZWUpzZFNUNFhiWjAyVnRoTFFvbHNJaG9xdThmYTFvMHVsc0VyOTVaUHNLdEtnMUlJUVI0QXl6R2kwU1c2ZmN1ZUNYY3cxWmZKVWd6cE5EUHJ4Y2Z5Rm9xbFV2MHFxNkVfZjFXSEZGbzFJa0hxZEpNZDlRcm9PcXZqMGJNa9IBsAJBVV95cUxNemUwMDFLTVRLRWhxX3prOE11UnRmUTU4SkZPdW5MMUJRUzlra2dkYnQwRWJxMVpZMjBPMWNrQzduenM2c3R2Rk4xbk85bnNVTjBPVzBBX292TGc2aS1oeGw1akJWVHA3QVhhNTltZ1hlcmlKN0c0czgySGNrTW84NFZpWkZnM21STDBDeTV0cjg2d1RHZ3hnM2pRak1lRlJMa1cxX0J3NlJXYzNTa0xOcGJVZ0J1bkk4SDRJdmVJdTk1VVBRMERHelpOaUZkd3FqQ3VjSjJGQW00eENsSm8xR1VHaFNLZkdLWUtfUlE2VzJsd0w1LUxHR3ZlcjVweUV5VURETHZiZmMwWmpiR05wM3MzNGVfWWtyZXVJOE1PWUhjZER0TW8teUtnR3p3SEE0?oc=5"
     },
     {
       "name": "Sanjay Mehrotra",
@@ -225,7 +137,7 @@
       "cat": "CEO",
       "date": "2026-09-20",
       "published": "Sun, 20 Sep 2026 07:15:36 GMT",
-      "source_name": "businessworld.in",
+      "source_name": "BW Businessworld",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -234,32 +146,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Micron To Assemble Millions Of Chips In India In 2027: CEO Sanjay Mehrotra - businessworld.in",
+          "t": "Headline signal (not a direct quote): Micron To Assemble Millions Of Chips In India In 2027: CEO Sanjay Mehrotra - BW Businessworld",
           "k": true
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNenQ3SW02R2dlX3pPTHIyN2Yxa3RoNVVsNjA5d0tiVFc4UHI5MzZqclhUMUhJTUwwaVZVdHpPZDBvWG5Zdi1DeVpVM3JjRkVRemZCanZkZG53OS16U0JDeEpINXBXNWtrbEx3dHlyd0V5V2V6UU9RMkU1TnJQdGtrQloycVpMSUhpZWlVVUxXMVpJcGNDS0tBaVhWSzd0eVlBc2hBSG5TZ2tJaHcxZTRYWWVmSDQtWXpr?oc=5"
-    },
-    {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
-      "date": "2026-09-20",
-      "published": "Sun, 20 Sep 2026 01:48:43 GMT",
-      "source_name": "TVGuide.co.uk",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): How Larry Ellison Built His Empire on Bloomberg HD: full details and when it's on - TVGuide.co.uk",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUjJCdktmbnFzRDUtanN1M3JON0I2bldpR1FnNVB1SzFoeElxTHNIb1FsalhSUUNqbVJFb2dEZTdlc3BhRmZ3M2RIUExmcjhyNHk5NFYtNjQyRTJ3MDhKT3B6aktxbjhTd3lsMldPbkpOYlhiWGtLNWREU3gyRDVtaFdnVUFMemhXS3FfVjgtbWQ4Um1vVzFrNTRBdUtIZllUU1ROVUx0ZkJYZw?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -282,11 +173,36 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaXNQMS0tcGhNMzh5RFZ5ajlhYnQ5cnM2WVNRZkhXc1gyS0ZkRVphNEZCQk92YzZUX0R3eHktZzVYTk51Sk51ZzNUdVRIeVppVTZ6a3BtYzJtaXVPUVg5eXRxak1UcE43Ui0wRjNDZzAzRERKUkt2aEVKNHVscFRXclJOWW0yX3lOYWUwb20wOHRZS19FYkdzaw?oc=5"
+    },
+    {
+      "name": "Jim Cramer",
+      "role": "Host",
+      "org": "CNBC",
+      "cat": "Analyst",
+      "date": "2026-09-20",
+      "published": "Sun, 20 Sep 2026 00:33:00 GMT",
+      "source_name": "thestreet.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Jim Cramer sends a blunt message to AMD stock investors - thestreet.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSVZzM2hBOG1fZ19TZG8xUDllOERJa0ltZ2R6eTVXUzNtRnNFc21OQ19VMFBIbGlYTUh1bjFackhXazU2UEYtWF9fZFpZZnJjQkh2WXllS2gxRGgtdWlhTlRDYjJlYk9YbmhDYVJScUhZWTNjLTQ5OVI2b3VsUVMzYU5ScHhuS3ZTUFhRWm1uM0Q0T2x5NmNCcHBoVFZUTVU?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 13,
+  "fresh_signal_count": 9,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
