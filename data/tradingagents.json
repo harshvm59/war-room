@@ -378,15 +378,18 @@
     }
   ],
   "updated_at": "2026-09-15T08:18:04.141210+05:30",
-  "last_attempt_at": "2026-09-15T08:04:01.646483+05:30",
+  "last_attempt_at": "2026-09-20T14:49:37.506897+05:30",
   "engine": "TauricResearch/TradingAgents",
   "upstream_commit": "be952b8eccb49720509af544c6675233bc1f10d0",
-  "scope": "Market and fundamentals research, bull/bear debate and risk review. Full-portfolio reviews run on request; scheduled reviews rotate weekly.",
-  "budget": "Shared $8 monthly estimated guard. Full-portfolio runs retain $0.25 per new stock attempt; completed reports from today are reused.",
+  "scope": "Market + fundamentals analysts, bull/bear debate and risk review. One holding per week; manual runs share the same weekly allowance.",
+  "budget": "Shares the $8 monthly estimated guard. Each attempt reserves $1 conservatively, including failed attempts. Maximum one attempt per IST week.",
   "workflow_url": "https://github.com/harshvm59/war-room/actions/workflows/tradingagents.yml",
-  "requested_ticker": "CRWD",
-  "status": "ready",
-  "error": null,
+  "requested_ticker": "GOOGL",
+  "status": "blocked",
+  "error": {
+    "code": "weekly_research_limit",
+    "message": "This week's TradingAgents attempt is already used. Previous reports remain available."
+  },
   "requested_tickers": [
     "AMD",
     "AMZN",
