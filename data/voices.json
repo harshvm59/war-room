@@ -1,57 +1,15 @@
 {
-  "updated_at": "2026-09-22T00:23:20.624522+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-09-22T02:42:34.628344+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Michael Wilson",
-      "role": "Chief U.S. Equity Strategist",
-      "org": "Morgan Stanley",
-      "cat": "analyst",
-      "date": "2026-09-21",
-      "published": "2026-09-21T05:19:36Z",
-      "themes": [
-        "oil prices",
-        "U.S. equities",
-        "market risk"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Wilson identified a renewed rise in oil, gasoline, and refined-product prices as the principal near-term risk to the U.S. stock market reaching his year-end target.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/1f1a267bf4556c01513f506914eb6359",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Rothschild & Co. Redburn analysts",
-      "role": "Equity research analysts",
-      "org": "Rothschild & Co. Redburn",
-      "cat": "analyst",
-      "date": "2026-09-21",
-      "published": "2026-09-21T12:06:00-04:00",
-      "themes": [
-        "AI infrastructure",
-        "neoclouds",
-        "credit risk"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): The research team initiated Sell ratings on CoreWeave and Nebius and Neutral ratings on several bitcoin miners pivoting toward AI infrastructure, arguing that credit markets were signaling risks not fully reflected in AI equities.",
-          "k": true
-        }
-      ],
-      "src": "https://finance.yahoo.com/markets/stocks/articles/crwv-nbis-stocks-sell-ratings-120653484.html",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 13:39:00 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-09-22",
+      "published": "Mon, 21 Sep 2026 19:33:55 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -60,11 +18,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Just Delivered Incredible News for Nvidia Stock Investors - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jensen Huang Just Gave Nvidia Investors Great News and a Reason Why the Stock May Continue Surging in 2027 - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON01GQW1KYkMyLVhDVGJEX05kR3RiRGhqc2E2Ql9wc1EySFNObU5IU01IQXJCM1I2RE1RakJCWWhiZlo0cE5xOGN5UGt6Xy1waXVJQVV6WW5MS18tSkNBOHdVRlN0RkM4NTNwZm9UenBZWURpejJIejBYbHFWb2dZN1RPWnF5c2ppNnpKVWZOSENmRTZQVE9wZDVzOVZ2RTQ2azg0VFd3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeF9hQ0F2UU5Rc3hVRmpaTXZYR0J4aS1za0JTd1lIQVNkMG1tcXpRTGJ2OThZTHdQWjJXWU05RWV3ajBqQWFJaU82MlhzM1E4V0l1TnlybDd5SzhKYm9kclZrYnh0WE0xNXJQTEhQaGdtU19aNHNjbktET0FWMkFycHJTa0t1RTRieFhqUVRkYThzZDViVktfT1ZxUW1oSkZCVlRfazBWeW11aTRWN2oyV2RvVVctMmdLa0lZZElJSGp0eUN3TXNjMjh4RE9QZUxHUkJLRUdTT3NBbGQ2Rzl5QmVnTQ?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -72,8 +30,8 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 17:01:00 GMT",
-      "source_name": "Axios",
+      "published": "Mon, 21 Sep 2026 17:01:39 GMT",
+      "source_name": "axios.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -81,7 +39,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Ahead of Sam Altman's UN address, OpenAI proposes new ways to track AI misalignment risks - Axios",
+          "t": "Headline signal (not a direct quote): Ahead of Sam Altman's UN address, OpenAI proposes new ways to track AI misalignment risks - axios.com",
           "k": true
         }
       ],
@@ -94,16 +52,16 @@
       "cat": "Analyst",
       "date": "2026-09-21",
       "published": "Mon, 21 Sep 2026 06:27:52 GMT",
-      "source_name": "Yahoo Finance",
+      "source_name": "finance.yahoo.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 8,
       "themes": [
         "#AI",
         "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Puts Tesla-SpaceX Merger at 80% Odds: Will It Become the World's Biggest Company? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Dan Ives Puts Tesla-SpaceX Merger at 80% Odds: Will It Become the World's Biggest Company? - finance.yahoo.com",
           "k": true
         }
       ],
@@ -158,8 +116,8 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 10:45:09 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Mon, 21 Sep 2026 17:32:43 GMT",
+      "source_name": "CNBC TV18",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -168,11 +126,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir CEO Alex Karp Says Only Washington Can Cap AI Liability: 'These Businesses Have to Be Nationalized' - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Palantir CEO Alex Karp says AI giants could be forced to ‘nationalise’ over liability risks - CNBC TV18",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdWNUZllZTnJteWJSLXJHQXRXZlJ0aWg1NG1RdENoQjE0NkZTVGJvRjZLZkhzM3Zidk9wbDRfc2hScDVVR2VvU0c5SzNmczh4RE9zdjZDRGhaRjZOUmhJQUVXb3lHT2lhQmxuVzQtMVlzaVg0R01tNGJ4RUVYOXpPVHBScnMzSkhnTjBBNWl4S201SDVONnc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORkRvN2NQdl9FNzNNNzRFYnVLa2NkYWFaZmZKLUZwckpJMHdjbUYzeDJGNjFmamVWa3dueEdXM0hkNlJRc2tEOHBuUzZXT3VLT3lqeWY3Sk80V1JCRlhROUFKQ1BnVWpUaVdHQW5Tc0dza2lMN1FtMm9jbHNobzZGWDdEckFBeGhzbnNsQjRoS3BIdjJ5Tmtna2Qtc212dTNXQ0hFUXZwQ3pJWEVPcVY4czZKTEtKM3JWbzZqa0VkZlYzT0prc29nOEtRUnk5QWhMVExKUNIB2gFBVV95cUxQZVhKWHFhUzZrVHhoNEpYcnlGaVpZdFNkU0ZFOVYwT1RQdU1XNC03TXo1Yi1qcXRtNUhGQUU0VW8tckYzVndMeEtQN19MaWlRVjk3TWVOS09YdWFYZFJzclZMZEZlNWFrQVkyMHc5YWFYeU9hUXFOY1ZkeHhQQWFEVlY3Mk5CZk5zOVpYS3dmcFhlZlpydERwV1FLbFoybzhiUi0xS1FmX1dpVEk5MEJ2ZFd6bWttTy1wZ21FR2x3VFFzSHdtblZpQWh4WS03cVNtZlFlamFmZ1dXdw?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -201,9 +159,9 @@
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 06:00:00 GMT",
-      "source_name": "Tom's Guide",
+      "date": "2026-09-22",
+      "published": "Mon, 21 Sep 2026 20:51:15 GMT",
+      "source_name": "Billionaires.Africa",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -212,11 +170,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg is going to have to prove Meta doesn’t make pervert glasses — here’s what three analysts said - Tom's Guide",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg adds $25bn in a day as Meta stock jumps 12% - Billionaires.Africa",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQY2ZLeE5QbEEtaEtweGo2b1p2QWlSYmhBX2hqY3ZhS183eEFydXk5VERob1lidVlIdmhoRFpyRnpyT3RkX1RvOW1tODFsdEhpcU1SQWdUb1BuMjBJRWVKWWRtcGs2ay0wY2gzakNUTUFURGw2RDlLcndYQzFScERlQWtWTU9qcWJubjRsWXZndkpVNlNBMXp3WU1zT0d6SWdobWxQUFVxSUl3YnhMTmNXM1BpcTZKLTJreVRicGpiVGtGVnhWSE44Mm9MZER2ME92dFNtNGZnU1VsM0ZqQm1BQXZEQUpXR1plSUtz?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbk9KQmlEYWxfODhWdEpIczhaY0trQkkwU1B6SHJJakdvd01wSnFyWkVmbXdSTTZ2OGlQSnZGYnJ2eHAySHhkR2NFTnZyWmRBZEhmWUhuamVDSDZHeEFJeUJDSl9CZEludlQ4aXZ6QUpnN0NQejNYUE1xXzN1djNFNXZLV3lFSTRjc2M2dU82MjVxWmtrR01sczhSSlN6UzczcHlzbVBrNDd2MTBQRkd0czlCTDJ1SFJLNExzbQ?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -268,7 +226,7 @@
       "cat": "CEO",
       "date": "2026-09-21",
       "published": "Mon, 21 Sep 2026 10:20:00 GMT",
-      "source_name": "timesofindia.indiatimes.com",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -276,7 +234,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan on the one thing troubling his customers the most: I think in terms of the AI, the biggest challenge is... - timesofindia.indiatimes.com",
+          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan on the one thing troubling his customers the most: I think in terms of the AI, the biggest challenge is... - The Times of India",
           "k": true
         }
       ],
@@ -308,43 +266,42 @@
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 17:05:48 GMT",
-      "source_name": "Pluang",
+      "date": "2026-09-22",
+      "published": "Mon, 21 Sep 2026 18:36:56 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#BE"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood sells $60M in crypto stocks days be... - Pluang",
+          "t": "Headline signal (not a direct quote): Cathie Wood Makes Big AI Bet, Trims Bitcoin ETF - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbHpRN1RicXo1Z3lYaUdnZVR1R1pKZlNtRUtDQmZvWXREQ2dDTlJMSk9yREVuZUItZkhBS21ZZmdWUm5uVktyeGZXSHVmUTFqTUIxYUprQ256U25GVV9aQVhHbk1QcWgtUk5MZ3ZXa25VSVNCZmRQNHFlam5icS1qclJvZWhudzZ6U3JmYWVYV05tVEc3b21vclF3dWFBRjR3VF9PdA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWVhiT3hNcHhCVVQyenB3R1d5dWFBMTN1Q2RPNHJ4QkhJdVF1c2RYeUMwenVlcjZHcVF6RHlsRXFxb1VTRHJTYjd6Mlp0RFhFa2lDNWtmUUFlWElvTlBFZ2xJRTdaWWh4VTFLMW5STzF0TG5JeERYZVYyR1BFdkI0aVlkeGQxRE4yVnltb3dXcVpxUQ?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 14:49:14 GMT",
-      "source_name": "Barchart.com",
+      "date": "2026-09-22",
+      "published": "Mon, 21 Sep 2026 19:37:21 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 11,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Did Jim Cramer Just Give GameStop Stock the Kiss of Death When He Said the Turnaround Is Working? - Barchart.com",
+          "t": "Headline signal (not a direct quote): Jim Cramer on Credo (CRDO): “I Think You Can Buy the Stock” - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQenk5STBhZzQ4S19qOFQxelRZZXFfMXViRS1JcEVGV2FFWmhYV0hHMzVMS3NLcE1fVnZVSTVGei03RHFXRmIzRHhmU1ZTT3ZLYl9haFBXWUpYWk82dk1mRGQ0R2g1cU1pb1FBUWlVc0U0Xzd2QWxueGx3YlZCQ0cyNlZwa2Z3dEZMV1Zqa1lvcGp3RjJ5dm5oQ3RlTXY5SXFJdjBCYV9IaGZxdXJFbVFRN0hnVHhhZ1hBWl9RQllGMUpxckhNMmNKVDRBLTRPaG0zVExvVXpPRQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVzZSR1ZZNE5OOUJyZDhWVUZNZmxGeGVHaWhfVS1vek5vU2RTRjlYRjRDcjhSWkRRRkhuNHd4MEpSNlczR1BoSkt2WWpuZW1hakplTHZtZ2pLVV9sWnA3bEdkN3liUVRZQlZRTlhKX3Y4ZzRHU0hxRktiTFB0SGFLQ3dCaWppNWRzOWl3OGZhRXhVMmFsUFd3?oc=5"
     },
     {
       "name": "Pierre Ferragu",
@@ -371,7 +328,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 17,
+  "fresh_signal_count": 15,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
