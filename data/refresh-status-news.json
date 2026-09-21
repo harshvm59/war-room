@@ -1,11 +1,11 @@
 {
   "feed": "news",
   "status": "degraded",
-  "last_attempt_at": "2026-09-20T17:11:36.690281+05:30",
-  "last_success_at": "2026-09-20T17:11:38.587183+05:30",
+  "last_attempt_at": "2026-09-21T14:43:51.980162+05:30",
+  "last_success_at": "2026-09-21T14:44:08.416737+05:30",
   "error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+    "code": "refresh_failed",
+    "message": "Refresh failed (ValueError). See the linked workflow logs."
   },
   "source": "google-news-rss-fallback; google-news-rss-fallback+30-leader-monitor",
   "outputs": [
@@ -13,5 +13,5 @@
     "youtube.json",
     "voices.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/35508535816"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/35582073326"
 }

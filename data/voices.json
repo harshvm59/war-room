@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T17:11:38.587666+05:30",
+  "updated_at": "2026-09-21T14:44:08.417006+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -9,7 +9,7 @@
       "cat": "CEO",
       "date": "2026-09-20",
       "published": "Sun, 20 Sep 2026 11:00:01 GMT",
-      "source_name": "CNBC",
+      "source_name": "cnbc.com",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -18,7 +18,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate - CNBC",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate - cnbc.com",
           "k": true
         }
       ],
@@ -29,9 +29,9 @@
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-09-20",
-      "published": "Sun, 20 Sep 2026 03:18:32 GMT",
-      "source_name": "Magzter",
+      "date": "2026-09-21",
+      "published": "Sun, 20 Sep 2026 19:25:57 GMT",
+      "source_name": "The Daily News | Texas' Oldest Newspaper",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,54 +39,55 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI’s Sam Altman to brief UN Security Council | The Business Guardian - newspaper - Magzter",
+          "t": "Headline signal (not a direct quote): FILE PHOTO: OpenAI CEO Sam Altman Meets with Lawmakers on Capitol Hill - The Daily News | Texas' Oldest Newspaper",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONmwtTlpoeVVQRDdpakRGeDlLLXlPd0x1MXZrV3FmWHZTZkI4WUdwRjZaRFp0VElyNkZIR04xZ2huMlhrYTdSVVE0WGFyNFlkbmJ3cHpLbE15MFNQcDJXOFZ0a094TEVxOVhlRDRzVENXUFg0YUNkcHlPdU5xR2d0WmFpcC0wMVQweDE2VzNvQ3hXRl9IalFFLWZudTBpZGRmMFpUbTVWeHEyeG0tWVU4Vg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVlk2QlEyWllvdWtiUllYU3VpaTVZdHF0cTQ1RjJEV1VoRHA3QjhMUEZtbUsxcFB6eC0zQTdXOWg4SS1oREpmLU1ib3FTZTNFRlJSaFhBc0JCT0hPYVJFX1hVQ1VCbGFNU2E4MDVsSURwMkt0U2drSmlNck9YbHlLVlZPYVJibmNhZUFSTnVYUlAzNzVoaEw1OXRvalJ3akhDdUNYem1wb1NXdVpidldFSmstTkRfdlAzS3JmeUtSQ3kyMnIzT0cteGRhMU0xdXNyQzc5VzhlNHFYb2tpZDdXQ2JoRjAxMnRFWUpMbEdpYUVnMjNPZWh3?oc=5"
     },
     {
       "name": "Dan Ives",
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-09-19",
-      "published": "Sat, 19 Sep 2026 12:38:34 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-09-21",
+      "published": "Mon, 21 Sep 2026 06:27:52 GMT",
+      "source_name": "finance.yahoo.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Tom Lee Says Crypto Is A 'Huge Winner' As Banks Move Toward Tech-Style Valuations, While Dan Ives Calls AI A 'Two-Horse Race' - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU29lMV82MWx3TmdOeWFJLU9Ib3VaaUpnM29MemJiU3J0dDRmQVdUODZmdUNZbjBUSnhYaWhJeGI1bzZra0p6ZklQUnl0OGdhR3J5MEI4TVcxVWkyM3l6Mm8wb3k3T0tOMkNEZmdNZlNldnN0NHR1S21MRlNSMFZ2WWcwNEJjVVdUWE1BZU1hQjBVUkU?oc=5"
-    },
-    {
-      "name": "Alex Karp",
-      "role": "CEO",
-      "org": "Palantir",
-      "cat": "CEO",
-      "date": "2026-09-20",
-      "published": "Sun, 20 Sep 2026 00:45:31 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 8,
       "themes": [
         "#AI",
-        "#PLTR"
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Galaxy's Novogratz Says Palantir CEO Alex Karp Exposed AI's ‘Human Commoditization’ Problem - Stocktwits",
+          "t": "Headline signal (not a direct quote): Dan Ives Puts Tesla-SpaceX Merger at 80% Odds: Will It Become the World's Biggest Company? - finance.yahoo.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZGQzQUNManptaXBHdDZrZnoyN3FOZDZ4eHV1T0ZXUUp2Y2syYzhRSEhTWUk3SUFXQ2dCb2cyOVZxSWlPVUNKUndiOE44a2FiZmMtVWx5dkNfb2tHXzlINUkwM3dKakFSYk8ydmxWZU80UzdJV3pHSWFyWnVidG9UMFpGdVBtTUdUMWdZamtqR3Y2ME1UdHRsU0dhb0ZtRXU1ZUtTSw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdldzUWcxQVBxQjVNM1Z0Zk01RlNsamhpVVdCdFBXMnRJTG1NMk1sSHFTbEEtSGhOdnRLMVhaNzVsMDVJZmV5TzM0RFNfaEljZG9IYkQtaXFlQ3NPb1kzd0V0SllyUmx0eVp4X0ZhUUZlYVJiY1NBLW5FS19nSjU3ZGpRaE8yWGdtd1ljSWNFQ0R6aHp5ZGc?oc=5"
+    },
+    {
+      "name": "Satya Nadella",
+      "role": "CEO",
+      "org": "Microsoft",
+      "cat": "CEO",
+      "date": "2026-09-21",
+      "published": "Mon, 21 Sep 2026 02:04:04 GMT",
+      "source_name": "The Economic Times",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella to join OpenAI, Nvidia CEOs at Trump-Xi dinner: Report - The Economic Times",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQUmdnM0N2RlhoY1lGeDVnZDZwalBmR09weUIzQ0JRQ1FPdl9iUDZGbmFEaGIta0RBaUJET096MEh3QXRzQkVLcHRvVF94OEo4YmRyRjJvTGVERkUwbC1qZEV2RFdSVHEtOTNsV013LUJjUTJXdUdNUVFyVkpBam1KUFkyQllLQlYxNlVOLW1WMmRISWU3VTNvZWNCb1BWTS10WWdfYmtia0JrYXBram05djFGaUYwTkQ0dDlVam9JRVFGbmMwdjFqUUhLbzI5QzNfd2dTUklCMjNCTDFfSFBWWGM5MjJISm5rUTJQa3gtcFlVUGJk0gH6AUFVX3lxTFBNYXNPTHZOWS0wZ0JSZW1uZjRQQ3hZRlVfY0E3VmIzU2RqdjdBamdRY3RRODZMdXZ0cDktdDdBSVloY3Z1YjhkNmtodVRUT2E4UWYtWktiQ3N4emRtVmloR0d4SXNOc0xDWGYzelJYMDVuUHNCSEl3T1l6ZDhEa09JN1ZheGRrOXFHZmx2ejBWRklmVzNyandLRHpZbHRSU1lIOVkxOTk5bUVRNkZldkJJanVMYWlZT1Z5QlJPOUc0RENSS2htWVFxU2VwX2xicHg4bE1VekpHVXZQQVduaHlUekl1bVNHUGZLcWRKb0pPb0VXazlkeGI5RGc?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -94,29 +95,8 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-09-20",
-      "published": "Sat, 19 Sep 2026 22:00:00 GMT",
-      "source_name": "Mashable",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Elon Musk's xAI is now officially called SpaceXAI - Mashable",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTRmNNM04yOWlnVk9mRUQ0NW5OZHlZX2dsNTIzNnRTcWlRMVdBVnR5ZmFrWmJrN0ptSnBfYnlzYWdPTjVOaEdIQXh3cmtTRHB3elhTRFVB?oc=5"
-    },
-    {
-      "name": "Mark Zuckerberg",
-      "role": "CEO",
-      "org": "Meta",
-      "cat": "CEO",
-      "date": "2026-09-20",
-      "published": "Sun, 20 Sep 2026 05:54:00 GMT",
-      "source_name": "The Times of India",
+      "published": "Sun, 20 Sep 2026 09:48:39 GMT",
+      "source_name": "WION",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -124,55 +104,55 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg 'confirms' technology industry is divided on AI regulation; tells OpenAI and Anthropic: Y - The Times of India",
+          "t": "Headline signal (not a direct quote): Elon Musk predicts AI could double US GDP growth to 4% - WION",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQRkFrTmg5cjBDQmVaOU5fTVg2Rld3OUhiOU1kalpYcWUwZk5RWGJmbnJzSVlPOWFvNUNoZW0xQUY2T24xbmVuQVpkaDNIWGl5eWdVTHBGM0NuNHJnWmVBTTFQdkZSdUdhdkpRQzdQbEY3TUlBdmtnY0gybnZFZklnclNXOGVvUUgzUEkwYVl6czI1VlBQcld5XzA0Vzc4VFZRc2RpWjZJcEtsdVRDSGhZWUpzZFNUNFhiWjAyVnRoTFFvbHNJaG9xdThmYTFvMHVsc0VyOTVaUHNLdEtnMUlJUVI0QXl6R2kwU1c2ZmN1ZUNYY3cxWmZKVWd6cE5EUHJ4Y2Z5Rm9xbFV2MHFxNkVfZjFXSEZGbzFJa0hxZEpNZDlRcm9PcXZqMGJNa9IBsAJBVV95cUxNemUwMDFLTVRLRWhxX3prOE11UnRmUTU4SkZPdW5MMUJRUzlra2dkYnQwRWJxMVpZMjBPMWNrQzduenM2c3R2Rk4xbk85bnNVTjBPVzBBX292TGc2aS1oeGw1akJWVHA3QVhhNTltZ1hlcmlKN0c0czgySGNrTW84NFZpWkZnM21STDBDeTV0cjg2d1RHZ3hnM2pRak1lRlJMa1cxX0J3NlJXYzNTa0xOcGJVZ0J1bkk4SDRJdmVJdTk1VVBRMERHelpOaUZkd3FqQ3VjSjJGQW00eENsSm8xR1VHaFNLZkdLWUtfUlE2VzJsd0w1LUxHR3ZlcjVweUV5VURETHZiZmMwWmpiR05wM3MzNGVfWWtyZXVJOE1PWUhjZER0TW8teUtnR3p3SEE0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMnJmbFhkcW9RWHg4WEgzMVdvMmx4RzlSWDFEaTVVMjF3VzVYX0RKdW9aSUZmRFFCQ3hob0tVTGh4bF9RTXY3T1ZHM3FCd2hJTUs4elNrUU9oWmJWUzE2MXVtVGVucjRjWUVKOTVqU3ZSRWs4T3I2ZWg2eVVCSVVTVkJLTFVMTDZuSDhzNnkxSVRHNmtXS1ZoX1JoblRqaVhaZkJCbtIBpAFBVV95cUxNMnJmbFhkcW9RWHg4WEgzMVdvMmx4RzlSWDFEaTVVMjF3VzVYX0RKdW9aSUZmRFFCQ3hob0tVTGh4bF9RTXY3T1ZHM3FCd2hJTUs4elNrUU9oWmJWUzE2MXVtVGVucjRjWUVKOTVqU3ZSRWs4T3I2ZWg2eVVCSVVTVkJLTFVMTDZuSDhzNnkxSVRHNmtXS1ZoX1JoblRqaVhaZkJCbg?oc=5"
     },
     {
-      "name": "Sanjay Mehrotra",
+      "name": "Mark Zuckerberg",
       "role": "CEO",
-      "org": "Micron",
+      "org": "Meta",
       "cat": "CEO",
-      "date": "2026-09-20",
-      "published": "Sun, 20 Sep 2026 07:15:36 GMT",
-      "source_name": "BW Businessworld",
+      "date": "2026-09-21",
+      "published": "Mon, 21 Sep 2026 06:07:32 GMT",
+      "source_name": "Tom's Guide",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
         "#AI",
-        "#MU"
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Micron To Assemble Millions Of Chips In India In 2027: CEO Sanjay Mehrotra - BW Businessworld",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg is going to have to prove Meta doesn’t make pervert glasses — here’s what three analysts said - Tom's Guide",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNenQ3SW02R2dlX3pPTHIyN2Yxa3RoNVVsNjA5d0tiVFc4UHI5MzZqclhUMUhJTUwwaVZVdHpPZDBvWG5Zdi1DeVpVM3JjRkVRemZCanZkZG53OS16U0JDeEpINXBXNWtrbEx3dHlyd0V5V2V6UU9RMkU1TnJQdGtrQloycVpMSUhpZWlVVUxXMVpJcGNDS0tBaVhWSzd0eVlBc2hBSG5TZ2tJaHcxZTRYWWVmSDQtWXpr?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQY2ZLeE5QbEEtaEtweGo2b1p2QWlSYmhBX2hqY3ZhS183eEFydXk5VERob1lidVlIdmhoRFpyRnpyT3RkX1RvOW1tODFsdEhpcU1SQWdUb1BuMjBJRWVKWWRtcGs2ay0wY2gzakNUTUFURGw2RDlLcndYQzFScERlQWtWTU9qcWJubjRsWXZndkpVNlNBMXp3WU1zT0d6SWdobWxQUFVxSUl3YnhMTmNXM1BpcTZKLTJreVRicGpiVGtGVnhWSE44Mm9MZER2ME92dFNtNGZnU1VsM0ZqQm1BQXZEQUpXR1plSUtz?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-09-20",
-      "published": "Sat, 19 Sep 2026 22:05:00 GMT",
-      "source_name": "The Motley Fool",
+      "date": "2026-09-21",
+      "published": "Sun, 20 Sep 2026 23:41:34 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 11,
       "themes": [
         "#AI",
-        "#TSLA"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Never Sold Ark's Core Stake in Tesla Despite the Stock Trailing Every Other Magnificent Seven Name in 2026. Here's Why Her Multi-Year Conviction Hasn't Wavered. - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Cathie Wood's ARK Loads Up NVDA Stock Amid PC Chip Boost — And Sold $57M In AMD - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaXNQMS0tcGhNMzh5RFZ5ajlhYnQ5cnM2WVNRZkhXc1gyS0ZkRVphNEZCQk92YzZUX0R3eHktZzVYTk51Sk51ZzNUdVRIeVppVTZ6a3BtYzJtaXVPUVg5eXRxak1UcE43Ui0wRjNDZzAzRERKUkt2aEVKNHVscFRXclJOWW0yX3lOYWUwb20wOHRZS19FYkdzaw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdkN2ZnZBRTYwUFBTMXVJQ0x3VnEwOVkxeDhaTnNGdFc5ZWVyVHNSM2M5NlVWYlFfcndFdHBOOVpYVjkza3FHeEo0Q0paTGFDdHQwbGJISXZSMjRlN2JFb2szOUtUdFV5NGd0Q0dTbkt6TWw0aDg3anh6b1hoVGtBZ09YVzgyR2VWNy02bHhfQ05fYzVoVENUdFE4OEZUYlN5ZjdlV2NNZXVBQk1UWHZHdksyWnhqbXB3Wk0tODMzVXVzcTJsZzBVcm1ldFAtRi1GS3hhc0M1Nmk?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -180,29 +160,29 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-09-20",
-      "published": "Sun, 20 Sep 2026 00:33:00 GMT",
+      "published": "Sun, 20 Sep 2026 14:47:00 GMT",
       "source_name": "thestreet.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
         "#AI",
-        "#AMD"
+        "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer sends a blunt message to AMD stock investors - thestreet.com",
+          "t": "Headline signal (not a direct quote): Jim Cramer shares a strong verdict on Broadcom stock for investors - thestreet.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSVZzM2hBOG1fZ19TZG8xUDllOERJa0ltZ2R6eTVXUzNtRnNFc21OQ19VMFBIbGlYTUh1bjFackhXazU2UEYtWF9fZFpZZnJjQkh2WXllS2gxRGgtdWlhTlRDYjJlYk9YbmhDYVJScUhZWTNjLTQ5OVI2b3VsUVMzYU5ScHhuS3ZTUFhRWm1uM0Q0T2x5NmNCcHBoVFZUTVU?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTnVyMEdBY0tEbm1lVmN2RzFhQUZiTWpEQVdwZXphN1JGSmRXeml4UjV6eHZNVE9aeG5JYTFHLThMWi1wcmRsLXF2aHdBa2hoQ0RDaVp5S1pZMHp1MXRuNDNhdXNrMUoyUHZ4Mzg2VG5WOVhYeVprVExRczhwRm5wM1RFTS1jLUNfbkhBejF5bUxSTVVEOTNoMmhuZXc0c2FzNE5kZUJCRWF2eHd1SENiV2gyTGNxdl9B?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 9,
+  "fresh_signal_count": 8,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+    "code": "refresh_failed",
+    "message": "Refresh failed (ValueError). See the linked workflow logs."
   }
 }
