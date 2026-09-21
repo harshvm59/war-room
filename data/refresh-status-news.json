@@ -1,17 +1,14 @@
 {
   "feed": "news",
-  "status": "degraded",
-  "last_attempt_at": "2026-09-21T14:43:51.980162+05:30",
-  "last_success_at": "2026-09-21T14:44:08.416737+05:30",
-  "error": {
-    "code": "refresh_failed",
-    "message": "Refresh failed (ValueError). See the linked workflow logs."
-  },
-  "source": "google-news-rss-fallback; google-news-rss-fallback+30-leader-monitor",
+  "status": "ok",
+  "last_attempt_at": "2026-09-22T00:23:01.155241+05:30",
+  "last_success_at": "2026-09-22T00:23:20.624292+05:30",
+  "error": null,
+  "source": "openai+web_search; openai+web_search+30-leader-monitor",
   "outputs": [
     "news.json",
     "youtube.json",
     "voices.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/35582073326"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/35641250996"
 }
