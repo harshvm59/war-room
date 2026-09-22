@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-22T23:14:31.285832+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-09-23T01:57:00.157668+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
@@ -29,9 +29,9 @@
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 07:59:30 GMT",
-      "source_name": "Forbes",
+      "date": "2026-09-23",
+      "published": "Tue, 22 Sep 2026 18:35:00 GMT",
+      "source_name": "theguardian.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Canadian Province Sues OpenAI And Sam Altman Over School Shooting That Killed 8 - Forbes",
+          "t": "Headline signal (not a direct quote): British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting - theguardian.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa2VZQjJhT3hDd2F4blRJMHFmRGRSV3VKYzNhcTVwYnVSVXg4SVRQbkQ3RkdqR0VGZE5vbjd0WUZ4dXJKMGpKaXFZS1pxMkIzcGsteUJ1aVF2Vk41d2NSVEVGQklWNDItZ3JqSlBaby1iUFotTUdmQWV6UVItUmdSN05CQWFLOWllNk92Y2diX0xpNXBIMDkySnBLOUJfUG1Nc2dTZWp6WEN1MlNnQ0F2UXlVRkNlMll2X25ScEhjV2RyUkpsd0pWN0xRelJPZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM1IyVFdzRmVYZmxSNnY0cHdYam5EdEh0bmhfOGNoVTNuRWRQa0c3YzBLYUZYNG5GTGlNOFlzT0lwNjEwZXE5aV9nMmlJbl9WYlVaUW9faHd2Q3BWMGQtYnVvaHdwUWdkazc4cjNmYzFidE5DcnNIQ1NpbDlDaXVtRk1qNVo4SEh0MnRMU3ZQUElIbEg2RTBaTHhDV09ieUtMT3d6clJIMURGZkVzaUdqNkJvdEl6dWFzVEs2bg?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -51,8 +51,8 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 17:17:45 GMT",
-      "source_name": "CNBC",
+      "published": "Tue, 22 Sep 2026 17:40:28 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -61,11 +61,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Investors discounted Mark Zuckerberg and Meta and now look at it: Yorkville Ives' Dan Ives - CNBC",
+          "t": "Headline signal (not a direct quote): Dan Ives Calls Meta Muse A ‘Game Changer,’ Sees Apple As AI ‘Toll Collector’ In AI Arms Race - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU043aENHRTM5T2ZJd3haY1hSVHRxWHBIOGZOLXlsTE9aMktnUTQyVFZTdGFNMU1GclJyOG8tZ2VtXzVMUkVCNTJpRUxnSmg4VHFidms2MTlfQWZranA5c0FNYmp4dXpnN1FiS1NrWGFlWkplRExET2FKamNaNGZRY2lidXdrT3VVZTFFMnlvbzk5MF9RNEx0Qjk3VkRPVDJFaGdLV0liZFdySTJqa2dQdkhEZF9LQWZNOG54S29fdS15TDRlY08tU2U1RQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNi0wMm9VQTR3djdDa3QwR0hQSHJNNXRjV29yV1htVnJBdjJ4RlF2bXh5TzQ2eFJ0TW1GUllzZWpHNjBQTFZfcEhySm1qRWRpZkVtM3htYV9LWkF2Q1JQSC1RTnZ5SWpZbm0wVXN4VlhOYnNfeTZ5RnlsbVZ4SmJiS3FaN3hHVUxhOGliTEpiZW1yZw?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -204,21 +204,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 13:57:03 GMT",
-      "source_name": "KuCoin",
+      "published": "Tue, 22 Sep 2026 11:10:05 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood and Ark Invest bought over 50,000 shares of Meta - KuCoin",
+          "t": "Headline signal (not a direct quote): Beyond Meta, Cathie Wood’s ARKG Loads Up On These 4 Biotech Names - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDYVFEVnNNcE5fazhURWQ1eHNpeHFyalpCeko1cWNnem1PSVc4aU1oZm9KZldlQ3hYS1RhZVpSWDlQRHgtdUlsSHdPRUh2YVN6U2VLeDV5Nm5SM2NURWpHQm1ycnQ2MFM2bUV4bnF2UWpoN3c?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWjdQWDdjbmIzaUFaZ3dpc185SWFuaGJ4eUJobWZDZV9VNE9zdUVadzNmVWFRMjJTS3gxVEFpT1ZYNzROOWpPSEZzaUh1R3k1MjhXUWFQNi1zM2N1WWhOWGlELWE4eGJWZVFGazZSSWlXVmFKb0UxYVQxa3JGeWxfaldoNXlFRnpoRGZPVGRzbTVBejA?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -268,8 +268,5 @@
   "fresh_window_hours": 24,
   "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
