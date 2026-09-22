@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T14:15:12.275263+05:30",
+  "updated_at": "2026-09-22T23:14:31.285832+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,7 +8,7 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-09-22",
-      "published": "Mon, 21 Sep 2026 19:47:27 GMT",
+      "published": "Tue, 22 Sep 2026 09:15:00 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -18,11 +18,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Just Gave Nvidia Investors Great News and a Reason Why the Stock May Continue Surging in 2027 - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang says ‘nothing would give me more joy’ than to pay more taxes: ‘I'm just afraid of being poor’ - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQkhPNzF4UHZmZTM0THV2TER0R3I4eldFVzdQM0NzQU1PS2pGUTNuRVROMlRQU21KNHlXWE82SzdiT0JjSEdMcjBlVU5IVTI2aVJIWDFJZF9KTVd0T2Y2d0JuaExlX3ZvNldVSU1iRU91U1lPeFJfQlpBbnZlMHlhdVNFVWptT054VlBlNmkxSWlOMG1iUEpiZU5n?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSEtiem9TNnVfd21HSGtHbnNaU3VmV24wQlVwbkpBc21Tb1h6N05FM0ltWHZPX01xY0ZuMWNDSzJOdHB3RURYNHAzUHQ5THdVVmFkOEJ4VkZGX2pEeEtENk5xMURTMnB2VXpFUVQ0RWE2M0FXem8wLVNWRjJRekhDOE81dUotbEhySGYxaUpQNkVoYWhiU0pnVw?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,8 +30,8 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 04:29:00 GMT",
-      "source_name": "The Guardian",
+      "published": "Tue, 22 Sep 2026 07:59:30 GMT",
+      "source_name": "Forbes",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting - The Guardian",
+          "t": "Headline signal (not a direct quote): Canadian Province Sues OpenAI And Sam Altman Over School Shooting That Killed 8 - Forbes",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM1IyVFdzRmVYZmxSNnY0cHdYam5EdEh0bmhfOGNoVTNuRWRQa0c3YzBLYUZYNG5GTGlNOFlzT0lwNjEwZXE5aV9nMmlJbl9WYlVaUW9faHd2Q3BWMGQtYnVvaHdwUWdkazc4cjNmYzFidE5DcnNIQ1NpbDlDaXVtRk1qNVo4SEh0MnRMU3ZQUElIbEg2RTBaTHhDV09ieUtMT3d6clJIMURGZkVzaUdqNkJvdEl6dWFzVEs2bg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa2VZQjJhT3hDd2F4blRJMHFmRGRSV3VKYzNhcTVwYnVSVXg4SVRQbkQ3RkdqR0VGZE5vbjd0WUZ4dXJKMGpKaXFZS1pxMkIzcGsteUJ1aVF2Vk41d2NSVEVGQklWNDItZ3JqSlBaby1iUFotTUdmQWV6UVItUmdSN05CQWFLOWllNk92Y2diX0xpNXBIMDkySnBLOUJfUG1Nc2dTZWp6WEN1MlNnQ0F2UXlVRkNlMll2X25ScEhjV2RyUkpsd0pWN0xRelJPZw?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -51,20 +51,21 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 02:10:00 GMT",
-      "source_name": "foreignpolicyjournal.com",
+      "published": "Tue, 22 Sep 2026 17:17:45 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 14,
       "themes": [
-        "#AI"
+        "#AI",
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Bitmine (NASDAQ: BMNR) Chairman Tom Lee Crowns Crypto A 'Huge Winner' As Banks Eye Tech Valuations; Dan Ives Labels AI A 'Two-Horse Race' - foreignpolicyjournal.com",
+          "t": "Headline signal (not a direct quote): Investors discounted Mark Zuckerberg and Meta and now look at it: Yorkville Ives' Dan Ives - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPYmpnbmV4UUt5REtBUk5UcjBZYlc3aUZsTjViTFlhVGI3TlBpUjJmODBUX3djSjdWUE1rOGVWdlpGUnNaTTVWcWtSOHNrSlFQWW9oT2pUQ0tsanlqY2V3dnpXbWJCbHdYQWhaWHJfUDRYdEJ1N3laTlNkbGM4N2lLSUlYTld2dnpkUC1FSWFJSkpacU1kQVlUMUh2ZDRqQmJIaldCRGpvamFIR2NmRi1UMUV5cU1vT0ppTjRJNWtHRjlSNlRabmdiZEl0SXcyTjJIZ0Nhak1ENnNPcWRoeDF4V2FaTXFNc01ybXJseUxjU2FfR1E1dlh2T1lUZVNlaVkxWXV5MF9STVZJZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU043aENHRTM5T2ZJd3haY1hSVHRxWHBIOGZOLXlsTE9aMktnUTQyVFZTdGFNMU1GclJyOG8tZ2VtXzVMUkVCNTJpRUxnSmg4VHFidms2MTlfQWZranA5c0FNYmp4dXpnN1FiS1NrWGFlWkplRExET2FKamNaNGZRY2lidXdrT3VVZTFFMnlvbzk5MF9RNEx0Qjk3VkRPVDJFaGdLV0liZFdySTJqa2dQdkhEZF9LQWZNOG54S29fdS15TDRlY08tU2U1RQ?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -86,7 +87,7 @@
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQi1sME03TXpsYWlYak9YMkdMR2pncUw2ZXFCYVBKUVRxbmlTZTJjZGZrR2FRYzIwQVQ1MS1mclNiSGNMdTVqdXlSVTFCR3N0WG9ZWmVLR1c4Yl9UNlpKSmlfUDlqNlV0NDZoWHlRT0pPWE52cG1WbkFYbkxURU5KMC0zUGdYX09BSF9vUmlWSE1PZlBRdzBGeVhiaXRQRUVOdDIzZlBwTW5pZVJMckRWbko3QkdsdUR2TXFHdjhR0gG-AUFVX3lxTE9CLWwwTTdNemxhaVhqT1gyR0xHamdxTDZlcUJhUEpRVHFuaVNlMmNkZmtHYVFjMjBBVDUxLWZyU2JIY0x1NWp1eVJVMUJHc3RYb1laZUtHVzhiX1Q2WkpKaV9QOWo2VXQ0NmhYeVFPSk9YTnZwbVZuQVhuTFRFTkowLTNQZ1hfT0FIX29SaVZITU9mUFF3MEZ5WGJpdFBFRU50MjNmUHBNbmllUkxyRFZuSjdCR2x1RHZNcUd2OFE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ0ZuZURpQkN6SmdPMmNzY1pmYTIybHlKeVN6UXRyMG5KdHdWcU10blROejFxY0pkWHB0VEUzWXFzNE5Iakd3V2xjU0FubFdwY1F1clJOSGRSQlBrSzFlOE0wTGFFLXRBQm5BNWVreW1ybFRRSm5qYU5OZ0MxQl80aHQwdmx0Q1E5Q25TcWNzaDQwWTFaNUc4c1FsbEhVY0Y0NkVpcGU0T1ZKRTc5QnpvcDlzeE5rZ9IBvgFBVV95cUxPQi1sME03TXpsYWlYak9YMkdMR2pncUw2ZXFCYVBKUVRxbmlTZTJjZGZrR2FRYzIwQVQ1MS1mclNiSGNMdTVqdXlSVTFCR3N0WG9ZWmVLR1c4Yl9UNlpKSmlfUDlqNlV0NDZoWHlRT0pPWE52cG1WbkFYbkxURU5KMC0zUGdYX09BSF9vUmlWSE1PZlBRdzBGeVhiaXRQRUVOdDIzZlBwTW5pZVJMckRWbko3QkdsdUR2TXFHdjhR?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -94,42 +95,21 @@
       "org": "AMD",
       "cat": "CEO",
       "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 04:55:00 GMT",
-      "source_name": "The Times of India",
+      "published": "Tue, 22 Sep 2026 14:16:01 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD hits $1 trillion market cap for the first time month after CEO Lisa Su announced to double data cente - The Times of India",
+          "t": "Headline signal (not a direct quote): AMD’s path to $1T market cap: A timeline of CEO Lisa Su’s big wins - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPYmxzbzAzLVVra2ZnTm84OHRJWUM3ZjQzdlkxNDVMZmw0d043YXN1LTE0VEpPX09Dakd2eTF5bHE3cFRwN3pWMEc1RzhCcmZHYU1uckpnRXJMMDJabGVIaXMwbE9TNXlQR083cUtPeXRPcU11T3k5YjMxekNkTi1XanU3UWtwMlRRODhyMUw5LTZRdEdzdzRmOXVkOTZKczdlc0E5enA2LW9GMTZoV0tGRUh2VTNOUlRhdmo3aUZLZHJTY2o2c21rd2tSSFYwR0hiVGtiVW13MGR0cDByZktzd1RBb1RRNjBENU1tdHV0UlVUc1k2UmlzZ3o5RmcyV1E1SHhLTHhwR2ZKNWJUX0tEajBienV4QTJuOXJJQll1WWJ5OU1iT0VCZGdB0gGvAkFVX3lxTE5NdWgxbF9uSHdGQnR1c2ZtOXVJYWlHMzMyR3NWZFZ4YlVtLVBtNXE5eHY5NXV0Y3Y5SFNPcGYxQzExQlVrb0VaMmFiVUlBeGRhMG93SXV5Y3ZmOURoNUNUSlNiVDUyRFJwaks5bHM3d0pGOThNVmFJeTRMaFNBNVVPdzhERVZEbzBQV1o0amhmUTl6OEVlcEpWZlMxNHBEVDVEWGxqeXBkdTI0SnpUNDFYSXgxdWh5X3o2Z1ZZakNqcEc2eEQyaUFXeTZZSVFGb0k3VE55Rm9TZ1NvWWVZZTVOZ052TVQ3aGpuVjJKdWJFdDVyMjhpcjRWSlNURFlxS0FxZElrN1pTb3Vtekp1aTBBeEhXUnRMZ2Y5REhRWjJMTGRrTFFfbng1dzFZcXh5cw?oc=5"
-    },
-    {
-      "name": "Chamath Palihapitiya",
-      "role": "Investor",
-      "org": "Social Capital",
-      "cat": "Investor",
-      "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 09:26:13 GMT",
-      "source_name": "TradingView",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Sounds Alarm on AI Coding: ‘We Are Turning an Entire Generation’ Into ‘Slot Machines’ - TradingView",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YbHlYNkM1bHRnM3UwMi14T3hPaVhGS3o2MnFCdTU1eDFVRXI4UW5tSW5vLTZoWFVGcjNWMm9JLUdSOU41U1R4VURXcGZoNFZMb09HdTJlazFYYTFKb2o5cVRvcXF6N0lJ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVjBUY2J6WE9zRENReW1SSmx4ZjhOSGNldkVJVFNYSndQVlYyMUpiMU04TmZsLW9LemZjR2pmZGVOT3RidktlTG84dGRubWcyMHBrMzlXd0IyVmZpZ3pVQng0SXRXMWI4SDJpNHo0ZVFBV0xycmZqdElaYS03bHB1U3Bid1FpWjVtWktjSHg3Z2ZaZFJUWERvX0pkQmxvLXRCVjRwWFJUZnowb1RJUkE?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -158,9 +138,9 @@
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 14:41:08 GMT",
-      "source_name": "The Globe and Mail",
+      "date": "2026-09-22",
+      "published": "Tue, 22 Sep 2026 11:49:00 GMT",
+      "source_name": "ИФЗ РАН",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -169,11 +149,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Did Elon Musk Just Drop a Big Hint About a Possible SpaceX-Tesla Merger? - The Globe and Mail",
+          "t": "Headline signal (not a direct quote): How Elon Musk Actually Built Tesla Spacex And Xai Without Fo - ИФЗ РАН",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTkxndGdNcmRUZTRxQmtYVnJ1eWt4MkpRV0k5b0JJX1NoQW4tZ3Jyb1l5N05hR1RDMHdsQmtQWHozMUl0dWpJYmFLS2hLcHU3Qll4OS10RWtOX0U2eFdfWV9EY3BfdkVxM1FfMVBocVZiZXgyOFVGblVqTzByak0yNVFyZ3JDRzFTNVhBY1F6V0R4NmRmdlAwWDRDSmJiUTZtSWQ3Rm1RNTg4b1NvSElvRXh0Z3BtTmp0RW41QWFDQ0JVRjNmSDhZZy1FdDRsWFhYNUVwaDVNN0RpWEhNRG5Pbjh0eWR1TFQ0NDdNdA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQd3lGNTQ4N0FaV3B1SjdjNExaQklHODJVZzJnQUZRRzQyczJCTnltdzNZMEtLVGN3RE5NdnYxS254MF9yYnNkc0cwem1ZMzBKTzlZWVdEbVpVc0VPWUM1Ym5lb1NMcnA3OERKVGZUSUZlUHhxUEc5Rnl3bnA1WVFtcE9JbWJDN2dxRnc?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -181,8 +161,51 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 04:59:18 GMT",
-      "source_name": "Benzinga",
+      "published": "Tue, 22 Sep 2026 17:17:45 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#META"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Investors discounted Mark Zuckerberg and Meta and now look at it: Yorkville Ives' Dan Ives - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU043aENHRTM5T2ZJd3haY1hSVHRxWHBIOGZOLXlsTE9aMktnUTQyVFZTdGFNMU1GclJyOG8tZ2VtXzVMUkVCNTJpRUxnSmg4VHFidms2MTlfQWZranA5c0FNYmp4dXpnN1FiS1NrWGFlWkplRExET2FKamNaNGZRY2lidXdrT3VVZTFFMnlvbzk5MF9RNEx0Qjk3VkRPVDJFaGdLV0liZFdySTJqa2dQdkhEZF9LQWZNOG54S29fdS15TDRlY08tU2U1RQ?oc=5"
+    },
+    {
+      "name": "Lip-Bu Tan",
+      "role": "CEO",
+      "org": "Intel",
+      "cat": "CEO",
+      "date": "2026-09-22",
+      "published": "Tue, 22 Sep 2026 15:55:00 GMT",
+      "source_name": "finance.biggo.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Intel Bets on CPU Windfall and On-Device AI as Lip-Bu Tan Says He's Remaking the Company - finance.biggo.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDSDBpc0FrUVFNSGdDdWlKQ05XV1pxNVVCTWYxbS1FR3FWdlc1UER6NkVlbjBRaHhIU29DY1FWakRpX05uZGtvYzVoTnJ0X2czY3VSeVo0Sk04YmpqLWJaTnRpdWMtV0xCbWg2M2E2cVFhRWo0dlE?oc=5"
+    },
+    {
+      "name": "Cathie Wood",
+      "role": "CEO and CIO",
+      "org": "ARK Invest",
+      "cat": "Investor",
+      "date": "2026-09-22",
+      "published": "Tue, 22 Sep 2026 13:57:03 GMT",
+      "source_name": "KuCoin",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -191,117 +214,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Says 'More Partnerships' Coming as Meta Teams With Shopify to Power AI Purchases: 'Shoppe - Benzinga",
+          "t": "Headline signal (not a direct quote): Cathie Wood and Ark Invest bought over 50,000 shares of Meta - KuCoin",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdHRPYTJwSEJ1cW1rdmlxLWZ0UHNtN3FsUVYzV3NuN2xXeGZfMHFLYU5vSzlGbmlmN1doQXJEM1RwdG9iSkFTdm04OFhqME92ekstT01aZU0xU0FrZWNVUUttTk9Xa3Bna1IwbGZVei1TTC16Vk1IVVpMSUVkYkxqNHZxak9la3dmMTVBNE45Wm1nLWdfNU54ampvNzdSRzdSSXc?oc=5"
-    },
-    {
-      "name": "Sundar Pichai",
-      "role": "CEO",
-      "org": "Alphabet",
-      "cat": "CEO",
-      "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 11:37:00 GMT",
-      "source_name": "The Times of India",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Quote of the day by Sundar Pichai: No technology has me dreaming bigger than AI - The Times of India",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNM3ZZRG5Oa3h6ZzJuSUZWRkJTMkNleDJ6cU1yc0I0ZzJtOHQ4QnNrOFl5NXh4b09PdVdTNUpUdXQtVE1wdFItVlFYOVhQcVdhejNHTFdGWFRhNzcxekFZV3B1TjhBWU9aMWZZNXQ1dDAxbnVPWVA0LWhrSnBfTzdnWm54ZkQwZVltQWw0bTFyNzFTSV83VzJLX2RMa3BsaWhIYnVhNXdvSnlEQlV2Q0l1cm1fUUVRY2ZrOFk4dUx3Wl9aTGJfbFVwZmtaMjhtNEV5TVBjUWxJVlY2cG1KTUx5clZCUjJpV3dCczViQmtaZko4U2vSAfgBQVVfeXFMTlpEUzd3eW9RQTlEWVY0dDBOT195V291UUpGdml4WUFkM2JvYmd3QkU0U1BSbW1QLVNZa3BRV0dWZktmMmphTmRqWWVYNjByaE00TmN1b1IydUtpNXdXRDBndkstM1BkVTlYNTkxclhNN3V1eWRMRGR2Q3VqQnk0RGRweHc5MzBieUZUSXFlb2ZJVGJsWGtURDZvTmZxcmdxOHVpcXR0NDZMOU5pN2tIUEF6SjBsMUF4ZHRBOG5td2kzNHdVQTZuVUV1X21mSzl6aEZHZUk5bGhXZVN2X3U0bE53MDRxZW5JM1psQm5oeHYtc0U0V0dwY2o?oc=5"
-    },
-    {
-      "name": "Andy Jassy",
-      "role": "CEO",
-      "org": "Amazon",
-      "cat": "CEO",
-      "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 12:01:22 GMT",
-      "source_name": "aboutamazon.ca",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#AMZN"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Amazon CEO Andy Jassy talks AI, hockey, and growth in Canada - aboutamazon.ca",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQN1dQOUVfUDV3Qndad1JKYkEtVUJqTG5wcDg5cjFHQk12b29sNlZTX29JeF9ndERLS19keEMtMEtNSWZGbUxybVl1TlFKalRiLUw0OWZfbU5CRXZqVDhScFNjR1Z2Mk1RbUlsZnMzV3l0UGF0Y0hPc0ZRUTFkZWQ1b2J1RU00QVFjYnI3SVd3SzY5ZVh2M1FPQVBzdEtsRnpOUTBMaURB?oc=5"
-    },
-    {
-      "name": "Lip-Bu Tan",
-      "role": "CEO",
-      "org": "Intel",
-      "cat": "CEO",
-      "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 10:20:00 GMT",
-      "source_name": "The Times of India",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan on the one thing troubling his customers the most: I think in terms of the AI, the biggest challenge is... - The Times of India",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNUXBWQ3U3T0YwOXlpTmV4MTkzUlZuaW05cFVWTDBDaGwzNG1JVDYyMHdjd1U2RG1GRHpfbERjcFduMEI1cFFkTmVaWGQta3llZ3kxTzdPLWU3eWdoOTMzZWdYWmdoeTgwNVd4UEdoTmo3aHEza2R6djQwRG9lOVNyd05hTHVzaEs1V0RCYU5uM29fVnNXblFkUXVPR1k5RDMwRE0xZVFwQmdKcFZfUVlBc3lwZkMwU0hsWDhaSXNyTU5SeU5jaE1MNW9SczhGU2tXRV96WlZWS3REVjZWRjg3ODlCcnlQZnpGek1zVEpJSmI4WmVjVGtMWkNrU0FLQlctQVNlTWVNV19FQXdxSDZ0cGhrUXlyTUc4NmlxRGd4YzNDY0VDNy02N2tEMnNYTGM?oc=5"
-    },
-    {
-      "name": "Arvind Krishna",
-      "role": "CEO",
-      "org": "IBM",
-      "cat": "CEO",
-      "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 14:09:38 GMT",
-      "source_name": "Analytics Insight",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): How Arvind Krishna, the CEO of IBM, is Bringing Generative AI into Enterprise Workflows - Analytics Insight",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNa3F1cW5SU1BwY0NIenlDX1hqQTYySS1QZG9qVl8wTFFMTWRhY0wyWWxMTE45X2dneU9DS0ROTUx2eDVyUlZ6WUpLRzc0b19RX2kzTldzRnZmbDFNaDI5dldKMlRzZF8yM3RoTGVyZGVlTGQyOFFfNlRiTGw5NGcwTzhrclFOb1Voczk1R3NzT0k2eFBrS1VSeF9uQllBX2NPd1FmeFBTb1prbHdvWm9TUEtLSHpuR1pOU2tqelh5ZXVHUVlFaXA3OWYyYzVrRmRW0gHQAUFVX3lxTE1rcXVxblJTUHBjQ0h6eUNfWGpBNjJJLVBkb2pWXzBMUUxNZGFjTDJZbExMTjlfZ2d5T0NLRE5NTHZ4NXJSVnpZSktHNzRvX1FfaTNOV3NGdmZsMU1oMjl2V0oyVHNkXzIzdGhMZXJkZWVMZDI4UV82VGJMbDk0ZzBPOGtyUU5vVWhzOTVHc3NPSTZ4UGtLVVJ4X25CWUFfY093UWZ4UFNvWmtsd29ab1NQS0tIem5HWk5Ta2p6WHlldUdRWUVpcDc5ZjJjNWtGZFY?oc=5"
-    },
-    {
-      "name": "Cathie Wood",
-      "role": "CEO and CIO",
-      "org": "ARK Invest",
-      "cat": "Investor",
-      "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 08:19:20 GMT",
-      "source_name": "Benzinga",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Cathie Wood-led Ark Invest Bets Big On Prediction Markets, Snaps Up Kalshi Shares Across 3 Funds, Dumps B - Benzinga",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQdzdfdmRQbDFjcU5ETmZUVkxwY3B0N3BxbmJNU3RPM3dLeFZac2R3WjlqT05zcVBrZ3UyTG1fYkhydmRHdzhud1NoSS1mVGhSU0VNTVZmclU1WFRFNHFtVWFQQWVaMmdrRFE3WTNHazVTdXlXY1Vmb0I3QVNCTzNNWWNKdVJINVFvSDNoRF9MOUUyZFY4OUF1MkI0T2tzQUFpeHFHRm9ZMTlDek5lUlpFMjFmVEFvN0tjWkNvU2F1Tm03Y0xVSnpWM2trVU54TVdvZVdVTzVPaG02SDNvMGNWSWhTZ29pS3l3NC00MDdvZm9PMzd2WHhwMlY5MVhKUDAzTUU4?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDYVFEVnNNcE5fazhURWQ1eHNpeHFyalpCeko1cWNnem1PSVc4aU1oZm9KZldlQ3hYS1RhZVpSWDlQRHgtdUlsSHdPRUh2YVN6U2VLeDV5Nm5SM2NURWpHQm1ycnQ2MFM2bUV4bnF2UWpoN3c?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -309,7 +226,7 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-09-22",
-      "published": "Mon, 21 Sep 2026 19:37:21 GMT",
+      "published": "Tue, 22 Sep 2026 11:47:56 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -318,38 +235,38 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer on Credo (CRDO): “I Think You Can Buy the Stock” - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer Prefers Brinker (EAT) Over Darden (DRI) Ahead of Earnings - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVzZSR1ZZNE5OOUJyZDhWVUZNZmxGeGVHaWhfVS1vek5vU2RTRjlYRjRDcjhSWkRRRkhuNHd4MEpSNlczR1BoSkt2WWpuZW1hakplTHZtZ2pLVV9sWnA3bEdkN3liUVRZQlZRTlhKX3Y4ZzRHU0hxRktiTFB0SGFLQ3dCaWppNWRzOWl3OGZhRXhVMmFsUFd3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQanJJRkhHNXVmSTc4VUU5dG1nT2VGQm9SQmo5bXZKbk9yN05ScFVOeG9EaEhFN21mdEY3UUt0SWZOeUJZcWxpd1EtdVFqcDljeEdHb1pNSS1YdzMzT0pRczBKVkFlMVRJc1BYWjBFRXFIRDNrWEdHRHROSXUwWDY3NFhGQmpZYTlxa1h0YVJ0akFKa0lScklKdmE1Zw?oc=5"
     },
     {
       "name": "Gene Munster",
       "role": "Managing Partner",
       "org": "Deepwater Asset Management",
       "cat": "Investor",
-      "date": "2026-09-21",
-      "published": "Mon, 21 Sep 2026 18:00:41 GMT",
-      "source_name": "stocktwits.com",
+      "date": "2026-09-22",
+      "published": "Tue, 22 Sep 2026 09:47:05 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 8,
       "themes": [
         "#AI",
-        "#MSFT"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): MSFT Stock Faces A Bigger Test Than Earnings, Gene Munster Says — Why The ‘Bot Boogeyman’ Won’t Go Away - stocktwits.com",
+          "t": "Headline signal (not a direct quote): Elon Musk’s Grok 5 Could Be ‘The Most Useful Engineering Tool In History,’ Says Gene Munster: 'Will Be a - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOWjFzOWcyU0l4RWdoWEtPT2VhOXBHNnUtYzNRd2RJUnVFY1U4WTdaWDVpYU5WV3llbHJIM3NQQklGNkZCQy1Zc0ZncmJMaHRLa2tZQ25CVHA2LUNFakhIbFN4bUxjWmlpR3RwZXB5UC1IQ21NOUJfcFBvcldiZ1A5OHIteExENld3dnMtTTFleFVVaVI2ZzRUTnpGd2YtT1hxQVNJY1ZoS0ZNVDZ6VEp2QUJOb29zcUhRNG82anpRWnVzcTBibUk2QzVvckliUVp4N2FobHBOQlB5U2U3Q01aUGstNlB0UEVFX2l1NURZV1o?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeDVPV3NrN3hoWjJhd3lLOTRFT3JtWXJuREJxMF9TZG1MZ2djS1lZVm0yUU9xWEVTb00zZUZBaDZmQU9zTmE4TV9LaEtFUk9jZmF3WG1vOTJTMEp6VGpvUW9kanJCVHo0X0t5TklqM21FLWpSN0JPaThzdnowZVFWTDZscmNENXpHLTk4aDFFTE1HZHIyU1pJdTRlMzU5SUhodmgzdmF1Y0VXdjAwbjZiTHVGd2Z0b2p5VHc3RThWeExTUW9EOFMzWEt3ekxhYno2SkVLX3lxRGxyT28xMFR1ZzNwSXduZ0xZb29oNWFpODZwMHpaNkNB?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 16,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
     "code": "daily_research_limit",
