@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T05:51:33.008526+05:30",
+  "updated_at": "2026-09-22T06:28:29.954839+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -11,16 +11,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
-          "title": "NVIDIA Fiscal 2027 Second Quarter Form 10-Q",
-          "published": "2026-08-27",
-          "reporting_period": "Fiscal quarter ended July 26, 2026"
-        },
-        {
-          "url": "https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf",
-          "title": "NVIDIA Q2 Fiscal 2027 Earnings Call Transcript",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.htm",
+          "title": "NVIDIA Corporation Form 10-Q",
           "published": "2026-08-26",
-          "reporting_period": "Fiscal quarter ended July 26, 2026"
+          "reporting_period": "Quarter ended 2026-07-26"
         }
       ],
       "questions": {
@@ -77,25 +71,12 @@
     },
     {
       "ticker": "TSM",
-      "company": "Taiwan Semiconductor Manufacturing Company Limited",
+      "company": "Taiwan Semiconductor",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
-          "title": "TSMC 2026 Second Quarter Quarterly Results",
-          "published": null,
-          "reporting_period": "Quarter ended June 30, 2026"
-        },
-        {
-          "url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-          "title": "TSMC 2026 Monthly Revenue",
-          "published": null,
-          "reporting_period": "Months reported during calendar year 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -157,16 +138,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2026-financial-results",
-          "title": "Tesla Releases Second Quarter 2026 Financial Results",
-          "published": "2026-07-22",
-          "reporting_period": "Quarter ended June 30, 2026"
-        },
-        {
-          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026049213/tsla-20260722-gen.pdf",
-          "title": "Tesla Second Quarter 2026 Results Filing",
-          "published": "2026-07-22",
-          "reporting_period": "Quarter ended June 30, 2026"
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
+          "title": "Tesla, Inc. Form 10-Q",
+          "published": "2026-07-23",
+          "reporting_period": "Quarter ended 2026-06-30"
         }
       ],
       "questions": {
@@ -226,25 +201,16 @@
       "company": "Meta Platforms",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 1,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
-          "title": "Meta Reports Second Quarter 2026 Results",
-          "published": "2026-07-29",
-          "reporting_period": "Quarter ended June 30, 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "Second-quarter 2026 revenue was reported at $60.801 billion, up 28% year over year.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
-          ],
-          "reporting_period": "Quarter ended June 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
@@ -261,13 +227,11 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "FAIL",
-          "note": "Second-quarter 2026 operating margin was 31%, down from 43% in the comparable quarter.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
-          ],
-          "reporting_period": "Quarter ended June 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
@@ -359,7 +323,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+          "title": "Amazon.com, Inc. Form 10-Q",
+          "published": null,
+          "reporting_period": "Quarter ended 2026-06-30"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -479,7 +450,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+          "title": "Microsoft Corporation Form 10-Q",
+          "published": "2026-04-29",
+          "reporting_period": "Quarter ended 2026-03-31"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
