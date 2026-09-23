@@ -1,7 +1,83 @@
 {
-  "updated_at": "2026-09-23T01:57:00.157960+05:30",
-  "source": "openai+web_search",
-  "items": [],
-  "provider_error": null,
+  "updated_at": "2026-09-23T14:16:46.278087+05:30",
+  "source": "google-news-rss-fallback",
+  "items": [
+    {
+      "ticker": "AI",
+      "headline": "Big Short Investor Issues AI Warning: '70% of AI Revenue Is Just Two Companies, And One of Them I Think Is in Trouble' - 24/7 Wall St.",
+      "date": "2026-09-22",
+      "published": "Tue, 22 Sep 2026 16:41:00 GMT",
+      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQWVaX21UTlBGYTgxMExDMDlQRjNrX21yMmpJS3ZsU0xRcEVITW9VdlJ4RTRKYUpOWkZ0cDhrTjh3c0ZIaHhMR3VUOEZNZndmOHhNOXktNVhqeGJWVWsyWDJGSzk1YTFYWWFmVVA4aUgtT2kwTzVnWU5WS1BZbjEwN013bm1SdHl3UXEyaUVCdGVKd1JhdGM2WXBBVGd2QWJpcFZZYnlZWjhYbTl6bTByYXVRendhdjVfRU14N3ZDM3VtMDgzYzg1UEZCMmtiQjZSVHh3cWUxOWYyU0xnSENmbGlJYXNQOGlrYnVkQS1B?oc=5"
+    },
+    {
+      "ticker": "MU",
+      "headline": "Micron vs. SanDisk: Comparing Two Red-Hot AI Memory Stocks - TradingView",
+      "date": "2026-09-23",
+      "published": "Tue, 22 Sep 2026 20:57:00 GMT",
+      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaURvV3pzZFZ3eEVCc1Z2TnJsQ3JDNDZxUW1PWHBzTE5OQ0RQLTFpUVdscl9VZTdQYmtjVS1EWEhXZFFqVFBLbDJpS0ltanUwMjY4OWhOVWNjWUpYUC1iM3NZRHc5UlRJWHpXNk85SHJiSFQ5U3dyVm5YQ0FFOVhGY2stRm4tNHVselNmNEZ3Wm45MlJXSS1tTW9SajNMYUh2S01QZ3BlZFBDMXJ4Z3pXT3NB?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Nvidia Stock Is Building An AI Empire Rivals Cannot Replicate (NASDAQ:NVDA) - Seeking Alpha",
+      "date": "2026-09-22",
+      "published": "Tue, 22 Sep 2026 12:39:03 GMT",
+      "summary": "Automated RSS market signal from Seeking Alpha. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYVppbVJudldxbVJYaDR3b21lcmp6YTFKeFNuM1NNTVUxcldzZXFrUWVFUGdwZDFXY2pZNVdQb2lmanlWRmJJZjFkSFFVbXp2ZGpFSFRsQlpqMXZ5SHg2RjdEY3VHYjJReTExZ1BoYnlnQkpJYkRmQkZFY1VSd3hfeTNaaUhsWkMtMjJhOVRtbEExUHk5eWotRzRLSE8?oc=5"
+    },
+    {
+      "ticker": "AMD",
+      "headline": "AMD Just Joined the $1 Trillion Club. Here's Why Investors Are Betting Big on the Chipmaker. - theglobeandmail.com",
+      "date": "2026-09-22",
+      "published": "Tue, 22 Sep 2026 11:58:44 GMT",
+      "summary": "Automated RSS market signal from theglobeandmail.com. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQU010U0U5Q1lzWENfd2ZDRGlXa0M1U2FRaFVwdTRQbldlUmY4TURNdFNtU3lLNzJORmlBSlpvSHI1SFo0VDE1Nm9LeXhHNzhfenk1UGpOSTRHbk9hcTdMcmZDWXZxemlPb3Q4M2pUUG04ejEtM2tmZTFsNHRjQXMtajJMVm5TYmpFel95YzNrNFJ1cnBWZW1oVm0zZElpY3BkSVZYemtQWDZyV0FQOGJSRW41NWlzaEtKazk3OG5wRXF6bllibUlKbDBpTUgxR1RFdlZISTZMamdjNDJ4T2E1VHY2aWFlb2NBSFAzSkhoZERodHkzbGJ5clRXTm9xWXlnVjZR?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "Here’s What Nebius’ Top Line AI Compute Expansion Means for Prices - 24/7 Wall St.",
+      "date": "2026-09-22",
+      "published": "Tue, 22 Sep 2026 13:40:00 GMT",
+      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeS1BUHVjeEtCcnZKSGo4RG1fa1lxS25QbGZNTXJnb0tTNTZvcUM3cVJuN1ZKV3BpZFZtODNrUHk1MVdXdDhOUG96QW4yYVR6eV9jb09ZOEJ1bUQ0cnNfR05pWk9LcGxmUmRBTks3NjhpcFhCTWlYZ2FVOGEwLUhDREVuZHNUUVo2eVlWd2xUU2JLN2VZLS11aHRaVkNRdmViZHhXcEltVW9Pa01u?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "IREN Broadens Its AI Customer Base: Can Diversification Pay Off? - theglobeandmail.com",
+      "date": "2026-09-22",
+      "published": "Tue, 22 Sep 2026 15:16:00 GMT",
+      "summary": "Automated RSS market signal from theglobeandmail.com. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSTdjeC11MFkwRXRZOEZISV9McDdOd200RFNqUnJpMnlaOEtqWk1nUEh1Q0xMMV9MRG1GczNxZGozdkdZNGR0SHRvaUcweVVKc3A5UUFLRGJ2ZGtmWkZQOTdBWHFSb3UzZXl1RWJibnFtUVBEdTZRdmN5ckZHZUpCVEUyblB3UUJUaVJ0SmhYLTlvaElYaTV6Y1BMOFp1MWxDdnI4M2x3TzdvdmNCN2xvUnY2UmJ2cVIwV05ia2RCS3p3d1lfUElIY1RmSk1XSGpheWtraHQ0UDQ1cGJUMFZFVk9Ybw?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "Why Zacks Rank #1 Astera Labs is Primed for Growth - TradingView",
+      "date": "2026-09-22",
+      "published": "Tue, 22 Sep 2026 17:26:00 GMT",
+      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLWdHWVVtbTBlRWJicFJRU1REYkNmZFBaR0c5NTQxUm10UnFraGxIUUNoellkM2wyODRlZHA3bjZPNDd3MjBSWVNQaWZWM1ZfVlVja2F6bkRPOTNRV3lmSUIzZTFsZzYtQmY1b1RFbXI1cTMxamxpVDVRdndEU0tDVGFFc1Ewd1QxZHBjRHgzZDNUbUdvRFdtMFVvNVdvQUE3NURialMzbzA?oc=5"
+    },
+    {
+      "ticker": "AMD",
+      "headline": "Price Prediction: Marvell, AMD & Broadcom- Our Bold Price Predictions for 2027 - 24/7 Wall St.",
+      "date": "2026-09-22",
+      "published": "Tue, 22 Sep 2026 16:00:00 GMT",
+      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaTE0b0RTVDUwd0ZTRzIxcVZkRzdPYzVzUnd3OWw1cHVVaW5hQTg5Q29qRU5YRkJ4MXg5MHBsNVFhRk1mQlVHUXpfQm1naWg4NG01d0U2c1R4Tk12YkhkTDV3bkVHZGlDTzZweUFyVWVTMGZ2ZzJkd19hdWFuUEQtZDljeFFhNjQ4cm5EMUdlNkNId19kV1BOQ1dLWVY2UTdFazJWYWh1THRhdVBxek41dlljSUE5Nmcx?oc=5"
+    }
+  ],
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
   "fresh_window_hours": 24
 }

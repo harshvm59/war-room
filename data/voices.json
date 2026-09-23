@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-23T01:57:00.157668+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-09-23T14:16:46.277632+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
@@ -50,44 +50,22 @@
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 17:40:28 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-09-23",
+      "published": "Tue, 22 Sep 2026 18:50:01 GMT",
+      "source_name": "Asianet Newsable",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Calls Meta Muse A ‘Game Changer,’ Sees Apple As AI ‘Toll Collector’ In AI Arms Race - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Dan Ives Calls Meta Muse A ‘Game Changer,’ Sees Apple As AI ‘Toll Collector’ In AI Arms Race - Asianet Newsable",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNi0wMm9VQTR3djdDa3QwR0hQSHJNNXRjV29yV1htVnJBdjJ4RlF2bXh5TzQ2eFJ0TW1GUllzZWpHNjBQTFZfcEhySm1qRWRpZkVtM3htYV9LWkF2Q1JQSC1RTnZ5SWpZbm0wVXN4VlhOYnNfeTZ5RnlsbVZ4SmJiS3FaN3hHVUxhOGliTEpiZW1yZw?oc=5"
-    },
-    {
-      "name": "Satya Nadella",
-      "role": "CEO",
-      "org": "Microsoft",
-      "cat": "CEO",
-      "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 02:38:10 GMT",
-      "source_name": "NDTV Profit",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella To Join OpenAI, Nvidia Bosses At Trump-Xi Meal - NDTV Profit",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ0ZuZURpQkN6SmdPMmNzY1pmYTIybHlKeVN6UXRyMG5KdHdWcU10blROejFxY0pkWHB0VEUzWXFzNE5Iakd3V2xjU0FubFdwY1F1clJOSGRSQlBrSzFlOE0wTGFFLXRBQm5BNWVreW1ybFRRSm5qYU5OZ0MxQl80aHQwdmx0Q1E5Q25TcWNzaDQwWTFaNUc4c1FsbEhVY0Y0NkVpcGU0T1ZKRTc5QnpvcDlzeE5rZ9IBvgFBVV95cUxPQi1sME03TXpsYWlYak9YMkdMR2pncUw2ZXFCYVBKUVRxbmlTZTJjZGZrR2FRYzIwQVQ1MS1mclNiSGNMdTVqdXlSVTFCR3N0WG9ZWmVLR1c4Yl9UNlpKSmlfUDlqNlV0NDZoWHlRT0pPWE52cG1WbkFYbkxURU5KMC0zUGdYX09BSF9vUmlWSE1PZlBRdzBGeVhiaXRQRUVOdDIzZlBwTW5pZVJMckRWbko3QkdsdUR2TXFHdjhR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNldER0NEcWlUVXdMclNvZXpncVhFMEdMRzFkaV8wU3k2Tld0eGdVWHhZbmNENzBNVHBDeV9IV01mRGVTTVJOQkRCQzFuMThBeWVNQkdXLTZWS2J1MkpGTVpvcG5yQ044aUJjeEVyaURhQ1BoWFNKb1daQ2p2VWpUSjk0b2FsYmJPeV82cTFEMG1IdmhIaE1ycU16UWlaV3c4Xzg2REt2VkVJM2RiZkxhenA2bmRtQlVUcVQ5VnMzSUhqQnRYeVl6T3QtZjVrR3RiQVdTaTk4TXd1YnI2Y0dCR1hn0gHnAUFVX3lxTE52a091ZWpGX0RqenpadWJRUWN3X3Z1LW5yaFVUTVBNTFNiT3FZNFEweVQyUkVkMUVaOHp1VHE2cV9QcTFWSUc5UUpCaVA4NkJxZzRBeTBWTnQxbFVDaWc1Y0dsWGJ5d2NJSXo1VFA2MVdGbEN2cE9EbFJKamF1bTlVZlFEZ0Rkb0NCcVFwTGdxRUxWT29XZFMzVGt2aUZLT05BWjQ3YmNfRGo0SFRHbldrMzJqY3c3MHRUN0tET1FEY0hnMlowTnNNNmN0eTgybVBLRk01blFkcUozdTZ5LXYyUEFscVhKZw?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -112,26 +90,48 @@
       "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVjBUY2J6WE9zRENReW1SSmx4ZjhOSGNldkVJVFNYSndQVlYyMUpiMU04TmZsLW9LemZjR2pmZGVOT3RidktlTG84dGRubWcyMHBrMzlXd0IyVmZpZ3pVQng0SXRXMWI4SDJpNHo0ZVFBV0xycmZqdElaYS03bHB1U3Bid1FpWjVtWktjSHg3Z2ZaZFJUWERvX0pkQmxvLXRCVjRwWFJUZnowb1RJUkE?oc=5"
     },
     {
+      "name": "Chamath Palihapitiya",
+      "role": "Investor",
+      "org": "Social Capital",
+      "cat": "Investor",
+      "date": "2026-09-22",
+      "published": "Tue, 22 Sep 2026 10:44:09 GMT",
+      "source_name": "TradingView",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#META"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Warns Amazon’s Blocking of Meta’s Muse AI Signals Bigger Battle Ahead: 'Everyone Will Start Blocking Everyone' - TradingView",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilgJBVV95cUxORjUxb0lEMVlGSjF2a3pHS0NENEt0V3JOYThBQjlENG1kOWtyWG9IRllaaUh2MVg3S2hNY1VQVVpYWW5xa3FPTzltcVhVSGV1WGhsNlZKd09jTDlIQmRpUllYdGdYUFBoOVM4X0pSR1lWNkNmX1MzMUlRaHRaaC1YMGlVQ2FpbGhESFBzWkNXeEtnSWQ5V1VVcnJ0bW1PM2RVUGlkcDltakxiMlY4TGdGYkREVjBRVi1pbUNGZnhzbEEyeERCaGhMTEpBampyZnc5elZJUzBPSVZzTm9HZGtQT1R1LS1EWE5LYUd1WUE2S2d1Q0JPTndBa0dSUjFYNi1COVNsWUdVczVkekQ2WndXNFZTS1paUQ?oc=5"
+    },
+    {
       "name": "Alex Karp",
       "role": "CEO",
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-22",
-      "published": "Mon, 21 Sep 2026 21:30:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Tue, 22 Sep 2026 15:02:00 GMT",
+      "source_name": "foreignpolicyjournal.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir's Alex Karp says AI's biggest names may never IPO — the play is telling Washington 'nationalize us, please' - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Palantir (NASDAQ: PLTR) CEO Alex Karp Says Major AI Firms May Skip IPOs And Beg Washington For Nationalization Instead - foreignpolicyjournal.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSnNhc2lsNnRMcldZOHF1cHB2MFVWWU9RQzRfZzVrMkhkR1BfNmh2el9iVmdORUU3c29Oc2FoSnVUZlRpZkgyLXJEeThtdGNKVmNfVGd1Q0Z6NkpsdTdzbzkta3RLd01FQ01VMV9CekVlVUpWeHZjLVB0SUd1dWRBbHFhMG1wUTRWdm11UkMzVWd1NTQ5cWRv?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZmZ0bjNKb2lCOEhOS0ZxN2lpcXpCTFpFNHIxQlFFcHd3RTFRMnV3cHlsSWhWOXBRT0lmQ1pfTFdJckQ3bS1xa0Y5MFItWUU0SE00UnpWNW1jWm8tMmFCeWdnNVY5Yjh3cEFLaGNDb0ZoTllLNHJxZHdNZ291b1VCVFdXcmNyZmw0akM4TVBZN2RSUEN2TVozeGx6OWVwSER4Y0dka0FVYjFmanhPT0ZDcmU1T3pXNzcySEVJLVdiSEtnejlVVE1KOE90NWtSTUtSUTcxN1NEZUFPSFBaOXNnNXFZalJENE5oRjlGZVRFR056NXZCNjNB?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -149,7 +149,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): How Elon Musk Actually Built Tesla Spacex And Xai Without Fo - ИФЗ РАН",
+          "t": "Headline signal (not a direct quote): How Elon Musk Actually Built Tesla Spacex And Xai Without Following The Rules - ИФЗ РАН",
           "k": true
         }
       ],
@@ -160,22 +160,22 @@
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 17:17:45 GMT",
-      "source_name": "CNBC",
+      "date": "2026-09-23",
+      "published": "Tue, 22 Sep 2026 19:10:14 GMT",
+      "source_name": "Reuters",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Investors discounted Mark Zuckerberg and Meta and now look at it: Yorkville Ives' Dan Ives - CNBC",
+          "t": "Headline signal (not a direct quote): Meta CEO Mark Zuckerberg to join tech leaders at Trump-Xi dinner, Bloomberg News reports - Reuters",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU043aENHRTM5T2ZJd3haY1hSVHRxWHBIOGZOLXlsTE9aMktnUTQyVFZTdGFNMU1GclJyOG8tZ2VtXzVMUkVCNTJpRUxnSmg4VHFidms2MTlfQWZranA5c0FNYmp4dXpnN1FiS1NrWGFlWkplRExET2FKamNaNGZRY2lidXdrT3VVZTFFMnlvbzk5MF9RNEx0Qjk3VkRPVDJFaGdLV0liZFdySTJqa2dQdkhEZF9LQWZNOG54S29fdS15TDRlY08tU2U1RQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYkIxSExzOHdadlVOdG11bVdhcjI3YURzek5oSE1nUWU0V25NVWdHN21QM0czR0lfWnAtdUtSZUgxeVM0cFh6R0pDTmhHb19ZbUVfNzk0Z0x5Z1cyVDJvMHotOHdfZENkc2VUM0MzLXVYU1ZVaEx0VkllS1BwOWNuNkNRQ1F6OHh2WGVlNjd6UEM1d3p2anV0VHB4TFBRQ3ZpZVM1bndnV19sZTUwNllhaFFsSHlWYWV3cVRQbUx3?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -203,30 +203,30 @@
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 11:10:05 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-09-23",
+      "published": "Wed, 23 Sep 2026 02:16:26 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 13,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#META"
+        "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Beyond Meta, Cathie Wood’s ARKG Loads Up On These 4 Biotech Names - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood Trims Alphabet Even as Google Regains Search Share, Ark Bets Big on This Space Stock - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWjdQWDdjbmIzaUFaZ3dpc185SWFuaGJ4eUJobWZDZV9VNE9zdUVadzNmVWFRMjJTS3gxVEFpT1ZYNzROOWpPSEZzaUh1R3k1MjhXUWFQNi1zM2N1WWhOWGlELWE4eGJWZVFGazZSSWlXVmFKb0UxYVQxa3JGeWxfaldoNXlFRnpoRGZPVGRzbTVBejA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbXF0eHVKT1o5ZDd1ekhZVVBYVnhXQV9oWjZkd0dKU1ktZ3duVG9yaE1XelZJc1VWQmFoMDFzemZOSXRBanpsRFdDLXc1MVNQc0g3SDJ5a09acmN5VC1vZHFNbTNFbS1fYzdkVUJmYzhYbGtES28zTjFVajh6SGxkeTQyZ09ZZ3dBRjFiOGdnb3RldW1nVl8xWl9seVRzcHQ2N3dhR2w3clNvNTB4ZE5OSmdWak02MEg3OHNhQ3ZXQnV5c280WFJhbTRnZFZYVXBZcnBpS0ZjUmZzLUpyR0hMSzNjbUo4VWJJSk9oN2JMbmRhUXo2?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-09-22",
-      "published": "Tue, 22 Sep 2026 11:47:56 GMT",
+      "date": "2026-09-23",
+      "published": "Tue, 22 Sep 2026 21:22:46 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -235,11 +235,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Prefers Brinker (EAT) Over Darden (DRI) Ahead of Earnings - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer Says Paychex (PAYX) is Entering Earnings With a “Full Head of Steam” - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQanJJRkhHNXVmSTc4VUU5dG1nT2VGQm9SQmo5bXZKbk9yN05ScFVOeG9EaEhFN21mdEY3UUt0SWZOeUJZcWxpd1EtdVFqcDljeEdHb1pNSS1YdzMzT0pRczBKVkFlMVRJc1BYWjBFRXFIRDNrWEdHRHROSXUwWDY3NFhGQmpZYTlxa1h0YVJ0akFKa0lScklKdmE1Zw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYUo2bGV5ZG1iQ2pCbGNCbW9XV0VrbUl3Ti0tX1J2VEJSMHhMVWV3R3VCY2JtYTNvRzhybm01ZDRwVjRDVnVXUDZjd2MweTJyNWdMcjEwaFI2b1dUMkh3c2phYndMa1hULXBsTEt1R1gyMGNGX2dHcnNPYUJEX211VTg0SXNNUEF5RFQ5QXFRRGRxUjJpNjhqaQ?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -268,5 +268,8 @@
   "fresh_window_hours": 24,
   "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
