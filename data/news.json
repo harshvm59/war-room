@@ -1,83 +1,62 @@
 {
-  "updated_at": "2026-09-23T23:26:54.089206+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-09-24T02:09:06.157936+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "AI",
-      "headline": "This Magnificent Seven Stock Could Turn $10,000 Into $20,000 by 2027 - 24/7 Wall St.",
+      "ticker": "CRWD",
+      "headline": "Cybersecurity stocks rally as investors focus on AI safety",
       "date": "2026-09-23",
-      "published": "Wed, 23 Sep 2026 15:00:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPb0M0ZUx1bEp5aFZBZFY1MWk4SVpwUFlmaVlBMERjVWp1Y0xFeWpUdlRDRGhBclhXcWM0RkQwQlZtbXZiZkYwSklYbU5kTEQzcHBONC16c3NuTTdwM2FMcDUzbXlNbVBYamZYQThlaDlvSUxtU3dGNnZHZVhrSmVrOWVHMFI4WnF3Y1RiTFkxcHd0MzR3ai1tNlN1RkxYV29kcmg5cXZhMlIxbE1u?oc=5"
+      "published": "2026-09-23T12:34:00-04:00",
+      "summary": "CrowdStrike and Palo Alto Networks were among cybersecurity stocks rising while broader US indexes weakened as Treasury yields reached a 19-year high; the report linked investor interest to the firms' potential role in AI safety.",
+      "tag": "AI security",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/09/23/stock-market-midday-sept-23-stocks-slip-as-treasury-yields-hit-19-year-high/"
     },
     {
-      "ticker": "MSFT",
-      "headline": "IREN Has Microsoft and $14 Billion of Funding. Execution Is the Real Test - Yahoo Finance UK",
+      "ticker": "PANW",
+      "headline": "Cybersecurity stocks rally as investors focus on AI safety",
       "date": "2026-09-23",
-      "published": "Wed, 23 Sep 2026 13:14:03 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance UK. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVUFpa292UWtkMXZ5SEVWY191dS04MkxXbEUyazBpMVg0NkNwTEYyam5PYkdfZ3ZKcERjX0dCbWYzLVQ4OVYyYWdueGhscnZONWo4WjR4Zm9qdjcyVWpueGV3MklIRF9VaC1UZHZKVVp6eEtrUjdRYW5OVVlHNFowMmdEZ2pzWlNqa0E?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "These 4 Companies Are Monetizing AI Today - marketbeat.com",
-      "date": "2026-09-23",
-      "published": "Wed, 23 Sep 2026 14:29:32 GMT",
-      "summary": "Automated RSS market signal from marketbeat.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZUxTcXZXbkk4ZURvbVNTbzFIVDlOdDI5dzdySW9XQ2NQLTRLQXBfZU85TVBxNzk0WkF5LW1vZU1rTllNc1RLcUJLcUVBeTNjSFlkX0R3RlNNcElDZ0NFYkI4NS11UGVmS3dfdE9rcXVyLTh4NWxERmo0ei1fZldWV3ZERUw?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "JEPQ: Hedging AI Infrastructure Growth With Monthly Cash Flow (NASDAQ:JEPQ) - Seeking Alpha",
-      "date": "2026-09-23",
-      "published": "Wed, 23 Sep 2026 12:05:15 GMT",
-      "summary": "Automated RSS market signal from Seeking Alpha. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTFE3dFV0RVhOZ3AzdnJnZGZ5bG1PMXBIeERPSXcydDFNaWRKR2JpQVFMeE9wYm5NMmNuOEVOZnI2RGg1bTRlZkxNb3U0a3VrUFFReFR1bTBaQ0gzQ3hwMHBSMThybURWNmJhUVB3MDRTYWJPOEhmemhBcnpiWXRleXNFNEE0V0ZWYWtqb1JVZGhEY1dIYlVTY29PR21yM0diZG9J?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "AI Stocks Now Dominate the S&P 500 More Than Investors Realize - CryptoRank",
-      "date": "2026-09-23",
-      "published": "Wed, 23 Sep 2026 14:05:11 GMT",
-      "summary": "Automated RSS market signal from CryptoRank. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOGpUSFB4MnIzbmNPazJIRDN6bWFKR3o5cDI4amc3bUM2SGtCbFF0UmlaX09nd1FnOWh6cklIWC1JS2tkeEtXUF9GUncwWlZYT2szdTRFVENrOHZRNWgtanRya2hBSUtLTW84dkdxdy1iVVRWVHlBU2RpeFNEYVVVVE13QjhpY2RQNFNpaW5MVzI1Z24tTHZ5N1FOblVvd1Vn?oc=5"
-    },
-    {
-      "ticker": "TSLA",
-      "headline": "Nasdaq Futures Tick Higher As Amazon Earnings Lift AI Stocks Despite Apple Selloff: Why TSLA, SPCX, RDDT, SMCI, BE, RKLB Are In Focus - Stocktwits",
-      "date": "2026-09-23",
-      "published": "Wed, 23 Sep 2026 08:29:31 GMT",
-      "summary": "Automated RSS market signal from Stocktwits. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQ0tsMWtzYkhFYlFDZVRSTTBCdnFsOGFGUkEzTVZkMExRYkxNeHc3MjA4cmdmejU1MmdMWG10UVhzSnJaVHlvcGI1WW9BSklsV2lfdjAwaXI3LURaLU53c3pPQlNvdDliMUhyS1FsbUQ1cHMtanFqbXRqRThHTXpWbzd2dVZNMlE2UEVabHdGbEJzU2pKQ0Y3WC1PdWYxbU92OHYydGNva3VISWJUM2pTbHo3RTJXQUY4a2lRb0szNDhGUUlUNDcySXUtOU1waUExRmMxZkJaaG93eTBvUFMyRV9Yc2swT3lhMXBteWNYTXIxWUlrM3c?oc=5"
+      "published": "2026-09-23T12:34:00-04:00",
+      "summary": "CrowdStrike and Palo Alto Networks were among cybersecurity stocks rising while broader US indexes weakened as Treasury yields reached a 19-year high; the report linked investor interest to the firms' potential role in AI safety.",
+      "tag": "AI security",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/09/23/stock-market-midday-sept-23-stocks-slip-as-treasury-yields-hit-19-year-high/"
     },
     {
       "ticker": "NVDA",
-      "headline": "Elon Musk Is Going All In on Nvidia, but Are These Two Chip Stocks Better Buys? - The Globe and Mail",
+      "headline": "AI stocks support Nasdaq rally, but investors seek evidence of sustained infrastructure returns",
       "date": "2026-09-23",
-      "published": "Wed, 23 Sep 2026 05:38:40 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQ0gwYXZFNkhILXNhdXZNNERsM09mUk4ySTk2ajlLR3hoeEdzRGxpanU0VnJFeWt0aGxpcFpFOERsUDlmMlNZNW5KQjlsamgxNzFkX2M5WXJ2elpnOVJpVTlrS0o4OVVjclNkV1JoOEc5Yy1YY001RVlxZ2tiQngxQjNpMzFiejN2bU1QN3FiMTRTNk5kUzFEQXFad0M5cVdZdFVkZFlEWkVMemVtWXdOS0h3aDBicGlMZ1lFN2pLRDVPNmVoTWpoTUxic3FDWUJjV3phelFxOEZrU1ZOQVZjWjg1VE5lOEI4NTFPQjlWSFBfZjg5TWhr?oc=5"
+      "published": "2026-09-23T08:27:00-04:00",
+      "summary": "Bloomberg reported that technology-focused US ETFs attracted $22 billion during the quarter versus $4.6 billion for the rest of the market, while hedge funds increased net-long Nasdaq 100 futures exposure; the report said investors still need evidence that AI infrastructure spending will translate into durable returns.",
+      "tag": "AI allocation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-skeptics-surrender-again-traders-122729347.html"
     },
     {
-      "ticker": "MSFT",
-      "headline": "Microsoft Can’t Hold $500 While the Nasdaq Hits a Record. What’s Going On? - 24/7 Wall St.",
+      "ticker": "MU",
+      "headline": "Nasdaq reaches record close as Micron and AI-linked shares rally",
       "date": "2026-09-23",
-      "published": "Wed, 23 Sep 2026 16:52:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMG0zUmJtM2s3aUdPcWN3WUtmYUprbjZXV0F3QjV0Q21VU2I2bUpkR2duSjVUZ0tTRGpqaGtKYjdTQTdSZDc2bjV3MzVHTTdnZXl3YXBWOW9hQ3p5U1g3b3FnSll2c0JQNnNOSHZFQ3VfQUpVdmJoaEpxS1otRU1ySDRDSU9uNkJPWWxRWTBsU1k4b0ZhbVdvZHN0S0RsZ1BaMFV0akp6Z0RPREpsNGhEbXRiUQ?oc=5"
+      "published": "2026-09-23T05:44:00+08:00",
+      "summary": "The Business Times reported that Micron Technology and other AI-related stocks helped lift the Nasdaq to a record close on September 22, while oil traded near $100 per barrel and investors awaited developments around the Trump-Xi meeting.",
+      "tag": "AI semiconductors",
+      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-nasdaq-reaches-record-high-close-ai-stocks-rally"
+    },
+    {
+      "ticker": "META",
+      "headline": "AI rally faces a pause as yields and geopolitical risks pressure technology shares",
+      "date": "2026-09-23",
+      "published": "2026-09-23T08:18:00-04:00",
+      "summary": "Yahoo Finance reported that futures pointed lower after two record Nasdaq closes, with the recent AI-led rally stumbling as chip stocks weakened; Meta's planned AI-product updates were identified as a market focus.",
+      "tag": "AI platform risk",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-things-know-stock-market-121854132.html"
+    },
+    {
+      "ticker": "QQQ",
+      "headline": "Technology-focused ETFs attract substantially more capital than the rest of the market",
+      "date": "2026-09-23",
+      "published": "2026-09-23T08:27:00-04:00",
+      "summary": "Bloomberg reported that technology-focused US ETFs received $22 billion in quarterly inflows compared with $4.6 billion for the rest of the market, highlighting continued concentration in the AI and technology trade.",
+      "tag": "ETF flows",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-skeptics-surrender-again-traders-122729347.html"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }

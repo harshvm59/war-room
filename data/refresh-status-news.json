@@ -1,17 +1,14 @@
 {
   "feed": "news",
-  "status": "degraded",
-  "last_attempt_at": "2026-09-23T23:26:51.088017+05:30",
-  "last_success_at": "2026-09-23T23:26:54.088282+05:30",
-  "error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
-  "source": "google-news-rss-fallback; google-news-rss-fallback+30-leader-monitor",
+  "status": "ok",
+  "last_attempt_at": "2026-09-24T02:08:48.086989+05:30",
+  "last_success_at": "2026-09-24T02:09:06.157190+05:30",
+  "error": null,
+  "source": "openai+web_search; openai+web_search+30-leader-monitor",
   "outputs": [
     "news.json",
     "youtube.json",
     "voices.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/35899056337"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/35917326800"
 }
