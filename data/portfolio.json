@@ -153,8 +153,8 @@
     {
       "ticker": "MU",
       "name": "Micron Technology",
-      "units": 4.5505134,
-      "avg_cost": 441.6,
+      "units": 4.5597989,
+      "avg_cost": 442.68,
       "theme": "AI Compute",
       "priority": "P0",
       "target_value": {
@@ -263,33 +263,23 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-09-24T03:33:05.663Z",
-    "broker_synced_at_ist": "24 Sept 2026, 9:03 am",
+    "broker_synced_at": "2026-09-24T14:43:13.895Z",
+    "broker_synced_at_ist": "24 Sept 2026, 8:13 pm",
     "usd_inr": 95.74,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
-        "name": "TSMC",
-        "units": 29.4030759,
-        "current_value_usd": 13131.71
-      },
-      {
-        "name": "Micron",
-        "units": 4.5597989,
-        "current_value_usd": 4890.43
-      },
-      {
-        "name": "SK Hynix",
+        "name": "SK hynix Inc. (ADR)",
         "units": 2.0331205,
-        "current_value_usd": 383.37
+        "current_value_usd": 378.85
       },
       {
         "name": "SpaceX",
         "units": 1.1988059,
-        "current_value_usd": 178.35
+        "current_value_usd": 177.36
       }
     ],
     "usd_wallet": 87.68,
-    "broker_account_value_usd": 134462.69
+    "broker_account_value_usd": 116449.16
   }
 }
