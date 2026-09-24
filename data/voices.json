@@ -1,14 +1,36 @@
 {
-  "updated_at": "2026-09-24T23:26:07.256483+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-09-25T02:12:16.372339+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Daniela Hathorn",
+      "role": "Senior market analyst",
+      "org": "Capital.com",
+      "cat": "Macro/interest rates",
+      "date": "2026-09-24",
+      "published": "2026-09-24T12:44:00-04:00",
+      "themes": [
+        "Treasury yields",
+        "inflation",
+        "economic growth",
+        "interest-rate outlook"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Hathorn attributed the rise in bond yields partly to evidence of accelerating economic activity, capacity constraints, and faster input-cost growth, suggesting markets may tolerate higher real interest rates.",
+          "k": true
+        }
+      ],
+      "src": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 13:54:00 GMT",
+      "date": "2026-09-25",
+      "published": "Thu, 24 Sep 2026 18:32:00 GMT",
       "source_name": "Barron's",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -52,15 +74,15 @@
       "cat": "Analyst",
       "date": "2026-09-24",
       "published": "Wed, 23 Sep 2026 20:50:02 GMT",
-      "source_name": "Yahoo Finance",
+      "source_name": "finance.yahoo.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Launches $200M Fund To Back AI Startups - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Dan Ives Launches $200M Fund To Back AI Startups - finance.yahoo.com",
           "k": true
         }
       ],
@@ -94,7 +116,7 @@
       "cat": "CEO",
       "date": "2026-09-24",
       "published": "Thu, 24 Sep 2026 15:33:02 GMT",
-      "source_name": "businesschief.com",
+      "source_name": "Business Chief",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -103,7 +125,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD Hits US$1trn as Lisa Su's AI Bet Takes On Nvidia - businesschief.com",
+          "t": "Headline signal (not a direct quote): AMD Hits US$1trn as Lisa Su's AI Bet Takes On Nvidia - Business Chief",
           "k": true
         }
       ],
@@ -114,66 +136,44 @@
       "role": "CEO",
       "org": "Palantir",
       "cat": "CEO",
-      "date": "2026-09-24",
-      "published": "Wed, 23 Sep 2026 19:11:26 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-09-25",
+      "published": "Thu, 24 Sep 2026 19:12:14 GMT",
+      "source_name": "TradingView",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 10,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir Jumps Over 4% as Karp Makes AI Liability the Product Test - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Palantir Slips as Karp Puts Liability Before AI Listings - TradingView",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWXdRUmp0aEpRUzZWSWFKMFdnZTFEYWlpc1lfOVN5MEc4Uk1sVWt6OF95SlRhNU1IQk13NmtTdlV3NVhzbWR6eVVQRkN6SFVMeW90RmtOUl9CdjA3WVlRNFlEX1czSG5WTGhCWFhIcVozN0FwVjA5Rnd2OTZtWWVmbVkyMnc0cXc4d0thWU1CRnpZQ0Mw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeDkzZTFGdlNLLXVSejlTQjJzU1lkMVNjTzkxelhVcG1saFRVYlI3QkJ6U0hybmQ5Zk5FT0Q4cE4wdXR3Zl9EdTJVVGU0WmhldnByWDVUUlNvQXZTZkZyOWFOQ2ZhWV80cFU3VTFkd29NSjZFS2hZYm5NeU13Z3M4Zkh6a3Z0X2lzeDdjTFFXMmZlTFByWlpzdkwxcUZHWVJZTnlFVnNPSkd6LUl0Ni0wV2VfNHRTVm8?oc=5"
     },
     {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 12:46:00 GMT",
-      "source_name": "foreignpolicyjournal.com",
+      "date": "2026-09-25",
+      "published": "Thu, 24 Sep 2026 19:05:00 GMT",
+      "source_name": "AOL.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Musk Backs Anthropic CEO's AI Slowdown Call — What It Means For Tesla (NASDAQ: TSLA) And xAI - foreignpolicyjournal.com",
+          "t": "Headline signal (not a direct quote): Elon Musk Has Left the Door Open to a Tesla-SpaceX Merger. Here's What Shareholders of Both Stocks Should Do. - AOL.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUUNieWRyR0VrM3pSRW04c3NlYWpOTXpEYU5hVnZISWlwanJLd2dKZEVQOVRYQnpPbmRaSWFuR1RMMWtXOG9xZzNITDk0aXg4cXVueGdWeEx1ODFOVWg4ZWVlOEM5S1F6WTRla3RDVXNUOUFTd0JvRFR4OS1GQ253MlR3VW0tSlY3STJzeUtBbFBES2d3SUMtUnNLVXk4WTRQWTFiT0ROT1pkUHRMaDdvS21HX25ubjBMeXFQS3hXZUszallfSDM5U1RlWHgzYkVU?oc=5"
-    },
-    {
-      "name": "Mark Zuckerberg",
-      "role": "CEO",
-      "org": "Meta",
-      "cat": "CEO",
-      "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 15:02:07 GMT",
-      "source_name": "cnbc.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#META"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Meta CEO Mark Zuckerberg lays out AI vision - cnbc.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWVZ2ZWVoWGJjTmZuM1pEVzhQczJ0aF90VXptOFV1OHk5eF8tNWN5MW9ZR1FYZ1EyVmlvd1BxZWdFNEFkYWtVcmVKNlBCSkNrR0FGaU1RLUNKVktYam8wVnhSRjYtX3E3ZlU5cnBTQTJOWENCa3NFbm4xSm5aRnpBZWFleUJSZWViaDlYa2VpTQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LQUJnVWxXcTE0TjdJS3htOGFkeklKSWRaVlhUTFEyVkp0U1ByanVpZXpSaEpKbEpNR0VDdkRlMkdFU3BvMENaNDcwMG9nZy1VUHdGR2lrU2tUZ2NuakU3ZnMxV096NlBBSmsxQnVVRWsyNnFKWHJr?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -203,20 +203,20 @@
       "org": "Intel",
       "cat": "CEO",
       "date": "2026-09-24",
-      "published": "Wed, 23 Sep 2026 19:14:45 GMT",
-      "source_name": "ACKO Drive",
+      "published": "Thu, 24 Sep 2026 12:28:38 GMT",
+      "source_name": "NewsBytes",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Ultraviolette Raises ₹813.69 Crore: US Entry Planned, Intel CEO Lip-Bu Tan to Serve as Advisor - ACKO Drive",
+          "t": "Headline signal (not a direct quote): Ultraviolette raises $85 million, Lip-Bu Tan investor adviser, eyes US 2027 - NewsBytes",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa0htV29SMHJPekFmY2I1OVgyODFXLS02Zmw5YU5QWE93azEyS0dfVF93bnZ1dFpMRXdiYUIzMHMzUU8yUjJSZHpxLXlsUi1saFBNNVBTem4wYmRPaklyaS1qZzRLZzM2dGFWRm1sQU1KNHVNZmRwSnF5b1VrNkdLZnJoLS1WYTFyNmRhMzJ6cl8tTVd4MURwamJrNTk4QjRPdWREaW1XSmh4WWlKZkVxcEEwLU1fdDVyNWtF?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUGVvUVV6RkRjajcxbUdlWnBVblgwSFhMQUNNQThpS3pvN3ZacXhDcnQtSE1YT3l1R0d4ZmUxazNleFc4RVJTQUNValJqR0hwOHZnSUNFRlV4VTFZR2pMZWhTNTZ2N2FiSnVRT2t0dzc2VzBndDE3bGlLNk4yUktoeHpyT05XbC1zak9iVi1rS3E2LVo5bGExOTBHcjh6Z21KQ1Y5dzhYN3JaYUZUMi1jWjMzWHJPS0JpWHRTUg?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -224,20 +224,20 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-09-24",
-      "published": "Wed, 23 Sep 2026 21:14:00 GMT",
-      "source_name": "Investor's Business Daily",
+      "published": "Thu, 24 Sep 2026 14:02:03 GMT",
+      "source_name": "CoinDesk",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Rocket Lab Readies For Mission, Cathie Wood Buys $25 Million In Shares - Investor's Business Daily",
+          "t": "Headline signal (not a direct quote): Cathie Wood's ARK teams with Securitize to tokenize venture fund with OpenAI, Anthropic stakes - CoinDesk",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcW1CYk9jNy1sTlhLZWZ3VWoyNENIUUVUUFluc19hX0ZZX0lsakNPNEVid2NnV0dYSUlubFQwYi1QaGJDYm55ZGg4VWEyZUF6ZVJYS1FXSVBaSGVTejdkcHJEdnBwenpVVzJ3TFQ3c0NERmh6Tjl4VlQwT0lwbl9HbzZWTjlRaUlWcEQ1V1gyV3FqdGk1Yk96cThDcmtqWFdnODhobkd2TmxUa05ZYVRoY2ZrbXgweUI3ejhmVFNDemY1emFr?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZDg4TXJRVXVWeFI3a1A1YkZrY3NtZUNrdnRVa09TZlNNZW1kS2hUczF4OGVzZHZhQTdxVmM4a29wa0VLeTNWUTl0cy1iMmVnRDRvZmZsUGpRVFVPbGdLVTczQ0d0TE4xR2lhdmk2QkRwSVlGMnlqQjZmWGxzLW5qUmw4bTdkMmZHNnU0TEdOQ3VYQzhlWldOclVSV2dCeTZReXpNMzdKQUNuN1E4RXk4MzZ0akdpamxLNF8zaEFLVUNjZlRjS1FDREswZlZuMmRuMFRVcg?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -246,72 +246,25 @@
       "cat": "Investor",
       "date": "2026-09-24",
       "published": "Thu, 24 Sep 2026 03:23:00 GMT",
-      "source_name": "Yahoo Finance",
+      "source_name": "finance.yahoo.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta Stock Expected to be 'Flat to Down' on 'Connect' Keynote, Says Gene Munster: Muse is 'Bad News' for Google, Says Analyst - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Meta Stock Expected to be 'Flat to Down' on 'Connect' Keynote, Says Gene Munster: Muse is 'Bad News' for Google, Says Analyst - finance.yahoo.com",
           "k": true
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVGVuX3NHZ3ZkYlFzbDJINXBSLUxOYXBsR1hSQzZVUmFmTFZGX0FWcUlVdENVeC16MUc2NjRhbnlsVWZYQjFPc0xUM09kQlBuU1NteHhwVzAyTE9BTDItS044WWIxdUZwc2Z5WEkyeDZreHpObTJWbVRULTcxdlBZUEItZmZJSTlSc2g3cktyZWlKNjlJb2FtMkNR?oc=5"
-    },
-    {
-      "name": "Beth Kindig",
-      "role": "Lead Technology Analyst",
-      "org": "I/O Fund",
-      "cat": "Analyst",
-      "date": "2026-09-24",
-      "published": "Wed, 23 Sep 2026 19:57:37 GMT",
-      "source_name": "Beth Kindig – Medium",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI",
-        "#MU"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Micron Stock: Why the AI Memory Cycle Is Different This Time - Beth Kindig – Medium",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYmR5WnBQdmtQLXRCMnZZSkNmT0o2OTNmdmdkNWVNNmw1NEk2UWZHejMyRUp5cGVCV1dOSFB2bm9OQ1lySUJCUzFQdFJBSThUR2UwM01lTGVORGNTQllnSWF5Vm1HV05zNHFuTWotRkZZSktwTlRxRDhNeF9FVFVMd2dWUVdPNVR2LWJ1UDNiX290RUJXQXpBRGoyOHJrdFkzYzBOOFB3?oc=5"
-    },
-    {
-      "name": "Stacy Rasgon",
-      "role": "Senior Analyst",
-      "org": "Bernstein",
-      "cat": "Analyst",
-      "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 07:46:52 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): MU, AMD, MRVL, QCOM Stocks Surge — Bernstein’s Stacy Rasgon Says AI Demand Is Exploding, Memory Capacity Is 'Very Tight' - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWk1VdGVNT2dIX2ZLdTdsNS13RkRVUm9OMm52LVNJVGZIMFZVTThDV1M5bmc4UzNobnlqZkFrQUIyNUtpbVlOZVpWMjNMYXdXSDIteFBxdXI3ZU5MX3JXdlRKa3ZZVFJkTDVWZ25ONWZNLURhNHBZX1hkQ3U0eFJqRkRZSkxyZkFrUEs1SEFmVjRDRWhpUVl6bXdFTmNKWHRsbG9RRGE5UmRBWVF3TjNrSHdlTWNCY3V3OWszTXQ4QjhsYmlnbXg0?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 14,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }

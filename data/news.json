@@ -1,83 +1,71 @@
 {
-  "updated_at": "2026-09-24T23:26:07.257065+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-09-25T02:12:16.372979+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "NVDA",
-      "headline": "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club - The Motley Fool",
+      "ticker": "ORCL",
+      "headline": "Oracle declines as reported force-majeure notice raises concerns about a New Mexico data-center project",
       "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 09:46:00 GMT",
-      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYVVnTUdmWTlGYmpZT0xZUnhzelJBTFRVVW15QWp5Q2ZkdEJWS1AzbmREQU1FekQxdmZucmhNOWZ3ck5ZZXNPVklrdmhhRGZuMDNMV3hqY01MMU1oQ0Fkam0tLW5VN1RVdlRJVGpRcGZnWWJaZjdRYlBWc1F2Vk9VY3hZWnZnOW1DNXIwd1BpYzNPelZSTHc?oc=5"
+      "published": "2026-09-24T12:24:00-04:00",
+      "summary": "Oracle shares fell almost 5% during midday trading after reports that the company invoked force majeure on a New Mexico data-center project, increasing investor concerns about potential project delays.",
+      "tag": "AI infrastructure risk",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/09/24/stock-market-midday-sept-24-stocks-slide-as-treasury-yields-climb-oracle-declares-force-majeure//"
     },
     {
-      "ticker": "NVDA",
-      "headline": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
+      "ticker": "META",
+      "headline": "Meta gains after debut of VR glasses and handheld device linked to its Muse AI agent",
       "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 12:14:10 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance UK. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5"
+      "published": "2026-09-24T12:24:00-04:00",
+      "summary": "Meta Platforms gained after the launch of new VR glasses and a handheld device designed to work with the company’s recently launched Muse AI agent.",
+      "tag": "AI product catalyst",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/09/24/stock-market-midday-sept-24-stocks-slide-as-treasury-yields-climb-oracle-declares-force-majeure//"
     },
     {
-      "ticker": "AMD",
-      "headline": "AMD: The AI Spending Cycle Could Hit A Wall (NASDAQ:AMD) - Seeking Alpha",
+      "ticker": "MU",
+      "headline": "AI-linked semiconductor shares decline in premarket trading",
       "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 13:33:26 GMT",
-      "summary": "Automated RSS market signal from Seeking Alpha. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMW1UbkVCeHU4T1ExeThjdVlYeTNXNm9MNF9rR2k2XzRkZ3o3aVhta2RtZmNXZ294RWVkV0pZY2FfTXBSdU51dkk2eXJGWU9LTGJHbGpWODAxdjlPTTlGYWtfN0hLazZtYnRTcEN0WTFoTlc3dG1ZMlVqNy1mODRRdncxSVlndGlsWjZv?oc=5"
+      "published": "2026-09-24T04:32:00-04:00",
+      "summary": "Micron fell 1.69% in premarket trading as most listed AI-related shares declined. SanDisk, Western Digital, Seagate, Marvell, Applied Optoelectronics, Lumentum, Coherent, and Nokia also moved lower.",
+      "tag": "AI semiconductors",
+      "url": "https://www.tokenpost.com/news/investing/23625"
     },
     {
-      "ticker": "AVGO",
-      "headline": "Why Broadcom Stock Is Worth $650 - Morningstar",
+      "ticker": "NOK",
+      "headline": "Nokia leads listed AI-related stocks lower in premarket trading",
       "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 10:17:53 GMT",
-      "summary": "Automated RSS market signal from Morningstar. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQXZoMFoybDN3cmI0OTBaMjZQbEpYNHR5ZF9oNjNJM0FrcHNIR2pVaVFSWGwyWmFqaUZMaFhucmFjRVVJdVBJWHJXd0pqWGMwZllYUzVfcURlQUk3LXdYYXlLcDdndnBza01LWXZUSHlfM0s5bVoxbEF5MUxRXzdvYVprSC1LYWlwMGdsaE15UDZXRGM?oc=5"
+      "published": "2026-09-24T04:32:00-04:00",
+      "summary": "Nokia fell 3.95%, the largest decline among the AI-related stocks listed in the report, while other data-storage, networking, optical, and semiconductor names also declined.",
+      "tag": "AI infrastructure weakness",
+      "url": "https://www.tokenpost.com/news/investing/23625"
     },
     {
-      "ticker": "AI",
-      "headline": "CoreWeave vs. QuantumScape: Which Stock Is a Better Investment, the AI Giant or the EV Battery Upstart? - The Globe and Mail",
+      "ticker": "GNRC",
+      "headline": "Generac jumps on multiyear Amazon data-center generator agreement",
       "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 16:23:18 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNZXE5TlFmTEVPQlRpYXdqdFJNcFlIbExOcG9CNS1kMU9lR0lOU1J0R1Fnb0NoTDBBeFpTekRrVEQ1eWVBekIwNWJfMjhweUsyQ29ONTE2ckYwZW5feDQ1dlRybi1zS1RwaFF0alFZNWRjbVkzd041bG9VbnZhT1RPX1RObkZndXVUVDNRalNzNHhfRjJSVURyWEVtSkN6OWVpc1V2Y1BzV1FzYmtfVk1yX2J0UEE5Z3dsdTRRRHNYQkhvdVVWMVZBel9reGFOdTZub1BCb2FIVl9xMWxoeEF6YU9EVHBkczZQcTFkdnB4TjU1M1hFMmpyNnp4TnlvZHBma0xHV1FQMXVoaWk1OWlXcXln?oc=5"
+      "published": "2026-09-24T12:24:00-04:00",
+      "summary": "Generac shares rose 18.3% after news of a multiyear agreement to supply backup power generators for Amazon data centers. The report said initial deliveries are expected to total $2.4 billion by 2028.",
+      "tag": "AI infrastructure demand",
+      "url": "https://www.advisorperspectives.com/commentaries/2026/09/24/choppy-week-ai-slow-model-deployment"
     },
     {
-      "ticker": "NVDA",
-      "headline": "NVIDIA Is Buying Hugging Face for $13 Billion. Here’s the Strategy Behind It - TIKR.com",
+      "ticker": "AMZN",
+      "headline": "Amazon data-center power agreement reinforces investor focus on AI infrastructure spending",
       "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 15:14:02 GMT",
-      "summary": "Automated RSS market signal from TIKR.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVGU1c3NWUlFta2tBalpTbTIydjhFRWl4SVhNd040ZU9kakM2cklabnNfbHFoZEJIV2pYSFRyTVZvVUgxdVVzczljZURsLXZlVnhMRkctam9neDMtNVdJR2JfX0ktNDdjQ1dkV0pnamFuWE5mc2RPTkItRzF4SUlVTHMyRUxXQnVkT3J2NXpYOWkxbnc0UXV5WDdkek1GZFdi?oc=5"
+      "published": "2026-09-24T12:24:00-04:00",
+      "summary": "A reported multiyear Generac agreement to supply backup generators for Amazon data centers was presented as evidence that data-center infrastructure spending remains intact.",
+      "tag": "AI capex",
+      "url": "https://www.advisorperspectives.com/commentaries/2026/09/24/choppy-week-ai-slow-model-deployment"
     },
     {
-      "ticker": "BE",
-      "headline": "Prediction: Microsoft’s Best Growth Opportunity May Still Be Ahead - 24/7 Wall St.",
+      "ticker": "SPCX",
+      "headline": "Report says Pentagon gave SpaceX access to classified space-tracking data",
       "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 12:30:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNEpRUXptZGRZTGpQQWJlc0RkRjdMZFUzZWJFQk9YNlhuQlpYSVRHUnpIa3RjbkpYdzFHV3l6VTRFQU5BcEpDTnVKLTN0OXV3RTFxUl9BUFNJa2JLWER3OXRQcmJod0hFcE50T0JaQUliM3NfVEtORmVlTEE1QmoxLWdTWWtxdnJlVFRnZ3o0d2JOczFBYi1OWGtRVHVlUGw5WWxvdUZjS21TRjd1?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Pelosi and Trump Diverge in AI Stock Picks, Reflecting Party Lines - 조선일보",
-      "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 07:37:55 GMT",
-      "summary": "Automated RSS market signal from 조선일보. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQmVKUG5ObEYyT1BYV2d5N1pkV2h0cnpfaDZLUExXZ29rbU1oMlhKSlNWSFQ1VkpkdnhSeFRjYXNfaTdSMW9hT3NGYUJsOTl2dm95d0JPSThZVzg3dzB0LUhtMzI5d2xQM3BUS0g4LVctMzFpZzd6SGw2LWZFcXAxbnp3TkhZYUJOQWVXckJB?oc=5"
+      "published": "2026-09-24T07:31:00-04:00",
+      "summary": "TheStreet reported that the Defense Department had agreed to give SpaceX access to highly classified space-tracking data in exchange for data from the company’s Stargaze cameras. The report said SpaceX shares slipped 0.34% in premarket trading.",
+      "tag": "Aerospace/defense",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
