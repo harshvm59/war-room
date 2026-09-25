@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T06:08:59.115291+05:30",
+  "updated_at": "2026-09-25T06:09:13.101606+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -9,7 +9,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "published": "2026-08-26",
+          "reporting_period": "Q2 fiscal 2027 ended July 26, 2026"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -64,19 +71,28 @@
     },
     {
       "ticker": "TSM",
-      "company": "Taiwan Semiconductor",
+      "company": "Taiwan Semiconductor Manufacturing Company",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 0,
+      "score": 2,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
+          "title": "TSMC 2026 Q2 Quarterly Results",
+          "published": "2026-07-16",
+          "reporting_period": "Q2 2026 ended June 30, 2026"
+        }
+      ],
       "questions": {
         "growing": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Q2 2026 net revenue was reported at US$40.20 billion, with Q3 guidance of US$44.6–45.8 billion.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+          ],
+          "reporting_period": "Q2 2026 ended June 30, 2026"
         },
         "moat": {
           "verdict": "CAUTION",
@@ -93,11 +109,13 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Q2 2026 gross margin was reported at 67.7% and operating margin at 60.3%.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+          ],
+          "reporting_period": "Q2 2026 ended June 30, 2026"
         },
         "cash": {
           "verdict": "CAUTION",
@@ -129,7 +147,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2026-financial-results",
+          "title": "Tesla Releases Second Quarter 2026 Financial Results",
+          "published": "2026-07-22",
+          "reporting_period": "Q2 2026 ended June 30, 2026"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -187,16 +212,25 @@
       "company": "Meta Platforms",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 0,
+      "score": 1,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+          "title": "Meta Reports Second Quarter 2026 Results",
+          "published": "2026-07-29",
+          "reporting_period": "Q2 2026 ended June 30, 2026"
+        }
+      ],
       "questions": {
         "growing": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Q2 2026 revenue was $60.801 billion, up 28% year over year from $47.516 billion.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
+          ],
+          "reporting_period": "Q2 2026 ended June 30, 2026"
         },
         "moat": {
           "verdict": "CAUTION",
@@ -214,10 +248,12 @@
         },
         "margins": {
           "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "note": "Q2 2026 operating margin was reported at 31%, down from 43% in Q2 2025; broader trend evidence is incomplete.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
+          ],
+          "reporting_period": "Q2 2026 ended June 30, 2026"
         },
         "cash": {
           "verdict": "CAUTION",
