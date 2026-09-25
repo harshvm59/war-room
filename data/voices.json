@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-09-25T23:32:59.358347+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-09-26T02:12:00.683794+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Dario Amodei",
+      "role": "CEO",
+      "org": "Anthropic",
+      "cat": "AI safety and policy",
+      "date": "2026-09-25",
+      "published": "2026-09-25T08:36:00+05:30",
+      "themes": [
+        "frontier AI development pace",
+        "AI safety safeguards",
+        "US-China AI competition"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Amodei argues that frontier AI companies should slow the pace of capability improvements to allow more time for safety measures, while maintaining a democratic lead over China.",
+          "k": true
+        }
+      ],
+      "src": "https://www.fortuneindia.com/technology/dario-amodei-absent-from-trump-xi-white-house-dinner-as-openai-google-meta-join-tech-guest-list/161138",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -52,7 +73,7 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-09-25",
-      "published": "Fri, 25 Sep 2026 12:19:21 GMT",
+      "published": "Fri, 25 Sep 2026 15:40:48 GMT",
       "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
       "relevance_score": 8,
@@ -62,11 +83,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia Is ‘Massively Underestimated,’ Says Dan Ives, Ahead Of Q4 Earnings - Stocktwits",
+          "t": "Headline signal (not a direct quote): Why Dan Ives Sees NVDA And Korea Memory Stocks Driving AI Demand - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT0dPZVQtTTdDZUVCalFfYnU1NGI3WEJsRjZTLTZua2JGY0VVblpyZVdWamdmRWx4aEJtOUpYaWRYaFVOaDRfalZiMFhweDVOOVNOZXgwaU1mVlJkS1V0QmgtV0dRckVndHNvTVJyNVpPMXp5cDVzVDRzczV0Xy1yblR3aVhNR3hpQnc1Mjd1MzcyLVlwM3kzZTh1MmxuSDJMcXNOeWE4Z0JXWUsyNHZLVXJnUmo3T1dIQnBCaFRqS3Ata1ZJOGRoVUIxTFFiUQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVWZDYnFKY09WaWVNQjZOUXVQQi1LS3ZfSTN5VG1SNFJ4VlFGN204TkowMnBuRzBWdk1peWJGWk9XYU43UXJRZmpjMnlEeExvUW5haGRJSVJMa2x5QVAtR2xwbmlsZ3Z1ZjlqN1M0OUc3cnZjanpxLURLQ052OWRlYXAxX013VTBpaUt4MVVkOG9ORVl3cHBjTjRlSlFzTGFqWERKVVdKMUZsN09adWQ4bjZEQjFPaHNjV2xfb0hsTTRKWTg?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -74,21 +95,21 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-09-25",
-      "published": "Fri, 25 Sep 2026 14:07:57 GMT",
+      "published": "Fri, 25 Sep 2026 16:37:33 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
         "#AI",
-        "#MSFT"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella talks US-China AI safety norms - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella on AI: ‘Trust is going to be the biggest issue for us’ - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWWltaTZxcXhZTVJlbG5LTHdvRUV4OVRsbUhHZVY2UF9qNGMxeFQxRG82ODdKQXlDWElnV0hLcU1FVDltVHJUa1NYZF84MkZpbXV4dU5UaVhIbzRwaENkdE5maXg4V0RRUHRwQnRPTG1YYUx1VUxfaks2aS1sdzM3dDduM2ZCd0FxZHVaUzE0NHZNR25XN1doYmtWc3UyWGVnX3poRkRuSGc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUlE2RV9PMlVoNWplSGtDU0Z4WXliZWNpSHZ6cHRDOHZ4d2lKOHFTcnRKWmJjYWl4alpEZVhGa016bEdQS09kTXMxNEd5M2x1dW9VSHlIc296SjZxR2F4bHVyNHpCcmZkcXlNMjZPWWxVWS1lREN0MUZjN3c0QWhmd3N6NGRybVhkSzFrSmhsRnNpY1lNdndZTU9FRlNQcVZ6RkhITkJOc0tDaFdMZUF4TDU0YWlhS05CLW0ydFEtMDFFeXBRdGRnWVpWbTdfZW5TeTNoZndn?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -118,7 +139,7 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-25",
-      "published": "Thu, 24 Sep 2026 19:12:14 GMT",
+      "published": "Fri, 25 Sep 2026 16:54:28 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -128,11 +149,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir Slips as Karp Puts Liability Before AI Listings - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Palantir Stock Falls as Karp Puts Liability Before IPOs - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSnJCTjhfeDg2Tk45M1BjcWxLQXp4Y1RvX01SbWN1Vnlfd2szWTdWMkItU2ZfQUZ2THZBeTRVRHBfOEhDbTAtWVNUMDZhTWtCS1JGQ3RPemlMU215VlFGVG80OTllTXlKMXRLZE9wLV9tTjdvQWU0UFd3ekZSWnczN2xQYUZCRXA0VWduODRsNVFhM05hQWVvOGpaWGdJckE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbVdMQ2Q3SnVJLTlEdVQxbjJsanhKV1U1U2hvTTR1b2hXYWI3cjhpMFVnMWpPUXlhQy14a0ZQb3dDbXdoUGQ1SmxFQUJnOU9URHNITDY4U3l6N2dfcHpNWklrZEZYay15RTBkcGFuX21KTHFOcVhGNWR6QTBzQ3RKcjdyQW9TR3hsTVVHSWxGdmFpY0IydGR5M2FLUQ?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -183,22 +204,22 @@
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-09-25",
-      "published": "Fri, 25 Sep 2026 13:29:54 GMT",
-      "source_name": "Benzinga",
+      "date": "2026-09-26",
+      "published": "Fri, 25 Sep 2026 18:52:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk Responds With Two Emojis as Google CEO Sundar Pichai Says Project Suncatcher Heads to Space: 'C - Benzinga",
+          "t": "Headline signal (not a direct quote): Sundar Pichai Reported Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter, With Nearly 90% of the Fortune 100 Using Gemini Enterprise. Is Google Cloud Becoming a Bigger Growth Driver Than Search? - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNWTRDUUVJdUppMXFJZnkydDlxcjVEMXpyNU9LMEExVjB4MmhTWWU5dXpCMTl4U0x4OTdwbUc0dGd0MldYOXBIbDRaUXNYUVduYnFTVWRManZjMHplTDVxM2k1LUNXQi1SVkx1YUM5MFlSOERhSEdKQllOQ1FqQWkzU0h1aXpxb2V3Q0JUVE1YVDdPRGRrVUplTGdfVVVnWXN5eGc1aW1yVG5RUVBueGtINWRmbzFieVhrSUVndnI3N0VkVFhJNzJmRzF1b1Z3eWgwc244QzZ6VEdEYWlIeGlkMjNWX2VZUURwSE9FSEpIaHdXb1J4X1N1UThPWmJtLTg3UFVfMUlB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcENpbllFNWhfSXItV2l1NkZpRHFDRXUwczlZU0NyaVFyVzhPR3dRWVkxYnNsT1EwU0p2SWRRWHZTRUVITkFyMzZ1ZTNsTTZfNmFGYlcwX3FHaW9oNUx2anVTa28zZVZLd0hRaEs1anp4Vy1jVDhFcE1MRTJJOUZIajFiWlJaM2JOd044dEpZb2NyeUR4OWF2b0ZQR0x4T1Vj?oc=5"
     },
     {
       "name": "Sanjay Mehrotra",
@@ -268,21 +289,21 @@
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-09-25",
-      "published": "Fri, 25 Sep 2026 09:57:06 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-09-26",
+      "published": "Fri, 25 Sep 2026 19:36:26 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Turned Out Right About This AI Stock Making Big Gains - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): What we want to see next week from one of Jim Cramer's 6 stocks to buy - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVVNHbDAyVW0yZmZEVTJnakk0MW5TT1c4YTRjUGlsa21iSUNFODhxaVNOMENXdkFsUXd4RnNmYnE2N1VucmdQTl9VT3BfUjdIUXJtQVJseWRuN1ZFQ1kybHhJUTAxX3JTeTJFUHZYRFhfSmtYRFBWT2lwUTVoVjFySWExSmlOSEczM1FIcGlUUWYwVm1BT1E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcnZ3RHZMWVFUcjdmUjZFdmFrSV9lU1JqYU1DUFB2MHVPSzA4SnpMY29NREppYmFKdVNHQW5jQWtQTGZBcXBTb1l4NHN5b1FkcGs1VXJTZmlLc3E5TjRCajJFZ3RialVHTW5kcmpwbFlUQ2Nvc0djM2Q1RnFYa3N6Xzh2OHZHUDVTWlRqeHlHZ25TNUVBV18tLU9ldjhxWjZkNE5ldzU3ell3UQ?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -331,10 +352,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 15,
+  "fresh_signal_count": 16,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
