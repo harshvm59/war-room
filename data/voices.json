@@ -1,50 +1,28 @@
 {
-  "updated_at": "2026-09-25T02:12:16.372339+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-09-25T14:31:45.945443+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Daniela Hathorn",
-      "role": "Senior market analyst",
-      "org": "Capital.com",
-      "cat": "Macro/interest rates",
-      "date": "2026-09-24",
-      "published": "2026-09-24T12:44:00-04:00",
-      "themes": [
-        "Treasury yields",
-        "inflation",
-        "economic growth",
-        "interest-rate outlook"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Hathorn attributed the rise in bond yields partly to evidence of accelerating economic activity, capacity constraints, and faster input-cost growth, suggesting markets may tolerate higher real interest rates.",
-          "k": true
-        }
-      ],
-      "src": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-09-25",
-      "published": "Thu, 24 Sep 2026 18:32:00 GMT",
-      "source_name": "Barron's",
+      "published": "Fri, 25 Sep 2026 02:51:00 GMT",
+      "source_name": "WKYC",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia Stock Drops as CEO Huang Suggests Drastic Alternative to AI Regulation - Barron's",
+          "t": "Headline signal (not a direct quote): NVIDIA CEO Jensen Huang says to ‘just stop’ AI if worried - WKYC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQjd6OU5hSXN5TW9nRnB0OGhIWG1jNU9FNk5iQ2RhNkhRbl9nSVc3RXBxcnJWZGhpUzU2Um8ta0NzOU5XV2lGNUZ3STBncXpBNlk2QnRhbDVXYXRzNGs1Sl9RRnNmSlpMb3FoVWNxMDV6VUt2VklXbFN3ZVl5SzF4eTRLRXpXbmJEaVpXNUFKNUtUbmRfSEE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObFk4NzFkdXlOTm9udmFOQ2Zfd0RtWnlNSEZ5cGsxTktBU1JsRFpDMG5LeHNYeGFJektPMkZnMERrUmhZSTdjaTVqMjVlM0hMelZCRDBQQVBIMFp3ZW82T05mUlpOR2pqemtYTVVUSm9BdFBlVW5qZzBWQW1mSUtJU1dPcWJISnFRdzJDbjU4bnNxYmUtSndENWhDaHFTOEE4cENZTUE3bzRhNFYySDQwY0o1TDNzOXc4dEc3V2RpYXlSa0JQaWc?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -52,8 +30,8 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-09-24",
-      "published": "Wed, 23 Sep 2026 20:56:16 GMT",
-      "source_name": "OpenAI",
+      "published": "Thu, 24 Sep 2026 09:21:00 GMT",
+      "source_name": "CBS News",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -61,53 +39,55 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman’s remarks at the United Nations Security Council - OpenAI",
+          "t": "Headline signal (not a direct quote): Australia says rogue OpenAI model hacked into its healthcare system, admonishes Sam Altman - CBS News",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMickFVX3lxTE5KSllHMS1Cb2QyZVQ5QVh2SEJzamI0N2tfSjE0OGJYQ2hzdERiMldGZnpGZ3AtYUk2NU1FNGVLNGEwcU9pQUJUa0F4V0lZVXVfd1RGbGZQZF81b29EMWFoYUp5X051YkNsYjJmclJLR3Z4dw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT3ljVElKN2J5MHNsUk9mLTZ6bU8tYU9SS1FxUTV0TGh0MkR4VDc2Q25kUHMxUWZfWGhfSTFXeVBJMml4cEF0dDI1bmVQbTFob0lZazBBM0xNd3cyMU9tWnRiNEtnVUo3dmxHOUpsTUxNX1U1NFFfRTM4UzZjSXJQWEdzVGdfQXNqR19sUU1OaHZxLUs1MVo0?oc=5"
     },
     {
       "name": "Dan Ives",
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-09-24",
-      "published": "Wed, 23 Sep 2026 20:50:02 GMT",
-      "source_name": "finance.yahoo.com",
+      "date": "2026-09-25",
+      "published": "Fri, 25 Sep 2026 06:26:22 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "themes": [
-        "#AI"
+        "#AI",
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Launches $200M Fund To Back AI Startups - finance.yahoo.com",
+          "t": "Headline signal (not a direct quote): Dan Ives Says NVDA's Recent Underperformance Is A Bump Than Anything Else — 'There's One Chip In The World Fueling The AI Revolution' - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUW9NaWpOa2FaQlVEcWRWdVpISGNPTThvb0RLUDZxSkVURmpBeUNqTk1UdnE0aWtzSXB1TWt3eWNwbFlaeUcyZUY3YVNWUUxRanJub0RwaEFuRG5tWFhoNzM2cGRpUnRjWkhPN2syUkRzbDFtYVJSVDl0eFFiZE5iZFk0S2dTM3gwcWp6MjZqdkVocHYxSkE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUU5ObnlHeHY0N0VIc3ZvalRIazROX28yTGZVZ1MzYXlkUFpaSjNjUFhKc2hZMzNNUC04RktraHpBRnVVNkQtNjFwQUQ1S0JQcmpFOUpGdHZkaE1TXzRFMU5QNDdZVVdWY2RKRjV1YnNyUk42UmdmeHFNalVMakpyS3M4azdhSE1Cb296eXZnSndMZXFqSXU0WlRRNldzWTJvUUhobWIzNXU2cVpjNDB6UURWVDgtU3YxcFNmbklNR0huSkFKcklqcFp3?oc=5"
     },
     {
       "name": "Satya Nadella",
       "role": "CEO",
       "org": "Microsoft",
       "cat": "CEO",
-      "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 08:48:05 GMT",
-      "source_name": "The Economic Times",
+      "date": "2026-09-25",
+      "published": "Fri, 25 Sep 2026 04:22:00 GMT",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 11,
       "themes": [
-        "#AI"
+        "#AI",
+        "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Indian-origin entrepreneur Gagan Biyani launches tuition-free AI academy; tech giants Satya Nadella, Sam - The Economic Times",
+          "t": "Headline signal (not a direct quote): Microsoft shakes up communications team; CEO Satya Nadella and President Brad Smith sends memo to employe - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPM2hGQW1QRWlKdEc3VUlnME1KWUV5UE5WTllkVUNyOFk0SUpSTnJfMFF4ZWUtMm9ibnM0amhjUVVJbmFrN2hOc3F6WTdJRUktcUgxMTl5TFh1YXhwUTVKRW96a2puU3dOdDJkb1V4WjFCU2tTTHUtdFFtUDZXT3RSamNBY1VXSU1yZEJSZnhDeHdZcnFWVkczUTdZd0cyRkR2M25VczhMQ1d2allna1otdi1sNzVmU0hObFNhZkJFRU5iaDRmU0dkbFhmTUZET3ZHTElOMkgyMXRheElqcDVpSVYtWUV3YjdKYzBYZEp1RUVxR2EwamR0STJUOGVvcW4wQ05vdzBPaEI2NTVhSkRYTkVRazBwUF9CZnZ30gGgAkFVX3lxTFA5NVRTcF9NRUgtNlAzQ1VVMUxwN2hhUVgzeUhYcnhLME1vZWlMYVRWQmRseEFBV29nVEJCZ2lQMGs1Q3l0M0JlLTBOa01LSEZzU1dOYnB6M01jOHc0M0dZTWwzdkJmT1cxZHpEcC1EQVZoLVBON2dOVllWTTJtU2FIOWVQaGMwQW43bG42cXA2RUZHMllDcVNGZGxKd1gzUXRmd2JQMnhSNDRsN2RueE9yS29LdW81TUM1TTZjWUxJdFVkWWN4dnk2cWI5V0R2Q3NBME1mUWV0aU9MVGVuMnJ5NUFXSWlJQjF2N0RRS2xQRENaU2p2VTFjRlltaW1malNWVVplX2o1Sk5xWldIWC1YQk9vbXFwcjJ6MUhmaEFCdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPTmlZWlpMWjI4TUx1Zmp0YlZIQzBlOHItYk9PQUZUVDEtWGlmUW1KYl9wa2J3N1d3MWdtOTB6U1pibW83U0tWN2hWZWhuVFpnY0luUzYxbEs5S3dDUUVKVHdmT3FMdnRfanpMTGxQTFdEdnRwZi1kZk02TlJ1cGRscTc5VFRvSUdvU09hc2ZSUl94NTdldkxuUXlja0Y3aHNJYzEzeVBDejZraWNnbzdJZXpPNFVsaGJTM0V4c0J0bHRSVUR6ZUR1VmpLRjBxNDNyZHBkbEVNal94bVhyY2M4NkdLTTd4Ql83S21hZlp0RmRIVmwxNUw1LTJBLWwxdVNDdlNYWjFiN1k3N1JKZl9UMXNlMU04eTV6Slo2WmJrLWdWWU5DSFY0WmhtSGlBV1luSnktTjBDYnlXdW9uWXVIdDA4ZHhQR1JRcHdsU0Qwa1V1WEJxVm5sTXFRRWlDV09GbGh1a242RlR6ZEptOGlVTNIB9gJBVV95cUxQTXBjV0xhZS1sb0hKRXhVVHl4OFBZal95OUZQLXVPR2J2ZVd2T1RyM1JxdEZIVlpSVVhSQXVSMzR0c1U2ZUtxcFJER3RCV2J2OThOM19ET2pCc0t0azJHVVhGZ3h5cEhSemdoNjVVV01xSTJIdTRRZkpReU14U1BJaXNHT0piWEJoUU5CXzJxSi1ZQTZLajFGN1VfUWxhZ3Y4MEhhWW9NRG5SZURvMDBKWVFJTENPU2l0VEpCSmZqYUY1N1FjVFJKMjRvSWlCMk5qUjY0Q2RWNWdSVUNjaXJ2dmx1SUxnM2o1QndOZmRTX3doajlxV0p4X19TcEwtZVFmbjhzQXUwQWNwU25fU0RNbmc1QTFkMmhJVzFnblBlejUtaHhVYlpHaFppNzRDWktySkhiWG0zajRrR082cWJCZEtKbXBsc3pmUkpqbVBVS1VYVWZ2cE9OSk1DM1VGdTZkQ0NyMXZCZnlkeThxSTFXcnUwTDhJdw?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -138,20 +118,20 @@
       "cat": "CEO",
       "date": "2026-09-25",
       "published": "Thu, 24 Sep 2026 19:12:14 GMT",
-      "source_name": "TradingView",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir Slips as Karp Puts Liability Before AI Listings - TradingView",
+          "t": "Headline signal (not a direct quote): Palantir Slips as Karp Puts Liability Before AI Listings - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeDkzZTFGdlNLLXVSejlTQjJzU1lkMVNjTzkxelhVcG1saFRVYlI3QkJ6U0hybmQ5Zk5FT0Q4cE4wdXR3Zl9EdTJVVGU0WmhldnByWDVUUlNvQXZTZkZyOWFOQ2ZhWV80cFU3VTFkd29NSjZFS2hZYm5NeU13Z3M4Zkh6a3Z0X2lzeDdjTFFXMmZlTFByWlpzdkwxcUZHWVJZTnlFVnNPSkd6LUl0Ni0wV2VfNHRTVm8?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSnJCTjhfeDg2Tk45M1BjcWxLQXp4Y1RvX01SbWN1Vnlfd2szWTdWMkItU2ZfQUZ2THZBeTRVRHBfOEhDbTAtWVNUMDZhTWtCS1JGQ3RPemlMU215VlFGVG80OTllTXlKMXRLZE9wLV9tTjdvQWU0UFd3ekZSWnczN2xQYUZCRXA0VWduODRsNVFhM05hQWVvOGpaWGdJckE?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -159,21 +139,43 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-09-25",
-      "published": "Thu, 24 Sep 2026 19:05:00 GMT",
-      "source_name": "AOL.com",
+      "published": "Fri, 25 Sep 2026 07:40:07 GMT",
+      "source_name": "Seeking Alpha",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
-        "#TSLA"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk Has Left the Door Open to a Tesla-SpaceX Merger. Here's What Shareholders of Both Stocks Should Do. - AOL.com",
+          "t": "Headline signal (not a direct quote): Elon Musk eyes doubling xAI's Colossus 2 Nvidia AI chips by year-end (NVDA:NASDAQ) - Seeking Alpha",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LQUJnVWxXcTE0TjdJS3htOGFkeklKSWRaVlhUTFEyVkp0U1ByanVpZXpSaEpKbEpNR0VDdkRlMkdFU3BvMENaNDcwMG9nZy1VUHdGR2lrU2tUZ2NuakU3ZnMxV096NlBBSmsxQnVVRWsyNnFKWHJr?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUG1zaVJiVXlremkyUFRpdXpMMnR0Qm4teUEycVY2YVdjNEkyME5qUTRqMXZkbWdzd29EX1hRT1E2VjJod1pobGVGUWdVZXh6eFdoT0k3VlRfOE1RLTlmdjA4RDNIM3FBZDg1ZVh5LXZiZE01SGxfaWRONzM0WERud2VuRGRKS1V3MFRzSWdnLVJaNkF4T2FqRVhTTUNXaEFZZ0dZVDRzSEc?oc=5"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "role": "CEO",
+      "org": "Meta",
+      "cat": "CEO",
+      "date": "2026-09-25",
+      "published": "Thu, 24 Sep 2026 21:17:08 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#META"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Meta gets to consumer AI device market before OpenAI, but Zuckerberg's strategy remains unproven - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZWFoS2dEa29qdy14MkFpekZ4aXdWME1URHhNZDlMNGVWUC1TQmMxUFZsTkJXbFF2WXdNeWc1U3Y4a2Ezd2JLZ282ME5JSDk2a2FXc0doUFkwM2F1V3laSFlwV2VfNEd4RFpQdWtXWm1odnZMZVpLeDhUZ1FLeHZwRHl6QjN2ZDhv0gGOAUFVX3lxTE43amNmdENubU9qV3NheHc5SzI5b1JsVkhURjZ5dTVUdi10eDlJaDh2aFg4TkhVY1VrVUY4ZkJ1cFM0MWF1LVA5b0pRVGZ4a1ppTHFwNHdneExRRFlSSnBWaUJadmdJWE41ZXhqLTFCTHhyQmhRajBLWFpiU1FjUHlYdUlrdjFfLVA4c2gwQ3c?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -196,6 +198,27 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbXVpNGVnYWtTaEEyQWJKSXAwR1BfS1U5VUVrRzktdjkwQ0IwMWZTZU9LQVJVd1oyLXI5YS02ajFNN3pVQnZpSVQtRXA3NkNqdm1XNzNLY1lsekxyZzNiOHZhcmlVM0E2bG1GbnllbFYxVFo3aTZjYWl3Z3lEcEtyYVktcDNyWXlneVBnd29QS01fbHRGVjU3anRqQXg4TkN6bmd4LW5TTjJjQQ?oc=5"
+    },
+    {
+      "name": "Sanjay Mehrotra",
+      "role": "CEO",
+      "org": "Micron",
+      "cat": "CEO",
+      "date": "2026-09-25",
+      "published": "Fri, 25 Sep 2026 05:20:49 GMT",
+      "source_name": "Hindustan Times",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Sundar Pichai, Sanjay Mehrotra: Who were the Indian-origin guests at Trump’s dinner with Xi Jinping? | World News - Hindustan Times",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQjdSN3R5aXpJRi1mbkhMRWhWYXJpNEdNUXk1SmhkNG52YXNiSzR4YnBPU1pHZTdlakRBTG5JSDIzeGszYm16Nl9vNzZfS1lzZWc3M0kzLVlwcDdjRmRFVDRfYVVYci1MMmQ0ZXl0UHFMdV81TFN0SWJfLXZUSEtadnZJcGY2NTV6VGd5ZzhwT2I3dWxXSm1taEQ0d3l2U0d6aEo2YXJQNVlhek5zbEN1dkZNVF8zYkptS1FRb2NrOTd4cnNBVWJOakVDVGp6S1JOWGJrY21TMVZ6XzItRnBtb0w5LXFFSUJEalc5ekh0Si1Td9IB9wFBVV95cUxNMldjel8tbkFnZkhSNFVxaWVYS09Bc2NxSTdOb3ktQUhJYVJNaUNJR1NZZVl4XzRwemxhMEdGLXowbmdwYVpJT1VCbmF2aWE2c2JhejhXOHNkbXVkVmVoV3NYZXlXbFZaNDAyTlNueFZLT0F3dE56V1JuRWNuSjN3blJOS25peHZGV2ZKbndlUTRHZkhXMEltby1WbG1CZXpra1lnRE10RHd1bXJrbTFrei1XWERIdU5jdFRYVXdiNlRqUWlJMVBaRTRZcUF2VkxCT0FYUU1zZXkwMXQ1QUpuQzVWRTVmMGFaVDlabjA1bmJXanFFX0xZ?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -223,48 +246,73 @@
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 14:02:03 GMT",
-      "source_name": "CoinDesk",
+      "date": "2026-09-25",
+      "published": "Fri, 25 Sep 2026 01:34:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood's ARK teams with Securitize to tokenize venture fund with OpenAI, Anthropic stakes - CoinDesk",
+          "t": "Headline signal (not a direct quote): SECZ Stock Jumps As Cathie Wood's ARK Tokenizes Venture Fund With Securitize On Ethereum - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZDg4TXJRVXVWeFI3a1A1YkZrY3NtZUNrdnRVa09TZlNNZW1kS2hUczF4OGVzZHZhQTdxVmM4a29wa0VLeTNWUTl0cy1iMmVnRDRvZmZsUGpRVFVPbGdLVTczQ0d0TE4xR2lhdmk2QkRwSVlGMnlqQjZmWGxzLW5qUmw4bTdkMmZHNnU0TEdOQ3VYQzhlWldOclVSV2dCeTZReXpNMzdKQUNuN1E4RXk4MzZ0akdpamxLNF8zaEFLVUNjZlRjS1FDREswZlZuMmRuMFRVcg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb3NMb0Y0eHVaSGoyd1hrYmxtVzZfUkVsM3diVFRqaTdtZHhpb290WHhhaWowbVk1VlBLZkVydnhVSzk5UDdPSW82M0lscFR0NUdlMEcyd21XM1gyVmxvbV9qRmJOdDdiZ2RpazlETExEZWpUb0tRREItU0VxWHhTdDNZcDY1Sk5fZUJBVUtrWFFzY25RcXRCSS13?oc=5"
+    },
+    {
+      "name": "Jim Cramer",
+      "role": "Host",
+      "org": "CNBC",
+      "cat": "Analyst",
+      "date": "2026-09-25",
+      "published": "Thu, 24 Sep 2026 23:57:32 GMT",
+      "source_name": "benzinga.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Jim Cramer: 'I'd Be A Buyer' After Oracle Earnings Dip, But Will 'Take Something Off The Table' On C3.ai - benzinga.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPamZMQ3hTa3p4ZWVfa25OQzI5U3l1dG5EYUxNVDlEbEZrTDd0bnBiRWNJcWJxTE95QjFLYlNCeW80amN5R1FfUnZwVHJMS182amM2eG5xVFRyVTV2WWRaWVhpbE1saVR3RWRJR0thR2xuaGx3SUljVUpEUi1FazlhYVR3SEY3RnpBM212blV5M1ZtbG9QclVyT1JfSEItcWN6UE9BVkxpM2pGZ2hKbGN5SUVqakg0dXJjdnNOMmc1MGFjQkJIeFY0aW5VQjB3UF9NTm9tTDhfQlNSdVhPYTEtV0Fqc3dldlEwU19fRF9XS2t6S3pKcDVyRGJCUlB4YldTcU93WGpWaWJubkdiX0FEVFFNTWR3anRzMDJ2cFpfeTE3T21FZ1N6amtwY2MxNjloQjU3YVlERGFHY2V3Q0pWX2pQZVhJNUtHRVhTdWZaUnNrdDQ1Q2FMWnlIRzRGMTRhcTNNNA?oc=5"
     },
     {
       "name": "Gene Munster",
       "role": "Managing Partner",
       "org": "Deepwater Asset Management",
       "cat": "Investor",
-      "date": "2026-09-24",
-      "published": "Thu, 24 Sep 2026 03:23:00 GMT",
-      "source_name": "finance.yahoo.com",
+      "date": "2026-09-25",
+      "published": "Thu, 24 Sep 2026 21:16:59 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta Stock Expected to be 'Flat to Down' on 'Connect' Keynote, Says Gene Munster: Muse is 'Bad News' for Google, Says Analyst - finance.yahoo.com",
+          "t": "Headline signal (not a direct quote): Deepwater's Gene Munster on Meta's strong September performance - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVGVuX3NHZ3ZkYlFzbDJINXBSLUxOYXBsR1hSQzZVUmFmTFZGX0FWcUlVdENVeC16MUc2NjRhbnlsVWZYQjFPc0xUM09kQlBuU1NteHhwVzAyTE9BTDItS044WWIxdUZwc2Z5WEkyeDZreHpObTJWbVRULTcxdlBZUEItZmZJSTlSc2g3cktyZWlKNjlJb2FtMkNR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMWpaSkVGX3Y4M1Z0X0VsdC0zUVd5VGMyRk5VOUZrb2toV0w2ZTFYSWR6SlNJTjJhMEpEX2VNdnBTWWd6eEpXZU9pMTE5NDByZERzYjFwWUw5ZkpraHZOZ2pLU29jcThjWTlGY19jR0pRenBFZ01ja2tMbWUtcFZfQXhfOFNQSEpHeHdtemxkZFNyckFGT2V5Um5YeGIxaVY0cW14VGdPNA?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 12,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
