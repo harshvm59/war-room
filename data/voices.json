@@ -1,28 +1,7 @@
 {
-  "updated_at": "2026-09-26T02:12:00.683794+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-09-26T14:17:06.366800+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Dario Amodei",
-      "role": "CEO",
-      "org": "Anthropic",
-      "cat": "AI safety and policy",
-      "date": "2026-09-25",
-      "published": "2026-09-25T08:36:00+05:30",
-      "themes": [
-        "frontier AI development pace",
-        "AI safety safeguards",
-        "US-China AI competition"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Amodei argues that frontier AI companies should slow the pace of capability improvements to allow more time for safety measures, while maintaining a democratic lead over China.",
-          "k": true
-        }
-      ],
-      "src": "https://www.fortuneindia.com/technology/dario-amodei-absent-from-trump-xi-white-house-dinner-as-openai-google-meta-join-tech-guest-list/161138",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -44,28 +23,6 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeXJMOElYRDR6Z2JWQ3VqSFFQQW1fMjhHTExrc1NXVUxlVkJXVmhfT3NOSE44QW5aN18xMWdhTE5sVktBREpmYWhUdU5neWtkeGhhbDktU0o0LUZSSk5XZU42ekY2TGYtZkVqal9IMjgwc3p5dGtUM0FHbVdpY2FfMkk5NEJ6QmZ4N2pSaXF0SG5kSzNQVUliUk5oeU5waUM2VGdSVFRiNW94dFMz?oc=5"
-    },
-    {
-      "name": "Sam Altman",
-      "role": "CEO",
-      "org": "OpenAI",
-      "cat": "CEO",
-      "date": "2026-09-25",
-      "published": "Fri, 25 Sep 2026 14:48:40 GMT",
-      "source_name": "Martin Cid Magazine",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): OpenAI’s Sam Altman warns the UN: “AI should be built for people, not simply to turn the crank of the machines faster…” - Martin Cid Magazine",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaUxZMVF6SFktd1l6R0FrdktnMV8zbHhqcXRwVVdBUFlsY3JGOG1yV3o2Y0FrQmttRU9CVC15RjlFNHBqcDBsd05aM0tsVGw4MzE2SmJlbGEyS0ZnamVzUnptam9YajZ6Ukx0YmdSakdKXzNvS01UZ2hibHlnS2g5Y2dDR1IwWkpobGVDWnUwcHU1NWVacE1V?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -161,21 +118,21 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-09-25",
-      "published": "Fri, 25 Sep 2026 07:40:07 GMT",
-      "source_name": "Seeking Alpha",
+      "published": "Fri, 25 Sep 2026 14:46:11 GMT",
+      "source_name": "Wccftech",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk eyes doubling xAI's Colossus 2 Nvidia AI chips by year-end (NVDA:NASDAQ) - Seeking Alpha",
+          "t": "Headline signal (not a direct quote): Elon Musk Goes All In To Bring A Whopping 1.2 Million NVIDIA’s Latest GPUs Online In His Mega Data Center To Take On OpenAI - Wccftech",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUG1zaVJiVXlremkyUFRpdXpMMnR0Qm4teUEycVY2YVdjNEkyME5qUTRqMXZkbWdzd29EX1hRT1E2VjJod1pobGVGUWdVZXh6eFdoT0k3VlRfOE1RLTlmdjA4RDNIM3FBZDg1ZVh5LXZiZE01SGxfaWRONzM0WERud2VuRGRKS1V3MFRzSWdnLVJaNkF4T2FqRVhTTUNXaEFZZ0dZVDRzSEc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWG5QODNrYTJlRVZXVUtaX3VWNHFXMnN6Q0o5cnVvU21iREJ1WE5rSGJULTE1R3o4WEdmOTRaSVVTdFVXaE44a1FDX1lrazFMNk1VZjRhWEQzX2FHNk56dHBORkpXYUNkdUQ3ZXNVekhpX2UwN1JtLU9ybmdfbzBpSzJDdnZJTFZDQThNTHhtbEwteGRHX3FKeWRFdDhDUWQ1eEY2VEFkOXNGSTJETE1HLXEyYmdxSWN5QzYyVkxOX2xHaVBzemEydy1JRWZNQm9SVzdEVmNRMXI3bDJM0gHiAUFVX3lxTE9Nbk9Td3hNXzNSeXdJVXU4S0I0WTU4VHV3R1E0aVdKa0F1Z0g3YjZudlVZMllKY1lnOTdGVi1ncUdfelhCWFNpTmNETnhLRWZYTG1tZ0xKOWtVZE41eXRlSHRUYTRVSTRieVlrRXVkYjEwanRHUUxpd1R0LUJvaVZ5MW43bVBzenFxc1U4NXRHTXp5N3ZRWF80OVZCRzk5dGdNMmlmYk5QMWRnZ0EwVmR4ZXBjRVd6aGx4bVNkd3cwZUpCQkxscXptcFRWaUJMeVNEWFhUUm9MV2dxQmZYWHdqRXc?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -222,46 +179,46 @@
       "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcENpbllFNWhfSXItV2l1NkZpRHFDRXUwczlZU0NyaVFyVzhPR3dRWVkxYnNsT1EwU0p2SWRRWHZTRUVITkFyMzZ1ZTNsTTZfNmFGYlcwX3FHaW9oNUx2anVTa28zZVZLd0hRaEs1anp4Vy1jVDhFcE1MRTJJOUZIajFiWlJaM2JOd044dEpZb2NyeUR4OWF2b0ZQR0x4T1Vj?oc=5"
     },
     {
-      "name": "Sanjay Mehrotra",
+      "name": "Lip-Bu Tan",
       "role": "CEO",
-      "org": "Micron",
+      "org": "Intel",
       "cat": "CEO",
-      "date": "2026-09-25",
-      "published": "Fri, 25 Sep 2026 05:20:49 GMT",
-      "source_name": "Hindustan Times",
+      "date": "2026-09-26",
+      "published": "Sat, 26 Sep 2026 01:34:30 GMT",
+      "source_name": "Wccftech",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai, Sanjay Mehrotra: Who were the Indian-origin guests at Trump’s dinner with Xi Jinping? | World News - Hindustan Times",
+          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Is Impressed By Photonic Quantum Computing – Says He Now Leans on AI Agents to Do His “Homework” - Wccftech",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQjdSN3R5aXpJRi1mbkhMRWhWYXJpNEdNUXk1SmhkNG52YXNiSzR4YnBPU1pHZTdlakRBTG5JSDIzeGszYm16Nl9vNzZfS1lzZWc3M0kzLVlwcDdjRmRFVDRfYVVYci1MMmQ0ZXl0UHFMdV81TFN0SWJfLXZUSEtadnZJcGY2NTV6VGd5ZzhwT2I3dWxXSm1taEQ0d3l2U0d6aEo2YXJQNVlhek5zbEN1dkZNVF8zYkptS1FRb2NrOTd4cnNBVWJOakVDVGp6S1JOWGJrY21TMVZ6XzItRnBtb0w5LXFFSUJEalc5ekh0Si1Td9IB9wFBVV95cUxNMldjel8tbkFnZkhSNFVxaWVYS09Bc2NxSTdOb3ktQUhJYVJNaUNJR1NZZVl4XzRwemxhMEdGLXowbmdwYVpJT1VCbmF2aWE2c2JhejhXOHNkbXVkVmVoV3NYZXlXbFZaNDAyTlNueFZLT0F3dE56V1JuRWNuSjN3blJOS25peHZGV2ZKbndlUTRHZkhXMEltby1WbG1CZXpra1lnRE10RHd1bXJrbTFrei1XWERIdU5jdFRYVXdiNlRqUWlJMVBaRTRZcUF2VkxCT0FYUU1zZXkwMXQ1QUpuQzVWRTVmMGFaVDlabjA1bmJXanFFX0xZ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOEEyenc3ZDVpaTNYaE9oZmVfYkVmNkRCWGNsc0VXX1NKQzdmSm05WkVuYnc3ZzVxUkJfd2RtMHk3b0ttc1JmeHZHQUZzVGxQRDdJcVZDbkZpWURUYklBaFN3MTB1NUl3dVdkb3JZVjEyWlY1M1RhNkVqRFE3ZERaOTJ1U0JnLUdSSVFhYnpuMXp4a2U3clNxTmZGMExRR2hFQWFYcnlUZ0c0ZTkwN1Z6aERmZG9ZWWhHQUpsb2Iza2FQT3lmWjNuSnhieVVCSDJo0gHWAUFVX3lxTE94Q2VsRUVhMzhSOW1sRkV2Q1NPNGttdWdGdjd4TWJHMEZUaHlSdXdCcVA2NnRnYjNZYml5VlJLRXdvNFV6blRfSElXbXJyM3liQl9QaTF2em8xTjVqVHZFcUpFYk1lRDU3TzBmNHFEVWN2dlp4RVl5NHFTV19vQ2tEWmVFYU1MRHgyb0JoRFlWN2tLM3djeGdPNTh3UFk2aXUtVjdIT1JET3dIQzB1WE93aUVPUE1PcTI5ek1kaHQ4YUxkWDIyY0FCTWdMelpFQ0lLMklrX1E?oc=5"
     },
     {
       "name": "Larry Ellison",
       "role": "Chairman and CTO",
       "org": "Oracle",
       "cat": "CEO",
-      "date": "2026-09-25",
-      "published": "Fri, 25 Sep 2026 13:02:18 GMT",
-      "source_name": "Showbiz411",
+      "date": "2026-09-26",
+      "published": "Sat, 26 Sep 2026 00:06:25 GMT",
+      "source_name": "Investing.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): UPDATE: Vanity Fair Goes MAGA with Cover Features Extolling Sam Altman, Erika Kirk, Larry Ellison, \"Donald The Great,\" Plus Little Known Star - Showbiz411",
+          "t": "Headline signal (not a direct quote): Larry Ellison adds $9.2 billion in Oracle shares as loan collateral - Investing.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcU9uSVBsQ0Y2b2JvN0FGOE1FdGRrS3lVSTVRcF9tcEVxd2JHRjdKdm9TUkx3a0xFYVYwZWNYTEdYdlhJUXNsd3ZwZ2JacGxYcHZDZTh5ZTdYVUllc2o5eURTcTBhNzhfanRvMFpKVDZKbGVuVWgtNkg4eXVSUzlxbDk2aW1pdzk4dk9xTXhZUkRCc3FXR243U3ZldGdROXhjdXB6NGJ2bUE2eUU5MkxpRmgwZGlhVmlEWl9MSlpMeW44d3padEN0NjQ5cmFaTmxVMDUweENVblNqVXRWTjZsRXRoR1hQQjEyQV9ETHBIU3FhVmxacEZPRnN1bldaVklrLVE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRzJmYzlXS1pkUlMzb0Z4VXBNZXJjd2FCWl93OFNvTlpZaGhVUm96UHBWNEQ3MVZtOF9tNk1CTUhIM3lOaTVjVHhDRzVyeEtNemxncnVuYVBJMFNTZmtJazJhSHhGZnhDSUhoaVRoaTB6eW5DUmJPUjl1R2RUYWpMMmxOSE9qQW9iZzZscmVVLTVnUFNrSkRIQzhHN0hkRWdfa0piT2dNYjktSjh0OUhPczgwT2FKVGRN?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -306,28 +263,6 @@
       "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcnZ3RHZMWVFUcjdmUjZFdmFrSV9lU1JqYU1DUFB2MHVPSzA4SnpMY29NREppYmFKdVNHQW5jQWtQTGZBcXBTb1l4NHN5b1FkcGs1VXJTZmlLc3E5TjRCajJFZ3RialVHTW5kcmpwbFlUQ2Nvc0djM2Q1RnFYa3N6Xzh2OHZHUDVTWlRqeHlHZ25TNUVBV18tLU9ldjhxWjZkNE5ldzU3ell3UQ?oc=5"
     },
     {
-      "name": "Gene Munster",
-      "role": "Managing Partner",
-      "org": "Deepwater Asset Management",
-      "cat": "Investor",
-      "date": "2026-09-25",
-      "published": "Thu, 24 Sep 2026 21:16:00 GMT",
-      "source_name": "CNBC",
-      "signal_type": "source-linked headline",
-      "relevance_score": 13,
-      "themes": [
-        "#AI",
-        "#META"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Deepwater's Gene Munster on Meta's strong September performance - CNBC",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMWpaSkVGX3Y4M1Z0X0VsdC0zUVd5VGMyRk5VOUZrb2toV0w2ZTFYSWR6SlNJTjJhMEpEX2VNdnBTWWd6eEpXZU9pMTE5NDByZERzYjFwWUw5ZkpraHZOZ2pLU29jcThjWTlGY19jR0pRenBFZ01ja2tMbWUtcFZfQXhfOFNQSEpHeHdtemxkZFNyckFGT2V5Um5YeGIxaVY0cW14VGdPNA?oc=5"
-    },
-    {
       "name": "Stacy Rasgon",
       "role": "Senior Analyst",
       "org": "Bernstein",
@@ -352,7 +287,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 16,
+  "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
