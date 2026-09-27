@@ -836,13 +836,14 @@
           }
         },
         "2026-09-27:tradingagents": {
-          "billing_status": "provisional_estimate",
-          "error_code": null,
+          "billing_status": "unknown_charge_provisional_hold",
+          "error_code": "conservative_run_allowance",
           "estimated_usd": 1.0,
+          "finished_at": "2026-09-27T15:35:47.108540+05:30",
           "id": "8b28b7f6442f4b47baeecf623e9a06ba",
           "model": "gpt-5.6-luna",
           "reserved_at": "2026-09-27T15:32:56.677508+05:30",
-          "status": "reserved",
+          "status": "uncertain",
           "usage": null
         }
       },
