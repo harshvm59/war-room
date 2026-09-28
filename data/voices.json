@@ -1,51 +1,7 @@
 {
-  "updated_at": "2026-09-29T01:43:06.820774+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-09-29T04:07:24.224806+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Mislav Matejka",
-      "role": "Global equity strategist",
-      "org": "J.P. Morgan",
-      "cat": "Analyst",
-      "date": "2026-09-28",
-      "published": "2026-09-28T08:57:00+00:00",
-      "themes": [
-        "AI trade",
-        "semiconductors",
-        "valuations",
-        "investor positioning"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Matejka-led J.P. Morgan analysts said the recent AI-trade pullback improved positioning, reduced valuations and could support renewed investor engagement, especially in semiconductors.",
-          "k": true
-        }
-      ],
-      "src": "https://www.marketscreener.com/news/global-ai-trade-could-revive-after-recent-pullback-j-p-morgan-says-ce785adcdd88f32c",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Marvin Chen",
-      "role": "Strategist",
-      "org": "Bloomberg Intelligence",
-      "cat": "Analyst",
-      "date": "2026-09-28",
-      "published": "2026-09-28T05:01:00+00:00",
-      "themes": [
-        "Chinese AI stocks",
-        "Nvidia chips",
-        "US-China restrictions",
-        "market positioning"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Chen said Chinese investors may have limited appetite to add positions before the National Day holiday because of oil-price, interest-rate and broader macro risks.",
-          "k": true
-        }
-      ],
-      "src": "https://www.moneycontrol.com/world/chinese-stocks-hit-one-year-low-as-tech-selloff-deepens-on-nvidia-chip-us-sanctions-reports-article-14039709.html",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -184,7 +140,7 @@
       "cat": "CEO",
       "date": "2026-09-28",
       "published": "Mon, 28 Sep 2026 16:39:57 GMT",
-      "source_name": "forbes.com",
+      "source_name": "Forbes",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -193,7 +149,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Loses $11 Billion As Meta Shares Drop On AI Spending Concerns - forbes.com",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg Loses $11 Billion As Meta Shares Drop On AI Spending Concerns - Forbes",
           "k": true
         }
       ],
@@ -270,26 +226,51 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-09-28",
-      "published": "Sun, 27 Sep 2026 23:20:37 GMT",
+      "published": "Mon, 28 Sep 2026 18:10:44 GMT",
+      "source_name": "benzinga.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Nvidia Stock Gains on Record Buyback: Jim Cramer Gets His Wish - benzinga.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMkV6b0ZVVTYtQlVlNFpfNHplMkd5a0ZISDI3dGgxZGJhcjJhb0o4eDRmMUMyRkExV2s2dWpPdllhQThIS2RFSVJuajI5czZzSFNEXzI1Sk52cUViakNzY25Pbl9KUk9zb0luRTJwQzhTLVRnS0lIZXFHVnpOcmtzUGpHdVlsX2xjNzhyU180cUJHaFZYNEZBZ3E4V0xXbDFVZlZWalpBZ1ZfNXRGbFIyMkhMRGxVRnJ4QTU5MFBBb0l0R096?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-09-29",
+      "published": "Mon, 28 Sep 2026 21:39:43 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
         "#AI",
-        "#META"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer: Apple, Microsoft, and Meta prove stock picking for individuals is not a fool's errand - CNBC",
+          "t": "Headline signal (not a direct quote): Nvidia's new AI safety platform could help overcome headwinds in AI space: Deepwater's Gene Munster - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeW1xLWtDZHpSMk9wN3FpVVk0ek9qbTFaZUNhMlJFcmNaeE1rUGh5bW9kaV9XYWtxQWRTLVlwV3VoZXBSWkRLNS03SHo1cUNCTzA5clJrQWFLMUhtMjVYTHNlNGJvdmpBTjNBaVB1M1gxWEFwQ2JsemM1LThWX2tRR3lTeFVKbTZ0Y0VSTHBLejNJOWpIX0VIZC1FcENpbGFSa3ZkM09OdUR1bmN5LTF5NTFBdjJhY00tWUZsV3hwS195cWlnYVgwN0tn?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RQldvcWE4cEtaWFdZYk5mTWJmei1MbVNBNktmbEhIcnBicURLRUw2NE4zcWNoMV9pTFRPdVhNclVNVVIzNTNGRWdwcXU4M3dSNHFSSkxSSnJnakRWZ2JpbE1hV25fcDRoWDJ2RmxXQWFYQTA?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 13,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
