@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T06:15:29.376196+05:30",
+  "updated_at": "2026-09-28T06:29:11.310539+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -9,20 +9,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
-          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
-          "published": "2026-08-27",
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
-        },
-        {
-          "url": "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
-          "title": "NVIDIA Fiscal 2027 Q2 Form 10-Q",
-          "published": "2026-08-27",
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -77,25 +64,12 @@
     },
     {
       "ticker": "TSM",
-      "company": "Taiwan Semiconductor Manufacturing Company",
+      "company": "Taiwan Semiconductor",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/a80d7933be643644081584087731f73b22ea5a2c/2Q26%20EarningsRelease.pdf",
-          "title": "TSMC Reports Second Quarter",
-          "published": "2026-07-16",
-          "reporting_period": "Q2 2026 ended June 30, 2026"
-        },
-        {
-          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
-          "title": "TSMC 2026 Q2 Quarterly Results",
-          "published": null,
-          "reporting_period": "Q2 2026 ended June 30, 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -215,14 +189,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
-          "title": "Meta Reports Second Quarter 2026 Results",
-          "published": "2026-07-29",
-          "reporting_period": "Q2 2026 ended June 30, 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
