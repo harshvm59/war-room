@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T14:58:37.800184+05:30",
+  "updated_at": "2026-09-28T15:35:46.960972+05:30",
   "source": "openai+web_search+30-leader-monitor",
   "items": [
     {
@@ -7,9 +7,9 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-09-27",
-      "published": "Sun, 27 Sep 2026 03:38:00 GMT",
-      "source_name": "Bangkok Post",
+      "date": "2026-09-28",
+      "published": "Mon, 28 Sep 2026 00:56:15 GMT",
+      "source_name": "조선일보",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -18,191 +18,20 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia's Jensen Huang sees 'zero' risk of AI triggering human extinction - Bangkok Post",
+          "t": "Headline signal (not a direct quote): NVIDIA CEO Jensen Huang Criticizes 'AI Doomsday Theory'... 'Safety is Part of AI Technology' - 조선일보",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWlFxbjZpWWx4TkpYLUs5LWVZM0xMYkF6d21neXdldzRYLWhKLURHVEZTTXktSkdla2VMMHJVQzNwQVhuMHVUTmpQU0FOWWt4bVJPNTFrRGl4Q3p0ckNZV0RmV2t4eDg2QVFQVDJmcjNVai10YjlIaERmNkNlU2EyVkdHdzV6RW9xNjJKZDktUkdEXzJUbmNob3RTeVZwVkNsd0hPbk9TSGV2dlJsSHVONnVRSlBjQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMFQtSjBGYlhDaU1hVU1WbTNmMXZOdnJVYkhvdUNlSWF5Zl9YWGlYMVFYOUpFN2pSMEM4NlhIbGVHWGRCNXllWW5rQkN3NDRmSmJrNHpiaUpiMExQdUNsTHAySVJXZUlnZGxnbE1oODZoWk5KRjJjMk5lMkg4V2U2UlpyVjlvWG42?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-09-27",
-      "published": "Sun, 27 Sep 2026 08:53:09 GMT",
-      "source_name": "Benzinga",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Sam Altman, Dario Amodei Asked to Face Australian Senate After OpenAI AI Agent Breaches Medicare Portal - Benzinga",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNUE9XVHlySnI5Y2NxbHltSzZlMDRkT0dRckloTlkxZEpvb0c3NkV3Y3NKRGtNZE42d21GdEZrb0hneUZYRHpCWTlGVmZLbjh5WDRCbkpycFpwTld3bVlXc0RTbDFZdGFvcGEtQUM1cF83YnduWWowZW02RjlUSjB1aEQ3Q0I2MXN1S0NxSFFvS3o5Y3V4UDFNNzd5ZjlDREsyVlRpMUVNeEZSZmtDUWN1blIwLXJmRjlsMy0tR0VjaTFUTzNWOW95QVV0Q1VzdkpPUFNBM2NLWkhXOVBwYmxvc0hfcm9uX0N1RG9R?oc=5"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-09-27",
-      "published": "Sat, 26 Sep 2026 18:46:41 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Why Dan Ives Sees NVDA And Korea Memory Stocks Driving AI Demand - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVWZDYnFKY09WaWVNQjZOUXVQQi1LS3ZfSTN5VG1SNFJ4VlFGN204TkowMnBuRzBWdk1peWJGWk9XYU43UXJRZmpjMnlEeExvUW5haGRJSVJMa2x5QVAtR2xwbmlsZ3Z1ZjlqN1M0OUc3cnZjanpxLURLQ052OWRlYXAxX013VTBpaUt4MVVkOG9ORVl3cHBjTjRlSlFzTGFqWERKVVdKMUZsN09adWQ4bjZEQjFPaHNjV2xfb0hsTTRKWTg?oc=5"
-    },
-    {
-      "name": "Satya Nadella",
-      "role": "CEO",
-      "org": "Microsoft",
-      "cat": "CEO",
-      "date": "2026-09-26",
-      "published": "Sat, 26 Sep 2026 16:39:51 GMT",
-      "source_name": "Game News Plus",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Satya Nadella Backs Xbox Restructuring and FY2027 Growth - Game News Plus",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWkg1WEZnTmhYWXpLdWNpLXpmUE9rbEljN0JPNFR2QXRnZURMZk9iMmZyUmp3eVVfaU1GT0M0blFyYzJzT2hab2JUbERIWlN5eWZOVTRIR0NvR3F5enAtTmlKN1FJdllhbVdndkl6dGh4dmsyeEk3Mk00WXBmME1qcXpVbXViRmZFLVhDZXpJTlBGUXRfdnRRNzU4a1dKcmJiRWRmVmdZVElXdmNOT0E?oc=5"
-    },
-    {
-      "name": "Chamath Palihapitiya",
-      "role": "Investor",
-      "org": "Social Capital",
-      "cat": "Investor",
-      "date": "2026-09-26",
-      "published": "Sat, 26 Sep 2026 15:55:21 GMT",
-      "source_name": "Traders Union",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya: Ant IPO could deliver strong returns at $1 trillion valuation - Traders Union",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUlZSNU9FY3dWcGx3TlZSMGd3bWlqVWpjZ0JZa2FlbHJDRGFzbk9PcEZHMWN6RzF5ZWhBeWN6anNQaFNISkN1QzYwMzl4Y2JpQkh4OXJuZXJRMkxKSWNmRmlwbkRCb2V6Vl9Zc2NHeEU0bWFzRFVkb0pabkxaelBod2JQYlJldUs0Q3pr?oc=5"
-    },
-    {
-      "name": "Elon Musk",
-      "role": "CEO",
-      "org": "Tesla / xAI / SpaceX",
-      "cat": "CEO",
-      "date": "2026-09-27",
-      "published": "Sat, 26 Sep 2026 19:02:16 GMT",
-      "source_name": "Wccftech",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Elon Musk admits Grok trails Anthropic by years, yet claims his agentic AI is exploding 100% monthly - Wccftech",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbEdJTmctN2Nyc0dlaElkN2tvbVRhT1VBeVJjVFVnRGRheVkwQlVzVjQ3QTRBZFJMbGpMcC1YRWgzMnlSUEdHUjM1OVZOSEVLSl9RYnVoVUlkYjZoWXlZV3Y5WHVsQUU0UG9EZzFIODFDX0dwdVpRSHZyVUp4YXVhMURBRWpUc0RuX056MzV5bWVnc1FzbDRDS0pKaWh5dGdtOFBrOGVFTmI2bVZGYXdITjk3NXlFQ0hJeVU3Y9IBwgFBVV95cUxQUkZ1SGYwUktTaUQ1U3FBRW9LNFpnMjM3YkhLMF82cUY2LXZQY3Q5TWUySFZ1YkhxRG1aanplYjNfMXU0YmpOYnRLejM1UmJEX2hpVlFCbmQybDNjZVBtOHl4MHNrRWpPOE91dlg2S1RIVkctaU11NzRkYUZZSmVqeHVNcG5lRXphNkhBUkZ4b01sQTJ1QmFkcWY3SVpFLVlUdWRvSk1Cemk4bFF5STZPYjZxYmo2MEVQVzJNWGdfWGJtZw?oc=5"
-    },
-    {
-      "name": "Mark Zuckerberg",
-      "role": "CEO",
-      "org": "Meta",
-      "cat": "CEO",
-      "date": "2026-09-27",
-      "published": "Sun, 27 Sep 2026 03:50:48 GMT",
-      "source_name": "Benzinga",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#META"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Loses Nearly $9 Billion in One Day as Meta Stock Slides 4% After Goldman Questions AI Spe - Benzinga",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOb2tqbFdpZ2NlNVlzcFBzcFczcURpYWRRaXh4bkZ3eTZjNTZVWEE0VXhiNmFmRFFRblpaU0xsdUFZNjh2UEd5VDgtMHpnbmZlQzk3TGxlT21QYmg5U3Vjd09LNGlETk9uakhnSGREd0VpSHVfSVVGRzBJcGxaRUc2Zm81ZEZicFg4VW5BbmdTQ0JsZHY2LUxmX19UU3doR1lqaWJfcGdVVDUzTHVPTDdLcGFzYmxBaHZJVU1rUTBJUXN4cXBvLUdsb0tYc3l6LS0wdE85NVN3MFpMZ1I4ZEQzTjMxX3pEc0JDeEpYZFl0YU5EWWo4OW03NDU5QjQ?oc=5"
-    },
-    {
-      "name": "Sundar Pichai",
-      "role": "CEO",
-      "org": "Alphabet",
-      "cat": "CEO",
-      "date": "2026-09-27",
-      "published": "Sat, 26 Sep 2026 20:30:08 GMT",
-      "source_name": "Yahoo Tech",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI",
-        "#GOOGL"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Elon Musk Responds With Two Emojis as Google CEO Sundar Pichai Says Project Suncatcher Heads to Space: 'Can Our TPUs Survive...' - Yahoo Tech",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQlpJdG9vLWhTZ214Tm9rZDBQZ291ZV8tV2FKMkFxd0s1Y1RWYUY0NUJDTU91dHZhR19FVDBGa2tfRDNMd3pOek95NVhVSVlLWEZHemtfZFg0T2lYOWpTVFhERDliNmZSRU9pMHdVWUlmajRtM2ZrZ1BUa3lkeXE5VjM4XzdYS3gxb0tzTlRiYw?oc=5"
-    },
-    {
-      "name": "Lip-Bu Tan",
-      "role": "CEO",
-      "org": "Intel",
-      "cat": "CEO",
-      "date": "2026-09-26",
-      "published": "Sat, 26 Sep 2026 12:35:00 GMT",
-      "source_name": "finance.biggo.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan: Quantum Computing's Success Hinges on Applications, Names Silicon Carbide Among Four Emerging Technologies - finance.biggo.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZdEtyMmIwM2RHZ0Rra3JfVEFSSXJYRnAwa1owanFmcmMzZzRNTVVtcWhpUU05b2dWamJmSW1jN1d5MHlZcENaRENNUFVvbzM0U2NMRWdkMkpEM011OWdIYlk1ejZXbXVEMlpCYnBTYkJaV1JxMHc?oc=5"
-    },
-    {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
-      "date": "2026-09-26",
-      "published": "Sat, 26 Sep 2026 10:30:00 GMT",
-      "source_name": "Fortune",
+      "date": "2026-09-28",
+      "published": "Mon, 28 Sep 2026 09:36:00 GMT",
+      "source_name": "Bloomberg.com",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -210,11 +39,121 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Oracle gave Larry Ellison and his co-CEOs nearly $1 billion in stock options. By fiscal year end, all were underwater - Fortune",
+          "t": "Headline signal (not a direct quote): OpenAI’s Sam Altman Will Not Attend Australia Senate AI Inquiry - Bloomberg.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVaHRnbjZTVWhCV2JyZDFYNG13cVdZY3FlQ3A5OTVfa2pmRjh5WWpadk1aTHFoRzVYQzNZWUg2dUVrRkJGcmN4WXBUQXhkcEVjTi1aNWlxa1psNWdVT3NGLWd0OVNPX3NkeTNxeQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYV83NkRiSVdodkYwWE5rRmM0a0RqRE5OTGZWVE5UZDB3OVI4NldUdGRyTnlWeW1iLWwyMktlRTFXeV9TUFZZNWFzT0gwTlg2OU1wTFB0YjNRUHVmUVVRS2Jyd3hiYlZuVFd0UGktcDRURnoxenRKalBkbXBnQXVRajB1b0R2dFhwOE9JcXZwLWp6Q1BaZ3kwTFpKVXFGV25NZ1VjRXdFUjJtVm8taEs1NnctYjBfZjZOa3g0YU8ycFg2NmdyQUVoUVRuUkZvT1g5?oc=5"
+    },
+    {
+      "name": "Satya Nadella",
+      "role": "CEO",
+      "org": "Microsoft",
+      "cat": "CEO",
+      "date": "2026-09-28",
+      "published": "Mon, 28 Sep 2026 09:24:35 GMT",
+      "source_name": "WN Hub",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#MSFT"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Microsoft's CEO Satya Nadella has stated that Xbox must develop a \"sustainable business model\" - WN Hub",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3d2liSTlodlZLWFF0Wm9wNkhsS2x3S250V19LV3JIdGRXcUJvTURwZE9pMUtiTG82cGozQk4tWC03bG5DdXZSRFNPSndiMHpGdnhlemhoZnlRNjh6T1FEdFVBRQ?oc=5"
+    },
+    {
+      "name": "Lisa Su",
+      "role": "CEO",
+      "org": "AMD",
+      "cat": "CEO",
+      "date": "2026-09-28",
+      "published": "Sun, 27 Sep 2026 20:39:22 GMT",
+      "source_name": "Stocktwits",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Lisa Su Says Customers Want 'A Lot More Compute' — Sees 'Tremendous Momentum' In AMD’s Data Center Business - Stocktwits",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeGx6anY5dEJ2OVhrelNpV3hHdjJmXzdOMXh6bDdBLTlGYWZxSS1JYnhFX0w4TkM0RWRnU1psOWJhQUxJQnktNE8wUnd0N0QzMWpXZlE4SnU2cklfX1J0SFVYLVdXd1d2UVF3eTA2Mk42QURHekFSRDIzendkQWRjdGU4LU14SVhtbVJMaGVfYkpDOXVhbS11VWpCMkVpcXRvTC1YNXdUV05RQnBBSWlQcUsxNG9CcEZ5cXFiYWRVRzdSeVUwQV9sUTBBV1NkaEpM?oc=5"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "CEO",
+      "org": "Tesla / xAI / SpaceX",
+      "cat": "CEO",
+      "date": "2026-09-28",
+      "published": "Mon, 28 Sep 2026 02:57:57 GMT",
+      "source_name": "Teslarati",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#TSLA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Elon Musk’s AI Grok Bot can now handle banking while your Tesla FSD handles the road - Teslarati",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jTktJM0ktc2VZSHBCWU5BZkNQTUtwYXk0YTRseEh5c3hCMVBIWEV4aU04Qm5tUWtCQWlrXzk4YUpVNHNEeEVsNUFxX2pRdUp1VnVoVkg4TV9mWDFtUXZUU3I1LU1uMU1f?oc=5"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "role": "CEO",
+      "org": "Meta",
+      "cat": "CEO",
+      "date": "2026-09-27",
+      "published": "Sun, 27 Sep 2026 10:45:12 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#META"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg's 'Wartime CEO Mode' Could Drive Meta Stock 'Re-Rating': Gene Munster Says He Missed Muse Becoming Company 'Centerpiece' - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZjUwd1BXTFJFM2xwdGdoTW4weGFMWE1VbkFNemNYVXBYa0dVVjV6alBRWmFvWmFJd1ZRLTA4Z3Q5NzgxRUxzTVpNalJnQW01clF2cU5nSVNDdnRFcXBkdGI5TTI0eWRiSktpSEV2SFY3TFNUNFlyU21BZ2J2eTlCd1d6TWRRanlxbF9TYlFFSUUwWUgzRjYyWkVPSkJTT2s?oc=5"
+    },
+    {
+      "name": "Lip-Bu Tan",
+      "role": "CEO",
+      "org": "Intel",
+      "cat": "CEO",
+      "date": "2026-09-27",
+      "published": "Sun, 27 Sep 2026 15:23:01 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Has Incredible News for AMD Stock Investors - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUTFSU1c4VXpLOXZVMWRycVZGMGgta2pWT2RXQTFsaHBiU1dhaVBiTHBJUlRuOFBhLXc4NnVnTGp6cVVWYVVoSWI5VXlUWjhMcUlydFg4dXRsYmljZkZoemJ4YmdsQWVGclhLMFJBbGpWakUxTDA0clMwZXBqczV3dktMQWkxM1JlWVIzT1lR?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -222,29 +161,7 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-09-27",
-      "published": "Sat, 26 Sep 2026 18:30:00 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): ARK Is Buying The AI Dip: Cathie Wood Adds NVDA Across Five Funds, Buys NET, AVGO Stocks Too - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY2RvTVY3clhMZWh1MlNRYkhtd1pmVEo2b0hVTEozS1kxQWlHY3JFLVBJd0EyUUYxbGtsZ2UtUlNPampiMTdORHRCVEVRNXpPVU1jOHpuVFpzMzZFZmh6Qy1TZ2ZZeEpEbVhvS2xNSXRLOVZTTmlxcmlhZThKd2FiWkFGY3ZQWTVCelplSVdoSVh0eTBrR3FzRW01VTVJVVJ6a2xVSF9KVGtPdUJDS01CQlhsVUtZd3RfNm02bFpwSGtMU2xtcmtxdg?oc=5"
-    },
-    {
-      "name": "Jim Cramer",
-      "role": "Host",
-      "org": "CNBC",
-      "cat": "Analyst",
-      "date": "2026-09-26",
-      "published": "Sat, 26 Sep 2026 09:48:00 GMT",
+      "published": "Sun, 27 Sep 2026 17:30:00 GMT",
       "source_name": "fool.com",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
@@ -253,11 +170,99 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Says Buy 2 Artificial Intelligence (AI) Stocks Up 875% and 1,400% Since 2023 - fool.com",
+          "t": "Headline signal (not a direct quote): Could This Cathie Wood Stock Soar in 2027? - fool.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWHJJUS1KRU5tbElCTlFrVHd6Q2JCbVM3UVU4ZWJpQVkwVVUzWHlBakd5UUQtOXdtdmw5WTlmdXBCb0d3WWNsNFdxX1VldTZpZERpLVlZMmpTbG1QZGxyN2JwX0x5b2g4WUNmNDdZVTAxNmxJWnNzNmtkcTlmei10THBJN1d1UjRialI4d01MdTJSNXVlVTR6VQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcVB3aE9Ma0RLdi1aem1DdWItUEs3YmpPalRUdDZabDMyY0VaVWNHUmF6TkpveGRrVXZwLTNmNHE2SzEydTgxenVUUjFkXzlGVkY2SDFKMHV2TzB5d1JVVkZwMGNBR0ZoV3ZmcUd4dVlwTkJHVG9OSVFEaGdGMlRBR3FCS28wNFk4MUtxYQ?oc=5"
+    },
+    {
+      "name": "Jim Cramer",
+      "role": "Host",
+      "org": "CNBC",
+      "cat": "Analyst",
+      "date": "2026-09-28",
+      "published": "Sun, 27 Sep 2026 23:20:37 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#META"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Jim Cramer: Apple, Microsoft, and Meta prove stock picking for individuals is not a fool's errand - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeW1xLWtDZHpSMk9wN3FpVVk0ek9qbTFaZUNhMlJFcmNaeE1rUGh5bW9kaV9XYWtxQWRTLVlwV3VoZXBSWkRLNS03SHo1cUNCTzA5clJrQWFLMUhtMjVYTHNlNGJvdmpBTjNBaVB1M1gxWEFwQ2JsemM1LThWX2tRR3lTeFVKbTZ0Y0VSTHBLejNJOWpIX0VIZC1FcENpbGFSa3ZkM09OdUR1bmN5LTF5NTFBdjJhY00tWUZsV3hwS195cWlnYVgwN0tn?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-09-27",
+      "published": "Sun, 27 Sep 2026 11:11:36 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 14,
+      "themes": [
+        "#AI",
+        "#META"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Gene Munster Says Personalized AI Could Be Apple, Meta’s Next Big Profit Machine — 'Numbers So Large They’re Hard To Believe' - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWGpPYjhMVm11MTd4b3RhMmNFeG5XVTFKVTJsVnVpRWRnWHhTZ2ltTWtabnhGdlQwR1lPZXFsN2Z1Y0EzTXY4cXJUdzdiZFE1SmR3T1ZmLXA4UGNMZi1BelFzMXhxTlhJaWxvYVNLb3htQ0dsZDNGeU1nUDZvanE1cTRTRnBwcUNsMzU2a2sxSTBILWw1blllSmpxLUVRdw?oc=5"
+    },
+    {
+      "name": "Beth Kindig",
+      "role": "Lead Technology Analyst",
+      "org": "I/O Fund",
+      "cat": "Analyst",
+      "date": "2026-09-27",
+      "published": "Sun, 27 Sep 2026 14:06:02 GMT",
+      "source_name": "TradingView",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): AMD Just Hit $1 Trillion After A Blistering 194% Surge YTD — Beth Kindig Says The ‘Dark Horse’ Still Has Room To Run - TradingView",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNay1iX2NKaDJGQzJSbThVcHZQQTZ5dk9Md2Q2VXNYRDBEMGdSdjE0V240RkJ2NUN0NE9oU0UwbTJOblFzdmQ2MGJ6WEpPN1paZnZ2Z1k4ZzB3VjJLX0VqWlRzMHoxamZsaFV3NkhyUFNWSWtZTjhQTHdGSFM5V2NIcjk5NkkzM056S0ktQ2pMSWc5VHdqZlNWYU90U0lCeE5RR0pSN0pRN2Jhdm1Ub2ZkQlRkTTZvWmFiY1Rfb1ZZeHlSVlNzQ1lzNGRxNld6WGg3czRMYklsb1JtR1I5X0ZfRDV1VS1jSUt5Q1MyMmpaWXN4ZHlicnJoM2lWMGZLLU0?oc=5"
+    },
+    {
+      "name": "Pierre Ferragu",
+      "role": "Senior Analyst",
+      "org": "New Street Research",
+      "cat": "Analyst",
+      "date": "2026-09-28",
+      "published": "Sun, 27 Sep 2026 20:09:30 GMT",
+      "source_name": "Stocktwits",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Pierre Ferragu Says Tesla FSD Could Be At An 'Inflection Point,' Compares It To The iPhone Playbook — 'Give Us 2 More Quarters' - Stocktwits",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VXbFFIak5YSjF2dUZvQ2R4TTd4dFpoMmdhWm81UGFwRnZwSnZ4UkNDeG9ERmpxMjlkQWNFbE8ycmVLVnVxRkZpNmFMMmNRVldEOXVYUTlIX2JBYVAxZ1d6WktMekZfdWNjTTlMZllDcTNLcXE1SXNHVm9tQkZ5aXZiUVRtNjVnZ25NdVM3ZV9TQjlXNUFvSS1kd1NkLTF2ek1aN25FQ0RISHVHVER5R3J3aklKVlNLMHFvNFJB?oc=5"
     }
   ],
   "monitored_leaders": 30,
