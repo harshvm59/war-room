@@ -1,70 +1,7 @@
 {
-  "updated_at": "2026-09-30T00:20:44.041900+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-09-30T03:01:05.735201+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Dario Amodei",
-      "role": "CEO",
-      "org": "Anthropic",
-      "cat": "AI policy and investment risk",
-      "date": "2026-09-29",
-      "published": "2026-09-29T17:10:48Z",
-      "themes": [
-        "AI regulation",
-        "AI investment risk",
-        "industry caution"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Anthropic CEO Dario Amodei was among the AI executives urging caution while discussing AI policy with President Trump.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/595796511f110fc006cca0d01329733e",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Greg Brockman",
-      "role": "President",
-      "org": "OpenAI",
-      "cat": "AI policy and investment risk",
-      "date": "2026-09-29",
-      "published": "2026-09-29T17:10:48Z",
-      "themes": [
-        "AI regulation",
-        "AI investment risk",
-        "industry caution"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): OpenAI president Greg Brockman joined other leading AI executives in pressing for caution during discussions on AI policy.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/595796511f110fc006cca0d01329733e",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Elon Musk",
-      "role": "Founder",
-      "org": "xAI/X",
-      "cat": "AI policy and investment risk",
-      "date": "2026-09-29",
-      "published": "2026-09-29T17:10:48Z",
-      "themes": [
-        "AI regulation",
-        "AI investment risk",
-        "industry caution"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Elon Musk was among the AI leaders meeting President Trump as executives urged caution around AI’s development and policy environment.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/595796511f110fc006cca0d01329733e",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -92,9 +29,9 @@
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-09-29",
-      "published": "Tue, 29 Sep 2026 17:25:07 GMT",
-      "source_name": "cnbc.com",
+      "date": "2026-09-30",
+      "published": "Tue, 29 Sep 2026 19:19:45 GMT",
+      "source_name": "Bloomberg.com",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -102,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): First on CNBC: Transcript: OpenAI CEO Sam Altman Speaks with CNBC’s Kate Rooney on “Halftime Report” Today - cnbc.com",
+          "t": "Headline signal (not a direct quote): OpenAI Will Keep Driving Down Prices, Sam Altman Says - Bloomberg.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUklSVmZldXhYWGFrRHI0ek9vbjAtU1B3SVlRN0pXamdidHNoZXAwXzBNbk44NlZ0dXlPcWkxV3ZIVDJVcHdYZkhCZW4xTVM1OUYxd0QwRHZLc1BKQ3VmX1BVbDB2dk9NRXVVRzNiOGdsLVFYS1JZZU1vaElSeGpJUTF2VVJvS0NENlVyV01Jb0JKbHp3TlNYQ3ZyNXRhTExpRjBrMENtUl9PTzhieE9iNVNlNm5ZQjNxX2N5SHQ0OUt2RVo2RTZnSlBhYXBXRVV2RG5Cb9IB2gFBVV95cUxQT1lCSWJycmQyT21PZnNzU1k5SU5SNVFULUNEa1drcDFsUklDYVNrRnk4QzhUMk5aSHVvdC1NZzhvM1ByR2JKSjZvY0l6NGdlS1BnLTBiZXJZQjBLVC1IVkRONzF3UXJxRkY0OGNrb1JMNHpLblgwMHVhRXR1ZlZYMDhZSDhnY3h5cGFtVXBwS05QSmtLWnUzMGtldFNSclhsZWJzSjdhMUlreTJWZzBUUi1VOV9TSm8yQzdpb1F2Yjg2VjJmNUJjMzJ2THlFaTlRbklPdzNJckxCZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeURmSjluWjFXRm16YzN5U29RbFM1OW05d1Ntb3lORFMxaXRULXdzRU4xc2tHU2NDRmxOc1lmcUY0Nm81VUF0cHUxajcyOXVPcUU1Ul9lZTVnR2tITHdqRHZxOC1EVzdld2VrOTVHUGdMNERfa1pvSTh0bVVvYTRsdkszenNITEk4aFMydGVuX3Q4bm5kYTU0S291Snp0VlZyblE3TjFTQm00VjFEeGc?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -136,21 +73,21 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-09-29",
-      "published": "Mon, 28 Sep 2026 23:06:25 GMT",
-      "source_name": "Brave New Coin",
+      "published": "Tue, 29 Sep 2026 11:27:37 GMT",
+      "source_name": "Martin Cid Magazine",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella Backs Artificial Intelligence Slowdown as Beijing Rejects Calls to Curb Chinese AI - Brave New Coin",
+          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella on the Xbox layoffs: “There’s some amount of streamlining… which is great to see” - Martin Cid Magazine",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNU3pYNWJiQm5oWkw1UzZDYUhUNlA1WVBXUkM2SGFVYkVOY2JlR1FpcHNmMlM4N1Z5a3B5SjJFa09rMUJ0RG9kVDFJRG1Kdl9SWWxIbEl2eWo0cktTb1VDbEpoZ3NBbE4xUDdfRktjQmFhc2xpOThUTDRBbWM2UVV4Tld6aHE4MGhNcGROdHBONnVDMVlrOS0yVXJaem5XRlNsZWozSHJUc0E4YU5XSm5fT2ZjX1NPZS1qLXdDZkdobk9DczN5WW9CaTZQaGs5Ny1STjZOM2xyVTMzTlBh?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYVE1bmRyM0IyZHhqV29jclJBbkM4QS1zX0tXdTRlWkswMzNJN1ZzSFppUDkxSUhyWGFpRjFhTXFteGt6N1FPb1FzT2lYTlBmc2JRT25rSmVIT2RSbm90bks4cE1JNkVYdmp0dTY0TkFxNjBBRHBCQ2tNbjBaVklybm10UTUxYUk?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -159,7 +96,7 @@
       "cat": "CEO",
       "date": "2026-09-29",
       "published": "Tue, 29 Sep 2026 16:17:00 GMT",
-      "source_name": "fortune.com",
+      "source_name": "Fortune",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -168,7 +105,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): With AMD’s $8.2 billion World Labs deal, Lisa Su and Fei-Fei Li show what a different AI future could look like - fortune.com",
+          "t": "Headline signal (not a direct quote): With AMD’s $8.2 billion World Labs deal, Lisa Su and Fei-Fei Li show what a different AI future could look like - Fortune",
           "k": true
         }
       ],
@@ -179,22 +116,43 @@
       "role": "CEO",
       "org": "Palantir",
       "cat": "CEO",
-      "date": "2026-09-29",
-      "published": "Tue, 29 Sep 2026 07:38:42 GMT",
+      "date": "2026-09-30",
+      "published": "Tue, 29 Sep 2026 19:40:43 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 13,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Michael Burry Says Jensen Huang Is 'Becoming A Bit Like' Palantir's Alex Karp After Nvidia CEO's Media Blitz - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): What we know about Trump's meeting with Alex Karp, Jensen Huang, & other AI leaders - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVU1fdHVFUTgyNzFDSTlRZHhPN2V6ank4a0NTUnFYWGxtM2ZUbm5tdkpla0xmUW5jcGZPYms5M21KQVFWLXNYQmZPMVpoMFVXRTRncVFEMDRkUTlzLTVkbmtEMlQ4RjhUUS1WRzF4ZXFhaDdtMEZKQWZxVDRJbk00cS1zTXROdmtGTzRSakpCUldRTU5pOUpKRTlIU1c?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNG1taU96eHEyOVc3dWtuMXBQM2hjMkJ3QjlPelRmQ3RVUVAzWm03VkZFbnBYM1R1ZzJ4QjM3R1lzdHBHd0ZoSG0tTnl1NXNZeDdWWXZvbXFfRzRwVFlZZm44Qi1WZHowMVVmcGhtZHc3ek16QTZjRVpOVzBMSlJRbUZR?oc=5"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "CEO",
+      "org": "Tesla / xAI / SpaceX",
+      "cat": "CEO",
+      "date": "2026-09-29",
+      "published": "Tue, 29 Sep 2026 02:00:05 GMT",
+      "source_name": "Business Today",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Quote of the Day by Elon Musk: 'I think there should be regulations on social media to the degree that it negatively affects the public good' - Business Today",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPMGVEakgya1I5aGEyanRmT011VVRkR0J6LUJwUXFOai05d0NCTTVQeXFjSUdWN3g1SDVyLV9aUXZCdnkwQXZ6dUw2aWRHY0JzanI5X25BZ2pyeWZRNkdEbDYwb1ZuVDd4eXJ0RlJNSUEwRk5halRCTWlGS3pZZ2pFb3pGeXl2OXl0emk4X0gxN0JqS3Z0a2VhR3VkaEJVSlM4c19wbGVQZ2pFcW5SeGtXMkVUaE8waHRMSm1PQWhVNUVIek1zN0ZZSFBpTnJsSy14NmZBS1ROTjB6Uy1aMHpCbmQwckVBVFdHWWtNZE43MktUUzE4WUhKeUlZbVFqdGlyVHpFRkhrbWpMTTdQeGhzSjdZbHM5M3pvampsbnp5bjZwUE9vQ0RNdU5FVkfSAbICQVVfeXFMUC1MdUVESWR2Ykt1eE9faVVhZUdtLXB5S3JKU0c1NjU0cGNaMW5SVDVZSnFhcFp0N3BJTFFNOFhIZ2NDeEtVaGZGWUJrLTBIWTNYMGRUVHd4dC1XR2ZzX3ZQanZuUC1lMzFPUjk1YWkyRDVHNXlFU2VGQ2NUZDZEQVNXeVJCUGxyV1dhcTYyRFk0eWhfRjBaTkVlQmpldjl3RXd3X2JCSGw4UWtIeW5PUFZxUEJDSm1RMTRIcEJOTnJyMlRoMXlFNGlhWnhnUlp3SElvc1VsT1pWODl2LVJmbm9vVXY1Z3NGUHo4eTZvdGFCalJPb0doamxKa0lzWVhBelJCb3NpWHJRcURGdkoxQTgydGRmWWtrRzZMalloT1ptSVNudWtnSEFpdXJLVE1PRTV3?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -202,21 +160,21 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-09-29",
-      "published": "Tue, 29 Sep 2026 17:39:04 GMT",
-      "source_name": "facebook.com",
+      "published": "Tue, 29 Sep 2026 14:03:01 GMT",
+      "source_name": "Mashable",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta CEO Mark Zuckerberg, Google CEO Sundar Pichai, and OpenAI President Greg Brockma, are rumored to be present at the supposed lunch meeting, CNN says. Link to the full story in the comments section. | Via ANC 24/7 - facebook.com",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg largely ignores smart glasses privacy backlash at Meta Connect - Mashable",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVlZwS21qVHpMM1pUOV9mc3dyU3BLbGpOTlZacmJTNTVQcTJ6S0NiUjZDUWljZ0I4aHd6X2NrYmpNTFhxcnd4eTFUZE05Q0VqSWttUHBxNlhFdUM2dG0xQUR0VDNOWUQxQWFFWFJVVWw3elI3eGh0U1hRa3AzejJUVWhoVXh2cFk4ejhfNjR4QkRZZ255OUR2c1VicjY0ekFjOERPQzVtRzhBSzB3NldxMDFJUVkybzduLWFVbTgzY2IzZHo5NVdDX3M2UzZ6ajB3dzAteDNTQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHlhcmZoQTF0VTZzUGQ5eHZ5eXoxMVRRaU1JeS10TU1nQS0zQ29VUUQtd0dEeEJ0d0FTNHM1WG1CQlpmVlpKcjJlQTFfckRFLVJfYjV4UG8wRTI3QkVnWkZkUDI3WDJFd29jMlk5OU1ydHFWQk1DNHIzZ0kzSnp0bGY2MEdBVS1pRTlpWi1ER2pWblJfMHNMZElNclpidTlBMXc?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -288,21 +246,21 @@
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-09-29",
-      "published": "Tue, 29 Sep 2026 00:08:01 GMT",
-      "source_name": "FourWeekMBA",
+      "date": "2026-09-30",
+      "published": "Tue, 29 Sep 2026 20:32:03 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): ARK Invest’s Cathie Wood on AI and Drug Development Costs - FourWeekMBA",
+          "t": "Headline signal (not a direct quote): Donald Trump, Cathie Wood Bet on the Same 32 Stocks – Some Might Surprise You - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVE1zUENPWFlWZHdaakpvMW1fNS1WYnlRd09DWGlfb3JHLXhCSUktTDFMeWZIcEZWMGJ3eXRpTGNLclZuUlkzZFo2UTAwODAxVmoxY2gtaUtsenc3X1FoYkxCRS00ZjdPOW91bjRkczdqbEVqbkxjNWVmZHJFS2dJRmdhWTl5bW9wOUgyag?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOVVRcWIybG5fZER1R21IQ0Y1aks0RllIamYyRGl1YlBnVkRrQmZzaVM5Xzl0SDhjZWdvS3pHdUk2ZG9PazNsV2RRNVc4RlVTTVdhWTBoZENDeFJKanFQUzY5U2xNblQtcC1OSXMtQ19ZbS1SdnVidGxDYVdpZFR3Q1VPeUFtY1dsNTg0a2NsT0hjMWFDQm83SzNtZ2Q1UldzajhGdDFFZw?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -311,7 +269,7 @@
       "cat": "Analyst",
       "date": "2026-09-29",
       "published": "Tue, 29 Sep 2026 13:02:41 GMT",
-      "source_name": "cnbc.com",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -319,7 +277,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Tuesday - cnbc.com",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Tuesday - CNBC",
           "k": true
         }
       ],
@@ -332,7 +290,7 @@
       "cat": "Investor",
       "date": "2026-09-29",
       "published": "Mon, 28 Sep 2026 21:39:00 GMT",
-      "source_name": "cnbc.com",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -341,7 +299,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia's new AI safety platform could help overcome headwinds in AI space: Deepwater's Gene Munster - cnbc.com",
+          "t": "Headline signal (not a direct quote): Nvidia's new AI safety platform could help overcome headwinds in AI space: Deepwater's Gene Munster - CNBC",
           "k": true
         }
       ],
@@ -372,7 +330,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 17,
+  "fresh_signal_count": 15,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
