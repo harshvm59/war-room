@@ -1,83 +1,44 @@
 {
-  "updated_at": "2026-09-29T15:33:46.242841+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-09-30T00:20:44.042301+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "AMD",
-      "headline": "Not Broadcom. Not AMD. Nvidia's Biggest Threat Continues to Be Something Near and Dear to Its Heart. - The Globe and Mail",
+      "ticker": "SPX",
+      "headline": "Stocks slip on Wall Street as rising Treasury yields pressure the market",
       "date": "2026-09-29",
-      "published": "Tue, 29 Sep 2026 09:26:08 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxONUxXY041OW1SNjBhRHhwZDBjSU9zTHJ0UmtoQ054VFdHMlR1T3lPVzNwLXpIY19xR09YVTJCanJBV2RrMlNwaU5XaGpEbjZRaEdwWmpVWE5zQlVDQ1NPYWRVbldYRlVrN1BINlBYOGRJaXRyTXR2Ync0MVRwMHN0LTgzbDFjbkRDSG05dUJPLVBEOW1YU2JBa251d3IwYzY0QUdBT2dQdml0VEg1SFJwem0xY3V6Y1lZUE4zOS01VkUxT3ZWLVN1enZVRnlCZGo2MmpCOXZUNnc1aUZEWmdJeE1maG5CSURESWc2azFnOHhKeVd6WXlSSDFWZXBhOHlRYWRSdmZyeENIRjdqczJOS1Bn?oc=5"
-    },
-    {
-      "ticker": "MSFT",
-      "headline": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-      "date": "2026-09-29",
-      "published": "Mon, 28 Sep 2026 22:38:43 GMT",
-      "summary": "Automated RSS market signal from Yahoo! Finance Canada. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uOUNhWEIyM0RRVERRZVRjUWx6dFJ2N2tGYXBpVWl2RVI3MjM2b3kzVmtabzNDRjdGMGw2Z2hJSTB0S2Q5YWRWT1dab25WVERnZlE?oc=5"
+      "published": "2026-09-29T05:00:11Z",
+      "summary": "U.S. stocks declined as rising Treasury yields pressured valuations and investor sentiment, creating a headwind for growth and technology portfolios.",
+      "tag": "macro/rates",
+      "url": "https://apnews.com/article/269abea6fd8ea7f314a8c34152788e0c"
     },
     {
       "ticker": "NVDA",
-      "headline": "Nvidia (NVDA) Stock Outlook October: What You Need To Look For? - TOP1markets",
+      "headline": "Tech stocks steady as Anthropic IPO filing and Nvidia buyback draw attention",
       "date": "2026-09-29",
-      "published": "Tue, 29 Sep 2026 07:16:34 GMT",
-      "summary": "Automated RSS market signal from TOP1markets. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUlpYQ2d3b2swbmc5dWVOVlVETWdtRGk4bVNsaG5aN1RVVVNOYm5USUxzalZ0V1VneUh1aUtKZngxazRLQTNuTXVrQWwyRDBTR0Y3TFNxQlJwQzkxeEp0MkI2cEEzVXNRUl80ZUhZal9EaFRnb1hXdlVySF9RYlZhVXkzLVFndDV5SlpXTDRoRjZ2NW83?oc=5"
+      "published": "2026-09-29T04:58:00-04:00",
+      "summary": "U.S. stock futures edged higher as technology shares stabilized; Reuters reporting highlighted Anthropic’s IPO ambitions and Nvidia’s expanded $150 billion share-buyback authorization.",
+      "tag": "AI infrastructure",
+      "url": "https://kelo.com/2026/09/29/us-stock-futures-flat-as-tech-bounce-meets-crude-driven-caution/"
     },
     {
-      "ticker": "AI",
-      "headline": "These Experts Say These 3 Software Stocks Are ‘AI Winners’ - investopedia.com",
+      "ticker": "ARM",
+      "headline": "AI-powered chip developer Arm falls sharply in broad technology selloff",
       "date": "2026-09-29",
-      "published": "Mon, 28 Sep 2026 18:33:35 GMT",
-      "summary": "Automated RSS market signal from investopedia.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbUNKMGFTZ19ZcldFTnJKZ1BRY3ZoQ0RLRVNYRlhkaWxLdml1b3ZveEpIemdvR0NaS0x0dElYLUVDTlZFOWlYZVVoY3FaTUlkT2d4MmJLWndwSjNtOGcxTjF6MVBVVVRlcVpPRVpRZzVfeGpwczI4VTJJclZGaW5DZnk0VVFyVnl1ZFFMUTlwRzNIZm43c280V25nVl9idGNKN3lJdWR3dTNjMkdf?oc=5"
+      "published": "2026-09-29T00:00:00Z",
+      "summary": "Arm was identified as a major Nasdaq decliner after a technology-sector selloff, while broader markets were also pressured by higher oil prices and Treasury yields.",
+      "tag": "semiconductors",
+      "url": "https://www.zacks.com/stock/news/2997169/stock-market-news-for-sep-29-2026"
     },
     {
       "ticker": "META",
-      "headline": "Nasdaq Futures Tick Higher As Microsoft Lifts AI Trade, PCE, Fed Split, And Iran Strikes Keep Investors Cautious: Why META, AMZN, AAPL, MU, IBRX Are In Focus - Stocktwits",
+      "headline": "Meta expands Muse AI agent to small businesses",
       "date": "2026-09-29",
-      "published": "Mon, 28 Sep 2026 21:19:50 GMT",
-      "summary": "Automated RSS market signal from Stocktwits. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPOFZ1THpwSUpRMUlTMzNXSFdEclhaamtybVJwWURIUW9uZzMtc3JMNWFEMy1kT1NXcnlMRU1xaktpZmRlSVhuZmpCLXFLektZM0JMTnZ4QkI5VVE2SDlGd25xdHE3RDZCMl91VDNGSFdxVFpmOUUwck43YU13UGZVNUdsc0ZZZ3BfcWJWaFZFRXUtUHgxTnpYTHB1b1c2VWNPTEUwX1hKbXo5R1k5V2lBVlhkUDJLLThiQnRHX3QzMzJ6VHoxRVpvcThiYWFidTljTUItLS1VWTJ5bUpvTFNBRmJRTV84Zw?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "The S&P 500 Has Only Grown Earnings This Fast Twice Before. History Says This Is What Happens Next - The Motley Fool",
-      "date": "2026-09-29",
-      "published": "Mon, 28 Sep 2026 21:45:00 GMT",
-      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORG14Vm1tb00tbTU2R0xKcWM0ZzRHXzJDeUhrVklIck45ZUJwWkpuVHdVWWdaX0k2N2xJMlNlV1ZhRUxQbWZoNFZlR3NuVVNSaFNWdE1tdS03d1hMaDhZbV9kUVFlQi1BcnFrRjV4WmtobmRSY05aa1l3d2Rocy1OWE50UDRtdnZTc3ZxRTZKanZId0FfYXJUSTc5NFRaQm1vSGpma3Zma2tFN0RRdEkwTGtFUlRoWjRWcjlKM0V3bzNyN0dtZTY3SmlrTnR2bjd1RS1OcXRMWWhMLVVu?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Here’s How Two of The Biggest Hyperscalers Have Best Monetized AI Capex So Far - 24/7 Wall St.",
-      "date": "2026-09-28",
-      "published": "Mon, 28 Sep 2026 16:24:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVEcyM3ZNWGhMUTJvbFR5bF92SWIyd1VNRHVpOV9CZy1uMDRWREFXXzg1enluZ1lSMVAwUE5xZFpnUGU5YnBPbzRXTEZrZVhJdGpIN2dHQ3hEUW8zSmlFOHJvYWFteU1TeDRoQTI5NmNBUDZZRWFjRVFkVUtmdFVHT0lWbGNwdTE3dllQMXFyWEMzQUJWX2hyNFNkLUN1dTYyRUJxb2tNeHBTeHZ6bzY2S3BsUDZ5dmNxdHRydE5R?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "IREN vs. Riot Platforms: Which Bitcoin-to-AI Stock Looks Stronger Now? - TradingView",
-      "date": "2026-09-28",
-      "published": "Mon, 28 Sep 2026 14:28:00 GMT",
-      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeWJOblN6TnVRZ1kweDlFT3k5bHNxZ1c1WG0yRExzeVV0dUpROC01aERoQXgzY0cwY0RmUXAtUGl3bTMtTV8wODhIdVRKTkRmLVR4SDV5WmpNWm5oYmF1WUoyVEZwTFMxSTRkakJPeWJmejRVVERfUDRIeXI2T0V5NU1sQ0I0ZjVRY1AycUxtaW9VUHJ6YlBfRVE2TW1yN2VwanBtUW42TEZqcXhmMWNtUEFSSDRnV3ZOT09OaThFdw?oc=5"
+      "published": "2026-09-29T10:18:33Z",
+      "summary": "Meta announced an expansion of its Muse consumer AI agent into the small-business market, potentially broadening the commercial use case for its AI products.",
+      "tag": "AI software",
+      "url": "https://www.axios.com/newsletters/axios-am-3d952702-8a60-49ba-b611-b06451856278"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
