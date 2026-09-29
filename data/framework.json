@@ -1,64 +1,85 @@
 {
-  "updated_at": "2026-09-28T06:29:11.310539+05:30",
+  "updated_at": "2026-09-29T07:38:26.571785+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
       "ticker": "NVDA",
       "company": "Nvidia Corporation",
-      "overall": "REVIEW",
+      "overall": "HOLD",
       "overall_color": "#c9a84c",
-      "score": 0,
-      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "score": 5,
+      "summary": "Source-linked AI summary: Q2 FY2027 evidence supports strong revenue growth, expanding gross margin, and shareholder returns; moat, management quality, downside risk, and valuation timing are not fully evidenced by the reviewed disclosure.",
+      "sources": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "published": "2026-08-26",
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
+        }
+      ],
       "questions": {
         "growing": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Revenue was $96.2 billion, up 106% year over year and 18% sequentially in Q2 FY2027.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+          ],
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         },
         "moat": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "The release reports continued expansion of NVIDIA's accelerated-computing and software ecosystem, but durability beyond the disclosed product ecosystem is not independently quantified.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+          ],
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         },
         "management": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "NVIDIA reported approximately $26.0 billion returned through repurchases and dividends during the quarter.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+          ],
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         },
         "margins": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "GAAP gross margin was 75.0%, versus 72.4% in the year-ago quarter and 74.9% in the prior quarter.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+          ],
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         },
         "cash": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "The balance sheet showed $22.4 billion of cash and cash equivalents and $34.1 billion of marketable debt securities at quarter end; a complete free-cash-flow assessment was not established from the reviewed lines.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+          ],
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "note": "The company states that forward-looking results are subject to risks and uncertainties; material downside magnitude is unknown from the reviewed disclosure.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+          ],
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "note": "Management guided to approximately $108.0 billion of Q3 FY2027 revenue and 74.0% gross margin; current valuation was not evidenced by the reviewed company disclosure.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+          ],
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         }
       }
     },
@@ -69,7 +90,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
+          "title": "TSMC 2026 Q2 Quarterly Results",
+          "published": null,
+          "reporting_period": "Q2 2026"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -129,7 +157,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2026-financial-results",
+          "title": "Tesla Releases Second Quarter 2026 Financial Results",
+          "published": "2026-07-22",
+          "reporting_period": "Q2 2026 ended 2026-06-30"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
