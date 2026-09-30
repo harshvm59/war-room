@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T03:01:05.735201+05:30",
+  "updated_at": "2026-09-30T15:26:44.404577+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -7,31 +7,31 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-09-29",
-      "published": "Mon, 28 Sep 2026 23:51:14 GMT",
-      "source_name": "Financial Times",
+      "date": "2026-09-30",
+      "published": "Tue, 29 Sep 2026 20:11:13 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Pope Leo criticises Nvidia’s Jensen Huang over AI safety - Financial Times",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang: There's no conflict between innovation, technology and safety - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUGJaQTBSQ0s5R3JwT2JrZWU0TGJJbGFCaHVDNFpheUJEaEVDTGFBZi1vMzlONEFKRkV3RGJUb3pCT2tlYzl6UnlfbGNKOXBFNkU5dHZoT2liNjRWWHJXZmhKR01DZ1lYelIwUlVvWU0zNW1VWXlKMmllY1lEVDB6aFcwSDQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbHVhUV9BVU5aVU9zcDNnamRhUm9zRnBuaDFXZXVmQ1BNTEV0SjFOZ0IycHFrek5SQnR0X3V5aE1VMW5UVnc3ejNjOXFQZThFRXdzLV9QYm94NlplRWNaNDE1cnFaVjFFWWF3bVVMQ1NoOUFzTGdBTDd4ZHBtX0pzNlNQb3ZDaFlNR2VrRFQtNFVMYTZjWF9nV25PZkdla2dCRFV4V3Z5ZFJBRGQ3M1F0ZG1pSXZBdlJmTzliN0dueUhCeFNk?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-09-30",
-      "published": "Tue, 29 Sep 2026 19:19:45 GMT",
-      "source_name": "Bloomberg.com",
+      "date": "2026-09-29",
+      "published": "Tue, 29 Sep 2026 17:15:00 GMT",
+      "source_name": "Financial Times",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -39,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI Will Keep Driving Down Prices, Sam Altman Says - Bloomberg.com",
+          "t": "Headline signal (not a direct quote): Sam Altman says OpenAI will delay its IPO until it overcomes safety concerns - Financial Times",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeURmSjluWjFXRm16YzN5U29RbFM1OW05d1Ntb3lORFMxaXRULXdzRU4xc2tHU2NDRmxOc1lmcUY0Nm81VUF0cHUxajcyOXVPcUU1Ul9lZTVnR2tITHdqRHZxOC1EVzdld2VrOTVHUGdMNERfa1pvSTh0bVVvYTRsdkszenNITEk4aFMydGVuX3Q4bm5kYTU0S291Snp0VlZyblE3TjFTQm00VjFEeGc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaUViY1R6MFNqS1dEYnRjVTVELVRjdENjUFpUOEdPazJZTU4yNWt1TjlCOFBndjJFUFdWQTMwMkJQUF9pb2dnWTBSdU5aOFRsandmbUI1UWJ2eHdaMkxtZGw5NkgyUzFGWkl4aHB4UjFRMkRVSXZZUlA5TTVKWkhPQzd3VWk?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -72,22 +72,22 @@
       "role": "CEO",
       "org": "Microsoft",
       "cat": "CEO",
-      "date": "2026-09-29",
-      "published": "Tue, 29 Sep 2026 11:27:37 GMT",
-      "source_name": "Martin Cid Magazine",
+      "date": "2026-09-30",
+      "published": "Wed, 30 Sep 2026 08:34:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella on the Xbox layoffs: “There’s some amount of streamlining… which is great to see” - Martin Cid Magazine",
+          "t": "Headline signal (not a direct quote): Microsoft Stock Has Grown Roughly 14-Fold Since Satya Nadella Became CEO in 2014, a 23% Annual Growth Rate That Ended 14 Years of Negative Growth. Can That Pace Continue Under Heavy AI Spending? - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYVE1bmRyM0IyZHhqV29jclJBbkM4QS1zX0tXdTRlWkswMzNJN1ZzSFppUDkxSUhyWGFpRjFhTXFteGt6N1FPb1FzT2lYTlBmc2JRT25rSmVIT2RSbm90bks4cE1JNkVYdmp0dTY0TkFxNjBBRHBCQ2tNbjBaVklybm10UTUxYUk?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxORnQybjl2OXI3aXktY28tTDFnMXZyNlJZSlcwY1V5YUdYb2NrV1J0NWJzSHAzamNQcUdXYzlUNlBkeU5pQjNmdmNzNmhJdFJUTFJ3N3hKMUw0eEdseTVJMVg4UGRqV1gweU9KVkNJby00d2F4a2txUTVkYWExdjNfLXluZjhLZjEwSFhkcGRsdERLMW9FaWZJeHl1TlhKQQ?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -137,87 +137,66 @@
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-09-29",
-      "published": "Tue, 29 Sep 2026 02:00:05 GMT",
-      "source_name": "Business Today",
+      "date": "2026-09-30",
+      "published": "Wed, 30 Sep 2026 04:56:17 GMT",
+      "source_name": "Teslarati",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Quote of the Day by Elon Musk: 'I think there should be regulations on social media to the degree that it negatively affects the public good' - Business Today",
+          "t": "Headline signal (not a direct quote): Elon Musk and Trump are closer than ever, and Tesla could be the big winner - Teslarati",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPMGVEakgya1I5aGEyanRmT011VVRkR0J6LUJwUXFOai05d0NCTTVQeXFjSUdWN3g1SDVyLV9aUXZCdnkwQXZ6dUw2aWRHY0JzanI5X25BZ2pyeWZRNkdEbDYwb1ZuVDd4eXJ0RlJNSUEwRk5halRCTWlGS3pZZ2pFb3pGeXl2OXl0emk4X0gxN0JqS3Z0a2VhR3VkaEJVSlM4c19wbGVQZ2pFcW5SeGtXMkVUaE8waHRMSm1PQWhVNUVIek1zN0ZZSFBpTnJsSy14NmZBS1ROTjB6Uy1aMHpCbmQwckVBVFdHWWtNZE43MktUUzE4WUhKeUlZbVFqdGlyVHpFRkhrbWpMTTdQeGhzSjdZbHM5M3pvampsbnp5bjZwUE9vQ0RNdU5FVkfSAbICQVVfeXFMUC1MdUVESWR2Ykt1eE9faVVhZUdtLXB5S3JKU0c1NjU0cGNaMW5SVDVZSnFhcFp0N3BJTFFNOFhIZ2NDeEtVaGZGWUJrLTBIWTNYMGRUVHd4dC1XR2ZzX3ZQanZuUC1lMzFPUjk1YWkyRDVHNXlFU2VGQ2NUZDZEQVNXeVJCUGxyV1dhcTYyRFk0eWhfRjBaTkVlQmpldjl3RXd3X2JCSGw4UWtIeW5PUFZxUEJDSm1RMTRIcEJOTnJyMlRoMXlFNGlhWnhnUlp3SElvc1VsT1pWODl2LVJmbm9vVXY1Z3NGUHo4eTZvdGFCalJPb0doamxKa0lzWVhBelJCb3NpWHJRcURGdkoxQTgydGRmWWtrRzZMalloT1ptSVNudWtnSEFpdXJLVE1PRTV3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeVZocGZVRE56dGlVQm93aS1YTjZiMTV6QjlQSTVMR24zLVF2REVaNUV1MHRyeS1oNFJvY2V0WjY5ZjRDZVNHcmUycy15Z0FyS0VLQWhqRV9HSDZUdl9DV0FGejNhU1VURTJtQlNuSDZ5ZWt4N29FWTU4bzh5bVJaOEFR?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-09-29",
-      "published": "Tue, 29 Sep 2026 14:03:01 GMT",
-      "source_name": "Mashable",
+      "date": "2026-09-30",
+      "published": "Wed, 30 Sep 2026 02:47:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg largely ignores smart glasses privacy backlash at Meta Connect - Mashable",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg sends bold message to Meta investors after Muse - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHlhcmZoQTF0VTZzUGQ5eHZ5eXoxMVRRaU1JeS10TU1nQS0zQ29VUUQtd0dEeEJ0d0FTNHM1WG1CQlpmVlpKcjJlQTFfckRFLVJfYjV4UG8wRTI3QkVnWkZkUDI3WDJFd29jMlk5OU1ydHFWQk1DNHIzZ0kzSnp0bGY2MEdBVS1pRTlpWi1ER2pWblJfMHNMZElNclpidTlBMXc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX3gyS2tTWnlzdkJDc3RaU0J5a2tWSk1qTC1WZFZOc1NkaTlZS3hEdFBUY3hDcHJWaXRkdTJnMUNidlg0TndhZlBwRGNBczU1TERqeGljNUtkNkU4N3hZRHJaYWUxRm93cWxOcEMta3ZkWThxUEhXV1NYWTd6NlM1RzdleTFUMkJ0NnhNVVRjVFNtNWhpV2stS1o1aw?oc=5"
     },
     {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-09-29",
-      "published": "Tue, 29 Sep 2026 17:39:04 GMT",
-      "source_name": "facebook.com",
+      "date": "2026-09-30",
+      "published": "Wed, 30 Sep 2026 00:34:28 GMT",
+      "source_name": "Stock Titan",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#META"
+        "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta CEO Mark Zuckerberg, Google CEO Sundar Pichai, and OpenAI President Greg Brockma, are rumored to be present at the supposed lunch meeting, CNN says. Link to the full story in the comments section. | Via ANC 24/7 - facebook.com",
+          "t": "Headline signal (not a direct quote): Alphabet (GOOG) CEO Sundar Pichai receives 3,671 shares as stock awards vest. - Stock Titan",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVlZwS21qVHpMM1pUOV9mc3dyU3BLbGpOTlZacmJTNTVQcTJ6S0NiUjZDUWljZ0I4aHd6X2NrYmpNTFhxcnd4eTFUZE05Q0VqSWttUHBxNlhFdUM2dG0xQUR0VDNOWUQxQWFFWFJVVWw3elI3eGh0U1hRa3AzejJUVWhoVXh2cFk4ejhfNjR4QkRZZ255OUR2c1VicjY0ekFjOERPQzVtRzhBSzB3NldxMDFJUVkybzduLWFVbTgzY2IzZHo5NVdDX3M2UzZ6ajB3dzAteDNTQQ?oc=5"
-    },
-    {
-      "name": "Sanjay Mehrotra",
-      "role": "CEO",
-      "org": "Micron",
-      "cat": "CEO",
-      "date": "2026-09-29",
-      "published": "Tue, 29 Sep 2026 09:07:00 GMT",
-      "source_name": "The Times of India",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): In 1976, Sanjay Mehrotra was rejected by the US 3 times: How a Kanpur boy went on to lead America's chip - The Times of India",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQNG5XckMzdzRnbnA1SWFtaE1XSWhBNWRyaVUwVmRFNGRVWlNmSWJ2VmY5cnMwVWJFYThYZG9oa0RLOTVzOU5YM1hiRFhGanBGb0o2QzZwMnVscm9VSm4wV3dhSDlFY0V5VHB0d2R5Rk5DLUcta3BZWllld204NlZ4ZENLX3psUGlYUXl4ZzMwN2ZiemNiYVF5S0FaVTBMaHZMdnFCTjlEM3JlNVl0NTVBZWltSmcwaTh2MmNmdEhoM3FiVFVYNGdNem9GUVlMajlqYVBHOUZGZlNyN2RyU19oLXQxcG5YeEttV0lUWlNSN2dfRFR1LUZlUWhKRmhWMDR2NnF4MFVrQzE3SXhGUmlSVXlGbVRjeFpCS2tEaGt0Y9IBpAJBVV95cUxQcUtwUHVVd09WTTNrSlN5WlpJU0U4WnJRd2JxOXJ2SVBFZUVLYklMNG5xOWpISmR0OEY2WVVYUWRGd2wtclM4WjdpbFNvSWVoMmtYWFRrSTVINk9udENBZGhvQnE4UWVseS12alFsbW1ObzkxMTM5emFRbG9nQTlZLVJOS0ttQlVJSi1CR2V1dXJfb3gzQ1lXd3paSU1xVjc0UHR4d2l6aGFsQTd3NjhVeHpuUnpCdXBUdndHcDl4MWFOc3BLSXM0N1FJcnJuelJCR3I0Z2lsb0xNMVR6dExXVEVUS1FCQWNrVlh2Mkx0Mi0zYVRxWTdwS1RGRVNuWEhfMXdSLWxjdUhUb1F0bVgwcTdjZ0x2cXNqT3U2MDdDOER1OXR3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdTI5SjdoUXI1UXhQRzBLUWllRWF1NDJQQ0dfSndHVjl6Q253YjdINWl0U2hBTlNaeTZzZDlaSUNkM3lDekEzeS1hajFIOTVscG9JbXMzdXRuV2VVdnVSZjRBUXV3YThpbXZqYzdiUTlZMVc1RFVCaHBBN1l5TWNtY283ZXdhNnNPRGtaUnllcmw4UFVhWThwMmxtMUplQXJmVE03Tk56Nm45UQ?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -242,33 +221,55 @@
       "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBieWpVYVlGeDcyb05ZdWRxa2RmODNSa3pSQXJMYXcwcHFnajZwVVE4OEV6ZjNVbUUyWkNkSzAwMGlZSEE3NEo0NThqVkFHanZIS01QUElXZ0s2eVh2MU9PSncwZmUtaVdXRWNBOHNaakhnQ2tEWHc?oc=5"
     },
     {
-      "name": "Cathie Wood",
-      "role": "CEO and CIO",
-      "org": "ARK Invest",
-      "cat": "Investor",
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
+      "cat": "CEO",
       "date": "2026-09-30",
-      "published": "Tue, 29 Sep 2026 20:32:03 GMT",
-      "source_name": "Benzinga",
+      "published": "Wed, 30 Sep 2026 07:19:15 GMT",
+      "source_name": "Rediff",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Donald Trump, Cathie Wood Bet on the Same 32 Stocks – Some Might Surprise You - Benzinga",
+          "t": "Headline signal (not a direct quote): Oracle's Larry Ellison buys homes for his family's staff - Rediff",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOVVRcWIybG5fZER1R21IQ0Y1aks0RllIamYyRGl1YlBnVkRrQmZzaVM5Xzl0SDhjZWdvS3pHdUk2ZG9PazNsV2RRNVc4RlVTTVdhWTBoZENDeFJKanFQUzY5U2xNblQtcC1OSXMtQ19ZbS1SdnVidGxDYVdpZFR3Q1VPeUFtY1dsNTg0a2NsT0hjMWFDQm83SzNtZ2Q1UldzajhGdDFFZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNekRJLVJSSldXZTRVWWs1Y2Z3VDh6aTFVSzltN1JSSkUtTF9xblFVU25jdy1vRDViTlVkYVhWVE9YUFZjVVRGX3VmX09JSEVOWDJZZjRMODdncWtLMHU0bjlBZzVFVU9RV0tVMUdYTk5yTkxUUDZFMks4NVM5aF9kalhwRlNsRUR2azkyQWN0WDZVaUthazVpVzRYcmN6SXRkRHIyX2lkSDVQc0IxbnNFMWsybmZsRUlKOXVaVWlSVm43bms0RGNCZTlLcWNXckloYWFhVA?oc=5"
+    },
+    {
+      "name": "Cathie Wood",
+      "role": "CEO and CIO",
+      "org": "ARK Invest",
+      "cat": "Investor",
+      "date": "2026-09-30",
+      "published": "Wed, 30 Sep 2026 00:24:37 GMT",
+      "source_name": "Investing.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK sells AMD stock, buys Nvidia and Tesla - Investing.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMklGNG44Y29zM3AyMi1KQU5sekZhbWZDSzJ3RnIxMkJ4TjhNbEhXTWxvRTU0YlJGTjU2WVVDSUJBbjFEcVlMazBWZ1JNWllIWlc5b0hoSEF0SVBiWWVRZ3draHM2c3hfdW9RaFNzVmJQMDA4UTR1N0licFVZeEg3RlF0Q1FiVUxFcEpHMnJYVDJiUjZkMlhQdjVsblNsY1ZuX1N6QzlIVFR2Y1ZvQlR2TA?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-09-29",
-      "published": "Tue, 29 Sep 2026 13:02:41 GMT",
+      "date": "2026-09-30",
+      "published": "Tue, 29 Sep 2026 23:46:54 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -277,33 +278,32 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Tuesday - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer on if AI agents will disrupt shopping habits - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOY1BubXVSeEp2Q2FVY0FjUzVKTkwwWUtnNFVveFlxQzd4UUxXUm1DWVVwb3RNMjdjcmJ5clV2VjRtbkdnMXprRk80OHltX3V0Rmk5S29Rem1ITFdnX2xpNnlYT2FkS0JkSjhmdDVZQVFqdHpMLU1wT3R3Z3B5OFlLeUVCZEd1M05DejBtTENnWFEweEJaYWtZ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVDhmZmlDNkREcHdmRWt0cUN4UXdBT1hzVzRqanB5ZDJkOXg2UHlDQjlZYU9Jc1o1YTJJRWQyLXNzXzJaOXRtTnVPWkFyQXhaSlVYdXoyZGVlVVl6X1M5Tk5jSHFDbjBQXzBpUGJhNi1waDROcC0zVGxfcDk4WUJ4WWVZQVVraUI0VnRqcGV4OVpZV3A2bzdIWnlmUmowZjQ?oc=5"
     },
     {
       "name": "Gene Munster",
       "role": "Managing Partner",
       "org": "Deepwater Asset Management",
       "cat": "Investor",
-      "date": "2026-09-29",
-      "published": "Mon, 28 Sep 2026 21:39:00 GMT",
+      "date": "2026-09-30",
+      "published": "Tue, 29 Sep 2026 21:42:00 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 14,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia's new AI safety platform could help overcome headwinds in AI space: Deepwater's Gene Munster - CNBC",
+          "t": "Headline signal (not a direct quote): AI 'safety topic has still not been solved,' says Deepwater's Gene Munster - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RQldvcWE4cEtaWFdZYk5mTWJmei1MbVNBNktmbEhIcnBicURLRUw2NE4zcWNoMV9pTFRPdVhNclVNVVIzNTNGRWdwcXU4M3dSNHFSSkxSSnJnakRWZ2JpbE1hV25fcDRoWDJ2RmxXQWFYQTA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV1M5ZlJJNkxsTlJkWGpTVlJfSVJ4eFhoMFNkMWJScGp6YXJyUWdjYXRLUTdIc2RrZERQOVA5S2doM2NMem1sMkpkYmNpazZ2eHZ6V3lEZFZiREZHTndBVzBVbkVwWXdOTXRPXzY3OWREdkxTOWEweXotRVczRDNSZnNncl9zUmE3NFd5aG4zWTZ6T3dHbUtqblJkMkNLdmRzNmJhcmJSeTZOaTU5S3Q0MDhMSQ?oc=5"
     },
     {
       "name": "Morris Chang",
