@@ -34,7 +34,7 @@
       "ticker": "TSLA",
       "name": "Tesla Inc",
       "units": 26.6912938,
-      "avg_cost": 242.94,
+      "avg_cost": 242.96,
       "theme": "Physical AI",
       "priority": "P2",
       "target_value": {
@@ -64,7 +64,7 @@
       "ticker": "GOOGL",
       "name": "Alphabet Inc",
       "units": 20.2237014,
-      "avg_cost": 182.19,
+      "avg_cost": 182.2,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -263,33 +263,23 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-09-30T03:30:51.904Z",
-    "broker_synced_at_ist": "30 Sept 2026, 9:00 am",
+    "broker_synced_at": "2026-09-30T13:33:03.290Z",
+    "broker_synced_at_ist": "30 Sept 2026, 7:03 pm",
     "usd_inr": 95.98,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
-        "name": "TSMC",
-        "units": 29.4030759,
-        "current_value_usd": 13435.44
-      },
-      {
-        "name": "Micron",
-        "units": 4.5597989,
-        "current_value_usd": 4856.55
-      },
-      {
-        "name": "SK Hynix",
+        "name": "SK hynix Inc. (ADR)",
         "units": 2.0331205,
-        "current_value_usd": 379.54
+        "current_value_usd": 379.13
       },
       {
         "name": "SpaceX",
         "units": 1.2392871,
-        "current_value_usd": 184.95
+        "current_value_usd": 183.93
       }
     ],
     "usd_wallet": 9.65,
-    "broker_account_value_usd": 134623.78
+    "broker_account_value_usd": 116420.51
   }
 }
