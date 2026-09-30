@@ -1,101 +1,87 @@
 {
-  "updated_at": "2026-09-29T07:38:26.571785+05:30",
+  "updated_at": "2026-09-30T06:53:05.086052+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
       "ticker": "NVDA",
       "company": "Nvidia Corporation",
-      "overall": "HOLD",
-      "overall_color": "#c9a84c",
-      "score": 5,
-      "summary": "Source-linked AI summary: Q2 FY2027 evidence supports strong revenue growth, expanding gross margin, and shareholder returns; moat, management quality, downside risk, and valuation timing are not fully evidenced by the reviewed disclosure.",
-      "sources": [
-        {
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
-          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
-          "published": "2026-08-26",
-          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
-        }
-      ],
-      "questions": {
-        "growing": {
-          "verdict": "PASS",
-          "note": "Revenue was $96.2 billion, up 106% year over year and 18% sequentially in Q2 FY2027.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
-        },
-        "moat": {
-          "verdict": "PASS",
-          "note": "The release reports continued expansion of NVIDIA's accelerated-computing and software ecosystem, but durability beyond the disclosed product ecosystem is not independently quantified.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
-        },
-        "management": {
-          "verdict": "PASS",
-          "note": "NVIDIA reported approximately $26.0 billion returned through repurchases and dividends during the quarter.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
-        },
-        "margins": {
-          "verdict": "PASS",
-          "note": "GAAP gross margin was 75.0%, versus 72.4% in the year-ago quarter and 74.9% in the prior quarter.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
-        },
-        "cash": {
-          "verdict": "PASS",
-          "note": "The balance sheet showed $22.4 billion of cash and cash equivalents and $34.1 billion of marketable debt securities at quarter end; a complete free-cash-flow assessment was not established from the reviewed lines.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
-        },
-        "risk": {
-          "verdict": "CAUTION",
-          "note": "The company states that forward-looking results are subject to risks and uncertainties; material downside magnitude is unknown from the reviewed disclosure.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
-        },
-        "timing": {
-          "verdict": "CAUTION",
-          "note": "Management guided to approximately $108.0 billion of Q3 FY2027 revenue and 74.0% gross margin; current valuation was not evidenced by the reviewed company disclosure.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
-        }
-      }
-    },
-    {
-      "ticker": "TSM",
-      "company": "Taiwan Semiconductor",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
-          "title": "TSMC 2026 Q2 Quarterly Results",
-          "published": null,
-          "reporting_period": "Q2 2026"
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.htm",
+          "title": "NVIDIA Corporation Form 10-Q filing index",
+          "published": "2026-08-27",
+          "reporting_period": "Quarter ended 2026-07-26"
+        }
+      ],
+      "questions": {
+        "growing": {
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
+        },
+        "moat": {
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
+        },
+        "management": {
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
+        },
+        "margins": {
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
+        },
+        "cash": {
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
+        },
+        "risk": {
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
+        },
+        "timing": {
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
+        }
+      }
+    },
+    {
+      "ticker": "TSM",
+      "company": "Taiwan Semiconductor Manufacturing",
+      "overall": "REVIEW",
+      "overall_color": "#c9a84c",
+      "score": 0,
+      "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/0001046179-26-000451-index-headers.html",
+          "title": "Taiwan Semiconductor Manufacturing Company Form 6-K filing",
+          "published": "2026-07-16",
+          "reporting_period": "Quarter ended 2026-06-30"
         }
       ],
       "questions": {
@@ -159,10 +145,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2026-financial-results",
-          "title": "Tesla Releases Second Quarter 2026 Financial Results",
-          "published": "2026-07-22",
-          "reporting_period": "Q2 2026 ended 2026-06-30"
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
+          "title": "Tesla Inc Form 10-Q",
+          "published": "2026-07-23",
+          "reporting_period": "Quarter ended 2026-06-30"
         }
       ],
       "questions": {
@@ -224,7 +210,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/0001628280-26-050705-index.htm",
+          "title": "Meta Platforms Inc Form 10-Q filing index",
+          "published": "2026-07-30",
+          "reporting_period": "Quarter ended 2026-06-30"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
