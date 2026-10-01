@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T06:53:05.086052+05:30",
+  "updated_at": "2026-10-01T06:53:28.733377+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -9,14 +9,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.htm",
-          "title": "NVIDIA Corporation Form 10-Q filing index",
-          "published": "2026-08-27",
-          "reporting_period": "Quarter ended 2026-07-26"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -71,19 +64,12 @@
     },
     {
       "ticker": "TSM",
-      "company": "Taiwan Semiconductor Manufacturing",
+      "company": "Taiwan Semiconductor",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/0001046179-26-000451-index-headers.html",
-          "title": "Taiwan Semiconductor Manufacturing Company Form 6-K filing",
-          "published": "2026-07-16",
-          "reporting_period": "Quarter ended 2026-06-30"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -143,14 +129,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
-          "title": "Tesla Inc Form 10-Q",
-          "published": "2026-07-23",
-          "reporting_period": "Quarter ended 2026-06-30"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -210,14 +189,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/0001628280-26-050705-index.htm",
-          "title": "Meta Platforms Inc Form 10-Q filing index",
-          "published": "2026-07-30",
-          "reporting_period": "Quarter ended 2026-06-30"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
