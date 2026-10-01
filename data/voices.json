@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T00:02:41.371965+05:30",
+  "updated_at": "2026-10-01T15:53:20.495972+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -29,87 +29,64 @@
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-09-30",
-      "published": "Wed, 30 Sep 2026 18:00:00 GMT",
-      "source_name": "NBC News",
+      "date": "2026-10-01",
+      "published": "Wed, 30 Sep 2026 19:34:11 GMT",
+      "source_name": "cnbc.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman to skip congressional hearing on rogue AI agents - NBC News",
+          "t": "Headline signal (not a direct quote): Sen. Hawley: OpenAI CEO Sam Altman declined to testify at rogue AI hearing - cnbc.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdElNcC1QUEs5Rm5DM0VhN2ZlREJrRF9jNW5NazlKUjhlUUVmZjhlS0tFNUhkSHpYbkNCRUhtWVNNREhvMGtzRmZRQVRrSVgwTFRLRHNBXzNnR0dISjd1aURVMXpvRUlNcjZka1lRZG44ZWFPdGRWb2ZZV3hpamtfdHl3OVRMckVibnRDN1VPZ19NQk5qWGhQZUVZZlJ5aWVCZUY2cG0zUkx3amFMQ0ZabnZuTkpGVG5a?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiekFVX3lxTE85VzNRN0U1ZXVjd2xsejNhQktkbFVpeUFMR1JnVG40aDY5TmNIWl9sQkN5MHF2M1planJYYlBYMThqbDZNaWVQVS12OUwtS18yZmlHWklSbEdVRk1PMXRScjdNNEFjRWE5MWZCZUN6U1VSSkRSSVI0clRR0gF_QVVfeXFMT2kyUl9HdDRsZmdEUll6TVhBRnk5Um1MTm42aXdyY2pCY1otQ3laOHI4OHVYd19wQ3RoRnRTckZlOVNUN2JjN2hpMkRBaUpmZjhseWFXTzdYeG9oUGZtQTlDNUlDX3FJTzFialBBMm84enFOc2NNSnJHS1J1YU9WRQ?oc=5"
     },
     {
       "name": "Dan Ives",
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-09-30",
-      "published": "Wed, 30 Sep 2026 11:00:08 GMT",
-      "source_name": "TradingView",
+      "date": "2026-10-01",
+      "published": "Wed, 30 Sep 2026 18:38:31 GMT",
+      "source_name": "cnbc.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Calls Physical AI Nvidia’s 'Holy Grail' — This ETF Is Already in the Trade - TradingView",
+          "t": "Headline signal (not a direct quote): Dan Ives: The second, third, fourth derivative of AI is now starting to play out - cnbc.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUExPb1hfRjBGZC14NGQxMEtGU251OENEMGZvYW40bDVTTDM5ODE5N0pPWjBqVGVwb2tsNl9PbkNNUmlNYWtocV81dWo5bW5IdDI3Mk9BenhHNWdFUWpweDJXS2h0UGZJMFh0OG1zWno0eVNaYVlRNTJ6MFptWjhfQnJZMDNYY1FINVk3UTRzMEtib2Y2dWpDUEJNemhwOFVMTlJqak11a1pPTGQ1TjE5dkNDaGR1LUxEYjljNlRxcjFoM1R3b1Z1SzFtOGFsOXVpV3F6dA?oc=5"
-    },
-    {
-      "name": "Satya Nadella",
-      "role": "CEO",
-      "org": "Microsoft",
-      "cat": "CEO",
-      "date": "2026-09-30",
-      "published": "Wed, 30 Sep 2026 09:14:00 GMT",
-      "source_name": "The Motley Fool",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#MSFT"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Microsoft Stock Has Grown Roughly 14-Fold Since Satya Nadella Became CEO in 2014, a 23% Annual Growth Rate That Ended 14 Years of Negative Growth. Can That Pace Continue Under Heavy AI Spending? - The Motley Fool",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSUI2UjZRRXp5ZWZ3OHBqcmdjQS1xSnZxLTBYZXlFYTBhUW5tMnc5d2dMWkxhUl9DYW9Selo2M2dhVXBKRVRHNEhiUUE2UHF5aE5HbmwyQWJFWlJqaU1ocGVCZG9VRElQRC1lVjJ4bFdGTGY5VGxRU0VXMDBrYXYtNWtINnkycW94dUE3NDFiTUI?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQazJyUm1FcXRqb1JCcGhsMlZ0bEZLVGNXMm9DLVRDb29DLV9QQVJUWmJjcTJpMzJqb0h2NDBwdXUwUjJpVGw1UEo5aW85dmJJWExGejU3eWMyRG1DQmxncDNkeVFPRVowbVphOWgxaTd3ZFc3VDFDVTBnbXZfcy0xUW16cm10ekhmX3k4WDJ3QUJjamJMb3paRGhxalM1Q3lOUlFDcFJQTXN2ZWFlb0Nmd1dNNXpYbnJUUzgzNg?oc=5"
     },
     {
       "name": "Lisa Su",
       "role": "CEO",
       "org": "AMD",
       "cat": "CEO",
-      "date": "2026-09-30",
-      "published": "Wed, 30 Sep 2026 03:46:36 GMT",
-      "source_name": "Korea JoongAng Daily",
+      "date": "2026-10-01",
+      "published": "Wed, 30 Sep 2026 22:05:26 GMT",
+      "source_name": "Seeking Alpha",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su to visit Korea for AI chip meetings with Samsung, startups - Korea JoongAng Daily",
+          "t": "Headline signal (not a direct quote): AMD: Lisa Su Proved Me Wrong (Rating Upgrade) (NASDAQ:AMD) - Seeking Alpha",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRWY3Mk1TS01VMEpCU2lJOFRva2FDLUh2TkdmN0l6WlJWZHpNMzRtOGVBa04xU1FBS2gyTkpqcmg0WHJFM0dIQTF6VVpsYWZWSE93TFRSeXBSYlc1eGdjUXJISXZQVGdmMnloSEYzM0FXYVdsOEpMRDlUU3k3TENSQWpTQ0dBRkpWR3lpaVNiZy1UZFAzLWh6eUVyMnFCM19LRzQ4WEVndzY4eUlrTTVBakN3QUhCOUxNeXVBTjVObl8tUXcy?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYVg1QTVzYjhhNTZ0dXRNLTRrd1V2ck15dTBNYjNFOFpXY1NFRURLMmN6QkNkUVRlZ0JyWEhKX3dtbmJDemk4YzIwUTNuUXY0YU9HS3hXTEpsMWJ6dWdRb2oxWmZpaGluNTE3XzRhUlVORTgyV0VRekdOVDUxM0NDbzI2Sm9xRlgyaU00?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -117,7 +94,7 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-09-30",
-      "published": "Wed, 30 Sep 2026 07:05:00 GMT",
+      "published": "Wed, 30 Sep 2026 12:45:40 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 13,
@@ -127,41 +104,40 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir CEO Alex Karp quietly purchased 37,000 acres of forests in Sweden—and locals found out when hunters lost leases to use the property - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Palantir CEO Alex Karp buys 37,000 acres of Swedish forest - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeksxMkwyR2FUblBkRFBNMGpwRkNjTXlKRGd0WW1ieXV1WjFnZjJRcGpWRVJDT2NxaXBYejE0d0prSnFpS0EzT0V6RERuNzZNNjRNbS1MTEJzWDBSTDBNR0Nab216R21LVjB5ZTJ0TG9WMldrMFJzNEVSdEhaUkJxME80ZTMtY3FLcDZ3akx5TzBaNXJJN0FN?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWFpXUmtPN18xdmJyaU5HSWFKRjhIVkg1dUdYaHlydElHWkZPU1NZaTFJdHdWbkRrcXhqaXBDNjVMVGNaTk95bVdhYnZCaWFhWmZjMW5hSl9aRWxXQkpEOWw3WHA5LXlNdjdJSEw1UGZpNWYycEF4Rk5ab3lBY3IxTWkyR0d1SE1nRHd0aFlEWGZPYk0?oc=5"
     },
     {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-09-30",
-      "published": "Wed, 30 Sep 2026 04:52:06 GMT",
-      "source_name": "Teslarati",
+      "date": "2026-10-01",
+      "published": "Wed, 30 Sep 2026 22:00:00 GMT",
+      "source_name": "mashable.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#BE"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk and Trump are closer than ever, and Tesla could be the big winner - Teslarati",
+          "t": "Headline signal (not a direct quote): Elon Musk gives more details on xAI's first product - mashable.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeVZocGZVRE56dGlVQm93aS1YTjZiMTV6QjlQSTVMR24zLVF2REVaNUV1MHRyeS1oNFJvY2V0WjY5ZjRDZVNHcmUycy15Z0FyS0VLQWhqRV9HSDZUdl9DV0FGejNhU1VURTJtQlNuSDZ5ZWt4N29FWTU4bzh5bVJaOEFR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB2TDhCeS1rZUtUREVHZXgwQUZ6cnZmbmhJWEsySUl1dkVQRHRidWNqZzNCT1k4ZkxqTlB4TllUX3VxUVl4S3FySUJFRUxyUEdYemI2U2liYkROeHdHYzNZ?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-09-30",
-      "published": "Wed, 30 Sep 2026 02:47:00 GMT",
+      "date": "2026-10-01",
+      "published": "Thu, 01 Oct 2026 04:05:00 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -171,32 +147,76 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg sends bold message to Meta investors after Muse - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Meta counted Mark Zuckerberg’s $4.1B stock payout as research pay to claim a $355M tax break — and the IRS wants it back - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX3gyS2tTWnlzdkJDc3RaU0J5a2tWSk1qTC1WZFZOc1NkaTlZS3hEdFBUY3hDcHJWaXRkdTJnMUNidlg0TndhZlBwRGNBczU1TERqeGljNUtkNkU4N3hZRHJaYWUxRm93cWxOcEMta3ZkWThxUEhXV1NYWTd6NlM1RzdleTFUMkJ0NnhNVVRjVFNtNWhpV2stS1o1aw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONnhRUFNkRjFmS1pmRG91UWkzcTJ2X2JtNV9RQm44aE4yZjJDVkYxN1AxWWZRZElwNHZWMkkxNVYxMVMyWWt6bGxJQndvZnozX0RDX3MzQWM5TzU1WDVhYlltZ1ZTdURoTkZlVHFwcmMxMXdQdmtwZG1SaF83UERkTF9uT3pjamQ1OXI2bWJlR2d1RHZNdkVhemh3Yw?oc=5"
+    },
+    {
+      "name": "Sundar Pichai",
+      "role": "CEO",
+      "org": "Alphabet",
+      "cat": "CEO",
+      "date": "2026-10-01",
+      "published": "Thu, 01 Oct 2026 04:37:00 GMT",
+      "source_name": "The Times of India",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#GOOGL"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Google unveils Gemini 4 Argon, its most powerful AI model yet; CEO Sundar Pichai says: We're going to mak - The Times of India",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQanZhR1p3YTZtcXRuN2hhNWF1SExMQ0VFcjVGX2RYMzlZOHNqclRNT1VkdEtyZnhHOUFOdVJKV2NJdUlDend2MllZTnFvUWczNlozT3J4UHRtNElFZGNreTgtcFNhM2FUenFTdDZGSWFkX2E1dl92akdqaHI1eGdBSXZQTmVpZzVfRGFtaUpjSDlzNGF5QzQ3MTluSV95WDBGY2k2VnQtaFFEem5BaXNyN3o1OEd0VVNFeFRkU19sUGJmUm9BWldoYUxxTmFxNDV2cDhQV0JjWnJIX3o1ZDc0aE5wZ3U1UTk3UjVhWjkyRzFERUJkc3FtUXloOG5oUXBRaUJGTklGWko2al94cEVDSFNFZndpWDl6SV9pZXlBWHp6dGdhcDZfbDlfSnQtZ25UQ1YxSXh3WkRwNUJ4ZVJqMkpSa0lTdTTSAcwCQVVfeXFMT3hROHZ0NnFlbVkwVjhaZFZ3WkptV05uWG5DRmZUckdPZnlEa3dMU0hCNmdBSWF2VDBBdkhCNkY3OGdRSWtWbWdUSTRYZHJlS21QU1djWjZ0TElIYXh4SDMtRnFtamhrbnVmeUR4MUZqdWNqTzA5aWlFOGdiamVDdVVVQUFGMVpsZ2ZTOFo2MkJNSmJDQXVwekg4eG5iSkFVWGYxWlRkb0FVLWRIbDdldC1QejViWjd6czBoMnV5MW81MENpX0ZTMTIzMTM1cXMtUkNpek9OYmJOd1FkSTNBV0hWS2owMHB2MTh3ZWpoeDFpdEtabjhRVFA3aTE4dmZya0dfUGV5WjNSNGxQeDhlZ2hrdUx4cDhadnFfOUg0djNQejdNdkdXVDMwQ3pQOEJ6cE91OGdxaGRLRWVsUXJQallfN1ZIeFRybF9SR28?oc=5"
+    },
+    {
+      "name": "Lip-Bu Tan",
+      "role": "CEO",
+      "org": "Intel",
+      "cat": "CEO",
+      "date": "2026-10-01",
+      "published": "Thu, 01 Oct 2026 00:11:53 GMT",
+      "source_name": "digitimes",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#TSM"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Lip-Bu Tan calls TSMC a partner rather than a rival - digitimes",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWW82ZlFIOG9kMHZqdnlsYkxCOWlOeE1Fb01XeEoxYWtkYjRHck04R2ZxdEJ6TzhBRTRTNFZkUlI5SEp2S0ttN0FXWVk5aFdRSXFzM3UxcU0zLTF5TjNvNWhaOHZXeVVjLThiUjlZQlA3Skx0NXc3ODB6dTFkVnNzYXpHSkREbjNOc2UxMQ?oc=5"
     },
     {
       "name": "Larry Ellison",
       "role": "Chairman and CTO",
       "org": "Oracle",
       "cat": "CEO",
-      "date": "2026-09-30",
-      "published": "Wed, 30 Sep 2026 07:19:15 GMT",
-      "source_name": "Rediff",
+      "date": "2026-10-01",
+      "published": "Thu, 01 Oct 2026 06:54:47 GMT",
+      "source_name": "FXLeaders",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Oracle's Larry Ellison buys homes for his family's staff - Rediff",
+          "t": "Headline signal (not a direct quote): Red Flag for Oracle: Larry Ellison Pledges Billions More in ORCL Stock - FXLeaders",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNekRJLVJSSldXZTRVWWs1Y2Z3VDh6aTFVSzltN1JSSkUtTF9xblFVU25jdy1vRDViTlVkYVhWVE9YUFZjVVRGX3VmX09JSEVOWDJZZjRMODdncWtLMHU0bjlBZzVFVU9RV0tVMUdYTk5yTkxUUDZFMks4NVM5aF9kalhwRlNsRUR2azkyQWN0WDZVaUthazVpVzRYcmN6SXRkRHIyX2lkSDVQc0IxbnNFMWsybmZsRUlKOXVaVWlSVm43bms0RGNCZTlLcWNXckloYWFhVA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWVJQZ3N1UXp0bVpjZ3loMnkyRGdNLWlKVXZZNF9JOURaYzIzczk4UV9IU29fWFpRY2xKMHRaOHFRZmx1UmJFU2FvWkFWWlNvRHJkWVZmOEJ6d21kM2RmOWtxMGRKdEhGbUNYN3pJdTlhcUM5b0lZUnpNcTh5M1hLRWRjR0FHUXNrNWYtajBzTnRzTkQ3UzhYSUhldWVJU3FTRFdwU1ZoVjBYdXQyRFFxOUNB?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -204,29 +224,28 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-09-30",
-      "published": "Wed, 30 Sep 2026 18:05:00 GMT",
-      "source_name": "finance.biggo.com",
+      "published": "Wed, 30 Sep 2026 13:25:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#AMD"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Pours $81 Million Into Nvidia, Dumps $110 Million in AMD Shares - finance.biggo.com",
+          "t": "Headline signal (not a direct quote): Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rNTk1MVhtdGRHTUpxRnRnYmZ3dlo4YWtrNGhTWFJxQ09sUVV2QWZZN21nNF9JN0hON1E3YU16cEJ1c0hyeUhTeS1fWllnT3JOTy1LSEM5VFlrYUY4RjByRldoMUNvQy05ZEpNU1dtd3dzWDdMWGc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa1p1Rm9UOS1EUUZEY1VHVTQwOTd5NDF3cjVtdERlUGo3Uy1lb2dGRkNlV3NGcWlZR21DNXRMWWlJdlcxcmZZNFZrU3YtbzNPQ29vX3NxLXIzdC1NZ1JYdmc3Rm5SWUk0cFl1MkprSVdEbWJEdmt6YThaMEZzZEdXWERCUVNBLVlFTWViUzZlSlpnZDZQYkFLM0ZFenNaUQ?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-09-30",
-      "published": "Wed, 30 Sep 2026 13:15:47 GMT",
+      "date": "2026-10-01",
+      "published": "Wed, 30 Sep 2026 23:24:10 GMT",
       "source_name": "cnbc.com",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -235,11 +254,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Wednesday - cnbc.com",
+          "t": "Headline signal (not a direct quote): Lightning Round: Grail can go higher, says Jim Cramer - cnbc.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2taczZ6Z1ZXZ01ZMUN3MHhlU0JvYnBJNHBjN09nZndPb1o3Qm5lVWh1Ry1pamxjc1V5S19ZZ2tMTk9GMDVtMl9pcnNzWEVWa1JfNmViUFFuR0tXUXJpVjFYWGt5Wk9PUXBnYWdxZFU5bXlMdHFDdU95MElXeFdSYmd4UTZKSG55bVF4Yzd4TjRDeV9VMkR6RVpZWlhuSmZNRGRJ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaTg5dmNzUERiZjIyZHNtMU1nb1lWM3VxRVFWUHhNSXl2bWZhd2d1S29pcDJ6UmR2X3VPVktiRDNoT2RGRFlwZUd3eGlwZmVqQS1hVkRVcTZSaWctMWtDT3pwWmFOMmFCOHJtcWZ6NXJJMUs2MlZuWEtGNDNXT3pSSi1zMmw3b05PRkJQN25NQWRYRTlYUkhBZ3NB?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -247,28 +266,50 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-09-30",
-      "published": "Tue, 29 Sep 2026 21:42:00 GMT",
-      "source_name": "cnbc.com",
+      "published": "Wed, 30 Sep 2026 10:24:05 GMT",
+      "source_name": "TradingView",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AI 'safety topic has still not been solved,' says Deepwater's Gene Munster - cnbc.com",
+          "t": "Headline signal (not a direct quote): Gene Munster Says SPCX Stock Could More Than Double as Starship Supercharges Launch Cadence: ‘Bigger Week Than Most Investors Realize’ - TradingView",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV1M5ZlJJNkxsTlJkWGpTVlJfSVJ4eFhoMFNkMWJScGp6YXJyUWdjYXRLUTdIc2RrZERQOVA5S2doM2NMem1sMkpkYmNpazZ2eHZ6V3lEZFZiREZHTndBVzBVbkVwWXdOTXRPXzY3OWREdkxTOWEweXotRVczRDNSZnNncl9zUmE3NFd5aG4zWTZ6T3dHbUtqblJkMkNLdmRzNmJhcmJSeTZOaTU5S3Q0MDhMSQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPSTRvYW9yY1Rfa195SkdMNy1ydFZrZ3RENHV4TnNualZtcGtZNGpQX1B0cGZJZ3hsb1I4M1JqY29selNtUDczX3RiVjV2UEo0SlZjRzZaRGJ3cnFIOEM3dzdRUGtRRFJxdC1MZkZfR2dWMHhQeTlfT282amR3NHgtcWxCYUc3ekpsR05rUDBzMFhLZ2l0WVQ0bGpkZloySjJlOFBKeEFtdzRFTkxtaDZLNnZpVl9IbDh5b085QUM0aHNFLS1HQ1JjV1hFSUs0U2lreUFZM2J4WVRIZF9tYlZKVVVDc2NZWEJnX1l2RXdUaktOcS1IUVRnaF9LUWhMVnVEc1YtSkZZZnNmRGg1YWw3N0c1UDNnTml3WXc?oc=5"
+    },
+    {
+      "name": "Beth Kindig",
+      "role": "Lead Technology Analyst",
+      "org": "I/O Fund",
+      "cat": "Analyst",
+      "date": "2026-10-01",
+      "published": "Wed, 30 Sep 2026 23:08:13 GMT",
+      "source_name": "Stocktwits",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): AMD Just Hit $1 Trillion After A Blistering 194% Surge YTD — Beth Kindig Says The ‘Dark Horse’ Still Has Room To Run - Stocktwits",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2FIaXFjdXpBai1SOVl4SXhwREdpYTRMbXRUN1ZwbFVPYWh6MWxtdVcxSjZRR3FubFdVdEZielRENHVyMk9jczFCNFpWWUxIcG44cFl2cGtKUFhXX05rWDg0Y3VvTnpBQWV2bTZzNS1YcTVzM1NOeXpXS0tCb1pjeWp1M24wODJHZW1BenFnRVBEamx6YmRPbERLRDJvUm9UOEl2QkxHYm1ueDRwVXVjS0d1WFdwVl92VlAxNXo5SXc2ZFdmSUxwbWdn?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 12,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
-    "code": "refresh_failed",
-    "message": "Refresh failed (ValueError). See the linked workflow logs."
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
   }
 }
