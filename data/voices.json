@@ -1,28 +1,7 @@
 {
-  "updated_at": "2026-10-02T00:30:18.423111+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-02T03:27:29.995136+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Jim Bianco",
-      "role": "President",
-      "org": "Bianco Research",
-      "cat": "analyst",
-      "date": "2026-10-01",
-      "published": "2026-10-01T06:24:00-04:00",
-      "themes": [
-        "AI development",
-        "U.S.-China competition",
-        "AI safety risk"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Bianco remained bullish on continued AI advancement, arguing that slowing U.S. development could risk ceding leadership to China despite safety concerns.",
-          "k": true
-        }
-      ],
-      "src": "https://www.headge.com/topics/ai",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -30,20 +9,20 @@
       "cat": "CEO",
       "date": "2026-10-01",
       "published": "Thu, 01 Oct 2026 13:30:03 GMT",
-      "source_name": "Barchart.com",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): ‘Nvidia to Sell Twice as Many Chips as This Next Year’: But Jensen Huang’s Comments Ignore the Market Share Question - Barchart.com",
+          "t": "Headline signal (not a direct quote): ‘Nvidia to Sell Twice as Many Chips as This Next Year’: But Jensen Huang’s Comments Ignore the Market Share Question - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNdTZSR014YnpnSlJseWVTbXVEcDAweFdBNGpqUVd4UEx2WmF0TWV0Q0tqV2NVTjRMakRHZjY3TFBjQTYxRkxid2tFTDFVa0E2MXV4aEVOQ3BzUmUwQ1dZMEFJTWw0Q051bERXT3lhMUNBbEJ1R09zVUxsenV2YkVPdkVxMXRuNFVTNnJBeW9CTXlyc1REbk9YRDV4R0ZOSUw3R3NJVE83Sk56R1EzQWFxaTBlUXJqekMtcnRXOHBBSjNWQkFpQjN0MjVkMEtwQlNuVE5JTnRSY19wZXFSTnMzZUlpNlZueTh5eXc1VA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTmJPQ2F1enNMdEgxU0Q1M2o1ZWk2eTZ2NWFVZTZ5dVJQVGJ3YUw4XzNKMGtjS3JIeW1adjZudDVBUVBZREF5eUFCaXBzVzlYaUxDVXdxRkEzRnY3cUlqOTd4NmhiVzh0TjQxTHE0RnIxLVhYMFNyOWVFem5HZXR1TV8tLTBmeTMxY2FVazk2dVNLTnp0dDJn?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -73,7 +52,7 @@
       "cat": "Analyst",
       "date": "2026-10-01",
       "published": "Thu, 01 Oct 2026 14:54:35 GMT",
-      "source_name": "benzinga.com",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -81,7 +60,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Names 3 Under the Radar AI Stocks: ‘Starting to Get a Renaissance of Growth’ - benzinga.com",
+          "t": "Headline signal (not a direct quote): Dan Ives Names 3 Under the Radar AI Stocks: ‘Starting to Get a Renaissance of Growth’ - Benzinga",
           "k": true
         }
       ],
@@ -108,6 +87,49 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYVg1QTVzYjhhNTZ0dXRNLTRrd1V2ck15dTBNYjNFOFpXY1NFRURLMmN6QkNkUVRlZ0JyWEhKX3dtbmJDemk4YzIwUTNuUXY0YU9HS3hXTEpsMWJ6dWdRb2oxWmZpaGluNTE3XzRhUlVORTgyV0VRekdOVDUxM0NDbzI2Sm9xRlgyaU00?oc=5"
+    },
+    {
+      "name": "Alex Karp",
+      "role": "CEO",
+      "org": "Palantir",
+      "cat": "CEO",
+      "date": "2026-10-02",
+      "published": "Thu, 01 Oct 2026 19:23:00 GMT",
+      "source_name": "The Economic Times",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI",
+        "#PLTR"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Palantir CEO Alex Karp quietly bought 37,000 acres in Sweden for $22 million; locals found out only after - The Economic Times",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQT2h0TFNLSHhqdFJFRkQyMnA1T3ZhbnRQdGxwLVBCWExxVTNSRG5hYmY5UVNuZ2QyaXpwamNVYXZlVkdjVmc2VlVuY0oyQk9vby04aHh2MTFMYmpCU2tpYmhubWRnTmdvampwUThJSnVPQUVoV2podk4zclRDelU4UmYxeWVHYktBVkw5U2IxclcwREpDVi1WYVppeDYyV084LXo5MlpwcE5mSnN6bWZGdXJMc0taUDRka3h4bkJUVUpZMzRCbFZxbmRVZE5aTGFKUHBEV2RNcWNNTVJ4eEZ4WlBXcHlNOHFmS1BEczhzZlBRTkJmTDVwSlJ1LWJLZmtULXJIbUNRZzI4ZVByNGUzeDNRbjBCdy1peXppa0hncTZPMkJjR3F0eFBCMUtlWjd3VFJ2dDBFWUpMQ1o4c05zMnVncThORENjUTJST09VOGEwbWfSAdMCQVVfeXFMUE9odExTS0h4anRSRUZEMjJwNU92YW50UHRscC1QQlhMcVUzUkRuYWJmOVFTbmdkMml6cGpjVWF2ZVZHY1ZnNlZVbmNKMkJPb28tOGh4djExTGJqQlNraWJobm1kZ05nb2pqcFE4SUp1T0FFaFdqaHZOM3JUQ3pVOFJmMXllR2JLQVZMOVNiMXJXMERKQ1YtVmFaaXg2MldPOC16OTJacHBOZkpzem1mRnVyTHNLWlA0ZGt4eG5CVFVKWTM0QmxWcW5kVWROWkxhSlBwRFdkTXFjTU1SeHhGeFpQV3B5TThxZktQRHM4c2ZQUU5CZkw1cEpSdS1iS2ZrVC1ySG1DUWcyOGVQcjRlM3gzUW4wQnctaXl6aWtIZ3E2TzJCY0dxdHhQQjFLZVo3d1RSdnQwRVlKTENaOHNOczJ1Z3E4TkRDY1EyUk9PVThhMG1n?oc=5"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "CEO",
+      "org": "Tesla / xAI / SpaceX",
+      "cat": "CEO",
+      "date": "2026-10-01",
+      "published": "Wed, 30 Sep 2026 22:00:00 GMT",
+      "source_name": "Mashable",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Elon Musk gives more details on xAI's first product - Mashable",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB2TDhCeS1rZUtUREVHZXgwQUZ6cnZmbmhJWEsySUl1dkVQRHRidWNqZzNCT1k4ZkxqTlB4TllUX3VxUVl4S3FySUJFRUxyUEdYemI2U2liYkROeHdHYzNZ?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -138,7 +160,7 @@
       "cat": "CEO",
       "date": "2026-10-01",
       "published": "Thu, 01 Oct 2026 04:37:00 GMT",
-      "source_name": "The Times of India",
+      "source_name": "timesofindia.indiatimes.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -147,7 +169,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Google unveils Gemini 4 Argon, its most powerful AI model yet; CEO Sundar Pichai says: We're going to mak - The Times of India",
+          "t": "Headline signal (not a direct quote): Google unveils Gemini 4 Argon, its most powerful AI model yet; CEO Sundar Pichai says: We're going to mak - timesofindia.indiatimes.com",
           "k": true
         }
       ],
@@ -246,26 +268,28 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-10-01",
-      "published": "Wed, 30 Sep 2026 23:25:00 GMT",
+      "published": "Wed, 30 Sep 2026 23:24:10 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 13,
+      "relevance_score": 14,
       "themes": [
-        "#AI",
-        "#MSFT"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer talks why he is keeping Microsoft in the charitable trust portfolio - CNBC",
+          "t": "Headline signal (not a direct quote): Lightning Round: Grail can go higher, says Jim Cramer - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOF84aTR5LVRaQUszTmtaMXR1cWtqVWtNNlViSXRRaV9WOEljUlk5X3lJeVhicnFCYklXUTVhUEN5QjhIUDZJcjdmNnRYQjB5U2IycVlsaklMZ0pWTW9sRUZqZmQ4cEowOXZWVFZ1QktFc2p1UlNMejZFX2UtSkIwUlY1Q21KaVFoV0pFUXZ5VjBhMmVvVEpQcHhwMFl3M19sNWljX3llcnJJdjAzMDZvSGhuS2pjdGtWZFgxU1d3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaTg5dmNzUERiZjIyZHNtMU1nb1lWM3VxRVFWUHhNSXl2bWZhd2d1S29pcDJ6UmR2X3VPVktiRDNoT2RGRFlwZUd3eGlwZmVqQS1hVkRVcTZSaWctMWtDT3pwWmFOMmFCOHJtcWZ6NXJJMUs2MlZuWEtGNDNXT3pSSi1zMmw3b05PRkJQN25NQWRYRTlYUkhBZ3NB?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 12,
+  "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
