@@ -19,7 +19,7 @@
       "ticker": "TSM",
       "name": "Taiwan Semiconductor",
       "units": 29.4030759,
-      "avg_cost": 154.94,
+      "avg_cost": 154.13,
       "theme": "AI Compute",
       "priority": "P1",
       "target_value": {
@@ -154,7 +154,7 @@
       "ticker": "MU",
       "name": "Micron Technology",
       "units": 4.5597989,
-      "avg_cost": 442.27,
+      "avg_cost": 439.97,
       "theme": "AI Compute",
       "priority": "P0",
       "target_value": {
@@ -263,23 +263,13 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-10-02T03:30:12.784Z",
-    "broker_synced_at_ist": "2 Oct 2026, 9:00 am",
+    "broker_synced_at": "2026-10-02T10:10:48.118Z",
+    "broker_synced_at_ist": "2 Oct 2026, 3:40 pm",
     "usd_inr": 96.33,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
-        "name": "TSMC",
-        "units": 29.4030759,
-        "current_value_usd": 13499.79
-      },
-      {
-        "name": "Micron",
-        "units": 4.5597989,
-        "current_value_usd": 5003.1
-      },
-      {
-        "name": "SK Hynix",
+        "name": "SK hynix Inc. (ADR)",
         "units": 2.0331205,
         "current_value_usd": 393.35
       },
@@ -290,6 +280,6 @@
       }
     ],
     "usd_wallet": 12.34,
-    "broker_account_value_usd": 135402.76
+    "broker_account_value_usd": 116945.53
   }
 }
