@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-03T00:09:40.976669+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-03T02:55:37.932069+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
@@ -50,22 +50,22 @@
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-10-02",
-      "published": "Thu, 01 Oct 2026 20:21:03 GMT",
-      "source_name": "Stocktwits",
+      "date": "2026-10-03",
+      "published": "Fri, 02 Oct 2026 19:34:16 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 14,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Says NVDA's Recent Underperformance Is A Bump Than Anything Else — 'There's One Chip In The World Fueling The AI Revolution' - Stocktwits",
+          "t": "Headline signal (not a direct quote): Dan Ives on Tesla stocks: A big step in the right direction - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUU5ObnlHeHY0N0VIc3ZvalRIazROX28yTGZVZ1MzYXlkUFpaSjNjUFhKc2hZMzNNUC04RktraHpBRnVVNkQtNjFwQUQ1S0JQcmpFOUpGdHZkaE1TXzRFMU5QNDdZVVdWY2RKRjV1YnNyUk42UmdmeHFNalVMakpyS3M4azdhSE1Cb296eXZnSndMZXFqSXU0WlRRNldzWTJvUUhobWIzNXU2cVpjNDB6UURWVDgtU3YxcFNmbklNR0huSkFKcklqcFp3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2JEZFBJb1hLT3o1d0VBTDVCMWZVbjFtQl90TklrQXBZSVplR1l2ekppX1psSWdYQXVUTTZ4Sk9INGsyNEtrQm9aMlRpMmsyQUdwMUxBUElycHdDcEhmNjFUckxKRFFtazlYNE1KQjc0WTU1OVZIdmx4RFpHNEI2RmFjT2tsSUpqZW5jbEdOWjQ0Ylp2TENrZHlfOUFiTjhiRDJJ?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -90,47 +90,26 @@
       "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONDdKRGRfa0h2bGRmSzhVNVZ3OUNHMUk4V1BETDZDUG9GdmlURXNPSUtsczRSNVktMUg1M29pcjlNel9KaVlUYlRFX1NCT3JRWXJ1YVdDaWpOOUtoeDUwTVZlYzRFS0hfOEZFaTVQMC1hZEsxV1VjNlk2NXFrdjE2ekxUMmQ2bk0?oc=5"
     },
     {
-      "name": "Alex Karp",
-      "role": "CEO",
-      "org": "Palantir",
-      "cat": "CEO",
-      "date": "2026-10-02",
-      "published": "Thu, 01 Oct 2026 19:23:38 GMT",
-      "source_name": "The Economic Times",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#PLTR"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Palantir CEO Alex Karp quietly bought 37,000 acres in Sweden for $22 million; locals found out only after - The Economic Times",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMizgJBVV95cUxORDE0N05fQ2loMURKdl9jVTVsVWIwbEgyQjV4cXJZcmh4R0lCY0ZKM0dFQlhNOWt0aDJlTFItQzE2QmpJY09oX3RzU2FvQWVuMGFKeWgyWTI0T0VvV2g5LV91TlBmZ0pmbU9VNi0zZDMyMDVMMDAwZWhDdUhCNE1kS0ZvVU5OblBmTWVyMENwSnR6T3JtZFNkVWpNTExrck5Nc2toa2RzdTR0eGZjOXRwR1VjZG9DVk5vU210VkRHU2toQ3RlTV82elVZODlOdklub3Y3eXNSeEpRelNqblA4WHFWa2pMNmdfaU5uZW16X0MwUkQzcGtlSXlGbUxMZTItWFZ5TjJoVHhVR1BsS2hOSFh0Wnltb05RQ20tZnd4VzdsOUphbU1JWU5pWUNsNkZBekVIY1pFdHJLdklqSXdnV0l5cjVQNkFFb2pUQlRB0gHTAkFVX3lxTFBPaHRMU0tIeGp0UkVGRDIycDVPdmFudFB0bHAtUEJYTHFVM1JEbmFiZjlRU25nZDJpenBqY1VhdmVWR2NWZzZWVW5jSjJCT29vLThoeHYxMUxiakJTa2liaG5tZGdOZ29qanBROElKdU9BRWhXamh2TjNyVEN6VThSZjF5ZUdiS0FWTDlTYjFyVzBESkNWLVZhWml4NjJXTzgtejkyWnBwTmZKc3ptZkZ1ckxzS1pQNGRreHhuQlRVSlkzNEJsVnFuZFVkTlpMYUpQcERXZE1xY01NUnh4RnhaUFdweU04cWZLUERzOHNmUFFOQmZMNXBKUnUtYktma1QtckhtQ1FnMjhlUHI0ZTN4M1FuMEJ3LWl5emlrSGdxNk8yQmNHcXR4UEIxS2VaN3dUUnZ0MEVZSkxDWjhzTnMydWdxOE5EQ2NRMlJPT1U4YTBtZw?oc=5"
-    },
-    {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 02:18:33 GMT",
-      "source_name": "Stocktwits",
+      "published": "Fri, 02 Oct 2026 10:37:01 GMT",
+      "source_name": "The Crypto Times",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 11,
       "themes": [
-        "#AI"
+        "#AI",
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk's xAI Rebrands As SpaceXAI, Drops New Logo As It Fully Merges Into SpaceX - Stocktwits",
+          "t": "Headline signal (not a direct quote): Elon Musk’s Tesla and SpaceX Still Hold Over 30,000 Bitcoin: Why Is He Not Selling? - The Crypto Times",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN2FQMndjT043NXJpWTNUUFJaanNsQXNmSGg3cmUzbTVITDROQzBvRldCSjF0OWNQeTUweUJCNTdfRmRsdzNaalF6VWp2LWVfc0FCUWZWdzFHWTJyaUlHQVV0OG9UeHAzci0wb1VlRS00MWtIOUMzN01JcFFsMEUwU09FVkE3b3IwMG5BNUJ0MWtzZUhoSmwwcVpWTVhPVTBxSDdzM3dzMkt5SkhjLWE4S1RnNVpIajg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRDM0eTlLczAyN3MwRXR6bmktNFJ2QjZUbXFEZG5JN0FUN01JQkVkUzBTMWVnUi1icDJpVU1MMlJXQ2RBUDlhTFdhcHF6VmJCZkVQNkpOdUlGemFiUlc4SlRKMks5LVFjQklRYTNqal9IcVRaMWxVTEVqVE4wZUFaM0lDU3BleG9NOHJnQWhnbTRJaVNjdXlES3V3SG51elZPZzRuLUdhU3pwdXBQc25yekxsa0J3VVZQREE?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -155,47 +134,25 @@
       "src": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TWkFQQWdiVEQtTDBxSk5sSy1xaFloNjdFN3RwRnE1SmpLUGNmM0RTcF9MNkpxX1lxcW43dWN3VXlRZERhV1loVEhqa2hfQl9fVDVwTkhWLVg1b0IySDRuSmxLeWptU29SQlYyNnd5clFuRkZfeEZHZHZXbFc?oc=5"
     },
     {
-      "name": "Sundar Pichai",
-      "role": "CEO",
-      "org": "Alphabet",
-      "cat": "CEO",
-      "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 08:06:00 GMT",
-      "source_name": "The Times of India",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI",
-        "#GOOGL"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Google sends its 'chips' to space in a refrigerator-sized satellite; CEO Sundar Pichai says: I remember t - The Times of India",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNU3I2cHVXdGtiSW1DdFE3YWtqUC1zQklDNlR5NHBEaGpKSldpb01rbnRmd0NDMzRmTjBWU3BEMkZldWE2T0NtbWdzQ0g5Ym5XdnRGbFRvWXh4a29DRGNOeWdPQzBUQjF4Z1JpTnpiclZQMUlBRnp3ZXFyRHFhaEQ2eEl4WldYWWt5XzMyYzZKaDRwUFlrMU5oVDdRN1VCbWdKY21VNXBwT01PS1lPSmNCalFjVk1aR21tVUdxY25qX3NmTm53RFJ2T25PNUk0amhnRHkwbkVlUEZDbl90YXlJR0lWUUZkdEtkczlxRmlFRjdoLWFlUjBfY3BaekNqdHRld1cwOG1xWmtMYXlCS0RIWDhsSGtDRmxHVVRxbld3YXljVlBrQjMtd2E2NkYxTlXSAbQCQVVfeXFMTmFqajlqVlNRdlpZWjNUSUJnSGJ1eFpTbFZ0MGpZNlAwSnV6SDlLYnpya1pvVE4td25TTWVEMTdwb2RPQzI0NVlBVXRGZHBiazhFT1dGVXBLLUl4UGtINlpzcHl2THJXNVlqV0dyOGFfRlZzRVluZnJLaE92UGczZU04TWpEaFc5VFVlcW1PSGx4LVZpRFZlUkRDdEhsa0VuS21MZUNvb09TNjFtbXhtTUgzd0hDTzFwS3ZxeHI5SHl6ZVRRdmh6RjE4aUNfTHgzYjh4Zi1URTRENTNaV1k2OGk5dHAyeG9mSjRvUGtLTW9UaGRWMC1GemZPWE9NNEczZ28zUmxmVTFUZDVGTy1RRzdOMVRHYTVpYU13aTJRWEltdE1HY3JCX3YyNjVnYjF4cURDWnM?oc=5"
-    },
-    {
       "name": "Larry Ellison",
       "role": "Chairman and CTO",
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-10-03",
-      "published": "Fri, 02 Oct 2026 18:30:00 GMT",
-      "source_name": "therealdeal.com",
+      "published": "Fri, 02 Oct 2026 19:25:00 GMT",
+      "source_name": "WSJ",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Larry Ellison’s North Palm Beach estate hits the market for record $165M - therealdeal.com",
+          "t": "Headline signal (not a direct quote): Oracle Billionaire Larry Ellison Is Buying Up the Neighborhood - WSJ",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOam5GU294Z0FTcDFtZFpLVGpRbmR0RFd1WFR3NDd6ZFg5SC1XQ3JmTkp6cG5PbnpUdWFnazFjTjQ3aXdfRGxEM0I2SDlTdkZJQjg1M29KYnoxR2RoVlhKbHNQbEFCWG56U2FtUHROcmZSMUJrRFBEWkpPLUtFdFdzdXpzNlFrbzhkTE1PMWJkOWZsRHVOLURVa0tEajk3WkhxZHR3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnhIQ21JLWk2eWNtYTZ6V0N2MlNXTkhQUjdXcXFVZ1JrY1lwcnhYVmtUS0VBa3d2aWprbE84Mmc0N2k3N3dMcTE0UlFxampoYXlSV25SRHJQdWM4RjJORjB1eGZTdzI1LWRYRHMtVmFuenVZWVdUbTJhS2lTRmlNbzUtM3JvNlU2M19BVmN1MjR3UkN0eTdzT3Y1YzVBNnAtMFBWc1hIbDc0elVBSTQ5am14QUp6M00?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -204,7 +161,7 @@
       "cat": "Investor",
       "date": "2026-10-02",
       "published": "Fri, 02 Oct 2026 17:35:36 GMT",
-      "source_name": "benzinga.com",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -212,7 +169,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Is Buying Rocket Lab Again: 3 ARK ETFs Betting on Neutron - ARK Space & Defense Innovation ET - benzinga.com",
+          "t": "Headline signal (not a direct quote): Cathie Wood Is Buying Rocket Lab Again: 3 ARK ETFs Betting on Neutron - ARK Space & Defense Innovation ET - Benzinga",
           "k": true
         }
       ],
@@ -224,20 +181,20 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 12:16:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Fri, 02 Oct 2026 13:13:28 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer urges buying Apple stock before foldable iPhone launch - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Friday - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ0hqZEV0YTItN1BxWC1Kc2tOOFNINmItdnVEQm1DS2RsaEdtRUNneXllclFvUnJleUhCQXVXcmlHMXllVXN4SWhoc2p1QlhzN1hVaVI3QVBWdjR0V3p3UmRqeXAwVHNVRnEtekhuNVV3M1cwdU5Pb01qQmZIczhTdzBMckVHZm5MTS1Td2hScTFkRHcxZDRlQXBR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbE9FbnJVV25ObVBpOHhUSW1pT09taF9vbmpFVlVOekdmM2tVLW5MdC1jOXJfd2xCUGd1WVZsNkRoSUh0Y0szUnJUckpaM2dwNEZyMHc0emljY0RYajlRVHZ2QlNfWFNtaU9wM3R5elktUUVNOEhGRnk3cjF3OXJxdXU4MnhBVE9BSjc0S2o1WU5CNmVYdkpsSlRYbjdqOTg?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -264,7 +221,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 12,
+  "fresh_signal_count": 10,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
