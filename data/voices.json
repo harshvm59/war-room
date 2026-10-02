@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-02T15:29:28.360949+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-10-03T00:09:40.976669+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-10-01",
-      "published": "Thu, 01 Oct 2026 13:30:03 GMT",
-      "source_name": "Barchart.com",
+      "date": "2026-10-02",
+      "published": "Fri, 02 Oct 2026 16:00:35 GMT",
+      "source_name": "Forbes",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -18,11 +18,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): ‘Nvidia to Sell Twice as Many Chips as This Next Year’: But Jensen Huang’s Comments Ignore the Market Share Question - Barchart.com",
+          "t": "Headline signal (not a direct quote): Jensen Huang’s Fortune Breaks $200 Billion As Nvidia Stock Reaches Record High - Forbes",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNdTZSR014YnpnSlJseWVTbXVEcDAweFdBNGpqUVd4UEx2WmF0TWV0Q0tqV2NVTjRMakRHZjY3TFBjQTYxRkxid2tFTDFVa0E2MXV4aEVOQ3BzUmUwQ1dZMEFJTWw0Q051bERXT3lhMUNBbEJ1R09zVUxsenV2YkVPdkVxMXRuNFVTNnJBeW9CTXlyc1REbk9YRDV4R0ZOSUw3R3NJVE83Sk56R1EzQWFxaTBlUXJqekMtcnRXOHBBSjNWQkFpQjN0MjVkMEtwQlNuVE5JTnRSY19wZXFSTnMzZUlpNlZueTh5eXc1VA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQkVJaTNnN3Y1ckE1N0I5ZTlSLVc3VzJnMHJBZ3YtOXpLS0w4SnhSZ1ZMNWZPOHFJbjljdVM0cEpQLWJlaWNNNUViTVdJb1lMc3FmWVZqeEtBV0F1aGNfTko1SkRCNkpBY0lQd3hja1F5dU9ETW9MZUtRRW9EVHNjQk9Oem1DeHlvc2dZYkctNHotWHF0elR3YkgzZEtyNVNWZzJwZElRWl9HVHd0OVA2TVBmYnYwbElQQjRiOUxYNUVieFdiRGxsQQ?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,7 +30,7 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 01:47:20 GMT",
+      "published": "Fri, 02 Oct 2026 11:21:38 GMT",
       "source_name": "ABC News - Breaking News, Latest News and Videos",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -50,21 +50,22 @@
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-10-01",
-      "published": "Thu, 01 Oct 2026 14:54:35 GMT",
-      "source_name": "Benzinga",
+      "date": "2026-10-02",
+      "published": "Thu, 01 Oct 2026 20:21:03 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "themes": [
-        "#AI"
+        "#AI",
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Names 3 Under the Radar AI Stocks: ‘Starting to Get a Renaissance of Growth’ - Benzinga",
+          "t": "Headline signal (not a direct quote): Dan Ives Says NVDA's Recent Underperformance Is A Bump Than Anything Else — 'There's One Chip In The World Fueling The AI Revolution' - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaU5rZTVPdW95RXZsOVVLczRkOUNUTDNZeTdwWjZudzlYWGlXek1MUGJSS0l6TTVteEc2WXFac3lkV1I3S3NMdml5S2M5MUNrTWJDUUVjLUNIX0tTT2FsX0ZkWEJ5RUFPZnU2cHNUMkphVF9tRFNDeHRYbWM2cDFIc2xGRU9UVF9na2tHMV9QVnA1Q2NWTzZNU1g5bGxwVVc1TWhTejB0V19HZkt1R3oxMXhMdXNjUE9RejBMaUg1NEs1ckEyalgtcHRuZ3BwcGZaeVFxaHV1bFBheXJPUFpXWg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUU5ObnlHeHY0N0VIc3ZvalRIazROX28yTGZVZ1MzYXlkUFpaSjNjUFhKc2hZMzNNUC04RktraHpBRnVVNkQtNjFwQUQ1S0JQcmpFOUpGdHZkaE1TXzRFMU5QNDdZVVdWY2RKRjV1YnNyUk42UmdmeHFNalVMakpyS3M4azdhSE1Cb296eXZnSndMZXFqSXU0WlRRNldzWTJvUUhobWIzNXU2cVpjNDB6UURWVDgtU3YxcFNmbklNR0huSkFKcklqcFp3?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -137,21 +138,21 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-10-02",
-      "published": "Thu, 01 Oct 2026 22:00:10 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Fri, 02 Oct 2026 14:28:00 GMT",
+      "source_name": "Barron's",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg's Muse Could Charge You for Saving You Money — META President Reveals AI Agent's Potential Monetization Model - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Meta CEO Zuckerberg Unloads $21.3 Million of Stock in First Sale of the Year - Barron's",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLVA4c2JUc3NoLXNzcUlELVp4V1IzTlQxOWg4dFNSY1pwd201QXVTc0lTd1laTFRadV9ObTIxZnZ4OGhBblpSWkxGOWoyZ1IxWG1FclNubGJaVlE4ZjNyVjZPS0tZUFBiWHY0Zk8xTk9rWDJvcWs5eWRQQ2lYRldqeGdNV0ZnSzN3N1FTU1BMMzdBamRzZTVNeWNuSmFEczg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TWkFQQWdiVEQtTDBxSk5sSy1xaFloNjdFN3RwRnE1SmpLUGNmM0RTcF9MNkpxX1lxcW43dWN3VXlRZERhV1loVEhqa2hfQl9fVDVwTkhWLVg1b0IySDRuSmxLeWptU29SQlYyNnd5clFuRkZfeEZHZHZXbFc?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -176,47 +177,25 @@
       "src": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNU3I2cHVXdGtiSW1DdFE3YWtqUC1zQklDNlR5NHBEaGpKSldpb01rbnRmd0NDMzRmTjBWU3BEMkZldWE2T0NtbWdzQ0g5Ym5XdnRGbFRvWXh4a29DRGNOeWdPQzBUQjF4Z1JpTnpiclZQMUlBRnp3ZXFyRHFhaEQ2eEl4WldYWWt5XzMyYzZKaDRwUFlrMU5oVDdRN1VCbWdKY21VNXBwT01PS1lPSmNCalFjVk1aR21tVUdxY25qX3NmTm53RFJ2T25PNUk0amhnRHkwbkVlUEZDbl90YXlJR0lWUUZkdEtkczlxRmlFRjdoLWFlUjBfY3BaekNqdHRld1cwOG1xWmtMYXlCS0RIWDhsSGtDRmxHVVRxbld3YXljVlBrQjMtd2E2NkYxTlXSAbQCQVVfeXFMTmFqajlqVlNRdlpZWjNUSUJnSGJ1eFpTbFZ0MGpZNlAwSnV6SDlLYnpya1pvVE4td25TTWVEMTdwb2RPQzI0NVlBVXRGZHBiazhFT1dGVXBLLUl4UGtINlpzcHl2THJXNVlqV0dyOGFfRlZzRVluZnJLaE92UGczZU04TWpEaFc5VFVlcW1PSGx4LVZpRFZlUkRDdEhsa0VuS21MZUNvb09TNjFtbXhtTUgzd0hDTzFwS3ZxeHI5SHl6ZVRRdmh6RjE4aUNfTHgzYjh4Zi1URTRENTNaV1k2OGk5dHAyeG9mSjRvUGtLTW9UaGRWMC1GemZPWE9NNEczZ28zUmxmVTFUZDVGTy1RRzdOMVRHYTVpYU13aTJRWEltdE1HY3JCX3YyNjVnYjF4cURDWnM?oc=5"
     },
     {
-      "name": "Sanjay Mehrotra",
-      "role": "CEO",
-      "org": "Micron",
-      "cat": "CEO",
-      "date": "2026-10-01",
-      "published": "Thu, 01 Oct 2026 13:33:32 GMT",
-      "source_name": "CNBC",
-      "signal_type": "source-linked headline",
-      "relevance_score": 13,
-      "themes": [
-        "#AI",
-        "#MU"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Watch CNBC's full interview with Micron CEO Sanjay Mehrotra - CNBC",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQXdRYno0blJ6WVdncmR3OTctYkpUSmxjVzlaNEZHVXByV3R1Mk12RWZseDJUbkg4Ync1UmhVLWtxRGJUdnRaWXNPRkNOYVBCb0dHZW5SdmVBYm52SEZhSHBra3Rac196M0dmYmx0cHdLTnZqY2cxQjRfaDRPM1JkSkdvdVV0MDNVZ1FseF9Jb2ZsdHF1ZkZhaVhscEpRMU5WY1Jr?oc=5"
-    },
-    {
       "name": "Larry Ellison",
       "role": "Chairman and CTO",
       "org": "Oracle",
       "cat": "CEO",
-      "date": "2026-10-01",
-      "published": "Thu, 01 Oct 2026 11:00:00 GMT",
-      "source_name": "Vanity Fair",
+      "date": "2026-10-03",
+      "published": "Fri, 02 Oct 2026 18:30:00 GMT",
+      "source_name": "therealdeal.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Inside Larry Ellison's Wide Web of Power, Money and Politics, As Oracle's Data Centers Claim Force Majeure - Vanity Fair",
+          "t": "Headline signal (not a direct quote): Larry Ellison’s North Palm Beach estate hits the market for record $165M - therealdeal.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1rMXpaMW81YjNxQUdvd0RDaklJR0JRQVlNZm1ZZXZyVi1RQWFFNFZvdGZ0VklpV0ZuejZiYUo5WkI2bFEyYmlGd1pkZWFiTnc0OE1MeGVjX0FKMmlLZ3dta2RPbGE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOam5GU294Z0FTcDFtZFpLVGpRbmR0RFd1WFR3NDd6ZFg5SC1XQ3JmTkp6cG5PbnpUdWFnazFjTjQ3aXdfRGxEM0I2SDlTdkZJQjg1M29KYnoxR2RoVlhKbHNQbEFCWG56U2FtUHROcmZSMUJrRFBEWkpPLUtFdFdzdXpzNlFrbzhkTE1PMWJkOWZsRHVOLURVa0tEajk3WkhxZHR3?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -224,21 +203,20 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 01:41:13 GMT",
-      "source_name": "Benzinga",
+      "published": "Fri, 02 Oct 2026 17:35:36 GMT",
+      "source_name": "benzinga.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#PLTR"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Peter Thiel Says US AI Demand Is Booming, but Cathie Wood Is Trimming Palantir: Here's How Much Ark Invest Sold - Benzinga",
+          "t": "Headline signal (not a direct quote): Cathie Wood Is Buying Rocket Lab Again: 3 ARK ETFs Betting on Neutron - ARK Space & Defense Innovation ET - benzinga.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSWR5TDNxamNULThGbnAxVmthTnVnclA0ZHIyUTRmaDcwY3dmRkhBZEZsaV9GV19VT0VPU0Z2SmNlSG05NjhjUnZsMkxnQ2dHVkREYVotaXNFemhpWlZZXzhUVjdHaGpHbXA0RWVXWElQdnhPZTh4UVlvVTZvWnFFaDNqM1Y2bGJrY3FyTXVFVGtkeldfQVNfdGVhU2tSRTFuMno4OXlOZTVEaV83MktaVjhvX3BjVHFSbFVQcnhzSFZ6cmM?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOODcyM1pHRi15QWVJZ1VjSFF6LUVyXy1Zc2dtR3MtOXM4OF95MW94LUQteF9XNFdGX3AtZWRwczdQN2thTTJuZzl2el9LRXhRMmNBa1RtUW85THdWVFF0UENSalNuVldVV1FGcmNaTVJfUEdxQmxvQ29fRFZ4S0s3NnE4UEZsc0NNcXJ0WjZJcXhnQWI3clJCcnV4RHlFSThmOEZXeFg4eDAwV2EzSFoxbUFkSk1HTGxuVkpFbEYxZHpJNG56QUdjSGZ3?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -246,7 +224,7 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 05:45:00 GMT",
+      "published": "Fri, 02 Oct 2026 12:16:00 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -255,11 +233,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Your Stocks Could Feel the Fed's Rate Hike Next, Jim Cramer Warns - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer urges buying Apple stock before foldable iPhone launch - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONVhYSnUyV3VGamYzdUtaemstczdpZDN2NzBWZGlMRkZucXVoOW84OE5DLUtKZTFUNF8zM2d5QklCTEFFbExZSDJwTlVySTZZX1QxZ3BLM3o1UWd0OXo5QVRpeVEwVVl4c0J3Ql90MDdsWFhlVFBGNGplQWVpYnJYeTc5Ql82XzhQYXBMMFRzUTlxRE9HVkxF?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ0hqZEV0YTItN1BxWC1Kc2tOOFNINmItdnVEQm1DS2RsaEdtRUNneXllclFvUnJleUhCQXVXcmlHMXllVXN4SWhoc2p1QlhzN1hVaVI3QVBWdjR0V3p3UmRqeXAwVHNVRnEtekhuNVV3M1cwdU5Pb01qQmZIczhTdzBMckVHZm5MTS1Td2hScTFkRHcxZDRlQXBR?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -267,29 +245,26 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-10-02",
-      "published": "Thu, 01 Oct 2026 22:21:39 GMT",
-      "source_name": "Stocktwits",
+      "published": "Fri, 02 Oct 2026 14:40:12 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 14,
       "themes": [
         "#AI",
-        "#META"
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Gene Munster Says Personalized AI Could Be Apple, Meta’s Next Big Profit Machine — 'Numbers So Large They’re Hard To Believe' - Stocktwits",
+          "t": "Headline signal (not a direct quote): Tesla Q3 Deliveries Beat Street Estimate, Gene Munster Says ‘EV Winter’ Is Thawing — Sees 15% Growth In Full Year 2027 - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0NaZkpHSVVFcFhrbWlxTlFqOWJvVkRlTU1RY1ZqZVgxM3lZTHM0MkRpd1daaUtVOTFUTlZiRk9JRjk2amRqTFFWSlBTR3Njd2RmbEVGbFlSVlNvb1lOSTRvOFdDbHowQ01BZGxxaVU5VFJTZzh2RVV6NWRaR1pKRnlteUtyOGZUWFBxZUxEZUEzemRoX2FxamNZcE1nZGNCbWFSZFR2QkNpYjlvTHlKMFRaRkp0dFpBLVNkSENzZ2ItR1NaNmpfWGpJZEdNRFdJ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcWZDQURGMXpwUTV5dG9MQW5xWS1DdTlzdGVFZFUzeXYyUG0zU1h5REFOa3ZxbzVEYnRfVUZsWG1lUE5abVVOTzRDWjVyc0FDWW50TmI2dGExMFFsay1YVGRlTDBCamszcGNOQ2lreTFDY3NBVzNVZFBmazBSU1hGQ2JBSl85UEFGU2hoeHRqRzY1M2J1MThnV2V4SEc?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 13,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }

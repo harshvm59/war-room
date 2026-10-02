@@ -1,83 +1,35 @@
 {
-  "updated_at": "2026-10-02T15:29:28.361437+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-10-03T00:09:40.977136+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "AI",
-      "headline": "Best AI Stocks to Buy in 2026: 10 Top Picks & How to Invest - The Motley Fool",
+      "ticker": "NVDA",
+      "headline": "US stocks rise near their record after the latest jobs report eases worries about inflation",
       "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 05:10:00 GMT",
-      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcTN4SWRQbVZpY1lwSnJjN3YxWmY5LU5Qck5ia2psWWRwcWplZ0RGTFo3ZmJrZDZ1S1RQZFF2NUcwOTh0NXA3NlM0a25ieHhPWHprdTBmbWxzY2FtdHRIMlpSY1pzcTU5ZkhfN0wtcF9UeDg4WnZVYTZPSkRtcDNZaUJ1djdPQ1RVRkVQeVFUTnJrMFJ5VXdj?oc=5"
+      "published": "2026-10-02T04:53:48Z",
+      "summary": "U.S. stocks moved near record levels after a jobs report eased inflation concerns, while Nvidia and other AI-linked shares supported the market.",
+      "tag": "AI stocks / macro",
+      "url": "https://apnews.com/article/a2b99562febc21d84955e243c87f5d31"
     },
     {
       "ticker": "NVDA",
-      "headline": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "headline": "Nvidia is selling a fix for rogue AI agents",
       "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 07:43:54 GMT",
-      "summary": "Automated RSS market signal from Yahoo! Finance Canada. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5"
+      "published": "2026-10-02T07:30:00-04:00",
+      "summary": "Nvidia introduced the Open Agent Safety Platform, including software access controls and a hardware watchdog running on BlueField chips. Anthropic, Salesforce and JPMorgan are among organizations collaborating on the open-source safety effort.",
+      "tag": "AI infrastructure / cybersecurity",
+      "url": "https://www.fool.com/investing/breakfast-news/2026/10/02/breakfast-news-week-in-review/"
     },
     {
-      "ticker": "AMZN",
-      "headline": "AMZN Inches Higher Premarket: Amazon Reportedly Seeks To Offload $8B Of Nvidia Chips To Investors - Stocktwits",
+      "ticker": "META",
+      "headline": "Wall Street just launched an ETF for large language models. Here’s what’s inside",
       "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 08:59:07 GMT",
-      "summary": "Automated RSS market signal from Stocktwits. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNbFpRaGVUZy1IcHF2QkRMc2JraTJuXzRLak5HaWY5bjFPdDY3aEVqSjc1cmRLTFVtOUZ3U0pwVFlYbmVEX2tJZjVZZGQ5NmF1eWx5QUg3a3hsS05DTTJReFB3cDFOQmtjc2ZKcm13MDNEMmlsNEduX2pzUXR0OU1IVGk0M3EzVkhOWWxXMm5hUGc2OHp2RkQxc2t1VlQ0aTJkOUJPSFpPdElydzJrUGI5X1BJQ1YzZHlBelBvRzhLSktEdGFnZllQT01ZWVBCbTIwX3BMYXNBT1BRLUxaWmtXdTdPUWZMY2REamhWQTZBbnVJZw?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Got $1,000? 2 Growth Stocks Building the Software Backbone of Artificial Intelligence. - The Globe and Mail",
-      "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 09:16:55 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbzV4YUZwUE4yLTJFZGdNd0dwcjNjdHRGRVhmc2x3MUFzQVpHZDJnUUhVdE05QjVHXzU0YjVHMlF3WkwycG0xQk5fY05MMWt3UG83LW90TjZDbWcwTlFlbldnMm9mTUFjc0FEbzlsWUxWcUoyZklwTE84TmRkekJXTjNhWjlEY2VYeE9qVDIycktKclRaQS1sV2hRcDRTX2Y2ekEtZkQxcWdQTEdKTkU4bXlYRkxMV2NkaDFWYzVVZUhHM2NyeGRkMHRpVV8zRUxtNXJtRzR3ZWRlUUljMTRyOVEyb2FNdTlNMFFVZUJCanZtWExq?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Trump discloses 21,000 securities trades during first year in office - ABC News - Breaking News, Latest News and Videos",
-      "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 02:10:04 GMT",
-      "summary": "Automated RSS market signal from ABC News - Breaking News, Latest News and Videos. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRXRKN3Z0andHTXp5WjRNQ2xkUjcxS2tCeHpfdG9EeFRpaGM1Q2IxZFM4akNkQm5IZkt6NnEwRFNsNUQ2VUpYaXdaQW5LZEFsNC1OcHhKNWczS0QxSDZ6RE9qbGFieUdvaHpsNldGczhQa1hTQjF2aGZiSl9wcUhlaENId0I5VWx1cGJFZ1NCM0IyY2M2LWtKRkVDX3I4WDYz0gGmAUFVX3lxTE9Dc2ZEcnpkNmxPUVphbjRJcnBpaGNsM0EyVXlsQTFwdmg3TWZXekcxSUR0cGp3RWttdU5NMkRFVkZlV280MHV1V0RQOWtrTzlLQTlRQkE5eGpXaF9Yajh2NC1ITkdqSmhYcFY2ZFlLeE9nTjFKWUdKaG12WDlVTzl3VWIxeTdJRldpOFpsbEdXM29abG1KejFLLWdnWVBBVEtXSHdtU2c?oc=5"
-    },
-    {
-      "ticker": "MSFT",
-      "headline": "Wall Street Sees 40% Upside For Microsoft as AI Monetization Finally Pays Off - 24/7 Wall St.",
-      "date": "2026-10-01",
-      "published": "Thu, 01 Oct 2026 15:15:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzFRYmN2ME1NSlhrM0VaRl9xTE5fcGZqeDJtdFF4R0hqT21RNlpnTjRXUzRpQUtIektNLUZmNldrdE5KdG5pQm9VV295OHpoZ3NRUlRtTUNNT0d6QVNYZXhRdHUySG1rZThkSWQ4cUM0cWZlZ1ozUUJ6V1VOZGNNcEJXNklVQlh0T2QyanJhVFh1ZFp0TE5pRl9mN0pJbDNhYUVlNFluMmV1VndEOHBrUW5xcDVsblpSMlBoTw?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Software Stocks Surge Back as AI Sell-Off Reverses in Q3 - The Tech Buzz",
-      "date": "2026-10-02",
-      "published": "Thu, 01 Oct 2026 22:37:00 GMT",
-      "summary": "Automated RSS market signal from The Tech Buzz. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbTlpa3RoTWJuckp2cW1xT2JsX0xHU3hGMXZsaEM0MldGTjZnX2ZyT1BZRXNEeWxSeUltQ1lCOGotMy1id3BWVUpqdXdyQmliVVdxd3dCSXBMUnRzZTJBOUJkMFppUzB6Ml9nSU16MDBUcUlfWWlScjdWakh2djhxclZlQkZKbjlHOU5wek93aXdsWXc?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "President Donald Trump's Investment Team Sold Up to $25 Million in 2 Foundational AI Stocks in July - The Globe and Mail",
-      "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 08:39:40 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPWDhKWGZOdjk1V0RwaWdfWFNfZGt3bHgwOGZTNWVxeklZenJiZzRZSjdOOXFtMkptMlhJcHFBbzJ2MWJxZnIxQjlSNXR4cUhrazdBaVBvVFFQZmd1QTZLOEcyQlVoSnJEM2dibzRBdGJweGxnRFVsS3RfZVJMWHBWZ3NKOExmNkphREhhNUFMTkw5eTk3bnJmQ0k5WWh1QVFUMjhNUVNlN19ENW1DaW5qTW1nVjQ4QXctaVZuaTNQS1hLaEhfTWhRU0VOa2tLZkFLb2FNZy1kOTBFMjF2M3kwZFpjWUJHQmlIT1Q4UGRRUmlrSzMzbGpOTGRXbmlJT3UzM3FYRDVzQW4?oc=5"
+      "published": "2026-10-02T10:47:00-04:00",
+      "summary": "Global X launched the LLMA ETF, which holds Meta, SpaceX and Alphabet among its largest positions and has no direct ownership of OpenAI or Anthropic because they remain private. The article highlights the fund’s concentration and exposure to Hong Kong-listed AI companies.",
+      "tag": "AI ETF / portfolio construction",
+      "url": "https://247wallst.com/investing/2026/10/02/wall-street-just-launched-an-etf-for-large-language-models-heres-whats-inside/"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
