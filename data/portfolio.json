@@ -213,8 +213,8 @@
     {
       "ticker": "CEG",
       "name": "Constellation Energy",
-      "units": 4.9640066,
-      "avg_cost": 257.09,
+      "units": 5.0417634,
+      "avg_cost": 256.7,
       "theme": "AI Energy",
       "priority": "P0",
       "target_value": {
@@ -263,23 +263,23 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-10-02T15:42:07.631Z",
-    "broker_synced_at_ist": "2 Oct 2026, 9:12 pm",
+    "broker_synced_at": "2026-10-02T17:37:55.334Z",
+    "broker_synced_at_ist": "2 Oct 2026, 11:07 pm",
     "usd_inr": 96.32,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
         "name": "SK hynix Inc. (ADR)",
         "units": 2.0331205,
-        "current_value_usd": 392.41
+        "current_value_usd": 392.84
       },
       {
         "name": "SpaceX",
         "units": 1.2392871,
-        "current_value_usd": 194.76
+        "current_value_usd": 195.38
       }
     ],
-    "usd_wallet": 12.34,
-    "broker_account_value_usd": 119035.14
+    "usd_wallet": 14.85,
+    "broker_account_value_usd": 118692.49
   }
 }
