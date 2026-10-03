@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T02:55:37.932069+05:30",
+  "updated_at": "2026-10-03T14:52:21.494910+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -7,31 +7,31 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 16:00:35 GMT",
-      "source_name": "Forbes",
+      "date": "2026-10-03",
+      "published": "Fri, 02 Oct 2026 21:30:19 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang’s Fortune Breaks $200 Billion As Nvidia Stock Reaches Record High - Forbes",
+          "t": "Headline signal (not a direct quote): Nvidia's Jensen Huang, Other CEOs Privately Confront Anthropic's Dario Amodei Over AI Doomsday Warnings Amid Trump's Tech Summit: Report - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQkVJaTNnN3Y1ckE1N0I5ZTlSLVc3VzJnMHJBZ3YtOXpLS0w4SnhSZ1ZMNWZPOHFJbjljdVM0cEpQLWJlaWNNNUViTVdJb1lMc3FmWVZqeEtBV0F1aGNfTko1SkRCNkpBY0lQd3hja1F5dU9ETW9MZUtRRW9EVHNjQk9Oem1DeHlvc2dZYkctNHotWHF0elR3YkgzZEtyNVNWZzJwZElRWl9HVHd0OVA2TVBmYnYwbElQQjRiOUxYNUVieFdiRGxsQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVm1HckNWcGppajhJRHZBMjRwTk8yRVB1QnZnUm1XTXZpUW9TWDNRWWJWcTYzWElTWjIybWNzWWlseWZoekQxSVl4QlRxcE1zTWpSdEs2aldnTnMySVBHMGJyal8yRjVxSjM1bVR1cF9fQWpoTnRpT09uTUJZa29sMDQ5NTR3a1EtVktqdmhocHBuWUp5S09QaUxSQQ?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 11:21:38 GMT",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "date": "2026-10-03",
+      "published": "Fri, 02 Oct 2026 21:37:00 GMT",
+      "source_name": "thestreet.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman's home struck by gunfire, days after Molotov cocktail attack: Police - ABC News - Breaking News, Latest News and Videos",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman hints at when it could hit the stock market - thestreet.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYlk3cFJkWnNMMHloVFZSQ2pIelpHUWxJbndOeWdiUVcxdXBncjcxdmU3cEUtczJBSV82MUc0LTFRdkJ4NmZpZmZUMUdmU1NJc3hMSlRUSU43RW5VN1pjVzJqSm83OWZiakt4TTQ0bHgwR0hYVkJUaTB1QUlnRUxFQzB1YngzOVoxS0pOYkFzUHpHQVFvcHN1SjFVONIBoAFBVV95cUxOSmg3TE42d3BRemlRWXU4al9ZU0p5eEtCeE4yNzNiaE1oTDB5MHZBMDVDNTUxUjl0dzdma2VWcDkyTUNMRnJoNlJobXNLU0t6NUdXbXNkMWdUa2NDUk4xZ2loSjY2TURtTXkxMTNtd3ptU1VUemYyVG93QWt1ZkNvdEp1aDQ4UVY5RDRwUXRSRGZsdmNJalpyeHVBRkxpbW1v?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNalNoZ3p2NndOcGxobW1DeWdvcjNOa2Nqc0hoNVQ1ZWhJVVFHc3RHVHJ0YUNYZUNmYVEzeVlZSzd4N05BS0NoN01Tbk1TZlBITmFXeXNZc0pXZ05TWWEtZjVwcVZxdE12c1FWenV1TXRtaHlHREFkZE9FOEhXZFRiUlRJc3V6Nzg3ekswNzB2YWI1dw?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -51,8 +51,8 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-10-03",
-      "published": "Fri, 02 Oct 2026 19:34:16 GMT",
-      "source_name": "CNBC",
+      "published": "Sat, 03 Oct 2026 07:09:41 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -61,42 +61,20 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives on Tesla stocks: A big step in the right direction - CNBC",
+          "t": "Headline signal (not a direct quote): Dan Ives Says Tesla Could Have A ‘Golden Year’ In 2027 — Robotaxis, Optimus And Cybercab In Focus - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2JEZFBJb1hLT3o1d0VBTDVCMWZVbjFtQl90TklrQXBZSVplR1l2ekppX1psSWdYQXVUTTZ4Sk9INGsyNEtrQm9aMlRpMmsyQUdwMUxBUElycHdDcEhmNjFUckxKRFFtazlYNE1KQjc0WTU1OVZIdmx4RFpHNEI2RmFjT2tsSUpqZW5jbEdOWjQ0Ylp2TENrZHlfOUFiTjhiRDJJ?oc=5"
-    },
-    {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "AMD",
-      "cat": "CEO",
-      "date": "2026-10-02",
-      "published": "Thu, 01 Oct 2026 23:48:58 GMT",
-      "source_name": "digitimes",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Commentary: AMD challenges Nvidia in embodied AI as Lisa Su acquires Fei-Fei Li's World Labs - digitimes",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONDdKRGRfa0h2bGRmSzhVNVZ3OUNHMUk4V1BETDZDUG9GdmlURXNPSUtsczRSNVktMUg1M29pcjlNel9KaVlUYlRFX1NCT3JRWXJ1YVdDaWpOOUtoeDUwTVZlYzRFS0hfOEZFaTVQMC1hZEsxV1VjNlk2NXFrdjE2ekxUMmQ2bk0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUlZRb25FY01FcUE1QkFXODJ2cTFMMy1WaFVOQmxyWlpoY01XSWg2bU9UdmYzUjBkX0hqOXRjUDNqMmxpUUtiQW1HY2FfZkJDSjZ0ckpZWVhPenBtTnhkNWVHbC1XX1oxZkpJQ1JoSTBwWHJZR3Ridm4xZmhSTlpUbFpzNDhDNjRWemRnNUhQWEFoM05r?oc=5"
     },
     {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 10:37:01 GMT",
-      "source_name": "The Crypto Times",
+      "date": "2026-10-03",
+      "published": "Sat, 03 Oct 2026 04:31:36 GMT",
+      "source_name": "livemint.com",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
       "themes": [
@@ -105,11 +83,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk’s Tesla and SpaceX Still Hold Over 30,000 Bitcoin: Why Is He Not Selling? - The Crypto Times",
+          "t": "Headline signal (not a direct quote): Shivon Zilis confirms split with Elon Musk: Who is the Neuralink executive and business confidante of the Tesla boss? - livemint.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRDM0eTlLczAyN3MwRXR6bmktNFJ2QjZUbXFEZG5JN0FUN01JQkVkUzBTMWVnUi1icDJpVU1MMlJXQ2RBUDlhTFdhcHF6VmJCZkVQNkpOdUlGemFiUlc4SlRKMks5LVFjQklRYTNqal9IcVRaMWxVTEVqVE4wZUFaM0lDU3BleG9NOHJnQWhnbTRJaVNjdXlES3V3SG51elZPZzRuLUdhU3pwdXBQc25yekxsa0J3VVZQREE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPNUUtempjTzBjOFJia2FJbFB2dUp1NEdQVTFmZEsyUUtqS3dDVVFOWmtYdVhkMGUxNFpEdFg4aEtaVWh2bjFyOE9BTHVDTm1QOWxEdm9iUFYtX1BIRXd2X25WaUROR3lDdmpmUWVaVWxlRnBZc3hIc2ltYkZSalVDQ01sVDRTTWRrS2lIbFIxcEhOMF9tZXZNVWp6QzJ6N3Z0THFrZGpqWFdMay1DQU14V3Ffa09NTjdPSnZrV1BrVEhzS1J0bUtYeDlKSUZqVVQ0ZGpSanhwVHhIdzlNMU5UdVVRSk9weWJQVzAtb0hESXYxb2dHN1puNXhjTjhUUXFvLW1z0gGIAkFVX3lxTE1maGpLajFPRlhjcHp0R0wwd0tXWGtWS2ktVmRBTjVUckpmOVhKZ3FFRWQ5TExndWxxa2NPUjJVdWF6QVdRMmhUbmFTZHB4SUMyZmtjdzRXdjlTd2c5eU13WUNTRF94eHNNZlBSaUdGVnkweDVOMzVqcE5mMkctam50YlRGWmgtVXFiVEoxTEhwWEhxeUg5VURKTDFWNXpyQW1GYjYxRVRndlZyLVdVYjRiWG9YWmtLSVhxRlF0REhHeUprOUtkYzF3WnZDdnd5Sm15c1dGdWVYOU9Icjc0bUJJZk95V2xRNEx3VFd3NjRVMktLdWd3czlPd0JrNFNfeG90cktFV0ZOaA?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -118,7 +96,7 @@
       "cat": "CEO",
       "date": "2026-10-02",
       "published": "Fri, 02 Oct 2026 14:28:00 GMT",
-      "source_name": "Barron's",
+      "source_name": "barrons.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -127,7 +105,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta CEO Zuckerberg Unloads $21.3 Million of Stock in First Sale of the Year - Barron's",
+          "t": "Headline signal (not a direct quote): Meta CEO Zuckerberg Unloads $21.3 Million of Stock in First Sale of the Year - barrons.com",
           "k": true
         }
       ],
@@ -180,21 +158,22 @@
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 13:13:28 GMT",
-      "source_name": "CNBC",
+      "date": "2026-10-03",
+      "published": "Sat, 03 Oct 2026 08:31:41 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
-        "#AI"
+        "#AI",
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Friday - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer Warns Q3 ‘Earnings Deluge’ May Not Be As Strong As Previous Quarter — ‘Much More Difficult Backdrop’ - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbE9FbnJVV25ObVBpOHhUSW1pT09taF9vbmpFVlVOekdmM2tVLW5MdC1jOXJfd2xCUGd1WVZsNkRoSUh0Y0szUnJUckpaM2dwNEZyMHc0emljY0RYajlRVHZ2QlNfWFNtaU9wM3R5elktUUVNOEhGRnk3cjF3OXJxdXU4MnhBVE9BSjc0S2o1WU5CNmVYdkpsSlRYbjdqOTg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc0RIdU45QmFkVjVWeGpQYWx4T0ZXYnpVZXdKTlh0ZEVpR2hlZGI3aG5RTkRaYl9IMU9kanFHTFJUSDg0dFk5bV9xMnBKa0NqeHJfSU9weVk2QXl4d2NfMVl0ajQxNW1kbFV0M1NWVWV5X0RGR3B1YlQyeGdveHplTFdkOWlBQS1iZDBYMlZyMGhRX2tuWHRsQg?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -217,6 +196,27 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcWZDQURGMXpwUTV5dG9MQW5xWS1DdTlzdGVFZFUzeXYyUG0zU1h5REFOa3ZxbzVEYnRfVUZsWG1lUE5abVVOTzRDWjVyc0FDWW50TmI2dGExMFFsay1YVGRlTDBCamszcGNOQ2lreTFDY3NBVzNVZFBmazBSU1hGQ2JBSl85UEFGU2hoeHRqRzY1M2J1MThnV2V4SEc?oc=5"
+    },
+    {
+      "name": "Dylan Patel",
+      "role": "Chief Analyst",
+      "org": "SemiAnalysis",
+      "cat": "Analyst",
+      "date": "2026-10-02",
+      "published": "Fri, 02 Oct 2026 17:08:00 GMT",
+      "source_name": "finance.biggo.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Dylan Patel: GPU Access for AI Startups Is the Hardest Ever as Inference Margins Hit 60% - finance.biggo.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhLTVmUXMySFhQdGlPUlhhX0RCOU4wNllhbWtteDJCUDg5RHE0ZERjTzdGTUdxTUc5YndOaUVSSjhkNDZLUm1jY082NE4yMFRUZEFvU1BXV0tvZW8?oc=5"
     }
   ],
   "monitored_leaders": 30,
