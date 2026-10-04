@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T06:46:51.490611+05:30",
+  "updated_at": "2026-10-04T07:15:24.571670+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -9,20 +9,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
-          "title": "NVIDIA Corporation Q2 Fiscal 2027 Form 10-Q",
-          "published": "2026-08-27",
-          "reporting_period": "Q2 fiscal 2027 ended July 26, 2026"
-        },
-        {
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
-          "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
-          "published": "2026-05-20",
-          "reporting_period": "Q1 fiscal 2027 ended April 26, 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -82,7 +69,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/0001628280-26-025362-index.htm",
+          "title": "Taiwan Semiconductor Manufacturing Company Limited Form 20-F",
+          "published": "2026-04-16",
+          "reporting_period": "Fiscal year ended 2025-12-31"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -144,10 +138,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://ir.tesla.com/",
-          "title": "Tesla Investor Relations",
-          "published": null,
-          "reporting_period": "2026 quarterly disclosure index"
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
+          "title": "Tesla Inc Form 10-Q",
+          "published": "2026-07-24",
+          "reporting_period": "Quarter and six months ended 2026-06-30"
         }
       ],
       "questions": {
@@ -211,10 +205,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
-          "title": "Meta Reports Second Quarter 2026 Results",
-          "published": "2026-07-29",
-          "reporting_period": "Q2 2026 ended June 30, 2026"
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/0001628280-26-050705-index.htm",
+          "title": "Meta Platforms Inc Form 10-Q",
+          "published": "2026-08-12",
+          "reporting_period": "Quarter ended 2026-06-30"
         }
       ],
       "questions": {
