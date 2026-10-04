@@ -1,83 +1,71 @@
 {
-  "updated_at": "2026-10-03T14:52:21.495302+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-10-04T15:31:07.563954+05:30",
+  "source": "openai+web_search",
   "items": [
     {
+      "ticker": "AVGO",
+      "headline": "Should You Forget Palantir and Buy These 2 Artificial Intelligence (AI) Stocks Instead?",
+      "date": "2026-10-03",
+      "published": "2026-10-03T11:19:00Z",
+      "summary": "The article identifies Broadcom as an AI semiconductor and networking beneficiary, citing more than triple year-over-year AI semiconductor revenue growth in the latest quarter and management expectations for faster growth ahead.",
+      "tag": "AI semiconductors",
+      "url": "https://www.aol.com/articles/forget-palantir-buy-2-artificial-111900000.html"
+    },
+    {
+      "ticker": "APLD",
+      "headline": "Should You Forget Palantir and Buy These 2 Artificial Intelligence (AI) Stocks Instead?",
+      "date": "2026-10-03",
+      "published": "2026-10-03T11:19:00Z",
+      "summary": "Applied Digital is presented as an AI-infrastructure play with a reported $36 billion contracted-capacity agreement with an investment-grade hyperscaler, providing substantial contracted-revenue visibility according to the article.",
+      "tag": "AI data centers",
+      "url": "https://www.aol.com/articles/forget-palantir-buy-2-artificial-111900000.html"
+    },
+    {
+      "ticker": "MU",
+      "headline": "Micron, Nike, Meta and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+      "date": "2026-10-03",
+      "published": "2026-10-03T08:30:00-04:00",
+      "summary": "Micron attracted investor attention after reporting record quarterly revenue of $54.23 billion and adjusted EPS of $33.42, while its high-bandwidth-memory shipments and AI-infrastructure role remained central to the discussion.",
+      "tag": "AI memory",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62151335/micron-nike-meta-and-more-5-stocks-investors-couldnt-stop-buzzing-about-this-week"
+    },
+    {
+      "ticker": "META",
+      "headline": "Micron, Nike, Meta and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+      "date": "2026-10-03",
+      "published": "2026-10-03T08:30:00-04:00",
+      "summary": "Meta was one of five stocks highlighted for strong retail-investor discussion during the week, with the article linking the interest to AI-infrastructure momentum and corporate news flow.",
+      "tag": "AI megacap",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62151335/micron-nike-meta-and-more-5-stocks-investors-couldnt-stop-buzzing-about-this-week"
+    },
+    {
+      "ticker": "AMD",
+      "headline": "Micron, Nike, Meta and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+      "date": "2026-10-03",
+      "published": "2026-10-03T08:30:00-04:00",
+      "summary": "Advanced Micro Devices was included among the stocks receiving notable retail-investor attention, in a week characterized by AI-infrastructure momentum and corporate news flow.",
+      "tag": "AI compute",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62151335/micron-nike-meta-and-more-5-stocks-investors-couldnt-stop-buzzing-about-this-week"
+    },
+    {
+      "ticker": "GOOGL",
+      "headline": "Micron, Nike, Meta and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+      "date": "2026-10-03",
+      "published": "2026-10-03T08:30:00-04:00",
+      "summary": "Alphabet was included among five stocks that retail investors discussed heavily during the week, with the report citing AI-infrastructure momentum and broader corporate news flow.",
+      "tag": "AI platform",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62151335/micron-nike-meta-and-more-5-stocks-investors-couldnt-stop-buzzing-about-this-week"
+    },
+    {
       "ticker": "NVDA",
-      "headline": "I Sold NVIDIA, Google and Microsoft Over a $2 Trillion AI Gap. Was I Wrong? - Yahoo Finance",
+      "headline": "Trump holds up to $9.5M in AI stocks while pushing communities to accept data centers",
       "date": "2026-10-03",
-      "published": "Fri, 02 Oct 2026 19:05:31 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY3ZCaFFsWFJ1dVREZl90NXRQYVlHR0hvZDltYVYxQkd5NmY1TEJSNm1hRkVGamFOdWkwbTZRb3JTUWVMcTl6Ny00ZHIxS1Vwa1lDblYtMlAwWkUzWjdMSUZFdlFOd0JFN3JKVk5RcGxMdmhxTTdUUVV3aE1sT250eExITTJhY1piaW1tUmk1dE5ETWlqWHozeU9zbkd5TlU?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "I Sold NVIDIA, Google and Microsoft Over a $2 Trillion AI Gap. Was I Wrong? - 24/7 Wall St.",
-      "date": "2026-10-03",
-      "published": "Fri, 02 Oct 2026 19:05:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQWNDWEgyV3NMNUoyRWlhS1d5aXczZ18wTUpndzNIY2pybzFIREdxbENQQ0tCUEgxaE1BekczTGI1RjVfcURUeVFpRlBlSnRfRVdQcVBCSldocGp2aE1RaWZQZGVuV3NkYXdxZVF5S1NWMWxKYV9SQzJUU1p3T0tMeDFUUzByLUJjX2tONGlPYWdieDB0ZGJSYTVwdFlJdTR5VXZYLUFEU1pSNXBuUXNLSHJ1MV9JUQ?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Got $1,000? 2 Growth Stocks Securing Every AI Data Center. - The Globe and Mail",
-      "date": "2026-10-03",
-      "published": "Sat, 03 Oct 2026 05:25:39 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOb1JtU0Z6d2pwQ01Sb2taaGk1c211bGkyZUpzaTJqODJ5X2tpM0R1UXdhSURRNjJnRWZ0MmNJcGoxS0dkT0VWVUFUdzlnWmlFOFpkbzVmQVhqdURXMlExWm1FekJqQllOUUQ1cUFNMEQxWDZ3UlRkS0x5dTJiRWxqMVNoekVXeVV3NGVCZWxYVDdwTWstRnhkNjl6MHVKekgtSm1CTmRUMTlkR1B2YkxicWxzOUxFYUN0ZXQ1Z1lSNndVMDBSalAxYW45UTV2Yjl3a3ZITW9R?oc=5"
-    },
-    {
-      "ticker": "MSFT",
-      "headline": "MSFT Stock Posts Best Quarter Since 1998 As Azure Growth Revives AI Optimism - Stocktwits",
-      "date": "2026-10-03",
-      "published": "Fri, 02 Oct 2026 20:19:34 GMT",
-      "summary": "Automated RSS market signal from Stocktwits. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMXZrVGQySXVNalNUeHVSWHVKLW5ndEsxdXYyT1VNMzdTdGZfZmNvZ2tjTkdTWFlIdmZmSUlCM083b0tEd0ZuZDdPMEtmX19CdmFWVUFJOUk1TnFXSmNOZ1k3SjAyclJVMXB5WThTNUJOWTdiZE96R2J5YUtNVDI1VW9tTFlxQ3lLV0R6TndaSUNFTnU4eGZjejhNOWJ3N1M4Ui1JbG9YMk9yTURSVm1uclJ5emN2Q0piYmZVYWFUWkU2MWRIRm9OU3dIZ1FLc0RIYkZZQjBpZw?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Nvidia Hits Record High Yet Analysts Call Stock 'Cheap' - The Tech Buzz",
-      "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 17:38:00 GMT",
-      "summary": "Automated RSS market signal from The Tech Buzz. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOenRaejVCRFdPVGF1QlVhTW9UaHVyMWcyOFR5SHNrMUFsbHJVZkVnU2EzNVpjUkROdUF1TjJtTjYwOVhfWDk4UXVZcjFDSnpQcUxERGdxN1NfSzVfUGlsNVBwc3R3RlA2ZTlzbXp4bXNEUUNrTWhiRmNkUGdvbGVmMjVnSWIwWWZLQ2VjV3QxMA?oc=5"
-    },
-    {
-      "ticker": "MSFT",
-      "headline": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-      "date": "2026-10-03",
-      "published": "Fri, 02 Oct 2026 19:25:48 GMT",
-      "summary": "Automated RSS market signal from Yahoo! Finance Canada. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uOUNhWEIyM0RRVERRZVRjUWx6dFJ2N2tGYXBpVWl2RVI3MjM2b3kzVmtabzNDRjdGMGw2Z2hJSTB0S2Q5YWRWT1dab25WVERnZlE?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "NVIDIA Announced a Record Buyback Increase This Week — Here's What Else Happened - TradingView",
-      "date": "2026-10-02",
-      "published": "Fri, 02 Oct 2026 12:53:35 GMT",
-      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZXcxOUdub1d2NzR3SHJrUkRqVXZRd0R2ZkozUlVzdVk2YXFkeG80MElEYTBNQ3VmOVlLRU9xMDg5NnRsX21iRU9xdklubFhSRzdqS2RzVUxzOFh3SnR3Yy1sZmlTdS1kU3hNekZZOUdHUVhJRFRVa285ZFBwU0diendVQWZmVnlMa3BTOTktZmltZ09GVHpIdDJqOURRNk1URWtfdTdBY2hiRmlYb0JENTc0Tk5hd2lPMzhienVvTmNmdVVlMDA1cEJlX3dIdjNLRVdZ?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "How Do Fed Rate Hikes Affect US Stocks? A Detailed Breakdown of the Logic - TradingKey",
-      "date": "2026-10-03",
-      "published": "Fri, 02 Oct 2026 23:56:28 GMT",
-      "summary": "Automated RSS market signal from TradingKey. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNUVZWk5MSTJmR3FOSGNkdVFaNTVjLUxQUUhpeTUzaGdLVm1PV2hwVHYzY1dNM01odFBTQjJ3bUdSNHptdWhaNTEyZ1ZobDlMLXBHQ1ctVkNTdlU3amJ3UVNpU09RUWxxYzh6Y1NZOGNtSGUySElpVE00b3VPTDcwZ0NCVHhjN0VKSmxzRHVKQzhEU0U1ZUJ5UHg5MVdfVmc0dDNQM1RiTW5EVVpUMnVTX1ZITVJTSUE?oc=5"
+      "published": "2026-10-03T09:30:00-04:00",
+      "summary": "The report says Donald Trump's disclosed holdings include up to $9.5 million in AI-related stocks while he advocates for data-center development, highlighting potential policy and conflict-of-interest considerations for AI infrastructure investors.",
+      "tag": "AI infrastructure policy",
+      "url": "https://finance.yahoo.com/technology/ai/articles/trump-holds-9-5m-ai-133000163.html"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
