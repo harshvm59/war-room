@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T07:15:24.571670+05:30",
+  "updated_at": "2026-10-05T06:35:37.381104+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -9,7 +9,20 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+          "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
+          "published": null,
+          "reporting_period": "Fiscal Q1 2027"
+        },
+        {
+          "url": "https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf",
+          "title": "NVIDIA Q2 2027 Earnings Call Transcript",
+          "published": "2026-08-26",
+          "reporting_period": "Fiscal Q2 2027"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -64,17 +77,23 @@
     },
     {
       "ticker": "TSM",
-      "company": "Taiwan Semiconductor",
+      "company": "Taiwan Semiconductor Manufacturing Company",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/0001628280-26-025362-index.htm",
-          "title": "Taiwan Semiconductor Manufacturing Company Limited Form 20-F",
-          "published": "2026-04-16",
-          "reporting_period": "Fiscal year ended 2025-12-31"
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
+          "title": "TSMC 2026 Q2 Quarterly Results",
+          "published": null,
+          "reporting_period": "Q2 2026"
+        },
+        {
+          "url": "https://investor.tsmc.com/english/financial-calendar",
+          "title": "TSMC Financial Calendar",
+          "published": null,
+          "reporting_period": "2026 dated events"
         }
       ],
       "questions": {
@@ -138,10 +157,16 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
-          "title": "Tesla Inc Form 10-Q",
-          "published": "2026-07-24",
-          "reporting_period": "Quarter and six months ended 2026-06-30"
+          "url": "https://ir.tesla.com/",
+          "title": "Tesla Investor Relations",
+          "published": null,
+          "reporting_period": "Q2 2026"
+        },
+        {
+          "url": "https://ir.tesla.com/press?view=all",
+          "title": "Tesla Investor Relations Press Releases",
+          "published": "2026-07-22",
+          "reporting_period": "Q2 2026"
         }
       ],
       "questions": {
@@ -201,23 +226,25 @@
       "company": "Meta Platforms",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 0,
+      "score": 1,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/0001628280-26-050705-index.htm",
-          "title": "Meta Platforms Inc Form 10-Q",
-          "published": "2026-08-12",
-          "reporting_period": "Quarter ended 2026-06-30"
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+          "title": "Meta Reports Second Quarter 2026 Results",
+          "published": "2026-07-29",
+          "reporting_period": "Q2 2026"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Q2 2026 revenue was reported at $60.801 billion, up 28% year over year.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
+          ],
+          "reporting_period": "Q2 2026"
         },
         "moat": {
           "verdict": "CAUTION",
@@ -235,10 +262,12 @@
         },
         "margins": {
           "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "note": "Q2 2026 operating margin was 31%, down from 43% in Q2 2025; the broader trend was not reconciled.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
+          ],
+          "reporting_period": "Q2 2026"
         },
         "cash": {
           "verdict": "CAUTION",
