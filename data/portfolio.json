@@ -93,8 +93,8 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies",
-      "units": 47.6869949,
-      "avg_cost": 89.46,
+      "units": 47.7397743,
+      "avg_cost": 89.55,
       "theme": "AI Software",
       "priority": "P2",
       "target_value": {
@@ -123,8 +123,8 @@
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices",
-      "units": 10.7637539,
-      "avg_cost": 191.56,
+      "units": 10.7795082,
+      "avg_cost": 192.12,
       "theme": "AI Compute",
       "priority": "P1",
       "target_value": {
@@ -213,8 +213,8 @@
     {
       "ticker": "CEG",
       "name": "Constellation Energy",
-      "units": 5.0417634,
-      "avg_cost": 259.7,
+      "units": 5.1160294,
+      "avg_cost": 259.49,
       "theme": "AI Energy",
       "priority": "P0",
       "target_value": {
@@ -263,23 +263,23 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-10-05T15:44:14.766Z",
-    "broker_synced_at_ist": "5 Oct 2026, 9:14 pm",
+    "broker_synced_at": "2026-10-05T17:30:13.020Z",
+    "broker_synced_at_ist": "5 Oct 2026, 11:00 pm",
     "usd_inr": 96.3,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
         "name": "SK hynix Inc. (ADR)",
         "units": 2.0331205,
-        "current_value_usd": 394.76
+        "current_value_usd": 397.87
       },
       {
         "name": "SpaceX",
         "units": 1.2392871,
-        "current_value_usd": 206.71
+        "current_value_usd": 209.14
       }
     ],
-    "usd_wallet": 1028.35,
-    "broker_account_value_usd": 121267.33
+    "usd_wallet": 988.34,
+    "broker_account_value_usd": 121451.04
   }
 }
