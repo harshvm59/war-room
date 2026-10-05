@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-06T02:43:14.779616+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-06T04:49:15.400017+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
@@ -30,8 +30,8 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-10-06",
-      "published": "Mon, 05 Oct 2026 19:34:00 GMT",
-      "source_name": "foxbusiness.com",
+      "published": "Mon, 05 Oct 2026 22:07:16 GMT",
+      "source_name": "NBC News",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI's Sam Altman says AI benefits justify accepting some risks - foxbusiness.com",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman says people need to 'accept some bad things' for the benefits of AI - NBC News",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTWYtOWctVHBGZDVzMlRSMlNSNl9jMFotRXgyZ1hlWVl0RzFvM3JuRGo0SUo4d2owcFFSenFRbmxlYjVfU09yaVlyQW0xcFZoOWt5LUpRQXNrUEFkNWNwU1lIZFY4ak9LZS1VSE1ISDd1RmM2UElkYVVzbjlZSjQwYkZ0RWxuNWNYN0JQZVFlQTh3dWViTWlqZzBrbnkxNzMtUFZ1YUxR0gGrAUFVX3lxTE13MmNLd0l0OVQwZjN5RVlvbnpYbW5YSGNYQ2ktWVNONGZTZEVYQzVzMFZTUnNoV3R4ZDdYdE5XY3NJdVdfSEtNQlhrUHF2VHlCbFczSHN0cG0za212YThWaTE4ZDhTU0trMkpNcm5zMHcxR0gwYnFQb0tRTEs5SHU2bkdBN1RKSzZIajJzODlkRkpBakl5X0o4MEpmZHdsMmszdlZjUXVEV0Uzcw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZlk3TTFVR01UZUViRkFrajV5OFpWSnZvNnNFdVdpb1I4Rm9zWmRyTHo2MmZCa1pCTVNTbTUtaGpTSE8tQ1k3SVg4UkZtSUhqblpKWlBWS2VLQ182cExZa0l6NzZBWG4zS0tCbngxT0tuck9LUkk1NHQzejFyTUhQanRCX0QtYnhlSVRiN0RrZ29iYU4yWC05ZHA4VjNwNEZoaVJJQlhYaXgtYlE2UWtHTTlUX2U4OFRkdjA0S0pRczIzb2gtbWZOMV9R?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -51,8 +51,8 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-10-06",
-      "published": "Mon, 05 Oct 2026 19:36:20 GMT",
-      "source_name": "cnbc.com",
+      "published": "Mon, 05 Oct 2026 19:13:42 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -61,7 +61,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives on Nvidia: It's the one chip in the world fueling the AI revolution - cnbc.com",
+          "t": "Headline signal (not a direct quote): Dan Ives on Nvidia: It's the one chip in the world fueling the AI revolution - CNBC",
           "k": true
         }
       ],
@@ -74,7 +74,7 @@
       "cat": "CEO",
       "date": "2026-10-05",
       "published": "Mon, 05 Oct 2026 11:00:01 GMT",
-      "source_name": "cnbc.com",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -83,7 +83,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Satya Nadella reinvented Microsoft once. Can he do it again in the AI era? - cnbc.com",
+          "t": "Headline signal (not a direct quote): Satya Nadella reinvented Microsoft once. Can he do it again in the AI era? - CNBC",
           "k": true
         }
       ],
@@ -160,21 +160,22 @@
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-10-05",
-      "published": "Mon, 05 Oct 2026 11:30:09 GMT",
-      "source_name": "Yahoo",
+      "date": "2026-10-06",
+      "published": "Mon, 05 Oct 2026 22:08:00 GMT",
+      "source_name": "cryptonews.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 15,
       "themes": [
-        "#AI"
+        "#AI",
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Reportedly Helped Shape Trump's AI Rules, Ro Khanna Says 'Cannot Trust Tech Billionaires to Self-Police' - Yahoo",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg Meta AI Predicts Double-Digit XRP Price by 2026 - cryptonews.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRlBFMHprcnVIV0NuS0w5aFhhQ3NlcF92QnNDc3dvUktrVmQ0WFVVekNlVFVrQm1iVnhETkdxVjVRZVc1UUZyay04NkNZRFMtSW91SXR6Sk5aUTJDRUtZenZDbzFwWkNnUDctcTdPdDNTLW9lRnZQM21LUk5MTGJiNnBlRTFZckdjSlIwdEZ4UWkzSTVSUkpRODRnM1VzUXNB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTV9DcWtQQ2VIcUVZbllVbl9LRXA5dUpicV9ZRDljVHgyY3VFNEs5b2VwOXU3V00xZVRTZ04tTm1QaDdrc0RtTUk3Y3lVVzk5YW9BNHBPMDdSUEEtMXliSGFEdEdEVU1GcEFLOXBvcndQUXJhcTlBb3N4Um9ZRzhZcWE2UDBIWW53SVYxQk15ZE5yN0pDNmFB?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -226,7 +227,7 @@
       "cat": "Analyst",
       "date": "2026-10-05",
       "published": "Mon, 05 Oct 2026 12:59:40 GMT",
-      "source_name": "cnbc.com",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -234,7 +235,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Monday - cnbc.com",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Monday - CNBC",
           "k": true
         }
       ],
@@ -267,5 +268,8 @@
   "fresh_window_hours": 24,
   "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }

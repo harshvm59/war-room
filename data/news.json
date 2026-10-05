@@ -1,62 +1,83 @@
 {
-  "updated_at": "2026-10-06T02:43:14.779885+05:30",
-  "source": "openai+web_search",
+  "updated_at": "2026-10-06T04:49:15.400401+05:30",
+  "source": "google-news-rss-fallback",
   "items": [
     {
-      "ticker": "PTC",
-      "headline": "PTC surges after Schneider Electric announces $22.6 billion bid",
-      "date": "2026-10-05",
-      "published": "2026-10-05T13:34:00Z",
-      "summary": "Reuters reported that PTC was a major premarket mover after Schneider Electric agreed to acquire it for $22.6 billion.",
-      "tag": "M&A",
-      "url": "https://www.lse.co.uk/news/us-stocks-wall-st-wall-street-set-for-muted-open-as-tech-stocks-take-a-breather-j3qri5txnrdne30.html"
+      "ticker": "AI",
+      "headline": "Nasdaq notches record high close as investors focus on earnings - Honolulu Star-Advertiser",
+      "date": "2026-10-06",
+      "published": "Mon, 05 Oct 2026 22:41:15 GMT",
+      "summary": "Automated RSS market signal from Honolulu Star-Advertiser. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZEFFSTlEekdGRG1ZV0o2NG5vcXBXeGJZbWNYa3o1WE5GUDR3SG1ncnBhc1M3MnhHa2RLOXM1WWRpMFBxeWdvazNVRUw4Z3R0T2ZMMDhwYVRHMS1ZZ0FzUjl2RFFWUmwyYi1UdDVOU0ZBVFp0eTI0aWhrRS1ZZ21BU3JITjBpbGF6TFhIaVROYkRvcFNIay1CRmdXNDhwWlhtVk5fQWJ5TU1rS2ZuZThEb2lKZUwxaHRwdlpIYg?oc=5"
     },
     {
-      "ticker": "CBRD",
-      "headline": "Cerebras gains after Sam Altman calls company a close partner",
-      "date": "2026-10-05",
-      "published": "2026-10-05T13:34:00Z",
-      "summary": "Reuters reported that Cerebras shares rose after OpenAI CEO Sam Altman described the company as a close partner.",
-      "tag": "AI infrastructure",
-      "url": "https://www.lse.co.uk/news/us-stocks-wall-st-wall-street-set-for-muted-open-as-tech-stocks-take-a-breather-j3qri5txnrdne30.html"
+      "ticker": "AI",
+      "headline": "AI Giants Drive Market Records Despite Rising Treasury Yields - The Tech Buzz",
+      "date": "2026-10-06",
+      "published": "Mon, 05 Oct 2026 22:37:00 GMT",
+      "summary": "Automated RSS market signal from The Tech Buzz. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcUxSQ19hUktHS1d1VDFKWGcydVlMaHlnM2IxOHUxY3pFaVV3aExqajA3OElETlg4MUxtMVBybXRRVmNIdG0yS28zbkFid3g4UWNLOG1MTFF2YTVSM3B2d2xuMnd5UWlWTkpObVZoZ0thVEI2ZVVrajRLY0hYR0RiWFFJYk54OFF5RlBWTFJCWlNyUnY0LUxmV0Vn?oc=5"
     },
     {
-      "ticker": "NVDA",
-      "headline": "Nvidia edges higher as technology stocks remain near record levels",
+      "ticker": "MSFT",
+      "headline": "Stocktwits Tech Watch: AI Investors Shift Focus To Applied Digital Earnings, Microsoft Event, SF Tech Week - Yahoo Finance",
       "date": "2026-10-05",
-      "published": "2026-10-05T13:34:00Z",
-      "summary": "Reuters reported that Nvidia edged up in premarket trading while technology stocks paused after reaching record highs.",
-      "tag": "AI semiconductors",
-      "url": "https://www.lse.co.uk/news/us-stocks-wall-st-wall-street-set-for-muted-open-as-tech-stocks-take-a-breather-j3qri5txnrdne30.html"
+      "published": "Mon, 05 Oct 2026 05:46:00 GMT",
+      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcFYxbHh0UmRjRmNHaDFCOUJFYWh2eEpHeU10eFRWUjE0TkNKeGx4Ql8zdjdGNjZkSnYxc0EzZjBvakNmZGNNVWE0MEJfWWhUYlM0WWYySVNZY1BHaFczOU8ybTNXa3R0blk2T2lWaF9XMXVac0xiNlZKd1Y4c25OV2pySW0zLWdFcFE2azhzVTlPMXUydVREamh4dm5ad2s?oc=5"
     },
     {
-      "ticker": "INTC",
-      "headline": "Intel falls as chip stocks weigh on premarket trading",
+      "ticker": "META",
+      "headline": "Zacks Market Edge Highlights: Meta, NVIDIA and Microsoft - TradingView",
       "date": "2026-10-05",
-      "published": "2026-10-05T13:34:00Z",
-      "summary": "Reuters reported that Intel declined 3.8% in premarket trading, contributing to weakness among chip stocks.",
-      "tag": "Semiconductors",
-      "url": "https://www.lse.co.uk/news/us-stocks-wall-st-wall-street-set-for-muted-open-as-tech-stocks-take-a-breather-j3qri5txnrdne30.html"
+      "published": "Mon, 05 Oct 2026 11:46:00 GMT",
+      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORDh6TmJCbWprOVZFSDU1bUpGckJzUkRDakEtQkNSTFZ0YTl6VXJnVmQwbUxrU21QQnBWMDRMS2kzd3ZvWkRXSDlibVU2X2k2Zm11b3pYZXJMNExXMDU3bVNQSEluVzBnNDRrMElVXzMtRWtQOGFnT1NfMW82VkFzVmc4cTRGdnhZNkVPV2V0dG9sQU9kV0JpT1pZcDJ4Wml3S0ZWMTdMbFU0NVJKRGsw?oc=5"
     },
     {
-      "ticker": "MU",
-      "headline": "Micron dips as semiconductor stocks take a breather",
+      "ticker": "AI",
+      "headline": "Nasdaq hits record high as investors focus on earnings - The Korea Times",
       "date": "2026-10-05",
-      "published": "2026-10-05T13:34:00Z",
-      "summary": "Reuters reported that Micron declined 0.6% in premarket trading as technology stocks eased from recent highs.",
-      "tag": "Semiconductors",
-      "url": "https://www.lse.co.uk/news/us-stocks-wall-st-wall-street-set-for-muted-open-as-tech-stocks-take-a-breather-j3qri5txnrdne30.html"
+      "published": "Mon, 05 Oct 2026 16:14:03 GMT",
+      "summary": "Automated RSS market signal from The Korea Times. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM2d6ajkyYXhoTXJld0JmMmI2cnhCQmJyb2hKeTk5Qld5S2pRakYtUjdKMlNUemRrTVg1M1QtVnpWWV9XbF81OHd4MnJ2NnJPMTRJVThGSm5MZ2xIN19lUmdsS01yUEdKamxXa0d4TTh5UkdpSnYwMlk0d1p2NUVVYU1SMTRHWV9ieFpQcmNYUjVOZmpUU1JzU2lNYUZweGFMeXJDNtIBpAFBVV95cUxNM2d6ajkyYXhoTXJld0JmMmI2cnhCQmJyb2hKeTk5Qld5S2pRakYtUjdKMlNUemRrTVg1M1QtVnpWWV9XbF81OHd4MnJ2NnJPMTRJVThGSm5MZ2xIN19lUmdsS01yUEdKamxXa0d4TTh5UkdpSnYwMlk0d1p2NUVVYU1SMTRHWV9ieFpQcmNYUjVOZmpUU1JzU2lNYUZweGFMeXJDNg?oc=5"
     },
     {
-      "ticker": "QQQ",
-      "headline": "Nasdaq advances as technology and AI-linked shares lead gains",
+      "ticker": "AMD",
+      "headline": "Meet the Low-Cost Vanguard ETF With 32.4% Invested in Nvidia, Broadcom, Micron, AMD, Intel, and Lam Research, While VOO Has Just 14.8%. - The Globe and Mail",
       "date": "2026-10-05",
-      "published": "2026-10-05T17:46:00Z",
-      "summary": "ROIC News reported that the Nasdaq rose as megacap technology and AI-exposed companies benefited from reduced expectations of an imminent Federal Reserve rate increase.",
-      "tag": "Market trend",
-      "url": "https://www.roic.ai/news/us-stocks-extend-gains-nasdaq-up-100-as-tech-leads-post-jobs-report-rally-10-05-2026"
+      "published": "Mon, 05 Oct 2026 10:54:55 GMT",
+      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPRGlZbEptUFlIMmVJY1ZzMHFvbzE3M0g3WDYyWFdnZElKaVFwakdIbXFXRXM3ekxUYVlRakVUQ1haQTlRLWRrUHZtQXNJYWtxbmFvTGFIcUk0Zkc3cWFMR0VHNzZITk1HRjdUS0k5eF9ud1N4SUdEM2haU0tqZlh6UzFHT3IyV0pyRjEzN3VTbUpQZERydU5sbTBxeGtJU2Y2WXU5SzZ5d0VQcW1kY2QtN0VPY1JPZjRSTnJnQlBuX3JxeFJSNmJvdHNER291WjhoSXdBRXVKLTZDNl9sazc4b0NMaHR2SkprY1VvTnNXelZxZENwRUFQTXVEa3hWNkZ4bVdxRy1lN05fM3hidFFIdmU0NE5weHVNV0Q1OVQxZXJCTGppVS1DbWY4cG0ySWtfQmRsdTNRUm8?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "US STOCKS-Nasdaq notches record high close as investors focus on earnings - Devdiscourse",
+      "date": "2026-10-06",
+      "published": "Mon, 05 Oct 2026 20:01:10 GMT",
+      "summary": "Automated RSS market signal from Devdiscourse. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOUpMclJEY1ktcDN1N294Y2VKR0dKaVNFVVFMVFl4aFM2LXZoWW1sMTlPN2FNcEFPWGtrLTNWWTVqYUtsNGl5cjF4Y2l2UGJxeG9rX2lVTVVHSVU1bmJ3Qzl4ek9OaTRGeVpQYTYwLXJtZ09oYXRMWXVWdmo5eFZ5SjZRWEs3OEM2eDg4bU5HZE5VSFU3cVQxMXRJeHNnZGRlMXBWOWhldXdDUU5NRnFSRXEzbm4wYkdyYml4LWlkaFVkaGNNVGh2M1NSeEtTMmRQV1HSAdIBQVVfeXFMTTlKTHJSRGNZLXAzdTdveGNlSkdHSmlTRVVRTFRZeGhTNi12aFltbDE5TzdhTXBBT1hray0zVlk1amFLbDRpeXIxeGNpdlBicXhva19pVU1VR0lVNW5id0M5eHpPTmk0RnlaUGE2MC1ybWdPaGF0TFl1VnZqOXhWeUo2UVhLNzhDNng4OG1OR2ROVUhVN3FUMTF0SXhzZ2RkZTFwVjloZXV3Q1FOTUZxUkVxM25uMGJHcmJpeC1pZGhVZGhjTVRodjNTUnhLUzJkUFdR?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "US stocks: Nasdaq, Dow close 1% higher as investors focus on earnings - The Economic Times",
+      "date": "2026-10-06",
+      "published": "Mon, 05 Oct 2026 20:08:00 GMT",
+      "summary": "Automated RSS market signal from The Economic Times. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWWVpcllrQXpNWVBMaHBIcUpMdEktd2JXRG4xSFlGUWstZm9zYVAwLW5wTVBBUW1LbEhkaW80OXo5SUVJYjRoYjlJMDFCZE9TT1ozM3dnOG1neFoteVc5bGJNaV85T1p5ZE9wTW9ib0JTSXpveEI4ZFRCbVl0b0RGNFNDZmdyWG51SnRKV1JjR3N5WjlBNk1vS3o2c2c0MWU3Rmh2YUZJWW9kWVFpeVA2ek50NHVGYVQ1dWhON0JxVS05VVNfeFZQcTNmdGkwY0lxWVNTWFZnZUhzOFEtbG9qUdIB4AFBVV95cUxPWWVpcllrQXpNWVBMaHBIcUpMdEktd2JXRG4xSFlGUWstZm9zYVAwLW5wTVBBUW1LbEhkaW80OXo5SUVJYjRoYjlJMDFCZE9TT1ozM3dnOG1neFoteVc5bGJNaV85T1p5ZE9wTW9ib0JTSXpveEI4ZFRCbVl0b0RGNFNDZmdyWG51SnRKV1JjR3N5WjlBNk1vS3o2c2c0MWU3Rmh2YUZJWW9kWVFpeVA2ek50NHVGYVQ1dWhON0JxVS05VVNfeFZQcTNmdGkwY0lxWVNTWFZnZUhzOFEtbG9qUQ?oc=5"
     }
   ],
-  "provider_error": null,
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
   "fresh_window_hours": 24
 }
