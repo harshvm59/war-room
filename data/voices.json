@@ -1,91 +1,7 @@
 {
-  "updated_at": "2026-10-07T00:31:28.463187+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-07T03:21:08.250922+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "Advanced Micro Devices",
-      "cat": "AI-chip demand and supply",
-      "date": "2026-10-06",
-      "published": "2026-10-06T19:21:00+05:30",
-      "themes": [
-        "AI-chip demand",
-        "2027 supply expansion",
-        "semiconductor capacity"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Lisa Su indicated that demand for advanced chips is expected to remain very high over the next several years and that AMD plans to substantially increase supply in 2027.",
-          "k": true
-        }
-      ],
-      "src": "https://www.moneycontrol.com/news/business/markets/s-p-500-hits-all-time-high-on-ai-bets-as-brent-crude-drops-14045980.html",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Ulrike Hoffmann-Burchardi",
-      "role": "Global CIO for Equities",
-      "org": "UBS Chief Investment Office",
-      "cat": "AI investment outlook",
-      "date": "2026-10-06",
-      "published": "2026-10-06T19:21:00+05:30",
-      "themes": [
-        "AI growth",
-        "market tailwinds",
-        "earnings breadth"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Hoffmann-Burchardi said UBS remains strongly convinced about the AI growth story and views AI-related investment as a tailwind that could support profit growth beyond technology.",
-          "k": true
-        }
-      ],
-      "src": "https://www.moneycontrol.com/news/business/markets/s-p-500-hits-all-time-high-on-ai-bets-as-brent-crude-drops-14045980.html",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Anthony Saglimbene",
-      "role": "Chief Market Strategist",
-      "org": "Ameriprise Financial",
-      "cat": "Market outlook",
-      "date": "2026-10-06",
-      "published": "2026-10-06T19:21:00+05:30",
-      "themes": [
-        "equity outlook",
-        "AI trade",
-        "interest rates"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Saglimbene said stocks could continue higher if the 2027 growth and profit outlook remains firm, energy prices stabilize or decline, and the Federal Reserve's rate-hiking path is short-lived; he also identified a steady AI trade as important for a year-end advance.",
-          "k": true
-        }
-      ],
-      "src": "https://www.moneycontrol.com/news/business/markets/s-p-500-hits-all-time-high-on-ai-bets-as-brent-crude-drops-14045980.html",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Tiffany Wilding and Andrew Balls",
-      "role": "Economists and investment professionals",
-      "org": "PIMCO",
-      "cat": "Macro and AI investment cycle",
-      "date": "2026-10-06",
-      "published": "2026-10-06T19:21:00+05:30",
-      "themes": [
-        "AI investment cycle",
-        "inflation",
-        "global growth"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Wilding and Balls said a booming AI investment cycle, resilient consumers and China, and incremental central-bank policy could support growth while containing inflation.",
-          "k": true
-        }
-      ],
-      "src": "https://www.moneycontrol.com/news/business/markets/s-p-500-hits-all-time-high-on-ai-bets-as-brent-crude-drops-14045980.html",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -114,20 +30,20 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-10-06",
-      "published": "Tue, 06 Oct 2026 13:32:09 GMT",
-      "source_name": "Financial Times",
+      "published": "Tue, 06 Oct 2026 16:32:28 GMT",
+      "source_name": "The Hollywood Reporter",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Artificial film review — Andrew Garfield is a strangely likeable Sam Altman in OpenAI origin story Artificial - Financial Times",
+          "t": "Headline signal (not a direct quote): 'Artificial' Review: Andrew Garfield as Sam Altman in OpenAI Saga - The Hollywood Reporter",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50SmNKbkNmbGdubGlPVmxFRTZ3SXdSR090cEdMQkhKVGZLQnk1eWJ4X2VFRm5VZUZjYU1JMGhqRGdyQnNCdkZwZS1Rc0V5WnNCWWZIRGZRSXU0M0VsTURLb0dDdmVaMVN1VXpSMDFBMXU?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNG1KNEFGSmpJcWdQRW5VNWJWYTV2dzR1bUxIM24yMi1TSlRJU3V5STBxZlAyOU5lRkltZUJYa2ppSTc1NmtjTEdJcmV0bTM4enRyaFYtRTkzR0NKMmJlcENrdm1lMXRMN09IQ2JlVW40elZNMDE0bmlrLVA1V3FKR0FvNkVwcWZwUDhzczR5dXdIaDFJMjlLc1lOOUdFYVI1Q2tUSmx5RGFpRS1JMEZhc0k1VHZFRFFwejd1MXdGOGFoQQ?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -135,7 +51,7 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-10-06",
-      "published": "Tue, 06 Oct 2026 02:38:00 GMT",
+      "published": "Tue, 06 Oct 2026 03:14:00 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -145,11 +61,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Says Nvidia Fuels AI Market, But What If It Has a Lehman Moment? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): ‘One Chip In The World Fueling AI Revolution:’ Dan Ives Supports Nvidia Bull Case As Stock Hits Fresh High - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbTdOR0dFOEQyMVlNY2VGRFV5eFE2X1ZRN0xjMllaVGk4SU1SM2sxcWppbkdPZV9WQ1N4RHJEV2FIMlhXM3lqc29wMkt5VE5LN2tZY0c0VFE0OHNiSW5LVDNpWkVjcXJxMUhMVWpFNWFESHRBVEVhS3VwLWNMUm1HdkVsQXFGZ3BlcHJHQ2J1VWhaaEZD?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSFBKZGZpZDJRazc2MHlHc20xZXFHM19la2RsU2ZZY0RqLVk3M0hxNE1XcEtOV0k5b2VNTW02bEVTWU1GdUZOcl90ZFZUWEZnZXlQbVZGRmdYZHRQOTVzRVpIdFh0Z0RIQW9tUDFaVmZQclFHUXVJcEFUbDR2Rl9SNUxwa3BDdi1IQUYyRURnckVudFJ2?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -172,6 +88,28 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYWlEcE5uT1hYbmxJZHN0ZTNrWW5xQnhseHdUSnU4UjdDellEVFBONDRTdWRBc3k3VVVPSDB6X01WN1FIRXQ4TUdDSkdoV2g0ZFN1dERiYjM4OVhpMmU2ZjA5ZnVtOEdmTUVqd09vbGN4WWkyNFU4TGZtVldGdl9CczN4SUswaGUwa3Z2aXUtNEQwTUIxZ2xQTFI5aDQ?oc=5"
+    },
+    {
+      "name": "Lisa Su",
+      "role": "CEO",
+      "org": "AMD",
+      "cat": "CEO",
+      "date": "2026-10-06",
+      "published": "Tue, 06 Oct 2026 11:09:32 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su predicts 'very high' chip demand continuing for next few years - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcVFmakZjbG92RVhUbWQzS3BfaVljM0NfLTBnN0FzY3dHNk9IRkxYZFp3ZmZBTi1VNFVaY2hpTzFJMmR4UGwtcTJJZXQ5SXFoZ3paclktTXZUOFZEQUZ6N0xRWV9SdC1ydHlDNDh5RjVyTzF5Q3ZUVjFDclNoajB2OWVzTGQ1NWJrRnlPVnBSdkFNUksyRUVVeE1ON2VRRW55VkwtcG1VV1JTTFg1UUFtV2l5azVMcDJCS09B?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -222,9 +160,9 @@
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-10-06",
-      "published": "Tue, 06 Oct 2026 09:54:32 GMT",
-      "source_name": "The Daily News | Texas' Oldest Newspaper",
+      "date": "2026-10-07",
+      "published": "Tue, 06 Oct 2026 20:06:57 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -233,11 +171,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): FILE PHOTO: Meta CEO Mark Zuckerberg delivers a speech during the Meta Connect event in Menlo Park - The Daily News | Texas' Oldest Newspaper",
+          "t": "Headline signal (not a direct quote): Meta Stock Up 21% in One Month: New Movie About ‘Antihero’ Mark Zuckerberg Could Hurt Momentum - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOT3Q0b3U0bC15MzFpX1ZUWHBJaE95WkhaSmxVN3k2UW9Wa3B4RmZIRWRRSTRDYjVhbER6a1lXSnVMZkRhak04N3JMYVVWQ2x2YVNZa1ljSUZXa0NMLW8xTWtyVmgyc0lZZXdOVGlYQldBWWFNNF8tdXBfZzBjVkM1UWZvYUZBZmprbjFSMzJnaXdqTkhfSWp5akVranpiaWtyWkVzNERhakdFVC1pVVV4cDZIZ18yUFA0MlIyZi1aWkZyQlJFamoyaFJ5VUotaUhYLXJObVc4NXB0cjktNjl6NE1hSG1VTnhWckp2MWhydXZNd2prcndkN1g1YVBIX2IyVmgybnNlMzhXaHJNbFE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVXF1SnFSOGkzV2k2TjNPTVlfc0w4aW13WkxybkpUejZvbHdNdU1FbVR0TjR4VXVWMnBCWkstcXRNWEdiTGhPejRxSGluLVk3aEp5TTRNdTV6b2xtOWdwaS1UY2dVeUp5VG5lU3NvS25CZ1p3Q2hac2JWbDBnTFZva0cxLVZlYXpJTUQzWTMzVmt4VVRwanlzNk9veU1QNzJuaUxkNzBLTTh1Nmg0dml2UGtVTWRZQkd4TV94RUJleFhNS3VnYzVmQm5vTTlTVXQ0cTJKdFkwY2tlbjY0NDlSOXdVNA?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -258,7 +196,7 @@
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWHVOTXo5VVRiZTVHOU9ad1Z5YlB2MWZwOTJjZWxBMmhTT1NNdzVETi1RYzd5QlhPbWhXR2hvM1V1VXNxbWRwaWJqX3Y1X1o5T2h3ZFpQb1FSdk9fd244T1FtY1d5c296dWJlamd1RTNJQjZaUk84WTRlZEtzU1ZiaVZCZERuZWU4Sk5wV3FjdWxpTnZPUFlkbnRxX2lXQUZRbEFsbnpEVnNqdy1ObVlPcVNacmRRUUpIalE0WFpoRnVyaHdZM1RKZ1g1eHpwak1LbnJkMTExeHI2cnBtc3pZMk9wZktWMV9CbEJJNNIB7AFBVV95cUxNWHVOTXo5VVRiZTVHOU9ad1Z5YlB2MWZwOTJjZWxBMmhTT1NNdzVETi1RYzd5QlhPbWhXR2hvM1V1VXNxbWRwaWJqX3Y1X1o5T2h3ZFpQb1FSdk9fd244T1FtY1d5c296dWJlamd1RTNJQjZaUk84WTRlZEtzU1ZiaVZCZERuZWU4Sk5wV3FjdWxpTnZPUFlkbnRxX2lXQUZRbEFsbnpEVnNqdy1ObVlPcVNacmRRUUpIalE0WFpoRnVyaHdZM1RKZ1g1eHpwak1LbnJkMTExeHI2cnBtc3pZMk9wZktWMV9CbEJJNA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOb2FQR1NiLUFLVVFfVGlRUXhLcGFEUjBDSHB5NElVYmpRS21sM1Z0bmxFRXczMWs3ODMzX3AybVVidHo3T1ZSMFRrTTZxUVgtNHB0YXlLTlZLd3Nzb1dwVmRrMDZ3LWhtMW5HVURTcHRoX1liVkVWRmc4aUVLWkpNOXlOUE5DM2Jlc3JQbHdiVklYdkduUks3VE5LQXMxbXctbHI3RktpOVlZMjlZVDNQWGltU2h0RU5PMERCOXhEUjFfRXRQbjZsSHlSUmFTeFR3dHdJb0RjMUdGTjlWcGt1RndIMEZvR2vSAewBQVVfeXFMTVh1Tk16OVVUYmU1RzlPWndWeWJQdjFmcDkyY2VsQTJoU09TTXc1RE4tUWM3eUJYT21oV0dobzNVdVVzcW1kcGlial92NV9aOU9od2RaUG9RUnZPX3duOE9RbWNXeXNvenViZWpndUUzSUI2WlJPOFk0ZWRLc1NWYmlWQmREbmVlOEpOcFdxY3VsaU52T1BZZG50cV9pV0FGUWxBbG56RFZzanctTm1ZT3FTWnJkUVFKSGpRNFhaaEZ1cmh3WTNUSmdYNXh6cGpNS25yZDExMXhyNnJwbXN6WTJPcGZLVjFfQmxCSTQ?oc=5"
     },
     {
       "name": "Arvind Krishna",
@@ -287,20 +225,20 @@
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-10-06",
-      "published": "Tue, 06 Oct 2026 17:03:16 GMT",
-      "source_name": "WSJ",
+      "published": "Tue, 06 Oct 2026 05:48:00 GMT",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 8,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Oracle Billionaire Larry Ellison Is Buying Up the Neighborhood - WSJ",
+          "t": "Headline signal (not a direct quote): Oracle co-founder Larry Ellison bought an 8.4-acre Florida oceanfront estate for $80 million in 2021; fiv - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnhIQ21JLWk2eWNtYTZ6V0N2MlNXTkhQUjdXcXFVZ1JrY1lwcnhYVmtUS0VBa3d2aWprbE84Mmc0N2k3N3dMcTE0UlFxampoYXlSV25SRHJQdWM4RjJORjB1eGZTdzI1LWRYRHMtVmFuenVZWVdUbTJhS2lTRmlNbzUtM3JvNlU2M19BVmN1MjR3UkN0eTdzT3Y1YzVBNnAtMFBWc1hIbDc0elVBSTQ5am14QUp6M00?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiiANBVV95cUxPY0xTMTl0T0lkSHRyZ04tc04xa1lFNGNwX2pRLVJoZHpNUXk1TnNMU3R1MUt0U3pmMEJDbGN2U3pfc3R2WjJwY1R2ZUVJczRQX0dtbTc2N21sOURVbVEwck5KODE1OE8xWlFDRUxjWmpEYUJVY09hcXVtNzAzcWxDMUM2b3BLZFltbG0tX3VGMGlUODI3aVp2YS1OT0RYTy1EVzlQLXJFcUpTSmNrYmJVczRMaHhIeVVSbUlQRVg5RW92OHFzUS04Rlc2Um8zazZTR181dDFMaTVTUWhBUkk2YjFIcHhqTHJQWkl4UzBlcUJRWFJqR3V1aE5MUlk1U1h3MVVVUGt6TTd6a0FhNVJXMVZiakpDTkQ5a3ppbE4zWXB5NVRUTGJQUHBjdXpGWXE1TGxuWXRXeXBqR2N3aDV1dDZxSXR0Tlg4ZkdHWlBKYTdlMTRFX1dMM3FPaHlJLUtiOEVKQlFTcnJHS1pQeXczTkVHZm9iV1JRLW1sclFDc0x5bG5VZV90WdIBjgNBVV95cUxQQ3dxci1GdnFOdGhCQ0NyMFBJeVRSSVdJZzZSSVo0MVJSbHl4dUE4ZmNsSDVyVFlvRFNMUVBIcGJkY1pZTTNwbVhsMlJ2SFZuOENFZjVzVXhpVTVtaFVuSlpueUVMSnE0ZUJLSk1aUE15WUVFVWxERFhHQ1IxLW1nSDVWZHpkR1MtLXZrNVp3NTZqdVdFdERaMHh0aG8wakl4MFVycGFYZFluSTFCQXExT0M5MnJJZm5sTUVxcnNOSUdJUS1ZUDJibXI2WHZpbERUbm1PZ3M4VTgwekYzYnNEMjRMLVQyQ2RZZEx2Qms1dTVrZ1hWdTRFbzNHNnFaMGY2ZEJpSEhjbjV0eHR6SENVZjRHbzJwWFpSVEw4SFRhVGlLcmNwdjdQbU1CWjNFT2VMMENMRDhwU1hCOGlJQmZQQnJ0d3RRdXpxR2I0X1k5bHZ3RXcxOXNJTnFVT2NaQkRUTmJ5V1hfbHN0VEkwWGI1NE5pSEMtVVFSWTFqZU9nNmMwN1N6aVVPQjlpbmp5dw?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -309,20 +247,20 @@
       "cat": "Investor",
       "date": "2026-10-06",
       "published": "Tue, 06 Oct 2026 18:10:21 GMT",
-      "source_name": "TradingView",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI",
         "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Just Bought $13 Million of Broadcom Stock - TradingView",
+          "t": "Headline signal (not a direct quote): Cathie Wood Just Bought $13 Million of Broadcom Stock - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONGp5czZJOEZlbk5kQlpjV0RNUFhfZFBNU3B2RzRSRzYtb0xPbXRJeWliOXFyVGRuRE1VR1UzRW55R3g5QV9jS0k1VEM1QkFOQm1tZUN5cXc4MXdkMmJ2MTJvZG14Zi1VV1F5WENCQU5OZUs0ZWNfVm9OVUkyb0hHYjdWVll6SkVPWWpneGd2SVRrcFNldDJUMGRCM1AySHJZaFlCQkhOTUNxc3ZSZFYwZDN3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTVRJT3pJZlRZVjJHWFJadGxnNThIcjJnM002UGQzQ1NnZHRlTlJoVlNJeUgzMUh0bmZFZHFGRFJTaF91N3FJbUdMSFYwWTFXUlhVbEhWMnJsSFNMZFVmMllha2ZDOG52b0pXcGpjbWVydmdfU1JjRkI5LTl2U2V3cGc4QnZRdHdIZkY0aDNkSGpwYnQ5SkE?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -351,8 +289,8 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-10-06",
-      "published": "Mon, 05 Oct 2026 20:49:24 GMT",
-      "source_name": "Benzinga",
+      "published": "Tue, 06 Oct 2026 01:19:30 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
       "relevance_score": 8,
       "themes": [
@@ -361,16 +299,19 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Tesla's Q3 Delivery Beat Is Just the Start: Gene Munster Says TSLA Will ‘Crush Traditional Automakers’ - Benzinga",
+          "t": "Headline signal (not a direct quote): Tesla Q3 Deliveries Beat Street Estimate, Gene Munster Says ‘EV Winter’ Is Thawing — Sees 15% Growth In Full Year 2027 - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNbXNCd0J3cHR2SUdKMFFhNUtkM1UtaDN0QzBaRlNwRHNOOS04REJrM2VVZ1lUWnFOQ29aNHpNZDNVU0dEbjAwZVhpcUxKRVNXMUVtVGdYbXVrOFRVTml6eDFlZFdlLXRiQkVPdlJ2WDZINDhqZ3VXZ3Fsc1dnVS1CaERxQ213dGV0QnZ5V0xvUlFvU1dlYkxkNnhpUUdFd0lsR0dIbWNGdml6ZEp2X0puQXhZaFhvemo5Zmxvc3RuUGtzMktYRWwyTzc0bFctY1I0OXczeXl3TUxzRkQtSjJZNUM4a2RGZzVuNmdic19UZ0Z3bTZwQVE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMGpHNV9kQVozWVpLbmlpaVJOcHVHMnhjSkZyVWp6UG5Zay01ZUhkYnQwNjVtUEJGaEpQTmtJaU9pWWVBSmVQU0drR3RJWkN4aG1famY3MTF1dmxRV3RmU1ZkSXdzcTh1VnhMd0JBUGJfa2lnb3o0N2FBM19ZMzBPS1lGOGhCYml1UVQ4eGxlZFpSSmxEVjVjNXdZbHpGTmoxbzdiUGJkNkN4TTVTRFRtajBSLWd2ZU0za1dmTmpqaw?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 17,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
