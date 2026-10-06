@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T06:35:37.381104+05:30",
+  "updated_at": "2026-10-06T07:52:51.954937+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -9,20 +9,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
-          "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
-          "published": null,
-          "reporting_period": "Fiscal Q1 2027"
-        },
-        {
-          "url": "https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf",
-          "title": "NVIDIA Q2 2027 Earnings Call Transcript",
-          "published": "2026-08-26",
-          "reporting_period": "Fiscal Q2 2027"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -87,13 +74,7 @@
           "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
           "title": "TSMC 2026 Q2 Quarterly Results",
           "published": null,
-          "reporting_period": "Q2 2026"
-        },
-        {
-          "url": "https://investor.tsmc.com/english/financial-calendar",
-          "title": "TSMC Financial Calendar",
-          "published": null,
-          "reporting_period": "2026 dated events"
+          "reporting_period": "Second quarter 2026"
         }
       ],
       "questions": {
@@ -157,16 +138,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://ir.tesla.com/",
-          "title": "Tesla Investor Relations",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2026-financial-results",
+          "title": "Tesla Releases Second Quarter 2026 Financial Results",
           "published": null,
-          "reporting_period": "Q2 2026"
-        },
-        {
-          "url": "https://ir.tesla.com/press?view=all",
-          "title": "Tesla Investor Relations Press Releases",
-          "published": "2026-07-22",
-          "reporting_period": "Q2 2026"
+          "reporting_period": "Second quarter 2026"
         }
       ],
       "questions": {
@@ -226,25 +201,23 @@
       "company": "Meta Platforms",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 1,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
           "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
           "title": "Meta Reports Second Quarter 2026 Results",
           "published": "2026-07-29",
-          "reporting_period": "Q2 2026"
+          "reporting_period": "Second quarter 2026"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "Q2 2026 revenue was reported at $60.801 billion, up 28% year over year.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
-          ],
-          "reporting_period": "Q2 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
@@ -262,12 +235,10 @@
         },
         "margins": {
           "verdict": "CAUTION",
-          "note": "Q2 2026 operating margin was 31%, down from 43% in Q2 2025; the broader trend was not reconciled.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
-          ],
-          "reporting_period": "Q2 2026"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
