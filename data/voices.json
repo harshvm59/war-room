@@ -1,28 +1,112 @@
 {
-  "updated_at": "2026-10-06T16:09:58.153071+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-10-07T00:31:28.463187+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Lisa Su",
+      "role": "CEO",
+      "org": "Advanced Micro Devices",
+      "cat": "AI-chip demand and supply",
+      "date": "2026-10-06",
+      "published": "2026-10-06T19:21:00+05:30",
+      "themes": [
+        "AI-chip demand",
+        "2027 supply expansion",
+        "semiconductor capacity"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Lisa Su indicated that demand for advanced chips is expected to remain very high over the next several years and that AMD plans to substantially increase supply in 2027.",
+          "k": true
+        }
+      ],
+      "src": "https://www.moneycontrol.com/news/business/markets/s-p-500-hits-all-time-high-on-ai-bets-as-brent-crude-drops-14045980.html",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Ulrike Hoffmann-Burchardi",
+      "role": "Global CIO for Equities",
+      "org": "UBS Chief Investment Office",
+      "cat": "AI investment outlook",
+      "date": "2026-10-06",
+      "published": "2026-10-06T19:21:00+05:30",
+      "themes": [
+        "AI growth",
+        "market tailwinds",
+        "earnings breadth"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Hoffmann-Burchardi said UBS remains strongly convinced about the AI growth story and views AI-related investment as a tailwind that could support profit growth beyond technology.",
+          "k": true
+        }
+      ],
+      "src": "https://www.moneycontrol.com/news/business/markets/s-p-500-hits-all-time-high-on-ai-bets-as-brent-crude-drops-14045980.html",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Anthony Saglimbene",
+      "role": "Chief Market Strategist",
+      "org": "Ameriprise Financial",
+      "cat": "Market outlook",
+      "date": "2026-10-06",
+      "published": "2026-10-06T19:21:00+05:30",
+      "themes": [
+        "equity outlook",
+        "AI trade",
+        "interest rates"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Saglimbene said stocks could continue higher if the 2027 growth and profit outlook remains firm, energy prices stabilize or decline, and the Federal Reserve's rate-hiking path is short-lived; he also identified a steady AI trade as important for a year-end advance.",
+          "k": true
+        }
+      ],
+      "src": "https://www.moneycontrol.com/news/business/markets/s-p-500-hits-all-time-high-on-ai-bets-as-brent-crude-drops-14045980.html",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Tiffany Wilding and Andrew Balls",
+      "role": "Economists and investment professionals",
+      "org": "PIMCO",
+      "cat": "Macro and AI investment cycle",
+      "date": "2026-10-06",
+      "published": "2026-10-06T19:21:00+05:30",
+      "themes": [
+        "AI investment cycle",
+        "inflation",
+        "global growth"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Wilding and Balls said a booming AI investment cycle, resilient consumers and China, and incremental central-bank policy could support growth while containing inflation.",
+          "k": true
+        }
+      ],
+      "src": "https://www.moneycontrol.com/news/business/markets/s-p-500-hits-all-time-high-on-ai-bets-as-brent-crude-drops-14045980.html",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-10-06",
-      "published": "Mon, 05 Oct 2026 23:59:08 GMT",
-      "source_name": "Stocktwits",
+      "published": "Tue, 06 Oct 2026 15:37:44 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Says Humanoid Robots Are 'Very Very Close' To Industrial Reality As Nvidia, Hyundai Deepen Alliance - Stocktwits",
+          "t": "Headline signal (not a direct quote): Nvidia Stock Hits All-Time Highs, CEO Jensen Huang Now Worth This Much Money - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc3hUdXFYUERYaUpqZHVqejVRSGVpVWI1ZEdEVGVoOVV1TENyc21HNWotSkw3V1hEckE1czNxbHVmYzkycTBGZ2NMN1F5bDdPNHVVOHNJSVY0OWVfZTVYMDdfQkkzTjZHaDRlNnRjbHF4bGktbk90cDRDOXR4cURYel9NNzAwelZkMzRoS3FJS0g0cHRtRHVObVdiU09PZC1wbnV6NXZBTC1EWEx5TURsc0F4Qy1lQUxKUHB0Y1Q1QXJrRVJBWHVadmNsdkpwZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcUxvYzA4QTgtOVpyLXJIWjNfWUdObWNaR3pXbFZuamo3anBDM010RW9EUUdIOWJmbFIyTjJvRmF5ZldsazJUcU5tWG5RUUNaMXZibmlMeExrTW5nZjhKVVlwWkU4Z1dOM3RNUXMtdVhZTnAxWEkyRy1XVDVWWWw0S1lZZlVRV3ZTb3pwaEdSdlhEYllySTAyamFQMXJXbWZ5Q3lzajRvbHFCNWFSNVBpem1BVi13RnZpTFF2Mk5tWmhtU1M0WWxxYl9SNW91emJ0akdzUThPQ1RWbjUwSVA0UUVSamxTWmkwRHBydQ?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,21 +114,20 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-10-06",
-      "published": "Tue, 06 Oct 2026 07:00:05 GMT",
-      "source_name": "facebook.com",
+      "published": "Tue, 06 Oct 2026 13:32:09 GMT",
+      "source_name": "Financial Times",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 14,
       "themes": [
-        "#AI",
-        "#AMZN"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): A review of 'Artificial', Luca Guadagnino's origin story of OpenAI with Andrew Garfield as Sam Altman in the controversial movie that Amazon dropped. Read more below. - facebook.com",
+          "t": "Headline signal (not a direct quote): Artificial film review — Andrew Garfield is a strangely likeable Sam Altman in OpenAI origin story Artificial - Financial Times",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYmd4RUlaUjlxM2lkUEd3aDA3Mnp6YlItckVmN2pKOGVZQml3ckdVOGtqbW1aek5SZlNTUVlKSkFqd1NhVHcwbTZRMlBPcUtHZDhhbzZOTy1hQXRfNTNsVGs2MHE0THZ5dTI4Nktja29DLXIteXhqX1hqU08tTUJKclVsZS1haWU4bXRsckMyTmEzS1F3cHVWSWRHZ1NJbTFKTmlRay0yaVlxcmd4RTBkRG5RbThrdGdDZTV3dzI2VVhYTnZNVlhEeUI5NWZXNUk2bDhILQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50SmNKbkNmbGdubGlPVmxFRTZ3SXdSR090cEdMQkhKVGZLQnk1eWJ4X2VFRm5VZUZjYU1JMGhqRGdyQnNCdkZwZS1Rc0V5WnNCWWZIRGZRSXU0M0VsTURLb0dDdmVaMVN1VXpSMDFBMXU?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -52,8 +135,8 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-10-06",
-      "published": "Mon, 05 Oct 2026 19:13:42 GMT",
-      "source_name": "CNBC",
+      "published": "Tue, 06 Oct 2026 02:38:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -62,55 +145,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives on Nvidia: It's the one chip in the world fueling the AI revolution - CNBC",
+          "t": "Headline signal (not a direct quote): Dan Ives Says Nvidia Fuels AI Market, But What If It Has a Lehman Moment? - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaUR1aHBuLXB5VzBZU0E3S19hamZfZHF0am1SRkVVNDZVYU5jdDVVT1RBUWlZODNnT0l1X0QyZlVZXy1XTzZIVTg0YnJwYll6Q1Jhc2lKM0FDYmhRR2M3aFprU09rSTExXzd1Sk02OFRmVWFHTWR2bUVOT0VocnJGZUM2MlBPNWlOd0loS1ltc2lyV1pvT3BPTU5lVWVudnhNcE1tZTgxX0k5TUZFYTQ4SDZpZ3BFS3BZ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbTdOR0dFOEQyMVlNY2VGRFV5eFE2X1ZRN0xjMllaVGk4SU1SM2sxcWppbkdPZV9WQ1N4RHJEV2FIMlhXM3lqc29wMkt5VE5LN2tZY0c0VFE0OHNiSW5LVDNpWkVjcXJxMUhMVWpFNWFESHRBVEVhS3VwLWNMUm1HdkVsQXFGZ3BlcHJHQ2J1VWhaaEZD?oc=5"
     },
     {
       "name": "Satya Nadella",
       "role": "CEO",
       "org": "Microsoft",
       "cat": "CEO",
-      "date": "2026-10-05",
-      "published": "Mon, 05 Oct 2026 11:00:01 GMT",
-      "source_name": "CNBC",
+      "date": "2026-10-06",
+      "published": "Tue, 06 Oct 2026 13:00:43 GMT",
+      "source_name": "The European Business Review",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Satya Nadella reinvented Microsoft once. Can he do it again in the AI era? - CNBC",
+          "t": "Headline signal (not a direct quote): Can Satya Nadella Reinvent Microsoft Again in the AI Era? - The European Business Review",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVGFya2NzRW50cWNkTkN2NkJTaVF1Rm9RY2VFUDlhV0Q3UWtLWTRkXzJrRG9uNDI5SXVvX0pTUS0zSVJuazduWVV3S0ZPelZ2X1VDME9lcWUwaEZOYmRqVFBRcVlmUTFwc3Z4Qkppa0l2bVJPWEl3R0otRDhhVkRBdTE5S1dGNFByOERKbGpPZjhRdzlqTHh3dHNxSktOeGFtcVo4aGVn0gGrAUFVX3lxTE1YY2ZVLTRYVUpjbFVBelVrRXdUZ2diU2dhbGpuaXpmSEpPa0xJM0tadFJpQnk5eGFqc3JQR3QtZEtneUg0UXNqWTNLSUhGQkZrdHpzbUFlN2J5QnEtb0lMQ2V3dWRiZGpJaW1INlhieHpXaF9mTElldUE4M2ZPT1BESlJKdFA2eVZPTndBVDlPd05INXBLT3JyQ21Da092a3dfZWZLLUJRZ190NA?oc=5"
-    },
-    {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "AMD",
-      "cat": "CEO",
-      "date": "2026-10-06",
-      "published": "Tue, 06 Oct 2026 08:23:27 GMT",
-      "source_name": "Seeking Alpha",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su sees 'very high' chip demand continuing for years, praises TSMC expansion (AMD:NASDAQ) - Seeking Alpha",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS3RGMUxGQXBzMVBjRU9kbHJPX0xNY3Y5S2V0MlY5RVpLcjZ4MDg2dEszZ3hYeDhVbHVuVjBDMGRvSk9SWFExR1RIRU5YSF84TDltZHFrUGVMbmlMbjhMQm5MTDN0akROVkhqSFQxNGpqeE1lMkh3TTBvYXpMWEZmMkEwVEtiV3JYRG00eEFHVDN6M29nT2ZRa252U2N6bGp0TGRzTjJ3Tlc3bDdLUzk2bEVBRlFVOU44SmZObHNRbk52UQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYWlEcE5uT1hYbmxJZHN0ZTNrWW5xQnhseHdUSnU4UjdDellEVFBONDRTdWRBc3k3VVVPSDB6X01WN1FIRXQ4TUdDSkdoV2g0ZFN1dERiYjM4OVhpMmU2ZjA5ZnVtOEdmTUVqd09vbGN4WWkyNFU4TGZtVldGdl9CczN4SUswaGUwa3Z2aXUtNEQwTUIxZ2xQTFI5aDQ?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -139,22 +200,22 @@
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-10-05",
-      "published": "Mon, 05 Oct 2026 17:59:05 GMT",
-      "source_name": "Data Center Dynamics",
+      "date": "2026-10-06",
+      "published": "Mon, 05 Oct 2026 22:00:05 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
-        "#BE"
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk confirms TeraFab discussions between SpaceX and TSMC, says SpaceXAI will be renamed SpaceXSI - Data Center Dynamics",
+          "t": "Headline signal (not a direct quote): Elon Musk Agrees Tesla's Early Custom AI Chit Bet May be More Important Than Ever, Backs TSLA Engineer's Warning: ‘Current Compute Shortage Is Only the Tip of the Iceberg’ - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdDh0LUVkSXBEYmFBNXVFX0Z6U3BZT3pxTm1PcFFQYWlrNVRoaFNDeVpueks4c2ZSd0JvcFRHeFVDX2JScmF5dFZ2X29LeXlieElCYXRVV0xIQnpBQ2xvd1dQTzJIVW5adk1xcmJ4eV9nbHNxdnFodDlGR2ViRDhpblpodHVpckszY1Z5R1NuODBOOVBoM3l4eG5FWDUtLTZwTVlraVktcDdvSzNNLXhybWh3aXV1MGJaRDZFSkNENktUNnJYSG12aXJRbzhHVTRXY3plQURMR3VjRHg1S0E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ194OWpTWVZHdDhtZ0g5bHZhM3FQdVI1T3pmZGlweE9GUFVwaDFMOFItbTA4eEFaOGpZanI5dGRScVo3VzdoWFdzUzJjVVNDaU1mYmJ4SkhCRThzdzRYTk8wdFZtR1VscHotVTg1YU1GbE04U3VkUlNSb21tUUZnMWhVX2N6X1ZCZkJhRDFtV1hQcFpIcUhlLQ?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -177,6 +238,27 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOT3Q0b3U0bC15MzFpX1ZUWHBJaE95WkhaSmxVN3k2UW9Wa3B4RmZIRWRRSTRDYjVhbER6a1lXSnVMZkRhak04N3JMYVVWQ2x2YVNZa1ljSUZXa0NMLW8xTWtyVmgyc0lZZXdOVGlYQldBWWFNNF8tdXBfZzBjVkM1UWZvYUZBZmprbjFSMzJnaXdqTkhfSWp5akVranpiaWtyWkVzNERhakdFVC1pVVV4cDZIZ18yUFA0MlIyZi1aWkZyQlJFamoyaFJ5VUotaUhYLXJObVc4NXB0cjktNjl6NE1hSG1VTnhWckp2MWhydXZNd2prcndkN1g1YVBIX2IyVmgybnNlMzhXaHJNbFE?oc=5"
+    },
+    {
+      "name": "Sundar Pichai",
+      "role": "CEO",
+      "org": "Alphabet",
+      "cat": "CEO",
+      "date": "2026-10-06",
+      "published": "Tue, 06 Oct 2026 12:31:32 GMT",
+      "source_name": "India Today",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Anthropic CEO Dario makes more money than Sundar Pichai, salary revealed in IPO filing - India Today",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWHVOTXo5VVRiZTVHOU9ad1Z5YlB2MWZwOTJjZWxBMmhTT1NNdzVETi1RYzd5QlhPbWhXR2hvM1V1VXNxbWRwaWJqX3Y1X1o5T2h3ZFpQb1FSdk9fd244T1FtY1d5c296dWJlamd1RTNJQjZaUk84WTRlZEtzU1ZiaVZCZERuZWU4Sk5wV3FjdWxpTnZPUFlkbnRxX2lXQUZRbEFsbnpEVnNqdy1ObVlPcVNacmRRUUpIalE0WFpoRnVyaHdZM1RKZ1g1eHpwak1LbnJkMTExeHI2cnBtc3pZMk9wZktWMV9CbEJJNNIB7AFBVV95cUxNWHVOTXo5VVRiZTVHOU9ad1Z5YlB2MWZwOTJjZWxBMmhTT1NNdzVETi1RYzd5QlhPbWhXR2hvM1V1VXNxbWRwaWJqX3Y1X1o5T2h3ZFpQb1FSdk9fd244T1FtY1d5c296dWJlamd1RTNJQjZaUk84WTRlZEtzU1ZiaVZCZERuZWU4Sk5wV3FjdWxpTnZPUFlkbnRxX2lXQUZRbEFsbnpEVnNqdy1ObVlPcVNacmRRUUpIalE0WFpoRnVyaHdZM1RKZ1g1eHpwak1LbnJkMTExeHI2cnBtc3pZMk9wZktWMV9CbEJJNA?oc=5"
     },
     {
       "name": "Arvind Krishna",
@@ -205,7 +287,7 @@
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-10-06",
-      "published": "Tue, 06 Oct 2026 07:27:14 GMT",
+      "published": "Tue, 06 Oct 2026 17:03:16 GMT",
       "source_name": "WSJ",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -226,20 +308,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-10-06",
-      "published": "Tue, 06 Oct 2026 06:35:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Tue, 06 Oct 2026 18:10:21 GMT",
+      "source_name": "TradingView",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
-        "#AI"
+        "#AI",
+        "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): RKLB Stock Rises Overnight: Cathie Wood’s ARK Sees ‘Enormous Opportunity’ As SpaceX Eyes Falcon 9 Retirement - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood Just Bought $13 Million of Broadcom Stock - TradingView",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUFJmTnpmU1NMT05heENadVYzdU03SE9yajNBRERSZUV6c2FNdmx1cTNNV1g0akVOcXA0M0FTUVhNVHJEcm9DODhuSlRvd21MeFh0endRcVlCQ05rTzJNYlU0SkZfbHFneGZIUUhjbG4yYklObExCXzBBdnE0MU9lMnBoS21teEl4TzJwUHNGNXRSTkRLWU51XzNaTnAxZEE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONGp5czZJOEZlbk5kQlpjV0RNUFhfZFBNU3B2RzRSRzYtb0xPbXRJeWliOXFyVGRuRE1VR1UzRW55R3g5QV9jS0k1VEM1QkFOQm1tZUN5cXc4MXdkMmJ2MTJvZG14Zi1VV1F5WENCQU5OZUs0ZWNfVm9OVUkyb0hHYjdWVll6SkVPWWpneGd2SVRrcFNldDJUMGRCM1AySHJZaFlCQkhOTUNxc3ZSZFYwZDN3?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -247,7 +330,7 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-10-06",
-      "published": "Mon, 05 Oct 2026 23:04:00 GMT",
+      "published": "Tue, 06 Oct 2026 12:47:59 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -256,11 +339,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): There's tremendous distortion right now in stocks, says Jim Cramer - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Tuesday - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbjhNWFhDYnlzZ0piZHVibV9fa3dwSlZTWlUzNEZXdFZfdlB2MmxTM0NUVXUzZjN2M2tJOV9uNWVwNk1YU3lWVkZZU25lNl80b2pneWkxdkdjOUhYYkg5ZlJUQmNPTVo1bTZPcGdmanRidjYtN05LZXRhRzJJb0xJZXhjeWNKQzhrZUlPVlc5V21ha0RNbzNhcTE3QzcxbnlnUTBWMDhoRTNSVGc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTFptTlNDMG5RZTJNdWR3T1hUWm5HM3NpUmZER25JelU0NHN5UWNMN0M4V01mVlNjYlBJdmNGdjNDM3F6N1dWOTNuUmhpUFhGeENXMVpNOEY1YkdGOENWQWVuOGxTVk51S3gxYkM0dTFCZ1J1d3BETWZnZ09BMm1tUjhIWEJMdm1FdzBmeE5ldTJYMWxJTkhST21Na2RHUzVDR1RBZEUyeDYtV084SzAyZWstRQ?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -287,10 +370,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 13,
+  "fresh_signal_count": 17,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
