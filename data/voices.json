@@ -1,70 +1,28 @@
 {
-  "updated_at": "2026-10-08T00:59:17.682568+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-08T03:42:57.285281+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Jim Cramer",
-      "role": "Host and market commentator",
-      "org": "CNBC",
-      "cat": "AI equities",
-      "date": "2026-10-07",
-      "published": "2026-10-07T07:20:00-04:00",
-      "themes": [
-        "AI infrastructure",
-        "large-cap technology",
-        "valuation risk"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Cramer favored established companies such as Meta and Microsoft for AI exposure, arguing that strong management teams may find additional ways to monetize AI despite stretched valuations.",
-          "k": true
-        }
-      ],
-      "src": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-picks-meta-microsoft-112025630.html",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Karl Ackerman",
-      "role": "Analyst",
-      "org": "BNP Paribas",
-      "cat": "AI semiconductors",
-      "date": "2026-10-07",
-      "published": "2026-10-07T12:37:00-04:00",
-      "themes": [
-        "Marvell",
-        "AI infrastructure",
-        "custom silicon"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Ackerman described Marvell's expanded opportunity as a roughly $400 billion total addressable market by 2030, with data-center applications representing the large majority.",
-          "k": true
-        }
-      ],
-      "src": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62226076/marvell-finds-400b-ai-opportunity-but-shares-take-a-hit",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-10-07",
-      "published": "Wed, 07 Oct 2026 01:39:57 GMT",
-      "source_name": "Dealroom",
+      "date": "2026-10-08",
+      "published": "Wed, 07 Oct 2026 18:36:34 GMT",
+      "source_name": "Yahoo Finance UK",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 10,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang's son-in-law Nico Caprez runs Nvidia's push to finance the neoclouds - Dealroom",
+          "t": "Headline signal (not a direct quote): Microsoft CEO on Jensen Huang: He has 'consistency of vision' - Yahoo Finance UK",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUDFUcGJmNVZ3UDJwU1RHTkpGa2htMjk1czJzNjNPeEdURFhuQWFQdzd1eGo2R2NQSG5XZzdDLUQ3a19Lc3kzVWF4bnUySVFha1lCQUtVVTcxTmttLWhXWWhoS2ZIMmtXa1ZyOWN1bVlTbXRlcWkwUTVEcW9CZkZKNUUzTUFvQzdISW1tMXpVUFNvS2JWbGtzU0lIVlNRWTI3UXVlbDNETC1oTG54RTlaaC00ekp4Zw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTk4xdTJnd3lCQjNWazE2TC0weFp6LUdtMTdwZzZja1dLTXQ2eEJ1VzB2eDh1QlI1azZvbmotMUhGdjVNU2h4aXlPSk9Pd080TDFHNUlZeXNJaGpHLWYyWld2ZUpfTVFSZFd2Y0ZXd19JTElZWkxoRGx2dWRMY0NEZGdGV3M0bTZTZ0hwWE5DM1NRdw?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -72,7 +30,7 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-10-07",
-      "published": "Wed, 07 Oct 2026 14:02:28 GMT",
+      "published": "Wed, 07 Oct 2026 17:10:08 GMT",
       "source_name": "The Hollywood Reporter",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -109,6 +67,28 @@
       "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYUdGQ3JER0JnWFdJcEs3V2FpT09hUUtNaTFFdUpNdXhTYW9UNUFxWHBJbDZobnJka2EtVjZBc0t3WVhkRGhVd0hnQkRpTExPcFc1bEFJTWNTSUsxUWN0SFh1RjVCa1NyeEp6UFFjZHVGQzV6dHBfTGJ2V2t6WlFMRzR4RDJEZ0pCVUZJaXdXYVdVc29jSFpxZmV3SmNPaE52WFA0U2FuclhKV1h5OVdsTXV2cFF1NDZB?oc=5"
     },
     {
+      "name": "Satya Nadella",
+      "role": "CEO",
+      "org": "Microsoft",
+      "cat": "CEO",
+      "date": "2026-10-08",
+      "published": "Wed, 07 Oct 2026 20:11:40 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Satya Nadella jokes Nvidia needs 'transfer of market cap back to' Microsoft - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0RkMURKU3hKV3pSazk0dXVwSEdwMjJRaVlVSm4wVTFSYllzTENZME1fdU9KajZfdVVWeGxranVOMlRMeHJkRVk3Zm9VWmNzRVlubDBvNGd6OEtZbXVqX1Y5MFJaNUhWVnQ3TFBYelIzS2s2b1lwWEhNeEYxZUhFOVhBck5YeXVRcmFGQlhwZ0NPZHBDNkVYc0dFZ016QnpmWnI1Z2Vsb3E3eV81ZjJzOHV0cG0wQlRrX3BsNQ?oc=5"
+    },
+    {
       "name": "Lisa Su",
       "role": "CEO",
       "org": "AMD",
@@ -135,22 +115,22 @@
       "role": "CEO",
       "org": "Palantir",
       "cat": "CEO",
-      "date": "2026-10-07",
-      "published": "Wed, 07 Oct 2026 06:47:45 GMT",
-      "source_name": "Stocktwits",
+      "date": "2026-10-08",
+      "published": "Wed, 07 Oct 2026 20:05:00 GMT",
+      "source_name": "Business Wire",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Galaxy's Novogratz Says Palantir CEO Alex Karp Exposed AI's ‘Human Commoditization’ Problem - Stocktwits",
+          "t": "Headline signal (not a direct quote): Zeta Global Announces Palantir's Dr. Alex Karp and Zeta’s David A. Steinberg Will Discuss Data Sovereignty and Enterprise AI at Zeta Live 2026 - Business Wire",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZGQzQUNManptaXBHdDZrZnoyN3FOZDZ4eHV1T0ZXUUp2Y2syYzhRSEhTWUk3SUFXQ2dCb2cyOVZxSWlPVUNKUndiOE44a2FiZmMtVWx5dkNfb2tHXzlINUkwM3dKakFSYk8ydmxWZU80UzdJV3pHSWFyWnVidG9UMFpGdVBtTUdUMWdZamtqR3Y2ME1UdHRsU0dhb0ZtRXU1ZUtTSw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNVkpoYUtpbHBiNV9ROERLSjBSdlRSRjF0VkZXUXV4T0tYWnZpeTBjWGtja1BqSFpGZi1hek5maFgwUEM2Vi1TbkxFZFhrVTFYcGw1a3pybU0tMGpTNGNTSFdrejJieUdOMTdOcF9tSGowZFRMbkFXWVlrc0ZQSXdmb2l4UWR2X1Y2UzBpLUN5ci1OcGhFTnNsQlMtbjlubXp5dWxYTl8zdGhqMDJ1NE1xMEZLUlMtMkRQQlB1NUJTU1Z2TVY0TUxITDF3dFp4VGtVTnFPamhEdEVTeWFtbzJPaDJJTTN4ay1uWjRTTjVnNU5iWWpwakM2aHZNdzVqTUx0dWFidUlYMXlrSVYtR0RuVnI4RFhhTFdXbWlFYWpQandwcWc?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -179,22 +159,22 @@
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-10-08",
-      "published": "Wed, 07 Oct 2026 18:30:13 GMT",
-      "source_name": "Benzinga",
+      "date": "2026-10-07",
+      "published": "Wed, 07 Oct 2026 15:02:48 GMT",
+      "source_name": "Reuters",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 9,
       "themes": [
         "#AI",
-        "#META"
+        "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta, Google Put $300M Into Zuckerberg-Backed $1.8B AI Biology Bet - Benzinga",
+          "t": "Headline signal (not a direct quote): US government, Google join Zuckerberg-backed Biohub in $1.8 billion push for AI biology data - Reuters",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVU4zVGFUSW93N3BIaHgxU0JHaV9DaEVxcEs2akx3bmhtN2VUNTVJcUVxbkx2RXRmdUhVblk5cXhaZ2gtVTFOeFE1RnJhNk9QaE5uSGhJcmM5ZW1YeW9xb05Rem1vVHJ5YTZHNXg3UW5pSlM3UlBVb00yUkFHQTgyemJ2Nlh6OU1OdzZYRW1fVlJjTXVEeERjel9HZUlSUXhuZkE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWTdsWTdFWVdPWUFDRjN1RGd6el9PR3NQNFN5blFINGVqVUNRcXMtaW5JcDQ0OV9IejBJa0stOHFnaG9Kd0Q3N3BObTEtQWFXYW9ad2JCS09oQV9iWlB6dU1RSktCSnExdWVUdnRXQmE3aTNCdm5LV01TTW9vbG9sRkctZFhoNm1wdGlqcGtRd3RhRFlzUWt1dElpV0NocGtvYlgyenBlUG5ZV0N6eHUzTXVYSDhzWWROWUhDNlJRYnhwc3Q0SVZzUjUxQUp0OFNkbmFrZEpiNDZweEdRbG9nLUgtZw?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -266,8 +246,8 @@
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-10-07",
-      "published": "Wed, 07 Oct 2026 15:01:00 GMT",
+      "date": "2026-10-08",
+      "published": "Wed, 07 Oct 2026 20:43:00 GMT",
       "source_name": "Investor's Business Daily",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -281,11 +261,36 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQekVlaUY0YkRGY3Y3R3NQaW52cE9ObHM1ZDY4eDMtNUswLUdBTk1uTTVpMmxXRVhVdmFmZTlTZnhqYXJuV2I3OWd5UkQ3Uzhua2RmaEpobmE2ZzZCT1RsNlBUYzlBTGlHQmNCUFVaeklVZEFWS3ZSQmNuaF8wU21aUUh6N0pnTnVjbDlVVXFyMTNCOXRQWDRna2RwVjVXbWp3RjhEc0xhTEZ3cFQzdXpMVVFJM0E0bXFLWWc?oc=5"
+    },
+    {
+      "name": "Jim Cramer",
+      "role": "Host",
+      "org": "CNBC",
+      "cat": "Analyst",
+      "date": "2026-10-08",
+      "published": "Wed, 07 Oct 2026 20:24:48 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): SpaceX’s plans to buy more Nvidia GPUs is keeping Jim Cramer bullish on the chip stock - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNd3VHQTk5eWd5YVdZbTh3MFg2UXFScU1YU0Q3WHBPeVVCMmlKYVNnSV9jcWdtSVIzWjVGLWVUdE91Z044c0ZoTi1GYk1TYmI2Skk1Wk0yMl9UNkxlSUluSnUyUnpHbEFvNVVEbHJqSGZGekVIOVlLMFVMY0VnOHh4M0F3WW5oQktXVno5bTlieVFZZzBrdnpGaVlXaVJSeU5veFEtMldfSDRxdW1Ta2N5ZlhleUVCUFQzTzQ0M0VDbkRlZ0RBNk1GSFFWdG5SXzZJZEtZ?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
   "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
