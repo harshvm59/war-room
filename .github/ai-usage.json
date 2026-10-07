@@ -1301,6 +1301,16 @@
             "web_search_calls": 1
           }
         },
+        "2026-10-07:framework": {
+          "billing_status": "provisional_estimate",
+          "error_code": null,
+          "estimated_usd": 0.25,
+          "id": "0cd23fa126ba466a87f19c547752ff39",
+          "model": "gpt-5.6-luna",
+          "reserved_at": "2026-10-07T07:11:14.373108+05:30",
+          "status": "reserved",
+          "usage": null
+        },
         "2026-10-07:news": {
           "billing_status": "usage_estimate",
           "error_code": null,
@@ -1334,8 +1344,8 @@
           }
         }
       },
-      "estimated_usd": 1.45565978,
-      "unreconciled_attempts": 1,
+      "estimated_usd": 1.70565978,
+      "unreconciled_attempts": 2,
       "usage_totals": {
         "cached_input_tokens": 12969,
         "input_tokens": 335761,
