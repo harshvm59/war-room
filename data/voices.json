@@ -1,58 +1,14 @@
 {
-  "updated_at": "2026-10-09T00:54:11.754660+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-09T03:51:02.779550+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Tony Miano",
-      "role": "Global investment strategy analyst",
-      "org": "Wells Fargo Investment Institute",
-      "cat": "Rates and fixed income",
-      "date": "2026-10-08",
-      "published": "2026-10-08T05:17:19Z",
-      "themes": [
-        "U.S. Treasury yields",
-        "Bond-market demand",
-        "Interest rates"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Miano said higher Treasury yields are beginning to attract buyers because investors are willing to purchase government debt at sufficiently attractive prices.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/stocks-markets-bonds-oil-us-6a096d714c874db13632794a32cebaa6",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Jim Cramer",
-      "role": "CNBC host",
-      "org": "CNBC",
-      "cat": "AI equities",
-      "date": "2026-10-08",
-      "published": "2026-10-08T13:30:00-04:00",
-      "themes": [
-        "AI investment exposure",
-        "Meta",
-        "Microsoft",
-        "AMD",
-        "AI valuation risk"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Cramer favored established technology companies such as Meta and Microsoft for AI exposure, arguing that strong management teams may find additional ways to monetize AI despite valuation and bubble concerns.",
-          "k": true
-        }
-      ],
-      "src": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-sees-more-ai-133009450.html",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-10-08",
-      "published": "Thu, 08 Oct 2026 14:22:53 GMT",
+      "published": "Thu, 08 Oct 2026 15:20:00 GMT",
       "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -94,22 +50,22 @@
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-10-08",
-      "published": "Thu, 08 Oct 2026 13:10:56 GMT",
-      "source_name": "TradingView",
+      "date": "2026-10-09",
+      "published": "Thu, 08 Oct 2026 19:23:49 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave - TradingView",
+          "t": "Headline signal (not a direct quote): Apple Could Be the ‘Toll Collector’ of Consumer AI. Dan Ives Sees $75 More Per Share - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeEF1SW9oTXJlT29iU2daUEFDdjRpalFZcGFtTG8xWDl4TWVPZjN3dXlkRlN0OUJMNmNYTDJPQmV5cUpFZEp1Z205ZXRZWnNqU3M4WDJZOWxDOE1rZXpSSzlPUXdSbVU0UGhsaUxuN3lPcHFNazQ5UE14OXlISFV6OUZqZGNMTnplLVpUTFdyWC1kdi0xYjFnZDJqMWpNNjVhUFF1emRVeFhpaUZJbFlweVFVRFBjZmJyWEJYZjBPbWk4ZU5LanJTQThXaEhwd1h4alRQb3Vn?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeDFxTzg2MHdUR29tclR1UlBvQmpUV2hfaWw3dmthX241bnliRm8wZHN1TjRQTWJKMUt4aDg3YUVxSXBnTEhNSVdlZ19UUkNobGVQa1lBcG1zZWhtLXprVV91WmNsZHBsMWprMDRxcTRKTHpCdXRyZkZERm4yMzNBN2lBLWROTFBONk9jeGhfb1hXRHdlbDRxSGw5b2dodEFUdy1aNUJUQWtVYXlk?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -161,21 +117,21 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-10-08",
-      "published": "Wed, 07 Oct 2026 20:05:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Wed, 07 Oct 2026 23:05:00 GMT",
+      "source_name": "01net",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Zeta Global Announces Palantir's Dr. Alex Karp and Zeta’s David A. Steinberg Will Discuss Data Sovereignty and Enterprise AI at Zeta Live 2026 - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Zeta Global Announces Palantir's Dr. Alex Karp and Zeta’s David A. Steinberg Will Discuss Data Sovereignty and Enterprise AI at Zeta Live 2026 - 01net",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdXl5aGhOTDJMOFNOU0FqQVFVRElEUlhoOTNtYTZLajFqM2V3aFh1RDZ0NnB4cWMxbXIyY2dKdGJWSnd3NTJvQ08zM2gxaFJScWhrNWRFa0RRclFXRnJPLVNtWWNDdkt4WW56dktuZXV2SHJkQWhOcTNjWUN1WE9odnZ3TW5FYmdPZnNOdU0wTzZpcDNWTmNiakZOWHF5TlE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZ0ZhU2ROWkJGcDlOTDRsbk90RDBVYTBaNGRSZmh6VTN2aWFPVktRNnpwdjBKMWZ6UW4xajRpaDRvY1hpb2lXdU01d2ZtOUFjTGYtSE56RHNoaW4tOFVHc2xBYzRjZDFNSk9iRWZhLUtNdXRqRUpPeF9Fbm4teWxRQV85czRiYS14TlFDUE16RklJdFpZMEFRZmwyUVozZmZZRnE3MzhzRTg1eTJWTUVKZ2hFTGlxRHNhdTJOV1kyaGtQbDZwQ1d6U0c2TUd5RVJwbTI4NmZCaW9DNDltdHZkb0xTRUVndEpoV0xMaDlSU3JaZw?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -205,21 +161,20 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-10-08",
-      "published": "Thu, 08 Oct 2026 13:13:00 GMT",
-      "source_name": "TheStreet",
+      "published": "Thu, 08 Oct 2026 09:00:45 GMT",
+      "source_name": "CNN",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#META"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): How much META stock does Facebook Founder & CEO Mark Zuckerberg own? - TheStreet",
+          "t": "Headline signal (not a direct quote): ‘Political chameleon’: How Mark Zuckerberg charmed Trump and got his way on AI - CNN",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVHo0azE3clZqVmF4d3M2RmIwTWpWNDhVNklHVGFxdG52U2R2dl93eHFta3l3aHdwNjM5aWVpa2lNNnhfX1FIZUlCa21EUnY4cGJkR3N1TTZVRFpZQ1FHNEw0ZElLSFdQU3VsZ0FHZGdCdmNtdk12NkRaaV9OZ1l4Nkc4UWxJdGxxMEhDbnV3Z0JpcnpRbzU0ZTdHTHp1ZHBfNm9IYS1ieWE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnREd5QTNuVm0xczQ1S0hsczZSVExoeTU2X2IxSTRmRkxQZ3IxR2pSb09HbmtJa1hWSDU3UXdtbGw0OVNQdmhhWDYzX0x0MlA0TlhPbmFoeTBvU1hYNjMxaHJrUmFaT2dHdTEtcHBfUmw0UQ?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -287,27 +242,6 @@
       "src": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcEJSekozT081WWhrSHRmX3dBUnNtSm80MjlySkVPUVE3dUJzTnBLNGkwNlRjU3FxdWU1LVMtNVhsazhGMzNIZExTcDV6MFlSSHFhdTRpc19FaFh2NU44VlhnTnJYaTViY1Z2UG1aQXNOTUU2TDk4clk1Q094bi1jLWROLWExVTNvaUhONlRxVEJscXlrZERiX29VcUdaUHk5dm9qYVZ6TEh0Njl4bjFkeGdtQ3IyQTNSalpv?oc=5"
     },
     {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
-      "date": "2026-10-08",
-      "published": "Thu, 08 Oct 2026 14:25:50 GMT",
-      "source_name": "WSJ",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Oracle Billionaire Larry Ellison Is Buying Up the Neighborhood - WSJ",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnhIQ21JLWk2eWNtYTZ6V0N2MlNXTkhQUjdXcXFVZ1JrY1lwcnhYVmtUS0VBa3d2aWprbE84Mmc0N2k3N3dMcTE0UlFxampoYXlSV25SRHJQdWM4RjJORjB1eGZTdzI1LWRYRHMtVmFuenVZWVdUbTJhS2lTRmlNbzUtM3JvNlU2M19BVmN1MjR3UkN0eTdzT3Y1YzVBNnAtMFBWc1hIbDc0elVBSTQ5am14QUp6M00?oc=5"
-    },
-    {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
@@ -329,52 +263,55 @@
       "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ1ZmMFJOdU9XM0ZXNEY2MkpWQk9ranlCMlo3YlpTZ1ZoMzdaUmNpRW8xYU5DSzdXaFoxNks5NTNZOUozUnJvcEl0S291Z19SQ2FsajRFbHo2RUlWRDAwZHhrZDNJdTZCcDhJLXExZi1kR2MwdUFFd3h2QVZpclhBQ1c4OE9tN2lZb0JZZHQzM1k1NzR4TWJpMUtwZ3Bld2VNQkdaallkalNMQmw1RHZJekNsdw?oc=5"
     },
     {
-      "name": "Gene Munster",
-      "role": "Managing Partner",
-      "org": "Deepwater Asset Management",
-      "cat": "Investor",
-      "date": "2026-10-08",
-      "published": "Wed, 07 Oct 2026 21:05:50 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#TSLA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Dan Ives Says AI Capex Boom Continues 'Full Steam Ahead' After TSLA, GOOGL Earnings — Gene Munster Notes Tech Industry Still In '3rd Inning' - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNckJ1M3lOTUFSaDI4dTN2N29fcTdKTm1QVk5Pa3o5TzJnLS1wazJSQkRnbzNxOXd1R0xPZmpKM24yLU11cVUzZGJ3R1JyUExMakZFaU9wWXNnRXZpWWFUcHBSNXBFS2xoZWVSN25Vd0xaTXNSZmJTeE45R1Jibm5CMXlmc29zd2xKMm8wYldwVVFuVWxmZXBoazRJSEphUlZjNWc4RUtqejhLUWtZZ2QwM1VYQUx3eWRLWWhWaXk1V1ZxbTFzQmJHWlU2QzdTc05Nd2V0bHFwOGJCMXpJa2c?oc=5"
-    },
-    {
-      "name": "Beth Kindig",
-      "role": "Lead Technology Analyst",
-      "org": "I/O Fund",
+      "name": "Jim Cramer",
+      "role": "Host",
+      "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-10-08",
-      "published": "Wed, 07 Oct 2026 21:04:12 GMT",
-      "source_name": "Beth Kindig – Medium",
+      "published": "Thu, 08 Oct 2026 13:04:30 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): What Project Jupiter Reveals About AI Data Center Stocks - Beth Kindig – Medium",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Thursday - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQM1FSR1FMYkxILWY2U19Vb3IxdXF1NjBfVm1uck13cVN5bS1Xc0hsNUhtQk5zNnhMQkdIMm1WOFlVWG1iWno1b2N1MjJwNG5haHV0REVxRHRGOElhZWVWQTZKWmExYk9BV0JwRkVZcGstQjRxS0pEbDJzbTFDUHhGYUw5X216cVViZV9CMzBzX0JETERNd2NKZXY1cF9Va2M2dkE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSHozamVtTkdmazNwTC11SE9nTm9iZVFMZDZHSmhZUmxXcGt4NTljRkxKUlM3R0F6NlM4U01UazJUaDdhcS1mcTl4d1N3a1ZRWFFjbW1jSElvYWc3MXkzQmFjSlcyZmdxcUFaS3o3bjJfTDV2WGd6NUE4T3B5TF8wUDdab0RVOEg4U25adFRtcFhnOENlRWxqOV9QZGl5azFsb0hJaEVoSF8wR0ZMeV92WmJESzM?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-10-08",
+      "published": "Thu, 08 Oct 2026 02:17:17 GMT",
+      "source_name": "Stocktwits",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#MSFT"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): MSFT Stock Faces A Bigger Test Than Earnings, Gene Munster Says — Why The ‘Bot Boogeyman’ Won’t Go Away - Stocktwits",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOWjFzOWcyU0l4RWdoWEtPT2VhOXBHNnUtYzNRd2RJUnVFY1U4WTdaWDVpYU5WV3llbHJIM3NQQklGNkZCQy1Zc0ZncmJMaHRLa2tZQ25CVHA2LUNFakhIbFN4bUxjWmlpR3RwZXB5UC1IQ21NOUJfcFBvcldiZ1A5OHIteExENld3dnMtTTFleFVVaVI2ZzRUTnpGd2YtT1hxQVNJY1ZoS0ZNVDZ6VEp2QUJOb29zcUhRNG82anpRWnVzcTBibUk2QzVvckliUVp4N2FobHBOQlB5U2U3Q01aUGstNlB0UEVFX2l1NURZV1o?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 17,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }

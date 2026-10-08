@@ -1,7 +1,147 @@
 {
-  "updated_at": "2026-10-09T00:54:11.754319+05:30",
-  "source": "openai+web_search",
-  "items": [],
-  "provider_error": null,
+  "updated_at": "2026-10-09T03:51:02.779212+05:30",
+  "source": "google-news-rss-fallback",
+  "items": [
+    {
+      "ch": "The Globe and Mail",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "ETFs to Benefit as Nasdaq's Breakthrough Still Matters - The Globe and Mail",
+      "date": "2026-10-08",
+      "published": "Thu, 08 Oct 2026 15:21:52 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AI",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOd1VRdS1jMW4tWl83OGpyZDFCZ1RENXdPRmVQVTNpY1g2NXBPczB0NWpGNktuLUpGa096WHpKaDBLRkpYdDJZWjBodXBVRWZGcTU1dkFvc05WWno0SkpSYzhaNTV5RFdYMkUwYUl6VnRMalJqb3lLWVZ6YmNjX3BiOThIZ0RKY0RqdW9QdXFvYVI5S05oRy1SendSakxoTHNjSlYxWXBXTW00X2t3djNJY3U0VDlQd3Uya2dsWTZDa05reUdDanlaZjZCTXBSS05JY0ZtYg?oc=5"
+    },
+    {
+      "ch": "TheStreet",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Why Nvidia & Microsoft still matter when Treasury yields rise - TheStreet",
+      "date": "2026-10-08",
+      "published": "Thu, 08 Oct 2026 13:47:00 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#NVDA",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNME96Nnk5anF1UUFqc0FkaFBUUTNERTdCSE5sZnBWS1NXMHR1VnZ2QUdNc2NYbEdUWnNVakhYeEhWdGIzdm9uS3N4cERraVNxN1RReWo5bHEySTdSRWhPUkJuanlpaUR6TWRlbmhZb1RWaWJUZHF0SldmLW9fWjZFYUlhVVBTb1hDbkg5WDIxYmxqNEJDMllWSkJONA?oc=5"
+    },
+    {
+      "ch": "TradingView",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "ARM Stock Rebounds 11.5% in a Month: Is it a Buy Right Now? - TradingView",
+      "date": "2026-10-08",
+      "published": "Thu, 08 Oct 2026 17:10:00 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AI",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ05rTUZ4UHUtR0stR1NXelp4TExTcUxVcF9qR280ZXFmUmt6YzJ4U3l6a3A0LWExYlE4WE5oa2g4TmVSdFItM1BVejhfb3p0dFV2Q0M2cW01Zk5hOU9wcUJ1Ry1VanRZaTlzTmRrVExkUWRQMnc5MmZXTm1UdXZyZHJDcUpVUVA2eWR4cnN6MGVWaEM4Wjl3TmJ1V2l1SEZNRlRuUVJzV2hrUURlUnJ1c1ZR?oc=5"
+    },
+    {
+      "ch": "Simply Wall Street",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Microsoft (MSFT) Unveils Surface Laptop Ultra With Native AI and RTX Spark Chip - Simply Wall Street",
+      "date": "2026-10-08",
+      "published": "Thu, 08 Oct 2026 14:51:19 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#MSFT",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZmVoQVJRc3NTRzZxRlVfN1JvVzBRU0VaTC16b2RFOWZfRG1HUURWemZOSXM1eXBuUklxSnVSQUF3bmZaTU1hWG9wS2NIXzRFc2hRaXBUeWs0bzRVbEtNNUYxTVZLOUFkYlBYVnlGQm9tNm1vSUdZVWdJQzNNOTl2TXMtNjZOUkNjWjFuSGNNdm9xUlJSWUIxZXQ4emZLSExRQndkbC1BRDUxRVB1QkROcXVFLWJMc1hSWmdZZmdTcjd6cGZsbzFz0gHMAUFVX3lxTE0wbGgyVE5Ud2JTYkZtcElSRmt2R24wZ1d6SHFVUGZwMmI0bXJQU09DSVJzcmtCSWZvUmE2ekIwTGVNYmpOOTV3eXU5ZldYNDAzRWJ5NWxYaEYtVGtxQS1tOGNLS2R3M3N4bHlxWG15OWZRTGJhdXNjdVNaVk9pLTNZWVd6REJzeDJDdDUtdVhJNnNqNkJ6c0gtMFFRSkJtb3AwUFBTbFBjbTBRZS1FZVA2QWdPWXh4elBqY0l5ZXE4dUNUWEJDWldoMVlwag?oc=5"
+    },
+    {
+      "ch": "CryptoRank",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "3 Stocks Investors Are Buying That Could Double From Here - CryptoRank",
+      "date": "2026-10-08",
+      "published": "Thu, 08 Oct 2026 14:48:57 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AI",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYzJyVjFqQThIX2xhTjdTSV84RlZhOXVrRV8tRkR4UnBHVEF5VHlIVG1SWU5YNmZoUHNJZ0s1X1A2VDVuM2VBR2RncXY2N24tR2ozRVBUU0ZwQklyTE8yWHF3b0h4ZmQxUU16X3NUZUlrcHpnOUFIV3JWMnkxb2ZWUXJiZzJSSUU4UUM5LTFrRGNOeUtIa2lrcGMwdw?oc=5"
+    },
+    {
+      "ch": "24/7 Wall St.",
+      "c": "#4a9eff",
+      "theme": "Energy",
+      "title": "Microsoft’s Most Powerful Laptop Ever Runs on Nvidia, Not Intel - 24/7 Wall St.",
+      "date": "2026-10-08",
+      "published": "Thu, 08 Oct 2026 13:30:00 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#NVDA",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVVFpOFZFenJUQ1lTaEJzS3hBYmZHTVhvLWtISjNrSWRGb25vNlQtWjlNMUhyZG9idFlpaWJveFNLWWRGemtvYll5SFFIZXJyTHpVZndwd3JjOXVzZnZvMWJxbEVvVGVwQnRDazRzZElCOVJ6QmRlbzNIMS1jaXZwelBZTGZyX01zWG1NSV91YWFySXZ1TXh2Nk1hRHFZdThWNWdNVW1JeS0?oc=5"
+    },
+    {
+      "ch": "Mitrade",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "US markets are back at record highs — can earnings keep the AI rally alive? - Mitrade",
+      "date": "2026-10-08",
+      "published": "Thu, 08 Oct 2026 02:23:13 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AI",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9LVVlzajFaUk9xN1JWLXRRaUtVaFRZWmxSVkVoT0FING1OWVBGRHU4UG9YNl9BeHl4R0tjOWRZblZHMlU4SE9CYk9CaG1xbGJOMy1NbTZVd3VQMlVzOXNfTDN2VzljeXRISkN6NlFLSEQ4cmd6cFVGM3p5YU1jZw?oc=5"
+    },
+    {
+      "ch": "TradingView",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "NOW is Overvalued at 28.92X P/E: Buy, Sell or Hold the Stock? - TradingView",
+      "date": "2026-10-08",
+      "published": "Thu, 08 Oct 2026 16:25:00 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AI",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdkVqem1pNmpQMVF2dTU3VnlTcVJYZDBGNTN4VVlieUx5VkxMUEZ1ZGNwcXdoVUFhbTdsSEFuVzQyUGdOT2JrOU1sYXpCWXJBRnY2a2tOTWN6LUh2dG0wTFJ4a0xwOTV5NWFxYmJNcTRaTVdiVmZmc0lFZy1ZcW5CRzlhNk15WllzeFpfVEtsUDhIYzVRa0s2VE1CRXdfYW4wQ2hFVGVtQnFaSEh5aG93aVNENWs?oc=5"
+    }
+  ],
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
   "fresh_window_hours": 24
 }
