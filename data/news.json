@@ -1,83 +1,26 @@
 {
-  "updated_at": "2026-10-08T16:21:29.238149+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-10-09T00:54:11.755551+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "AI",
-      "headline": "US markets are back at record highs — can earnings keep the AI rally alive? - Mitrade",
+      "ticker": "SPX",
+      "headline": "Rising oil prices, falling technology stocks and reversing bond yields shake Wall Street",
       "date": "2026-10-08",
-      "published": "Thu, 08 Oct 2026 02:23:13 GMT",
-      "summary": "Automated RSS market signal from Mitrade. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9LVVlzajFaUk9xN1JWLXRRaUtVaFRZWmxSVkVoT0FING1OWVBGRHU4UG9YNl9BeHl4R0tjOWRZblZHMlU4SE9CYk9CaG1xbGJOMy1NbTZVd3VQMlVzOXNfTDN2VzljeXRISkN6NlFLSEQ4cmd6cFVGM3p5YU1jZw?oc=5"
+      "published": "2026-10-08T05:17:19Z",
+      "summary": "The S&P 500 fell 0.6% and the Nasdaq Composite fell 1.4% as Brent crude rose 4.3% to $104.49. Treasury yields reversed after a strong 30-year bond auction, while higher yields and oil prices added pressure to technology stocks and broader risk assets.",
+      "tag": "Macro risk; rates; energy; technology",
+      "url": "https://apnews.com/article/stocks-markets-bonds-oil-us-6a096d714c874db13632794a32cebaa6"
     },
     {
-      "ticker": "NVDA",
-      "headline": "Dan Ives Thinks AI Buildout Still In Early Stages, With NVDA, MSFT, PLTR, AAPL And CRWD As Top AI Picks - Yahoo Finance",
+      "ticker": "META",
+      "headline": "Jim Cramer sees more AI upside ahead for Meta, Microsoft and AMD despite bubble fears",
       "date": "2026-10-08",
-      "published": "Wed, 07 Oct 2026 19:00:18 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT2gwaTFKNWhUYnNlTkU3UHFkcThfUUpOUjE5bVp0WWxKLXN3enc2YlVmTWZUWFd2SHl2WFJxa3BnS0swMVQtU2UyaGhmcjRwY3VDaDVmX2p0U3hncUxDNWNCVW5tdkc4RlJxMkw1QU9ya01MWE9FbTJqZWJOd2pObEVZajZpWnBlZUVHNkxYV1ZSY25jY0E?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Samsung’s Record $80 Billion Profit Beats Estimates as AI Memory Demand Surges - TIKR.com",
-      "date": "2026-10-08",
-      "published": "Thu, 08 Oct 2026 08:26:15 GMT",
-      "summary": "Automated RSS market signal from TIKR.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeERFMkVFcllqWHlmOC1VQ29TZGlmcW4tM0VjTUhEYnRsSFJUbjJaYXAzeUZVMlZBZG8zX0hnam5zZGJ4VlFUV21icHFtMW1OaFZMUXhiV2pGNEEwUlh6Z1RISEEweHN4Y2E5Zmh6bXhMQXpieXRUQ0tLSWlGQXE0SEdXU0hJNzY4M29hSXdiTU5oN005VXFicy1Kb0ROYm5jTy1XbQ?oc=5"
-    },
-    {
-      "ticker": "MSFT",
-      "headline": "Amazon And Microsoft Ace Wall Street’s AI Test — Analyst Warns ‘Mag Seven’ Now Faces A ‘Higher Burden Of Proof’ - Stocktwits",
-      "date": "2026-10-07",
-      "published": "Wed, 07 Oct 2026 14:59:58 GMT",
-      "summary": "Automated RSS market signal from Stocktwits. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT29BNW5IcGNKZWh5WmU0WW9XUlppRldqR1VhUGRWX0RZMXlKaTYyLWRJTWRPZ18wdnlrTFB3OER6dGNKUlZhOVBFU3IwdU9OMXFqT0dEbmpUc1hia0lqUy1oOFBqMFR0Mlk4S2t4WC1hUXpaMThlbTdNNXJYT0k5ZVplRVJyWE5WTW1mMnJBeTloTDNlSXlwaE9MeW95ZWFrZ21QTjFLWTB1alAzX2NoUE9WOUR0ZXA1WFM4?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "SpaceX vs. Nvidia: Which Is the Better Trillion-Dollar Artificial Intelligence (AI) Stock for 2027? - The Motley Fool",
-      "date": "2026-10-07",
-      "published": "Wed, 07 Oct 2026 15:30:00 GMT",
-      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTlNodjNYQm93Rm43a1V5aHhEWHFUT0c5d1dJcXpmeXdqbklXeGo2MDVYWlVnSzV6T1NQNDZRQjNnckpoSTJ5SGhORGJTRmNpRU0teURkQ1ZJT2RWd0dLenBibWt2UzVYNVFFaENIUmstRE8xaENISTFlTXdESjE1Yk9XaTJKdGpkZTVGQjdkd1ktakoweE1V?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "The S&P 500 Just Reached a New Record. Here’s What History Says About Buying Stocks Now. - The Globe and Mail",
-      "date": "2026-10-08",
-      "published": "Wed, 07 Oct 2026 22:33:02 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRXA2S3QwbXpLWlhwcVRWZnNQa0c0bU55MTNoUGdkNG9ScVJXdk04QmkyZTBYbjJ3aUtTbldYMDVKLW1ZWnFqMll1X3FLMDNlVjFWNEhab011eFY5TTZBb25TakNweDFoVFVDQUhxUGN3bjFRUjBQbmNWRlhzN0N5TWt3Yzg4SEI1UndQRjlCMDJhY0VvYUNDcTdPcGZKaWhNSzlBdGdQN21jb2wyNXlYZFBxemtMSThnQ3dVRkFpbXVwbEFYb1ZpY0JVcXhRelBwUHRUZk0xZm45cTNlaENWNWFQX2NwTGxfNE9relN1YnYtb2RZWUhsMjNSNmRNQQ?oc=5"
-    },
-    {
-      "ticker": "TSM",
-      "headline": "Why Are Nasdaq, Dow Futures Falling Premarket? MU, TSM, APLD, IONQ, HOOD, BULL, SLS In Focus - TradingView",
-      "date": "2026-10-08",
-      "published": "Thu, 08 Oct 2026 08:45:53 GMT",
-      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLVp4bkQ5MTV6SS0zc3ZKMEFxTmdqR1FvTUxuYkdFdzFXTVRiemowd0REVUZOUG56aWtZcjhtMEFNUDhpeHBvaDVnemkyLTdYclJocFBneGpfMnJCYlJMa2ZQMGp0ejRQNk51bU9UUDFURzhoYWdOR1cwMGdHWXlNM3FBRUZyNV81MWNDYkotOTNFRGszcW5PNG1STUNjWEdlbmJobjJURHQxcWt3ZndyRVdLNHdjTVVoU0laV0U3clhxMGdSZDc1V2huemhMdkY1eGozWW5XRElBMU45TkE?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Three Stocks Are Now 21% of the S&P 500, the Most Ever - 24/7 Wall St.",
-      "date": "2026-10-07",
-      "published": "Wed, 07 Oct 2026 11:30:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeXZYalVHTDFHZG9NZmZhWjE4YzA3QmFGY21LdXV5RHRZUlp0UU5VSjZkbUFScnlZRlgxa1FWRTl3aEdDRnhkdFl6WU54a0J0bU5JYVltTDg0OFNZVHpQMHBvWFdvUksxeWJ4WUxpYVpEMG1uX1VPajhCRnFEUFAtaGl1ZmhkU2FrbkRoQXFnVXlHRjRQVnFVWHVVNA?oc=5"
+      "published": "2026-10-08T13:30:00-04:00",
+      "summary": "Cramer said investors seeking AI exposure could consider established technology companies with multiple potential beneficiaries from AI adoption, specifically citing Meta and Microsoft and also discussing AMD, while acknowledging stretched valuations and dot-com-bubble comparisons.",
+      "tag": "AI equities; large-cap technology; valuation",
+      "url": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-sees-more-ai-133009450.html"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
