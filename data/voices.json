@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-10-09T16:20:14.652451+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-10-10T00:27:33.000568+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-10-08",
-      "published": "Thu, 08 Oct 2026 14:47:00 GMT",
-      "source_name": "Fortune",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 10:18:51 GMT",
+      "source_name": "Seeking Alpha",
       "signal_type": "source-linked headline",
       "relevance_score": 13,
       "themes": [
         "#AI",
-        "#BE"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang says if you want to be successful, be prepared to suffer - Fortune",
+          "t": "Headline signal (not a direct quote): Nvidia: Jensen Huang And Lisa Su Agree On One Thing (NASDAQ:NVDA) - Seeking Alpha",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbHJPRFVJMzN2Y190RFF5S1AyTmk5aHAtSVdiQ2k4N0czekpDN25MMzhaa3l3TnBFTFU2TnhFTVI5SEl2TEplS3d5VDJyanc0bTRxaXA5cEFNeW5IVnNGZ1JFVkx3MlB0Zy12aWtQTExfTHZpRXNIcS13M0hGaUN4cnRMNXpMT1hWZWdXeG4wV09NOEhsdXduRk02YVJ6SHhmdTZpVjRBYnllVTdYRjFLRmxvODh2Znc5V013OGlOVmFsQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUkZDUnVuV1M0aUthUnQwU09uWWR5UGhEZ0F4MkFxbllWYWxRbUMyNFJQMTRrTFNFcDJ3eW1WaTNCV1pCMVpqOHIyT0FnTERCWDJfb1NBV1pJNEstM1BMMUVlU09GMjFJanViOVZuRnNpRGxQbkxWdnNQdnFuamtHUU1odjZTQjE1d2xmN3pNazhuV2ZUZkE?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-10-08",
-      "published": "Thu, 08 Oct 2026 17:57:00 GMT",
-      "source_name": "The Guardian",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 17:38:33 GMT",
+      "source_name": "The Next Web",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman says AI will make ‘bad things’ happen. Exhibit A: needless death | Moustafa Bayoumi - The Guardian",
+          "t": "Headline signal (not a direct quote): Sam Altman says the OpenAI share price will come second to its mission - The Next Web",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWkFtUUd3RVZFZnpDekFma0NOclhmaEtBSXY5N1FlRHVINmVBS05QckozN0RuOW16VldfbURhU3dCODlHT0VhczhzME8xWUg5WEM3QUF3d1lwYzdUaDlXeFdCd2RLSjllbWVma09qaTNXOXVPN2RIRjYzdDdRTGpWSTZabw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaF9ZUzI0M1FiY01WNWEtVy1nRU5JTVFleXNPekxOTDRhUjFpRUdCdndCZGRNZTA5aU8yY25aYndXclI1TGZ0aUkwZVl3SnBPRWhhcGZuejdPSnZBS1RYbDRSVXo3bFI2YzRZeENNT0Fhd2JVSmJ3c3hpSndIeVFfd0YxZnJxdw?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -51,20 +51,21 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-10-09",
-      "published": "Fri, 09 Oct 2026 10:00:00 GMT",
+      "published": "Fri, 09 Oct 2026 18:02:51 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 14,
       "themes": [
-        "#AI"
+        "#AI",
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Apple is the 'toll collector on the consumer AI highway,' Dan Ives says - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Dan Ives: Apple Will Be “Toll Collector” for Consumer AI, Sees $75 Upside Per Share - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMkVBR29EbzI4QjUtRm4tQzB0RGVWa1dxZEJJNkRvbkhWcUZtZ3h5d0dibzZHRkx1dkN1bEt2WUlWVm8wbzlvWFZlb051OWlOMlZnZUdGVWZ3NXA3WHdxMGowTG9LVWFEQjNNV1NadllkdEcyM0h4TF9MWGpWU3dpTTh4TjJtX0NPNTdNSWYwSi11SHlxMksyYlctT1lwdVRQc1ZnY0tMVHFUUWdocjFjbmtFQTk0YVNkR200MEZqZ0wzVmhjYTA0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNam5FTmQ0cjZNY0tWY19oZGk0TUhob25WSzFCanBVU29EbnYyTGl4MTduZFJXem10ejI3d3E4WHNsVXBiV3pabmpybEE1TW1BcXVmZ1JVN0ZXTFVmUVVHd08tbDJjVXM2T1BEZ3hIcjVfaUdreFAxZXh1TmRYNjd3ZklhQ2NoRGVSbFg0R19vY2FkdzgyUnpfQVhB?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -72,30 +73,30 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-10-09",
-      "published": "Fri, 09 Oct 2026 09:04:31 GMT",
-      "source_name": "GulfToday",
+      "published": "Fri, 09 Oct 2026 12:38:00 GMT",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Trump honours Microsoft CEO Satya Nadella - GulfToday",
+          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella tells industry: Software is not going anywhere but ... - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONk1uaXp1bm9tQTdYTHVRRVlqR3MwMEtVTlM3bHpqNVNxX3lpVnFFR2U4Sl9vRm81LU42Vmt4Mi1yS1Nqcm4zS0RZa3I1bjkwc29RaEdTeTVQaHhWSXBzUzd3YkpBSzBmQXVTanNhZVJzSExLMlltSmZsRExzVFBUWkhFdGdLd05wX0E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZmFXdzlnVjNTdWFVcmVVRjNLMDI0bFBYUEtWa3Q5eUNPd2std3U0R2szZ09vaElqWlBnd2RvRHgzSW11cE9nYTJ4c3NjVEthVnYtMGxsN1p3eWlGLXpha0hKZGN0OTFJZ2JiLUJfT2kwVlJldnNFbWRUeWp3OGRBZzU0aU5OWWVHQkJoZGcyMnc5YVFZY0c4Z0V4TXNYU2cxNzVnNzFkN1gtcnpuWnJ0cHRiaFlGUVBDeFBtam53T0l1LXhOMkY3VE5SNjREYXdGbTVFdW41UVZaS0J0WkFzdElQWjRudjR4MWplUXBhQlFGWFHSAfgBQVVfeXFMUEhBcE9XRGZlOEFrZGRqRlRndkhJSXdSWmlOUWcycjZhREgtZWxIeVBpVWFtblZuVThSdVY0QzI3TDZJbWNJSTN4ekJlTllVR0xRdVhId1ZlMVZDQWhKamtKbUFKMklFWHNBcTByTVVFVWdEUW1ROXoxRVViTE1oWmhJM053dEFhNFd4ZmhRS3JQcDZyMzRvdmN0S0pJR3pCdmltUzVhWE9MaF9UOGY0bEt6OUZSTFQ1NjhzNnNTMnNBOWw0bmlYUHdHVEZHeTFURm9qMDNtNnhqTUpVbGVMR2lzbzdOREh2akxuRWt2VDlBWFNIa19Sa3E?oc=5"
     },
     {
       "name": "Lisa Su",
       "role": "CEO",
       "org": "AMD",
       "cat": "CEO",
-      "date": "2026-10-08",
-      "published": "Thu, 08 Oct 2026 18:29:59 GMT",
-      "source_name": "AMD",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 10:06:48 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
       "themes": [
@@ -104,33 +105,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su Receives National Medal of Science - AMD",
+          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su Reportedly Signals ‘Substantial’ 2027 Chip Supply Increase – And Citi Sees A $800 Opportunity - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aVHBPS2xJcFRDUUstTUVnQmVSdzRDYk1teS01SHkwbVVkc3NRc29JOHBCVWtPYThGclNza3hYRzBFVVdmdTQ2SVVFN1JDVFFZQ2dzcUxMekx6dnp0TWFoQ2lPOWdsWFNlQTNwYXpn?oc=5"
-    },
-    {
-      "name": "Alex Karp",
-      "role": "CEO",
-      "org": "Palantir",
-      "cat": "CEO",
-      "date": "2026-10-08",
-      "published": "Thu, 08 Oct 2026 17:20:00 GMT",
-      "source_name": "Fortune",
-      "signal_type": "source-linked headline",
-      "relevance_score": 13,
-      "themes": [
-        "#AI",
-        "#PLTR"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): ‘Everybody knows you’re out of touch’: Palantir CEO Alex Karp says his own exec told him to stop hyping Foundry - Fortune",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOME5PMWFmN2pGSDNScjVzTWQ3VGJGSkdraEY1NlRsUVVqcFFKWHlGUjBDSXBueTZDSGlSWDQ0ZmM2cnI3OVVOa1R3c1F6MTZWTnIwWTd6TnhyR0JaSHRsaWNyQ2c4TmlyNncxd1I3RlVwTG0xRjZPZzFFUXJscGMzSDNNM0NnUHRORnN0eG1nYXVTcmdnNTJYLU9TWVlZWnpwb2V4VFdaMDVOTXB1OURiMnJnNlZmWU82VG51aXFwY29ibi0zaGZqd3VsZ2RPUlc5U2ZMVC1R?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVjVXeUw5SkhZYXM2eDQ0c0Vsd3d4S2RXeHFnaV9VenhrNTA4VzA1Vmp0NHBKTjF4WjVwZG5ialpxSzFWQWY2TTI4eGNzUDR0aFQ2TE95UVZZX2FTX1g1STU4b1J0UFpVRlR1YUhfNWR4Q3hUMjVGNFhoM3Z5LTQzTi1YRVcxNnlFUll2d2F0cnVZdUFsUDFUUHAyMzBjaFVvbXFMTkV0MjhWS3JfQ1JjNk9mS2tjeWIyY1NnYnhVbWgwc0UxVHctdTF4b2tDdXJZODVJeHZIY0hDTWRmb3JyUkpFMUVZbFE?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -138,21 +117,20 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-10-09",
-      "published": "Thu, 08 Oct 2026 18:37:21 GMT",
-      "source_name": "News On AIR",
+      "published": "Fri, 09 Oct 2026 08:33:54 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#TSLA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): SpaceX and Tesla CEO Elon Musk to rename SpaceX AI arm SpaceXSI - News On AIR",
+          "t": "Headline signal (not a direct quote): Elon Musk Mocks SoftBank's Reported $100B AI Fundraising Plan: 'Only A Fool Would Give Them Money' - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMHR4SVdrc1BVQlFDOTZhbHpFdWx1a2pEa0RrZ1VHLWlpcjE2d2Q3dTNNcUtoX1BtMTZMSEplbDZEMzBuZmEyZEFHY285anRhSWFuUHVPbmFsOUNpSW1CUHo2SzNxMXZkMGNrbm93ZjlXRXlWYnRTeVlCaTVLWTJ3YmJMeDdqQ21iQWtWM1pzMXROX3M?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdzBhNW8zb29Yd3Exb0FTX0ItMWRBVklXRFplYXlaNHFYZFY1WVdFemRCbTV5RklMWEgzdE9LNmp3Z1VlRzN1cy1CaGJHbVZhbVNzZ2dvMGw4ak02dllFeVVOVklsRDV2WTBJM08ycmx5UGNCWXY5bTZ2d1FOUThmYktIdzF1eURGNTRaNGhmcXc4VGplbTdiV2xlMHY0Ylk?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -160,43 +138,65 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-10-09",
-      "published": "Fri, 09 Oct 2026 09:25:00 GMT",
-      "source_name": "The Times of India",
+      "published": "Fri, 09 Oct 2026 18:14:00 GMT",
+      "source_name": "Fortune",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg tells investors Meta’s AI investments are accelerating every part of the business; and to - The Times of India",
+          "t": "Headline signal (not a direct quote): ‘Mark Zuckerberg will love The Social Reckoning’: Sony trolls the Meta CEO with an Instagram ad - Fortune",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxOOG1VNUR2blZsamh4RUU4MXR2eUUzTTFEaS1SLXFQNTRoSVB0SmkwMFlScUlVZU9qNzRJMG9XbFdRZzRCdWFGR3JXZkdlc2J0UV9aZUd4dnc2R1NxUmY0Z2Z6Mlhrc2s1dzczVjhScXo3Um9YSEtwMEZUd0hIRWtGYVlvOGJpZERDaXMxQ3didWxudkhxVy1GSFhrRUMtQURDLXAzZ1lxajM1NDZON0hqXzZINGtXaEFHX25BRGM4eFg0NVJwUW5lS2JoYm9qQW9GWEFlM2VKOUdtRTVsNng4dUltY2lTX0VEdk9GVmxaSmxXb2M1ampuV3V1bXNhY0dZZnd6SGdtNHM1Tm91cHJaQnpzR3ltRXpkdkI1Um1XamtJS2puWlJqS3JEM180RzNBNXB5ekt4eDh4S3V5RjBwNjdpcE0wT3l6dHdKMG5jaVo2d2hiUlFrU0l4enZHNzhBaUlwc2dFYUtqRHA3U2RZ0gH0AkFVX3lxTE52V3E1ZUdGMkt0bmdOSC1NZGtMT1R0ZmZTQjNVbnFxRkR6OHRDWTRvaGVhRjdZRzRoMzVIMF9vX2xHWWhSaXpVVjRUemg5VWk2LW9DYXZ3dm9BQ2o5U0JzaTRGZWF1V0ZYNDBoekNpLThMNXdKRjYwaGR4a3B2MTc2aTFYbmVLMjJja0pEMG9NYVd3bEZwcHJYMFdGZUhQQlRQSTBWNUhEc2t1aTBMbm9haF9wSVQtNktiY2VEeDJBaUhIdDVhdHd5aVhId0tuME5nY19yaUtlcldqbVVLQ2JDTkN0NWN2QzE5MFpEMVg5aTdrc0N2Y0l1RUQ3Nk9vaHg3MVloTzB0NGZJZG1aUGF5TTRiRkotejVKUFRJQUt3bTVCc2o3c1UwdUZVZTRvNGZMbk9QOTJlUnNyNXBLX2d1akpnRHFXaE0wOVVyaDc0MWhxbUFNYW1GamVNcG5uVVR0eUFGTFdxQVFPN2RrdXc3S0IyUQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSTVLYVh0VnFyc2Z6b3lHUEZsZ3NuSFdKRWZ1V3N6V3JBNUJJZ21sc2o1OFZIMVJvYjNTc1ZwSFRkamsxODN6cDZXVURyajJsb0hIN2Z6dmFBNkJyQ1NRRFhvamNZbFpJcGNPZmt4UnZuVXlOWVVzTU5YSFRoaXpXcW80b2ZtZW9NckVVYVUxTXA1cWJtWFdJR3o5aTZlQnM?oc=5"
     },
     {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-10-08",
-      "published": "Thu, 08 Oct 2026 14:47:00 GMT",
-      "source_name": "The Motley Fool",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 14:00:00 GMT",
+      "source_name": "Martin Cid Magazine",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): With Q2 Sales Growth of 82% and a Backlog of $514 Billion, Is Cloud Now a Bigger Growth Engine for Sundar Pichai's Alphabet Than Google's Search Business? - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Google’s chief executive Sundar Pichai told Stanford his father spent a year’s salary on his ticket, and skipped AI - Martin Cid Magazine",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOXE4SE9TWUJxZEFucUxhU0hseHY5YVZ3cENJRko4ZUotZ0dhbG5FUjZaM05UYnpHWV9tVnozYVJiVXE0ZU0tRF9aTG9IVk83bEZMNjJsVHpFbXc3dWk2RkxZTGg4T2RwWXkyVm1zU21wOVpna0ZQWmh4MTdPcWdsb2tjSlpEUHNmZnY0RFJsMFlwVUk0bE42WQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeXRXVG9ZdEJ2WExsbmUwa0ZiSDNkLXR1NzNrcjJKWXJVWkktZk9hY3phUHd4a2xiUXNpdG50TG1POF93NU5pZDZlbERGcDdZYTFFbk9IbFYxOXIwM2VvOGUxSU5iSUhyUG1WejZILWxRTlRLTFBFM3k0MHpPN3M4Slh4QjRFNGl4OWs3UXFxOHBLUFhP?oc=5"
+    },
+    {
+      "name": "Andy Jassy",
+      "role": "CEO",
+      "org": "Amazon",
+      "cat": "CEO",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 16:15:03 GMT",
+      "source_name": "Goodreturns",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI",
+        "#AMZN"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Amazon Now quick commerce expands to 300 Indian cities during Andy Jassy visit - Goodreturns",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb3htTkhEbXVWcXFRYVpSaTI0RDF5bEpXSUUxcVNyREROWk4ycHBxemdWSG5YUkNpdEJyZVJ0QkRvMjZNTEVHWGRIODhSUVc2bFVrRWhod3VjdlEwNl9Ta1pVRUw1NDZCN04tLXdkMXh1YkhZbTk3U3VTNXhPTElKSnZQZTVxZmxpN1dvOGhPMU5ndVFhZHVwWExDWi04Q0pFeVRZS2Q3bXZnM1dXdllB?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -219,6 +219,27 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTGpGZC1yb25xUHpGLUE1ZUpONkNZb1FsWEZ4SnREazc3VGM3NENvbWM4amVDUlBQQzNOZFZ0RUwzLXZ0ZHN5VmZ6bVZodHp3RXNvZW55dmxGWF9TUUxmbmRBX1FIajdVQTRmbFJ3YTVVaHFCVGFoOVRmcE1YWXB0ZHpVRFh4TldobGZMdQ?oc=5"
+    },
+    {
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
+      "cat": "CEO",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 16:12:48 GMT",
+      "source_name": "WSJ",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Oracle Billionaire Larry Ellison Is Buying Up the Neighborhood - WSJ",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnhIQ21JLWk2eWNtYTZ6V0N2MlNXTkhQUjdXcXFVZ1JrY1lwcnhYVmtUS0VBa3d2aWprbE84Mmc0N2k3N3dMcTE0UlFxampoYXlSV25SRHJQdWM4RjJORjB1eGZTdzI1LWRYRHMtVmFuenVZWVdUbTJhS2lTRmlNbzUtM3JvNlU2M19BVmN1MjR3UkN0eTdzT3Y1YzVBNnAtMFBWc1hIbDc0elVBSTQ5am14QUp6M00?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -247,29 +268,25 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-10-09",
-      "published": "Thu, 08 Oct 2026 22:46:08 GMT",
+      "published": "Fri, 09 Oct 2026 17:11:46 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#VRT"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer On GE Vernova (GEV) & Vertiv (VRT): Two Stocks To Buy Due To The Jobs - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer Likes This Stock but Has a Problem With the Price - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ05CR1l0WmlxbUMtSG9xZ1VyRDU3M1JCSjZnOG5nd0lPWW12Vjhod2ZQMWhfZHhiTzRpeUxOUkFQd0hMMzlDeDNEOWt3dXFpNlJRbzdpZWxOay1RUlBKM3piT3U0VXc3R1lycEJRenJzbkJXLUwtOTJEd3dYemNLbjhXaGM5ODdDeUxKSkdtMW0xdVBB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNemFlVTFJaUFpR2FIUUhEUjI4dEdTbEJfQU1rYXlWNUg3NUtDa1F6WFNibi1ONm1PTmNtVG1lS0pvSlZIRjM3RFdJaWtYbTF2S09SYVZlbkpLU09ZVUNNcHBqLUxCT3JGWkZaVVhIS0xiOEo4TUJoR0c4OVVfNEg0OHBDR0hWbTJ2Snl4ZFJTbjh0Y2pzek1hSFJVMA?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 12,
+  "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
