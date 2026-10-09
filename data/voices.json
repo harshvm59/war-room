@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-10-10T00:27:33.000568+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-10T03:21:00.412251+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-10-09",
-      "published": "Fri, 09 Oct 2026 10:18:51 GMT",
-      "source_name": "Seeking Alpha",
+      "date": "2026-10-10",
+      "published": "Fri, 09 Oct 2026 19:16:46 GMT",
+      "source_name": "Billionaires.Africa",
       "signal_type": "source-linked headline",
-      "relevance_score": 13,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia: Jensen Huang And Lisa Su Agree On One Thing (NASDAQ:NVDA) - Seeking Alpha",
+          "t": "Headline signal (not a direct quote): American billionaire Jensen Huang loses $6.1 billion as Nvidia shares fall - Billionaires.Africa",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUkZDUnVuV1M0aUthUnQwU09uWWR5UGhEZ0F4MkFxbllWYWxRbUMyNFJQMTRrTFNFcDJ3eW1WaTNCV1pCMVpqOHIyT0FnTERCWDJfb1NBV1pJNEstM1BMMUVlU09GMjFJanViOVZuRnNpRGxQbkxWdnNQdnFuamtHUU1odjZTQjE1d2xmN3pNazhuV2ZUZkE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONEhUOHpNR1F1NldaeWkwa19BZzdNdWozSkhScFB5ZFRVT2d5UkstRGU5VzJYVFdVNTdtWDh2YUltSE05VFBfY2JWUjFLd29WbTgtYjV3QVRoNmp4eXB2anlMdkhfbDhpaUFzX3dSMnVPVUE5QXdEMkJtX2E2eGJiTy1qdkpDSWg1bWxWR2pFenZjdnJ3NGFrZHUwTF9yMHltMzZISlROcnFOanl2ZFpZSGFFdE8xcDg1?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -39,7 +39,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman says the OpenAI share price will come second to its mission - The Next Web",
+          "t": "Headline signal (not a direct quote): Sam Altman says OpenAI will put its mission before its share price - The Next Web",
           "k": true
         }
       ],
@@ -51,21 +51,20 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-10-09",
-      "published": "Fri, 09 Oct 2026 18:02:51 GMT",
+      "published": "Fri, 09 Oct 2026 16:38:17 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#BE"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives: Apple Will Be “Toll Collector” for Consumer AI, Sees $75 Upside Per Share - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Dan Ives Makes Major Shakeup to AI Stock To Buy List - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNam5FTmQ0cjZNY0tWY19oZGk0TUhob25WSzFCanBVU29EbnYyTGl4MTduZFJXem10ejI3d3E4WHNsVXBiV3pabmpybEE1TW1BcXVmZ1JVN0ZXTFVmUVVHd08tbDJjVXM2T1BEZ3hIcjVfaUdreFAxZXh1TmRYNjd3ZklhQ2NoRGVSbFg0R19vY2FkdzgyUnpfQVhB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMXFLdE9GZUtkOWlWRUtsVHZKQ2Zfc09MbWxNMV9OMktkTWhYS0hnRmM4aEJzSTFJYWkyN1hLemxpQU1RQ0doWnpOWEFjdjNjRHpkVGhJOWJ1R1Jjcl9WMzdVTHQyUWFsZDFXcHRxT0VnNDhWQVdPLUZRTzk3R2tqcm1fZjE0NmJheFNhMmVoQktZSlZaWlp3?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -95,8 +94,8 @@
       "org": "AMD",
       "cat": "CEO",
       "date": "2026-10-09",
-      "published": "Fri, 09 Oct 2026 10:06:48 GMT",
-      "source_name": "Stocktwits",
+      "published": "Fri, 09 Oct 2026 04:43:11 GMT",
+      "source_name": "digital terminal",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
       "themes": [
@@ -105,11 +104,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su Reportedly Signals ‘Substantial’ 2027 Chip Supply Increase – And Citi Sees A $800 Opportunity - Stocktwits",
+          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su Receives National Medal of Science from President Trump - digital terminal",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVjVXeUw5SkhZYXM2eDQ0c0Vsd3d4S2RXeHFnaV9VenhrNTA4VzA1Vmp0NHBKTjF4WjVwZG5ialpxSzFWQWY2TTI4eGNzUDR0aFQ2TE95UVZZX2FTX1g1STU4b1J0UFpVRlR1YUhfNWR4Q3hUMjVGNFhoM3Z5LTQzTi1YRVcxNnlFUll2d2F0cnVZdUFsUDFUUHAyMzBjaFVvbXFMTkV0MjhWS3JfQ1JjNk9mS2tjeWIyY1NnYnhVbWgwc0UxVHctdTF4b2tDdXJZODVJeHZIY0hDTWRmb3JyUkpFMUVZbFE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZC0wbU9fOHlVMGJwSXBwemh0WmNzTF9ydUFJVjRqUFhGcFVucWk3bHRxNVF4V2dqNTFNdUJpTmVhRnNhZzY1dExVSm5SWl8xNDVBTzBzVHlTNzdsWHN2ZmlfeGRNX24tREtJMDhmdHN3WkRrRVFaUDljVjNzTTRBYWoyLXF5Um5FZTFsV0ktWnlZN1Q3WGhFMHpPcjZtLUt5RXVpN0JCMmRPSEHSAbgBQVVfeXFMTmxXZWRXSG94Y2tBOEJ3Q1dURjlKRGZtQkpGRDZzdkNvX0JvZUVqejlkVVJpUmxrWUhzQlF3UUZ2UlBPZDRpbVhjbk05ZU5MRXhoc09mWkt5aEozWUt2QzNNSXBGc3pJcTk4VVByMnJacHpWdU9UWmwzX2hKVmUxU0ktaWRhZmlUR2NhdFpwOXFXRUpWeUFUbWRrazFLS3dBQmZTcTNDc1FiUEZGMVVpc25vTHRxQW1xTw?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -117,20 +116,21 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-10-09",
-      "published": "Fri, 09 Oct 2026 08:33:54 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Fri, 09 Oct 2026 16:23:14 GMT",
+      "source_name": "Cleanroom Technology",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 10,
       "themes": [
-        "#AI"
+        "#AI",
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk Mocks SoftBank's Reported $100B AI Fundraising Plan: 'Only A Fool Would Give Them Money' - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Musk confirms Tesla will retain control of Terafab despite TSMC talks - Cleanroom Technology",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdzBhNW8zb29Yd3Exb0FTX0ItMWRBVklXRFplYXlaNHFYZFY1WVdFemRCbTV5RklMWEgzdE9LNmp3Z1VlRzN1cy1CaGJHbVZhbVNzZ2dvMGw4ak02dllFeVVOVklsRDV2WTBJM08ycmx5UGNCWXY5bTZ2d1FOUThmYktIdzF1eURGNTRaNGhmcXc4VGplbTdiV2xlMHY0Ylk?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMENPbm53a0tCZ0tudncyakJJRE9qWVBMUVhPaTE2N3JKaDlzZW5KSzdXNFI2WFdhb0sxanVCNUF4THJGcWEtaFQ5QzBpSWM5aTZIZW1UY2l0ZkF5NG1WNXh6Zm9jZzF3RXNqSl9mRXNXR3hfY0ZfTXl1S2dOMlRmNHJJOS1LaHBEY1k2S2w1aw?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -221,13 +221,13 @@
       "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTGpGZC1yb25xUHpGLUE1ZUpONkNZb1FsWEZ4SnREazc3VGM3NENvbWM4amVDUlBQQzNOZFZ0RUwzLXZ0ZHN5VmZ6bVZodHp3RXNvZW55dmxGWF9TUUxmbmRBX1FIajdVQTRmbFJ3YTVVaHFCVGFoOVRmcE1YWXB0ZHpVRFh4TldobGZMdQ?oc=5"
     },
     {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
+      "name": "Cathie Wood",
+      "role": "CEO and CIO",
+      "org": "ARK Invest",
+      "cat": "Investor",
       "date": "2026-10-09",
-      "published": "Fri, 09 Oct 2026 16:12:48 GMT",
-      "source_name": "WSJ",
+      "published": "Thu, 08 Oct 2026 22:00:00 GMT",
+      "source_name": "24/7 Wall St.",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -235,58 +235,62 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Oracle Billionaire Larry Ellison Is Buying Up the Neighborhood - WSJ",
+          "t": "Headline signal (not a direct quote): Cathie Wood Says Follow the AI Agents. Her Own Filings Show Where ARK Was Looking - 24/7 Wall St.",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnhIQ21JLWk2eWNtYTZ6V0N2MlNXTkhQUjdXcXFVZ1JrY1lwcnhYVmtUS0VBa3d2aWprbE84Mmc0N2k3N3dMcTE0UlFxampoYXlSV25SRHJQdWM4RjJORjB1eGZTdzI1LWRYRHMtVmFuenVZWVdUbTJhS2lTRmlNbzUtM3JvNlU2M19BVmN1MjR3UkN0eTdzT3Y1YzVBNnAtMFBWc1hIbDc0elVBSTQ5am14QUp6M00?oc=5"
-    },
-    {
-      "name": "Cathie Wood",
-      "role": "CEO and CIO",
-      "org": "ARK Invest",
-      "cat": "Investor",
-      "date": "2026-10-09",
-      "published": "Thu, 08 Oct 2026 21:01:00 GMT",
-      "source_name": "Investor's Business Daily",
-      "signal_type": "source-linked headline",
-      "relevance_score": 14,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Cathie Wood's ARK Invest Doubles Down On Air Taxi Stocks, Defense Plays - Investor's Business Daily",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ1ZmMFJOdU9XM0ZXNEY2MkpWQk9ranlCMlo3YlpTZ1ZoMzdaUmNpRW8xYU5DSzdXaFoxNks5NTNZOUozUnJvcEl0S291Z19SQ2FsajRFbHo2RUlWRDAwZHhrZDNJdTZCcDhJLXExZi1kR2MwdUFFd3h2QVZpclhBQ1c4OE9tN2lZb0JZZHQzM1k1NzR4TWJpMUtwZ3Bld2VNQkdaallkalNMQmw1RHZJekNsdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbVBxMWo0TWtsQjFDN2VpaVJVLUhUM1B4VmVGMWx5Q0EtbHBtd2d2ZFJrV1JaNm5jb0swX0lUcmVoX0FqQUxkNVZydS1EMjZtbmNYUWNXVk5HZFJQMkZTM0tpV0JJdUlMSlFEa2NiVV9LQThSZnlaV2d5anREN0VYVWlkQmc2ZExaY0xaMjBWMlMzU2dpWm12V1F5c2F6dEhhNzdnZEJYc3N0SG9DSnBwVWtSeGNrMkxUWWxYUUxRZzVRdw?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-10-09",
-      "published": "Fri, 09 Oct 2026 17:11:46 GMT",
+      "date": "2026-10-10",
+      "published": "Fri, 09 Oct 2026 20:25:08 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 14,
+      "themes": [
+        "#AI",
+        "#VRT"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Jim Cramer On GE Vernova (GEV) & Vertiv (VRT): Two Stocks To Buy Due To The Jobs - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ05CR1l0WmlxbUMtSG9xZ1VyRDU3M1JCSjZnOG5nd0lPWW12Vjhod2ZQMWhfZHhiTzRpeUxOUkFQd0hMMzlDeDNEOWt3dXFpNlJRbzdpZWxOay1RUlBKM3piT3U0VXc3R1lycEJRenJzbkJXLUwtOTJEd3dYemNLbjhXaGM5ODdDeUxKSkdtMW0xdVBB?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-10-10",
+      "published": "Fri, 09 Oct 2026 20:55:17 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 10,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Likes This Stock but Has a Problem With the Price - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Apple is in a great place right now, says Deepwater's Gene Munster - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNemFlVTFJaUFpR2FIUUhEUjI4dEdTbEJfQU1rYXlWNUg3NUtDa1F6WFNibi1ONm1PTmNtVG1lS0pvSlZIRjM3RFdJaWtYbTF2S09SYVZlbkpLU09ZVUNNcHBqLUxCT3JGWkZaVVhIS0xiOEo4TUJoR0c4OVVfNEg0OHBDR0hWbTJ2Snl4ZFJTbjh0Y2pzek1hSFJVMA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLWtyRmQyQUZhTmE0VmlKeFVpU3lLXzNmbDBSMzQwNXlIbHVUNXRXMUYxMTIwaUo2NXNKQ1NmejZIV1p5QXhDU19aTFVKV3pwV3BHWTFIQ3dXTC1tX2xhV0cwdkFQUUdyWl81R3A3X1ZOeXRmWjhBdEdiaE5NRjBYckRzTi0wdmJHc21pYTlsSFc2eVpFRnhkZzd4UkN0UWxZNUJlZkh5LS1FVVE?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
   "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }

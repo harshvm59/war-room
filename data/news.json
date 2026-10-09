@@ -1,7 +1,83 @@
 {
-  "updated_at": "2026-10-10T00:27:33.001482+05:30",
-  "source": "openai+web_search",
-  "items": [],
-  "provider_error": null,
+  "updated_at": "2026-10-10T03:21:00.412563+05:30",
+  "source": "google-news-rss-fallback",
+  "items": [
+    {
+      "ticker": "MSFT",
+      "headline": "Stocktwits AI Roundup: OpenAI Revenue Woes Rattle Chip Stocks, SoftBank Hunts $100B, Microsoft Goes AI-First - Yahoo Finance",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 06:43:30 GMT",
+      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNblIweTNmU24xcF9GaG9uYkUzUGYwZXBRVlppZnJnT3pEZkNOT2R4UzdWbXpSY0RrWTZUelBSYjh3VHNsRGh4S0FZSjBEM3VqVUdmcmY1ZHpDbjQ1OXFVU0hBRGt6cFR5RzBYZGlJcy1QeUhZc2tuWWQwX2Y3NUJTMDNVWUowWDlhUDFlaUhOcEZNWkRmU2xQRDVfaTI3VklLWFE?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "The Fallout From OpenAI’s Revenue Surprise - The New York Times",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 12:06:43 GMT",
+      "summary": "Automated RSS market signal from The New York Times. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcmxMemhOTlY2Zm50Slh1VklHTGRhdzVocEpERGVxRXVKWEM5RGliRVN6Y2pLMXg4enE5aGFMWE1Kd3VzYXhhMUk3UFpseGE3M2pkUVVudG56MTBBRzJIZTRPQkkxNmZRYlEtR0ltT1NCWjkyUnNza3VienFIcHYxNnFuU1Q3dw?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "Guide to Magnificent Seven ETF investing - TradingView",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 11:00:00 GMT",
+      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWGdDT2VWTlZSRG5UR1FUM20xaGJTZXk0OGp6SWREVGhzMVJsQ3dEd3BsTWwyWDVMeWxIOUlISTlSSnNzSXpBcFpDT2R5XzVqRnlaWHB5dmpKZXpTWjY1WjFRT19SNTFwdFhYZVFSMV93TnRkSktSSGJiT0k2VHFWMDJITjhJOHYyVV9fUkhrSFBzODNmMFY4a3pYVk4?oc=5"
+    },
+    {
+      "ticker": "MSFT",
+      "headline": "AI Stocks Weekly: OpenAI Revenue Woes Rattle Chip Stocks, SoftBank Hunts $100B, Microsoft Goes AI-First - Stocktwits",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 06:45:03 GMT",
+      "summary": "Automated RSS market signal from Stocktwits. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNSVdFSTlJYXl0b0ZkLTl3NXNNVzZHdm02RG9ZZUNBQzd0TlBhalZWVFFINDFGa0hHdEZsdy0ta2xzSVlFb1VSbmRWdlZvRGRlVGp6azQtM2JnSnFjRVFGRnQ0aGtIXzNrZkcwMEtpSlNKbksxdFU5cnpjd0Z5SjVuZUxHTFNmMExsZHdxcmZLNjF2bzdDVDFzdjZoeGRJRm52b3dSQzdjeW10cW0xQU40REo1eXhWb2h6NHFGWGkwT1NkQnZ0blhadXpJa05rR3B5OHZUbmsxSnBaaTZSbGI5MVYxQkk4TU91akpTWS1kVzhpZldycmxOMjRFaGVoQ2VL?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Nvidia: Jensen Huang And Lisa Su Agree On One Thing (NASDAQ:NVDA) - Seeking Alpha",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 10:18:51 GMT",
+      "summary": "Automated RSS market signal from Seeking Alpha. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUkZDUnVuV1M0aUthUnQwU09uWWR5UGhEZ0F4MkFxbllWYWxRbUMyNFJQMTRrTFNFcDJ3eW1WaTNCV1pCMVpqOHIyT0FnTERCWDJfb1NBV1pJNEstM1BMMUVlU09GMjFJanViOVZuRnNpRGxQbkxWdnNQdnFuamtHUU1odjZTQjE1d2xmN3pNazhuV2ZUZkE?oc=5"
+    },
+    {
+      "ticker": "TSM",
+      "headline": "AI Chips And Big Bank Earnings Preview: TSM, ASML, JPMorgan, BofA And More - Investor's Business Daily",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 11:00:00 GMT",
+      "summary": "Automated RSS market signal from Investor's Business Daily. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1INHJFZUYxUU16OExrQlowSVFHYUYtM3B2R2QtZEVQdFo3T1FSUHRnZW5NWWwxQU42UVFsX3BKY2RTcXJ2dkpOTVpUNHVtZHNNOEJpZHF5Ynk1ZHF4Njl1VVBXN2RiZFAtdC0yRDNVZw?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "Stock Prices, Earnings and Cashflows: The AI Effect Plays Through - Investing.com",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 08:12:35 GMT",
+      "summary": "Automated RSS market signal from Investing.com. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNDhXdVlPYXd6N1lYX0FVVDd2WXpCbkNwVWFRYzFtMm8xQU1XYlRWblhWSWdWckwyWmMwRmlDMEFQdUFoRk9XM00yczRHQ05nRTdsMWxwd3RWdkpSUGZWWERvNGZ2NncxT3lNVHMwakhpQnhzWFA3SG9mWUVjRXRsM3JZQTc1aEdjbkFLNWNMNk44dHIxYm9wTjA2cnNTakRYTVVxSHNrLUkwNkV4?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
+      "date": "2026-10-09",
+      "published": "Fri, 09 Oct 2026 10:20:31 GMT",
+      "summary": "Automated RSS market signal from Yahoo Finance UK. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5"
+    }
+  ],
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
   "fresh_window_hours": 24
 }
