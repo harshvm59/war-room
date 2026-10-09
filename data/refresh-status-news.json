@@ -1,8 +1,8 @@
 {
   "feed": "news",
   "status": "degraded",
-  "last_attempt_at": "2026-10-09T03:51:00.795776+05:30",
-  "last_success_at": "2026-10-09T03:51:02.779212+05:30",
+  "last_attempt_at": "2026-10-09T16:20:12.756929+05:30",
+  "last_success_at": "2026-10-09T16:20:14.652064+05:30",
   "error": {
     "code": "daily_research_limit",
     "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
@@ -13,5 +13,5 @@
     "youtube.json",
     "voices.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/37852886668"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/37920001537"
 }
