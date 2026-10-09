@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T07:38:16.200371+05:30",
+  "updated_at": "2026-10-09T07:51:22.549596+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -7,25 +7,16 @@
       "company": "Nvidia Corporation",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 2,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
-          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
-          "published": "2026-08-26",
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "Fiscal Q2 2027 revenue was $96.2 billion, up 106% year over year.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
@@ -42,13 +33,11 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Fiscal Q2 2027 GAAP and non-GAAP gross margins were both reported at approximately 75%.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
@@ -78,25 +67,16 @@
       "company": "Taiwan Semiconductor",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 1,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
-          "title": "2026 Q2 Quarterly Results",
-          "published": "2026-07-16",
-          "reporting_period": "Second quarter 2026 ended June 30, 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "The fiscal Q2 2026 quarterly-results page reports quarterly revenue and operating results for the period.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.tsmc.com/english/quarterly-results/2026/q2"
-          ],
-          "reporting_period": "Second quarter 2026 ended June 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
@@ -149,20 +129,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://ir.tesla.com/",
-          "title": "Tesla Investor Relations",
-          "published": null,
-          "reporting_period": "Fiscal Q2 2026 ended June 30, 2026; fiscal Q3 2026 scheduled for October 21, 2026"
-        },
-        {
-          "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments",
-          "title": "Tesla Second Quarter 2026 Production, Deliveries & Deployments",
-          "published": "2026-07-02",
-          "reporting_period": "Second quarter 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -208,12 +175,10 @@
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "Tesla lists fiscal Q3 2026 earnings for October 21, 2026, but valuation evidence was not reviewed.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://ir.tesla.com/"
-          ],
-          "reporting_period": "Fiscal Q3 2026 scheduled for October 21, 2026"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         }
       }
     },
