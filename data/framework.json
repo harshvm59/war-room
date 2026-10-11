@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T07:20:42.722997+05:30",
+  "updated_at": "2026-10-11T06:36:35.316923+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -7,23 +7,25 @@
       "company": "Nvidia Corporation",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 0,
+      "score": 3,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.htm",
-          "title": "NVIDIA Corporation Form 10-Q filing index",
-          "published": "2026-08-27",
-          "reporting_period": "Quarter ended 2026-07-26"
+          "url": "https://investor.nvidia.com/financial-info/financial-reports/default.aspx?lang=ruru",
+          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "published": "2026-08-26",
+          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Revenue was $96.2 billion, up 106% year over year in fiscal Q2 2027.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/financial-info/financial-reports/default.aspx?lang=ruru"
+          ],
+          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
         },
         "moat": {
           "verdict": "CAUTION",
@@ -33,18 +35,22 @@
           "reporting_period": null
         },
         "management": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "The disclosure reports continued share repurchase authorization and dividend actions, supporting evidence of shareholder capital returns.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/financial-info/financial-reports/default.aspx?lang=ruru"
+          ],
+          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
         },
         "margins": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "The cited fiscal 2027 disclosures report expanding margins alongside record revenue.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/financial-info/financial-reports/default.aspx?lang=ruru"
+          ],
+          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
         },
         "cash": {
           "verdict": "CAUTION",
@@ -71,26 +77,34 @@
     },
     {
       "ticker": "TSM",
-      "company": "Taiwan Semiconductor",
+      "company": "Taiwan Semiconductor Manufacturing Company",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 0,
+      "score": 2,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/0001046179-26-000451-index-headers.html",
-          "title": "Taiwan Semiconductor Manufacturing Company Limited Form 6-K filing",
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-04/bd8eb0403902fdea59a2f5e390e48d010b50edc9/1Q26%20EarningsRelease_WoG.pdf",
+          "title": "TSMC 1Q26 Earnings Release",
+          "published": "2026-04-16",
+          "reporting_period": "First quarter 2026 ended March 31, 2026"
+        },
+        {
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf",
+          "title": "TSMC Q2 2026 Earnings Call Transcript",
           "published": "2026-07-16",
-          "reporting_period": "Quarter ended 2026-06-30"
+          "reporting_period": "Second quarter 2026"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Q1 2026 consolidated revenue was NT$1,134.10 billion and increased 8.4% sequentially.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-04/bd8eb0403902fdea59a2f5e390e48d010b50edc9/1Q26%20EarningsRelease_WoG.pdf"
+          ],
+          "reporting_period": "First quarter 2026 ended March 31, 2026"
         },
         "moat": {
           "verdict": "CAUTION",
@@ -100,11 +114,13 @@
           "reporting_period": null
         },
         "management": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Management raised 2026 capital expenditure guidance to $60 billion-$64 billion to support customer growth and reiterated dividend commitments.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf"
+          ],
+          "reporting_period": "Second quarter 2026"
         },
         "margins": {
           "verdict": "CAUTION",
@@ -145,10 +161,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
-          "title": "Tesla Inc Form 10-Q",
-          "published": "2026-07-23",
-          "reporting_period": "Quarter ended 2026-06-30"
+          "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments",
+          "title": "Tesla Second Quarter 2026 Production, Deliveries & Deployments",
+          "published": "2026-07-02",
+          "reporting_period": "Second quarter 2026 ended June 30, 2026"
         }
       ],
       "questions": {
@@ -210,14 +226,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
-          "title": "Meta Platforms Inc Form 10-Q",
-          "published": "2026-07-30",
-          "reporting_period": "Quarter ended 2026-06-30"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
