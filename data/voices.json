@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T15:45:11.519296+05:30",
+  "updated_at": "2026-10-12T16:44:36.603249+05:30",
   "source": "openai+web_search+30-leader-monitor",
   "items": [
     {
@@ -7,30 +7,31 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-10-11",
-      "published": "Sun, 11 Oct 2026 09:54:19 GMT",
-      "source_name": "The Decoder",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 04:02:30 GMT",
+      "source_name": "The Free Press",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
-        "#AI"
+        "#AI",
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cheaper AI tokens are driving more demand, and that's Jensen Huang's best-case scenario - The Decoder",
+          "t": "Headline signal (not a direct quote): Jensen Huang May Be the Most Dangerous Man in AI - The Free Press",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ0hUblN4TjUyZ3p0em1pMFF2amh1djhSXzAyOHA5MUdGZk93akVMdmRiSExYUUFxdXU3eV9NX2hmaWRBZENmVm1tRF9qTE9ic0ltWXZSVGR4MW9CbU5nZmxzYldQeHhEcjRpZTVCUzM4Tm16SUJJQWRPem41SjB0WDZSWmZ1U2JPaHhwdjVXdzVLeHVBYi1qc1VWN2g5V0VFTXdlMm4zX3hRTnFPX3c?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fbXJxMy1CeTVDaXRIbXQyTFpoVU56MWZHanVfNmU0Z0R6QTcyQVFMZVdYSHRKYVBzRldaUm0tQlZvN3N6bXpxTmxWLTZtSDFsSUxxVmxXeW5wZFROTmppMW5qVXZTcnhBdUw5UzNWRQ?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-10-10",
-      "published": "Sat, 10 Oct 2026 14:47:00 GMT",
-      "source_name": "TheStreet",
+      "date": "2026-10-12",
+      "published": "Sun, 11 Oct 2026 20:27:11 GMT",
+      "source_name": "6abc Philadelphia",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -38,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman has a biblical-level warning about AI god - TheStreet",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman claims AI singularity has arrived: 'Awesome for the world' - 6abc Philadelphia",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUNxbHktNmpWaURETlV2NnoxY09EcFVqWi1fd0pPSXdYSVVSS1J5TmtvS1ZNMXVpbWlWYy1XbVU2dEYweFhwVEVGb3NvZm9qMFNZWloydlp2ZW0ybEFBeHlIMHRzX0VfMVltVV95bU03NE5oRkt6c0N5akx0NjZqeHhQQXJUd2hvVGFCX0xWZWtQVDFWMnZDVnk3MUtOT3h2R1hXVA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiwwlBVV95cUxQdkRnYmUwVWN0cFctckx5bFhYOUp2aDhnSmxKYU5sX1RDcmFIRkVRUzJNUDk1azJkd3VEbS1VOEROZzhSNUpnUm9LWkxwOXY2SEVSNWpZSG5LY1VxSi1BMTFWS3lKS0lYRER1X3ZrTy1ITmFkUHpPZUpEenczSHJESmptWU1BTTZ5Nmw1Wnh1WF8zcW5VN0NscmtSa1h0Y2RGZWI3LTdQdUI5QWljSnFTSzJxUGlkSnhQU0pNVkltMmhJLWY3bUhEOHU0UGs3Szh1bnB4QzBUMGpFSHhDcnlDc2V2eXkzQUZVSnktT19rQU9nX2dZbktfRHRkZ2U3bVF0TEltaFp4U2VNMjFMUnJ1RTFCc09oZ1JlS3hSdEFWRk8zdlVFNzVNSm5Wbld5cldWNWFKM2ZWcjhoY0o5dmJIcG83X1hRVzBwSE8tTWI2TEo4b1FTRUg3SklFOG9jOFZHWTZXSXJuTWpnSWdiUzNzVWJ6QUp1eHExMHlsQjdESzB2UGl4MnkzTzlIZzdsTmZlOTdoMUNFay1FYjlmWTNFZkh1REVpRlppLU1FU21tZjNVQVdLZEJYWEcyQ0tjN3NicDVMQTZ5LWJjNUs0Y0lBUUdROFFsd2R0M2hpSXcyeE9PUlFCQ0ZVeWp1dTVnblVxSjQxMnNPV3RqVFFETmRROHNfNFdmTWhDOXBHdEVyX0phVjAxT0JzMUtRZzlPSndHZEtya1VURDZZaWd5RHp0YmRNeVhFMFIxWnFlLThkU2ZKQ3VIWjh0dExUQnIzVU9VZG9oMUl0WGxHYkhSbERCTzlqX0lVUTF6N1dJbFFpQkFYYnI0TGxqaFZLWXh6YnF2UmR1OGdnelJpeWtLb0hvM0lQZ0p0eTJhWGljbEVQVlhSLUJTQUg2MUNDTzlrNmdvM2pwMnh5dmxaWU52bEtneGlRSEkwRUkteFU0dGhIQk1ubUFqTjNxV1luVTdtZmRRV3BQVWVfZmpySGFlUGY4VjMyamFvMGQtbERkSElJNE1yNjB5Q3EtNmFxZUptVENhUXhUT0tPd1dSTXFBMHVoakxHSnZVSW8tV1BYbm5pdWtfUVZlb21oZGFZZFlTNk0tUWg2STlmVThZN3BtbkNaQlB4LXVvRmdaVHJ6dGpyMEZkWmtVV2g1QjZaNFVUZ2Ryei1taXlIUXhPNnhvREpOcnhfTXk5WFhEbTc5bmFKYldOcDhtNi1vTzF3US1CMGRxUEhteHY3T093X2hoS29ubk1tU0Q3bzZSdDVrNkJPcEZta0JiZFJxRnI2LU1hTDRhUnZuX0ZUTFJ4VHpQYjZzYWRWaEFBdmFIYl8zMnNSVEl6VndlZmNKc3o0V1VDNGc3SHlrY2Zpa19VTm9YaENXckZObFMzUTgtWXQ5bHF0MnRUOXdWQkVrVUlPZFZDcmJFc0JLQzhOMGl5aFBNUGplY2ptM0ZwQjNVNkRXUGtveUZTMlZrUlZlVmFKd3V3ZkZvWUh1eTBWTU5ZOFFLZTV2a3U0TFpRZEU5ZEZXYk1BY0tSaC1qZEJzczhUSVB6NGwzRmhLaXNpU0xmLWM3c0xMcHJOLXBFY1VVdm5hVWVjcFRNWVZuMVdnbEV5SVplUW02d2hn?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -50,140 +51,138 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-10-11",
-      "published": "Sun, 11 Oct 2026 00:45:29 GMT",
-      "source_name": "Stocktwits",
+      "published": "Sun, 11 Oct 2026 15:30:02 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 14,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Thinks AI Buildout Still In Early Stages, With NVDA, MSFT, PLTR, AAPL And CRWD As Top AI Picks - Stocktwits",
+          "t": "Headline signal (not a direct quote): Dan Ives Calls SpaceX’s $40B Nvidia Chip Debt Plan a ‘Smart Move’ - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNVkF5bk9JWmRJLWZ5R3l3azF3UWgwUjNKWWNHa01MZ0JoYWV1SzBHd3FhbHRIc01JRnJBNUZvQmROZS1MeFZQVFlxbHI0Q1NyNnMyRXBUS3dsVVVEVGRBMHBfZVRzeVZtSlpJcXdlNW14bDFTN2dNemhuRVB0bkl1blZHZjJnb3RkYmVUWXU1M0hMSDk3OWZadmxUbzJ6MmI2dVhBQWVfckU3UENTMldEWTlBWVE2aVdoZGYyRTZ4ZEJRb05md2dkWXM4THNqZHpZQ3FRU2Q5RDNNV2NfakVBc1VxOGQyOGNRQmlIMmNDOVpDdVZTS1E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaFphT0c4QjlJd1l4Q0NZWS10UTEzZ0Y0aDNRdHZpeGNKdHhwRGRwUzNtYTdZUFFEdUd6cmRTZm96NFZOY1lqWGE5dWNtNTI5TDlZNFlSb1prUHpFTC0wUVlMdHE2Y3BZWnR3MWl0T2l2MHFLQXZsNmM2Nkl2LXdMNmhiYlR4OU1qWHpMMHlYVm1zQW8?oc=5"
     },
     {
       "name": "Satya Nadella",
       "role": "CEO",
       "org": "Microsoft",
       "cat": "CEO",
-      "date": "2026-10-11",
-      "published": "Sat, 10 Oct 2026 21:47:51 GMT",
-      "source_name": "TechCrunch",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 11:10:10 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Microsoft’s Satya Nadella says AI models need an ‘emergency brake’ - TechCrunch",
+          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella calls for new AI controls - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdkNKbTdSU3VkMlhaaTY4ZmdjQ3dGWlFQbkpXTnNjMkZCVDkyenpBaUVBRk5vQzdXQWFIbk1Waks1YjNjWnVBV056T04tcGczUW1PUHhnSU5oQ2JUYmtTckdqemVTTEFOWjBHT01DaVJESXVoMDdZdURfT2pjNmU0ZVlvWGV2TFpGMnNoeTJxUkIxSENjbWlyaTAzVnFhcDQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS1IyYUpSQzZLbmhwbVFWMlpvQXFwbU96TnAzX01KRnEtSFgyZGsxbVlWM2w0TnRvNXJCWU5HMml3aFJqc3VYX3M2VTBqRHc5c2FDbkdpU0ZZNjJMVnIwZ2ZEMVhOMkxKd3Z5TUl6allMRzhFbm1LQWNFUGdoRnBYVExDTmdNM0ZLV0xEMmJ0WEhwTEU4WHhQZ0xiQjA?oc=5"
     },
     {
-      "name": "Alex Karp",
+      "name": "Lisa Su",
       "role": "CEO",
-      "org": "Palantir",
+      "org": "AMD",
       "cat": "CEO",
       "date": "2026-10-11",
-      "published": "Sun, 11 Oct 2026 09:24:00 GMT",
-      "source_name": "primetimer.com",
+      "published": "Sun, 11 Oct 2026 12:30:14 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 13,
       "themes": [
         "#AI",
-        "#PLTR"
+        "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir CEO Alex Karp’s AI prediction raises an important question about the future of white-collar jobs - primetimer.com",
+          "t": "Headline signal (not a direct quote): AMD’s Biggest Problem Is No Longer Demand. Lisa Su Is in Asia to Fix the Real One - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUVBfd0twU2hVQzJuZTNyVXl4NWVMRmR1cktaWGxIN1ZQUF9YZG5lbmhfYlhCXzBPamM2Vjg3M3lfWTNrTHRHVkM2djNuWjJPdVYtZkUwTXFsWGR4cTlhWHpnY0pNdjF5S09yUWJjNmMzd210Y1ZoOWhCdmRHd25FUHZzS0h0bnJxYVB0c0lPZ3lJVVZ1QUxXSF93XzhFTVVlVUtyd2xzazM2ZDlheFpNU2JUb1VGbXFNT3gxUjBGVE1kOXFVY1REcnRkZzlKdjIwVDh5Nm92Ym4?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN3BybjdidjRESzVYQ0JuYWNNTWlpMWJiYTRpWUNJZVM5b2ZuaG9LcGxmcWpZdEMwLTMyanlGbVhlX2lNb0JHZE5SeXRaeHQ0MG1VRU9qTk8xMmZvSGdWclZ1eWtha0QxTmYxbEZUaWV0TlRzb0VQYXE3WTFCNThkNmRFblVxY3lyTktCTi1yakJGS0VudXdObVZ3?oc=5"
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "role": "Investor",
+      "org": "Social Capital",
+      "cat": "Investor",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 03:30:00 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 7,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Jim Cramer Calls Elon Musk Acquiring Lower Frequency Spectrum 'HUGE' for SpaceX; Chamath Palihapitiya Says It's A 'Very Big Deal' - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORk9Ob1pDYnNBYzdVUnlzWXRqNUd1M1BUT3hHWTNXT0FxVlc2QmZycXM1R24wdU91Y1Z4NVIzQ3FYQzhCX0M5YV8wT2ozTDF2dU1nY1pvcW5ZS3dDXzIyOEVZNmtXczFYZzdGYk5VanZ4MS00RzJ4eHhrWUFLTWRuRVlIVXVaMHFWVDI3cHBBbTY?oc=5"
     },
     {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-10-10",
-      "published": "Sat, 10 Oct 2026 17:35:00 GMT",
-      "source_name": "Drive Tesla Canada",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 04:03:57 GMT",
+      "source_name": "36 Kr",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#TSLA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Musk Says Tesla’s Digital Optimus AI Can Now Play Halfway Through Diablo - Drive Tesla Canada",
+          "t": "Headline signal (not a direct quote): Is Elon Musk's Chip Development Harder Than Sending Starship to Mars? - 36 Kr",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbGtDQkY0QlVwQUJIaDZGelF4am5uNmh4VHJjM29BOTdHMUNhWDludWJVbEpBUWFMbjBUclFKUTgzWnFuY2J1OVJ0VVdQUThFYW5sbERuYVp6azJwbDlLU05MTjNWNTJSMGpBaTZ5czlMUVZUbEt6OUxsMHNkemxwczhlcFhVeTYyUzkxTUNrYlgtOTg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wcVNqdjhISVN5Zk9TT3pfT2JJUGNOVmlodTdZbU1GdWYzajF0cW9rOUVFYUpOLW4xUDVtWXNWSGVIcXVxRS1RZE1JWGE3VzZfZ1M4?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-10-10",
-      "published": "Sat, 10 Oct 2026 11:01:00 GMT",
-      "source_name": "Futurism",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 08:53:22 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Launched Meta’s Muse AI Agent Despite Disturbing Safety Concerns - Futurism",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg Revives ‘Smoking Meats’ 10 Years Later - Meta Platforms (NASDAQ:META) - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb0hZdjNKYXJicmxZSjZjM2V1ZjdFdW51NG94RTNTUkZ0a0hTZU00SUszMUYyMFZaUDRyR3N2cVp1eVkyWXg5UzA0ZEtKYy1IaFlrUjFuWUVXQTRYNVl4dXRYVU9kcVhfbG1aM2h1bFZtY3RuX19iU1I4TTd1bXItcER0bjBDdU9OajZFag?oc=5"
-    },
-    {
-      "name": "Sundar Pichai",
-      "role": "CEO",
-      "org": "Alphabet",
-      "cat": "CEO",
-      "date": "2026-10-10",
-      "published": "Sat, 10 Oct 2026 10:29:00 GMT",
-      "source_name": "The Motley Fool",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#GOOGL"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Sundar Pichai Reported Alphabet's Cloud Revenue Grew 82% to $24.8 Billion Last Quarter, With the Gemini App Reaching 950 Million Monthly Users. Is Google Cloud Becoming a Bigger Growth Driver Than Search? - The Motley Fool",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVUt3R1c0WnRFd21xRXFnY3VTb1NlTTFfY2hhUmlxRHBOYmNtN0R2ZmFxTmdVZDBJVXpaX2puUkFCV1pmLW5JXzFWalV2clZEZURKbDVGQTVaMzZBMXA4Yy1xVG5RVHRFQlJOdXM2SWdQTHBXejhTejhwNVptTkZvZjJ0MkljSVRySFMxRExnVHltY3V4T3Z3eQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNWFOQ3ZaTzRHRHJ5aU9TdW9IaDEyb3p1MUJ4OHlzME5mR05meHRHbHZEZVZ4QVJmaGxLaGlsVDZKOUVTVms0Y1ZMWm9MRjNacW5mWjdLR0VZdFRNV3YwYmJQMjJhcmpDTW5KXzNsckRnREJjREVickRSd3lNdXVCYkdxSG85N1FIS2dMUjhZZmY3SFFJaFB4bE1wWnZpRXNmUkRLNUlHT2lDcThaZ25XSFNGdDg5VVNCRkZ5cVR2UHZQdVVn?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
       "role": "CEO",
       "org": "Intel",
       "cat": "CEO",
-      "date": "2026-10-10",
-      "published": "Sat, 10 Oct 2026 18:16:24 GMT",
-      "source_name": "scanx.trade",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 10:14:00 GMT",
+      "source_name": "CTech",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -191,83 +190,105 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan invests $12 million in $20 billion stock offering - scanx.trade",
+          "t": "Headline signal (not a direct quote): Intel’s Lip-Bu Tan says AI companies will have to prove the returns justify the spending - CTech",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcEJSekozT081WWhrSHRmX3dBUnNtSm80MjlySkVPUVE3dUJzTnBLNGkwNlRjU3FxdWU1LVMtNVhsazhGMzNIZExTcDV6MFlSSHFhdTRpc19FaFh2NU44VlhnTnJYaTViY1Z2UG1aQXNOTUU2TDk4clk1Q094bi1jLWROLWExVTNvaUhONlRxVEJscXlrZERiX29VcUdaUHk5dm9qYVZ6TEh0Njl4bjFkeGdtQ3IyQTNSalpv?oc=5"
-    },
-    {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
-      "date": "2026-10-10",
-      "published": "Sat, 10 Oct 2026 17:56:23 GMT",
-      "source_name": "Banglanews24",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Is Oracle's $300bn AI gamble putting Larry Ellison at risk? - Banglanews24",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uNEFjWk13LWM4enZpZFVqU1lONFlMbG9hV21wWGlBRXJxOFRzTUc4SE5jcG5zcEhkb3ZPQ2hWOThOMlhoelZ1VWhxVXdST0hfYkx6MXBNZXpYUGhuNE1EQzRNR1NodzF5Rk9kV1F3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WX3hBNGJYMTlySjJtalNweEY1MHhYeTR1Wm4xbW1UUUUzdmVuYUMwNnYtaFZkVFExR1phbnhFbndNeU5pVGxLMGdNT0Y1NHJBUERidVpmVlU3LUpMaU5TT25IOHktMkk?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-10-11",
-      "published": "Sun, 11 Oct 2026 10:09:58 GMT",
-      "source_name": "The Motley Fool",
+      "date": "2026-10-12",
+      "published": "Sun, 11 Oct 2026 20:00:00 GMT",
+      "source_name": "Bonus.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Crypto Investors Can Now Buy a Cathie Wood Investment Fund That Holds SpaceX and OpenAI. Here's What You Need to Know to Get Started. - The Motley Fool",
+          "t": "Headline signal (not a direct quote): ARK Invest Buys Kalshi Shares as Cathie Wood Backs $1T-$5T Prediction Market Opportunity - Bonus.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQU5yQm1vbWhJLXFMaDlzZ2ZCUEg3SzFndjRVcE1ITDRSTi1LTFAwREtsaGdGaUJHbXBtT28zNUloWThiSTUxXzhqX0w4SlBZWW5lTXRLUWFRTnJVcjhNdFY1U2FCcjRmdi1ScVpubDhFNjk5aF9XV1FMVW9IWDA5cUhTQVl6blZRZkczbzVjZmlJNnJkcVBoaA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTnZmRmRjZjlvNzlzWXZ5SmVwYXREYkxWVFpfd3BmTnJ4WWJnSUNkWnpXLXNnYktyWkM2M1gyWXJJT1B4Y2NtRHJBOUZ6Y1RjbjlRbVBQcHJ5LVpWTjhFNy1rc01jT3YxbUxNQXRvWlUtZnVHTXNwMktEZVJYNHlLamYzZzBfOXAzcEJ1YXBQOUJUeWNOTzFncFdocWpfaTA2by0wSTFxTUw2SktfRFFDMGpoSWw?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-10-10",
-      "published": "Sat, 10 Oct 2026 17:08:03 GMT",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 10:00:14 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#AVGO"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Told a Broadcom (AVGO) Holder Not to Sell, and Said He Trimmed It Himself - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer Says OpenAI Revenue Isn’t ‘Apples to Apples’ With Anthropic, Daniel Newman Calls Debate 'Hilarious' — $500 Billion Wiped Out - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNk5CdlRwWXdrU3d0dFQzZ2w4dFhPRlJnQ0pxYUhkbm5HMXZ0RWpsdDY0MEh6ZXJIdU43T21yUkVfaXl1ZWJIWEJTWWJDNUNMWHRYNEhHSG9jVW1ySE9sWFdXdnFHbUtIRWwxcmM5QzlvZ1VmY1haWTBIVG1SdDlBUmpmSHJTSENoSHp6WjFEdnNKNHN3aUZXd3lB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbVRHUjJIYmtTazN1RkowYkpOb0ZaczNsNmlqT0lBRFVaczhZdHdVbkp2NkE1MG93NzZsbDB0MGVsVnozVjdZOXVoYVJJZXIyejR5X1FtQUFTRE0tVmZ1c2FSZ2dsODFiaDRRN1hrcHZvTmNOVUtXQnM0anlEX0tpOEt0S2xZVmZtUWJnUnIyRlh6UUJ5TGZDT01POA?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 00:30:00 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 10,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Elon Musk Will ‘Eventually’ Make a Phone, Says Gene Munster: Starlink Device Will Be a ‘Bigger Problem’ for Apple, Samsung - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWENldW5RRzNkdmxvVHVRX2hYRkVNb1BIM1hzZjdOSVlfZl9Qc210cmMyelRtSFhTbEd3SFdnT3Y4OGhGazNYYk1kdmh3MGZ1S2Q5clBwUzd3VHI4VllCVEQ1UXo2dW03c2ZOSVBNN1NDeGdsRkpZNW5oNHZ1RHZzSHlxSWJwLURDSUt5R2k3ZjBJOHd3Qmdz?oc=5"
+    },
+    {
+      "name": "Pierre Ferragu",
+      "role": "Senior Analyst",
+      "org": "New Street Research",
+      "cat": "Analyst",
+      "date": "2026-10-11",
+      "published": "Sun, 11 Oct 2026 15:04:09 GMT",
+      "source_name": "Stocktwits",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Pierre Ferragu Says Tesla FSD Could Be At An 'Inflection Point,' Compares It To The iPhone Playbook — 'Give Us 2 More Quarters' - Stocktwits",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VXbFFIak5YSjF2dUZvQ2R4TTd4dFpoMmdhWm81UGFwRnZwSnZ4UkNDeG9ERmpxMjlkQWNFbE8ycmVLVnVxRkZpNmFMMmNRVldEOXVYUTlIX2JBYVAxZ1d6WktMekZfdWNjTTlMZllDcTNLcXE1SXNHVm9tQkZ5aXZiUVRtNjVnZ25NdVM3ZV9TQjlXNUFvSS1kd1NkLTF2ek1aN25FQ0RISHVHVER5R3J3aklKVlNLMHFvNFJB?oc=5"
     },
     {
       "name": "Dylan Patel",
       "role": "Chief Analyst",
       "org": "SemiAnalysis",
       "cat": "Analyst",
-      "date": "2026-10-10",
-      "published": "Sat, 10 Oct 2026 16:37:56 GMT",
+      "date": "2026-10-11",
+      "published": "Sun, 11 Oct 2026 14:00:14 GMT",
       "source_name": "TradingKey",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -285,7 +306,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 13,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": null
 }
