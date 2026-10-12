@@ -1553,23 +1553,29 @@
           "usage": null
         },
         "2026-10-12:framework": {
-          "billing_status": "provisional_estimate",
+          "billing_status": "usage_estimate",
           "error_code": null,
-          "estimated_usd": 0.25,
+          "estimated_usd": 0.02134785,
+          "finished_at": "2026-10-12T06:57:42.128758+05:30",
           "id": "e21ada98a7ca40b19f98de4cc9053b2f",
           "model": "gpt-5.6-luna",
           "reserved_at": "2026-10-12T06:57:02.721132+05:30",
-          "status": "reserved",
-          "usage": null
+          "status": "completed",
+          "usage": {
+            "cached_input_tokens": 0,
+            "input_tokens": 12593,
+            "output_tokens": 6833,
+            "web_search_calls": 1
+          }
         }
       },
-      "estimated_usd": 3.01171755,
-      "unreconciled_attempts": 3,
+      "estimated_usd": 2.7830654,
+      "unreconciled_attempts": 2,
       "usage_totals": {
         "cached_input_tokens": 21745,
-        "input_tokens": 555762,
-        "output_tokens": 106482,
-        "web_search_calls": 50
+        "input_tokens": 568355,
+        "output_tokens": 113315,
+        "web_search_calls": 51
       }
     }
   },
