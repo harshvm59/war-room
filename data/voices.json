@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-13T03:20:46.886248+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-13T05:14:28.174942+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
@@ -137,8 +137,8 @@
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-10-13",
-      "published": "Mon, 12 Oct 2026 20:47:22 GMT",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 18:22:20 GMT",
       "source_name": "Teslarati",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -226,21 +226,20 @@
       "org": "Intel",
       "cat": "CEO",
       "date": "2026-10-12",
-      "published": "Mon, 12 Oct 2026 13:29:00 GMT",
-      "source_name": "The Times of India",
+      "published": "Mon, 12 Oct 2026 10:14:00 GMT",
+      "source_name": "CTech",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#META"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan may have just agreed with Nvidia CEO Jensen Huang and Meta's former chief AI scienti - The Times of India",
+          "t": "Headline signal (not a direct quote): Intel’s Lip-Bu Tan says AI companies will have to prove the returns justify the spending - CTech",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPRFo3OWRmVDRVcjdMU0hkam4waHB3U3NfMnRLUjRUNGNtYm5VeXZpcVk3VjR1T04xdGhfWlVBRGFrZWRWSUdhSGFiWEZWVlB0aEhPTXJEejV4bHdOODFCRmpadHRfZHlvb3JqcVFoMTVQcm5ZOGlmQXRBLTc5UmhnYTRlM19LOUJvZ2tjb3NuRTd6Ul9CRFJZWXNSdHZELUNhRWFGSnZPQ0ducWhrMVYwM3B3NjctaW96bm5nN3FxYVUxdEk0SHJqb3VxRURYbkRBWDF2Q3N1QjgzZFJ6XzhzTEN6dVo5ZkdMLVhfRU1jS2JXUWNrTzhCdU9tTkp4b0d4V1lpamFLd3BIRllfRGMxeEgwSWdZWnhsOC04bTFCVUxLUmF5b3lyU0RobmFqSDJLZGY1X2pyMW1TZ2UtWE84bWx5aklaNXVX0gHOAkFVX3lxTE5CXzlsWm5hUTZadFJGR3NnRmJKSDU5YVN0ejZ0aWFpb0NBeHZhWkFwOTRsVkM5LXBVQ1NqU0FyLUk1OUZXOEF4dldFdUlEV0RGUEVvdnJPVHVGTWVsQ1RuTDMzRnJSOTFaaDN2ZmthRkREWS04MnA0Yko1NGo0NnNvM3B3UGdTekgxS3VJYVJ3LTBnTTJCWWdSa0h5WnBiWl8zTkd1dDlxZ0hpMHpXVTFxWjh5Y1VRaW9HamtTU3ZRMG5XSEd6UC1adG83QmdnZmp2RXBKbmctTTRMdEdMTnB3S1E4cDY5RmpiV01nd21EanhnS2dBWS0zTnVoTzlZaFAwNUg2MmRZcDJ1dGJOakMtci1QYjBvODZ4V01KMi1jNzdmSGh2NWpQX04xOWQ4ZTk4b1dRaENTelJweTF4NGo1cjBBSEs5TTlKNUluY0E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WX3hBNGJYMTlySjJtalNweEY1MHhYeTR1Wm4xbW1UUUUzdmVuYUMwNnYtaFZkVFExR1phbnhFbndNeU5pVGxLMGdNT0Y1NHJBUERidVpmVlU3LUpMaU5TT25IOHktMkk?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -248,8 +247,8 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-10-12",
-      "published": "Mon, 12 Oct 2026 08:04:00 GMT",
-      "source_name": "The Motley Fool",
+      "published": "Mon, 12 Oct 2026 07:24:02 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
       "themes": [
@@ -257,19 +256,19 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Keeps Buying Rocket Lab Stock as It Trades at Less Than Half Its Record - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Cathie Wood Keeps Buying Rocket Lab Stock as It Trades at Less Than Half Its Record - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNkVJM0tHcXN1aXplWjBoWkVpd1lXamZVdjVzQUIwVXluRV9oQVJ2TWRXMERIMDF6MWJkcnNrN0hQVHZQM1BrNkg4ZXU1a3NMemZjNnlVcE5weXRZSl81NHh3dnI0dkxYOTFsbklNcy1OR2VSMFh5bmpHVXFsajZIZ1gzMFdSX1BhODVOY3NTS1pIOFJoOFFxZlJEYTIyXzlyZWpyRTJYMFV6Q1Buc1pFc1JtVVhrS011TUNlNkZVSjROWklq?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMXlfWVZIcTBEcy1EVGpFQlE4LWZsREJwLXlxUC1UblpVNk80Wmx1X3hEUFh5MjIxd19tQUdTWEg3aWJrTkRvaThvYVptR3ZnVl9JVEVDNXMyZkxFU0hCSFRHSlIxYWhuMVpEOW9CVHNGRUQ5T1JrOGRYUEhqdmdBeGFxNmFkLVVDSVR3RDAwSjAwcU5NWHNtYXRoMEs?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-10-12",
-      "published": "Mon, 12 Oct 2026 13:06:04 GMT",
+      "date": "2026-10-13",
+      "published": "Mon, 12 Oct 2026 22:16:12 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -278,11 +277,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Monday - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer says the bull market's remarkable 4-year run offers a crucial lesson for investors - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZG9JQVNDdUpuYXU2RWwyOVZZbnJILXVWcHk5cE9NRkUyMGlkby15MTZuellmTEJOSjFaQ2kyOEdodU9RTDN2UlhqOWd6OHE1TWx4dXNncWs2NHVXUk1WaDhVTm92WkZYODBUdkNaM0otWWNjUVY0Y0p1Z3VFMkpIalAxQVlHZEQwSGxEOHVPTmRSeDFtb3pMaHZYV1pscHlYOG1meWFhYl9zaXV3MVVxY1dR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcWtleHlBSFk5YjJvUHlSeFhOU09JaDd2MXFBWVFfQ09pNlNZZDJxN1pEOUlsYU1fdGVCVHNUVUNYSlpBc1k3eVB1ajVfOV96NHpBN1gteUtURmJ5YUdJdlVBN19pTUJxSkd4YmV2TjF5X2lDQ0dtTmQ3X0JVWTAzWDZn0gGHAUFVX3lxTE1PdTVFcnVRX3BDUEJJelpwVmY3ZzJaZi14WVhHUDU1RFBSNFhMbjJCeHN5MEE1a0tMVHdVNXJpeWc0WTBkcHpneF9say00UlRUZkhFbTNtVFZhdGVFWlYyZFhGejhGQ0ZXbGlreHo3OEluQzRVTENiSmhoRFMwa1Fpc2FBdkhGZw?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -311,5 +310,8 @@
   "fresh_window_hours": 24,
   "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }

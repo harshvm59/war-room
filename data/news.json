@@ -1,7 +1,83 @@
 {
-  "updated_at": "2026-10-13T03:20:46.886741+05:30",
-  "source": "openai+web_search",
-  "items": [],
-  "provider_error": null,
+  "updated_at": "2026-10-13T05:14:28.175286+05:30",
+  "source": "google-news-rss-fallback",
+  "items": [
+    {
+      "ticker": "NVDA",
+      "headline": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "date": "2026-10-13",
+      "published": "Mon, 12 Oct 2026 20:30:28 GMT",
+      "summary": "Automated RSS market signal from Yahoo! Finance Canada. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5"
+    },
+    {
+      "ticker": "MSFT",
+      "headline": "What Does Microsoft (MSFT) Gain From Its New Maia 300 AI Chip? - Simply Wall Street",
+      "date": "2026-10-13",
+      "published": "Mon, 12 Oct 2026 23:40:20 GMT",
+      "summary": "Automated RSS market signal from Simply Wall Street. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOTRtai1tR0VWQWpDZ0IwYW1lSlp1cE9PLUtZam8wRFFOWGxGZ2k0WWZXejBqZzJ5dnliVEQ4ckpnRGlCVjFWR1RDRS1WRHB6SlpvU29lN21EcWUxeDlkVmFISGpuV3hzd0VSRDVNbnlISE1jSFljejVZMGdFemNVYi1LSm5vd3dqeFBJUWd4N3Y3Q2xLcHVsUy11VndhdF9pTTFBQWhVNExGU19tbXdIX2FVMDIzUFhpWjRSSFNtVUdHeEt0UEHSAcsBQVVfeXFMTVAzNmhJRTZzR0l4SmY2SWVxaDBhV0JXZGN3YjExVDEyVTA0Y1JjX3dkazMtRDcyLWF6THBtQ1VRcU9IZ1VrWUlYczBIa2gtTGYyaWNlNV9tbkJIOTBWTkRzWjZaNzdrRDdRRUtoWWZwYzlDb1loMFBGeVIteUJwRDJSQlhRZ1Zqd1FseXNtcDd2SzRGNWUzUzExVHdOM0FTWFFZVmpGQXlRaXBBM2lZdjFtZTlDQTNfQUNTN0hpYk5hZVJ6MGdIcndDYUk?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "There's a tough truth under the surface of the 4-year-old bull market in stocks - Business Insider",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 18:02:00 GMT",
+      "summary": "Automated RSS market signal from Business Insider. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXBueXI1enFCTEhGUTN0dWV2bWdBeVBsM1lnR2VXdnhDSE9qRUNMWW1RbnQ1dU04TEhubFlOQU0zOWU5RDd4NUt4QXNtVlJYbjVkVW44dW9aMGdrUldYRVBZUE04M2Jlc3lKNmttNFNhNGRwbWY4ejMxLVJwM1lDNFRWODc2Z2gzdE5aZzhJcm1Jem9Uc2hTeXd1VVZSZlhhRG5yeTJCTQ?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Nvidia Negotiates Investment or Acquisition of Open Source Startup Reflection AI - TIKR.com",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 13:15:26 GMT",
+      "summary": "Automated RSS market signal from TIKR.com. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQX0V1TXBRMUFGaUExSUsxbjBNNS05R18xT0JZN2Y5QnNPVzMzc1FuN2h3dEFXdDlRb3lBbnVtNVFMVlVPLU96S3RtX0dzYTVCWlN3czRGS0tiNUNEWHpORWRsamhjNTd0S0w2QlFETXd6ZEFvSnhLWm5VQzRjZTlrVQ?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "Guide to Magnificent Seven ETF investing - TradingView",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 11:00:00 GMT",
+      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUFhsQ1JtSHhoQlJITWgtZHBEVzNMeTF2SlU1Z1J5SDZ0UER6ckprS3BxV25MN2FyQ3VIUVlZUVJYWFItZTJxRnB1YjlOU2NNU1liNzR0Z0d2bHpPOFh0R2dRd2EtUHRNNkVTVE9NR0lwTEJiWXdFLWhROTdHRk9UekJTdzVlOTRUNVJFcUEwanNOV1BETHJCNDhsa1U?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "OpenAI Revenue at $50bn: Why AI Stocks Fell in October - Admirals",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 18:22:35 GMT",
+      "summary": "Automated RSS market signal from Admirals. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNmlRNmdwZTRKdDBCMFh6a21kVGJmYnlCRHNneTVZQ2MzVDNlN01pcVRyUjJRSFEzZnYyTWVNelpzTGpBXzlRM2xLTW5lMHVpT2NpRE1KU1dyeDcxN1B0eXNhMTFiU2Z0V3pJMi03c2dnczQ5SDhxWXFPbTllZ3NTemFxakJaaTVsM0tUUnpyNkNUZw?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "Nasdaq Forecast: AI Spending, Big Tech Stocks and Earnings - www.equiti.com",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 12:43:53 GMT",
+      "summary": "Automated RSS market signal from www.equiti.com. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZjVqdmMyNlR2MDh1ZjliNFBQdFBfOVVja0FOSTY4czFYVFpZU2RqSHJBUS1LQmJOb2k3R29PN2tpNUpQQmRrcE9MbUdTcWdiN0JaWDJnVXI2cFNhTWJwSXhVaXlUcEJuc1NtcnZJaUwtRzFCemFDaUlpWEE5dUxYOE1QZEgtSGNRRkNpVWlvbzN5eDc2bElr?oc=5"
+    },
+    {
+      "ticker": "ASML",
+      "headline": "Mark My Words: ASML Stock Is the Most Overlooked Way to Play the AI Infrastructure Boom - The Globe and Mail",
+      "date": "2026-10-12",
+      "published": "Mon, 12 Oct 2026 09:36:33 GMT",
+      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPVEVNdUJKOU1LUkJNY3Vpa2Q5b2hXLUk2bUo0LV8wRG5uOWtjcjJwSExlUENwODBKSmJMMHBkUG1Iakt6OU94bHJONG81bFZkQ1hQQWdacW9Pd3o3emYzQ2d0RGRCeFBRMmZucDFCcFozdF9CdlhjM1hhZV9EWWpMeUtMVmVUX3BjallCZVczdXNOU2laMGlKMWMxMXNIRTVNekNIa0QxX2p5YllTZFQxSFdiZll6WHY0U1V0ZHlHcUtCWElucmVyN3o1Sk1faXY3S1F0VlJWb0UxNkpxQjF6cjIwSmp0dTRWVG5IYlBtRHNmOW8zb0hMRWwtUWhHdXpSeF9r?oc=5"
+    }
+  ],
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
   "fresh_window_hours": 24
 }
