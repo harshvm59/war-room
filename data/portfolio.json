@@ -18,8 +18,8 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor",
-      "units": 29.4681287,
-      "avg_cost": 158.21,
+      "units": 29.5019011,
+      "avg_cost": 158.5,
       "theme": "AI Compute",
       "priority": "P1",
       "target_value": {
@@ -93,8 +93,8 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies",
-      "units": 47.7397743,
-      "avg_cost": 90.51,
+      "units": 47.8120076,
+      "avg_cost": 90.66,
       "theme": "AI Software",
       "priority": "P2",
       "target_value": {
@@ -138,8 +138,8 @@
     {
       "ticker": "CRWD",
       "name": "CrowdStrike Holdings",
-      "units": 24.7150334,
-      "avg_cost": 107.58,
+      "units": 24.7719091,
+      "avg_cost": 107.89,
       "theme": "AI Security",
       "priority": "P2",
       "target_value": {
@@ -153,8 +153,8 @@
     {
       "ticker": "MU",
       "name": "Micron Technology",
-      "units": 4.5797596,
-      "avg_cost": 451.99,
+      "units": 4.6010332,
+      "avg_cost": 453.9,
       "theme": "AI Compute",
       "priority": "P0",
       "target_value": {
@@ -168,8 +168,8 @@
     {
       "ticker": "VRT",
       "name": "Vertiv Holdings",
-      "units": 9.1296483,
-      "avg_cost": 223.71,
+      "units": 9.1933923,
+      "avg_cost": 223.66,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -263,23 +263,23 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-10-13T15:38:09.088Z",
-    "broker_synced_at_ist": "13 Oct 2026, 9:08 pm",
+    "broker_synced_at": "2026-10-13T17:32:25.427Z",
+    "broker_synced_at_ist": "13 Oct 2026, 11:02 pm",
     "usd_inr": 95.28,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
         "name": "SK hynix Inc. (ADR)",
         "units": 2.5318355,
-        "current_value_usd": 390.87
+        "current_value_usd": 393.18
       },
       {
         "name": "SpaceX",
-        "units": 1.2392871,
-        "current_value_usd": 193.8
+        "units": 1.4292659,
+        "current_value_usd": 224.94
       }
     ],
-    "usd_wallet": 787.3,
-    "broker_account_value_usd": 118374.18
+    "usd_wallet": 676.79,
+    "broker_account_value_usd": 118664.78
   }
 }
