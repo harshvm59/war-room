@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14T01:26:26.471144+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-14T03:26:34.093587+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
@@ -117,20 +117,21 @@
       "org": "Social Capital",
       "cat": "Investor",
       "date": "2026-10-13",
-      "published": "Mon, 12 Oct 2026 20:46:25 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Tue, 13 Oct 2026 17:31:26 GMT",
+      "source_name": "Constellation Research",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 7,
       "themes": [
-        "#AI"
+        "#AI",
+        "#CEG"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya, Elon Musk Highlight Power, Cooling As Real Barriers In The AI Race Where ‘Everyone Competes With Everyone’ - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Palihapitiya on AI valuations, energy, auditors - Constellation Research",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU0RPX3l0NTVHZ08yaVhsamJXZWNMLXNvQjdGRl9iZGh0bm00MHZLYUNuWWhEZWtpLTdXc0U3MXZlakgwaDJLWjV5TWI4aEx3SnQxdjdfSmRBT3htdUxUM21wdnBWRjBFUTlld29lRWxUSnZDcUZPeS15RE1aMzNMNHhYV0x2VUhzMmdseEJqa2FITi1PaXdGT0Q4b0JFdHZCbjVZMWgxTQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON1JBenp0aVpfT2JMenpiWWNJOUNtSmZzNGhLT1NoendUa2E1MHBwSG1WVWx6c2VwdUwtZF9RZHdFMUFaSEpTeFFOTXU2anRBejJvbFBsQkNsNFhRa3QwWGloeklwSEFldXJ0QVVIekdlNUFfNkRzNUdTemFLZ0NOZTVVdG5KUzE0cFlHMFFqbjk?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -160,7 +161,7 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-10-13",
-      "published": "Mon, 12 Oct 2026 22:35:34 GMT",
+      "published": "Mon, 12 Oct 2026 22:36:21 GMT",
       "source_name": "Mother Jones",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
@@ -180,9 +181,9 @@
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-10-13",
-      "published": "Tue, 13 Oct 2026 08:56:48 GMT",
-      "source_name": "Benzinga",
+      "date": "2026-10-14",
+      "published": "Tue, 13 Oct 2026 20:22:23 GMT",
+      "source_name": "Quartz",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -191,11 +192,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Defends Meta's AI CapEx, Ready to 'Write This Check' for up to '$200 Billion' to Dominate - Benzinga",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg admits he wasn't sure Meta's $200 billion AI bet would pay off - Quartz",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNQW56OHpKWDg3dnd0R1RCQnJBdllwb0NBdDNQcW9HSU9KWC0wWDFzN1lFZjdfbldBV0VHLUZ6NnlOM1IxMEN6aHlpb09TM2VhVmIwSmxVdXlwSjVXckNDU18xcHN2am5YS1BMU3VVNGRON2ctVl9XQWNtd0trSlg1YUluaVFvanVidnJWT29sUUNLSDZjV2R0ajhwN0plMm9pLXk2SnFkQnBHQUpTeUhJNWdpQ0o1cGRYWkg0SXlRd2V0Y250b3RoYnpxcHcwajg1V0liZ3ZzZUl6d3dPVEM2Vkl0YW93SHI0YzR5YThKRkFDM1V6cXZEcTNxVmkza0Zv?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ScUZOSTUwalpubGdlY1MwSXRHZmU3RDR3ZHdxanFYalBGemNWWVpNaTU2SGRuRWdjQU5ubDgtdmdodE9qTm0yZEVvVmxjb1VIdTF0NVNFSVl6MEFvMmhNYzR5cHRxUjVwcy1SS1ppajR1UFlLRmhHS3NrTXJldw?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -203,21 +204,21 @@
       "org": "Alphabet",
       "cat": "CEO",
       "date": "2026-10-13",
-      "published": "Tue, 13 Oct 2026 16:31:33 GMT",
-      "source_name": "Traders Union",
+      "published": "Tue, 13 Oct 2026 17:42:21 GMT",
+      "source_name": "NDTV Profit",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai sparks bullish outlook with Gemini news while Alphabet hovers below session high - Traders Union",
+          "t": "Headline signal (not a direct quote): Google's Gemini 4 Argon Is Here: Sundar Pichai Announces Global Rollout - NDTV Profit",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUWxHbUoxLUIzTHV5dDlaQ25idnJhVW9nUTJYT1hfYU9fajZjLTVJLUZWNDE4TnVGdXMwaTRRU2lKRlBsQnhvQjg2TWgwOUJrTkFIQU9xMi1SMmI1ZWFlWHBtUlpyMnFENGV3NGVLN3FmekpiTEZrYmFCcUNITDVHX3RuLWNSMURIdUc2b0VB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUG9EREVSQ0ZYQlY5a0pUeWtvZXRkY29rMDREM2JoN0JGUnRzZUxSdjNqcjBuZXMtNWY4Z00zY3pwam5lT3J3VVRUSzVTZGgxR2hVZzk1SDVSUkItU012V3pUWGM2cHUzYkMxX0pzQW9HZk9adHB3cTluYnpUMXF0ZHlLSlVUSmJkQy1TdXBXSnNmd2tXN3lFTVV6SlVvZTQ0Wk1VcmRObGJzTDVxNWJhMkVSR2Nxb0HSAb8BQVVfeXFMTmFkczEzZVcwcDJIZktFSmNLbGNtVkNJNUtiSlM0akdtSWZ6VTdPaVA1emVBX1pqd2NVZFA0d1UzWWV3T0FLVUtGZFE5MGRoeGl5MF91ekRJdXNmVGg1VGpBSGdHZEZDT21pdW5Gc3l6Z0tQb0Q1T2Q5S2MxZFNUeGFRYXlyQXBzdElSZDBSUVoydjVlWlljRnFOa3NyMmYxMkY5WnJFaFlLb0xyM3MzWXUwTDR3M0I3MEpQeFFQZE0?oc=5"
     },
     {
       "name": "Hock Tan",
@@ -247,42 +248,43 @@
       "org": "Intel",
       "cat": "CEO",
       "date": "2026-10-13",
-      "published": "Mon, 12 Oct 2026 19:59:16 GMT",
-      "source_name": "Wccftech",
+      "published": "Tue, 13 Oct 2026 12:08:09 GMT",
+      "source_name": "The Next Web",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 7,
       "themes": [
-        "#AI"
+        "#AI",
+        "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Warns AI Hardware Shortage Will Last Two To Three Years & Says Sector Has To Show Return On Investment - Wccftech",
+          "t": "Headline signal (not a direct quote): Broadcom CEO Hock Tan likens many AI investors to casino gamblers - The Next Web",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYl9KZVNDaFEwTW1KOW5iWnVGTGd5cENCdW9jQzRzNjMyM1dHNEZwa2ZBRVhubDRES1JEek1FLTRsOEJvUkpDOVFyc1ZPdHRldHlVVlJmOTAtUFlhZVVOVEd2WW1aNTlDa3M0bS02NVNpckp3TGdjLTUwZ2l6OGxyS0cxb202S3puRXIyVEFidHN4ek5pVjBWbWxXRzFvYXJpeE11S2Y3Mi1rcV8tUjhQX05BaUlzNFNHVmNMMlJic2Fva0tfZXpHUzZGSmY0R1VmSnJGUkstbHAyQlnSAeABQVVfeXFMTWVmZjBBcmZ1VXg3Z1RQWFphbXA1bE95blh1b3lwdmhOMzllNWtKNW9EVllwWUIzTVppU1g2NHZmSmhhejdmVUd1a2x3XzNGTmRzbHR6WElzVjZhQlZ1Y2tsYUYyU29sSnJFUzJpZXdtaDdBam9RT0VfSmhkcUZYSGNLeVBTYk5QV29wUElWRHJJRENraUJKMVkzNlI0OFNaNVdWTzBtdW9OTUJsQnJBbXBUXzk2dEJLQ0VXbEZtUFFLZkRPaGMtZ1czb1FTdFVaMHo5NUU1aWZESVdHa214Ynk?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1Y2FuMlR6XzUzU25qRExqQ3BuY3hSUXN3MGhCM25ZMEgwa3NKRGM0MGFLOWMxX2NOQUJxZzNTZU1NdHh4WVBadUxQVGYzVFY3UE1yU2d4cm45aVM1Tzd5T25LVU9rLVgyWXlaTEx4X2FVcEhzMlN0RjdMTDB3dw?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-10-14",
-      "published": "Tue, 13 Oct 2026 18:48:45 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-10-13",
+      "published": "Tue, 13 Oct 2026 16:49:10 GMT",
+      "source_name": "TheStreet",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood sells Meta shares after Zuckerberg's big AI launch - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood sells Meta shares after Zuckerberg's big AI launch - TheStreet",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX25oR0w3NVJTVnd1Sm5Wc2VGZGFhazdfdGpPQWFmS0RrNUwxVXJCUy1kbkllcUgyd3FYSExhWEVQTEFUd1VPZ2lUNUxqVFRlaDN6alpsS3BmTENfWHEtQTU5RTFxUVp2OEZpSW5QbVk4OWdhRHpsTUo5RzlaUUpJNWFIVE9aMDJmT2VXczJrSEM5LTh4NXpNX1N3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUzV4S0MzVjBGNFpCMkRsV1RNdVRPN19WNG5oM0I3QWM0WDF2VlliY29LMkpUdlFoMVBtODNsXzNQMXd5N3NNcnJSZ1dRMzNJdThlRW1SaVV2WFZfV1VvMHZQbnZ6R1ZjY0NGWU5GYk85dlpEM3B1ZVZYYTRHV1BHekxDVkZrUXBlelNZUkhUTFE3SzN4cUxLTGxOVFVUSV9yTEg5Rg?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -332,5 +334,8 @@
   "fresh_window_hours": 24,
   "fresh_signal_count": 15,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
