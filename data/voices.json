@@ -1,28 +1,90 @@
 {
-  "updated_at": "2026-10-14T23:39:05.597783+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-10-15T02:24:56.502985+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Hock Tan",
+      "role": "CEO",
+      "org": "Broadcom",
+      "cat": "AI-investment returns",
+      "date": "2026-10-14",
+      "published": "2026-10-14T11:10:06Z",
+      "themes": [
+        "AI spending",
+        "investment returns",
+        "chip stocks"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Tan questioned whether many companies are generating adequate returns from AI spending and warned that some token-related expenditure may be wasteful.",
+          "k": true
+        }
+      ],
+      "src": "https://www.axios.com/2026/10/14/semiconductor-ai-stocks-broadcom",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
-      "cat": "CEO",
+      "cat": "AI demand and investment",
       "date": "2026-10-14",
-      "published": "Wed, 14 Oct 2026 18:05:03 GMT",
-      "source_name": "Quartz",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "published": "2026-10-14T15:29:53Z",
       "themes": [
-        "#AI",
-        "#NVDA"
+        "AI demand",
+        "European investment",
+        "AI adoption"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang would cut off unsafe AI developers - Quartz",
+          "t": "Source-linked summary (not a direct quote): Huang characterized the current AI era as an opportunity for Europe and emphasized the potential for new investment and technological catch-up.",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MYVBVdE5KUFNTZDFnZmE4YTMyZTFVYXdqdmczeDZHeHlOY2FuOGtNQXNfeUxlak9EODNYdE81TXFFNExZQXFZMng3ZkdmblZ5ZWpWLVlVTXltNVRJVGFucVNPYkRMLUdQbEhxNkFLZ3c1VVBXVzFWbA?oc=5"
+      "src": "https://www.lemonde.fr/en/economy/article/2026/10/14/nvidia-ceo-jensen-huang-optimistic-on-ai-risks-sovereignty-and-jobs_6758610_19.html",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Gordon Kerr",
+      "role": "European macro strategist",
+      "org": "KBRA",
+      "cat": "Semiconductor outlook",
+      "date": "2026-10-14",
+      "published": "2026-10-14T07:19:00Z",
+      "themes": [
+        "ASML",
+        "AI infrastructure",
+        "semiconductor demand"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Kerr viewed ASML's results as evidence that chip demand and AI-infrastructure spending may remain strong through 2027.",
+          "k": true
+        }
+      ],
+      "src": "https://uk.marketscreener.com/news/european-shares-edge-higher-as-asmls-ai-demand-outlook-boosts-tech-ce785dd2da8af525",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Sam Altman",
+      "role": "CEO",
+      "org": "OpenAI",
+      "cat": "CEO",
+      "date": "2026-10-15",
+      "published": "Wed, 14 Oct 2026 19:30:08 GMT",
+      "source_name": "Yahoo",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Bernie Sanders Hits Back at Sam Altman After OpenAI CEO Warns of 'Severe Cyber Incidents' in Exchange for 'Liberty': 'We Won't Accept' It - Yahoo",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYlFuQmF2Z3NyYWFxVk41Yy1SQUlydzVUdDFCa1N6eVRMN0xfWm9DejJRSUxsM0xIbU4zWWg5OVh6aGpvQ0tFbEQ3R0dyZU1tc1ptZDVmSElCV1c2MW1fR3pIemdLQVhLeHdsWnhJaTJMVlFHZVc4X2tWaTBFLS13VF9JTUFqUjZpX1RXRDhKTVMzQQ?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -90,6 +152,27 @@
       "src": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeVpJbjBERGNpSjBEZmxMdEZZdFBoeDZMcFh5djdJV2pJby1qaE5fcmFIWFY5SWpPTms3ZEtrVzNGMlVJT2J6QlNCaVN1NFVLNTdTM21LSFVFNmQ4c1Fzb3ZCXzZKUlBIZFhjV2hkV1NOTUVGWDFtVy1HV1k3QkZrX1hwTndjZ2lRY2RWM1RLamREdTNNTjRNLXpTZ1dMMEhFNmZOeEYwcEhwZHFaM3JOdU1KdmFOOU9sT2p0MDhTaUZxQ3JFX04tWXpvVVc1ZDJJSlp4Y3lRZXppYmozWi1pOTdlVUM2M2I3TVJlT2ZhLWlMNTA3?oc=5"
     },
     {
+      "name": "Chamath Palihapitiya",
+      "role": "Investor",
+      "org": "Social Capital",
+      "cat": "Investor",
+      "date": "2026-10-14",
+      "published": "Wed, 14 Oct 2026 08:41:36 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 7,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Elon Musk Says ‘Yikes’ As CoreWeave Bond Yield Hits 15% Amid Chamath Palihapitiya’s ‘Private Credit Bubble’ Warning - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc0hLWFB0SVVEbmpaSFNzSndXYjNWSlI5M1lzd0RkcmJlXzFIZlVlUExjNGw1cktPTVF2dGZNVEZaQUFKN1VuWVNfVy1OcEotLUNvcFhKSVAyYnlvbFhRMUgyd3JiWXQ5dVlXdElJdVNCei1yMFg0Q3RjVml0ZUlCaVpreElyMWZ4RzE1cFFHTlpHMVd1blZwVHpaTQ?oc=5"
+    },
+    {
       "name": "Alex Karp",
       "role": "CEO",
       "org": "Palantir",
@@ -139,7 +222,7 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-10-14",
-      "published": "Wed, 14 Oct 2026 14:30:27 GMT",
+      "published": "Wed, 14 Oct 2026 17:30:15 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -149,11 +232,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Alexandr Wang Brought Elon Musk’s Lean-Team Playbook to Mark Zuckerberg — It’s Now One of the ‘Tentpoles’ of Meta’s AI Strategy - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg Defends Meta's AI CapEx, Ready to 'Write This Check' for up to '$200 Billion' to Dominate 'Decades to Come' - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNXzdYZjNkcTg2cnBmV290N3dMMFF1dnJ4U0llbDNYeTlpMWw2SEEtdnRQekhCcjNGMzhMZlBqWUZQZF93SjV0YXA4VW92d2p3dGR2S0pKQVdYczRJdzdSczdfQXdVUjdrSFNveVY4UlBQUmRLSFU0dUQ0Wlc5dkYyd1NGcDBtZzJjaEh3Ty1MWnZEbXR5SHFfX0dFWQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYlllSFdjUGN6MXplZWlreE1xek9XZmx0OVdGVFZzbDRsRXFjR0hfYkEzYXpZdTF5bVNEbzRRVGVzc1p1dUZFX3BzT25aLVRyenM3X1Nqel9CX3pZZ2lCYnI2ZDB6UVpfdnhPejNCWFdyWU1LcXh4NUFnNS1uclh3enpXdm05T0ZQWHRHbVNCVWFQbkpFRkJ1ODJ3VEE?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -176,28 +259,6 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaEJhRWI3YjJ0dDdmdkpBUTV2MVNCQ0VzUDJfM2hnajZ0dFhHZHBSc0pOc3lzOTRFN1Naa3NJdnI2TU1xM3JpWGlZWnJFSG5VdzF4WFRoaHFsX0Fla05VV2duMlRuc2FGaHU0NGtfcXZsalZVU1ZpcTQ2QkI4aTlfNGYtNzNNNnRpNTR0cm94d2E3RlRmOEhrdzdNcEZ1WEt0NkswQ2NUV2pudmtac3dmblluazRWZ3ZudHkzR2ZOTUlKZ21NRm1ZSEJxQkNLcnPSAdQBQVVfeXFMT0ZHM1NaZ05BSWJxM0FlZ05aYXQyUW9wWW9GT1ZEbmxZVmkxVDJ2eTJGNktqNEFLbXB2d0QtbnRjellsVVo4OHpqUXo4MW9ZWmFUZ3FfWFhWeDhsN2dLUXNySnhib0FOUmdDYUtTM3d6Ny1tUTdULWVaX21TMXo0ZGMwemtlVDdUTTdUUHJ0LWVOMV9KUTBqRHFsNkxfSFlrcjJKeUhuUFBRbm1IWUVURnFocXpnR0tVdTdsSzZfME1aWkRUdEFPR3VqNnc0UGNZOFNvX0k?oc=5"
-    },
-    {
-      "name": "Hock Tan",
-      "role": "CEO",
-      "org": "Broadcom",
-      "cat": "CEO",
-      "date": "2026-10-14",
-      "published": "Wed, 14 Oct 2026 13:30:13 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#AVGO"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Elon Musk Fires Back at Broadcom CEO Hock Tan's AI Investment Warning: 'No Crying in the Casino' - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPclB6Yzl5WjNnYzNlaFcxZE9tSHhXdndFZDZJUi04TVpYUzNvWUktREY2WWtCSlJJWFBjbUl2cVZ5RXVmYjF2RmdicjN5dC0zSThVWjNLWUF3QWNSVXE0WVFlNHpQd3lWS3o1UlFaS3ZtOGtRejZnOEJMMHZNSEVBOXE2T21id25ZYUNiUFZ2bi1KUjg0WmpUZw?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -248,7 +309,7 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-10-14",
-      "published": "Wed, 14 Oct 2026 12:59:49 GMT",
+      "published": "Wed, 14 Oct 2026 15:50:01 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -257,11 +318,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Wednesday - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer says this healthcare stock is still a buy. Plus, what to do with BNY - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMWdnemRpdlY2NkM1Q2x0WExQeHoycGdISHlFYTRady1Ma3dEM3g2WUVoYUUySDNrVllobG1KaWk5WVlYZEJRV3E5NEstOGZvWS1FZVpEOHE2VVFkNDMxb1ROWElYSVJ5MXJVZmNINFpmMHVIc0xQaDE0bEtnd2lRdlAtc1dvZm9jWU44TEcwc1ZOTmpMcFVZU1BqU2VodjlXS1FndHN6VldUaU12QmUxRk13SHZCdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS2p1QTh0YXFxSHpxdzVyX0FRLXJyNW5ZeVR2dXRpbEdlT3N0Y1VDTy1JemhzQzJ2YURmNjd0R2xpMHc5X2FDdHJhM09zWXdQR2J2TS1QdDhtNlZPMzRGd2t1TmVrWnNiZmY0TVBGNkFXX1JLNXppUmJFOHpzY1ZpOHZac0xlSS01TDJZYmRsQk9Da2lXRWM2OEdYVnZycHNGU19WUGNRNUYzNDZwRWctY0Nka1lZNVpXNDBpcXZIVEFTTnNBLWFr?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -309,10 +370,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 14,
+  "fresh_signal_count": 17,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
