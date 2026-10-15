@@ -1,12 +1,15 @@
 {
   "feed": "themes",
-  "status": "ok",
-  "last_attempt_at": "2026-10-15T02:28:47.567875+05:30",
-  "last_success_at": "2026-10-15T02:29:11.627749+05:30",
-  "error": null,
-  "source": "openai+web_search",
+  "status": "degraded",
+  "last_attempt_at": "2026-10-15T14:05:49.072405+05:30",
+  "last_success_at": "2026-10-15T14:05:52.622106+05:30",
+  "error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
+  "source": "google-news-rss+deterministic-cohorts",
   "outputs": [
     "themes.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/38636569380"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/38706779190"
 }
