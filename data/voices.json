@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15T23:22:04.504223+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-10-16T01:59:39.694736+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
@@ -29,22 +29,22 @@
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-10-15",
-      "published": "Thu, 15 Oct 2026 11:16:00 GMT",
-      "source_name": "The Times of India",
+      "date": "2026-10-16",
+      "published": "Thu, 15 Oct 2026 19:27:34 GMT",
+      "source_name": "Martin Cid Magazine",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
         "#AI",
-        "#GOOGL"
+        "#AMZN"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): How OpenAI's office spy case 'proves' that spying is not Sam Altman's problem alone and why Google, Anthr - The Times of India",
+          "t": "Headline signal (not a direct quote): Artificial, the OpenAI film Amazon dropped, brings Andrew Garfield as Sam Altman to US theaters at Christmas - Martin Cid Magazine",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNT3A2VVBqX21MZW9GMzl2R280QTduOGtrWnJ0dU9PUEpMQ3c3WmE2Vm45X3RTU0NndmhLX2ExN3RLSUxPbHJQNmlaR0FVYVdyWmRJaF9MbXlnaVJVcTNDYXFlcGc5QlhLQnQ5RGhMZVFZcEJwM1lFU0wyTVVFMjMwQ2tLUkdvZk9aVFNaZ3Y0NkJFeVViRWRtbWtZZll0Z1ZXSzdRNno3MTlCTkloYUFCdUlwUTNjNUhmT1I0Q0ZsYVNmUmJYRVg0R3kxcXlpLUNUcmRVY1E1TTVsTlNQSW84b3lRZmZJdWFWaDRrcm56azJDM283ajd4UWZudzdnNVczM0x0Y2ZQVVVMYnMtaFVMRWhRc2NzaFhCZklHOWRRbFRjR0VIbmNIWXJhdDg1MGNFNGEzOHJ4eVVVRGJJSTBYaUF1NjFUWUM2b1lhQld1R0k2QdIB1wJBVV95cUxOcVkzekVQX1Jvc19tdkJMMXJNOFQ4WFNyWlpZdHdFcktuTWo2ckNpaFB2ODBXMzlNZUp6Q0YtYW9CMG5JZzNRc2F2R1R3cWtjc1dIN0FqdGFyOEFta0M3bDRUbU5zTjZOWFRiQkk5cXBNdGUzNktseXd6bk52WFU4aHNBRHJULUtsWkZPcnFvbG9LRDZvN2xsTWhrTTV6N3ljREx0aTBkd0J4aHUzLURLcVkzNjZ5bWdNZC01VVhzUjhGSFZoZk9HQnRnWVd5Rno4MGNsVlFnb1p4c1JpRUpuRElyUURUUFBXVFp6c0ZyRlBLeEVpdmJySVhUNVphTURmSnZ0Q3liY1RUVXhWbnVCUGkzaEMxR3N5R2tGRHNXWURsVGVaMGtkd1JMZXpmb0FzQUlJWUlaMGVTRlF5anQtNExyUEtQZUxCR0hmMm1sRmlsNTBhc3Vz?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5oMXJVUUk5RkRMSS1NSm1tb3dYZWM2amVodWhBOWZleEtleU0ydHdvcldNbFdzak5sV0U0UHRRd1dodUhUdUtqNU9jQ0oyY1p2SHFmOXMwOA?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -155,27 +155,6 @@
       "src": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRWZGbGltVHRLb05mcHBsYldNNms3d29tTUVNV2Q0WkZabU1tRWdiT09mdDNka2pkUXVobzBYR2hqRDJwZVpSLXBOdlBIUjhfeGhocHQxdzQ4MFVlN3dsVzVoZTZ2dXFjQWNHb0VZcGdncW82UFBjZU53S2Y4ZEJ2c2hvSzdpR01yWTJncXlwVktjWUQ3U0RsMkk3TnhOaE5XNjZLVmhaRlZnUTRlZTVRSzh0SmhyclhoWkE5S0I3cjJFUzBHYnVmM21JaHFzbnozSWhfdjNpQ1VBX05BdS1WYU03ZERKRXdpWU5MQXVjUTZhN3M?oc=5"
     },
     {
-      "name": "Elon Musk",
-      "role": "CEO",
-      "org": "Tesla / xAI / SpaceX",
-      "cat": "CEO",
-      "date": "2026-10-15",
-      "published": "Wed, 14 Oct 2026 18:47:34 GMT",
-      "source_name": "TheStreet",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Elon Musk takes aim at the customer service industry - TheStreet",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWTdYWkl6SUR0WElVN0tHQXJVTXFYcFRIWE54dXd3dWJWSUktQjJvSjc2b2xkM2ZDNVpPOElLcy1ZamlzdE1KX1hZbm85VmtyS0NDODg3LU9WeUV1TFc1NWZmZHBYaWxWWkxqU3hybGt1S3AzSHJQVHd5VURuajRXM190RHFWdWVHdV93RWR4QU4tZDl5WHdFY3Q2Q3lSY3d2SlljNHBqYjJ0UWl2eWc?oc=5"
-    },
-    {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
@@ -261,7 +240,7 @@
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9HT3FIbGRNOWNVNWVNdzJoNk1mQXNaWHdxZG4xVUgyRnczX2xMbU92bGRuWGRZRDFVZU1fdXRwQm1rQ0pOYzRnSVJUU0d0eEN5YndsZWJ0eHczQ2NxNXNDRnVJeTRMbUNROTB6N2pfR3lBWUtzMTZUbQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QWVBfWVl2b3pkcTJhSG9TMkhoVWI2Z0V0SjFHTlY2T0VpdWhncnhQbXpOVks0ZUJRTmZNdlNOMWhNZHlOY1k0ZWZ2d1p1dkd6WG5xY0lDREc2dmE0MHAyWGE3LUdQc2VOYjJKZ3ZLV3VHM0JrbmxJ?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -331,10 +310,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 15,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
