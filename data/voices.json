@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16T01:59:39.694736+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-16T13:56:10.026517+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
@@ -30,8 +30,8 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-10-16",
-      "published": "Thu, 15 Oct 2026 19:27:34 GMT",
-      "source_name": "Martin Cid Magazine",
+      "published": "Fri, 16 Oct 2026 01:02:16 GMT",
+      "source_name": "IMDb",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -40,32 +40,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Artificial, the OpenAI film Amazon dropped, brings Andrew Garfield as Sam Altman to US theaters at Christmas - Martin Cid Magazine",
+          "t": "Headline signal (not a direct quote): Artificial, the OpenAI film Amazon dropped, brings Andrew Garfield as Sam Altman to US theaters at Christmas - IMDb",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5oMXJVUUk5RkRMSS1NSm1tb3dYZWM2amVodWhBOWZleEtleU0ydHdvcldNbFdzak5sV0U0UHRRd1dodUhUdUtqNU9jQ0oyY1p2SHFmOXMwOA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vSkdtemlTN0o2SnI1S1NIcGJ0T3FQZUx1a3lTbVVqSFh3SEtSUTFYSHVOOGVyX3JnT0dlQTd3am5jWDJfZG9wNk93NVBzNGFJVEVKZlRnUGdzTEhxMTdRWUViQno?oc=5"
     },
     {
       "name": "Dan Ives",
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-10-15",
-      "published": "Thu, 15 Oct 2026 08:14:10 GMT",
-      "source_name": "Benzinga",
+      "date": "2026-10-16",
+      "published": "Thu, 15 Oct 2026 21:49:00 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 10,
       "themes": [
-        "#AI"
+        "#AI",
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Calls CoreWeave Selloff ‘Way Overdone,’ Says Hyperscaler Earnings Will Back AI Spending — CRWV S - Benzinga",
+          "t": "Headline signal (not a direct quote): Apple and Meta need each other, says Yorkville Ives' Dan Ives - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQalVuaktqc0RqRmlYUTdqMmVFRElIZkJVRWNHOUZmY3NyTmJhVGxCVkJiSFB5S0JrU05Pbkl5RXl1QnAwWTRYcW4xNURaajM1TUEweS1DdmY4bng1VmM2Q2JwWG55VzZ5NzVyRHZKVjE5LXhhMmxiNGlUTF9VNFUtT1JaZEEyMTVBYWlIU2plNlRHNC1vZDJ1TlVMdkRMcGctM19KWGJKTDJPaXoyanU5WUpUMmpjb3JPejdONWU1dTJrcDVCU1VITEJuSWhnODBBUW1ONGJncHFRRXg4eXN2SGhONjk4Ny1Ya2NMaDZDZi1MLVlWWjYzZVN0c21vb1l2ZlpJbFV6SWZSN1dIelpXMU1wRkRNUQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX2FZS3dOUXNqUHVkaTJ3NGhQNWM3Qm9zWDVlYWVzVUZZZ3RPenBQbGdsZ3JudTBuX1IzZzF1VG5RZ2JKejh1VkstNG5CRTAwcXNwbWtJNU9DaV9kdEZkSTh1ejdqZWpyVkVFU21zNjN6QzNySkYzODdaUGhRTnRSRFVibGhVZEdfTldxcHBQOFpqdC1tWnVLcVdUSzFKTnhoT3NtUg?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -90,35 +91,34 @@
       "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObmlNMnJVd2otdVNQcU1kcGlBWFZjVU1CYzUyOEdPeWMtMnBRdV9ES3dMQzJIQzhWMk9vSEFxd254QXRMNTRxdDJwRU11TzRwTEZJUE9OdFJVUEZqSHJsRzRSM09mVU9weHFOSGdYVUNZem1HOFVXZmpxcmozZ0JUbEhkbXVIemFMS04wQkdhRmkwWk1FNy11SFMtekJyWFBpMjE2OTB0LUtSeFh5X1E?oc=5"
     },
     {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "AMD",
-      "cat": "CEO",
-      "date": "2026-10-15",
-      "published": "Wed, 14 Oct 2026 22:41:36 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su Sees AI Inference Boom Fueling $1.5T Demand By 2030: 'About 60% Of The Market Going Forward' - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNa2U1cHpFVVlpbnpxWDAteGN2UW5seWhfaTV5M2ZaeWVYUGhQaGh0aUFjcDM3UFpCQjdGZUtmbVFxZmJSOURxdjhyVGY1SmlsWUxIb2dfQUZCMWozb3ROUlp4LTNaODNTMGVlNWNKQkh6MHNRMHJINS1ycjV0RTdiTXJMd2ZCUkx6Y0pucGoxa0lUNk0tX2Z3X1cyOU1WRnk2bzZTVTJfckZUREFQNjJtN0IxMVVaVy1qOTJ2aWhEWG5FS1VmdXNkQXRWNloxWE1oU3VWb19WdXBqQVN2OXZvYnJtelkwNkFXZ3prQzBQMklscVlnOFF3akI1a1Y?oc=5"
-    },
-    {
       "name": "Chamath Palihapitiya",
       "role": "Investor",
       "org": "Social Capital",
       "cat": "Investor",
-      "date": "2026-10-15",
-      "published": "Thu, 15 Oct 2026 04:51:05 GMT",
-      "source_name": "Open Magazine",
+      "date": "2026-10-16",
+      "published": "Thu, 15 Oct 2026 23:10:54 GMT",
+      "source_name": "https://www.ababnews.com/",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Social Capital Founder Chamath Palihapitiya: 70% of AI Company Revenue Comes from Similar Companies - https://www.ababnews.com/",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5QUVZTRXJwcld0N19lSFlqQ2h6bmFLaHQ0UXhQSm11cXlGS1hOTUxWOVVFX2lTdm5aay1vVXg4dVVSN3ZiSmtVTFRCY1Q4LUpwNDJaSXhGYlBYMzYtUWJTbmVhNzlLZDAzX2h6eHVOOHAycGM2?oc=5"
+    },
+    {
+      "name": "Alex Karp",
+      "role": "CEO",
+      "org": "Palantir",
+      "cat": "CEO",
+      "date": "2026-10-16",
+      "published": "Thu, 15 Oct 2026 21:50:33 GMT",
+      "source_name": "www.lvivherald.com",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -126,42 +126,42 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Warns of AI Debt Bubble Amid Private Credit Surge - Open Magazine",
+          "t": "Headline signal (not a direct quote): The Neurodivergent Future: Alex Karp, Artificial Intelligence and the Coming Revolution in Human Intelligence - www.lvivherald.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWTBJX0pkY0FObEpjSW5NTEtnTHFuQlA1TGxKNWlEeUZQODV3SUlPeVFkY2JlWU9MbDdTSjlST0hwOXNIV1ppZ09hTG5ScXpZcl9iR0ZXZHRxMGpqYlRnM3RNYzNSeFlFOXEzS3VWZlRmZ0xIRXp0ZnVOb0ZPakxVbFpja3E2a21hS1ZoT2hneDZxWng0NFdUWkdPRVU4ZjNXZElRNC12N3BkN3d3Wmc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSThzcHZ1cWYzVkJpZE1YTFZkSmhsRkpjNW11Y0UwY2s5TWd3RkdNRVRxV2cxZXZBUlFrYXNPa0xUOEV2RzBWMzNfamYtd1VNcmpLY1FyRFl5VTlTMzVnNnVCdklILXY4bHNWbUtnN2ltUHBXaG9INm9CN1dPMC1HbjlrUDZiczduS0JaeVBSZGk4NnVURWQwSGR2UHI0bGJZblhmOWlaUDA0Mmc0MGpCc2RtWUJZR0ZhR2tYdmgxa0U0SUg1SGlVd0VB?oc=5"
     },
     {
-      "name": "Alex Karp",
+      "name": "Elon Musk",
       "role": "CEO",
-      "org": "Palantir",
+      "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-10-15",
-      "published": "Thu, 15 Oct 2026 00:23:17 GMT",
-      "source_name": "Stocktwits",
+      "date": "2026-10-16",
+      "published": "Fri, 16 Oct 2026 01:16:00 GMT",
+      "source_name": "BeInCrypto",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
       "themes": [
         "#AI",
-        "#PLTR"
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Michael Burry Targets Palantir Again, Flags ‘Nefarious’ Accounting And CEO Alex Karp’s $17M Jet Bill - Stocktwits",
+          "t": "Headline signal (not a direct quote): Did Elon Musk Just Hint at Tesla x SpaceX Merger, or Will Cars Fly First? - BeInCrypto",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRWZGbGltVHRLb05mcHBsYldNNms3d29tTUVNV2Q0WkZabU1tRWdiT09mdDNka2pkUXVobzBYR2hqRDJwZVpSLXBOdlBIUjhfeGhocHQxdzQ4MFVlN3dsVzVoZTZ2dXFjQWNHb0VZcGdncW82UFBjZU53S2Y4ZEJ2c2hvSzdpR01yWTJncXlwVktjWUQ3U0RsMkk3TnhOaE5XNjZLVmhaRlZnUTRlZTVRSzh0SmhyclhoWkE5S0I3cjJFUzBHYnVmM21JaHFzbnozSWhfdjNpQ1VBX05BdS1WYU03ZERKRXdpWU5MQXVjUTZhN3M?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qOWUxYTN6d0pfX1R6cHEyWDNBVUZ5aVIyWHBfcnQ0a09WbnZNQktjLUxST3JlbjNBU2VoME1CREh4eE9fRlpuODJUMHdsVlRTaTBfRkRjVG5KZVRHUTR4cHpydnlqRVFhVm9USW5B?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-10-15",
-      "published": "Thu, 15 Oct 2026 08:47:00 GMT",
-      "source_name": "The Times of India",
+      "date": "2026-10-16",
+      "published": "Fri, 16 Oct 2026 06:21:50 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -170,20 +170,20 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta AI head Alexandr Wang praises Mark Zuckerberg, he replies: I have never gotten such a nice… - The Times of India",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg Opens Meta's Massive Muse Spark AI Model, Says It Runs Great on Apple's New Mac Studios T - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOYXdVb0UtLWs4U3k4NG9QNXAydWRFdFN5QU9ROGhMZjA3QlVkdE4tWWd0UTFlMW5fV2ZHRTk1N01tV0NTT0Q1WkQzaWtleV9uQ0VjX0pfalA0WWtlZzFMV0hOeDd6dGtSbUo3X2NsR1NkNDdCYWNzbk5UU0lyVVlkbERydTJid1dRb05xcFZjckpQbm1Za2dKTUJEc0liMGluZWJJVWpjaFpjWVdoYlBkNjFNYVRhZFAxUDFDUEF5X3ZHM2tFQUJ5Nkc3RnY4N1otdDlXVHBya2FyVmlmZ3RvWmFLclkyVUxJWHA0MHloMFB6S1gtdUluM21lbUIyTnVrNF8wYmZUNNIBjAJBVV95cUxOT3BCT1VfekJrdWJmQ3VqLWFxN0dWa25ldkZWeXFPTFlZOHFsRUhnSk93MnlMc2IxYmdRVTQ5djNhMWVIQXdkUFJaanFOaU1uTlRNYTh3ZkZZbmczM3Y4VEp6NllKV2FfRlJTWEpVSWJkbDIxbjM3cGFacGRibllLQjA4ak9mNnROVmJWand5R2xkZDNFM0JfNkViMGx4cHVLQmNyQjZtejlrSWZmbGtJaDFJVmljVzdMVVN6OG9YY3NaTjJScHFfVEZtWXhXSzNTMnN0ZnA1S05yNmhldG9ySjlvYnFHbC1TcUNYenFKRnZROWoxdXNKVTdlaUVQV2lOYzdHVkt4TEcwMzVo?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdUtCMXF4eHM4OTJqUnZTTXdJY3MzNlMwR0V5NjduNTR4cFN1SldEWTktcjBQbFV0Um01alQ1c1hCbHg0Skt6RERpWl9pRnM5Y3NHY0NvTjFzaHhmdjkwLWpSemVRbGRHVXl0VFVaX2lacTNpUzFpendNd0JFZDBFclFtUDBlWVh3NVk4eVFFZGFybC1fRXNGZjIxSE4wUQ?oc=5"
     },
     {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-10-15",
-      "published": "Thu, 15 Oct 2026 02:42:00 GMT",
-      "source_name": "The Times of India",
+      "date": "2026-10-16",
+      "published": "Fri, 16 Oct 2026 06:09:44 GMT",
+      "source_name": "India Today",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -192,11 +192,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk congratulates CEOs and execs after Google CEO Sundar Pichai announces Gemini 4 Argon; says 'vas - The Times of India",
+          "t": "Headline signal (not a direct quote): Google makes Android Earthquake Alerts smarter, Sundar Pichai says it is now in 200 countries - India Today",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPWGNmTkkxTklTZk5pRDJRcWtzSU82UTdzbnFVZkxZQXI2Y1VaU2VmbVJPcmxQaFBFc0RNdlJBN05vWEdTdDgtX2dKQXFlU1NzSlloTTdoTFJFSjdKTmVWYmlyRVJfdlhQUlhqNTFnbHY2aG9pY2tWQk12YkVwY3lHa3JzeGU3QnBYQzd2VW8wWkVReVhMNU1wQlZNOGJPQXJZQy02VkhYUVp3cDFqYWVYcjBrSVo0RG9XUDNLNkhuaF9uSnRKb0h6dkRMdmJVSUtVTy1sT1dzMmlQUmJVVlpfUFF0ZURVaVhwblJnamhrZlhIeG9FZTVqNWVmQ2VCVHMwU1NQVGtUREQ3blVicXRWdnZHMUpkWWU2bTZxNEFESHo0Sk0yeUplaDNnNi1ZM0hwWTlJcHhXZHnSAb4CQVVfeXFMUEpIWDlBSm5uaW5lQk5XbHphNEdxa2NZV0laSXpmX09kb09HRGp4ejdiRUFUQmh6OWFjcVdUbHZxaklWaW9OZTdCRkR2X2JqZXNPTWFpRjZfQm9pU3pmazYtQVhCbVBiazJOQ0FHNDVQZXQzYmJpODhnSnZpdUYxQUxjbFdyT1BaN1Q1ODNYUVM1X0FDR2tSR0t3R3czUHBZUnRBdGJuQVBPLUlfS05XRi1aYkxPYjFZeE5FZW04TDRaa2p2VDcwN0RndEhSVTlQYTZNYWRxc3pQaV81bE5UVm9VbFM3R3E2aDlMcEtmZUNMYXlXdDh0dHJ4UFJPZEQwY1JRU1djY2ZibUtYSWdGSm12TnBpa29kZ3F5bXJBSmpXSzdEUTI3VUJUOTdKbjQ3RGpXRXgyajBmaTgwTE53?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRzVRN0lCX241ME5lN2VNU0lKTDRJV3BTQTJScEFodXdDSUJraU1FZnlmRTV2VlRIcEgxMnRCeDQ2bHhIMzVaaThCWThyVzVaU2EtWlRsQ0tiR051S3lHdU13NjU2ZzhVTkJPUW13NXpmOG0yS29TY2VrTEQ2dDVFc0otZWZEcGtweDlsRDZHOWZ0VWVMUC1rbVZMM2dyR3BRaE5BMktCRWJqNkZlMll1dGVHQ1ExdTFia0UzS0JUTkNqaWJRYUtGcV9SRjh1RVhuaWhwTHZ6dHEzR3NsbU85TmJSVGJFdjk2ajBnVVp4WjBPeFE5SnfSAfYBQVVfeXFMUEc1UTdJQl9uNTBOZTdlTVNJSkw0SVdwU0EyUnBBaHV3Q0lCa2lNRWZ5ZkU1dlZUSHBIMTJ0Qng0Nmx4SDM1Wmk4Qlk4clc1WlNhLVpUbENLYkdOdUt5R3VNdzY1Nmc4VU5CT1FtdzV6ZjhtMktvU2Nla0xENnQ1RXNKLWVmRHBrcHg5bEQ2RzlmdFVlTFAta21WTDNnckdwUWhOQTJLQkViajZGZTJZdXRlR0NRMXUxYmtFM0tCVE5DamliUWFLRnFfUkY4dUVYbmlocEx2enRxM0dzbG1POU5iUlRiRXY5NmowZ1VaeFowT3hROUp3?oc=5"
     },
     {
       "name": "Hock Tan",
@@ -218,59 +218,123 @@
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QWVBfWVl2b3pkcTJhSG9TMkhoVWI2Z0V0SjFHTlY2T0VpdWhncnhQbXpOVks0ZUJRTmZNdlNOMWhNZHlOY1k0ZWZ2d1p1dkd6WG5xY0lDREc2dmE0MHAyWGE3LUdQc2VOYjJKZ3ZLV3VHM0JrbmxJ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9HT3FIbGRNOWNVNWVNdzJoNk1mQXNaWHdxZG4xVUgyRnczX2xMbU92bGRuWGRZRDFVZU1fdXRwQm1rQ0pOYzRnSVJUU0d0eEN5YndsZWJ0eHczQ2NxNXNDRnVJeTRMbUNROTB6N2pfR3lBWUtzMTZUbQ?oc=5"
+    },
+    {
+      "name": "Sanjay Mehrotra",
+      "role": "CEO",
+      "org": "Micron",
+      "cat": "CEO",
+      "date": "2026-10-16",
+      "published": "Fri, 16 Oct 2026 00:49:52 GMT",
+      "source_name": "Investing.com Canada",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI",
+        "#MU"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Form 4 Micron Technology Inc: Sanjay Mehrotra (Director, President and CEO) For: 13 October - Investing.com Canada",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMjJsSHBJXy1ES2o4LVFXc2xvWlpmdWUzaGVLZVUtcWZhU2RSampsWEVzUXg3cDB5TEZwblFuMzJKQnpNdmZycENBUVFPVkNvZ2hJRDdoVnZSNGh6SVp3ZFlqUmJfWGNiaGFfZHpCMEhYWWg5VDNVX3FPQnZJcFRxY3p3NEFaWkxiYl9oWW5NRHdONkhVM0R3bE9JR0pCbDNWRDNxOWRRaUd6S3hXN2N0UWRsYWs1dWhPVTg0Q0hzUm1XQU8xSkFvUU92c093QTRNWHZKV1RzY1ZfNmgyT1cwSQ?oc=5"
+    },
+    {
+      "name": "C. C. Wei",
+      "role": "CEO",
+      "org": "TSMC",
+      "cat": "CEO",
+      "date": "2026-10-16",
+      "published": "Fri, 16 Oct 2026 01:36:20 GMT",
+      "source_name": "digitimes",
+      "signal_type": "source-linked headline",
+      "relevance_score": 10,
+      "themes": [
+        "#AI",
+        "#TSM"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Analysis: TSMC's chipmaking edge strengthens C.C. Wei's hand — from advanced-node capacity to Musk's Terafab - digitimes",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYS1SR1drOHZQZmlqNTRkdmJVUXZQNDJWZFVRMmdUeXBmTVlXZktJc2t3WW1ySl9JVXJQak52MEhKWWgtRk1uX1FhOGhfcWthR0d2aWlISUhHY2t4MUdkZXFXTGhEdHY5UXA4aUFKRHJBSDZLajA5Z1pwQnZERUUzM0pjRU5Mb1ZlR0pxM3hHU3pvc3ZYRUJFRGVvbVBSYTQ?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
       "role": "CEO",
       "org": "Intel",
       "cat": "CEO",
-      "date": "2026-10-15",
-      "published": "Thu, 15 Oct 2026 15:30:00 GMT",
-      "source_name": "Fortune",
+      "date": "2026-10-16",
+      "published": "Fri, 16 Oct 2026 04:23:06 GMT",
+      "source_name": "digitimes",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#AVGO"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): ‘They are in a casino’: Broadcom is making billions off the AI boom, but CEO Hock Tan said many AI investors have ‘no clue’ what they’re investing in - Fortune",
+          "t": "Headline signal (not a direct quote): Analysis: Intel CEO Lip-Bu Tan's power of humility — how one phone call helped reshape the chip giant's comeback - digitimes",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QWVBfWVl2b3pkcTJhSG9TMkhoVWI2Z0V0SjFHTlY2T0VpdWhncnhQbXpOVks0ZUJRTmZNdlNOMWhNZHlOY1k0ZWZ2d1p1dkd6WG5xY0lDREc2dmE0MHAyWGE3LUdQc2VOYjJKZ3ZLV3VHM0JrbmxJ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObEdTa1lWdW1aQXBXTEpPWnV1NzFPU0VMT0k5TEdZalpXSXZVWk1fenpxRTVUdWtzSEx2YmIybWtJMndmOW5JeHR3eEs3ZEplRUFyamFvNkx2VTVBV3BpdnJieGVnY05kbHlVb0RoTkFnalF5VUdtNmFqM20zQklEd1ctcDlIbkw4WThPcg?oc=5"
+    },
+    {
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
+      "cat": "CEO",
+      "date": "2026-10-16",
+      "published": "Fri, 16 Oct 2026 03:21:15 GMT",
+      "source_name": "TVGuide.co.uk",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): How Larry Ellison Built His Empire on Bloomberg HD: full details and when it's on - TVGuide.co.uk",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUDVldmJGaFQ0ZU51TVI0dTlPYXFkajA1WVlUVGo5M2plRVV4aWozZlV1R3BoalR5Tm13NllXSDhiMGFBanhjUGVCRU1IeUdDUDFQdjJ2d2VjRFVlWVpaekJGX0pVMm5yTE5ralg5anI4NUg3RXdoNnUxOUVPRXZpdVFwaFYxNlhkcWN4TlZWVmVCVWRNOGxoYjlPdC13VC1ORG9NZ3ZPNlhodw?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-10-15",
-      "published": "Thu, 15 Oct 2026 13:16:13 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-10-16",
+      "published": "Fri, 16 Oct 2026 02:10:00 GMT",
+      "source_name": "TradingView",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#META"
+        "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood's ARK Scoops Up Over 32,000 Meta Shares In 2 Days — Wall Street’s Split Over AI Spending - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood Buys $13.4 Million of CoreWeave Stock as Jensen Huang Says ‘Strength Is Improving Every Day,’ Ark Trims Amazon and Palantir - TradingView",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPalU2VldJaXBSeVVPMDZtRC1ScUtUM2hCZWNheG0tcnQ0Wk5lMjI2MkFWcF9ncHRrbkliZ0dTSUVBUmxoaE8wR2ppUkRpUTN6cTdFd25kOWpFV0NfN3ZCaWdxWDBJeURjeWRFelhHcmczZGhqQlNLWi1lczJmejVRQXo2T0piX25kOGtNeVNlaU1sVXJQRVRVVQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOdGs1QmNMVUNsdVZUTFQwclVOc2lBT3U3b190LXI0aWFCeWVpWENyVXFnUHQyU0dqRnRwb2lseUtzTFVfUklKX0xOQzRLMGtQS1lZREw4SERtSjJkdWJsYUNkcnFPTmxOSFJLSTVCY3B6ZHRuQlB2Z2RvMlJ6UmRrVjZjdUpBZnM3OUM3T3VPNmNhUDFsbXFIXzEyTnhITFQ5WHNKQzZlcmVIYWtIYUUzbEZNTHluazY1VWFZdDhvam40RzJLLVZ0LWlFUVZXU1pSX2VDRnV2R0w4dzk5TnlOZ05EQ2t0TjRUS0lJeXptcGFQMl81WmVsVUxGeWVrNXJ1OWRBUm9WOE9jdFgzLWNrVXlpaGp1SDY2cmc?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-10-15",
-      "published": "Thu, 15 Oct 2026 12:54:30 GMT",
+      "date": "2026-10-16",
+      "published": "Thu, 15 Oct 2026 22:16:13 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -279,11 +343,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Thursday - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer says this week's AI sell-off offers a crucial lesson for investors - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcjd5UEZqYXcxc29YTU9jaFk5WTFuZ2tGaXdjMkc3WF9lLThrOXNQQl93cFNHZVctSnF5WjZ6UUxoa3FFSFZiTjZpcDFGTWZ0VGxGOEpoNkpMNFpIRGVsSldUZ3Y3MHBTM29jTjgxcF9IZXVFamhQa0dtR05SMXNnbV9DVUdMSGh2WnFERWNGcnpXdEI2QWs1ZkZJb3c2UUVjY0dFZW1HRW03clZQZksyRTZsNkM?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9FYWJORHpyaGRraE9RbHR5Qnk2c1VmTVNMUWo1VXQxZUJyQzRrU1RzS2lTR3d3WkJ3d25xdlJpMDBQSUNObjlEUW1Hd0MtWHVtNUxVOExBaHZoQzZSYjhFTXFjWVFZUlQ3MmFXN3BYcEh0b2hRTU9RaER4TWIyd9IBgwFBVV95cUxPZ3Z5RzdGdXY2czJMQ0VPR0p6TFNEWWpvczM1ZDBhdEZFbGJSN3BzejF2NmlCUHk3M1pOYlQzbkJGeGhzZ0sxMWtVdXc4NEpaU1U5UHRuVGpYMGN6N0xYdXJYQ2d4OFJ1RldWUFRDMkRxalRnMElNNld0aVhBVGZHRjJiYw?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -310,7 +374,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 14,
+  "fresh_signal_count": 17,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
