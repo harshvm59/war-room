@@ -1,7 +1,49 @@
 {
-  "updated_at": "2026-10-16T23:10:02.275395+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-10-17T01:32:04.149624+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Kevin Shea",
+      "role": "Senior equity analyst",
+      "org": "BNY Wealth",
+      "cat": "Analyst",
+      "date": "2026-10-16",
+      "published": "2026-10-16T06:03:00Z",
+      "themes": [
+        "AI capex",
+        "hyperscaler profitability",
+        "earnings"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Shea said investors will focus on whether hyperscalers can grow profitability faster than their capital expenditures during earnings season.",
+          "k": true
+        }
+      ],
+      "src": "https://ca.investing.com/news/stock-market-news/as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings-4884706",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Bill Mann",
+      "role": "Chief investment strategist",
+      "org": "Motley Fool Asset Management",
+      "cat": "Investor",
+      "date": "2026-10-16",
+      "published": "2026-10-16T13:13:00Z",
+      "themes": [
+        "AI stocks",
+        "balance-sheet risk",
+        "Nvidia"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Mann said investors should distinguish companies that are foundational to AI from businesses whose debt creates urgent pressure to produce profits.",
+          "k": true
+        }
+      ],
+      "src": "https://www.aol.com/articles/stocks-weather-ai-correction-motley-131300000.html",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -52,8 +94,8 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-10-16",
-      "published": "Fri, 16 Oct 2026 13:19:56 GMT",
-      "source_name": "Seeking Alpha",
+      "published": "Fri, 16 Oct 2026 17:54:22 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -62,11 +104,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia stock pullback a buying opportunity, says Dan Ives (NVDA:NASDAQ) - Seeking Alpha",
+          "t": "Headline signal (not a direct quote): Dan Ives Says 'Buy the Dip' in Nvidia Stock After Brutal Sell-Off - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVURhbHBtczFDVnk0NlpxVFNoNUFpOG44M0tzRE1RdGwwQmdKWl96Q0dWcXpwRU1UTGo4Z1Z0NWtkdld4bFVCMnpWY3gtMXZrem5vR2poMmM3N2NnNDNJRlA3LUVsNWc1MU9NVjh3QnlrSTBld0NwVTVPMDByc29BV2NhRDFqUHJUMXUwbjA5LU1UM05JbGVJZ0lB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQkp0S3lzeERfM1NlNEg2VnFuaUsySEdWM1VTYjIzMDdTcFFWekM0UjZzdjl1ZjFUb0t4YXdkZ1dlZzVuRkMtY1ctcUZGLWJnekd6Nk5SNGlRNWN4UDY2alVXQjdlTXNVTDJXTHkzdVZITGhKa2ViODFkWnUzd3g2YkJCd0pHN0VBUHFXU0tMcw?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -203,22 +245,22 @@
       "role": "CEO",
       "org": "Broadcom",
       "cat": "CEO",
-      "date": "2026-10-15",
-      "published": "Thu, 15 Oct 2026 18:02:13 GMT",
-      "source_name": "The Globe and Mail",
+      "date": "2026-10-16",
+      "published": "Fri, 16 Oct 2026 18:02:08 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#AVGO"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Broadcom CEO Hock Tan Echoes Warren Buffett in Warning About \"Casino\"-Like Investing - The Globe and Mail",
+          "t": "Headline signal (not a direct quote): Broadcom Falls 4% as CEO Hock Tan’s Capital Warning Hangs Over AI Chips; Marvell Drops 4% - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQOWZYQWEwNmE1Wkt2TEZTUm1CMy1XVU1CSTJTUXVkV0M5UDIyYURZOEh1cjdTQ2xyWERKbU1SdXlPakFURG1pV3VydC1ZcUFlUFJpWE15VC1CdmM0YWRHbVVMMHVVc3djdE5Hb0ZNZVc1VlJ5c3ZRcXVCWk9KRGM1M3FvTFllXzB5UktHZG81VzlLZllpOW9leTJ1QWhPQlN3Q2FvVlNXQi1Db3FuRTZockpTQkE3am5feU1YX1ozX1ZxSnMwLUcxNTRSdW1qZkl2QmM5RWk2RTFhZVlCbWl2NUFQRXRERDkyTFQ3TlJaQ3dDOWM0dHpIOUZKVQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT01feV8tRDBQQklNM1dRT09RMm1JU0REVmhyUUstLVRMZmVPb3c1dlQ1eWxPbFJnQUxjVFRqM0YtX3NBSEw1ZERQOHJWWXk1a1dzN19mTXVlRnVXMXZ5WmlTLXVJV2xvMDlsdGlKNHhLaVdWYmtXQ1VmWi1laHJ2UEY2SWxZc2UwNWJMNG1vVlg4bE03?oc=5"
     },
     {
       "name": "Sanjay Mehrotra",
@@ -312,20 +354,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-10-16",
-      "published": "Fri, 16 Oct 2026 11:38:36 GMT",
-      "source_name": "Quartz",
+      "published": "Fri, 16 Oct 2026 18:29:33 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
-        "#AI"
+        "#AI",
+        "#AMZN"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood is defending CoreWeave's debt after ARK bought its stock this week - Quartz",
+          "t": "Headline signal (not a direct quote): Cathie Wood Just Sold $7.7 Million of Amazon Stock - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mMUliVU0xNFd4R0lTU2FhaDY4SWwzd08yNWc4VzUtMUhrZm1KX1lFMVRmNG5NZ0pIWFZ0eTl1U0R4WXd6QXV5c1VUTi1jTlc4cW9CUkUwLTZFaGxFUE85enZvekozU1kzS0NRYl85UUVIY09UVGc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPazBwbWpQYXFRQWhxNDdPMWx6WDVNSVNJcElIdG1Qa2d5akltSFdGLVJZTlM2WHBQZ0pQWFlLWEtNTGdya0tqQXdtVjZjVUhwSlpWSURIMG51TzRTY3FhTU1DTGRmNEVwTzFmR2hESUotekVoRFdjZ2FXczdELWtOWThpWXZOQlhIYzZaRVFybUZOZw?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -351,10 +394,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 16,
+  "fresh_signal_count": 18,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
