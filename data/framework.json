@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T06:09:07.061096+05:30",
+  "updated_at": "2026-10-18T05:38:06.922197+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -7,25 +7,23 @@
       "company": "Nvidia Corporation",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 2,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
-          "title": "NVIDIA Fiscal 2027 Second Quarter Form 10-Q",
-          "published": null,
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "published": "2026-08-26",
           "reporting_period": "Quarter ended July 26, 2026"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "The Q2 FY2027 filing reports year-over-year revenue growth.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
-          ],
-          "reporting_period": "Quarter ended July 26, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
@@ -42,13 +40,11 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "The filing reports gross-margin information for the quarter.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
-          ],
-          "reporting_period": "Quarter ended July 26, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
@@ -78,25 +74,23 @@
       "company": "Taiwan Semiconductor",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 1,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-10/cb1c588cc3b2009f97afa57a6d7c146ae1e27808/3Q26%20EarningsRelease_WoG.pdf",
-          "title": "TSMC Third Quarter 2026 Earnings Release",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+          "title": "TSMC 2026 Q3 Quarterly Results",
           "published": "2026-10-15",
-          "reporting_period": "Quarter ended September 30, 2026"
+          "reporting_period": "Third quarter 2026"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "The Q3 2026 earnings release reports quarterly revenue and year-over-year growth.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-10/cb1c588cc3b2009f97afa57a6d7c146ae1e27808/3Q26%20EarningsRelease_WoG.pdf"
-          ],
-          "reporting_period": "Quarter ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
@@ -151,10 +145,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments",
-          "title": "Tesla Second Quarter 2026 Production, Deliveries & Deployments",
+          "url": "https://ir.tesla.com/",
+          "title": "Tesla Investor Relations",
           "published": null,
-          "reporting_period": "Quarter ended June 30, 2026"
+          "reporting_period": "Latest listed 2026 quarterly disclosures"
         }
       ],
       "questions": {
@@ -214,7 +208,7 @@
       "company": "Meta Platforms",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 2,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
@@ -226,13 +220,11 @@
       ],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "Revenue was reported at $60.801 billion, up 28% year over year.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
-          ],
-          "reporting_period": "Quarter ended June 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
@@ -249,13 +241,11 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Operating margin was reported at 31% for Q2 2026.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
-          ],
-          "reporting_period": "Quarter ended June 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
