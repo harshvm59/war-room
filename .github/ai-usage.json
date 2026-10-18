@@ -1887,10 +1887,20 @@
             "output_tokens": 1116,
             "web_search_calls": 2
           }
+        },
+        "2026-10-18:tradingagents": {
+          "billing_status": "provisional_estimate",
+          "error_code": null,
+          "estimated_usd": 1.0,
+          "id": "24913ad0d3574983a94ae1f94a8c2f0b",
+          "model": "gpt-5.6-luna",
+          "reserved_at": "2026-10-18T14:23:47.559254+05:30",
+          "status": "reserved",
+          "usage": null
         }
       },
-      "estimated_usd": 3.31568626,
-      "unreconciled_attempts": 2,
+      "estimated_usd": 4.31568626,
+      "unreconciled_attempts": 3,
       "usage_totals": {
         "cached_input_tokens": 48073,
         "input_tokens": 956049,
