@@ -1,28 +1,7 @@
 {
-  "updated_at": "2026-10-20T00:57:05.332101+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-20T03:12:37.106606+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Sylvia Jablonski",
-      "role": "Chief Investment Officer",
-      "org": "Defiance ETFs",
-      "cat": "AI-investing strategy",
-      "date": "2026-10-19",
-      "published": "2026-10-19T08:59:00-04:00",
-      "themes": [
-        "AI-driven security selection",
-        "momentum investing",
-        "real-time company-news analysis"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Jablonski said the AIED strategy combines price momentum with real-time large-language-model analysis of company news to provide a broader signal for portfolio decisions.",
-          "k": true
-        }
-      ],
-      "src": "https://www.globenewswire.com/news-release/2026/10/19/3383459/0/en/amom-becomes-aied-defiance-etfs-introduces-the-defiance-llm-catalyst-momentum-etf.html",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -73,20 +52,21 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-10-19",
-      "published": "Mon, 19 Oct 2026 18:12:11 GMT",
-      "source_name": "Barchart.com",
+      "published": "Mon, 19 Oct 2026 12:29:08 GMT",
+      "source_name": "TradingView",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
-        "#AI"
+        "#AI",
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Is Betting Big on Gamestop Stock, but a Lot Is Riding on Its Collectibles Business - Barchart.com",
+          "t": "Headline signal (not a direct quote): Dan Ives Says Meta, SpaceX and Tesla Face Big Questions This Week — His 3 'Big Focus Points' Ahead of Tech Earnings - TradingView",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOemttT29JZ0ppdmxNd0o0aTd2dlFYN1diYkZOTEpSQ3FjMjc1bXlwYTJteFJTRFpjSVMzTGdOMm1WTUY1WUQ4SGEwMHNmWWF4R092ajBsZFFrWHd0Y1QxbF9LaERmS05nekdOT0xRendoTXRlNWR6MURSTVAwaGJCSDc5ZDZfQ3daTWI4dDh2U3gtQTJEYUxPZlB2aC1VRTN0TlVMc0MyX2NXdXJyajR1bmxsQU90eGpBSFpLcjkxdVRtZnFxcXBta2RDTGRHNFE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOV0FKcFp0Ym5UZ2c0MWpLSm9FMS1reW9PdlkyMnQ3eVVxWEQzWmR2RkMtS1FPVU5BN1hpVkJRUVNuVXpLUnRBaktfOGd1NU1wU1RqWWhzZEpVRVZQZ1gzOTRDYVpibEd4bDJkMEotUXdKZWY5UVo3NzRRWlVDLXdmUktXdXZETDZZakFVS3Jzd2treG1ENUh3X09Fd3hWSDBXRmhKR3B0UHZfR0RnXzRTRjk4LWdlZ2Z6NUVpcXMyX1BxTG42SFJ1UWtrd1d5TVBTdlpoVHQzUnJUZEJ1ZzJzWXRNMm01TFdMSkZ5QWpJdS1nX3E3QzRZLXVRcDdIZw?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -223,21 +203,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-10-19",
-      "published": "Mon, 19 Oct 2026 12:08:34 GMT",
-      "source_name": "Pluang",
+      "published": "Mon, 19 Oct 2026 11:05:56 GMT",
+      "source_name": "Seeking Alpha",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 13,
       "themes": [
         "#AI",
-        "#BE"
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood hints large investors may be starti... - Pluang",
+          "t": "Headline signal (not a direct quote): Cathie Wood's weekly recap: adds to CoreWeave, Meta, Recursion; cuts Personalis, Toast (ARKK:BATS) - Seeking Alpha",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOVBwNHdwWmVYMkhiYkdtcDJwdzBnQk1JMWsxS0x2YkxERUd5RkVpQUlTbU5WVTFjYjA2dU1VT3FEc01YYk9WVnVJQzBWN2ZHazBUSEMxQTRzbjlfTjN4S05felJ3SElJTlkzRzZGdVkwOWhLSDB1Y1FPNUZvNk1fOWRRVVNmQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcWtqSVhCWWp4RXNvVzg3anNMMnBET0gxbnlxLWxQSTAzcEx5aGMxMHVsamU1Smk4dTFvRGszVTJiejF3WldRSm5YRDA3RDJLQkxUdjk4OXVLVmhtbDNmV2xidGZaMHBkdnRtLUxQbTctM1pubHdxQWxBQjdTeXNwZThfVDF0a05jcy1IOGFhX1hla08yYUxOcmVpeUxud2JuTGEyQm9aVVFmNDNxUURyVlFCRkYySkFYZ2c?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -286,7 +266,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 13,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
