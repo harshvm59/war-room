@@ -1,7 +1,17 @@
 {
-  "updated_at": "2026-10-18T13:46:33.249383+05:30",
+  "updated_at": "2026-10-19T14:43:39.549659+05:30",
   "source": "openai+web_search",
-  "items": [],
+  "items": [
+    {
+      "ticker": "005930.KS;000660.KS;8035.T;9984.T",
+      "headline": "Asian shares are mixed as tech stocks remain volatile and oil falls",
+      "date": "2026-10-19",
+      "published": "2026-10-19T05:48:13Z",
+      "summary": "Asian technology stocks remained volatile amid growing concerns about the sustainability of the AI boom. South Korea's Kospi rose 1.8% after a sharp prior-week decline; Samsung Electronics gained 1.2% and SK Hynix 0.4%. Japan's Nikkei fell 0.6%, Tokyo Electron declined 2.6%, and SoftBank Group fell 2%. Investors were also focused on upcoming earnings from major U.S. companies including Meta, Netflix, Tesla and IBM.",
+      "tag": "AI-sector volatility",
+      "url": "https://apnews.com/article/stocks-markets-oil-us-ai-494fbe4361a0360b2f6368e7a6d8f058"
+    }
+  ],
   "provider_error": null,
   "fresh_window_hours": 24
 }
