@@ -1,15 +1,33 @@
 {
-  "updated_at": "2026-10-19T14:43:39.549659+05:30",
+  "updated_at": "2026-10-20T00:57:05.332407+05:30",
   "source": "openai+web_search",
   "items": [
     {
-      "ticker": "005930.KS;000660.KS;8035.T;9984.T",
-      "headline": "Asian shares are mixed as tech stocks remain volatile and oil falls",
+      "ticker": "NVDA",
+      "headline": "AI stocks lead a rebound on Wall Street as European markets drop following protests",
       "date": "2026-10-19",
       "published": "2026-10-19T05:48:13Z",
-      "summary": "Asian technology stocks remained volatile amid growing concerns about the sustainability of the AI boom. South Korea's Kospi rose 1.8% after a sharp prior-week decline; Samsung Electronics gained 1.2% and SK Hynix 0.4%. Japan's Nikkei fell 0.6%, Tokyo Electron declined 2.6%, and SoftBank Group fell 2%. Investors were also focused on upcoming earnings from major U.S. companies including Meta, Netflix, Tesla and IBM.",
-      "tag": "AI-sector volatility",
+      "summary": "Nvidia rose 1.3% and helped lift the S&P 500 as AI stocks recovered part of the prior week’s losses. The report also said borrowing costs remain a concern for AI-chip and data-center spending.",
+      "tag": "AI-market rebound",
       "url": "https://apnews.com/article/stocks-markets-oil-us-ai-494fbe4361a0360b2f6368e7a6d8f058"
+    },
+    {
+      "ticker": "AIED",
+      "headline": "Defiance renames AMOM as AIED and adds an LLM-based news signal",
+      "date": "2026-10-19",
+      "published": "2026-10-19T08:59:00-04:00",
+      "summary": "Defiance ETFs announced that the QRAFT AI-Enhanced U.S. Large Cap Momentum ETF became the Defiance LLM Catalyst Momentum ETF and began trading under ticker AIED. The strategy combines momentum factors with real-time AI analysis of company-specific news.",
+      "tag": "ETF/product launch",
+      "url": "https://www.globenewswire.com/news-release/2026/10/19/3383459/0/en/amom-becomes-aied-defiance-etfs-introduces-the-defiance-llm-catalyst-momentum-etf.html"
+    },
+    {
+      "ticker": "MU",
+      "headline": "Tech stocks rebound as AI confidence returns",
+      "date": "2026-10-19",
+      "published": "2026-10-19T12:37:00-04:00",
+      "summary": "A market update reported gains in semiconductor and technology shares, including Micron, Sandisk and Intel, while Amazon benefited from cloud optimism. Investors were focused on upcoming earnings and whether AI capital spending can generate adequate returns.",
+      "tag": "AI-equity rotation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-midday-oct-19-163749088.html"
     }
   ],
   "provider_error": null,

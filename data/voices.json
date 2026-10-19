@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-10-19T14:43:39.549432+05:30",
+  "updated_at": "2026-10-20T00:57:05.332101+05:30",
   "source": "openai+web_search+30-leader-monitor",
   "items": [
     {
-      "name": "Thomas Mathews",
-      "role": "Head of Markets for Asia Pacific",
-      "org": "Capital Economics",
-      "cat": "AI-market volatility",
+      "name": "Sylvia Jablonski",
+      "role": "Chief Investment Officer",
+      "org": "Defiance ETFs",
+      "cat": "AI-investing strategy",
       "date": "2026-10-19",
-      "published": "2026-10-19T05:48:13Z",
+      "published": "2026-10-19T08:59:00-04:00",
       "themes": [
-        "AI-stock volatility",
-        "technology-sector sell-offs",
-        "long-term AI upside"
+        "AI-driven security selection",
+        "momentum investing",
+        "real-time company-news analysis"
       ],
       "quotes": [
         {
-          "t": "Source-linked summary (not a direct quote): Mathews said volatility could increase as the AI bubble inflates, while short-lived sell-offs can occur even during markets that ultimately deliver large gains.",
+          "t": "Source-linked summary (not a direct quote): Jablonski said the AIED strategy combines price momentum with real-time large-language-model analysis of company news to provide a broader signal for portfolio decisions.",
           "k": true
         }
       ],
-      "src": "https://apnews.com/article/stocks-markets-oil-us-ai-494fbe4361a0360b2f6368e7a6d8f058",
+      "src": "https://www.globenewswire.com/news-release/2026/10/19/3383459/0/en/amom-becomes-aied-defiance-etfs-introduces-the-defiance-llm-catalyst-momentum-etf.html",
       "signal_type": "source-linked signal"
     },
     {
@@ -29,21 +29,21 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-10-19",
-      "published": "Mon, 19 Oct 2026 05:04:25 GMT",
-      "source_name": "Moomoo",
+      "published": "Mon, 19 Oct 2026 16:12:37 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): NVIDIA GTC Berlin Conference to Open Soon: Jensen Huang to Deliver Keynote Address; AI Factories and European Investments Draw Attention - Moomoo",
+          "t": "Headline signal (not a direct quote): Jensen Huang Declares NVIDIA Can Win “in the Absence of Any AI Labs” - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSzZJNDdES21TSzlTMzhyUUhXdXBpYVNCNlhCOFg2WlgzMmhPREVsY05HTWYyM3l6aG9OM2NiQmgwNE5zNGlGbk9QdDZtaTRlSGVQa0RvTU9XUjlpQlREdjFkZlZ3VlNNVWtPSVNySU9BbEtpbjNfcDJaUWtzeFpPSm9QOUJfUVpjVjBDVHMxczI1Zk5vRENFVzA4cTBFUk1wV1NR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc2xkS0tSQUpOQi1pNjc1dDhtR3dxUUhJcV84QWYtdG0wUFUxcGs2OE9mQ3lOT0ZFc1pIZ3RNYU5EY2FfWmJYY1NwZ0dkR1R6NFNvUF9aLWw0bTZQc3ZqMDYtdnV6N05yaTBsN2V4ZlhoM3JkVTllR0lFRU5WLThQSXlONng3M21vQ0ZnT1ZoNmFTVDJkTnVHLTEtWXc?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -51,42 +51,64 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-10-19",
-      "published": "Sun, 18 Oct 2026 23:08:52 GMT",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "published": "Mon, 19 Oct 2026 11:11:00 GMT",
+      "source_name": "Supercar Blondie",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#TSLA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman responds to Tesla Roadster reveal a year after seeking refund for his $50,000 deposit - Supercar Blondie",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KVm91M1lZN2xLXzhtUnZqYkpZTFJFdXRrbzVHRXJqYWs2c0Fpd0pQdzJNU1NwYjVmZmoxYWdsWG9xMXZSbTZ0QWpmbDRCX1JiVXh2RWxsUDlEZGo0aWNoUTNTZ2tlYVNSZmhUM0poNUI3S2luVUZsQjQyOHItajA?oc=5"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-10-19",
+      "published": "Mon, 19 Oct 2026 18:12:11 GMT",
+      "source_name": "Barchart.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman's home struck by gunfire, days after Molotov cocktail attack: Police - ABC News - Breaking News, Latest News and Videos",
+          "t": "Headline signal (not a direct quote): Dan Ives Is Betting Big on Gamestop Stock, but a Lot Is Riding on Its Collectibles Business - Barchart.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYlk3cFJkWnNMMHloVFZSQ2pIelpHUWxJbndOeWdiUVcxdXBncjcxdmU3cEUtczJBSV82MUc0LTFRdkJ4NmZpZmZUMUdmU1NJc3hMSlRUSU43RW5VN1pjVzJqSm83OWZiakt4TTQ0bHgwR0hYVkJUaTB1QUlnRUxFQzB1YngzOVoxS0pOYkFzUHpHQVFvcHN1SjFVONIBoAFBVV95cUxOSmg3TE42d3BRemlRWXU4al9ZU0p5eEtCeE4yNzNiaE1oTDB5MHZBMDVDNTUxUjl0dzdma2VWcDkyTUNMRnJoNlJobXNLU0t6NUdXbXNkMWdUa2NDUk4xZ2loSjY2TURtTXkxMTNtd3ptU1VUemYyVG93QWt1ZkNvdEp1aDQ4UVY5RDRwUXRSRGZsdmNJalpyeHVBRkxpbW1v?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOemttT29JZ0ppdmxNd0o0aTd2dlFYN1diYkZOTEpSQ3FjMjc1bXlwYTJteFJTRFpjSVMzTGdOMm1WTUY1WUQ4SGEwMHNmWWF4R092ajBsZFFrWHd0Y1QxbF9LaERmS05nekdOT0xRendoTXRlNWR6MURSTVAwaGJCSDc5ZDZfQ3daTWI4dDh2U3gtQTJEYUxPZlB2aC1VRTN0TlVMc0MyX2NXdXJyajR1bmxsQU90eGpBSFpLcjkxdVRtZnFxcXBta2RDTGRHNFE?oc=5"
     },
     {
       "name": "Satya Nadella",
       "role": "CEO",
       "org": "Microsoft",
       "cat": "CEO",
-      "date": "2026-10-18",
-      "published": "Sun, 18 Oct 2026 13:13:21 GMT",
-      "source_name": "INDIA New England News",
+      "date": "2026-10-19",
+      "published": "Mon, 19 Oct 2026 03:35:37 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 8,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella Thanks Trump After Receiving National Medal of Technology and Innovation - INDIA New England News",
+          "t": "Headline signal (not a direct quote): MSFT Stock Dips Overnight: Satya Nadella Calls Anthropic’s Fable 5 ‘Editorially Controlled’ Amid Backlash Over Safeguards - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYi1fZFNuSTRvem5NRkRXeDhKYjAyVmx6Yi1OUzF6dFR2aVdIT3k5M29tOHlqVnR2T21Cd1g2ejJsZ1BWZGZfYUpqTkN2TjRaZHJaOVNJOEl0UnBmS2kyMUJEUHAtVHl4WmZrNkZld3dLY0J1eTNIQm5tLUZLMTVNNWJOQ0s5TzhXTzljekg1VVR5T0tXUUM2UzJhSGN0alhaLXNVa2JqaFZGZFBPZFRKcWJPVVludmpITFNJejBxRlEzd1NfYXVNTw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOeG92VzhrOGhub245THpqQTVoSmw4cUVxckpNdGlxQlJHc2IyYzVqbnNaSHlmUFJjakZmMWVfNmdDN3NxM2ZZd1YxblhkaHZGSlZpS0VVLUZGX1ZLaF9iZDk2dGt6dS05UmhFYTh0R25oR1M3SFNYejEwUml1elE4NFZkUmFveUxKTHZSV1JqdmNsTWhnM09xZHhQWGZaSUhqS3BtcnFyMlB1ZnF2bzdNM0FEVFdUT2I1MERpNDdSVV8tX2NIam8xckxsSzBKMThndWtvNkFhQl8wUXp5cjNCRkpDa2lEODNrLW9NdE5xWGxRbkpmT0VGd3R3M3VrZmhEQXF4dXRQYUFpY1A4OEJJ?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -94,21 +116,21 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-10-19",
-      "published": "Sun, 18 Oct 2026 19:46:55 GMT",
-      "source_name": "entARABI",
+      "published": "Mon, 19 Oct 2026 12:58:00 GMT",
+      "source_name": "Britannica",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#MU"
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Micron Gains Attention After Elon Musk’s Praise: Can the AI Boom Push Its Stock to Record Levels - entARABI",
+          "t": "Headline signal (not a direct quote): Elon Musk | SpaceX, Tesla, xAI, X, & PayPal - Britannica",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeWQ4aTNNTVc0YUtqcWJLd0p5ZXhrODJta0pMWW1SN3pQRDNQel9hUVRMQk0weHFfVjVOMC1lbWZGZ1pnUmt5R1ZFM1g3a0t2TFZadmtzRk9NQ25LTzJBbHh6Y3NwZlE3a3YzMHg5TFd0QTZGdURzX3hyN2RsT1J6azRBUmpTR1FTbFRYcG9mT0k5Q0RPWlE1NndDaS14Z1ZwU25mcE5ZZjlSSnl1LUhwT2FpMk1PYUFfVUw3bEZOLUVRUzVlOXc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xeFllLWI4enZVQmExeDZsV2Ewa19ESXc4XzVlUmc3N29kQmhyRnZOa2dWUlV1SFd2bHBkS3FrX0ZTTW5PekRWaFUweEFOMkgwRDNnRQ?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -116,21 +138,20 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-10-19",
-      "published": "Mon, 19 Oct 2026 03:03:00 GMT",
-      "source_name": "The Times of India",
+      "published": "Mon, 19 Oct 2026 17:16:44 GMT",
+      "source_name": "Forbes",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#META"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta’s ‘highest-paid employee’ Alexandr Wang on the WhatsApp message from Mark Zuckerberg that changed hi - The Times of India",
+          "t": "Headline signal (not a direct quote): Michael Dell Passes Mark Zuckerberg As Fifth Richest Person In The World As Tech Stocks Rally - Forbes",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQSnFoWEZSb0hPcmRlU1FuWFRtSUNJSWhwaXNsSUtRNU56Z0Fzb3AzU3ZOd1JYZDN6YWd6aE9QcXg5M2FwTnVBZjlIdTVVbEx6cXdlcHV6Y2VzSllwLWE5ZGw5bWRYWERGam5XamM0bS1GaDRaLWtMWldrX2lKaTlDcVdNc0lXbXNOUF9scFk4bFIwTzhaSC1JclBYZTh4MVFDbmNhT0libHVvWTBwN3NKNU5ZQVBjdEh5SU5yTDZaWGx5T0E2dXhLUkgzVC1LUk1PTDZZbE5oZzVoVXMwOHZFckFoQWhOMjNTSk5RbHhJV2xMakI4Q2YzTFQzZjFpMXNxQXQzMllKZFYwamprZ3lDWTc5Q2k2YnFtM1FfR0ZiLUJ1bDRFV2xQMFhZYmJBazRISWVYUtIBugJBVV95cUxOVDFkWnA3aDVtODlOektvdW1qdmV1VkQ3STZVSVgza1NvQkpPWktrVGtrbWU3Mk1wSlQ5YmNNbndham1hMy00TVlLZUNWSlMwSFRWOG1wSm4wdmRPenVKc1E2LVhSU2NnS2NuMXdtbGtaYVpVOTZJeWlRa2lGbzJYMGNPRnU2QjdueHBNZ2hVaVFWNC0zUDBicEFlRlBXMHVnbGpNRUhoc0Fycko1TF9ZOThROC1LdHpWalRCcFZUYXBtYjFyX1lmM04tMkhIQmpLMlBCYm5KOXZyOW95NE1yOEMtYU9UNEtDc0o4THFkdEY5YlpTNm5wYm8zYXpkTVViZ3NJME13LUVfYVpzYkZQbUI2T1pNeDVTVFNERWs2Z3pmMnRKZUpvclVQd2xLNlR3elVuUmhQVnZVdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPakRqODVLbUpEWHJHQ3ZGYnJPTnozQ05IcGRpT0VQb3I3VklhUnY5b2VUVjE1c25UMHczUUdzclpGRlI1Q2ZVekh6Y2dxTmU4eUd0LUljM1FVUUhPdUVUSnFUSVpyWFhockJEZmpacVZKb21faHUwVXpnZHZJcmk5RkpTWHRSWEJhak02dGVEWlRSR2lMcDhnNW55RGFfaU1NVW4wVUc0MTQ2WjdoOWNNeXR3Q3BxVW02NlpwaTZtYWdkMzVJT3Rjal9zZlFWcXRMTHVLMTF1SFpGZUwzbDVJ?oc=5"
     },
     {
       "name": "Andy Jassy",
@@ -155,13 +176,13 @@
       "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNjNwTDVBNnZtbmpJa2REYkF4WVgwQmpyWU1BOTJYYmRUNXhNMG9DX2NlRVkxM1BtZVZkZzF1V1BzZmgzc3FMZHlxQjg0Rzdhd0VUMFdtbmZHVS1Bc0ZQc1VyOWFOVEIzLTc1UERXYjJsS2JLSi01NGJMODZQd1FrVEFjM2h4d0NwOFdZcmc1RzFCS09raWc?oc=5"
     },
     {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
+      "name": "Lip-Bu Tan",
+      "role": "CEO",
+      "org": "Intel",
       "cat": "CEO",
       "date": "2026-10-19",
-      "published": "Sun, 18 Oct 2026 23:05:50 GMT",
-      "source_name": "Billionaires.Africa",
+      "published": "Mon, 19 Oct 2026 09:34:41 GMT",
+      "source_name": "Wccftech",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -169,32 +190,54 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): American billionaire Larry Ellison loses $15bn on Oracle - Billionaires.Africa",
+          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Says China Is “Not That Far Behind” In Chip Manufacturing, Despite US Sanctions Blocking Its Access To EUV Machines - Wccftech",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOUlXYm5pclU4VXhocDlWQlNnX1RuLTJHTmdhOFVyMWliZ01XSnlfb3hDMnRhM1RpRkp6TnkzOFByak1lQnk3RXZaQnZfbDU3REFheWpNN3RveEdYS2E4UmdLZUlzSHpSTVNXZ2hqN2xaa0J5VGtNWllUS0hCQzRVNk02OUdIS0dPMC1kRGxlRW5kUUdlVTJMeUU1bFBla2tqWGxVdXdDTzhJZU1uVHdzSGV2Q3QxMWxqRktqcnpmUnU?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdFpzY0lMYklqby1nRFJwSXU4aTFkMTVnZC1hck11WXdWYXdMamNzQjFzT3FVUjlsdEE2Ync2Q2J2YXRuTnhJQ1p5ZElRMVN5dGFMeFVJRnAxS2o4V25PNnJSNW10QWZmU0cyS1VPTzZlajRDSlVzQThEVzN6LXJSV3lyYVhWNkZsM0lVVGEzUFFUWWQxaTJLRlBqdUVKYVJlWENRSVpIc2x1Ri1Vd3NtR2JpYVZaNHNRTEpxaXJFQmx6Sk1RT3NtXzQ2SUptNkJ5N29FTWJJY1J5eVh4RUNrMVNVaEUzcmN2bk5R0gHwAUFVX3lxTE1idXZoVzF6NUtrd2g4MlVyYUYyVjFhZDJieTQ2aXBTOFNocjZyLTdBS0d1SmlxdnRydmxCU2N6Ym50c2FlTk4zdDhLQWhqV295Rk1UcnVBVUxYbWR2eUlqcUtxM3pORlI3RS1TYnVLQm85RGhZMkZGMldUVmxuS2FqaHNYQVpKbFI2SWEwYno1RTZwWFE1RjVZbmU1ZlVCTW5QTXk2RF9QWUc5RmpkQTh6SmJPdjBFbTFtT0JPbHJXb0hjTWxFcjZUN21iaWVYcFBiMnhhb01yZWFRRWg0ZWdRTmttZ1o2SWNaaUJ5eER4LQ?oc=5"
+    },
+    {
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
+      "cat": "CEO",
+      "date": "2026-10-19",
+      "published": "Mon, 19 Oct 2026 09:29:00 GMT",
+      "source_name": "The Times of India",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Larry Ellison loses $6 billion in a day, as AI worries wipe billions from Oracle stock, making it one of - The Times of India",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNN3JNWDNEUTNrblVFU1pqaTVVVkFsSjVVMmc1dTIxNXNMQW9neG1ERHpPSjNYLWJHZjVlbF80dmNNVXRkbXlBNzU1YjM1T0FDWk1CYTdPOHN3dFpCU3NkblhMZTVkNVlGQXUycTRkNnZiWG0zQlRvNjVCc2QwZHFScXRHNDZSaFRTbDVjMl9kLUFFSEwzenNoWE9NY01HUElTUG1INEpQSERnX01UeHdmRHZRV0pkZHh5WWtCYW9fUS16UVY5UU9wcTJGcl90cGVicThFak9HZ0M1aEJzUHhGY2pTaTBRU2xVbF9NR0hNRnBUZlBqZi10NGZmRDBkLVQ3YUhXdXlyQUhHNVNyQUpyM0djZXBHbDJMaEhkMGhlSVpJYWhKY2ttTzJuZ2VsTzTSAbQCQVVfeXFMUDFncmFOZ01LVVQyQ3NPbXQ2Rkh2TW9WcFNobUxJQ2w3RHRiTFJIQVNjbmdkTzIxRVg4eDgxempYd3JPVVhCb0EtVmk5ZWN0TnE5bmNQT1Njb1JiSHpEMHM2UWM2cnYxc3pHUkZjZGplNmROdF9SMlhRZHNSY241dE5sUEptSUNDUXh4aDZKbmVmRXYycG83ZkFOSkdUb09seGx6WktJZVFGNFdBSEItTFNma0JOSGVlWGlMdUhiY25qWHROZ0ZaTTRjX1l4MElEbWw2ZDZfRDZ1cnpROVlKX1l1blZYd3JhbWY0cS1USG1DcjB0WTJDR3dQNlkzZEhEZ3pBSTlKeTJTUEhkUmM1b3NwRGRoRlFtV3BhRkYyMkJmblIzeGxad2ZwVGo1YTZta0NfY3I?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-10-18",
-      "published": "Sun, 18 Oct 2026 11:10:00 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-10-19",
+      "published": "Mon, 19 Oct 2026 12:08:34 GMT",
+      "source_name": "Pluang",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
-        "#AI"
+        "#AI",
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Bought More CRISPR Therapeutics Stock 2 Days in a Row. Here's What She Sees in the Biotech Stock. - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood hints large investors may be starti... - Pluang",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVUEtMXF2R1l5bFpnMVZtRzNFcG1HNmFtTy1qdHBiam5ETE5JdEdGVTJLR0VUR3NmdVhhNXROMTBzVGE5UmNhRmVlZ1pKTnE4YU9KREJJWVhQTU5YdVF0ZG1UUTdUakxsUEp2cHQ3Q0dZYW9CVTJxWHRRVEJBMUtxYTdpM1ZCSG5JbGlQd1pnUTlmVTV3bnc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOVBwNHdwWmVYMkhiYkdtcDJwdzBnQk1JMWsxS0x2YkxERUd5RkVpQUlTbU5WVTFjYjA2dU1VT3FEc01YYk9WVnVJQzBWN2ZHazBUSEMxQTRzbjlfTjN4S05felJ3SElJTlkzRzZGdVkwOWhLSDB1Y1FPNUZvNk1fOWRRVVNmQQ?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -202,26 +245,48 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-10-19",
-      "published": "Sun, 18 Oct 2026 23:54:13 GMT",
+      "published": "Mon, 19 Oct 2026 17:25:20 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Apple's iPhone Duo is proving itself the catalyst that Jim Cramer said it would be - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON3ZnTUZDNUN5S2FKMlZ5MDczYVZXMl84bWVNX0pnZjhtWU5XRHZRVF9EdGtrNkdzallzRVpsOWVhc2ZvYjRlSVBmZ0FWUk84THdxWmE4T0pXRUZmcVRpZktBeU9XMUJEU2dydkdLTjJrdkJoQkRXQUEtTk40UnZPQTFfVXF2b1hTWTlmVzlnUm1FaTBqSUMyblBRSDR1ckVwU042VkZnWFQ2dFo2cHc5RU1UcFk2TG9OVzRFeXFDUTAxdEE?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-10-19",
+      "published": "Mon, 19 Oct 2026 08:56:53 GMT",
       "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
       "relevance_score": 8,
       "themes": [
         "#AI",
-        "#MU"
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Micron Reclaims $1,000 Amid Fresh Memory Momentum: Jim Cramer Says MU Stock Can ‘Double Again’ - Stocktwits",
+          "t": "Headline signal (not a direct quote): Dan Ives Says AI Capex Boom Continues 'Full Steam Ahead' After TSLA, GOOGL Earnings — Gene Munster Notes Tech Industry Still In '3rd Inning' - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQnpZZ05FNjJKMGRjbGd1ejFrSE4wd2tsaEgwOUFiVDlCU0YtS3dFN1V2TDFySGppWEo1TlhJMFV5T0V2UDlrWTF3WHlfU2ZGVXktdmpjZXlkbHkxTU5mb0xneHBiUjBnSUZCVm9BZ3JXajEta2Fud3ozSkhBOVZHZHphaE0xRDA1X2xfU0V1NnREbFN5VUdxZDdhQkpMUFNtQTUxZ1l5cUp2X3JjR3pKOXdSMmxoa2xYOThnLUpaMkZxX3E3el9pZC1xcTRZbVJHclFpSF9OU19tUkhMTTZHUFlJNTJCYkY5NXc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNckJ1M3lOTUFSaDI4dTN2N29fcTdKTm1QVk5Pa3o5TzJnLS1wazJSQkRnbzNxOXd1R0xPZmpKM24yLU11cVUzZGJ3R1JyUExMakZFaU9wWXNnRXZpWWFUcHBSNXBFS2xoZWVSN25Vd0xaTXNSZmJTeE45R1Jibm5CMXlmc29zd2xKMm8wYldwVVFuVWxmZXBoazRJSEphUlZjNWc4RUtqejhLUWtZZ2QwM1VYQUx3eWRLWWhWaXk1V1ZxbTFzQmJHWlU2QzdTc05Nd2V0bHFwOGJCMXpJa2c?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 10,
+  "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": null
 }
