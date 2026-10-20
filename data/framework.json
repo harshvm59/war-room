@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T05:48:57.521457+05:30",
+  "updated_at": "2026-10-20T06:38:46.541651+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -7,37 +7,25 @@
       "company": "Nvidia Corporation",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 2,
+      "score": 1,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
-          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
-          "published": "2026-08-26",
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
-        },
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.htm",
-          "title": "NVIDIA Corporation Form 10-Q",
-          "published": "2026-08",
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
-        },
-        {
-          "url": "https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf",
-          "title": "NVIDIA Q2 FY2027 Earnings Call Transcript",
-          "published": "2026-08-26",
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+          "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
+          "published": "2026-05-20",
+          "reporting_period": "Q1 fiscal 2027 ended 2026-04-26"
         }
       ],
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "The fiscal Q2 FY2027 earnings disclosure reports continued year-over-year revenue growth and a strong fiscal Q3 outlook.",
+          "note": "NVIDIA reported Q1 fiscal 2027 revenue of $81.6 billion, up 85% year over year.",
           "evidence_status": "supported",
           "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
           ],
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
+          "reporting_period": "Q1 fiscal 2027 ended 2026-04-26"
         },
         "moat": {
           "verdict": "CAUTION",
@@ -54,13 +42,11 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "The earnings-call transcript reports fiscal Q2 FY2027 GAAP and non-GAAP gross margins of 75%.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf"
-          ],
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
@@ -90,60 +76,44 @@
       "company": "Taiwan Semiconductor",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 4,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
-          "title": "TSMC Reports Third Quarter 2026 Earnings",
-          "published": "2026-10-15",
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
-        },
-        {
           "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf",
-          "title": "TSMC Third Quarter 2026 Earnings Call Transcript",
+          "title": "Q3 2026 Taiwan Semiconductor Manufacturing Company Earnings Call Transcript",
           "published": "2026-10-15",
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "reporting_period": "Q3 2026"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "Third-quarter 2026 revenue increased 50.9% year over year and management guided to fourth-quarter revenue growth at the midpoint.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
-            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf"
-          ],
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "Management cites manufacturing-technology leadership and a large-scale production base as competitive advantages.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf"
-          ],
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "The quarterly earnings materials provide current operating guidance and disclose technology-ramp and capacity-related business assumptions.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf"
-          ],
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Third-quarter 2026 gross margin was 66.4% and operating margin was 58.7%; gross margin declined sequentially because of the 2-nanometer ramp.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
-            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf"
-          ],
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
@@ -175,7 +145,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments",
+          "title": "Tesla Second Quarter 2026 Production, Deliveries & Deployments",
+          "published": "2026-07-02",
+          "reporting_period": "Q2 2026"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -233,16 +210,25 @@
       "company": "Meta Platforms",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 0,
+      "score": 2,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+          "title": "Meta Reports Second Quarter 2026 Results",
+          "published": "2026-07-29",
+          "reporting_period": "Q2 2026 ended 2026-06-30"
+        }
+      ],
       "questions": {
         "growing": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Q2 2026 revenue was $60.801 billion versus $47.516 billion in Q2 2025, up 28%.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
+          ],
+          "reporting_period": "Q2 2026 ended 2026-06-30"
         },
         "moat": {
           "verdict": "CAUTION",
@@ -259,11 +245,13 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Q2 2026 operating margin was 31%, versus 43% in Q2 2025.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/"
+          ],
+          "reporting_period": "Q2 2026 ended 2026-06-30"
         },
         "cash": {
           "verdict": "CAUTION",
