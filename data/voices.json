@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-20T23:35:15.070873+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-10-21T02:18:02.725436+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
@@ -8,30 +8,30 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-10-20",
-      "published": "Mon, 19 Oct 2026 21:12:22 GMT",
-      "source_name": "Euronews.com",
+      "published": "Tue, 20 Oct 2026 14:00:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang warns Germany is falling behind in AI race - Euronews.com",
+          "t": "Headline signal (not a direct quote): LIVE: Jensen Huang sits down with Deirdre Bosa at Nvidia GTC Berlin - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV2dyWXBXVG95amEzSGNqMHl3ZUNaN1ZqLUJqVVJFVU9MNGx4RnpWNXFMQ3hYLVk0WGotWFltOUthV3k4cmN0anEyTmlFN2pSV2JlNUszT3BfNE45WXg2Z29TRFVxR3lYVDFoM0RwQm5mSTZ6RTNYeDVEREJwODlRYVlMRmxta2RFMVVDSnRMRE1XYXR2VHVKMXp5MlFxeXJxZEI2eg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMGtFUC1xUXlTVzZLNnlxOEQ3aWJSTFdJS29zemtFajdvWlpOdkpldjRkdTcyV0JEZmJaaXl4OVVtYzUyQWJIZEl1U3Y5QmM0V1pkUUktLXgyeGxETnZKaE1EV0w1RTM0amRIV051T0hfdGVXMjMwRXRPS2dQSHJ5R3dLa3hTWGF5WlcxN1VJdFFwZXlqWmJURUowNmVhRW9UcGkzTTJ4R0xaQmU4UFVqWHo2QQ?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 09:07:12 GMT",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "date": "2026-10-21",
+      "published": "Tue, 20 Oct 2026 19:42:32 GMT",
+      "source_name": "BBC",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,32 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman's home struck by gunfire, days after Molotov cocktail attack: Police - ABC News - Breaking News, Latest News and Videos",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman wins dismissal of sister's lawsuit - BBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYlk3cFJkWnNMMHloVFZSQ2pIelpHUWxJbndOeWdiUVcxdXBncjcxdmU3cEUtczJBSV82MUc0LTFRdkJ4NmZpZmZUMUdmU1NJc3hMSlRUSU43RW5VN1pjVzJqSm83OWZiakt4TTQ0bHgwR0hYVkJUaTB1QUlnRUxFQzB1YngzOVoxS0pOYkFzUHpHQVFvcHN1SjFVONIBoAFBVV95cUxOSmg3TE42d3BRemlRWXU4al9ZU0p5eEtCeE4yNzNiaE1oTDB5MHZBMDVDNTUxUjl0dzdma2VWcDkyTUNMRnJoNlJobXNLU0t6NUdXbXNkMWdUa2NDUk4xZ2loSjY2TURtTXkxMTNtd3ptU1VUemYyVG93QWt1ZkNvdEp1aDQ4UVY5RDRwUXRSRGZsdmNJalpyeHVBRkxpbW1v?oc=5"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-10-20",
-      "published": "Mon, 19 Oct 2026 20:23:26 GMT",
-      "source_name": "Benzinga",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Dan Ives’ 5 Cybersecurity Stocks for the AI Boom - Palo Alto Networks (NASDAQ:PANW), Fortinet (NASDAQ:FTN - Benzinga",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR3FOZTFYeTg5Si1LeFFsRHBNQUs2VC1sa3B4UzM1RWhPQk1lZ3hkajlIeHBJcDhKdzhoYlJIR2dQMXJ2Tlc5eWRqb19CV2djVHlkTHVZNUU3VW5RYTNwTlBqLV8zTHZyaVRpNkZBVUVyenU3RWNpUGtFZTZVRTRNWDc3TWNMMUMxS2l5RjZGMEVHSkpDOHgtWERB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2OHozQjJtT1RwZDNNODFMcUZQOVgzSGtReWw4NFZ1NXdBTzJKeXYyNGVRLVBVcTQyeTBXeVVMcUR2bzlyOG9BUkNhbzdQZmx5TUFKaGlBOGs5MlE?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -201,7 +180,7 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 13:05:15 GMT",
+      "published": "Tue, 20 Oct 2026 16:01:17 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -210,19 +189,16 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Tuesday - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer says this is the 'magic elixir' driving Tuesday's stock market - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWkFWUGxlOVU0SWxDeHJHSHJLX2VTci1IelhwTGpEc2ZVT1MwbV9OVzZlOFhicEh3VUloM1ZmakRtQkstWFZGS1JULWRBRzRSYTlfVkRKTm1VbXpxZDhOeDUydFptc3hOUTYtT0ZBS0czdzl1VkJGRmNZcFlBRUdUZm5mWnNQN2ZLTVFCdVJ4V2RuaThtX0ZUX2FETEZXWFJBaHlkNVA1Ump0Njh5dlVuNHBZdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVVJZY3lPdWk2eVNvYVFWWS1GUmpzdl9yUkVOQWR3ZFM3elFTeE5ZM1l5b3RuUGZfTk9tUmJxbHVEYkloN3BXVkpwc1ZRcWhWazZzVlpleVBORnBvb1NTcGIyOFdPRUNUaVpBRGM4Z0ZXZnJ0Mk1xWkdTaHBTeTlCeFRObjBwSHlldDlmajdjUzVTUXpPbEt5QmVnYnRKaUNTUGhtdWdkUXJ5TXRYeWdiaGdDVC1jOE9sMnVhOVZR?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 10,
+  "fresh_signal_count": 9,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
