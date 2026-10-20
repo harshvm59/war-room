@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T14:18:30.706036+05:30",
+  "updated_at": "2026-10-20T23:35:15.070873+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -7,22 +7,22 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-10-19",
-      "published": "Mon, 19 Oct 2026 16:12:37 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-10-20",
+      "published": "Mon, 19 Oct 2026 21:12:22 GMT",
+      "source_name": "Euronews.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Declares NVIDIA Can Win “in the Absence of Any AI Labs” - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang warns Germany is falling behind in AI race - Euronews.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc2xkS0tSQUpOQi1pNjc1dDhtR3dxUUhJcV84QWYtdG0wUFUxcGs2OE9mQ3lOT0ZFc1pIZ3RNYU5EY2FfWmJYY1NwZ0dkR1R6NFNvUF9aLWw0bTZQc3ZqMDYtdnV6N05yaTBsN2V4ZlhoM3JkVTllR0lFRU5WLThQSXlONng3M21vQ0ZnT1ZoNmFTVDJkTnVHLTEtWXc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV2dyWXBXVG95amEzSGNqMHl3ZUNaN1ZqLUJqVVJFVU9MNGx4RnpWNXFMQ3hYLVk0WGotWFltOUthV3k4cmN0anEyTmlFN2pSV2JlNUszT3BfNE45WXg2Z29TRFVxR3lYVDFoM0RwQm5mSTZ6RTNYeDVEREJwODlRYVlMRmxta2RFMVVDSnRMRE1XYXR2VHVKMXp5MlFxeXJxZEI2eg?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,8 +30,8 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 05:48:20 GMT",
-      "source_name": "조선일보",
+      "published": "Tue, 20 Oct 2026 09:07:12 GMT",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman Proposes Three Measures for Safe AI Development - 조선일보",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman's home struck by gunfire, days after Molotov cocktail attack: Police - ABC News - Breaking News, Latest News and Videos",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZE5EZmU0cVlEcWh0OUJQU0NCQ21jTWRtTnZiWGdTLUUtVGVCMy1qTTdiRmRyRU1PSjRSdGJZNmlJUnVoRmpuNnZkTGhJTTQwVGZqRXpISHBsT1VtUWkyUnM0SE5CTlo4TG0xUmRORXZnZ0RuUWJyS01kWHJFSy11Yl9QeE9JZi1Q?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYlk3cFJkWnNMMHloVFZSQ2pIelpHUWxJbndOeWdiUVcxdXBncjcxdmU3cEUtczJBSV82MUc0LTFRdkJ4NmZpZmZUMUdmU1NJc3hMSlRUSU43RW5VN1pjVzJqSm83OWZiakt4TTQ0bHgwR0hYVkJUaTB1QUlnRUxFQzB1YngzOVoxS0pOYkFzUHpHQVFvcHN1SjFVONIBoAFBVV95cUxOSmg3TE42d3BRemlRWXU4al9ZU0p5eEtCeE4yNzNiaE1oTDB5MHZBMDVDNTUxUjl0dzdma2VWcDkyTUNMRnJoNlJobXNLU0t6NUdXbXNkMWdUa2NDUk4xZ2loSjY2TURtTXkxMTNtd3ptU1VUemYyVG93QWt1ZkNvdEp1aDQ4UVY5RDRwUXRSRGZsdmNJalpyeHVBRkxpbW1v?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -94,21 +94,20 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-10-20",
-      "published": "Mon, 19 Oct 2026 19:45:10 GMT",
-      "source_name": "The Express Tribune",
+      "published": "Tue, 20 Oct 2026 16:33:00 GMT",
+      "source_name": "WORLD News Group",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#TSLA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): SpaceX, Tesla earnings to test Musk's AI spending ambitions as merger talk grows - The Express Tribune",
+          "t": "Headline signal (not a direct quote): Elon Musk promises every American child stock in SpaceX - WORLD News Group",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOVFaTmFkOVdfUjdER2FPcGc3WmhBYkJYTTFNNXA0cW9wYnNtMU8xUFVRZ2VyekNzdXdYX2pOQVNXaGxhbkJxaDRpb3hFZ25PTUFEd0FhYzJudzV2cWs0Rk51NlZVTzN2Y1dXT0c3UzF2Vk9nNURTT3BObVhFWTdsOHdwQkRDTTF3dWc3SndjVGFsZTNHOEJZNmpBNHlHMFkyYm4zVUZUSTc3RGJfNWpLRTZjZkYxZ9IBvgFBVV95cUxOTDIzdkpXMVF5NW96Zjd6YU5VbDdFNlFrMlVyaU9JSUtNRFNQSVcyTnhXMEEzbUZjTkhadzdKVjNrRFRvNXFLbEZkVlFOck5PX1I1T0l4MFdROFlLT1otTVZZcXJLdmEtRHQtX2ZvTTZUUjYyUVBZNVM4MHZWNkY0dmxMUE1kLVktQndDZnM3UlhRaDNJRzdISWJubjFCeXBaOXpaZVZTRVBiRGg5ZVcyb3dGNDlVdUdZbGgzWlln?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSDQxU3NJVnA5RGRtbXJ0OG5TQmxSWkpQbFZaYTZQdmRwd1ZMUzI0aUhRVlJ1TmpKQ0NuOENBOGVMNkgzLWpGX2hwVkkxeEw0YTV3cjI4aHpMYV9WX2JLV1hZWlQ5MHk2UlFvX0hGcGEyT3dhRF82aFZCYUltYnJwV3hnZ1E3aXlPR2ZGTEFweHo?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -116,21 +115,42 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 07:40:49 GMT",
-      "source_name": "Benzinga",
+      "published": "Tue, 20 Oct 2026 15:00:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 7,
       "themes": [
-        "#AI",
-        "#META"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Called AI Agents Meta’s Next Revenue Engine: Will Muse Deliver When Q3 Earnings Land - Benzinga",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg once trashed Apple. Now he’s thanking its new CEO — and had to do it on Elon Musk’s X, not Threads - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONnNCb0otQ3hENEh0MUc4ZU02b0JBdlFTeERoUkNpaVlic3QzdGJWN2xGX0RVTE5jVk1NM2FBX0tRbmVUbXdPZ2VGMUZSU1B5SGF3Z01nR1NNUFE4LUh4bmg3di1lN29ZOGtQUmFTZWpRX3Y1QlpkMzk5aDJpUEtVUFFfNVc4Yk51NWo1ZUR3dWJYUFN4T1E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSEJJOUMzbWF6ckJSMXdMb0ltYk44aFBLMW51MW9zNFZRM2pMQmM2Tjk0Rkt3V0hlY0kzbzN6WkFxYTRWOXM4LWJydUR3WmJvRGxjNTJnSXFKWUhzTDhCSU9KZlloRXEyUnZKTnpKbHV3UW9NWV9PM3h2UkJ3RlZ0RWZja3JJSlBaZXBXV2xUWVlSZmxoa05QejVoTmRRYjA?oc=5"
+    },
+    {
+      "name": "Sundar Pichai",
+      "role": "CEO",
+      "org": "Alphabet",
+      "cat": "CEO",
+      "date": "2026-10-20",
+      "published": "Tue, 20 Oct 2026 17:47:40 GMT",
+      "source_name": "Big Technology | Alex Kantrowitz",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#GOOGL"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Sundar Pichai: Google’s Frontier Imperative, Compute Scarcity Dilemmas, Future AI Products and Businesses - Big Technology | Alex Kantrowitz",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JbHZDYmRzQ2VIeDdSc3liWjFqUWhlSXdSYU5hWU9fX0pVbk9wUGVqZGc5R2wybHN2cDI2YlV3Y2NWZ2FCNElJRGRoZ09GMEVxa2U5TEltWVJiV1lLQ1oyZElIb0lZcnhxNllnU3RUaExINV9URzVIVFNZdm8zdw?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -138,7 +158,7 @@
       "org": "Intel",
       "cat": "CEO",
       "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 06:58:48 GMT",
+      "published": "Tue, 20 Oct 2026 06:55:00 GMT",
       "source_name": "BigGo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -154,34 +174,13 @@
       "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nVjdYQW9BczZ4V19HcWJoNVFlc2gtQVRWX2dxNk01V3h2Q1NDRFFfblJVTElic0dUUlpsQUhnTVBRUm5WYUp6MTFBdVZLMkNtTFV6TVg4VzZqUGlPX29UNnZZNTYwYnpjNFoyU25GWGVLZUVyYXc?oc=5"
     },
     {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
-      "date": "2026-10-19",
-      "published": "Mon, 19 Oct 2026 09:29:00 GMT",
-      "source_name": "The Times of India",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Larry Ellison loses $6 billion in a day, as AI worries wipe billions from Oracle stock, making it one of - The Times of India",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNN3JNWDNEUTNrblVFU1pqaTVVVkFsSjVVMmc1dTIxNXNMQW9neG1ERHpPSjNYLWJHZjVlbF80dmNNVXRkbXlBNzU1YjM1T0FDWk1CYTdPOHN3dFpCU3NkblhMZTVkNVlGQXUycTRkNnZiWG0zQlRvNjVCc2QwZHFScXRHNDZSaFRTbDVjMl9kLUFFSEwzenNoWE9NY01HUElTUG1INEpQSERnX01UeHdmRHZRV0pkZHh5WWtCYW9fUS16UVY5UU9wcTJGcl90cGVicThFak9HZ0M1aEJzUHhGY2pTaTBRU2xVbF9NR0hNRnBUZlBqZi10NGZmRDBkLVQ3YUhXdXlyQUhHNVNyQUpyM0djZXBHbDJMaEhkMGhlSVpJYWhKY2ttTzJuZ2VsTzTSAbQCQVVfeXFMUDFncmFOZ01LVVQyQ3NPbXQ2Rkh2TW9WcFNobUxJQ2w3RHRiTFJIQVNjbmdkTzIxRVg4eDgxempYd3JPVVhCb0EtVmk5ZWN0TnE5bmNQT1Njb1JiSHpEMHM2UWM2cnYxc3pHUkZjZGplNmROdF9SMlhRZHNSY241dE5sUEptSUNDUXh4aDZKbmVmRXYycG83ZkFOSkdUb09seGx6WktJZVFGNFdBSEItTFNma0JOSGVlWGlMdUhiY25qWHROZ0ZaTTRjX1l4MElEbWw2ZDZfRDZ1cnpROVlKX1l1blZYd3JhbWY0cS1USG1DcjB0WTJDR3dQNlkzZEhEZ3pBSTlKeTJTUEhkUmM1b3NwRGRoRlFtV3BhRkYyMkJmblIzeGxad2ZwVGo1YTZta0NfY3I?oc=5"
-    },
-    {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 01:45:15 GMT",
-      "source_name": "Benzinga",
+      "published": "Tue, 20 Oct 2026 11:11:04 GMT",
+      "source_name": "Beinsure",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -190,11 +189,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock - Benzinga",
+          "t": "Headline signal (not a direct quote): Cathie Wood’s Ark Invest buys $8.1 mn in CoreWeave stock, sells $3.6 mn in Palantir - Beinsure",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOU1ZvckxzUjVmUUFNT00xRTdMd196M0ItaVNDT1pRRDQtLVZDVkhIc0dDem5BcU1kS3RPN0NsOHFGcWp0b3M5YUtweWp5WkRxYjQzRVVnczRCUzlDQlc3SDlGVFhMcUZ5d0Z3SFJKSU5JUEVyNlEzS05GeFpkTUJTUzZsWDljYm9ZVnRTdTF1SUZGVzNRV3BKcFowUURRSkk2anNkdVJPcG1ldDlxcXNqTUI2Y0JQZGlhYjZQTFJ4S2VJQnBHbnJNeFNJMko2aXVhTk9UTUFtQ0xnUUg0XzdXcWlvdnloQUZRVTd5SzYySVRFWktiV0ZEVGVyRVpCOUh0dmc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5clRROVJKWmxSMFJ4WWVPajZiRWhxUjRrYWRCSllCNzI5X2VZMk9Pb0N6WGNKODR5SVlMeXBmS0dxeE1hZGViTTY0anY4c0dORXJibVJTaENMMDZXRXl5ZlpMc3BOd2xNeXVoUTU0eFl4dDQ4TWo2cHJsNA?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -202,7 +201,7 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-10-20",
-      "published": "Mon, 19 Oct 2026 22:46:33 GMT",
+      "published": "Tue, 20 Oct 2026 13:05:15 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -211,38 +210,16 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer says don't chase the AI rebound just yet. Here's what needs to happen first - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Tuesday - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1jU1pLLTk4dUVFbEJCeGM1QjI3OXlSZ3R4V2tyVmJnRzdybXFSNmV3ZGFtLThyZmpmRTZIOW5HSGYtdHVSRDUtUjM1ZUVSdXVWMU93c0llNm90TWR3dEd1YnNfTF9jWnpUNVlPa1l2czhCX0hSeGwzNnVNRi13UdIBgwFBVV95cUxPNUtzYzdvbjB4amQ0bE0xSGFFaVlsRXhxa1FPbjhtajNKZFV0VHdOakxtaFQwbmQ3eEt4QjlHQkZTWEtBUENma1B0WUdlYmg5Wmw3YmppVkpDRUR1am13VmtXSWFmaW9rM2ZmN04wV19EQUJoSTJrWGhoam9ya2ZfdnNpTQ?oc=5"
-    },
-    {
-      "name": "Gene Munster",
-      "role": "Managing Partner",
-      "org": "Deepwater Asset Management",
-      "cat": "Investor",
-      "date": "2026-10-19",
-      "published": "Mon, 19 Oct 2026 08:56:53 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#TSLA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Dan Ives Says AI Capex Boom Continues 'Full Steam Ahead' After TSLA, GOOGL Earnings — Gene Munster Notes Tech Industry Still In '3rd Inning' - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNckJ1M3lOTUFSaDI4dTN2N29fcTdKTm1QVk5Pa3o5TzJnLS1wazJSQkRnbzNxOXd1R0xPZmpKM24yLU11cVUzZGJ3R1JyUExMakZFaU9wWXNnRXZpWWFUcHBSNXBFS2xoZWVSN25Vd0xaTXNSZmJTeE45R1Jibm5CMXlmc29zd2xKMm8wYldwVVFuVWxmZXBoazRJSEphUlZjNWc4RUtqejhLUWtZZ2QwM1VYQUx3eWRLWWhWaXk1V1ZxbTFzQmJHWlU2QzdTc05Nd2V0bHFwOGJCMXpJa2c?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWkFWUGxlOVU0SWxDeHJHSHJLX2VTci1IelhwTGpEc2ZVT1MwbV9OVzZlOFhicEh3VUloM1ZmakRtQkstWFZGS1JULWRBRzRSYTlfVkRKTm1VbXpxZDhOeDUydFptc3hOUTYtT0ZBS0czdzl1VkJGRmNZcFlBRUdUZm5mWnNQN2ZLTVFCdVJ4V2RuaThtX0ZUX2FETEZXWFJBaHlkNVA1Ump0Njh5dlVuNHBZdw?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 11,
+  "fresh_signal_count": 10,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
     "code": "daily_research_limit",
