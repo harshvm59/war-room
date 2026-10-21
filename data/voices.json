@@ -1,15 +1,38 @@
 {
-  "updated_at": "2026-10-21T23:43:36.169495+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-10-22T02:20:44.040089+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Elon Musk",
+      "role": "CEO",
+      "org": "Tesla and SpaceX",
+      "cat": "AI/chips/strategic M&A",
+      "date": "2026-10-21",
+      "published": "2026-10-20T21:43:40Z",
+      "themes": [
+        "potential merger",
+        "AI",
+        "chips",
+        "robotics",
+        "connectivity"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Musk said Tesla and SpaceX committees are exploring a potential merger and that cooperation could create gains in AI, chips, robotics and connectivity, while emphasizing that a deal is not certain.",
+          "k": true
+        }
+      ],
+      "src": "https://www.axios.com/2026/10/20/spacex-tesla-merger-talks",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-10-21",
-      "published": "Wed, 21 Oct 2026 12:41:47 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Wed, 21 Oct 2026 18:01:01 GMT",
+      "source_name": "Bloomberg.com",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -18,11 +41,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang: 'We have to accelerate AI safety' - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Nvidia Is AI’s Central Bank. Now Jensen Huang Must Step Up - Bloomberg.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeDlucTF3Nk9CdGsxanRXRnJsdFRQcWdPRW9xWFFjd29MOG9FanF1T2ZwQ2JWQ2FWaHpaX3RwNTFCcWduYlB1WUt2ejRVVFRYTmRXTmdudlM5TjlMZmhpSkFrd2d5TDZtUE93TzNTZWJMOF9xaG9nOFl1UlFRYVcxOTVrMEdtSm9jZTc2eEpsZ0FpN3dGaS1aVERockJjRVJwMmxPM0JFaGdzaFc2VjhRQ2lPX0tYdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY2tqVW5kZ3c4OEhReHAxR3M5a3NXZnVyTTM3LTdsZjduQnJmZHZkNkNsVk1COWU1Ri1UVF90TE5xR2MwbkpiX1dHU0locHh5TGQwMGFucy1xQ05WNndXRHJHdEwyc0s3NE1WaHdMaXpjbC1keEluc2s4UnRQMzQ2S2ZHeTNMYk9TOV80VmFJT0RHUF9LUTZZRV82SENHZGs3ZkZNTzJZVHNnWjIyZWo0cA?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,8 +53,8 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-10-21",
-      "published": "Tue, 20 Oct 2026 19:42:32 GMT",
-      "source_name": "BBC",
+      "published": "Wed, 21 Oct 2026 10:01:00 GMT",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,11 +62,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman wins dismissal of sister's lawsuit - BBC",
+          "t": "Headline signal (not a direct quote): Sam Altman’s OpenAI reports two AI agents weakened internal monitoring systems - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2OHozQjJtT1RwZDNNODFMcUZQOVgzSGtReWw4NFZ1NXdBTzJKeXYyNGVRLVBVcTQyeTBXeVVMcUR2bzlyOG9BUkNhbzdQZmx5TUFKaGlBOGs5MlE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQdi1HQW0xZHZaX0hWNFozWVlZSGZUUGN4X1JVc1JScDgxOTJFRFRnUXZXY3ZqRkNLNnh2OWQxbjdnQi1nRk9ycEhHWm1QdllBek1EYkRJWUIzRWhWNXBSUGI4dzBScVRTZDF2dVFFeVpBOFo3RUNsSzNzUDVJZVpTd3c5YTJKY044cktRU1V4VFZBWUlVMFJncjU5MU5oQW15b2RkN3NxR3N2aEswLTg1NGxTMG82OTAxOTlsZDRiT2hnOGJHc004OGkyVkNFdVdFTS1XVnRld1AtQlZjanJvZlcwQ3lLdi1XdGg0TEFwN0pXQdIB9wFBVV95cUxPeXVVczVhblJQZTBwN1h3bmtvLXJMYUwwMHBhSkNLOEVhLThQSXZGSVBBWUNjRGlCV1N3TTBtM29HTnF4TVNReFBWQjZkcEhWendKTzFYbENOakJURFZGd3c2VDc2UGgyMmtxc2t5RG5QSUZsdHZ5Vk5FVFZCTTk5M0F5bG5ZUlVNclAzZzhsdjd2dWZ2dlMwdklDcllIUTdNM1lyYi04dE5DeE9zV0VYMDY3dlBvbjRjWXVOTnJCQmtwVWU5cW5sTHFYRnY5bTRSeW9admM4dndBSmhWR1BBb2xmc0VkWi1NZkFIUVF3Yy1UcmxOODNj?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -52,20 +75,20 @@
       "cat": "Analyst",
       "date": "2026-10-21",
       "published": "Wed, 21 Oct 2026 11:26:07 GMT",
-      "source_name": "Yahoo Finance",
+      "source_name": "Barchart.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Calls the Selloff in NVDA Stock a Buying Opportunity as Analysts See 53% Upside - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Dan Ives Calls the Selloff in NVDA Stock a Buying Opportunity as Analysts See 53% Upside - Barchart.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaUZUTjRrMXpoYXFnZlNiQlpkZEVwMllWMXB2akU5MXY1bDJES2h6SURONkZsYVdqUmxZcGNsc3BOWHBmTUJrR01IN1FPRS1QZjBIaDBaWURsTlZncy0xdFV1SzFRWUphTkRNTHRyS2ptRG5kSFNhaGVPYzFFYTVDLXVNNVcxQk5HamlkMGgyU2Q3TS11bGs0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdVNsUXZsZWE1Z1hWZkhhOG9XX0FRbDJUenk4Q3VFbVhCal9odU1haWhldUFua1dBN1c1SjQ4Nl8tWTBtUzJMTE50WTVvMVZ5NVB3NnZBRm9meWctZEZFMThJWE1NZW8tSnF1Mm9Sa1ZrSkM0TVIzcFp5OUtDQmVURVZ1clJXQkMtRGlvMXR6WXlZTktTMVRla0tHZG4teEQ5YzFsVmtVUExLaTU3R3ZueXJHWG9qeHR3SXQ2dkVzNlNlQmpQWU8xSU5TYw?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -90,57 +113,35 @@
       "src": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOdWlWdi16MllOWTUyZ29FaXdKZmJFTXRsaVVSX0V3WWhWMi1GWklRTWpHZ0FJcGNjQUN1N1pCaHctQnhjLVJDYlBNM1JlMHZRanN0bDhfdWpkcE13ZS00SzhOQVUxUDBaSmZJOVJnRU54ZzJjQzcyWERTdGZlR3dGd1BQYjZrRC05WkZURnY3UlZZYkFTOTRGbDdoaUgwRnNHcUVSZWY0MndpZm5ZakFoeExSMGY1d1p0TTNwbGZic3F5bU9OUTlfeE1CSVAxMXZxS0s3X0pJWGxLcUZJYXZudjMwMEI0QmVxaEJMSjdtNVY5RGRrWDZFWVBHczhMX0JwSE5sVlgwQzA4LVcxNnJVbFpwOEhoR094X010cUt2cjh1djNmYWFqREhpOFV0R2NuRjhtb0ZWMjNaYmVKaXc?oc=5"
     },
     {
-      "name": "Elon Musk",
-      "role": "CEO",
-      "org": "Tesla / xAI / SpaceX",
-      "cat": "CEO",
-      "date": "2026-10-21",
-      "published": "Wed, 21 Oct 2026 07:01:00 GMT",
-      "source_name": "Fortune",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#TSLA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): ‘Tap-dancing through a minefield’: Elon Musk’s $3.5 trillion Tesla-SpaceX merger talks expose his power—and scant accountability - Fortune",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRlJBeU8ycUhCT0h0LTFHT3dzRmFvUVRkVjNCYkNNeVpzZ2FvVk9tV3hOY3NFdTFoMWhmOEhOVEtESFM1TzB5SHlsdEFDZm5ZT3NrNlN5MWl0bTREMTBfV0VfOXNyYkc5ZmNqUXFwQ1NhbWV5UlNQdnpGR203NXNPWmR5TlpaRzJIVXh0WGJBUDh2dkh6UWNvQTQyQW5uNHQ4?oc=5"
-    },
-    {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-10-21",
-      "published": "Wed, 21 Oct 2026 13:36:53 GMT",
-      "source_name": "Benzinga",
+      "published": "Wed, 21 Oct 2026 17:30:28 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta Earnings Prediction Market Preview: What Will Mark Zuckerberg Say? - Benzinga",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg Called AI Agents Meta’s Next Revenue Engine: Will Muse Deliver When Q3 Earnings Land - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZllwM0YyTUlVNTB0V1BSWWNEam10cDBRQi1YS3RMS2JkZ2kxY3RKSTFpOGo3M2lnR2VMNURIVkNxY1VkWW01emVjTVRjUll0bjBUWXNCXzVVMGlTNzRDZXpFaFBDYW53ejBpRkZ3TWFhWVVQVW8zOFNhREhIYWRjUEhOU2c4bzE4WkRzQk9JMURkamkyaWFQQnBjc2xQUEIzM3NqUFNHak5VWWx0VkZ2MHo0YjM?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdWR1YnQyZEpfbE1qMzBIS2RQX0VDeVZMMmMtN3BtZ2pDcXRoOXdhSWxUNTd5dGZPX0kzNkVIUTA4eUJyY1NGMnRSLWRmT3RjcDdYekt2MXBBR1pTckFqSWpNdHNuMHBKXzZ5YS16R3ZXalpyZ1pvTnlXV3E0SEpSNnR6WEF0UXZBenl1TFIwazNHaXVqX0dueTVaMTQ?oc=5"
     },
     {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-10-21",
-      "published": "Wed, 21 Oct 2026 13:15:30 GMT",
-      "source_name": "Crypto Briefing",
+      "date": "2026-10-22",
+      "published": "Wed, 21 Oct 2026 18:48:40 GMT",
+      "source_name": "CMSWire",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -149,11 +150,32 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Google CEO Sundar Pichai says securing compute for 2027 is incredibly difficult - Crypto Briefing",
+          "t": "Headline signal (not a direct quote): Sundar Pichai: Why Google Won't Settle for Good-Enough Models - CMSWire",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0d2ZRZlZVaEZHamFXTDBDcHMzejJpcXByRkpBZHotYWZ3ckJYeGo3bzFMNkNDUmY2Z3FBSDd4X1dTU00tOW01ODlNcUpaSE1ncDM5QWEwM0JjejQ1dUZnWC1iWG4wT0lBTkRRaFBaNFEwZm9vdEhsSHhvZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRUIzQTR2T1dvaHVfN1ZDajBDOHN2UGRQa2tWRUtMRTJnVlU3dU1vWDFpVFhTdGl4d0I5MkVHT0tZZEktc2JBZndRNUpvVnl2U1lRbnRUbi1xa1VSNTd2VVVBSXZIVlVMa1NsZXZueEZPLXZHQlRIa3M2XzJyQm84ODVRUHZpWjNYVC1DNWZaV25pdHNXVnZWMEZUUDZQUDE1ZV9qM0Y0bkJXbHFvdDV5N3FPM1NycmpXZjZUaHp4RERUWjRvbE11SS1GU0dEY3JVY2ZsaVNDbw?oc=5"
+    },
+    {
+      "name": "Arvind Krishna",
+      "role": "CEO",
+      "org": "IBM",
+      "cat": "CEO",
+      "date": "2026-10-22",
+      "published": "Wed, 21 Oct 2026 20:47:35 GMT",
+      "source_name": "NewsBytes",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): IBM reports 3rd-quarter beat as Arvind Krishna cites 'Super intelligence' - NewsBytes",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcnRmaEJwOEtBQ3ZyTzgyTm5mSlZaR0dzVFg2NUJJYzdiVEF5bnpMX0lINUUzUGlHd3QyOTBGeGhzQ2cxb1ZtSWpycklZQkZGYU1qZnNLTE1RaDFqal9TM0RjSEJuYTNibk1MVnRYQURQaVB5eHpXZ1VlMG5XOHdiX3VxampqVEo5TTRLX2lrVUhDNzJjQjQwZk12X2dFdkNrcktxMmdPdUVBdGxOdGlTWWlFNGFVbHZnc1c4?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -242,14 +264,32 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLTlVaXU3U0ozMzkyYUVzUkRTX3ByTXZDelMxUHpJQVVOZ3FwdmZEVjFaQWNPQ1dKVXVsT0JxdWZhVE5rRExZUkM3eGxSNGVQWUM3cEhwZ1BZdHZhLVZPMUY4emo3bHlHTDh2TzN2WUNoWmhCbC1OTVltbTNVbEZnUEVfeDBsRWltcHRvb3V6RmRZWUR0VkgyYncwSm53NlM4MW12WGUtSzM0YWpRQ3BuVUhOZmQ?oc=5"
+    },
+    {
+      "name": "Dylan Patel",
+      "role": "Chief Analyst",
+      "org": "SemiAnalysis",
+      "cat": "Analyst",
+      "date": "2026-10-21",
+      "published": "Tue, 20 Oct 2026 23:26:37 GMT",
+      "source_name": "Simple Tech and Trend",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): OCP Global Summit 2026 | SemiAnalysis | Dylan Patel | From Silicon to Services - Simple Tech and Trend",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZGNNLWRjb1QteUhKRE1NWlFwcGZubWloQkJ6QTVndVhLMFlZbDlpdS1ZY094ZHBORWNybWZaOUJyUUJHOWFqUG1zZGxieEpadDU4R29RTlRFMV9UMVZJUkxJV3RXVEg4cC1wX2ROMUNsZHBhdEUyM0FIV05nLVhCOVlDYmNsOU5COW1QcF96amhDQ1hKUkNPeWtSNkw?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 11,
+  "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
