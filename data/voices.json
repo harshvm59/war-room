@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T14:18:31.832127+05:30",
+  "updated_at": "2026-10-21T23:43:36.169495+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,21 +8,21 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-10-21",
-      "published": "Tue, 20 Oct 2026 22:15:54 GMT",
+      "published": "Wed, 21 Oct 2026 12:41:47 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 13,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): The Moment Jensen Huang Realized Nvidia 'Won't Have to Die' Came After a Call From This CEO: 'For the Whole Time, 30 Years…' - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang: 'We have to accelerate AI safety' - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTVdyNVBTNldISGRkV0pNVkswZkZHcTRVWU9hdzNxeVI4aVhOemRmX3BOQmY0aGp5QzRfbGFaVkRRaTRNUk5LVm1HX2FvS2FXcExKSXAwa2treTVaNElXaTdqek1HQzN2eFB5LTlxaFVQZkNYWTlKTmZwSWc1WHF2UWxYYkV6Unk5YlFqcVZFUEVtOUktNkpRQ0E0TXN6aElf?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeDlucTF3Nk9CdGsxanRXRnJsdFRQcWdPRW9xWFFjd29MOG9FanF1T2ZwQ2JWQ2FWaHpaX3RwNTFCcWduYlB1WUt2ejRVVFRYTmRXTmdudlM5TjlMZmhpSkFrd2d5TDZtUE93TzNTZWJMOF9xaG9nOFl1UlFRYVcxOTVrMEdtSm9jZTc2eEpsZ0FpN3dGaS1aVERockJjRVJwMmxPM0JFaGdzaFc2VjhRQ2lPX0tYdw?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -51,20 +51,43 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-10-21",
-      "published": "Tue, 20 Oct 2026 20:06:37 GMT",
-      "source_name": "AD HOC NEWS",
+      "published": "Wed, 21 Oct 2026 11:26:07 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 14,
       "themes": [
-        "#AI"
+        "#AI",
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives reiterates USD 32.00 target for GameStop stock - AD HOC NEWS",
+          "t": "Headline signal (not a direct quote): Dan Ives Calls the Selloff in NVDA Stock a Buying Opportunity as Analysts See 53% Upside - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNm1QbEx5ZnpCWDk5MkpXTTY0UEFNdmRKc3ZKSzFidm9KeUZBOVM0M0otN0VZMU44ZGMtOGFib2xFeFdrbkI4ZDdReGRSanAtZk5zRG9QOEVHaUZxY1l2WmNOVWxHdWF6QlpqX1lZa2k0N3RFem41SWllem4yN3RsVjlWNEZKd2xid05QdmM4V3BJeFpQNTFEclI2TFVXVmEzNnpWdDFWdWx4c1QwQmpmdmpSXzM?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaUZUTjRrMXpoYXFnZlNiQlpkZEVwMllWMXB2akU5MXY1bDJES2h6SURONkZsYVdqUmxZcGNsc3BOWHBmTUJrR01IN1FPRS1QZjBIaDBaWURsTlZncy0xdFV1SzFRWUphTkRNTHRyS2ptRG5kSFNhaGVPYzFFYTVDLXVNNVcxQk5HamlkMGgyU2Q3TS11bGs0?oc=5"
+    },
+    {
+      "name": "Satya Nadella",
+      "role": "CEO",
+      "org": "Microsoft",
+      "cat": "CEO",
+      "date": "2026-10-21",
+      "published": "Wed, 21 Oct 2026 12:06:42 GMT",
+      "source_name": "TechRadar",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#MSFT"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): ‘It's our mission to empower every person and every organization on the planet to achieve more’: Microsoft CEO Satya Nadella outlines what businesses need to conquer the AI frontier ecosystem - TechRadar",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOdWlWdi16MllOWTUyZ29FaXdKZmJFTXRsaVVSX0V3WWhWMi1GWklRTWpHZ0FJcGNjQUN1N1pCaHctQnhjLVJDYlBNM1JlMHZRanN0bDhfdWpkcE13ZS00SzhOQVUxUDBaSmZJOVJnRU54ZzJjQzcyWERTdGZlR3dGd1BQYjZrRC05WkZURnY3UlZZYkFTOTRGbDdoaUgwRnNHcUVSZWY0MndpZm5ZakFoeExSMGY1d1p0TTNwbGZic3F5bU9OUTlfeE1CSVAxMXZxS0s3X0pJWGxLcUZJYXZudjMwMEI0QmVxaEJMSjdtNVY5RGRrWDZFWVBHczhMX0JwSE5sVlgwQzA4LVcxNnJVbFpwOEhoR094X010cUt2cjh1djNmYWFqREhpOFV0R2NuRjhtb0ZWMjNaYmVKaXc?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -82,7 +105,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): ‘Tap dancing through a minefield’: Elon Musk’s $3.5 trillion Tesla-SpaceX merger talks expose his power—and scant accountability - Fortune",
+          "t": "Headline signal (not a direct quote): ‘Tap-dancing through a minefield’: Elon Musk’s $3.5 trillion Tesla-SpaceX merger talks expose his power—and scant accountability - Fortune",
           "k": true
         }
       ],
@@ -94,29 +117,30 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-10-21",
-      "published": "Wed, 21 Oct 2026 05:03:00 GMT",
-      "source_name": "Yahoo Tech",
+      "published": "Wed, 21 Oct 2026 13:36:53 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 15,
       "themes": [
-        "#AI"
+        "#AI",
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Watch out for your data with Muse, Mark Zuckerberg's AI assistant - Yahoo Tech",
+          "t": "Headline signal (not a direct quote): Meta Earnings Prediction Market Preview: What Will Mark Zuckerberg Say? - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQamVlZlRHTzVfSG1RSVc1NXVSUnU2R21BVzk1SmlQVlRXTXBTeGNtT0NSQVJIY0lVZFBPenBQNjhlbklyWURlYUY4X1NRMDFaUDR3TjMzcXE5Vk1HQU83cnpHS2xlN1hWWlpDSVdxbnVGNUlMS1A5ZXBrMWRBd1plVmlieFFpbDRTYVI3UFctWnR3VFpN?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZllwM0YyTUlVNTB0V1BSWWNEam10cDBRQi1YS3RMS2JkZ2kxY3RKSTFpOGo3M2lnR2VMNURIVkNxY1VkWW01emVjTVRjUll0bjBUWXNCXzVVMGlTNzRDZXpFaFBDYW53ejBpRkZ3TWFhWVVQVW8zOFNhREhIYWRjUEhOU2c4bzE4WkRzQk9JMURkamkyaWFQQnBjc2xQUEIzM3NqUFNHak5VWWx0VkZ2MHo0YjM?oc=5"
     },
     {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 17:47:40 GMT",
-      "source_name": "Big Technology | Alex Kantrowitz",
+      "date": "2026-10-21",
+      "published": "Wed, 21 Oct 2026 13:15:30 GMT",
+      "source_name": "Crypto Briefing",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -125,11 +149,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai: Google’s Frontier Imperative, Compute Scarcity Dilemmas, Future AI Products and Businesses - Big Technology | Alex Kantrowitz",
+          "t": "Headline signal (not a direct quote): Google CEO Sundar Pichai says securing compute for 2027 is incredibly difficult - Crypto Briefing",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JbHZDYmRzQ2VIeDdSc3liWjFqUWhlSXdSYU5hWU9fX0pVbk9wUGVqZGc5R2wybHN2cDI2YlV3Y2NWZ2FCNElJRGRoZ09GMEVxa2U5TEltWVJiV1lLQ1oyZElIb0lZcnhxNllnU3RUaExINV9URzVIVFNZdm8zdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0d2ZRZlZVaEZHamFXTDBDcHMzejJpcXByRkpBZHotYWZ3ckJYeGo3bzFMNkNDUmY2Z3FBSDd4X1dTU00tOW01ODlNcUpaSE1ncDM5QWEwM0JjejQ1dUZnWC1iWG4wT0lBTkRRaFBaNFEwZm9vdEhsSHhvZw?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -137,20 +161,21 @@
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-10-21",
-      "published": "Wed, 21 Oct 2026 07:49:26 GMT",
-      "source_name": "GuruFocus",
+      "published": "Wed, 21 Oct 2026 12:06:28 GMT",
+      "source_name": "Quartz",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 15,
       "themes": [
-        "#AI"
+        "#AI",
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Larry Ellison Expands Loan Activities Using Oracle (ORCL) and Ot - GuruFocus",
+          "t": "Headline signal (not a direct quote): Larry Ellison pledged Oracle, Tesla and SpaceX stock for loans before son's Warner deal closed - Quartz",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRllKRzdodjFIem9ZOUVVdHJ2d2JEcXE2cnBBZzVpb2EydWdDRWlGSVlYaUJXNXBKVkdscHRZV0VtdFRHTDVfM080dUt1TDA4dW9sWDJ4S1BvSkVJaXVPazFSOEZLYlE5d3Z0eVp5dEZJdEZES0tpMlRXcFhDeGNyU19pc1pEcEpHRlVxUnUycmpKclFUWkg4WDcwbHJiRHNVSE4yX1BMX3BSbm5ZN19KVkRIY3hPTUZRVnZHSmZzazFTM1k?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBObUZhQy1hel9tb3ZPRDZFeHg2U2wxOTVjeUxvQzFndFJYNHVfN2g2eE8zRHJaM1JZSjBwYlBQQ19QTVJ2ZHlWOFBVNkcxN1NDdTYwWjNKMGxYbE14VEQwSmotMFR6ZEVYaTh2eGRYWUszZWJZQ0ROcWExcnU?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -180,20 +205,21 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-10-21",
-      "published": "Tue, 20 Oct 2026 18:47:00 GMT",
-      "source_name": "TheStreet",
+      "published": "Wed, 21 Oct 2026 13:23:19 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 14,
       "themes": [
-        "#AI"
+        "#AI",
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer spots familiar pattern in the AI stock sell-off - TheStreet",
+          "t": "Headline signal (not a direct quote): Jim Cramer and a Billionaire Like Meta (META) Stock Despite AI CapEx Concerns - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNem8wNXdrR0lVZ1VwSnJHcjVCMGtObDNfRDZZRmdtRDZUdFVxTi0tODZ5T1phcHpKc3lvNVltc05HMVZ4ZTB2R0pKb3RTUFA2S2d1TFBzNUtxU09TREI0SGdnOFNvV2w1WkU5aGRNblR4YlhSd0pSRlJYTlRELWpnZWFNTWI2amNJRExxUVNyYU5RbFZhbDlF?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYk4xdjNFSnYwblR5a1hqNG5mRE5CUDN6SG1MUUh3S0hReWprbXBZYnJtek9RQ3k3R0ZCZHh4MENsNGRpWjBmQ0hRU0UweGxJbXFiWUN4cldXZjdIcGgtbTRIQnM5QTJzNnlYbl85ZFQ2VFdFZ3lQZnlaZnUzREZROHhPMXNja3V1QW1KYkRCaFQxSUs0TjNnUGFWSE5Idw?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -220,7 +246,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 10,
+  "fresh_signal_count": 11,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
     "code": "daily_research_limit",
