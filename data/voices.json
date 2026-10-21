@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-21T02:18:02.725436+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-21T14:18:31.832127+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 14:00:00 GMT",
+      "date": "2026-10-21",
+      "published": "Tue, 20 Oct 2026 22:15:54 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 13,
@@ -18,11 +18,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): LIVE: Jensen Huang sits down with Deirdre Bosa at Nvidia GTC Berlin - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): The Moment Jensen Huang Realized Nvidia 'Won't Have to Die' Came After a Call From This CEO: 'For the Whole Time, 30 Years…' - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMGtFUC1xUXlTVzZLNnlxOEQ3aWJSTFdJS29zemtFajdvWlpOdkpldjRkdTcyV0JEZmJaaXl4OVVtYzUyQWJIZEl1U3Y5QmM0V1pkUUktLXgyeGxETnZKaE1EV0w1RTM0amRIV051T0hfdGVXMjMwRXRPS2dQSHJ5R3dLa3hTWGF5WlcxN1VJdFFwZXlqWmJURUowNmVhRW9UcGkzTTJ4R0xaQmU4UFVqWHo2QQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTVdyNVBTNldISGRkV0pNVkswZkZHcTRVWU9hdzNxeVI4aVhOemRmX3BOQmY0aGp5QzRfbGFaVkRRaTRNUk5LVm1HX2FvS2FXcExKSXAwa2treTVaNElXaTdqek1HQzN2eFB5LTlxaFVQZkNYWTlKTmZwSWc1WHF2UWxYYkV6Unk5YlFqcVZFUEVtOUktNkpRQ0E0TXN6aElf?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -46,68 +46,68 @@
       "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2OHozQjJtT1RwZDNNODFMcUZQOVgzSGtReWw4NFZ1NXdBTzJKeXYyNGVRLVBVcTQyeTBXeVVMcUR2bzlyOG9BUkNhbzdQZmx5TUFKaGlBOGs5MlE?oc=5"
     },
     {
-      "name": "Satya Nadella",
-      "role": "CEO",
-      "org": "Microsoft",
-      "cat": "CEO",
-      "date": "2026-10-20",
-      "published": "Mon, 19 Oct 2026 22:50:06 GMT",
-      "source_name": "Startup Fortune",
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-10-21",
+      "published": "Tue, 20 Oct 2026 20:06:37 GMT",
+      "source_name": "AD HOC NEWS",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#BE"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Satya Nadella says every AI model should be treated as an insider threat - Startup Fortune",
+          "t": "Headline signal (not a direct quote): Dan Ives reiterates USD 32.00 target for GameStop stock - AD HOC NEWS",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcEVzQ0VvQTYwU1hESjg0bFowRkVuS09uQUNYNUlKT2o0MGJIVzVVMTdqQ3FXMkxTdzRUb1FtUDJrTXN2Tjc3U3lYSHptUXdLdHhtOGtfNVVrNkt3a0xkOE5zWDZIOUtKTWZvOFVyTURYS3ZHTHktVEoybmE5cDhFaFlXWFdYMHRjMTJ0NnNHR2N5a1VRVFhRRDlLcmQwcEE4WFE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNm1QbEx5ZnpCWDk5MkpXTTY0UEFNdmRKc3ZKSzFidm9KeUZBOVM0M0otN0VZMU44ZGMtOGFib2xFeFdrbkI4ZDdReGRSanAtZk5zRG9QOEVHaUZxY1l2WmNOVWxHdWF6QlpqX1lZa2k0N3RFem41SWllem4yN3RsVjlWNEZKd2xid05QdmM4V3BJeFpQNTFEclI2TFVXVmEzNnpWdDFWdWx4c1QwQmpmdmpSXzM?oc=5"
     },
     {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 16:33:00 GMT",
-      "source_name": "WORLD News Group",
+      "date": "2026-10-21",
+      "published": "Wed, 21 Oct 2026 07:01:00 GMT",
+      "source_name": "Fortune",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 17,
       "themes": [
-        "#AI"
+        "#AI",
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk promises every American child stock in SpaceX - WORLD News Group",
+          "t": "Headline signal (not a direct quote): ‘Tap dancing through a minefield’: Elon Musk’s $3.5 trillion Tesla-SpaceX merger talks expose his power—and scant accountability - Fortune",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSDQxU3NJVnA5RGRtbXJ0OG5TQmxSWkpQbFZaYTZQdmRwd1ZMUzI0aUhRVlJ1TmpKQ0NuOENBOGVMNkgzLWpGX2hwVkkxeEw0YTV3cjI4aHpMYV9WX2JLV1hZWlQ5MHk2UlFvX0hGcGEyT3dhRF82aFZCYUltYnJwV3hnZ1E3aXlPR2ZGTEFweHo?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRlJBeU8ycUhCT0h0LTFHT3dzRmFvUVRkVjNCYkNNeVpzZ2FvVk9tV3hOY3NFdTFoMWhmOEhOVEtESFM1TzB5SHlsdEFDZm5ZT3NrNlN5MWl0bTREMTBfV0VfOXNyYkc5ZmNqUXFwQ1NhbWV5UlNQdnpGR203NXNPWmR5TlpaRzJIVXh0WGJBUDh2dkh6UWNvQTQyQW5uNHQ4?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 15:00:00 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-10-21",
+      "published": "Wed, 21 Oct 2026 05:03:00 GMT",
+      "source_name": "Yahoo Tech",
       "signal_type": "source-linked headline",
-      "relevance_score": 7,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg once trashed Apple. Now he’s thanking its new CEO — and had to do it on Elon Musk’s X, not Threads - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Watch out for your data with Muse, Mark Zuckerberg's AI assistant - Yahoo Tech",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSEJJOUMzbWF6ckJSMXdMb0ltYk44aFBLMW51MW9zNFZRM2pMQmM2Tjk0Rkt3V0hlY0kzbzN6WkFxYTRWOXM4LWJydUR3WmJvRGxjNTJnSXFKWUhzTDhCSU9KZlloRXEyUnZKTnpKbHV3UW9NWV9PM3h2UkJ3RlZ0RWZja3JJSlBaZXBXV2xUWVlSZmxoa05QejVoTmRRYjA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQamVlZlRHTzVfSG1RSVc1NXVSUnU2R21BVzk1SmlQVlRXTXBTeGNtT0NSQVJIY0lVZFBPenBQNjhlbklyWURlYUY4X1NRMDFaUDR3TjMzcXE5Vk1HQU83cnpHS2xlN1hWWlpDSVdxbnVGNUlMS1A5ZXBrMWRBd1plVmlieFFpbDRTYVI3UFctWnR3VFpN?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -132,34 +132,34 @@
       "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JbHZDYmRzQ2VIeDdSc3liWjFqUWhlSXdSYU5hWU9fX0pVbk9wUGVqZGc5R2wybHN2cDI2YlV3Y2NWZ2FCNElJRGRoZ09GMEVxa2U5TEltWVJiV1lLQ1oyZElIb0lZcnhxNllnU3RUaExINV9URzVIVFNZdm8zdw?oc=5"
     },
     {
-      "name": "Lip-Bu Tan",
-      "role": "CEO",
-      "org": "Intel",
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
       "cat": "CEO",
-      "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 06:55:00 GMT",
-      "source_name": "BigGo Finance",
+      "date": "2026-10-21",
+      "published": "Wed, 21 Oct 2026 07:49:26 GMT",
+      "source_name": "GuruFocus",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 8,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Says US-China Chip Gap 'Not That Big,' Says Making Money Matters More Than Cutting-Edge Process - BigGo Finance",
+          "t": "Headline signal (not a direct quote): Larry Ellison Expands Loan Activities Using Oracle (ORCL) and Ot - GuruFocus",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nVjdYQW9BczZ4V19HcWJoNVFlc2gtQVRWX2dxNk01V3h2Q1NDRFFfblJVTElic0dUUlpsQUhnTVBRUm5WYUp6MTFBdVZLMkNtTFV6TVg4VzZqUGlPX29UNnZZNTYwYnpjNFoyU25GWGVLZUVyYXc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRllKRzdodjFIem9ZOUVVdHJ2d2JEcXE2cnBBZzVpb2EydWdDRWlGSVlYaUJXNXBKVkdscHRZV0VtdFRHTDVfM080dUt1TDA4dW9sWDJ4S1BvSkVJaXVPazFSOEZLYlE5d3Z0eVp5dEZJdEZES0tpMlRXcFhDeGNyU19pc1pEcEpHRlVxUnUycmpKclFUWkg4WDcwbHJiRHNVSE4yX1BMX3BSbm5ZN19KVkRIY3hPTUZRVnZHSmZzazFTM1k?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 11:11:04 GMT",
-      "source_name": "Beinsure",
+      "date": "2026-10-21",
+      "published": "Wed, 21 Oct 2026 02:11:35 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -168,37 +168,62 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood’s Ark Invest buys $8.1 mn in CoreWeave stock, sells $3.6 mn in Palantir - Beinsure",
+          "t": "Headline signal (not a direct quote): Cathie Wood Sells $5.4 Million Worth of Palantir Stock as Ark Continues to Dump PLTR, Analyst Warns Valua - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5clRROVJKWmxSMFJ4WWVPajZiRWhxUjRrYWRCSllCNzI5X2VZMk9Pb0N6WGNKODR5SVlMeXBmS0dxeE1hZGViTTY0anY4c0dORXJibVJTaENMMDZXRXl5ZlpMc3BOd2xNeXVoUTU0eFl4dDQ4TWo2cHJsNA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa1RJQ1RZR2tuVXE3XzUzdFRhdlBLMVVTNU9TUEF6dnowUGphS2RzRlU2R3N3YWZqMHhwcGdSdW12bWhYY04tbUpSTUc5dDlzb25Dby05LVE5V1VLZjdkVGNlTE41LU9EQTdMQUY0bWZueFltWERjX0t4UFpWaDdvaWlURUxYTmI2LVBVdTUwRU1sS3E4UjBNcllGY2hNUkxYclBzUlhUY0syMWhyZnE5Tm0tZkhRSTAzQUdyRWxrVktIYjd2eXQwMnpIYW01ZDhKNEpBMw?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-10-20",
-      "published": "Tue, 20 Oct 2026 16:01:17 GMT",
-      "source_name": "CNBC",
+      "date": "2026-10-21",
+      "published": "Tue, 20 Oct 2026 18:47:00 GMT",
+      "source_name": "TheStreet",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer says this is the 'magic elixir' driving Tuesday's stock market - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer spots familiar pattern in the AI stock sell-off - TheStreet",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVVJZY3lPdWk2eVNvYVFWWS1GUmpzdl9yUkVOQWR3ZFM3elFTeE5ZM1l5b3RuUGZfTk9tUmJxbHVEYkloN3BXVkpwc1ZRcWhWazZzVlpleVBORnBvb1NTcGIyOFdPRUNUaVpBRGM4Z0ZXZnJ0Mk1xWkdTaHBTeTlCeFRObjBwSHlldDlmajdjUzVTUXpPbEt5QmVnYnRKaUNTUGhtdWdkUXJ5TXRYeWdiaGdDVC1jOE9sMnVhOVZR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNem8wNXdrR0lVZ1VwSnJHcjVCMGtObDNfRDZZRmdtRDZUdFVxTi0tODZ5T1phcHpKc3lvNVltc05HMVZ4ZTB2R0pKb3RTUFA2S2d1TFBzNUtxU09TREI0SGdnOFNvV2w1WkU5aGRNblR4YlhSd0pSRlJYTlRELWpnZWFNTWI2amNJRExxUVNyYU5RbFZhbDlF?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-10-21",
+      "published": "Tue, 20 Oct 2026 22:09:00 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 13,
+      "themes": [
+        "#AI",
+        "#TSLA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Deepwater's Gene Munster weighs in on a possible SpaceX and Tesla merger - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLTlVaXU3U0ozMzkyYUVzUkRTX3ByTXZDelMxUHpJQVVOZ3FwdmZEVjFaQWNPQ1dKVXVsT0JxdWZhVE5rRExZUkM3eGxSNGVQWUM3cEhwZ1BZdHZhLVZPMUY4emo3bHlHTDh2TzN2WUNoWmhCbC1OTVltbTNVbEZnUEVfeDBsRWltcHRvb3V6RmRZWUR0VkgyYncwSm53NlM4MW12WGUtSzM0YWpRQ3BuVUhOZmQ?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 9,
+  "fresh_signal_count": 10,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
