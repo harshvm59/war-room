@@ -108,8 +108,8 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "units": 7.111833,
-      "avg_cost": 392.87,
+      "units": 7.2163818,
+      "avg_cost": 394.23,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -228,8 +228,8 @@
     {
       "ticker": "BE",
       "name": "Bloom Energy Corp",
-      "units": 3.9192605,
-      "avg_cost": 234.42,
+      "units": 4.1767122,
+      "avg_cost": 232.15,
       "theme": "AI Energy",
       "priority": "P3",
       "target_value": {
@@ -243,8 +243,8 @@
     {
       "ticker": "ANET",
       "name": "Arista Networks",
-      "units": 5.0660678,
-      "avg_cost": 142.5,
+      "units": 5.3863028,
+      "avg_cost": 143.48,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -263,33 +263,33 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-10-22T15:40:38.998Z",
-    "broker_synced_at_ist": "22 Oct 2026, 9:10 pm",
+    "broker_synced_at": "2026-10-22T17:31:28.052Z",
+    "broker_synced_at_ist": "22 Oct 2026, 11:01 pm",
     "usd_inr": 94.82,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
         "name": "TSMC",
         "units": 29.5851005,
-        "current_value_usd": 12239.03
+        "current_value_usd": 12183.41
       },
       {
         "name": "Micron",
         "units": 4.6010332,
-        "current_value_usd": 4002.79
+        "current_value_usd": 3975.19
       },
       {
         "name": "SK Hynix",
         "units": 2.6366096,
-        "current_value_usd": 354.01
+        "current_value_usd": 351.98
       },
       {
         "name": "SpaceX",
         "units": 1.4292659,
-        "current_value_usd": 214.28
+        "current_value_usd": 210.44
       }
     ],
-    "usd_wallet": 298.04,
-    "broker_account_value_usd": 127124.73
+    "usd_wallet": 133.4,
+    "broker_account_value_usd": 126747.61
   }
 }
