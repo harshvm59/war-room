@@ -263,33 +263,33 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-10-21T17:33:31.150Z",
-    "broker_synced_at_ist": "21 Oct 2026, 11:03 pm",
+    "broker_synced_at": "2026-10-22T03:32:07.210Z",
+    "broker_synced_at_ist": "22 Oct 2026, 9:02 am",
     "usd_inr": 94.47,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
         "name": "TSMC",
         "units": 29.5495741,
-        "current_value_usd": 12689.15
+        "current_value_usd": 12759.46
       },
       {
         "name": "Micron",
         "units": 4.6010332,
-        "current_value_usd": 4220.65
+        "current_value_usd": 4202.94
       },
       {
         "name": "SK Hynix",
         "units": 2.6366096,
-        "current_value_usd": 376.72
+        "current_value_usd": 377.61
       },
       {
         "name": "SpaceX",
         "units": 1.4292659,
-        "current_value_usd": 228.12
+        "current_value_usd": 227.65
       }
     ],
-    "usd_wallet": 315.16,
-    "broker_account_value_usd": 131608.8
+    "usd_wallet": 314.16,
+    "broker_account_value_usd": 131499.11
   }
 }
