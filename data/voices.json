@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T14:21:26.969035+05:30",
+  "updated_at": "2026-10-22T23:38:27.472542+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -7,9 +7,9 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-10-21",
-      "published": "Wed, 21 Oct 2026 12:41:47 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-10-22",
+      "published": "Thu, 22 Oct 2026 10:01:29 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -18,11 +18,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang: 'We have to accelerate AI safety' - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang says neocloud demand is 'off the charts' but capital is scarce - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeDlucTF3Nk9CdGsxanRXRnJsdFRQcWdPRW9xWFFjd29MOG9FanF1T2ZwQ2JWQ2FWaHpaX3RwNTFCcWduYlB1WUt2ejRVVFRYTmRXTmdudlM5TjlMZmhpSkFrd2d5TDZtUE93TzNTZWJMOF9xaG9nOFl1UlFRYVcxOTVrMEdtSm9jZTc2eEpsZ0FpN3dGaS1aVERockJjRVJwMmxPM0JFaGdzaFc2VjhRQ2lPX0tYdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeFpCR0VMTzFlRUJkdkNibEY3eFhBT1lxSkVFckRzUkFsRE1lcFRHNjVqWnB6TnYzcFROUDNLUnRCOWFLM01WbEdDRV9sN1B6cDZuSXFqT3FiSEpVLWhWMzlrYTNPTFhHU054bC1oM1FKRmY3QUtEOEFmNGZCTWxlVVR1S0g2NGfSAYwBQVVfeXFMTmlvdTlxcGJUOS1aTDdYbzRvSU8wTHZZTERSTXRaZFA3VDVfSkoxN3JBRFA5aVkwSFFkS1dLZW1pdlJWRzRldy1FN1IyT0xxVW9jRTh5ZVhyaFRSYWZYNzZ5d1hicGhKVC1wWHFwdFItOHlpeGZGLTVJcXZoWHFoRUJOWjNTZXI0dGVwNWk?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,42 +30,42 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 06:03:17 GMT",
-      "source_name": "Forbes",
+      "published": "Thu, 22 Oct 2026 16:38:00 GMT",
+      "source_name": "Business Insider",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman Reportedly Laid Out Three Endgames For AI, And One Ends With Rivals’ GPUs ‘Melted’ - Forbes",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman says mathematicians have already gone from 'we're cooked' to accepting AI - Business Insider",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRnlaVjFUeW9abm9fM3Rfc0x5SDREVFFBUlZsbzdTMzl4dDBPdDVWVFdyU0RVNjlrRU1ZMGtjUGFjRlR0R21odzA2a1dSeWdVczBlMFB4QTA0RGYxUlBKdGZfNEh3R1BhWWpzXzQtWEFzSk11X3gwWVVzVXlZSkc3OXFQTzBQVTJHUEtzVzFLM0VOcDc4c0NJTzdKSDFjQ3JOMldOSl9ybHF1X044VFUxSmRpT1JROWdRMC1NeUdITHBhRkx3dWpvRjJHY1JZNkY1Q0hNbHVVZmdCTjQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQzJiYzBMVmxxN21YUzR5SXJQLWF2SzVGTWdncU0zalRsR3dwcG9aLVZpSWdpTTdneW0zbU1Kalh0bHp0dDdwbWFYb0tIMnZ5N3pCblNnMTh6Z0FsWkFiWWc0d1Y2THMyTFJOYU1VdUl5a0dmNVhqSGlZSVp3VlVHbUFReHdUWXB5ajNJVHpld3V1ZXBSM3BQTGlCMGhqNGVybWU3Nw?oc=5"
     },
     {
       "name": "Dan Ives",
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-10-21",
-      "published": "Wed, 21 Oct 2026 11:26:07 GMT",
+      "date": "2026-10-22",
+      "published": "Thu, 22 Oct 2026 15:40:51 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Calls the Selloff in NVDA Stock a Buying Opportunity as Analysts See 53% Upside - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Dan Ives Makes Major Calls on Tesla, Meta Stocks - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaUZUTjRrMXpoYXFnZlNiQlpkZEVwMllWMXB2akU5MXY1bDJES2h6SURONkZsYVdqUmxZcGNsc3BOWHBmTUJrR01IN1FPRS1QZjBIaDBaWURsTlZncy0xdFV1SzFRWUphTkRNTHRyS2ptRG5kSFNhaGVPYzFFYTVDLXVNNVcxQk5HamlkMGgyU2Q3TS11bGs0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWVdGQ0VsMlczM1hBbzBXTUZ5UGZRY3pyWFBqR2NBMGc5NG9TM1o2MnFXSFJzc21vcUxZM3diVk5PYUxQQXBtbktGNTlUbWQtbmg4eW5NVzdaTThYNi0yUFp0cERCSWpzV2c1ZnVSVThWR1c2dDVfOWVWQjNWaFo4SW9rY0JKaWlTYllTV2lGdm92UE5qTkE?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -73,8 +73,8 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 08:44:29 GMT",
-      "source_name": "Benzinga",
+      "published": "Thu, 22 Oct 2026 17:16:45 GMT",
+      "source_name": "TheStreet",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -83,11 +83,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Satya Nadella Says Microsoft Is Rebuilding Around AI Agents as Trump Pushes ‘Super Intelligence’ — From 1 - Benzinga",
+          "t": "Headline signal (not a direct quote): How much MSFT stock does Microsoft CEO Satya Nadella actually own? - TheStreet",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOX3lvYnhyNzFScVp0ZDNhd29sUUVHdTB6WjMybW0tT2lmZGwyYmktZEZCZ0xDWk9XcE1kUy12bk1ILURfZWdqeUluLXF4ZzdJMzIxV0JfcGkxN3NzdC11bmVyVklyYkVCaEkyNnJydUx6MmZkRkh5aThuMXJVVlB5bGRScHMtMmVGWVFaOEZoTkF5QXB3TjFEWXhYMmMyb2ppeUVzeXF0Q0h0dDJvQVZwNngwLXpZQm5iM1NNUVA1YzFORDZ0SXNUdWk0aER5a01NaXg3bTdLV05lamFaYjVERzI3WUNkNjMyTkVITTEydGdJTDhvTEoxMndiRExSUldFc194UkZYdmZTZ1BVT3hLSzVIQWhJd3RONGFXUGN6Z0JMS1d0UXpF?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbzhoQ3V3TFNabFBfRDZoUHRJdzB0ZjZpT0xZN2cxTG05b3Y2XzdWanY1LVJHLUU0U1h2SHdsRXptUWQwbTgtMk5uSF91Ty1aXzJ4V3VBZ2J4dl96c3RKazdHQnlqeFZ3dXUzdzBQdFJBTGdMVUF0RjdDb1ZESXNPNGprMGpTc3pJTGhnenVDU05VZjBYMGQtRXFNczh4UVFFemZoMHVpRWU?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -95,8 +95,8 @@
       "org": "AMD",
       "cat": "CEO",
       "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 00:00:37 GMT",
-      "source_name": "DQ",
+      "published": "Thu, 22 Oct 2026 09:19:47 GMT",
+      "source_name": "TechPowerUp",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -105,11 +105,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Building the next era of AI infrastructure: Dr. Lisa Su, AMD - DQ",
+          "t": "Headline signal (not a direct quote): Ryzen 5800X3D Revival was Lisa Su's Initiative, and Other Interesting Details in AMD Interview with MyNavi Tech+ - TechPowerUp",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS01KSDlrSERJTEdoVDA1cU8xQU95NVVpNmZkOUFrYzVGUHBXWTB5a0c4WUt6VEJHMmstcW1kU3Q1c0J3a1hKa18ybW9ockZlZ3RwNlgyOHhkUnRnWWk2YXh6WW94RzdGTzh4aHI4N2p4ODdpUGlZUXRtRlVWbFNjMklGNHhkaGRNRjU5dzk5OU9Ma2VxNU5FQzlJS1k2RlNraE1YUmIzMm3SAagBQVVfeXFMT0tNSkg5a0hESUxHaFQwNXFPMUFPeTVVaTZmZDlBa2M1RlBwV1kweWtHOFlLelRCRzJrLXFtZFN0NXNCd2tYSmtfMm1vaHJGZWd0cDZYMjh4ZFJ0Z1lpNmF4ellveEc3Rk84eGhyODdqeDg3aVBpWVF0bUZVVmxTYzJJRjR4ZGhkTUY1OXc5OTlPTGtlcTVORUM5SUtZNkZTa2hNWFJiMzJt?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZ0lLRk9id0ZxbGIyMDJQMGo0Q0kzMkRjUTBqUlFLWk40ejEtSDhROTFES3J3QTJGLTJtY2U5cTVOZm1pNHZkcGFOUFNBLVA2N0M2UW9XeFB2SGtHWXRfX0NsM0RMQUN1amtiUmJVckVuTHF5SVc1YjR1VWI5WEFFZFROaGkzeXlWRXhleGl5U2tsc2Nfb0NGandWbzhYQzcwb1hoQ3JUZDhuWTFudlR3TVhINU4xRW9UbzBqUW83NDIwNzVCaVdoYUxFMThnc2F3WU9PbG9jdUVSUVBy0gHiAUFVX3lxTE55T28tZFV0MnZaUXMxSmowU08tM3JyUUNNR2VtNk1GME12S3VpYnZoZXcwbmtOeGd5ZHd5dDQ0eWVLWWIyUTRZOFdBbWZ0TEgxSzZZX2QtT1BTRjB5cDFPTURQOUplbmg4VVJWX1lBekdsd2JWX2p3QmdLN2pvcmtjTGJ6X21EMEJPRVQzTTV4bzB5Q3FZczVybmRqVDhKVDFXMktGbk1kdFp4eUlTdmNZZVNacGZZSzkzbkJjUzExLTk4V3MzakMxc0lGYkVPMkJEZDRlck56NGtqbEN4Y09Jd0E?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -139,94 +139,8 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 07:00:00 GMT",
-      "source_name": "Fortune",
-      "signal_type": "source-linked headline",
-      "relevance_score": 14,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Elon Musk’s dream merger is a nightmare for SpaceX shareholders - Fortune",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNURJRmhWdmFQMXNhZEhqcklsM05rRGhIS2t2dHEyejd4RDJSTl9hd2lXMDFKTVY4VmNZNXJSZVI0NzYydklFSy0wRzVvY3F1SmZSSW9yamhjVlRrMGwxdDBEZVRjeFhsRzVsc2JfU1BKVFg4NEZzQ2pkdjBGbHRxOW9DYlRBSkdSSDF3QVVfa3A5TXc?oc=5"
-    },
-    {
-      "name": "Mark Zuckerberg",
-      "role": "CEO",
-      "org": "Meta",
-      "cat": "CEO",
-      "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 05:20:52 GMT",
-      "source_name": "Forbes",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#META"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Meta Stock Split Deal Will Keep Mark Zuckerberg In California Amid Billionaire Tax Threat - Forbes",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPa1Nscm5pMkdVNHduaE96Z09CMXlWUE9GWEx1SGJkQWtqVmRwQThpQ2RpY21fRGlXRS1MMjhhd2tmd3hjNkd5clNQUXJCa016VlhuQ0NKcGVIRzNFMnZvaXdEWnZLRVZKcUl6SHMyTnE1QW5wSWRLSE1aTF9HenF6U08xZ05xYl8wdU91X2JzY2pvQWhjWUtibm03dmZBZXlER0xVRVcxdjJQMnQ2RGhWUmgtY0VKUEJrRGhNYzE5X0FKWTJsS3kySFhXUHlpZDc1c0VSMk81blRMd1E?oc=5"
-    },
-    {
-      "name": "Sundar Pichai",
-      "role": "CEO",
-      "org": "Alphabet",
-      "cat": "CEO",
-      "date": "2026-10-22",
-      "published": "Wed, 21 Oct 2026 19:04:24 GMT",
-      "source_name": "CMSWire",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI",
-        "#GOOGL"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Sundar Pichai: Why Google Won't Settle for Good-Enough Models - CMSWire",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRUIzQTR2T1dvaHVfN1ZDajBDOHN2UGRQa2tWRUtMRTJnVlU3dU1vWDFpVFhTdGl4d0I5MkVHT0tZZEktc2JBZndRNUpvVnl2U1lRbnRUbi1xa1VSNTd2VVVBSXZIVlVMa1NsZXZueEZPLXZHQlRIa3M2XzJyQm84ODVRUHZpWjNYVC1DNWZaV25pdHNXVnZWMEZUUDZQUDE1ZV9qM0Y0bkJXbHFvdDV5N3FPM1NycmpXZjZUaHp4RERUWjRvbE11SS1GU0dEY3JVY2ZsaVNDbw?oc=5"
-    },
-    {
-      "name": "Arvind Krishna",
-      "role": "CEO",
-      "org": "IBM",
-      "cat": "CEO",
-      "date": "2026-10-21",
-      "published": "Wed, 21 Oct 2026 12:03:00 GMT",
-      "source_name": "The Economic Times",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): 'Cutting Through the Noise': IBM CEO Arvind Krishna on AI, Jobs & India’s Tech Future - The Economic Times",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZDRpSlRPT3lWNVNBT1Vqdi12NjVVNjJhdkd5SFNfRG1aQ2wzVmN4WXg1YUE3Snh2R2VOTDZPZG5sUHhLMlo3aUkwRVJRYjd3SWFmTXktbUptLXpzSGx6SC1NVmY3LUZNdWxtMVVYTGkyZE5JdUVUVkFSRmVFc2YxS2VhZjBhVmo0bFNQWG8ybHliek8xUkZCSFExMnRBLW5RcE84SnhfSW1TQ2FQZ0tSY3c0WnVpQTJnSFBuNlRHNVdqam9nX3pvbi0wdW1iNlpxdnNkY2dTVDBOVkJwS3U5dm9ZSnJrQdIB5gFBVV95cUxOZDRpSlRPT3lWNVNBT1Vqdi12NjVVNjJhdkd5SFNfRG1aQ2wzVmN4WXg1YUE3Snh2R2VOTDZPZG5sUHhLMlo3aUkwRVJRYjd3SWFmTXktbUptLXpzSGx6SC1NVmY3LUZNdWxtMVVYTGkyZE5JdUVUVkFSRmVFc2YxS2VhZjBhVmo0bFNQWG8ybHliek8xUkZCSFExMnRBLW5RcE84SnhfSW1TQ2FQZ0tSY3c0WnVpQTJnSFBuNlRHNVdqam9nX3pvbi0wdW1iNlpxdnNkY2dTVDBOVkJwS3U5dm9ZSnJrQQ?oc=5"
-    },
-    {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
-      "date": "2026-10-21",
-      "published": "Wed, 21 Oct 2026 12:06:28 GMT",
-      "source_name": "Quartz",
+      "published": "Thu, 22 Oct 2026 16:09:15 GMT",
+      "source_name": "The Korea Daily",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -235,11 +149,119 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Larry Ellison pledged Oracle, Tesla and SpaceX stock for loans before son's Warner deal closed - Quartz",
+          "t": "Headline signal (not a direct quote): Tesla SpaceX merger — Elon Musk Considers $4.63 Trillion Mega-Deal - The Korea Daily",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBObUZhQy1hel9tb3ZPRDZFeHg2U2wxOTVjeUxvQzFndFJYNHVfN2g2eE8zRHJaM1JZSjBwYlBQQ19QTVJ2ZHlWOFBVNkcxN1NDdTYwWjNKMGxYbE14VEQwSmotMFR6ZEVYaTh2eGRYWUszZWJZQ0ROcWExcnU?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VRHdoaTB2bGp6cWM2SUFlYkhybl9xX3NZcnc1Qnc1bmpQNGo3OV85OUhYREJRajAtMk1UX2VVcGg1aHFmbmQwYVQ0N0s1WEhlS0ZGc0tKU01xZw?oc=5"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "role": "CEO",
+      "org": "Meta",
+      "cat": "CEO",
+      "date": "2026-10-22",
+      "published": "Thu, 22 Oct 2026 17:49:08 GMT",
+      "source_name": "ABC7 Bay Area",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#META"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Meta offers Mark Zuckerberg incentive to stay in California after he said he would leave state if Prop 40 was passed - ABC7 Bay Area",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNc3dZeDRYOFFZQS1CMHQ3Q2gxNzFDbGdCYU15MkJBS3lWZmxqekFXcjYzMm5mQUgwM2JWLW9aUnh5UF9IODd4R3NBUk0ycVk3MzBUWjRDUGo3MzJqY0VVc0VwdzBDa09tSUxrMHA2NWI0aURmSEMyaGZCQU5wSU5OTk5SU2dKVDlvT2JsOFhUOURPcml3RHFVZjZBLUtUeVJSSkRVNUtsVnBVNzRwejFNTDRMcnduanBkaHZNN1ZkaUFZWnZoZkU5ajl6RVk3ODjSAdQBQVVfeXFMT3Nlak9SS1QtYVdYVlF4b3BoLTkxemdDR2FzenVDWFFuVTFMQ1FrMmk0X3NfM2F1MTJXVnRQY2Jsc0Q2WUo5WVFTRXVjZktiR0ZTSXFYY2V3RENOZlZVVlRlcHRjWGxGS3h4bXROd2FtWVA5dzhVc2lpczYwQ1Nvd1J6NXBwZjFmVWxzR3dNNzZycTZQang1dlduQ014bUdhMWtSV1dnZkRlZy1JSU9KNnVfUHRJS2pScC1YZmlBc2RUUTVZOW9aVWFwN0xSVzBFZkNqZ0g?oc=5"
+    },
+    {
+      "name": "Sundar Pichai",
+      "role": "CEO",
+      "org": "Alphabet",
+      "cat": "CEO",
+      "date": "2026-10-22",
+      "published": "Thu, 22 Oct 2026 09:40:21 GMT",
+      "source_name": "Benzinga",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Sundar Pichai Is Using AI Agents to Track Google 24/7: 'Made All of Us... Be Better at What We Do' - Benzinga",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZk84OGVfZFBWNDhlNi1uNW1LMkdhZFdnX25IckF1VnpueEJOTUoxcnRPRlI0ZUJsUVRUcHFKUTFmQ1lWcVpDUllkS3VLX19YZjlsaWJnVWdVZHkwNFUxVXBlWFlsanU2dDdjbGluSXhEdm5tcjBUQlpDWTZ1anN4cF9WZXhYcjNENWhULWYxdWMzLWtiQW9ua29EMFNRQ1NOT19rWllxSWFsa29ab3VqLTdraEJ0ZExOS04yMXFWc3Z3QUhET01jUS11a2R3N3RXUE5FTDhJZ2NNRnJJclE?oc=5"
+    },
+    {
+      "name": "Hock Tan",
+      "role": "CEO",
+      "org": "Broadcom",
+      "cat": "CEO",
+      "date": "2026-10-22",
+      "published": "Thu, 22 Oct 2026 11:03:33 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#AVGO"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Broadcom’s Hock Tan Says AI’s Next Bottleneck Isn’t Chips, Power, or Memory. It’s Not a Tech Problem at All. - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSGV3TkZGV29EdjBLYVFkUGxiYnRGcTNFcEVOSDdDV2xoVkxMaGp6RlpLZ1huaHMzUlJQSEd6bVRCbkhrR05RTEJ5MUlEZm9QZFRiMFp5dWJENktoMmZ3bmw5UlUyajl2c0ppWHJ1QmJfamYzMk82dmdBSmYxbjM0M1hVMGoyUzBEX2xQUlRSaDZsUlE?oc=5"
+    },
+    {
+      "name": "Arvind Krishna",
+      "role": "CEO",
+      "org": "IBM",
+      "cat": "CEO",
+      "date": "2026-10-22",
+      "published": "Thu, 22 Oct 2026 14:25:00 GMT",
+      "source_name": "CRN",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): IBM’s Enterprise AI Bet Is Paying Off, And CEO Arvind Krishna Says It’s Just Beginning - CRN",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRGNoUEJMQ2t0X0QwazhvR2huVFRsMHlPelc1SFgxekxmVFUtWmVrMnU0b2VNM0VBLVNtcEVfLWZXbTQtWGFVajNBbkRYUVUzZDIwd25uRWg0T0dPNnFucjVEQWdfTXRIMW40OFp3SjBVckRaeEVFRmtQc09aWUhWbDl0d1NqdHZEeVA2UzdBWGJzQ01VU1BieHBzREdKYVRFX0JLTHBtenhWODhnTm9mVS1aUTI?oc=5"
+    },
+    {
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
+      "cat": "CEO",
+      "date": "2026-10-22",
+      "published": "Wed, 21 Oct 2026 19:34:10 GMT",
+      "source_name": "TheStreet",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Oracle boss Larry Ellison just suffered a historic wealth collapse - TheStreet",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX2Z1ZnhXTVFUS2hTVm02UXdXQ0Ywa1dVUFpicksyY2M4Uk9xODRrcmxLRWFaMmJDdDNGcjZ6N0VMeFF5dEhkRG9DSjA2Z01aSmVQcVFZRHhHc3RjQ3Z3a0VrX1RySlR3VXh1RkxPQjh3M3E4dmNla04xM1Bza3JOazBhSFNhRmpsbzgwZFpNQk1RN2xaX0NqQTFhcmpURHBSZmwyQl9laWowQTA?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -268,22 +290,21 @@
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-10-21",
-      "published": "Wed, 21 Oct 2026 13:23:19 GMT",
+      "date": "2026-10-22",
+      "published": "Thu, 22 Oct 2026 14:22:20 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#META"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer and a Billionaire Like Meta (META) Stock Despite AI CapEx Concerns - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Should You Buy Jim Cramer and Ken Fisher’s Top AI Stock Pick Ahead of Earnings? - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYk4xdjNFSnYwblR5a1hqNG5mRE5CUDN6SG1MUUh3S0hReWprbXBZYnJtek9RQ3k3R0ZCZHh4MENsNGRpWjBmQ0hRU0UweGxJbXFiWUN4cldXZjdIcGgtbTRIQnM5QTJzNnlYbl85ZFQ2VFdFZ3lQZnlaZnUzREZROHhPMXNja3V1QW1KYkRCaFQxSUs0TjNnUGFWSE5Idw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSzVXMTV4QWdIdXNXRHBGc0M1ck8wNjZMVXotYnhpNEMtb29sVnJ0a0s0YTVTbWw4aWVfSEZUbzh4RnpTbldiZFlRenhrcjJkTTI0dGYzSlZCUGFNbks1LWZEUWdTcmlmSXdCRUJfV1l1NG9Dc2Vrdk4xb3dDWDNWUFRKX2ZoWGR6ZmNwclFzYmZSNjU0?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -332,7 +353,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 15,
+  "fresh_signal_count": 16,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
     "code": "daily_research_limit",
