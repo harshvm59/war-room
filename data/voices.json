@@ -1,7 +1,28 @@
 {
-  "updated_at": "2026-10-22T23:38:27.472542+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-10-23T02:14:41.097499+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Mark Zuckerberg",
+      "role": "CEO",
+      "org": "Meta Platforms",
+      "cat": "AI monetization and capital spending",
+      "date": "2026-10-22",
+      "published": "2026-10-22T04:43:23Z",
+      "themes": [
+        "Muse adoption",
+        "AI infrastructure investment",
+        "AI cost efficiency"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Zuckerberg said Meta is continuing to invest heavily in AI, while improving the cost efficiency of its Muse agent and expanding its user base.",
+          "k": true
+        }
+      ],
+      "src": "https://apnews.com/article/stocks-markets-rates-earnings-oil-33767691a4a0730b96d6f0c5100ea9b2",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -94,9 +115,9 @@
       "role": "CEO",
       "org": "AMD",
       "cat": "CEO",
-      "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 09:19:47 GMT",
-      "source_name": "TechPowerUp",
+      "date": "2026-10-23",
+      "published": "Thu, 22 Oct 2026 18:35:14 GMT",
+      "source_name": "cristinaiglesias.com",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -105,11 +126,32 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Ryzen 5800X3D Revival was Lisa Su's Initiative, and Other Interesting Details in AMD Interview with MyNavi Tech+ - TechPowerUp",
+          "t": "Headline signal (not a direct quote): AMD confirms the surprise re-release of the legendary Ryzen 7 5800X3D was not driven by soaring memory costs, but personally ordered by CEO Lisa Su as an unexpected farewell tribute for long-standing gaming rigs - cristinaiglesias.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZ0lLRk9id0ZxbGIyMDJQMGo0Q0kzMkRjUTBqUlFLWk40ejEtSDhROTFES3J3QTJGLTJtY2U5cTVOZm1pNHZkcGFOUFNBLVA2N0M2UW9XeFB2SGtHWXRfX0NsM0RMQUN1amtiUmJVckVuTHF5SVc1YjR1VWI5WEFFZFROaGkzeXlWRXhleGl5U2tsc2Nfb0NGandWbzhYQzcwb1hoQ3JUZDhuWTFudlR3TVhINU4xRW9UbzBqUW83NDIwNzVCaVdoYUxFMThnc2F3WU9PbG9jdUVSUVBy0gHiAUFVX3lxTE55T28tZFV0MnZaUXMxSmowU08tM3JyUUNNR2VtNk1GME12S3VpYnZoZXcwbmtOeGd5ZHd5dDQ0eWVLWWIyUTRZOFdBbWZ0TEgxSzZZX2QtT1BTRjB5cDFPTURQOUplbmg4VVJWX1lBekdsd2JWX2p3QmdLN2pvcmtjTGJ6X21EMEJPRVQzTTV4bzB5Q3FZczVybmRqVDhKVDFXMktGbk1kdFp4eUlTdmNZZVNacGZZSzkzbkJjUzExLTk4V3MzakMxc0lGYkVPMkJEZDRlck56NGtqbEN4Y09Jd0E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOSEZkU21TcUN3OGk3dlQ4d2UtRHNodl9Rdzc4VVhlblVXVUhpZEZWeHZJcXBlaWc2OTB5NjA3cGxnQmctYThxaU5UakxmSkY3bkZOeUV3b0hPWTZzUS1RM0lObDlrb1dUMURpdy0wRlphMFM3RUdiQ2hmZVMxQ2ZmeUpkd3NIblVybkUwWXFJY2VrSGVKS09xMEFpVEhUTFJOZ0VTakJzZFFwNTBpMHc3aWl1dHJLa2dQVmJDdDE0NmNJeExCSzl0czd0NEI4MFRwbG5ySEpuSDM1RExpaVlwNzNYNk5OeVRRRUdyZU9hUzNBM0g2aFY2b3Nya3hveWdHTEFZRXdiUXdlNW1JVVpTQkF3bFdNOHNZMXVsd3dTZ2lBR2gtelpBeGZPTk9hYlV1bjFVSk1ER19JekhwdVoxQWhrVW0yaFJud1FldUhJc0RScmtpd2Vz?oc=5"
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "role": "Investor",
+      "org": "Social Capital",
+      "cat": "Investor",
+      "date": "2026-10-22",
+      "published": "Thu, 22 Oct 2026 17:25:53 GMT",
+      "source_name": "OfficeChai",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): 1% Of Companies Represent 90% Of AI Spending, And 80% Of The 90% Comes From Unprofitable Companies: Chamath Palihapitiya - OfficeChai",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTGJKcmpscWpya05aWU1oQzFnMnlzX3RWMEhpMlVWMnE5MFJLQlFIR29US2I2QnpITEVpOGVJVEdiYzBuUmtyZTlrd05mUXpfYWRtOVV0YnVSdkNjSjQzY0cwVDdLOHJuODdPQUhISHdrRVZVcUtVUkVwX3NndGhjRHdodnBLR3h0YlRIUXZValdxNUQyeG5jUEl6c2N0dTI5bWhoeVNkdE8yYjRTUklicTI2bm9ZaFBRNHZoOXVJWDBlZEFza25SbHNPaGlMamRJVHBXWUVfYlM?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -156,48 +198,26 @@
       "src": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VRHdoaTB2bGp6cWM2SUFlYkhybl9xX3NZcnc1Qnc1bmpQNGo3OV85OUhYREJRajAtMk1UX2VVcGg1aHFmbmQwYVQ0N0s1WEhlS0ZGc0tKU01xZw?oc=5"
     },
     {
-      "name": "Mark Zuckerberg",
-      "role": "CEO",
-      "org": "Meta",
-      "cat": "CEO",
-      "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 17:49:08 GMT",
-      "source_name": "ABC7 Bay Area",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#META"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Meta offers Mark Zuckerberg incentive to stay in California after he said he would leave state if Prop 40 was passed - ABC7 Bay Area",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNc3dZeDRYOFFZQS1CMHQ3Q2gxNzFDbGdCYU15MkJBS3lWZmxqekFXcjYzMm5mQUgwM2JWLW9aUnh5UF9IODd4R3NBUk0ycVk3MzBUWjRDUGo3MzJqY0VVc0VwdzBDa09tSUxrMHA2NWI0aURmSEMyaGZCQU5wSU5OTk5SU2dKVDlvT2JsOFhUOURPcml3RHFVZjZBLUtUeVJSSkRVNUtsVnBVNzRwejFNTDRMcnduanBkaHZNN1ZkaUFZWnZoZkU5ajl6RVk3ODjSAdQBQVVfeXFMT3Nlak9SS1QtYVdYVlF4b3BoLTkxemdDR2FzenVDWFFuVTFMQ1FrMmk0X3NfM2F1MTJXVnRQY2Jsc0Q2WUo5WVFTRXVjZktiR0ZTSXFYY2V3RENOZlZVVlRlcHRjWGxGS3h4bXROd2FtWVA5dzhVc2lpczYwQ1Nvd1J6NXBwZjFmVWxzR3dNNzZycTZQang1dlduQ014bUdhMWtSV1dnZkRlZy1JSU9KNnVfUHRJS2pScC1YZmlBc2RUUTVZOW9aVWFwN0xSVzBFZkNqZ0g?oc=5"
-    },
-    {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 09:40:21 GMT",
-      "source_name": "Benzinga",
+      "date": "2026-10-23",
+      "published": "Thu, 22 Oct 2026 20:01:39 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
         "#AI",
-        "#BE"
+        "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai Is Using AI Agents to Track Google 24/7: 'Made All of Us... Be Better at What We Do' - Benzinga",
+          "t": "Headline signal (not a direct quote): Pichai Says Google Cloud Is Giving Up Revenue to Feed AI Research. Here’s What That Means for Alphabet Stock - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZk84OGVfZFBWNDhlNi1uNW1LMkdhZFdnX25IckF1VnpueEJOTUoxcnRPRlI0ZUJsUVRUcHFKUTFmQ1lWcVpDUllkS3VLX19YZjlsaWJnVWdVZHkwNFUxVXBlWFlsanU2dDdjbGluSXhEdm5tcjBUQlpDWTZ1anN4cF9WZXhYcjNENWhULWYxdWMzLWtiQW9ua29EMFNRQ1NOT19rWllxSWFsa29ab3VqLTdraEJ0ZExOS04yMXFWc3Z3QUhET01jUS11a2R3N3RXUE5FTDhJZ2NNRnJJclE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS3BaMXM5aS1GM01SY01JV05ZS3BnWkJPSUJEbkRtMW9Kcm10ME9NQTJKX3k1ZXpHUURQTHhlMVpXRGc5WkF4d091UjgtUEI0Y3pLZWVIenY1d1dYR1FwM295NFlTMWROcUxZdjg4UVhBR2ZtMFFGU0tpMHVHMThGNFdDWDlYME5GWHVCQzdXSG5YMjRNY2xKTnJzcEI?oc=5"
     },
     {
       "name": "Hock Tan",
@@ -222,13 +242,35 @@
       "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSGV3TkZGV29EdjBLYVFkUGxiYnRGcTNFcEVOSDdDV2xoVkxMaGp6RlpLZ1huaHMzUlJQSEd6bVRCbkhrR05RTEJ5MUlEZm9QZFRiMFp5dWJENktoMmZ3bmw5UlUyajl2c0ppWHJ1QmJfamYzMk82dmdBSmYxbjM0M1hVMGoyUzBEX2xQUlRSaDZsUlE?oc=5"
     },
     {
+      "name": "C. C. Wei",
+      "role": "CEO",
+      "org": "TSMC",
+      "cat": "CEO",
+      "date": "2026-10-23",
+      "published": "Thu, 22 Oct 2026 20:12:50 GMT",
+      "source_name": "Observer",
+      "signal_type": "source-linked headline",
+      "relevance_score": 10,
+      "themes": [
+        "#AI",
+        "#TSM"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Chipmaking Titan C.C. Wei Eyes Texas as TSMC’s A.I. Demand Surges - Observer",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNN0J3Y0ZyaWd1bzZrNDdvY2docUsyd2ZxTG9sczB6QjVIUEJqUUQxQmh5MmRUNW4wTk16a0FuMnlSbTJkX0pTaTJDVnQtTVdGT08xRGQteEdQUXV4ekdTejdTVzFRVFplMFVDSF96Z0FMMEhOVFI1Q0xB?oc=5"
+    },
+    {
       "name": "Arvind Krishna",
       "role": "CEO",
       "org": "IBM",
       "cat": "CEO",
       "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 14:25:00 GMT",
-      "source_name": "CRN",
+      "published": "Thu, 22 Oct 2026 08:50:16 GMT",
+      "source_name": "The Economic Times",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -236,32 +278,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): IBM’s Enterprise AI Bet Is Paying Off, And CEO Arvind Krishna Says It’s Just Beginning - CRN",
+          "t": "Headline signal (not a direct quote): 'Cutting Through the Noise': IBM CEO Arvind Krishna on AI, Jobs & India’s Tech Future - The Economic Times",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRGNoUEJMQ2t0X0QwazhvR2huVFRsMHlPelc1SFgxekxmVFUtWmVrMnU0b2VNM0VBLVNtcEVfLWZXbTQtWGFVajNBbkRYUVUzZDIwd25uRWg0T0dPNnFucjVEQWdfTXRIMW40OFp3SjBVckRaeEVFRmtQc09aWUhWbDl0d1NqdHZEeVA2UzdBWGJzQ01VU1BieHBzREdKYVRFX0JLTHBtenhWODhnTm9mVS1aUTI?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNS2VMWUlBa3MzQko5VkYwa0FEbEZfQ1Q1NExDT3lZSmppSG51MzVXTC0ybjZRMXpqbjlzbWJvSXJ2OHZyRFV2ZzJjWGtyRXVBOGdiRWh2SFJTVWcyMjA2WTdLcDUzdnR1em5IZ1VKM0N1bHhBbXFsRXk4aFRwSUxmSWlpQXBBZVA3MFlZNlVXVjNjVFV5NU9fN2xRdGJhT0xlU291TmYyV3pJRkdFdG54cmFpWlM1SzV6ZDZDNG1KNXZIME1fVWVNTmVmRFJFTzJCVUVzZ1VILXBCUdIB3wFBVV95cUxNeVhIZjc0bTBiOFh1Wmp0LXI5V1ZmS05YNDh1X0xVVDZ6T0xTSnZ4VTVDLVZuOFhIQ01YaC11WEhIbnNTM2dqalFlOW9BSXUyQWxUNTNyeHZReURNeFF4Vmt0djJ6dVhzT0NyNjN0SlBVdXBqX1dJanBtNDBxeTRIOVZBV0RmSnlhb0hQemU4cVpYQW9qWWNGOVQ0b2MteGlEcXlSeVBiaHE0WjI5TnVjMlJYV1pxOVFwS2ZheUdETnJoQ09BTXZSaFBvNzFySXJ6d0ZfcFRlZDJ3ZDI3TVB3?oc=5"
     },
     {
       "name": "Larry Ellison",
       "role": "Chairman and CTO",
       "org": "Oracle",
       "cat": "CEO",
-      "date": "2026-10-22",
-      "published": "Wed, 21 Oct 2026 19:34:10 GMT",
-      "source_name": "TheStreet",
+      "date": "2026-10-23",
+      "published": "Thu, 22 Oct 2026 19:28:46 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 12,
       "themes": [
-        "#AI"
+        "#AI",
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Oracle boss Larry Ellison just suffered a historic wealth collapse - TheStreet",
+          "t": "Headline signal (not a direct quote): Ellison Pledged Oracle and Tesla Stock Before Son’s Warner Deal - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX2Z1ZnhXTVFUS2hTVm02UXdXQ0Ywa1dVUFpicksyY2M4Uk9xODRrcmxLRWFaMmJDdDNGcjZ6N0VMeFF5dEhkRG9DSjA2Z01aSmVQcVFZRHhHc3RjQ3Z3a0VrX1RySlR3VXh1RkxPQjh3M3E4dmNla04xM1Bza3JOazBhSFNhRmpsbzgwZFpNQk1RN2xaX0NqQTFhcmpURHBSZmwyQl9laWowQTA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ25oc2V3d1JDZkNpNU95ZGszdUpTcHVWUUtJeHg0ZEVrYkRxRkFUQUIxUlVZRDZjRmVJN2Q4eVZsa3RPRzZEZ1VCLWVTaTRWWW9pc2Z3cWRRUWdzNUtIWmxuWXRnVGdwZEtnX0xGaWozUHlyMlZidnNEbW5JVWlXTmZoX0RBMnZHYWxCYnBkOEtYTnh2LTdDUEJGX3J0QjRH?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -269,21 +312,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-10-22",
-      "published": "Wed, 21 Oct 2026 23:50:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Thu, 22 Oct 2026 02:27:44 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#GOOGL"
+        "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Trimmed Ark's Alphabet Stake Even as Google Search Revenue Grew, While Ark Piled Into Rocket Lab Even After Its Neutron Launch Delay. Is Ark Betting Against the Wrong AI Winner? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood Adds Netflix After Earnings Selloff, Ark Keeps Selling Palantir Stock - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNE5ibG1RUGZWOVJfeVhQcXR6SmhVb2pHN2hYQkRKOFA2RWI4RmdXa21UYjdMbjlaWUdNYWc3bHJ1RWFUejh5M3lPa01ydnpOek1oWUpGU0N1UlRiX1U2TDZOTnpYTmRybFdLd3hsamNOdjdwY2E5VC0zQzJCd0k1a1ZkRGdwMUVSVENwTGFtcVRKT1lLS1JFVGRYSF8xQnM?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYXg3WkhNQXI3T290cGlldUtINnJUcmYzVXp2TzFmSWtYLVFnQWhmdGZBbDlQUmRaRTN4enNrZ0NTZkFySjVyN3Zydm9xeXhKRzR6UUJhb2h5Z0QtZERYd0NQU2szbVVyUjFsVnRUVzR3aC1fRmI1OTBUYkVVVFdSWTM0LU5sRkZaSGt6TUpKNS03SFBtZ3E0N0tpSE5Xb2g3YTNIbTNGakZkZzhUREI2MERaVFY0NVpfZTRiaUhZSDRmc2N0NU04a1U2OWdpM0hxMHUtM0U4ZTd0Zk9lRVNCZw?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -353,10 +396,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 16,
+  "fresh_signal_count": 18,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
