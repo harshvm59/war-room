@@ -1,70 +1,50 @@
 {
-  "updated_at": "2026-10-23T02:14:41.097499+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-23T14:16:31.258891+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Mark Zuckerberg",
-      "role": "CEO",
-      "org": "Meta Platforms",
-      "cat": "AI monetization and capital spending",
-      "date": "2026-10-22",
-      "published": "2026-10-22T04:43:23Z",
-      "themes": [
-        "Muse adoption",
-        "AI infrastructure investment",
-        "AI cost efficiency"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Zuckerberg said Meta is continuing to invest heavily in AI, while improving the cost efficiency of its Muse agent and expanding its user base.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/stocks-markets-rates-earnings-oil-33767691a4a0730b96d6f0c5100ea9b2",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 10:01:29 GMT",
+      "published": "Thu, 22 Oct 2026 13:12:38 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang says neocloud demand is 'off the charts' but capital is scarce - CNBC",
+          "t": "Headline signal (not a direct quote): Nvidia's Jensen Huang says he sees no sign of a 2029 memory glut: 'You can always use more' - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeFpCR0VMTzFlRUJkdkNibEY3eFhBT1lxSkVFckRzUkFsRE1lcFRHNjVqWnB6TnYzcFROUDNLUnRCOWFLM01WbEdDRV9sN1B6cDZuSXFqT3FiSEpVLWhWMzlrYTNPTFhHU054bC1oM1FKRmY3QUtEOEFmNGZCTWxlVVR1S0g2NGfSAYwBQVVfeXFMTmlvdTlxcGJUOS1aTDdYbzRvSU8wTHZZTERSTXRaZFA3VDVfSkoxN3JBRFA5aVkwSFFkS1dLZW1pdlJWRzRldy1FN1IyT0xxVW9jRTh5ZVhyaFRSYWZYNzZ5d1hicGhKVC1wWHFwdFItOHlpeGZGLTVJcXZoWHFoRUJOWjNTZXI0dGVwNWk?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPT2F6ekhMbjE1SFdLRUhlWE5xVnlBVE80VmVCaldMMXhhQzB3dGxuTDdGbXNhakQ3cUhCWFpidWdkdUFxcDE2WDlwVlFlWFpOOUY1Vk5OMDdFRGdNbTM4NkhSRm93bE9rQW1RVEQzSXB6LVRMM0QtdmJxWDhxVFVqV0Zkay1EMFXSAYwBQVVfeXFMT2ZPbWM0aDdnNUxPTFRhSGxBTkFCQlI1c3R2MGtlQWdCdWRvTEZ4amw3MW40NTVIQU5JRVRGSDlsbTRTaW1wc1dZQWgwLUl4MVd4THZxTVk5Z1Zzd1lhbFFtSjYzbXF6RzEyTkxVRV9mTzQ4LUlsbDJnQ0E5dFJHMW1mNVZWc1VMeWJTT1Y?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 16:38:00 GMT",
-      "source_name": "Business Insider",
+      "date": "2026-10-23",
+      "published": "Fri, 23 Oct 2026 08:14:13 GMT",
+      "source_name": "eu.36kr.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
-        "#AI"
+        "#AI",
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman says mathematicians have already gone from 'we're cooked' to accepting AI - Business Insider",
+          "t": "Headline signal (not a direct quote): Sam Altman: OpenAI’s Internal Capabilities Unattainable for Current Public AI Models – Programmers Won’t Be Eliminated by AI and May Even Earn More Than Before - eu.36kr.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQzJiYzBMVmxxN21YUzR5SXJQLWF2SzVGTWdncU0zalRsR3dwcG9aLVZpSWdpTTdneW0zbU1Kalh0bHp0dDdwbWFYb0tIMnZ5N3pCblNnMTh6Z0FsWkFiWWc0d1Y2THMyTFJOYU1VdUl5a0dmNVhqSGlZSVp3VlVHbUFReHdUWXB5ajNJVHpld3V1ZXBSM3BQTGlCMGhqNGVybWU3Nw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82eXk2Y1ZnV1FVY0tUS1FSU2txcndYRTZSa3lFd3R0UWRsU2xJM2htWE5CbGl0ZUk2QktscUt0bVpQWkRBS0RNOVpVZDV4bFZ2eGFj?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -94,21 +74,21 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 17:16:45 GMT",
-      "source_name": "TheStreet",
+      "published": "Thu, 22 Oct 2026 17:07:02 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): How much MSFT stock does Microsoft CEO Satya Nadella actually own? - TheStreet",
+          "t": "Headline signal (not a direct quote): How much MSFT stock does Microsoft CEO Satya Nadella actually own? - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbzhoQ3V3TFNabFBfRDZoUHRJdzB0ZjZpT0xZN2cxTG05b3Y2XzdWanY1LVJHLUU0U1h2SHdsRXptUWQwbTgtMk5uSF91Ty1aXzJ4V3VBZ2J4dl96c3RKazdHQnlqeFZ3dXUzdzBQdFJBTGdMVUF0RjdDb1ZESXNPNGprMGpTc3pJTGhnenVDU05VZjBYMGQtRXFNczh4UVFFemZoMHVpRWU?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYWNkVXNVNFRfaXJHQUFEbWpsTjRLLWR2SkJxc1ZyZTJ5RVkxS2Y0SDl0aWNrbEZCTkJTYXN3VW5tYm01WU0tSkhjRTNpamRLRFV5dUF6N1NXVmJTU2hmbkExdGx1MVdreG84M18zMGR4VnZtcUVKZkZhaGJWT3djWVhiSERhSHlEYUgyUVotcE5fanRFb1lOQ1RUTQ?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -154,35 +134,13 @@
       "src": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTGJKcmpscWpya05aWU1oQzFnMnlzX3RWMEhpMlVWMnE5MFJLQlFIR29US2I2QnpITEVpOGVJVEdiYzBuUmtyZTlrd05mUXpfYWRtOVV0YnVSdkNjSjQzY0cwVDdLOHJuODdPQUhISHdrRVZVcUtVUkVwX3NndGhjRHdodnBLR3h0YlRIUXZValdxNUQyeG5jUEl6c2N0dTI5bWhoeVNkdE8yYjRTUklicTI2bm9ZaFBRNHZoOXVJWDBlZEFza25SbHNPaGlMamRJVHBXWUVfYlM?oc=5"
     },
     {
-      "name": "Alex Karp",
-      "role": "CEO",
-      "org": "Palantir",
-      "cat": "CEO",
-      "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 00:15:21 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#PLTR"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Galaxy's Novogratz Says Palantir CEO Alex Karp Exposed AI's ‘Human Commoditization’ Problem - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZGQzQUNManptaXBHdDZrZnoyN3FOZDZ4eHV1T0ZXUUp2Y2syYzhRSEhTWUk3SUFXQ2dCb2cyOVZxSWlPVUNKUndiOE44a2FiZmMtVWx5dkNfb2tHXzlINUkwM3dKakFSYk8ydmxWZU80UzdJV3pHSWFyWnVidG9UMFpGdVBtTUdUMWdZamtqR3Y2ME1UdHRsU0dhb0ZtRXU1ZUtTSw?oc=5"
-    },
-    {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 16:09:15 GMT",
-      "source_name": "The Korea Daily",
+      "published": "Thu, 22 Oct 2026 16:56:55 GMT",
+      "source_name": "Investopedia",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -191,11 +149,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Tesla SpaceX merger — Elon Musk Considers $4.63 Trillion Mega-Deal - The Korea Daily",
+          "t": "Headline signal (not a direct quote): Elon Musk Hints at Exciting New Capabilities for Tesla’s Optimus Robots - Investopedia",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VRHdoaTB2bGp6cWM2SUFlYkhybl9xX3NZcnc1Qnc1bmpQNGo3OV85OUhYREJRajAtMk1UX2VVcGg1aHFmbmQwYVQ0N0s1WEhlS0ZGc0tKU01xZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZE1LOWU4cjFfcFZnMGhzbXdselAySTdKVjZXcGQ3VjZGNkFKTWZYaEhLelp4dDZoOUlNaXZJeG5BUlFoLS0yUGtSWjR5Y1BGS3ZDaFU3NlUxVDFTUmpkZXRqV0YwMVVEeGd2TUJMSWRQcTkwVFBIWkxac01CajQxQTdXbk1fWU5LTE5sZjhKdHZ3TGM3Ym5JMThmM004ZHdET3NlcXB2MnVGbjljWHRz?oc=5"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "role": "CEO",
+      "org": "Meta",
+      "cat": "CEO",
+      "date": "2026-10-23",
+      "published": "Thu, 22 Oct 2026 18:32:00 GMT",
+      "source_name": "Fortune",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#META"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg said demand for Meta’s Muse was so high, he had to get Stripe to raise credit limits - Fortune",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeERid0lvNXVqb0l6VkVMM1BsQ2lRcHU4bkJONmpfYzloNTZVWkktTEZOU0txX1NKLUhEVkZaX0N2UnIzU1c2SUtHZFRDeWdDY05NU1dEWlg4Qkt1V2hCNDU5WGprTHBldHRPWERiOEFnNmR3Ykt6M0xCMWNrQ2ZFYzB4UXE5SmlkT3ZJNmZTRQ?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -203,8 +183,8 @@
       "org": "Alphabet",
       "cat": "CEO",
       "date": "2026-10-23",
-      "published": "Thu, 22 Oct 2026 20:01:39 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Fri, 23 Oct 2026 07:45:00 GMT",
+      "source_name": "Business Insider",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -213,11 +193,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Pichai Says Google Cloud Is Giving Up Revenue to Feed AI Research. Here’s What That Means for Alphabet Stock - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Sundar Pichai says Google is far from the ‘end state’ of self-improving AI - Business Insider",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS3BaMXM5aS1GM01SY01JV05ZS3BnWkJPSUJEbkRtMW9Kcm10ME9NQTJKX3k1ZXpHUURQTHhlMVpXRGc5WkF4d091UjgtUEI0Y3pLZWVIenY1d1dYR1FwM295NFlTMWROcUxZdjg4UVhBR2ZtMFFGU0tpMHVHMThGNFdDWDlYME5GWHVCQzdXSG5YMjRNY2xKTnJzcEI?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSnVVbTZOTGdydS1hR0g0Qm5ocGhzckdRRmtHczB3aXg5eFctekFMZk8zSUtkSnhIZy0yWWVlRVNXZ3VxQ2J2ZnAwaHVLLXdPbkZrOTJlRzdicUVkS0ZVOHc1U0wxbFRsS2VEd1VGN201VVRUZkM0OVNsVG5hWC1oREtsVGNpcDZlTlg4NFVUYUJaR0dsLXFhdTNB?oc=5"
     },
     {
       "name": "Hock Tan",
@@ -269,8 +249,8 @@
       "org": "IBM",
       "cat": "CEO",
       "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 08:50:16 GMT",
-      "source_name": "The Economic Times",
+      "published": "Thu, 22 Oct 2026 14:25:00 GMT",
+      "source_name": "CRN",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -278,11 +258,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): 'Cutting Through the Noise': IBM CEO Arvind Krishna on AI, Jobs & India’s Tech Future - The Economic Times",
+          "t": "Headline signal (not a direct quote): IBM’s Enterprise AI Bet Is Paying Off, And CEO Arvind Krishna Says It’s Just Beginning - CRN",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNS2VMWUlBa3MzQko5VkYwa0FEbEZfQ1Q1NExDT3lZSmppSG51MzVXTC0ybjZRMXpqbjlzbWJvSXJ2OHZyRFV2ZzJjWGtyRXVBOGdiRWh2SFJTVWcyMjA2WTdLcDUzdnR1em5IZ1VKM0N1bHhBbXFsRXk4aFRwSUxmSWlpQXBBZVA3MFlZNlVXVjNjVFV5NU9fN2xRdGJhT0xlU291TmYyV3pJRkdFdG54cmFpWlM1SzV6ZDZDNG1KNXZIME1fVWVNTmVmRFJFTzJCVUVzZ1VILXBCUdIB3wFBVV95cUxNeVhIZjc0bTBiOFh1Wmp0LXI5V1ZmS05YNDh1X0xVVDZ6T0xTSnZ4VTVDLVZuOFhIQ01YaC11WEhIbnNTM2dqalFlOW9BSXUyQWxUNTNyeHZReURNeFF4Vmt0djJ6dVhzT0NyNjN0SlBVdXBqX1dJanBtNDBxeTRIOVZBV0RmSnlhb0hQemU4cVpYQW9qWWNGOVQ0b2MteGlEcXlSeVBiaHE0WjI5TnVjMlJYV1pxOVFwS2ZheUdETnJoQ09BTXZSaFBvNzFySXJ6d0ZfcFRlZDJ3ZDI3TVB3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRGNoUEJMQ2t0X0QwazhvR2huVFRsMHlPelc1SFgxekxmVFUtWmVrMnU0b2VNM0VBLVNtcEVfLWZXbTQtWGFVajNBbkRYUVUzZDIwd25uRWg0T0dPNnFucjVEQWdfTXRIMW40OFp3SjBVckRaeEVFRmtQc09aWUhWbDl0d1NqdHZEeVA2UzdBWGJzQ01VU1BieHBzREdKYVRFX0JLTHBtenhWODhnTm9mVS1aUTI?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -311,22 +291,21 @@
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 02:27:44 GMT",
-      "source_name": "Benzinga",
+      "date": "2026-10-23",
+      "published": "Thu, 22 Oct 2026 21:46:14 GMT",
+      "source_name": "cristinaiglesias.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#PLTR"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Adds Netflix After Earnings Selloff, Ark Keeps Selling Palantir Stock - Benzinga",
+          "t": "Headline signal (not a direct quote): Cathie Wood Drops Surging Tech Giants to Fund Aggressive Bets on Beaten-Down Innovators: Inside Ark Invest’s Multi-Million Dollar Reallocation - cristinaiglesias.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYXg3WkhNQXI3T290cGlldUtINnJUcmYzVXp2TzFmSWtYLVFnQWhmdGZBbDlQUmRaRTN4enNrZ0NTZkFySjVyN3Zydm9xeXhKRzR6UUJhb2h5Z0QtZERYd0NQU2szbVVyUjFsVnRUVzR3aC1fRmI1OTBUYkVVVFdSWTM0LU5sRkZaSGt6TUpKNS03SFBtZ3E0N0tpSE5Xb2g3YTNIbTNGakZkZzhUREI2MERaVFY0NVpfZTRiaUhZSDRmc2N0NU04a1U2OWdpM0hxMHUtM0U4ZTd0Zk9lRVNCZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPRnBWRTBGdjVkdlRhRTdPbnMtQnF6bVA1YTQxVWdHZG9JamtQX0pxX09QdjFwb05TS1JWX2xuc3JMdTBoaVpFV2F6QkFhLUpoaEdoLTdJcFlCTktqV1dVVG51YnktejNxbmgwN3N0cUl0UnAwQ1QtNUdfVzdoWUlpdzRhZWhqbjQtY0ltZEVyMTF6YThUN3F1Ymo2WUM2UFg0RE1SaVZZWGRXTnQxS001cVdxc3ZGcWFpemhTa1pTRVNsZFhCX28zVTFtRGxObVlvb1ZEZkNaRXdnWjdWVVM2RHVBbXN2SjVFTWJzMm56bWIyQ0RxUmtXNWZ5Q2ZSWHJjS3ZCTjhDREIxQQ?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -354,49 +333,29 @@
       "role": "Managing Partner",
       "org": "Deepwater Asset Management",
       "cat": "Investor",
-      "date": "2026-10-22",
-      "published": "Wed, 21 Oct 2026 22:06:00 GMT",
+      "date": "2026-10-23",
+      "published": "Thu, 22 Oct 2026 20:46:00 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 14,
       "themes": [
-        "#AI",
-        "#TSLA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Tesla's FSD growth is the real earnings story, says Deepwater's Gene Munster - CNBC",
+          "t": "Headline signal (not a direct quote): Deepwater's Gene Munster: AI selloff is a buying opportunity - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnpudTNMa2tsM2tzanBUcDEwemdleEI2dEJiRGhMTVZ1bE8wbXZXejdPaC1SdEJuRFNVSGJoRERoRUpYdGs0cHBHdWRLa01hMUhlRWw5NWk1czE4WW5FR2xfZkVZSFVOMUNfZXNFLUgtNkY2Xy1GOFJseGZFMUNiS0padHRIZkJYcUFxSGliOEh1QkVCMkVPUm1Hd2lzX0VmSkNZUF9LRjJkbGlLc1N1SzFVNjNaTTA?oc=5"
-    },
-    {
-      "name": "Morris Chang",
-      "role": "Founder",
-      "org": "TSMC",
-      "cat": "Investor",
-      "date": "2026-10-22",
-      "published": "Thu, 22 Oct 2026 08:31:01 GMT",
-      "source_name": "Hindustan Times",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Nvidia's Jensen Huang used Yellow Pages and a letter to reach TSMC founder Morris Chang | Trending - Hindustan Times",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNa3lob1FyNUdhVHEyUExmeVVsZWRNUmd3UjBBeE1nRE9MZDNfRmpSdDA5dkxaNE9kcWZsN01zRlRrZXdlOFBERVM5YWlvVEp0WFctRjBia0Z3YmxKUW9SZFJ2clpaOGxYa2xhUTdVazFQUzdTZTZPelhPT2tmdEttcDNxMzNPdk5zUk9FS0tPY0NZb3hWZ3cxZ3I1cDBCU19adHdoWFp5MUVRbTFrUW90SUNUcmlGa0YwcjdzdUFDWGhMRG9hMy0tVS0wZU5oU2l2OHo2U1BrUy1hcVp4SUtYa9IB5gFBVV95cUxOSXVHLWpXajJpUUdNem1OTEMtM1JPT3VDdWxQay1hUEY4RzdDa3ZSSE94UFVVVlpyU251ZFh0YVdWZHIxMGZBTDVaWVlkcTlvUi0waFFoRnN1R0djSjBvMW0yRmZYZTVnMkZnelFmcEE1ZFBwSWx1ZVlfSVJfTHExcXNraU44ZGhQb0NBNXdZRjFfQk1pOGFUY0FBdkYyNzRNZHB3MXZ3Yjh4MGpoQVBIYzZldFAzdU9ubVJ3b2doalBQTHV4WWNUUmdfQ0pPYWNQSkp6UXNOMldOOHI5cVllSTF4a2JpZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVG1fdDBGTXkydGNfZU5NUzB2ajVSQzhpNEJHenpISHQyZ29zTHJfbkJ6eGkyb1EzNTNLMWZrS1hyZWhuVjBKY2o4LUY4OTd0bFpTQUZjbzF4Rl9jRkVIQXZ2d2JTYW5PazZZVVZYcVZyLTFzdFpPOHJKS0E2R3U1eXFIWHN1MWZTRFZ0ZUNYaEhFMWxtM3hnRjJCU1FvT0VuQjM0?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 18,
+  "fresh_signal_count": 16,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
