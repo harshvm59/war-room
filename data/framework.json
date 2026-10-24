@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T06:16:56.740366+05:30",
+  "updated_at": "2026-10-24T06:22:54.589913+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -11,10 +11,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.htm",
-          "title": "NVIDIA Corp. Form 10-Q filing",
-          "published": "2026-08-27",
-          "reporting_period": "Fiscal quarter ended 2026-07-26"
+          "url": "https://investor.nvidia.com/financial-info/financial-reports/default.aspx?lang=ruru",
+          "title": "NVIDIA Financial Reports — Second Quarter Fiscal 2027 Results",
+          "published": null,
+          "reporting_period": "quarter ended July 26, 2026"
         }
       ],
       "questions": {
@@ -78,10 +78,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/0001046179-26-000726-index.htm",
-          "title": "Taiwan Semiconductor Manufacturing Co. Ltd. Form 6-K",
-          "published": "2026-10-15",
-          "reporting_period": "Quarter ended 2026-09-30"
+          "url": "https://investor.tsmc.com/japanese/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf",
+          "title": "TSMC Q3 2026 Earnings Call Transcript",
+          "published": null,
+          "reporting_period": "third quarter 2026"
         }
       ],
       "questions": {
@@ -145,10 +145,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
-          "title": "Tesla Inc. Form 10-Q",
-          "published": "2026-07-23",
-          "reporting_period": "Quarter ended 2026-06-30"
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf",
+          "title": "Tesla Q3 2026 Results Filing",
+          "published": "2026-10-21",
+          "reporting_period": "quarter ended September 30, 2026"
         }
       ],
       "questions": {
@@ -212,10 +212,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/0001628280-26-050705-index.htm",
-          "title": "Meta Platforms Inc. Form 10-Q",
-          "published": "2026-07-29",
-          "reporting_period": "Quarter ended 2026-06-30"
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/",
+          "title": "Meta Reports Third Quarter 2026 Results",
+          "published": "2026-10-21",
+          "reporting_period": "quarter ended September 30, 2026"
         }
       ],
       "questions": {
@@ -517,7 +517,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+          "title": "AMD Reports Second Quarter 2026 Financial Results",
+          "published": "2026-08-04",
+          "reporting_period": "quarter ended June 27, 2026"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
