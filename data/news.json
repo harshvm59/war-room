@@ -1,15 +1,42 @@
 {
-  "updated_at": "2026-10-26T14:46:49.147136+05:30",
+  "updated_at": "2026-10-27T01:01:20.501717+05:30",
   "source": "openai+web_search",
   "items": [
     {
-      "ticker": "GOOGL,MSFT,AMZN",
-      "headline": "Asian shares are mixed ahead of Big Tech earnings, while oil prices fall back",
+      "ticker": "META",
+      "headline": "Meta outlines plans to raise $35 billion through stock sales to fund AI investments",
       "date": "2026-10-26",
       "published": "2026-10-26T02:44:02Z",
-      "summary": "Investors are preparing for earnings from Alphabet, Microsoft and Amazon, with AI-related companies under pressure as markets question whether elevated AI valuations and borrowing-funded investment will generate sufficient returns. The report said Micron, Intel, Microsoft and AMD had recently rallied, while chip and technology shares faced renewed selling pressure in Asia.",
-      "tag": "AI-capex scrutiny",
+      "summary": "Meta’s proposed financing includes a potential additional $60 billion share issuance, while Nvidia, AMD and Broadcom have indicated possible participation totaling $5 billion. The development highlights both demand for AI infrastructure and investor concerns about circular financing.",
+      "tag": "AI capex financing",
       "url": "https://apnews.com/article/stocks-markets-oil-earnings-trump-be3a56f58a77c5be863f0289d280be92"
+    },
+    {
+      "ticker": "ANT",
+      "headline": "Anthropic files for potentially record-setting IPO",
+      "date": "2026-10-26",
+      "published": "2026-10-26T13:05:25Z",
+      "summary": "Anthropic filed to list on Nasdaq under the proposed ticker ANT. The company reported rapid revenue growth but remained unprofitable, with substantial expected infrastructure requirements and continued losses disclosed in its filing.",
+      "tag": "AI IPO",
+      "url": "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Nvidia helps lift U.S. stocks as AI shares remain volatile",
+      "date": "2026-10-26",
+      "published": "2026-10-26T02:44:02Z",
+      "summary": "Nvidia rose 2.5% during Monday trading, helping the Nasdaq and S&P 500 recover from prior losses. The broader AI complex remained unsettled because of concerns about the cost of borrowing to build data centers and buy chips.",
+      "tag": "AI semiconductor volatility",
+      "url": "https://apnews.com/article/stocks-markets-oil-earnings-trump-be3a56f58a77c5be863f0289d280be92"
+    },
+    {
+      "ticker": "SPX",
+      "headline": "Investors reduce risk exposure amid AI-trade turbulence",
+      "date": "2026-10-26",
+      "published": "2026-10-26T11:20:11Z",
+      "summary": "Axios reported that investors sought safety in stocks and bonds amid market volatility. The equal-weighted S&P 500 outperformed the cap-weighted index as large technology companies weakened, underscoring concentration risk for portfolios heavily exposed to mega-cap AI names.",
+      "tag": "portfolio risk",
+      "url": "https://www.axios.com/2026/10/26/ai-stocks-meta-treasury"
     }
   ],
   "provider_error": null,
