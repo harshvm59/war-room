@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T05:55:29.535684+05:30",
+  "updated_at": "2026-10-26T06:01:22.011070+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -7,70 +7,66 @@
       "company": "Nvidia Corporation",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 0,
+      "score": 4,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.nvidia.com/financial-info/financial-reports/default.aspx?lang=ruru",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
           "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
           "published": "2026-08-26",
-          "reporting_period": "Fiscal Q2 2027 ended 2026-07-26"
-        },
-        {
-          "url": "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
-          "title": "NVIDIA Corporation Fiscal Q2 2027 Form 10-Q",
-          "published": "2026-08-27",
-          "reporting_period": "Six months ended 2026-07-26"
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "CAUTION",
-          "note": "Revenue growth is reported for fiscal Q2 2027, but a complete trajectory review was not established.",
+          "verdict": "PASS",
+          "note": "Revenue was $96.2 billion, up 106% year over year, and data-center revenue was $89.0 billion, up 117%.",
           "evidence_status": "supported",
           "source_urls": [
-            "https://investor.nvidia.com/financial-info/financial-reports/default.aspx?lang=ruru"
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
           ],
-          "reporting_period": "Fiscal Q2 2027 ended 2026-07-26"
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         },
         "moat": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "The disclosure identifies continued demand for NVIDIA AI infrastructure, but does not quantify competitive share.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
+          ],
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         },
         "management": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "NVIDIA reported approximately $26.0 billion returned through repurchases and dividends and $99.0 billion remaining authorization.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
+          ],
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         },
         "margins": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "GAAP gross margin was 75.0%, compared with 72.4% in the prior-year quarter.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
+          ],
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         },
         "cash": {
           "verdict": "CAUTION",
-          "note": "The filing provides balance-sheet and liquidity information, but a complete cash-flow assessment was not established.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
-          ],
-          "reporting_period": "Six months ended 2026-07-26"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "The filing identifies legal and regulatory risks, but downside severity was not fully assessed.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf"
-          ],
-          "reporting_period": "Six months ended 2026-07-26"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
           "verdict": "CAUTION",
@@ -86,37 +82,25 @@
       "company": "Taiwan Semiconductor",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 0,
+      "score": 1,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.tsmc.com/english/financial-calendar",
-          "title": "TSMC Financial Calendar",
-          "published": null,
-          "reporting_period": "2026 fiscal calendar"
-        },
-        {
-          "url": "https://investor.tsmc.com/schinese/encrypt/files/encrypt_file/qr/phase4_reports/2026-04/9f060092ba29ff3630cfdaefd67774026195e135/1Q26ManagementReport.pdf",
-          "title": "TSMC 1Q26 Quarterly Management Report",
-          "published": "2026-04-16",
-          "reporting_period": "Q1 2026 ended 2026-03-31"
-        },
-        {
-          "url": "https://investor.tsmc.com/english/monthly-revenue/2026",
-          "title": "TSMC 2026 Monthly Revenue",
-          "published": null,
-          "reporting_period": "2026 monthly revenue through the latest posted month"
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
+          "title": "TSMC 3Q26 Earnings Release",
+          "published": "2026-10-15",
+          "reporting_period": "Q3 2026 ended 2026-09-30"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "CAUTION",
-          "note": "Quarterly and monthly revenue disclosures exist, but the complete trajectory was not reconciled.",
+          "verdict": "PASS",
+          "note": "Q3 2026 revenue was NT$1,494.24 billion and increased 17.6% from Q2 2026.",
           "evidence_status": "supported",
           "source_urls": [
-            "https://investor.tsmc.com/english/monthly-revenue/2026"
+            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf"
           ],
-          "reporting_period": "2026 monthly revenue through the latest posted month"
+          "reporting_period": "Q3 2026 ended 2026-09-30"
         },
         "moat": {
           "verdict": "CAUTION",
@@ -171,14 +155,8 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://ir.tesla.com/",
-          "title": "Tesla Investor Relations Quarterly Disclosure",
-          "published": "2026-10-21",
-          "reporting_period": "Q3 2026 ended 2026-09-30"
-        },
-        {
-          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf",
-          "title": "Tesla Q3 2026 Results SEC Filing",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-third-quarter-2026-financial-results",
+          "title": "Tesla Releases Third Quarter 2026 Financial Results",
           "published": "2026-10-21",
           "reporting_period": "Q3 2026 ended 2026-09-30"
         }
@@ -186,12 +164,10 @@
       "questions": {
         "growing": {
           "verdict": "CAUTION",
-          "note": "Q3 2026 results were disclosed, but the revenue trajectory was not reconciled.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://ir.tesla.com/"
-          ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
@@ -246,21 +222,21 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
-          "title": "Meta Reports Third Quarter 2026 Results",
-          "published": "2026-10-21",
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+          "title": "Meta Reports Second Quarter 2026 Results",
+          "published": "2026-07-29",
+          "reporting_period": "Q2 2026 ended 2026-06-30"
         }
       ],
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Q3 2026 revenue was reported at $64.601 billion, up 26% year over year.",
+          "note": "Revenue was $60.801 billion, up 28% from Q2 2025.",
           "evidence_status": "supported",
           "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx"
           ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "reporting_period": "Q2 2026 ended 2026-06-30"
         },
         "moat": {
           "verdict": "CAUTION",
@@ -277,31 +253,27 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "CAUTION",
-          "note": "Q3 operating income declined year over year despite revenue growth; a complete trend review is missing.",
+          "verdict": "FAIL",
+          "note": "Operating margin was 31%, down from 43% in the prior-year quarter.",
           "evidence_status": "supported",
           "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx"
           ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "reporting_period": "Q2 2026 ended 2026-06-30"
         },
         "cash": {
           "verdict": "CAUTION",
-          "note": "Q3 operating cash flow was $32.79 billion and free cash flow was negative $2.12 billion.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
-          ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Legal, regulatory, privacy, competition, and AI-investment risks were disclosed, but downside severity was not fully assessed.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
-          ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
           "verdict": "CAUTION",
@@ -377,16 +349,25 @@
       "company": "Amazon Inc",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 0,
+      "score": 2,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+          "title": "Amazon.com Announces Second Quarter Results",
+          "published": "2026-07-30",
+          "reporting_period": "Q2 2026 ended 2026-06-30"
+        }
+      ],
       "questions": {
         "growing": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Net sales increased 20% year over year and AWS sales increased 37%.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx"
+          ],
+          "reporting_period": "Q2 2026 ended 2026-06-30"
         },
         "moat": {
           "verdict": "CAUTION",
@@ -403,11 +384,13 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Operating income increased 43% to $27.5 billion.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx"
+          ],
+          "reporting_period": "Q2 2026 ended 2026-06-30"
         },
         "cash": {
           "verdict": "CAUTION",
@@ -437,9 +420,16 @@
       "company": "Palantir Technologies",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 0,
+      "score": 1,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://investors.palantir.com/files/Palantir%20-%20Q1%202026%20Business%20Update.pdf",
+          "title": "Palantir Q1 2026 Business Update",
+          "published": "2026-05-05",
+          "reporting_period": "Q1 2026 ended 2026-03-31"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -463,11 +453,13 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "The business update shows Q1 2026 adjusted operating margin of 60%.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investors.palantir.com/files/Palantir%20-%20Q1%202026%20Business%20Update.pdf"
+          ],
+          "reporting_period": "Q1 2026 ended 2026-03-31"
         },
         "cash": {
           "verdict": "CAUTION",
@@ -497,37 +489,52 @@
       "company": "Microsoft Corporation",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 0,
+      "score": 4,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+          "title": "Microsoft FY26 Q4 Earnings Release",
+          "published": "2026-07-29",
+          "reporting_period": "Q4 fiscal 2026 ended 2026-06-30"
+        }
+      ],
       "questions": {
         "growing": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Quarterly revenue was $90.0 billion, up 18%, and Azure and other cloud services grew 43%.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+          ],
+          "reporting_period": "Q4 fiscal 2026 ended 2026-06-30"
         },
         "moat": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Microsoft Cloud revenue rose 27% and commercial remaining performance obligation rose 84% to $678 billion.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+          ],
+          "reporting_period": "Q4 fiscal 2026 ended 2026-06-30"
         },
         "management": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Microsoft returned $10.2 billion through dividends and repurchases during the quarter.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+          ],
+          "reporting_period": "Q4 fiscal 2026 ended 2026-06-30"
         },
         "margins": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Operating income was $40.6 billion, up 18%; a full margin trend was not reconciled.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+          ],
+          "reporting_period": "Q4 fiscal 2026 ended 2026-06-30"
         },
         "cash": {
           "verdict": "CAUTION",
