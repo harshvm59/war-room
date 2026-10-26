@@ -4,7 +4,7 @@
       "ticker": "NVDA",
       "name": "Nvidia Corporation",
       "units": 120.4368694,
-      "avg_cost": 81.82,
+      "avg_cost": 81.62,
       "theme": "AI Compute",
       "priority": "P1",
       "target_value": {
@@ -34,7 +34,7 @@
       "ticker": "TSLA",
       "name": "Tesla Inc",
       "units": 26.7307332,
-      "avg_cost": 248.59,
+      "avg_cost": 247.97,
       "theme": "Physical AI",
       "priority": "P2",
       "target_value": {
@@ -49,7 +49,7 @@
       "ticker": "META",
       "name": "Meta Platforms",
       "units": 16.5791212,
-      "avg_cost": 406.31,
+      "avg_cost": 405.28,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -64,7 +64,7 @@
       "ticker": "GOOGL",
       "name": "Alphabet Inc",
       "units": 20.3693336,
-      "avg_cost": 187.25,
+      "avg_cost": 186.78,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -79,7 +79,7 @@
       "ticker": "AMZN",
       "name": "Amazon Inc",
       "units": 26.2016724,
-      "avg_cost": 185.19,
+      "avg_cost": 184.72,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -94,7 +94,7 @@
       "ticker": "PLTR",
       "name": "Palantir Technologies",
       "units": 47.887162,
-      "avg_cost": 91.13,
+      "avg_cost": 90.9,
       "theme": "AI Software",
       "priority": "P2",
       "target_value": {
@@ -109,7 +109,7 @@
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
       "units": 7.2163818,
-      "avg_cost": 393.73,
+      "avg_cost": 392.74,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -124,7 +124,7 @@
       "ticker": "AMD",
       "name": "Advanced Micro Devices",
       "units": 10.7795082,
-      "avg_cost": 194.88,
+      "avg_cost": 194.38,
       "theme": "AI Compute",
       "priority": "P1",
       "target_value": {
@@ -139,7 +139,7 @@
       "ticker": "CRWD",
       "name": "CrowdStrike Holdings",
       "units": 24.7719091,
-      "avg_cost": 108.28,
+      "avg_cost": 108.01,
       "theme": "AI Security",
       "priority": "P2",
       "target_value": {
@@ -169,7 +169,7 @@
       "ticker": "VRT",
       "name": "Vertiv Holdings",
       "units": 9.5630937,
-      "avg_cost": 223.03,
+      "avg_cost": 222.47,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -184,7 +184,7 @@
       "ticker": "AVGO",
       "name": "Broadcom Inc",
       "units": 5.6862741,
-      "avg_cost": 329.98,
+      "avg_cost": 329.14,
       "theme": "AI Compute",
       "priority": "P0",
       "target_value": {
@@ -199,7 +199,7 @@
       "ticker": "ASML",
       "name": "ASML Holding NV",
       "units": 1.1789327,
-      "avg_cost": 1022.12,
+      "avg_cost": 1019.54,
       "theme": "AI Compute",
       "priority": "P1",
       "target_value": {
@@ -214,7 +214,7 @@
       "ticker": "CEG",
       "name": "Constellation Energy",
       "units": 5.1160294,
-      "avg_cost": 263.21,
+      "avg_cost": 262.55,
       "theme": "AI Energy",
       "priority": "P0",
       "target_value": {
@@ -229,7 +229,7 @@
       "ticker": "BE",
       "name": "Bloom Energy Corp",
       "units": 4.1767122,
-      "avg_cost": 231.86,
+      "avg_cost": 231.27,
       "theme": "AI Energy",
       "priority": "P3",
       "target_value": {
@@ -244,7 +244,7 @@
       "ticker": "ANET",
       "name": "Arista Networks",
       "units": 5.3863028,
-      "avg_cost": 143.3,
+      "avg_cost": 142.94,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -263,33 +263,33 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-10-26T13:42:42.172Z",
-    "broker_synced_at_ist": "26 Oct 2026, 7:12 pm",
-    "usd_inr": 94.94,
+    "broker_synced_at": "2026-10-26T15:30:06.053Z",
+    "broker_synced_at_ist": "26 Oct 2026, 9:00 pm",
+    "usd_inr": 95.18,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
         "name": "TSMC",
         "units": 29.5851005,
-        "current_value_usd": 12529.32
+        "current_value_usd": 12660.2
       },
       {
         "name": "Micron",
         "units": 4.6010332,
-        "current_value_usd": 4189.62
+        "current_value_usd": 4186.88
       },
       {
         "name": "SK Hynix",
         "units": 2.6366096,
-        "current_value_usd": 374.38
+        "current_value_usd": 374.44
       },
       {
         "name": "SpaceX",
         "units": 1.4292659,
-        "current_value_usd": 210.74
+        "current_value_usd": 214.23
       }
     ],
-    "usd_wallet": 1145.51,
-    "broker_account_value_usd": 129412.47
+    "usd_wallet": 1142.62,
+    "broker_account_value_usd": 130337.84
   }
 }
