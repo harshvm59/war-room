@@ -198,8 +198,8 @@
     {
       "ticker": "ASML",
       "name": "ASML Holding NV",
-      "units": 1.1789327,
-      "avg_cost": 1019.54,
+      "units": 1.2411067,
+      "avg_cost": 1042.74,
       "theme": "AI Compute",
       "priority": "P1",
       "target_value": {
@@ -263,33 +263,33 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-10-26T15:30:06.053Z",
-    "broker_synced_at_ist": "26 Oct 2026, 9:00 pm",
+    "broker_synced_at": "2026-10-26T17:30:09.853Z",
+    "broker_synced_at_ist": "26 Oct 2026, 11:00 pm",
     "usd_inr": 95.18,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
         "name": "TSMC",
         "units": 29.5851005,
-        "current_value_usd": 12660.2
+        "current_value_usd": 12649.55
       },
       {
         "name": "Micron",
         "units": 4.6010332,
-        "current_value_usd": 4186.88
+        "current_value_usd": 4197.14
       },
       {
         "name": "SK Hynix",
         "units": 2.6366096,
-        "current_value_usd": 374.44
+        "current_value_usd": 376.42
       },
       {
         "name": "SpaceX",
         "units": 1.4292659,
-        "current_value_usd": 214.23
+        "current_value_usd": 212.66
       }
     ],
-    "usd_wallet": 1142.62,
-    "broker_account_value_usd": 130337.84
+    "usd_wallet": 1042.86,
+    "broker_account_value_usd": 130126.31
   }
 }
