@@ -168,8 +168,8 @@
     {
       "ticker": "VRT",
       "name": "Vertiv Holdings",
-      "units": 9.5630937,
-      "avg_cost": 222.47,
+      "units": 9.6827576,
+      "avg_cost": 222.09,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -243,8 +243,8 @@
     {
       "ticker": "ANET",
       "name": "Arista Networks",
-      "units": 5.3863028,
-      "avg_cost": 142.94,
+      "units": 5.5764307,
+      "avg_cost": 143.83,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -263,33 +263,33 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-10-26T17:30:09.853Z",
-    "broker_synced_at_ist": "26 Oct 2026, 11:00 pm",
+    "broker_synced_at": "2026-10-27T03:53:03.048Z",
+    "broker_synced_at_ist": "27 Oct 2026, 9:23 am",
     "usd_inr": 95.18,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
         "name": "TSMC",
         "units": 29.5851005,
-        "current_value_usd": 12649.55
+        "current_value_usd": 12558.99
       },
       {
         "name": "Micron",
         "units": 4.6010332,
-        "current_value_usd": 4197.14
+        "current_value_usd": 4159.26
       },
       {
         "name": "SK Hynix",
         "units": 2.6366096,
-        "current_value_usd": 376.42
+        "current_value_usd": 376.15
       },
       {
         "name": "SpaceX",
         "units": 1.4292659,
-        "current_value_usd": 212.66
+        "current_value_usd": 210.03
       }
     ],
-    "usd_wallet": 1042.86,
-    "broker_account_value_usd": 130126.31
+    "usd_wallet": 986.22,
+    "broker_account_value_usd": 129670.55
   }
 }
