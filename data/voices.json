@@ -1,79 +1,37 @@
 {
-  "updated_at": "2026-10-27T01:01:20.501288+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-27T14:46:05.093086+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Dario Amodei",
-      "role": "CEO and co-founder",
-      "org": "Anthropic",
-      "cat": "AI IPO and risk",
-      "date": "2026-10-26",
-      "published": "2026-10-26T13:05:25Z",
-      "themes": [
-        "IPO",
-        "AI infrastructure spending",
-        "existential AI risk"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Amodei warned that advanced AI could pose an existential threat to humanity as Anthropic filed for a potentially record-setting public offering.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Elon Musk",
-      "role": "CEO",
-      "org": "SpaceX and xAI",
-      "cat": "AI infrastructure financing",
-      "date": "2026-10-26",
-      "published": "2026-10-26T02:44:02Z",
-      "themes": [
-        "AI compute",
-        "data-center financing",
-        "industry consolidation"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Musk said many companies renting AI computing power could face severe pressure from borrowing costs, potentially leading to consolidation.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/stocks-markets-oil-earnings-trump-be3a56f58a77c5be863f0289d280be92",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-10-26",
-      "published": "Mon, 26 Oct 2026 05:00:00 GMT",
-      "source_name": "The Motley Fool",
+      "published": "Mon, 26 Oct 2026 14:31:00 GMT",
+      "source_name": "TechSpot",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway. - The Motley Fool",
+          "t": "Headline signal (not a direct quote): Nvidia's AI chips already make billions, now Jensen Huang wants $2,000 per GPU in annual software fees - TechSpot",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVFlZWE12Y1JWbDkyUGxfVjZpUkJSTTBQaE9mbWVqdG9wZ1lWVms1dXZaS3ZZdmFMWW11alAyUmZ0WFNkYUt3VHp5M3E1WlpEQ1IyWXZqN3ZwLU5aS2czdUFOZzBkT3A0ZlRvT0lDWjhKUVlka19ZTG9aS2ZPNFFYTWFKQXctNDF2WmVQTDBCR3FZN3gxb00ycw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZTBiZFV4dW95cERJQ3VRNjV1YUJ1WGUyaERyNENqbUZsQXBUdFR2S3JOYTBaU2MyUTB5eTI3Ri11cEwzbTZjZjM1VzJUNFQwZDVIeExQdjY3eDFDV0ZjY1RoRmcxYXBZcnRoai1hUkFIRU9RM1dvb1Y0UW54U2dZTGc5NmhMRUhNa2c2Umd2MGtsUGVm?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-10-26",
-      "published": "Mon, 26 Oct 2026 10:58:00 GMT",
-      "source_name": "kcentv.com",
+      "date": "2026-10-27",
+      "published": "Tue, 27 Oct 2026 04:10:30 GMT",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -81,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Texas AG sues OpenAI and founder Sam Altman, claiming not enough regulation - kcentv.com",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman's home struck by gunfire, days after Molotov cocktail attack: Police - ABC News - Breaking News, Latest News and Videos",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPbWVqLWFySXdXQ0ZGRDN3LXVIdVNVMFdrLUtWd3l2SnNmQ3Iwd0p5clNzRGFuN3gxdXJ2a3BVcXl0N3ViakJ1VFp4VW9LcGhtZkwyUUZBZFAtSjdYblZ5ZEFxNHVJcUNFY3BXQ0tuTklQdkpzaVJ5dWFZUmJBWTl3cmRXTGFuMUxPclNpbmVleUhpaW4yOEp0VUgxVlh1OEljZ3ZDcmFuWXJBWGdSeEZkdWYzNWQzZkFXdmZCQmlCeDJpMmFsMUtqc0NQTGdNUDVYekRXRDBtalBnTU5HLWp6YXRGZzhSWEtOSHNTS01xbk50cHI0cXAyZmp3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYlk3cFJkWnNMMHloVFZSQ2pIelpHUWxJbndOeWdiUVcxdXBncjcxdmU3cEUtczJBSV82MUc0LTFRdkJ4NmZpZmZUMUdmU1NJc3hMSlRUSU43RW5VN1pjVzJqSm83OWZiakt4TTQ0bHgwR0hYVkJUaTB1QUlnRUxFQzB1YngzOVoxS0pOYkFzUHpHQVFvcHN1SjFVONIBoAFBVV95cUxOSmg3TE42d3BRemlRWXU4al9ZU0p5eEtCeE4yNzNiaE1oTDB5MHZBMDVDNTUxUjl0dzdma2VWcDkyTUNMRnJoNlJobXNLU0t6NUdXbXNkMWdUa2NDUk4xZ2loSjY2TURtTXkxMTNtd3ptU1VUemYyVG93QWt1ZkNvdEp1aDQ4UVY5RDRwUXRSRGZsdmNJalpyeHVBRkxpbW1v?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -94,7 +52,7 @@
       "cat": "Analyst",
       "date": "2026-10-26",
       "published": "Mon, 26 Oct 2026 16:15:47 GMT",
-      "source_name": "Benzinga",
+      "source_name": "TradingView",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -103,33 +61,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Tesla-SpaceX Merger Stands at 80%-90% Chance, Dan Ives' $500 Price Tag Explains Why - Benzinga",
+          "t": "Headline signal (not a direct quote): Tesla-SpaceX Merger Stands at 80%-90% Chance, Dan Ives' $500 Price Tag Explains Why - TradingView",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MQVE4cjRyV0FXWEIyZ0tKYndsekN5QXotM3BNYmVsV2V2eVI0QTRtaWF6aGtJZE1tOUQ4WEpfRXhrSWpFODdDUlpRZUJSNFBLZGM1VU9yWnQ4eHJ1Z3lSdmdpTkd3NWVIRk1CUVZVYWZFUGM5X1E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UeFBaRC1GbUx0RjFYdl9sUE9qSzMzNDR0QmZTQU9GTy05TXlHOHZtNU8yeWhfZTBzWG9iS1pQMkpxdXNzWHVhVkZwMllmZkFRV2ZvUG85YTFQMjBCRkhfQmE1M3VDYVdH?oc=5"
     },
     {
       "name": "Satya Nadella",
       "role": "CEO",
       "org": "Microsoft",
       "cat": "CEO",
-      "date": "2026-10-27",
-      "published": "Mon, 26 Oct 2026 18:38:56 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-10-26",
+      "published": "Mon, 26 Oct 2026 16:42:10 GMT",
+      "source_name": "Martin Cid Magazine",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#BE"
+        "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Satya Nadella: Most AI Will Be “Commodity Token Usage.” Microsoft Is Already Using Cheaper Models - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Microsoft chairman and CEO Satya Nadella tells shareholders AI agents will make Microsoft apps an operating system for work - Martin Cid Magazine",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMG1yazNNLWR0RExIMVFSLWNlQUpoWE9ZclY0QW5WT2NxOWp6amY0VnVlTW1RX1k0NGFfNDNRVXFVNG8yQ29OOE1XZ2YxVW8tZnBfamN4VDlkcGVCbUN5em8taTRzVEVPTzNqNVBUVENNUWdZdnhSTTh4T2pHMEt5bzNUUTkxeDdGS09RQU12RDJnYXkwZDhrRDR3SQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOemNHc2E5OVRUQk1DTXhvUXQzWDlkYjdJclFtYU1pVGxpX0xNdXEzTkNQWWZoSFlSY1BnU29kVGZqQzNlWUdWV3VYenpZcE5qdkNNLVZHV1dEMTdfQWFqdmZScV9ZOFFzc1lrY2RacEN2QXhVVTRyZ0R3LTR6cFJBWVVVN3haMmVtdXgyMUtBWFRNWFdJaTl4MHF1N041dEQ4aW9hc0lUTnlqSGotenRhVFZLdDd5bFFK?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -158,22 +116,44 @@
       "role": "CEO",
       "org": "Palantir",
       "cat": "CEO",
-      "date": "2026-10-26",
-      "published": "Sun, 25 Oct 2026 20:01:31 GMT",
-      "source_name": "Medium",
+      "date": "2026-10-27",
+      "published": "Tue, 27 Oct 2026 00:22:43 GMT",
+      "source_name": "shattered.io",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 10,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir CEO Alex Karp Says Europe Has Quit the AI Race! Here’s My Opinion Based on Research - Medium",
+          "t": "Headline signal (not a direct quote): Palantir’s Karp: 2 Paths to an AI-Era Future [2026] - shattered.io",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVUh6aW1BUlg4dzdCMlFRVzdZRG1nbnozZ1Y5QzlRWUozZkJ0c1kzdjNJRU9DS2FpZjdPRDVHLTNpTXlQUVFQTEpXRm9yMUVkM0VMYVdhdkxBLXFCblFxOUI1VUxRdWxPempnZnZiRTQyU3VPT2pnQUVJU2xubWt4SWtoeEhlOHpWOW5hN2ZoVFF6SS1GT2ZDalQzNk8xRzE4VzY2VFN2SXBlQXVmcUxXQlp5cVk3bnpkblZ6R1gxZmtEaXF1bTFKZFZB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOODJlWkFYWWd2YnBKQUNYSW4xbXRwUm9CM2RaTS1SNWN1bGF3LS1CaEVac3BiMFdGY2NpUGJTN05vUzZ0TXh0dE5SVUxRNklXU2oyUWJNeDhNWVJPOHdTWTlQeGNfUW9QQVdQQWpTMlF1TVhva2dyNXZEckZXLTNUZko3R0dkd0U?oc=5"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "CEO",
+      "org": "Tesla / xAI / SpaceX",
+      "cat": "CEO",
+      "date": "2026-10-27",
+      "published": "Mon, 26 Oct 2026 20:08:00 GMT",
+      "source_name": "Wccftech",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Elon Musk Claims SpaceX’s Starlink Mobile Will Be Fully Operational In “2 Or 3 Years,” While Verizon’s CEO Asserts It’ll Take At Least 4-6 Years And Cost $300B-$500 Billion - Wccftech",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMimgJBVV95cUxObTAycERnd25IZ2JpdjJCX1NGOWNFbG5xSXFQRTM1MmJaMGFoZkNlZzFpUnotbkJDOFNtYkFMb1VDQVhYdExPS2FMMTdyZ1c4N25qZHRYV3hObmdjTHUyWGtMVHRyQl9sMzF3Q18zRlBYZWRLaExkYXdHOXN4X1ZydDJIVHBqdnlzVEtoakxHRWkxTnFSZWJHa2xITjF4dm1jY3dJeUV1RXJTUkcxUEJSX3c4bkNHWmNOYVd5d254Z1lsTVQ0U0JjV0lMeENBcHYtYy1oRXBEMlFyRmcxX3lmamN1d1pfMVZUdElJTV9jUXBUbXRiOUVCX1JtOWMtSUxZWWpBWFhCbjhMV3d5VHVkOWstcWZBMnRMQWfSAZoCQVVfeXFMTm0wMnBEZ3duSGdiaXYyQl9TRjljRWxucUlxUEUzNTJiWjBhaGZDZWcxaVJ6LW5CQzhTbWJBTG9VQ0FYWHRMT0thTDE3cmdXODduamR0WFd4Tm5nY0x1MlhrTFR0ckJfbDMxd0NfM0ZQWGVkS2hMZGF3RzlzeF9WcnQySFRwanZ5c1RLaGpMR0VpMU5xUmViR2tsSE4xeHZtY2N3SXlFdUVyU1JHMVBCUl93OG5DR1pjTmFXeXdueGdZbE1UNFNCY1dJTHhDQXB2LWMtaEVwRDJRckZnMV95ZmpjdXdaXzFWVHRJSU1fY1FwVG10YjlFQl9SbTljLUlMWVlqQVhYQm44TFd3eVR1ZDlrLXFmQTJ0TEFn?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -181,21 +161,21 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-10-26",
-      "published": "Mon, 26 Oct 2026 11:30:09 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Mon, 26 Oct 2026 14:51:00 GMT",
+      "source_name": "Yahoo Finance UK",
       "signal_type": "source-linked headline",
-      "relevance_score": 13,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Says Muse Could Out-Earn Facebook, Instagram Per User, But Analyst Warns It’s 'Losing' More Money Than Any Other Product Meta Has Launched - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg threatens to leave California over billionaire tax as Meta approves unusual deal - Yahoo Finance UK",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUGI4am9nSlotOG5rdzlBbWdFdkd1SXp0OTRYYjhqaW55WFYyMmJ1ak5WQTZnMGhmU2hvb0ZEaWh5dV8tZ0lQWUlxajBTRzdYWW9LcWdfLWV2d21jejRSY3RmcS1zZ2RIVW8yNFp1bkNUcjhkdm5mdWJGcXdiY2ZKV3dKamJzT2hBd3VXekNtSDVpR0MtMWczRmItOA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYnBUQmhCU0tXQ0pVeWk4NnRhVzdiS09Hd3VCMFVXVHA0VVUwSEx6SmhpQ2lkVkRWeGpObmJmYjBaRnFWMW1lT3lIVHNPSW5nOUkzMVZ1bVAwRmUwZENFMTBIVjhoZGxZbFZwbExjc2t3UF9aVkFXSVRVWjRSSnhwb1phRjN1ckVWb1ZLUXl1c0taeUNrYnc?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -203,21 +183,21 @@
       "org": "Alphabet",
       "cat": "CEO",
       "date": "2026-10-26",
-      "published": "Mon, 26 Oct 2026 03:01:00 GMT",
-      "source_name": "The Times of India",
+      "published": "Mon, 26 Oct 2026 18:20:00 GMT",
+      "source_name": "BigGo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 7,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Google CEO Sundar Pichai admits that cloud business is forgoing short-term revenues to make up for ... - The Times of India",
+          "t": "Headline signal (not a direct quote): Pichai: Google Is Turning Away Cloud Revenue to Feed Its AI Research - BigGo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOQUpLeXNESlI4d1VuWWdJY2RtTUFXQzNaWlpIbjFUTklYbFZOQTR6a2RLR3JPT296M0pLOWpzZjhHWl9OVDEwaGVscjlBa0VrUjNScWQwbnk2akNBY3VfWEFyMTQ1U2hhUE1mQlpkeG1rOGxLeXBHTHpmclNaMjc1XzRocndyTU9BNW03b0ZRbXNkbmV3NE9LYkxpUzlTN2lyaUFZNmdkM1R6aUd3QjY0cW42VmY3X0FPdWo0Z0RaT0hCcThoTTlCT3lJUFVxM2l3Rms3dEZvVEkxc2NRQmwzekJZUlFkOTIwdDhSeGVuUUVyaVpkY0YwM1VfVDlPejdDR3RWQTF3QmpSVkxuS2JJ0gGUAkFVX3lxTFBjUnEwNllocDVhX0NITjBOQmVrUlJQTEZBYV9EU3UxMFFxTmViSXdYbUNTVlN6YkMyVFVWbWlHMkEybFpCUzdpcXMzYU41dmJvSjhjeTdveGtxTXZuN2lOYlVCdGdtRVNjTHBmM3lDWU9SSS1iblNTRlIyaGh6UkpmMzFaUmxEWE1jQ1FHNmF6dUozMUtpQ3ZkczBqYlRIY0h1U3l6VjNhSWlXT1k4VUk4TEszdWFDemxXdmlzLXJoQ0JEUkRNbU9YenQ1dDFBNS14RW5SUkdJUGhqUm5IOHBvNXdPWGRpNVlDT094a3hmdnpYcnB6b2NsNXJOcWc1QW44V2ZyVlNBeGcxQU5US3lNSkY0bA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pOXFfVkxUcndOR2dVd1o0UVNVWnc1blRpaHJtRzBmTGJuYTVGNVlhTjBMNXdOTklNQ2NNZWdVdUVzRUxCVWR5X2ZVbDhvT0d3TDB2ejVTdkx3YWZoQkJMV0U0NXNxSUpKdzNwWjRHclRzVHlUTlE?oc=5"
     },
     {
       "name": "Andy Jassy",
@@ -235,11 +215,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Amazon CEO Andy Jassy says young people can’t run away from AI or ‘wish it away’ - Fortune",
+          "t": "Headline signal (not a direct quote): Amazon CEO Andy Jassy has two Gen Z kids—and has an AI warning for the entire generation - Fortune",
           "k": true
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX3pmcFQxZUp2U1FpWUVNYUR1X3R2YXgzcG1oMDhVcFdRRVY2QTFubHpGeWRNWTZEeXV3NUE5VHRQSmJMa0pabzF2LVJMckQyMnN3Z2ZraFFnYnBfcmxIbHFXY2lWU2otQ3Bqdm5PaGY3OEZQRzc5dS00dUFRT21CaUx2UVBLUWxqWW93c1laSHRsSkdld1BZek05akNYZm16Ym8yb2REdDBwVnV1RWh2cA?oc=5"
+    },
+    {
+      "name": "Hock Tan",
+      "role": "CEO",
+      "org": "Broadcom",
+      "cat": "CEO",
+      "date": "2026-10-27",
+      "published": "Tue, 27 Oct 2026 04:17:46 GMT",
+      "source_name": "Seeking Alpha",
+      "signal_type": "source-linked headline",
+      "relevance_score": 13,
+      "themes": [
+        "#AI",
+        "#AVGO"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Broadcom CEO Hock Tan reportedly intervened to seal $63B Anthropic debt deal (AVGO:NASDAQ) - Seeking Alpha",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONEFQVzhRX29kRkwzMWxBaFdJUVBYcWQ1MWRuYVZJRUdGeE5RY1V5cXFYU1Bidlk3S3JXUlZ1MDRhQmRFLUtXMkdLWkNPenJVSnlJZkhTNlJ4WVNJZmdNRmtiX1lWdW9POUpsd1ZXcjdYbEE4MDFhRTZpenowT0g4c0RTc1dfVHN3bHJxaG5TcDFpNTMwTUZ6QWpSYUlpa056LTlsMkZaV3dfRXJUcVItbTN2SQ?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -264,52 +266,98 @@
       "src": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPeTdtRUo2M3AzMDVQeUd2RFBxaHQ0eVNhUkRhNW1sUWtsRVprMG1oN29KbVRZRnBFV19naDRORGRBMXUtMlQyN1h5U0V4MFA0dUxOMldCX2FfWlhJa2hkMk91MGRPekxiaWtsSW4zck1LUzZ4alpiUGVCb2puZzlXMVVPc2FsMHVXWEZVSW04U0JTdXgzaDdvekU5NW9QNWdFMWRpMHVsbzdFM0UzWHNKdzVjLUFYQ2pGYV92N0VpakxDeFVub0NXeXN6NkxOLWVrR2M5NEw0RFZNS0pGeTNQVG9abHlKLURDSm9vSE56aXRQTnBNVkpnZlozQk8xWWc5ai0wWUt0WlZjbE1DLVQ2cXJ0aVNZUjJfYXdkWUZBYnRsTXJoQ0x4UFktMEoyRzlib0tBUVhGa2RRQmRPUEdmRGxDRUl4OE10OXVoOA?oc=5"
     },
     {
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
+      "cat": "CEO",
+      "date": "2026-10-27",
+      "published": "Tue, 27 Oct 2026 07:30:24 GMT",
+      "source_name": "Forbes",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): 10. Larry Ellison - 2015-03-23 - Biggest Gainers - Forbes",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tQlhEeVVfanl3SVRpcGZvemljTUJ3NUlKaUliYkFLdWE4bWJaZlVHV0FtNjktcTZEMHJQRnczMEJKcUt1UjUtcmduLTQ3RTNaYjdzeGJvejVKb3c2ZHdkLXRrV1FfdUtGTy1R?oc=5"
+    },
+    {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-10-26",
-      "published": "Mon, 26 Oct 2026 18:20:22 GMT",
-      "source_name": "Traders Union",
+      "date": "2026-10-27",
+      "published": "Tue, 27 Oct 2026 01:49:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood: SpaceX and Tesla quarterly calls detail SXSI and Robotaxi initiatives - Traders Union",
+          "t": "Headline signal (not a direct quote): Cathie Wood Says Tesla, SpaceX Could Drive Up To 9% GDP Growth: ARK Sees Merger As Win For Both Shareholder Bases - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb0FVVVlqLXcyZGp0TnpTZkx3MlNCWUdFaVcydGd2MUNRVnd5MGZ3NVI0c0FvTzJfU1JXMkFlYnlJdkkyVWZnRnFUODFjN2FpcXRHMWpra1VrQllWRXU5cEZLWjNTbnItc3FkeUVmb0JpU0tzNG4yZEtaOXR5U1htb2wtXy1jQmNFek1uTA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ3M1Q0c2bnZzNldfRHhQM0l0eWlVY3JjMDJkaG40WHhYZmphcmtWR0lsRXV3UFh2WGpWSG80VWpUMERKNjA4SGFIQjVqRUV2X20yT2xZUTdHOGhBcUpuSDRtZUQ2Z1VVSW94Y3V4T0dMZzNoZTAwb3U0WWVTd0dzcUN6RzkxUERKOUtJb0NxNHk?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-10-26",
-      "published": "Mon, 26 Oct 2026 16:10:36 GMT",
+      "date": "2026-10-27",
+      "published": "Mon, 26 Oct 2026 22:09:35 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer pays tribute to longtime Mad Money head writer Cliff Mason - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer warns this overlooked danger could threaten the market rally - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkFKWXZoUl9oc2ZVb1F2OE1JRURYd3VYTGtMZUtDdHdhaV82ZnZ5WUozVmc0alIzVWcxQXd5d3l3dzFzcm1jZTF2YUVWbFNMVE55eHVTMk8zQUVuY1B5SU1WQ3pxTzBQbVQyUnVGejFTM0JyUmJ6U1BmeWxnVzJGNW9sQjd3WHI4bGNqOFJwSTZHRXJKUi1Cbkc0Y2stZ2ZGWHo3cE1sUXAyLTlTcjNpa0tR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMzhRdld4NThHenlHMmE4WUVjcEtsa3gzeHQtbVgtZUJmNTNCY0hWaEdXdlh6SVlOOHVPZ1RvbDUzeGgxZVB3NEZrZkF2RWdIUnExdW9HOXJkN09vV1pYMUU1NzFPbWRWaTd4N3k3U0p4Z3pjd3kyNnZscGRraTRlRzJjd2o3QdIBiwFBVV95cUxPVDJlSU5BRnNNcDlRWm1GS1hXbkc5VE8tWkpMVkdpQkZHbEhwT2FncEh4ODJqNG5taS1nNENJR3YzSDJoU0wzMFdvbk1oU2R0RDlGSUtqZ1VoQXFxWmFHbkNVYkp4dzJWaWQ4ME4wOW5nc2hRYkdhb2d4WkMtLW9rV2pPRlFVSDBQQmVr?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-10-27",
+      "published": "Mon, 26 Oct 2026 18:30:42 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 14,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Elon Musk Says He'd Be 'Stunned' If Any Robot Rivals Optimus At Launch: Gene Munster Calls It A Tesla 'Call Option' With 'Massive Value' - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZFRnVVVvY2Mwb09HNHZxWFlpWDhfTEdmLTVrQnNTN09XNEIyVldkTWJrNjNFcHM3REVIckowdVYwT01zNnBfQ08tQk5uYXJzN05RUnByVXdsLXZERS01VUtIVC1xQkxVVXhGWnRHb2xsZGN5VG1TcTFnQng2NWI0SHhqUEpEMzBPd05keFdaYWZnMDli?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 14,
+  "fresh_signal_count": 16,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
