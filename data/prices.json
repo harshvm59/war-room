@@ -1,176 +1,176 @@
 {
-  "updated_at": "2026-10-28T00:36:52.699381+05:30",
+  "updated_at": "2026-10-28T04:31:30.335839+05:30",
   "source": "yahoo",
   "prices": {
     "NVDA": {
-      "price": 217.84,
+      "price": 217.94,
       "prevClose": 216.0,
-      "change": 1.84,
-      "changePct": 0.85,
-      "volume": 0.55,
+      "change": 1.94,
+      "changePct": 0.9,
+      "volume": 0.83,
       "marketCap": null,
-      "as_of": "2026-10-27T19:06:49+00:00",
-      "retrieved_at": "2026-10-28T00:36:51.295687+05:30"
+      "as_of": "2026-10-27T20:00:01+00:00",
+      "retrieved_at": "2026-10-28T04:31:28.269556+05:30"
     },
     "TSM": {
-      "price": 437.29,
+      "price": 436.87,
       "prevClose": 424.37,
-      "change": 12.92,
-      "changePct": 3.04,
-      "volume": 0.56,
+      "change": 12.5,
+      "changePct": 2.95,
+      "volume": 0.79,
       "marketCap": null,
-      "as_of": "2026-10-27T19:06:49+00:00",
-      "retrieved_at": "2026-10-28T00:36:51.415571+05:30"
+      "as_of": "2026-10-27T20:00:02+00:00",
+      "retrieved_at": "2026-10-28T04:31:28.424152+05:30"
     },
     "TSLA": {
-      "price": 407.14,
+      "price": 407.46,
       "prevClose": 391.62,
-      "change": 15.52,
-      "changePct": 3.96,
-      "volume": 0.94,
+      "change": 15.84,
+      "changePct": 4.04,
+      "volume": 1.2,
       "marketCap": null,
-      "as_of": "2026-10-27T19:06:50+00:00",
-      "retrieved_at": "2026-10-28T00:36:51.535920+05:30"
+      "as_of": "2026-10-27T20:00:00+00:00",
+      "retrieved_at": "2026-10-28T04:31:28.514212+05:30"
     },
     "META": {
-      "price": 622.82,
+      "price": 620.19,
       "prevClose": 630.56,
-      "change": -7.74,
-      "changePct": -1.23,
-      "volume": 1.71,
+      "change": -10.37,
+      "changePct": -1.64,
+      "volume": 2.44,
       "marketCap": null,
-      "as_of": "2026-10-27T19:06:50+00:00",
-      "retrieved_at": "2026-10-28T00:36:51.609216+05:30"
+      "as_of": "2026-10-27T20:00:01+00:00",
+      "retrieved_at": "2026-10-28T04:31:28.614647+05:30"
     },
     "GOOGL": {
-      "price": 321.9,
+      "price": 320.58,
       "prevClose": 316.8,
-      "change": 5.1,
-      "changePct": 1.61,
-      "volume": 0.75,
+      "change": 3.78,
+      "changePct": 1.19,
+      "volume": 1.17,
       "marketCap": null,
-      "as_of": "2026-10-27T19:06:49+00:00",
-      "retrieved_at": "2026-10-28T00:36:51.682111+05:30"
+      "as_of": "2026-10-27T20:00:01+00:00",
+      "retrieved_at": "2026-10-28T04:31:28.766110+05:30"
     },
     "AMZN": {
-      "price": 254.42,
+      "price": 253.1,
       "prevClose": 249.09,
-      "change": 5.33,
-      "changePct": 2.14,
-      "volume": 0.62,
+      "change": 4.01,
+      "changePct": 1.61,
+      "volume": 0.95,
       "marketCap": null,
-      "as_of": "2026-10-27T19:06:46+00:00",
-      "retrieved_at": "2026-10-28T00:36:51.759444+05:30"
+      "as_of": "2026-10-27T20:00:01+00:00",
+      "retrieved_at": "2026-10-28T04:31:28.919368+05:30"
     },
     "PLTR": {
-      "price": 200.34,
+      "price": 198.73,
       "prevClose": 198.84,
-      "change": 1.5,
-      "changePct": 0.75,
-      "volume": 0.5,
-      "marketCap": null,
-      "as_of": "2026-10-27T19:06:50+00:00",
-      "retrieved_at": "2026-10-28T00:36:51.856921+05:30"
-    },
-    "MSFT": {
-      "price": 531.54,
-      "prevClose": 532.6,
-      "change": -1.06,
-      "changePct": -0.2,
-      "volume": 0.53,
-      "marketCap": null,
-      "as_of": "2026-10-27T19:06:49+00:00",
-      "retrieved_at": "2026-10-28T00:36:51.975190+05:30"
-    },
-    "AMD": {
-      "price": 559.61,
-      "prevClose": 531.28,
-      "change": 28.33,
-      "changePct": 5.33,
-      "volume": 0.74,
-      "marketCap": null,
-      "as_of": "2026-10-27T19:06:47+00:00",
-      "retrieved_at": "2026-10-28T00:36:52.047615+05:30"
-    },
-    "CRWD": {
-      "price": 267.84,
-      "prevClose": 261.83,
-      "change": 6.01,
-      "changePct": 2.3,
-      "volume": 0.54,
-      "marketCap": null,
-      "as_of": "2026-10-27T19:06:51+00:00",
-      "retrieved_at": "2026-10-28T00:36:52.128054+05:30"
-    },
-    "MU": {
-      "price": 932.09,
-      "prevClose": 903.7,
-      "change": 28.39,
-      "changePct": 3.14,
-      "volume": 0.52,
-      "marketCap": null,
-      "as_of": "2026-10-27T19:06:50+00:00",
-      "retrieved_at": "2026-10-28T00:36:52.227044+05:30"
-    },
-    "VRT": {
-      "price": 209.9,
-      "prevClose": 199.78,
-      "change": 10.12,
-      "changePct": 5.07,
-      "volume": 0.91,
-      "marketCap": null,
-      "as_of": "2026-10-27T19:06:51+00:00",
-      "retrieved_at": "2026-10-28T00:36:52.303593+05:30"
-    },
-    "AVGO": {
-      "price": 342.52,
-      "prevClose": 329.17,
-      "change": 13.35,
-      "changePct": 4.06,
-      "volume": 0.74,
-      "marketCap": null,
-      "as_of": "2026-10-27T19:06:49+00:00",
-      "retrieved_at": "2026-10-28T00:36:52.379107+05:30"
-    },
-    "ASML": {
-      "price": 1639.76,
-      "prevClose": 1590.9,
-      "change": 48.86,
-      "changePct": 3.07,
-      "volume": 0.62,
-      "marketCap": null,
-      "as_of": "2026-10-27T19:06:36+00:00",
-      "retrieved_at": "2026-10-28T00:36:52.476864+05:30"
-    },
-    "CEG": {
-      "price": 258.28,
-      "prevClose": 252.48,
-      "change": 5.8,
-      "changePct": 2.3,
-      "volume": 0.48,
-      "marketCap": null,
-      "as_of": "2026-10-27T19:06:50+00:00",
-      "retrieved_at": "2026-10-28T00:36:52.561814+05:30"
-    },
-    "BE": {
-      "price": 219.72,
-      "prevClose": 203.92,
-      "change": 15.8,
-      "changePct": 7.75,
+      "change": -0.11,
+      "changePct": -0.06,
       "volume": 0.86,
       "marketCap": null,
-      "as_of": "2026-10-27T19:06:39+00:00",
-      "retrieved_at": "2026-10-28T00:36:52.630177+05:30"
+      "as_of": "2026-10-27T20:00:00+00:00",
+      "retrieved_at": "2026-10-28T04:31:29.019744+05:30"
+    },
+    "MSFT": {
+      "price": 531.33,
+      "prevClose": 532.6,
+      "change": -1.27,
+      "changePct": -0.24,
+      "volume": 0.97,
+      "marketCap": null,
+      "as_of": "2026-10-27T20:00:01+00:00",
+      "retrieved_at": "2026-10-28T04:31:29.172873+05:30"
+    },
+    "AMD": {
+      "price": 560.26,
+      "prevClose": 531.28,
+      "change": 28.98,
+      "changePct": 5.45,
+      "volume": 1.06,
+      "marketCap": null,
+      "as_of": "2026-10-27T20:00:01+00:00",
+      "retrieved_at": "2026-10-28T04:31:29.303104+05:30"
+    },
+    "CRWD": {
+      "price": 268.02,
+      "prevClose": 261.83,
+      "change": 6.19,
+      "changePct": 2.36,
+      "volume": 0.85,
+      "marketCap": null,
+      "as_of": "2026-10-27T20:00:01+00:00",
+      "retrieved_at": "2026-10-28T04:31:29.432186+05:30"
+    },
+    "MU": {
+      "price": 928.76,
+      "prevClose": 903.7,
+      "change": 25.06,
+      "changePct": 2.77,
+      "volume": 0.84,
+      "marketCap": null,
+      "as_of": "2026-10-27T20:00:01+00:00",
+      "retrieved_at": "2026-10-28T04:31:29.580397+05:30"
+    },
+    "VRT": {
+      "price": 208.56,
+      "prevClose": 199.78,
+      "change": 8.78,
+      "changePct": 4.39,
+      "volume": 1.43,
+      "marketCap": null,
+      "as_of": "2026-10-27T20:00:03+00:00",
+      "retrieved_at": "2026-10-28T04:31:29.734415+05:30"
+    },
+    "AVGO": {
+      "price": 342.33,
+      "prevClose": 329.17,
+      "change": 13.16,
+      "changePct": 4.0,
+      "volume": 1.17,
+      "marketCap": null,
+      "as_of": "2026-10-27T20:00:01+00:00",
+      "retrieved_at": "2026-10-28T04:31:29.850685+05:30"
+    },
+    "ASML": {
+      "price": 1635.57,
+      "prevClose": 1590.9,
+      "change": 44.67,
+      "changePct": 2.81,
+      "volume": 0.87,
+      "marketCap": null,
+      "as_of": "2026-10-27T20:00:01+00:00",
+      "retrieved_at": "2026-10-28T04:31:29.970414+05:30"
+    },
+    "CEG": {
+      "price": 258.98,
+      "prevClose": 252.48,
+      "change": 6.5,
+      "changePct": 2.57,
+      "volume": 0.71,
+      "marketCap": null,
+      "as_of": "2026-10-27T20:00:01+00:00",
+      "retrieved_at": "2026-10-28T04:31:30.099668+05:30"
+    },
+    "BE": {
+      "price": 218.5,
+      "prevClose": 203.92,
+      "change": 14.58,
+      "changePct": 7.15,
+      "volume": 1.03,
+      "marketCap": null,
+      "as_of": "2026-10-27T20:00:03+00:00",
+      "retrieved_at": "2026-10-28T04:31:30.206413+05:30"
     },
     "ANET": {
-      "price": 188.43,
+      "price": 187.0,
       "prevClose": 177.24,
-      "change": 11.19,
-      "changePct": 6.32,
-      "volume": 0.6,
+      "change": 9.76,
+      "changePct": 5.51,
+      "volume": 0.98,
       "marketCap": null,
-      "as_of": "2026-10-27T19:06:49+00:00",
-      "retrieved_at": "2026-10-28T00:36:52.697738+05:30"
+      "as_of": "2026-10-27T20:00:03+00:00",
+      "retrieved_at": "2026-10-28T04:31:30.333957+05:30"
     }
   }
 }
