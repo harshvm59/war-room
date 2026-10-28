@@ -48,8 +48,8 @@
     {
       "ticker": "META",
       "name": "Meta Platforms",
-      "units": 16.5791212,
-      "avg_cost": 405.54,
+      "units": 16.6591677,
+      "avg_cost": 406.36,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -108,8 +108,8 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "units": 7.2163818,
-      "avg_cost": 392.99,
+      "units": 7.2633429,
+      "avg_cost": 393.62,
       "theme": "AI Infra",
       "priority": "P1",
       "target_value": {
@@ -263,33 +263,33 @@
     "currency": "USD",
     "note": "Update this file manually when you make trades. Daily TA analysis reads this as source of truth.",
     "broker_source": "INDmoney MCP",
-    "broker_synced_at": "2026-10-27T17:30:12.167Z",
-    "broker_synced_at_ist": "27 Oct 2026, 11:00 pm",
+    "broker_synced_at": "2026-10-28T03:38:23.516Z",
+    "broker_synced_at_ist": "28 Oct 2026, 9:08 am",
     "usd_inr": 95.12,
     "strategy_holdings": 17,
     "other_linked_assets": [
       {
         "name": "TSMC",
         "units": 29.5851005,
-        "current_value_usd": 12926.03
+        "current_value_usd": 12924.84
       },
       {
         "name": "Micron",
         "units": 4.6010332,
-        "current_value_usd": 4285.08
+        "current_value_usd": 4273.26
       },
       {
         "name": "SK Hynix",
         "units": 2.6366096,
-        "current_value_usd": 385.58
+        "current_value_usd": 383.26
       },
       {
         "name": "SpaceX",
         "units": 1.4292659,
-        "current_value_usd": 214.03
+        "current_value_usd": 212.36
       }
     ],
-    "usd_wallet": 966.66,
-    "broker_account_value_usd": 131682.65
+    "usd_wallet": 890.6,
+    "broker_account_value_usd": 131610.57
   }
 }
