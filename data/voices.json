@@ -1,91 +1,7 @@
 {
-  "updated_at": "2026-10-29T00:33:43.654272+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-29T03:22:01.393758+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Patrick O'Hare",
-      "role": "Analyst",
-      "org": "Briefing.com",
-      "cat": "Market sentiment",
-      "date": "2026-10-28",
-      "published": "2026-10-28T10:04:00+08:00",
-      "themes": [
-        "AI-led rally",
-        "Semiconductors",
-        "Hyperscalers"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): O'Hare said investors were buying the dip, with AI stocks, semiconductors and large hyperscalers leading the market.",
-          "k": true
-        }
-      ],
-      "src": "https://www.malaymail.com/news/money/2026/10/28/ai-stocks-lift-wall-street-ahead-of-fed-decision-and-tech-earnings/240879",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "David Morrison",
-      "role": "Analyst",
-      "org": "Trade Nation",
-      "cat": "AI investment sentiment",
-      "date": "2026-10-28",
-      "published": "2026-10-28T10:04:00+08:00",
-      "themes": [
-        "Anthropic IPO",
-        "AI confidence",
-        "Market durability"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Morrison said the prospect of a record-setting Anthropic IPO improved investor confidence after recent weakness in AI-related shares.",
-          "k": true
-        }
-      ],
-      "src": "https://www.malaymail.com/news/money/2026/10/28/ai-stocks-lift-wall-street-ahead-of-fed-decision-and-tech-earnings/240879",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Fiona Cincotta",
-      "role": "Analyst",
-      "org": "FOREX.com",
-      "cat": "Technology sentiment",
-      "date": "2026-10-28",
-      "published": "2026-10-28T10:04:00+08:00",
-      "themes": [
-        "Anthropic IPO",
-        "Technology stocks",
-        "Earnings season"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Cincotta said technology sentiment improved as investors assessed Anthropic's IPO filing amid major earnings and a Federal Reserve decision.",
-          "k": true
-        }
-      ],
-      "src": "https://www.malaymail.com/news/money/2026/10/28/ai-stocks-lift-wall-street-ahead-of-fed-decision-and-tech-earnings/240879",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Chris Beauchamp",
-      "role": "Analyst",
-      "org": "IG",
-      "cat": "Market risk",
-      "date": "2026-10-28",
-      "published": "2026-10-28T10:04:00+08:00",
-      "themes": [
-        "AI rally",
-        "Macro risk",
-        "Interest rates"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Beauchamp viewed the rally as potentially more durable than the prior week's rebounds but highlighted continuing macroeconomic risks.",
-          "k": true
-        }
-      ],
-      "src": "https://www.malaymail.com/news/money/2026/10/28/ai-stocks-lift-wall-street-ahead-of-fed-decision-and-tech-earnings/240879",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -222,21 +138,21 @@
       "org": "Alphabet",
       "cat": "CEO",
       "date": "2026-10-28",
-      "published": "Wed, 28 Oct 2026 01:52:48 GMT",
-      "source_name": "Investing.com India",
+      "published": "Wed, 28 Oct 2026 13:35:47 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Form 4 Alphabet Inc Class A: Sundar Pichai (Director, CEO) For: 25 October - Investing.com India",
+          "t": "Headline signal (not a direct quote): Google Earnings Prediction Market Preview: What Will Sundar Pichai Say? - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdnNQZHVOTGk1dFpYc2EyOG1KcDZiTFpqeGJnQmZ0Q19yTEFScTlQSThZbjlZOFp4WmJhRGp5V2NTbFJwTlVQRWU3SWplSThCbXVTU19kQWlVZDJDUVZWQ2FvQ3BSeFBCcXZQODNuWUxRcWV5dG9QU0JZS19lVTI3R0I3NkhsbXItdnR5dW9uNnVCSzdxVGpqOTlXdmlrclBnVFl0dkdNRUEzaXJjRGVReHFEYzVZSHBSTEsyYXBtV0NjaEJDUnFqM0l3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc3Y3c2s0ZjJ3LV9kcm5FU0UyMVhvNjdDZTl1WEN2cldaZ0FoaFZpQnEzWTJQZDJOSlVfVTBSRnNZVVk2UktaU3g2U1kyUGJaNjB4dFlUdUNOcmc5WU9za1lUWDJfdkItcklRUDhSdHJLdkJrSGk4N05VZ1RVUFVwcElCazF0Y0g5dUtFcTlLWFY0TlNn?oc=5"
     },
     {
       "name": "Andy Jassy",
@@ -319,7 +235,7 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood's ARK Dumps $22.5M in AMD, TSMC to Fund $13.8M Air Taxi Bet as ACHR, JOBY Jump - BigGo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood's ARK Dumps $49.3M in AMD, TSMC to Fund $13.4M Air Taxi Bet as ACHR, JOBY Jump - BigGo Finance",
           "k": true
         }
       ],
@@ -345,11 +261,36 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY1E5ZFBzQ1dEMFNkdWlRanptcEJRVVAxSGRPR0xjMHh2UlkxdG5ibFVqMlZNc2NXTGVMSW5MZW5DY21LSUw4T1FDQ0s1MEJYalAxUzlXOUhaSzNaS0wzZzV0S0JRNlYzLTRsNWxpaTlzczhMNFdsQW9DZHRWTENHLVFZdFNKNW1pU2JoTVMxUXFFUHRFZ29kLVNBYkhtMmFXMEU3SDhDZTFOZFBMMzl5QVByaXhtVVBI?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-10-29",
+      "published": "Wed, 28 Oct 2026 21:48:19 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#GOOGL"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): AI search queries hurt Alphabet's core business, says Deepwater's Gene Munster - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWRG9oSjFPYUhOVVVYaV9wSjBVOHR5cE5Ub1JtQllpQVQyeEF5cjZrVFB3b1BuLTJMN2tTZWh2VWpobWw4NE90OEJkQnBRN2t4b3B5anpLY0xvS1k?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 16,
+  "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }

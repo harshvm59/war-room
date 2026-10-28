@@ -1,53 +1,83 @@
 {
-  "updated_at": "2026-10-29T00:33:43.654811+05:30",
-  "source": "openai+web_search",
+  "updated_at": "2026-10-29T03:22:01.394099+05:30",
+  "source": "google-news-rss-fallback",
   "items": [
     {
-      "ticker": "AVGO",
-      "headline": "Broadcom shares rise after $63 billion financing deal to expand Anthropic AI capacity",
+      "ticker": "AMD",
+      "headline": "Should You Buy AMD Stock Before Nov. 3? - The Globe and Mail",
       "date": "2026-10-28",
-      "published": "2026-10-28T11:53:00-04:00",
-      "summary": "Broadcom gained 4.2% after announcing a financing arrangement under which Wall Street firms would help Anthropic obtain Broadcom AI accelerators and networking solutions.",
-      "tag": "AI infrastructure",
-      "url": "https://www.fortune.com/2026/10/28/sp-500-1-2-all-time-high-broadcom-nvidia-ai-stock/"
+      "published": "Wed, 28 Oct 2026 18:20:53 GMT",
+      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNakhIZ3FBcG1Nb2xaUEpyYVFaczZtbkNhQ1Z3VWVTcm0yel9haVJ6QVlraHBxNy0yVEI4WHg0QjRRaXZVWVJMUnE0UkM3TXctWk00a1F3SGhBa0VuQkZPTXZYaTl2VmNNbUdpSFYtckdyaV9zZnlweWNidllpX2hPZVhzMlRiYllGRk5BVmNhekZnSVJNLUJxa2psb2RTY2ZTR2J4My1CQTBmbl9xUHg1QmNvSnZjdTJlREJ1THVGMmU?oc=5"
+    },
+    {
+      "ticker": "MSFT",
+      "headline": "Tech Stocks Rise a Third Day as Microsoft, Alphabet and Fed Converge - Gadget Review",
+      "date": "2026-10-29",
+      "published": "Wed, 28 Oct 2026 18:37:11 GMT",
+      "summary": "Automated RSS market signal from Gadget Review. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX0VScC1BMzQxbEFEanJ1Uk56X3RxRFlKYW9pbXZ1TUZqbVYtOEpTVFpjODFFX09TWUFPWURrRmxYWFdsVXprV1pOay1TRmYwLXo2T3NoMUVPcFd0Wm5lWk5nQWljVTZ2dWMzbEc4bjluTUM3bHlqZUM2Sy1jTGJmcXR5Y3hfRC1aaGM4dm9ieVBXVXN0MHJsWmJKeV8?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "AI News: Artificial Intelligence Trends And Top AI Stocks To Watch - Investor's Business Daily",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 16:45:37 GMT",
+      "summary": "Automated RSS market signal from Investor's Business Daily. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMTVTWnJlZkpsVU9ZV0g1WHdKQVBKOFFvcUpPeTJuMW9iT2FTMWI1N2hMYk1ud1cwQlBEVlJObDFVTnpoNnBhejJrZnVFelQ5V3NNRklrM2RlaHUtc2NsbmxWcVV1MWVzd082RUdTYmtJVW9MUmJRTG5sV1dJN3JCd1JNX2Z4VnZtV3VpbzdrNXdKNTVSc3FB?oc=5"
+    },
+    {
+      "ticker": "AMD",
+      "headline": "AMD Jumped 5% and Is Closing In on $1 Trillion Again - 24/7 Wall St.",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 12:39:00 GMT",
+      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNnRuSW5Ha19zXzBWRlJmWmRSWkU1cVgwZjV6dEhOSDRvQnYybVo4ODNxTjBIWm5fdW9aMTJhM2M2U1RXRlhIajg3OHloODRUQWNkdVF2Ymk1dlczS0tVQ2paMERSZGstczJWaUtqSUJnaDVkOXBoaHZGODFOaElHTEdHQkJzRjNHNGhDakc1RGRLdUFERFpFVjRn?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "US Stocks Edge Up as Fed Holds Rates; Tech Stocks Lead, Oracle Rises 10%, SK Hynix Jumps Over 13% Post-Earnings - TradingKey",
+      "date": "2026-10-29",
+      "published": "Wed, 28 Oct 2026 20:48:05 GMT",
+      "summary": "Automated RSS market signal from TradingKey. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWG96WjNnQ21ubU0xcHlaVEVKdk9HY0RoeWdXRlkwQll1eTFpZ2JydVJGalg4UzQ2amhOWC1sdmpoazBlNU9YWXJzZGpyVGVodVR6SmlfT0pFUy1nalZJc0h4aWlIbGxSSGtqalNNb3ZTUnkzWElMX3Y0N2c0VERldVhYU0kxd0ZrM1RWbTFJWW1WZUJuS3psWXUwMTJidU9BUWZTSEI4QkNZM2NpMnA5Q3k0cjIzZXRyeEkzY2dIbEN3dw?oc=5"
+    },
+    {
+      "ticker": "AMZN",
+      "headline": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Lilly, Amazon Earnings Ahead - Investor's Business Daily",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 13:01:00 GMT",
+      "summary": "Automated RSS market signal from Investor's Business Daily. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd2FkMG42Rmh3aXFzM0xLX2hESGVCcnR6NW1MWjhiaFZjNGtST2pXOGY4dzVnUzFnQy13dHY5OGh0QzlnRjlxcmZrbEhEcGFtc00xWjY3S2g2NGZzTllfMzNMaGdWTmNfUEgyTEVRekF6aWZNLTRUOGNzcTRQVjdBb2M1c0Fia21VUTM1QWw2UXRodw?oc=5"
+    },
+    {
+      "ticker": "MSFT",
+      "headline": "【US Pre-Market】SK Hynix’s $75 Billion Return Plan Boosts Memory Stocks, SKHY Up About 8%; Fed Decision and Microsoft, Google Earnings in Focus - TradingKey",
+      "date": "2026-10-28",
+      "published": "Wed, 28 Oct 2026 12:02:51 GMT",
+      "summary": "Automated RSS market signal from TradingKey. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNGhtS1ZzQVpwSUVMd0lGLUlmS1Rvd1VGQ1ZpZVo2eUFXa1dWXzJod3VGVUpxLXlWZHptRVI5WGxOYmV4VWo5blNvaTlMZ0VScHFGMHlWODNkRUhfeTFfT3dSRVF0YVZheU14bVFtOGRxbHJYREdCckxXYzlwclZJWVYtTmF0QklreGstamtPS1ByUnZ3N1loZ2txemFXcVF4aVp3VDVSbWJFR1BW?oc=5"
     },
     {
       "ticker": "NVDA",
-      "headline": "Nvidia helps lift the S&P 500 as AI stocks rebound",
+      "headline": "Investing in AI beyond Nvidia, Microsoft, and Google earnings today - Yahoo Finance",
       "date": "2026-10-28",
-      "published": "2026-10-28T11:53:00-04:00",
-      "summary": "Nvidia rose 0.8% and was identified as one of the strongest contributors to the market's advance alongside other AI-linked stocks.",
-      "tag": "AI semiconductors",
-      "url": "https://www.fortune.com/2026/10/28/sp-500-1-2-all-time-high-broadcom-nvidia-ai-stock/"
-    },
-    {
-      "ticker": "GM",
-      "headline": "General Motors announces move from NYSE to Nasdaq",
-      "date": "2026-10-28",
-      "published": "2026-10-28T11:53:00-04:00",
-      "summary": "GM rose 5.6% after announcing its Nasdaq listing move, which could make it eligible for Nasdaq-100 inclusion and attract buying from index-tracking funds.",
-      "tag": "Index-flow catalyst",
-      "url": "https://www.fortune.com/2026/10/28/sp-500-1-2-all-time-high-broadcom-nvidia-ai-stock/"
-    },
-    {
-      "ticker": "CRWV",
-      "headline": "CoreWeave rallies as AI infrastructure shares recover",
-      "date": "2026-10-28",
-      "published": "2026-10-28T11:53:00-04:00",
-      "summary": "CoreWeave gained 8.5% as AI-related shares posted a second winning day following recent volatility tied to financing and data-center spending concerns.",
-      "tag": "AI data centers",
-      "url": "https://www.fortune.com/2026/10/28/sp-500-1-2-all-time-high-broadcom-nvidia-ai-stock/"
-    },
-    {
-      "ticker": "MU",
-      "headline": "Micron gains after SK Hynix reports strong AI-memory demand",
-      "date": "2026-10-28",
-      "published": "2026-10-28T10:04:00+08:00",
-      "summary": "Micron rose 4.3% after SK Hynix reported strong profitability and said AI demand should continue exceeding memory supply through 2030.",
-      "tag": "AI memory",
-      "url": "https://www.malaymail.com/news/money/2026/10/28/ai-stocks-lift-wall-street-ahead-of-fed-decision-and-tech-earnings/240879"
+      "published": "Wed, 28 Oct 2026 13:43:04 GMT",
+      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOU5mblBrVk1kRmVMQ3ZvaGZjMmZWWTVuRWVGQlpIem5MN1BKSk1DcGFKdE1xZ3Izcndia0xHVFFxZjVuRTFOV3JrV0loMDNuQWtsQm92ZjZ2a2dsZmdraEFhRk0zZGE4TWl2eG1hQnVFc1BBUVFzOGxjNlJkaVlBT1FxSUpIUWM4SGNHcWZkb3BWdmszNHR1Z016VUpXZjhDd0hSR25vRTlOLWdvVmdoTGxR?oc=5"
     }
   ],
-  "provider_error": null,
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
   "fresh_window_hours": 24
 }
