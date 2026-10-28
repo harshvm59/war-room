@@ -1,15 +1,15 @@
 {
   "feed": "framework",
-  "status": "degraded",
-  "last_attempt_at": "2026-10-27T07:02:56.345079+05:30",
+  "status": "failed",
+  "last_attempt_at": "2026-10-28T06:59:50.069460+05:30",
   "last_success_at": "2026-10-27T07:04:05.462862+05:30",
   "error": {
-    "code": "fundamentals_unverified",
-    "message": "AI summary with linked sources; financial figures are not independently reconciled."
+    "code": "refresh_failed",
+    "message": "Refresh failed (ValueError). See the linked workflow logs."
   },
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "outputs": [
     "framework.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/40433192817"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/40615370195"
 }
