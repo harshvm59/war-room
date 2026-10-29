@@ -1,70 +1,28 @@
 {
-  "updated_at": "2026-10-30T00:40:28.791910+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-10-30T03:27:04.089796+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Sundar Pichai",
-      "role": "CEO",
-      "org": "Alphabet and Google",
-      "cat": "AI/cloud strategy",
-      "date": "2026-10-29",
-      "published": "2026-10-28T21:06:39Z",
-      "themes": [
-        "AI infrastructure",
-        "Google Cloud growth",
-        "Gemini adoption"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Pichai characterized the quarter as strong, said Alphabet had reached a half-trillion-dollar revenue run rate, and linked AI infrastructure and solutions to cloud growth and strong customer demand.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/google-earnings-q3-revenue-profit-ai-alphabet-1acf6aff00d4dc084c5243d613307388",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "David Wagner",
-      "role": "Head of Equity and Portfolio Manager",
-      "org": "Aptus Capital Advisors",
-      "cat": "Analyst interpretation",
-      "date": "2026-10-29",
-      "published": "2026-10-28T21:06:39Z",
-      "themes": [
-        "Alphabet AI positioning",
-        "Search growth",
-        "AI monetization"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Wagner viewed Alphabet's quarter as evidence that it may be catching Microsoft in AI, while warning that the rest of the business, particularly Search growth, remained the problem.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/google-earnings-q3-revenue-profit-ai-alphabet-1acf6aff00d4dc084c5243d613307388",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 18:03:00 GMT",
-      "source_name": "Fox Business",
+      "published": "Thu, 29 Oct 2026 15:59:26 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Suspected Chinese intelligence asset gained access to Nvidia CEO Jensen Huang: report - Fox Business",
+          "t": "Headline signal (not a direct quote): Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked' - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZjJYcEFfUXotZWtSNlA4eWxEbDkwQ0RqU0cyS0hEb1RqazdiZC1kLTFjdGx6TkR4M09ERHRYZFFzT250VDFqWEF6UEZUQ216dDdwY0oxVkFUc0pibUlEbWZkTHhDaGNfUjNZMjlUb2VXaTU0aFJVU3FLaDhJUHR3NG1BaVg0OVNlQXVBZElqdzVzTWE3a3B1VXpnRnNYZkZZZklfMjNGd2lBeVdkNW55QUdJc3V6NnRwTGxpWEE1Ui1jMnNE0gHKAUFVX3lxTE1VNmdkVl9QWEF5bDhqVE01OFl2MGtQQ2x5UXQ0cDJkallsbWd2MlhuanVuVW11c0QwUWpXVUpxZDVJT3dJZ216VlNIclc5TGpOendBWFpYTThXVlp4OE81MmpNeUwzTXZQenAyRjNVTThHVjdrU1hwYkVBallWbzZBLXJvVXZuaEM2UHRrRi1Uc3NrTkh5eVFRNFJNb0llYVlqU2hwN1lVSldoT043dmtXOU5PeVBndVRUaXhKUTNyWGNYenA5MlhWYVE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNME1xdllUQU5RU1ZEcFl4VWVLaDFkOHNlSVJCSXdGZzA5OGxRQkhaV1BxbDJKRGNJamUtN1BUcUlWQ3BzMERHS3c4U3dPT2VWMkNPa1hXbTJkbzZsdjZfNnZ1RWdPYVI0Y2YtMXhlWVpHMWk1RThOcThqSTFnaDdoUlhEbnNOOFhlUGtR0gGQAUFVX3lxTE5MRldGbGNiMWhlMVlwOVBEWGwxMHVsTmlDOWFUZ1BfeGRuMTRmRGtLLWMzeTRfTVE1THV2SzYxRjE3STJMUHZsaUlHcU1DeEVveHhfWkhhUDhHZjNvbERJYzlnRnJ3N3FCX3htdlAxMGZ3ZXA4RVdNUWNsdUNSNUZueU1xcHNEdTdrbXdzSHF2MQ?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -72,8 +30,8 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 04:02:47 GMT",
-      "source_name": "ABC7 Bay Area",
+      "published": "Thu, 29 Oct 2026 18:24:52 GMT",
+      "source_name": "Inc.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -81,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman claims AI singularity has arrived: 'Awesome for the world' - ABC7 Bay Area",
+          "t": "Headline signal (not a direct quote): OpenAI's Sam Altman Told an Audience of Students That He's Disappointed in Them. Here's Why - Inc.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijwtBVV95cUxPMjBOVWRFOU5naGJRMnZ4SkI3eVFaR3Jqbl9LYnR0clVNc3FYRzI1MEVIMEFVbTZmcFdSd24xYVQtR2FGQjVsRTVuclF1dnJYNFVHQlZoOVVoTTU5YkE1X3ZKek9WV2NQb2pqdW5Ua0xzX21VQktBMkxUeDZQTnROVm1MYTlqM2VFQ3dXRTJZR3UzWFh2dk85bms5UDh3UlpMZ19HTHFsTjVneXQ3X3dWSWhnLXRVbW9Fd1V1UGdHTGRLV1E1NWt1SXlyV1gyY1VkS3MyQ21CaldhUVo2RFRhTDM2ck5Xb2RvMXFxX24tX2twLTNiSHl6c0N3WHBBbnlwRWVhMndiLXBTVG9vME5BUEhST1FrZU9KUEplUzhEc1BuZWxuZ2lqZDVOb2RkTW5KRkdnVS1ZZ0xfRHJ5THBqMTZWWmU1Y0p3U3ZJaGl2WVQ0V05OOWZ6U09UOERFdmctVWlYTzBHcVNKNUZ3ODZBLW0yZk1FdnNHS1QwZllybkhDODhlazlVcjE5ZHFOdHB5dC03VF9oeWFiNEUxNnlZR21KRTFETHVxWkV2SXo5VmJsMVE1dV9NR1kyVjZHUmMtclNiRXBsbmtPdDBQZENnRVJWYk1PRmVwb3lyM0xRb3hjVzlaR3N1V0x1WFlTYzNZY1RFRTlsbUdGdjZOMmgxWGR5bmM5Q2FGclBFZE01S19FVE44UXFISnhwWG15bFNvVGFUSWhmTFU5OWNtRVR2TEVGTTR1NVZHdzhEeko2RGFFRkVaZXViaGVrNmstQnhkWlBFUlhHXzVBVjRkbUUyaUJBWXJPalhNTC1BY3p1OHFmUU52bGJyZ3NOaUpWOUlPM1c5TERwa1J5Rk1FOUI2Zy1nLW1JSG1kUFZCMFV5TjJnellJOFluTk12VHYzdmVMU2F6OHhha2tWNmMzcGpveTlBblozeHNMNDd6ZWprNDNROTRUZ09HUlI0VE1aQjVnUk9PajdPQ0VCUmpVdUNsU0g4d2tNSElIZ2hmNm9ydWtISmNYSllMVEdlU2llXzdhMFBCdHc1dWw5Y1d5czFKZ0JobzVBeW9vMmVUOWhZdWpBNG5OWVpTX05sR0R6WWNDZ0N4NXhPbkpNSWFicEpxWWxrbkVjV2JpNXBvTVZOSjZNOG90bFYxQnA3YzVXLWYzNHo4eUsySlNNS204M2piSWJwcldXWFpuU1gxc2dCNkFobFdreU00OUJ1OC1sdVExQzh4T1JuMzZ3eVFlcEZGckU5OWtvdTlUWHd3T0QyNGczMk4xU1VneGljUDRpUXN0YnFiczBNTjVPZmJmQy1PMzVTa1BuY0tKMmlHeG9Oa081UUNSM0gzWGRIdkZFamx6VVBMUmFLdHR0Z1gtUFpVcjlpZ3J4WUVNakR5RlFLUVRVQzFfYzBJd0Fyd0ozdjNZdlptZms5ZDZfX3JZY0FBRURpWFNZblBZR05SQXF5ckwxbjhGaHJHNHBRa0R6WjQ1bWhHNHNPRnlteHV4YURFZDlqZjNLcDRQeGxRS3VodTZUZkk0cnNxNkpYVDlnRnpoLVJZMVVSX1dfQnZFaGtWLUJBRV9Peng4WlJXOWx4cmRTVFVIUUNxb1JSbW1salNDakRxRjNxa3VYLWNVTUxhbU9YSjdCRzg0dVdHb1cwYko0bHg2RG02RVBadl9DZXl1YUh4OFp0MU95QmFjSXZYbG9yYXNwb0xDUVliRVhXT1NLYmwyM0tmSEZFdTQ1empJc1owWFR3RTI5NDZXTzRYTzNZcE1oeUpNTFNGUjZiU29wUzBOVWhvYk5KUDBzNkcybG5yckR2Q2NCWHZ2OC1kSThDQWd0ckJ1TGU1MXBSSXBYNW4yMFRmOXdrRS01VFN4NDVZTkhBazNIdkx5R0FF?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQzVOREgzRklwY09GUHRLcXFzRVNCZmpGXzFFMGhzM1NDOG5YOEFYa200UHV1OXh3U0ZyWHlJeDJwVnpETWo2REVsM3VNNFIxYmFBaVg4cVBYZko2QlRtVGpqVHNoUEVvU0twZlJialZnaU5pSFVVYTRFM0d4cWl1Y2pyWEZCN2p6cC1rZHBnUjZKaExQWHNqQmJHbHZGbWcxckJNV2xHYlR2QlljSWw3UHlrcFNtVjRsRGZRaEV3dmpxTElQ?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -115,21 +73,20 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-10-29",
-      "published": "Wed, 28 Oct 2026 22:18:32 GMT",
+      "published": "Thu, 29 Oct 2026 12:46:16 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#MSFT"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Microsoft's Satya Nadella says 24 new data centers built during Q1 - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Satya Nadella Says Renting AI Capacity to a Few Big Customers Is “Not a Business” - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON1VSSUx4UWw0TGlOdWpqeDA1YlV2ZkRObGQwRDNtakQ5eTg0VjVZTnZ0ZXBCSXU0X2dHTkxzYXJWa0JUa0ZXeS10MXB5Q2V0LV82SS1rdnNjUmlRZzlXMHFYVDJsNmlyeFV3cFR6dmJQTlNnTElhRldfRVpvckF6aC1YQnhKZ0JCa1JaMkptX2VGWUhqeElXNmgzOS0tYUxXaUhUSG5FcmU0T2JNQ0VhZFh3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWHV0Z0tQZ3NsRVZEcjA2d1JyWXd4WFh2QURnb3Z3QjNsbnlqRDF6X1hzY3hJOGw1c3o0X0JHRm11N2RSM3dZdU8tSEpld0ZrUUlDY3AzcjFXRmJkZUZMa3JNSWZKVXNfS0hScktHRm82U3V0RHJvNXgwdGlzSXlhcEs3ZlVlV3pSQzlhNElxcXJFWFVUdjEwbw?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -198,6 +155,28 @@
       "src": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObVRsWDBPcnJsd0VtUTRGdEhhQnJjalZ1ZWNUSDFldHhabXA2QW9EQXlwQzlPVkhaa3BkMTZ5SmlmSnZHS0RMUHZqdVhZeWtXMmhPTkoyeDBzUU1vWFRGVllMWnRqWGU0MF9FMlh6TjZ3bkFFYVRfTHlaYlNaLVVqYm56N1RERThkZ21Ua0JYRQ?oc=5"
     },
     {
+      "name": "Sundar Pichai",
+      "role": "CEO",
+      "org": "Alphabet",
+      "cat": "CEO",
+      "date": "2026-10-29",
+      "published": "Thu, 29 Oct 2026 14:20:00 GMT",
+      "source_name": "The Times of India",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#GOOGL"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Google expands ads in AI-powered Search internationally; CEO Sundar Pichai says queries are growing at … - The Times of India",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSHJHajl5TGVDblVpZEFfMW4yRmpJYk8tVklUZzVjc21EUVY4bVFuQmYzTk1odno2cFZmczkwV0p6bnBwMDMwbmFIZHhHV3R2cTZHZG93bjBZU2ZId293bktCMlktTFVXbWRyWFVObVZhNlRWdGRqMnUyQ2lSVG5laTJlTjVRR0lYdDl6ZWtGeVBXUjVLbFFnRGpDQUVRaW0tRjBlTTdZbXIwSXZPWnZYaUM3YWFURC1ES0ZVSGhrS0IxdkpsUThHYlkxcnpiWGIzR0psZU43d042SjlCejFvM0VjVVdxVHVKNTZoc285ajFWcXhWbVduOHVTYU5qLUpmei1KOW40cWgxcjVmdkJTd3FQUdIBmAJBVV95cUxOVzlMLVV5aEc0RnJ2RHpPMWFteC1fZUhyZjNQVWpnd1piampjV0x0MHU4SUtndUd2MExEQ0dpYi01RXRRSzk2bXVsMkM2OHpRR2prNThDWFl4LVFkRlhkR0dITlJJRms5VTFxd0ZrWHJYYVlTQ1E3dXlfNF8yZ1o3aDUzOU0yTGJQdFJaS2dmb0RycGZ1dVNWRG1Rc28xczY3bU1GMTJ1alJ2b09VdjQ4bjVoMGUxYm1FMXhTOUVNQnJCSWVaVDU4VjNGSkY0dVZ6NGxGRHdJS1hxREVTOHM4bkxBcHJmTXlIWk5LQkhNUDI3eU5tZnJfVWtSdzhUTmxaV0JiMGpUSWtMTU81dWlySTJuVWE1UW9X?oc=5"
+    },
+    {
       "name": "Andy Jassy",
       "role": "CEO",
       "org": "Amazon",
@@ -246,8 +225,8 @@
       "role": "Chairman and CTO",
       "org": "Oracle",
       "cat": "CEO",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 14:32:00 GMT",
+      "date": "2026-10-30",
+      "published": "Thu, 29 Oct 2026 19:21:00 GMT",
       "source_name": "Barron's",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -261,7 +240,7 @@
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdHJzMWxXWVVLSXFvQldmTlFub3d3SF9lVEQwU254VWVjUkxlalNVOS1tbEhmeTZIajVUZldtdDdaN0ZtZmVIRl9MRlpkdzRxSjNOTEZicmpUSnJYczR0Y205S1c2d19wdW91SDhRNVZTcm1BUVdtaWJLb3RPODUwZVc5Tnl4WjFKVjRsbHdqY0Q0WTNvRzFXeUV5X3h3THNJR1NtZ2xpZmllSFBIWFRfU2lMaTkydTFzal9LWXBpVUxEV2hGNUNjM1paZFo4TUU?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeUhhU21oc3FUSTNmMFE2ZTNLZU5BTUpPLTcyRlRLamtWQThWRlRRNTcwZTJJLUJSbDY5WVZWZUJGSl9RMWNiYUpZdk84am9Ka1ZaVk5Kd1o1SnN2U1JFdmZaWTJJVTBYX3pFd1ZMNHZJWjZNSUZla0hMb2EzaUYxUzFnVFMxOWZEazcxNmwzWXdaM2tOZ05ITG5QdF9uSW1YTUNXcU5lSQ?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -269,8 +248,8 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 09:22:00 GMT",
-      "source_name": "The Motley Fool",
+      "published": "Thu, 29 Oct 2026 05:47:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -278,32 +257,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Is Buying Archer Aviation Stock. Here's What History Says About Following Ark Into a Stock Down 62%. - The Motley Fool",
+          "t": "Headline signal (not a direct quote): HOOD Stock Heads For Worst Month Since February: Cathie Wood's ARK Loads Up Amid Dip - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSV9jMzgyMlNtTTFzdm1JMmZpUHUyd0FHczA5SlNuQTZMd1pDMG5LczdhUm1WSFRyWFlqUGVWWmVrYkY3b0tBUEhXdkFGSUNqZFZETEZkT0lQVkhoQUJINmRTMno5WXRtdF8zQXZnYXdudHp3NkxKSjA1U3NONkhCeW1yVlU1cTBFMWQ2OTJ1NlFCMHJ2QUE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTnU2eHlWN1FicThpTzU4LWttU19YMV8xSFZuMk9pQWRNNzFXTVlaUUNtXzg5bS1GencxeWdjWF9JaGxmbV9zejduRUpvaFlKclZOOWtPSkp1amJ5enFyNGtoTDFLZTB0N1NQdGdfUjlPUWRDVXpTb2J1TUV2NE1Ra1llMkh1VEZibWRaMUVFZnlmTnpCOVZoYQ?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 13:13:08 GMT",
+      "date": "2026-10-30",
+      "published": "Thu, 29 Oct 2026 19:27:36 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 17,
       "themes": [
-        "#AI"
+        "#AI",
+        "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Thursday - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer: Why investors are punishing Alphabet and giving Microsoft a pass - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdUIyTHJLcC1Qa2pwNmJOWDExeUVoR2RIQnhXWDlGNnlCcXVlaEJWQmpoR1Z2YXlwM0hwVjlYaHQyV1d2YmdvNzNDcGlKc2hVdTF4M251UkU3VUFtczBsS2RuUFA4bnQ0azZZZzg5RXNjQTRWNHBiU1hnWXdYRDJCTG1wd1J4ZjliVUg1V2U1cGNmUG5odmVfSWdZbjgxMlRYZGxtaFBXSXlJemN4WjBVWmd4cmg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaTlWMFdacHowNTlmRXRHODZCenZ0NzBscTFIMTExTTBTTENUNXRlZmZ4TVJ4M1k2Q1FjOXA3em5HdVFKZEJMWTdGcDlHRy1EX0FwMFU2WjVKMXduVGk1Tk1WWnlfOVg1ajRyemdhWUo5OGJPTDlYVnEyN0dIWncwMEVpazE0bjMzUklVQ01ZdzAtc1JLZ2syR2hKel9MN2pTaVVLOWxqTElKcThoVzZreHlkVF9IbFNGSHVreXowZVpfeWFu?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -311,26 +291,50 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-10-29",
-      "published": "Wed, 28 Oct 2026 21:48:00 GMT",
+      "published": "Wed, 28 Oct 2026 22:04:00 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
         "#AI",
-        "#GOOGL"
+        "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AI search queries hurt Alphabet's core business, says Deepwater's Gene Munster - CNBC",
+          "t": "Headline signal (not a direct quote): Microsoft results show software 'is doing great,' says Deepwater's Gene Munster - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeFUybFVwS0twa3kyYzI2elJNeUw2QkhBVDRzZGVMVjNWd2V1c2pnYmFGcmhXejhndmxYRTZraUMxVjk2STR4MGdrRnRNbzR0UW1oam9WNGVHM0FCQ1hrVzdZZGRyaktHX1lHT2VVZ3RubVpMTUdPSDJhVHhaNHNVRnJjNW50TERnLUtMejlBYzc5T2dMUHpLc3RYd1JvcFQzZXlYZFdFMWFsNmY3Y3hMeUk5V2cyYWZFT3c?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMjVLTFRObF9XMlNIWXp3M2hXbWt6bFlOZnpJb05iWTJ2TFFDbWtYLUxaWUJ5RjZ1RmFtTzNOMDBaM01SQmwtRW1qMXFMZ0NpdVc0b3RiSDE5ZEFBQkdFbEhyVW5aM2tQNjRhYWN6ZGdOcDl1SW4wNzJUR1E4X0wxT2RwTFNpa3QwWUFsakhiSlRwYkt3MEVGM2hpeUk1czd3dzc2U3ZnU1NnY0RNNkdvQUQxeVM1ODR4MVE?oc=5"
+    },
+    {
+      "name": "Stacy Rasgon",
+      "role": "Senior Analyst",
+      "org": "Bernstein",
+      "cat": "Analyst",
+      "date": "2026-10-30",
+      "published": "Thu, 29 Oct 2026 21:32:10 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 10,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Bernstein's Stacy Rasgon: Intel's guide is 'extremely weak' - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdUVTZTFjeFI3a0RMOGV3dmVlcmNuUlhOckRmTXdLSm9xWjRoeVMtckpIWEhONkZGeXhWTmhLOUl5T1BTNWlCMmRVMDJSUG5wOFp6b2Rva2NwOXpYWUhfNWdSNU5CSFcyQnhPS2UwSENlUzhWaEp6U1g3Y2NZblBKS2R2emoydUM4TklIMjRkNVppV0E2bjQydHJZWjgxZw?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
   "fresh_signal_count": 15,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }

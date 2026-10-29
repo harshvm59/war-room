@@ -1,7 +1,147 @@
 {
-  "updated_at": "2026-10-30T00:40:28.791658+05:30",
-  "source": "openai+web_search",
-  "items": [],
-  "provider_error": null,
+  "updated_at": "2026-10-30T03:27:04.089412+05:30",
+  "source": "google-news-rss-fallback",
+  "items": [
+    {
+      "ch": "Yahoo! Finance Canada",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "date": "2026-10-29",
+      "published": "Thu, 29 Oct 2026 15:15:00 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#MSFT",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uOUNhWEIyM0RRVERRZVRjUWx6dFJ2N2tGYXBpVWl2RVI3MjM2b3kzVmtabzNDRjdGMGw2Z2hJSTB0S2Q5YWRWT1dab25WVERnZlE?oc=5"
+    },
+    {
+      "ch": "24/7 Wall St.",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "The Big Short Investor Michael Burry Just Found a $537 Billion Problem With AI - 24/7 Wall St.",
+      "date": "2026-10-29",
+      "published": "Thu, 29 Oct 2026 15:01:00 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AI",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYnZESTAwMHpGTmUzOUZYdU1CNk9IWlRMd2NWM3dmVmFhMU94dGUwNWFKVUpualdWbTBuVy1HQlBvTktZLVZBLVNqcnNyR0hBVm9iN1RhNmdOTXkyQzFyckFLQzhjUWpoVkFQVC1MenAyUmNTZGo1OWpyMEQ0TXhWU2lfeDA1ZTNvVFlEZ0JfWXlETXhFVTRCUWNOamRBdUVRbFBTWElSaGNjaUlseXZuMW9uWnlQLVdPcXo2Sm9R?oc=5"
+    },
+    {
+      "ch": "Invesco",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Quarterly Highlights for the Invesco QQQ ETF - Invesco",
+      "date": "2026-10-29",
+      "published": "Thu, 29 Oct 2026 14:41:25 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AI",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EcUVSNEpyMlNMNlZUWVVuOGRQa0l2Z0dTSGVpWE1uXy1PS051T1E2VGZBbXVGVDRIU19OM3haZUZUMWxpV01GOWdyMlRsckk0QXFydTBkZWxkdEtZaDRjMmxybVY4QTdOR2NVS0U0UXRrTk0?oc=5"
+    },
+    {
+      "ch": "The Motley Fool",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Not Nvidia. Not AMD. This Custom AI Chip Designer Could Outperform Both by 2030. - The Motley Fool",
+      "date": "2026-10-30",
+      "published": "Thu, 29 Oct 2026 19:35:32 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AMD",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa253YWpNWklUbkk4aklQcmJIU2RRWXRqSlVMVGUzNDV0cWxUM0NmQ3JCSHktRThubDdwMGkwdU8yQXVSLV82Z2lsR0ExaTlfcVluZWVZemtxTkxXdGdUSjNUaDVXRnVZZzBrcGJLQ2dodjFnbzZMRE1FdXZYVUFhcFktR1cwMnNJRjE1NUpiTlV1bzlwUnQ2MQ?oc=5"
+    },
+    {
+      "ch": "Yahoo Finance",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "US Stock Futures Mixed as Alphabet Falls, Microsoft Gains and Fed Comments Draw Attention to AI Spending: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+      "date": "2026-10-29",
+      "published": "Thu, 29 Oct 2026 11:26:40 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#MSFT",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdURLVzBmX2N0aFJwbU5LUHo5cmo1VDFqaXlzdk5yQTRKaUFHeERjMHZuSlh2QXA2S2ZpM1Rob1FLMWJnTTZMNlRvVmhWR3VteFNVVlRfa2FKRFJLTC1yV0k0Qll2QUN5czhNME13ZHIwMmx1Q0R6MkxNLTFzZUZoZk9oRExzTGt3SDlqRjNST3A2OXNwQUMxVHBRLWo?oc=5"
+    },
+    {
+      "ch": "SmartAsset",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "OpenAI Stock IPO: Expected Valuation, Timeline and Investment Options - SmartAsset",
+      "date": "2026-10-29",
+      "published": "Thu, 29 Oct 2026 10:20:36 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AI",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15OEdhUlNaM0Z5cjB2VFdVbU5kYlU1VXNKcGF6YXpBbVZvTEhSTnFNbWo1LUZPdkxmbG1FcGJSRTI0bkgwTWxLNERtVFQ2S1lvaXpqaC03RWVoa1FJN1E?oc=5"
+    },
+    {
+      "ch": "inkl",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Google stock price crashes and wipes $500 billion off company amid panic over AI - inkl",
+      "date": "2026-10-30",
+      "published": "Thu, 29 Oct 2026 21:07:58 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#GOOGL",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQN2N6R0xlX3VQZFJiRXhETFpHdHBZTHJFUWhoQmp6Z3dkTUtWeUg2MmpoWV8zSmZmaUxNM2RHbG93Ujk3V3kyTVh0YkxjSTNtNkQ5elJvM2RIekxweTFZX3FzWVAyYWFnLTNPNFdDZGxZd1dxWnBsRmtRU1RqX0lMUzBwOFNvVThtUWlETnNqODlVOEt0SG1XZS1MZVJ3aFYtY2JTTDQ5VHk?oc=5"
+    },
+    {
+      "ch": "24/7 Wall St.",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Down 20% From Highs, Is Arista Networks a Genius Buy or a Trap Before Earnings? - 24/7 Wall St.",
+      "date": "2026-10-29",
+      "published": "Thu, 29 Oct 2026 10:29:00 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#ANET",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbGRVQWQxLUpNQ2hvWVBHMHVsa3BSbDJwaUtnQmJDZ1UycUtnc2tWd2p5Z01nbTdvMHpRMll3TklFemJXZVVSOF9GMFcwZ0VXMkpUSDBlSW02ODNVaVdCV0lzSjdMdGlKMWRDNlBCV25WcXRieElEZ1V1ZGhjbWhETFNWTU1fSGRCMUtLVTBTUENQa29NZERReFVEVWZtSm1LVVFLQ3ZjVUJkSWJCUWFldkVHaU1CT1cySWZ2Xw?oc=5"
+    }
+  ],
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
   "fresh_window_hours": 24
 }
