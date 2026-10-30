@@ -1,83 +1,53 @@
 {
-  "updated_at": "2026-10-30T15:52:07.858851+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-10-31T00:18:25.650597+05:30",
+  "source": "openai+web_search",
   "items": [
     {
       "ticker": "NVDA",
-      "headline": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "headline": "Tech sell-off deepens as investors question AI data-center spending",
       "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 08:12:21 GMT",
-      "summary": "Automated RSS market signal from Yahoo! Finance Canada. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Microsoft Just Announced Incredible News for Nvidia Shareholders - The Motley Fool",
-      "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 10:16:01 GMT",
-      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaHZLYkZRLU1QYmlxTXdmSl83UkFsNE13NXk4ekFMODlfS3ZDLXRtanFUOEJvODlrTkpnVFFyVkgtbU5QSVRwZ2hfVFRPWmRWOGhsbkpxaEFLV0JWaDRjbVZzc2V0NEZNUlRWSFg3eC11NElFNlV2dlBacHh3YzdsTU93cHY5ZTczeFVBZlA3U3ZpcThRb1RBc0Q3bW84WlR6U0ptV3BTV0ZsVGc?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Quarterly Highlights for the Invesco QQQ ETF - Invesco",
-      "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 02:41:29 GMT",
-      "summary": "Automated RSS market signal from Invesco. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EcUVSNEpyMlNMNlZUWVVuOGRQa0l2Z0dTSGVpWE1uXy1PS051T1E2VGZBbXVGVDRIU19OM3haZUZUMWxpV01GOWdyMlRsckk0QXFydTBkZWxkdEtZaDRjMmxybVY4QTdOR2NVS0U0UXRrTk0?oc=5"
-    },
-    {
-      "ticker": "AMD",
-      "headline": "The Same $10,000 in AMD and Nvidia Could Produce Very Different Results by 2030 - 24/7 Wall St.",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 16:33:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbEx5R0VsMzc2S0JEYXYzT2Uyckg5S3MxY3cwczRfTUhUdWlITjR3X28zUHAya2NrTFpadlF1Sko5a1k1aUdHVjM0NXhyQ3JKZUkyeGdOWUUwYjc5TnM5TzR2QW5ueVpKcUNXcDJHRVR5RnpSTzU0X05talpNZkxMQ3ZnOHAtT2hmT2ctXy1mWHdmTjBJcFhLUjZ4U2NYVkFDS3k1M2FxNERSaFpQSDFJWll5V3hLcUZROE8tNF93?oc=5"
-    },
-    {
-      "ticker": "META",
-      "headline": "META_TITLE_QUOTE - Yahoo Finance",
-      "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 06:54:41 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51cTBUdmJTdWRuVFN1QjQxcDh1ZzMtcElOUHNJck5hcVpNSXNzbE9yYjFOakNHMzBDa3Z6ektnUEV4MkYyU1FkNzZ3TXM1S3M?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "The One NeoCloud Stock to Buy Now - TradingView",
-      "date": "2026-10-30",
-      "published": "Thu, 29 Oct 2026 18:45:04 GMT",
-      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOHdYeUlfZVNTZm1ZZFBYRGJnMi13TXMwcTRBVzdSY2lpZ2txT1NCbnFKV2lIVXJUdmc3SzlrVlZRZ1dkMkktNUg5UFFyS3c1VlhkU2MwRkFQUGFselQyc2RHZlVqV2p0bkMtOTN3WUNxOHBVcFhEdS13dHY1bHpYS3M2Q3NmUlA4R3hUQXo2elFmVFhCMldfVm9pUWFXUQ?oc=5"
+      "published": "2026-10-30T02:34:50Z",
+      "summary": "Technology stocks fell sharply, with Nvidia among the largest drags on the S&P 500. The report linked pressure on chipmakers and other AI-infrastructure beneficiaries to concerns that high interest rates could slow data-center expansion.",
+      "tag": "AI-capex risk",
+      "url": "https://apnews.com/article/16c266731fdf64178f38070af2b42497"
     },
     {
       "ticker": "GOOGL",
-      "headline": "Microsoft vs Alphabet Earnings October 2026: Why MSFT Soared While GOOGL Crashed - Intellectia AI",
+      "headline": "Midterm elections, earnings and jobs data loom for an AI-wary market",
       "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 04:23:36 GMT",
-      "summary": "Automated RSS market signal from Intellectia AI. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjYzF0eW9hQVNXeHNzRFY4WUQ3eTZVaVhvdnh1aGloZTFzS0EwdUJyNWVvVlFPRDdwQUlhUDRsWmxHVlZITEZoaFBiTlV3QjNTMEtwWXpWWU9kN0FnY2pJQl93LS1WZWhleHF1aXZFbnliMTM2cFl3?oc=5"
+      "published": "2026-10-30T10:16:00Z",
+      "summary": "Reuters reported that Alphabet’s cash burn and disappointing revenue intensified investor concerns about financing the AI-investment theme. Apple, AMD and Palantir were identified as major companies due to report the following week.",
+      "tag": "AI-spending scrutiny",
+      "url": "https://new.streetinsider.com/Reuters/Midterm%2Belections%2C%2Bearnings%2C%2Bjobs%2Bdata%2Bloom%2Bfor%2BAI-wary%2Bmarket%C2%A0/27261193.html"
     },
     {
-      "ticker": "AMD",
-      "headline": "Not Nvidia. Not AMD. This Custom AI Chip Designer Could Outperform Both by 2030. - The Motley Fool",
+      "ticker": "QQQ",
+      "headline": "Nasdaq faces a potential $2 trillion October wipeout as AI spending fears deepen",
       "date": "2026-10-30",
-      "published": "Thu, 29 Oct 2026 20:30:00 GMT",
-      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa253YWpNWklUbkk4aklQcmJIU2RRWXRqSlVMVGUzNDV0cWxUM0NmQ3JCSHktRThubDdwMGkwdU8yQXVSLV82Z2lsR0ExaTlfcVluZWVZemtxTkxXdGdUSjNUaDVXRnVZZzBrcGJLQ2dodjFnbzZMRE1FdXZYVUFhcFktR1cwMnNJRjE1NUpiTlV1bzlwUnQ2MQ?oc=5"
+      "published": "2026-10-30T15:11:00Z",
+      "summary": "Reuters reported that the Nasdaq 100 had fallen more than 5.8% during October as investors questioned whether expanding AI infrastructure spending would generate returns quickly enough. Meta’s planned $97.5 billion fund raise added to concerns about dilution and financing needs.",
+      "tag": "valuation and financing risk",
+      "url": "https://new.streetinsider.com/Reuters/Nasdaq%2Bfaces%2B%242%2Btrillion%2Bwipeout%2Bin%2BOctober%2Bas%2BAI%2Bspending%2Bfears%2Bdeepen/27263806.html"
+    },
+    {
+      "ticker": "AMZN",
+      "headline": "Amazon and Intel results intensify concerns over Big Tech AI spending",
+      "date": "2026-10-30",
+      "published": "2026-10-30T14:20:00Z",
+      "summary": "Amazon’s Bedrock token volume reportedly grew nearly 17-fold year over year, while Fortune 500 customer spending increased nearly sevenfold. The same report highlighted custom silicon as a possible route to more efficient AI capital expenditure.",
+      "tag": "AI monetization and efficiency",
+      "url": "https://www.crn.com/news/ai/2026/amazon-q3-earnings-ceo-jassy-says-bedrock-could-become-as-big-as-ec2"
+    },
+    {
+      "ticker": "INTC",
+      "headline": "Global markets react to a fresh AI-euphoria reversal",
+      "date": "2026-10-30",
+      "published": "2026-10-30T10:53:00Z",
+      "summary": "Reuters reported that investors were becoming nervous about hyperscalers’ enormous AI spending plans, including the potential borrowing required to finance the build-out. The report described the market move as a cooling of AI enthusiasm after recent earnings and spending updates.",
+      "tag": "AI-trade pullback",
+      "url": "https://www.marketscreener.com/news/spooked-at-halloween-tumbling-tech-stocks-give-markets-a-fright-ce785fdbda8df423"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }

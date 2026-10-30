@@ -1,15 +1,36 @@
 {
-  "updated_at": "2026-10-30T15:52:07.858273+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-10-31T00:18:25.649959+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Andy Jassy",
+      "role": "CEO",
+      "org": "Amazon",
+      "cat": "AI investment and product economics",
+      "date": "2026-10-30",
+      "published": "2026-10-30T14:20:00Z",
+      "themes": [
+        "Amazon Bedrock adoption",
+        "AI infrastructure investment",
+        "custom silicon"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Jassy indicated that Bedrock’s token volume had expanded sharply year over year and suggested the service could eventually reach the scale of Amazon’s EC2 business; Amazon’s custom silicon may improve AI capital efficiency and create opportunities for partners.",
+          "k": true
+        }
+      ],
+      "src": "https://www.crn.com/news/ai/2026/amazon-q3-earnings-ceo-jassy-says-bedrock-could-become-as-big-as-ec2",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 15:59:26 GMT",
-      "source_name": "CNBC",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 11:16:08 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 13,
       "themes": [
@@ -18,20 +39,20 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked' - CNBC",
+          "t": "Headline signal (not a direct quote): Nvidia's relationship with China just got even more complicated as report says Jensen Huang was target of spy plot - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNME1xdllUQU5RU1ZEcFl4VWVLaDFkOHNlSVJCSXdGZzA5OGxRQkhaV1BxbDJKRGNJamUtN1BUcUlWQ3BzMERHS3c4U3dPT2VWMkNPa1hXbTJkbzZsdjZfNnZ1RWdPYVI0Y2YtMXhlWVpHMWk1RThOcThqSTFnaDdoUlhEbnNOOFhlUGtR0gGQAUFVX3lxTE5MRldGbGNiMWhlMVlwOVBEWGwxMHVsTmlDOWFUZ1BfeGRuMTRmRGtLLWMzeTRfTVE1THV2SzYxRjE3STJMUHZsaUlHcU1DeEVveHhfWkhhUDhHZjNvbERJYzlnRnJ3N3FCX3htdlAxMGZ3ZXA4RVdNUWNsdUNSNUZueU1xcHNEdTdrbXdzSHF2MQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZEtab0tTUzA0MEtoX2xaenB3THdSLUFwNF94eUUtLWtZbG9BUm5TajVNZTBURlNfb0wxWExIcmFQSFJGV3h1YktYNXlCVjJpOWVzT3EzRjdSVV9jakZETlNQU1hyS1p3SERyVU93QzJZZmE5TXRGSlFoU1E1cFFSeW9RbFBIR0FlVXhwZW1lWTgwTU1JX3NTQm4tanVVdEEtd0VOSjJmZ3dVaXk5T2dvUC1tWDlGZGpWT1A5YVp3blczSEJIOHlGblFfOS1ubEdUbFpxejZwYVJaMld2XzVTM3J2NTBMc2N3ZHVNeHc0RURmdGpPTVZQZE10bXZSZUtUcFpN?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 18:24:52 GMT",
-      "source_name": "Inc.com",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 16:28:11 GMT",
+      "source_name": "Tom's Hardware",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -39,41 +60,19 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI's Sam Altman Told an Audience of Students That He's Disappointed in Them. Here's Why - Inc.com",
+          "t": "Headline signal (not a direct quote): OpenAI CEO says it's 'quite terrible' for your PC to have RAM — Sam Altman says data centers offer better utilization - Tom's Hardware",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQzVOREgzRklwY09GUHRLcXFzRVNCZmpGXzFFMGhzM1NDOG5YOEFYa200UHV1OXh3U0ZyWHlJeDJwVnpETWo2REVsM3VNNFIxYmFBaVg4cVBYZko2QlRtVGpqVHNoUEVvU0twZlJialZnaU5pSFVVYTRFM0d4cWl1Y2pyWEZCN2p6cC1rZHBnUjZKaExQWHNqQmJHbHZGbWcxckJNV2xHYlR2QlljSWw3UHlrcFNtVjRsRGZRaEV3dmpxTElQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQV0JjNVJDNmxJSXdsWk4ySjhKVDRmdkhPTlNBWlliM28tbG1JM055YkdpYUhQUHZHazFIYjJyWXd0LU54NU9FUEpPNGU4REFDLUJpQmx4QlRwWjdDaU1MeTZhUDQwdmdHQ1RvTVdJYnRlMko4WlUxNXJpR2tNZVQwWDFwdXBUMGQyaWF1dkNyUzQzNDctMWdQci1aWjkxb2JjdlFLenNBdHpmMDc3eEEzUWFYY05WZ1dPblhHXzJwcVlua19ic1RqVzFMUXN4UnRwYUgyaEppM3h2TVQ2MEFsMFRyZTZxWWpYZlRGbGJ0ZkhoV1lHd2JyN3hsMko?oc=5"
     },
     {
       "name": "Dan Ives",
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 15:30:41 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 14,
-      "themes": [
-        "#AI",
-        "#MSFT"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Dan Ives Says Microsoft Is the ‘Barometer’ for AI Spending as Azure Reaches 48% Growth - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbzFyUjB0a3JhLXpSNl9rc3MyS2h3M0RhLWxHSnFPMHZ5LTNWazJPdVNOTDJhQkJDczcxRTI5MTVTZHBuVS0tS2ZzeUI0X3A3YmZLMkdPaXBqSzhidmhrYUdvbTU4ZHN3M0wwODdFYktEMUQ3bHN2NGgyaGxlNURTV2JXclFkLXcyejhUQTgtdTdLN3BkXy1TTXdjTWJ2UQ?oc=5"
-    },
-    {
-      "name": "Satya Nadella",
-      "role": "CEO",
-      "org": "Microsoft",
-      "cat": "CEO",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 12:46:16 GMT",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 14:07:57 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -82,33 +81,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Satya Nadella Says Renting AI Capacity to a Few Big Customers Is “Not a Business” - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Dan Ives Says AI Disruption Is ‘On Full Display’ In Tech Earnings, Sees 2027 As Inflection Year - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWHV0Z0tQZ3NsRVZEcjA2d1JyWXd4WFh2QURnb3Z3QjNsbnlqRDF6X1hzY3hJOGw1c3o0X0JHRm11N2RSM3dZdU8tSEpld0ZrUUlDY3AzcjFXRmJkZUZMa3JNSWZKVXNfS0hScktHRm82U3V0RHJvNXgwdGlzSXlhcEs3ZlVlV3pSQzlhNElxcXJFWFVUdjEwbw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUkNidFpWTUpPNHhhc1dFV3BZRGJxdU9nYUZKbmg4LTJJX0VIVjM0MjJKTDdrSnl0dVdpcnZUdFA1YXdwM2hsSjByczd0bWI5MFpaMkpnMHZQQkVDQ1FTR2dHZ05DV1ZLNFljNXpwUXR4SXVqVXFGMWpkNXNhcEl1bTFHanlSbjlWRm9VTi1oejktTHVDUFE?oc=5"
     },
     {
-      "name": "Lisa Su",
+      "name": "Satya Nadella",
       "role": "CEO",
-      "org": "AMD",
+      "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 00:07:24 GMT",
-      "source_name": "Stocktwits",
+      "published": "Fri, 30 Oct 2026 11:00:05 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 17,
       "themes": [
         "#AI",
-        "#AMD"
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Lisa Su Says Customers Want 'A Lot More Compute' — Sees 'Tremendous Momentum' In AMD’s Data Center Business - Stocktwits",
+          "t": "Headline signal (not a direct quote): Microsoft Has a Tool That 'Governs and Contains Agents,' Says Satya Nadella — Meta's Muse, OpenAI, Anthropic Are Lining Up - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeGx6anY5dEJ2OVhrelNpV3hHdjJmXzdOMXh6bDdBLTlGYWZxSS1JYnhFX0w4TkM0RWRnU1psOWJhQUxJQnktNE8wUnd0N0QzMWpXZlE4SnU2cklfX1J0SFVYLVdXd1d2UVF3eTA2Mk42QURHekFSRDIzendkQWRjdGU4LU14SVhtbVJMaGVfYkpDOXVhbS11VWpCMkVpcXRvTC1YNXdUV05RQnBBSWlQcUsxNG9CcEZ5cXFiYWRVRzdSeVUwQV9sUTBBV1NkaEpM?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMlBQZlcyNy1DYjl2MlpFa01vb2xKWkFmcWQ1cDFUb3FUdndBNFRlRVFvcV9oakc3S3MxT09jbG4yYlZUYlJWWXJYQTluVW5KRVg2RmlKS19rMlhKc0xnWlR3NzIyaU1MOW9YVFZ4YnU0QXlnNTVFWm9tTWxqRmhNZ3JjbGh4NGtHOWU1cWZZdkxNNXl5ZF9TZWktSGJoNllJb3VYZQ?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -137,44 +136,22 @@
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 16:05:00 GMT",
-      "source_name": "BigGo Finance",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 13:06:35 GMT",
+      "source_name": "The American Bazaar",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Musk Weighs Tesla-SpaceX Merger as Idle \"X\" Ticker Becomes Market Talking Point - BigGo Finance",
+          "t": "Headline signal (not a direct quote): ‘Game over for America’: Tesla CEO Elon Musk warns of democratic sweep in 2028 - The American Bazaar",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94V1BUbU1WZ1FBcVh4V2JPeEl3OExVajZYLUVRazBfM3NaY1dEVWRtbUlodHBwanJkcDhyRlNRdlV3anVIV1M0NXRQbXoySTV6Rmh0RWkwVl85cldmNDZ3Tms3RFYtV055WmUwNGFhYWZ5OVE3YVE?oc=5"
-    },
-    {
-      "name": "Mark Zuckerberg",
-      "role": "CEO",
-      "org": "Meta",
-      "cat": "CEO",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 16:25:00 GMT",
-      "source_name": "Cryptonews",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#META"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts a Near Protocol Explosion - Cryptonews",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObVRsWDBPcnJsd0VtUTRGdEhhQnJjalZ1ZWNUSDFldHhabXA2QW9EQXlwQzlPVkhaa3BkMTZ5SmlmSnZHS0RMUHZqdVhZeWtXMmhPTkoyeDBzUU1vWFRGVllMWnRqWGU0MF9FMlh6TjZ3bkFFYVRfTHlaYlNaLVVqYm56N1RERThkZ21Ua0JYRQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVHFyYk9DZ2hKVnEyeWEwbHhPVF9wNEdyOG5seWxpWFpLbjJMWm1UYzhQcUNMX2EtSEpDYlBkalMxTzZkblFsdzVuU1BFYUhVM2MzOHZ6T2M1OHVDUVpYRzd5VVVOQWotWjVBdkYwU0RyVWZ5WFR5eGxTd2k5WlpLWndqWEQ2bTVONEdYWGFydFQ0WXJCdEhMODhNZDFCSzB1NkF1U1VIdnE?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -182,43 +159,21 @@
       "org": "Alphabet",
       "cat": "CEO",
       "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 03:03:00 GMT",
-      "source_name": "The Times of India",
+      "published": "Fri, 30 Oct 2026 12:30:07 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI",
-        "#GOOGL"
+        "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Woman dies after ChatGPT convinces her to change her medication dosage; Google CEO Sundar Pichai had flag - The Times of India",
+          "t": "Headline signal (not a direct quote): Microsoft Wants to Charge More as AI Agents Do More Work, While Google Sees a New Advertising Gold Mine — Here’s How Satya Nadella and Sundar Pichai Plan to Make Money From AI Boom - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQNUl0cllOM0FKcVNQc1Zqc21Ydng1NzlLd2xlUkhQelNyV3MyU2FNSmJDQWxIRDQ4b0NTRWpRVzdsc05WZE41bzNodVprSVN1bG10aExWQVB1YjB5RDNYTHV0MkFNSzJTSTV2VXFBUG1DZG45VXFmdFZDUzJFTFgtZHM0X1ZnbkZkS2JWY21oaXhvU0hLZEYxTGFTeDZfNDE1U01xYlFpOVA4YThZa0hDSzdDQ0o0SFJGb3h1QmUwWlB4UmlaOTE2M3NNRnk2NEFCZ2JCQm1IdWVFcHhLLUE5OVNRM0lKRkRMOEhrR2ZWclF5ODllUGpNUFRsZkhQdWRaYmctNlg3Uk1ndkRqNUN0ZkV6VC1PQ2xZT2o5cmlmYWU1d1dULUh5MFZob3kxWVdTUWs0VVk2VTJIS1cwdTYzUmNUelRBT2dHcG9SazMwSTnSAdYCQVVfeXFMT1pmcHhyX3JVTTVHcWtSLVZ0MmlFcXVqbWY0TmV2dGpPQmt1dFg4WFJlX1FkcjFkQ1dSVW9ROUxDZEgwNG03Z0ttOENUMXdLOExkTzFFODV0MjBUbU5pelRkT3ZRZFdNNEdTTDgteVA2aWkwTWtrQnNvdy1rRDM0bHFfN2hMX29RLTdqQzNyQmdUVEFuaVJ6ckQtcnVUSElkY1VtWFExRXJVMGZGUDJPbFVkVWcxcHdSejlDcFU5X0Zsc1BJOHhYanRtbG5ybUtOel9TcWVxd29xc3NoU3RFUTBZSHBsaVNOeWdGOTJvT2VYTzJRNG0tU0NkVlpqSkVHeWs5S0NtM0s5Y0VBLXpWRWtON3hLUTF3U2F1ZzZRb2hTU05xbVJ6VHhNeUVHRldqZmpEa1pxTFlXaFNaN1Q2eFdvbzJSZnh5LVdodkptNEg2MFdxZUVR?oc=5"
-    },
-    {
-      "name": "Andy Jassy",
-      "role": "CEO",
-      "org": "Amazon",
-      "cat": "CEO",
-      "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 06:30:49 GMT",
-      "source_name": "AndNowUKnow",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#AMZN"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Amazon Announces Third Quarter Results; Andy Jassy Shares - AndNowUKnow",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS0xqNlFURW9oaTh3YzE1S0R0SjVsNkpMVDE2QlVDbC1kSF92b0RsazlJdHdoS1R0ejI0VmI3V19SdV9VeDFSNU5JQW1wV3FaSjZFM1lJeXNzNmhqV1dWY3JVaXhaSWpTM0xfem9VOWtIS0RDV3c5OExIUFloTjVibERySFJseEt2NXA4WUhlZXZKR1pYRXRVRk9VY3BfcWZTSFh1cVlXbEQ1b09KZEJvTFpn?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT1ViMkxKTE15Wm9KMEItWFNSbEZMd1hER0dQRWg4TThhMEt4Ny1LNlpyNEpQN3JnVEdvRFZGWV83bUYzbjFKV2RxRjRmamNTNDEzY0Q3WEhHMmlrWUFOdVZuZzlnUmlvdlBLd1ZRZEF6eEtvWGNlUmpHRzlYOFJ4UnpiZG42NHlncF8tc2tiajNBU0hTNzV3Q0NR?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -226,21 +181,20 @@
       "org": "Intel",
       "cat": "CEO",
       "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 07:55:34 GMT",
+      "published": "Fri, 30 Oct 2026 10:15:39 GMT",
       "source_name": "Wccftech",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#AMD"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Says Nova Lake Will Fill The High-End Client CPU Gap, Coral Rapids “14A” To Be Competitive Against AMD & Next-Gen To Take The Lead Over EPYC - Wccftech",
+          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Breaks Silence On Quantum Computing Acquisition & Says Intel Will Become A Full Stack Revenue-Generating Quantum Company” - Wccftech",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmJ3YVI5X0JydGNQU0R4V25DQjlhbGZ5dndEOVdwMU5mQzdhcWN0Zk1RUURGeVZWcGNOMFBzWk5xeVltSmhaVXp0VlhqOE5Tb0xCVVpOcFFsa2pVanFTcVdYQU9DSGd2VVNfcURIV2pxLURnY01wT3d5dmRqcDl6UVdMenRIeGoyeHpIOHloalc5NkZFTjdXR2p4ZFdXVVRHbHJVbGdRX0VoejNST3hZM0lZeS00d3lENEHSAb8BQVVfeXFMTW1tbGE3Z1FGOFVaY1ZyMXFsaDY2aUM3ak83U21CMXFyb3NfcEVrak1UTzlFbkh0MmJiVzFram1Td0lFVExlZ05BTGt6cDRQX3NZTUZfZ19jbGVFbExkbV92MTk0QTVOSWtUYXNDemswU1pOdVZ4UkY1MWtXMG45S3FkUDZabzc0cml2WHlUNkl6aEFUNnRGcFdIbGE0cy10SUlNN3hQOWY5SUIyeC1KR0NEaHJMRWNDa3RnMTZFZ2M?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNVVFN0lqMFdfYW9kM2JQWkVHRkFFWTQ5S2lGdGlFQ0FheHpSc3Z5OFBmbGRQaDZrVEhLcC13MkNYTHdYdHZlRzh4cF90YkIxR0I5dW1OYndBRlE1SEtHbVJTY214MDNxY3VyZTRzZFFyRnRyRHZIeVJKOWEwQ09OQm1JSHFHc2VzTm93NWtfV0RQeGZfRmhfRnhsSERjdFo1QjJLV1pmNklsZDM4bGM2dFlPWXgzUjczbmszRGNidUg0MlRhRzBiV2g4Ri1mOGxSLUFMX2F1OW9IV2EzZ0pISmR3V2dRNW00b2E3UF9DWjAwNjDSAfgBQVVfeXFMUHFrSk90ZEFYTGh4VDdnamdtR1BmM0Q5TEtCNnpzTF96NGpKMDAtODJ1ckxFdUJXNmFseG9oWWFHOVJfZjBEQzBzN0ltUVNrXy16dFk3Mm9kak0xX2ZLUlludTN0VVpyeXlhcHhmZlNoV0tlY2FLRmZsT1dJZDB4eVRZOVJfOUNVXzkyWVc0ZEdnU1ItRFpLRUtlQmxoMVFHRzZQMmRFYWpoOFk1T09uR2lNN3lfWVRDOU04dnVmTDg0U1RndzRYbllsUFByT2NOck9CZ2JfZlpBY3p5MUpVWVh5RkxzcWY0RTRWbFJQNXpqVnRGRVhuclo?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -248,7 +202,7 @@
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 00:14:00 GMT",
+      "published": "Thu, 29 Oct 2026 19:21:00 GMT",
       "source_name": "Barron's",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -258,11 +212,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Want to Be Like Larry Ellison? Then Borrow Like a Billionaire. - Barron's",
+          "t": "Headline signal (not a direct quote): Want to Be Like Larry Ellison? Borrow Against Your Securities Portfolio. - Barron's",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZTRaSVRvM1ROOF8zemczYXJLVlhoYWVYajd3VmM4dzVySWtYcUNKYWRMaThpdDFHOFVYbUdtYTlmNjZyb3NNTVFzQ2tHQ0NLQVR4MjE0Vk5KRUM4TUpRUzJnWmNJcEtjYld2Z2kxOC1IMzFXd3NHS1FGdEdKZVlJaGswVklfUXVEcmlyMk53?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeUhhU21oc3FUSTNmMFE2ZTNLZU5BTUpPLTcyRlRLamtWQThWRlRRNTcwZTJJLUJSbDY5WVZWZUJGSl9RMWNiYUpZdk84am9Ka1ZaVk5Kd1o1SnN2U1JFdmZaWTJJVTBYX3pFd1ZMNHZJWjZNSUZla0hMb2EzaUYxUzFnVFMxOWZEazcxNmwzWXdaM2tOZ05ITG5QdF9uSW1YTUNXcU5lSQ?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -270,20 +224,20 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-10-30",
-      "published": "Fri, 30 Oct 2026 06:01:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Fri, 30 Oct 2026 02:09:00 GMT",
+      "source_name": "TradingView",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK Invest Loads Up On Joby Aviation Stock Ahead Of Florida Air Taxi Flight - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood Isn’t Done: Ark Adds Joby Aviation For 4th Day, Buys Cerebras Stock After Short Report - TradingView",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRDlWRkoyUFF4cTRNNi0xTUVvWUhkaXJiVGd0NXNZcGJMb2tvY2RybzZzZm1HQV8xZnp2NGp4YVZBekQ5ai1ydHI3SmJhSndkLWRUbFRVVXIyWkM3UHc4WXJkUkZCV3l1d3VFdTlJSGFxX1RtOWY5WG5wN0l1QjdLTkFsQTg0TC1PdW1ETFhnN0V5NFk0MERCNA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWGJzaTRObzhMOWhsN0JQc1JlbFprb0loM0Z0RmRWQXBCSUI1R01obXAtTG1uMlN0bFhrLWVsRmdSbk5CMzVZdHNOZ29WanNLbjRGRmZYOThUNjRHaUE3dVk4WFVBcDlWOEJoUS1mYkJhdWxpbmswRzU0S3VHVmktSk4xVmNRbjladkJ6ZVAyd0lHeXZnQ2h1NW5pcWdOVDJSNGRTc2k5ZHJpUE5iNlp4X3htRlBqT2R2WTN5LUtJX2dFUmdHTlZRMzJsUTFSbElYbGFKODVRb25RMDBDVF8xY0liQzMzaHV4T2ZB?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -349,14 +303,53 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdUVTZTFjeFI3a0RMOGV3dmVlcmNuUlhOckRmTXdLSm9xWjRoeVMtckpIWEhONkZGeXhWTmhLOUl5T1BTNWlCMmRVMDJSUG5wOFp6b2Rva2NwOXpYWUhfNWdSNU5CSFcyQnhPS2UwSENlUzhWaEp6U1g3Y2NZblBKS2R2emoydUM4TklIMjRkNVppV0E2bjQydHJZWjgxZw?oc=5"
+    },
+    {
+      "name": "Vivek Arya",
+      "role": "Senior Analyst",
+      "org": "Bank of America",
+      "cat": "Analyst",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 11:36:29 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Intel faces a 'multi-quarter' issue balancing PC weakness with AI data-center gains: Vivek Arya - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc1N5T1NaR1VOVnRYd3UyNWhsNGlMN05IVlNQVk5RWjNXOHBGd29VaWphMGRGSFdaVURjZ0Z5eXZaNnJrNEVOc1RDUEpvb21Ua3otdXZ3cHlSbG0zZkN6aG5INnd4YjBVOTVsQ0tVZXRpTklYaWVhNGlJb05oOWR4Q1VGOEVTalFDaklObTRhUmI2MUI5UWs2NWF5ejdXNXlzRncyMWZ5VUllMEI2ZGV3YmI1Rkk1TEd0QWx0OW5mR0l1R2pjODNvWkdWSW4zUlpF?oc=5"
+    },
+    {
+      "name": "Patrick Moorhead",
+      "role": "CEO and Chief Analyst",
+      "org": "Moor Insights and Strategy",
+      "cat": "Analyst",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 15:18:35 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 10,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Intel's prognosis is 'very very positive,' says Moor Insights' Patrick Moorhead - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRjRyZFozOGVUbW9kWmF0YUpUdmNkMnlkaDRiY2QtLXZNOUE0eHhpVFJoczYtQWZyb3prQkVxRjc5MjNDMkNTU1lhU05aNWhmT2Fvb1FwZGdQaV9Dc1R6c2M1UEhTazVzRDhieWhrOWx5V1FxN1NaZU9qZU9haEppQ2tIRktEejFWVDgzUXdXZElHRVZFNElyWGVGUXZkOTNrM2tqV2VydUsxWUlyVTQtN0I5YXlyYkxh?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
   "fresh_signal_count": 16,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
