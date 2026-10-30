@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T03:27:04.089796+05:30",
+  "updated_at": "2026-10-30T15:52:07.858273+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -89,35 +89,57 @@
       "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWHV0Z0tQZ3NsRVZEcjA2d1JyWXd4WFh2QURnb3Z3QjNsbnlqRDF6X1hzY3hJOGw1c3o0X0JHRm11N2RSM3dZdU8tSEpld0ZrUUlDY3AzcjFXRmJkZUZMa3JNSWZKVXNfS0hScktHRm82U3V0RHJvNXgwdGlzSXlhcEs3ZlVlV3pSQzlhNElxcXJFWFVUdjEwbw?oc=5"
     },
     {
+      "name": "Lisa Su",
+      "role": "CEO",
+      "org": "AMD",
+      "cat": "CEO",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 00:07:24 GMT",
+      "source_name": "Stocktwits",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Lisa Su Says Customers Want 'A Lot More Compute' — Sees 'Tremendous Momentum' In AMD’s Data Center Business - Stocktwits",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeGx6anY5dEJ2OVhrelNpV3hHdjJmXzdOMXh6bDdBLTlGYWZxSS1JYnhFX0w4TkM0RWRnU1psOWJhQUxJQnktNE8wUnd0N0QzMWpXZlE4SnU2cklfX1J0SFVYLVdXd1d2UVF3eTA2Mk42QURHekFSRDIzendkQWRjdGU4LU14SVhtbVJMaGVfYkpDOXVhbS11VWpCMkVpcXRvTC1YNXdUV05RQnBBSWlQcUsxNG9CcEZ5cXFiYWRVRzdSeVUwQV9sUTBBV1NkaEpM?oc=5"
+    },
+    {
       "name": "Chamath Palihapitiya",
       "role": "Investor",
       "org": "Social Capital",
       "cat": "Investor",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 13:22:58 GMT",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 08:11:47 GMT",
       "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#MU"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): 'Nvidia is Boeing': Chamath Palihapitiya and Ken Griffin Back Viral Analogy Comparing AI GPUs to Airlines - Benzinga",
+          "t": "Headline signal (not a direct quote): Micron, SanDisk Stocks Remain Far Below Highs Despite ‘Exploding’ Memory Profits — Chamath Palihapitiya A - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQb0J4SzVYSG5qcUZzcWtUanBtYTF4ZEJ4MTlrVk1oRzFpcWxXYURwaEtPc2l0V1pNV2VXclIzTS1neWZMQzlib1FjUEpuYzFBNTl6YkxUWjZfaEZzZ1ZZc2R4Mnd4akl3T2FuSlhqekd6VEZSTlJHSVoxUkpNcHpjUjVTQmhjaDlhbXlrWF9iRmljcjJsV2owSU9zMkZMU0pEai1qSTVKbVhocS1PU3YzdUxYN1pqTXYwVXJYZmJxNFBpQlcwU2YwUWNTb2VzZnluZGhsQlFRUzk4SGt1VFI4TFBvTm1NR0FndXlj?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcmZRR2FKZnRDSVY1VDJxWi0yTWU5T0dtdWhfekx5SVdwR19XZUQyMVJPN0tXMlpwSWtXamowYi1TN1lMLW1nVG5XcVJ2Zm0tOUpHejdfNmFuTFh0WjdGd096SWNEN2tZcEJlaGtOZ1d5a0FkMHFFQXh5UDVaRWM0dU1nZkkwcUFiVmZlZWNNM3NCR09Hd3dwZm1CT3FlUlU2Mk11SGw5bFhab1JyTlNBel9ucDV1M3kwX0JaTW1ndHA3UGhQdTd5bnpyU3J2X2pYUllmN2NybDRWcGk2Y2RmRlZiZnVJZVctYzhlclNpdGdRTjVaZmtV?oc=5"
     },
     {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-10-30",
-      "published": "Thu, 29 Oct 2026 18:57:29 GMT",
-      "source_name": "The Economic Times",
+      "date": "2026-10-29",
+      "published": "Thu, 29 Oct 2026 16:05:00 GMT",
+      "source_name": "BigGo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 10,
       "themes": [
@@ -126,11 +148,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): X factor in Musk cocktail: AI synergies are real, but the proposed SpaceX-Tesla merger has red flags for s - The Economic Times",
+          "t": "Headline signal (not a direct quote): Musk Weighs Tesla-SpaceX Merger as Idle \"X\" Ticker Becomes Market Talking Point - BigGo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPWUhBamh1bTFfSUdOT1JuZkF0aUdjR1FEdmFKUWlFeVdSdmE3aEtQdUVSaXpSdEdSVE5BNXRCSDRwSm9pNWpmUXE0NXhnLW5hdGFHWGNGdl81d0U3Q2RON1JPWWFRZTMwRzdzVDdLMUc3ekE3ZEM1VWw5LVZhT1lFNWc4UFhaZ3FhZk14ZXJpV0Mtc21sVmdoX2dtYTJlOURkMVotM2JFMVJjSUJMTnVNQVRqdVAyY2RDSVU2VGlKbGVvNFFwY1N0MG1FNkxCeC1Sdmp0VUhXT19GdXNSY29MVk53b1ZleVBSeW5ubXF1Y3o3cUdiRzZneGgwOVZqZ2RVdHY3aURQMGFXV1RXZWhCclR3S3JfRldaeURj0gGgAkFVX3lxTFB6enBRV21IdThQRXF1dlBaNkdPMnRGR0huMkVXM2N3NjE4eWJjWFB6VjkweGw0NUM2QmwxaFlNNVNBM1pRR1huV2RHOWp1WHBacUhNOG5DeGhkT2NkRnIwQXEtYjVLOWxMWUpDTmM5YmtJRkFRVXBlRDlaT1hlUTB2SVRucjczcUF5ZEh5WXN4anVZV09UUDRyTF9uZkNJQjNhbUlUSTRDcjl3TDlrcUZzSWR1VXlFRVdXOENjS3JTTm04Y25OM3UxczRsdUJnWWt2dEN3TnVvUDVnTzJXQ0FsN0tCaDMyRU1xUUluOENUenF2TXRYbWVza2l1Z3NpTDZRcFg2NGRQWnJjU1hGdnpkZi1oTG1UREtZM3BhMUJRVg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94V1BUbU1WZ1FBcVh4V2JPeEl3OExVajZYLUVRazBfM3NaY1dEVWRtbUlodHBwanJkcDhyRlNRdlV3anVIV1M0NXRQbXoySTV6Rmh0RWkwVl85cldmNDZ3Tms3RFYtV055WmUwNGFhYWZ5OVE3YVE?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -159,8 +181,8 @@
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 14:20:00 GMT",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 03:03:00 GMT",
       "source_name": "The Times of India",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -170,42 +192,42 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Google expands ads in AI-powered Search internationally; CEO Sundar Pichai says queries are growing at … - The Times of India",
+          "t": "Headline signal (not a direct quote): Woman dies after ChatGPT convinces her to change her medication dosage; Google CEO Sundar Pichai had flag - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSHJHajl5TGVDblVpZEFfMW4yRmpJYk8tVklUZzVjc21EUVY4bVFuQmYzTk1odno2cFZmczkwV0p6bnBwMDMwbmFIZHhHV3R2cTZHZG93bjBZU2ZId293bktCMlktTFVXbWRyWFVObVZhNlRWdGRqMnUyQ2lSVG5laTJlTjVRR0lYdDl6ZWtGeVBXUjVLbFFnRGpDQUVRaW0tRjBlTTdZbXIwSXZPWnZYaUM3YWFURC1ES0ZVSGhrS0IxdkpsUThHYlkxcnpiWGIzR0psZU43d042SjlCejFvM0VjVVdxVHVKNTZoc285ajFWcXhWbVduOHVTYU5qLUpmei1KOW40cWgxcjVmdkJTd3FQUdIBmAJBVV95cUxOVzlMLVV5aEc0RnJ2RHpPMWFteC1fZUhyZjNQVWpnd1piampjV0x0MHU4SUtndUd2MExEQ0dpYi01RXRRSzk2bXVsMkM2OHpRR2prNThDWFl4LVFkRlhkR0dITlJJRms5VTFxd0ZrWHJYYVlTQ1E3dXlfNF8yZ1o3aDUzOU0yTGJQdFJaS2dmb0RycGZ1dVNWRG1Rc28xczY3bU1GMTJ1alJ2b09VdjQ4bjVoMGUxYm1FMXhTOUVNQnJCSWVaVDU4VjNGSkY0dVZ6NGxGRHdJS1hxREVTOHM4bkxBcHJmTXlIWk5LQkhNUDI3eU5tZnJfVWtSdzhUTmxaV0JiMGpUSWtMTU81dWlySTJuVWE1UW9X?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQNUl0cllOM0FKcVNQc1Zqc21Ydng1NzlLd2xlUkhQelNyV3MyU2FNSmJDQWxIRDQ4b0NTRWpRVzdsc05WZE41bzNodVprSVN1bG10aExWQVB1YjB5RDNYTHV0MkFNSzJTSTV2VXFBUG1DZG45VXFmdFZDUzJFTFgtZHM0X1ZnbkZkS2JWY21oaXhvU0hLZEYxTGFTeDZfNDE1U01xYlFpOVA4YThZa0hDSzdDQ0o0SFJGb3h1QmUwWlB4UmlaOTE2M3NNRnk2NEFCZ2JCQm1IdWVFcHhLLUE5OVNRM0lKRkRMOEhrR2ZWclF5ODllUGpNUFRsZkhQdWRaYmctNlg3Uk1ndkRqNUN0ZkV6VC1PQ2xZT2o5cmlmYWU1d1dULUh5MFZob3kxWVdTUWs0VVk2VTJIS1cwdTYzUmNUelRBT2dHcG9SazMwSTnSAdYCQVVfeXFMT1pmcHhyX3JVTTVHcWtSLVZ0MmlFcXVqbWY0TmV2dGpPQmt1dFg4WFJlX1FkcjFkQ1dSVW9ROUxDZEgwNG03Z0ttOENUMXdLOExkTzFFODV0MjBUbU5pelRkT3ZRZFdNNEdTTDgteVA2aWkwTWtrQnNvdy1rRDM0bHFfN2hMX29RLTdqQzNyQmdUVEFuaVJ6ckQtcnVUSElkY1VtWFExRXJVMGZGUDJPbFVkVWcxcHdSejlDcFU5X0Zsc1BJOHhYanRtbG5ybUtOel9TcWVxd29xc3NoU3RFUTBZSHBsaVNOeWdGOTJvT2VYTzJRNG0tU0NkVlpqSkVHeWs5S0NtM0s5Y0VBLXpWRWtON3hLUTF3U2F1ZzZRb2hTU05xbVJ6VHhNeUVHRldqZmpEa1pxTFlXaFNaN1Q2eFdvbzJSZnh5LVdodkptNEg2MFdxZUVR?oc=5"
     },
     {
       "name": "Andy Jassy",
       "role": "CEO",
       "org": "Amazon",
       "cat": "CEO",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 14:59:57 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 06:30:49 GMT",
+      "source_name": "AndNowUKnow",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#AMZN"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Amazon Earnings Prediction Market Preview: What Will Andy Jassy Say? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Amazon Announces Third Quarter Results; Andy Jassy Shares - AndNowUKnow",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ0FMV1R5WU92Qzhfb2lUWDdua1l4LXk2Z1Vydkk2XzRweGhsSUVJTkdPVkJtZkZsbFVXM1ZhdXViMnM0RTAyd0QwangzWUFrVU95ZGg0S3h5emNldnRkbThKX1MzS2M2M3l0Si1ESzd1TnhQVUoyR1g0aU1SYkZ5WXc4ekdpZ3Zydms4Yk9IZG9ITXFBZENYdGVBaVJYWU5rZzRGLTBzSTBMdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS0xqNlFURW9oaTh3YzE1S0R0SjVsNkpMVDE2QlVDbC1kSF92b0RsazlJdHdoS1R0ejI0VmI3V19SdV9VeDFSNU5JQW1wV3FaSjZFM1lJeXNzNmhqV1dWY3JVaXhaSWpTM0xfem9VOWtIS0RDV3c5OExIUFloTjVibERySFJseEt2NXA4WUhlZXZKR1pYRXRVRk9VY3BfcWZTSFh1cVlXbEQ1b09KZEJvTFpn?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
       "role": "CEO",
       "org": "Intel",
       "cat": "CEO",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 01:44:27 GMT",
-      "source_name": "TechPowerUp",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 07:55:34 GMT",
+      "source_name": "Wccftech",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -214,11 +236,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel's Lip-Bu Tan Discusses Possible AMD Cooperation, Lays Out CPU and Foundry Plans - TechPowerUp",
+          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Says Nova Lake Will Fill The High-End Client CPU Gap, Coral Rapids “14A” To Be Competitive Against AMD & Next-Gen To Take The Lead Over EPYC - Wccftech",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLUllUE1SU25naVdCYm43QzdsaWMzX2t2SU9JUk1GS1QyMVV4MF9WUjk2Y0E4TTRCV2NENW0tbl9ycDJxUDdRN01mWjl4V1huU3VXRXUtTDYxeWJOeTFpX1dQaXQ5M09vNUhHTWFsZ04zSzA3Q28wSzV6NFRIUXBJcmVmSUxOeTEtaGFwSnlZS1U1TVA0cW9OanV6UThyWnUycFpFUEdrR3lVazczTkJuanUya0lMSGlHVGfSAb8BQVVfeXFMT2lYR0tfd0VPNzFzLVJULUhWbl9ycUdiUUdFUnU4U2UyQng2eXBtc3ZzX0VNeEF6Uld5OU1ZQzlwaGZ5alRvOHVPWkRiRXdVR2xaOTlyaEhCUGk0d2pIUU9PSGtOS1lyR2E1VVNkNnNzeG9qNWN4TjNya3pmVllBaVltZzBvd3lEZWZyQXozcnA0U25Xd1AwNHlPVTdJRFVrY1ZVSXh2bTUtNTdTY0NGTi05YmR2TkpYMmtBQVJ1QXc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcmJ3YVI5X0JydGNQU0R4V25DQjlhbGZ5dndEOVdwMU5mQzdhcWN0Zk1RUURGeVZWcGNOMFBzWk5xeVltSmhaVXp0VlhqOE5Tb0xCVVpOcFFsa2pVanFTcVdYQU9DSGd2VVNfcURIV2pxLURnY01wT3d5dmRqcDl6UVdMenRIeGoyeHpIOHloalc5NkZFTjdXR2p4ZFdXVVRHbHJVbGdRX0VoejNST3hZM0lZeS00d3lENEHSAb8BQVVfeXFMTW1tbGE3Z1FGOFVaY1ZyMXFsaDY2aUM3ak83U21CMXFyb3NfcEVrak1UTzlFbkh0MmJiVzFram1Td0lFVExlZ05BTGt6cDRQX3NZTUZfZ19jbGVFbExkbV92MTk0QTVOSWtUYXNDemswU1pOdVZ4UkY1MWtXMG45S3FkUDZabzc0cml2WHlUNkl6aEFUNnRGcFdIbGE0cy10SUlNN3hQOWY5SUIyeC1KR0NEaHJMRWNDa3RnMTZFZ2M?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -226,7 +248,7 @@
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-10-30",
-      "published": "Thu, 29 Oct 2026 19:21:00 GMT",
+      "published": "Fri, 30 Oct 2026 00:14:00 GMT",
       "source_name": "Barron's",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -236,19 +258,19 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Want to Be Like Larry Ellison? Borrow Against Your Securities Portfolio. - Barron's",
+          "t": "Headline signal (not a direct quote): Want to Be Like Larry Ellison? Then Borrow Like a Billionaire. - Barron's",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeUhhU21oc3FUSTNmMFE2ZTNLZU5BTUpPLTcyRlRLamtWQThWRlRRNTcwZTJJLUJSbDY5WVZWZUJGSl9RMWNiYUpZdk84am9Ka1ZaVk5Kd1o1SnN2U1JFdmZaWTJJVTBYX3pFd1ZMNHZJWjZNSUZla0hMb2EzaUYxUzFnVFMxOWZEazcxNmwzWXdaM2tOZ05ITG5QdF9uSW1YTUNXcU5lSQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZTRaSVRvM1ROOF8zemczYXJLVlhoYWVYajd3VmM4dzVySWtYcUNKYWRMaThpdDFHOFVYbUdtYTlmNjZyb3NNTVFzQ2tHQ0NLQVR4MjE0Vk5KRUM4TUpRUzJnWmNJcEtjYld2Z2kxOC1IMzFXd3NHS1FGdEdKZVlJaGswVklfUXVEcmlyMk53?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-10-29",
-      "published": "Thu, 29 Oct 2026 05:47:00 GMT",
+      "date": "2026-10-30",
+      "published": "Fri, 30 Oct 2026 06:01:00 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -257,11 +279,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): HOOD Stock Heads For Worst Month Since February: Cathie Wood's ARK Loads Up Amid Dip - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK Invest Loads Up On Joby Aviation Stock Ahead Of Florida Air Taxi Flight - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTnU2eHlWN1FicThpTzU4LWttU19YMV8xSFZuMk9pQWRNNzFXTVlaUUNtXzg5bS1GencxeWdjWF9JaGxmbV9zejduRUpvaFlKclZOOWtPSkp1amJ5enFyNGtoTDFLZTB0N1NQdGdfUjlPUWRDVXpTb2J1TUV2NE1Ra1llMkh1VEZibWRaMUVFZnlmTnpCOVZoYQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRDlWRkoyUFF4cTRNNi0xTUVvWUhkaXJiVGd0NXNZcGJMb2tvY2RybzZzZm1HQV8xZnp2NGp4YVZBekQ5ai1ydHI3SmJhSndkLWRUbFRVVXIyWkM3UHc4WXJkUkZCV3l1d3VFdTlJSGFxX1RtOWY5WG5wN0l1QjdLTkFsQTg0TC1PdW1ETFhnN0V5NFk0MERCNA?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -269,7 +291,7 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-10-30",
-      "published": "Thu, 29 Oct 2026 19:27:36 GMT",
+      "published": "Thu, 29 Oct 2026 22:12:10 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -279,33 +301,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer: Why investors are punishing Alphabet and giving Microsoft a pass - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer says Microsoft is winning the AI spending battle — and Alphabet is paying the price - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaTlWMFdacHowNTlmRXRHODZCenZ0NzBscTFIMTExTTBTTENUNXRlZmZ4TVJ4M1k2Q1FjOXA3em5HdVFKZEJMWTdGcDlHRy1EX0FwMFU2WjVKMXduVGk1Tk1WWnlfOVg1ajRyemdhWUo5OGJPTDlYVnEyN0dIWncwMEVpazE0bjMzUklVQ01ZdzAtc1JLZ2syR2hKel9MN2pTaVVLOWxqTElKcThoVzZreHlkVF9IbFNGSHVreXowZVpfeWFu?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tMW1oVy1WYzJES3ppQW01WEUwazM4WW52cXVhMGIzUHR5Nlk5QURFUTEybW1jRVZpWmI4QlRVUnVGZ1BacTBOZUdrYUFyR2o4eG5SM2tTNXV5dW9WLVdHcC01WVFLRnpoMFEyUC1sbTZPdG5rNVlQWVVzdm5mVjA?oc=5"
     },
     {
       "name": "Gene Munster",
       "role": "Managing Partner",
       "org": "Deepwater Asset Management",
       "cat": "Investor",
-      "date": "2026-10-29",
-      "published": "Wed, 28 Oct 2026 22:04:00 GMT",
+      "date": "2026-10-30",
+      "published": "Thu, 29 Oct 2026 22:04:00 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
         "#AI",
-        "#MSFT"
+        "#AMZN"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Microsoft results show software 'is doing great,' says Deepwater's Gene Munster - CNBC",
+          "t": "Headline signal (not a direct quote): Deepwater's Gene Munster talks how personal AI bots are impacting Amazon's business - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMjVLTFRObF9XMlNIWXp3M2hXbWt6bFlOZnpJb05iWTJ2TFFDbWtYLUxaWUJ5RjZ1RmFtTzNOMDBaM01SQmwtRW1qMXFMZ0NpdVc0b3RiSDE5ZEFBQkdFbEhyVW5aM2tQNjRhYWN6ZGdOcDl1SW4wNzJUR1E4X0wxT2RwTFNpa3QwWUFsakhiSlRwYkt3MEVGM2hpeUk1czd3dzc2U3ZnU1NnY0RNNkdvQUQxeVM1ODR4MVE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcTZhUXdwVnlTOGRDV29PaWgzTVJVVlhlaS0tR2lCTGk5cVRubEZtdHB4eE5WWHY5S0FyRUkwc0taNmhoVnpBQ05ZaHFxaFpvTlF5YWF2TERENG5qNUpqNWhSUHVya2J3WkpKejUtZk54OXNhU1FYMkxId2RaaUdZT0JVc08wcnhkVmVHZTZXOC1DZGNDZEVZR3FlUmN3elhWSzVHOVZrem1Tc2RsOGZNbERQMXlzTUFVMk1wRFNQMnFvUQ?oc=5"
     },
     {
       "name": "Stacy Rasgon",
@@ -313,7 +335,7 @@
       "org": "Bernstein",
       "cat": "Analyst",
       "date": "2026-10-30",
-      "published": "Thu, 29 Oct 2026 21:32:10 GMT",
+      "published": "Thu, 29 Oct 2026 21:14:28 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 10,
@@ -331,7 +353,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 15,
+  "fresh_signal_count": 16,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
     "code": "daily_research_limit",
