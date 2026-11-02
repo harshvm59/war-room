@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T06:49:39.153813+05:30",
+  "updated_at": "2026-11-02T07:09:43.628661+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -9,14 +9,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
-          "title": "NVIDIA Form 10-Q",
-          "published": null,
-          "reporting_period": "Quarter ended July 26, 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -76,14 +69,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/tsm-20261015x6k.htm",
-          "title": "Taiwan Semiconductor Manufacturing Company Form 6-K",
-          "published": null,
-          "reporting_period": "Dated October 15, 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -145,10 +131,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
-          "title": "Tesla Form 10-Q",
-          "published": null,
-          "reporting_period": "Quarter ended June 30, 2026"
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+          "title": "Tesla, Inc. Form 10-Q",
+          "published": "2026-10-30",
+          "reporting_period": "quarter ended September 30, 2026"
         }
       ],
       "questions": {
@@ -212,10 +198,10 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm",
-          "title": "Meta Reports Second Quarter 2026 Results",
-          "published": null,
-          "reporting_period": "Quarter ended June 30, 2026"
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+          "title": "Meta Platforms, Inc. Form 10-Q",
+          "published": "2026-07-30",
+          "reporting_period": "quarter ended June 30, 2026"
         }
       ],
       "questions": {
@@ -457,14 +443,7 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
-          "title": "Microsoft Form 10-Q",
-          "published": null,
-          "reporting_period": "Quarter ended September 30, 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
