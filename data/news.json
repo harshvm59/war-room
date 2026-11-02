@@ -1,62 +1,83 @@
 {
-  "updated_at": "2026-11-01T16:14:24.385195+05:30",
-  "source": "openai+web_search",
+  "updated_at": "2026-11-02T17:05:27.659916+05:30",
+  "source": "google-news-rss-fallback",
   "items": [
     {
-      "ticker": "QQQ",
-      "headline": "The AI trade’s trick-or-treat earnings season",
-      "date": "2026-10-31",
-      "published": "2026-10-31T10:45:06Z",
-      "summary": "Axios reports that the Nasdaq briefly entered correction territory after hyperscaler earnings highlighted both AI growth opportunities and risks, including pressure on search economics, uncertainty around private AI investments, and the possibility that heavy infrastructure spending could become problematic if demand weakens.",
-      "tag": "AI spending risk",
-      "url": "https://www.axios.com/2026/10/31/tech-earnings-ai-hyperscaler-risks-trick-or-treat"
-    },
-    {
-      "ticker": "GOOGL",
-      "headline": "Google’s AI transition creates both search pressure and cloud opportunity",
-      "date": "2026-10-31",
-      "published": "2026-10-31T10:45:06Z",
-      "summary": "The report says AI search features may pressure the margins of Google’s core search business while Google Cloud and demand for its TPU chips provide an offsetting growth opportunity.",
-      "tag": "AI monetization",
-      "url": "https://www.axios.com/2026/10/31/tech-earnings-ai-hyperscaler-risks-trick-or-treat"
-    },
-    {
       "ticker": "MSFT",
-      "headline": "Microsoft and Amazon earnings raise questions about private AI investment effects",
-      "date": "2026-10-31",
-      "published": "2026-10-31T10:45:06Z",
-      "summary": "Axios notes that Microsoft’s OpenAI investment and Amazon’s Anthropic holdings affected reported earnings, making it important for investors to distinguish underlying operating growth from gains tied to private AI investments.",
-      "tag": "Earnings quality",
-      "url": "https://www.axios.com/2026/10/31/tech-earnings-ai-hyperscaler-risks-trick-or-treat"
+      "headline": "Does Microsoft's Prudent Approach to the AI Infrastructure Buildout Make the Stock a Buy? - The Globe and Mail",
+      "date": "2026-11-02",
+      "published": "Mon, 02 Nov 2026 09:54:40 GMT",
+      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPcmtUZENGQl9NMmZfYy1zM2YzRUNKN2Z2N3Q0ZHdxMFlqRFJZbGE2MVhkTk1sUmNrMUUtTWNEZEhvX2xLMjBzSE55Y1JlY0hUdkN4bDF4Um0wUVowLTNjM3RaVHFMRFdDcV82ZEZQME05d19iTFVpNnFrMkloWV9lNmt4X3cxZFNzWG9uUDNDZXhhcVlRWms2ZTNsUmJHZ2hUc21GTmdyb0NDZTJkZWhXNU5mMU1nWE5ZNVc1eHlwdXVHZmVqMVF5SmRxNU1SeG43LXB4U0JsczBFaWVid0I1R3VzOVZKMEVWNnBaZ1RnQ0pPUHBpckJ0ZUNYZ0oyX1FEX2oxLTRR?oc=5"
     },
     {
-      "ticker": "AMZN",
-      "headline": "Data-center elections could affect planned AI infrastructure",
-      "date": "2026-10-31",
-      "published": "2026-10-31T17:00:07Z",
-      "summary": "Axios reports that gubernatorial and local races may influence rules for 67.4 gigawatts of planned U.S. data centers, creating permitting, financing, and construction-delay risks for smaller AI infrastructure companies and neoclouds.",
-      "tag": "Regulatory risk",
-      "url": "https://www.axios.com/2026/10/31/data-centers-elections-wall-street"
+      "ticker": "META",
+      "headline": "INTC, MSFT, META, DASH, VZ: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week - Yahoo Finance",
+      "date": "2026-11-02",
+      "published": "Mon, 02 Nov 2026 01:54:00 GMT",
+      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV0tpQU02YlRlOTM3ZXJ5dllyYkRVb2Q4enN6V21vWkMyb3VvcDRqQUJSXzFlNkxseWxvMTliRi1yLXBIbTFLTUFub2dHQzYzdTFxUklGeTJleVNqRk9ZTGQyVHQ5b1pXQk04dXNRMVpsLWpTbzJ1T2ozUGNKRDdGOXl0VURBSkt2TUFuYVRqQU4?oc=5"
     },
     {
-      "ticker": "CSCO",
-      "headline": "Cybersecurity is identified as a downside risk to AI demand",
-      "date": "2026-10-31",
-      "published": "2026-10-31T10:45:06Z",
-      "summary": "Cisco President Jeetu Patel is described as bullish on AI demand but warns that a major cyber event affecting core AI demand could weaken the investment case.",
-      "tag": "Cybersecurity",
-      "url": "https://www.axios.com/2026/10/31/tech-earnings-ai-hyperscaler-risks-trick-or-treat"
+      "ticker": "META",
+      "headline": "INTC, MSFT, META, DASH, VZ: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week - Stocktwits",
+      "date": "2026-11-02",
+      "published": "Mon, 02 Nov 2026 01:59:19 GMT",
+      "summary": "Automated RSS market signal from Stocktwits. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQX0hyTTcwZ2dkVV9DRTJ4Mk9ld1FDdUhNbkRrdndHbnVmeElGSkFobzVfdU04NW43QzlrbERhU0FiWUtGMEF6V2tHMTJXaEMyXzZ4elNjRHpkRzB5SGhiSXhfbGdyenFHbUJVWDFLSFA3NHQ4RUVpcnYxa1k1NTlYbms3QXZYWkJaSldncVZyQTZrNkFuSDhZVEFzYTUxNDNtUklaMVMtdzhHNEtmV1I2cVZaR0E3Zkl1eEtuX0s1djVfVWtFNTMxQTNESVN6UGhDQllJamh6ZEJrQ0lReFdXM2VxMllsME5STldMTFhn?oc=5"
     },
     {
       "ticker": "NVDA",
-      "headline": "Political restrictions could disrupt AI infrastructure projects",
-      "date": "2026-10-31",
-      "published": "2026-10-31T17:00:07Z",
-      "summary": "The Axios analysis says a harsher regulatory environment could create project delays and financing risks across the AI infrastructure ecosystem, with smaller AI players facing greater exposure than hyperscalers.",
-      "tag": "Infrastructure risk",
-      "url": "https://www.axios.com/2026/10/31/data-centers-elections-wall-street"
+      "headline": "Prediction: Nvidia Stock Is Going to Soar After Nov. 17 - The Motley Fool",
+      "date": "2026-11-02",
+      "published": "Sun, 01 Nov 2026 20:29:00 GMT",
+      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSmU2bkhYVFltS0RkTnJINU9jaWF0Q253aWoyQnloT0ZDVTdfd2d2aEFlakwxcXdOSjE2NldxcEV4b0hTSXFwUzM5VGtwYVNQQ0pqVGg0a3p0SXhrUDRCM3V2Vm0xSk5KNWlpdjhnMGZsTFNOdU51NkExV3BQSjk3ZkJmRl9SbDAtT2toSlF3bFJRNXhFbHpSaA?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "Can SpaceX Overcome the AI Trade Sell-Off? - The Globe and Mail",
+      "date": "2026-11-02",
+      "published": "Mon, 02 Nov 2026 05:01:05 GMT",
+      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSHB2aTRlZ2VpWmltcFlBdzE0VTVVRWRlSHFwM1UzY1ZLXzBUS0NfcHk5YXEteEdzdEZWY3M0MklrQjdhTWpldGMwX0c3eTlKMVdFRjNULTJSdldtRzlJNHpMUDlXcmdpdlZucW10aGZJcGRxdDhkWXpZdENVOFMtWlFqN3FwNl80YnNSeXcxbHdsQnFZRmdUbGdQMFQ4bEl2RURtNTU2Ym1rNGhCbXBmTlA2Y3hsUEFFeGxGRTNXYUtBN0VS?oc=5"
+    },
+    {
+      "ticker": "AI",
+      "headline": "AI Stocks Are Getting a Reality Check, But Don’t Count the Trade Out Just Yet. Here’s Why. - Yahoo Finance",
+      "date": "2026-11-01",
+      "published": "Sun, 01 Nov 2026 15:15:02 GMT",
+      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR0UwaFF6YThPVmVsQTV6OTNVb1hZNkNFR1NaMzk3azh1aERwWWlCbkVOdW81N2VKbmNleDdxRFhVdUdGNVc5WVlSODRnUTV6RE5OcWVxenoxM3U0eXBzY2k1d0llUnY3b0doQ2VVWHVKRVZSUVRxOTc3QWFhdTMwUWNyQWtDX09CbXJOOTdZTjhnNXBWYThOVmlSNA?oc=5"
+    },
+    {
+      "ticker": "MSFT",
+      "headline": "Microsoft Stock Breaks $513 as Azure and Copilot Growth Support MSFT - TradingKey",
+      "date": "2026-11-01",
+      "published": "Sun, 01 Nov 2026 16:42:30 GMT",
+      "summary": "Automated RSS market signal from TradingKey. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOT3ZMc3JqbnRla0FJLXNWR1lxVUJ5eEE2NXdtRkZaRTAzdGRyb2MxaWNUZmRGMHpaclNzSzhtRTFETkROQlRCa2JZTFFzaWxLZ05oSkVXYUdqZ2FFZ3NXcHB5a2E2Zk1QSEprVEVmSU5UZ2hCS3U2NGlEbExneWpyTm1mMWZTNjlxcmRkMWZsU01Ecm5lMGFLMVdSaGdGZGh5V0JQUE9ubnZwNjh0bGFWUHQtaXZJUlNUaVdpYXlB?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Nvidia Stock Selloff Puts AI Hardware Leaders Back On Watch - Simply Wall St",
+      "date": "2026-11-01",
+      "published": "Sun, 01 Nov 2026 12:54:35 GMT",
+      "summary": "Automated RSS market signal from Simply Wall St. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbEVwQ1dwOWppeU1LN1dvWjhEOTh2blhZWjVVeE9OM0F4M1d1ZmhzRks1OTBXMkdHc1l5Y2dNclh2c1JLemE4NF9SbDdySXVKa0Ywc3NiaW9DUjdCMTc4a0pOenFkTGxnWDczMTN3UU1Nd0toSVE5VkV6bGczd21ZSHVDa3BoQjJ4UzRUb0tkY0s2VVJ2Qm9ZUzBpa29vSjhfVFJSSy1NUmJZc1A5dWNScUg5RHoxSHk2VzliR2xvZVU2eE16MzdFM2hOMzZSZV9qOUdtUFVzTdIB3AFBVV95cUxPOTd5Yjk2Vl9oWnAwZEJfck50QnV4N1h0cHY2MzlKSnBadWNXZmJBTDdBN0s4TmRDUWRuWHFhY0FwR2FjRFdKVkxOWmc4cEJ1eDRnUTdqN2YyaktmNDR2WnhxLXFHeDZvUFh5VXFMZXdXN1RaZUFJZl83MHpuaDhPY0pRMzRJaTNvTHp5QnVuWlk2WTBGbnAydXpIQm5wbjlyMnhFZ1JPd3R3MEs3eTVOeUVERlVUeURXdHV5NFQ0aFJnRGY0ZTk3NzU2MENUeUg0dUdpTm9qTkppRUlM?oc=5"
     }
   ],
-  "provider_error": null,
+  "provider_error": {
+    "code": "refresh_failed",
+    "message": "Refresh failed (ValueError). See the linked workflow logs."
+  },
   "fresh_window_hours": 24
 }
