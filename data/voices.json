@@ -1,15 +1,57 @@
 {
-  "updated_at": "2026-11-02T17:05:27.659464+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-11-03T03:57:21.411657+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Jake Dollarhide",
+      "role": "Chief executive officer",
+      "org": "Longbow Asset Management",
+      "cat": "AI-capex caution",
+      "date": "2026-11-02",
+      "published": "2026-11-02T05:57:00-04:00",
+      "themes": [
+        "AI spending",
+        "shareholder returns",
+        "capital discipline"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Dollarhide warned that companies may be spending beyond the point where additional AI investment creates meaningful shareholder value.",
+          "k": true
+        }
+      ],
+      "src": "https://www.investing.com/news/stock-market-news/wall-street-futures-rise-as-ai-stocks-catch-their-breath-midterms-in-focus-4990733",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Anthony Capuano",
+      "role": "Chief executive officer",
+      "org": "Marriott International",
+      "cat": "Travel demand",
+      "date": "2026-11-02",
+      "published": "2026-11-02T05:29:25Z",
+      "themes": [
+        "hotel demand",
+        "Middle East",
+        "travel recovery"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Capuano said Marriott’s business trends had improved meaningfully from the spring, including in the Middle East.",
+          "k": true
+        }
+      ],
+      "src": "https://apnews.com/article/stocks-markets-ai-earnings-oil-iran-048328e49e47ce7afe6c1fb9d9acf13d",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-11-02",
-      "published": "Mon, 02 Nov 2026 03:30:00 GMT",
-      "source_name": "Yahoo",
+      "published": "Mon, 02 Nov 2026 17:22:15 GMT",
+      "source_name": "Data Center Dynamics",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -18,11 +60,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elizabeth Warren Says Nvidia Board and Jensen Huang 'Owe Congress Answers’ Over Reported Spy Ties— Wants AI Technology Kept 'Out of China's Hands' - Yahoo",
+          "t": "Headline signal (not a direct quote): Megaspeed exec with close ties to Nvidia CEO Jensen Huang suspected of spying for China - Data Center Dynamics",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVUtDSjRBYmtVNEMyTFI4cWx6QXExckVjT244bW1uNTg3ZVQtdjZxVHlac1h5dERwTVBXNTlzWHNZUU9RSHhvYjdNV3FKMmpOYXRhS0l6eTZmNWVzMGgyMlVKZmxKZjA2aDRRRDJRdWpKRTRTdzdVd1BmT0dYQmV2bVB2dEJWanJsLVpHTTdsdDNVSUpzNl8tbGxB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNa3RreU1UNWpfRkNoTkRpb0VDZ3hHZ1o3U1B1QldScnRyRWZqeDdHZF9naXNrQVR1QnFIUWE3V2FGb1V5SEdPQjg5ak5lbVJ5MXZCdDh5M0xpSkpjZDR3UlZMY1BuOURqOEJwYzA1RnBfU0s0UlkyX0JoZE9DaFVZcWt1bjRYTEZINWhHemViVnRfQllzajUzUVFsVmxEdkJuVG9JaXVGd0JCUG1sLVR5MWVNU3lKQm4zX0lNOGdxRWpKdmlfQkhXOUhWcw?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -50,22 +92,43 @@
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-11-01",
-      "published": "Sun, 01 Nov 2026 17:16:08 GMT",
-      "source_name": "Stocktwits",
+      "date": "2026-11-03",
+      "published": "Mon, 02 Nov 2026 20:59:28 GMT",
+      "source_name": "TheStreet",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Why Dan Ives Sees NVDA And Korea Memory Stocks Driving AI Demand - Stocktwits",
+          "t": "Headline signal (not a direct quote): Dan Ives: AI sell-off is a “gut-check” – 5 tech stocks to buy now - TheStreet",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVWZDYnFKY09WaWVNQjZOUXVQQi1LS3ZfSTN5VG1SNFJ4VlFGN204TkowMnBuRzBWdk1peWJGWk9XYU43UXJRZmpjMnlEeExvUW5haGRJSVJMa2x5QVAtR2xwbmlsZ3Z1ZjlqN1M0OUc3cnZjanpxLURLQ052OWRlYXAxX013VTBpaUt4MVVkOG9ORVl3cHBjTjRlSlFzTGFqWERKVVdKMUZsN09adWQ4bjZEQjFPaHNjV2xfb0hsTTRKWTg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYTJ0bHBYdExtYjJkMHJ0WU5ab09ZTnpkZDBTSTBHRzMxai1xOW42aUtTemxFaG4xcThQdE9xWlk3MTZpbUxkUDRic0ZlY1NNOHdSaGFuQmN0SVNJS1dnQlRNazU4OFlQdFlqcWVhMXFIRnlxWXE1clRDSTlhT3BHWl9LWjZSYURXVDJSdGxOQVlxT0t0ZFE?oc=5"
+    },
+    {
+      "name": "Alex Karp",
+      "role": "CEO",
+      "org": "Palantir",
+      "cat": "CEO",
+      "date": "2026-11-03",
+      "published": "Mon, 02 Nov 2026 21:19:18 GMT",
+      "source_name": "www.marketscreener.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#PLTR"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Palantir Technologies : Q3 2026 Earnings Letter from Alex Karp - www.marketscreener.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaGhUTDJGYlJ6M1QyM1Z0c1AxMU5BU2ZXcDUxTE5vaHpYOVhTV3Y2Zm1OVG51anh0X1JuZUFIeEJBUzdPVEwtRXZOZWo5VS1DbzZGMnR1ZGc4NkptN2ZCT0NJNWJNRFlJUVBGaUsxaXQ1TXlHN2VyaXJjVzBFcUtCanpZR2szNUxsMmtQUjdyRmZuN2lUYjBYY3RGOEtzUjVkbzhVS2VxVnEtbG12eVJCQUxxNA?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -73,20 +136,20 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-11-02",
-      "published": "Sun, 01 Nov 2026 21:06:39 GMT",
-      "source_name": "Yahoo Finance UK",
+      "published": "Mon, 02 Nov 2026 02:14:00 GMT",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk says he is taking over an old Spam factory and a gun range to expand his Colossus 2 AI complex - Yahoo Finance UK",
+          "t": "Headline signal (not a direct quote): Elon Musk just admitted for his company's chatbot what is also the 'biggest problem' of all AI companies; - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdHFrV0dfZE1fSnZWLVNUZHdmNUNxbWxRMF9DZGlSN2tHVlJPTUNqRFdRUVB0OTVJdjBScUNXNVF6ZzlHYWtDSU9TMDhuMW9fVXdVR0phNS1DVWlLUnA1WHhncDZSdnhYTXlLYnlHNzJiX3dkam95bXozeWE5U1F4bQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQNUM2MmdCblplWU1NaEpFMEJvRlNSazRMdWw4TU1TOF9sRHFLRjRadS1xU0lSV1cwTEZJTXFmVElYU2JVMUI0ZndTbXJnWFJKQzdaSVRIcEprT2ExaXZLc0wzeFVnei05YkYyNmc5eHdvNjZtZ2lpZmtOOEVRNEk1bjRrOFVVLXJkMGhKNUE3WmJZODB5QlozZVUtOXNidU5SenljeG5nQ2V5UmV0MlRsNHpjSnN6T0JfNENfNkFPc2xVVVB2Q21fZFU3Y0NSeGt3ZnJIbDlrc3llUmlsQ3hpVEpHVGFsVDd4bTVteXZmTGd3a0hrV2FSY0lrOV9UajZfMW9aOVpnb1liUGIzQnA5clo3eU1BOU8ydUlnV0ZYUldUbzNBdEdxS1h3ZlVhS0FmN3BOeHpZeTFvQW1yZ1lBajJmZEJlbGdLbk1VWjZ2UDJpZTNRQkpnUXZ30gHfAkFVX3lxTFA0Z2dMdWFTSW5MMDNOb0taSXNYRmhFQTVsUzNkYkNGd3A3bmw4WnotRUZnSk1McW1xZENsZGtiaHJ6VElXUUU4SXdFWDNDZkwtWElqUXEwN3M5aXh5ampVSGNmTXlycmhjdVB2YnhFLVVnTnJyUmM1bjNwWmNUdVVXVFNKMEU3Q2RrckVNUFh3dUVIRFBMQjdHcWE3em5vM1lHV0VKbl9LWHNJLUpTMUNlMTZvcmlYYWY3UzZYb1pHczFmZXllcGlDNzV0SFlnd0JGbXp2Qkd1ay0yRzhBWWxRVmVkX2w1UG9BTHM1OXlyUHZ0TXBTRThpbFZJQjc5YWNiVDhaMi1KQmV3MHRGb3Q3TGtFZ1RsNmVzdmNsQTVkWUdITmlvVXVWa3JwZWlQaVNtaHNKVGRpMFNwaEYtZVJ0a3NWTHY4VjJOTlppanlLTnFwX0NMS3RFNW5DLTY1SQ?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -115,22 +178,22 @@
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-11-02",
-      "published": "Mon, 02 Nov 2026 05:48:00 GMT",
-      "source_name": "The Times of India",
+      "date": "2026-11-03",
+      "published": "Mon, 02 Nov 2026 18:32:50 GMT",
+      "source_name": "Music Business Worldwide",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Google runs its first AI prompt in space and gets a poem back; CEO Sundar Pichai says: We've now successf - The Times of India",
+          "t": "Headline signal (not a direct quote): Alphabet shareholder sues Sundar Pichai and 12 others over training Google’s AI, including Lyria, on copyrighted works - Music Business Worldwide",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQb0FoRHZMNHJUV1ZmdEVQODFYY2NHWFdvTlluS25OWjktOFJmTlpvbWc5SUZ3RWYxQy1uaVA2ODNyUDNBdS1HZm5zUlVxSlpiSENFY1R1MWcxNlNEVjhkUGNsbGFva3ZUay1Wc0dOdEkzZzhlZC1SVHAtUjFKbktBTEFtTjdGSjNFaFk0d3pjTWY0STZZWVZuMkM4Vk5UVUNsUXFEUEVTUFhhMlotRk4zQVIwUU5KdkFPeFEyTFZNOVNXeDVmUFlBaXFzbVVpRnNhMlhhQVYzWnZrU3FaTTRoZWZtT2w5VEhUTnRway1GOU0wamk2bG51X3czM29DR0wxNlFTUTNPSlQxNkY5RXNFbmZJeTdOT2hiYk5yc2xuYldtaVg3SDcyZXVlTnRGX0hNV282YlhuRW1vaERQVEV4VTc3YnZMeTJYT2Z3TjBWd21zZDVMZTdVdGZqNNIB4AJBVV95cUxQbjUwNG54NUk1TzQ1cFJTbmhZUlRIRmRuUkFIaVotUjF1Z0V3aFNBc1ZRNTNCb2JUWVZ3RUxhN09mb3JQZFdKMHRVZlhXclpidmc0aEs4LVJ1R256Q293YVRLT3ZHVDdDOXRMejh2XzRuNlVaZjR3SkZPa2tJdWkzOUZIeVNvZzExcldHRzUxWWx3cUJwTHBTdFg1MG11VE1FZDN5eDJDNlVTN3ZGTFBsRnllQUdjRFBWOGJBdlRHLUh4bGhoOUZOV2l3OHI5VXNyOWE4eTROZXFTb0JLM1NuVW5lbGwxejRzdTJ0WVdRYnB5My1pbkVZSklXZUV6WGNuc1pNMmpTbDZrVVctTlR3RDBMWnVEMHBrVmFZdjBENF9MRnc4a3JkUnJybmVIeEMzTFo3ay02MWRaZDdTalhfT3BZdTZwNzRIQjFHb2dEWk5jRnFoYjRuTTNRSkpURjNF?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTTNCTW9pY2kxQXhfU0VKWElsM21FZ2xxcFZYNUo3Yl9XOG1qRzFmR203Vkc0amdPWFRyV0lnNGQzdWhueEhUazFqTVBOSUtGTHJfckh0cFB2by1KLXR5OE9NeTZEUm5hX3hIZGI3MElHeWEyNENsdDVtZXBqZFZzaTUwazZXXzJFbGdtSUIxYU1IZkRCZkM0NExVQy03OE1PNkt3clNrQ0FLcXNxN056a2V5N2FFc0kwMTJsbklZUkRaOVJ2TWxOYnNuNUVOT2plQ1FCZzA4OEt5Q21sWDVYcVlnQ0ozVjdWUzNz?oc=5"
     },
     {
       "name": "Andy Jassy",
@@ -138,21 +201,21 @@
       "org": "Amazon",
       "cat": "CEO",
       "date": "2026-11-02",
-      "published": "Mon, 02 Nov 2026 10:44:00 GMT",
-      "source_name": "The Times of India",
+      "published": "Mon, 02 Nov 2026 18:16:50 GMT",
+      "source_name": "About Amazon",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
       "themes": [
         "#AI",
-        "#META"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Amazon bans Meta's Muse over 'safety concerns', then CEO Andy Jassy says: Few customers are doing much sh - The Times of India",
+          "t": "Headline signal (not a direct quote): Amazon CEO Andy Jassy: ‘I had to change how I worked, or I was going to be a lousy dad’ - About Amazon",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQT2NhdGJIVktseEx3QThwTHdyaXQ4SF9PVExaSnBySjE0eTVKYjdMN1ByaXNneDhMU09HUFRxQXBhV1pka2RrNzNyWXU4WWdpWVBidXhNUWJMNk5QbkN5bVNydHk3UlBGUE1vZHNrS2lqUlNCWUFXdVlHXzVxUm5rZXRhY1Z2cWpwZGRzTWVoNUtULWNFVW5GdjM2ZlRBN0VxZVJ2MFc0RU9jcndxbDV0bjNFbl9KUVRnOG1Ockp0ZlQzV2JyM0JTMHpWekduMTJwVGRvMU5uWHU3U1pETDN2Q005SEw3MUNHR1ltLVp6Y254VlZYLVZjS0Q2U0JIeTdxUDlRTW9jUmdpM19uOHZQVG9rTldiVXBrSTBGNDdWSWllUzNTS2VSNE1FRW1hZ2ttV0NVZdIBugJBVV95cUxOdWNJTm52Tl93cldmUzZLdFR0S09pRldESE9wUHpzTjJrSkt5TG0tZHEyTlY0c3oxaDdnRm45WHZ6VTBDSEJMaDBDTHhVX2N2WnZHX0xWaUdVYzZzX2JRN20weDVNQ2VYcmVOb0JQVmZzMnlxbV9TcTY0UlNEOGlfbzVDNnNvVzlGQXc0TmdJQldjYU5ISFlkR0xqTWVOU3c0T3N2bXE4aXVseU51clRxTFhuQ3otUm1KdHdnNU1BVC1lRzJVcFYzWnk0NXI5ZUlLR0hVT2xwNlYxNUxGQW1PTnRYSHVwWVNrSGN5TEtsalpxbDB5aGlmWmtFODhlMER6cUZURmI4QUtGS2JqczM3dGxoWWhEWXg4bk80TlpIUkVjQ0k2eXd2bFJrb1N1ZHBnbVczbFRqdzZ2QQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUng4cEtIRHlHRzhWVV9DdGdyc2lBem5tb0ZZOE1SWHI4NDQ0UjZGdjNxengxcG9RTGtCa2hvRzhpUmxNSU9TZEZ6NDBJNHpnWjRQYXp3N0dTRmFpM19PYl9OcVBRVzRhYXo3QTVXcXV1R1Z2MGhhUHJiN3ZYNXVVRWZaWWhtaVcyaFE?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -180,9 +243,9 @@
       "role": "Chairman and CTO",
       "org": "Oracle",
       "cat": "CEO",
-      "date": "2026-11-02",
-      "published": "Mon, 02 Nov 2026 09:30:00 GMT",
-      "source_name": "The Times of India",
+      "date": "2026-11-03",
+      "published": "Mon, 02 Nov 2026 18:57:08 GMT",
+      "source_name": "FourWeekMBA",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -190,11 +253,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Oracle founder Larry Ellison believes America is on right track with AI, he sees robots taking jobs, and - The Times of India",
+          "t": "Headline signal (not a direct quote): Oracle’s Larry Ellison Says Robots Will Replace Some Jobs - FourWeekMBA",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQTVNCYlU3N2ZDV2FhZS00ZmZnR3NfSHp0b24tTGhZZFRiZGp4M28zT1Z2TFhPLThLa0l5VnE4TGMxNk11ZDMxdGlvQkpzUG9va0FqVnNlY2JEX0RwN0w2U2R1aHc3VGhKNnlRdnJsOTV4WWUzczRwdmRHd1hWMmllaVlsVWg1UTVuU1h3QkFKRklIRjM2TThUMmhaMHBlcEpTS1JuTjh2YUlIRG5qeWRnT3lOaWlRTTEzM3c3RWJGbUREdm1DMTAtLVhBWkNoVXg2RTB2TlFqUUdzZ0ROOFp2WXJQV1FmdFVya0E2d2pMSEJPb3ViT3hzMWV5NHFTa2FHNTZzTUc1ckZqZmtrTi1fLW1JdlpSR20yTXZTNERWNGNXVFFfTFU1Q1A4N2JGa3AtZFVNTUoybVc0Z2hKb1JmWVF0S1ZqcVYtRjRzck8zNNIB1AJBVV95cUxPUnNUQmVaLXgwWmJUTGZTaTlWaURjMHdnTkR3dEZxX1dPU1pNNGo5VEZoejRyRTB3WmJZWFBwdTJndEdGQ3lqRDJTX1g4QW94RUQ0cHlNVWlCWHc5MmNCRUhZM3hSeXBUVWh6SGhLdEluSDNJd1Y1WEk1Y3ctS0pUSDBTMi1MeEhJZ3Rzc29xaTYycE5IWmNiRDdWVlpnVnRac2FueDExM1VWVUk1LUFQTk94cFhvb2lQZ0tvOWN6N3ZwSGdUbFdaVHBzcl9vQkpxVVFPTFJXS0RjSjZ2M3VqU1pLeFluMENSRFE2b3dmZ1FnV1dZaHZfSmtjQ0RtdVYyMmsxeUxtelE2QmV2X3BDNGFxZTVUOFg2Y0hWMkRqejRwWlFCMEdqRWp2aFE4Ny1tbzBvTEY0V3hBX0xXYm1tSl9qYzBWSS1HUkh3ck9Tb1pHX1RJ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMm1aeERjVGlZajdYRTJQSzV6ZDRsQVJMdFNUSUJzVWN3WjBGU3NJX0tFVEZ4WHhiV3F1c1ZpckdIZHczTWJrWUd1VE1uNzBVNGMtMF93UV9jYnV6eXExV283bGlaWm9STUJ6NmU3QW5DMUdabVlUT01ySThMY1dvMnU3Q0xRWWxSOWt2RA?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -202,20 +265,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-11-02",
-      "published": "Sun, 01 Nov 2026 19:15:50 GMT",
-      "source_name": "Nacionale",
+      "published": "Mon, 02 Nov 2026 12:05:21 GMT",
+      "source_name": "Seeking Alpha",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 17,
       "themes": [
-        "#AI"
+        "#AI",
+        "#TSM"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK added about 154,000 Tempus AI shares days before the company’s results - Nacionale",
+          "t": "Headline signal (not a direct quote): Cathie Wood's weekly recap: loads TER, AVAV after strong results; books gain in AMD, TSM, LLY (ARKK:BATS) - Seeking Alpha",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbU8yZ19OLUdWU3llbDdIdVhqbllWOS1DU1BCZjhJYVRXc1owUklVNWtIQTQ2RjBsckltQlFSYld5TjNReW1mSHdpbnhjX3J1bTM5M0RScFVvT3d4WWZmamZSa0dxa2RwZnljWHhfOTgzeTNxaTNtYmpCOHhvdVVYTEFrR3ZJUjJSMUEtb1piOGQzdDNpbGpybXJESV9NZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYlBCVThOVlBqMGU5TUZqTkx6WGh0ZVdNTnBncEp3MXExWVppbkw5VndabDFncERwMGVjNFhfTHdtN3AtUjhXeE1QUDRnRlotY290VWtIRjRNaFhSQXZoODgySjFVU1pBMWFtYW9lTTZUZDBBYUhEMVF6MGQtVEtHVnNHNEJoOG5VMmxURHJpeFphZjhRdG5oWE44RVgzOEpLTmNPUGZwTXd6Snh6U3JrSDBhRWx0SkZ2bGlmV3ZmVlFTTUU?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -223,51 +287,26 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-11-02",
-      "published": "Sun, 01 Nov 2026 22:07:05 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Mon, 02 Nov 2026 16:39:06 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 17,
       "themes": [
         "#AI",
-        "#AMZN"
+        "#CRWD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Amazon Stock Fell After Earnings. Jim Cramer Says Buy Right Here - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdVZfYkpFaURIalAwZHlsWjJ0RGJlekJJNjBUWFEtbThRUkhxQVpFMk5ieENxZzNFZlpOd2s0VG5TSkpHaE5hS190bXMtb2JkeGQyRkJ5Z2JOcnE3UEdBUUFhVmRQMzFQQlVXcVBEUDdEczUyZllrUUtoV2JxTE9QS1ZLUmVtSmk0RmhMcmMwTEtaZmxaV2M1T0VOdw?oc=5"
-    },
-    {
-      "name": "Beth Kindig",
-      "role": "Lead Technology Analyst",
-      "org": "I/O Fund",
-      "cat": "Analyst",
-      "date": "2026-11-01",
-      "published": "Sun, 01 Nov 2026 12:52:03 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 14,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Beyond Nvidia And Hyperscalers: Beth Kindig Sees A $1 Trillion AI Infrastructure Opportunity For These Stocks - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSEkzbjcwUmE0dXJwX0VKbnhIV3dFdnhwYy1zQWlCVkh6dktWQkVfc3dta3JXX3NWb1RtX3hYQTJ4bUJCNmthNnNMaW5RTTJ0TGppQWhiSTZYZkQwdEhUNS1QNmZIa3lETHg2eUUzRUtJaWxwUjgybFJidF9GZThpbnZIOF9IOHJTWVFEMnBQVHFVYjdnU05IYW0xRlV5ZmRBM2J3MA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQVJsZ1J1bFVwc1Jad0VPQ1ZWaGpJaUx0Sko0QUpsSXJVdmpzVmQ2WDZKaDlwTE9kWTBCUndDSnFQM2pnN2tvUFYxS2FYZE1ONUJrWEhGYWVZTEVhOHQ2b2I4WmdjOGNORUUxMlVWRVZxdUtwSWZzd1AteXVRaDVldmhSUVdoWEItZTZobmJUZEtHR2pGMlZrdWtOUkVlTkZVbkw5Z3VaR3dvMnZ5TlJ0bHpiQXQ2Q3Rad2xKSEpQWkx4MHcwdzRsZQ?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 12,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "refresh_failed",
-    "message": "Refresh failed (ValueError). See the linked workflow logs."
-  }
+  "provider_error": null
 }
