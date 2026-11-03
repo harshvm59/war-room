@@ -1,49 +1,7 @@
 {
-  "updated_at": "2026-11-03T03:57:21.411657+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-03T05:30:18.367624+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Jake Dollarhide",
-      "role": "Chief executive officer",
-      "org": "Longbow Asset Management",
-      "cat": "AI-capex caution",
-      "date": "2026-11-02",
-      "published": "2026-11-02T05:57:00-04:00",
-      "themes": [
-        "AI spending",
-        "shareholder returns",
-        "capital discipline"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Dollarhide warned that companies may be spending beyond the point where additional AI investment creates meaningful shareholder value.",
-          "k": true
-        }
-      ],
-      "src": "https://www.investing.com/news/stock-market-news/wall-street-futures-rise-as-ai-stocks-catch-their-breath-midterms-in-focus-4990733",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Anthony Capuano",
-      "role": "Chief executive officer",
-      "org": "Marriott International",
-      "cat": "Travel demand",
-      "date": "2026-11-02",
-      "published": "2026-11-02T05:29:25Z",
-      "themes": [
-        "hotel demand",
-        "Middle East",
-        "travel recovery"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Capuano said Marriott’s business trends had improved meaningfully from the spring, including in the Middle East.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/stocks-markets-ai-earnings-oil-iran-048328e49e47ce7afe6c1fb9d9acf13d",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -93,8 +51,8 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-11-03",
-      "published": "Mon, 02 Nov 2026 20:59:28 GMT",
-      "source_name": "TheStreet",
+      "published": "Mon, 02 Nov 2026 22:46:19 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -102,11 +60,32 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives: AI sell-off is a “gut-check” – 5 tech stocks to buy now - TheStreet",
+          "t": "Headline signal (not a direct quote): Tech Selloff Doesn’t Spook Dan Ives for Halloween: Here Are His 6 AI Stock Picks - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYTJ0bHBYdExtYjJkMHJ0WU5ab09ZTnpkZDBTSTBHRzMxai1xOW42aUtTemxFaG4xcThQdE9xWlk3MTZpbUxkUDRic0ZlY1NNOHdSaGFuQmN0SVNJS1dnQlRNazU4OFlQdFlqcWVhMXFIRnlxWXE1clRDSTlhT3BHWl9LWjZSYURXVDJSdGxOQVlxT0t0ZFE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVUlzWlBNd18tamphckdNb3JPMXFCRGZXVEtDbEtCQlplVnNNNXNnWHo0SW16emF0dnRWOExLXzdsaHdmSDJabWNtRGRuSVBCMF9ockgxVzdjNXlKaU9uR2FrLW5lbUp2cHFXTTRpRE5KX1RmejAwcmVsOU9XZ1lNYkszQ1BlYjNZaUlBcHA3ZndoZlFZMEJQblVKMlFSR2lTcHViY2t5Rm9mNlBlbDYtV2toQWtrZ3B6a05zSXBXVzRidm42TG5qOWpjUXZfcjFlT0FnRzN2bEdmamlMUXY5RWdZbWE4eHMxVWc?oc=5"
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "role": "Investor",
+      "org": "Social Capital",
+      "cat": "Investor",
+      "date": "2026-11-03",
+      "published": "Mon, 02 Nov 2026 21:17:02 GMT",
+      "source_name": "finance.biggo.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 9,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Pain, Power & The Game Nobody Wins | Chamath Palihapitiya x Nikhil Kamath | People by WTF - finance.biggo.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiUU04TkxIQzc5TFo5Q2pUV3FrSS03Rkg0NU9yeUpLVThJa1pmZ1hEekVhZ2xfQjFFbmFTclMtWXJDd1c0XzVUN2Zoak9XZXB5UmtTQTlwS3hRbDJFYmlN?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -114,21 +93,21 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-11-03",
-      "published": "Mon, 02 Nov 2026 21:19:18 GMT",
-      "source_name": "www.marketscreener.com",
+      "published": "Mon, 02 Nov 2026 23:23:26 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir Technologies : Q3 2026 Earnings Letter from Alex Karp - www.marketscreener.com",
+          "t": "Headline signal (not a direct quote): Alex Karp on Palantir's AI demand: 'Much larger than we can service' - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaGhUTDJGYlJ6M1QyM1Z0c1AxMU5BU2ZXcDUxTE5vaHpYOVhTV3Y2Zm1OVG51anh0X1JuZUFIeEJBUzdPVEwtRXZOZWo5VS1DbzZGMnR1ZGc4NkptN2ZCT0NJNWJNRFlJUVBGaUsxaXQ1TXlHN2VyaXJjVzBFcUtCanpZR2szNUxsMmtQUjdyRmZuN2lUYjBYY3RGOEtzUjVkbzhVS2VxVnEtbG12eVJCQUxxNA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUUo5SFRjNE9UdjRTZmRhS3p6bF9HdGFmSkl0dVdzRkV5WDlyVTZHeXNHQXpEVThJcVdqWVJoUWtaYzhoZlpCUkRET29vcUUtSDZ2OUY5R3Uzczk2cEZ4bTFGWVFfMTFRb3EyQVNTUjMtOEI2aEtqMHd4eW5TUm4wVE1wdU9nVy1VaGxReW9RNE1RYWZhVm9tMGk3OU51YVNHQU9PM0dIWVBya3BBZU9vOQ?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -243,9 +222,9 @@
       "role": "Chairman and CTO",
       "org": "Oracle",
       "cat": "CEO",
-      "date": "2026-11-03",
-      "published": "Mon, 02 Nov 2026 18:57:08 GMT",
-      "source_name": "FourWeekMBA",
+      "date": "2026-11-02",
+      "published": "Mon, 02 Nov 2026 09:30:00 GMT",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -253,11 +232,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Oracle’s Larry Ellison Says Robots Will Replace Some Jobs - FourWeekMBA",
+          "t": "Headline signal (not a direct quote): Oracle founder Larry Ellison believes America is on right track with AI, he sees robots taking jobs, and - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMm1aeERjVGlZajdYRTJQSzV6ZDRsQVJMdFNUSUJzVWN3WjBGU3NJX0tFVEZ4WHhiV3F1c1ZpckdIZHczTWJrWUd1VE1uNzBVNGMtMF93UV9jYnV6eXExV283bGlaWm9STUJ6NmU3QW5DMUdabVlUT01ySThMY1dvMnU3Q0xRWWxSOWt2RA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQTVNCYlU3N2ZDV2FhZS00ZmZnR3NfSHp0b24tTGhZZFRiZGp4M28zT1Z2TFhPLThLa0l5VnE4TGMxNk11ZDMxdGlvQkpzUG9va0FqVnNlY2JEX0RwN0w2U2R1aHc3VGhKNnlRdnJsOTV4WWUzczRwdmRHd1hWMmllaVlsVWg1UTVuU1h3QkFKRklIRjM2TThUMmhaMHBlcEpTS1JuTjh2YUlIRG5qeWRnT3lOaWlRTTEzM3c3RWJGbUREdm1DMTAtLVhBWkNoVXg2RTB2TlFqUUdzZ0ROOFp2WXJQV1FmdFVya0E2d2pMSEJPb3ViT3hzMWV5NHFTa2FHNTZzTUc1ckZqZmtrTi1fLW1JdlpSR20yTXZTNERWNGNXVFFfTFU1Q1A4N2JGa3AtZFVNTUoybVc0Z2hKb1JmWVF0S1ZqcVYtRjRzck8zNNIB1AJBVV95cUxPUnNUQmVaLXgwWmJUTGZTaTlWaURjMHdnTkR3dEZxX1dPU1pNNGo5VEZoejRyRTB3WmJZWFBwdTJndEdGQ3lqRDJTX1g4QW94RUQ0cHlNVWlCWHc5MmNCRUhZM3hSeXBUVWh6SGhLdEluSDNJd1Y1WEk1Y3ctS0pUSDBTMi1MeEhJZ3Rzc29xaTYycE5IWmNiRDdWVlpnVnRac2FueDExM1VWVUk1LUFQTk94cFhvb2lQZ0tvOWN6N3ZwSGdUbFdaVHBzcl9vQkpxVVFPTFJXS0RjSjZ2M3VqU1pLeFluMENSRFE2b3dmZ1FnV1dZaHZfSmtjQ0RtdVYyMmsxeUxtelE2QmV2X3BDNGFxZTVUOFg2Y0hWMkRqejRwWlFCMEdqRWp2aFE4Ny1tbzBvTEY0V3hBX0xXYm1tSl9qYzBWSS1HUkh3ck9Tb1pHX1RJ?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -302,11 +281,35 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQVJsZ1J1bFVwc1Jad0VPQ1ZWaGpJaUx0Sko0QUpsSXJVdmpzVmQ2WDZKaDlwTE9kWTBCUndDSnFQM2pnN2tvUFYxS2FYZE1ONUJrWEhGYWVZTEVhOHQ2b2I4WmdjOGNORUUxMlVWRVZxdUtwSWZzd1AteXVRaDVldmhSUVdoWEItZTZobmJUZEtHR2pGMlZrdWtOUkVlTkZVbkw5Z3VaR3dvMnZ5TlJ0bHpiQXQ2Q3Rad2xKSEpQWkx4MHcwdzRsZQ?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-11-03",
+      "published": "Mon, 02 Nov 2026 22:28:07 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 10,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): This was a rock solid quarter for Apple, says Deepwater's Gene Munster - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLW43NDJ3OVFYNlVVaThzVWhfd0t3WGNfVlhyQjBkMnlJN0ZoWlJlb2dsWkRKNjR4OHJpZXV4WG1HZmpHS2NObURwWG1pc2RkWmJSUldQNnBnUTYzSExseGNENmNfTEFzc0hNanFfbTBoa3g3bHBUR0RSTkVHa3JZTk9WdkpWUVJEcmk3R1NaX0lCSmxkRXJMb3otUHdNdmxiVDlsRmNQSG1kaFJ0Q3hmdw?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
   "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
