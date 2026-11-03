@@ -1,120 +1,15 @@
 {
-  "updated_at": "2026-11-04T01:46:04.190247+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-04T03:59:09.143401+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Jon Gray",
-      "role": "President",
-      "org": "Blackstone",
-      "cat": "AI infrastructure investment",
-      "date": "2026-11-03",
-      "published": "2026-11-03T02:09:00Z",
-      "themes": [
-        "AI compute demand",
-        "capital raising",
-        "data centers"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Gray said computing demand is running ahead of supply and that major technology companies may need to raise more capital to fund AI expansion.",
-          "k": true
-        }
-      ],
-      "src": "https://www.marketscreener.com/news/blackstone-president-says-more-tech-sector-fundraising-ahead-to-keep-up-with-ai-industry-growth-ce785fd9dc88f121",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "David Solomon",
-      "role": "Chief Executive Officer",
-      "org": "Goldman Sachs",
-      "cat": "AI market risk",
-      "date": "2026-11-03",
-      "published": "2026-11-03T02:09:00Z",
-      "themes": [
-        "AI financing",
-        "volatility",
-        "diversification"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Solomon said strong companies should still be able to raise capital, while AI-sector growth could produce volatility and investors should maintain balance and diversification.",
-          "k": true
-        }
-      ],
-      "src": "https://www.marketscreener.com/news/blackstone-president-says-more-tech-sector-fundraising-ahead-to-keep-up-with-ai-industry-growth-ce785fd9dc88f121",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Daniel Pinto",
-      "role": "Vice Chairman",
-      "org": "JPMorgan",
-      "cat": "AI valuation",
-      "date": "2026-11-03",
-      "published": "2026-11-03T02:09:00Z",
-      "themes": [
-        "AI earnings expectations",
-        "sector correction",
-        "valuation"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Pinto remained bullish on AI but said market pricing implied an overly steep path for related-company revenue and earnings, creating correction risk.",
-          "k": true
-        }
-      ],
-      "src": "https://www.marketscreener.com/news/blackstone-president-says-more-tech-sector-fundraising-ahead-to-keep-up-with-ai-industry-growth-ce785fd9dc88f121",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Peng Zhao",
-      "role": "Chief Executive Officer",
-      "org": "Citadel Securities",
-      "cat": "AI market uncertainty",
-      "date": "2026-11-03",
-      "published": "2026-11-03T02:09:00Z",
-      "themes": [
-        "AI valuation difficulty",
-        "market volatility",
-        "revenue uncertainty"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Zhao said the scale of AI-related capital and growth makes valuation difficult and is contributing to sector volatility.",
-          "k": true
-        }
-      ],
-      "src": "https://www.marketscreener.com/news/blackstone-president-says-more-tech-sector-fundraising-ahead-to-keep-up-with-ai-industry-growth-ce785fd9dc88f121",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Prahlad Singh",
-      "role": "Chief Executive Officer",
-      "org": "Revvity",
-      "cat": "Life-sciences earnings",
-      "date": "2026-11-03",
-      "published": "2026-11-03T03:51:00Z",
-      "themes": [
-        "end-market recovery",
-        "earnings beat",
-        "life-sciences demand"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Singh said end-market conditions were continuing to improve after Revvity reported results above analyst expectations.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/stock-markets-ai-earnings-oil-0d235af127a92c68da0cc2c45c028cef",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 13:30:00 GMT",
-      "source_name": "AOL.com",
+      "date": "2026-11-04",
+      "published": "Tue, 03 Nov 2026 22:16:45 GMT",
+      "source_name": "Mezha.net",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -123,20 +18,20 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): 'The next trillion-dollar company,' according to Nvidia CEO Jensen Huang, is making a $115-billion bet on AI — just as tech stocks take a tumble - AOL.com",
+          "t": "Headline signal (not a direct quote): Jensen Huang says Nvidia sees a place for both open and closed AI models - Mezha.net",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZlBkWkVVY3VRNEg1allCYzZTSVNGb2tPa3NXRWNZYklxOHA2MzgtaEs4eks1Y0ZGTkhobW9tb1hwZ19vUzQ4MHladnpHR2RpWmFNdUxxMmZmYlRvRF9Jc3VROGR4eEZzU2YwLTZlZHdTdjNtSU1LbzBmU09QMWpyVXNyR0tsTHZfR2c?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUGZaYUJnZHRYZk1UT3BoUGNtcnE5Ti1YSGVSUTctSDdFMm1fbXpVSFdiU1ZkSkpIbTRrZ0l0di1LcS1sSUUzbHdSNURDTzBmR0Jsb1V2d0JtazlKVnkzSlhaZFpPN2ZVRlRRQUsxUW5LbVVzSHFBQ3NGTUFPdVJXUjJB?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 07:56:14 GMT",
-      "source_name": "Fast Company Middle East",
+      "date": "2026-11-04",
+      "published": "Tue, 03 Nov 2026 20:58:00 GMT",
+      "source_name": "Page Six",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -144,11 +39,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman calls UAE the world’s most forward-looking country in AI adoption - Fast Company Middle East",
+          "t": "Headline signal (not a direct quote): OpenAI's 'celebrity whisperer' reveals his masterplan for turning Sam Altman into Hollywood's new best friend - Page Six",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZFJud05ycVhGZEJNelY0R2RwbW1HYWNORjdZdU94QTNLb1ZZV1lJcWVVSFFoVGtRZl9LelRBeW1FMDMwejVSbC1MMjF2Z01GcWEzSzAzYUNnd3lSRUQwcEFQQThKUHhac19tQmNQTlJLdHY1R19OS3JSMzRERldqU0swUG1EQUVYaXR0YXl1ejFQZnZBRnA2YTMxV1pEVnhHdGkxdDN0ZE1pSGJDOXl6UXB4Wl9Kc2ttUUE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWHJWRTNSR29Ed1VPSFBfX1FJS3l2dG5xTXhOWVRhT3NOb0V0Sm9lalJuQkxQX3UwWTNZOHJuU3dwSGlDaDR3aUtkcG9oQW5mZUFKeXp1LURRaHliaGNjZWpzVnJhUmgwbnJ0bWUySXRySm9PYmMtSWtsbnk0V1VlaXZzUVk4UHRmX0tSYWtKQU11RXZmTVZIbEJGZ1AzR0xkYkdiV2VCaUY4cXFBb1A2OTBxQkNnR1BvSUpucW1fMHU3Yl9HWG03ajFDQnh1YmpqMmVfeU9pTHMyakNSYlZsaVZicXFHcDg?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -239,47 +134,26 @@
       "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcGYzVnhKN2pFd1J6QjRBZWxxYkd0U0t6M3lJZ3AwMmVkcFJWal9CTnFjeFFBRVpRcS12SThmUjVnWkxXTzMzT2JWcW5rY1Q1VkY3b0NVdW1QM29IMWFMLUNxVExkMmo0RmljYmNBRUtta1oyWTRVSHRfUms3ZUR6S0xWNkxPSld0UWljUnZCV2o1Q3M?oc=5"
     },
     {
-      "name": "Elon Musk",
-      "role": "CEO",
-      "org": "Tesla / xAI / SpaceX",
-      "cat": "CEO",
-      "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 07:40:55 GMT",
-      "source_name": "Yellow.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 7,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): SpaceXAI Arrives As Musk Buries xAI Inside His $1.25 Trillion Empire - Yellow.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBMVDhKOHB3LUY2cEVXblcydmJ1Q0U3WU1QMVJlWFFrUGRNcmRfRzhHdzNrSkNDOWViRjRXLUNTZS0yYnJPYmxWX0gtVDJmcDR5eVJSaFVHRDd3VFhsX3A3OVNtbmh5eUE?oc=5"
-    },
-    {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 12:26:14 GMT",
-      "source_name": "Tokenist",
+      "published": "Tue, 03 Nov 2026 15:59:51 GMT",
+      "source_name": "KSBY News",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 10,
       "themes": [
         "#AI",
-        "#TSLA"
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts a Huge Tesla (TSLA) Move - Tokenist",
+          "t": "Headline signal (not a direct quote): Zuckerberg makes deal with Meta to help him pay California billionaire tax if it passes - KSBY News",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00WXF1RHFLRDVnc1lBWldoU1ZoZmdDWTlNcXZlaG9tOUllT245eUJOYUpMM214Y0dHMG5PV2wwcDFja2NpRGViSDFLWXFlZFRURXdja0hvbDZtOFRGRzJKd0VTYXZsa0p1TWRRenF6QXRGMTgwSWoyT0NR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeXVhNkxQTUtWSlhNMjV5cUpCOUxrRzRvMnVCbW5hQkI0bEhWOEtBb3JydWl5OEQyZHFCODhyV2loYVpsX1NUQ2tuZmpjMjZBeXhtUHVzUjdjZWV1VXlzMERyekVMSkdidFNtRTR3YjBqd2NnSUYxSUxSTjFYU2VzellSelREVnBoZnFUUVN5dEpteXpHTGNGV001X2pTY2pfOGNGWjZvQVA4ZWNfYjFQaTg2S19rZHRwWWU3cEdhXzVERERseU1BbA?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -394,25 +268,50 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-11-03",
-      "published": "Mon, 02 Nov 2026 22:27:00 GMT",
-      "source_name": "CNBC",
+      "published": "Tue, 03 Nov 2026 13:24:14 GMT",
+      "source_name": "www.tokenpost.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): This was a rock solid quarter for Apple, says Deepwater's Gene Munster - CNBC",
+          "t": "Headline signal (not a direct quote): Gene Munster Calls Personalized AI Agents Biggest Risk to Apple’s Ecosystem - www.tokenpost.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLW43NDJ3OVFYNlVVaThzVWhfd0t3WGNfVlhyQjBkMnlJN0ZoWlJlb2dsWkRKNjR4OHJpZXV4WG1HZmpHS2NObURwWG1pc2RkWmJSUldQNnBnUTYzSExseGNENmNfTEFzc0hNanFfbTBoa3g3bHBUR0RSTkVHa3JZTk9WdkpWUVJEcmk3R1NaX0lCSmxkRXJMb3otUHdNdmxiVDlsRmNQSG1kaFJ0Q3hmdw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtQVRqemliVlRWd2lmRnNkOVNyaFhMWEJSZnQ4Q1hOWkt6LXU3dlJDUjJmTFRCcm5KOW1XYmlQTE5aejJjY0p3Q0t4VVhRQWpGRUZTVUdmUGs?oc=5"
+    },
+    {
+      "name": "Stacy Rasgon",
+      "role": "Senior Analyst",
+      "org": "Bernstein",
+      "cat": "Analyst",
+      "date": "2026-11-04",
+      "published": "Tue, 03 Nov 2026 21:55:31 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Bernstein's Stacy Rasgon reacts to AMD's Q3 beat, stock jumps 7% - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TVktsTUVHVnFPZ2tSTEptdmdQa3hxcF93TXVpOVJvcWxWN0dOSFhOb3FfaldNQmR2M0ptdElzZ3VVNWpKRTk0bjltN3JieVFXRFNodW90Q0dRWnA1eUZtcmFGRFVGcVdrcGJsejVBajJBSDMtX0pyakhaNA?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 19,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
