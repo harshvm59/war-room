@@ -2654,14 +2654,20 @@
           }
         },
         "2026-11-03:framework": {
-          "billing_status": "provisional_estimate",
+          "billing_status": "usage_estimate",
           "error_code": null,
-          "estimated_usd": 0.25,
+          "estimated_usd": 0.0254232,
+          "finished_at": "2026-11-03T09:03:29.950578+05:30",
           "id": "7ee69220a68549eaa8c7d6d45d347d91",
           "model": "gpt-5.6-luna",
           "reserved_at": "2026-11-03T09:02:10.886525+05:30",
-          "status": "reserved",
-          "usage": null
+          "status": "completed",
+          "usage": {
+            "cached_input_tokens": 0,
+            "input_tokens": 12536,
+            "output_tokens": 10241,
+            "web_search_calls": 1
+          }
         },
         "2026-11-03:news": {
           "billing_status": "usage_estimate",
@@ -2696,13 +2702,13 @@
           }
         }
       },
-      "estimated_usd": 1.44004991,
-      "unreconciled_attempts": 2,
+      "estimated_usd": 1.21547311,
+      "unreconciled_attempts": 1,
       "usage_totals": {
         "cached_input_tokens": 4388,
-        "input_tokens": 130611,
-        "output_tokens": 23672,
-        "web_search_calls": 13
+        "input_tokens": 143147,
+        "output_tokens": 33913,
+        "web_search_calls": 14
       }
     }
   },
