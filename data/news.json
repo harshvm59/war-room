@@ -1,83 +1,62 @@
 {
-  "updated_at": "2026-11-03T16:44:17.952634+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-11-04T01:46:04.190942+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "META",
-      "headline": "META_TITLE_QUOTE - Yahoo Finance",
+      "ticker": "NVDA,AVGO,AMD,MU",
+      "headline": "Big Tech stocks lift Wall Street as Nvidia, Broadcom, AMD and Micron advance",
       "date": "2026-11-03",
-      "published": "Mon, 02 Nov 2026 23:17:55 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBpVTJIYnhWcW1kNFFKTHNoajhPeE9zSW9lTElhZkZvcEo3MExtQnpIZjBRek95cWJ0XzRKMzBtMHh0Ty1SYVRESUxfRTJ4Zw?oc=5"
+      "published": "2026-11-03T03:51:00Z",
+      "summary": "Nvidia rose 2.8%, Broadcom 3%, AMD 5.4% and Micron 1.9% as AI-related stocks rebounded, while market participants remained concerned about elevated AI valuations.",
+      "tag": "AI semiconductors",
+      "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-0d235af127a92c68da0cc2c45c028cef"
     },
     {
-      "ticker": "AI",
-      "headline": "The AI boom is racing its balance sheet - Vocal",
+      "ticker": "AAPL",
+      "headline": "Apple shares fall as higher memory-chip costs pressure expected margins",
       "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 08:49:39 GMT",
-      "summary": "Automated RSS market signal from Vocal. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LN2FBOWNIc1FsWE1sTG40VUZfeXhNVGZpdmdDamtFY1lhOFlqNUhXc3IzcGw2LUJYTEQwaHBDR05JTUFmVTJvLTU3b3cySDBSNndYRElKczdZcVhwUFpGeXdVVVdpaDZFQjZBMWtlTmdUZHEw?oc=5"
+      "published": "2026-11-03T03:51:00Z",
+      "summary": "Apple shares declined after the company indicated that higher memory-chip expenses linked to AI data-center demand would reduce profit per dollar of revenue in the final quarter of 2026.",
+      "tag": "AI supply-chain impact",
+      "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-0d235af127a92c68da0cc2c45c028cef"
     },
     {
-      "ticker": "AI",
-      "headline": "Fact Check Team: How much of the stock market is propped up by the AI boom? - KATU",
+      "ticker": "PLTR",
+      "headline": "Palantir falls despite better-than-expected profit and strong commercial growth",
       "date": "2026-11-03",
-      "published": "Mon, 02 Nov 2026 20:25:02 GMT",
-      "summary": "Automated RSS market signal from KATU. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTGpoOEpuVlROem9FWFhyZExXSEZteW50VEVoYmN6T09JQjJaUkNZMjJSOGpBT2cxQkpJT3BfaGZBTVRMeE8tTFVDSTJmMWRVY19kZUc0d0VrNWRqWVFqT1prbmJ2RkNhWU9FaWkwbjVyWU5UbmRNUElMdnVtVFFSMXA0TFVXdWwxLVNuNWhBeXBldGlTalg2dEtZNFB3TU1DSUVoQXVQMXpzQkR3TW1lbmRQZmtpQi10dTNzMXRrazBDQWxyUWVHeVJ6a012aXhiemM4?oc=5"
+      "published": "2026-11-03T03:51:00Z",
+      "summary": "Palantir declined even after reporting better-than-expected profit; U.S. commercial revenue increased 148% year over year and exceeded U.S. government revenue for the first time.",
+      "tag": "AI software earnings",
+      "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-0d235af127a92c68da0cc2c45c028cef"
     },
     {
-      "ticker": "AI",
-      "headline": "Apple Posts A Record Quarter As Money Leaves AI Stocks - The Tech Buzz",
+      "ticker": "ORCL,AMD",
+      "headline": "AI infrastructure shares lead midday trade ahead of AMD earnings",
       "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 09:09:32 GMT",
-      "summary": "Automated RSS market signal from The Tech Buzz. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWTFoZXNoM0llX2xmMmtxNGpwdFhhWndLLXh4aGQ4dDRSN1hLbmFKR2Nnd0tTb2lUUktMX1JqTmx3bkMySVpvdEh4WFFOZlBKQWV1eEpWYnJGS2J2UnVNYWI5MzI4dmxFMHRIZ1dXc2dSZVdPd0hXVXJKNkpLUUo1RmNJcUdrdEVhd2tFWHA0MnItbDlBekgxQVBWZE9VY19aNmQzN1dpTFI5MVBNWDdja3l5NEpxVnZSZl9VVDVST0hMM3l3TUdHR1JWMzU?oc=5"
+      "published": "2026-11-03T15:02:00Z",
+      "summary": "Oracle gained 6% as investors positioned for AMD's earnings, with the market focused on data-center demand and whether the AI-led rally could continue.",
+      "tag": "AI infrastructure",
+      "url": "https://marketone.io/markets/the-midside-tape-2026-11-03"
     },
     {
-      "ticker": "NVDA",
-      "headline": "Beyond NVIDIA: Six Companies to Watch as AI Meets Earnings Season - eToro",
+      "ticker": "AAPL,AMZN",
+      "headline": "Apple-linked margin concerns overshadow Amazon in distributor-contract dispute",
       "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 10:08:33 GMT",
-      "summary": "Automated RSS market signal from eToro. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR1lxd0FsZ1k0NDdCbVZaV3o3Q19MUlUxLTFRR003ZWpNY0J1ZjdKam54bjVEVE5MVjNPUWFpcmRzYnpSYkRiY3gxakVYN0xKUFYtZE1BelNsT0x1dmVNajQwLUJxYUNQWVlGOXE4ZjZvYklxQU02UElfNnA0SGx1Y1ZRRzB6MVFtRWt2MldsNGhCandzcUQ5Ry1Ea29Sc1JZNGI5RURET2RObzhLZENNZld3?oc=5"
+      "published": "2026-11-03T15:02:00Z",
+      "summary": "Apple declined as investors focused on memory-cost pressure and a reported Spanish antitrust sanction; Amazon was little changed, suggesting the market viewed the issue as primarily Apple-specific.",
+      "tag": "Big Tech regulatory and margin risk",
+      "url": "https://marketone.io/markets/the-midside-tape-2026-11-03"
     },
     {
-      "ticker": "AI",
-      "headline": "This Is the Only Number Investors Need to Watch Before Buying an AI Stock - 24/7 Wall St.",
-      "date": "2026-11-02",
-      "published": "Mon, 02 Nov 2026 15:59:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNGlqLTZzWUtWWGJwXzc0WHkwV2Npb3BKTUoxa0laRmpTaXJHY2NMM1JVYTZMcmI5ekx4VHFnR2pHVHhjeEgyVEFmTTNyZllyYVJwVEljV1BuTmFiUmxlZk9OTXBfWFJsamtGbHFTOTcyTVdVZFl4bFpyd2E1dXVHclpPSkZKV2JTUFdzcGg5UXM2aGxMam1oQXZpNnVacDZ3bVdPVUxjYUxmenhTbExXOWRHdmdYLUsy?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "3 November 2026 – Market Review: Technology Stocks Under Pressure, While KWEB and Defensive Stock - Longbridge",
+      "ticker": "AI sector",
+      "headline": "Financial leaders warn AI investment boom requires more capital and carries correction risk",
       "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 02:16:31 GMT",
-      "summary": "Automated RSS market signal from Longbridge. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56MTNrSE1TTnM2Z2gyYWtpeUp2WnJMVXp4aXhhNTBFNVItcWFKbmpnNHVSaG9pLXVfZkRHUHAtOGt0cHA5OFJSMW1QNXJ4eUd2MkJ3X1lqdFg?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Marvell Stock Waffles on $115 Billion Bet on AI Infrastructure’s Future - The Daily Upside",
-      "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 05:06:41 GMT",
-      "summary": "Automated RSS market signal from The Daily Upside. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMzJOVXBtM244X09WQ2MwVkFlZ0dmazFwODhpWlRRaVJFN0xJM3J1ZXRuc1ExZWNnZlhOOEpTRmtZZlh1OWExaENBNldqZHlBam5XdlNMNzNFbl9BM1RxT0p1VUNNZFVnNDZYczFPRFUxWEp1Q21qME9lWTlYeEhPUmIzR2hSeVVFUmtJbUZyT3A1NF9oaHNLOTRUWjIzQ28yLXV3X2t0Szd6NnZfMVVqNVB1Z08yVlh3Z1YzaHUzazZXbzN2U3c?oc=5"
+      "published": "2026-11-03T02:09:00Z",
+      "summary": "Reuters reported that technology companies may need additional capital to meet AI demand, while executives and financial leaders warned that high valuations, financing needs and uncertainty could increase volatility.",
+      "tag": "AI financing risk",
+      "url": "https://www.marketscreener.com/news/blackstone-president-says-more-tech-sector-fundraising-ahead-to-keep-up-with-ai-industry-growth-ce785fd9dc88f121"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
