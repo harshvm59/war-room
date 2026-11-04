@@ -1,83 +1,62 @@
 {
-  "updated_at": "2026-11-04T16:54:59.552026+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-11-05T02:01:37.752136+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "AI",
-      "headline": "High Growth Artificial Intelligence Stocks: Morningstar Picks - Bitcoin Foundation",
+      "ticker": "PLTR",
+      "headline": "Palantir shares slump despite earnings beat and raised guidance",
       "date": "2026-11-04",
-      "published": "Wed, 04 Nov 2026 08:07:42 GMT",
-      "summary": "Automated RSS market signal from Bitcoin Foundation. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPN1owOS1HVVI4Q01UelhFM1NOQjF6dFNOQlZTSVA5Q1JSYlNCV3NKNTk0TURDRnFxRVlZYzViYW5NcHhkR2V5blV4V0RLbGRBTzhkZXFCYWtocTdwajBxeURjYUtHV29UU3hSeXNnRXFZdEVvc3FtdmJhVnU4MFlwQkxqQ09OWDNuU0pFc1lScTFnR0tlV0NkRDktTk5rRjdrODZsQWtiTVQwTlgtV1RzWjJMSHh3RnFXeGRVY0pGd2phd1k?oc=5"
+      "published": "2026-11-04T12:10:05Z",
+      "summary": "Palantir reported better-than-expected quarterly sales and earnings and raised full-year sales guidance, but its stock fell as investors focused on valuation and largely flat order backlogs.",
+      "tag": "AI software / valuation",
+      "url": "https://www.axios.com/2026/11/04/palantir-ai-earnings-stock"
     },
     {
-      "ticker": "AI",
-      "headline": "3 Artificial Intelligence (AI) Stocks That Are Better and Safer Buys Than Anthropic - The Globe and Mail",
+      "ticker": "NVDA",
+      "headline": "Nvidia falls as AI valuations and data-center policy risks pressure the trade",
       "date": "2026-11-04",
-      "published": "Wed, 04 Nov 2026 09:20:45 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQRmxyWnFUeDhuSWJBb1JuVGZEWVYxX281YXFRSV9feUZjSVA4MFh2dFZXTVlMdFpwZGxLVEtjMi1UNkt1cVMyRnRuQzN0UjVUejNITG5ZZy1URWd0a0Z0SFN2QnB4QVQ2amoyRnNnbWJfdkhEcmVjUHZWZjVmclBOd3cxMUhESDVrR3RoV2QwZWtmTV9hS2tkOGVfTWlvZ19SazYtT3UxTXNMaTN2RlozQ2hIVzlsZTRJX0RuSXp1Yjdma3VvTXRwZ0dOT29JakRwWlNBbnc1dUtZT19xQ1lJUmZKUlcxekFPN2YxNmFZR0NNMUI3dWZkanV3?oc=5"
+      "published": "2026-11-04T04:13:50Z",
+      "summary": "AP reported that Nvidia declined as AI-related stocks faced concerns about elevated prices and possible restrictions or delays affecting additional data-center construction.",
+      "tag": "AI semiconductors / policy risk",
+      "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-4d12764c0b3ce38ffde3077712811182"
     },
     {
-      "ticker": "AI",
-      "headline": "5 Best Stocks to Buy For Next 10 Years - Yahoo Finance",
-      "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 16:51:49 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOGZ3bzFKOG1mc2FLUHlJanNRX3RLVlJ0aWcwZ3ZVYXhFMWQyampIUi0wOHBqQnJUTVNjV3laSTRma2UtWnZBODRpeklWR2NNZm5lT20wcUNtaFNmMjVyYk9lSTE4c1pMcE5DcFV6aTlGa2NTa1AybHh2d1ExVTJIb0t3dDdVb3dGZTlvcjd1SHI?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "10 Best Stocks to Invest in Right Now After the October 2026 Tech Selloff - EBC Financial Group",
+      "ticker": "CRWV",
+      "headline": "CoreWeave drops as data-center and AI-infrastructure concerns intensify",
       "date": "2026-11-04",
-      "published": "Wed, 04 Nov 2026 04:26:00 GMT",
-      "summary": "Automated RSS market signal from EBC Financial Group. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUQTJzeF9PZ28tQ1NoNk5mOFY1ZWU4dC1veGJlXzkzVVQ5X3d1TzljbDRQSV9ycm1SNmprTHRYbXd5QTEtUG1GTXVzbEdqbVg4clpWMnlsZ0MybzhMWkNpM051SE1yNGU0LTA1Mw?oc=5"
+      "published": "2026-11-04T04:13:50Z",
+      "summary": "CoreWeave fell sharply amid broader pressure on AI-related shares and investor concerns about data-center expansion and AI valuations.",
+      "tag": "AI infrastructure / volatility",
+      "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-4d12764c0b3ce38ffde3077712811182"
     },
     {
-      "ticker": "AI",
-      "headline": "Third-Quarter Earnings Are Going Well—Unless You’re Big Tech - Morningstar",
+      "ticker": "MOD",
+      "headline": "AI data-center builders sell off after election results",
       "date": "2026-11-04",
-      "published": "Wed, 04 Nov 2026 11:03:45 GMT",
-      "summary": "Automated RSS market signal from Morningstar. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdnFscXFIdXlJbVlHbUgwREZ0OWY3c0MwQjBrZ0RIUF9HaVJnVUdiNFdhMFczNnhqbkFjNWYwTVd6QjEwZ0hxRE5ZaG5qMGp2VEVTZWFySkpNd1hhRkV0RGRhMGZ3Wi0tQ3A5OG0ybVlqNzNkN19DRGtfV09obU9xRVVDbXZhMzF3bTBHbHhXNXM4TEMxT3ZKSA?oc=5"
+      "published": "2026-11-04T16:51:00Z",
+      "summary": "StockTitan reported steep intraday declines among data-center infrastructure companies, including Modine, Hut 8, Sterling Infrastructure, Cipher Digital and Solaris Energy Infrastructure, after Democrats won Congress and the Texas governor race.",
+      "tag": "AI data centers / political risk",
+      "url": "https://www.stocktitan.net/articles/ai-data-center-stocks-fall-texas-vote-november-4-2026"
     },
     {
-      "ticker": "AMD",
-      "headline": "Here’s How Much Traders Expect AMD Stock to Move After Earnings - Investopedia",
-      "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 16:53:32 GMT",
-      "summary": "Automated RSS market signal from Investopedia. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUzk2TFExUnNScHk1cVdXaHlHMGUxWGhoQVlIWDY3MnE3NnctbVhnYUtERlZFTEw1bjFuVmo5TkRVZC11WWhncHFWb3IybUF3ZjYyWU1kRmlYWTVoOENVaVNHVmY3aVhNZU00VFJfX0VHem1ZRU1mYURPMUxBQVVzZkxKQnVZdW5PR2FoMm1PZnZCeDlTUDQwTTJR?oc=5"
+      "ticker": "HUT",
+      "headline": "Hut 8 declines amid Texas data-center concerns",
+      "date": "2026-11-04",
+      "published": "2026-11-04T16:51:00Z",
+      "summary": "Hut 8 was among the hardest-hit AI data-center names in StockTitan's reported 11:12 a.m. ET snapshot, with concerns focused on Texas development and power capacity.",
+      "tag": "AI data centers / regional exposure",
+      "url": "https://www.stocktitan.net/articles/ai-data-center-stocks-fall-texas-vote-november-4-2026"
     },
     {
-      "ticker": "MSFT",
-      "headline": "What's Going on with Microsoft Stock on Tuesday? - TradingView",
-      "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 17:42:46 GMT",
-      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY3dCUnJNbjZtcFNsTHIxaVFvR2d0c3hnRFFSU3Zja3MtYkxiMUVEMmhZTXVZRW9YbzBBanNvRDZnY3pPTWpWRW9PTFU5UVZocFNXYjljWHl3R3hQTTQ4UHc3eUtISFZMbXFhajF5elZRY0pmMG0xOHFpaU4zR2J0aU9jc1BybzBqQ2lucW9tcHNYMzVnWUx2OVdnRkV3VVpMdkxuMjFBQm9aZw?oc=5"
-    },
-    {
-      "ticker": "MSFT",
-      "headline": "Why Microsoft Was Rewarded for Spending Less on AI - 24/7 Wall St.",
-      "date": "2026-11-03",
-      "published": "Tue, 03 Nov 2026 12:46:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWDlqbUhfUFZYakJrTWpkN1pxQlZ1eXN3N09keE1tVzdwNEg1RHRoakhsdmRmYVhiQmt1LXBVcy13V3JEYlY4XzBhOGlPM1JzTV9CVjU1NmdXQUp2aVNVRG9SVkJSd2lfZXg4b2RFTFI3d1hRSVZIUEtwSEJ1SHRZLVY1ZWxBeGkwWTBIN1pZU0VaZ1dwc3ZjakVB?oc=5"
+      "ticker": "AMZN",
+      "headline": "Amazon rises while data-center builders sell off",
+      "date": "2026-11-04",
+      "published": "2026-11-04T16:51:00Z",
+      "summary": "StockTitan reported Amazon higher alongside other large technology companies even as specialized AI data-center builders declined sharply, highlighting divergent market treatment of hyperscalers and infrastructure developers.",
+      "tag": "Hyperscalers / AI capex",
+      "url": "https://www.stocktitan.net/articles/ai-data-center-stocks-fall-texas-vote-november-4-2026"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
