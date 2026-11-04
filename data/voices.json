@@ -1,88 +1,27 @@
 {
-  "updated_at": "2026-11-05T02:01:37.751609+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-05T04:18:36.216072+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Brian Jacobsen",
-      "role": "Chief economic strategist",
-      "org": "Annex Wealth Management",
-      "cat": "Macro/market strategy",
-      "date": "2026-11-04",
-      "published": "2026-11-04T04:13:50Z",
-      "themes": [
-        "Earnings over elections",
-        "Post-midterm market positioning"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Company earnings and interest-rate expectations matter more for stock prices than election control.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/stock-markets-ai-earnings-oil-4d12764c0b3ce38ffde3077712811182",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Louie DiPalma",
-      "role": "Equity analyst covering Palantir",
-      "org": "William Blair",
-      "cat": "AI software equities",
-      "date": "2026-11-04",
-      "published": "2026-11-04T12:10:05Z",
-      "themes": [
-        "AI valuation compression",
-        "Sustainability of growth"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Investors have become more selective across the AI ecosystem, and valuations for many suppliers have fallen sharply as growth sustainability is questioned.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/2026/11/04/palantir-ai-earnings-stock",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Brent Thill",
-      "role": "Equity analyst covering Palantir",
-      "org": "Jefferies",
-      "cat": "AI software equities",
-      "date": "2026-11-04",
-      "published": "2026-11-04T12:10:05Z",
-      "themes": [
-        "Growth acceleration",
-        "Higher comparison base"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): The central investor debate has shifted from demand strength to whether Palantir can sustain accelerating growth against a larger base.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/2026/11/04/palantir-ai-earnings-stock",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-11-04",
-      "published": "Tue, 03 Nov 2026 22:16:45 GMT",
-      "source_name": "Mezha.net",
+      "published": "Wed, 04 Nov 2026 16:50:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang says Nvidia sees a place for both open and closed AI models - Mezha.net",
+          "t": "Headline signal (not a direct quote): Marvell Stock Has Plunged 46% Since Jensen Huang Called It the Next $1 Trillion Company. Here's Why. - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUGZaYUJnZHRYZk1UT3BoUGNtcnE5Ti1YSGVSUTctSDdFMm1fbXpVSFdiU1ZkSkpIbTRrZ0l0di1LcS1sSUUzbHdSNURDTzBmR0Jsb1V2d0JtazlKVnkzSlhaZFpPN2ZVRlRRQUsxUW5LbVVzSHFBQ3NGTUFPdVJXUjJB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdk9MTGpJeG55dVoxdEZjVWE3NzlUeTUtQ3JsV1pxV0drc1lpa3FmTzRZYzdPaU1xVGJ6bnE0NkU4T2hRb1RwV0Z5cEpOLVVvN1dDeWxNcDBERENIWW1PRFZKRGxzckp4VHZUeUFxS3VtbGxYRmJrUmJTYUlyeWpUUWRFamhKaWMySFVXc2JkN0h3WllkanJmWHNnaw?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -90,20 +29,20 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-11-04",
-      "published": "Wed, 04 Nov 2026 10:09:38 GMT",
-      "source_name": "IGN",
+      "published": "Wed, 04 Nov 2026 17:18:00 GMT",
+      "source_name": "Business Insider",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): 'I Want You to Have So Much RAM' — OpenAI Boss Sam Altman Addresses Backlash Over Memory Sitting in People's Computers Comment - IGN",
+          "t": "Headline signal (not a direct quote): Sam Altman joked about AI's thirst for memory with a new social media nickname - Business Insider",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaFJpZ1h1NDFra1RudHRwcDV3MWszUE0zd0lSaXRaOUM2VzhCMWo3Z3pCUWYxbHV5UlF4aGNRbTVHYTN2OHVZUHhEdG93MmtxV2NSekR0VjhLRFBldEp2OXlPQkFoVy10MnJQSkJSbE1fUTZFQ2JLaWF1RUFlMnVUb21ybFI3OE1lcndTOWJlSUlEVDk4MWFtTXc3czhBZ3VzRHdGSEQzWXZJX3hFUVpkRDBMM3NmVENJdkdjRXNEV3hjVWRMS3p1LXJMMlRPaGlu?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ0ZjLWNOSHhNLURmZmlPZEdzNVNSSVBybUZ1ZTA5aUlmNVFPeGxMaWtnTFhpaE02WWVEU3YySXJPQU5VclJvQlBITTRkMFNOLVhtQ0Y5NG9UZG5xMktQQ1NZYTMwRW9zcm5LeUdLQTJJZVZTRk1CVGFUdWYzQ01yMEdDTDZhdjBMRUZaNnJuM29HbW1UU25ta0xmUQ?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -132,21 +71,21 @@
       "org": "AMD",
       "cat": "CEO",
       "date": "2026-11-04",
-      "published": "Wed, 04 Nov 2026 08:36:46 GMT",
-      "source_name": "Benzinga",
+      "published": "Wed, 04 Nov 2026 04:31:17 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su Addresses AI Infrastructure Bottleneck Fears: 'We Have Good Visibility Into 2027' - Benzinga",
+          "t": "Headline signal (not a direct quote): AMD, Super Micro Shares Jump After-Hours as Lisa Su Eyes 80% Growth in 2027; Analyst Calls SMCI Print ‘One of the Best Prints of the Season’ - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNF90anJxN3V0Q3ZpMEFJTlpzN3VMNkNadHluamc5RnVHNVgzZndMUVluSnNsTWphTkVlVkNDckV3S0hHXy1COHZoaG0zZ3F5MF9RUE9JMjkzcU81dTVFUzB2bm1UaUtnWHppVDk2aGZwZWFWbERzQzRqN1VscGQ4ZDI2X3g3VEtsVWJMZEYxOXctOWt4UVE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNjM4VnRsVXc0OFBuamg4WGw0YXVzYktlWi1VRWw1eFhueFNPWFNwa2cyTnFMSTVaem9NYlp1WEUzc3BoZlBpeTRzZ3dJR3FHeHFjZVBwRG9aN2IyT3BLclZnQnhGa0FmajdPSlhhNGgzSWUzUTRKSUJFbmJZR1hFRURSaDR5a3ZUMm85MUFDV3VPZ0dqSDBj?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -197,20 +136,21 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-11-04",
-      "published": "Tue, 03 Nov 2026 21:55:59 GMT",
-      "source_name": "Boston University",
+      "published": "Wed, 04 Nov 2026 06:53:00 GMT",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "themes": [
-        "#AI"
+        "#AI",
+        "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Slobodian Talks Elon Musk’s Growing Political Power with NYT’s Ezra Klein - Boston University",
+          "t": "Headline signal (not a direct quote): Hours after US mid-term election results, Elon Musk sends 'let's go to Space' message to Google, Amazon, - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQTRVLWRkc2JpODBJWkNESng1ZURQZ05yN3Ziajh6OFdqQzdMbmNRS0hZVlc3dXo4aFAzbXpmOE03dnY3V25HUktlalZqV0Fka3BrQVFHM2plYzNaV3hlN1NFWlBZWktzSDFuNjB2VDVaWlFza3pFb01hS0NsdXhZSk53M1p3S205Unh5MnRvMjJSLWpYRXA0U1FvN1c3QUFRcEQ1SHVCRFFkNElUUEozLU1lNURHQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNMjduSkNHMVpHLWxaNkhiOEc5eTg1TzYza1U4YzhEUnpnZkIwdFlDOHJqV3FGWVRTelRrUXZKSGdPWUlncEV2bktORXV2V1JGT1BOMUpaQkZOODBOSFBpZ2JGdi05LV80UWhGQ3dkSEhnWm11c3pPa3plN3U0QktrRVF6YW91aWtPSldmcEVBQkdvWHNWVTZpSFdnVlhPZ1lfUWFGb3ZGRlVzRmtRRE1QMFN5N3pIcjRmbGs2dVpUMFBXMXRldWdoSFhETnVLbkkwUzY3bzl5eWVuOUZic2l3UjdhOGY3TU1ieTBQVWlDUUtfbXNOYlRQY2syNVltRndtcmFFYlBkVFQwWVhNUXY5eXl5NnhhSTNtOXgzZ01BWG5td1lSNmwwNUNHWWh0bGd5MDJkYWEzOUQtMGJoZ1l2SGthaFRHYXh2NU81MjVTVEVFcHJtanJZaGdoV21NZ9IB4wJBVV95cUxPdG9MaG4yOVlZWGhWUkZvZnR2ZDhESHRhQnFQN1drcXpzc2FwSzlDVzJNUUtIZ2g3akhqZ2JFaGlMTWVQMkVic1ZBYWtuMGR5VjdJRG1odGR6bXJRNkhSRF91Mmt4ZG96YzNTZFZiOGo3a3pRX3BHT2hpbFEwNVF2Wk8wUi12M1k5T1hoY09hbjFZa0VndHNtaUZqU1NNMlhrb1UzcTI4NV9INUdrXzVFWXMzQWFBSktyYXQyRjJsSS1vdllGQ2dTMS1NTEVQX1dIeExTN3dOUl9ma0RsSmdGODRTQThwR1NiWnplM3FVRVNFVEZPOVdzMkZtbGQyckJ0b2tSeU1Ka1lQNkVqREtoa1BrS1JoSEhvMk56cTFuTHN3YWEyTU5tb2pmRktRcXE3VVB3YVBJeXlYUlMxWXd2Y0VwWDd1ZVNHcjRJbUhTblBvNXNVQjVMV3N0ejVORzlXazlr?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -218,21 +158,21 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-11-05",
-      "published": "Wed, 04 Nov 2026 19:13:50 GMT",
-      "source_name": "Forbes",
+      "published": "Wed, 04 Nov 2026 22:38:00 GMT",
+      "source_name": "Cryptonews",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg Passes Michael Dell To Become Fifth-Richest As Meta Rallies After Midterms - Forbes",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts the Bitcoin Price: Is This Actually Possible? - Cryptonews",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQTR4dE5YWkJFdjU2SXE3b1cxcXY5X09WWUVyRDdRb0ZidFlwSlJxUnJmaTFMQ0MzU1YxWW9XSnQ3Z0djZXhrTHNrV2dJQV95NGd4a0ZReDVBMU8zRGhmSnYxRXY5TVVKN0dSeFBTeUUxOXo5SFQ4Z0g4MExVNDJBdlh4RFE4b3NXZnQwR0ZSU2FFMWItNnVrNldoT2NPNUVfZHNncW5RZ2E2cUVsbDRvZUM4ZEVWd0R3THFTYUJsUlhPbWx5Tm5relg3UEVfcnV4aGxaY2Z0Z3lZdEVf?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaE5mTVR0YVNMdHRwS1FHdkJFV2ZmNThxN0dUZnM4SFFJVHlJeFQ4bFpVT2FhYnNxZ0VNYkxSa2IwQWtndENldnFYOWFSTXVxYkg3Y29VZWx5eEFwMkpQQ0tRQzN3clNqUkk2M2g2WGJBOWQxN09vUHFDNW5KTHVwRk93?oc=5"
     },
     {
       "name": "Andy Jassy",
@@ -261,21 +201,21 @@
       "role": "CEO",
       "org": "Intel",
       "cat": "CEO",
-      "date": "2026-11-04",
-      "published": "Wed, 04 Nov 2026 10:29:14 GMT",
-      "source_name": "Wccftech",
+      "date": "2026-11-05",
+      "published": "Wed, 04 Nov 2026 21:07:35 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Warns Safeguarding ‘Thousand Millions’ Of AI Agents From Unauthorized Actions Is A Key Challenge Of The AI Wave - Wccftech",
+          "t": "Headline signal (not a direct quote): INTC Stock Dips Even After CEO Lip-Bu Tan Buys $9.7M Worth Of Intel Shares - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSnllSWVNOTBjNXpvWjFtVVBzSVI5aXVCZ3VTS2xxeG1xVVhGdmNzTlN0eUdMYktrdU5ydjhLY2c0Q0k0bmlfUi1VeFVPNmN2dkpYWEVueTlfUGJwMlFhREVza1lGWm5qSnVFdFFJS3hJelNCc0RLR2pDQ1oxUUh1RktRLTNRMER3M0ZLMkNpRy1QLU1LV0ZJTTBsVWVTYkxmTjczWms4eGxlQ1YxZEFMWmE0Z1ZNeURRWGZfOFJPMjVQQU16WkhDV2hVVlI5OGdRd2xBdG9lSDhYTlp3VGs1RDBiYVhOQ2fSAewBQVVfeXFMUFg3aXBNa2FxeGFia0tiTGtZWHZwT2NTdmN1MVFUUENJdXVVa2ZGd1pmNUpNVzRQY3BacndyajFYWXVITXEzbm02S0tFMGVHenYzMGdjY2hXcUJlV2hISjItU1BPMEFuVjFnaVBtS3F6UmVpV1k2ejFBWkJiNXIxS2RXc2F1NTNBSHVsT0kybjRVNDJfZVdEODlZNnRzZ3dyMTlQSU03ZGdIZjhkSlpHNTc5QnMxR25YS0hZV190eVBOeFQyOF9ncG9TTlNPZWZ0WHBiTDZtUEhYX2xKRUFxWHNDSE1xWW1LTHdNc1I?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ0NKVDl6cDU0RXFoT2dROF9HRUxFLWZMLWVXSHpaazI3NGRpcXJwd3RWeHVqbUNNZTNueGZhSExZeGRUTXpHRGl4U01UaERXTXYwMUZIMEtoSVJfSnhpekg5TDVobjNXSDdEakJsTHktNm9uMXFXZDBFcjNSclA2WUZrdW1Od2tPeFFuUEhWX1JVVzQ?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -304,21 +244,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-11-04",
-      "published": "Wed, 04 Nov 2026 06:06:00 GMT",
-      "source_name": "BigGo Finance",
+      "published": "Wed, 04 Nov 2026 02:23:43 GMT",
+      "source_name": "TradingView",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Adds $11.2M of Palantir After Earnings Beat, Trims Alphabet by $3.5M - BigGo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood Scoops Up Palantir After Earnings, Ark Sells CrowdStrike, Alphabet Shares - TradingView",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94OXh5ZGhpeVFCemdjZ1p4Y3NncUUyVXV0UDdRWEdqX004MlhKQnM2dGt1UTZTX0lBdi13RGNfMzJJVkY4aFVfNUZzaUJucHRUQWJmb1ZkWktHQ0xmTDAzMUp0R1h0eWNtZ2VpSUdpci0yLTFJUEE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMGdxS0lNTGxBdDFzMHhDM0VDTmtiWlJ4YW83R3hvc3B2eVd4am1UVktDcGc5b0VxaE5Ud291YWpmV2JvOFNIWk9KNVIzNmRqZVhjdXBrVENYaVFwVGtsMmRjM1hSalk4cXhPNW1CcWR1akdkc055Z2tmbmlsMDNmS3l3YUJrbkNJUTdNbnJtbkoyS2VCempWRklQZXg3My1CRTM1cFEwbHRPMDRQbjVnU0RzUjFLZUc5MFh5X2ZobER6SGJOc3VFU2xSYU9Yd1RRWWg3NHNqbWxBZw?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -362,33 +302,14 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOamVWWFcxRTMzdkQwRmdiRW15NFlLdFlra2hUMmtyLU5BaElPMWNOSi1pNkROODJJZHVLQThCbTc0U2UyMnMtYjlQUExmQ2Utb1EzOWRFRHRRWlBsbnVhekJVd3B2b09CeGFnMU9IQ3FSU1lBSzYwZVVfXzJ2dzdWMVFRXzFRVF80OTVGc0NaRG83d1BuZ0JrOUlKNVR1TzI5MmVmem54MGhqOVNEWV9ZUzVRMGlMVnByWXRGaGdzRmRSVi1JbkpPRG41LXlYS2xEOGt0ekllc3lMU1JkUlprNDRlSjNUM01uaDFIQm5UVmZIM0pCTVU2RUpyRkxOY0l4ZzdPNF9odVlPcG53aVE?oc=5"
-    },
-    {
-      "name": "Stacy Rasgon",
-      "role": "Senior Analyst",
-      "org": "Bernstein",
-      "cat": "Analyst",
-      "date": "2026-11-04",
-      "published": "Tue, 03 Nov 2026 21:27:18 GMT",
-      "source_name": "CNBC",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Bernstein's Stacy Rasgon reacts to AMD's Q3 beat, stock jumps 7% - CNBC",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TVktsTUVHVnFPZ2tSTEptdmdQa3hxcF93TXVpOVJvcWxWN0dOSFhOb3FfaldNQmR2M0ptdElzZ3VVNWpKRTk0bjltN3JieVFXRFNodW90Q0dRWnA1eUZtcmFGRFVGcVdrcGJsejVBajJBSDMtX0pyakhaNA?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 18,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
