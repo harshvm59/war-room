@@ -1,83 +1,62 @@
 {
-  "updated_at": "2026-11-05T16:52:54.505366+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-11-06T02:17:51.885435+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "META",
-      "headline": "META_TITLE_QUOTE - Yahoo Finance",
-      "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 04:54:26 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE44b29VZTl0MFpSY0hBZF8yWjNjRW1yV2JxV2poNFUxSkdQamdsUmFORHdraWViUld1NXJtS244Rm5yODVxZU5xYjAtSFg?oc=5"
-    },
-    {
       "ticker": "NVDA",
-      "headline": "US Futures Mixed After Rally On Wednesday — MU, TSLA, AAPL, MSFT, APP, NVDA, IREN In Focus - TradingView",
+      "headline": "Tech-stock rout accelerates retreat from the AI trade",
       "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 10:10:26 GMT",
-      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcTRlRnlEWHlRc0g3SmNJblZ1a0FSNnVoUXJTV1hhVTFCc1BiRDdrRFN1WE1ab1VEWGFSd3ZwZHllTkhPak1VSW10dmk4dDAxanJlTGhkemxIVGUzbzZqMmZkbWJYWEhnZkgxV1p4cHREcUk3Z3N2T3EyQ2tVUVQ4bWVrQzhpWGY5aGpqa0sxSlRJTUJ0YUtWWE5kV1BZejNfNGZyOWtfbjQ5VmJuUm5XaHJ1RTJLbWdhU1NWeHZyanh4UmxVUHMtbG9vZk1aSTB6V1VpaEd2U0pfdlU?oc=5"
+      "published": "2026-11-05T16:40:00Z",
+      "summary": "Reuters reported that the semiconductor index fell as much as 11%, while Nvidia and other large technology stocks sold off as investors reassessed AI-sector valuations, financing conditions and data-center construction risks.",
+      "tag": "AI trade selloff",
+      "url": "https://ca.investing.com/news/stock-market-news/techstock-rout-accelerates-retreat-from-the-ai-trade-4935818"
     },
     {
-      "ticker": "BE",
-      "headline": "If You Invest $1,000 in Microsoft Today, Here’s What It Could Be Worth by 2029 - 24/7 Wall St.",
-      "date": "2026-11-04",
-      "published": "Wed, 04 Nov 2026 15:06:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYjF4MVNXbGt6Vlc0NW80YVQtekdkeVRwaW5tOUo4ZjlVOXpiblZ1c2lrQWMxNUFneWRZcW02dVg2NzVaQjE4TlZtc2VCNUc2VEpkcGR3bXNyUTRKMDFGQWYyVFU2T2JOQVQxbzQ0R05iVzFESU5fbUEzVEJNci02UDUtUGZIeGEzcEljV2VQMmwwQ3Y2N0cxY1V2MVhFbnAwMUhoR0JaaTlnUlBHOHFWQ2g5a0NuOHRnS2c?oc=5"
-    },
-    {
-      "ticker": "MSFT",
-      "headline": "IREN Stock Drops After Report Says It’s Behind Microsoft’s AI Spending Delay, As Investors Turn To Earnings - Yahoo Finance",
+      "ticker": "AMD",
+      "headline": "Tech-stock rout accelerates retreat from the AI trade",
       "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 04:08:23 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUXZxNDFGcEV5RGlOdkFvbVRRYmZELVMtODBNR1NXaXdkQVFDZ1dPb0RGSk5YMzFmQWpDdGpQZ1ZjQW52R1JPQ1FpQk9FOWgtWnhwN2kwek1xemxTUlJCemN5MEcyOHFCSy1zbkJ2RHdES2RMcGtzaVNmRVIybHAyS3FWMEV0M2JwclAzckNmVFRlTDhGX3p6Zg?oc=5"
+      "published": "2026-11-05T16:40:00Z",
+      "summary": "Advanced Micro Devices was among the large technology stocks falling by double digits during the latest AI-sector selloff, according to Reuters.",
+      "tag": "Semiconductors",
+      "url": "https://ca.investing.com/news/stock-market-news/techstock-rout-accelerates-retreat-from-the-ai-trade-4935818"
     },
     {
-      "ticker": "AI",
-      "headline": "Big Tech Stocks Soar as Traders Bet Democrats Will Slow AI Spend - Bloomberg.com",
-      "date": "2026-11-04",
-      "published": "Wed, 04 Nov 2026 17:07:54 GMT",
-      "summary": "Automated RSS market signal from Bloomberg.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGlwYnVIMDJUbHRjR1FjQzZCYXdUamdNVklZblZtbGVLY20wczdvdFNNYkhKN3ZFOTlPMVJ0bTVlRXc5R3h5S0ZSc0dIN2pqc3ZsUmhwMkc5QmY1WW9lWE5pY3M0VEFWdGE1ZTFmZi1aV1lFWGQteFFzYWw5TENzTGNiaXNjQldncmRaMEhhM3pFcFpNVEY2NkkzdHBCWXU1WTQtM2Y5bmIwbUJ5ZjBTcXYxTlE1dw?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Big tech stocks soar as investors bet Democrats could bring AI spending back to reality - Quartz",
+      "ticker": "MU",
+      "headline": "Tech-stock rout accelerates retreat from the AI trade",
       "date": "2026-11-05",
-      "published": "Wed, 04 Nov 2026 18:52:34 GMT",
-      "summary": "Automated RSS market signal from Quartz. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MYlVjTVpSd09ZbVJyVEpFWUtrZWtnUXlnY0k3ZnNFY2pEdUppQjZhZnhRQ0NFLWYyOWF3NDVxWmRJazJmWkdnNVdEaS1XdXk1TlR4WDBLRnVsSWxXZURDSlFQYTlhSFk3N0QxdUpWRWpZZw?oc=5"
+      "published": "2026-11-05T16:40:00Z",
+      "summary": "Micron was among the semiconductor and technology names hit by the broad retreat from AI-linked equities as financing and policy concerns intensified.",
+      "tag": "Semiconductors",
+      "url": "https://ca.investing.com/news/stock-market-news/techstock-rout-accelerates-retreat-from-the-ai-trade-4935818"
     },
     {
-      "ticker": "AI",
-      "headline": "7 Best ETFs to Buy in November 2026 - The Motley Fool",
+      "ticker": "QCOM",
+      "headline": "Tech-stock rout accelerates retreat from the AI trade",
       "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 04:30:31 GMT",
-      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9adXBwd0NWR3ZDaGlXNkFnSU9TaWU2UDRZNHVxX0RMa251V3hEY2F2SzFscWUxa3BpQTdLeDRYUm5xd1dUWFdvd3NGVFBHd3RraXZPLVlHdnZwd3JjLVBjSHBRVnRMZnVKN2FWM1Qycw?oc=5"
+      "published": "2026-11-05T16:40:00Z",
+      "summary": "Qualcomm was cited in market commentary as a catalyst for pressure on technology shares after its outlook missed expectations, adding to concerns around the AI trade.",
+      "tag": "Earnings outlook",
+      "url": "https://ca.investing.com/news/stock-market-news/techstock-rout-accelerates-retreat-from-the-ai-trade-4935818"
     },
     {
-      "ticker": "AI",
-      "headline": "AI News: Artificial Intelligence Trends And Top AI Stocks To Watch - Investor's Business Daily",
-      "date": "2026-11-04",
-      "published": "Wed, 04 Nov 2026 18:17:00 GMT",
-      "summary": "Automated RSS market signal from Investor's Business Daily. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMTVTWnJlZkpsVU9ZV0g1WHdKQVBKOFFvcUpPeTJuMW9iT2FTMWI1N2hMYk1ud1cwQlBEVlJObDFVTnpoNnBhejJrZnVFelQ5V3NNRklrM2RlaHUtc2NsbmxWcVV1MWVzd082RUdTYmtJVW9MUmJRTG5sV1dJN3JCd1JNX2Z4VnZtV3VpbzdrNXdKNTVSc3FB?oc=5"
+      "ticker": "SOXX",
+      "headline": "Tech stocks tumble as election rattles AI trade",
+      "date": "2026-11-06",
+      "published": "2026-11-05T20:03:22Z",
+      "summary": "Axios reported that the Nasdaq entered correction territory as investors reacted to a sharp technology selloff and growing concern that the AI boom could slow.",
+      "tag": "Market correction",
+      "url": "https://www.axios.com/2026/11/05/nasdaq-plummets-correction"
+    },
+    {
+      "ticker": "QQQ",
+      "headline": "Tech stocks tumble as election rattles AI trade",
+      "date": "2026-11-06",
+      "published": "2026-11-05T20:03:22Z",
+      "summary": "The broader technology market weakened sharply, with Axios attributing the move partly to heavy retail selling and post-election reassessment of AI-sector prospects.",
+      "tag": "Technology rotation",
+      "url": "https://www.axios.com/2026/11/05/nasdaq-plummets-correction"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
