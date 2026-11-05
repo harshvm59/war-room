@@ -1,91 +1,7 @@
 {
-  "updated_at": "2026-11-06T02:17:51.884795+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-06T04:17:39.515686+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Adam Sarhan",
-      "role": "Chief Executive",
-      "org": "50 Park Investments",
-      "cat": "AI-stock outlook",
-      "date": "2026-11-05",
-      "published": "2026-11-05T16:40:00Z",
-      "themes": [
-        "AI trade unwind",
-        "semiconductor weakness",
-        "AI spending returns"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Sarhan said AI-related stocks were already in a private bear market, with semiconductor shares substantially below their 52-week high, and argued that investors are questioning whether customers will keep paying for AI products and services.",
-          "k": true
-        }
-      ],
-      "src": "https://ca.investing.com/news/stock-market-news/techstock-rout-accelerates-retreat-from-the-ai-trade-4935818",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Will Compernolle",
-      "role": "Macro Strategist",
-      "org": "FHN Financial",
-      "cat": "Market rotation",
-      "date": "2026-11-05",
-      "published": "2026-11-05T16:40:00Z",
-      "themes": [
-        "post-election volatility",
-        "chip-stock rotation",
-        "Treasury demand"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Compernolle cautioned against extrapolating the first market moves after the election and noted that the shift away from chipmakers was accompanied by demand for Treasuries.",
-          "k": true
-        }
-      ],
-      "src": "https://ca.investing.com/news/stock-market-news/techstock-rout-accelerates-retreat-from-the-ai-trade-4935818",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Charles Payne",
-      "role": "CEO and Principal Analyst",
-      "org": "Wall Street Strategies",
-      "cat": "Market commentary",
-      "date": "2026-11-05",
-      "published": "2026-11-05T17:48:00Z",
-      "themes": [
-        "AI-stock pullback",
-        "data-center policy risk",
-        "oversold conditions"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Payne attributed the tech-led pullback to accumulated uncertainty around the AI trade and midterm-election implications, while suggesting the market could become oversold before data-center policies are clarified.",
-          "k": true
-        }
-      ],
-      "src": "https://www.wstreet.com/member/commentary.asp?con_id=66978",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Jai Malhi",
-      "role": "Senior Equity Strategist",
-      "org": "Vanda Research",
-      "cat": "Investor flows",
-      "date": "2026-11-06",
-      "published": "2026-11-05T20:03:22Z",
-      "themes": [
-        "retail selling",
-        "technology selloff",
-        "market correction"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Malhi said retail investors were heavy sellers of technology stocks and that the selling was tracking toward the largest retail liquidation since a late-July capitulation.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/2026/11/05/nasdaq-plummets-correction",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -113,21 +29,22 @@
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-11-06",
-      "published": "Thu, 05 Nov 2026 19:06:18 GMT",
-      "source_name": "CNET",
+      "date": "2026-11-05",
+      "published": "Thu, 05 Nov 2026 15:32:39 GMT",
+      "source_name": "Yahoo Tech",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
-        "#AI"
+        "#AI",
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI’s Sam Altman Backtracks After Hating on You for Having RAM - CNET",
+          "t": "Headline signal (not a direct quote): Sam Altman thinks it's 'quite terrible' for your PC to be using memory that AI companies need so badly - Yahoo Tech",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMHltMU9JMlhSRkZsNWxDZlA5amRNTlVwR2JXZHZWMVlvT1RjaW9icE4yRl81ZUZ6cGxpVjdHV2pJb2VNMFFndW9qbWVJb2ZFTkdiWnpnX3Y1Y0toOTZEZlNuZUZ1Zm5YSVlkSWttMjhtLU84dDMtblFtYlJZVDItUXlISmtKVzU2UnFNMi1qX3d6S2gx?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbURtM20yV1hnWHBpUGpHdzdwN3JYNmtpdnZTaVU5MGRRYTlSR0VSeGQwXzBQOGx6cFRkZW8xakZCSWd5b1Y2cGo5M21wQ25TQmFiS09ya1dTd2JqdFFTb0F0NWdQbjdsMHVxaEFmRG54ejluZEU3bkM0MnY4eElrTGVjV0h2dnZwZS1BWjlGZ29jUmxfS2E5dGtRTUlFRXduWDRNbEJZUkhZVVc3UlhuaDlHd2NBeFVJWVFEbXBZRksyRDhmVTBZMW04SldNa2V2QjBTamh2a0dVeVdGOXJYOHFR?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -157,7 +74,7 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 16:24:10 GMT",
+      "published": "Thu, 05 Nov 2026 10:39:24 GMT",
       "source_name": "Instagram",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -457,8 +374,8 @@
       "role": "Senior Analyst",
       "org": "Bernstein",
       "cat": "Analyst",
-      "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 18:24:38 GMT",
+      "date": "2026-11-06",
+      "published": "Thu, 05 Nov 2026 18:42:45 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -476,7 +393,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 22,
+  "fresh_signal_count": 18,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
