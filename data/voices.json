@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T04:17:39.515686+05:30",
+  "updated_at": "2026-11-06T16:51:57.625091+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -29,22 +29,21 @@
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 15:32:39 GMT",
-      "source_name": "Yahoo Tech",
+      "date": "2026-11-06",
+      "published": "Thu, 05 Nov 2026 19:06:18 GMT",
+      "source_name": "CNET",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#BE"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman thinks it's 'quite terrible' for your PC to be using memory that AI companies need so badly - Yahoo Tech",
+          "t": "Headline signal (not a direct quote): OpenAI’s Sam Altman Backtracks After Hating on You for Having RAM - CNET",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbURtM20yV1hnWHBpUGpHdzdwN3JYNmtpdnZTaVU5MGRRYTlSR0VSeGQwXzBQOGx6cFRkZW8xakZCSWd5b1Y2cGo5M21wQ25TQmFiS09ya1dTd2JqdFFTb0F0NWdQbjdsMHVxaEFmRG54ejluZEU3bkM0MnY4eElrTGVjV0h2dnZwZS1BWjlGZ29jUmxfS2E5dGtRTUlFRXduWDRNbEJZUkhZVVc3UlhuaDlHd2NBeFVJWVFEbXBZRksyRDhmVTBZMW04SldNa2V2QjBTamh2a0dVeVdGOXJYOHFR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMHltMU9JMlhSRkZsNWxDZlA5amRNTlVwR2JXZHZWMVlvT1RjaW9icE4yRl81ZUZ6cGxpVjdHV2pJb2VNMFFndW9qbWVJb2ZFTkdiWnpnX3Y1Y0toOTZEZlNuZUZ1Zm5YSVlkSWttMjhtLU84dDMtblFtYlJZVDItUXlISmtKVzU2UnFNMi1qX3d6S2gx?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -69,34 +68,12 @@
       "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVFlia2lnbVJ2YXJLWjVvVTZyVklqZ3liTjlBUXBvNFRuZHNkTmtWZGIxM0VYRVotUVlaSV9mdDV1aUh6RHJXUzJ0eWR1VFY3RThLUC01ajdWSHBaVWZYY1FmaE1ock8yOWFLbWRtQWtvSzlUMDF1eUVoa2dlUVlxd2hScGhma1dwNEd2bk9Zbmg?oc=5"
     },
     {
-      "name": "Satya Nadella",
-      "role": "CEO",
-      "org": "Microsoft",
-      "cat": "CEO",
-      "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 10:39:24 GMT",
-      "source_name": "Instagram",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#MSFT"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Satya Nadella-led Microsoft's salary hikes disappointed employees in India, as a survey by professional networking platform Blind found that 91% of Microsoft respondents received increases of 5% or less in 2026, while 86% expressed dissatisfaction with their - Instagram",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBmTXN4WTdLcjctTFpUS0RnVFZjdXIwdkN3ejBUVVM4aG9GVFVfaHVOTmFJMXpBYXlQSHc3a21WMURfc09HcFdRdVJIenRoaFlMc1E?oc=5"
-    },
-    {
       "name": "Lisa Su",
       "role": "CEO",
       "org": "AMD",
       "cat": "CEO",
-      "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 17:28:25 GMT",
+      "date": "2026-11-06",
+      "published": "Fri, 06 Nov 2026 01:30:00 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -106,41 +83,20 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su sees AI becoming 'essential to every aspect of our lives' - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su Addresses AI Infrastructure Bottleneck Fears: 'We Have Good Visibility Into 2027' - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT3BLQ3JIb1o1X2hwOFJpZkI1UWQtUUljQkhZazhYZ1FTdHlQMHFxcVh1RE1sek9oc0RVRzBXTHA2dUdLWlFGRGh2Mjh5cWZyS0ZPTXNiUVFWWjN2NGFxcE5Vcm1jei03VzNwVFRmSXl4ZFItbFE0T3JFYUdDZWs5WlNxTjZTQVdxbDM0SEpJOGltOEpodFYtNGpYZk5OQURsR1FWd3JLU05VQ1FCZ1k1dzBOcWRuaFM3dXBPV1FDNFNmMVlKMTNmdGx4aw?oc=5"
-    },
-    {
-      "name": "Chamath Palihapitiya",
-      "role": "Investor",
-      "org": "Social Capital",
-      "cat": "Investor",
-      "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 01:43:45 GMT",
-      "source_name": "finance.biggo.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Pain, Power & The Game Nobody Wins | Chamath Palihapitiya x Nikhil Kamath | People by WTF - finance.biggo.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiUU04TkxIQzc5TFo5Q2pUV3FrSS03Rkg0NU9yeUpLVThJa1pmZ1hEekVhZ2xfQjFFbmFTclMtWXJDd1c0XzVUN2Zoak9XZXB5UmtTQTlwS3hRbDJFYmlN?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWXZqTGlnNkZHeGlrVUF2aEhtNHd3bzlETXRCSEFnT19iQXlmTE1uWTd5azVTWl8wUXpnRnFYQXh5V1V1NUlnd2FXZGtVSHpoWGk0NnFNWVd4c2pLWExzbldHM2RJQmp0eXQ1WUxCS2k0aUxQNS0tNkFWbFJFaHBMMjc3eWhIa3dKU3lrSDlvZVpOdlE?oc=5"
     },
     {
       "name": "Alex Karp",
       "role": "CEO",
       "org": "Palantir",
       "cat": "CEO",
-      "date": "2026-11-05",
-      "published": "Wed, 04 Nov 2026 23:24:31 GMT",
-      "source_name": "TIKR.com",
+      "date": "2026-11-06",
+      "published": "Thu, 05 Nov 2026 22:47:28 GMT",
+      "source_name": "Observer",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -149,11 +105,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir’s Revenue Grew 96%. Its New Contract Value Grew 6%. Alex Karp Explains Why - TIKR.com",
+          "t": "Headline signal (not a direct quote): Can Palantir CEO Alex Karp Turn Shorter Contracts Into Long-Term Growth? - Observer",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUzJfLWdLbjVnMGp2S0VZaER2dms0NFUtTW1KM3d3M1hNUy1JWEY5b2p5eHpScVl5S3RBUUFPbkoyeTZVZzdzRU50QmpwZE5CcHRiYTh5TXZHTlJLcFRBbXh5VXVfYmhSOHU4b0hBS0lQeFF3SGE5SU4zNVRNWTU2dmZFdmNOY0RvOG8yU1o1b2RQemZRVDhtajBISHdIZjVYaHJBOWxtbw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9td2k4NGJKYmJNamRMZ0pVQ21kTklmYWFxOHBSQzZiYmJ1QkVTR2s1Qnlyb3VHLVprSFYyVnVTSWcxb3cyV1VpRDc5dFJxWWE1SFdfa25hTk5Vb2lzcmJ3blkycTJhWE5McS1lamkxcEY3SlRHV25YMFdBTQ?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -182,22 +138,22 @@
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 14:18:57 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-11-06",
+      "published": "Thu, 05 Nov 2026 23:32:00 GMT",
+      "source_name": "Cryptonews",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts an Eyewatering Solana Crash - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts a Quant Crypto Explosion: How High Could QNT Go? - Cryptonews",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUGxQRjVmOGxSS2ktN0M1SG9wQnM0Q2ZBclJ0TTdiNkQzcHZyUHdadUhObldKSlZzUWlVNnEycTV0VHhYWTlwb21FemQ5WnNKcEJTQ3luZjUzQUFiSDBjTjNfZW05UmU2SXoxS2lxUUgweDFsOEswMWhUU0gyYTV3Q19vTTFzMEp1U2E0aG9qNUJYYTJSYVJuVTc3UTcxUQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOHdYTHU3WHBrZ3NmeUsyZjRZTzg5SlBIY3E2R3pVY0pHd3EzT0RiTWM2Y1VLY092NXFGcl92SlhRM05xQmF5a1U3TkhvaTRyS0pzTmZFeFk1LXYwT3hhUVlIT1dmeXJrQ3BVazRmNzZvVW9tSEUzejhXaTVBcVlfS1c1eXBaNHBCWGN1MTJn?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -227,8 +183,8 @@
       "org": "Amazon",
       "cat": "CEO",
       "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 14:22:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Thu, 05 Nov 2026 14:02:00 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
       "themes": [
@@ -236,11 +192,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): CEO Andy Jassy Just Told Investors That AWS Can Grow Revenue 40% in 2027 and 2028 and Eventually Become a Trillion-Dollar Business. Is It Enough to Get Wall Street on Board? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): CEO Andy Jassy Just Told Investors That AWS Can Grow Revenue 40% in 2027 and 2028 and Eventually Become a Trillion-Dollar Business. Is It Enough to Get Wall Street on Board? - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeVZoQm5aMlh1YkZkb1A3d1BvWThfZlNLUDdpczR2eW5aS0QxeEZFelJNck1aRzlpRzJVRVU0a2FiY0JMQ0ROcW9DUEZBSHJ5RFBnVzJVdEw0S3VUaGtWb085SHVNajU4SWd0Ymp0dV9STzJ5M2JrZUcyT1gwZFhETWxhZUFwQXNnTmdueWhzcVFZVVk?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZnhlUzVva1BFWWVIMUJ3Q0Uxa3NQXzRUbWlqSjBXMmI1QW1HWlEycWNjMzlHaGx2RHZ0ODBFZ0wtVzVuUDBKMER2MHFsT3JybzJTaEhUMUxua3c4dWppb2FkdzY5YndockI2R1ExLXl2TnRxbGtIRGlrSXliVlVRcU5TMmd5a1RRM2puc3ZqV2Iwa0NIaFcyMQ?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -310,42 +266,44 @@
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 09:20:17 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-11-06",
+      "published": "Fri, 06 Nov 2026 01:20:00 GMT",
+      "source_name": "24/7 Wall St.",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 15,
       "themes": [
-        "#AI"
+        "#AI",
+        "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK Investment buys 348.4K shares of SpaceX today - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood Sells $12.8 Million Of Alphabet, Days After The Stock Suffered Its Worst Day Since Its 2004 IPO, Losing Nearly Half A Trillion Dollars In Market Value - 24/7 Wall St.",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaWlRa0tnVnpaSE94ZDlQbmtfQ2xXblRQYXloSkdhNTFKMFRFa0U2d0FZLVRrVXlnVnlLdUh0dmV3VHcxN2IxZU15UU51ZnV4azlSNHFnRWpfX2hFcW1ya0E5UUc5WWdtVTB4MEV6aWtFclVld19oaTVobnVXWm8yelA2LUsxNWNOU1dpWjNDN2RrYzVYOHpsSGNPOUk?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOckRkUkZkYkkxc1VEc3ZSUThsV1I1cjdvN09ma0d0UWNsVWtQSl9JSXRjTEJlZkhfd0E0bV8zeVFfeXJ2WkE2UGhKVXI5Tk9PZWh3aW1JbFRkLUZPd0lRWHRkMWNyLVpQa2k3dTRtQTFjQW11eENxbHpobWtoSVdxdnZHUlUwMngzUmNtUjBQcFBKS2xOeW5Id0V5U0JVNTBkN2NBUlhTWE42cUV6NWdiSHNXZmtRaGNzVHA5YkVsb0kyZzNjczNkc2xNTE4zZDdDbUFzNENhb1drNk9JVmtiVm9DTHVONXlaREJFR3VDNVJFTmg0M2FuMzA0OWtyTEVGYUZMcFoxbi0zRWRKanEyQ0dXb0k5SThqYVdjNGdlRUlwN3JtbzZMYmUySQ?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-11-05",
-      "published": "Thu, 05 Nov 2026 14:26:43 GMT",
+      "date": "2026-11-06",
+      "published": "Fri, 06 Nov 2026 00:12:04 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 17,
       "themes": [
-        "#AI"
+        "#AI",
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Thursday - CNBC",
+          "t": "Headline signal (not a direct quote): Nvidia has not gone all in when it comes to its own stock, says Jim Cramer - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmkxLUNpek1zS296NTdXbFIxa2tiMFpjOWFpNDN4ajl0WTRjRlJ4bUh6OWlLX3RRNkh1ekkyUFZpUUtNME96U29kMl93NjEwR0tKZGNLR1A4SElBYTlEdmNZdlp6YnViWWJUV0xRYzZBcWYtSENvQ3FodjdfOXhnNzlJWUlBN09KdnpjXzdhZ01keVUydWZYdmpWWVdlTDVMeXlfcUVBUmNvWllBWkNxQ3ZlWDA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWGw2RTdrbTFfWXR3Nm5oajIyRkFpNzRhc0FhS2ZldENUQ0tuaTJFcGg0YzdKMHVOcVV6N1pLSHNnTU1sbThHYkhNblMtQnJCV1MybEpsVGtYdTZrQXZwbnd3Y2dsWVNhSV9BalNXdGRvV3hLWnNNSTNOQk05ZUtleHZ0MXFJOG8yZXVLcXJMY1VNQllpdE9zNjdfSDExU0VsRVU3cW0tMVNOMGUyR3BZNEdVMHo3TWc?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -389,11 +347,33 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUJUaVRSWm12ckZNLWhYMmVUajdyWXlaVjE4V0VULWN0Z183V1RpcGxCSEQtQ3d3NUQ4emNUbktpZDdPVkxqXzRXUjh0UThOTzRJRnNGX2F6TmlwVWhOZnRIcHcyR3RXS1lNbzdLRVpYSGNPY3BhbmluYXVVRW1wZk5HZTNRbFhUcjc0QVZIMVZOZnNQcHY5Rm93?oc=5"
+    },
+    {
+      "name": "Morris Chang",
+      "role": "Founder",
+      "org": "TSMC",
+      "cat": "Investor",
+      "date": "2026-11-06",
+      "published": "Thu, 05 Nov 2026 23:00:00 GMT",
+      "source_name": "TechRadar",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#TSM"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Quote of the day by TSMC founder Morris Chang: 'Globalization is almost dead and free trade is almost dead' — a post-mortem on the tech supply chain breakdown - TechRadar",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPMjJ5V3FzczYwTFBPMGFEZDU4UHFQb0huXzFmbk1KdUNEcVJMUHQ4ZzBEZUQwTUZPNTFaQWNiVk9idlRBeER0M2Y3cmJySzJDTkI3X19iT19DT2Ixb2NWWXVTb0ZldXhVTmZUZ1FVdUNST3laTDZaOHNveXloc01kMU5DMzV6eVZ6RTd6NXJzUVl0LWNuMmlxNTZWYWFteF9pLTl1WXd1TTBGc0VfMDVuVEU3VXFHdTJSQUt3ZmpWeUEydDJvR2pSaGp5clBZdHBrNktjY0Z5VDdYWk5Db3lGaUhKNTJkSEhuajBuWlZUWS1qbXo1R2t3OGJSY2hLMnM1SWZhUHo3allXTS1LdDF5Qw?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 18,
+  "fresh_signal_count": 17,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
     "code": "daily_research_limit",
