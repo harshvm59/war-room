@@ -1,8 +1,8 @@
 {
   "feed": "framework",
   "status": "degraded",
-  "last_attempt_at": "2026-11-05T08:07:33.137414+05:30",
-  "last_success_at": "2026-11-05T08:08:40.720917+05:30",
+  "last_attempt_at": "2026-11-06T08:07:57.195080+05:30",
+  "last_success_at": "2026-11-06T08:09:08.584844+05:30",
   "error": {
     "code": "fundamentals_unverified",
     "message": "AI summary with linked sources; financial figures are not independently reconciled."
@@ -11,5 +11,5 @@
   "outputs": [
     "framework.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/41956410013"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/42151537488"
 }
