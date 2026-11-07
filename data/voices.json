@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T03:47:54.711960+05:30",
+  "updated_at": "2026-11-07T16:05:46.687359+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,49 +8,50 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-11-07",
-      "published": "Fri, 06 Nov 2026 19:34:42 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Fri, 06 Nov 2026 22:25:00 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 13,
       "themes": [
-        "#AI"
+        "#AI",
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Out of the World’s 10 Richest People as AI Selloff Hits Wall Street - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang seen as target of Chinese spy plot, according to the New York Times - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU01ZWGFLX3JFVld1NEZrTS1FOTFiVmxjWGQteU5UZ25zU3NnUHZMMzJadlBSOUllZmpFVkpoQ212NkZFNDlhb1J1a1c3ZEdNamM3RHlwMEhBd2JXUG90dTVDWHktcmhVbGNqQmxLWGVOX1cxVWRKcU9wWHhGRnVnT2dzY2ppckhUZVBCcmdiaDBpWk9yQ0ZPeXhB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRkFYeXcyTVdDV0VFRkxvUUk2VVAxZTdIdWVmRnEtako3WmxxRW9pc1J6N29zR05DR0s2WDlmZmJVb2RWOFRzZ1NsLUs4N2Zna1M0c2c3TjluNmlSRHJWWDNkdkcyNXk4QmdEUDlnMFpOT0FySmFSSktRY21CczdmaHpCLS1uMkQ2UHc4SUt4NjJOQlBjRUNtWG5iUUxvNmRrMTJzUVBvcGh2Ny1ZcHVuWDNISVFnUnRwS2c2NExtRW5lMWZNOW1vZ056dlI3Zw?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 10:00:17 GMT",
-      "source_name": "Fox News",
+      "date": "2026-11-07",
+      "published": "Fri, 06 Nov 2026 23:05:00 GMT",
+      "source_name": "TechRadar",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Oil-rich UAE makes massive AI bet as Sam Altman unveils ambitious plan to transform energy industry - Fox News",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman chats up Samsung to try and secure more RAM — as concerns grow over AI capacity - TechRadar",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNzItbVRmQXgwQmhBcGhsNjJXWFpoQTY3WnJGQ2UtcEV6UWVfVXo1S3VsNWZsanpGZFNia2pyWmtEOERnWnpNQmgyYVJBU3N6TXhBc0JQbktlWm5Bb0FrRkZJTXE4NGhwNXB3UG5wVDJkb1IxNi1pSFdvSDZQXzAyWm9nNktlRXcxVTktczdKY0tsNTU3dm1CNUxjUjNtSjhDM01qdk1qQ2ltWEdFeHZTTkpBT3ZTQnBwUFlhdzQ5ZEzSAcYBQVVfeXFMUHVxbmhKYzhqVjUxS2F4TjBKNFhxMXVtT0FtVTcxMW8zZThFdFJreXFUZmx2eXRncGNVMWthZmE4dDBJeWFhWFZrLXdfTlV2SkJmdkdLb3JsNUtvYlJjektidUJBV0NLNG9LOWZVT0thVmZVNmM5cktxbkFQaEgtX1FMbXZIa1k3dy0zYlUwVU1lUl9TR3U4UkdZek5ROGNJSVduemNIMTRRZGx5YjR1dmduWXlUUHRRSkZ3a0YybG1sdThDUTRB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWm1jOW9DZlFBTmszdnJNRmlLSUNNTUJVTmFQVTYyNndBd0NBWEJrNVZfMGRsOHBmSXRSTFBwVVVGcjVMNW1IOTFETHRuOGN3cEpSbWg0UklYbXZpUXN4TTdOeUxBSFhFZjRobkRLbThJTUNaajktQlBZTG55Rm91UDNkTll3bEMtX1BYNGFJTmQ5TDk2eHVlZ3ZrSGFZZlNyQk5fM0RMTVVZZ0wwQmlWVVdtMUk1aWF0QWw0cFJCVzdWVWowQk1ocQ?oc=5"
     },
     {
       "name": "Dan Ives",
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 16:28:00 GMT",
+      "date": "2026-11-07",
+      "published": "Fri, 06 Nov 2026 21:46:00 GMT",
       "source_name": "Investor's Business Daily",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -64,6 +65,28 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMFp5MkZrdXJOeWVrcjZwSzlXNHYtcXhZbHllRzRMd2F0Tmwyck9GUTZGQ0VIdWd5U0pzYWMxNU1rZDQzZGJvVzJqb2I3Q3hiSFNnWWFLQ1JxdFF3SEVCSVdESkNfcnR4ajVLVkVpN0xsM2JPRXZaMWYzREpjeERCU2xfUjktbjNNMlNFRHNHRTJXYVd6VEdhNWRZYzVaOW8?oc=5"
+    },
+    {
+      "name": "Satya Nadella",
+      "role": "CEO",
+      "org": "Microsoft",
+      "cat": "CEO",
+      "date": "2026-11-06",
+      "published": "Fri, 06 Nov 2026 13:39:51 GMT",
+      "source_name": "Stocktwits",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#MSFT"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): MSFT Stock Dips Overnight: Satya Nadella Calls Anthropic’s Fable 5 ‘Editorially Controlled’ Amid Backlash Over Safeguards - Stocktwits",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOeG92VzhrOGhub245THpqQTVoSmw4cUVxckpNdGlxQlJHc2IyYzVqbnNaSHlmUFJjakZmMWVfNmdDN3NxM2ZZd1YxblhkaHZGSlZpS0VVLUZGX1ZLaF9iZDk2dGt6dS05UmhFYTh0R25oR1M3SFNYejEwUml1elE4NFZkUmFveUxKTHZSV1JqdmNsTWhnM09xZHhQWGZaSUhqS3BtcnFyMlB1ZnF2bzdNM0FEVFdUT2I1MERpNDdSVV8tX2NIam8xckxsSzBKMThndWtvNkFhQl8wUXp5cjNCRkpDa2lEODNrLW9NdE5xWGxRbkpmT0VGd3R3M3VrZmhEQXF4dXRQYUFpY1A4OEJJ?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -88,28 +111,6 @@
       "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOT2NZZVlqbVhJSTUtWVZVSTlrX0huaEpLOUNVRDZEYVdhSHFOX242dnA4QkF0REMzXzlGcU9vTVp2dUpNTVpJaFhLTFFXXzJlbWVEcmJtTFI3bFVNcFVLcU9obDk3bE5zM18yNEpuemhZbnlRTmZETnhHaXpiYmQ1bmM2NlVxMVJiVEZuSHBxR1k?oc=5"
     },
     {
-      "name": "Alex Karp",
-      "role": "CEO",
-      "org": "Palantir",
-      "cat": "CEO",
-      "date": "2026-11-06",
-      "published": "Thu, 05 Nov 2026 22:47:28 GMT",
-      "source_name": "Observer",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#PLTR"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Can Palantir CEO Alex Karp Turn Shorter Contracts Into Long-Term Growth? - Observer",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9td2k4NGJKYmJNamRMZ0pVQ21kTklmYWFxOHBSQzZiYmJ1QkVTR2s1Qnlyb3VHLVprSFYyVnVTSWcxb3cyV1VpRDc5dFJxWWE1SFdfa25hTk5Vb2lzcmJ3blkycTJhWE5McS1lamkxcEY3SlRHV25YMFdBTQ?oc=5"
-    },
-    {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
@@ -132,26 +133,48 @@
       "src": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3JuSG9jb0RpWE1DT21mNVpXNE01NnA0V0d0eGJEX1JlN2pYRlVfdWlTQ0hZZzMtLXZRdk5aWlFWUkZzdE9rdHpuYzREQnBFWXVqelAwQWM0VDdFdVpWU1FPYmhxNEIxVUlocmRpbnZVU3g1ekFKSEd1VC1zTWVUNmVFYnU?oc=5"
     },
     {
+      "name": "Mark Zuckerberg",
+      "role": "CEO",
+      "org": "Meta",
+      "cat": "CEO",
+      "date": "2026-11-07",
+      "published": "Sat, 07 Nov 2026 05:29:19 GMT",
+      "source_name": "Investing.com Nigeria",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI",
+        "#META"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Form 4 Meta Platforms Inc: Mark Zuckerberg (Director, 10% Owner, COB and CEO) For: 4 November - Investing.com Nigeria",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVXk2Tm1TbEdRcHRjQ0U3MFhGOGU4Y0twSG9NVjBhNmVfRUlCSFJEMTRmVmMzbl9CTEdnQ0UxaTdyZ3paRnU0WkJpdXFpLW1jSnNRRjBfNjQzbFdrbWlGRUp3VmFBUmJqWHNOWnlocjE1MENnR0NnZlhDaWN5ams1UzFxd3ZibndCVzBrUXpzY1BUNkZBdW5ray1FcjdUdHdBRmVnTVlicEw4SnRnelVvS1FBb0MtV2VweTdBVG42TEdaVFE4RkJUc2UzOEhGbmpWZHh6UW9qSVpUakJiRzB3dg?oc=5"
+    },
+    {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 18:04:02 GMT",
-      "source_name": "finance.biggo.com",
+      "date": "2026-11-07",
+      "published": "Fri, 06 Nov 2026 19:06:32 GMT",
+      "source_name": "DD News",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Google CEO Sundar Pichai: AI’s Infinite Possibilities, Compute Scarcity Dilemmas, Future AI Products - finance.biggo.com",
+          "t": "Headline signal (not a direct quote): Over 8.5 million developers use Google AI models monthly; Alphabet plans $190 billion capex: Sundar Pichai - DD News",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPSXNKenV4QldCa1ZZb1NVLTZZZXRfSlFvTWVUZWdvUHBmSFM0ZmVPNl9icHhaMWhtYTVFOFVaNXF2aFBuXy1XNjItYUFHN192WVZydnFoQTFxRDNKRklR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUWpIaTBoN3ZRajExeWtQMFZNZDk5c1UtY29tWnY3TFV6Rzh4QVdfaVM1U3ZWNHVhSjBvSXRtbTRTcFUtTk1DdUhtb1RuRGU4NnVCM045UnNTWHZHbDY0djVqbi13NmdyYkZxQkVSSGYzamowSVE2SjRjb09LUk12UWJtSmRoSkN3SDgxRHFONkFhWFRlSGptQUVCOFpfa1ByZFNzcjhLS1dkVzdqYTBKS0dIYThNZG9CWlowMERQTVQyYmZBUzdCZQ?oc=5"
     },
     {
       "name": "Andy Jassy",
@@ -202,8 +225,8 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-11-07",
-      "published": "Fri, 06 Nov 2026 18:58:00 GMT",
-      "source_name": "Investor's Business Daily",
+      "published": "Sat, 07 Nov 2026 06:00:20 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -212,11 +235,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Makes $437 Million In Trades. Adds Nvidia, SpaceX; Offloads Broadcom - Investor's Business Daily",
+          "t": "Headline signal (not a direct quote): Cathie Wood-Led Ark Loads Up On GOOG, AMD, NVDA And Biotech Stocks — But Sells CRWV, AVGO, LLY - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdmFxODlXUnZuSlVtMHZXakhSVXlNX2x1LUxZUllGWHJ5cTZWdnozWTNKNjdySlJEVXE4VUFmR1ZSU2Nza2JQRFJYWXBOaWJiTHJDLUtqWGVfc2JwS21mRkVoSzFRY1BCQjRtTVJESS1mZ3p3QlhaQkNKTnJEQTBMdjJJUkhWbDZCancyY29VTFYtZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUENMbkhuZXdXTHJRUkp3RTlCMEk5UXJxUlJGMnAzTHlLc2t0Z0ozNzdUZG82T0Frb3BUNGlVUFlGQmdOR0ZoVk1PaXJDdG1IbWNkWnNNbC1QSmVIeXVfbkQ0RERUM2ptTDBycmFCSWhXcTl2VjBmVjZKZ0JVWDA2QU40OHJxQl9hU1luRTBPSEY4S1Bu?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -224,7 +247,7 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-11-07",
-      "published": "Fri, 06 Nov 2026 21:10:11 GMT",
+      "published": "Sat, 07 Nov 2026 00:09:00 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -233,59 +256,59 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): 5 Latest Jim Cramer Stock Picks on Twitter and Mad Money - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer Says the AI Sell-Off “Is Not Like 2000.” Here’s His Case - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTnFIVGg2bnhXRWZvM0tORnFMM1ZOM2NQZFVMSVVIWmpHdzA1djlxd2liXzdEbTJRQVlDSG5yN1FtdXpfTkVHRHVYZmNhODBmNkpUWnM3M1QwZE1wNGNGX1k5MjBmM1Z4a002UVhSU2ZJTmY2eGh1RDRydUYzejBFZm9VM3pSdUFhOGdIbm5QX0RzRF9l?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMFVCZnZtV09NU2xxbTREMGRVQ1o2NXpVeFRMQ2V3M3BnQ29zRnNnYVFPY01rOGZfaTJwem1MVGswR0lUcGQ4YjkxQmlleVoyLUlCVHFrNms5TFhTS1p0bDBjTHVjSm1FUDhQMVB3UTZJQUpIdkN5V2lVdmUxUzdOdjJUMWhKLXJRMTlRdVE4WDU1QQ?oc=5"
     },
     {
-      "name": "Patrick Moorhead",
-      "role": "CEO and Chief Analyst",
-      "org": "Moor Insights and Strategy",
-      "cat": "Analyst",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 12:50:02 GMT",
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-11-07",
+      "published": "Sat, 07 Nov 2026 07:40:29 GMT",
       "source_name": "TradingView",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 9,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Former Goldman Sachs CEO Slams 'Current Hysteria' to Block AI Data Centers, Calls it a 'Gift to China'—Patrick Moorhead Warns US Jobs, Tax Revenue Losses - TradingView",
+          "t": "Headline signal (not a direct quote): AI Stocks Have Taken A Beating, But Gene Munster Says The Biggest AI Boom Is Still Ahead - TradingView",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOcDhqZTZTVDI1U2tMaEVzVFc0TEh4LXhOM3lScDVVNGhwVUQwUGszQzBDbFIwbXBQM09mblRTZUp3T1N1eTJHbmdXMWFVQXBUaFNCUmJMNEtXalZ4dTRtUkxoWlEtYkV5WkF1M3VzYnBqTmlrZ1FqZTFvR0Z3ODZKeThLTzJGTlJOcUpoV3kxblF0Z2dub2wyZjU4enZ6NERxY1IwOVNlemZQLWtCQ1RmdEZSRWxCREVXZ0ViOTR4aVFjYTJRZWJkVDFMZEtrS0Vkc0duY1o4bkVTX1hEMnlsdVpxMmw1VGJlX20tSW9LTHRwT1N4Z0xobG5SblFXZDhXTHRhcVlBQzJQRmFWVWhXb2h0cEJQU01YZTZxZWVvS0d4WWxuWWNTcFRYM1FQWE0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdzBZLXVxNWZPdFFXbTQxbEZ5TGVLSzVDS2dCbDlXRG1EdVNWM1hwWi05dDEzNEdPSW5SZzhlZDdJRmRPa0VEM2ZTUFlRaE9ndnR2d3FISmtKZ2ViSlBaNWNBcDNxRXc5TEg4d1g3NHV5MkI5ZDV0cE92alVqZTVaSk9lUFlqY0RKZzM0MlJFSGlVZ3RWOGJoUndva0lSVmM1c2pHSjl3TUlHTVJaY1BHVXRURHJGZFNlRWZXYUtKVzYxYVRGMS1tU1psd1R3TlFZdkR2Unl5WU1FaTI2OFg5WUFB?oc=5"
     },
     {
-      "name": "Morris Chang",
-      "role": "Founder",
-      "org": "TSMC",
-      "cat": "Investor",
+      "name": "Stacy Rasgon",
+      "role": "Senior Analyst",
+      "org": "Bernstein",
+      "cat": "Analyst",
       "date": "2026-11-06",
-      "published": "Thu, 05 Nov 2026 23:00:00 GMT",
-      "source_name": "TechRadar",
+      "published": "Fri, 06 Nov 2026 12:09:24 GMT",
+      "source_name": "Stocktwits",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
-        "#TSM"
+        "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Quote of the day by TSMC founder Morris Chang: 'Globalization is almost dead and free trade is almost dead' — a post-mortem on the tech supply chain breakdown - TechRadar",
+          "t": "Headline signal (not a direct quote): MU, AMD, MRVL, QCOM Stocks Surge — Bernstein’s Stacy Rasgon Says AI Demand Is Exploding, Memory Capacity Is 'Very Tight' - Stocktwits",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPMjJ5V3FzczYwTFBPMGFEZDU4UHFQb0huXzFmbk1KdUNEcVJMUHQ4ZzBEZUQwTUZPNTFaQWNiVk9idlRBeER0M2Y3cmJySzJDTkI3X19iT19DT2Ixb2NWWXVTb0ZldXhVTmZUZ1FVdUNST3laTDZaOHNveXloc01kMU5DMzV6eVZ6RTd6NXJzUVl0LWNuMmlxNTZWYWFteF9pLTl1WXd1TTBGc0VfMDVuVEU3VXFHdTJSQUt3ZmpWeUEydDJvR2pSaGp5clBZdHBrNktjY0Z5VDdYWk5Db3lGaUhKNTJkSEhuajBuWlZUWS1qbXo1R2t3OGJSY2hLMnM1SWZhUHo3allXTS1LdDF5Qw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWk1VdGVNT2dIX2ZLdTdsNS13RkRVUm9OMm52LVNJVGZIMFZVTThDV1M5bmc4UzNobnlqZkFrQUIyNUtpbVlOZVpWMjNMYXdXSDIteFBxdXI3ZU5MX3JXdlRKa3ZZVFJkTDVWZ25ONWZNLURhNHBZX1hkQ3U0eFJqRkRZSkxyZkFrUEs1SEFmVjRDRWhpUVl6bXdFTmNKWHRsbG9RRGE5UmRBWVF3TjNrSHdlTWNCY3V3OWszTXQ4QjhsYmlnbXg0?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 13,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
     "code": "daily_research_limit",
