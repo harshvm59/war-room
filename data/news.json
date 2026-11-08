@@ -1,83 +1,26 @@
 {
-  "updated_at": "2026-11-07T16:05:46.687865+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-11-08T16:11:14.771887+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "MSFT",
-      "headline": "Oracle falls 4% as Microsoft reportedly winds down AI cloud capacity deal - Yahoo Finance UK",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 18:17:18 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance UK. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcm9UZGZVUFpORkpaMkxBY1VTTWRnQzJHWUhvRm9tVG9vSVhpeHJUeVdBcnZ0ZmdSbWpfWjRSTWFoZUZmVW1OOHQ2WGh2dURWczVjaVZoUnFpeDA4QmJFamtHbjBHYy1IM3JGWERINFpmYjFvdk1QNjlTQmg5YUhOcC1Pdk8zcWQ5ZlczUA?oc=5"
-    },
-    {
-      "ticker": "META",
-      "headline": "AI stocks like Meta, Nvidia and Microsoft are sliding. Is it time to buy the dip? - The Business Times",
+      "ticker": "NVDA,LRCX,AMZN",
+      "headline": "Midterm election results increase scrutiny of AI data-center expansion and pressure AI-linked shares",
       "date": "2026-11-07",
-      "published": "Fri, 06 Nov 2026 23:00:00 GMT",
-      "summary": "Automated RSS market signal from The Business Times. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMGxwWHJfQXc5ZnVyd3FjRlZPb0ZSeWFGNjFUQk9HUTZmYjRNbS1VSVRtbkprRVFnR0N5UG5CLWNxb3BDNnhLcFZ0bll0eVVGNDJEanh4LWZfYTdaaG1NaUdwSU9QaVlhZnphZEpnWFlUYlVHdktZQmhLTi1IUzNtM0prRjFnRmREeEFPWkVtUUNCZUJCdDBoMjBDazA3Zmp5SExOdDdfT1RGbjZnenZKcGJaWW8?oc=5"
+      "published": "2026-11-07T13:30:10Z",
+      "summary": "The Democratic midterm victory raised concerns that Congress and state governments could slow data-center development. Nvidia, Lam Research and other AI-buildout companies swung sharply, while hyperscalers such as Amazon performed better.",
+      "tag": "AI infrastructure; policy risk; portfolio exposure",
+      "url": "https://apnews.com/article/stock-market-winners-losers-defense-ai-musk-4ac9a6a3c35aeec37374fc8083bf9395"
     },
     {
       "ticker": "NVDA",
-      "headline": "AI Stocks Routed After Midterm Elections: Four Cloud Giants Show $26.4 Billion Cash Flow Gap, Nvidia Loses $440 Billion in a Single Day - BigGo Finance",
-      "date": "2026-11-07",
-      "published": "Sat, 07 Nov 2026 08:25:00 GMT",
-      "summary": "Automated RSS market signal from BigGo Finance. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9feHF5djVGTVpZakozSFV3cUFRZ0M1VzN2RjNmVEU2Tmk5TnNSNGlzb0RLamNmWGFIWF9XY3JvZll2Q29QSGx5MEZFQnpZZ3BpclE2VjAyV1VNRWpCNnR6WjBYU01RQVhQWXAzMXJkOGUyNTQtNkE?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "State Pension Funds Have at Least $578 Billion Riding on Tumbling AI Stocks - 24/7 Wall St.",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 17:34:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQakRfUDV3eS1MWXJpRzlOMWNCcTltbzlLS1dpdGhDckE2SjlSbEtpZE1OUE13bDdCaWhZNnNYRGNQYnlFSndnMGRWSUQ5dW1ZY1hGaWFoSXNmRWhrM1NqX2VqdWpHZi1WLVVSTGV2akhpUlR0a0Uyeko1M0gzY0RTVGtYc25wRHk4YVp1dU1Sa0puV1QzQkFOWUhJaTlDSUJxTmFyVERmS0V1TGxkZExzXzFvMHlWOFlSekE?oc=5"
-    },
-    {
-      "ticker": "MSFT",
-      "headline": "Microsoft and Oracle’s AI ambitions are suddenly a lot more expensive - TheStreet",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 18:07:00 GMT",
-      "summary": "Automated RSS market signal from TheStreet. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdk5mVkpEMUpoSm5Iem9NUWhEVVNoY3B0ek93TlVxT0xqWllKX0ZSYU5zbjc0aXlqVVl3TVdVbjB6S0l4ZlFXMklLR1o1Z0lvWkJFa3JEeTk3bmkxM1p4SWE3NVdqZm1nRHp6RGdRZmIwWGVaT3ROQXEzTm5sQ2ItSjZ4WHRya3FhQ1NSRUM1QVlOZTBWZmRycmFlNnc4ODV0Q0pVOFlUYkpFU1U?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Not Nvidia. Not Palantir. The Midterms Just Made This Magnificent Artificial Intelligence (AI) Stock the Safer Bet. - The Motley Fool",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 11:00:00 GMT",
-      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbHQ5ZVBHQ2RxRHZaLU5hWXlBT1lwTllRY0ZaamFmazUxTzIxZGE5eVl5X1VBWFJTeHRUbEhkc3hnT3ZhNVozZDJ6U1FtUkFsM0lsUFBSdGl1Tzc3aXJQeDgxQWdsVHlQRG12X29NUlFTbTlRRTFEOXY4LXRBRUo4VVZkWkZqdGhVS1pvelVjMTEwUEZKdTBUSw?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Most Big AI Stocks Cost Less for Each Dollar of Profit Than Costco - Stock Titan",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 13:20:12 GMT",
-      "summary": "Automated RSS market signal from Stock Titan. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNWNQcW11cV9BYmNkSno3TXN0aGpKUVJQS3Z4QXZGZFlKVUp1VHNoa0FIZXVwR3RJZmgwY05HYlNOaFNhZUt3OFBoSWdyejNGTGdOaWl0Z1ZHT0NNVVFzb3l3cHBDTDNTaFByN1hJV2JUWEk5QXVweEdaZEtJZWpGakJYcw?oc=5"
-    },
-    {
-      "ticker": "AMD",
-      "headline": "AMD’s Lisa Su Says the Market Is Being “Short-Sighted” About AI - 24/7 Wall St.",
-      "date": "2026-11-06",
-      "published": "Fri, 06 Nov 2026 15:48:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMUtRdnVJalcwWTMtaTByVU5pT0JSY3dIajRVN0JXQXhkSElzSE5KNWxwTXBZMUJRQV8xWFVIWGdEbmdoUTBQQkdpSkNXNF91LUdGMTc4REI0RnJFQ2pEam43R3ZLeHA5SkVleWQtXzJpWGRIQXdtMHpwT2FKaEk3YVd3SzA2QmlZdW5xMlA1ZXJVWm8xdlJPY01PT01jTThQdDNHaElCNA?oc=5"
+      "headline": "Nvidia CEO Jensen Huang faces increased congressional scrutiny over alleged Chinese intelligence links",
+      "date": "2026-11-08",
+      "published": "2026-11-07T21:06:38Z",
+      "summary": "Axios reported that congressional scrutiny of Jensen Huang is intensifying after reports alleging that a person connected to him was recruited to spy for China. Nvidia denied that the relationship involved anything beyond normal business contact and said no sensitive information was shared; the Chinese government also denied involvement.",
+      "tag": "Geopolitical risk; export controls; governance",
+      "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
