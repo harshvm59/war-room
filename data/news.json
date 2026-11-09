@@ -1,24 +1,78 @@
 {
-  "updated_at": "2026-11-08T16:11:14.771887+05:30",
+  "updated_at": "2026-11-09T17:28:50.743869+05:30",
   "source": "openai+web_search",
   "items": [
     {
-      "ticker": "NVDA,LRCX,AMZN",
-      "headline": "Midterm election results increase scrutiny of AI data-center expansion and pressure AI-linked shares",
-      "date": "2026-11-07",
-      "published": "2026-11-07T13:30:10Z",
-      "summary": "The Democratic midterm victory raised concerns that Congress and state governments could slow data-center development. Nvidia, Lam Research and other AI-buildout companies swung sharply, while hyperscalers such as Amazon performed better.",
-      "tag": "AI infrastructure; policy risk; portfolio exposure",
-      "url": "https://apnews.com/article/stock-market-winners-losers-defense-ai-musk-4ac9a6a3c35aeec37374fc8083bf9395"
+      "ticker": "NVDA",
+      "headline": "World markets rebound as AI stocks recover on Wall Street",
+      "date": "2026-11-09",
+      "published": "2026-11-09T04:14:57Z",
+      "summary": "Global markets advanced after a recovery in AI-related stocks on Wall Street. Nvidia had fallen sharply in premarket trading before the broader rebound.",
+      "tag": "AI equities / market rebound",
+      "url": "https://apnews.com/article/d938f8e6ff42b3706e1d36e6245ec56b"
     },
     {
       "ticker": "NVDA",
-      "headline": "Nvidia CEO Jensen Huang faces increased congressional scrutiny over alleged Chinese intelligence links",
-      "date": "2026-11-08",
-      "published": "2026-11-07T21:06:38Z",
-      "summary": "Axios reported that congressional scrutiny of Jensen Huang is intensifying after reports alleging that a person connected to him was recruited to spy for China. Nvidia denied that the relationship involved anything beyond normal business contact and said no sensitive information was shared; the Chinese government also denied involvement.",
-      "tag": "Geopolitical risk; export controls; governance",
-      "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy"
+      "headline": "Nvidia shares fall as board launches probe involving Jensen Huang",
+      "date": "2026-11-09",
+      "published": "2026-11-09T10:23:17Z",
+      "summary": "Nvidia shares were reported down about 4.4% in premarket trading as the company’s board launched a probe involving CEO Jensen Huang, adding governance risk to a major AI bellwether.",
+      "tag": "Corporate governance / AI leadership risk",
+      "url": "https://www.axios.com/2026/11/09/nvidia-shares-stock-jensen-huang"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Nvidia CEO crisis tests investor confidence in AI leadership",
+      "date": "2026-11-09",
+      "published": "2026-11-09T10:15:04Z",
+      "summary": "The report frames the controversy around Jensen Huang as a test for the leader of a company central to the AI investment trade.",
+      "tag": "Leadership risk / AI concentration",
+      "url": "https://www.axios.com/2026/11/09/jensen-huang-nvidia-ceo-crisis"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Tech remains central to the U.S. stock-market outlook despite AI selloff",
+      "date": "2026-11-09",
+      "published": "2026-11-09T00:00:00Z",
+      "summary": "Reuters reported that technology shares remain critical to the market’s direction because of their large weight in the S&P 500. The article also noted upcoming Nvidia earnings on November 17 and Dell earnings on November 24.",
+      "tag": "Portfolio positioning / earnings catalysts",
+      "url": "https://www.investing.com/news/stock-market-news/tech-set-to-still-sway-us-stock-markets-course-despite-aidriven-swoon-5011245"
+    },
+    {
+      "ticker": "MU",
+      "headline": "Daily market report flags Microchip guidance below consensus",
+      "date": "2026-11-09",
+      "published": "2026-11-09T00:00:00Z",
+      "summary": "A market report said Microchip Technology fell 10% after providing fiscal third-quarter non-GAAP earnings and revenue guidance that was below consensus estimates.",
+      "tag": "Semiconductors / guidance risk",
+      "url": "https://marketwealthpro.com/2026/11/09/daily-report-2026-11-09/"
+    },
+    {
+      "ticker": "AMD",
+      "headline": "AI trade recovery follows sharp technology selloff",
+      "date": "2026-11-09",
+      "published": "2026-11-09T00:00:00Z",
+      "summary": "Market commentary described a rebound in AI-related shares after a major technology selloff, while investors continued reassessing valuations and data-center spending risks.",
+      "tag": "AI equities / valuation reset",
+      "url": "https://www.home.saxo/en-ch/content/articles/morning-brew/november-9-2026-09112026"
+    },
+    {
+      "ticker": "QQQ",
+      "headline": "Weekly market update highlights AI concentration and diversification risk",
+      "date": "2026-11-09",
+      "published": "2026-11-09T00:00:00Z",
+      "summary": "ATB Financial reported a broad technology-led selloff and emphasized portfolio diversification as investors reassessed exposure to artificial intelligence themes.",
+      "tag": "Portfolio risk / diversification",
+      "url": "https://www.atb.com/wealth/good-advice/markets/weekly-market-update-november-9-2026"
+    },
+    {
+      "ticker": "XLK",
+      "headline": "Market commentary says AI repricing has spread beyond chip stocks",
+      "date": "2026-11-09",
+      "published": "2026-11-09T00:00:00Z",
+      "summary": "The report said the AI repricing had extended beyond listed semiconductor companies into AI infrastructure credit, private-market valuations and capacity contracts.",
+      "tag": "AI infrastructure / credit risk",
+      "url": "https://prop.theconcepttrader.com/market-snapshot-november-9th-2026/"
     }
   ],
   "provider_error": null,

@@ -1,8 +1,8 @@
 {
   "feed": "news",
   "status": "ok",
-  "last_attempt_at": "2026-11-08T16:10:53.157466+05:30",
-  "last_success_at": "2026-11-08T16:11:14.771203+05:30",
+  "last_attempt_at": "2026-11-09T17:28:29.531874+05:30",
+  "last_success_at": "2026-11-09T17:28:50.743042+05:30",
   "error": null,
   "source": "openai+web_search; openai+web_search+30-leader-monitor",
   "outputs": [
@@ -10,5 +10,5 @@
     "youtube.json",
     "voices.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/42472434246"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/42613168330"
 }
