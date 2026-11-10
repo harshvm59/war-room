@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T07:18:55.223948+05:30",
+  "updated_at": "2026-11-10T09:43:31.562779+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -7,25 +7,23 @@
       "company": "Nvidia Corporation",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 3,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
           "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
           "published": "2026-08-26",
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
+          "reporting_period": "Fiscal Q2 2027 ended 2026-07-26"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "Revenue was $96.2 billion, up 106% year over year; Data Center revenue was $89.0 billion, up 117%.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
@@ -35,22 +33,18 @@
           "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "The company returned approximately $26.0 billion through repurchases and dividends and retained approximately $99.0 billion of repurchase authorization.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "GAAP gross margin was 75.0%, versus 72.4% in the year-ago quarter.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Fiscal Q2 2027 ended July 26, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
@@ -80,25 +74,23 @@
       "company": "Taiwan Semiconductor",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 1,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
           "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
           "title": "3Q26 Earnings Release",
           "published": "2026-10-15",
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "reporting_period": "Q3 2026 ended 2026-09-30"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "Third-quarter revenue was NT$1,494.24 billion, up 17.6% from the prior quarter.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf"
-          ],
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
@@ -149,14 +141,14 @@
       "company": "Tesla Inc",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 1,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
           "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf",
           "title": "Tesla Third Quarter 2026 Update",
           "published": "2026-10-21",
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "reporting_period": "Q3 2026 ended 2026-09-30"
         }
       ],
       "questions": {
@@ -189,22 +181,18 @@
           "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow was reported at $6.3 billion for the quarter.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf"
-          ],
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "The update identifies battery availability as limiting vehicle-volume growth, but a complete downside assessment was not reviewed.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf"
-          ],
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
           "verdict": "CAUTION",
@@ -220,25 +208,23 @@
       "company": "Meta Platforms",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 2,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
           "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/",
           "title": "Meta Reports Third Quarter 2026 Results",
           "published": "2026-10-21",
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "reporting_period": "Q3 2026 ended 2026-09-30"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "Revenue was $64.601 billion, up 26% year over year.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
-          ],
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
@@ -248,22 +234,18 @@
           "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "The release reports substantial ongoing investment and a stated strategy centered on frontier AI-model development.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
-          ],
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "FAIL",
-          "note": "Operating margin fell to 20% from 40% year over year, partly reflecting a $9.89 billion legal-related charge.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
-          ],
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
@@ -274,12 +256,10 @@
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "The release identifies potential payments of up to approximately $18.59 billion under a legal settlement.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
-          ],
-          "reporting_period": "Third quarter 2026 ended September 30, 2026"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
           "verdict": "CAUTION",
