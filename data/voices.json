@@ -1,70 +1,7 @@
 {
-  "updated_at": "2026-11-11T02:04:46.602581+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-11T03:59:47.041752+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Dan Ives",
-      "role": "Partner and senior managing director",
-      "org": "Yorkville Ives & Co.",
-      "cat": "AI IPOs",
-      "date": "2026-11-10",
-      "published": "2026-11-10T13:01:32Z",
-      "themes": [
-        "Anthropic IPO",
-        "frontier AI valuation",
-        "public-market pricing"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Ives characterized a potential Anthropic listing as a landmark public-market valuation for a standalone U.S. frontier AI laboratory.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/8cf2319c870322019712ab658f71ec55",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Dan Morgan",
-      "role": "Vice president and senior portfolio manager",
-      "org": "Synovus Trust",
-      "cat": "Nvidia",
-      "date": "2026-11-10",
-      "published": "2026-11-10T17:43:15Z",
-      "themes": [
-        "Nvidia leadership",
-        "GPU AI chips",
-        "CEO succession risk"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Morgan said he remains confident Nvidia can preserve its lead in GPU AI chips even if Jensen Huang moves to a lesser role.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/4116755e690472eef677772ec55b856d",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Bob O'Donnell",
-      "role": "President and founder",
-      "org": "TECHnalysis Research",
-      "cat": "Nvidia",
-      "date": "2026-11-10",
-      "published": "2026-11-10T17:43:15Z",
-      "themes": [
-        "Nvidia leadership",
-        "organizational resilience",
-        "AI chips"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): O'Donnell indicated that Nvidia has other capable leaders and could remain successful beyond its founder's central role.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/4116755e690472eef677772ec55b856d",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -110,6 +47,28 @@
       "src": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVEJOcGpTc2NzZ0ZiSjZfRUNvUnpINkxnYl9iMC1JUzZKeGZzWmxtdlYyRUlYdTd6SFFnNTFHQW9ScndqTXNtd0thQ1loLWtudzFSd05FQTE1MjY0QTBZR0RyQUo2bVdCOE9CYWlhM0l3XzlaSTJnSldtMDQ2Nlo0b0dLV1dzajZsS29qdDJKZkJTMERmbE5RRnUyLTVXVjVncXV5YzJUeWE?oc=5"
     },
     {
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-11-10",
+      "published": "Tue, 10 Nov 2026 15:26:00 GMT",
+      "source_name": "Business Insider",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Jensen Huang’s departure would shave 30% off Nvidia’s stock price, tech bull Dan Ives says - Business Insider",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYkN6WGxYM244X2FUTHpZbUZFWTk3bTlJTG9jTDFWZ1l0ODJhMjN2eGc5RXRoNmR6elhKYmJsbG1VOUM1Nk41RHRvcC0tM3pXM0kyVWlXTHVqVXVPQzBScnl5RlF6MlpWOU4xVnY5VFk1QjYwLWswMXR4OUhHMlQ1U3dyTHdYTTJOdkhSakI3cVF2Vmo5SkZyMnVaSGRmQ21B?oc=5"
+    },
+    {
       "name": "Satya Nadella",
       "role": "CEO",
       "org": "Microsoft",
@@ -136,22 +95,22 @@
       "role": "CEO",
       "org": "AMD",
       "cat": "CEO",
-      "date": "2026-11-10",
-      "published": "Mon, 09 Nov 2026 21:17:45 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-11-11",
+      "published": "Tue, 10 Nov 2026 19:30:08 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#AMD"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Lisa Su Called the Market ‘Short-Sighted’ as AMD Crashed 17%. Two Sessions Later the Stock Has It All Back - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is ‘at Her Best’ - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUXZQOVVBOE4xRVpxOXJ1V1RDQ01VYW5VcmJ1enFWT2dkY0hESk1GNjlmY0xST0tRODJkWFN0V0dLZmFXakxoeW9taXpsbkZ0Qks2cTFIZXF1Nk5DWVRDamxEVmhqc2hQVmR0VVRrVTdLZkZTdEtRakZDZFJOVHA4ZGVaMWIzaEZzMy1jNjB5V1hoYmpBZTZB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPanpsTjZ3RVRCeGpWUXNCenpab25sa2x0OFVIZjdWZDBia3ZSbGxXZzdpM0g3a09UM1BlbHMyd2xTQ1lTS3JtX2l2eThHZ3JlaGs0cjBKSVBXbUxoS3htS255WkJaWTE2Y29rQm9zOE5PZ2dlMi1fZEQzTFJiR3ZoaFdndmk?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -181,30 +140,30 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-11-10",
-      "published": "Mon, 09 Nov 2026 21:05:37 GMT",
-      "source_name": "TheStreet",
+      "published": "Tue, 10 Nov 2026 00:05:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): How much of Elon Musk’s wealth is in Tesla & SpaceX stock? - TheStreet",
+          "t": "Headline signal (not a direct quote): How much of Elon Musk’s wealth is in Tesla & SpaceX stock? - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYy1oWE5IMG1rTTFGZFB1MEFpSmZNRkFlSFVxUU8zcjNWN2h4Z3h3Vy1VOUJ4OXFOSl80ellVSU9wQ0ZwVnJucnFneG43Zk5XLUQycUxPeEtHdl9RZ0FrQVJNZjE0MWNxZkJ5d2JQb2htdW84RGgzbkpRd052bkZyZ1RfSFlvVXRoeWlBWjdVT1N6aGlwQVlGSFNLYk9POWs?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMlJTV1pTME1Jakh6N0VueTRid0FUZ2g0em5kOTNJMUJyMDZ4cVRYQ3ZmWUdjckZmeGlSbHg0SUZ2UEFGNElyY1pqdEUzNUdRRlhDUHVoRUVkTEY3dHNxNFpHbHJXODRJMUxtUEtMRC1NeUN0MFhpdHpnbFUzQWVEdW5Id2d4V0FLMlFqanE3SmJRV3VWOEFz?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-11-10",
-      "published": "Tue, 10 Nov 2026 14:32:07 GMT",
-      "source_name": "The Economic Times",
+      "date": "2026-11-11",
+      "published": "Tue, 10 Nov 2026 21:20:00 GMT",
+      "source_name": "Cryptonews",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -213,11 +172,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg reveals Meta’s Muse AI models are now available on Google Cloud, here's what Sundar Pichai - The Economic Times",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg Meta AI Predicts a Mind-Blowing 2030 BTC Price - Cryptonews",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOYk9UWVl1c043TFNCeFZHNGRDX204UjFnSFphU3N0VWp3V2FGcEo3dUk1QzRuY1NlMHFfNUpUZ0ZWSW5GZGhwaUlIbk04RWVZcDZUQWdqclhMQzIwbWEzQVU4V2h5T3dDY0NVVXdoVE5NWVlFZWkycTRUOU9tM0diQnY2Q1RjOWJEX1dPLXJEWDQzUEVDYll6OW5NQlVQQldGV3BROFVLQVlxU2lZWjJGbG1HV0otNFlmWG51VHI0UDcwdWJ0QTE5OHdlWEpoMjBISGJoa28yNy10Nmt2WFVPLS1mZnpIbHJzMG9NTy1WMGtFLVhsQndGcWlzZ1pQdDU1OTdLQzBPd1RkTnfSAZACQVVfeXFMUHJIMWJ6SmhxTnlPM0QzSFRxQ054c0F1b3R3c1VBUExJWUxZdkY1VUF2QW5US3l2cDVoS0Y4a1E0cjZZeHV2bE1CaDlGR0JNaHhYMElKcGI5U3U2TVBiblZ5QjJTeEozdU1LckpxWkdzS2FkTGMxY2l4VHI3Zmk0RXRvSzJkZkY5dWljTW1Pc19hVm5uRXZ0TXAxUGFfeUVzV1k2VzJCdDFFYVF1NXE2TmYwLVE2ZTIxempaaHd6WUtWNm9xaTJwUW9LLTZtaTdOemhjX296Z0VoX2ZZdC1VR2tHRmxuZWhRMVdRN1dsZjMtRWw1UWZVSHRhZ0dFYXczaUJEYkZ0T3JWY01wNk9wblI?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBndkJRWFRVYzBwUTB6Qkp3OWhiZExKd21DbG5IOUxBZkRzb1BOT0oxTkVJT0JzRlJLcTNYZTZWYzFGVUNhN2NYbTRmazdtY3YtaXFwb2gtejlYWXhIWUg2RWFhcWtqUG4xODVuUHRCWVdWcTF0T2JBYkNqS0lwZw?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -285,33 +244,12 @@
       "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLVMwMFlDd24xTGdCMjcwOXBpMEt3OVVtN3NqVU9fMjJnWEZ4b2llWVgwY3hZUGhrRnJtZTJteUdBOFZ5UEx1REVWdHRqamtpMThkWVF0RUFxVEtrUU9tQUUtSV9GY3MxSm5EQ1hFdEpxbm5uN0ZpZzRoRkRBSkp2RjVmOXNLcVNiVjBjTGZUZ1VJSEpmMC1fR2taaElmQ0tPRDktRFMzeV8yck90aElEc2lWbWt5YXZZWW1SWS0wUzZ2cF92SDNB?oc=5"
     },
     {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
-      "date": "2026-11-10",
-      "published": "Tue, 10 Nov 2026 05:57:11 GMT",
-      "source_name": "Forbes",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): 10. Larry Ellison - 2015-02-27 - Biggest Gainers - Forbes",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yUWRSdy1lRG9VSmRHdXRycXRyRUF5czlnUk1USzNGZjVkRWZUSHhweVJJTkFSbHlsd1lWQWVXWHpLZGJDdkF2MkJ6S1pUNk4tQmhwOWlZblNZaHFiNkN5Zk9qaXRFQnRWa1U4dktDZTgxOS13ZEpSaEh4bXo2QQ?oc=5"
-    },
-    {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-11-10",
-      "published": "Tue, 10 Nov 2026 16:16:00 GMT",
+      "date": "2026-11-11",
+      "published": "Tue, 10 Nov 2026 21:01:00 GMT",
       "source_name": "Investor's Business Daily",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -353,9 +291,9 @@
       "role": "Managing Partner",
       "org": "Deepwater Asset Management",
       "cat": "Investor",
-      "date": "2026-11-10",
-      "published": "Tue, 10 Nov 2026 04:45:06 GMT",
-      "source_name": "Benzinga",
+      "date": "2026-11-11",
+      "published": "Tue, 10 Nov 2026 21:08:00 GMT",
+      "source_name": "BigGo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -364,11 +302,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Affair Could Have a Bigger Impact on America's AI Race Than Nvidia, Says Gene Munster: 'Both - Benzinga",
+          "t": "Headline signal (not a direct quote): Gene Munster Says Market Prices a 25% Chance Jensen Huang Leaves Nvidia. He Puts It at 15% - BigGo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMS0xN2F0bWF4SG9HM09kaHFQZmhySElwOE1OLUVJX0ZwQ25vM1N2R0poaHRabXdYSXFOVmJjWW9FNHpJQU14alJIUU1XMXlNZEZKSF9wX1dNWnlhRERsZHpCRkFFSmdXVUN0TURYMzc1R2ZTV0hRTmZVVWNuWE9KSWZFOUY1ZWNIbDdxOGQ3MjRBS1V6dEJ4NkY2Rkt6dVAtbml5amtGQjMwemZoMVUzSWJPUUh0VmlVNTZGUmVFV0VmWnFfVHoyeg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uaS1mbk9nenpHM2NBRDdYTHhpVUJIU05lOE1XeTJ5bzhmT0RzTUtnY0MxeE1hYkxTRTlBX3dqTGhxMXNRd3RiNVdvYzZ2RVFPV3k2S2tfUl94dEk?oc=5"
     },
     {
       "name": "Patrick Moorhead",
@@ -394,7 +332,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 18,
+  "fresh_signal_count": 15,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }

@@ -1,7 +1,147 @@
 {
-  "updated_at": "2026-11-11T02:04:46.602340+05:30",
-  "source": "openai+web_search",
-  "items": [],
-  "provider_error": null,
+  "updated_at": "2026-11-11T03:59:47.041320+05:30",
+  "source": "google-news-rss-fallback",
+  "items": [
+    {
+      "ch": "Yahoo Finance UK",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Microsoft stock drops after Anthropic unveils tools to rival Office - Yahoo Finance UK",
+      "date": "2026-11-11",
+      "published": "Tue, 10 Nov 2026 19:13:36 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#MSFT",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTV9UY0pqLTh5V0ZabWM2RGVsaUNTUnBjS0x0VWgxbmRCSnptXzVmVnlKMTh3UF85SjA5cjJLR1c1VER6cUVEUFJXUFhBaWVBQk1BSFZRdTlCTnUzeHc4aDhpNkJDTWFsWmJWNXpaTmFieW9CYkJlUTV5a2lDQW5PWTRRVXBQVGk0RUdaVG93aXpvQQ?oc=5"
+    },
+    {
+      "ch": "24/7 Wall St.",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Microsoft Is Back Above $4 Trillion and Only $266 Billion Behind Nvidia - 24/7 Wall St.",
+      "date": "2026-11-10",
+      "published": "Tue, 10 Nov 2026 16:53:00 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#NVDA",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWVyQTRUZzRHZy1QSm1SLXFrNmgyU0ZxQ2haMWVEam9seTYxQ0VodWF5WmxtN3NMQ2E0X2tfaHp4aG5WNzg1OW1iOGREdU1WVnhfVkNodEVSMFhtQ0tVbVFoTGxYeTc5MFhpeE9hSFE4VDdURHdPVkdxQWw1bnc0b2lGNmpxaDRUelBHV2tJUUxrWkF0eE02U1BhX2RtNFMtZmZKcGY3TXlaNlltVHJpRHpQSQ?oc=5"
+    },
+    {
+      "ch": "TradingView",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Anthropic Targets $1 Trillion Valuation: What It Means for Nvidia and AI Stocks - TradingView",
+      "date": "2026-11-10",
+      "published": "Tue, 10 Nov 2026 17:15:00 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#NVDA",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMTFncURmTDRKcTF4UWs2eldiZ2pzcVFFdk1ENW8yY1Jsdkd6YkhkRjFVeUVJcnVzVUpLdDI4SE5ZdWF1WUtSeW90cG5CbXBlU3dkVzFoeVBNQW5XNENwOURhVmJkRzFNLUJYVk4zdk1Sek93aTBEcE1DSWFkQVVqRURKZGhqdERxLVJ2WTBlMFFZYTdfTXlzS0JoYi1qc1liOS1iclVxcng5SHpBdjJHdUlyRlk4eG9uVEprMFZhYTNTV2VrVm0za19pS0FZS295YkUw?oc=5"
+    },
+    {
+      "ch": "The Motley Fool",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Prediction: Nov. 17 Will Be a Huge Day for the Stock Market - The Motley Fool",
+      "date": "2026-11-10",
+      "published": "Tue, 10 Nov 2026 12:00:00 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#BE",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd1JOZlBwRTJSMUdwak5YSzgwdkNyUHhrencwdGdNZGg1eW9hVjZQMHBIeU5ra0N1ZU1JVVdJeExCMC1lYjNnbm0tQ1lGOTczdmZLbzFuQ2N6bkM5WHZLTnJtVTBVaEltRHJxWWl6Y1pPaHRxdFNOVGtSYmY1dEoyM1pWSmI3UFNtM2g2Z3hmRXcxcUxyNkNDYTNweWlQYjJsV2c?oc=5"
+    },
+    {
+      "ch": "Yahoo Finance",
+      "c": "#4a9eff",
+      "theme": "Agentic AI",
+      "title": "Microsoft stock falls as Anthropic takes aim at Excel and workplace software - Yahoo Finance",
+      "date": "2026-11-10",
+      "published": "Tue, 10 Nov 2026 18:04:33 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#MSFT",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDhIR2N3YWVsRk1wWTZtRmNTTFVwRDdxb1hUVmtqQ3NfTXRRaGJXa211U240YjNxa1hzRUJ0bjJ4RnI0cFlVM3VleXV4XzlqTVp1V0dzQUFtQTR0R09IQzBSeGZzR3RJaHZPS1BMbGpBeWRaM3JkU2o1OF9jQ1ZPV1B2WmxfQU05ZDh2bXVLR0N6YlFza21nOHlVaER1ek4xSTBN?oc=5"
+    },
+    {
+      "ch": "Beinsure",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Anthropic IPO date: Nasdaq listing expected in November at $1 tn valuation - Beinsure",
+      "date": "2026-11-10",
+      "published": "Tue, 10 Nov 2026 14:46:45 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AI",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VN1RDUnVDZGtIZVJ2OFpHMUlxaTVoUHBvX1c0bHBaOVh4T0Z3YlFEa2p1djVGR0g4eWsyUEtkRGJ0LVVWcGRrT0UzU1N3T0hBWFlRSmNmTHVzRkxkRmFjV1hweFVTVWdmR2l5RA?oc=5"
+    },
+    {
+      "ch": "MLQ.ai",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Nvidia heads for a $470 billion two-day wipeout and slips behind Microsoft in market value - MLQ.ai",
+      "date": "2026-11-11",
+      "published": "Tue, 10 Nov 2026 19:34:22 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#NVDA",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM0lranZ0cERFYl81ZmRZRjlZREZ1SFdsV3NiNXFyVVFtcGphNHAxamZpZEMtMWdYZFZfSTJSbmJITk13ZU5ZaFVKemlNUlZUMFhLcGxEUTZWX1lqc2U1a1NleEJTNnM3WVczVmNwUGxjRUdyS2Q4WUdqNFQ1TlZPU2lXUVg0QXhkbjVJZFJ0bmdxQm5EN3NVRjBmckdjSWUtSG4tdGlNMWp1eG84LUtV?oc=5"
+    },
+    {
+      "ch": "24/7 Wall St.",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Google, Nvidia and Microsoft Are Among 7 Tech Giants Putting $26 Billion Into Anthropic’s IPO - 24/7 Wall St.",
+      "date": "2026-11-10",
+      "published": "Tue, 10 Nov 2026 14:02:00 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#NVDA",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMEtJeF9nel9IRUpWQ29OSF9YZ1NiTzFiLXZXWGxiMTRFd0R1UkRzQVE5NGRrVmFVY192T095WVZpOVN0V256cGN4RnljRDdvQlNhbi14NGtHNmVrWU9hVHFqZFBIdWRyYWwzVTRRMmMwWkRVMHBxeWE4TXVuVFlnMU5DUEpVV2h0eW41LXpvNlhWaEo4SlFGbDFJWHJWSlRHOURTb1JEa0JPQjZtTERLSTJaZEh2UlZTTms1aVFWWC1hRWFTazdldUpCemJ1eHc?oc=5"
+    }
+  ],
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
   "fresh_window_hours": 24
 }
