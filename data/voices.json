@@ -1,28 +1,70 @@
 {
-  "updated_at": "2026-11-11T16:51:38.494614+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-11-12T05:09:02.620944+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Michael Intrator",
+      "role": "CEO",
+      "org": "CoreWeave",
+      "cat": "AI infrastructure financing",
+      "date": "2026-11-11",
+      "published": "2026-11-11T04:46:20Z",
+      "themes": [
+        "customer prepayments",
+        "liquidity",
+        "AI data-center demand"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): CoreWeave expects roughly $9 billion in customer prepayments and deposits over the next three months, providing cash to help fund operations.",
+          "k": true
+        }
+      ],
+      "src": "https://apnews.com/article/297d040c83844a9563327340b370c24e",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Analyst",
+      "org": "Yorkville Ives",
+      "cat": "Nvidia governance risk",
+      "date": "2026-11-12",
+      "published": "2026-11-11T19:30:05Z",
+      "themes": [
+        "CEO succession",
+        "Nvidia valuation",
+        "governance risk"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Ives estimated that Nvidia could be worth 25% to 30% less if Jensen Huang were removed as CEO and assigned a 15% probability to that scenario.",
+          "k": true
+        }
+      ],
+      "src": "https://www.lemonde.fr/en/economy/article/2026/11/11/a-chinese-spy-a-chip-war-and-trumps-indifference-how-nvidia-became-caught-in-an-international-scandal_6778048_19.html",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 11:15:31 GMT",
-      "source_name": "Facebook",
+      "date": "2026-11-12",
+      "published": "Wed, 11 Nov 2026 21:59:34 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Alice Huang, a woman whom U.S. intelligence identified as a Chinese spy, had ties to Nvidia’s chief executive, Jensen Huang, dating to at least 2023. Ana Swanson, our reporter on trade and economics, explains what new photos show. - Facebook",
+          "t": "Headline signal (not a direct quote): Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV0c2aDVKeXNXSmU4QVU0Y3NydjhxdmMxT0ZVSTk4NFIxVXNDU3ZpWTI2TzhUc0haNVV5TU1pSTIyM1ZzODN6aVZoaWdfeXZwQkJxNDhFMjRscnM4aWh1TlhkQldIOVJGZlJGVWlJZUR4OHI1enJjcjVpSlhFXzRhVEFZaWtwSnZVSkZIY2tsSGRRZnVQX3RXTkQyZk54bEtyb3p4TTJOQnoweFZja2tELVFhYmRtTURSUG93dmRSQy1qdG1TLVo4QnhxR25WNkNvVFBB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWjJRY2daaGR0MlE5NzU0bndocWZPVF9qODRlRlBzUUVLN1dyNkE2VXlJeUdGanF2NkQ5OGVZMmJTYk9xY244NU9sUHppeFU2dVlHcVRwWFptNG9CSUN6ay1Ic3NVdFJRZTNkY05nQzJJUFJsSVp1N21LRElnSHotZmZyYVR2a25v?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,107 +72,87 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 06:35:00 GMT",
-      "source_name": "The Independent",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Andrew Garfield says AI billionaire Sam Altman felt ‘like my future best friend’ - The Independent",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOR3pVNU40QUJ3Q05MTnR2SUZZSFphQldVVncxTWFYTXd6WjFqUGNLVUFoRmViMTUtSVBWNno4NW9yZ29odHp2SHI1ZTVWQlU1UlViU2tIUzc5MzE3WjBueFRHWnRtRFlRbm9tcnV6TUJzX1J4MmdlUWRJZENQRTJnMmgwMVVWSTRiMjdoWlZCbjViaU1tc3huT3VIVklpWXJVM3BjcVVZa2xMRnNLY2VwZExZLXliV3o5QkE?oc=5"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 03:41:00 GMT",
-      "source_name": "24/7 Wall St.",
+      "published": "Wed, 11 Nov 2026 13:21:30 GMT",
+      "source_name": "Crypto Briefing",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia Shares Just Crashed Nearly 30% in Five Weeks. Dan Ives Says Losing Jensen Huang Would Cost Up to 30% More. Here's the Math - 24/7 Wall St.",
+          "t": "Headline signal (not a direct quote): Sam Altman warns Samsung that AI demand may be double counted - Crypto Briefing",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOQlBHbTVIYmM3dHJRazNtdmdCbE9jX0o2emVON2JwcUlYU0pBanltVGtmZW9ZeHB2cDdyci1qZHNjcHh1Q0NHa2w3djQydjV0S3hvNURubmVHTFBXbXBEYjNDRnVXalRSaEJJNzRsckkxcEgzRHI0TWd0aEpIa2RsMmU1Nkg1NU41ZGVWdkl6OFQ5Y1NZVnRCaWE4TUtkVVhPNmREd3RtWUNMOTZBYUpJRExYQUZWMzdTRWNtSng2dVpZNEZzOHZ3a2dWRWFNM25Md1ZiNmlJYjQ2UHNYZTY3WUREaEJZc2xoUDFQaWk1cG1UZjZQbG1ZUms1VXE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5uaUpJNkxUN2NmOENnY3dnWTVxYUlRY3NnTE53LXRVMnYyd1RHWGREY2licmJmRzJPWGJ4TWY1UWRsZ01neVFHSmx1REI1SGFNclBpcW84cHI5WVA0UnlvdE8zV0FrQVR2SXMxa0VJSmNqcXhMVjl2UA?oc=5"
     },
     {
       "name": "Satya Nadella",
       "role": "CEO",
       "org": "Microsoft",
       "cat": "CEO",
-      "date": "2026-11-10",
-      "published": "Tue, 10 Nov 2026 13:54:38 GMT",
-      "source_name": "Investing.com Nigeria",
+      "date": "2026-11-12",
+      "published": "Wed, 11 Nov 2026 21:53:32 GMT",
+      "source_name": "Fast Company",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Form 4 Microsoft Corporation: Satya Nadella (Director, CEO) For: 6 November - Investing.com Nigeria",
+          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella: Workers in AI-heavy jobs are having an identity crisis - Fast Company",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUzFYVUhqTjNKSWFzdjJlMnEzV2dYWHJKMnBZSEpiMmhqNU5JcE1WSjRUdkliT0xfaWZpVDRIckF2b0JXak9vNHlISy12Y3BNRThtVmZUVjc5OWpqRmdMcUdfS0ZYNDVWM1dUX196Vy03S1dyckpYSzMweUFxYmR1NVZKZEpLMjNRVElENzh2SU1iYXpScVFWVkdCelNSb1R4c3hhQkR6WGxOSEVhYnl4anpXaVZmdmFkbVJTT0ZrMDVneW5ybkdwZEZ1MA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY2RzN1lhQ2NmRUhRUE43NUFlSjJSZ3JyZGdQanRRMFpZb3ZWYTVvc2JyaGpyVXJTVW1yRjYxQWR6bHBJWVZ2TE1NWWtJeTYtU0JsbVJYTUl1NGJYLVlFNjQ4N2FWbzdsa0lfVnp2bUkwQ1lsN1hzbW9fRDYtN0hjZXhGQnNpbFNhZVhacTZOSmpYVGtaMDdQWWlDNUdZbzFBbDIxZ3N0Ql9SVlExX2dmZ1BoVjhSWHF2MVVr?oc=5"
     },
     {
       "name": "Lisa Su",
       "role": "CEO",
       "org": "AMD",
       "cat": "CEO",
-      "date": "2026-11-11",
-      "published": "Tue, 10 Nov 2026 19:30:08 GMT",
-      "source_name": "Benzinga",
+      "date": "2026-11-12",
+      "published": "Wed, 11 Nov 2026 21:46:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is ‘at Her Best’ - Benzinga",
+          "t": "Headline signal (not a direct quote): Lisa Su Just Delivered Fantastic News for AMD Investors - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPanpsTjZ3RVRCeGpWUXNCenpab25sa2x0OFVIZjdWZDBia3ZSbGxXZzdpM0g3a09UM1BlbHMyd2xTQ1lTS3JtX2l2eThHZ3JlaGs0cjBKSVBXbUxoS3htS255WkJaWTE2Y29rQm9zOE5PZ2dlMi1fZEQzTFJiR3ZoaFdndmk?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT2R4dElOVkdNdkU0X3NMQ19nbHVUM1FfNnVnYWRfSGhUY3FWaW0wVFlaQWZlVXVkYU05UWpfekozZWxZaDYzdHc5XzdFdTVmaF9KRklKRHh0UE9mLXhKbXVKQkZsMWo2OGtxai13a0RUaU1MR3hrb1RIUEd2TUc4Mlc1QTZuVmMwaXdZX1dxMUdlaG8tS0hNbUhiNV9JQQ?oc=5"
     },
     {
       "name": "Alex Karp",
       "role": "CEO",
       "org": "Palantir",
       "cat": "CEO",
-      "date": "2026-11-10",
-      "published": "Tue, 10 Nov 2026 14:04:22 GMT",
-      "source_name": "finance.biggo.com",
+      "date": "2026-11-11",
+      "published": "Wed, 11 Nov 2026 15:51:22 GMT",
+      "source_name": "The New Republic",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 15,
       "themes": [
-        "#AI"
+        "#AI",
+        "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Alex Karp on Why AI Will Hurt the Middle Class: You Can’t Have Billionaires Becoming 100x Wealthier - finance.biggo.com",
+          "t": "Headline signal (not a direct quote): Palantir’s Alex Karp Suddenly Claims He’s a Progressive After Election - The New Republic",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE16Z28tQ09VOWF2cUtQbFlZOUNVWkZuSmpxcXVZMkczRm5VRE9EeDZpeE5lQllnTkVLOWFyMWVCcUtZaEQ4Tk1nYllxZ2xRR3lsZ2paamwxb29nMXFWdUo0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON2RUckVqMVA4VHZEWG1IbHhjSGN2R3psWlk1c3g4SHFOaE5qd3pVWTk1NG9xUUtzZDdid09tamhJVXhKci1ZanpYYjJPNHlfT3BHU18xY1NpSEJUYXQxNF84QTBBb2pacHpkTWFKVHU4VTE2VDI1YmZtZl9wbllGal8yQWFfaHp0YU9QZUlmektNRHZZd3ZYYk9n?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -159,53 +181,74 @@
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 07:26:45 GMT",
-      "source_name": "Open Magazine",
+      "date": "2026-11-12",
+      "published": "Wed, 11 Nov 2026 18:53:42 GMT",
+      "source_name": "TradingView",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#GOOGL"
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): QUICK TAKE | Sundar Pichai Welcomes Mark Zuckerberg's AI Models to Google Cloud: Seven Things to Know - Open Magazine",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts An Explosive Move for ETH: Is the Bottom In? - TradingView",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYXBRekYtazNLSzByYWk3NXpYcFNSR2thVlpJMVB4OWRNVWRxYllnLVJGWWJzS2hSekNrQm4yb2hWdTAzcks5NTAtTXJORWFnbHExaG9oZ25Fem9yTTdhRkpJREN4WDZtN2N3T1NPWEFZaFQ2eGFXWDlxZGRWTHJXNHJyY2xGdV9nQmV6dmpEemFNVkFiSUtxNl91VWVvZ202aE15QXc5WWJMVk1kanFKWXZpZmxjSU4zUHl0a3JDSTJ2QnFQdktTckhSLU1rMEZweHc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLTFSUEVkSWJ2REVhS3dmM3BJWXVIaU1UTGFNMllSMnAzR3lCbERTZUI5SG00enNvZldrMHNhQVJtQklJaW40TkNXbi1zTTR5U1VWY3IxNkdKN2pIRml2Y2lNTzJuaC1lMmp1b05sc2s2dGwyeWpob1dGem5BTkxHbHgxcHNaVG1FUDhmampqM3g1amJFVVZuWjRacmRKZ2hDeU1PaDdxUjFzZXduUmpob2lYeWp4RFpLSWlEOGhLako3TnY0Skhpbkl4aG4wZ18yNTFkTA?oc=5"
     },
     {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-11-10",
-      "published": "Tue, 10 Nov 2026 12:22:00 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-11-12",
+      "published": "Wed, 11 Nov 2026 19:07:37 GMT",
+      "source_name": "Traders Union",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai Just Delivered Stunning News About Google Cloud - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Alphabet strengthens on Sundar Pichai innovation news despite mixed market signals - Traders Union",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjdCSFdheFFLeUNCalRBek9IOVlaTnNZdWE1SUpSTjVlM3l1OUFTS3hZTllOU3diWjVxdHVTak0zdDduWjU4Vk1BZDVfcEh5MU0yQUNVNVVDTm5JOHVBdWw2VzRMeXZ4Ym9iQ2EyY0JiamUwdE50UDl6RFVYMlB4M3l3V25XTmVvZXotdjJSTDdscDJfYXVpWGdoX2g0VGE2N1JF?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY2R6LU5lcjdhWWJDSjVjXzBpdVJNZmtEYVZDYUdycU43aUd0QUdCRjVGX281bVViM3hYR21QYzN4aFI3MW1jQ0pETW82XzJDYVRabHF4UlNISjVPdklwOHpfSFJvd3dEakVUbVJDb2dRMnJ3aVh6NHlDbDM3eEdIR0p3dW80UU83a0lqc1loZw?oc=5"
     },
     {
-      "name": "Andy Jassy",
-      "role": "CEO",
-      "org": "Amazon",
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
       "cat": "CEO",
-      "date": "2026-11-10",
-      "published": "Tue, 10 Nov 2026 13:35:00 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-11-11",
+      "published": "Wed, 11 Nov 2026 17:50:15 GMT",
+      "source_name": "The Profile | Polina Pompliano",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Who Is Larry Ellison? Oracle’s Founder and the $95 Billion AI Bet - The Profile | Polina Pompliano",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JcUxsd0RoMlZjd2l4TXFQR2JfUmZqOTdXSVlLT3NfX0xKbUNhaW1lc19DN21qMndjWXpyc3p0STdVSEE3RnZaYWhDbmZKbWhNY21pRDRmei1xRzFhNW03V2FQZmRWdnE3ZmhOdmlRcHIwYjFlaTlrcA?oc=5"
+    },
+    {
+      "name": "Cathie Wood",
+      "role": "CEO and CIO",
+      "org": "ARK Invest",
+      "cat": "Investor",
+      "date": "2026-11-11",
+      "published": "Wed, 11 Nov 2026 18:07:00 GMT",
+      "source_name": "Investor's Business Daily",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -214,74 +257,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Andy Jassy Just Delivered Great News for Amazon Stock Investors - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood's ARK Pares Amazon, Adds These Aerospace Stocks - Investor's Business Daily",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMld0cG1LWndtWHQ5bm1YaGUwenhpYUtNUG5DTjA2TzU2bC1VMkg2cnc2X3FISFR6TUotcHAxOUljbThGc3NRUGtzbHd1czY3UUNTNEg2cGpIUG5PdU1TblRtaHhiWG9qSS03eTd6bENkdG1RcEF0UVdwaExGdDlZQlh5MWw5MU5sOFA1YTNKTHEyM25CNnM1TjhySVc?oc=5"
-    },
-    {
-      "name": "Lip-Bu Tan",
-      "role": "CEO",
-      "org": "Intel",
-      "cat": "CEO",
-      "date": "2026-11-10",
-      "published": "Tue, 10 Nov 2026 15:00:03 GMT",
-      "source_name": "Barchart.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): CEO Lip-Bu Tan’s 150,000-Share Purchase Wasn’t Enough to Stop the Slide in Intel Stock - Barchart.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLVMwMFlDd24xTGdCMjcwOXBpMEt3OVVtN3NqVU9fMjJnWEZ4b2llWVgwY3hZUGhrRnJtZTJteUdBOFZ5UEx1REVWdHRqamtpMThkWVF0RUFxVEtrUU9tQUUtSV9GY3MxSm5EQ1hFdEpxbm5uN0ZpZzRoRkRBSkp2RjVmOXNLcVNiVjBjTGZUZ1VJSEpmMC1fR2taaElmQ0tPRDktRFMzeV8yck90aElEc2lWbWt5YXZZWW1SWS0wUzZ2cF92SDNB?oc=5"
-    },
-    {
-      "name": "Larry Ellison",
-      "role": "Chairman and CTO",
-      "org": "Oracle",
-      "cat": "CEO",
-      "date": "2026-11-11",
-      "published": "Tue, 10 Nov 2026 22:44:25 GMT",
-      "source_name": "Martin Cid Magazine",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Larry Ellison, the Oracle founder betting his fortune on AI and Hollywood - Martin Cid Magazine",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aaE9aNTA3NUt6U1Z3cl9taHF2ekJUNE5IRnNTOGQxTm5Vb3lUa2gxazR5cVluRGxHQkM1SzNJNVZlYm5IeTB4U2w3NmJDNU1yVnZ1VjU3TW41cEk?oc=5"
-    },
-    {
-      "name": "Cathie Wood",
-      "role": "CEO and CIO",
-      "org": "ARK Invest",
-      "cat": "Investor",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 04:07:00 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 14,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK Invest Scoops Up Archer Aviation Shares After Earnings: $6.3M Bet On eVTOL Growth Optimism - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdkxkUFJNSzZqSkotUWFBMmpUN1RXNVBEVXNvRWhDRlZHOFNobk5EMjNtMndNY1hZUG9nVDZ4UUZ2N0JCaHl3QV9BYkhiWUlNTGlNY25weFI0alQ2bTV2WllLeFVTZEI1TkZHU0lKS0d0ZTRkV0xhZ1FvTU9pUWdYVFNHaEgtdVNzRkJsbFNVZmVZUy03Q1Rud1RR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMXJWYURkSjlyeVJhZlNhaFdFcFV2LTlHRXRBRWxYeTRuNFMtWkFFcEhGYXRnTzRDM2RsblEyc1pTWGlOMmY0aXl0VVJzMEZpVnNVX3gyOXhDZ1U1UFdLU284V2lCLVBZcUEzdV95MDluTWlLNVg3RHBZNFBtLVFqcjZ0Y1RrQnNmbXFmZVNIcWNKQWc5ZDlSdXBIVi1jSnh4ajRB?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -289,7 +269,7 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-11-11",
-      "published": "Tue, 10 Nov 2026 23:46:35 GMT",
+      "published": "Wed, 11 Nov 2026 14:10:21 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -298,63 +278,38 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer says Anthropic's explosive growth could justify a record-breaking IPO - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Wednesday - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMifEFVX3lxTE51VG1hT2dUTmZtZ1M3THp2YTRfR0hKelZ6VldSRGxPLXA1RVNDMjEtb21IaG10Q2Nianpiek55T0lXVkNDdE1IejhoekVUeVRNVE12R1ZEN0trNmJYY05ocXpKZW5mTHRsMjdhUEpXMGVVZFZFNXpGLU5jQ0Y?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRGdGSHoxdUN5RDcxMWZ4d1ZVYUZOVm8tTl85RURWSV9GMFFSdTA5T29qa0hHb2NOcnZ1MjZKeXQ3UmpkVnpqbzZPQkRYUTdicE94bEpscWxGbFZ2VldNdFVNY1E1M2c3ZDhzWlF5SWt1dWxVazc4dW0wQXh0b0pOU3FEbE1ZbFZpYlQ4Z01UallxLUp5WGpWMGh2ZnhoTVlHNWUwZ1VmeFY0S19UUFNOcDRkcy1WQQ?oc=5"
     },
     {
       "name": "Gene Munster",
       "role": "Managing Partner",
       "org": "Deepwater Asset Management",
       "cat": "Investor",
-      "date": "2026-11-11",
-      "published": "Tue, 10 Nov 2026 21:08:00 GMT",
-      "source_name": "BigGo Finance",
+      "date": "2026-11-12",
+      "published": "Wed, 11 Nov 2026 23:20:01 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Gene Munster Says Market Prices a 25% Chance Jensen Huang Leaves Nvidia. He Puts It at 15% - BigGo Finance",
+          "t": "Headline signal (not a direct quote): Deepwater's Gene Munster: Nvidia demand will outlast CEO Huang's exit - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uaS1mbk9nenpHM2NBRDdYTHhpVUJIU05lOE1XeTJ5bzhmT0RzTUtnY0MxeE1hYkxTRTlBX3dqTGhxMXNRd3RiNVdvYzZ2RVFPV3k2S2tfUl94dEk?oc=5"
-    },
-    {
-      "name": "Pierre Ferragu",
-      "role": "Senior Analyst",
-      "org": "New Street Research",
-      "cat": "Analyst",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 00:36:38 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Pierre Ferragu Says Tesla FSD Could Be At An 'Inflection Point,' Compares It To The iPhone Playbook — 'Give Us 2 More Quarters' - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1VXbFFIak5YSjF2dUZvQ2R4TTd4dFpoMmdhWm81UGFwRnZwSnZ4UkNDeG9ERmpxMjlkQWNFbE8ycmVLVnVxRkZpNmFMMmNRVldEOXVYUTlIX2JBYVAxZ1d6WktMekZfdWNjTTlMZllDcTNLcXE1SXNHVm9tQkZ5aXZiUVRtNjVnZ25NdVM3ZV9TQjlXNUFvSS1kd1NkLTF2ek1aN25FQ0RISHVHVER5R3J3aklKVlNLMHFvNFJB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSkU3UVRtTnN6TDBUX2doNnN0b0l5V1RpRkVaNlAyTEkzbU9QSk4tU1RnMllLdXk5VEpMTzh0cGFEN3BScV9rUkc0cHU5MmlyYk1fUFRXWGUtbV9FMHhkT0hnbjg1QmpSWnp3OVRNS1ozaWVjbHU0RmRlQmV4WVFnSHgzNWNzdTQ4UWV2RmJ0RW1mZjZvMFNyRzBkNG5SYlJQaEtSamNhQTlralNfbUE?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 16,
+  "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }

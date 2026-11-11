@@ -1,83 +1,44 @@
 {
-  "updated_at": "2026-11-11T16:51:38.495158+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-11-12T05:09:02.621471+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "AMD",
-      "headline": "Advanced Micro Devices, Inc. (AMD) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "ticker": "CRWV",
+      "headline": "AI stocks rebound as CoreWeave outlook supports the sector",
       "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 09:20:14 GMT",
-      "summary": "Automated RSS market signal from Yahoo! Finance Canada. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpN0UzZUJHblJ0QnhpWG5oU0tNSVRTVHctNS1mR1Uyc0dydFZxS2d6dkZzRmdsQ0tEZGIwQnJ4V3FndXU0Y3daMXNET0hON1U0?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Dow Jones Futures Rise, Techs Jump On CoreWeave Earnings; Look For This Bullish Signal - Investor's Business Daily",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 06:09:00 GMT",
-      "summary": "Automated RSS market signal from Investor's Business Daily. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdTlTdzEzVWY3aWRmTGY0QzNnQjlfNFdOMzhUSnRBVDBOWEd2azg0bEl6dl9jY3NWR29ILUwtT01MWExiLXdsa0dOT3M3TTZzTUNiY1gwWlp6MkFoeGtKUC1tYWdPanVhZ3VqSlNwT1dZVVhlSGJZS3J6UE9Bdm5JZWJLeURUTDNwTG43bF93cm0tTE9QZG1FXzhxNmlkM0FmbVJPM1pnRy1FUG9RT1E?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "5 Best Artificial Intelligence (AI) ETFs to Buy in 2026 - The Motley Fool",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 06:44:29 GMT",
-      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYzA2Wld0QkFFTkVjZGlIQ3JfdklNNS1SeUVIb21TMFlFZTc4ejB1UWZqN3FLT2FlWVhEeW5QOFM1STZCM0kxRE9lcERjRTY4ZjlDZFNLaVNiSDVZMDhMdjEwbUQ2WG9XeUZ5M2hBeENWaENUbE5tTE1tU2tBS0x5TV9Gak8wVUlMTmlqRl85SkQzSnJmMGd0T1JaelpWS3lvVWc?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Anthropic IPO: $900.9B Compute Dwarfs $26B Raise [2026] - shattered.io",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 07:41:15 GMT",
-      "summary": "Automated RSS market signal from shattered.io. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRDBhZGJudkRITUtUdDZTdTBkZmM3bjZ4LXY2UExwSFk3U0ZDakt5QTFVOHlqVXBGamZVLWZmaGZNbHdqeW9RMzljWlFKMENLUU1QeFBOWUFVYWkzNXlrbDZlVGJRcFdJVUU2WEtRVUowOEhyUElyOVN1d25ObU10WHVCbnFDZS1iM0FTUnhfNThkZnEyQ1hBXzh3?oc=5"
+      "published": "2026-11-11T04:46:20Z",
+      "summary": "AI stocks rebounded, with CoreWeave CEO Michael Intrator citing roughly $9 billion in customer prepayments and deposits expected over the next three months as a source of liquidity.",
+      "tag": "AI infrastructure; liquidity",
+      "url": "https://apnews.com/article/297d040c83844a9563327340b370c24e"
     },
     {
       "ticker": "NVDA",
-      "headline": "Microsoft Is Back Above $4 Trillion and Only $266 Billion Behind Nvidia - 24/7 Wall St.",
-      "date": "2026-11-10",
-      "published": "Tue, 10 Nov 2026 16:53:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWVyQTRUZzRHZy1QSm1SLXFrNmgyU0ZxQ2haMWVEam9seTYxQ0VodWF5WmxtN3NMQ2E0X2tfaHp4aG5WNzg1OW1iOGREdU1WVnhfVkNodEVSMFhtQ0tVbVFoTGxYeTc5MFhpeE9hSFE4VDdURHdPVkdxQWw1bnc0b2lGNmpxaDRUelBHV2tJUUxrWkF0eE02U1BhX2RtNFMtZmZKcGY3TXlaNlltVHJpRHpQSQ?oc=5"
+      "headline": "Nvidia faces governance and national-security fallout",
+      "date": "2026-11-11",
+      "published": "2026-11-11T05:02:49Z",
+      "summary": "An AP report said Nvidia-related developments could create economic and political risks because AI-sector growth and data-center construction have contributed substantially to recent market gains.",
+      "tag": "governance risk; geopolitical risk",
+      "url": "https://apnews.com/article/56e1c03b4797c38aa04f4804f7cdf4db"
     },
     {
       "ticker": "NVDA",
-      "headline": "NVIDIA Corporation | History, GPUs, & Artificial Intelligence - Britannica",
-      "date": "2026-11-10",
-      "published": "Tue, 10 Nov 2026 17:43:00 GMT",
-      "summary": "Automated RSS market signal from Britannica. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Inside Anthropic’s blockbuster IPO: What we know about the AI giant’s plans - Yahoo Finance UK",
+      "headline": "The AI industry faces a volatile week involving Nvidia and potential Anthropic IPO activity",
       "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 05:35:00 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance UK. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdTg0UFZZRTQ3eWplLUx1YmNLbl9lOWE0UVBPR0VKNHdITzNaTDNzZ2tqZDdsdFo4am80Mkc1M2x6cVN1WFB5dTF1UExBSS1xOUpicWNZNGRDck1ldjlnS1Rqa0xtUzhUWkdJM05fTTFUazZLeUpkWVBEcC14a3RHV01VVG5VSWc?oc=5"
+      "published": "2026-11-11T10:20:06Z",
+      "summary": "Axios described a turbulent AI-investment backdrop involving Nvidia, Anthropic’s expected IPO, and heightened scrutiny of the sector.",
+      "tag": "AI market volatility; IPO",
+      "url": "https://www.axios.com/2026/11/11/anthropic-ipo-ai-nvidia-midterms"
     },
     {
-      "ticker": "MSFT",
-      "headline": "Microsoft Azure Drives Q1 Growth: Buy, Sell or Hold the Stock Now? - TradingView",
-      "date": "2026-11-10",
-      "published": "Tue, 10 Nov 2026 14:07:00 GMT",
-      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNHNpbGNRY3hvWGUyR2U4dGFaamFTdUJSNWlrWURyRENMeUU4NVYyMUhOWkhYa3J3aWJUdGZCeVpSSVJSOUZLN1R1c1VyZUdBaEFod2Y5UzFkVG4tTXdGMDZuUlNCbHcxUFdLNUhZUDVFdHdnTUNnMmMya2JDdngtdWF2bnRqRThscllFalUwUzhCLXo2b0V4Wk1KMXIwamJuVjMyRzBHU2hUZkZob0YtaHJ0QTZJLXJnNmxn?oc=5"
+      "ticker": "NVDA",
+      "headline": "Nvidia leadership uncertainty raises valuation concerns",
+      "date": "2026-11-12",
+      "published": "2026-11-11T19:30:05Z",
+      "summary": "Le Monde reported analyst Dan Ives’s view that Nvidia could be worth 25% to 30% less if Jensen Huang were removed as CEO, with Ives assigning a 15% probability to that scenario.",
+      "tag": "CEO succession; valuation risk",
+      "url": "https://www.lemonde.fr/en/economy/article/2026/11/11/a-chinese-spy-a-chip-war-and-trumps-indifference-how-nvidia-became-caught-in-an-international-scandal_6778048_19.html"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
