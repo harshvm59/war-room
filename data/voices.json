@@ -1,56 +1,14 @@
 {
-  "updated_at": "2026-11-12T05:09:02.620944+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-12T17:11:45.842409+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Michael Intrator",
-      "role": "CEO",
-      "org": "CoreWeave",
-      "cat": "AI infrastructure financing",
-      "date": "2026-11-11",
-      "published": "2026-11-11T04:46:20Z",
-      "themes": [
-        "customer prepayments",
-        "liquidity",
-        "AI data-center demand"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): CoreWeave expects roughly $9 billion in customer prepayments and deposits over the next three months, providing cash to help fund operations.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/297d040c83844a9563327340b370c24e",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Analyst",
-      "org": "Yorkville Ives",
-      "cat": "Nvidia governance risk",
-      "date": "2026-11-12",
-      "published": "2026-11-11T19:30:05Z",
-      "themes": [
-        "CEO succession",
-        "Nvidia valuation",
-        "governance risk"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Ives estimated that Nvidia could be worth 25% to 30% less if Jensen Huang were removed as CEO and assigned a 15% probability to that scenario.",
-          "k": true
-        }
-      ],
-      "src": "https://www.lemonde.fr/en/economy/article/2026/11/11/a-chinese-spy-a-chip-war-and-trumps-indifference-how-nvidia-became-caught-in-an-international-scandal_6778048_19.html",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-11-12",
-      "published": "Wed, 11 Nov 2026 21:59:34 GMT",
+      "published": "Thu, 12 Nov 2026 09:02:10 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -60,33 +18,54 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports - CNBC",
+          "t": "Headline signal (not a direct quote): Nvidia stock falls 6% as investors await Jensen Huang’s fate - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWjJRY2daaGR0MlE5NzU0bndocWZPVF9qODRlRlBzUUVLN1dyNkE2VXlJeUdGanF2NkQ5OGVZMmJTYk9xY244NU9sUHppeFU2dVlHcVRwWFptNG9CSUN6ay1Ic3NVdFJRZTNkY05nQzJJUFJsSVp1N21LRElnSHotZmZyYVR2a25v?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVFBOVnFZT1F2M3oteUktWm1qb29oLW5DLW9MZ2pBRzhEenlNZWFERC1NRXJlSV9saDN5MmNRZzdzQm0xQ0hWSzVpSktBSy00aDZlUTcyQzd2Vmlia1F1UTlEdE11anNMVE10RDNEVlc4cUlMcW5CRlpxaWFEbDh2Mg?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 13:21:30 GMT",
-      "source_name": "Crypto Briefing",
+      "date": "2026-11-12",
+      "published": "Thu, 12 Nov 2026 10:09:01 GMT",
+      "source_name": "Business Insider Africa",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#BE"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman warns Samsung that AI demand may be double counted - Crypto Briefing",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman is still very much a car guy - Business Insider Africa",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5uaUpJNkxUN2NmOENnY3dnWTVxYUlRY3NnTE53LXRVMnYyd1RHWGREY2licmJmRzJPWGJ4TWY1UWRsZ01neVFHSmx1REI1SGFNclBpcW84cHI5WVA0UnlvdE8zV0FrQVR2SXMxa0VJSmNqcXhMVjl2UA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa28zRjJMby1mZUl3TTF2REp5LVhoS0Jjb3oxcFJzbkhXMDBfX0FGUEtISXV2VWdnRkg5VmNwSHVld1FVcFM0alhzSjd4Z2hINWY0WnZiZmFhaTJDLXRXYks4NmhBUThRQVd4bzhMbVVCY25OemxxeWdwV2l1bFFvVkdxQTcwTGNsbHBiWTBXRmFnckJzeVhFZkF0UngyQ2lubVVtNmVqV0FSbEtS?oc=5"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-11-11",
+      "published": "Wed, 11 Nov 2026 11:45:16 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 14,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Dan Ives Says ‘Spy Soap Opera’ Could Send Nvidia Stock 30% Lower Without CEO: ‘There is Only One Jensen’ - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNR01NQmlnaWhNczV5SjdjclVxTmhrMWRxOTdDcHRUUDNlcXhMTk9EUXMwQUp4T3NIc0I1SWt0dEtUZjRxMDI0RUtwSF9QUlRZN0d4LWtMUFZVZ2JOd0Z2ZTJKM0V4MmtXeGk5RllmclNiNFN6TkEwRlVURmZTcGY4dVoyMk5hT0o0SmtsdTlXQTI?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -94,7 +73,7 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-11-12",
-      "published": "Wed, 11 Nov 2026 21:53:32 GMT",
+      "published": "Thu, 12 Nov 2026 00:18:08 GMT",
       "source_name": "Fast Company",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -116,8 +95,8 @@
       "org": "AMD",
       "cat": "CEO",
       "date": "2026-11-12",
-      "published": "Wed, 11 Nov 2026 21:46:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Wed, 11 Nov 2026 21:26:00 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
@@ -126,55 +105,55 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Lisa Su Just Delivered Fantastic News for AMD Investors - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Lisa Su Just Delivered Fantastic News for AMD Investors - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT2R4dElOVkdNdkU0X3NMQ19nbHVUM1FfNnVnYWRfSGhUY3FWaW0wVFlaQWZlVXVkYU05UWpfekozZWxZaDYzdHc5XzdFdTVmaF9KRklKRHh0UE9mLXhKbXVKQkZsMWo2OGtxai13a0RUaU1MR3hrb1RIUEd2TUc4Mlc1QTZuVmMwaXdZX1dxMUdlaG8tS0hNbUhiNV9JQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZGlhR05mRXk0dEdhNnFEZHhxdVpCRmItQTdXZkc5VHZ5SGFVcTR0MmVmc0o2TFNaU0E5bUoyeVFTOVkxQjlqeC1oRDVrLVdnV3JpYjZYUXJLaWhvR05uVmJhd09qbk1BaF9nYlVoWlU5cEl5bVBETm5qNTdraFBEWjhFMmlTNjVUXzJuRzFzanN6X1BjNEVoQw?oc=5"
     },
     {
       "name": "Alex Karp",
       "role": "CEO",
       "org": "Palantir",
       "cat": "CEO",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 15:51:22 GMT",
-      "source_name": "The New Republic",
+      "date": "2026-11-12",
+      "published": "Thu, 12 Nov 2026 07:00:00 GMT",
+      "source_name": "The Washington Post",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir’s Alex Karp Suddenly Claims He’s a Progressive After Election - The New Republic",
+          "t": "Headline signal (not a direct quote): After Democrats’ midterm wins, Palantir CEO Alex Karp now says he’s a ‘progressive’ - The Washington Post",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON2RUckVqMVA4VHZEWG1IbHhjSGN2R3psWlk1c3g4SHFOaE5qd3pVWTk1NG9xUUtzZDdid09tamhJVXhKci1ZanpYYjJPNHlfT3BHU18xY1NpSEJUYXQxNF84QTBBb2pacHpkTWFKVHU4VTE2VDI1YmZtZl9wbllGal8yQWFfaHp0YU9QZUlmektNRHZZd3ZYYk9n?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNS0ROeVVyUExvSVNsaFp6SUZWcUxFdWpsSU9vNE1ycHo2QlhySWFNSjBBUmhwQ25wbXVEckN0MmRXc2xMWHhVa2RnSkUxODIxeHpOdHViLWh4Y1h2WHMzWHd2RDJNLWE3VnR6MUNoOTlmM2dDVkhYcklveGtaMzlPQVl6QkVuaWxRUThsaXVGNnRUemlLdXFON2RpSUd5VHpJZXFaTFloaTBlSmZBcWV5c1V0cGVlREtobWtqb1o4SjNwOFVhWGhrV3ZB?oc=5"
     },
     {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 07:47:11 GMT",
-      "source_name": "Trefis",
+      "date": "2026-11-12",
+      "published": "Thu, 12 Nov 2026 04:40:20 GMT",
+      "source_name": "36Kr",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Is Musk A Risk To Tesla Stock At $380? - Trefis",
+          "t": "Headline signal (not a direct quote): Elon Musk's Grok AI Leaks Internal Confidential Data: Full Exposure of SpaceX & Tesla Salary, Performance Details, and Patient Privacy Breach - 36Kr",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcENsVFdkWnREYjh0cmtpR3hTTFNKQUxYbnpzRHFmRG5MSDNuYW5qN3RZemNmemEzd2wxNkJqc2JCeWR6Y0NjeGd1b292eGxJUjNBN3d0bzBQaERsTXVnczV4dzNiN09VZmtmT2JhbkVoVF9TWDlMSG9OeDlDSDM0UjdqTks2aUFESGF0WTd4WU40YTdZWEpDcUt4VzNPQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42LXdWQlY4Q0hkZU13TUFlTExoVVVUQXdoYW81Q09ZWDJDTXpvYi03cV80SDdOWnhqajh1WTNEcm9yaGpmajZaZm1pcHFTdFBEeXRF?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -182,8 +161,8 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-11-12",
-      "published": "Wed, 11 Nov 2026 18:53:42 GMT",
-      "source_name": "TradingView",
+      "published": "Wed, 11 Nov 2026 20:22:00 GMT",
+      "source_name": "Cryptonews",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -192,20 +171,20 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts An Explosive Move for ETH: Is the Bottom In? - TradingView",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg's Meta AI Bottom Prediction Changes Everything for 2027 - Cryptonews",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLTFSUEVkSWJ2REVhS3dmM3BJWXVIaU1UTGFNMllSMnAzR3lCbERTZUI5SG00enNvZldrMHNhQVJtQklJaW40TkNXbi1zTTR5U1VWY3IxNkdKN2pIRml2Y2lNTzJuaC1lMmp1b05sc2s2dGwyeWpob1dGem5BTkxHbHgxcHNaVG1FUDhmampqM3g1amJFVVZuWjRacmRKZ2hDeU1PaDdxUjFzZXduUmpob2lYeWp4RFpLSWlEOGhLako3TnY0Skhpbkl4aG4wZ18yNTFkTA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWEtOdWlnUnNiT0wwVGJlQVBBYksyYlg5bWswbHQzZWQ1TUZMeDJFSXBGbldEU2V3QnBRRDdaeXRaM2VYRUNqT3NlLWVsc2E1MzhHZnNPUEZ1TjlaMVhnZUIzX2psVEtHVlhhUjhBSjRpSE5wU3lKcWJBTFBHSGtuMFQ5YkpHcEhm?oc=5"
     },
     {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-11-12",
-      "published": "Wed, 11 Nov 2026 19:07:37 GMT",
-      "source_name": "Traders Union",
+      "date": "2026-11-11",
+      "published": "Wed, 11 Nov 2026 15:28:31 GMT",
+      "source_name": "Phemex",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -214,11 +193,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Alphabet strengthens on Sundar Pichai innovation news despite mixed market signals - Traders Union",
+          "t": "Headline signal (not a direct quote): Who Is Sundar Pichai? CEO of Google and Alphabet - Phemex",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY2R6LU5lcjdhWWJDSjVjXzBpdVJNZmtEYVZDYUdycU43aUd0QUdCRjVGX281bVViM3hYR21QYzN4aFI3MW1jQ0pETW82XzJDYVRabHF4UlNISjVPdklwOHpfSFJvd3dEakVUbVJDb2dRMnJ3aVh6NHlDbDM3eEdIR0p3dW80UU83a0lqc1loZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96NTJVUURUQ3hyRWZHZ2pwM0VzWFhoOGRKbTltWl9sYnZiZk1uTmFJWWtvVjhvcUI3MVlDVXc0TnJSME5WdTZta2g0ZVExOWdObGxJSzJNWXRPbkk?oc=5"
+    },
+    {
+      "name": "Sanjay Mehrotra",
+      "role": "CEO",
+      "org": "Micron",
+      "cat": "CEO",
+      "date": "2026-11-12",
+      "published": "Thu, 12 Nov 2026 08:40:11 GMT",
+      "source_name": "Free Press Journal",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Could Indian-American Sanjay Mehrotra Take The Helm At Nvidia If Jensen Huang Is Ousted? - Free Press Journal",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM0djTjlUc3c5bm1QR3ZVcmVWNUJMY1prYWxhdWZ0UzNmQXdIdWViRHdkREdNNmlRRHlJbHJkOUF4NnZmTWgxckRTRHFBeWtEM1JFRGJsMDRzd1dhVFlidzZpOFpueGxvVE96SWN3QnNjSU9pVUJ0T0FpOWRVUm44cWl5ckdCbGptbngyYVJidmhCaFkzQVBUMEdxVEU0bTBzVVUwZmlybTBFbksxMEZBbmp0NVJQVUpxYmZ3R2lHZ9IBxAFBVV95cUxPcjRLWnE0dHUtLXduLXJIRjZXQ0ZQWThyZzJHdGVxUmZpX2hrVnp1ZkpCcGhFdWlsSHJDRzZJZ3U4UjZsQURUX25wWkt4dnhPVmU3bmZ4NUdkN3hIeTdRcHVIVG85MG9Xel91TElPdUlfSDdHS2dxbzlZNUdOUXNVc05pRHFTbWIyODRfSHhTMGpGQ0htMzlXTERyQ2VUWnpfQWFCU2ZXSl9veF94b1loaS1mUlJKLVB4YjZ3ZDlqSmMtRU8y?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -246,8 +247,8 @@
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 18:07:00 GMT",
+      "date": "2026-11-12",
+      "published": "Wed, 11 Nov 2026 21:10:00 GMT",
       "source_name": "Investor's Business Daily",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -268,8 +269,8 @@
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-11-11",
-      "published": "Wed, 11 Nov 2026 14:10:21 GMT",
+      "date": "2026-11-12",
+      "published": "Wed, 11 Nov 2026 23:41:46 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -278,11 +279,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Wednesday - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer says investors need to pay attention to CoreWeave. Here's why - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRGdGSHoxdUN5RDcxMWZ4d1ZVYUZOVm8tTl85RURWSV9GMFFSdTA5T29qa0hHb2NOcnZ1MjZKeXQ3UmpkVnpqbzZPQkRYUTdicE94bEpscWxGbFZ2VldNdFVNY1E1M2c3ZDhzWlF5SWt1dWxVazc4dW0wQXh0b0pOU3FEbE1ZbFZpYlQ4Z01UallxLUp5WGpWMGh2ZnhoTVlHNWUwZ1VmeFY0S19UUFNOcDRkcy1WQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdWFTbkJEaXN4eEVyMXFheTk3cHI1T3R3LUVMNlVpTDE4aXlXX2syaU5qVll2OUY4cF9EdDJpZnN5THpmczZZX0g3TkxjWEVaQUw3OXpmNUxHTW90MWFray1KUVhoYkN3UkpzVHAtY2VXVGtGUlhWZ3hDWU9TOTZrTjd2WnRHdTg?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -290,7 +291,7 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-11-12",
-      "published": "Wed, 11 Nov 2026 23:20:01 GMT",
+      "published": "Wed, 11 Nov 2026 23:20:00 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 13,
@@ -311,5 +312,8 @@
   "fresh_window_hours": 24,
   "fresh_signal_count": 14,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
