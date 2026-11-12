@@ -1,44 +1,83 @@
 {
-  "updated_at": "2026-11-13T02:33:09.597963+05:30",
-  "source": "openai+web_search",
+  "updated_at": "2026-11-13T04:20:34.009577+05:30",
+  "source": "google-news-rss-fallback",
   "items": [
     {
-      "ticker": "NVDA",
-      "headline": "Nvidia shares fall after Jensen Huang’s abrupt departure; Colette Kress named interim CEO",
-      "date": "2026-11-12",
-      "published": "2026-11-12T12:26:02Z",
-      "summary": "AP reported that Nvidia shares fell amid Huang’s resignation and that CFO Colette Kress became interim CEO. The report also noted that rival AMD and Broadcom shares moved higher while CoreWeave fell.",
-      "tag": "Leadership risk / AI concentration",
-      "url": "https://apnews.com/article/jensen-haung-china-spy-nvidia-aritificial-intelligence-f9ac67fed10c86c1ed1ad1f41dd921a5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Nvidia-led market volatility spreads across AI stocks",
-      "date": "2026-11-12",
-      "published": "2026-11-12T04:11:24Z",
-      "summary": "AP reported that Nvidia initially plunged after Huang’s resignation, while Broadcom and AMD rose and CoreWeave and Micron declined. The moves indicated investor concern about Nvidia concentration alongside expectations that AI demand may broaden to other chip suppliers.",
-      "tag": "Semiconductors / Portfolio volatility",
-      "url": "https://apnews.com/article/stock-markets-oil-ai-earnings-nvidia-8bf08407eafe1655ed73112f7494029a"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Investor confidence in the AI trade is tested by Nvidia leadership turmoil and financing concerns",
-      "date": "2026-11-12",
-      "published": "2026-11-12T12:20:12Z",
-      "summary": "Axios reported that Nvidia’s leadership crisis arrived during a broader period of concern about the AI build-out, including higher interest rates, data-center financing pressure and the company’s extensive financial links with AI firms and neoclouds.",
-      "tag": "AI infrastructure / Financing risk",
-      "url": "https://www.axios.com/2026/11/12/bracing-for-nvidias-impact"
-    },
-    {
-      "ticker": "TSM",
-      "headline": "TSMC’s AI-driven stock surge fuels intense retail-investor participation in Taiwan",
+      "ticker": "MSFT",
+      "headline": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
       "date": "2026-11-13",
-      "published": "2026-11-12T19:30:05Z",
-      "summary": "Le Monde reported that TSMC’s shares have more than quadrupled in three years as AI demand strengthened the company’s strategic position, while widespread retail enthusiasm and borrowing to invest raised leverage and concentration concerns.",
-      "tag": "Foundry / Retail-investor concentration",
-      "url": "https://www.lemonde.fr/en/economy/article/2026/11/12/in-taiwan-ai-related-stocks-send-investors-into-a-frenzy_6778973_19.html"
+      "published": "Thu, 12 Nov 2026 20:08:17 GMT",
+      "summary": "Automated RSS market signal from Yahoo! Finance Canada. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uOUNhWEIyM0RRVERRZVRjUWx6dFJ2N2tGYXBpVWl2RVI3MjM2b3kzVmtabzNDRjdGMGw2Z2hJSTB0S2Q5YWRWT1dab25WVERnZlE?oc=5"
+    },
+    {
+      "ticker": "MSFT",
+      "headline": "Microsoft Stock Rises As Ignite Conference Puts AI Growth Narrative In Focus - TalkMarkets - Howl.Link",
+      "date": "2026-11-13",
+      "published": "Thu, 12 Nov 2026 19:42:00 GMT",
+      "summary": "Automated RSS market signal from Howl.Link. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9nNzRaSDdTYzM0VWlzTzVrNG5vTmE0el82ZXl4R0xaQWxNZWROT1JDcExjTmN2c3Q3cXJF?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Michael Burry Says Nvidia Has Bigger Problems Than Jensen Huang - 24/7 Wall St.",
+      "date": "2026-11-12",
+      "published": "Thu, 12 Nov 2026 17:55:00 GMT",
+      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0d0N1o2SDlLODlwZHdSeGxYV3NBTEIzVjRNb2ZCSk8xREFBakJaSVF4cTE2dDZqLVFwUXpMNkh5WF9HRkFESU1xbUt2RFQxRllvYkI3WjNPc2htdkZaM2JZRnJrSW80VEF3cHNPVnRqcmVjNzBoOVVhbHU5VTRobGE4ZWluY2dLRzBrRkhwaXEzVFJobFlaeVpwcFctV3Vkc1JCT1NuN3JiUmM?oc=5"
+    },
+    {
+      "ticker": "AMD",
+      "headline": "Great News for Nvidia, Micron, Broadcom, and AMD Stock Investors -- Wall Street Made a Mistake - The Globe and Mail",
+      "date": "2026-11-12",
+      "published": "Thu, 12 Nov 2026 09:39:21 GMT",
+      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNcFdyRnphWUVJQmNTR3FNckVhbDhUVUxZLXBfd043ZHhnbWhLTGZVTUFFMmNqc1lCclJrRnFmOGdTTTVFT3NTM3YtQVc4cW5Kb2Q3aEZaZXZ0cVdFb1FMUFBlTUF2M1pSbURSRHhDV25tY21KeEhjd1NGV1M1VmdCWWdWS0ZidWV2bUlLMVNPdjAwanM3SU9hUU5URGdEb2Zna2s5aHpQOE9jWXJHQVdHUy0tQzZBWEZrUVluLXFVbkxGQ25wUW1GMDhGQXhwSGU5aGR6QVhkYnpRODMxN09xTEZGWXdDU3UxR2FkWWtBa0RyMWRUcUxvOElUQTlPTUZJMmFhUFBR?oc=5"
+    },
+    {
+      "ticker": "META",
+      "headline": "Big Tech Stocks Today: Nvidia and Meta Fall as Microsoft Rises Amid AI Selloff - Coinpaper",
+      "date": "2026-11-12",
+      "published": "Thu, 12 Nov 2026 16:46:10 GMT",
+      "summary": "Automated RSS market signal from Coinpaper. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQak13ZzlDaWs2bElSYkFkaGFROC0zbzRXRGNGUDRORTFNSl9QcGNvLUFnVDRkTWFRRldiV2pGMVB1OTFTTjhwTHRRN0RVV1JqSnJUa3hzNzNYTFR3ZjB2VjVEcjlQaXNHX2ZEQlBTZEh1aUNNbVlTdXVQUUtEQXRtU0d4T0ExVFJhVUxVZDhUMjBYUEJwQ0V2RHhPcWJ5UjIydk5DZFEzNTI?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Nvidia Is Back Below $4 Trillion, and Microsoft Just Passed It - 24/7 Wall St.",
+      "date": "2026-11-12",
+      "published": "Thu, 12 Nov 2026 14:13:00 GMT",
+      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZWZnbmRRd3gwaUJnN2NwTzZsdGlkTGl1VGxaXzZGN3ktRXR4M1hDcDRSejhpTGhqUEliRHpMSkttdVlpZFNhRzRLeVoyd05sNHhWbGFoM2ZEQ3BfR0ppRk1sNHRBWlVCa2JmWDZxWGhYbnU2YVF6STZrcnFGLXJDVHRTQVJ1LUhGOXRtUGJTRlBMUFplODVGV2NXem15RHk2alJTenJXTEYtMW1lMDkwS0hhU1F2UTNaX1dwYzZQUlJmSFVHdmFKU05Cbi1Gd0NhNnhvMUxR?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Nvidia at 11X Earnings? One Wall Street Bull Says Investors Are Getting a Rare Bargain - Benzinga",
+      "date": "2026-11-13",
+      "published": "Thu, 12 Nov 2026 21:10:07 GMT",
+      "summary": "Automated RSS market signal from Benzinga. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORTdfX0xFWjJqNzJwQVNUaU5xV3NFcUhPWXhnVzlVU1JJbFQ4LUdOWDd1al9RSjl0T3hBYkRxSUxFaDlCMlI0Mm9mLUdCNDRNNHBaaVUwbDlTc1ZwZ04tdXVqbzE2QVlJUF91YVdCNnNwSjZtRUVwcTNmSUQwVFdKZDlQd05GUDRISEdaTHBXRHJGeEFSbG81T04yZGNLQTg?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Prediction: Nvidia's Plunging Stock Price Is the Beginning of a Broader Stock Market Crash. Here's What Warren Buffett Would Do. - The Motley Fool",
+      "date": "2026-11-13",
+      "published": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNeVFEQTZ0V1pLR2M5Qm1LbFJQNEZwUnp3TmFSUEdsZWVtZkg2cEl3bURDdXA1NHg2M2YyUkttVWI3RktaTUNfTmQxR2h2cDg3MTFTRVRMSGY0eWNlck12N2NGUlgzX3FLempZVzl0X3JMWWNZX2tnN09HM1EtTXROUWwzM01qbU1Ud25HSUVjakhnSEpFNkhycE1xbTVVXzM0Wlg5ZHU1WUgtQU84TGNhdDBIeGNsb0F5emRqcm44aWtJcGNkeGF0N0c1YXY2eXhxWG1LOG5ZVS1BNHJoZXlxM05nWExkenNZMFg3NmZkNDkwcFVpTDZNY1ZQY3dSWUJ2UWJ3?oc=5"
     }
   ],
-  "provider_error": null,
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
   "fresh_window_hours": 24
 }

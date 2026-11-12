@@ -1,76 +1,14 @@
 {
-  "updated_at": "2026-11-13T02:33:09.597546+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-13T04:20:34.008989+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Dan Ives",
-      "role": "Partner and senior managing director",
-      "org": "Yorkville Ives & Co.",
-      "cat": "Analyst",
-      "date": "2026-11-12",
-      "published": "2026-11-12T12:26:02Z",
-      "themes": [
-        "Nvidia leadership transition",
-        "AI-sector market impact"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Ives said Nvidia’s board needed to move into a new chapter without Jensen Huang and described Colette Kress as highly credible, while suggesting the board may still seek an outside permanent CEO.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/jensen-haung-china-spy-nvidia-aritificial-intelligence-f9ac67fed10c86c1ed1ad1f41dd921a5",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Eric Sheridan",
-      "role": "Research analyst",
-      "org": "Goldman Sachs",
-      "cat": "Analyst",
-      "date": "2026-11-12",
-      "published": "2026-11-12T12:20:12Z",
-      "themes": [
-        "AI investment cycle",
-        "Investor confidence",
-        "AI infrastructure financing"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Sheridan’s cited research characterized the current AI investment cycle as carrying higher stakes because spending has grown considerably, contributing to investor caution.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/2026/11/12/bracing-for-nvidias-impact",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Colette Kress",
-      "role": "Interim CEO and former CFO",
-      "org": "Nvidia",
-      "cat": "CEO signal",
-      "date": "2026-11-12",
-      "published": "2026-11-12T15:55:44Z",
-      "themes": [
-        "Leadership transition",
-        "AI infrastructure",
-        "Capital partnerships"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Kress signaled continuity by saying Nvidia would build on the foundation created during Huang’s tenure and emphasized the company’s people as a core strength.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/nvidia-jensen-huang-colette-kress-39ea208c040539166e10d8c6f473bc57",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-11-12",
-      "published": "Thu, 12 Nov 2026 01:57:34 GMT",
+      "date": "2026-11-13",
+      "published": "Thu, 12 Nov 2026 21:39:00 GMT",
       "source_name": "The New York Times",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -80,11 +18,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him - The New York Times",
+          "t": "Headline signal (not a direct quote): Jensen Huang Resigns From Nvidia After Affairs - The New York Times",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0NCNjVPR0M2THpMdkhiTW5jZUlmVXJzNHk4YjZYeWtGZHc3Vk81V3czUXBBVjktcXlSLWs3MFdyWkRtcmRpV1BmY1hKckhyU3RYWEdsTWlGcnhFVFVNakRLLWZvREpURHJnRVVSdmZEcHJWU2p5YWJZX1pEWGRWRDB1aw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBMZzdQM0llRTByd2w3X0J2bnRWZmZTMUVfMmdjSEJVbGJhYmk3RnlLTTdwc0hDVVBEamxuTzFFYk9TV3ViSVhBOUV6dlpjZkNCbXJwUjA0c0lZRnBPa0pPUFJPVUxzUjZ3WjNBZHpfOXd5OFFpOWxjSnV3?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -106,6 +44,28 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82UjI2b1Ewbjl0NjF0TnpSaFJySndDbDl5cUpmaWVDYjVvc20tWUsyV2ctYjdhZmdTWVZHSm1pMW9YQnJuc1didEhHMG4yN01VcEhfYzFGZVFKd21zWUtqVVIyOVFkWTg3QzE3OEF1M25YUVVlSEYtUg?oc=5"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-11-12",
+      "published": "Thu, 12 Nov 2026 11:38:58 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 14,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): NVDA Stock On Track To Hit Lowest Level In Over A Year: Dan Ives Values Nvidia At $225 Without Jensen Huang - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcFNTc21RYmNfVmRuQWJNRW0tc2tqbnFQY1c4R1pKUmw2QWY2WERYZVQ5WHNpejJhLXEwR0thQzYzaEppcWVlOUNua1ZGLW5SeW5NUE43M0dLSVp3MzhWMmVPM3dLZVowWXdkc1BGd3Vud3RBNm5KWlBIWm11Y0dycUo4c0RKSHJaRlRvdmtHcXplQ1JFTzBV?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -135,8 +95,8 @@
       "org": "AMD",
       "cat": "CEO",
       "date": "2026-11-12",
-      "published": "Thu, 12 Nov 2026 13:45:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Thu, 12 Nov 2026 12:00:00 GMT",
+      "source_name": "Yahoo Finance Singapore",
       "signal_type": "source-linked headline",
       "relevance_score": 13,
       "themes": [
@@ -145,11 +105,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): ‘No family dinners’: AMD boss Lisa Su is Jensen Huang’s cousin — with Nvidia on the ropes, is this her time to shine? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Why AMD CEO Lisa Su is Yahoo Finance's 'CEO of the Year' - Yahoo Finance Singapore",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYlRDZkI0b0dBUUxRcXluM0R5eHdJdGp5Z1hkSmRtYU5TZnFUZ1djUFpoaEx2TndXczlrcGFWQy12RWRBR1A3NjJyRHNfbzRLNEZDUDRpVXdEMldrdHZrb216ZEZHOWtKcU5xZmctYWk4b0pWSmJEa2xsX196VDh5QnZiTk9QZi1Yd3R0MVE3VHlSSFc3a0E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVlhwYzd6dFVCTlY2U1VoM0VPUUVGdDhraG0tWk0ta3M5NlNNSHFpemY4V3BLWmRiVkdZUmJoSWprRnFYWURxekxNNFFVRm5Da2Y4TVJaU1RVQXlpb1dUYnNvWHJfYXF1XzhsUi1aeUptcHV4VW1uWWU1TUEydm9ySDAtMG5BMzR1NWIzcVAzTnRURi1RNlRkdlMxdkl4UEo4Wk9BSw?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -157,7 +117,7 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-11-12",
-      "published": "Thu, 12 Nov 2026 17:49:50 GMT",
+      "published": "Thu, 12 Nov 2026 18:04:52 GMT",
       "source_name": "Mother Jones",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -201,21 +161,21 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-11-13",
-      "published": "Thu, 12 Nov 2026 19:23:31 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Thu, 12 Nov 2026 19:28:44 GMT",
+      "source_name": "99Bitcoins",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts a Historic Comeback for Solana - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts a Historic Comeback for Solana - 99Bitcoins",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZDlRMVd1dzdJZndUZmhIRWFKMkNyZVRCaXdTbHZja0tCVEo3MjZkYVp1akd5Njg0dE45X0dwU0dtUzNNenZGaUlDUEZMUzlmeF9GYWlhcXI4NE9aOXRIUWtlY2d3aUxDNm5CT0cwU2cxNnZVRU9acHB0TkxHZUtsempJdnNnUE1vTlIzTDdFVXBkazlxNXNoU2pSVG9DUQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNE1QRGJiY3o4ZWt2ZEZlbF9jc2pTNGRPb1FWNTZxc3FoTmYwX05WYXg2bTBYUGhWWnhYZTFUOThPLWJOOUltNUV2YUNvZHFtT3hId0FLeUY2bThyTWRXdDV4TDV0UGMyenJnNjhEOVNNVFdQWjJvekw1SUZQUHRKYXJxNjF3Y0d5WXlPa1U4QU1iNzV1MWdtOXhDN2lVRmZBRVNfYQ?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -267,8 +227,8 @@
       "org": "Intel",
       "cat": "CEO",
       "date": "2026-11-13",
-      "published": "Thu, 12 Nov 2026 20:16:00 GMT",
-      "source_name": "Barron's",
+      "published": "Thu, 12 Nov 2026 19:11:38 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -276,11 +236,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): After Intel’s Worst Day on Record, CEO Lip-Bu Tan Buys $9.7 Million in Stock - Barron's",
+          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan on turnaround efforts amid stock slump: 'I feel called to do this' - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMieEFVX3lxTE10VEFobzJacEtvaGtLa2d5WEE4cVE2MzcxZWxDYk5KNDdWY1VLNGZwb1RKMW80OGpVSVYxYUE1bnNkT0lCNXU4YVlYQWVyblJmRk5PZEN2ak1UNWg1VjU3M3lnTXFUNFhPdTFlYktGMmhTVFZIdDRuOQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTmp0em1oU1VFaW51Y1Q2TnNIM0hENVVRQ0pnV1JTRXZzRFc4cHltcmdNcmJsR2R2Z1A0TlRPUzZZYS1YWkJZcXB1MlhzTFkxVUthSTVHdnRFNjRtbWo2REViajV4T2NUanFCNVdfUE1seTdObzdHRFNTZFZuNm5vd0FhQUlMU2UyZ0E1UUFMRGhMcXcwTmwtZDlLVmNuRFpLa1dsUHlDa0ExQXNNNzVMSVp0aW5zVDRhcHJMamJYMFdfVjlKdC1OUTM5Q3RvRFpESzNrUGJSTnRWUkNw?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -309,21 +269,20 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-11-12",
-      "published": "Wed, 11 Nov 2026 21:10:00 GMT",
-      "source_name": "Investor's Business Daily",
+      "published": "Thu, 12 Nov 2026 15:35:59 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#AMZN"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood's ARK Pares Amazon, Adds These Aerospace Stocks - Investor's Business Daily",
+          "t": "Headline signal (not a direct quote): Cathie Wood Loads Up on Kratos Defense: ARK ETFs Buy $3M as Pentagon Bets on Autonomous Warfare - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMXJWYURkSjlyeVJhZlNhaFdFcFV2LTlHRXRBRWxYeTRuNFMtWkFFcEhGYXRnTzRDM2RsblEyc1pTWGlOMmY0aXl0VVJzMEZpVnNVX3gyOXhDZ1U1UFdLU284V2lCLVBZcUEzdV95MDluTWlLNVg3RHBZNFBtLVFqcjZ0Y1RrQnNmbXFmZVNIcWNKQWc5ZDlSdXBIVi1jSnh4ajRB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNYXlleUVIaUFMbkRBSk9yNnlEa3pXZjUxSExmUzNHVEJ6LUJiSDkxenU3X196NUxKQ0Z0NnpBZ3FRZF81Nzd3U2RQaWtPcExxVTRLYjdOaV9oWHZCNUtSaTVUZUN3QUVzWFJYWEVya1VVZ0tybnhjLXphOFBqMGtsMVg4TEVDejE2akFxZWFlRlE5Q2FoSVBSU2hHa2VyQkFKTXJiUk8wekhQd1VRS3JKN3BCbV9TRGNxMzVpaTVXZXYzZGFjNnQ0RUJOeHZ3Q2hBYUhlZjNXbmx6a0REQzZRbllGdEdWRXBl?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -368,11 +327,58 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSkU3UVRtTnN6TDBUX2doNnN0b0l5V1RpRkVaNlAyTEkzbU9QSk4tU1RnMllLdXk5VEpMTzh0cGFEN3BScV9rUkc0cHU5MmlyYk1fUFRXWGUtbV9FMHhkT0hnbjg1QmpSWnp3OVRNS1ozaWVjbHU0RmRlQmV4WVFnSHgzNWNzdTQ4UWV2RmJ0RW1mZjZvMFNyRzBkNG5SYlJQaEtSamNhQTlralNfbUE?oc=5"
+    },
+    {
+      "name": "Stacy Rasgon",
+      "role": "Senior Analyst",
+      "org": "Bernstein",
+      "cat": "Analyst",
+      "date": "2026-11-13",
+      "published": "Thu, 12 Nov 2026 22:03:27 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Bernstein's Stacy Rasgon: Nvidia's Huang exit clouds near-term outlook - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkZzSnBiczF3bmdEVWZNZHZJN2Jwc0c3NlVaRGVid3Jsd05TLWl5a0daYzEtbWxaVG5ET3FFSWZYdkpXOER3U3NHMXFQUnplODFKdlQ0TVNxME9pN3JJOHFNejBvYlBKMWNIRk5DZlRxa19BZ2tUeGo0MTNtUjVKS0xFZzdHQ0tCV0E5RnNNbTBPamtTdXV3Y0dSSl9WdC1rMkVRdXlxR1p0QUVZUXQ4?oc=5"
+    },
+    {
+      "name": "Patrick Moorhead",
+      "role": "CEO and Chief Analyst",
+      "org": "Moor Insights and Strategy",
+      "cat": "Analyst",
+      "date": "2026-11-13",
+      "published": "Thu, 12 Nov 2026 22:27:13 GMT",
+      "source_name": "X",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): 🇺🇸🇨🇳 Nvidia’s order books are full through 2027. The roadmaps are locked. The short term looks fine. But the moment Jensen Huang walked out the door, China's odds of becoming the dominant AI power went up. Patrick Moorhead, Founder and CEO of Moo - X",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84Y1VCb3c1aldjTXZ2MGZFN3NmckluVElhS0Y4bDRfa0tRVjlnQVlvWTJLclBmSEh0UHQ4MGgzY0U4aEc5WVBhSGU5Qnl4Zk1tX0RvZXlpSGRtZzRfc3VOUEJYZXF2ZjQ2bnhPYg?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
   "fresh_signal_count": 17,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
