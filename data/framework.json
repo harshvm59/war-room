@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T08:41:27.696996+05:30",
+  "updated_at": "2026-11-13T08:14:38.969092+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -7,52 +7,52 @@
       "company": "Nvidia Corporation",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 4,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
-          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
-          "published": "2026-08-26",
-          "reporting_period": "Fiscal Q2 2027 ended 2026-07-26"
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition.aspx",
+          "title": "NVIDIA Announces CEO Transition",
+          "published": "2026-11-12",
+          "reporting_period": "As of November 12, 2026"
+        },
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+          "title": "NVIDIA Sets Conference Call for Third-Quarter Financial Results",
+          "published": null,
+          "reporting_period": "Fiscal Q3 2027 ended October 25, 2026"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "Revenue was $96.2 billion, up 106% year over year; data-center revenue was $89.0 billion, up 117%.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Fiscal Q2 2027 ended 2026-07-26"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "The disclosed data-center scale and continued demand indicate strong current competitive positioning, although the source does not quantify market share.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Fiscal Q2 2027 ended 2026-07-26"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Management continued investing in platform growth and reported a quarterly dividend; detailed capital-allocation assessment is limited to the cited release.",
+          "verdict": "CAUTION",
+          "note": "CEO and board resignation effective November 12, 2026 creates a material leadership transition requiring review.",
           "evidence_status": "supported",
           "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition.aspx"
           ],
-          "reporting_period": "Fiscal Q2 2027 ended 2026-07-26"
+          "reporting_period": "As of November 12, 2026"
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "GAAP and non-GAAP gross margins were each 75.0%.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Fiscal Q2 2027 ended 2026-07-26"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
@@ -63,17 +63,21 @@
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "note": "Leadership transition is disclosed, but the full current risk profile was not established.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition.aspx"
+          ],
+          "reporting_period": "As of November 12, 2026"
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "note": "Fiscal Q3 2027 results were scheduled for November 17, 2026, so near-term timing remains event-driven.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx"
+          ],
+          "reporting_period": "Fiscal Q3 2027 ended October 25, 2026"
         }
       }
     },
@@ -82,25 +86,25 @@
       "company": "Taiwan Semiconductor",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 3,
+      "score": 1,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
           "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
-          "title": "3Q26 Earnings Release",
+          "title": "TSMC 3Q26 Earnings Release",
           "published": "2026-10-15",
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "reporting_period": "Q3 2026 ended September 30, 2026"
         }
       ],
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Q3 2026 revenue was NT$1,494.24 billion and increased 17.6% sequentially.",
+          "note": "Revenue was NT$1,494.24 billion in Q3 2026, supported by leading-edge process demand.",
           "evidence_status": "supported",
           "source_urls": [
             "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf"
           ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "reporting_period": "Q3 2026 ended September 30, 2026"
         },
         "moat": {
           "verdict": "CAUTION",
@@ -110,22 +114,18 @@
           "reporting_period": null
         },
         "management": {
-          "verdict": "PASS",
-          "note": "Management delivered the reported quarterly results and disclosed consolidated financial performance for Q3 2026.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf"
-          ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "The cited quarterly earnings release reports Q3 2026 profitability and net income, supporting an operating-performance review.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf"
-          ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
@@ -157,7 +157,20 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+          "title": "Tesla Third Quarter 2026 Production, Deliveries & Deployments",
+          "published": "2026-10-02",
+          "reporting_period": "Q3 2026 ended September 30, 2026"
+        },
+        {
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf",
+          "title": "Tesla Third Quarter 2026 Update",
+          "published": "2026-10-21",
+          "reporting_period": "Q3 2026 ended September 30, 2026"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -196,10 +209,12 @@
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "note": "The company cautioned that deliveries and deployments should not be relied on as indicators of quarterly financial performance.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments"
+          ],
+          "reporting_period": "Q3 2026 ended September 30, 2026"
         },
         "timing": {
           "verdict": "CAUTION",
@@ -215,75 +230,75 @@
       "company": "Meta Platforms",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 3,
+      "score": 1,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/",
           "title": "Meta Reports Third Quarter 2026 Results",
           "published": "2026-10-21",
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "reporting_period": "Q3 2026 ended September 30, 2026"
         }
       ],
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue was $64.601 billion versus $51.242 billion, up 26% year over year.",
+          "note": "Q3 2026 revenue was $64.60 billion, up 26% year over year.",
           "evidence_status": "supported",
           "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
           ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "reporting_period": "Q3 2026 ended September 30, 2026"
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "The release describes continued investment in AI initiatives and a large core business, supporting but not fully proving competitive durability.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
-          ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
-        },
-        "management": {
-          "verdict": "PASS",
-          "note": "Management disclosed continued aggressive investment in AI and announced a new Class C common-stock structure.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
-          ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
-        },
-        "margins": {
-          "verdict": "FAIL",
-          "note": "Operating margin declined to 20% from 40% year over year, partly reflecting a $9.89 billion legal charge.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
-          ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
-        },
-        "cash": {
           "verdict": "CAUTION",
           "note": "Evidence unavailable or insufficient for this question; review required.",
           "evidence_status": "unknown",
           "source_urls": [],
           "reporting_period": null
         },
-        "risk": {
-          "verdict": "FAIL",
-          "note": "The release identifies substantial litigation, regulatory, privacy, competition, and AI-investment risks.",
+        "management": {
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
+        },
+        "margins": {
+          "verdict": "CAUTION",
+          "note": "Operating income declined to $12.99 billion amid a 68% increase in costs and expenses; comparable margin analysis was not completed.",
           "evidence_status": "supported",
           "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
           ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "reporting_period": "Q3 2026 ended September 30, 2026"
+        },
+        "cash": {
+          "verdict": "FAIL",
+          "note": "Free cash flow was negative $2.12 billion in Q3 2026 despite $32.79 billion of operating cash flow.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+          ],
+          "reporting_period": "Q3 2026 ended September 30, 2026"
+        },
+        "risk": {
+          "verdict": "CAUTION",
+          "note": "The release disclosed a $9.9 billion legal-proceedings charge and continuing Reality Labs losses.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+          ],
+          "reporting_period": "Q3 2026 ended September 30, 2026"
         },
         "timing": {
           "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "note": "Q4 2026 revenue guidance was $73-$76 billion, but current valuation evidence was not established.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+          ],
+          "reporting_period": "Q4 2026 guidance issued October 21, 2026"
         }
       }
     },
