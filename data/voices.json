@@ -1,112 +1,28 @@
 {
-  "updated_at": "2026-11-14T02:08:15.023921+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-14T04:18:20.463389+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Stacy Rasgon",
-      "role": "Analyst",
-      "org": "Bernstein Research",
-      "cat": "AI semiconductors",
-      "date": "2026-11-13",
-      "published": "2026-11-13T12:20:06Z",
-      "themes": [
-        "Nvidia leadership transition",
-        "AI ecosystem financing",
-        "execution uncertainty"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Rasgon highlighted considerable uncertainty about whether a new Nvidia CEO could replicate Jensen Huang’s management of the company’s strategy and industry relationships.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/2026/11/13/ai-stocks-nvidia-chips",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Johnathan Owen",
-      "role": "Portfolio manager",
-      "org": "TwentyFour Asset Management",
-      "cat": "Credit and AI infrastructure",
-      "date": "2026-11-13",
-      "published": "2026-11-13T12:20:06Z",
-      "themes": [
-        "Nvidia ecosystem support",
-        "AI company financing",
-        "credit risk"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Owen questioned whether Nvidia’s new leadership would continue supporting AI companies that depend on its strategic and financial backing.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/2026/11/13/ai-stocks-nvidia-chips",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Asa Hiken",
-      "role": "Senior analyst",
-      "org": "eMarketer",
-      "cat": "AI market structure",
-      "date": "2026-11-13",
-      "published": "2026-11-13T05:01:49Z",
-      "themes": [
-        "Nvidia leadership risk",
-        "AI industry concentration",
-        "competitive positioning"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Hiken characterized Huang’s resignation as a major test of Nvidia’s ability to preserve its AI leadership and said the uncertainty could extend across the wider AI ecosystem.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/nvidia-jensen-china-ai-chips-1b7431af84c9d78773c277672a9486f3",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Angelo Kourkafas",
-      "role": "Senior global strategist",
-      "org": "Edward Jones",
-      "cat": "Portfolio strategy",
-      "date": "2026-11-13",
-      "published": "2026-11-13T05:37:08Z",
-      "themes": [
-        "AI concentration risk",
-        "mega-cap technology",
-        "market volatility"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Kourkafas said Nvidia’s pullback underscored concentration risk from a small group of mega-cap technology stocks driving an outsized share of market returns.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/stocks-markets-ai-us-oil-f8edd0eeb1494d4d2584715686c5e619",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-11-13",
-      "published": "Fri, 13 Nov 2026 12:54:43 GMT",
+      "date": "2026-11-14",
+      "published": "Fri, 13 Nov 2026 21:04:43 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): What's ahead for AI financing after Nvidia CEO Jensen Huang departs - CNBC",
+          "t": "Headline signal (not a direct quote): Nvidia is done with Jensen Huang. The fallout in Washington is just beginning - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNmVPNWtoSGZwRHo4alI0Ql9LT1ZuN2ZmTFNDSkR0REg0M3FPYy1rLW05SGdCbHBOWV9FR0diZE1KVmVSUGFRNlZpN3BoNkRvWWJUa21WNE14bDBXTzJqWXY2T3B3YVFtRlJVdGM3SlBWTVB6ZHpleUlzT1hvUnpMYktobDJLUGNp0gGOAUFVX3lxTE10dDVweW9VX1NSdy1Md2JSWE5rbVRXOEo5N1FFVFVhaUJGakRfQ29scXdIOEh2QlJPQ29PcjhZN2JvNm1wWnlKdnpNRC1RQ1p3dG9rRjRvSHJQYkprODBoc2FhbDFlUFROS3Q1RkF0c3VReDJXY2Myd2pEa0VmRjlvYURzeFctaEQzWS10VGc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS2U3Yy1DMTN6MDFSWHFMcDRNYXR6Yzc1OTJsV2RqXzMtUHU2UlJHdnhDV1J4X2oyWGxIb2NWYzlzQ2JJMXZxTm90OVZfVURkbV8zdnp3MmFKT1N5aF9sazU4RVIyZU1mYTh2MkpUSDNxTDVrLV9DWG1xOFQ3ZGRDZjl30gGHAUFVX3lxTE1pdngxMkNyUXg0WklPNmttdFR2NzhCc0pNMTVRbm5zOW5sMmFkZGhoYUVJRHJVZ25nLUhWaElJTW5XMEFmcFN1MXFWXzJ6NnFIX3lwc0JpdGlWNWlkWkhYQ2ZBaHdYRnc2UlM2VTJTcTI4UVMtenVSTnVEd0hyeWZsV2pFTVV5dw?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -245,21 +161,21 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-11-13",
-      "published": "Thu, 12 Nov 2026 21:35:00 GMT",
-      "source_name": "Investor's Business Daily",
+      "published": "Fri, 13 Nov 2026 15:26:02 GMT",
+      "source_name": "The American Bazaar",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk Could Announce Tesla-SpaceX Merger By December: Report - Investor's Business Daily",
+          "t": "Headline signal (not a direct quote): Elon Musk could merge SpaceX and Tesla by December, but deal may slip to 2027 - The American Bazaar",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwWHBNNS1xNW5VQ1JQNE80MHphQWJTbkdacl9DTkROcnJXRFdzaUVJUUNGUTdUWHlJN2xuWXJSeFFLeTVYY1lQNE5QZWU4S2UwMzFibXVSajVHWllFX3FYZjRrbURIYWtqWnFHeVVR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaHdsYkhCN09jSVBqUnBSVmZVMmxsWjB2NlV6QkpHZHR6WTZETjFScVRVM2lIWk1EQkV5amtjaXFyczdzWjUxTUpDWmNmYV9iUzdzVGxKRktmTkxRMU9fczNrTHh3QXlVNGtiZVRsamdWSjdidDFJYW5MTXZNRWxiODR6ZVpMWEtQb3RHV1FuSmpmYjFJMTJXTWxWa1BUOS1kUnRJdDVmNmtsdmVRVXJnU2t1VHIxQmlIQWVkZFJCanVPUjBWOVZR?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -287,22 +203,22 @@
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-11-13",
-      "published": "Fri, 13 Nov 2026 16:00:05 GMT",
-      "source_name": "Yahoo Tech",
+      "date": "2026-11-14",
+      "published": "Fri, 13 Nov 2026 21:02:25 GMT",
+      "source_name": "Traders Union",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#GOOGL"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai Says ‘Every Cell In Our Body Shares the Same DNA Blueprint’ as Google DeepMind Unveils AlphaGenome 2 Amid Drugmakers' AI Skepticism - Yahoo Tech",
+          "t": "Headline signal (not a direct quote): Sundar Pichai tech updates softens sentiment but Alphabet holds near session lows - Traders Union",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOXzE4cjR2enNRVkRiRnhweEowcjFzWDFqUk1RQll6bXphZU9aejZKcGxXUGMzX21BeDVmenpUUVRNelhJYk9UQlBaX0hWUkFLTmpuOGEwNmc1ZkwxOURGZlRvTHV0eUoxOFZUNF9wMVl1Z1dIdWVxaXRGWm9zYTZaYXBiMlF4TWFJME9zOXhmRQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaGZFYlJlR1FONmtPWlVKekY3MWpWUTlXSFV3c2hsNFhlMmpJOFpmOUg4NFBFQ0JXaUEyNEMxNkxkZ1dabGtUMjJvSFpRdmRqME1Uazl0NG84eS0xSjBsVFBvNmpDYnVfRXBJYk9FT29NUU85ZlI4YUF4d3B3dEVnMzZoWXY2UjFSSnN0OQ?oc=5"
     },
     {
       "name": "Sanjay Mehrotra",
@@ -352,22 +268,21 @@
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-11-13",
-      "published": "Fri, 13 Nov 2026 02:08:26 GMT",
-      "source_name": "Benzinga",
+      "date": "2026-11-14",
+      "published": "Fri, 13 Nov 2026 20:28:00 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
-        "#AI",
-        "#PLTR"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Buys the Dip in CoreWeave, Sells Palantir Stock: Ark Also Trades Archer Aviation, Rocket Lab, Amazon - Benzinga",
+          "t": "Headline signal (not a direct quote): Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVWpuRGxaUW5JTlJBdWV4aVNsemJNWXlsdGFuYzlqU2hiWVBTd1FXS3hwSU84SlBTMDNqTWZFeUFBa0g2QS1tWWdvbE5MSy1zQ0J4cEp4R0NSNmg0cUxkams5dzhfYl9UaGcyVlVfMTVIOVNnRlZRdnF0U1ZMaEhHY1pGVVk5eUlXUUdxQ1YyOUpfVEtqQml1LUdYdUVSNEVqSU1PR0E3dGNJU2tDamFXMkI2VUVSa3VySnRkU09zZ3FUaUtRVVFwa3AwZDByaWVEY1ZV?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaTZHaEhKY1hWT2ZUSG5GczhMQkxCSlVMM09hMXZZYWRrODdSam1UZ2ZGdlYxMVdiNm1ubkFnUGxHdTRnWnh5UDBaekpOLU96TjE4M3BXWURXQjhlaERCcEpHa29NejV0THJ2VXNacWhuMjF0WXZLTElELVNQNEFXdVo4RzdLbjdTSnlMdElmbEEzTVFHVHktTldaVnVfT05Ybmc?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -459,7 +374,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 21,
+  "fresh_signal_count": 17,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
