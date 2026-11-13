@@ -1,83 +1,53 @@
 {
-  "updated_at": "2026-11-13T16:55:03.800953+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-11-14T02:08:15.024600+05:30",
+  "source": "openai+web_search",
   "items": [
     {
       "ticker": "NVDA",
-      "headline": "Nvidia Has Been the Market’s Golden Goose. Now It’s in Crisis - Morningstar",
+      "headline": "Nvidia CEO departure keeps pressure on AI-heavy markets",
       "date": "2026-11-13",
-      "published": "Thu, 12 Nov 2026 22:20:57 GMT",
-      "summary": "Automated RSS market signal from Morningstar. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNc1VaLTdKSEJHUTRualBnQ3lrODR6d3lQTWE1a2Fla0IyTjIyYnB4OXRLT2tsZUthUlZXVUNfMWprcDVfazdIMWYwLUNVc1JBX2NEYUNfZG96T19kVnFQckRRWkxxVjlYMGZtdlV2bDBvTUt5M1JEZmVKdDJPaHh4YXRrQkE2VHZnZFVQM01GMA?oc=5"
-    },
-    {
-      "ticker": "AMZN",
-      "headline": "Amazon Trades at 21x Earnings, a Discount to Walmart, as $578 Billion AWS Backlog Builds - BigGo Finance",
-      "date": "2026-11-13",
-      "published": "Fri, 13 Nov 2026 07:25:00 GMT",
-      "summary": "Automated RSS market signal from BigGo Finance. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40MHRnb29uNzNEZ1FqRnQxaEhWMTZ6M3J5VlZQSUFrMUNLb0R3MVd4ME9ZWk9IeTlDS1VTR2NHNXVySkRfMV9ndlA3VHFBQmpwZzhtNUEza0U4NTg2RVBKVVctTHN4Y1VwdTRocWJoTG5VZ2MydWc?oc=5"
+      "published": "2026-11-13T05:37:08Z",
+      "summary": "Nvidia remained a major drag on technology stocks after Jensen Huang resigned; AP reported that Nvidia fell 2% while AMD and Broadcom also declined, with investors questioning whether AI profits can justify heavy investment and elevated valuations.",
+      "tag": "AI leadership risk",
+      "url": "https://apnews.com/article/stocks-markets-ai-us-oil-f8edd0eeb1494d4d2584715686c5e619"
     },
     {
       "ticker": "NVDA",
-      "headline": "Nvidia at 11X Earnings? One Wall Street Bull Says Investors Are Getting a Rare Bargain - Benzinga",
+      "headline": "Nvidia leadership change prompts reassessment of AI ecosystem financing",
       "date": "2026-11-13",
-      "published": "Thu, 12 Nov 2026 21:10:07 GMT",
-      "summary": "Automated RSS market signal from Benzinga. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORTdfX0xFWjJqNzJwQVNUaU5xV3NFcUhPWXhnVzlVU1JJbFQ4LUdOWDd1al9RSjl0T3hBYkRxSUxFaDlCMlI0Mm9mLUdCNDRNNHBaaVUwbDlTc1ZwZ04tdXVqbzE2QVlJUF91YVdCNnNwSjZtRUVwcTNmSUQwVFdKZDlQd05GUDRISEdaTHBXRHJGeEFSbG81T04yZGNLQTg?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Michael Burry Says Nvidia Has Bigger Problems Than Jensen Huang - 24/7 Wall St.",
-      "date": "2026-11-12",
-      "published": "Thu, 12 Nov 2026 17:55:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0d0N1o2SDlLODlwZHdSeGxYV3NBTEIzVjRNb2ZCSk8xREFBakJaSVF4cTE2dDZqLVFwUXpMNkh5WF9HRkFESU1xbUt2RFQxRllvYkI3WjNPc2htdkZaM2JZRnJrSW80VEF3cHNPVnRqcmVjNzBoOVVhbHU5VTRobGE4ZWluY2dLRzBrRkhwaXEzVFJobFlaeVpwcFctV3Vkc1JCT1NuN3JiUmM?oc=5"
+      "published": "2026-11-13T12:20:06Z",
+      "summary": "Axios reported that investors are reassessing Nvidia’s financial and strategic ties to indebted AI companies. Rival chipmakers AMD and Broadcom benefited initially, while analysts and portfolio managers questioned whether Nvidia’s new leadership will maintain ecosystem support.",
+      "tag": "AI infrastructure financing",
+      "url": "https://www.axios.com/2026/11/13/ai-stocks-nvidia-chips"
     },
     {
       "ticker": "AMD",
-      "headline": "Why AMD Shares Are Surging and What a $10,000 Investment in the Stock Could Be Worth in 3 Years - The Motley Fool",
-      "date": "2026-11-12",
-      "published": "Thu, 12 Nov 2026 18:04:00 GMT",
-      "summary": "Automated RSS market signal from The Motley Fool. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObzh5UGl4cjhpRTFJdGJCa3h6NlFER25XZE9FeXVrRFA2dW9QZ3B1MkZBN0NEYTU4d2lJRmF2Q1FobHJuVDZlbzJJT2dGQjJOT0M2STF1NDNhaElxS1JQSURMMFFBVXlRdFhwNDJJVFEzNUhibnRTcjA4c0F6WGNSbUZ5bEJNUnp0dnd1YmdzUUxSbDY4Y1JJNXB6ZUw3amQ0WklsVWtTbEJwQUFjd1A0Ukc5ZU5qZ1l4cHhBSjF0RzBPRnZldXhDUkNlZzRMQ0I1Rkp3azlPOA?oc=5"
+      "headline": "AI chip rivals initially gain from Nvidia uncertainty, then reverse",
+      "date": "2026-11-13",
+      "published": "2026-11-13T05:01:49Z",
+      "summary": "AP reported that AMD, Broadcom and Intel advanced after Huang’s departure as investors anticipated customer supplier diversification, while broader uncertainty raised questions about the durability of the AI investment boom.",
+      "tag": "Semiconductor rotation",
+      "url": "https://apnews.com/article/nvidia-jensen-china-ai-chips-1b7431af84c9d78773c277672a9486f3"
     },
     {
-      "ticker": "NVDA",
-      "headline": "Stocks drop as Jensen Huang's resignation drags Nvidia and rattles AI bulls - Yahoo Finance UK",
-      "date": "2026-11-12",
-      "published": "Thu, 12 Nov 2026 15:23:00 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance UK. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUmR4N2RWTG8xdmZjb1djbU5JSE41djFZTl8zZHpiaEtMMEp0eW0xNnVlZFdacHhkbjlKTlBoaWlnenJ1UlZkNWtjd0gwX2JQSU9jaFFCbEtRTmVXeW9ldFBIeEdod3AxR2VQZVliWmxRZXhSRzJkTVl6bXUydlp2TDdma0FUZy1wZHVNNW5xbw?oc=5"
+      "ticker": "AVGO",
+      "headline": "Broadcom exposed to Nvidia ecosystem and leadership-transition risk",
+      "date": "2026-11-13",
+      "published": "2026-11-13T12:20:06Z",
+      "summary": "Axios reported that Broadcom initially rose as investors considered potential market-share gains from Nvidia’s disruption, but the company remains part of an AI ecosystem whose financing and strategic relationships may change under new Nvidia leadership.",
+      "tag": "AI supply chain",
+      "url": "https://www.axios.com/2026/11/13/ai-stocks-nvidia-chips"
     },
     {
-      "ticker": "AMD",
-      "headline": "Great News for Nvidia, Micron, Broadcom, and AMD Stock Investors -- Wall Street Made a Mistake - The Globe and Mail",
-      "date": "2026-11-12",
-      "published": "Thu, 12 Nov 2026 14:02:06 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPZ2lQTi1RSlRLSXhaWHhrclN0RTRUMnJOYzAxTmhPV3BmQWI2VWpSMXZ6bGEtaVFaa25sRTNCbVdJbzNJRE13aVN2blJPV00zdzI2T2JlR2dib2o0MHVRcWtEMXNSM0lHMEQ5VVBOLVlNdDNLd3lYT29wNnpvQTRaZFQycVUwUjViX2dHVXNoRW1TUU8tcVZ3UV84Y2gzY1I4VDZBWDNmdkh1Tk5KWEFWeDR4UjZaLV9aTl94UVlRcW9oM2E3aGIwb3VDMGVHczZPOWZTb3hwWlRBQW9ZZlpRbTRKNVc3anN4VmVYc2V4NVEyZGxCRWxTY0lrQ1NreHdyMGhN?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Alphabet Climbs 3% as NVIDIA's Leadership Shake-Up Puts Google's AI Chips in the Spotlight; Microsoft Gains 2%, Amazon Ticks Up - 24/7 Wall St.",
-      "date": "2026-11-12",
-      "published": "Thu, 12 Nov 2026 18:02:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPN01iVHhIREJrc3F1cWwydjNTZG1oekcxc1hxLXhpczNmQlZPUk9IZnd3Q2pHTjh5OG1vRWdXOWRQT0ZXbUQ1WTNuTGdEd05NUHpLR2ZGcVh4al9ENkcxeTg4dlctdFhFN09fNTJhTF9LTUtnR2JlT1JvQU1YRkFvd1pWY1VuWGRaMGlYMEZPM3hFcklxWjl3NjBIYllfWHVEZ0xRNjA0Q1J1anF3ZU1QS01xUjNHWGNRWXB2M0FDWTQwUWdzM1R4OUpBM0l4b2NOWGpCX2pSdXVvUmxLbEI4bHBvc19kc2ZGdWQwSkdRZWpSeThZZWlucw?oc=5"
+      "ticker": "MOD",
+      "headline": "Samsung reportedly in talks to acquire Modine",
+      "date": "2026-11-13",
+      "published": "2026-11-13T00:00:00Z",
+      "summary": "StockTitan reported that Modine shares surged after Bloomberg reported Samsung Electronics was in talks to acquire the data-center cooling equipment maker; Samsung said it could not confirm the report and Modine did not immediately respond.",
+      "tag": "Data-center infrastructure",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-13-2026"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
