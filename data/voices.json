@@ -1,48 +1,26 @@
 {
-  "updated_at": "2026-11-15T16:53:59.479370+05:30",
+  "updated_at": "2026-11-16T17:25:45.552243+05:30",
   "source": "openai+web_search+30-leader-monitor",
   "items": [
     {
-      "name": "David Cohen",
-      "role": "Former Deputy Director",
-      "org": "CIA",
-      "cat": "AI geopolitical risk",
-      "date": "2026-11-14",
-      "published": "2026-11-14T12:15:00-05:00",
+      "name": "Damon Kachur",
+      "role": "CEO",
+      "org": "SecureG",
+      "cat": "AI governance / cybersecurity",
+      "date": "2026-11-16",
+      "published": "2026-11-16T10:20:00Z",
       "themes": [
-        "China",
-        "AI competition",
-        "technology security"
+        "AI-agent accountability",
+        "technical enforcement",
+        "enterprise AI risk"
       ],
       "quotes": [
         {
-          "t": "Source-linked summary (not a direct quote): China is pursuing AI and innovation as part of a broader national economic and security strategy.",
+          "t": "Source-linked summary (not a direct quote): Kachur said technical enforcement is the missing layer for managing newly deployed AI-agent workflows.",
           "k": true
         }
       ],
-      "src": "https://www.theatlantic.com/national-security/2026/11/jensen-huang-chinese-intelligence-nvidia/689430/",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Connor Forman",
-      "role": "Former China Analyst",
-      "org": "CIA",
-      "cat": "AI infrastructure and geopolitical risk",
-      "date": "2026-11-14",
-      "published": "2026-11-14T12:15:00-05:00",
-      "themes": [
-        "Nvidia",
-        "China",
-        "AI chips",
-        "technology transfer"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Nvidia leadership and chip expertise have strategic value beyond the company's commercial role, while China continues seeking access to advanced AI technology.",
-          "k": true
-        }
-      ],
-      "src": "https://www.theatlantic.com/national-security/2026/11/jensen-huang-chinese-intelligence-nvidia/689430/",
+      "src": "https://www.axios.com/2026/11/16/ai-agent-accountability-safety-workforce",
       "signal_type": "source-linked signal"
     },
     {
@@ -50,53 +28,52 @@
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-11-15",
-      "published": "Sun, 15 Nov 2026 10:00:00 GMT",
-      "source_name": "Fortune",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 09:28:09 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 13,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia had no succession plan when Jensen Huang quit. Former Fortune 500 CEOs call it 'preposterous' - Fortune",
+          "t": "Headline signal (not a direct quote): Nvidia stock falls again as investors price in fallout from Jensen Huang's resignation - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYk1YRFRoOXRLbnVjM3ctbHE0Ujk5cXBjTXh0WVp4RFVUSlhwVEN3dGZxN2N0bU5HcmdDUUEwcjdvbERoLWpJR3ZUT2dFaW5GamNKR2cxUFJUQVRPSXJ6ckdhVzlXaUlBbDh1NTl2U25TM25nazNPbE5fc1hqV0c3NV8yX3V3S2Y5bXpHZ3JGUERCNGs0QzUwVA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53UFpfSlRJTklnVTZHbEJWQ29ic1VqUDRmRWYwT1RIc1YydzJjZFJEWkxMQTZBUU9VSmxvYURtUzRSa2hnVE5qSEJTOV9kTmxMbzlvS3ZEcUx3b0MtMmJYUV9YLWYzNUVpZUNGaHJZd24tdjlTNFRv0gF8QVVfeXFMTzVxV0pSc1dzazBhVTgzZldNM0dCaXdSeGk4d3JnVUp0TG05R2RHZUJkSmVub1E1SUF4dkM2ZTlQMG1ORXpLSlU5clZZb1RmMjYwd29WaVNVQkExS3FDVmp5amMxQUZGa3RFaTlMX3pSMGxUZzRhampCT1V2LQ?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-11-15",
-      "published": "Sun, 15 Nov 2026 09:04:32 GMT",
-      "source_name": "Britannica",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 05:26:06 GMT",
+      "source_name": "Fast Company Middle East",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#MSFT"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI | ChatGPT, Sam Altman, & Microsoft - Britannica",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman calls UAE the world’s most forward-looking country in AI adoption - Fast Company Middle East",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Ba1QyTkx0cjRqbWxxX2ZPbmpGSmpBU2lkNEdpcXRWa09JNjRkZEswMk8zcFFDbFA1dGJ3LV9KUU96RkRJUjZ1WU1GWnNRVGw0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZFJud05ycVhGZEJNelY0R2RwbW1HYWNORjdZdU94QTNLb1ZZV1lJcWVVSFFoVGtRZl9LelRBeW1FMDMwejVSbC1MMjF2Z01GcWEzSzAzYUNnd3lSRUQwcEFQQThKUHhac19tQmNQTlJLdHY1R19OS3JSMzRERldqU0swUG1EQUVYaXR0YXl1ejFQZnZBRnA2YTMxV1pEVnhHdGkxdDN0ZE1pSGJDOXl6UXB4Wl9Kc2ttUUE?oc=5"
     },
     {
       "name": "Dan Ives",
       "role": "Senior Analyst",
       "org": "Wedbush",
       "cat": "Analyst",
-      "date": "2026-11-15",
-      "published": "Sun, 15 Nov 2026 07:29:36 GMT",
-      "source_name": "Benzinga",
+      "date": "2026-11-16",
+      "published": "Sun, 15 Nov 2026 20:32:00 GMT",
+      "source_name": "Newsweek",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -105,20 +82,129 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Says Nvidia Turmoil Could Hand Big Tech an Unexpected AI Advantage as Hyperscalers Gain, Dismiss - Benzinga",
+          "t": "Headline signal (not a direct quote): Dan Ives Rejects Jensen Huang Comeback as Nvidia Investors Push for Return - Newsweek",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQb3Jhc0JMRGxBeFZibHhIeFdBbGJzOGZyVkJGUjEzOXQwbkxSdFh0ZGJzZng2R3pVTi1YYm56SkVrWlhvOGRwZFBDZ0RySnVCRjFic21VeDhNWUM4SHNBNlRJa01CRmw1UjNVbW0wdDM1bE1FejFKbkVpTzJ0LUh4ZnVfU01uZHpma2p6Y053d1ozRU9CS3Z5UWFtMUh0N1d1QzFYdXhWMElCcXpkRVpjNDN4YzF3VWstRnF1ZUgwRDV1UzZTYVJBQk5ydWYtcFk5OFlXMjV2RmpiVDNlMVpiVDg3SUNiQm5tUnJJUzd4WDEyOFB6cUQxMGJHRk9hdVpNUm9mUjNCUUpRUXF6TFZETWhB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSHZCZHhTbnI1Q2VaeHY1YWF0UTNERi1mOHJvVThKYzZwWXFUNk9PTlZKanNGNk9aSWNYYzN0Yjl6SWJWaGxLNUxHWDB3NkNUN19sU04tcmJuZlIxQnRYaU9SMmo4SkcxcGtqTzhJc19LdzFyTWkwWWxNbnNOaVRySA?oc=5"
     },
     {
-      "name": "Satya Nadella",
+      "name": "Lisa Su",
       "role": "CEO",
-      "org": "Microsoft",
+      "org": "AMD",
       "cat": "CEO",
-      "date": "2026-11-15",
-      "published": "Sun, 15 Nov 2026 09:30:00 GMT",
-      "source_name": "The Times of India",
+      "date": "2026-11-16",
+      "published": "Sun, 15 Nov 2026 22:23:28 GMT",
+      "source_name": "Gulf News",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Lisa Su, CEO of the year: Will she replace Jensen Huang or compete head-on with Nvidia? - Gulf News",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOXzhENU80Mzk1ckV1bE05NEN6ZVllblpyUS1SQ1dRdFRFTjFZRGlfTzdfOURudDFGcERsbFZKay1MWUk3aTc3MDVFVUpBUlZVSjl4WWlWQTg2UXlsbTEtSlFrQmY1dG9pOFhhdVkwM2EzYzRlNnFzVk54TFRkeEVTZXJmOE5oTWFOenNpMlpodmZxLUhhVHpvMUF2dnBTTVp3VDY0OWt0OE5GXzRPOVVETVRBY05wTFN6QkNrSDlpN2hZenppRDFv0gHXAUFVX3lxTE95UTdicXFPei1qTDI1eXdDOWgtMkFGWkpUQzc0MGlLUUFqc3dHYkhTVWJwbDBJUjNNNkxMNFBCLTB4cFBhZ2I5RW9sMFZkZzRRSkoyalN3WjFXTVZvRl9vMUx5SWoyLU1FR1dCV3BzM2tSSFlwaVlVQzV4d3UzV2FCYWpSemhJbkwtd3lmY2E5T1VSQ29BZTBZWlhmTHBGY042cUo3MFZBQUx0Ti1IMEU1T1VBNWZZZVBwUzQ5MjVMdk5Uc29kaDZxbWVSZUZsYkRKTENlV2hR?oc=5"
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "role": "Investor",
+      "org": "Social Capital",
+      "cat": "Investor",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 08:51:14 GMT",
+      "source_name": "TradingView",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Nvidia's Jensen Huang Controversy Could Backfire on China, Chamath Palihapitiya Says — Washington May Get the Chip Controls It's Been Seeking - TradingView",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQaUNOSkF3ckhXTENpbTBYeTJUeVVsczBMbE9nMTFwTXdsSXpVVDZjcHllLVdxbU1YTlpVcENxa29ueTZrNm8xRzNsV3F3Qk9CSFdORU11b2RlRE5rUWlJMFJqY1N2R04xc09JQ1Bqb1lxUzdRWjFmRDQtV1JiOWZoV20tQ1htZEtZSkdWREljQ3lCRkNhcDhiLXp0NmhzRkdNX0RtRi1SYlplSkZNLV9RdVhyaGE4Uko3V1lyVGh5VVNnNkVWc1RsZlVteU9SUHlhSFhTV2ZNRk50dWdmcFJlZjdteDN2ejhEbm5PVU1FVnV3Y2VHR2hkb3pvLUpPa081U0FtRXphdkRLYUFmMDR1c3g1S2RUTU1hbFpyUlhsMjViMkE?oc=5"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "role": "CEO",
+      "org": "Meta",
+      "cat": "CEO",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 00:37:22 GMT",
+      "source_name": "Phemex",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI",
+        "#META"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Who Is Mark Zuckerberg? Meta's Founder and CEO - Phemex",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42SjVEYU90QkFsWmNYb3hHbGRqMm55T0thSElCM2hkbV90aGozZnN1aHJadGU3ZGkwakNZYzg3TTdRVy0tWEhULVBOSFNxYURPdWJVZjFKNnZ5RzNOVG5VdExsaUhMUGx5S3lWY3dwaWxWWGsxbjFtVFBB?oc=5"
+    },
+    {
+      "name": "Lip-Bu Tan",
+      "role": "CEO",
+      "org": "Intel",
+      "cat": "CEO",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 06:58:21 GMT",
+      "source_name": "Benzinga",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Intel Stock Down 3.8% Overnight on Robinhood as Lip-Bu Tan Faces Lawsuit Over PC Slowdown Disclosure - Benzinga",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOWNoX1VQc25QNmM1d2V1bmxVRm9oakw4YUdyTWljcmJ1T21XUU5IeXRnRnIzYWFvZ25sSnhNeTloLWRHRkRUMmVPNllPMklfc184RXNEY2d2MjVtRWhKOWZlSGZvUjFzNDczdjAzc0s4VXV4QmVvOGVzbFJUbWNIZUVta1FITmVKOUQ3ajFidFBDblFOeGpj?oc=5"
+    },
+    {
+      "name": "Arvind Krishna",
+      "role": "CEO",
+      "org": "IBM",
+      "cat": "CEO",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 07:36:13 GMT",
+      "source_name": "Moneycontrol.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#BE"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): India has to scale up semiconductors to be a serious global player: IBM CEO Arvind Krishna - Moneycontrol.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSTdLajFSZGdXeEpTY3VmY3djVEZqT3p3a1BhS3E2VzRoUjhPb1NHcjU1TGxfUnlqdE5rYjNoSC1TcXRwazVHT2pBamZwc29NQ0o2ejhoWERRRFVwQVo1VnlnZzRtY3hMeWJrN0JIdThnb3V1T2FWOVBWZjVkUjY2QnFNQkJPSHY0UXNldGhGT19ST2ZXZmtkaTFCa2E4UjN5SUM0TlB0QTJLS09RRjRlT3R5RVk0QVNDSGRhcDdpeTdlTUMxWWNtcGxmNjg4SnV2SmZjNzM4aVg2SkJnbS1kU1hRdEpJZ9IB6wFBVV95cUxNRDJvanFXT1U0VkVieWZvcS1wZmFDUEdaSl83OGdRaWRVanRGSkVwQjZPeDM5TmpZU1VNNWRKRGl3LU5YVGpoN3VhZUZUVVhIODBBZ0YyQnJ3cWlpc0R3aFZiS3pwalVnLWhqMDRrVmY5blM1akdQVm9XZmVJVm9TLXkxV0hDaGhOTDFnZGdyRFpWQm52cmFfdk8zY3N3NklJUi10U3pzME1Jb3AyOTUwcnRFTXYxQTE2M2dpbUs2OENUeElJSGlNbXhWM2RQcWxzYWhVVXNhUGdCX3EtUDNRRTQ3R3U1cXR1dU1r?oc=5"
+    },
+    {
+      "name": "Larry Ellison",
+      "role": "Chairman and CTO",
+      "org": "Oracle",
+      "cat": "CEO",
+      "date": "2026-11-16",
+      "published": "Sun, 15 Nov 2026 19:26:34 GMT",
+      "source_name": "Daily Mail",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -126,278 +212,59 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai overtakes Satya Nadella to claim top spot on Hurun Global Indians list 2026 - The Times of India",
+          "t": "Headline signal (not a direct quote): Billionaire Larry Ellison's $10M Florida buying spree sparks HOA fury after billionaire snapped up eight homes for his staff - Daily Mail",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNRVpHMHEwWXRKZmVlYXhhVl80cmVySE9Od2g4dFZTSTdWYVhvamljcENIdHgwbjJQUWdEbFVvYXB6eDMyMFkzZElSUkx5b29TUlJ0b3ZkUVNUY1laWUFTQXRPdWNyVkM1VVZ1c2tQcjdXSDNyd0NGMFZTMmh6NG9FeEE5TnVtRkE2N3NfMjF2V2RJYlhkcTNxNFpiLUhLZi0wUUpPZmJrdjNaQ3dCMmNtODFpSWVFMGtsSkcxbW0wZnRPMmdHdUdTSDlxOHl2UG5fMmM0TG1KTUtkVWJyekdLcThiSUEyOFZ2Q0VlX1R4a0xSZkZRUThMTExWSzhUd9IBgwJBVV95cUxNY3ZPeHU2NU56UDk2ZjdwUEd6Qm5qbUhmNVhTNTVDaHZncEVaSmo4WkU1S2wzemptTmR2dk1MQ1lZOV9SUnpEQWpIamc2czNPWGZ0U3d5UG5DQzVVRVBvcFNUYmpZMGo2NzJXSkJEc0k1SkV2X2RkbXZoT1l6NVBESE54SVRDOG40OWMyRGFVUkREVlktQkdHYVk5VXR0N21aMmlsWE5ldy14ZkhFTm9qVkM4bkFyemMxdW1mSTM0cWR6TEZELWJWMEJ6SUU2Y1lQejktU2F6RUgwSDg5ZFU1VThzbXQwZlJoeGo3QTNzZGZQeWNjbVFON21yWUpQNFBLVVVJ?oc=5"
-    },
-    {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "AMD",
-      "cat": "CEO",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 15:15:03 GMT",
-      "source_name": "TechSpective",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): AMD’s Venice Triumph: How Lisa Su and MEXT Are Reshaping the Post-Huang Data Center - TechSpective",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbTZUN2xwMGhZaWF3TTVVM2EwU0tqNFN5YUNTbzNsWUZvXzgxY1VzOTdEb0lQeTFFU29GeVV6Q1F0S1pEbUc3QmVxdnFJc1lYX0xoWTFLcEh1WGxoX24yTTJwUndGeGZQajNjdzEteXVoZDRQZ05TNnF5MEFpUG1oM1RHVkNxV2JZRXZSNnViSTNhNzN2UHBuNUdhUHhUZDVvY2tabG1ZR05QWmduQ2JFTm9RODd5OTBDMWc?oc=5"
-    },
-    {
-      "name": "Chamath Palihapitiya",
-      "role": "Investor",
-      "org": "Social Capital",
-      "cat": "Investor",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 14:47:17 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Warns AI Data Center Slowdown Could Be A ‘Disproportionate’ Blow To Anthropic And OpenAI - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUWVqZFhYQXo1R3pfbXlpRHVRLUpsdEkwSnFPX0IyYmFYdEFYUHBnY04wbE5qSGM3WGMtYThzOWgybmhmQkVCNzkxeDI5ajVUYkRqWFdRLU05Q3dMMzd2U3IyNEFya21GWFdmWXAyanBSQmNHS080a1RYdjhvd1RTY253QUZ1a2tPbjIwd3VWdV92OXhVbWJRLW5hT2tWS3U4MEczbTBaRXVPbXdZS2syQkFhZUx0S2otNVZkbjFVYTNWdjh0ZlZj?oc=5"
-    },
-    {
-      "name": "Alex Karp",
-      "role": "CEO",
-      "org": "Palantir",
-      "cat": "CEO",
-      "date": "2026-11-15",
-      "published": "Sat, 14 Nov 2026 18:54:02 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 13,
-      "themes": [
-        "#AI",
-        "#PLTR"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Palantir CEO Alex Karp Says Silicon Valley ‘Would Not Even Exist’ Without US Military Support - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNODFkWjNlb3I1MEFrbXBHdXJGTl9taTZkUVduOE1WVHh2YUJobWFBWWtpWndETHFLOGNWQ01PZ1c4NXZyNzBFZnJMTC1LOW0wc1hsajNjdzl0UEhFRWZ0Um1nWm55QVFnb2dKd2pLVGZ0WXlJdGk4TzR6QW5Ldld3Z2xUZGE5bzF5Vkw2RjdKZkFUc2lENVE?oc=5"
-    },
-    {
-      "name": "Elon Musk",
-      "role": "CEO",
-      "org": "Tesla / xAI / SpaceX",
-      "cat": "CEO",
-      "date": "2026-11-15",
-      "published": "Sat, 14 Nov 2026 19:58:50 GMT",
-      "source_name": "Wccftech",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Elon Musk Praises Jensen Huang’s Reliability On Compute Deliveries, “Without Jensen, At Least Some Of Those Critical Deals Will Be Lost” - Wccftech",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa09WbHIyMUY5RFpuN2lnLVJZRVJ5dXJhVUV1MTdRd3M5aWVuWXJhbHplcHA4SVpPdFlaV1lQYjBMV19JN3ZFVjJ3NDg5alhFTlFRd3dJMzVsUlRzZkN0amlQc2h2eFkxaG83ODNpY1JZNFM4SHFxTnZuakVmOFh1WGhZdXlSNXVNMGNMRDhvelpTUVh4Q0Ew0gGcAUFVX3lxTE85eFZqVzdVR0ZFYU1ic3NBNnZud2FxajlpZlVPVDF1eHBVdExmRVpGNEk0RS1LSDRiRXh4RmdldU94Q00tME5kamhha0J2LWI5b3h0Y2tvWjQ3ak9sRTBQeXhRd0p4bTR0QTA5dUlOZnhqVm1Pc2pGSXl4Qm9JMmJRUXRQeWlXODBUV0QxUEM2dGJ2c0ZMWlpLTG9EWg?oc=5"
-    },
-    {
-      "name": "Mark Zuckerberg",
-      "role": "CEO",
-      "org": "Meta",
-      "cat": "CEO",
-      "date": "2026-11-15",
-      "published": "Sun, 15 Nov 2026 05:36:38 GMT",
-      "source_name": "Britannica",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#META"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg | Facebook Cofounder, Meta CEO, & AI - Britannica",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aSVF6V2xyWW5RVW9Lc0NORmNmcjkwaTBlaWVuT3BqdTJ3Y0hJcDdEN2FUUHVfTUo3QWxELWJJc1BDQ19hZGMzRC1YY1lnaFJob1JtNEZ3MGt4Wm1N?oc=5"
-    },
-    {
-      "name": "Sundar Pichai",
-      "role": "CEO",
-      "org": "Alphabet",
-      "cat": "CEO",
-      "date": "2026-11-15",
-      "published": "Sun, 15 Nov 2026 03:40:00 GMT",
-      "source_name": "The Times of India",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI",
-        "#AMZN"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Sundar Pichai and Elon Musk, Amazon's computing head Matt Garman does not agree with the data centre idea - The Times of India",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOWjdBRXU3UHdWZUJrQ1BoNkZfX2h5SFZaZ25QWmhFY3p3bFRLNkNob1FkQTF2OXBjemZrSVVoTURzX2JWSEYxOUswRVpwRGZoUWUzM0xWUEprdU8ybDFaYmZhWVZGVFo1eTNCelFDNUxmT1NoZzBPMno1VWpSUjZrVjAzbTR1N0hSaVJBZGRoVGZCeVN4NHBIX3J3ZGx3TzViVm1BQVBUOWpYZFNpSzFOMFFKSWFGVExYRndrdlFDS2pPOGlUY0FMUUZuT2ZSZV9TRS1BbWRUenNpTmZJdUw4em9tMGZzb0EzUnhCd0dQWjJ4M01UTi14R1d2dmRxUWtxNERLOVdXZlFvUlNHeVdLSFRDMHVnQkNvSHdfZ3RRWmc4Q2l2bFl5Y2hzQ1kycDc5VDZlTEVLNjhpSmpmbkNRNVJVdENJQTl0VlBrYWZvMnZPd9IB1wJBVV95cUxPaGh2QUVIa0hRdVpsT3hMWVhPMVVTaHh6V1RnT29lRGxnc0h2YTVfYnBQY3BPbzY1d2ZrSGkxYjNnWWw0bmxIMzJJWncxWV9JT0FIS1NIV045SEd3SERYRkRLdEdvVlY4X2xYLTZVeVAtMHE4NDkzbFlTVEFpenp4S3ZBWEpoQ093NXUzQUNfTnMwdVBycW9sRHFqaGxWUmZuODBwVzhEYmRlblRGMFpPamtxZDBMUWk5Ty00TTA3UGlhalVEcHB1Z2cwQ041VmVMbzYwZ0pyOGVGTjZqblFBSlViR3Q4Y3ZHY2JOQ3NLa0lwSVBmNGNRTzZaMkxnVDViYjZTMWp3MllRTzZfUUdvUVF1OFY5NFRKZTRHVzNwN2RVTDc1NlZDQ3Z1NG1JN0s0NENIQjdSS0JYUWRjbDFQNWpCS3pNTnZWS19DWG9UY04yRDhWV3JR?oc=5"
-    },
-    {
-      "name": "Lip-Bu Tan",
-      "role": "CEO",
-      "org": "Intel",
-      "cat": "CEO",
-      "date": "2026-11-15",
-      "published": "Sat, 14 Nov 2026 21:03:01 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 10,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Why Intel CEO Lip-Bu Tan has 22 meetings a day — and what you can learn from it - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbGl1amtuaHR1OGl1a1FkY211eWlMdUxVSzRoSXhnb2dvZVl3U0wxYU1Od0JUbEdFbkV0RkdPZVB5YkNzVlhWY0lZUWJBR0hUYnBzUnVPWkx4cld3UWh4ZGhJTzFDV0p5QmlrQndMRlFESE5aT0NPYU5OS0FLY3dHWUpUa05uSlEzMVljWDRnQUF3cFd3UnplMTRLMVZjOHNDUDBoOFhNSkVwTXUxVVFGTGw3ckVDeTllTGdOYWtpQVBnRlZRd1hJLVFINUtYcmN6?oc=5"
-    },
-    {
-      "name": "Arvind Krishna",
-      "role": "CEO",
-      "org": "IBM",
-      "cat": "CEO",
-      "date": "2026-11-15",
-      "published": "Sat, 14 Nov 2026 22:17:30 GMT",
-      "source_name": "indica News",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): IBM CEO Arvind Krishna Re-elected to New York Fed Board Through 2029 - indica News",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRWJib1dEbl9ZM0l1ZzV2bV9Dcm9kRHlnUmZjZld4MjF3TzJKM2VOb2tGdWVoVVN2NG41UXd5WGVSS09IQ1dXc05zTGh1NjhvSWRfS0cwOFhLQzJiRTcwemNsa2V5enNNZTQ4enFSRzlmNjUxWnM0ZXlRWGUzYlJvR0JQUWQ3dzIwbzQ2akZCRGhtR2NtcEpN?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeHRTbkNzTDk5VWtnVnhUQ2V1S19uUXJ5ZnpUd3BHV2RpVGxvU0Nvd0M0eU5MbkVGYktTNWJScEtfdVdQUlNOTnVIMUhOUWlvazJTUTNYTUpWbnBrVTl5dzFqdzRJcFdqQTliMWpHeGcxMGdrdnRxeU4xYmZ3Qk9WejRaSEZucTY5RUtwRzg3cUUwWUlxeGZfWGpyR1BDSlU30gGmAUFVX3lxTE1wRHVFMmtPcWVvMlhYdC1TNmhxNmlmeHM1ZWx6dkhDbVI5bWgteDFSRTVRX3VrRUhhVDhlRUZvbXRJRlQza2s5MTQ2YngwTE1XVVItZUsyd2dCX0RWaEZGT0JtdElyVks5S0hRWUhUUWhBOWxfV2FkMUtqTXB2a2trWHlLNWZzLWswWkNqTms1a1ZqaU9FaHE3RHN4UFFGSUxMLXBjZnc?oc=5"
     },
     {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
       "cat": "Investor",
-      "date": "2026-11-15",
-      "published": "Sun, 15 Nov 2026 03:45:48 GMT",
-      "source_name": "Daily Voice Of Asia",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 07:11:50 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#PLTR"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK Buys $16 Million of CoreWeave and Sells Palantir - Daily Voice Of Asia",
+          "t": "Headline signal (not a direct quote): America Entering a ‘Mind-Blowing’ Beginning: Cathie Wood Hails SpaceX Starship ‘Chopsticks’ Catch - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZjZwb3ZydjR2ZUxpc2xrQ1N3RUd5Wm1oLUdRaTZsYUZuYUd4R2hVaFN1Yy1fVjBVNmVuRnI4NHRaelVfd0R5dy14SkZPcEJkRmtuZk14OFFvNUtvSTJmaUtkZTZfcHEzRmxwVEZIaGZRMEh0MG4wYzZLS1ZnbVJJdWhjV2F5Y1ctaF9NZXM0TlF2YVJ1WVlqM0tvYVFRckk?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNUpHUWVOZGlsWHpDZ0hUcVdCaDR0X0Z6SGRNSE0yQm4xMDYxT1BZYkIyZktIWlhSaEZnV0ltZU83ZGdOZ3duZ0hPNFN3T3VuSUk5N1NqTXFVZUIxR1ViUEFaa18wenFlcGRGVVludzVEYklYaVhDcjRNT2xrc2VLdl9jaV9jX1Uwdi1aSEZkdHdWRGZtaGM5Q0x3cnZONDNBQzV0VU9BX0tWMzh5ZVdmQVpZN1pIdXItVzNFLTNyVFdyQjZpTXYtcnE4M1dPcHNtWmZPX0xlRWpjRXVTUmc?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-11-14",
-      "published": "Sat, 14 Nov 2026 12:30:00 GMT",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 07:34:59 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer says Jensen Huang betrayed shareholders as Nvidia sinks up to 13%. Is your 401(k) too tied to one stock? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer: Anthropic’s “Next $100 Billion in Revenue” Might Be Cybersecurity. CrowdStrike Should Worry - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM0IwQTR5dTFrOWZWSG8wcGZ4YUVJaGZWWmJHaDMtVzA2WWEwQ09OOWFvYlVLdHZ4bXhHblNkY0poR2poZlR1WlJuVXl4V0t6LU90MTctcXY4SVc0LXluRHJ5NUtHN0FoYnBobDlWZEw3aFo2VTVOQnllVmhJVlpmZThTQkFQdkltU0NxMm9yelEtVndtMjlHTA?oc=5"
-    },
-    {
-      "name": "Gene Munster",
-      "role": "Managing Partner",
-      "org": "Deepwater Asset Management",
-      "cat": "Investor",
-      "date": "2026-11-15",
-      "published": "Sun, 15 Nov 2026 07:16:00 GMT",
-      "source_name": "Stocktwits",
-      "signal_type": "source-linked headline",
-      "relevance_score": 8,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Nvidia's Biggest Challenge After Jensen Huang? Finding Another Leader With His 'Sense Of Urgency,' Says Gene Munster - Stocktwits",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZEZVcWNwcHJ4MFdka1NiR05OejNPS1o4Uk5YcFlteEk2QnVxeWJLUEh2MnNOWllOV0toeXIzRjNqanA1eHo1QWhSQVdnWTFMUklJS1pNZVhSWk5aeFhCU3gxYzIwcG5mSldwRTF5UGx3Zl9jdGFNSlJFM3JCRlFyUGNkLUZlR1cxVDh4T0dfZU12T3poTXlzQkN5NWVPeW9LSFQyNXdYQm1XaHQ1TlJaQ1czdmI?oc=5"
-    },
-    {
-      "name": "Stacy Rasgon",
-      "role": "Senior Analyst",
-      "org": "Bernstein",
-      "cat": "Analyst",
-      "date": "2026-11-15",
-      "published": "Sat, 14 Nov 2026 19:08:00 GMT",
-      "source_name": "BigGo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Bernstein's Stacy Rasgon Cuts Nvidia to Market Perform, Says the Real Risk Is Life After Jensen Huang - BigGo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WajRSNnMwNmdJNjZlbllJNXZ1NXluZW9Eamd3S1VGelNTcW9OQUJWcENpVUduVUxfMzNGMnFQNDRzZnVabG01ZV8zQmtQczBqdGN1TVlTM2EzUUU?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZnlNbjdsNzdaWHZRMFdZVENqNmxYMEQ2QjUwR21YdFQ0Q3lHUFBscXRrb0c2RERXMldwYUVFNVM4dTVhSVFjbjJGU1dESldEUkhMemRMcGUzaGRiYm5Gazc0aWR1WFJtU1VYczJwbmlIcTBNc2RqcUFycHZvM0Z4VjJYeUVHalBrcDFwQXRGdnYzdFM2cFRpTw?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 18,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": null
 }

@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-11-15T16:53:59.479933+05:30",
+  "updated_at": "2026-11-16T17:25:45.552575+05:30",
   "source": "openai+web_search",
   "items": [
     {
-      "ticker": "AVGO",
-      "headline": "Broadcom Jumped as Nvidia Fell. This Is What Has Investors Excited.",
+      "ticker": "NVDA",
+      "headline": "Stocks decline on tech sell-off as concerns over Nvidia fallout persist",
+      "date": "2026-11-16",
+      "published": "2026-11-16T04:56:36Z",
+      "summary": "AP reported renewed pressure on technology shares as investors assessed the Nvidia leadership fallout and awaited Nvidia’s earnings report, with concerns spreading to Asian AI-hardware stocks.",
+      "tag": "AI hardware / market risk",
+      "url": "https://apnews.com/article/35786b8f539ec95f16ae0500f71cfcc7"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "The AI boom faces a dot-com reckoning",
+      "date": "2026-11-16",
+      "published": "2026-11-16T10:15:08Z",
+      "summary": "Axios reported that concerns about a retreat in AI investment could become self-reinforcing, potentially broadening an AI-market correction into a wider financial reckoning.",
+      "tag": "AI valuation / macro risk",
+      "url": "https://www.axios.com/2026/11/16/nvidia-jensen-huang-ai-bubble"
+    },
+    {
+      "ticker": "ANT",
+      "headline": "Anthropic IPO demand reportedly nearly seven times the offered shares",
+      "date": "2026-11-16",
+      "published": "2026-11-16T11:39:16Z",
+      "summary": "El País reported that demand for Anthropic’s planned offering was nearly seven times the number of shares offered, increasing the IPO’s significance for the broader technology sector amid Nvidia-related turmoil.",
+      "tag": "AI IPO / capital markets",
+      "url": "https://elpais.com/economia/2026-11-16/anthropic-recibe-una-demanda-de-acciones-casi-siete-veces-mayor-a-su-oferta-para-salir-a-bolsa.html"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Nvidia fallout weighs on retirement portfolios",
       "date": "2026-11-15",
-      "published": "2026-11-14T21:00:00-05:00",
-      "summary": "The Motley Fool reports that Broadcom's custom AI-chip business is gaining traction as hyperscalers seek workload-specific designs. The article argues Nvidia-related disruption could accelerate interest in Broadcom, while noting Broadcom's AI semiconductor revenue grew 221% in its latest quarter and management expects further growth.",
-      "tag": "AI semiconductors",
-      "url": "https://www.fool.com/investing/2026/11/14/broadcom-jumped-as-nvidia-fell-this-is-what-has-investors-excited/"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Nvidia's Ousted CEO Said a 1-Gigawatt Data Center Delay Costs $10 Billion a Quarter. Here's Why That Matters for Power Stocks.",
-      "date": "2026-11-15",
-      "published": "2026-11-14T18:45:00-05:00",
-      "summary": "The Motley Fool highlights energy availability as a bottleneck for AI data-center expansion and links delays in 1-gigawatt projects to substantial lost economic output. The portfolio implication identified by the source is increased relevance of power and grid-related investments to the AI buildout.",
-      "tag": "AI power infrastructure",
-      "url": "https://www.fool.com/investing/2026/11/14/nvidias-ousted-ceo-said-a-1-gigawatt-data-center/"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "China’s Intelligence Coup in the AI War",
-      "date": "2026-11-14",
-      "published": "2026-11-14T12:15:00-05:00",
-      "summary": "The Atlantic reports that U.S. officials and former intelligence specialists suspect Chinese efforts sought access to Nvidia leadership and advanced AI-chip expertise. The article frames the development as a geopolitical and export-control risk for Nvidia and the broader AI hardware ecosystem, while noting that evidence remains disputed and not publicly presented by U.S. officials.",
-      "tag": "Geopolitical and export-control risk",
-      "url": "https://www.theatlantic.com/national-security/2026/11/jensen-huang-chinese-intelligence-nvidia/689430/"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Trump administration rocked by Nvidia shockwave",
-      "date": "2026-11-14",
-      "published": "2026-11-14T19:24:00+01:00",
-      "summary": "Le Monde says Nvidia's leadership crisis has intensified scrutiny of the AI sector's centralized leadership, data-center expansion, and U.S. policy toward Chinese exports. The editorial identifies potential turbulence around export restrictions and the sustainability of AI infrastructure investment.",
-      "tag": "Governance and policy risk",
-      "url": "https://www.lemonde.fr/en/opinion/article/2026/11/14/trump-administration-rocked-by-nvidia-shockwave_6780919_23.html"
+      "published": "2026-11-15T12:30:10Z",
+      "summary": "Axios estimated that a 30% Nvidia decline would reduce the value of a $100,000 S&P 500 fund investment by about $2,400, assuming an 8% Nvidia weighting and other holdings unchanged.",
+      "tag": "Portfolio exposure / index risk",
+      "url": "https://www.axios.com/2026/11/15/nvidia-stocks-401k-retirement-accounts"
     }
   ],
   "provider_error": null,
