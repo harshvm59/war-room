@@ -1,26 +1,47 @@
 {
-  "updated_at": "2026-11-16T17:25:45.552243+05:30",
+  "updated_at": "2026-11-17T04:29:51.004374+05:30",
   "source": "openai+web_search+30-leader-monitor",
   "items": [
     {
-      "name": "Damon Kachur",
-      "role": "CEO",
-      "org": "SecureG",
-      "cat": "AI governance / cybersecurity",
+      "name": "Kevin Warsh",
+      "role": "Federal Reserve governor",
+      "org": "Federal Reserve",
+      "cat": "macro/AI investment risk",
       "date": "2026-11-16",
-      "published": "2026-11-16T10:20:00Z",
+      "published": "2026-11-16T17:01:05Z",
       "themes": [
-        "AI-agent accountability",
-        "technical enforcement",
-        "enterprise AI risk"
+        "AI investment cycle",
+        "stock-market vulnerability",
+        "economic spillovers"
       ],
       "quotes": [
         {
-          "t": "Source-linked summary (not a direct quote): Kachur said technical enforcement is the missing layer for managing newly deployed AI-agent workflows.",
+          "t": "Source-linked summary (not a direct quote): Warsh warned that disappointing AI investment returns could create a broader stock-market bust and expose vulnerabilities beyond technology companies.",
           "k": true
         }
       ],
-      "src": "https://www.axios.com/2026/11/16/ai-agent-accountability-safety-workforce",
+      "src": "https://www.axios.com/2026/11/16/fed-warsh-ai-boom-stocks",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Sam Altman",
+      "role": "CEO",
+      "org": "OpenAI",
+      "cat": "AI industry signal",
+      "date": "2026-11-16",
+      "published": "2026-11-16T16:52:46Z",
+      "themes": [
+        "Nvidia leadership",
+        "AI infrastructure",
+        "industry confidence"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Altman expressed continued admiration for Nvidia's Jensen Huang amid the leadership controversy affecting the AI sector.",
+          "k": true
+        }
+      ],
+      "src": "https://apnews.com/article/202e72d0c05646479e96a4936620b983",
       "signal_type": "source-linked signal"
     },
     {
@@ -29,42 +50,21 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 09:28:09 GMT",
+      "published": "Mon, 16 Nov 2026 17:38:07 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia stock falls again as investors price in fallout from Jensen Huang's resignation - CNBC",
+          "t": "Headline signal (not a direct quote): Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53UFpfSlRJTklnVTZHbEJWQ29ic1VqUDRmRWYwT1RIc1YydzJjZFJEWkxMQTZBUU9VSmxvYURtUzRSa2hnVE5qSEJTOV9kTmxMbzlvS3ZEcUx3b0MtMmJYUV9YLWYzNUVpZUNGaHJZd24tdjlTNFRv0gF8QVVfeXFMTzVxV0pSc1dzazBhVTgzZldNM0dCaXdSeGk4d3JnVUp0TG05R2RHZUJkSmVub1E1SUF4dkM2ZTlQMG1ORXpLSlU5clZZb1RmMjYwd29WaVNVQkExS3FDVmp5amMxQUZGa3RFaTlMX3pSMGxUZzRhampCT1V2LQ?oc=5"
-    },
-    {
-      "name": "Sam Altman",
-      "role": "CEO",
-      "org": "OpenAI",
-      "cat": "CEO",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 05:26:06 GMT",
-      "source_name": "Fast Company Middle East",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman calls UAE the world’s most forward-looking country in AI adoption - Fast Company Middle East",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZFJud05ycVhGZEJNelY0R2RwbW1HYWNORjdZdU94QTNLb1ZZV1lJcWVVSFFoVGtRZl9LelRBeW1FMDMwejVSbC1MMjF2Z01GcWEzSzAzYUNnd3lSRUQwcEFQQThKUHhac19tQmNQTlJLdHY1R19OS3JSMzRERldqU0swUG1EQUVYaXR0YXl1ejFQZnZBRnA2YTMxV1pEVnhHdGkxdDN0ZE1pSGJDOXl6UXB4Wl9Kc2ttUUE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZRkFudW1QLXhGVm5uaGtHOHFZeEFPdklQV3dVRDBrOTlUZWRqOHJHNk5ITU9uQzczRmI0R3hSOEJOaGtkZjBKS0xoa2x5QUdMbmRXVFlscHlrbXJLWm9pWG8xdndXYThvOG5mddIBckFVX3lxTE5zX3BydjZ1RlBGYVJhUnJxX0RNcC10Q2FndG0xcktFOXVSTXZINjBuTl9wM0FmVURFMzNEVnpEaGREVGs2TVNUNzN3WktmWEZDWTFJQ3A3NG9WaHZ1TzY1QUhEaDdfY1I3Z1c0VnFYWThFUQ?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -72,8 +72,8 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-11-16",
-      "published": "Sun, 15 Nov 2026 20:32:00 GMT",
-      "source_name": "Newsweek",
+      "published": "Mon, 16 Nov 2026 11:55:13 GMT",
+      "source_name": "Traders Union",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -82,11 +82,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Rejects Jensen Huang Comeback as Nvidia Investors Push for Return - Newsweek",
+          "t": "Headline signal (not a direct quote): Nvidia stock worth $225 per share if Jensen leaves, Dan Ives notes - Traders Union",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSHZCZHhTbnI1Q2VaeHY1YWF0UTNERi1mOHJvVThKYzZwWXFUNk9PTlZKanNGNk9aSWNYYzN0Yjl6SWJWaGxLNUxHWDB3NkNUN19sU04tcmJuZlIxQnRYaU9SMmo4SkcxcGtqTzhJc19LdzFyTWkwWWxNbnNOaVRySA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONUFNOXZjb3NsMnVWRjRzVTlMNWl5MUREdkVrc0R5R2ttZ21qa08zQkdqT1N6WE4wOFQ4cTc0dTQ5U0hkMDlHR0otaDZ4alFTTjJlMEJ4Rm5wMml4T3FXWHhzMm1Ka3ducGlrVmk2d0tRbHM2bENFbWJDQ3hJSUJVY3VXb2tvUWJJdTE2bU5R?oc=5"
+    },
+    {
+      "name": "Satya Nadella",
+      "role": "CEO",
+      "org": "Microsoft",
+      "cat": "CEO",
+      "date": "2026-11-17",
+      "published": "Mon, 16 Nov 2026 19:26:31 GMT",
+      "source_name": "Nacionale",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#MSFT"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): What did Satya Nadella say about Microsoft's buyouts and AI coding? Key points from his new interview - Nacionale",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORS1HdENUNWtRdjd4RDhjajItWklEM21TRXBXa1pscHh1WFFpOHhWR2wtQzRIMHZ1VDExU1dyVHIteW9Ma2c4WVVlRzRtNjc2TUdfQTF4aWtVSzdfZkF4U2ptYUtKMkViX1hTTDlmUGV5bHVremJmUnRURkVXTU1CRHpKMThyQ3d6VVNKYVFUOVlkNFQ2aXUycFZHU2JMbnZwQlFmcnpCdFZpSXlNazVXNGRHYUtSdm9yUXhuMWVjSVZtMXMyYlhN?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -94,21 +116,21 @@
       "org": "AMD",
       "cat": "CEO",
       "date": "2026-11-16",
-      "published": "Sun, 15 Nov 2026 22:23:28 GMT",
-      "source_name": "Gulf News",
+      "published": "Mon, 16 Nov 2026 15:25:00 GMT",
+      "source_name": "BigGo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 8,
+      "relevance_score": 11,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Lisa Su, CEO of the year: Will she replace Jensen Huang or compete head-on with Nvidia? - Gulf News",
+          "t": "Headline signal (not a direct quote): AMD Buys World Labs for $8.2 Billion, Fei-Fei Li to Serve as Chief Scientist Reporting Directly to Lisa Su - BigGo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOXzhENU80Mzk1ckV1bE05NEN6ZVllblpyUS1SQ1dRdFRFTjFZRGlfTzdfOURudDFGcERsbFZKay1MWUk3aTc3MDVFVUpBUlZVSjl4WWlWQTg2UXlsbTEtSlFrQmY1dG9pOFhhdVkwM2EzYzRlNnFzVk54TFRkeEVTZXJmOE5oTWFOenNpMlpodmZxLUhhVHpvMUF2dnBTTVp3VDY0OWt0OE5GXzRPOVVETVRBY05wTFN6QkNrSDlpN2hZenppRDFv0gHXAUFVX3lxTE95UTdicXFPei1qTDI1eXdDOWgtMkFGWkpUQzc0MGlLUUFqc3dHYkhTVWJwbDBJUjNNNkxMNFBCLTB4cFBhZ2I5RW9sMFZkZzRRSkoyalN3WjFXTVZvRl9vMUx5SWoyLU1FR1dCV3BzM2tSSFlwaVlVQzV4d3UzV2FCYWpSemhJbkwtd3lmY2E5T1VSQ29BZTBZWlhmTHBGY042cUo3MFZBQUx0Ti1IMEU1T1VBNWZZZVBwUzQ5MjVMdk5Uc29kaDZxbWVSZUZsYkRKTENlV2hR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XV1RUYWpuZUdLVHEzZ2NSTjFoX1ZpM3FVcXpFT0RhYTI2c0JwYm54UXVqcFM2OG0wT3N4Tk42LWc2OTQ2WVVzaXBnZlZyci0yb3JXYU1OcENKQUpucnBZMHVvdkVTNGZ6d2RMbEo0dXJNSkJfU3c?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -133,26 +155,48 @@
       "src": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQaUNOSkF3ckhXTENpbTBYeTJUeVVsczBMbE9nMTFwTXdsSXpVVDZjcHllLVdxbU1YTlpVcENxa29ueTZrNm8xRzNsV3F3Qk9CSFdORU11b2RlRE5rUWlJMFJqY1N2R04xc09JQ1Bqb1lxUzdRWjFmRDQtV1JiOWZoV20tQ1htZEtZSkdWREljQ3lCRkNhcDhiLXp0NmhzRkdNX0RtRi1SYlplSkZNLV9RdVhyaGE4Uko3V1lyVGh5VVNnNkVWc1RsZlVteU9SUHlhSFhTV2ZNRk50dWdmcFJlZjdteDN2ejhEbm5PVU1FVnV3Y2VHR2hkb3pvLUpPa081U0FtRXphdkRLYUFmMDR1c3g1S2RUTU1hbFpyUlhsMjViMkE?oc=5"
     },
     {
+      "name": "Elon Musk",
+      "role": "CEO",
+      "org": "Tesla / xAI / SpaceX",
+      "cat": "CEO",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 16:34:31 GMT",
+      "source_name": "The New York Times",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI",
+        "#TSLA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap. - The New York Times",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ELUVFNFBiWjJzc1Nzc1RmbFkzRV9UVEtwN2VQRlBtV1VuVjR1aThINEpLOUhMYXRLRGF0N0lCbDZJWldSbERPYWxSWHFZQlVPZVlHWnpJa09sc01lRFFXR1JBU2ZrY3dFZnpJNFpLYnZRTWJVYUpxZnFnZw?oc=5"
+    },
+    {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 00:37:22 GMT",
-      "source_name": "Phemex",
+      "published": "Mon, 16 Nov 2026 15:16:23 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Who Is Mark Zuckerberg? Meta's Founder and CEO - Phemex",
+          "t": "Headline signal (not a direct quote): Is Mark Zuckerberg Bullish on Vitalik Buterin? Meta AI Predicts ETH to Explode - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42SjVEYU90QkFsWmNYb3hHbGRqMm55T0thSElCM2hkbV90aGozZnN1aHJadGU3ZGkwakNZYzg3TTdRVy0tWEhULVBOSFNxYURPdWJVZjFKNnZ5RzNOVG5VdExsaUhMUGx5S3lWY3dwaWxWWGsxbjFtVFBB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZEttbVFtdHN6ZE9pNGw5Q19MUWlSSVlPejlVcTVJbW82S0tQYko4QWhvVXFFZUtucS15NTR5LUVLVzhuSVc0T1VYTWFiSkVCekhoeGU2VjdhVldBdUJGYlZENXZ1SmZYUk5GeTM3Mlp4MXV4OHY3TUdReTBpYXpxVEdQQzljeXNGZnFwcDhEajVIVlB5UEFjVzU2NkJVS0ZJWVlqMDNHWQ?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -160,8 +204,8 @@
       "org": "Intel",
       "cat": "CEO",
       "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 06:58:21 GMT",
-      "source_name": "Benzinga",
+      "published": "Mon, 16 Nov 2026 03:58:52 GMT",
+      "source_name": "Wccftech",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -169,33 +213,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel Stock Down 3.8% Overnight on Robinhood as Lip-Bu Tan Faces Lawsuit Over PC Slowdown Disclosure - Benzinga",
+          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Named As Defendant In New Class-Action Lawsuit; Shareholders Take Chipmaker To Court Over Concealing A Prolonged PC Sales Slowdown - Wccftech",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOWNoX1VQc25QNmM1d2V1bmxVRm9oakw4YUdyTWljcmJ1T21XUU5IeXRnRnIzYWFvZ25sSnhNeTloLWRHRkRUMmVPNllPMklfc184RXNEY2d2MjVtRWhKOWZlSGZvUjFzNDczdjAzc0s4VXV4QmVvOGVzbFJUbWNIZUVta1FITmVKOUQ3ajFidFBDblFOeGpj?oc=5"
-    },
-    {
-      "name": "Arvind Krishna",
-      "role": "CEO",
-      "org": "IBM",
-      "cat": "CEO",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 07:36:13 GMT",
-      "source_name": "Moneycontrol.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): India has to scale up semiconductors to be a serious global player: IBM CEO Arvind Krishna - Moneycontrol.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSTdLajFSZGdXeEpTY3VmY3djVEZqT3p3a1BhS3E2VzRoUjhPb1NHcjU1TGxfUnlqdE5rYjNoSC1TcXRwazVHT2pBamZwc29NQ0o2ejhoWERRRFVwQVo1VnlnZzRtY3hMeWJrN0JIdThnb3V1T2FWOVBWZjVkUjY2QnFNQkJPSHY0UXNldGhGT19ST2ZXZmtkaTFCa2E4UjN5SUM0TlB0QTJLS09RRjRlT3R5RVk0QVNDSGRhcDdpeTdlTUMxWWNtcGxmNjg4SnV2SmZjNzM4aVg2SkJnbS1kU1hRdEpJZ9IB6wFBVV95cUxNRDJvanFXT1U0VkVieWZvcS1wZmFDUEdaSl83OGdRaWRVanRGSkVwQjZPeDM5TmpZU1VNNWRKRGl3LU5YVGpoN3VhZUZUVVhIODBBZ0YyQnJ3cWlpc0R3aFZiS3pwalVnLWhqMDRrVmY5blM1akdQVm9XZmVJVm9TLXkxV0hDaGhOTDFnZGdyRFpWQm52cmFfdk8zY3N3NklJUi10U3pzME1Jb3AyOTUwcnRFTXYxQTE2M2dpbUs2OENUeElJSGlNbXhWM2RQcWxzYWhVVXNhUGdCX3EtUDNRRTQ3R3U1cXR1dU1r?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVGVzSDdDY0JZV3JaQXR2QXplWmFXWkMzbDBtS3E2cjNZZVNnbUxJQTRpX1JBdmI2UG5kbmJiZDhvS0hmVUh3LVFnN1QzZHc3V2Y0bTN6NkR0R0FCUDdqQjR2RndneHV3SEY2UlJ6ZUkzbmxVWl9wMG5EcThya0ZOTFlWcl9Ta095Uk5iZkI5bGhXOXBWV2p6bnpwNnEtZ9IBowFBVV95cUxPcnhJTndQeGdvUk5RVWswZjlxWjJRWl9FZHhZMklTVjFFbm1uZFFKMmJackZKdXJxeFQxaVJBWnZLNEFJNlhweEtoWEpwbnRlM2FTRGZzZk1DSHliUE9HQzluQ09mTjY2R21RaktEajdYTnJBb045Ml9vVFVjNFNIWEdhR0pLRVc2N1lZdDNkUFdOdkFLQVFXaTRxVkZ3UnlhaXNj?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -203,20 +225,20 @@
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-11-16",
-      "published": "Sun, 15 Nov 2026 19:26:34 GMT",
-      "source_name": "Daily Mail",
+      "published": "Mon, 16 Nov 2026 15:39:51 GMT",
+      "source_name": "The Economic Times",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Billionaire Larry Ellison's $10M Florida buying spree sparks HOA fury after billionaire snapped up eight homes for his staff - Daily Mail",
+          "t": "Headline signal (not a direct quote): Why is Oracle stock falling? ORCL’s 44% plunge erased $145B from Larry Ellison’s fortune; estimated $300B - The Economic Times",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeHRTbkNzTDk5VWtnVnhUQ2V1S19uUXJ5ZnpUd3BHV2RpVGxvU0Nvd0M0eU5MbkVGYktTNWJScEtfdVdQUlNOTnVIMUhOUWlvazJTUTNYTUpWbnBrVTl5dzFqdzRJcFdqQTliMWpHeGcxMGdrdnRxeU4xYmZ3Qk9WejRaSEZucTY5RUtwRzg3cUUwWUlxeGZfWGpyR1BDSlU30gGmAUFVX3lxTE1wRHVFMmtPcWVvMlhYdC1TNmhxNmlmeHM1ZWx6dkhDbVI5bWgteDFSRTVRX3VrRUhhVDhlRUZvbXRJRlQza2s5MTQ2YngwTE1XVVItZUsyd2dCX0RWaEZGT0JtdElyVks5S0hRWUhUUWhBOWxfV2FkMUtqTXB2a2trWHlLNWZzLWswWkNqTms1a1ZqaU9FaHE3RHN4UFFGSUxMLXBjZnc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxObHpsQ2dUVmtlVE5OXzVkU2xjamJybDBxN1M0ekl3YVF5OXNORHE5LWcyTTRvaGVmVUdVeUNCT2Z1eWFwV0pfXzV5bWliSmp4QXNzNGlScko2UEdYbURfN0U2MmphTGxYVmU0X1JUZENXb2tXWlktRVZIdDMwN1hYeUZZZ2J0TElGTHdzdGUtdldWMFUyYW1LczRfcExJUkRLY1ZUQUQtR3N3dTlLOEJHN25WMmZsYjV1R1ZvdmhJYWU4N1hUVHVRTGRaZmk3ZEluZHdkQllQX0R0R3lCUmdmTTlQWk5QaE80TUI2U1FVRTRPQkRRWUxmVXdiRUZzUVFCbWxvOVBrRHIzQUdKRFZQallBWUdpSHN3NzI5aXp3MHBfY0hYczdDY0IwcUdaT2JGZHZEZ281SG9tZUktRmN6ZDBqY2FUNHhBbUZBVWNXdmFhblHSAcwCQVVfeXFMTXdwM1E4bmxXdkxVdU0xaC0yNkF5dm9sRGxlbXpsY09nQUR1MHUyamZRYkZpbFY1Z3YzZ0xfZ0NCN3U0aExTQW5fY2RkdjFPbFFsMzZRSHkycjJpZzNFLW9qeE40aFVPVk5DZzlVR2NHZWVUZjJjSmZqZ1hVV2VKUlY0ckZpSjhIZ1JoMUZxMWhBRXBZb0ZtM2hXOFJBekMzNGJaaFpNN1czY1Qya01NMzk4QlMwTE95UzVKcDYxMzZKajl1MmsyY0x0NnphMllRLTRLMG5NdmFIbjI2SXprczUtcUtkMEVrZkRVajA2MkhiSE0ySXowWkZyZC1ScUVQLUxPeUZGNW8ydl84UU8wb3JVbEJSVVpuVUVDbHZFNEF6MVk2SWZuYW1TemVuQmE1cjdlSmZEaG9VME5HV2VVRldJVjVVRTlHbVdfOV8?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -224,47 +246,114 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 07:11:50 GMT",
-      "source_name": "Benzinga",
+      "published": "Mon, 16 Nov 2026 12:05:44 GMT",
+      "source_name": "Seeking Alpha",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 14,
       "themes": [
-        "#AI"
+        "#AI",
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): America Entering a ‘Mind-Blowing’ Beginning: Cathie Wood Hails SpaceX Starship ‘Chopsticks’ Catch - Benzinga",
+          "t": "Headline signal (not a direct quote): Cathie Wood's weekly recap: boosts Nvidia, CoreWeave, Archer Aviation; pares Tempus AI, Palantir - Seeking Alpha",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNUpHUWVOZGlsWHpDZ0hUcVdCaDR0X0Z6SGRNSE0yQm4xMDYxT1BZYkIyZktIWlhSaEZnV0ltZU83ZGdOZ3duZ0hPNFN3T3VuSUk5N1NqTXFVZUIxR1ViUEFaa18wenFlcGRGVVludzVEYklYaVhDcjRNT2xrc2VLdl9jaV9jX1Uwdi1aSEZkdHdWRGZtaGM5Q0x3cnZONDNBQzV0VU9BX0tWMzh5ZVdmQVpZN1pIdXItVzNFLTNyVFdyQjZpTXYtcnE4M1dPcHNtWmZPX0xlRWpjRXVTUmc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRFYtMlZ4X2NlRW1MQk9IZ0JHRUVTd2hzWDZwOWdqSi1kUm1QbDVCRkNYNWtjd0xUXy1rQ3RxUUtsMmRlR1VGTGlVUTJheUJpZjRGN2YyYkpid3BwZTlUWElYcWdrQVNBdFp0YW5tWkw4UVY5Nnl4TllMcl91NGd3MXFyd0tON01RTERGcWZEdm5fMUFUTGNVZ2RmcC00eV9JRXNfU1VkV1RQd2ozRmt2TFhmMlRSVC1hRkE1WVdTZEpiNnBtTndR?oc=5"
     },
     {
-      "name": "Jim Cramer",
-      "role": "Host",
-      "org": "CNBC",
-      "cat": "Analyst",
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
       "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 07:34:59 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Mon, 16 Nov 2026 12:22:12 GMT",
+      "source_name": "TIKR.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer: Anthropic’s “Next $100 Billion in Revenue” Might Be Cybersecurity. CrowdStrike Should Worry - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Warning for Nvidia Investors: “Be Prepared for Them to Pull Guidance” Tuesday, Says Gene Munster - TIKR.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZnlNbjdsNzdaWHZRMFdZVENqNmxYMEQ2QjUwR21YdFQ0Q3lHUFBscXRrb0c2RERXMldwYUVFNVM4dTVhSVFjbjJGU1dESldEUkhMemRMcGUzaGRiYm5Gazc0aWR1WFJtU1VYczJwbmlIcTBNc2RqcUFycHZvM0Z4VjJYeUVHalBrcDFwQXRGdnYzdFM2cFRpTw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb0FXUkE0ZWFDRFkycllGZ1dDeXZ1OFVwMUpXbW1CdnhkUElzV1d0VC05cTlZZDNPYU1uUzM0am1ybmY4WThVYXdEX3U3RnJxUVpydG9RMlhydDFlWDFvRWQxOG1rdkNiUmc0N2JKcG5RTFFDdjhLYXQ4dklKSHNTWjdpYWQ3bW01UzRwNU42V3UxOGljVm5HbXpvd1dlZTQybEU4aWo4d1pUc3Y0M2sxMHlFeEI5ZDEyakE?oc=5"
+    },
+    {
+      "name": "Beth Kindig",
+      "role": "Lead Technology Analyst",
+      "org": "I/O Fund",
+      "cat": "Analyst",
+      "date": "2026-11-17",
+      "published": "Mon, 16 Nov 2026 19:02:47 GMT",
+      "source_name": "Crypto Briefing",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Nvidia bull case remains intact, says I/O Fund CEO Beth Kindig - Crypto Briefing",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xVnY5d3AtM3RqQXhfWHFZNFlDbURISVhhLTJBMjI0Tl9EVDJBRG82V1M2MEIyUXlFTnYzcjlKLXQ1M3ppdDVzeWxHRzJfX1AzTEVuMi1CWlNtYzE0dEJoakdWa0d1SXVRVDBRNFhRMDdMdXFUVlFr?oc=5"
+    },
+    {
+      "name": "Patrick Moorhead",
+      "role": "CEO and Chief Analyst",
+      "org": "Moor Insights and Strategy",
+      "cat": "Analyst",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 16:02:19 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Here's what Moor Insights' Patrick Moorhead is looking to hear from Nvidia's earnings call - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNTJDLVVxS29oR2dxeWZ1T1U0ZC1XOFVudTZVLUtULUZzenVIeUpDa0hQUXBQWmEtZzZBTlpHT2lKdkZHSmJVUjJqdmtJRTdYdlZfa1FDT0NuODNFM2RwdGFHRHJHSGc1dWwzcHFXS0FKSE5ESzhKQUZxVFBjU2ZsYVdIeTdrcFpQRDhYemd0VThFM21CcXFISnIwY1JENW1mdVFxRk5aWUk5aHNvSHhmX3BETGFuSDRiTUpsa1MwejgzSndiRHVYcmxR?oc=5"
+    },
+    {
+      "name": "Dylan Patel",
+      "role": "Chief Analyst",
+      "org": "SemiAnalysis",
+      "cat": "Analyst",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 16:08:00 GMT",
+      "source_name": "BigGo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): SemiAnalysis' Dylan Patel: Nvidia Scandal Won't Cost It Buyers, But Permits Are Now the Real Bottleneck for AI - BigGo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoMmFvLUlxZy1PM3EzX0M1ZTcwdmZXbG13b1ZUQ2ZsMDlUcmU3T3ZvZUlMLTY4Zmhzc1FrV19HYUJ3X0ZZbHlULTF5d1dFSVVGem1uYXUycHhXNGc?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 12,
+  "fresh_signal_count": 16,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": null
 }

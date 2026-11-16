@@ -1,42 +1,78 @@
 {
-  "updated_at": "2026-11-16T17:25:45.552575+05:30",
+  "updated_at": "2026-11-17T04:29:51.004992+05:30",
   "source": "openai+web_search",
   "items": [
     {
       "ticker": "NVDA",
-      "headline": "Stocks decline on tech sell-off as concerns over Nvidia fallout persist",
+      "headline": "Stocks tumble as Nvidia leads another technology sell-off",
       "date": "2026-11-16",
       "published": "2026-11-16T04:56:36Z",
-      "summary": "AP reported renewed pressure on technology shares as investors assessed the Nvidia leadership fallout and awaited Nvidia’s earnings report, with concerns spreading to Asian AI-hardware stocks.",
-      "tag": "AI hardware / market risk",
+      "summary": "AI-focused companies led a broad technology sell-off, with Nvidia at the center of market turbulence ahead of a major industry milestone.",
+      "tag": "AI-chips/market-risk",
       "url": "https://apnews.com/article/35786b8f539ec95f16ae0500f71cfcc7"
     },
     {
       "ticker": "NVDA",
-      "headline": "The AI boom faces a dot-com reckoning",
+      "headline": "Fed's Warsh sees risk of stock bust if AI boom disappoints",
       "date": "2026-11-16",
-      "published": "2026-11-16T10:15:08Z",
-      "summary": "Axios reported that concerns about a retreat in AI investment could become self-reinforcing, potentially broadening an AI-market correction into a wider financial reckoning.",
-      "tag": "AI valuation / macro risk",
-      "url": "https://www.axios.com/2026/11/16/nvidia-jensen-huang-ai-bubble"
-    },
-    {
-      "ticker": "ANT",
-      "headline": "Anthropic IPO demand reportedly nearly seven times the offered shares",
-      "date": "2026-11-16",
-      "published": "2026-11-16T11:39:16Z",
-      "summary": "El País reported that demand for Anthropic’s planned offering was nearly seven times the number of shares offered, increasing the IPO’s significance for the broader technology sector amid Nvidia-related turmoil.",
-      "tag": "AI IPO / capital markets",
-      "url": "https://elpais.com/economia/2026-11-16/anthropic-recibe-una-demanda-de-acciones-casi-siete-veces-mayor-a-su-oferta-para-salir-a-bolsa.html"
+      "published": "2026-11-16T17:01:05Z",
+      "summary": "Kevin Warsh warned that the large-scale investment supporting AI and data centers could create broader financial vulnerabilities if expected returns fail to materialize.",
+      "tag": "macro/AI-bubble-risk",
+      "url": "https://www.axios.com/2026/11/16/fed-warsh-ai-boom-stocks"
     },
     {
       "ticker": "NVDA",
-      "headline": "Nvidia fallout weighs on retirement portfolios",
-      "date": "2026-11-15",
-      "published": "2026-11-15T12:30:10Z",
-      "summary": "Axios estimated that a 30% Nvidia decline would reduce the value of a $100,000 S&P 500 fund investment by about $2,400, assuming an 8% Nvidia weighting and other holdings unchanged.",
-      "tag": "Portfolio exposure / index risk",
-      "url": "https://www.axios.com/2026/11/15/nvidia-stocks-401k-retirement-accounts"
+      "headline": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results and Anthropic IPO",
+      "date": "2026-11-16",
+      "published": "2026-11-16T05:43:00-05:00",
+      "summary": "Global and U.S. equities weakened as semiconductor shares declined and investors prepared for Nvidia results and Anthropic's expected market debut.",
+      "tag": "semiconductors/earnings/IPO",
+      "url": "https://www.streetinsider.com/General%2BNews/Wall%2BStreet%2Bends%2Bsharply%2Blower%2Bon%2BAI%2Bjitters%2Bahead%2Bof%2BNvidia%2Bresults%2C%2BAnthropic%2BIPO/27346984.html"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Tech drags market as investors brace for Nvidia",
+      "date": "2026-11-16",
+      "published": "2026-11-16T09:14:00-05:00",
+      "summary": "Schwab reported early technology losses ahead of Nvidia's earnings and noted pressure across AI-related names including CoreWeave, Nebius, Lumentum, Sandisk and SK Hynix.",
+      "tag": "AI-infrastructure/semiconductors",
+      "url": "https://workplace.schwab.com/story/stock-market-update-open"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Trading Day: AI jitters slam Wall Street",
+      "date": "2026-11-17",
+      "published": "2026-11-16T17:07:00-05:00",
+      "summary": "Market weakness was tied to uncertainty around Nvidia, the AI arms race, trade and national-security issues, with major Asian markets also declining.",
+      "tag": "market-risk/geopolitics",
+      "url": "https://www.streetinsider.com/Reuters/Trading%2BDay%3A%2BAI%2Bjitters%2Bslam%2BWall%2BStreet/27356994.html"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Trump backs campaign to reinstate Nvidia CEO amid leadership scandal",
+      "date": "2026-11-16",
+      "published": "2026-11-16T16:52:46Z",
+      "summary": "The leadership controversy surrounding Nvidia's CEO intensified, adding uncertainty to the company and the wider AI infrastructure investment theme.",
+      "tag": "corporate-governance/AI-sector",
+      "url": "https://apnews.com/article/202e72d0c05646479e96a4936620b983"
+    },
+    {
+      "ticker": "OPENAI",
+      "headline": "California sues OpenAI after Hugging Face hack",
+      "date": "2026-11-17",
+      "published": "2026-11-16T22:08:40Z",
+      "summary": "California's attorney general filed a lawsuit alleging that OpenAI misled and endangered users by developing advanced AI models without adequate safeguards.",
+      "tag": "AI-regulation/legal-risk",
+      "url": "https://apnews.com/article/1dd7be56134b4f09fb2fb974803edc69"
+    },
+    {
+      "ticker": "ANT",
+      "headline": "Anthropic IPO and Nvidia earnings become key tests for the AI trade",
+      "date": "2026-11-16",
+      "published": "2026-11-16T00:00:00Z",
+      "summary": "Investor attention centered on Nvidia's upcoming results and Anthropic's expected IPO as tests of whether the AI-fueled bull market can continue.",
+      "tag": "AI-IPO/earnings",
+      "url": "https://bluewaterhealthyliving.com/news/business-and-economy/stocks-fall-ahead-of-nvidia-earnings-and-anthropic-ipo/"
     }
   ],
   "provider_error": null,
