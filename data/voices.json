@@ -1,73 +1,28 @@
 {
-  "updated_at": "2026-11-18T03:22:56.178370+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-18T05:25:45.579101+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Ryan Detrick",
-      "role": "Chief Market Strategist",
-      "org": "Carson Group",
-      "cat": "analyst",
-      "date": "2026-11-17",
-      "published": "2026-11-17T10:07:00-05:00",
-      "themes": [
-        "AI spending",
-        "Nvidia",
-        "sector rotation",
-        "interest rates",
-        "portfolio diversification"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Detrick discussed AI spending, Nvidia, market rotation, inflation, Federal Reserve policy, and balancing growth exposure with risk management.",
-          "k": true
-        }
-      ],
-      "src": "https://finance.yahoo.com/video/carson-group-strategist-ryan-detrick-150701512.html",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Robert F. Smith",
-      "role": "Chief Executive Officer",
-      "org": "Vista Equity Partners",
-      "cat": "CEO",
-      "date": "2026-11-18",
-      "published": "2026-11-17T19:53:16Z",
-      "themes": [
-        "AI adaptation",
-        "software",
-        "enterprise technology",
-        "investment strategy"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Smith discussed how software companies and investors should adapt to the next phase of frontier AI adoption.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/2026/11/17/vista-equity-ceo-frontier-ai-software",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 15:58:06 GMT",
-      "source_name": "CNBC",
+      "date": "2026-11-18",
+      "published": "Tue, 17 Nov 2026 23:50:00 GMT",
+      "source_name": "AP News",
       "signal_type": "source-linked headline",
-      "relevance_score": 13,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Former Nvidia CEO Jensen Huang says he’s open to returning in first statement since resignation - CNBC",
+          "t": "Headline signal (not a direct quote): Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO - AP News",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00X1l4ajFNU1dZYW1jQ2hLNFpqTnZDVlRKTUIwMDhLcTUxaHlOMW1ocmVmak9lMGVfVS1BODhITXZkR2YzYy1wOUM0eHp5OVY3TDBKRTdhZHpYWFFGTWhXNjBSX3RFOVpBMlkxVEE4VWVneHNV0gF6QVVfeXFMT3ltYllINzFFS0NrMm1xdTVYS2pRU0ZpWnNaS2UzREhaZW15aEh5dm5HOU13a0l4TWlDOEZaU0Q1ZFJ0VXZVSzFNb1JJWl9EMXkwQjJMMWdsbnV4U0RCU3ZBWmNkT0x4RmZyT21nU3ZDMlU0NzU4S0V4ckE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnhLd21OYlROQnV3Z2ZRc29BZlRubWM4T2tVN3d3ektLVUdiMXNSS1dhclFQNVZrUEVrdG5rUHFUY0ozQWJJRjFFVlFvVjJ0SC15eEdoUm1JUEdwY2FZdTgyNmNDQnozOWRXSGJBRlVHaC13M09mZ0U3em9hYkp2V1BFWHJvR2ViRFZGcEk5RE8yTWNwUmM5dlhBMC1oMGYzYzE3TXl5akNYTGlOb2c?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -96,21 +51,21 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 07:50:00 GMT",
-      "source_name": "TradingView",
+      "published": "Tue, 17 Nov 2026 15:44:15 GMT",
+      "source_name": "Barchart.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): NVDA's ‘Black Eye Moment’: Dan Ives Says Losing Jensen Huang Is a ‘Dream Scenario for China,’ But Won’t Stop $4 Trillion AI Spending Theme - TradingView",
+          "t": "Headline signal (not a direct quote): Why Dan Ives Believes the Anthropic IPO Will Be an 'Important Step' for AI Investment -- And What It Means for a Future OpenAI IPO - Barchart.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNa1U4WEFua0lCMm0tUEp3bzUwXzNBZHdEc1NjbFg3NFBHZHdMcjVBWlk4ZTJEMndESW8zWmN2TWVzRnVIN09JcEx3bHJrSTlzU05nNUtJNTZ2OHFtS3U3VTFjbUQyWGpkWVEzQzNUQUxZY0wtTVRlVGg1a0hKYnprQllhOTBDM0tTMHNqeFJoMHVxeVNlTDVlTTc3QXZYd3A1Vjh5MkpCcGNfcU9rb2hoQ2FIdWRiQXRxUjVsWnp3Z29DX1ZyWXdCQkROVXJScm1tN3VtaWFDd2pNVHJ6clJydHk0dUxPUVFNcnlfb2xSaWUxeWxuYnpRc3FGY1RoUDNTelRDREtEbGxyQ0xZOWxZUXFOWEFHRlNYN2c?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVEdURXBpOHNuLWtuOU9OZTRmWlByWW96YmRmeUZYU0RMR2VGTjE2SVZOcjNwS1BmblpFV0lEN21ON1Z3MFNVcUdONFZFbnQ1cFBLc1JjYTRuVFNZNnI2cEZtaWFNNEd0MU1EQllRZ0FtaEdJWlhkdVllT1B3RkR4MGNWNFI2emlMVVZWd0YxQVpuMnl6M1o0Y0JMTmR0dEJUck52NWJPM19DYXdPMDZmd2xydjRZSlpneFZpeVNXc2w4SXZSeTBQMWh2REo4d3d0cmRMTmpKOVJqZExpdmV4ODZKbWlJV3U2NVU5S1huZGhEazFQdzU3dzBqX2RDUQ?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -162,8 +117,8 @@
       "org": "Social Capital",
       "cat": "Investor",
       "date": "2026-11-17",
-      "published": "Mon, 16 Nov 2026 22:30:06 GMT",
-      "source_name": "Benzinga",
+      "published": "Tue, 17 Nov 2026 09:57:25 GMT",
+      "source_name": "TradingView",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
       "themes": [
@@ -171,11 +126,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Chamath Palihapitiya: Betting on Bitcoin Is 'Betting Against AI Improvement' - Benzinga",
+          "t": "Headline signal (not a direct quote): Ted Lieu Pushes Back On AI Theories Behind US Outages, Says ‘Trump Administration Needs to Deal With Facts’ As Chamath Palihapitiya Calls for Software Overhaul - TradingView",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdE0tNFpxY3JJejJVR0hHZUdLc3NqSUxSZUo1cmNEdG4wZTk4M1o5aUZRc3FOUHlDQnNIaEVQcnI4NVNEUzl1Yy1XVkt1bnlNNldpUnNOLVZ6LVMwWGZZVGc5SFkyclBfQVlKdy1Cd0VwTl9Rb2U5bVpqSVk1bGlGUllXY09HOTdWcUNnYmhEY3FtUTVwa3VJaTlucTdRUGhkaUF5b3p3UUc4amxMMy1CWDA0VmRUZWFVODhWX3h6WEM5V0ZYSzJBMExJeEg5X1hP?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQaUVFWU5UZUt5ZlFzMWoxR21vRHZJNDhBbGdiX25wQmVUNGtDUi1wM1JzM21MenpWX0pWVlpoZWtvcUZ6TUZzdUM2ZGtKNkVGXzB2bGMwOWdFTmh0bGdteGhoOXdYRnlBQ2FlWGVCQ0I5dVBLbDMtajlJN3JiREtnNXpuQVI3RlZWMl82MnlteFRRYVRFMzN0Vm5DaUFuSWpMOGZPMUJIc3h3MUQxRVFqei1qaTM1ejBlem5GMGNKbGFoNkRuZ2pZNFcxdkhDdXczcjN2dWFJRHJhWDVDbjU3Qkc1OGFQdmRQX09ocjd4bTIwR2VXWG1vTDcyRnRkNm9Wa0MwT2JMMTlaWG1iakdIVlpyM3dGa1J5Sl9zbDJzZW4wdzhfd0lKbThPTUlXSnhhbGtzbFRDcUp6ZGc?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -183,21 +138,20 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-11-17",
-      "published": "Mon, 16 Nov 2026 22:41:31 GMT",
-      "source_name": "The New York Times",
+      "published": "Tue, 17 Nov 2026 02:55:00 GMT",
+      "source_name": "BigGo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 7,
       "themes": [
-        "#AI",
-        "#TSLA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap. - The New York Times",
+          "t": "Headline signal (not a direct quote): Musk Endorses Page's 'Five Nines' Vision of Orbital AI as SpaceX Races to Put Data Centers in Space - BigGo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ELUVFNFBiWjJzc1Nzc1RmbFkzRV9UVEtwN2VQRlBtV1VuVjR1aThINEpLOUhMYXRLRGF0N0lCbDZJWldSbERPYWxSWHFZQlVPZVlHWnpJa09sc01lRFFXR1JBU2ZrY3dFZnpJNFpLYnZRTWJVYUpxZnFnZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yNkMwX0F4YnNUajh4SERKcWVOUC00Z2lKN3ZVbjc1MGNxYVM1UFFjcGZ6NFc2aGF0ZVRVaHE0UHZoR1VGYU43ampXWnc3SlBMdWkwSV9mOU5TWXVFRWZKXzFGQUlBczFDYWN6bnd3RWQxVW5BTUE?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -334,8 +288,8 @@
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-11-17",
-      "published": "Mon, 16 Nov 2026 23:23:47 GMT",
+      "date": "2026-11-18",
+      "published": "Tue, 17 Nov 2026 23:33:00 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -345,11 +299,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer’s key takeaway from Nvidia’s first earnings since Huang’s resignation - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNak9UOS1QUm40bEFlZ2QxdERtR083dVVEQVl4R0I5ZExZdWQwZlRyQ01IMVJpUmlHS2hSTzl1Q1BuaG80b2JGc1M0VVFmckhOQndEMFdWdjRUV3drYTZWTXlXc2dPSzZZTVN4ZUsxT3R4ZExYa3BNUTZXQzhlUFlwWGNCc9IBiAFBVV95cUxPRHRDU2h2UFJxWUk2VkxtOUhyN0IyekI4UTlQQmdGNVQzb0M0SWUwRU5nQndleWpsR00yV1lUVFBzNFpiSmhYcmpMczRwa09MV1VRbl85YXlhSnVvNld6TU9MQkxvdlNSWnZNMW5xTnJHODNMZ1JYblN2ckM5MnVUT3prTkNfV21P?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTXhYcHVidnZvbVdFTFFvdEpQSlNDY2pPMXRxaXdHcUR5N1liQlBfd0xwMlRsOEZqSEZyVDR1QlkzbkNKNkJSOXVYNnRMMC1qSTFCQ29CX3lVUTlpd0JnWEFyQUxpbHoydTVrUnlvRkRGcTdCc2NHbXN2Q2x0OEMzQTMyOE9fNnpHX0VxanA2WnExYlE0d2ZUVVJNVEhzczR3SFlLLUg5ZXppLUJXZ0Zr?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -401,26 +355,28 @@
       "org": "SemiAnalysis",
       "cat": "Analyst",
       "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 07:50:13 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Tue, 17 Nov 2026 15:08:00 GMT",
+      "source_name": "BigGo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 10,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#GOOGL"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen’s Exit Is “Great for Anthropic,” Says Dylan Patel. Alphabet and Amazon Should See the Benefit Immediately - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): SemiAnalysis's Dylan Patel: Permits, Not Chips, Are Pushing Gigawatts of AI Data Centers Into 2028 - BigGo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQalJmSzBXY1R1d0NQenRoSXU5S2thZ1RqZU5aa0x1X0FWTGMyN2tGWjlDSEMwTDZSemo1NnpGaG1mSFo3YW5BdmNOektxbVBqYkNyc0lGeWdYUGNWN0p2Qlg2eXVwNXVIeUZKakwwZlhFU1dQSVBXRDRDR1ZYNzM3aDBEZTgwSnJpdkFqNksxcUZkZFhDYXdyNllvMk4?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0LXdCblMyTmxWZVg2V3MtZFRyMzd3ODhlZFlzU2d5cEJYeUxVcHRVZzRZUGxGSzhlS3VSamVDTzRZR0JjNWIwLTRPajc4SkdITjRVMnFUQW5WelE?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 19,
+  "fresh_signal_count": 17,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }

@@ -1,7 +1,147 @@
 {
-  "updated_at": "2026-11-18T03:22:56.178137+05:30",
-  "source": "openai+web_search",
-  "items": [],
-  "provider_error": null,
+  "updated_at": "2026-11-18T05:25:45.578741+05:30",
+  "source": "google-news-rss-fallback",
+  "items": [
+    {
+      "ch": "The Globe and Mail",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Microsoft Stock Has Grown Roughly 14-Fold Since Satya Nadella Became CEO in 2014, a 23% Annual Growth Rate. Can That Pace Continue Under Heavy AI Spending? - The Globe and Mail",
+      "date": "2026-11-17",
+      "published": "Tue, 17 Nov 2026 16:57:44 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#MSFT",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQQmc4MFFwSHREdzlZNXBMWlZBTWZLSkR0SHExNGlXMFJnX0FoVWYtdGtUYVQ1a2pVTHgxOUpfNXptRGRJN3I5N3ZHb0FKdDZEN1VUaEhoN0ZyT05YMElFekJUc1dCYmdhN2t0SmJaZTdLZXNEcFppblJEeTI4TEM2WlBsM1FpQUYtYS1YOF83YTZ1VHBWZW1VZlJTZkxBdmZzRnlTS1QwMDlibW9WcXFQTS0yMGYwSkVRUS1tb2FodjlXS3BwelpIWFljN0hHR2dRUzlMZmtxbmxtWHJkZGlCYzRuUmtYUm5aaW9BdkNkQlpndXViODdQdS1CT3RGWmtOcVBWclJvd013RWhEcmlDdzc5cjJZZjlEZzFhbWJDX3QtU05jNTlMeGZ2RHhBcC1hNDhMX0NsYkZ2bmNhU1BMb05EN2VwUmx0Rzg4NGpZU19ENG95Y0gxeWFn?oc=5"
+    },
+    {
+      "ch": "24/7 Wall St.",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Sam Altman Just Delivered a Warning to Investors Betting on Endless AI Growth - 24/7 Wall St.",
+      "date": "2026-11-17",
+      "published": "Tue, 17 Nov 2026 16:59:00 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AI",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOUZ1NzVVY1Rfd2JXTGRxYURfWlNwelNDbU5sZEk4aVk2aXFpRmU5YVVPQlVIcFpFQkVXbjE5MGR3b3o2bS1QQ2pqWTY3YXR4Qi1jUkdCWE05cHV4VS1OYUFKeDlRZWdCc3c4REk0ckI5X1FxeF9NYlQwWTBsMU5RWGJLRXJCTGJDMm5SdG1wcl90LUZSNU5meWFZeVZYSWk2cGdoWWFnZmVZeENmNjRtbXlSY19Bdy1uMHJmVGlR?oc=5"
+    },
+    {
+      "ch": "NBC Montana",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Jim Cramer Issues a Warning About Anthropic's IPO That Retirement Investors Should Know - NBC Montana",
+      "date": "2026-11-17",
+      "published": "Tue, 17 Nov 2026 14:04:47 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AI",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTS1NRnV6Y2dCTUM3X2hzdjEzcjhmeTJ5WE9tWXhiOTBRYkJTY1ZmWmEtMF9BWVpEWDk4VEtUVG1tS1VoMVNaT2tjZUhBTGhJUUg5c3BGd2hHM3QtMEg3S2FobnpHTkxucFd6YXpGdDZ1NGZMdmJwMFlsTjVOYnVocEpaSGU?oc=5"
+    },
+    {
+      "ch": "TradingKey",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Nasdaq Drops 0.74% to Near Seven-Month Intraday Low, Dow Falls Over 800 Points as Chip Stocks Sell Off - TradingKey",
+      "date": "2026-11-18",
+      "published": "Tue, 17 Nov 2026 21:15:49 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AI",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcUpiWkVpVDBkLWtibkVTQ3o0V2E2WVE2OU1ybDVFTVhxb0JDZFpIV1VLVTZ1a0lYUFRZZEtmMWJreXd2dGlWWUhQbGs2RUdIRkQ0c2xfNjlqWUZIMHdnZ0NsVThDUndBVU9rSHRlWDZRQ2hIUTZxekZoSGJyNnhiVlRlZUFfSXRWNG1ZQjliU3ByWkp6ZkVvQTFnVkdJR0hQb2daaldDTXVQamhncEZQcjNZQ0NjRFFjR2lGYVQ4OFhNbUlEX0g2QVNTM2J6aXRzdXJnenNxZjB6dFU?oc=5"
+    },
+    {
+      "ch": "TIKR.com",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Morgan Stanley: Midterms Push “20% of the 2028 Pipeline” to 2029. Microsoft and Amazon Keep Spending - TIKR.com",
+      "date": "2026-11-18",
+      "published": "Tue, 17 Nov 2026 19:54:52 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#MSFT",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaTJwQ3MzbE9nM0JnbVRWT01fQ282OVJlYWItN2RoRVR0UlJIMmVJZkFYaUEyWTZ5WUJjZU9NVy1iQ1kyZ3FpTHNxeWJzdDBlaGNsSGZlNW5Zd1BkQzJjc2FOVDVEY0xfcG9HS2U4V0FzQWFJazd6em9ja1AwWG10Q1EtUkdKRFpLOUNGZ2tqMS15OE1lenRNQnRpcldsbng3Q203RmFpMVlhbmFlZy1zdmprY3dsaUI4S3JOWGxWWHFGUjJaM1RxUmtjVl9sd3FoM1NnVndCZlNUeTVER0RMRmVfUmU1NjcyOGd2VzhkanIyMUVL?oc=5"
+    },
+    {
+      "ch": "www.equiti.com",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "Anthropic IPO: Impact on Amazon, Google & Nvidia Stocks - www.equiti.com",
+      "date": "2026-11-17",
+      "published": "Tue, 17 Nov 2026 12:23:25 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#NVDA",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU0ZrNGY0bEhFaGNiLUQzSTlqMEJmU2lJZjdENkllck9tZ1hzaVlSaXNGWV90cTdtWWVkRUh5MktCaFhGaVRYLUxPU2QzQlJWSnJJbE4tSVZnMFh2STJ5d2xrVWotNUhFR3pRUkdYTlNHYUE2cHJSb1pNTkFWTHUzSHNGUmlSWkNxS0pWMUQ1WjdNUFpGUkdQRUczcmhKck5jNDhF?oc=5"
+    },
+    {
+      "ch": "The Globe and Mail",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "The Zacks Analyst Blog Highlights NVIDIA, Alphabet, Amazon and Microsoft - The Globe and Mail",
+      "date": "2026-11-17",
+      "published": "Tue, 17 Nov 2026 12:33:04 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#NVDA",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQczFUXzRsLU9kcHI3OWpaaC1ScTI5TWZQdVcwcjFHcHZaVV9TLWNmU0xpcEU1TWZDWEpWWDAzcThucVoxdTlrRElEaV8zVGl3RFBqV29KVFduNU5LeVg3bnQtR0JzQ3ZPVE1pSHc1bXVBMWRaWFZvSHh6ZDUxYzdMME1Fc2d0QzNRY0tlYTRJSHRjVndfdVozbnZJaUQwVGRENmtMVndkWEVJWE5sSnJtbEJpU2ctNXJwYzg2Tmt5V2E1UnVIcTRFTFZ1UGREV1M0TG9fSFQ5bDBBSkJiUk9zR0VVaVlLeDBLa2Jv?oc=5"
+    },
+    {
+      "ch": "Seeking Alpha",
+      "c": "#4a9eff",
+      "theme": "AI Compute",
+      "title": "AMD: The Strong AI Contender Keeps Getting Better (NASDAQ:AMD) - Seeking Alpha",
+      "date": "2026-11-17",
+      "published": "Tue, 17 Nov 2026 17:47:32 GMT",
+      "views": "RSS source",
+      "tags": [
+        "#AMD",
+        "#AI"
+      ],
+      "verd": "SOURCE-LINKED MARKET SIGNAL",
+      "vc": "var(--blue)",
+      "body": "Automated daily research feed. Read the linked source for the original reporting and context.",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMGpqZ2pBdzdCMkhSV0hMX1ExZTRzSll1MHhnLTV5SC1GNXdGaWJxRWdlNjhaUHN5TFpLbUg2dF9LOGJRU0htUHRjX1lzemE4eGg4S2lCOVBxZFlWR29oWmVwVWo3YkJFOFdPSXFVcUZhOGFjbjhjLXR1UTNNMk5HV1YzNWdjNk9LcFVfLUlnWHdyZGM?oc=5"
+    }
+  ],
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
   "fresh_window_hours": 24
 }
