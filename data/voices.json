@@ -1,136 +1,50 @@
 {
-  "updated_at": "2026-11-17T04:29:51.004374+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-17T06:29:34.908484+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Kevin Warsh",
-      "role": "Federal Reserve governor",
-      "org": "Federal Reserve",
-      "cat": "macro/AI investment risk",
-      "date": "2026-11-16",
-      "published": "2026-11-16T17:01:05Z",
-      "themes": [
-        "AI investment cycle",
-        "stock-market vulnerability",
-        "economic spillovers"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Warsh warned that disappointing AI investment returns could create a broader stock-market bust and expose vulnerabilities beyond technology companies.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/2026/11/16/fed-warsh-ai-boom-stocks",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Sam Altman",
-      "role": "CEO",
-      "org": "OpenAI",
-      "cat": "AI industry signal",
-      "date": "2026-11-16",
-      "published": "2026-11-16T16:52:46Z",
-      "themes": [
-        "Nvidia leadership",
-        "AI infrastructure",
-        "industry confidence"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Altman expressed continued admiration for Nvidia's Jensen Huang amid the leadership controversy affecting the AI sector.",
-          "k": true
-        }
-      ],
-      "src": "https://apnews.com/article/202e72d0c05646479e96a4936620b983",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 17:38:07 GMT",
-      "source_name": "CNBC",
-      "signal_type": "source-linked headline",
-      "relevance_score": 13,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC - CNBC",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZRkFudW1QLXhGVm5uaGtHOHFZeEFPdklQV3dVRDBrOTlUZWRqOHJHNk5ITU9uQzczRmI0R3hSOEJOaGtkZjBKS0xoa2x5QUdMbmRXVFlscHlrbXJLWm9pWG8xdndXYThvOG5mddIBckFVX3lxTE5zX3BydjZ1RlBGYVJhUnJxX0RNcC10Q2FndG0xcktFOXVSTXZINjBuTl9wM0FmVURFMzNEVnpEaGREVGs2TVNUNzN3WktmWEZDWTFJQ3A3NG9WaHZ1TzY1QUhEaDdfY1I3Z1c0VnFYWThFUQ?oc=5"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 11:55:13 GMT",
-      "source_name": "Traders Union",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Nvidia stock worth $225 per share if Jensen leaves, Dan Ives notes - Traders Union",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONUFNOXZjb3NsMnVWRjRzVTlMNWl5MUREdkVrc0R5R2ttZ21qa08zQkdqT1N6WE4wOFQ4cTc0dTQ5U0hkMDlHR0otaDZ4alFTTjJlMEJ4Rm5wMml4T3FXWHhzMm1Ka3ducGlrVmk2d0tRbHM2bENFbWJDQ3hJSUJVY3VXb2tvUWJJdTE2bU5R?oc=5"
-    },
-    {
-      "name": "Satya Nadella",
-      "role": "CEO",
-      "org": "Microsoft",
-      "cat": "CEO",
       "date": "2026-11-17",
-      "published": "Mon, 16 Nov 2026 19:26:31 GMT",
-      "source_name": "Nacionale",
+      "published": "Mon, 16 Nov 2026 23:29:54 GMT",
+      "source_name": "The New York Times",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
         "#AI",
-        "#MSFT"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): What did Satya Nadella say about Microsoft's buyouts and AI coding? Key points from his new interview - Nacionale",
+          "t": "Headline signal (not a direct quote): Madison Huang, Jensen Huang’s Daughter, Became a Powerful Force at Nvidia - The New York Times",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORS1HdENUNWtRdjd4RDhjajItWklEM21TRXBXa1pscHh1WFFpOHhWR2wtQzRIMHZ1VDExU1dyVHIteW9Ma2c4WVVlRzRtNjc2TUdfQTF4aWtVSzdfZkF4U2ptYUtKMkViX1hTTDlmUGV5bHVremJmUnRURkVXTU1CRHpKMThyQ3d6VVNKYVFUOVlkNFQ2aXUycFZHU2JMbnZwQlFmcnpCdFZpSXlNazVXNGRHYUtSdm9yUXhuMWVjSVZtMXMyYlhN?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQlVCR0tGc19ieDFBWFluaUdCU0lMaUJ2OG5MNm9VMnNxMkd5WXNMNDV3MEY5NzU4MW5kdWxYVzFzMmJzT2N3WGUwLWRQNjdReUZOWFZOS0M4Z1hJRUVJd0tVQXZyZVp3aExhNDZaQjdEOHlWQ3ZfTE12eDRCbGUtWDBzUXM?oc=5"
     },
     {
       "name": "Lisa Su",
       "role": "CEO",
       "org": "AMD",
       "cat": "CEO",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 15:25:00 GMT",
-      "source_name": "BigGo Finance",
+      "date": "2026-11-17",
+      "published": "Mon, 16 Nov 2026 23:05:16 GMT",
+      "source_name": "Stock Titan",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD Buys World Labs for $8.2 Billion, Fei-Fei Li to Serve as Chief Scientist Reporting Directly to Lisa Su - BigGo Finance",
+          "t": "Headline signal (not a direct quote): Lisa Su’s family trust holds 81,499 shares after a gift transfer at Advanced Micro Devices (AMD). - Stock Titan",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XV1RUYWpuZUdLVHEzZ2NSTjFoX1ZpM3FVcXpFT0RhYTI2c0JwYm54UXVqcFM2OG0wT3N4Tk42LWc2OTQ2WVVzaXBnZlZyci0yb3JXYU1OcENKQUpucnBZMHVvdkVTNGZ6d2RMbEo0dXJNSkJfU3c?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSU1YLVplQjg2R2IwQkl0SVduN2dBR2ZGZnJFbDZWMmRHa1Bfbm8xS19sVTZiWXRGMWpFQ2JSZDZiRkh0YUhnc2J4WGRfQ0pnYjZaWHIzMTRic2dPNnA5LUllNzdfYWU2b2FyWWJsb3ZjNTc3S1dELVctaFJSdGFoZ0lUVkdzQ05PVm9WTkJva0xxOWtLWE9MOVRSaGk4eFhsNXNJYncxNC1KTXFzbmZIcHFTWHp6d0xKNUw4?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -159,8 +73,8 @@
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 16:34:31 GMT",
+      "date": "2026-11-17",
+      "published": "Mon, 16 Nov 2026 22:41:31 GMT",
       "source_name": "The New York Times",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -175,28 +89,6 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ELUVFNFBiWjJzc1Nzc1RmbFkzRV9UVEtwN2VQRlBtV1VuVjR1aThINEpLOUhMYXRLRGF0N0lCbDZJWldSbERPYWxSWHFZQlVPZVlHWnpJa09sc01lRFFXR1JBU2ZrY3dFZnpJNFpLYnZRTWJVYUpxZnFnZw?oc=5"
-    },
-    {
-      "name": "Mark Zuckerberg",
-      "role": "CEO",
-      "org": "Meta",
-      "cat": "CEO",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 15:16:23 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#META"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Is Mark Zuckerberg Bullish on Vitalik Buterin? Meta AI Predicts ETH to Explode - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZEttbVFtdHN6ZE9pNGw5Q19MUWlSSVlPejlVcTVJbW82S0tQYko4QWhvVXFFZUtucS15NTR5LUVLVzhuSVc0T1VYTWFiSkVCekhoeGU2VjdhVldBdUJGYlZENXZ1SmZYUk5GeTM3Mlp4MXV4OHY3TUdReTBpYXpxVEdQQzljeXNGZnFwcDhEajVIVlB5UEFjVzU2NkJVS0ZJWVlqMDNHWQ?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -220,6 +112,27 @@
       "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVGVzSDdDY0JZV3JaQXR2QXplWmFXWkMzbDBtS3E2cjNZZVNnbUxJQTRpX1JBdmI2UG5kbmJiZDhvS0hmVUh3LVFnN1QzZHc3V2Y0bTN6NkR0R0FCUDdqQjR2RndneHV3SEY2UlJ6ZUkzbmxVWl9wMG5EcThya0ZOTFlWcl9Ta095Uk5iZkI5bGhXOXBWV2p6bnpwNnEtZ9IBowFBVV95cUxPcnhJTndQeGdvUk5RVWswZjlxWjJRWl9FZHhZMklTVjFFbm1uZFFKMmJackZKdXJxeFQxaVJBWnZLNEFJNlhweEtoWEpwbnRlM2FTRGZzZk1DSHliUE9HQzluQ09mTjY2R21RaktEajdYTnJBb045Ml9vVFVjNFNIWEdhR0pLRVc2N1lZdDNkUFdOdkFLQVFXaTRxVkZ3UnlhaXNj?oc=5"
     },
     {
+      "name": "Arvind Krishna",
+      "role": "CEO",
+      "org": "IBM",
+      "cat": "CEO",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 17:56:45 GMT",
+      "source_name": "INDIA New England News",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): IBM CEO Arvind Krishna Says Trump Remains Positive About Long-Term US-India Relations - INDIA New England News",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdFN2SUs3WE5mX3VpTmw2WlQzUGJJYnNNQ0YzTkFIYnRDU1NILXRCSDZTSFpSUmZfWEp3ZWYxMndpUm1tSzBuMElTQ1R5ejBjc1A5dXBDbzVFc3RrS1Z6UkxIa05XdnpaOHJqRkZNdGRsSFVwNkpMY1cxNW9DWjNRUlBkRTI2Nm9qQ0JKSF9RdmpkeTdhSm1RbkZBM28wekVGTmpWSVdJOHh3OWMxMVdzWXZiclo?oc=5"
+    },
+    {
       "name": "Larry Ellison",
       "role": "Chairman and CTO",
       "org": "Oracle",
@@ -241,26 +154,26 @@
       "src": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxObHpsQ2dUVmtlVE5OXzVkU2xjamJybDBxN1M0ekl3YVF5OXNORHE5LWcyTTRvaGVmVUdVeUNCT2Z1eWFwV0pfXzV5bWliSmp4QXNzNGlScko2UEdYbURfN0U2MmphTGxYVmU0X1JUZENXb2tXWlktRVZIdDMwN1hYeUZZZ2J0TElGTHdzdGUtdldWMFUyYW1LczRfcExJUkRLY1ZUQUQtR3N3dTlLOEJHN25WMmZsYjV1R1ZvdmhJYWU4N1hUVHVRTGRaZmk3ZEluZHdkQllQX0R0R3lCUmdmTTlQWk5QaE80TUI2U1FVRTRPQkRRWUxmVXdiRUZzUVFCbWxvOVBrRHIzQUdKRFZQallBWUdpSHN3NzI5aXp3MHBfY0hYczdDY0IwcUdaT2JGZHZEZ281SG9tZUktRmN6ZDBqY2FUNHhBbUZBVWNXdmFhblHSAcwCQVVfeXFMTXdwM1E4bmxXdkxVdU0xaC0yNkF5dm9sRGxlbXpsY09nQUR1MHUyamZRYkZpbFY1Z3YzZ0xfZ0NCN3U0aExTQW5fY2RkdjFPbFFsMzZRSHkycjJpZzNFLW9qeE40aFVPVk5DZzlVR2NHZWVUZjJjSmZqZ1hVV2VKUlY0ckZpSjhIZ1JoMUZxMWhBRXBZb0ZtM2hXOFJBekMzNGJaaFpNN1czY1Qya01NMzk4QlMwTE95UzVKcDYxMzZKajl1MmsyY0x0NnphMllRLTRLMG5NdmFIbjI2SXprczUtcUtkMEVrZkRVajA2MkhiSE0ySXowWkZyZC1ScUVQLUxPeUZGNW8ydl84UU8wb3JVbEJSVVpuVUVDbHZFNEF6MVk2SWZuYW1TemVuQmE1cjdlSmZEaG9VME5HV2VVRldJVjVVRTlHbVdfOV8?oc=5"
     },
     {
-      "name": "Cathie Wood",
-      "role": "CEO and CIO",
-      "org": "ARK Invest",
-      "cat": "Investor",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 12:05:44 GMT",
-      "source_name": "Seeking Alpha",
+      "name": "Jim Cramer",
+      "role": "Host",
+      "org": "CNBC",
+      "cat": "Analyst",
+      "date": "2026-11-17",
+      "published": "Mon, 16 Nov 2026 23:23:47 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood's weekly recap: boosts Nvidia, CoreWeave, Archer Aviation; pares Tempus AI, Palantir - Seeking Alpha",
+          "t": "Headline signal (not a direct quote): Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRFYtMlZ4X2NlRW1MQk9IZ0JHRUVTd2hzWDZwOWdqSi1kUm1QbDVCRkNYNWtjd0xUXy1rQ3RxUUtsMmRlR1VGTGlVUTJheUJpZjRGN2YyYkpid3BwZTlUWElYcWdrQVNBdFp0YW5tWkw4UVY5Nnl4TllMcl91NGd3MXFyd0tON01RTERGcWZEdm5fMUFUTGNVZ2RmcC00eV9JRXNfU1VkV1RQd2ozRmt2TFhmMlRSVC1hRkE1WVdTZEpiNnBtTndR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNak9UOS1QUm40bEFlZ2QxdERtR083dVVEQVl4R0I5ZExZdWQwZlRyQ01IMVJpUmlHS2hSTzl1Q1BuaG80b2JGc1M0VVFmckhOQndEMFdWdjRUV3drYTZWTXlXc2dPSzZZTVN4ZUsxT3R4ZExYa3BNUTZXQzhlUFlwWGNCc9IBiAFBVV95cUxPRHRDU2h2UFJxWUk2VkxtOUhyN0IyekI4UTlQQmdGNVQzb0M0SWUwRU5nQndleWpsR00yV1lUVFBzNFpiSmhYcmpMczRwa09MV1VRbl85YXlhSnVvNld6TU9MQkxvdlNSWnZNMW5xTnJHODNMZ1JYblN2ckM5MnVUT3prTkNfV21P?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -353,7 +266,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 16,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }

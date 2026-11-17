@@ -1,80 +1,83 @@
 {
-  "updated_at": "2026-11-17T04:29:51.004992+05:30",
-  "source": "openai+web_search",
+  "updated_at": "2026-11-17T06:29:34.909028+05:30",
+  "source": "google-news-rss-fallback",
   "items": [
     {
-      "ticker": "NVDA",
-      "headline": "Stocks tumble as Nvidia leads another technology sell-off",
-      "date": "2026-11-16",
-      "published": "2026-11-16T04:56:36Z",
-      "summary": "AI-focused companies led a broad technology sell-off, with Nvidia at the center of market turbulence ahead of a major industry milestone.",
-      "tag": "AI-chips/market-risk",
-      "url": "https://apnews.com/article/35786b8f539ec95f16ae0500f71cfcc7"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Fed's Warsh sees risk of stock bust if AI boom disappoints",
-      "date": "2026-11-16",
-      "published": "2026-11-16T17:01:05Z",
-      "summary": "Kevin Warsh warned that the large-scale investment supporting AI and data centers could create broader financial vulnerabilities if expected returns fail to materialize.",
-      "tag": "macro/AI-bubble-risk",
-      "url": "https://www.axios.com/2026/11/16/fed-warsh-ai-boom-stocks"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results and Anthropic IPO",
-      "date": "2026-11-16",
-      "published": "2026-11-16T05:43:00-05:00",
-      "summary": "Global and U.S. equities weakened as semiconductor shares declined and investors prepared for Nvidia results and Anthropic's expected market debut.",
-      "tag": "semiconductors/earnings/IPO",
-      "url": "https://www.streetinsider.com/General%2BNews/Wall%2BStreet%2Bends%2Bsharply%2Blower%2Bon%2BAI%2Bjitters%2Bahead%2Bof%2BNvidia%2Bresults%2C%2BAnthropic%2BIPO/27346984.html"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Tech drags market as investors brace for Nvidia",
-      "date": "2026-11-16",
-      "published": "2026-11-16T09:14:00-05:00",
-      "summary": "Schwab reported early technology losses ahead of Nvidia's earnings and noted pressure across AI-related names including CoreWeave, Nebius, Lumentum, Sandisk and SK Hynix.",
-      "tag": "AI-infrastructure/semiconductors",
-      "url": "https://workplace.schwab.com/story/stock-market-update-open"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Trading Day: AI jitters slam Wall Street",
+      "ticker": "MSFT",
+      "headline": "Microsoft Corporation (MSFT) stock price, news, quote and history - Yahoo Finance UK",
       "date": "2026-11-17",
-      "published": "2026-11-16T17:07:00-05:00",
-      "summary": "Market weakness was tied to uncertainty around Nvidia, the AI arms race, trade and national-security issues, with major Asian markets also declining.",
-      "tag": "market-risk/geopolitics",
-      "url": "https://www.streetinsider.com/Reuters/Trading%2BDay%3A%2BAI%2Bjitters%2Bslam%2BWall%2BStreet/27356994.html"
+      "published": "Mon, 16 Nov 2026 19:37:14 GMT",
+      "summary": "Automated RSS market signal from Yahoo Finance UK. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41d2UzenppWG9mNk9od2RxVTIxSzNxTFJIYlV1U3lBX284NVY2NTBSSnRVclctbDNIODhyRTZPTFVYZ25YcHlYdVdOYUJXc3dvdnc?oc=5"
     },
     {
       "ticker": "NVDA",
-      "headline": "Trump backs campaign to reinstate Nvidia CEO amid leadership scandal",
+      "headline": "Nvidia Earnings Could Decide the Next Move for AI Stocks: 3 Things to Watch - Coinpedia",
       "date": "2026-11-16",
-      "published": "2026-11-16T16:52:46Z",
-      "summary": "The leadership controversy surrounding Nvidia's CEO intensified, adding uncertainty to the company and the wider AI infrastructure investment theme.",
-      "tag": "corporate-governance/AI-sector",
-      "url": "https://apnews.com/article/202e72d0c05646479e96a4936620b983"
+      "published": "Mon, 16 Nov 2026 17:22:00 GMT",
+      "summary": "Automated RSS market signal from Coinpedia. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVG5tRm5iVUkwNlZWeE5JLVpKTGxNMnRqM2hOdXZwOURTUWtQZEZfTGktc2NwOWVhMzNlVzhZQVloNUc4aUNiUnU3MUZRMzJlTllGUEJoQ1djWkxrM0ptQTZhNzh2NUtMOXRLVG5NS0FIRjI1V3VxZ0RJbFFqcGZMclp3clhxVzdLWm1JallPWDlTR0lHUXdWY2dMMHNxQXZRVnVRVmtpako3cndkUEdwZVEwcWg5Z9IB8gFBVV95cUxOcWViUkVPbTRtakcyU21VNkhJbVhTQXJlbEVOa1JmMjQ1aUVmT3c5aS1lX0pIcUppdWlyWlI2TjFoanBKR043aHpJemdkZnpLSlMyS2ItMnhHMm0tdWN5ZmpCbDdUQVZrSFJZampXejhLR2ZJWS1HeGxiYU9jZ3JCbG1oenN2NVYyYUU2RmdRV3p1V3RZSTFXeWoyYlJuSG05STFrV2xhV2gyc2x3cVl4VFpjTVZCeWJnR2w5OUF6dWREY3NYNTY0dE9SamZyLUZVeUNnS1VJY0RmWTZJenRiUkpJTXA2Z0Z3Ykw2aFhIckl2QQ?oc=5"
     },
     {
-      "ticker": "OPENAI",
-      "headline": "California sues OpenAI after Hugging Face hack",
+      "ticker": "NVDA",
+      "headline": "Nvidia Stock Is Down 32%. Is It a No-Brainer Buy at $163 or a Value Trap? - The Globe and Mail",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 13:28:21 GMT",
+      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUGhOMUJsb25IOE5VUzJjanJaTDAtd1FEUzZvczhLOE9kbHNtVTVwYUZMUlloeTBFamR5Xzg1RFRXSkd3TWdNOGx4YlIyNjJsS3JaY2xnMDVsM0VlNEdFUVQ5akxnTy12aW9RMFhmY1RNOTVKZ0FKREtwYnlCOVBEMjZFZkRwU0FwRjh1VlplbkFzcGJqV0FRREhaa1VnemVTMVBfZmhhdnBlNlprZ1FKTUs1NWFxNkZxc0RDM0lqQVdoVDE4M0pwX19HZFZzQklnZkl1UzRUUGluVHl0cGxsTzVqQlZMNTVqdzJ0VQ?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Trump to name Nvidia, Amazon, Microsoft, OpenAI, Anthropic and other AI firms as US national champions - Beinsure",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 11:39:43 GMT",
+      "summary": "Automated RSS market signal from Beinsure. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRTM2MTJ2bXNNVjgxREVGTk1xYVFDQ2lGUFR0Sjc0OHh5cHl2clRmMWV0TDlOb1FzTzJQeXNObmJUSkg4QURCZFNHakVVTjdEcEhhVG95a0tBNTFJeUE3a20wQ2lFLUpYXy0tOGZfNFBxMkJtMlNVUkF0eVpPX1FDdnloSlMxUlhBcElLSTQ3MHZRZ00ySUE?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "CoreWeave, Nebius lead neocloud decline as AI stocks prepare for Nvidia earnings (CRWV:NASDAQ) - Seeking Alpha",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 14:19:44 GMT",
+      "summary": "Automated RSS market signal from Seeking Alpha. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdmR5M1RfbGt3eTcxeGZUWGQ1enZLYXJodXRlNWZQR2pCTExfNllHdzNNMHdDS1FOU3A5RS1EbzNYTmJueXNqYnljYTdLbV94NXd6Yy1HZnB1TXZCZmV4Z3RTRVlRTm9qc0lpcHFVNi1LbmtPSjhZWklXRmRGMS1MVWRUV3BjR1pLTklwbllpck9IaUh1aU9BcEluWTNicjVHNlJPTXYzdU1pc0VwMEhKT2MwajlWMHYt?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Trump to Name Nvidia, Amazon and Microsoft AI “National Champions” as Bessent Demands a Shakeup - TIKR.com",
       "date": "2026-11-17",
-      "published": "2026-11-16T22:08:40Z",
-      "summary": "California's attorney general filed a lawsuit alleging that OpenAI misled and endangered users by developing advanced AI models without adequate safeguards.",
-      "tag": "AI-regulation/legal-risk",
-      "url": "https://apnews.com/article/1dd7be56134b4f09fb2fb974803edc69"
+      "published": "Mon, 16 Nov 2026 20:48:45 GMT",
+      "summary": "Automated RSS market signal from TIKR.com. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUEFGOVFBakVrX19NNGl2RGhsYTE4RE45RWhJUENvdkMyV1h0M3RyTE5OWURQQm5jWUlUdWlnV1VtdUZzcEJPQjNiRnRDbnFZXzVVM3J0aGxqNTQzT2dqRldfMFdtM2xCZ3RkNURlYlRjVkRXUzNNV2JPODZJSnVQUVFhRUU5V05yRFQ4WF9ZU19PaU1teHpOWmtFellYbHRVdERNRFYyZV90MHd4WkYyZkJ6cnBnM3AyeUE?oc=5"
     },
     {
-      "ticker": "ANT",
-      "headline": "Anthropic IPO and Nvidia earnings become key tests for the AI trade",
+      "ticker": "AMD",
+      "headline": "Broadcom's $27 Billion Cash Edge Over AMD Draws Fresh Scrutiny as AI Trade Wobbles - BigGo Finance",
       "date": "2026-11-16",
-      "published": "2026-11-16T00:00:00Z",
-      "summary": "Investor attention centered on Nvidia's upcoming results and Anthropic's expected IPO as tests of whether the AI-fueled bull market can continue.",
-      "tag": "AI-IPO/earnings",
-      "url": "https://bluewaterhealthyliving.com/news/business-and-economy/stocks-fall-ahead-of-nvidia-earnings-and-anthropic-ipo/"
+      "published": "Mon, 16 Nov 2026 11:05:00 GMT",
+      "summary": "Automated RSS market signal from BigGo Finance. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jWEotd2RZNGhvc3VVQkc4cnRqQnBtSGNoZ3hNalFwZnZzVm4tUVBxdWRrODlkdW50ejdRUDYwLW5wQklsX193UFJkeENIWWdubEFldEtYZWlGQTRLSC1yQUpjMTh3Q2JDeWZ5SmpxTVNUbUh2NGc?oc=5"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "Generative AI Market Companies 2027: OpenAI, Anthropic, Microsoft, Google and NVIDIA Scale Revenue and Raise Record Capital in a Market Headed for USD 1,206.24 Billion by 2035 - Yahoo Finance",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 15:30:00 GMT",
+      "summary": "Automated RSS market signal from Yahoo Finance. Open the linked source for full context before acting.",
+      "tag": "market",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMVlWMUJXcE9taW5hQlQ0VXF2dWxDTEhuak1LNUdSemhNWDNEZ2lQZFZtVEN6WE9PQTUxOWdHaDNsTU1RNVRCaDBIOWd2SlYzYkZPd2lYNmxVOGkxb28yQnd4b2doWERPZUJkUTVqQjRhM0prZFBrai1MR0MtRWpLb0VOUjBZcWgzcEF4QVNMWTFKcEpvSllURWtGZHhvdVpi?oc=5"
     }
   ],
-  "provider_error": null,
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  },
   "fresh_window_hours": 24
 }
