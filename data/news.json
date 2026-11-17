@@ -1,83 +1,53 @@
 {
-  "updated_at": "2026-11-17T17:48:39.479754+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-11-18T03:22:56.178849+05:30",
+  "source": "openai+web_search",
   "items": [
     {
       "ticker": "NVDA",
-      "headline": "The Zacks Analyst Blog Highlights NVIDIA, Alphabet, Amazon and Microsoft - Yahoo Finance Australia",
+      "headline": "Wall Street shakes again as Nvidia and other jittery AI stocks swing lower",
       "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 10:03:00 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance Australia. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPekxDOExCQndxRk11SWNtUWFld3k3bjFEWWdEQzFwVkpfSlRIaWw5dW1aMDNxejJxSDVSZ3dTTC1BLXZLZ2RCcDkxVzZ6bkh5YUljTWJKcVhoVFBsMDNBYkJXQndLSlRUSkZHLXkxbUllaTJ0SkNFWjRrU0lPX0pNRzJpSXR0aFVMdDJSVFV3?oc=5"
+      "published": "2026-11-17T04:01:48Z",
+      "summary": "Associated Press reported that Nvidia and other AI-related stocks led widespread U.S. market losses amid renewed concern about AI valuations and the sustainability of the sector’s investment boom.",
+      "tag": "AI-stocks selloff",
+      "url": "https://apnews.com/article/4d5a35288288389d894e63e6bebe8240"
     },
     {
       "ticker": "NVDA",
-      "headline": "Before Nvidia reports: Get discounted stocks and tools with 55% off InvestingPro By Investing.com - Investing.com",
+      "headline": "Ex-Nvidia CEO Jensen Huang signals interest in returning to the company following scandal",
       "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 09:56:15 GMT",
-      "summary": "Automated RSS market signal from Investing.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTjROd25GRUlMdlU2ZUQ0QVF3SkRST1ZoY3NJcVdPM1l4V0R6NDl4WDlOZnhlM05XUUJPSl9Kb0kzejBqLURDc3lxV3UtM1ZocVdXUXZHUWxsR3Q3SEM3OGdJZGIweGJNWUVVdW5yQjZZTEtoX3RIcUtMT2Z0NFpZa2RoOGNmYXRvR1RIcjBWQ2tfdjBVcXpBQ01fNGFOdXhzWGpUd3FHTkdhYzJFOXRyeGhoNFRjQ2F0VVFXeEpwQXRQUDV4b0xvSlhmZGtiX09l?oc=5"
+      "published": "2026-11-17T11:58:34Z",
+      "summary": "Associated Press reported that Jensen Huang indicated interest in returning to Nvidia after his resignation, while scrutiny continued over alleged export-control concerns involving a company executive linked to Nvidia’s chip supply chain.",
+      "tag": "leadership-risk",
+      "url": "https://apnews.com/article/3026bcbe04ab57b844884382e583422a"
     },
     {
       "ticker": "NVDA",
-      "headline": "Anthropic IPO: Impact on Amazon, Google & Nvidia Stocks - www.equiti.com",
+      "headline": "Stock Market Today: Major Index Futures Are Mixed After Monday’s AI Sell-Off as Investors Brace for Nvidia Earnings",
       "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 09:06:10 GMT",
-      "summary": "Automated RSS market signal from www.equiti.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY3VEREZZcnNIU0FLaDhXR1ZZRUI3SnZ0V1NBbUR6dXpPWXlYaWtZeTZJY01tQVh3TjUzYWhWeUwzQkFwckEwMmFnR2JmbHVqSWdmT2JoN1d2cmxyMVNOa1NjUVd0VDROVnlfNW5TVDNSWnA5SThIYzlQR2ltU0hyRTZiblZtTjdtbmw1c3NRVUNVcTdsRlNZMW16TjJxYWx2Y3c?oc=5"
-    },
-    {
-      "ticker": "MSFT",
-      "headline": "Is Cerebras Stock Still a Buy After Its Microsoft Deal? - The Globe and Mail",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 09:46:27 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYk93RjBHVXR0MUlpU2diNEdyNUg0VHgyN2c2TjZFUGlTTFpiTHUwbHZJdXZFdXFnOVY5b25wdFVkX3RKdzUxSmxBd1pzTG82dWRicENJQmtXREhNUXVNSGFVTGFpckVoaXROTDA5OUstSXk3bWJIQXJrUExrUFNKekpwckNaN0xIVlM4QnRFd08wT2VzRHVXV3FGeDdncS1LLUNqcnpDTm1HZWpISlFFTjFpWDFfcXB5bm4yZm0tQWdOY3pidzNiN3BUczJQMWZjdzdfeHhn?oc=5"
+      "published": "2026-11-17T08:24:00-05:00",
+      "summary": "Yahoo Finance reported mixed index futures ahead of Nvidia earnings and noted rebounds in Nvidia-backed Nebius and Lumentum, alongside gains in memory and storage companies including SanDisk, Seagate, and Western Digital.",
+      "tag": "earnings-watch",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-major-index-132429426.html"
     },
     {
       "ticker": "NVDA",
-      "headline": "US Futures Fall Ahead of Nvidia, Anthropic’s $64.4B IPO - shattered.io",
+      "headline": "Wall Street indexes retreat as Nvidia and AI stocks weigh on markets",
       "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 03:17:57 GMT",
-      "summary": "Automated RSS market signal from shattered.io. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTWdiTktzeXk4d0dhMnczeWtVSnZJQ0wxaXN3Z2JwbnQ3cVh5MFQ4WmpTTGZHSm1pLTVxYW9ra3lrVjVreVFqWFM2eUJUU2ZRVkpPWmI4UkFhOEpPTFVxMGJUcDh5S3FtRWZsZ0wwaDM0a2pfNEI5OVpERmV4dEw1d3ZKXzZMUVE?oc=5"
-    },
-    {
-      "ticker": "AMD",
-      "headline": "AMD Will Capture More Market Share Than Broadcom to End November as Nvidia's Leadership Vacuum Persists - 24/7 Wall St.",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 17:45:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUEtFa05wLWJTVmlmb3NGOWhSem8wTEZzaS1SYThoRGJSU0I5azhlVndSQkx0MnZueEM0NnF5UjIya09zckRrNzVvUHpNM2hwS2J6ZjVXTUZBX19LaWEzcDRFOWVDbkNkRFdGSklueUQ3ckxYNHJRSTQ1YUVkZjRWaHhldlpBemd5VXdkUFpzMk1mZUJmeUhYRFUyR1BaTkRMQ3dZZjJ3Z2dnZjFEOW1TTVhwY1k0ck5ZblRyTU85aC1FM1pqYXBJaklxb0hLSGR6QmtHa0l4aXNvdHBJSUFB?oc=5"
+      "published": "2026-11-17T00:00:00Z",
+      "summary": "Associated Press reported that Nvidia and other volatile AI stocks pressured major U.S. indexes during Tuesday’s session.",
+      "tag": "market-impact",
+      "url": "https://apnews.com/article/ff6caef4d9289cf7f1e6ee48a706eddc"
     },
     {
       "ticker": "NVDA",
-      "headline": "Nvidia Earnings Could Decide the Next Move for AI Stocks: 3 Things to Watch - Coinpedia",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 17:22:00 GMT",
-      "summary": "Automated RSS market signal from Coinpedia. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVG5tRm5iVUkwNlZWeE5JLVpKTGxNMnRqM2hOdXZwOURTUWtQZEZfTGktc2NwOWVhMzNlVzhZQVloNUc4aUNiUnU3MUZRMzJlTllGUEJoQ1djWkxrM0ptQTZhNzh2NUtMOXRLVG5NS0FIRjI1V3VxZ0RJbFFqcGZMclp3clhxVzdLWm1JallPWDlTR0lHUXdWY2dMMHNxQXZRVnVRVmtpako3cndkUEdwZVEwcWg5Z9IB8gFBVV95cUxOcWViUkVPbTRtakcyU21VNkhJbVhTQXJlbEVOa1JmMjQ1aUVmT3c5aS1lX0pIcUppdWlyWlI2TjFoanBKR043aHpJemdkZnpLSlMyS2ItMnhHMm0tdWN5ZmpCbDdUQVZrSFJZampXejhLR2ZJWS1HeGxiYU9jZ3JCbG1oenN2NVYyYUU2RmdRV3p1V3RZSTFXeWoyYlJuSG05STFrV2xhV2gyc2x3cVl4VFpjTVZCeWJnR2w5OUF6dWREY3NYNTY0dE9SamZyLUZVeUNnS1VJY0RmWTZJenRiUkpJTXA2Z0Z3Ykw2aFhIckl2QQ?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Nasdaq opens 1.5% lower as Nvidia earnings and Anthropic IPO weigh on AI stocks - TradingView",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 14:42:20 GMT",
-      "summary": "Automated RSS market signal from TradingView. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNTFLVUdzWlBMRkMzWHlqZnBjekpzSngxdmpDQ0lGQWJKM18xMDNNeWFYeW9lRTdGWGtQUGFXYVROYk5rSU1uVjRLSnU2N3dwc0JyMlgzcGg3Zlh1Zjg3dlVwcUR0cjJ5Q01OajRTR3pGSGJNYWFCTkhBVEp4dWZUWU5VSUVJcWZnMzgxSFV1ZWg3SjE0cUlXNG0yWklPbGJFQlcyMUlkNTFoaXl0dC1XYTFTV3BFckgxNXVJRkhqRi1HalRETHJRU3FseUVKWVVpM0tYa2lmdk0xSDQxVWFOcXJLNExoc2o5TXc?oc=5"
+      "headline": "Vista Equity CEO on adapting to AI",
+      "date": "2026-11-18",
+      "published": "2026-11-17T19:53:16Z",
+      "summary": "Axios reported on Vista Equity Partners CEO Robert F. Smith’s views on adapting software investment and enterprise strategy to frontier AI developments.",
+      "tag": "enterprise-AI",
+      "url": "https://www.axios.com/2026/11/17/vista-equity-ceo-frontier-ai-software"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
