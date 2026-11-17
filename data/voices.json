@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T06:29:34.908484+05:30",
+  "updated_at": "2026-11-17T17:48:39.479101+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,8 +8,8 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-11-17",
-      "published": "Mon, 16 Nov 2026 23:29:54 GMT",
-      "source_name": "The New York Times",
+      "published": "Tue, 17 Nov 2026 08:56:28 GMT",
+      "source_name": "Facebook",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -18,11 +18,76 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Madison Huang, Jensen Huang’s Daughter, Became a Powerful Force at Nvidia - The New York Times",
+          "t": "Headline signal (not a direct quote): Madison Huang, 35, played a powerful and sometimes disruptive role at Nvidia, the company her father, Jensen Huang, co-founded. Before Mr. Huang resigned last week, she had become his de facto chief of staff, with considerable authority over more seaso - Facebook",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQlVCR0tGc19ieDFBWFluaUdCU0lMaUJ2OG5MNm9VMnNxMkd5WXNMNDV3MEY5NzU4MW5kdWxYVzFzMmJzT2N3WGUwLWRQNjdReUZOWFZOS0M4Z1hJRUVJd0tVQXZyZVp3aExhNDZaQjdEOHlWQ3ZfTE12eDRCbGUtWDBzUXM?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNWlGYnAyZ2hEMkRsSVl6NEE0cFpjLXBvVVl5T3J2UnRBRElwV0Y4MFNoWWxXeGV1a2NsekpYNDRwWVNqeUNCR2dJalZvUU1QTDdDSU93UHlBNzVabGlfNnZwTGxNMDdidWZHQ0VOQlloamtnWTloOVFGd2UyOTdaWTlrUmp4bk5iZ1ZkeVE3UlZLalg2VWJNUU1TTm0yUDdWcnlyS1B4SkVpWXJKZDM2RmdpamZuTHFGQjRmR3BoczRKTVdYUm5FNTFsMFVJYWh5MFBZ?oc=5"
+    },
+    {
+      "name": "Sam Altman",
+      "role": "CEO",
+      "org": "OpenAI",
+      "cat": "CEO",
+      "date": "2026-11-17",
+      "published": "Tue, 17 Nov 2026 09:17:23 GMT",
+      "source_name": "Britannica",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#MSFT"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): OpenAI | ChatGPT, Sam Altman, & Microsoft - Britannica",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Ba1QyTkx0cjRqbWxxX2ZPbmpGSmpBU2lkNEdpcXRWa09JNjRkZEswMk8zcFFDbFA1dGJ3LV9KUU96RkRJUjZ1WU1GWnNRVGw0?oc=5"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-11-17",
+      "published": "Mon, 16 Nov 2026 19:37:21 GMT",
+      "source_name": "Yahoo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Dan Ives Has One IPO in Mind as a Test for AI Stocks - Yahoo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOamNKaEVoLW8wUjNwSFNsZGlCRG9ON0tPa29IclZqWG03ZktYWmVpd0FVZWdhRXhjNEpCTXdrMU9XUUF1eGkxRTRlZ1NHSUFpaDdQUmk5cFdFRXM3NzNJNDIzUTRIY0pwTFRnN1QzeGhEVk96bkVkM2p2NzEzWW15WXlmRTltMkp0NV9tcHhn?oc=5"
+    },
+    {
+      "name": "Satya Nadella",
+      "role": "CEO",
+      "org": "Microsoft",
+      "cat": "CEO",
+      "date": "2026-11-17",
+      "published": "Tue, 17 Nov 2026 11:51:00 GMT",
+      "source_name": "The Times of India",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#MSFT"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): After Microsoft offers buyouts to 60,000 employees, CEO Satya Nadella explains the decision; says: I wish - The Times of India",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNVW0wQ1k1dmt2aXd2U0xPRjUzRVlGeldYbXdqc2ZQb1FaNl9lWUZqblpyTUFwU1cxN3c0alNmTkRKM29tQWFRVnZVZ1pkNHYxV3l5b0lHMXg4QkFWaWJFclhrMTJKM2ktMlFwUEZZTllUSlg1TjdJT1BNcFRfa3BpbXV5bWxBcjMwRmpTY01QQVdLanYxTWRKSDZuM0tYeWRidUotTkw1c09pS2ROZWFzZzBsYmJxRmFhSWF5ZVY3NE50NmFVSUNnLVFBcjBwMDJZRnAxQmlRblhkQ2JVYWNtQmtEYTZVay13SmtfVFBRcmtkcTVGTk1rM1BVMWxFWWJCdG1ZRENBbGxnTm5PVzNQaC1qX3MxX1h5VXlpU2Nid0hIMWtBMDA5dVFnZ3pZM3BsbW5BTVhR0gG7AkFVX3lxTE44bzk4ZHlGT3Q1YWZKUFExRXprNVJ1V19KdXRmYzBnQTFDNWJtLTJnZDB0VHdub3N6M3ZtTDlRR2FEV1l4VUpibGhwa2pQN0RTaGljcmVKeUJ4UC1ySmVZRTctOTUyZmNpYnJ5ZUtZN0xqOVJib1lDTTMtUHV1R0I3d2ZtSWV6cVdJay1PSHY1enBnenZQNmtPZHAzSE5rZzhWaG5iQm0ydkVfajFPdFRPY0RlanB2TTU0RnRXemxKX2pnNkpKZWZJY1drT0JYTzhuQXpTTUdVZ0dWQUxncmJkOFhiZWF5TjVId2FJT0g3Qk1uVm1BbmJqa0oydEJSM0QxbHhwQkMwZ2pwdUFOYXI5WG9kanRWeGZ0alo3U2dVRnVWb2duTi04aTA4bTBGSm51SDEyQlZTMnpucw?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -30,51 +95,50 @@
       "org": "AMD",
       "cat": "CEO",
       "date": "2026-11-17",
-      "published": "Mon, 16 Nov 2026 23:05:16 GMT",
-      "source_name": "Stock Titan",
+      "published": "Tue, 17 Nov 2026 01:11:06 GMT",
+      "source_name": "eu.36kr.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Lisa Su’s family trust holds 81,499 shares after a gift transfer at Advanced Micro Devices (AMD). - Stock Titan",
+          "t": "Headline signal (not a direct quote): Fei-Fei Li & Team Officially Join AMD Post Merger & Acquisition, Dr. Lisa Su Extends Warm Welcome - eu.36kr.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSU1YLVplQjg2R2IwQkl0SVduN2dBR2ZGZnJFbDZWMmRHa1Bfbm8xS19sVTZiWXRGMWpFQ2JSZDZiRkh0YUhnc2J4WGRfQ0pnYjZaWHIzMTRic2dPNnA5LUllNzdfYWU2b2FyWWJsb3ZjNTc3S1dELVctaFJSdGFoZ0lUVkdzQ05PVm9WTkJva0xxOWtLWE9MOVRSaGk4eFhsNXNJYncxNC1KTXFzbmZIcHFTWHp6d0xKNUw4?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4tcU9NUDk5Ty15RFBFeEV3MFhiYXNXU3V4YzFHNlVqbFRfeW1RLWdLSjdrZ0xMYTNhSkVwYTZUZlVYcU9mOU1GTEEwSEhKX1F3SVVZ?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
       "role": "Investor",
       "org": "Social Capital",
       "cat": "Investor",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 08:51:14 GMT",
-      "source_name": "TradingView",
+      "date": "2026-11-17",
+      "published": "Mon, 16 Nov 2026 22:30:06 GMT",
+      "source_name": "Benzinga",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia's Jensen Huang Controversy Could Backfire on China, Chamath Palihapitiya Says — Washington May Get the Chip Controls It's Been Seeking - TradingView",
+          "t": "Headline signal (not a direct quote): Chamath Palihapitiya: Betting on Bitcoin Is 'Betting Against AI Improvement' - Benzinga",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQaUNOSkF3ckhXTENpbTBYeTJUeVVsczBMbE9nMTFwTXdsSXpVVDZjcHllLVdxbU1YTlpVcENxa29ueTZrNm8xRzNsV3F3Qk9CSFdORU11b2RlRE5rUWlJMFJqY1N2R04xc09JQ1Bqb1lxUzdRWjFmRDQtV1JiOWZoV20tQ1htZEtZSkdWREljQ3lCRkNhcDhiLXp0NmhzRkdNX0RtRi1SYlplSkZNLV9RdVhyaGE4Uko3V1lyVGh5VVNnNkVWc1RsZlVteU9SUHlhSFhTV2ZNRk50dWdmcFJlZjdteDN2ejhEbm5PVU1FVnV3Y2VHR2hkb3pvLUpPa081U0FtRXphdkRLYUFmMDR1c3g1S2RUTU1hbFpyUlhsMjViMkE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdE0tNFpxY3JJejJVR0hHZUdLc3NqSUxSZUo1cmNEdG4wZTk4M1o5aUZRc3FOUHlDQnNIaEVQcnI4NVNEUzl1Yy1XVkt1bnlNNldpUnNOLVZ6LVMwWGZZVGc5SFkyclBfQVlKdy1Cd0VwTl9Rb2U5bVpqSVk1bGlGUllXY09HOTdWcUNnYmhEY3FtUTVwa3VJaTlucTdRUGhkaUF5b3p3UUc4amxMMy1CWDA0VmRUZWFVODhWX3h6WEM5V0ZYSzJBMExJeEg5X1hP?oc=5"
     },
     {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-11-17",
-      "published": "Mon, 16 Nov 2026 22:41:31 GMT",
+      "date": "2026-11-16",
+      "published": "Mon, 16 Nov 2026 16:34:31 GMT",
       "source_name": "The New York Times",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -91,25 +155,48 @@
       "src": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ELUVFNFBiWjJzc1Nzc1RmbFkzRV9UVEtwN2VQRlBtV1VuVjR1aThINEpLOUhMYXRLRGF0N0lCbDZJWldSbERPYWxSWHFZQlVPZVlHWnpJa09sc01lRFFXR1JBU2ZrY3dFZnpJNFpLYnZRTWJVYUpxZnFnZw?oc=5"
     },
     {
-      "name": "Lip-Bu Tan",
+      "name": "Mark Zuckerberg",
       "role": "CEO",
-      "org": "Intel",
+      "org": "Meta",
       "cat": "CEO",
       "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 03:58:52 GMT",
-      "source_name": "Wccftech",
+      "published": "Mon, 16 Nov 2026 15:16:23 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 17,
       "themes": [
-        "#AI"
+        "#AI",
+        "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan Named As Defendant In New Class-Action Lawsuit; Shareholders Take Chipmaker To Court Over Concealing A Prolonged PC Sales Slowdown - Wccftech",
+          "t": "Headline signal (not a direct quote): Is Mark Zuckerberg Bullish on Vitalik Buterin? Meta AI Predicts ETH to Explode - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVGVzSDdDY0JZV3JaQXR2QXplWmFXWkMzbDBtS3E2cjNZZVNnbUxJQTRpX1JBdmI2UG5kbmJiZDhvS0hmVUh3LVFnN1QzZHc3V2Y0bTN6NkR0R0FCUDdqQjR2RndneHV3SEY2UlJ6ZUkzbmxVWl9wMG5EcThya0ZOTFlWcl9Ta095Uk5iZkI5bGhXOXBWV2p6bnpwNnEtZ9IBowFBVV95cUxPcnhJTndQeGdvUk5RVWswZjlxWjJRWl9FZHhZMklTVjFFbm1uZFFKMmJackZKdXJxeFQxaVJBWnZLNEFJNlhweEtoWEpwbnRlM2FTRGZzZk1DSHliUE9HQzluQ09mTjY2R21RaktEajdYTnJBb045Ml9vVFVjNFNIWEdhR0pLRVc2N1lZdDNkUFdOdkFLQVFXaTRxVkZ3UnlhaXNj?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZEttbVFtdHN6ZE9pNGw5Q19MUWlSSVlPejlVcTVJbW82S0tQYko4QWhvVXFFZUtucS15NTR5LUVLVzhuSVc0T1VYTWFiSkVCekhoeGU2VjdhVldBdUJGYlZENXZ1SmZYUk5GeTM3Mlp4MXV4OHY3TUdReTBpYXpxVEdQQzljeXNGZnFwcDhEajVIVlB5UEFjVzU2NkJVS0ZJWVlqMDNHWQ?oc=5"
+    },
+    {
+      "name": "Sanjay Mehrotra",
+      "role": "CEO",
+      "org": "Micron",
+      "cat": "CEO",
+      "date": "2026-11-17",
+      "published": "Tue, 17 Nov 2026 07:31:52 GMT",
+      "source_name": "Moneycontrol.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI",
+        "#MU"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): From Kanpur to CEO of $900 billion Micron: Who is Sanjay Mehrotra? SanDisk co-founder in race to replace... - Moneycontrol.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOS24tQUxMRE1EMThReTU2RkRORnc5a0g5SkJvQ3g5bV96eVVlUjRXaWJBaUxpWklfd1NIV3Q4Wm0teWd5WE5qTHpRNHVYakZiRnN3SFgwN0YzRmgxcVJfQkVZX0x1Y1gzdzJ0TkNVV09QVzBiUWE5SXVqNmVZelNmMkZFVnNaU1RrY09WVWtTZEFpaXRXbEc1dUhXNFZ6cVk3RXBfZ052cVFUM2NBcGhsb1JOZENLb0dpbm55TEpzMllta0tLSHR3dTVxaE9GbTlvYlFIYVF0RVVGM3cyVG1zT1BTdlczSlI3TXBFcVBpWlYwV19RYXRjY1U5ZVZRalJGRHpONFJwTENZZnpubUcyd2RoWXZ2dFk10gGeAkFVX3lxTE5PLWFlLVE3N2RTUmF3N1BaQktfa1JCcnZLNUxlWDZIb0NLeVVubkJQa0g4R0VRMlpvVTV3MVI3WHZGem1HZ2FXR0RPWmFGUFNPX0p3U2dDVnY2Y1RQQ3BIQkFvbnBJaERDeDQ3RlBNbUFtd2lwZGdWNzBfZG9pcGpDQVdkS1cxOFNqcXdOcHhqcXoxVy1ZRjBRaFNaZW92Ty1JcGgxUk1tbHRvTGpob0lmaEQzVWpDdW44LWdpQUlsZ2xyOXRNa081aklXaHBDYkxTVDROUnFWeDlMWU1HY3M4R1BaTkpXdVRiNDB3S1NoSTlTMDBpRzVYLXVrYWMzbUREUlg3OG5xLTRVbi1xS2tNVVpISW1WYmpYNV80Ync?oc=5"
     },
     {
       "name": "Arvind Krishna",
@@ -117,7 +204,7 @@
       "org": "IBM",
       "cat": "CEO",
       "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 17:56:45 GMT",
+      "published": "Mon, 16 Nov 2026 17:56:46 GMT",
       "source_name": "INDIA New England News",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -154,6 +241,28 @@
       "src": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxObHpsQ2dUVmtlVE5OXzVkU2xjamJybDBxN1M0ekl3YVF5OXNORHE5LWcyTTRvaGVmVUdVeUNCT2Z1eWFwV0pfXzV5bWliSmp4QXNzNGlScko2UEdYbURfN0U2MmphTGxYVmU0X1JUZENXb2tXWlktRVZIdDMwN1hYeUZZZ2J0TElGTHdzdGUtdldWMFUyYW1LczRfcExJUkRLY1ZUQUQtR3N3dTlLOEJHN25WMmZsYjV1R1ZvdmhJYWU4N1hUVHVRTGRaZmk3ZEluZHdkQllQX0R0R3lCUmdmTTlQWk5QaE80TUI2U1FVRTRPQkRRWUxmVXdiRUZzUVFCbWxvOVBrRHIzQUdKRFZQallBWUdpSHN3NzI5aXp3MHBfY0hYczdDY0IwcUdaT2JGZHZEZ281SG9tZUktRmN6ZDBqY2FUNHhBbUZBVWNXdmFhblHSAcwCQVVfeXFMTXdwM1E4bmxXdkxVdU0xaC0yNkF5dm9sRGxlbXpsY09nQUR1MHUyamZRYkZpbFY1Z3YzZ0xfZ0NCN3U0aExTQW5fY2RkdjFPbFFsMzZRSHkycjJpZzNFLW9qeE40aFVPVk5DZzlVR2NHZWVUZjJjSmZqZ1hVV2VKUlY0ckZpSjhIZ1JoMUZxMWhBRXBZb0ZtM2hXOFJBekMzNGJaaFpNN1czY1Qya01NMzk4QlMwTE95UzVKcDYxMzZKajl1MmsyY0x0NnphMllRLTRLMG5NdmFIbjI2SXprczUtcUtkMEVrZkRVajA2MkhiSE0ySXowWkZyZC1ScUVQLUxPeUZGNW8ydl84UU8wb3JVbEJSVVpuVUVDbHZFNEF6MVk2SWZuYW1TemVuQmE1cjdlSmZEaG9VME5HV2VVRldJVjVVRTlHbVdfOV8?oc=5"
     },
     {
+      "name": "Cathie Wood",
+      "role": "CEO and CIO",
+      "org": "ARK Invest",
+      "cat": "Investor",
+      "date": "2026-11-17",
+      "published": "Tue, 17 Nov 2026 06:35:00 GMT",
+      "source_name": "The Block",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Cathie Wood's Ark Invest loads up on crypto stocks while selling $85 million in Nvidia - The Block",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOejJqMVpWczZDcGc3Z0VCTWl6MWZaSDdqcUNva3R2OENzeXJxRElfU1NlRUN2U3cwR1dZamRjanVPMGhLSnIybk5uQ1J3TC05TEJ0YXlKYzBCSnMtcWVwaTJSalZUTkJvZlpVaVAtZFZEaWxRaXlFeF9EOUp3NWVheEh4TnhYTjZIRmdfZFdBN0FDX2xocFRGVXo1RXhuS0k?oc=5"
+    },
+    {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
@@ -180,22 +289,22 @@
       "role": "Managing Partner",
       "org": "Deepwater Asset Management",
       "cat": "Investor",
-      "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 12:22:12 GMT",
-      "source_name": "TIKR.com",
+      "date": "2026-11-17",
+      "published": "Tue, 17 Nov 2026 03:23:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI",
         "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Warning for Nvidia Investors: “Be Prepared for Them to Pull Guidance” Tuesday, Says Gene Munster - TIKR.com",
+          "t": "Headline signal (not a direct quote): Gene Munster Says Nvidia Could Be the Next Apple if Investors ‘Sleep Well at Night’ - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb0FXUkE0ZWFDRFkycllGZ1dDeXZ1OFVwMUpXbW1CdnhkUElzV1d0VC05cTlZZDNPYU1uUzM0am1ybmY4WThVYXdEX3U3RnJxUVpydG9RMlhydDFlWDFvRWQxOG1rdkNiUmc0N2JKcG5RTFFDdjhLYXQ4dklKSHNTWjdpYWQ3bW01UzRwNU42V3UxOGljVm5HbXpvd1dlZTQybEU4aWo4d1pUc3Y0M2sxMHlFeEI5ZDEyakE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOVhWWC1VQXh3WHh5T0k1NTZFdGM4aXhGQkV1UVpLQklUak85bDZZUmNnZU9ULXdIY1lqTmo2bURzVzg0N3lOQldwYV9nWU80Y1B3MFJzX2xEM2RtMm9DbXhPeXdlb25VZW1vZGZjU2haaHFoc3JjRGpjck9DRy04Z0JCMWpraUxKZ2pveVVxbm5rdDBscDJ0RllkYw?oc=5"
     },
     {
       "name": "Beth Kindig",
@@ -220,12 +329,33 @@
       "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xVnY5d3AtM3RqQXhfWHFZNFlDbURISVhhLTJBMjI0Tl9EVDJBRG82V1M2MEIyUXlFTnYzcjlKLXQ1M3ppdDVzeWxHRzJfX1AzTEVuMi1CWlNtYzE0dEJoakdWa0d1SXVRVDBRNFhRMDdMdXFUVlFr?oc=5"
     },
     {
+      "name": "Pierre Ferragu",
+      "role": "Senior Analyst",
+      "org": "New Street Research",
+      "cat": "Analyst",
+      "date": "2026-11-17",
+      "published": "Tue, 17 Nov 2026 11:59:48 GMT",
+      "source_name": "NewsBytes",
+      "signal_type": "source-linked headline",
+      "relevance_score": 8,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Pierre Ferragu sees $105 potential ahead of Anthropic pricing IPO - NewsBytes",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX0pIM3VjdG9xaHprREwyMFFQNmFOYjN0aHN0QURBTGowemk3SjNwb3A1OFZPZ2s0blpnTkxUcUd3Si1qd3FVOXlqQmhpZ1JoZ1J1NVVUeE1USnZpSXZlSXpwWlA4WWZuSmloZFBubjJHQjBLZy1oTFplR3MyLWFiZkN6S1RBbndaSjFRN3hmZnpZaHRUM1dNNFBBczJhYW5TTmYzbUVyNkdBNXA4R1Utcm9B?oc=5"
+    },
+    {
       "name": "Patrick Moorhead",
       "role": "CEO and Chief Analyst",
       "org": "Moor Insights and Strategy",
       "cat": "Analyst",
       "date": "2026-11-16",
-      "published": "Mon, 16 Nov 2026 16:02:19 GMT",
+      "published": "Mon, 16 Nov 2026 16:11:35 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
@@ -266,7 +396,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 12,
+  "fresh_signal_count": 18,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
     "code": "daily_research_limit",
