@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T05:25:45.579101+05:30",
+  "updated_at": "2026-11-18T17:35:41.366800+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,21 +8,21 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-11-18",
-      "published": "Tue, 17 Nov 2026 23:50:00 GMT",
-      "source_name": "AP News",
+      "published": "Wed, 18 Nov 2026 02:41:00 GMT",
+      "source_name": "NBC News",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO - AP News",
+          "t": "Headline signal (not a direct quote): Nvidia enters the post-Jensen Huang era with a bang - NBC News",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnhLd21OYlROQnV3Z2ZRc29BZlRubWM4T2tVN3d3ektLVUdiMXNSS1dhclFQNVZrUEVrdG5rUHFUY0ozQWJJRjFFVlFvVjJ0SC15eEdoUm1JUEdwY2FZdTgyNmNDQnozOWRXSGJBRlVHaC13M09mZ0U3em9hYkp2V1BFWHJvR2ViRFZGcEk5RE8yTWNwUmM5dlhBMC1oMGYzYzE3TXl5akNYTGlOb2c?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWkg1ZDlTTnhHeGNPUmJMRXVFVXdtZEZYZ0Ryb0R2TG1wbFZVN2dZeXl5aWEzV0lhX3Z0VUhWRG1VQzVhcHV6QVZKWFNjYjZDeU5yVEdqbDJKSzBVa1JIYW5iRENkcTRJX0RIbVFEQUpPWE5aRHlpRTV5OUY0dmcyNHp5NlBOOFR3eDhIM0ZKX0VQdzlGamFLRkZZSko?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -30,20 +30,20 @@
       "org": "OpenAI",
       "cat": "CEO",
       "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 09:27:00 GMT",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "published": "Tue, 17 Nov 2026 16:59:21 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 11,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman's home struck by gunfire, days after Molotov cocktail attack: Police - ABC News - Breaking News, Latest News and Videos",
+          "t": "Headline signal (not a direct quote): Sam Altman Just Delivered a Warning to Investors Betting on Endless AI Growth - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYlk3cFJkWnNMMHloVFZSQ2pIelpHUWxJbndOeWdiUVcxdXBncjcxdmU3cEUtczJBSV82MUc0LTFRdkJ4NmZpZmZUMUdmU1NJc3hMSlRUSU43RW5VN1pjVzJqSm83OWZiakt4TTQ0bHgwR0hYVkJUaTB1QUlnRUxFQzB1YngzOVoxS0pOYkFzUHpHQVFvcHN1SjFVONIBoAFBVV95cUxOSmg3TE42d3BRemlRWXU4al9ZU0p5eEtCeE4yNzNiaE1oTDB5MHZBMDVDNTUxUjl0dzdma2VWcDkyTUNMRnJoNlJobXNLU0t6NUdXbXNkMWdUa2NDUk4xZ2loSjY2TURtTXkxMTNtd3ptU1VUemYyVG93QWt1ZkNvdEp1aDQ4UVY5RDRwUXRSRGZsdmNJalpyeHVBRkxpbW1v?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRnpXcWxadnFseGtBRnFKUjRYaDRYNVVlWmJPVDRPSV9uQ0FQRGVxc0cwMlBKanBVWWZ2Q1NIc1dadlZGYTktYlEtWEVOMEhtSE40UF9HZXZ6S1hTZml2SG1GVVpiSmhaTUFqWTBQaDNFU2NqQWdUZDBtOUJlUUN5S1doNEZMdmJobldzZjlvWWVtZVhiZnBaUV96MlhhQQ?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -105,53 +105,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Lisa Su Backs Jensen Huang, Says Outside Noise Will Eventually Subside as AMD Focuses on AI Infrastructure - BigGo Finance",
+          "t": "Headline signal (not a direct quote): Asked About NVIDIA, Lisa Su Calls Jensen Huang a Tremendous Leader for the Industry as AMD Focuses on AI Infrastructure - BigGo Finance",
           "k": true
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzdE1aN0ZMSXc2dERlRWlLbWdlRUFFMjRFSHhwVVRUUGpYUkRIaVA5TG5ndUdMclg4Rk5GYWRFeWJTR2ZUQktnSGlXNHhsMmROME1DZDY4Y19URHhydkZFelk4dzZ3OFhPQjdYS3dGdmR1YTJ1WXc?oc=5"
-    },
-    {
-      "name": "Chamath Palihapitiya",
-      "role": "Investor",
-      "org": "Social Capital",
-      "cat": "Investor",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 09:57:25 GMT",
-      "source_name": "TradingView",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Ted Lieu Pushes Back On AI Theories Behind US Outages, Says ‘Trump Administration Needs to Deal With Facts’ As Chamath Palihapitiya Calls for Software Overhaul - TradingView",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQaUVFWU5UZUt5ZlFzMWoxR21vRHZJNDhBbGdiX25wQmVUNGtDUi1wM1JzM21MenpWX0pWVlpoZWtvcUZ6TUZzdUM2ZGtKNkVGXzB2bGMwOWdFTmh0bGdteGhoOXdYRnlBQ2FlWGVCQ0I5dVBLbDMtajlJN3JiREtnNXpuQVI3RlZWMl82MnlteFRRYVRFMzN0Vm5DaUFuSWpMOGZPMUJIc3h3MUQxRVFqei1qaTM1ejBlem5GMGNKbGFoNkRuZ2pZNFcxdkhDdXczcjN2dWFJRHJhWDVDbjU3Qkc1OGFQdmRQX09ocjd4bTIwR2VXWG1vTDcyRnRkNm9Wa0MwT2JMMTlaWG1iakdIVlpyM3dGa1J5Sl9zbDJzZW4wdzhfd0lKbThPTUlXSnhhbGtzbFRDcUp6ZGc?oc=5"
-    },
-    {
-      "name": "Elon Musk",
-      "role": "CEO",
-      "org": "Tesla / xAI / SpaceX",
-      "cat": "CEO",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 02:55:00 GMT",
-      "source_name": "BigGo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 7,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Musk Endorses Page's 'Five Nines' Vision of Orbital AI as SpaceX Races to Put Data Centers in Space - BigGo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yNkMwX0F4YnNUajh4SERKcWVOUC00Z2lKN3ZVbjc1MGNxYVM1UFFjcGZ6NFc2aGF0ZVRVaHE0UHZoR1VGYU43ampXWnc3SlBMdWkwSV9mOU5TWXVFRWZKXzFGQUlBczFDYWN6bnd3RWQxVW5BTUE?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -159,21 +117,21 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 13:08:59 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Tue, 17 Nov 2026 15:26:51 GMT",
+      "source_name": "99Bitcoins",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts a Privacy Coin Boom: XMR Price to the Moon? - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts a Privacy Coin Boom: XMR Price to the Moon? - 99Bitcoins",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdmZNcU80VlplR0l5UlE4OWFKai00RzZYbEZRaktGWEF2cnpBMklNbzJiVVV1TFpSaW1ITmlaRjZDNzlsY1dyZ0JqaG1NRnpZNTR5RG5WODFVdE9udDltS3BiWjAxbEwzMVdtV0JEajVmOU1EZDYyN2xyM0gwa01ERHNpQWxnMTRpN0dKNWZaMFM3LTFZcE94ekU5T0NrZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQl9VNmJiSEgzWWJ0T2gtdDJxejZFSHQwWkhUVXNvOENZZXF5Rk1XVjRmSmJPTE9Ld2p1M2VrMUx5SXVXZndZWXdPck1FZjZmdURiVXd2eFllS2dWOXdueXhQWkNvT0VNWk1KOEhtZDR3RXk3MUlTNkNlM0hicGpJRk0tc1JjTmMwUHc3aFp5T1lxRVYzRlFUcW5uc2FOY1dIMzg3UU81STVhSTJmT3NnbXhjMA?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -202,29 +160,29 @@
       "org": "Amazon",
       "cat": "CEO",
       "date": "2026-11-18",
-      "published": "Tue, 17 Nov 2026 20:43:09 GMT",
-      "source_name": "CNBC",
+      "published": "Wed, 18 Nov 2026 09:00:00 GMT",
+      "source_name": "Business Insider",
       "signal_type": "source-linked headline",
-      "relevance_score": 13,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#AMZN"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Amazon CEO Andy Jassy: “I don’t foresee a day where we’re not partners with Nvidia” - CNBC",
+          "t": "Headline signal (not a direct quote): Andy Jassy isn't ruling out opening Amazon's doors to outside AI agents - Business Insider",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVU80YnJxTHgyRHRoZjVHNGEwaF96S1Rjc2t6YmxKLVFfMkpOanYyYktzeXRUQkJXQWI2N1NMN3gyZHFPS2lncHdHYlBld1BlUjRDNWtkQXMxNWdzX1gycVYxemJpY040Ty1NQXVTYVFfekJpN19LazBwUUVZaTJwZ2hzUjdFTElOc3FrdTRIZThESnNJX1pMQjNDem00MmEwY2ZNTlRvRVhNOWJ4OUl0RjZUN3VlSmU0dTJHbG1n?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOG4wU0w0cjJNaW9ZdzkzSjI4b2Q1NkNJRC10MVJRZnRuVEZ1R283WnRfNVZYMERyQjRGczBwRmJqYkRsbFhTM3FORFlZSnE1S0tqcmptZ1p4bm9rc1A1dXlfalZQU1ZSTFBPUGpTR3BXYy1tcjVtVi1Tc1dlYjhlT3E3M0ZBUHN6ZjR3dw?oc=5"
     },
     {
       "name": "Sanjay Mehrotra",
       "role": "CEO",
       "org": "Micron",
       "cat": "CEO",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 07:31:52 GMT",
+      "date": "2026-11-18",
+      "published": "Wed, 18 Nov 2026 06:11:55 GMT",
       "source_name": "Moneycontrol.com",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
@@ -241,12 +199,33 @@
       "src": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOS24tQUxMRE1EMThReTU2RkRORnc5a0g5SkJvQ3g5bV96eVVlUjRXaWJBaUxpWklfd1NIV3Q4Wm0teWd5WE5qTHpRNHVYakZiRnN3SFgwN0YzRmgxcVJfQkVZX0x1Y1gzdzJ0TkNVV09QVzBiUWE5SXVqNmVZelNmMkZFVnNaU1RrY09WVWtTZEFpaXRXbEc1dUhXNFZ6cVk3RXBfZ052cVFUM2NBcGhsb1JOZENLb0dpbm55TEpzMllta0tLSHR3dTVxaE9GbTlvYlFIYVF0RVVGM3cyVG1zT1BTdlczSlI3TXBFcVBpWlYwV19RYXRjY1U5ZVZRalJGRHpONFJwTENZZnpubUcyd2RoWXZ2dFk10gGeAkFVX3lxTE5PLWFlLVE3N2RTUmF3N1BaQktfa1JCcnZLNUxlWDZIb0NLeVVubkJQa0g4R0VRMlpvVTV3MVI3WHZGem1HZ2FXR0RPWmFGUFNPX0p3U2dDVnY2Y1RQQ3BIQkFvbnBJaERDeDQ3RlBNbUFtd2lwZGdWNzBfZG9pcGpDQVdkS1cxOFNqcXdOcHhqcXoxVy1ZRjBRaFNaZW92Ty1JcGgxUk1tbHRvTGpob0lmaEQzVWpDdW44LWdpQUlsZ2xyOXRNa081aklXaHBDYkxTVDROUnFWeDlMWU1HY3M4R1BaTkpXdVRiNDB3S1NoSTlTMDBpRzVYLXVrYWMzbUREUlg3OG5xLTRVbi1xS2tNVVpISW1WYmpYNV80Ync?oc=5"
     },
     {
+      "name": "Lip-Bu Tan",
+      "role": "CEO",
+      "org": "Intel",
+      "cat": "CEO",
+      "date": "2026-11-18",
+      "published": "Wed, 18 Nov 2026 06:10:35 GMT",
+      "source_name": "MLQ.ai",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Intel lays off workers in its global IT organization in another round of cuts under Lip-Bu Tan - MLQ.ai",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTTNfYjgteEM1ZEh2cTduaXM3MGlCeV94WUNsRHZSbVdMN0d4Z2E1bmtPd1k2TE1nblZ3cWVDMk9xM0xxVHI0WWdFTUJieWE2ZVk2ZW1TMUhldkMxaTg5VzlFVWhnNTFrNmtkS3ZMQkd2SlN5MjdOejAtcnhJWFZRYWE2QmROQTJaTXJkZmhhS29YVHRvYzJvQklHMUYtdHlrMGd1MGduYWQwTFJLRUppa1ZzSS1XZw?oc=5"
+    },
+    {
       "name": "Arvind Krishna",
       "role": "CEO",
       "org": "IBM",
       "cat": "CEO",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 17:04:57 GMT",
+      "date": "2026-11-18",
+      "published": "Wed, 18 Nov 2026 06:12:23 GMT",
       "source_name": "NDTV",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -255,11 +234,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Video | AI, Jobs And India's Tech Future: IBM CEO Arvind Krishna's Big Interview - NDTV",
+          "t": "Headline signal (not a direct quote): US vs China AI War: IBM CEO Arvind Krishna Reveals Who Leads The Race For AI Dominance - NDTV",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbjJ3aF9xUlVaMFh0YjQtWlV2MTBXVy1kbnlsTVlNeUFBUmJDcGhBYmlXNnpMRDE0UTgtUHdOV0hVa1d2V1VyVDhlN1J3VUszZDFCdWc3d2JvRFFzUWR6Ylh4UUtSR0tRdUY2ZVQwRE1FS25kQzF6bVF5MWNXUXduRFhkYXJqV0ZyRXBIR3d3d1FLbl9Eb29FY0d0ZE1ncTgzRUw4WktYRFg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVG1UdlFleG5nc2FVTEw5QWE4UGJQeThuQTZJRjIwbXVJOExrTmdoVXRmdGstWFlkcGZ3WHpnWktSXzE2M1FTOTR3eDJLbTQ0SEoydDhId3R4WmtGcXppU3lZbFAwQnF2LWJ4czJnVU4teG8wVE9iMmFTZ2ZVenRxLWhlMkFNS0lncTZZTk40SE13Si1nRTdBa0VUaTV1SXVMODdjQUZVZl9jYWc1X1NsZmZVN214STVvQjZtZGdfZlRLOEgzSkkxdndHbUg2M3NJUXMyUHJ30gHeAUFVX3lxTE5sTVpVZmNXUHUzX3FjUnJVbEFoU3ZCRTI3Ulp3LTVfTWxpS3ZJMUFWQncyYUtsaWFQYmdxNUhtaktZTDlWLS1vN0pBM09wY1B3NF81UFFSZ20tcjYyU2lndUttRkwteVE0a2lyTTk0anFxWUVTYUJORlhISXQwcEZoenNqOFozeThlWEpKVDdXb0hxVXFQWjRMemp0dGVIV1Fodm81UUs1TXI4M3RhM3VlTVpsdGluWFNwZHJGbkFFaldmRm9wamdrbFpKaFEwUHFBVk9QMUQza2x4bmZsUQ?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -310,44 +289,43 @@
       "role": "Managing Partner",
       "org": "Deepwater Asset Management",
       "cat": "Investor",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 03:23:00 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-11-18",
+      "published": "Tue, 17 Nov 2026 22:03:20 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
-      "themes": [
-        "#AI",
-        "#BE"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Gene Munster Says Nvidia Could Be the Next Apple if Investors ‘Sleep Well at Night’ - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOVhWWC1VQXh3WHh5T0k1NTZFdGM4aXhGQkV1UVpLQklUak85bDZZUmNnZU9ULXdIY1lqTmo2bURzVzg0N3lOQldwYV9nWU80Y1B3MFJzX2xEM2RtMm9DbXhPeXdlb25VZW1vZGZjU2haaHFoc3JjRGpjck9DRy04Z0JCMWpraUxKZ2pveVVxbm5rdDBscDJ0RllkYw?oc=5"
-    },
-    {
-      "name": "Pierre Ferragu",
-      "role": "Senior Analyst",
-      "org": "New Street Research",
-      "cat": "Analyst",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 00:00:00 GMT",
-      "source_name": "Bloomberg.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Watch New Street's Ferragu Sees Strong Case to Buy Nvidia Shares Ahead of Earnings - Bloomberg.com",
+          "t": "Headline signal (not a direct quote): SEC investigation an 'expected outcome' for Nvidia, says Deepwater's Gene Munster - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYkppVUlSUTBENjU4Yk1PMUpKcU5VVVVNR1U4X3pwdUdtQnJVMG5KOWtWVnRkcmxyTTV6Y1V6S3p4NnZCNWxKRlBJbVhXOVB5XzA2dUwtVlNRTVQ1SEdCbjhsU2g5SzhPQVJVT2xYRXhMZWtLeDVaWW5pS2draHIxQkZ6N0tCeUFaMGpEbWthcW00b195SUIwNk1MVmQ2NHFuLXc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSy1TVzJ0UVVQdkxXUlBPN3dCNEFMcnZrbW1VeUN2djlRNWloZk91QmdnMkVGNDJCcUk4V3Y3SU9rdUZNcUpqdEhZV1VyYmtsTnl2SWJ5OFVFQ3UxRF9YOHF6eXdfVWMtajZkcFVNb2d4dHhhZXlJQ2Z0eE5nZWs4SW1ZQ2F2XzFOZXE4ZXNzczdJOGh6VF9xQkhnVm0yVzBzWnFZdzN2b1pSZ1liZVNmRTBtaF93SlZPZGtZUw?oc=5"
+    },
+    {
+      "name": "Vivek Arya",
+      "role": "Senior Analyst",
+      "org": "Bank of America",
+      "cat": "Analyst",
+      "date": "2026-11-18",
+      "published": "Wed, 18 Nov 2026 11:59:08 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 11,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Nidia's growth outlook survives Jensen Huang succession questions, says BofA's Vivek Arya - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNajZPZ3ZOeEZzc3BZQXNPRW9TU0wtOGF2Y1JIOTNXY0VuSGlwYlBjRmdKRW9DeUR6Z29nVmxxRWpXU0l1ZGMtN1diekM4M1A1YU41N19FaUg0bHBwWVBwek5oTVB1UXpJUlotSV8wSk5DTEwyeVVRcThTRWZ4SDZ1TjM0M3g5S1lha0hGWDdtSm52X28zWkg3b1Zld1JydGNTTVR3QzZ4Y2MzeFljaU9xR0J4VjYweTg5UDNZT1JpQWE5X1ZCYTNnWQ?oc=5"
     },
     {
       "name": "Dylan Patel",
@@ -373,7 +351,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 17,
+  "fresh_signal_count": 16,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
     "code": "daily_research_limit",
