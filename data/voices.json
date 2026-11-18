@@ -1,120 +1,15 @@
 {
-  "updated_at": "2026-11-19T03:03:08.421818+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-19T05:00:57.138966+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Charu Chanana",
-      "role": "Chief Investment Strategist",
-      "org": "Saxo",
-      "cat": "AI infrastructure profitability",
-      "date": "2026-11-18",
-      "published": "2026-11-18T05:12:00Z",
-      "themes": [
-        "AI demand",
-        "Nvidia",
-        "profitability"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Strong Nvidia earnings renewed confidence in AI infrastructure demand, but future gains may depend more on which companies convert that demand into sustainable profits.",
-          "k": true
-        }
-      ],
-      "src": "https://d2233.cms.socastsrm.com/2026/11/18/ai-stocks-rally-as-nvidia-outlook-calms-demand-fears/",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Robert F. Smith",
-      "role": "Founder, Chairman and CEO",
-      "org": "Vista Equity Partners",
-      "cat": "Enterprise AI margins",
-      "date": "2026-11-18",
-      "published": "2026-11-18T16:53:52Z",
-      "themes": [
-        "agentic AI",
-        "portfolio margins",
-        "enterprise software"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Not every company needs expensive frontier models; Vista is using an internal agentic factory that Smith said could materially improve portfolio-company margins.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/2026/11/18/ai-investment-questions-axios-bfd-2026",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Daragh Murphy",
-      "role": "Founder and CEO",
-      "org": "Imprint",
-      "cat": "AI commerce",
-      "date": "2026-11-18",
-      "published": "2026-11-18T16:53:52Z",
-      "themes": [
-        "AI agents",
-        "commerce",
-        "payments"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Murphy expects AI agents to become a significant intermediary in commerce and said agent transactions on Imprint cards have already begun growing exponentially from a low base.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/2026/11/18/ai-investment-questions-axios-bfd-2026",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "John Williams",
-      "role": "President",
-      "org": "Federal Reserve Bank of New York",
-      "cat": "Macro and AI financing",
-      "date": "2026-11-18",
-      "published": "2026-11-18T15:05:51Z",
-      "themes": [
-        "AI boom",
-        "interest rates",
-        "financial stability"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Williams said the AI boom could contribute to higher rates next year and that the Fed is monitoring leverage and complex financing structures in the AI industry.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/newsletters/axios-pro-rata-f4fcb2c0-4012-49f5-8d2b-93e19791ce1a",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Kim Posnett",
-      "role": "Co-head of Investment Banking",
-      "org": "Goldman Sachs",
-      "cat": "AI valuations and IPOs",
-      "date": "2026-11-18",
-      "published": "2026-11-18T15:05:51Z",
-      "themes": [
-        "AI valuations",
-        "mini-bubbles",
-        "IPO market"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Posnett does not view AI as a single broad bubble but sees pockets where capital has moved ahead of revenue; she also described the IPO market as healthier than commonly perceived.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/newsletters/axios-pro-rata-f4fcb2c0-4012-49f5-8d2b-93e19791ce1a",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-11-19",
-      "published": "Wed, 18 Nov 2026 19:51:39 GMT",
-      "source_name": "The New York Times",
+      "published": "Wed, 18 Nov 2026 22:00:00 GMT",
+      "source_name": "Business Insider",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -123,11 +18,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation - The New York Times",
+          "t": "Headline signal (not a direct quote): Jensen Huang is gone, but his signature 'T5T' email ritual will live on, per Nvidia all-hands recording - Business Insider",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2dJSnFrVWt3REVkbE5CbllIMi1jZnFlRmtPbmZJM09SbmpoOEhVWElRVElyY00xc29ZLXA5T2wtRWFHQ0YzMG1jdjRPZWM4d2RaR05ja3Y3TGx5LURKVTk4allMbzduWC1uNVJSZmM4SlB6SjBiSVdWLXI5OW83V1RZcjF1SmctMzhaMXlHOXNSOXQycWc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSFdlZ2tRbVBnZ3MzWTFFTWl1WGppMGNhZ19ENVVXdW5BUHNvU25FOUh2XzlDa3JYQzRzME1QRHI2bGJ3ckxLTkpEa0s0OHkxVmVielFxaU5QUldhalowTGd2cXRncXBlM1M5UEs1cU5LcVp1ODgxQTBvMnhQSlFiOHlCQ3NMMzFpWnR3WlllTDlMN2hra29WVW5aeVExazg?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -196,35 +91,13 @@
       "src": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNTzRlTXJ3TXF5RnJqcjVjR2MtMUozYUI1ZW9LWEdfYWU3WkRZYUFwVDlHYkMzVERtWk9hdVFaWlk1TGV2S010UFJTLTV4X3lWTkdtTklBVm5TZkdBeTg0Q1ZiNHBPV25tYktFcmF1UWpiSllSYXBWeHZ3NEt5aWM5eHBjTXgxRFhUY1U3UXBzWjc1bElpbFFFUl82bC1GcTlDdVhldmx4WHJ1bC14MUQzdlBXTDZ6SUZMa2tyelppbDRDV3lOVy1RWHp3Q3RBdThSYWFkbUd0TllKR1JDdE9UdHQxdTdRUHhDMWh4aWJEVUJ1c2VQNUZ4LURB?oc=5"
     },
     {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "AMD",
-      "cat": "CEO",
-      "date": "2026-11-18",
-      "published": "Wed, 18 Nov 2026 15:30:46 GMT",
-      "source_name": "Barchart.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): AMD Shares Climb as CEO Lisa Su Brushes Off Nvidia's Huang Turmoil, But the Real Opening Isn't Demand - Barchart.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPN1NUNGlyTGNwWHdmVDBTY2RVSWpGQkEtMnZ5bExGY0U1eHhOa2UxRFVKXzJJZXVaUktBeEppcFJaMnFsc1BhNGkyNUV1em9MdVdTM1JJQzNleGkzb0dFQmtlUlpyVi1haGRJb0tUQ0xRY1Ywd0ZyWXp0X0JQLVFTbDJ1eFFhMmJaVWFPLTNjaGtkN1pnODNQczkyVVV0YXNLdkw1ZnAwN294eGh1VVA4M3hIdXktbmlUNHJHd0xPRVdhRVJOTDhMTy1nNzk2TVliVE9sUjhSVDVhTDNw?oc=5"
-    },
-    {
       "name": "Alex Karp",
       "role": "CEO",
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-11-18",
-      "published": "Wed, 18 Nov 2026 17:30:50 GMT",
-      "source_name": "Yahoo Finance UK",
+      "published": "Wed, 18 Nov 2026 17:30:00 GMT",
+      "source_name": "Fortune",
       "signal_type": "source-linked headline",
       "relevance_score": 13,
       "themes": [
@@ -233,11 +106,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Alex Karp put Palantir’s early sales team in the Mandarin Oriental instead of a Motel 6—at 10x the price - Yahoo Finance UK",
+          "t": "Headline signal (not a direct quote): Alex Karp put Palantir’s early sales team in the Mandarin Oriental instead of a Motel 6—at 10x the price - Fortune",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTkFqUUMxdmpTaVU4LWNLbWdjYjBpdXd0YjNRTW43UFJjSnF4TWRrRlk0bEpfdXhMaFJPQVdLektjUGVtdVo0aW94NHZvdlBJbEFiWWlDZ2kza1BKUUJaYzZwTjA0THh4S1RJMFVpYmJHa0RNbFpLR1lhbWZkSlhhQkUyUQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTkloVjZnbHJ1eUJfeU9NdHFKYURQbEpDOHQ5RTRySnF1d0p2Z083S3h5OUJnMGZPMndZTjRQSUJwblNCZ1F1VkZvaHEwcDh4bWpGYll1NmpsUHhoeUh6SHh6UXdqdlNqZ2VGSjNvUmJJNzNGekNTVEc0QnhuUnVVQ21rajF0VDZySTJzQVFscw?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -245,21 +118,21 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-11-19",
-      "published": "Wed, 18 Nov 2026 20:45:15 GMT",
-      "source_name": "Bloomberg.com",
+      "published": "Wed, 18 Nov 2026 22:58:24 GMT",
+      "source_name": "Financial Times",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Meta Pauses Zuckerberg Share Plan During Investor Legal Fight - Bloomberg.com",
+          "t": "Headline signal (not a direct quote): Meta halts plan to give Mark Zuckerberg new class of shares - Financial Times",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWk05MjFHYTBIbXVFbHNyT2E3SDNaU0dDX0FYT3E3Z2dnU3diQXd2eG40UFI4SFpSaTZyUElOZ2pFaDZ2aGJGUGw3bU5HdjNLbFFUd1NSamIzdURmRkNjSWN1b1puYnJEZFpTcmxCdHRia3RES1Q3SktVR0NKOGhVSXhWYktiaWJ6SEZuYVlUdFl4SmNwNm9QdXFUallybFV5SVZ2RFN0MHJNYzVISnU1SHRB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTTBLRkFSZGlxVEtndFpScWRFck5nVXVLLXZiazBpMGxHQ1YwZG1FQVNvZXlVWEk2T0xhUWZNanhhSTN3aUF1WGZmbXFKU0xPQ3MtSUlPbkV5RlhYcFhVOFQ2WVhKMUo2ckNMeWs3TVVZa1FveEt4bTdLTVM5SDA4NU1URVU?oc=5"
     },
     {
       "name": "Andy Jassy",
@@ -327,27 +200,6 @@
       "src": "https://news.google.com/rss/articles/CBMickFVX3lxTE9leEZXaEswQXh4a0w5cjN5SUVCVm9IVV92Q0hwZHdua3NBdjZvVGpSTGJsTF9TbEVVcGRQZlRkcHFFYVNlWEZwc3plUWR6NV9yZHBhUVZmTk5Hc2xQR2lFc3VaeGFadDNwT2hQUW05MG9pdw?oc=5"
     },
     {
-      "name": "Arvind Krishna",
-      "role": "CEO",
-      "org": "IBM",
-      "cat": "CEO",
-      "date": "2026-11-18",
-      "published": "Wed, 18 Nov 2026 06:12:23 GMT",
-      "source_name": "NDTV",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): US vs China AI War: IBM CEO Arvind Krishna Reveals Who Leads The Race For AI Dominance - NDTV",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVG1UdlFleG5nc2FVTEw5QWE4UGJQeThuQTZJRjIwbXVJOExrTmdoVXRmdGstWFlkcGZ3WHpnWktSXzE2M1FTOTR3eDJLbTQ0SEoydDhId3R4WmtGcXppU3lZbFAwQnF2LWJ4czJnVU4teG8wVE9iMmFTZ2ZVenRxLWhlMkFNS0lncTZZTk40SE13Si1nRTdBa0VUaTV1SXVMODdjQUZVZl9jYWc1X1NsZmZVN214STVvQjZtZGdfZlRLOEgzSkkxdndHbUg2M3NJUXMyUHJ30gHeAUFVX3lxTE5sTVpVZmNXUHUzX3FjUnJVbEFoU3ZCRTI3Ulp3LTVfTWxpS3ZJMUFWQncyYUtsaWFQYmdxNUhtaktZTDlWLS1vN0pBM09wY1B3NF81UFFSZ20tcjYyU2lndUttRkwteVE0a2lyTTk0anFxWUVTYUJORlhISXQwcEZoenNqOFozeThlWEpKVDdXb0hxVXFQWjRMemp0dGVIV1Fodm81UUs1TXI4M3RhM3VlTVpsdGluWFNwZHJGbkFFaldmRm9wamdrbFpKaFEwUHFBVk9QMUQza2x4bmZsUQ?oc=5"
-    },
-    {
       "name": "Cathie Wood",
       "role": "CEO and CIO",
       "org": "ARK Invest",
@@ -391,28 +243,6 @@
       "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaDZNMDhuTHJRQ3RMM0NDZEhaZTdwSFRWY2xQRksyc08zamZsQUtUTi1Day13aHB0cFpvWlhGeDNkVEU5MGgzR1NHN2ZzYTNyLTBzM1lMazB0SDZXU3RVVlg1SHBIT19lNktGYkNpV0kyOVRlNzV4Q1pZZEt0UDNsRmRjUWRiY1drWFBHUnN2U1N1ZW05V0FaSGRhSG9uU1BWTnp5Z0VFTEVEUWJ1ekp1WVRqS1BpZw?oc=5"
     },
     {
-      "name": "Gene Munster",
-      "role": "Managing Partner",
-      "org": "Deepwater Asset Management",
-      "cat": "Investor",
-      "date": "2026-11-18",
-      "published": "Tue, 17 Nov 2026 22:03:20 GMT",
-      "source_name": "CNBC",
-      "signal_type": "source-linked headline",
-      "relevance_score": 13,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): SEC investigation an 'expected outcome' for Nvidia, says Deepwater's Gene Munster - CNBC",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSy1TVzJ0UVVQdkxXUlBPN3dCNEFMcnZrbW1VeUN2djlRNWloZk91QmdnMkVGNDJCcUk4V3Y3SU9rdUZNcUpqdEhZV1VyYmtsTnl2SWJ5OFVFQ3UxRF9YOHF6eXdfVWMtajZkcFVNb2d4dHhhZXlJQ2Z0eE5nZWs4SW1ZQ2F2XzFOZXE4ZXNzczdJOGh6VF9xQkhnVm0yVzBzWnFZdzN2b1pSZ1liZVNmRTBtaF93SlZPZGtZUw?oc=5"
-    },
-    {
       "name": "Vivek Arya",
       "role": "Senior Analyst",
       "org": "Bank of America",
@@ -433,27 +263,6 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbEV0UFFUTVpnSkJsV2FFc1h2U00zTXoyVUt5dDdlMnlFcVFTcGFtY1QxQU8tcTl5N3loZWVnZVEyOEJPelpYN0N3T2RQT05fWlRmV0U1alcxbU5NZjZ2aTl0UUVvVER4bVFyU2RxNmlJb2ExSkJBd3A0cTNRbGh5U3ktWjNkSVhzU3p5WUFRTUthN3NXaWRwUmRQVHZIUER1MUFjYnZFcXRoMEVzTnlON3VXMkNVc0FrN3RBblpPNmp4d0E?oc=5"
-    },
-    {
-      "name": "Pierre Ferragu",
-      "role": "Senior Analyst",
-      "org": "New Street Research",
-      "cat": "Analyst",
-      "date": "2026-11-18",
-      "published": "Wed, 18 Nov 2026 15:47:06 GMT",
-      "source_name": "CNBC",
-      "signal_type": "source-linked headline",
-      "relevance_score": 10,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Here's why New Street's Pierre Ferragu has a buy rating on Anthropic ahead of the company's IPO - CNBC",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUVFRbGRBVURXbnVTeENQZXB3NUR2V3Zvd2dDbXBLc0ZxTE5hYWJOVVJ4ZTFzQzdUSUJvVlFtY2FYNlJlcjVBMElaOWI3dWJ3cDNRdmk4X0JudTQ4RnJzLUY1Z3NVWVRGYVN6bGRucGFiY0JmLVBNT1VlYldKN1VLV042NjNFNHhhMTh3a3k3bUhXMXdPYXBjMTdMZGd0WGsxcUJEN0c3cms0WjZPaF9rZFdMZ2ZaUUFaQ1lrWXJVd3RBRllhY05YOUdRc1JrZXZz?oc=5"
     },
     {
       "name": "Dylan Patel",
@@ -479,7 +288,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 22,
+  "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
