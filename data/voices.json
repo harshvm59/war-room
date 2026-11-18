@@ -1,71 +1,177 @@
 {
-  "updated_at": "2026-11-18T17:35:41.366800+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-11-19T03:03:08.421818+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Charu Chanana",
+      "role": "Chief Investment Strategist",
+      "org": "Saxo",
+      "cat": "AI infrastructure profitability",
+      "date": "2026-11-18",
+      "published": "2026-11-18T05:12:00Z",
+      "themes": [
+        "AI demand",
+        "Nvidia",
+        "profitability"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Strong Nvidia earnings renewed confidence in AI infrastructure demand, but future gains may depend more on which companies convert that demand into sustainable profits.",
+          "k": true
+        }
+      ],
+      "src": "https://d2233.cms.socastsrm.com/2026/11/18/ai-stocks-rally-as-nvidia-outlook-calms-demand-fears/",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Robert F. Smith",
+      "role": "Founder, Chairman and CEO",
+      "org": "Vista Equity Partners",
+      "cat": "Enterprise AI margins",
+      "date": "2026-11-18",
+      "published": "2026-11-18T16:53:52Z",
+      "themes": [
+        "agentic AI",
+        "portfolio margins",
+        "enterprise software"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Not every company needs expensive frontier models; Vista is using an internal agentic factory that Smith said could materially improve portfolio-company margins.",
+          "k": true
+        }
+      ],
+      "src": "https://www.axios.com/2026/11/18/ai-investment-questions-axios-bfd-2026",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Daragh Murphy",
+      "role": "Founder and CEO",
+      "org": "Imprint",
+      "cat": "AI commerce",
+      "date": "2026-11-18",
+      "published": "2026-11-18T16:53:52Z",
+      "themes": [
+        "AI agents",
+        "commerce",
+        "payments"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Murphy expects AI agents to become a significant intermediary in commerce and said agent transactions on Imprint cards have already begun growing exponentially from a low base.",
+          "k": true
+        }
+      ],
+      "src": "https://www.axios.com/2026/11/18/ai-investment-questions-axios-bfd-2026",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "John Williams",
+      "role": "President",
+      "org": "Federal Reserve Bank of New York",
+      "cat": "Macro and AI financing",
+      "date": "2026-11-18",
+      "published": "2026-11-18T15:05:51Z",
+      "themes": [
+        "AI boom",
+        "interest rates",
+        "financial stability"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Williams said the AI boom could contribute to higher rates next year and that the Fed is monitoring leverage and complex financing structures in the AI industry.",
+          "k": true
+        }
+      ],
+      "src": "https://www.axios.com/newsletters/axios-pro-rata-f4fcb2c0-4012-49f5-8d2b-93e19791ce1a",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Kim Posnett",
+      "role": "Co-head of Investment Banking",
+      "org": "Goldman Sachs",
+      "cat": "AI valuations and IPOs",
+      "date": "2026-11-18",
+      "published": "2026-11-18T15:05:51Z",
+      "themes": [
+        "AI valuations",
+        "mini-bubbles",
+        "IPO market"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Posnett does not view AI as a single broad bubble but sees pockets where capital has moved ahead of revenue; she also described the IPO market as healthier than commonly perceived.",
+          "k": true
+        }
+      ],
+      "src": "https://www.axios.com/newsletters/axios-pro-rata-f4fcb2c0-4012-49f5-8d2b-93e19791ce1a",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-11-18",
-      "published": "Wed, 18 Nov 2026 02:41:00 GMT",
-      "source_name": "NBC News",
+      "date": "2026-11-19",
+      "published": "Wed, 18 Nov 2026 19:51:39 GMT",
+      "source_name": "The New York Times",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia enters the post-Jensen Huang era with a bang - NBC News",
+          "t": "Headline signal (not a direct quote): What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation - The New York Times",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWkg1ZDlTTnhHeGNPUmJMRXVFVXdtZEZYZ0Ryb0R2TG1wbFZVN2dZeXl5aWEzV0lhX3Z0VUhWRG1VQzVhcHV6QVZKWFNjYjZDeU5yVEdqbDJKSzBVa1JIYW5iRENkcTRJX0RIbVFEQUpPWE5aRHlpRTV5OUY0dmcyNHp5NlBOOFR3eDhIM0ZKX0VQdzlGamFLRkZZSko?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2dJSnFrVWt3REVkbE5CbllIMi1jZnFlRmtPbmZJM09SbmpoOEhVWElRVElyY00xc29ZLXA5T2wtRWFHQ0YzMG1jdjRPZWM4d2RaR05ja3Y3TGx5LURKVTk4allMbzduWC1uNVJSZmM4SlB6SjBiSVdWLXI5OW83V1RZcjF1SmctMzhaMXlHOXNSOXQycWc?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 16:59:21 GMT",
+      "date": "2026-11-19",
+      "published": "Wed, 18 Nov 2026 18:43:33 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Sam Altman Just Delivered a Warning to Investors Betting on Endless AI Growth - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRnpXcWxadnFseGtBRnFKUjRYaDRYNVVlWmJPVDRPSV9uQ0FQRGVxc0cwMlBKanBVWWZ2Q1NIc1dadlZGYTktYlEtWEVOMEhtSE40UF9HZXZ6S1hTZml2SG1GVVpiSmhaTUFqWTBQaDNFU2NqQWdUZDBtOUJlUUN5S1doNEZMdmJobldzZjlvWWVtZVhiZnBaUV96MlhhQQ?oc=5"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 15:44:15 GMT",
-      "source_name": "Barchart.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Why Dan Ives Believes the Anthropic IPO Will Be an 'Important Step' for AI Investment -- And What It Means for a Future OpenAI IPO - Barchart.com",
+          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman on potential IPO: 'We plan to be public' - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVEdURXBpOHNuLWtuOU9OZTRmWlByWW96YmRmeUZYU0RMR2VGTjE2SVZOcjNwS1BmblpFV0lEN21ON1Z3MFNVcUdONFZFbnQ1cFBLc1JjYTRuVFNZNnI2cEZtaWFNNEd0MU1EQllRZ0FtaEdJWlhkdVllT1B3RkR4MGNWNFI2emlMVVZWd0YxQVpuMnl6M1o0Y0JMTmR0dEJUck52NWJPM19DYXdPMDZmd2xydjRZSlpneFZpeVNXc2w4SXZSeTBQMWh2REo4d3d0cmRMTmpKOVJqZExpdmV4ODZKbWlJV3U2NVU5S1huZGhEazFQdzU3dzBqX2RDUQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSzRKREtMcWcwZmpCNDJfcVF6ZjhnMU42TEE1WUY5YWNVUmYxMFprSmVoY2R2NXVHdEkxRi1vMUp4NG4tYjAzaUI3b0RGekkxd25BcHVYVzByd1ZIakhzN3dSb3E4NDVadzl0aWFoU1ZTYkQyY2RZZ1I2ajZoWF9MejNyVjFzR0NHbzdzWmEtUlFjQzRZLS1RZmYzNHBJamo3b3RDTVZMa0w4NHNvUWowQXA4ZXdvWE0?oc=5"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-11-18",
+      "published": "Wed, 18 Nov 2026 14:57:59 GMT",
+      "source_name": "Opening Bell Daily",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Dan Ives: Nvidia, Palantir and 5 AI picks for 2027 - Opening Bell Daily",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOc0dSY2ZwUzdzajZzcFdhV3F3cDlTSHNrUGE0QXhmZ0s3eFBWUTlDSU5OY096c3FfR3pDS0lwaWZ1eHhvdVIyQVF2cHk1aUpSN1ZWMnVUZnUxb3V3NU90MTlvMXljMDFzbXhWU3VMX05sa2ZvajRpN2pYVi0xSFI2UFJTTjk5OVYweFNDYUpEby1veFZqZ0E?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -73,30 +179,30 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-11-18",
-      "published": "Tue, 17 Nov 2026 19:58:00 GMT",
-      "source_name": "Fortune",
+      "published": "Wed, 18 Nov 2026 14:57:01 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Microsoft’s Satya Nadella praises Jensen Huang, says return as CEO is ‘up to the Nvidia board’ - Fortune",
+          "t": "Headline signal (not a direct quote): Under CEO Satya Nadella, Microsoft Stock Has Soared at a 23% Annualized Rate for 12 Years. Can the Tech Titan Keep Up the Pace? - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQM3hQcmp5dXFNdGJ0QXpoamFyLWp4RnlRMWpQbklaVkEybXE4b09XNG5HQ1VKSEtGMXYyaEZfTk1fYmZQR21JRGs1S1laSWZPLXVVWElwVVBrd3NteTREZUtFeTNvdzRWZ19ydjdtWW5zYXhwYnRZb3dPOW84VU5IdW9oSWpLVFFNeWE2TWRTb19IY1RjV2VxS1FxcTBKTm5HNDZ1NjVPQzZOMm5YYXR1UjlEQ0hvRC1sbEZDd2hNczRINU1uWmlDQi1XUkRGV0ZjWEZBVDQyaUVZM1NCMzlIekY1MXdwUQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNTzRlTXJ3TXF5RnJqcjVjR2MtMUozYUI1ZW9LWEdfYWU3WkRZYUFwVDlHYkMzVERtWk9hdVFaWlk1TGV2S010UFJTLTV4X3lWTkdtTklBVm5TZkdBeTg0Q1ZiNHBPV25tYktFcmF1UWpiSllSYXBWeHZ3NEt5aWM5eHBjTXgxRFhUY1U3UXBzWjc1bElpbFFFUl82bC1GcTlDdVhldmx4WHJ1bC14MUQzdlBXTDZ6SUZMa2tyelppbDRDV3lOVy1RWHp3Q3RBdThSYWFkbUd0TllKR1JDdE9UdHQxdTdRUHhDMWh4aWJEVUJ1c2VQNUZ4LURB?oc=5"
     },
     {
       "name": "Lisa Su",
       "role": "CEO",
       "org": "AMD",
       "cat": "CEO",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 17:35:00 GMT",
-      "source_name": "BigGo Finance",
+      "date": "2026-11-18",
+      "published": "Wed, 18 Nov 2026 15:30:46 GMT",
+      "source_name": "Barchart.com",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -105,54 +211,55 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Asked About NVIDIA, Lisa Su Calls Jensen Huang a Tremendous Leader for the Industry as AMD Focuses on AI Infrastructure - BigGo Finance",
+          "t": "Headline signal (not a direct quote): AMD Shares Climb as CEO Lisa Su Brushes Off Nvidia's Huang Turmoil, But the Real Opening Isn't Demand - Barchart.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzdE1aN0ZMSXc2dERlRWlLbWdlRUFFMjRFSHhwVVRUUGpYUkRIaVA5TG5ndUdMclg4Rk5GYWRFeWJTR2ZUQktnSGlXNHhsMmROME1DZDY4Y19URHhydkZFelk4dzZ3OFhPQjdYS3dGdmR1YTJ1WXc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPN1NUNGlyTGNwWHdmVDBTY2RVSWpGQkEtMnZ5bExGY0U1eHhOa2UxRFVKXzJJZXVaUktBeEppcFJaMnFsc1BhNGkyNUV1em9MdVdTM1JJQzNleGkzb0dFQmtlUlpyVi1haGRJb0tUQ0xRY1Ywd0ZyWXp0X0JQLVFTbDJ1eFFhMmJaVWFPLTNjaGtkN1pnODNQczkyVVV0YXNLdkw1ZnAwN294eGh1VVA4M3hIdXktbmlUNHJHd0xPRVdhRVJOTDhMTy1nNzk2TVliVE9sUjhSVDVhTDNw?oc=5"
+    },
+    {
+      "name": "Alex Karp",
+      "role": "CEO",
+      "org": "Palantir",
+      "cat": "CEO",
+      "date": "2026-11-18",
+      "published": "Wed, 18 Nov 2026 17:30:50 GMT",
+      "source_name": "Yahoo Finance UK",
+      "signal_type": "source-linked headline",
+      "relevance_score": 13,
+      "themes": [
+        "#AI",
+        "#PLTR"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Alex Karp put Palantir’s early sales team in the Mandarin Oriental instead of a Motel 6—at 10x the price - Yahoo Finance UK",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTkFqUUMxdmpTaVU4LWNLbWdjYjBpdXd0YjNRTW43UFJjSnF4TWRrRlk0bEpfdXhMaFJPQVdLektjUGVtdVo0aW94NHZvdlBJbEFiWWlDZ2kza1BKUUJaYzZwTjA0THh4S1RJMFVpYmJHa0RNbFpLR1lhbWZkSlhhQkUyUQ?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 15:26:51 GMT",
-      "source_name": "99Bitcoins",
+      "date": "2026-11-19",
+      "published": "Wed, 18 Nov 2026 20:45:15 GMT",
+      "source_name": "Bloomberg.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#META"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts a Privacy Coin Boom: XMR Price to the Moon? - 99Bitcoins",
+          "t": "Headline signal (not a direct quote): Meta Pauses Zuckerberg Share Plan During Investor Legal Fight - Bloomberg.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQl9VNmJiSEgzWWJ0T2gtdDJxejZFSHQwWkhUVXNvOENZZXF5Rk1XVjRmSmJPTE9Ld2p1M2VrMUx5SXVXZndZWXdPck1FZjZmdURiVXd2eFllS2dWOXdueXhQWkNvT0VNWk1KOEhtZDR3RXk3MUlTNkNlM0hicGpJRk0tc1JjTmMwUHc3aFp5T1lxRVYzRlFUcW5uc2FOY1dIMzg3UU81STVhSTJmT3NnbXhjMA?oc=5"
-    },
-    {
-      "name": "Sundar Pichai",
-      "role": "CEO",
-      "org": "Alphabet",
-      "cat": "CEO",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 17:24:52 GMT",
-      "source_name": "Traders Union",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Sundar Pichai confirms Gemini Tasks is live with advanced actions in U.S. and more countries - Traders Union",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObGlXNkc5YUF1SVJ6cEx4UXZ2VnpRQWxTN2p2VFVJbW94X2ZNLXBkOC11amRmS1FZcTZIR3JULU5qR0V6NUprMjBHWVZMMF9UVlQ5OXhvbmoyOEJxRnhGbUt3U1djNDZWNUFIR2lqYTN0MVR3enUxTDd0MHVDYmxIX1BIT2dUZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWk05MjFHYTBIbXVFbHNyT2E3SDNaU0dDX0FYT3E3Z2dnU3diQXd2eG40UFI4SFpSaTZyUElOZ2pFaDZ2aGJGUGw3bU5HdjNLbFFUd1NSamIzdURmRkNjSWN1b1puYnJEZFpTcmxCdHRia3RES1Q3SktVR0NKOGhVSXhWYktiaWJ6SEZuYVlUdFl4SmNwNm9QdXFUallybFV5SVZ2RFN0MHJNYzVISnU1SHRB?oc=5"
     },
     {
       "name": "Andy Jassy",
@@ -182,30 +289,30 @@
       "org": "Micron",
       "cat": "CEO",
       "date": "2026-11-18",
-      "published": "Wed, 18 Nov 2026 06:11:55 GMT",
-      "source_name": "Moneycontrol.com",
+      "published": "Wed, 18 Nov 2026 03:22:46 GMT",
+      "source_name": "Communications Today",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 8,
       "themes": [
         "#AI",
-        "#MU"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): From Kanpur to CEO of $900 billion Micron: Who is Sanjay Mehrotra? SanDisk co-founder in race to replace... - Moneycontrol.com",
+          "t": "Headline signal (not a direct quote): Sanjay Mehrotra, Nikesh Arora among contenders for Nvidia CEO role - Communications Today",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOS24tQUxMRE1EMThReTU2RkRORnc5a0g5SkJvQ3g5bV96eVVlUjRXaWJBaUxpWklfd1NIV3Q4Wm0teWd5WE5qTHpRNHVYakZiRnN3SFgwN0YzRmgxcVJfQkVZX0x1Y1gzdzJ0TkNVV09QVzBiUWE5SXVqNmVZelNmMkZFVnNaU1RrY09WVWtTZEFpaXRXbEc1dUhXNFZ6cVk3RXBfZ052cVFUM2NBcGhsb1JOZENLb0dpbm55TEpzMllta0tLSHR3dTVxaE9GbTlvYlFIYVF0RVVGM3cyVG1zT1BTdlczSlI3TXBFcVBpWlYwV19RYXRjY1U5ZVZRalJGRHpONFJwTENZZnpubUcyd2RoWXZ2dFk10gGeAkFVX3lxTE5PLWFlLVE3N2RTUmF3N1BaQktfa1JCcnZLNUxlWDZIb0NLeVVubkJQa0g4R0VRMlpvVTV3MVI3WHZGem1HZ2FXR0RPWmFGUFNPX0p3U2dDVnY2Y1RQQ3BIQkFvbnBJaERDeDQ3RlBNbUFtd2lwZGdWNzBfZG9pcGpDQVdkS1cxOFNqcXdOcHhqcXoxVy1ZRjBRaFNaZW92Ty1JcGgxUk1tbHRvTGpob0lmaEQzVWpDdW44LWdpQUlsZ2xyOXRNa081aklXaHBDYkxTVDROUnFWeDlMWU1HY3M4R1BaTkpXdVRiNDB3S1NoSTlTMDBpRzVYLXVrYWMzbUREUlg3OG5xLTRVbi1xS2tNVVpISW1WYmpYNV80Ync?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTU8xYzhaTGhYeEtBYXZrZVA4VVp1bVBhU3lIdEN5S0NkX05IVjRVR3BmeVoydWVBMThram1yQjFxRGljODlYY0dRSWRhSGRhRDE4U1djaUpfeGtfSmNlVVVDdGxWanFBSnRmekcyaVp5LW1GSWdMbW9NSFJ4czItRHgwVFRRM2NGMXQ1RG05aTRPR3hyMDcyd09wU3lDb3JBV2p1bHRvYw?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
       "role": "CEO",
       "org": "Intel",
       "cat": "CEO",
-      "date": "2026-11-18",
-      "published": "Wed, 18 Nov 2026 06:10:35 GMT",
-      "source_name": "MLQ.ai",
+      "date": "2026-11-19",
+      "published": "Wed, 18 Nov 2026 21:23:03 GMT",
+      "source_name": "Crypto Briefing",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -213,11 +320,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel lays off workers in its global IT organization in another round of cuts under Lip-Bu Tan - MLQ.ai",
+          "t": "Headline signal (not a direct quote): Intel CEO Lip-Bu Tan blames memory costs for Q3 stumble as Q4 guidance disappoints - Crypto Briefing",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTTNfYjgteEM1ZEh2cTduaXM3MGlCeV94WUNsRHZSbVdMN0d4Z2E1bmtPd1k2TE1nblZ3cWVDMk9xM0xxVHI0WWdFTUJieWE2ZVk2ZW1TMUhldkMxaTg5VzlFVWhnNTFrNmtkS3ZMQkd2SlN5MjdOejAtcnhJWFZRYWE2QmROQTJaTXJkZmhhS29YVHRvYzJvQklHMUYtdHlrMGd1MGduYWQwTFJLRUppa1ZzSS1XZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMickFVX3lxTE9leEZXaEswQXh4a0w5cjN5SUVCVm9IVV92Q0hwZHdua3NBdjZvVGpSTGJsTF9TbEVVcGRQZlRkcHFFYVNlWEZwc3plUWR6NV9yZHBhUVZmTk5Hc2xQR2lFc3VaeGFadDNwT2hQUW05MG9pdw?oc=5"
     },
     {
       "name": "Arvind Krishna",
@@ -246,21 +353,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-11-18",
-      "published": "Tue, 17 Nov 2026 18:41:00 GMT",
-      "source_name": "The Motley Fool",
+      "published": "Wed, 18 Nov 2026 08:00:48 GMT",
+      "source_name": "Seeking Alpha",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 13,
       "themes": [
         "#AI",
-        "#PLTR"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Says AI Isn't Even in the First Inning Yet of Its Long-Term Technological Revolution, Pointing to Palantir's 123% U.S. Revenue Growth as Evidence the Market Is Underestimating the Trade. Is Her Concentrated AI Bet Still the Right One? - The Motley Fool",
+          "t": "Headline signal (not a direct quote): ARKK: Nvidia Is Not Cathie Wood’s Biggest Bet (BATS:ARKK) - Seeking Alpha",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMigwNBVV95cUxNTnBESkpSamY3SUhyREI4QWxPQkVEbG03c1FGcm1vUlJiUGtyV2c2eUp6SGhlaDM3T3p3ZHlDRmZfQzdkcmFvOFpHX1Q1NEtyU3packgza2t3NXJLSlZiYWpfdFkwV1pIX1dsaXNCNUJpQjFaZDVoZmdHcVd2ajdaaV9VQmNIOEgwYngwUGZ1Z25RcU1RejZKNmc3SHdCYXFZS2FweVJaZzJOSzg4MlhRcWRiREJzQWx5YUtqX2FmcG1kZEo4R2V0Rk4zRGZyTjBBVldiWE8yd1BXY0JZM20tMXZEOFZzcF9iWnNaWkY5YTFNWUxkbElJY3NDZ1ZHeFIyQjhQczd2WVpETUFidGVmUlpLVzRiTFFnTE9EMlFBdWdySkhrLXJlOUdtWFBYZjBlYVN4Q3dwb0s3U2Rrbl9fYmphSU03Zktmc3RUcXFsRlZvZzZBRXhtOTNsOWE5LWsxTGJOQURHdHFyOTdMTHdsMEJpQzRCRnVSZ2ZYcElFOFhGSU0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWUJxQ1FDeTdWdlpJdnpOVjBsVWtFMWs3eFdVLWFYczczcVVuNVNXOGxZZmlCOTh5d3JDQ1V0Q0c0ZENEbTZkcnFfR0FxM09Qbzh2SGpRd3YxVnpFbDM4ZDNneFZ0ZWhfUlZYUldqNklBQnN0Zjd2bmNIeDdHOHB2a0xoenNsVEhHY0dRbQ?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -268,21 +375,20 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-11-18",
-      "published": "Tue, 17 Nov 2026 23:33:00 GMT",
+      "published": "Wed, 18 Nov 2026 14:06:08 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 14,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer’s key takeaway from Nvidia’s first earnings since Huang’s resignation - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Wednesday - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTXhYcHVidnZvbVdFTFFvdEpQSlNDY2pPMXRxaXdHcUR5N1liQlBfd0xwMlRsOEZqSEZyVDR1QlkzbkNKNkJSOXVYNnRMMC1qSTFCQ29CX3lVUTlpd0JnWEFyQUxpbHoydTVrUnlvRkRGcTdCc2NHbXN2Q2x0OEMzQTMyOE9fNnpHX0VxanA2WnExYlE0d2ZUVVJNVEhzczR3SFlLLUg5ZXppLUJXZ0Zr?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaDZNMDhuTHJRQ3RMM0NDZEhaZTdwSFRWY2xQRksyc08zamZsQUtUTi1Day13aHB0cFpvWlhGeDNkVEU5MGgzR1NHN2ZzYTNyLTBzM1lMazB0SDZXU3RVVlg1SHBIT19lNktGYkNpV0kyOVRlNzV4Q1pZZEt0UDNsRmRjUWRiY1drWFBHUnN2U1N1ZW05V0FaSGRhSG9uU1BWTnp5Z0VFTEVEUWJ1ekp1WVRqS1BpZw?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -312,29 +418,51 @@
       "org": "Bank of America",
       "cat": "Analyst",
       "date": "2026-11-18",
-      "published": "Wed, 18 Nov 2026 11:59:08 GMT",
+      "published": "Wed, 18 Nov 2026 17:38:57 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 14,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Nvidia's growth outlook survives Jensen Huang succession questions: BofA's Vivek Arya - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbEV0UFFUTVpnSkJsV2FFc1h2U00zTXoyVUt5dDdlMnlFcVFTcGFtY1QxQU8tcTl5N3loZWVnZVEyOEJPelpYN0N3T2RQT05fWlRmV0U1alcxbU5NZjZ2aTl0UUVvVER4bVFyU2RxNmlJb2ExSkJBd3A0cTNRbGh5U3ktWjNkSVhzU3p5WUFRTUthN3NXaWRwUmRQVHZIUER1MUFjYnZFcXRoMEVzTnlON3VXMkNVc0FrN3RBblpPNmp4d0E?oc=5"
+    },
+    {
+      "name": "Pierre Ferragu",
+      "role": "Senior Analyst",
+      "org": "New Street Research",
+      "cat": "Analyst",
+      "date": "2026-11-18",
+      "published": "Wed, 18 Nov 2026 15:47:06 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 10,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nidia's growth outlook survives Jensen Huang succession questions, says BofA's Vivek Arya - CNBC",
+          "t": "Headline signal (not a direct quote): Here's why New Street's Pierre Ferragu has a buy rating on Anthropic ahead of the company's IPO - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNajZPZ3ZOeEZzc3BZQXNPRW9TU0wtOGF2Y1JIOTNXY0VuSGlwYlBjRmdKRW9DeUR6Z29nVmxxRWpXU0l1ZGMtN1diekM4M1A1YU41N19FaUg0bHBwWVBwek5oTVB1UXpJUlotSV8wSk5DTEwyeVVRcThTRWZ4SDZ1TjM0M3g5S1lha0hGWDdtSm52X28zWkg3b1Zld1JydGNTTVR3QzZ4Y2MzeFljaU9xR0J4VjYweTg5UDNZT1JpQWE5X1ZCYTNnWQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUVFRbGRBVURXbnVTeENQZXB3NUR2V3Zvd2dDbXBLc0ZxTE5hYWJOVVJ4ZTFzQzdUSUJvVlFtY2FYNlJlcjVBMElaOWI3dWJ3cDNRdmk4X0JudTQ4RnJzLUY1Z3NVWVRGYVN6bGRucGFiY0JmLVBNT1VlYldKN1VLV042NjNFNHhhMTh3a3k3bUhXMXdPYXBjMTdMZGd0WGsxcUJEN0c3cms0WjZPaF9rZFdMZ2ZaUUFaQ1lrWXJVd3RBRllhY05YOUdRc1JrZXZz?oc=5"
     },
     {
       "name": "Dylan Patel",
       "role": "Chief Analyst",
       "org": "SemiAnalysis",
       "cat": "Analyst",
-      "date": "2026-11-17",
-      "published": "Tue, 17 Nov 2026 15:08:00 GMT",
-      "source_name": "BigGo Finance",
+      "date": "2026-11-18",
+      "published": "Wed, 18 Nov 2026 05:34:19 GMT",
+      "source_name": "finance.biggo.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -342,19 +470,16 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): SemiAnalysis's Dylan Patel: Permits, Not Chips, Are Pushing Gigawatts of AI Data Centers Into 2028 - BigGo Finance",
+          "t": "Headline signal (not a direct quote): Dylan Patel on the AI Market Shakeout & Building SemiAnalysis｜Sourcery - finance.biggo.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0LXdCblMyTmxWZVg2V3MtZFRyMzd3ODhlZFlzU2d5cEJYeUxVcHRVZzRZUGxGSzhlS3VSamVDTzRZR0JjNWIwLTRPajc4SkdITjRVMnFUQW5WelE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KT3g1d2lsbWZfQVZsdjZmR3l2UkY0OEwwSUZOcXlycGFvTjB1REhNdDQ4MGQ0aVhfVUY4cDEwV3lMclZaV1gtYld5Y04yaUx1LW8temo3cFJrSWZFbDNz?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 16,
+  "fresh_signal_count": 22,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
