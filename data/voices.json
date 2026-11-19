@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-11-20T03:15:05.020579+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-20T05:14:28.639945+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-11-19",
-      "published": "Thu, 19 Nov 2026 16:29:00 GMT",
-      "source_name": "Fortune",
+      "date": "2026-11-20",
+      "published": "Thu, 19 Nov 2026 22:28:34 GMT",
+      "source_name": "Aswath Damodaran | Substack",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia can run without Jensen Huang. Can the AI boom? - Fortune",
+          "t": "Headline signal (not a direct quote): The Value of Human Frailty: Nvidia’s Jensen Huang Test! - Aswath Damodaran | Substack",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUjE3V1R5WG1KdWtiT25YS2h2SUFaVTZOdHpnVERxS3NBQkdhWFRob2tqWnltWG5zenZwS1M1ZjlpSGFlRTlHU0lNc21vLW9ia2ViNWxMaXpEenhZQXRMLXEzckdDZnVBZG81OWxzSlQ4dlhXVHBpM3pValU0bklVeTVMODRJQQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKdkVmVURJemg2dVJnX25hdl9ySHJqenpLUkMyLUFPQVpSeTFnYkgzb2FtNGZ4SG0zME95RDBFUFlfVVg5LWVuVVJFdlNXdkdYRFBCd3RLTnFnazRxWExtdVJiTElQRjNhX1hVZmpjNF93MGRKTGFZOHIzNkU2Zw?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -73,21 +73,21 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-11-19",
-      "published": "Wed, 18 Nov 2026 23:17:28 GMT",
+      "published": "Thu, 19 Nov 2026 00:42:56 GMT",
       "source_name": "TechCrunch",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit - TechCrunch",
+          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella explains why he asked 60K employees to quit - TechCrunch",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS0VTSmFiSVowWEVwd181R1BSTkVTMGpoLW5TOG5VM0o5ei1TOTFXdmd5Ny0wQlAyamhwdEt4QjhBbGwzbW1pcDlKdWZFSmZVOFN0R3MzZm42VHA1SUJWZzB4VFhZM0s4NFcxLXVSRGgyWkN5RnF0OVpRckx0RnE5OGwzY1FjbUV3SzV0VFBoeUZwS3l2RlM5TmE0bUtrS0FRV3RJQVVidG0wNVV6?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZWVzWkxaaHhSMm1vcFVPSTJ0cUVOQ0pDMmp6ZjVodEJwTjg5Zzl4MXc4XzBMM0VqZ0ViUkd0ZjZJZlRUTjZaSjdmYmVtMzZaNlpWcFhBdV83OElxTUFUQkRkUDdXN3ZhangzOGdXNjh2S3g1bFRhMTROSzZvY2hxVW8tUDhHRGIwNjBXR253Nnd3bmMyM0NuVmJwNnZwN2VrT2liN3BueWpaQQ?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -262,11 +262,35 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcVhSUVl6OU84ZWVnckpvbjJoYzgwdnVwTUQ5R3FTY3Z6bWtHSzFxSUhONWhJV1g4RnJ4NDMxQnp5ZGlfVTAtM2NYQ0pUNG1xRml2NU81NWk4S0RQTEx1aWtPcGI5OWxqQVo1YkNGNjRYbmdBam9tR05KSW1xR2NOLWgyMmkzeGxzVXlqYW5MZ1ExLTA3ejZWeTJPQWNra21rNmZwb0RUTDI0T01nZGdKQ3R4VlVVZ3VjNTUwMw?oc=5"
+    },
+    {
+      "name": "Gene Munster",
+      "role": "Managing Partner",
+      "org": "Deepwater Asset Management",
+      "cat": "Investor",
+      "date": "2026-11-20",
+      "published": "Thu, 19 Nov 2026 23:03:10 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 14,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): The AI selloff is 'overdone,' says Deepwater's Gene Munster - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcnBlT0tUdjdTeDZYVmthM0NMbVJ5X1Z1VG83RENVM1JvSDZmVWkwYVE5eExhamxqMUtxb1VYYktxTnNjeVVsNVFObjBHYVBRc3hvRjNIV0FkeGZtMHVPVm43N25MUjBWU0piOTkzWUIyVlpVd3lkZ1g4azFWY0w2aGhUQW5jNFFpVDYyaUlkaG9SOTJ6cWdMdDJrM0VXLUU?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 12,
+  "fresh_signal_count": 13,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
