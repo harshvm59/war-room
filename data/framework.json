@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T09:16:09.606961+05:30",
+  "updated_at": "2026-11-19T09:13:52.031904+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -7,77 +7,58 @@
       "company": "Nvidia Corporation",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 4,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
-          "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
-          "published": "2026-11-17",
-          "reporting_period": "Q3 fiscal 2027 ended October 25, 2026"
-        },
-        {
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx",
-          "title": "NVIDIA Announces CEO Transition",
-          "published": "2026-11-12",
-          "reporting_period": "Leadership change announced November 12, 2026"
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/?trk=article-ssr-frontend-pulse_little-text-block",
+          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "published": "2026-08-26",
+          "reporting_period": "Q2 fiscal 2027 ended 2026-07-26"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "Q3 FY2027 revenue was $115.8 billion, up 103% year over year.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
-          ],
-          "reporting_period": "Q3 fiscal 2027 ended October 25, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "The company reported continued demand for its accelerated-computing platforms and shipment of Vera Rubin NVL72.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
-          ],
-          "reporting_period": "Q3 fiscal 2027 ended October 25, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
           "verdict": "CAUTION",
-          "note": "The board announced Jensen Huang's immediate resignation and appointed Colette Kress as interim CEO and CFO.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx"
-          ],
-          "reporting_period": "Leadership change announced November 12, 2026"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "GAAP gross margin was 74.8% in Q3 FY2027, versus 73.4% a year earlier.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
-          ],
-          "reporting_period": "Q3 fiscal 2027 ended October 25, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "NVIDIA reported $28.1 billion returned to shareholders during Q3 FY2027 and $227.3 billion remaining under its repurchase authorization.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
-          ],
-          "reporting_period": "Q3 fiscal 2027 ended October 25, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "The disclosure identifies leadership transition, regulatory inquiries, supply-demand uncertainty, and the absence of China compute revenue in Q4 guidance.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx"
-          ],
-          "reporting_period": "Q3 fiscal 2027 and November 12, 2026 leadership announcement"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
           "verdict": "CAUTION",
@@ -95,7 +76,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
+          "title": "3Q26 Earnings Release",
+          "published": "2026-10-15",
+          "reporting_period": "Q3 2026 ended 2026-09-30"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -155,7 +143,20 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://ir.tesla.com/press-release/tesla-releases-third-quarter-2026-financial-results",
+          "title": "Tesla Releases Third Quarter 2026 Financial Results",
+          "published": "2026-10-21",
+          "reporting_period": "Q3 2026 ended 2026-09-30"
+        },
+        {
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066775/tsla-20260930-gen.pdf",
+          "title": "Tesla Form 10-Q for quarter ended September 30, 2026",
+          "published": "2026-10-21",
+          "reporting_period": "Q3 2026 ended 2026-09-30"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -215,7 +216,14 @@
       "overall_color": "#c9a84c",
       "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+          "title": "Meta Reports Third Quarter 2026 Results",
+          "published": "2026-10-21",
+          "reporting_period": "Q3 2026 ended 2026-09-30"
+        }
+      ],
       "questions": {
         "growing": {
           "verdict": "CAUTION",
@@ -273,76 +281,51 @@
       "company": "Alphabet Inc",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 4,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Third-Quarter-2026-Results-2026-FCcqxfIfmh/default.aspx",
-          "title": "Alphabet Announces Third Quarter 2026 Results",
-          "published": "2026-10-28",
-          "reporting_period": "Q3 2026 ended September 30, 2026"
-        },
-        {
-          "url": "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx",
-          "title": "2026 Q3 Earnings Call",
-          "published": "2026-10-28",
-          "reporting_period": "Q3 2026 ended September 30, 2026"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "Consolidated Q3 2026 revenue was $127.6 billion, up 25% year over year.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx"
-          ],
-          "reporting_period": "Q3 2026 ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
-          "verdict": "PASS",
-          "note": "The disclosure describes Search, Ads, Chrome, Cloud, YouTube, and Android as major products used globally, but competitive durability is not fully quantified.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Third-Quarter-2026-Results-2026-FCcqxfIfmh/default.aspx"
-          ],
-          "reporting_period": "Q3 2026 ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "management": {
           "verdict": "CAUTION",
-          "note": "Management reported increased investment in AI talent, Gemini, and technical infrastructure; capital-allocation effectiveness was not fully established.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx"
-          ],
-          "reporting_period": "Q3 2026 ended September 30, 2026"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Q3 2026 cost of revenue rose 24% and operating expenses rose 20%, while the reviewed release confirms strong quarterly results.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx"
-          ],
-          "reporting_period": "Q3 2026 ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
-          "verdict": "PASS",
-          "note": "Operating cash flow was $42.3 billion in Q3 2026 and $179.6 billion for the trailing twelve months.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx"
-          ],
-          "reporting_period": "Q3 2026 and trailing twelve months ended September 30, 2026"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "risk": {
           "verdict": "CAUTION",
-          "note": "The reviewed disclosure indicates materially higher AI infrastructure, depreciation, talent, and operating-investment costs; full downside risk evidence is incomplete.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx"
-          ],
-          "reporting_period": "Q3 2026 ended September 30, 2026"
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "timing": {
           "verdict": "CAUTION",
