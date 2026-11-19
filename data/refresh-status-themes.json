@@ -1,8 +1,8 @@
 {
   "feed": "themes",
   "status": "degraded",
-  "last_attempt_at": "2026-11-19T05:06:11.910149+05:30",
-  "last_success_at": "2026-11-19T05:06:15.540473+05:30",
+  "last_attempt_at": "2026-11-19T17:40:09.616774+05:30",
+  "last_success_at": "2026-11-19T17:40:13.739396+05:30",
   "error": {
     "code": "daily_research_limit",
     "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
@@ -11,5 +11,5 @@
   "outputs": [
     "themes.json"
   ],
-  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/44422135639"
+  "workflow_url": "https://github.com/harshvm59/war-room/actions/runs/44521344433"
 }
