@@ -1,83 +1,53 @@
 {
-  "updated_at": "2026-11-20T17:31:39.298043+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-11-21T02:59:28.996946+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "AI",
-      "headline": "Boom or Bubble? Understanding AI and the U.S. Economy - Council on Foreign Relations",
+      "ticker": "ANT",
+      "headline": "Anthropic shares fall 13% as AI-trade concerns intensify",
       "date": "2026-11-20",
-      "published": "Thu, 19 Nov 2026 19:52:21 GMT",
-      "summary": "Automated RSS market signal from Council on Foreign Relations. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSHdwemMwTHVoTXF6OGM3d21tZ0Yzc1g3dXl6VkcwN2kyeHNsMWxKVXFaTUpfQ1k1QTNfMkhhRVhxVkNTMi1tTVpZS1ZNTjJUZHpZUjU1bzJjSzY0UGFjd1F6dVNTdThCcHBZS0dQNGcwSk1vcVk3Q1hnVmtsLUlIc2tDZXR6ejQ?oc=5"
+      "published": "2026-11-20T17:42:58Z",
+      "summary": "Anthropic shares declined about 13% in their first full trading day as investors reassessed the strength and valuation of the AI trade after the company's IPO.",
+      "tag": "AI sell-off",
+      "url": "https://www.axios.com/2026/11/20/anthropic-stock-fall-ipo-ai"
     },
     {
       "ticker": "NVDA",
-      "headline": "3 Warren Buffett Rules That Make Nvidia Stock a Buy at Today's Price - The Globe and Mail",
+      "headline": "S&P 500 drops 3.7% as AI-stock sell-off accelerates",
       "date": "2026-11-20",
-      "published": "Fri, 20 Nov 2026 11:53:02 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZFM3U3FXRUl4Qy1JNEtfZEl3aVRKRjJHTU5GdlRyOEVlTHljR25hOEF4MnNVWGlOdzhhLXNoVlA3X3FJNUlZTG1pSXExSk1aSWdQUDBCaHloQ2ZHTmZ3UEFlU3NoU0E4WEcwbmdZS3NVS0RnYk9Sb0pOeU42bXB2SVI5RndfZE5SVUlmOGY0TW5aRlBJYm5uNHY3WEhNTXVjbk1JTmJZS1ZaZ1h3YnZ5U01maVlnUDhMNTBwX0QtSTI5YU1lXzRGcVY0ZTVjV2lUR0w4RXVUOVZXZXd4U3hQcHFHNlA1bDNiNzEw?oc=5"
+      "published": "2026-11-20T03:17:09Z",
+      "summary": "The S&P 500 fell 3.7% and the Nasdaq moved negative for the year as selling pressure intensified across AI-linked equities, including Nvidia, amid concerns about the scale and durability of the AI build-out.",
+      "tag": "Market risk",
+      "url": "https://apnews.com/article/c4c3f4878b12989347f8a930ed813dad"
     },
     {
       "ticker": "AMD",
-      "headline": "AMD vs. Nvidia: Risks and Benefits for AI Investors - SmartAsset.com",
-      "date": "2026-11-19",
-      "published": "Thu, 19 Nov 2026 17:51:58 GMT",
-      "summary": "Automated RSS market signal from SmartAsset.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xOVk1ZlZCODhsR3N0ZTBWcXdSOHV2MnRiVzEyV3RpZzM5VEZNYzY1ZUxOekN5d0tWQXdTUXI2Tkp4V2pEbmZzYTZSSmRmY08zdjBTOGxZbnBwdw?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "AI stocks are falling, but demand is still rising: Beansprout AI Tracker November 2026 - Beansprout",
+      "headline": "AI-linked equities slide as funding and valuation risks draw scrutiny",
       "date": "2026-11-20",
-      "published": "Fri, 20 Nov 2026 09:38:58 GMT",
-      "summary": "Automated RSS market signal from Beansprout. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGSVVmLWk2alpSeFpyUWdCNWdPZUlzM3AyWUN5NnlYUk1TSHZ0bklBcUR4TzRhcUg5VzhQNnpVVGdfX3NfaWljOERibjJLbERoWm9acUlwZ0JOU0twcW5QeVJSdUNkRzNy?oc=5"
+      "published": "2026-11-20T00:00:00Z",
+      "summary": "Market coverage highlighted broad weakness in AI infrastructure and semiconductor names as investors questioned capital intensity, valuation support and the sustainability of the AI investment cycle.",
+      "tag": "AI infrastructure",
+      "url": "https://www.informationweek.com/machine-learning-ai/the-week-of-nov-16-20-what-happened-what-matters-whats-next"
     },
     {
-      "ticker": "AI",
-      "headline": "DW News. . All eyes are on Anthropic's IPO. The fast-growing AI company has finally decided to go public. But its stock market debut comes at a time when Wall Street is growing increasingly concerned about the enormous spending behind the AI boom and w - Facebook",
-      "date": "2026-11-19",
-      "published": "Thu, 19 Nov 2026 13:01:04 GMT",
-      "summary": "Automated RSS market signal from Facebook. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaUYwUWFEeDB4ckFBdkNiWjR4SFhtUmtDRF90aGNpQ2VxTy1qckdmdVhIajZhUjNNLXhwQkMzM3R1ZTM4Nkx6ZndDUnZvejRFRUtpN1lrWnRINTJLb2ZxX25Yd1E3ZGl2bW45TzltS2VkcUVMdlh4dXpmcjhqVXdkUTItdFR6cDFmNzdkQ3RtdHpYYWdPWVFJcmFaZ1JKSVB5ZWVNdEl1bEhSN1ZVNjF1aVdvV3dVOFoyM0xnODJQb1BWOTNUb1U1SXlaVlVfNlY3V0d0MUFqWXlsdkZqUU9qaGpB?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Nvidia Stock Plunges 40% Despite Blockbuster Q3 Earnings - The Tech Buzz",
+      "ticker": "ANT",
+      "headline": "Anthropic IPO fails to revive broader AI-market enthusiasm",
       "date": "2026-11-20",
-      "published": "Thu, 19 Nov 2026 22:34:52 GMT",
-      "summary": "Automated RSS market signal from The Tech Buzz. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc1FKYVdXLVNGaTFPeExxeE1SNmk5cnZqUzVmZU1EdGRYb2xURDVnSUVvUXlsb0d0cGliejFsTHlLSHc0Rkl1LUpqQ3lmMFZqcVNRSFJJcHRPSkZwcjdoV2Y4bWM1clcyVzNUUDVyazRBbVFwai1VX3Bsc3JVWXRUQ0VtT1VQVUhTUVRSNGlrZU5tUQ?oc=5"
+      "published": "2026-11-20T00:00:00Z",
+      "summary": "A market review reported that Anthropic's debut and Nvidia's earnings did not restore confidence in the wider AI trade, with risk aversion spreading across related assets.",
+      "tag": "Portfolio signal",
+      "url": "https://www.edmond-de-rothschild.com/media/1anphrv5/edram-market-flash-20-11-2026-english.pdf"
     },
     {
-      "ticker": "AMD",
-      "headline": "AMD Is Actually Cheap With Projected Earnings Now Costing Less Than 50 Cents on The Dollar - 24/7 Wall St.",
-      "date": "2026-11-19",
-      "published": "Thu, 19 Nov 2026 17:45:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWFhGX1ZVSEhnajNLbDhYUzBGeVItbzZ1RndmdXgtV242UGdTSWIzMGprbGlwdHBlbmZaTHMtbjlBd1IyVG56RzhBZGt1MmJNa1dzRHhkTE9VdHJyOEw4S0Z2RnVkejdJSkZ5M0xycW1ZaFBXLWdFNjdpdU1pRTZTZXhnTzdiY0RTcUVSOHlsMjY5dDRMQkk4WjR4Ti14NEc4NzFKdG9iOElfLUk2andlUlo5QWxIbnVVMzRkc0VjZ2xnd1B4UDBkRm5SeEQwOUE?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Anthropic’s IPO puts AI’s circular financing boom to the test - TechCrunch",
-      "date": "2026-11-19",
-      "published": "Thu, 19 Nov 2026 14:54:39 GMT",
-      "summary": "Automated RSS market signal from TechCrunch. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM0M3aVUzbkYxNTJXTXJxdWxKa2x1LXp5bDU5UGQ3amdCdHRxOFc2RUprbzNQa3Z5Z003NjdPcjh6NnNpN1dJbDRsemZRdzl5OTFObGNVTnQzdVdBd0tPWWlHaVd1N2p5NVlvamlRRUxVX3l2WnJEVHJraXRRQUpyLWRtSUlKdV8tUmxkYjdOSG5nZk9hTU55OUlR?oc=5"
+      "ticker": "INTU",
+      "headline": "Intuit cuts fiscal-year outlook as AI search disrupts Credit Karma",
+      "date": "2026-11-20",
+      "published": "2026-11-20T00:00:00Z",
+      "summary": "Intuit reported quarterly results but reduced parts of its fiscal-year outlook, with coverage citing higher-for-longer rates and search shifting toward AI chatbots as pressures on Credit Karma.",
+      "tag": "AI disruption",
+      "url": "https://research.unionsecurities.ch/2026/11/20/equity-market-morning-news-november-20th-2026/"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }

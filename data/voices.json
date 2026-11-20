@@ -1,15 +1,79 @@
 {
-  "updated_at": "2026-11-20T17:31:39.297758+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-11-21T02:59:28.996541+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Dan Ives",
+      "role": "Technology analyst",
+      "org": "Wedbush Securities",
+      "cat": "AI-market sentiment",
+      "date": "2026-11-20",
+      "published": "2026-11-20T17:42:58Z",
+      "themes": [
+        "AI sell-off",
+        "technology valuations"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Ives characterized the market decline as a painful technology sell-off amid weakening sentiment toward AI-related stocks.",
+          "k": true
+        }
+      ],
+      "src": "https://www.axios.com/2026/11/20/anthropic-stock-fall-ipo-ai",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Paul Edelman",
+      "role": "Global Chief Investment Strategist",
+      "org": "Russell Investments",
+      "cat": "Portfolio strategy",
+      "date": "2026-11-20",
+      "published": "2026-11-20T00:00:00Z",
+      "themes": [
+        "risk aversion",
+        "Anthropic IPO",
+        "Nvidia",
+        "AI investment cycle"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Edelman said markets were showing greater risk aversion while Nvidia's strong earnings failed to overcome leadership concerns and broader anxiety about the AI trade.",
+          "k": true
+        }
+      ],
+      "src": "https://russellinvestments.com/content/ri/us/en/insights/russell-research/2026/11/strong-earnings-meet-rising-market-volatility.html",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Jensen Huang",
+      "role": "CEO",
+      "org": "Nvidia",
+      "cat": "CEO",
+      "date": "2026-11-21",
+      "published": "Fri, 20 Nov 2026 20:04:00 GMT",
+      "source_name": "Investor's Business Daily",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Could Jensen Huang Land At Nvidia Rival Intel? - Investor's Business Daily",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYkhHQm5ncjdJOUttaW5CRkVUV0RWTlE4c29LVlRFVnRqWmwtcWhOWmdXeTB5bVlIZExWb3ZSLW1IVWIwM0ZkS3pIZTgxOHNOOGtiVHlWWEhrbVZOV1ZHVGZnY3p4U2U0eWJWeVBvV2Zyc3lOM0h0ZDhmV3NaQ2prLXU3eUdJTVh3ZnI0dmZHbXBLdw?oc=5"
+    },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-11-20",
-      "published": "Thu, 19 Nov 2026 20:00:19 GMT",
-      "source_name": "Fast Company Middle East",
+      "date": "2026-11-21",
+      "published": "Fri, 20 Nov 2026 20:57:52 GMT",
+      "source_name": "Substack",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -17,55 +81,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman calls UAE the world’s most forward-looking country in AI adoption - Fast Company Middle East",
+          "t": "Headline signal (not a direct quote): MAN AND ROBOTS: This Is Why Jeff Bezos Didn’t Want You to See Luca Guadagnino’s Sam Altman OpenAI Movie - Substack",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZFJud05ycVhGZEJNelY0R2RwbW1HYWNORjdZdU94QTNLb1ZZV1lJcWVVSFFoVGtRZl9LelRBeW1FMDMwejVSbC1MMjF2Z01GcWEzSzAzYUNnd3lSRUQwcEFQQThKUHhac19tQmNQTlJLdHY1R19OS3JSMzRERldqU0swUG1EQUVYaXR0YXl1ejFQZnZBRnA2YTMxV1pEVnhHdGkxdDN0ZE1pSGJDOXl6UXB4Wl9Kc2ttUUE?oc=5"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-11-19",
-      "published": "Thu, 19 Nov 2026 14:56:00 GMT",
-      "source_name": "24/7 Wall St.",
-      "signal_type": "source-linked headline",
-      "relevance_score": 12,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Intel Climbs 7% on First 18A Customer, NVIDIA Gains 4% as Trump Floats Blackwell Sales to China and Dan Ives Hails Anthropic IPO; AMD Rises 3% - 24/7 Wall St.",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNM19ZSmR2VXVEaW9kOFR3VXZub0ZwOUR5TFI4ZHlqVHJJVEc5cEl5dGJ5Mk52bGtKbllOQU5BSDVGd2JuMUhUdTgwX2NSOWpURDN5TjI3Vm1GZDhwZGxLQXhkazlEcGRTVF9wY1AyVjNUajRoNTFYRUtBWm00LVlITlctRHBDZldUeFBjV1ExY3U3Q0ZlZE9Bejh2Z3dSa2otZFFvaWRmMHV5SDRaWkR0QUc4cUozME1Db2Z4cy1iSl9XTHdXcGRwTU95ZDFPYkVMU1ZvWEtha29xVU91cFhUekRyTHg0TkRTOFhlWFVxSVliREZqOThmb3lZdVp3eUl3TkRDWGNNQU1PVGxZdkE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1PaDR6WnlRM0lHRzNFck5uTGxUQ01FTWpqRnBXcVFhRmV1cVRmbFlMZU1qOG5La0hXVWIyRGxmcVhEUDQzOGJ5d050YktZWlBxOTdGNEJKZnVwVkJ6VWRKOUwyWmdENFdYWWgzQTh6VDNnT3lmY0tz?oc=5"
     },
     {
       "name": "Satya Nadella",
       "role": "CEO",
       "org": "Microsoft",
       "cat": "CEO",
-      "date": "2026-11-19",
-      "published": "Thu, 19 Nov 2026 17:01:00 GMT",
-      "source_name": "New York Post",
+      "date": "2026-11-20",
+      "published": "Fri, 20 Nov 2026 04:09:00 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#MSFT"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AI likely to cause more outages after ‘perfect storm’ slammed Microsoft, CEO Satya Nadella warns - New York Post",
+          "t": "Headline signal (not a direct quote): Microsoft CEO Satya Nadella explains why he asked 60K employees to quit - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObE4xZWxfd3djTWpaT0lIYWtCb2NLOEoxSHVQX2ZUV0dHcEhpYnQyLTFHVGtmYmdGc3pGb2pwb0E0U20xNnYzOU4xOWZvRUFfcGlvdjVVX045b0VNcDhfamdDRjN6U19XbTdlNmhORDAtMlROc0ptbk9iZE1SWUVPVFVkNUNLVzJ2azF0RWJwSGZ6bEVhaG5uZFU4NVdXSUdyN09VbFJQaU9zOFVWR2R3SWxEejFYeHdLdGF5azd4V1ZUZGlFLXc0QQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaU5fcWdWTThEVlRJcHBxc3g4bHI2ZmpvSFJEaWxQbmZsdnVWOFZQc2J2VlR3QlZwclptUVJfMF9XNDN3NzJmSVptUjR5NVpOWXhCTDJKWE11a20tQVdicU0wemtwdkRkUmVWODdKeE9GdnhmS1BKcHo5U1dKajVDQXJZN0dfRVc4WGItSVNITVAyR0ZIZXA1c3ZmcDR6S01ReVE?oc=5"
     },
     {
       "name": "Lisa Su",
@@ -73,8 +115,8 @@
       "org": "AMD",
       "cat": "CEO",
       "date": "2026-11-20",
-      "published": "Fri, 20 Nov 2026 01:03:57 GMT",
-      "source_name": "조선일보",
+      "published": "Fri, 20 Nov 2026 16:07:46 GMT",
+      "source_name": "The Profile | Polina Pompliano",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -83,11 +125,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): AMD CEO Lisa Su Praises Huang, Says NVIDIA Noise Will Subside - 조선일보",
+          "t": "Headline signal (not a direct quote): Who Is Lisa Su? AMD CEO as Shares Fall on a Short Report - The Profile | Polina Pompliano",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMnZPQ3h5ejFFWjF2WWJZREUyYk0yNTBrcWYzYXhYV2ItS0JxcmF0YkNKUEZHeWhYMjZ5RHZjdERwb3N1ak5oLXRGZGxSSlJKUUUwMmpHVV9iYnpmbWZwNnpMczlqYmlaX2Q4dTZKeGZGUEgtOU1RR0ZzSldvMGt0X2s1SWMxb3ky?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yeGpoMkJ6Y0JIY2FBYlBhRDFoX1VQT3htbUVTRXVUS2ZBN05KeWtqTXhib29oam5NRXUyNW01bTJIZlJ5RV83ZU5XWEtKbm1sbW0zWHA5MGpvZXM?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -116,22 +158,44 @@
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
-      "date": "2026-11-19",
-      "published": "Thu, 19 Nov 2026 18:14:00 GMT",
-      "source_name": "Britannica",
+      "date": "2026-11-20",
+      "published": "Fri, 20 Nov 2026 00:53:14 GMT",
+      "source_name": "Facebook",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk | SpaceX, Tesla, xAI, X, & PayPal - Britannica",
+          "t": "Headline signal (not a direct quote): Tesla and SpaceX chief executive Elon Musk, the world’s richest man, is developing one or two islands in the Philippines, according to Ambassador to the US Jose Manuel Romualdez. http://tiny.cc/mqxd101 - Facebook",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xeFllLWI4enZVQmExeDZsV2Ewa19ESXc4XzVlUmc3N29kQmhyRnZOa2dWUlV1SFd2bHBkS3FrX0ZTTW5PekRWaFUweEFOMkgwRDNnRQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVEl3dXlHNjlmWWxSdVl2UG84bUFCeXlNSXotU0hvV3Vra2V1Y3dYWjJfLVY1YnA0bFNBenFFLUIyS3VGSDQ5ZW8xRFlDXzhVQmE4OTY5OUNYYVFYMHNEdU0xV1c5NnpEbk5TZHN3X08yNFFxejlWaVhTaHR4YnRCaEw5Vkt5b3l5SlBpN2dXZjQyUDdUamRGUlNoSjFxSWthVy1sT0dsa0duRURkR0x6NTJXZzBqSW92cmZBSTh2bUY3dmRNdmszSlh4ZDJlbEVha0MtUXY0QTNwZmhGc1E?oc=5"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "role": "CEO",
+      "org": "Meta",
+      "cat": "CEO",
+      "date": "2026-11-21",
+      "published": "Fri, 20 Nov 2026 21:03:00 GMT",
+      "source_name": "Cryptonews",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#META"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts the Flippening: How Does ADA Flip XRP? - Cryptonews",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaC1uTlA2TXVJTUtNUjdvTXlGOFBvalRZZVJETFVlLVo1M0ZUdFBmczg4MFdRQ2xpd1U1ZVdqX3pHT3gxYVViLUlJWDV0MXNZbE80RUFuOHZQdWNLSDJ0dVdSVFd3V2xfRWFlb0dzbFlub2ZKckJjdDRmOURBN3lEbVZseGUycjMtbi1ZajhmVWxJUnkyZmFFa3BHQUF5TmhU?oc=5"
     },
     {
       "name": "Sundar Pichai",
@@ -139,8 +203,8 @@
       "org": "Alphabet",
       "cat": "CEO",
       "date": "2026-11-20",
-      "published": "Fri, 20 Nov 2026 07:33:23 GMT",
-      "source_name": "immigration-analytics.com",
+      "published": "Fri, 20 Nov 2026 09:39:45 GMT",
+      "source_name": "DD News",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -149,11 +213,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): A Year's Salary for a Plane Ticket: Sundar Pichai's Journey From Chennai to the Top of Google - immigration-analytics.com",
+          "t": "Headline signal (not a direct quote): Google CEO Sundar Pichai outlines tech giant’s AI efforts across health, weather and learning - DD News",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZ1FsY2FhdUJZSWZPS0UyYnVxNXVnQ3gzbHdPTHpqaWdkUWR2X2FHVW5KUERJVHRwcHdMMjRJaXBDaS1lWF9SU3Y3N3dyQmJMOUV4UkJRdTRpTVZ0MURBUDhxYmEwMDZSQVFNVFBZY3pQSUMyMnEyVHVOVTliZE44Nlp0UUNIQXFPUzR6Z1VselBNWXhKMWx2d0U0MndvbUpjbXZvSmt0LTJvMFNpVTZ2NVhHRVpVTmcxQ1I4SGlaejlvc3Y5c1lWR3RkenhxNXJzVkE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ3lhcTBHWWQ5a1VXVDhBbVlaN1hIU1dtNzNBc090RWNtZVlXUHFnWmdnYTVTc1dEWWg3N1VCS05xWVpESVllMUtGQXBGbjAxWTBPcjVqSUhWYUhqRk9ueGNwcEt4bGJwb1QxRW1yNVpZY21lVmpBTXhXLUl5OFV3TmR5RDVnQUo3elc5MFJJYVlVaTNSUXFhdXpFcUxhOEszUG81YmlIaUdpeE1XbnphRlRxMWZXRzBt?oc=5"
     },
     {
       "name": "Larry Ellison",
@@ -161,20 +225,20 @@
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-11-20",
-      "published": "Fri, 20 Nov 2026 09:12:44 GMT",
-      "source_name": "TVGuide.co.uk",
+      "published": "Fri, 20 Nov 2026 17:23:07 GMT",
+      "source_name": "Forbes",
       "signal_type": "source-linked headline",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): How Larry Ellison Built His Empire on Bloomberg HD: full details and when it's on - TVGuide.co.uk",
+          "t": "Headline signal (not a direct quote): Larry Ellison No Longer Among World’s 10 Richest Billionaires As Oracle Stock Plummets - Forbes",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc3V6cHphV3JFQ083cU9BR3U5b3FpQnlNVF9SS2xrRVpWNGI2RE5ZdkozN0VBQ3E0NmJKeFkxT29EU1hwTXhBNm9RdV9pU3pOYjNfQzBnU2p4TWJranBmQWw2N3RpNHZDR2twd1N6NVpYMnlMU1Z4VDEwSnhhU1lyVVY2UXg3SWdTUURKNjZGbVJXX3RIMVIxOEFmbGo5Qkc3ZEZ3MVhuOUN5QQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZFJwOExqMy1rTS1SWW1fUXFWZ3JKR1FuTjYwZnZYRGNKZU5SaU10WW42dnF0U3djVENwcHpKa1FRVEQtQXlpOUZOcDNzRVhkeFNRM1l0YkNObzVBZnIyRHl0NGNwVDZkM1dhcEFjbXFRQkJHMzctZEtYRHRKV3V2MjNZd2MxWUdONHkwaFJkTmZwdk1DT0N3c092UkZjNV9HVUJBZ1lxR1hjenlFRTJfQlVqWmMtekQ1bHpLWHUwYnZuT2lfTnIyMUJ6Vm1xbTJaaXlDUXMxZ3JOdlVIV3c?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -182,29 +246,29 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-11-20",
-      "published": "Fri, 20 Nov 2026 05:22:00 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Fri, 20 Nov 2026 13:44:02 GMT",
+      "source_name": "The Motley Fool",
       "signal_type": "source-linked headline",
       "relevance_score": 17,
       "themes": [
         "#AI",
-        "#NVDA"
+        "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK Invest Loads Up $90M In Anthropic Shares, Dumps Nvidia As China Chip Sale Woes Deepen - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Cathie Wood's Ark Has Been Selling Palantir Stock. Under $160, I'd Buy It Now. - The Motley Fool",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQUk3VHlKRmRIemRWN2ttNjkwWk9FZjhURnE1a3BkYlRzamZpNkQyVWZsaS1nSWhrVHFCREwyTFZaZUxGa3QtNlkxZ3RaQmRvMlc1LVM2YWU0UVp2SkZhUUptVHdTdFhrQklwQVMxbGgyX2NDMWJxb3JwN0Y3RFU4MVVndXFiRE44RDB6M0FiMEF3WlNhdEVGSw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPanRnTUJXWHhlNGdRSEZ1NWsyWFZTZ1hBSHpGV2RlejY3VGVHbUdOYWVuS1pqODhFRWJrbk9IT1dSTExzSW9senhQZnl6ckprQTltUEk3NFdxUnN5QThEUkNMMVc0UEZrbEJEcWM1aGtNY1I2UlNqeHhWY1ljR2VFV1R6T2Fmd01rc0o1emtjQ1BfSks3VktBbTVPNDlDT1lOQmRCVUdwbWE1YkhjclZQYjc3QTFia09NWUljNw?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-11-19",
-      "published": "Thu, 19 Nov 2026 17:15:33 GMT",
+      "date": "2026-11-20",
+      "published": "Fri, 20 Nov 2026 01:02:00 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -213,11 +277,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer says to buy stock in this sleeping tech giant 'aggressively, aggressively' - CNBC",
+          "t": "Headline signal (not a direct quote): This market is full of contradictions, it loves to fool you, says Jim Cramer - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcVhSUVl6OU84ZWVnckpvbjJoYzgwdnVwTUQ5R3FTY3Z6bWtHSzFxSUhONWhJV1g4RnJ4NDMxQnp5ZGlfVTAtM2NYQ0pUNG1xRml2NU81NWk4S0RQTEx1aWtPcGI5OWxqQVo1YkNGNjRYbmdBam9tR05KSW1xR2NOLWgyMmkzeGxzVXlqYW5MZ1ExLTA3ejZWeTJPQWNra21rNmZwb0RUTDI0T01nZGdKQ3R4VlVVZ3VjNTUwMw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMHhDQkRkSzdTRkRuQXlfeFpRMWhOVGo2VlJNSXJSbjhjUkUzY3dhbld5b085ckhJRjktRzQ2YTJTSU9wT2swUGVqenJNOU5jZFotcmhiOGhyX2t0bUFKVmd3dVI2Q1E1cWtmZVd6UnhJY1JwZS1WZUJabkF5aXA0dTJIVl80bEpiSmRiUTlaU1d3U2hXNUlqcUZLaHhLLUg4RmZ4WUNYR3pOU3hkbmJrUkxwUjRfQmRW?oc=5"
     },
     {
       "name": "Gene Munster",
@@ -239,14 +303,54 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcnBlT0tUdjdTeDZYVmthM0NMbVJ5X1Z1VG83RENVM1JvSDZmVWkwYVE5eExhamxqMUtxb1VYYktxTnNjeVVsNVFObjBHYVBRc3hvRjNIV0FkeGZtMHVPVm43N25MUjBWU0piOTkzWUIyVlpVd3lkZ1g4azFWY0w2aGhUQW5jNFFpVDYyaUlkaG9SOTJ6cWdMdDJrM0VXLUU?oc=5"
+    },
+    {
+      "name": "Stacy Rasgon",
+      "role": "Senior Analyst",
+      "org": "Bernstein",
+      "cat": "Analyst",
+      "date": "2026-11-21",
+      "published": "Fri, 20 Nov 2026 20:02:50 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 13,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Uncomfortable recommending Nvidia even at these levels, says Bernstein's Stacy Rasgon - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNlBDWlJpalVMUTNtSm5JSFBNekdsdTFhLVFSa1E3bzM1NWlFUXlHckVCWmJoekJuZVZRZFdDZ2QxLUdvOGZtXzRUdDlnOEo0TmtKNFhQLUpXVVJIS1JzWUdydkVHbDYtaHlhbGkzQW9GZTUxMmFxSVVJWV9HU20xUG9hb2VkZ2YtV25QUnVtY19wS3R3d0JVREZ6X3FfYlpTZVBZNGxMY0FBaFBxc0QxQVNtWm1oN2ctQ2NiRHJMSUN3T0Nr?oc=5"
+    },
+    {
+      "name": "Dylan Patel",
+      "role": "Chief Analyst",
+      "org": "SemiAnalysis",
+      "cat": "Analyst",
+      "date": "2026-11-20",
+      "published": "Fri, 20 Nov 2026 14:55:41 GMT",
+      "source_name": "BigGo Finance",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): SemiAnalysis's Dylan Patel: Permits, Not Chips, Are Pushing Gigawatts of AI Data Centers Into 2028 - BigGo Finance",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0LXdCblMyTmxWZVg2V3MtZFRyMzd3ODhlZFlzU2d5cEJYeUxVcHRVZzRZUGxGSzhlS3VSamVDTzRZR0JjNWIwLTRPajc4SkdITjRVMnFUQW5WelE?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 11,
+  "fresh_signal_count": 16,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
