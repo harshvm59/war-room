@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T03:25:49.989594+05:30",
+  "updated_at": "2026-11-20T07:56:53.363030+05:30",
   "source": "yahoo+local-ta+rules",
   "items": [
     {
@@ -8,11 +8,11 @@
       "urgency": "critical",
       "color": "#e05252",
       "price": "$145.98, +78.9% from $81.58",
-      "signal": "RSI 19.64 (oversold), MACD histogram +n/a, price -30.1% vs SMA50. Position +78.9% at 18.7% weight (P1). +155% from avg $86. Blackwell demand unprecedented — TSMC CoWoS booked through 2027. Hold entire position. Next DCA add only on -15% dip to ~$187. Do NOT sell.",
+      "signal": "RSI 19.64 (oversold), MACD histogram +n/a, price -30.1% vs SMA50. Position +78.9% at 18.6% weight (P1). +155% from avg $86. Blackwell demand unprecedented — TSMC CoWoS booked through 2027. Hold entire position. Next DCA add only on -15% dip to ~$187. Do NOT sell.",
       "entry": "$203–$213",
       "stop": "$134",
       "target": "$175 (3 mo)",
-      "sizing": "$500/mo DCA · 18.7% of portfolio",
+      "sizing": "$500/mo DCA · 18.6% of portfolio",
       "action_text": "Accumulate near $203–$213; stop $134"
     },
     {
@@ -85,13 +85,13 @@
       "action": "ADD",
       "urgency": "critical",
       "color": "#e05252",
-      "price": "$252.03, -3.7% from $261.82",
-      "signal": "RSI 42.92 (neutral), MACD histogram +n/a, price -5.66% vs SMA50. Position -3.7% at 1.4% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
-      "entry": "$259–$273",
-      "stop": "$232",
-      "target": "$302 (3 mo)",
-      "sizing": "$580/mo DCA · 1.4% of portfolio",
-      "action_text": "Accumulate near $259–$273; stop $232"
+      "price": "$262.74, +0.3% from $261.82",
+      "signal": "RSI 47.64 (neutral), MACD histogram +n/a, price +n/a% vs SMA50. Position +0.3% at 1.5% weight (P0). URGENT — only +8% from avg $289. 3.02 units now. Microsoft 20yr PPA + Three Mile Island restart + Amazon data center nuclear deals. Nuclear repricing just start",
+      "entry": "$255–$268",
+      "stop": "$242",
+      "target": "$315 (3 mo)",
+      "sizing": "$580/mo DCA · 1.5% of portfolio",
+      "action_text": "Accumulate near $255–$268; stop $242"
     },
     {
       "ticker": "TSLA",
@@ -108,16 +108,16 @@
     },
     {
       "ticker": "META",
-      "action": "ADD",
+      "action": "HOLD",
       "urgency": "medium",
       "color": "#4a9eff",
-      "price": "$596.22, +46.9% from $405.93",
-      "signal": "RSI 36.74 (neutral), MACD histogram +n/a, price -12.11% vs SMA50. Position +46.9% at 10.5% weight (P1). +42% from avg $430. Llama 4 multimodal + AI Ads revenue +27% YoY. Reality Labs losses narrowing. $200/month DCA. Add aggressively on dips below $570.",
-      "entry": "$658–$692",
-      "stop": "$549",
-      "target": "$715 (3 mo)",
-      "sizing": "$200/mo DCA · 10.5% of portfolio",
-      "action_text": "Accumulate near $658–$692; stop $549"
+      "price": "$616.38, +51.8% from $405.93",
+      "signal": "RSI 41.43 (neutral), MACD histogram +n/a, price +n/a% vs SMA50. Position +51.8% at 10.8% weight (P1). +42% from avg $430. Llama 4 multimodal + AI Ads revenue +27% YoY. Reality Labs losses narrowing. $200/month DCA. Add aggressively on dips below $570.",
+      "entry": "$598–$629",
+      "stop": "$567",
+      "target": "$740 (3 mo)",
+      "sizing": "$200/mo DCA · 10.8% of portfolio",
+      "action_text": "Hold; review on next signal"
     },
     {
       "ticker": "AMZN",
@@ -125,11 +125,11 @@
       "urgency": "medium",
       "color": "#4a9eff",
       "price": "$257.37, +39.4% from $184.65",
-      "signal": "RSI 48.96 (neutral), MACD histogram +n/a, price +0.84% vs SMA50. Position +39.4% at 7.2% weight (P1). +41% from avg $195. AWS Bedrock AI inference compounding. Project Kuiper launching. $200/month — add aggressively below $260.",
+      "signal": "RSI 48.96 (neutral), MACD histogram +n/a, price +0.84% vs SMA50. Position +39.4% at 7.1% weight (P1). +41% from avg $195. AWS Bedrock AI inference compounding. Project Kuiper launching. $200/month — add aggressively below $260.",
       "entry": "$248–$260",
       "stop": "$235",
       "target": "$309 (3 mo)",
-      "sizing": "$200/mo DCA · 7.2% of portfolio",
+      "sizing": "$200/mo DCA · 7.1% of portfolio",
       "action_text": "Hold; review on next signal"
     },
     {
@@ -137,12 +137,12 @@
       "action": "HOLD",
       "urgency": "medium",
       "color": "#4a9eff",
-      "price": "$153.68, +69.1% from $90.87",
-      "signal": "RSI 31.29 (oversold), MACD histogram +n/a, price -16.36% vs SMA50. Position +69.1% at 7.8% weight (P2). +51% from avg $92. AIP platform — 85% US commercial revenue growth. Rule of 40 = 145%. Government contracts expanding NATO. Do NOT add above $140.",
-      "entry": "$178–$187",
-      "stop": "$141",
-      "target": "$184 (3 mo)",
-      "sizing": "$100/mo DCA · 7.8% of portfolio",
+      "price": "$156.67, +72.4% from $90.87",
+      "signal": "RSI 32.96 (oversold), MACD histogram +n/a, price +n/a% vs SMA50. Position +72.4% at 7.9% weight (P2). +51% from avg $92. AIP platform — 85% US commercial revenue growth. Rule of 40 = 145%. Government contracts expanding NATO. Do NOT add above $140.",
+      "entry": "$152–$160",
+      "stop": "$144",
+      "target": "$188 (3 mo)",
+      "sizing": "$100/mo DCA · 7.9% of portfolio",
       "action_text": "Hold; review on next signal"
     },
     {
@@ -176,37 +176,37 @@
       "action": "HOLD",
       "urgency": "medium",
       "color": "#4a9eff",
-      "price": "$243.46, +125.5% from $107.96",
-      "signal": "RSI 53.45 (neutral), MACD histogram +n/a, price -1.27% vs SMA50. Position +125.5% at 6.4% weight (P2). +26% from avg $429. ARR growing 22% but slowing. Consider rotating 50% into PANW (stronger AI cyber, better margins). Watch Q2 earnings closely.",
-      "entry": "$239–$252",
-      "stop": "$224",
-      "target": "$292 (3 mo)",
-      "sizing": "6.4% of portfolio · no active DCA",
+      "price": "$237.03, +119.5% from $107.96",
+      "signal": "RSI 50.03 (neutral), MACD histogram +n/a, price +n/a% vs SMA50. Position +119.5% at 6.2% weight (P2). +26% from avg $429. ARR growing 22% but slowing. Consider rotating 50% into PANW (stronger AI cyber, better margins). Watch Q2 earnings closely.",
+      "entry": "$230–$242",
+      "stop": "$218",
+      "target": "$284 (3 mo)",
+      "sizing": "6.2% of portfolio · no active DCA",
       "action_text": "Hold; review on next signal"
     },
     {
       "ticker": "VRT",
-      "action": "ADD",
+      "action": "HOLD",
       "urgency": "medium",
       "color": "#4a9eff",
-      "price": "$184.99, -16.8% from $222.37",
-      "signal": "RSI 40.43 (neutral), MACD histogram +n/a, price -17.72% vs SMA50. Position -16.8% at 1.9% weight (P1). +57% from avg $221. Data center cooling backlog $18B+. Liquid cooling orders +280% QoQ. Wait for pullback to $310–325 before adding. Hold entire position.",
-      "entry": "$218–$229",
-      "stop": "$170",
-      "target": "$222 (3 mo)",
-      "sizing": "1.9% of portfolio · no active DCA",
-      "action_text": "Accumulate near $218–$229; stop $170"
+      "price": "$194.48, -12.5% from $222.37",
+      "signal": "RSI 43.5 (neutral), MACD histogram +n/a, price +n/a% vs SMA50. Position -12.5% at 2.0% weight (P1). +57% from avg $221. Data center cooling backlog $18B+. Liquid cooling orders +280% QoQ. Wait for pullback to $310–325 before adding. Hold entire position.",
+      "entry": "$189–$198",
+      "stop": "$179",
+      "target": "$233 (3 mo)",
+      "sizing": "2.0% of portfolio · no active DCA",
+      "action_text": "Hold; review on next signal"
     },
     {
       "ticker": "BE",
       "action": "HOLD",
       "urgency": "medium",
       "color": "#4a9eff",
-      "price": "$168.11, -27.1% from $230.61",
-      "signal": "RSI 38.03 (neutral), MACD histogram +n/a, price -28.97% vs SMA50. Position -27.1% at 0.8% weight (P3). Lottery ticket — +8% at $267. Solid-oxide fuel cells for AI data centers. $467 correctly sized. Wait for 2 consecutive earnings beats before adding. Do NOT size",
-      "entry": "$230–$241",
-      "stop": "$155",
-      "target": "$202 (3 mo)",
+      "price": "$170.98, -25.9% from $230.61",
+      "signal": "RSI 38.73 (neutral), MACD histogram +n/a, price +n/a% vs SMA50. Position -25.9% at 0.8% weight (P3). Lottery ticket — +8% at $267. Solid-oxide fuel cells for AI data centers. $467 correctly sized. Wait for 2 consecutive earnings beats before adding. Do NOT size",
+      "entry": "$166–$174",
+      "stop": "$157",
+      "target": "$205 (3 mo)",
       "sizing": "0.8% of portfolio · no active DCA",
       "action_text": "Hold; review on next signal"
     },
@@ -215,18 +215,18 @@
       "action": "HOLD",
       "urgency": "medium",
       "color": "#4a9eff",
-      "price": "$189.59, +32.7% from $142.88",
-      "signal": "RSI 51.19 (neutral), MACD histogram +n/a, price -1.59% vs SMA50. Position +32.7% at 1.1% weight (P1). -1.2% from avg $147. 3.62 units now. 800G AI networking upgrade cycle just starting. Every hyperscaler GPU cluster needs Arista. $150/month DCA. Add dips below",
-      "entry": "$187–$197",
-      "stop": "$174",
-      "target": "$228 (3 mo)",
+      "price": "$193.94, +35.7% from $142.88",
+      "signal": "RSI 53.49 (neutral), MACD histogram +n/a, price +n/a% vs SMA50. Position +35.7% at 1.1% weight (P1). -1.2% from avg $147. 3.62 units now. 800G AI networking upgrade cycle just starting. Every hyperscaler GPU cluster needs Arista. $150/month DCA. Add dips below",
+      "entry": "$188–$198",
+      "stop": "$178",
+      "target": "$233 (3 mo)",
       "sizing": "$150/mo DCA · 1.1% of portfolio",
       "action_text": "Hold; review on next signal"
     }
   ],
   "portfolio_snapshot": {
     "total_invested": 59046.05,
-    "total_value": 94177.08,
-    "pnl_pct": 59.5
+    "total_value": 94679.5,
+    "pnl_pct": 60.35
   }
 }
