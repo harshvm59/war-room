@@ -1,83 +1,17 @@
 {
-  "updated_at": "2026-11-21T17:06:55.584490+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-11-22T17:21:06.402000+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "AI",
-      "headline": "Wall Street Had a Big Week. Why are AI and Tech Stocks Still Crashing? - BeInCrypto",
+      "ticker": "NVDA,AMD,MU",
+      "headline": "A 10% drop for the stock market is unnerving, but it is not that unusual",
       "date": "2026-11-21",
-      "published": "Sat, 21 Nov 2026 06:00:00 GMT",
-      "summary": "Automated RSS market signal from BeInCrypto. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLSUxEWjdZNHFXNUZGSHprM3R0alMzN1FQNkhxT1BCTG5DbGF5Y0M2QzFrOTh5clZBZTRVWEJEck1ZNG1oNVZnTUlWcUFLV3JaTzAzX1ZTTEdBMjFqbnJrRExBTjRJeG5OMFhZbXVWOXRFdkk4Ulc0?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "AI Stocks' Wild Ride Gets Bumpier As Nvidia Chaos, Blue Tsunami Spook Investors - Investor's Business Daily",
-      "date": "2026-11-20",
-      "published": "Fri, 20 Nov 2026 16:52:00 GMT",
-      "summary": "Automated RSS market signal from Investor's Business Daily. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU291OEFTamphSmg2LXZBUzlrbzJzelRKUnZ0bEd6cTE1dFBWd1V4Xzk0RE1lOVBzTUprLUpDODVHb1J5RWNoT2FzODVnR2Fzd2tpb0NjckNxZlhMWXMzSGdjc2tadFFxREd3eFF6TDktOHRXZnNTMmJ6UEUxemNwdWNoMXNYWE5GY1piNlJxT0ZGaWRjR3pLSjNEekUxR251elAwWWdn?oc=5"
-    },
-    {
-      "ticker": "MSFT",
-      "headline": "Microsoft Corporation (MSFT) stock price, news, quote and history - Yahoo Finance UK",
-      "date": "2026-11-21",
-      "published": "Sat, 21 Nov 2026 02:24:26 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance UK. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41d2UzenppWG9mNk9od2RxVTIxSzNxTFJIYlV1U3lBX284NVY2NTBSSnRVclctbDNIODhyRTZPTFVYZ25YcHlYdVdOYUJXc3dvdnc?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Nvidia's Quarterly Revenue Tops $100 Billion; Anthropic Slips After Strong IPO Debut; AI Investment Enters Earnings-Validation Phase - BigGo Finance",
-      "date": "2026-11-21",
-      "published": "Sat, 21 Nov 2026 00:05:00 GMT",
-      "summary": "Automated RSS market signal from BigGo Finance. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0yR0czem92VEhaY0VPaV9LVHp0SHNLRWg1LXp2SUVuWEdZQ2htdzdMRmhsVFA2aEMyQzhnQjZpeURieDlqWFducTlBNTg1Y19ITXE0VUUwZEoxTTRRaDJJRTE1V2ZxdWZtZV9GUERCd3k3MkNiaHc?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Nvidia's 7-Week Slide Marks Longest Losing Streak Since 2008 - The Tech Buzz",
-      "date": "2026-11-21",
-      "published": "Fri, 20 Nov 2026 21:31:25 GMT",
-      "summary": "Automated RSS market signal from The Tech Buzz. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU3FTZFRXemVoRG9PbkR0eFBEUGplM1hFck0yWm5TZlJkMVQ2VXNrOFRSaHlYS0cxVTY1SXIxcjZtV0ZHSTZIam1QNmJGalJ0cnRETmJ2OWhpN191aERCRGV2NmtUNTM5NFdaRm02bGZSSTA5anJ3RmMtMElSaWx1TDN2R05EQU15YkpiZzFzRUtNTGMwQ2JPdg?oc=5"
-    },
-    {
-      "ticker": "META",
-      "headline": "Big Tech Stocks Crash as Nvidia, Amazon, Google and Meta Lead Magnificent Seven Selloff - CryptoRank",
-      "date": "2026-11-21",
-      "published": "Sat, 21 Nov 2026 05:35:53 GMT",
-      "summary": "Automated RSS market signal from CryptoRank. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM3hZelFDS2trTFliMmxnTVZKeDJhcUVwZkNobktKYlppYWdZM19KY3ZhTF9mTzdGaE1aZTk0NmdGRU9mSlFZMWFCN3VVNGxhcC1idjc1cFFCbG1ha1pRMFlYTXdjUVlpQ1JMajRrd0oxclZ3b1ZpeHNZMnh3bzBPN013d0p6NnJRRmw1TzZBaXRRRW04QlBUYnJGMnRfZDdsNmVHSlZPNHhMeUxvMVZHR0Uxak42SURWelZsUnV4ZjE?oc=5"
-    },
-    {
-      "ticker": "META",
-      "headline": "Billionaire Dan Loeb Exited Amazon and Opened $1 Billion in Meta, Nvidia and Microsoft Stakes - 24/7 Wall St.",
-      "date": "2026-11-20",
-      "published": "Fri, 20 Nov 2026 15:28:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUG5TMEYxam5OcXpiYk5zSllYcDJOM3Z2UXc0TTZCWmxlel9FcV9CeENfWDVyUzVId0c2MGgwc1R4UHJTYUdQZDhUSlQ2VWc3YWhhOXFzMDdVeENfVHVmemlhZW9ndEdkaDQ4UjE0Y0J4SU8ybUh6NXYxb3pjRXlheEJZWFp0QzFsRVltTnc5Y2xicE83RXZOLW1vY21FQkZzRFcyR21GSE1XbjRJVFZFTTR2WUI3cEZ1S1FSY3lpd1hOaXc4VGVaYjgxQXlhUTQz?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "AI and Tech Stocks Extend Losses Despite Nvidia Earnings Beat - cwibc.co.id",
-      "date": "2026-11-21",
-      "published": "Sat, 21 Nov 2026 07:15:03 GMT",
-      "summary": "Automated RSS market signal from cwibc.co.id. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwZ2thTUppSUI4WEtWMGNETkU5VVpWa19tSVFoUnFOcUF6M3dyTmZmLVFyTnFaWXRDRjlBdW5wdmlpRVlzRlRZRC1aT0pXeXh5M2F5YlNfYUY3cnRtOHRGaQ?oc=5"
+      "published": "2026-11-21T14:01:56Z",
+      "summary": "Investors are concerned that elevated AI-company valuations and heavy demand for memory, processors and data-center infrastructure could weaken if AI proves less profitable than expected. The report also describes the current decline as an AI-led market correction.",
+      "tag": "AI valuation risk / semiconductors",
+      "url": "https://apnews.com/article/e69b0efcc423bc91871c1afabf36742d"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
