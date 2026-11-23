@@ -1,15 +1,60 @@
 {
-  "updated_at": "2026-11-22T17:21:06.402000+05:30",
+  "updated_at": "2026-11-23T19:00:25.803740+05:30",
   "source": "openai+web_search",
   "items": [
     {
-      "ticker": "NVDA,AMD,MU",
-      "headline": "A 10% drop for the stock market is unnerving, but it is not that unusual",
-      "date": "2026-11-21",
-      "published": "2026-11-21T14:01:56Z",
-      "summary": "Investors are concerned that elevated AI-company valuations and heavy demand for memory, processors and data-center infrastructure could weaken if AI proves less profitable than expected. The report also describes the current decline as an AI-led market correction.",
-      "tag": "AI valuation risk / semiconductors",
-      "url": "https://apnews.com/article/e69b0efcc423bc91871c1afabf36742d"
+      "ticker": "NVDA",
+      "headline": "US futures rebound as battered AI stocks recover",
+      "date": "2026-11-23",
+      "published": "2026-11-23T07:54:00Z",
+      "summary": "Reuters reported that U.S. stock-index futures rebounded as investors returned to AI-linked shares after the prior week's selloff. The report cited ongoing concerns about slower AI-related spending and leadership uncertainty at Nvidia.",
+      "tag": "AI equities; market rebound; capex risk",
+      "url": "https://new.streetinsider.com/Reuters/Wall%2BStreet%2Bfutures%2Brebound%2Bas%2Bbattered%2BAI%2Bstocks%2Bgain%2Bground/27383308.html"
+    },
+    {
+      "ticker": "NVDA",
+      "headline": "AI spending slowdown raises questions about the next phase of the trade",
+      "date": "2026-11-23",
+      "published": "2026-11-23T12:20:25Z",
+      "summary": "Axios reported that the AI investment trade is facing a potential shift from expectations of continually increasing capital expenditure toward scrutiny of whether AI spending is producing monetization and revenue returns.",
+      "tag": "AI spending; valuation; monetization",
+      "url": "https://www.axios.com/2026/11/23/ai-spending-slowdown"
+    },
+    {
+      "ticker": "CRWD",
+      "headline": "CrowdStrike to acquire Zscaler in an all-stock transaction valued at $44 billion",
+      "date": "2026-11-23",
+      "published": "2026-11-23T13:05:00Z",
+      "summary": "The Associated Press reported that CrowdStrike agreed to acquire Zscaler in a deal that would combine two cybersecurity platforms. The article linked the transaction to rising security demands as AI agents expand the attack surface.",
+      "tag": "M&A; cybersecurity; AI infrastructure",
+      "url": "https://apnews.com/article/cf5a66aaa14f98763eabfb767ff8727c"
+    },
+    {
+      "ticker": "ZS",
+      "headline": "CrowdStrike-Zscaler deal highlights consolidation in AI-era cybersecurity",
+      "date": "2026-11-23",
+      "published": "2026-11-23T13:05:00Z",
+      "summary": "The proposed combination would create a larger cybersecurity platform spanning endpoint and cloud-security capabilities, according to AP reporting, with management citing the growing importance of zero-trust controls as AI agents become more widely used.",
+      "tag": "M&A; zero trust; cybersecurity",
+      "url": "https://apnews.com/article/cf5a66aaa14f98763eabfb767ff8727c"
+    },
+    {
+      "ticker": "AMD",
+      "headline": "Technology shares recover in premarket trading after a sharp AI-led selloff",
+      "date": "2026-11-23",
+      "published": "2026-11-23T04:23:12Z",
+      "summary": "AP reported that Nvidia, Broadcom and Advanced Micro Devices rose in premarket trading after bearing much of the previous week's selling pressure.",
+      "tag": "Semiconductors; AI rebound; volatility",
+      "url": "https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91"
+    },
+    {
+      "ticker": "AVGO",
+      "headline": "Broadcom participates in early-session rebound across AI-linked shares",
+      "date": "2026-11-23",
+      "published": "2026-11-23T04:23:12Z",
+      "summary": "AP reported that Broadcom was among the AI-related stocks recovering before the U.S. market open following the prior week's selloff.",
+      "tag": "Semiconductors; AI rebound; volatility",
+      "url": "https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91"
     }
   ],
   "provider_error": null,
