@@ -1,36 +1,58 @@
 {
-  "updated_at": "2026-11-24T19:38:15.672241+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-11-25T04:44:34.212563+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-11-24",
-      "published": "Tue, 24 Nov 2026 04:58:00 GMT",
-      "source_name": "The New York Times",
+      "date": "2026-11-25",
+      "published": "Tue, 24 Nov 2026 19:24:36 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Stocks Surge After Jensen Huang Is Reinstated as Nvidia CEO - The New York Times",
+          "t": "Headline signal (not a direct quote): Jensen Huang tells staff that Nvidia doesn't need a succession plan - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNXRXMlFUQkJfcnJPMGVlaWZRejZzSnVuRWJiV1E3TUM3c3pkWkxSSGZJaGtCcEc0Uzdja0xzbFFNcWRIZEtZNlFHMHNDclAzVzJqUHU2Z2lFRE51V3AwSWV1cnRoamFsbDVleTdVUFVhSElYMEhXTlhiNkhQNWtSZlRGT1FYQURPeE9RTA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9HRW5DdzEyU2h2RzIwa21wNy11WHE1LTBldkJfbDV0aFJ3RTduQUduV1lIYW9JSmptdHgxUEpRdWg5VFpvRmF3ZUtqT0dZNTRlNEhPd21VUlFJR2ZVU1JKbDBLb2NHNmdSb2Vicjh3OERrdTlEaXp5R1hjN1J3QdIBgwFBVV95cUxQQThSb0JjLVdWdXhJQnd2V3dNNWd1N2pBVFFaVV9wUzJRaHcxQ2NaZl85ZFAtQWo1cERrTXhjdkpCWVNxY19sS1hvOVpvaUxlZ1VVZE11YlZ0R2wtTXlXTHpLSEhVdlJZY2ZBRlVMVGVIaWlIclR4b2REeTVFWFZvMWRUVQ?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-11-23",
-      "published": "Mon, 23 Nov 2026 16:15:26 GMT",
+      "date": "2026-11-24",
+      "published": "Tue, 24 Nov 2026 16:33:00 GMT",
+      "source_name": "The Motley Fool",
+      "signal_type": "source-linked headline",
+      "relevance_score": 17,
+      "themes": [
+        "#AI",
+        "#NVDA"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Sam Altman's OpenAI Took a $30 Billion Investment From Nvidia Earlier in 2026. Here's Why That Deal Matters for Both Companies' Investors. - The Motley Fool",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQakc0YXBJTEpQS3RuazQ3Sm14S1REWjF1MVZzamNhbmZBUTMtdUpjU1lubEh3YW9yX045NHItTEtieUNnYU4zRFM1SFVNWExNYmVrVWJrbVFoeU9USUlxa3ZoT21RN04tS0wwbV91UmtiZjAzTDZKTFdLUEZWc002UVRxcE9pRk5RMGNOaDktUS1kU0RE?oc=5"
+    },
+    {
+      "name": "Dan Ives",
+      "role": "Senior Analyst",
+      "org": "Wedbush",
+      "cat": "Analyst",
+      "date": "2026-11-24",
+      "published": "Tue, 24 Nov 2026 13:30:00 GMT",
       "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -39,33 +61,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): OpenAI CEO Sam Altman Gives a Surprising AI Prediction His Backing - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Wedbush Launches the Dan IVES Wedbush AI Autocallable Income ETF (IVEA), an Income-Focused Approach to AI Investing - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU3ViYjNydW1nUE1TNTM2T25IRWVPQnl4WUQyODI3MFg2VF8xZTR3YzREdm5ZV2dJQ0Jta2FUN3dTWHJuY3RiNjBOS05lSUo3Rk9qaXN2SWUyMmgzWS1ZWllHdGstNGZMWWExQUEwVEtVRDIwWkg3UldrZzZWT0hQbHR3Ul91czdmUGU4VUZOak9GX2hSMkE?oc=5"
-    },
-    {
-      "name": "Dan Ives",
-      "role": "Senior Analyst",
-      "org": "Wedbush",
-      "cat": "Analyst",
-      "date": "2026-11-24",
-      "published": "Tue, 24 Nov 2026 12:03:46 GMT",
-      "source_name": "Yahoo Finance",
-      "signal_type": "source-linked headline",
-      "relevance_score": 14,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Dan Ives Calls Jensen Huang's Return To Nvidia The Start of ‘AI Godfather Part 2,’ But Warns Of More ‘Noise’ Ahead - Yahoo Finance",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdF9yLXBCTWVXeHVXanI4V3d0OGI4T2d3T09YelBxeWhVT3RiX0JzQWtqZE9uN1FaQ3REZTJDck1OQm9XcHdJakpibWhPdXAzdWpfT3d4RFZjenE1TzNKRm5RWTJycm81eW10VDRDMzBBLUNLRG1KT3JxOS1TOHhCVHZtQXRfTU9LVEUxR0VmVEtpdjZlTEVOQg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ1lZZC03T0RtdC1FdGQyZTZuWXJEbDA1UExtOGZEWkZjbzVMS0NZYkt2V2JSUTRiVGFTVzZpMkxLQ3VPRFZHTUVicWNjSTdrWUFxd0hvamRCZm94SENlWm9nclp3Q0Y3RHEyTzM3RHFsVm9hc043SUxnUHhnbVpnaE1JalVUeXpuR2ZmdGROaVFzajVGYk10ZWliWlhaQQ?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -90,26 +90,26 @@
       "src": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU0R3eHNQcHNSQ2xEQVllemJnRlhHWTFjanZDTVZpREU1cUF0azV2anhJU2VlazRoS3BDbWxhQk1pcDluQzZRVTBTNU83RE9fRHdWS1g4R3NZT3NJN1hrTVd5cjZLb3NCMjRQZzlDT1FHam9MUm9KREVEVlN6ZnZETmh6dDF4UktMY05NSHYwZ2hxNmZCaDRaV1diZ3hJQ2ZB?oc=5"
     },
     {
-      "name": "Alex Karp",
+      "name": "Lisa Su",
       "role": "CEO",
-      "org": "Palantir",
+      "org": "AMD",
       "cat": "CEO",
       "date": "2026-11-24",
-      "published": "Tue, 24 Nov 2026 13:16:10 GMT",
-      "source_name": "ad-hoc-news.de",
+      "published": "Tue, 24 Nov 2026 13:04:32 GMT",
+      "source_name": "All-About-Industries",
       "signal_type": "source-linked headline",
       "relevance_score": 11,
       "themes": [
         "#AI",
-        "#PLTR"
+        "#AMD"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Palantir stock draws scrutiny after Alex Karp files sale notices - ad-hoc-news.de",
+          "t": "Headline signal (not a direct quote): Lisa Su: On the Path to Success with AMD - All-About-Industries",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMEt4MlNBQ3RudDJ5U2NMRkx2YVl0TVFrOTd0UHVXclVBX016VUtqei1pUUdpNXFZWFU3dHNfRDlrZV9LMk9STVRnT1N2MzZkTEpfakJFX0V3WXA5U29Ra010TmstYWJLWTB6QTR4ME1pV3F6TTJsODJrWUtZUmxGeVpXalBQYkZMR2RPaV9WZktOU2c4Nll6N2diVXZiWE8tb2dEYjFHWFJRQmUzbkRScENUNk16R01SQnlwYVhhZ1ZtbS02aWc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFVxNGdYOGcyTDlRTDQxUFRpN0FFUkFfYjdCUUpjWHI2Sk1lUmExNHRSTk5iaVdCdGRBV0l0ekM4RS1YeS1FdDB0azM5RlBFdGFsVFZJc0otVzJ4VElBWU9DREFFMUpjVDZ6aWVqeC1VcTJmeFpzUEdKMTBGc29NVmtreWRtRkRCc1JVQVVCRExzak5JZlcwR2FhcDJRMFlvQ1A0dkl6UTEzWUFqV1F4Rzhn?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -117,20 +117,20 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-11-24",
-      "published": "Tue, 24 Nov 2026 07:41:25 GMT",
-      "source_name": "Britannica",
+      "published": "Tue, 24 Nov 2026 08:45:00 GMT",
+      "source_name": "BigGo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 7,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): XAI | Elon Musk, Grok, X, & SpaceX Acquisition - Britannica",
+          "t": "Headline signal (not a direct quote): SpaceX's Musk-Style \"Selling Compute to Outsiders\" Generates $3.4 Billion a Month; Orbital AI Faces Profitability Wall - BigGo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1FMURTQkxuM3E3MjBCZ2hjbUROSFZIZlh3RGRROUowMHZlQWFVRVJRUm94ZnphNUVFOFEzOUpEcTE0U09heHdhVkJqTng?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lQVVPeU03MTQzaDcxRFU4bGh0V1pMaE1KbHcwMUQtMFJ3NWF3eGh4NjlMdGdoS2RONXZGbHozSkppcnZNc1h0YTJsMU40Z3VFakdmRXFkeDNiX0pHNjlxcDhEdmZSOTJiU3lqRXpSRmRzUGZ5UHc?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -160,7 +160,7 @@
       "org": "Alphabet",
       "cat": "CEO",
       "date": "2026-11-24",
-      "published": "Tue, 24 Nov 2026 08:22:00 GMT",
+      "published": "Tue, 24 Nov 2026 15:04:00 GMT",
       "source_name": "The Times of India",
       "signal_type": "source-linked headline",
       "relevance_score": 9,
@@ -169,19 +169,41 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sundar Pichai-backed foundation's charitable grants rose from $510,000 in 2020 to nearly $9.2 million in - The Times of India",
+          "t": "Headline signal (not a direct quote): Sundar Pichai-backed San Francisco-based family foundation recorded $9.2 million in grant payments for th - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOX2lEUld1MC1TWUlXQUoyeDRpeFJZZzB3T2Ryc0RSaXQwRzN4TVMyV0ZmS28wWWhDWGxZQTAyVzJIbENBM0N6RmMxSTdiRTZHVVl3ZlRrQ2JHaE5obWoxLWZIc2Q2WVZPQXZoNmEzbGczek1pT2F5c016eExZMEc4bTFJUU5NbWxYRWlKTmlvaXBfS3B6N0hVNVFFVThoYTdCdEFOTXFMZlRhX3I0M0JxN2RWMVRWaUVGQm1FLU9ZQkU3anJhd1luN3hzWENkWUI5MHhwZzcwbkMzZnlSc1I1OUhBckQzWUtmRWhxZFlJYXhTbUFDUlB5TTYwSVc5MmVudGZtT08za2o1WnpIZ3EzTENfNlppY0dlN2h2VXBTZkQyWVE3dFlHOUEyVERDRlJUSklqX19hTUwzbDBaWGpwRF80TmNVYmU5RlN6T0dpb2t6N0RuTjVxc0hCcENfN0d6aXUxTXA3eG85dTFwM1dQX0lmZEZPenhGRFdWbTFB0gGDA0FVX3lxTFA0czNXcEVCekhlaG9qSTZOVmRfZlh0QktlTk1wck1rOTRIckFJOS1ua0sxM3dQNmg5Zmd2ZmN6allvbGNLd2E2WjJXYU9NMHFSWG1mM0hNYUVkVWczRDNQVzFSdDRIOFBiQVBvQklCMERRUUVfM3JxeGRxa1dCRV9EZlp0YWE3UkFrRXpCSXpjUVZXMU9WSVR5TGdxYmQ0ZXFVTm1FMjVuWXVyMVZiTkFTSGU3MnBJUlVKdG1MR0NjTDM4Z1JJUVBOZWdCRWp4TFlBMFRwcFNoOTA5Z0wxWnRSQmdZUE5ybkFpYzZyNXptaHFmZ0k2VzctOVFoQnZ4M0p5TkhCMzFKSUZnUlY0SGlSWDlrYWlsd0t4UlVVRVNLUjI3OS1BTXJpT215V3E5dzhTZFV5cy1IV3M4dHRxdTdDdEx4eERsdlo3RlhaQ19VeU4yUVlQX29fZmRrbFVnOVczQ3VkRDJpRWRMQ0o5RUNzcXcybUl1ejJfMjc2X1ZwV3ZRVQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMisANBVV95cUxPN3JWTFdIZ2xmcFZfVUtfMEhUcVFpU3pEbWhOSGh3RVVHN2k3Y0loQTRkenlUX3Nvc180V3V5S2VoX0pjT21jS1k0SW5hWnlwYmRhQ0djaDRyQVNwaTRzX0JJQXZJS3VCQkZXZkdpVmdneGI0d2VvanFYcnBRQmZCdGpIb0Njb29QVmlwV2ZIYVRnQ2xlTVpIUU9NVWRGRFV2VGNaTFJDaUlveG9Bd19CVjJ1WGg2TTNZSFdTQ3pvTXF4aDZ2cTVkZ2RTWnZtdDRkTXBQM1ZTQ3R6U0ZXZngxb3JJYVA3SjdCaEtMeWtRUVhNbXotOXVZdGpmLVo4bFpXazdLLVFkUWlUM3Jtb2RfbExFWnJsU0lwaHlaTDhWNU1LUWVSS1lmTkxDYXYxTDdZb3AtLTEtRjFRWEhheUNKVGtyamw5S1BVc2lCWUNFN29DSHozTWlETWI5ck91dGREQW9DakRCYlUwZFAwUHh0OWJWVG51Z0stcXB3cmJpbjdQcVhrLTVHRWhsRTVrdmR2Ymxtb1cwRUw1aHF1X0twRS0takU4anh5RHh0cWV3TlrSAbADQVVfeXFMTzdyVkxXSGdsZnBWX1VLXzBIVHFRaVN6RG1oTkhod0VVRzdpN2NJaEE0ZHp5VF9zb3NfNFd1eUtlaF9KY09tY0tZNEluYVp5cGJkYUNHY2g0ckFTcGk0c19CSUF2SUt1QkJGV2ZHaVZnZ3hiNHdlb2pxWHJwUUJmQnRqSG9DY29vUFZpcFdmSGFUZ0NsZU1aSFFPTVVkRkRVdlRjWkxSQ2lJb3hvQXdfQlYydVhoNk0zWUhXU0N6b01xeGg2dnE1ZGdkU1p2bXQ0ZE1wUDNWU0N0elNGV2Z4MW9ySWFQN0o3QmhLTHlrUVFYTW16LTl1WXRqZi1aOGxaV2s3Sy1RZFFpVDNybW9kX2xMRVpybFNJcGh5Wkw4VjVNS1FlUktZZk5MQ2F2MUw3WW9wLS0xLUYxUVhIYXlDSlRrcmpsOUtQVXNpQllDRTdvQ0h6M01pRE1iOXJPdXRkREFvQ2pEQmJVMGRQMFB4dDliVlRudWdLLXFwd3JiaW43UHFYay01R0VobEU1a3ZkdmJsbW9XMEVMNWhxdV9LcEUtLWpFOGp4eUR4dHFld05a?oc=5"
+    },
+    {
+      "name": "Sanjay Mehrotra",
+      "role": "CEO",
+      "org": "Micron",
+      "cat": "CEO",
+      "date": "2026-11-25",
+      "published": "Tue, 24 Nov 2026 22:43:00 GMT",
+      "source_name": "MarketWatch",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#MU"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows - MarketWatch",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRnpwTTlhRF9HOHJIRUpwMDlGV1RfaklpS2JpN294dndhLUFaQXZZN1dIZG81dXhoa21rNEU5VHFiaEg3QlI3WjhWVlRFaFNxZXNfX0E2T1hSSW14OG40S2RYaXEyWWpKUlpkR045WThlbEQyRWRVa0ZhSi1YRjN6cHNUTnRtd0EtOFplYlVYdVdLZ1piYlVwc1JHWVYzc3Bvbzh2Ni1zU1VVVDlQRUhWRFItUFU1M0xhaXNJcA?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
       "role": "CEO",
       "org": "Intel",
       "cat": "CEO",
-      "date": "2026-11-24",
-      "published": "Tue, 24 Nov 2026 12:16:39 GMT",
+      "date": "2026-11-25",
+      "published": "Tue, 24 Nov 2026 19:07:30 GMT",
       "source_name": "TIKR.com",
       "signal_type": "source-linked headline",
       "relevance_score": 8,
@@ -194,7 +216,7 @@
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNOHVXWHdBTDZjVzExYW9NM0VOSmtfT1ZkZHMwb0JZVE5JSE93bTVCcC1MWENHRmt2S0tyOV9hak8wcFRvVmhlZVlLZWZUbl9oRENia0JZSVJZbEtkVlYtZUNPRWtKa1gzWkZuZEJpaGtwX2o4R3h4U3h0eVN1VTFzUEJFU0JnOUpjWG5LTUhUZ3NJSWdCRVYxNXlqWWR6dWh5ZGg1Ukl0OUdGZEhhUUZlR2NPWV9GRnk3cmpPNkdZazRBbmMxOUFPQ0ZSX2lnTlFiR0tEX21sSS02VGEwS3g2STJsLTNXRVFvRDI5OUE1OGJBZw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZDFsaFdJNEFCeHBuWWNGLXlJWlNla3ptQXRMSDR3dXdGOXJIUXFQVnp5VTJWc09HS3NjQ3VkOS10eEFjalFnUjJzY2JrRnRlTDlfWUozMkZFNzNWcWE2MmVXbUdqMUpSTEtvcXVmSjZySDJzVE1vVFh1M0hoUlFCOVFIejByb2I1RnRxTGZwZ1ZoN2w0MDBMUXdodURiQlRlenhMcGk4UEhGeVBteFd3M3kyVm45dEdGSlRoWjNLbEhZaU1MSzNWWDhkeXg?oc=5"
     },
     {
       "name": "Arvind Krishna",
@@ -202,7 +224,7 @@
       "org": "IBM",
       "cat": "CEO",
       "date": "2026-11-24",
-      "published": "Mon, 23 Nov 2026 20:03:55 GMT",
+      "published": "Tue, 24 Nov 2026 15:30:05 GMT",
       "source_name": "INDIA New England News",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -223,8 +245,8 @@
       "org": "Oracle",
       "cat": "CEO",
       "date": "2026-11-24",
-      "published": "Tue, 24 Nov 2026 03:42:00 GMT",
-      "source_name": "The Times of India",
+      "published": "Tue, 24 Nov 2026 14:14:33 GMT",
+      "source_name": "Protos | Informed crypto news",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -232,11 +254,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Larry Ellison loses $10 billion-plus; knocked out of the world's 10-richest men list after Oracle stock f - The Times of India",
+          "t": "Headline signal (not a direct quote): Larry Ellison overrode Oracle vote against his $131M payout - Protos | Informed crypto news",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxQWXdtUGhqLXNuLThMLXJNRGhmLVM5WS1fdm9DTWthRVNlaHR1cjY1VV9MdzlnUFYwRGZpT3cycGdTd1BQemF3bE41Z1RaTEJjOHhYR3RCTGFHbUVmaUpqSVRCMk1ITS05NUV4c0ZPb2RiMTB0S0h6QVVUWC0ycENkVDN2NHdPMTk3cWR3dVlaa21YRTNoWUxrNXNkSEFVTjNZdDhrLTBmYjlYUHgzRTFYTTI4cE5uVVNoT0MtX01JVWdBM05maWpycnY3Y3VINWlESllaWXo4YnBDOXNJSnQyenFwWnA1UHktYWZEay1Lek4zbDB2b2tVZE5vWnIxbHRaZGxHX1A5YXNjM21jUEgzVWcxaUI2LWdkNksyNFdfR0FtTHo3Rjlxd3hmTDFpc3FCc3d3TURnNW5aWDVaRUNGbU1hT2lWTDg0QV84ak1sZ1V0VDRaR05vbmt4alJSd9IB4wJBVV95cUxNeHA5OEVKYXJBT2VTd0R1QmFydDBTeS0zanNTOUlrWWpkQ3U4VlE0eTRaa0V2ajJKLS01WU5Ybkd1VjFGbkgwdXBCZTJITWJFekdaVElKbXAxTktLRU82S2EzbVFQaFVYLU10Z293RUZQbGNTY3lKLUkyQ0J5Unczb0Z3dFZSWEZqbHF3UzJrTGxaTDBDM1pJcl9mSVRIaEpONTlKVnhYcGh2VFJUanRRajFrRnVMZHZ4M2xmLTlydDFCSW52MXRrVGQ4UzdlNDBCR0lweE9XN0FmMFkyUWJkWlRRQW41WkY5b2FqRGs3bVVqZXFvVWxjbllCM1JnVzZFZzRTeGM3VEs1ZGNJSjFpejhuc092QlN1RFFLTEdHZy1nRzZFUWlvaXBnS3ZJeDMzRWhfaEVjc0xyTTNjQUx4UWhvQ1d2VlpiYnl0Y0JBcTg2czhuS2loY0NDSU96ZmQtRVhB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaS1VSXpVMkIwMFhZU2lvQjFyR2VwU1NOeUwzMWJmNmRwNEpyWlFSXzdDSXFReWhBWlpPZDlldG5ub2F2cHFVbGYwbzJhM2l1Y2pWSHdBVnEzcUNsaHRELUNxS0Z4ZDRNNmFKUjhMMTVTM1VkaTNFX01PMU9YYXBxaHl3U2k?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -244,94 +266,67 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-11-24",
-      "published": "Tue, 24 Nov 2026 10:34:57 GMT",
-      "source_name": "Cryptonews.net",
+      "published": "Tue, 24 Nov 2026 14:49:00 GMT",
+      "source_name": "Investor's Business Daily",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Abandons Two Crypto ETFs: Bear Market Changes Plans - Cryptonews.net",
+          "t": "Headline signal (not a direct quote): How Did Cathie Wood Play The Market Crash And Snapback? - Investor's Business Daily",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5UZ2cwRmJ6VkNoeUwxX3BFMmVENFBqbndfdUI0S2pSZWxXZ0RmU0RaSllSX29uendVYXFzbnl3cmZDNlNOX3ZvMkJadnBLTG83aHpETFpObFI?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRk9KNE1TbDdmeEpEeVB5QnhpdG1qRXJkZzRzdVRCWUZ1TUo0aWtIc1pYb0RZSlFjZ250NXU3THRIREwwY0VuX29sRm9lLXBRRXkwMXVQQy1JOVdGMTZ6bFZvS1M5QTZXQUtQaWQ1ZjVxYjFWSWRLTFFNYUoyY0VqNlhHQlZkTTFSSEJSQnhlbU5LTWM?oc=5"
+    },
+    {
+      "name": "Jim Cramer",
+      "role": "Host",
+      "org": "CNBC",
+      "cat": "Analyst",
+      "date": "2026-11-24",
+      "published": "Tue, 24 Nov 2026 13:53:37 GMT",
+      "source_name": "CNBC",
+      "signal_type": "source-linked headline",
+      "relevance_score": 14,
+      "themes": [
+        "#AI"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): Jim Cramer's top 10 things to watch in the stock market Tuesday - CNBC",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPckhLa1BPMl9SWEVOcWxpblZDNFNIYWtYWjBzSGxrblBMUW01V3RoVklYZ3haQWFDeGk3ZnRfUHpHby13V043MUNiaW5KdTFOVHFjc1lkSTF4STFWU1o3QVlQVWduQ25KdmlqRHN4cHZJU09lbWdRZ0Q3UjNSbXg2UG1pVDJ5RjFwdGxTYXFxYkRXa3RJMDQ0b2hWWHI4eXd5V2NBWFRLakFZN3ZrM1ExWHl3bw?oc=5"
     },
     {
       "name": "Gene Munster",
       "role": "Managing Partner",
       "org": "Deepwater Asset Management",
       "cat": "Investor",
-      "date": "2026-11-24",
-      "published": "Mon, 23 Nov 2026 22:42:00 GMT",
-      "source_name": "CNBC",
+      "date": "2026-11-25",
+      "published": "Tue, 24 Nov 2026 18:40:09 GMT",
+      "source_name": "www.thestreet.com",
       "signal_type": "source-linked headline",
-      "relevance_score": 13,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia's tech still beats rivals despite selloff, says Deepwater's Gene Munster - CNBC",
+          "t": "Headline signal (not a direct quote): “Panic driven” AI selloff: Why Gene Munster sees opportunity now - www.thestreet.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdnlzWl9HZERxcEZBMzZHOXNNdklndjRfcTBPNXgwMy1Janp4R1c4MFJ2azhmWHVqYW4zaHJTYWgtTG5kUTJDN3R2TTFPWWptSkRIbmxiZG1VNHpQRV9IczhzdFBLU3A4YlZBUjZjdVBXWGpTczdxN2NYV24tek8tX0pVTDJlOExvVkNoSVRGMjlUY0RtVDBVSE9PZGpLWlhDUVpPZnotY2hTdVpnaDhmT0lVOUNQaWpENDd3?oc=5"
-    },
-    {
-      "name": "Stacy Rasgon",
-      "role": "Senior Analyst",
-      "org": "Bernstein",
-      "cat": "Analyst",
-      "date": "2026-11-23",
-      "published": "Mon, 23 Nov 2026 16:35:00 GMT",
-      "source_name": "CNBC",
-      "signal_type": "source-linked headline",
-      "relevance_score": 17,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Bernstein's Stacy Rasgon on Nvidia stock: It's better to have Jensen there than not - CNBC",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeElhYktSaDdMM3JaUEtZeS1jMEtFTm5ra3czc1BadG9wZElYbDhvaDZYd0poTEVsMmFOYkxyRjFnWmZPN3J1NG11RGRjeXc2eUJuU3k3T1YxdFpVbndkV09DNjYxWjJudEVzc0RoakdKRWdHSEJ5aXR4RDNBcV9aT2hvTmdLTkhuNG9BeEFsc2RhQk9kLTF5M3hsaGVjdGZ0eGtwaWlZWThEc3c5dUdiWG9CbnZVRkdDdkY5N3NDQjU?oc=5"
-    },
-    {
-      "name": "Patrick Moorhead",
-      "role": "CEO and Chief Analyst",
-      "org": "Moor Insights and Strategy",
-      "cat": "Analyst",
-      "date": "2026-11-24",
-      "published": "Mon, 23 Nov 2026 21:37:00 GMT",
-      "source_name": "CNBC",
-      "signal_type": "source-linked headline",
-      "relevance_score": 13,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Nvidia's roadmap is unaffected by Huang saga, says Moor Insight's Patrick Moorhead - CNBC",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ2ZkcDVELXg4V1ltY3A4c2pqRjZWcmQxNkdkN3Z2WjlFZWdERUMxMV9pSDJCQ3ZqRU5WalFJeEdDTko0LXh0TjF0dGk0X0lhN1h5UGJjYmRLWnc1cFlsUUo2RUpYQ3NyVWcwUVhOTnJfYUlseUZ1bE1uS1ZRNGRQdm4xVGMzaTg4YjRuMDRxNGRkV3o3eGZ1bzlhS3hlT3N4VU9CMGFtX2NaaW1FNDlMYUNiV2RMRXY3dGJGMDNVSQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONURyeUU0UVZleXdVbVd4NVpfMm92TGdiODhVZVJ2aHJjckJrU2hVeFhzTzA2ZWRYSEJJcVp6QWViRUJOWHpHMWFfVC10TV9QWmVlZjZ0WU9YZzE3cHZpNW45YU1iVWhiS0FXZ3dwMDV1MWhaakJOT0MzbmVyNjZFMDVxZ05HZVdCdjk1anF2TzNFRktJR3lSbQ?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
   "fresh_signal_count": 15,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
