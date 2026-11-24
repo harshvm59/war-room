@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-24T06:39:51.731868+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-24T08:57:03.138354+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
@@ -8,7 +8,7 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-11-24",
-      "published": "Mon, 23 Nov 2026 23:41:28 GMT",
+      "published": "Mon, 23 Nov 2026 23:41:29 GMT",
       "source_name": "The New York Times",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -112,47 +112,26 @@
       "src": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ21MZlNRNGhVRFYybTJOelpOQXlSYTlYVFJobXk2Y1BlbllISmNEVU93MmhJUUEtcEhiNktTUU10SFkwc0wyb05DMkNRRFcyejhycnVGZk1qeTFHVnZ6NVI3UG90RUNPbkhiVG8xbXQxb3BQLTVqNUJ4bkpBTG1ETUY5VmxfbWxCVmluWTk4a2pQRzZoRlFtaHBNTGZicnViV0E0blpOaHdIdUY3cHk1NVA4c19ZaXBNUmp5cmdZUlg0Q3A2Q29R?oc=5"
     },
     {
-      "name": "Alex Karp",
-      "role": "CEO",
-      "org": "Palantir",
-      "cat": "CEO",
-      "date": "2026-11-23",
-      "published": "Mon, 23 Nov 2026 03:08:56 GMT",
-      "source_name": "CEOWORLD magazine",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#PLTR"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Billionaire Alex Karp Files to Sell Up to $99.7 Million of Palantir Stock After a 7 Percent Slide - CEOWORLD magazine",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdkVLdEtxOFlxc2M0VVpQaUhMZTU5NzBscXRpdDYtamNadDFWLVFmZ0ZocVZFSnZoTjFwU3kxNmw0OE5GY085dmVjYTlXX2FVUmQxZklQWmt1c1dlN2NYZDZfblA1cEYyNEt4YkU1YzJyZ0VGWWF6VGlyNG13T0NSR0pLUzJYYTIyS3QzTWwxWXVjeW1mejVZdDU0SENacGpZcEVqWVJHZmRSbV9xcmYwLXlWTWRyLU9BckhVOS1fNFV3YTRqTGxnRg?oc=5"
-    },
-    {
       "name": "Elon Musk",
       "role": "CEO",
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-11-23",
-      "published": "Mon, 23 Nov 2026 18:19:40 GMT",
-      "source_name": "Britannica",
+      "published": "Mon, 23 Nov 2026 04:25:00 GMT",
+      "source_name": "BigGo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 10,
       "themes": [
-        "#AI"
+        "#AI",
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): XAI | Elon Musk, Grok, X, & SpaceX Acquisition - Britannica",
+          "t": "Headline signal (not a direct quote): Tesla's AI4 Computer Bill of Materials Doubles as Memory Prices Surge; Musk Says AI5 Chip Goes to Optimus, Not Cars - BigGo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1FMURTQkxuM3E3MjBCZ2hjbUROSFZIZlh3RGRROUowMHZlQWFVRVJRUm94ZnphNUVFOFEzOUpEcTE0U09heHdhVkJqTng?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oazJxSEdhbFgxQ0FKeGpYX1ZnSWEtUE55YkdqTjN4VGxRYmxRR1Z0SkJ0cEw2Ync4V2k2eHl3V0hSWWRDRUdESUktWHlpUzVzNGdoZnlSQ1lCbnZHMTVUWF9JUy15VlRUSmFPZ2tWN0hCSXI3aUE?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
@@ -197,6 +176,28 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWmdkWmVYUGk0T21Eb1p1eHc1UE1TbzUwdFdvRjVxc1lFaHRua3Vqak9oX2lhYjNBYUh5VVR4T1lYY3VyVmFPMDRHWjdmaWphVzBrVGg5alBlaklWVjE2WUpfQ2E1QzBiZ3dnVTlRT1BQa21xMFdudFd4MG1na0w5ZEZWbEhhTWl4dVlkcVhSN0tzMjhiTlFFYm9lWHg5TU9rYWF6N3J5ZTJxSk9nZjFQTmxwdVRxSkFPeGNrT0JSTU9EckVOd2R5TTBn0gHKAUFVX3lxTE5aZ2RaZVhQaTRPbURvWnV4dzVQTVNvNTB0V29GNXFzWUVodG5rdWpqT2hfaWFiM0FhSHlVVHhPWVhjdXJWYU8wNEdaN2ZpamFXMGtUaDlqUGVqSVZWMTZZSl9DYTVDMGJnd2dVOVFPUFBrbXEwV250V3gwbWdrTDlkRlZsSGFNaXh1WWRxWFI3S3MyOGJOUUVib2VYeDlNT2thYXo3cnllMnFKT2dmMVBObHB1VHFKQU94Y2tPQlJNT0RyRU53ZHlNMGc?oc=5"
+    },
+    {
+      "name": "Andy Jassy",
+      "role": "CEO",
+      "org": "Amazon",
+      "cat": "CEO",
+      "date": "2026-11-23",
+      "published": "Mon, 23 Nov 2026 06:46:00 GMT",
+      "source_name": "The Times of India",
+      "signal_type": "source-linked headline",
+      "relevance_score": 12,
+      "themes": [
+        "#AI",
+        "#MSFT"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): In Andy Jassy vs Mark Zuckerberg 'fight' over AI agents, Microsoft CEO Satya Nadella picks a 'favourite' - The Times of India",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQRXFEeGsya0tPdUwwNWlrbElLNW05YjB4R003Zjg0UXlPeE5fR2RuMXJuX3pFNEVqb2Vwa0lzQkNzdjlXUmxRZ0taMUpHTWIwQWFFZ01iU3NoUEluMVVZWEtTM0lqYjZoMjUwdV9uQlpidVNRVzBhajdwQ1VhTjBpRWJnR0w1dWtPZjFhUmphcmkxYUI5QURyb2JydnlIYWw4SWl5NHBVWnV1SlAzd3owMnQzblc5TVdNOFlmRDFUMlBOeDRocFIwLWY2ekF5Xzc3N3U2eHVjbjJwTkFnYTJ2STFpVmszbnZlX2Q4RHdwa1JDTWRqaEI4YlV6cUUtZlBQY3pCS3BZbTl5dHBvcXg00gGUAkFVX3lxTFBDTjlrR0dEWm1zSm5VY0l1UVZEdGZrdVlBc3MtQ3NUTmlVZ3hyQ2NsWkgzYmV1eFRjSEo5cVBqVEIyYnU5YmFsQV9EeWwwSWNWXzNUc0VyZzkyMTFOSnowdENvUUNaeDdZZ3VZMVhFSVd4U3J6VGRQWEcwSm5JUXVGQi1ZcGxKc254NkpOYlB5NUJRaVBzTmhDTXQzSWJsaWt4Si04TmJmRkZtQkFvajFLb0dNc2g3cG8wT2hiV2hkMXJxLXlfRHFtWkhmMU9mZ21LS2hUX2RhUUJTSlRFMmo3NTRIMHh5dzRCc3A1akV0aWl2elUzcjN5RmN3QTEwT3VfbVZaNWdGdGVuY1ZfdUlLY2xjMg?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -267,21 +268,20 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-11-24",
-      "published": "Mon, 23 Nov 2026 19:38:43 GMT",
-      "source_name": "Crypto Briefing",
+      "published": "Tue, 24 Nov 2026 01:22:30 GMT",
+      "source_name": "Investing.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood sells $17M in Nvidia shares, signaling strategic shift - Crypto Briefing",
+          "t": "Headline signal (not a direct quote): Cathie Wood’s ARK adds CRISPR stock, trims 3IQ Ether - Investing.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaHlPXzlOYjlKVVFZTndYWTU4bEtjVWFRcGpHT05VNnpKeWtyVmxlbkhrZmF0T21COHZmUFBfQlVuVmRiZDkya01mUlBuUHg1TmhuVWlydWZMQllXNGI3X1JsanNiRnBBcjluTkZWV0M4Q2FzMTZRUHBaQ2NyalNYMzJGa1pwbG1zQUJzanJmXzNXZjJQYTh3?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZ3NETzRxQ19GVFN1YTNHZ1lhNVFPcTNMcmd3MExFTXUyY0xrOXJUZEZnMFFfNC1TUlEwQkR6TUdId1pselVvdW5UUWdOSGg4SVE3Qm5KSXhkQUNUaDMzUGlURHNCLWpuQk9QSEoyZk93SWYxY2E0RGlJOFJUWk9HQjZYSV93QVlfbHVCamM2c1ZXWGUyUkhhM2FkNzdYZkh5Rl9JWEQzb25ka1k?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -311,7 +311,7 @@
       "org": "Deepwater Asset Management",
       "cat": "Investor",
       "date": "2026-11-24",
-      "published": "Mon, 23 Nov 2026 22:48:55 GMT",
+      "published": "Mon, 23 Nov 2026 23:07:37 GMT",
       "source_name": "CNBC",
       "signal_type": "source-linked headline",
       "relevance_score": 13,
@@ -376,5 +376,8 @@
   "fresh_window_hours": 24,
   "fresh_signal_count": 17,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
