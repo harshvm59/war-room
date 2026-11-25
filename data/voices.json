@@ -1,50 +1,154 @@
 {
-  "updated_at": "2026-11-25T18:51:57.592209+05:30",
-  "source": "google-news-rss-fallback+30-leader-monitor",
+  "updated_at": "2026-11-26T04:12:05.004149+05:30",
+  "source": "openai+web_search+30-leader-monitor",
   "items": [
+    {
+      "name": "Jim Baird",
+      "role": "Chief investment officer",
+      "org": "Plante Moran Financial Advisors",
+      "cat": "Macro/investment outlook",
+      "date": "2026-11-25",
+      "published": "2026-11-25T16:55:00Z",
+      "themes": [
+        "U.S. economic resilience",
+        "AI investment risks",
+        "Federal Reserve tightening"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Baird said the economy remains resilient, with consumer spending and business investment continuing, while strong growth gives the Federal Reserve more justification for further rate hikes.",
+          "k": true
+        }
+      ],
+      "src": "https://www.axios.com/2026/11/25/incomes-layoffs-rates-pce-ai",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Kevin Gordon",
+      "role": "Head of macro research and strategy",
+      "org": "Charles Schwab Center for Financial Research",
+      "cat": "Rates/market strategy",
+      "date": "2026-11-25",
+      "published": "2026-11-25T14:24:00Z",
+      "themes": [
+        "AI-stock correction",
+        "Federal Reserve rate hikes",
+        "market volatility"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Gordon said the inflation and GDP data strengthen the case for a December rate hike and could extend debate over further tightening into early 2027.",
+          "k": true
+        }
+      ],
+      "src": "https://www.schwab.com/learn/story/stock-market-update-open?msockid=29102f237dfe60af257538d07cb46173",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Robert Bergqvist",
+      "role": "Senior economist",
+      "org": "SEB",
+      "cat": "Market risk signal",
+      "date": "2026-11-26",
+      "published": "2026-11-25T20:49:00Z",
+      "themes": [
+        "AI-stock volatility",
+        "market risk",
+        "regulation and rates"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Bergqvist viewed the sharp day-to-day swings tied to AI concerns as a warning sign and urged retail investors to remain cautious.",
+          "k": true
+        }
+      ],
+      "src": "https://omni.se/ai-raset-delar-experter-koplage-eller-varningsklocka/a/M5RKbr",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Anders Rudolfsson",
+      "role": "Equity strategist",
+      "org": "Ålandsbanken",
+      "cat": "Contrarian market view",
+      "date": "2026-11-26",
+      "published": "2026-11-25T20:49:00Z",
+      "themes": [
+        "AI-stock selloff",
+        "bottom-fishing",
+        "equity opportunity"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Rudolfsson characterized the decline as a potential buying opportunity and said he would take a bottom-fishing approach.",
+          "k": true
+        }
+      ],
+      "src": "https://omni.se/ai-raset-delar-experter-koplage-eller-varningsklocka/a/M5RKbr",
+      "signal_type": "source-linked signal"
+    },
+    {
+      "name": "Fredrik Lundberg",
+      "role": "Chairman and major shareholder",
+      "org": "Industrivärden and Lundbergföretagen",
+      "cat": "Portfolio positioning",
+      "date": "2026-11-25",
+      "published": "2026-11-25T08:56:00Z",
+      "themes": [
+        "AI exposure",
+        "capital allocation",
+        "AI profitability"
+      ],
+      "quotes": [
+        {
+          "t": "Source-linked summary (not a direct quote): Lundberg said his investment companies have no direct AI investments because the sector requires very large capital spending while the economics of the businesses remain unclear.",
+          "k": true
+        }
+      ],
+      "src": "https://omni.se/fredrik-lundberg-vi-har-inga-investeringar-i-ai/a/lMAq0e",
+      "signal_type": "source-linked signal"
+    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
-      "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 11:25:28 GMT",
-      "source_name": "Reuters",
+      "date": "2026-11-26",
+      "published": "Wed, 25 Nov 2026 20:12:02 GMT",
+      "source_name": "Mashable",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang's return to Nvidia fuels Washington fight over China's chip access - Reuters",
+          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang reportedly had fourth affair, at minimum - Mashable",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV3BLV01MMXl1a2FaazhNYWFseVlPZ2g0ZnBwdnI5aFdkV1pHR19QdzZQWDk4YlJMOFZtZk9PbVlwbmU1WXpXWjFHaHVfX3c0SVd5WHFRM0s3eW9EcUE1S1RTYUFxLXBvQmthZFFNYkFNRy1EeHNyM2gyT0prRzNPWEVPaGVGMFo2c1E1eTljc212bU5qY3EtdnlDN01WSTdnRjZOYkZKdW1lcmttSlcwazFrSFlidExMay1iTHlXaW1TQVBIUVE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ER2NhemVFUW1NQktrU1hPNXY3VlBIUHhlNm1zYkV3WllWNWd3WUZWcG9LandyMTVzR2FoRGxMd3BzNlRDZjNRYjhibVl0dl96OTZzSV9FM0M5bmRpZE11eVBBNHphR013M1NjRVl3ZGVoOGY5WXBPRGZB?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-11-24",
-      "published": "Tue, 24 Nov 2026 16:33:00 GMT",
-      "source_name": "The Motley Fool",
+      "date": "2026-11-25",
+      "published": "Wed, 25 Nov 2026 06:54:15 GMT",
+      "source_name": "DD News",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Sam Altman's OpenAI Took a $30 Billion Investment From Nvidia Earlier in 2026. Here's Why That Deal Matters for Both Companies' Investors. - The Motley Fool",
+          "t": "Headline signal (not a direct quote): “Love PM Modi’s vision on AI”: OpenAI CEO Sam Altman - DD News",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQakc0YXBJTEpQS3RuazQ3Sm14S1REWjF1MVZzamNhbmZBUTMtdUpjU1lubEh3YW9yX045NHItTEtieUNnYU4zRFM1SFVNWExNYmVrVWJrbVFoeU9USUlxa3ZoT21RN04tS0wwbV91UmtiZjAzTDZKTFdLUEZWc002UVRxcE9pRk5RMGNOaDktUS1kU0RE?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qakVvN3BPWXdjNDhuajlxeGlCbjFpckItc0FQNjZUTmVZdXZNM3U1VGVpbjVKd20zOG1WODFPeGF4c2ZzbkFCN3dWM0tzZWFCQ3JxaXhjcy1KUTNoZWgyLS1vVGJIWUFNVlE3RHUtQWZROXk5dTB2OW1HZGVuaGs?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -52,8 +156,8 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 06:23:55 GMT",
-      "source_name": "Seeking Alpha",
+      "published": "Wed, 25 Nov 2026 15:11:40 GMT",
+      "source_name": "Yahoo Finance UK",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
       "themes": [
@@ -62,11 +166,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang is worth $1T to the value of Nvidia, Dan Ives says; raises price target to $250 (NVDA:NASDAQ) - Seeking Alpha",
+          "t": "Headline signal (not a direct quote): Dan Ives: Nvidia sell-off a 'growth scare,' not a demand problem - Yahoo Finance UK",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeFpSakNwQmVRWkh4eU9ma2JfM3JWc0owUExNSWN1djVjQWVyN0lYbDRwMVAyampiclJoSWxDNDhvTUpBQllZZWxjYU9RQkxNNEEwd2tTS1BPanFpME9yZ003SFdlS1FZb1lTYm14Q2s3b3ZZMFVVZnRFZzlTVWR2aFdhM2xBa0dlV3FtUUdWZVlkNWFTc0ZUelRpMmtXb2ozRkU0MHVNVTZkcHV5enQyb2pLYXpiRDhFQWJyYjN2elowT0R2?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONDdMbWFQY0R5c0hBOGdmTkpLcHJIOTFwMXQtaTY3TjBZamN4SjJxenFmOWZVT2c2SDc0UmxSUVhNY2lBS3hBbk9QRGFONU4ySGtRb1BlWjZRSGh1TnppUURwclZac0lvNkRyRTk5cHdKZF9ENjRQeDVGb1FUSnBYUzFOQnpJeWU3Ync1a2ZpcHQzaG5zWWhtRm9lZFFNUTh1LW1WU1B5d2lUUjI2T1Q0?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -74,21 +178,43 @@
       "org": "Microsoft",
       "cat": "CEO",
       "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 06:53:00 GMT",
-      "source_name": "The Times of India",
+      "published": "Wed, 25 Nov 2026 15:45:15 GMT",
+      "source_name": "Windows Latest",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 15,
       "themes": [
         "#AI",
-        "#MSFT"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Days after Microsoft CEO Satya Nadella publicly apologized for disruption in Outlook services globally, c - The Times of India",
+          "t": "Headline signal (not a direct quote): \"Six months behind is a great place to be\": Satya Nadella admits Microsoft doesn't mind if Copilot runs on AI that's months behind, as long as it's cheaper, and most users let it pick - Windows Latest",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOcFMtdGlFdFBQTWhCblpSWExhVzBCN1dMc2lUYUpoQXpsZ1lqWlRrU3FJdTF6WUI5dlR1UGJoLXRJVmtWbWwybmZvdDgyTHdpVHFEdkZGZUVJVzBXYVFmM1UxRkp2SHdmOGNnQm9ZMVUwMEhFdGQwUkZOTGxGc3UwamIzcVR4Q2ZIekhQaUU2VnBtcGNBRVZaUkxDTVJfWTBCN1ZxdUFTM1ZLODhNa2EyeGV6RmVsSTI2cHZBUDF4bUN0bEU0TW9EN05wTkZtVzNLVVpNRVI0bllBYXpRUzlXZDlWOW9PWHcxR3lxbjN1U2ktVkFQVTdYejEtZzVHd2FZZkI0d1QzMmhXVlltMG9EQzBKSThkb3hoTFg1ZmMwSUdHSG8wVjNNMG5PelVIQXNBM0cxbkE2TVZtMDdMQTdneFFiVkZPUzRjSXFBWEltaE8wWXh4VDdKYk9HLTd2cEdOT0h4dWNNLUHSAe4CQVVfeXFMTmFocTVaLXY3U0E0TXFhdjVyTjN2SXhKeFNHczRVX205aUdPWS1YZmVYalNxWEJpSnhtaXBoaFZNY2pVZTU0MThPcm01M210R1ZLSU5VbktGM0VSZms3dHpQaHo1cUJZOWQ2SWF6YWNKZmc1bE1wXzExbzRpN21xeHI5bnZ5WVNscUhSR3ZfS0trdDNvakZ0RXVhdVE0VExDTlhMSXRnMW14bXJodmwwd3cxNjZkYWxjLXZDd0RoVFNIaUFselRYam8xUjFuWXhmanBiUV9lenlTOHRSQ1BOSUxmS0dua2dJQWh1WUlNRlhzVlc3NFZJWXVpVUFPYU1JYndCUkx2RzZzODlHdE02Z25tc2s4bE05VGUyLThQSkZ5eUIzQUJiLUNEanZPV1NMX2dQQ3FvQmpPMkFDcExBZTAtbEhhM3BKWlAtQV9hRFJpeWhyd0ZZdk1rMXFzYndScEhYRWJEbnIxdmlfX2hn?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOVjdUTFU0ekNKZTcwbWE2Y3dUb2dVWmNjRjFRSXdraElFMTRfeUdYVVE4NGR2dGg4d09JclM4bWxyS0YydGkwLXdYSGwtbWd1WUF3OXg2cllxQ2hPamE5MTRBSmtZLW9yS0xDN0JMZDFzbVR6NlVOX1F0MzdEZEdRclNJcG9ab1VnMFJZYnA3QzU2bXpvMHd1c21zZV9MRE9RY0sza0lCOWZGM09lc2RYZklUVEdSZ1BBTllNRU1oYURQT09CcnI4NDJ2ZXNkT2cyTG0xSjk5aFcyVHl4eTh6aXdrNGRzLVNYd2IyX0NsM0JEUjFKNmttWVlEdjg1cTBCZElRTW5nazJISHFUWThsTkY5cVcwVkc3cjcxbXJlLU1vOEJsYldLbVMwVTdrSmpQTXZZVkNKb3E5bjladHc?oc=5"
+    },
+    {
+      "name": "Lisa Su",
+      "role": "CEO",
+      "org": "AMD",
+      "cat": "CEO",
+      "date": "2026-11-25",
+      "published": "Wed, 25 Nov 2026 11:39:41 GMT",
+      "source_name": "Dealroom",
+      "signal_type": "source-linked headline",
+      "relevance_score": 15,
+      "themes": [
+        "#AI",
+        "#AMD"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): AI demand looks generational, not cyclical, and the CPU market could reach $220B as agents spread, says AMD's Lisa Su - Dealroom",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSEROLWhBclVHQVBLdW8yQ3lISWljam9raDBaV3BHSkZzNUdzR0hFN2RKQmN3eVdDbzJERDY5aVh0d2t3RTJ3b0pTUGRoS19uSEdGYmdPVVM1czN0dVVLSVFXSHdWV3Z6aVU3bURSSUN2Y3QtNVFnTklzcm9TdkFmZWgxay1ST2l1REdYQ2phVTNwYUNZMV9HVmtjQVBkOGQ5QVpBSmdqZjFMQVpvVHpOQUdpQm45TkxxZVpab1FkNlZ2Tk9jS1RqVjJfcDJZSjExOHpxR1NZRC1tVXFldmNuYg?oc=5"
     },
     {
       "name": "Chamath Palihapitiya",
@@ -183,8 +309,8 @@
       "org": "Alphabet",
       "cat": "CEO",
       "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 06:41:16 GMT",
-      "source_name": "DD News",
+      "published": "Wed, 25 Nov 2026 15:23:00 GMT",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -193,11 +319,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): “One small step for TPUs”: Google CEO Sundar Pichai announces Project Suncatcher to test AI compute in Space - DD News",
+          "t": "Headline signal (not a direct quote): Elon Musk says 'impressive work by Google', as CEO Sundar Pichai shares Neon's new Day record and thanks - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUEsyR0pVUG1OZExHNVA5S09xMWFtalBERzQyLTVoSGZrUGF3aXpSSW5QWlZOUzRVWlZEZzJvckxpNXRqSGZzc3BGbkxKMHpKbDYzMUFxdmxNVGdHbEdtdlFwTVpLUGkteU40b2pyN001bG5LLW1QaWFJUk5GWWU0dEV2RV80RFRMN2t3RUt5Z2xBd1dHMmR6VlpCQVFndkNUYWgxZWRVZFh1THhPZml1LWtNcDFEbkVza0w1SFZTMmFHRWVWWWRraUt3NA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPTDg2cnhlSUN1R1hKaHlEWjBvdTNFMUZxTHU2MjhtTmRQdG1KSGU0OU5HekRDZUJHUXQxWHBBcVlmLXpmUWhLd3VEZ0VoRWRZX2R0N0RVeUlfY2xqMmxwRm16cDFLV05feHZ5MjJ4WnlJcmtEaTZ4RlZpa3RDYXFpenk3emtXeWRBeVZ0YkhWNFVkWGs5VkxkQ2RqVHNuLXlIOXdLR1JnLVd6MEh5cTVTbmlPV0k1RFl6UEptanVPYkFVRFJldVpEMGFVQThOVnN5UDRXUlppUkoyVzAtSmRmR1Vfa3ZJUUNvQVBYblB2TTlsYnNISTJiX052RUdESkxWemJCdkRaU3h2bnBLS25MM2lhd2xITS1VMFJUNjFSVWFybUHSAagCQVVfeXFMT3VMVlpSVVZIc3h1eUZhdVdCZk1ta3JZb0NDQUJ0UW43REQ5MmdzYl9RdGxOUkctLUhISGRKY0J5bGl6WTRKZS1rek1qTVVPTzBpRGk4cEQtLVNzMDh5MDdhWWJ3R01ZTDlyeFNadkstZ2MycWlrR29tdUJGV0xncEM0OUd1OTVhcGFCT0ZRdXVxUlVCMHhTV2tvSnJsVFZsWjAzaThsTkFmUzRtWDhxYlhhMFJFeUZZY0Fhd3M3QzB4VE10N0RfalNSZ2JBellTS1NPRTBZbFlLY3VoZXZTT2xWdTNXa1Bhd3lXR1IzUVBNNVo5X3I1VU5aT1ZrQm5WZGt1c2FiUWEzVVlTRjlFVHpkWUx4WW5pbk9kU1RwN0hzMmdVaERfdzc?oc=5"
     },
     {
       "name": "Sanjay Mehrotra",
@@ -205,21 +331,43 @@
       "org": "Micron",
       "cat": "CEO",
       "date": "2026-11-25",
-      "published": "Tue, 24 Nov 2026 23:11:00 GMT",
-      "source_name": "MarketWatch",
+      "published": "Wed, 25 Nov 2026 07:08:15 GMT",
+      "source_name": "Seeking Alpha",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#MU"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows - MarketWatch",
+          "t": "Headline signal (not a direct quote): Micron raises CEO Sanjay Mehrotra’s security spending by more than 2,000% (MU:NASDAQ) - Seeking Alpha",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRnpwTTlhRF9HOHJIRUpwMDlGV1RfaklpS2JpN294dndhLUFaQXZZN1dIZG81dXhoa21rNEU5VHFiaEg3QlI3WjhWVlRFaFNxZXNfX0E2T1hSSW14OG40S2RYaXEyWWpKUlpkR045WThlbEQyRWRVa0ZhSi1YRjN6cHNUTnRtd0EtOFplYlVYdVdLZ1piYlVwc1JHWVYzc3Bvbzh2Ni1zU1VVVDlQRUhWRFItUFU1M0xhaXNJcA?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVFZ6ZzVtMHV1UjRLb2NfU0J1dnBONFBldTJCd3NWdTRiSlg3T0JUTUp5aXd2Q1Y3YkNtY3l6cVZ0eUNBMUczQTh6cEVacVd0MnI1djIyT1lhQnNDR2dYcUcyV3lVQm1MRG5VNWtBaFpwSUlLRlVuYzl6VThsa2EtWExMNEx3SFE4dHRaU01xalVxVm95TW1VTFZMM2NYR1NrUEtEWWpsdXhEMlFm?oc=5"
+    },
+    {
+      "name": "C. C. Wei",
+      "role": "CEO",
+      "org": "TSMC",
+      "cat": "CEO",
+      "date": "2026-11-26",
+      "published": "Wed, 25 Nov 2026 18:45:00 GMT",
+      "source_name": "TIKR.com",
+      "signal_type": "source-linked headline",
+      "relevance_score": 10,
+      "themes": [
+        "#AI",
+        "#TSM"
+      ],
+      "quotes": [
+        {
+          "t": "Headline signal (not a direct quote): TSMC Is Still Up 27% in a Year After the AI Rout. C.C. Wei Says Demand Is “Far Above” Supply - TIKR.com",
+          "k": true
+        }
+      ],
+      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX0VrYzVUUXlBNURaUVF1SFJVb1NzbGo1MDZ0TGdnbGloMHE2M3hPWGVTekl2VFBTa1daUGNXUlk3VDg5Rjh1QlAtOTNDU3RNVXE3Q212c2FEZjBoWVJWQXMyeXVuZFlnMU9RdjNkUFNNRHNKVFhUT0hIRmh1aHVvX0VhTGxGUThpOENWdGlJeVpFMEx0c2tIQlhzbHhoM0ROWktFbFNfWXJfN1V1aHFBS1ZITktOa3VpVWlBd0U5Qlp2UGF6?oc=5"
     },
     {
       "name": "Lip-Bu Tan",
@@ -248,8 +396,8 @@
       "role": "CEO",
       "org": "IBM",
       "cat": "CEO",
-      "date": "2026-11-24",
-      "published": "Tue, 24 Nov 2026 15:30:05 GMT",
+      "date": "2026-11-26",
+      "published": "Wed, 25 Nov 2026 20:39:40 GMT",
       "source_name": "INDIA New England News",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
@@ -269,9 +417,9 @@
       "role": "Chairman and CTO",
       "org": "Oracle",
       "cat": "CEO",
-      "date": "2026-11-24",
-      "published": "Tue, 24 Nov 2026 14:14:33 GMT",
-      "source_name": "Protos | Informed crypto news",
+      "date": "2026-11-25",
+      "published": "Wed, 25 Nov 2026 04:27:29 GMT",
+      "source_name": "CryptoRank",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -279,11 +427,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Larry Ellison overrode Oracle vote against his $131M payout - Protos | Informed crypto news",
+          "t": "Headline signal (not a direct quote): Larry Ellison overrode Oracle vote against his $131M payout - CryptoRank",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaS1VSXpVMkIwMFhZU2lvQjFyR2VwU1NOeUwzMWJmNmRwNEpyWlFSXzdDSXFReWhBWlpPZDlldG5ub2F2cHFVbGYwbzJhM2l1Y2pWSHdBVnEzcUNsaHRELUNxS0Z4ZDRNNmFKUjhMMTVTM1VkaTNFX01PMU9YYXBxaHl3U2k?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNVNTdHM5bVdPNUF4X0E3dmVCSWJwX0J0NWx5cE0yYlJBb3hLQ1UxNDNZWm9sODBaYU9QMl9XdGxNeldZa0VWeUdfejFKa0tfb0hGRW42WHF5c2c4aktreTVOR0ZYYlRIRUR1cDVRNVBFWXM1X1JGMjA4OEVBNnU4MnloZDRSMDVvTFhBdW5kTkxWUDlMa0xETWJTRjM?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -291,21 +439,21 @@
       "org": "ARK Invest",
       "cat": "Investor",
       "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 02:02:28 GMT",
-      "source_name": "Benzinga",
+      "published": "Wed, 25 Nov 2026 17:28:35 GMT",
+      "source_name": "Barchart.com",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
         "#AI",
-        "#META"
+        "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Cathie Wood Buys $62M in Anthropic Stock as Shares Slip Below IPO Price; Ark Sells Meta, Netflix and Pala - Benzinga",
+          "t": "Headline signal (not a direct quote): Nvidia Stock and Cathie Wood Collide as Ark Sells $107 Million in NVDA Shares - Barchart.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQi1LTk1RUkpPV3VoY2VxWE9hUWFMN2lhT0Nnbld5aHc3N3p2ZUwyQk0zWXNfeU80ZVhMV1lXZm1GeHR2dlBBV0ROcHFYTE5UMFNFZ0p3S1JjZHd2T0J1ZFk1d1VxMWx6NkNiU2xrUWRFa0szRHdRYnBla09uZThJdXBfajZucEc5VHZWMnlsRDhqVDNQMTNJekdnbVB3RUs5MHRxRHhzRmdJRUV1V3BXR2dSWERrb1gyM0wzcnJCcXpaY2txSVZwQktIUmJZUFVLWlFnSHVPczhfaUhZSmF5dGxESEJNQkRFQm52Tmp0bXJ1M3l5VHhrYmE4Z2FnOGNIS3U4?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN3k1V0VoQW1OQzZwd29obkdIT28wNk5rVHZWNjVQZjBGSWgtcmZCS2pUaWpzTExPMDRKdjFaTk1BeWhRX2FkTGxQYWZMVlJGQU0tSWd4Z2JvNF95UjN6TFpXdVJrOHp5M19yd3VyTkdYY0JhUWtWd2hTZVZjdFR3NnNWYzNYbVlRZDRRRlFwUGF0aXk3OXpVZ1NNSWxJR2FVemhETUJZcDVBMjZvalducWxmczg1RXhuSmN2TQ?oc=5"
     },
     {
       "name": "Jim Cramer",
@@ -327,27 +475,6 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zZEdIRVZlZFI5Z1VJV1ljMFJDMXN2d0g1TkhmODhaUjJNMWhTZllHTzl5OUg2LWRkWldCUVFiWGU2aUNIUFRJZEVWbDIyZm9GUkFqd0ctdzNxR2gyeTBLQmh3NEdzTzhEcDVTcnZpa0jSAXZBVV95cUxQUmFiRV9nQ2xwRVF2d3V1U2xwUU9IM3Y2anQ2aV8taWlDOWtHNmZUVWRQMTMzeHl1U09FRzV0Ti1YZERSVGsyRGtycmU5akxpbEtXZmFCNl9LUGZIcWd5ZTRUTXd6SWZyeklxQmF4Yk45dHR2OTZR?oc=5"
-    },
-    {
-      "name": "Gene Munster",
-      "role": "Managing Partner",
-      "org": "Deepwater Asset Management",
-      "cat": "Investor",
-      "date": "2026-11-25",
-      "published": "Tue, 24 Nov 2026 18:40:08 GMT",
-      "source_name": "TheStreet",
-      "signal_type": "source-linked headline",
-      "relevance_score": 9,
-      "themes": [
-        "#AI"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): “Panic driven” AI selloff: Why Gene Munster sees opportunity now - TheStreet",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQXB0S1pOZnBucVp2dVRBeUl3N1NBckdOQkFoZW5pdzViU0N0ZmwzWnRNZTRhYkMtTGpsWGd3VGJFc3ltVHd1VHZ5QTN3VGdacXB0SXpVZ3J4MWkwNlNoOHZxYi1BSWlwNFQ4azBaMVpwZTJtZTVleTI2ZHZxM2dUanBsczJuZWxGTXFwNUFyTmN4UWgxTmpvdHNTR24?oc=5"
     },
     {
       "name": "Stacy Rasgon",
@@ -396,10 +523,7 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 18,
+  "fresh_signal_count": 24,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  }
+  "provider_error": null
 }
