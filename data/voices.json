@@ -1,133 +1,28 @@
 {
-  "updated_at": "2026-11-26T04:12:05.004149+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-26T06:36:19.417691+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Jim Baird",
-      "role": "Chief investment officer",
-      "org": "Plante Moran Financial Advisors",
-      "cat": "Macro/investment outlook",
-      "date": "2026-11-25",
-      "published": "2026-11-25T16:55:00Z",
-      "themes": [
-        "U.S. economic resilience",
-        "AI investment risks",
-        "Federal Reserve tightening"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Baird said the economy remains resilient, with consumer spending and business investment continuing, while strong growth gives the Federal Reserve more justification for further rate hikes.",
-          "k": true
-        }
-      ],
-      "src": "https://www.axios.com/2026/11/25/incomes-layoffs-rates-pce-ai",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Kevin Gordon",
-      "role": "Head of macro research and strategy",
-      "org": "Charles Schwab Center for Financial Research",
-      "cat": "Rates/market strategy",
-      "date": "2026-11-25",
-      "published": "2026-11-25T14:24:00Z",
-      "themes": [
-        "AI-stock correction",
-        "Federal Reserve rate hikes",
-        "market volatility"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Gordon said the inflation and GDP data strengthen the case for a December rate hike and could extend debate over further tightening into early 2027.",
-          "k": true
-        }
-      ],
-      "src": "https://www.schwab.com/learn/story/stock-market-update-open?msockid=29102f237dfe60af257538d07cb46173",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Robert Bergqvist",
-      "role": "Senior economist",
-      "org": "SEB",
-      "cat": "Market risk signal",
-      "date": "2026-11-26",
-      "published": "2026-11-25T20:49:00Z",
-      "themes": [
-        "AI-stock volatility",
-        "market risk",
-        "regulation and rates"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Bergqvist viewed the sharp day-to-day swings tied to AI concerns as a warning sign and urged retail investors to remain cautious.",
-          "k": true
-        }
-      ],
-      "src": "https://omni.se/ai-raset-delar-experter-koplage-eller-varningsklocka/a/M5RKbr",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Anders Rudolfsson",
-      "role": "Equity strategist",
-      "org": "Ålandsbanken",
-      "cat": "Contrarian market view",
-      "date": "2026-11-26",
-      "published": "2026-11-25T20:49:00Z",
-      "themes": [
-        "AI-stock selloff",
-        "bottom-fishing",
-        "equity opportunity"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Rudolfsson characterized the decline as a potential buying opportunity and said he would take a bottom-fishing approach.",
-          "k": true
-        }
-      ],
-      "src": "https://omni.se/ai-raset-delar-experter-koplage-eller-varningsklocka/a/M5RKbr",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Fredrik Lundberg",
-      "role": "Chairman and major shareholder",
-      "org": "Industrivärden and Lundbergföretagen",
-      "cat": "Portfolio positioning",
-      "date": "2026-11-25",
-      "published": "2026-11-25T08:56:00Z",
-      "themes": [
-        "AI exposure",
-        "capital allocation",
-        "AI profitability"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Lundberg said his investment companies have no direct AI investments because the sector requires very large capital spending while the economics of the businesses remain unclear.",
-          "k": true
-        }
-      ],
-      "src": "https://omni.se/fredrik-lundberg-vi-har-inga-investeringar-i-ai/a/lMAq0e",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-11-26",
-      "published": "Wed, 25 Nov 2026 20:12:02 GMT",
-      "source_name": "Mashable",
+      "published": "Wed, 25 Nov 2026 23:01:09 GMT",
+      "source_name": "NPR",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 11,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia CEO Jensen Huang reportedly had fourth affair, at minimum - Mashable",
+          "t": "Headline signal (not a direct quote): How Jensen Huang's return as NVIDIA’s CEO is going over in China - NPR",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ER2NhemVFUW1NQktrU1hPNXY3VlBIUHhlNm1zYkV3WllWNWd3WUZWcG9LandyMTVzR2FoRGxMd3BzNlRDZjNRYjhibVl0dl96OTZzSV9FM0M5bmRpZE11eVBBNHphR013M1NjRVl3ZGVoOGY5WXBPRGZB?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX25mOUxzWDkwQ21WZ2o0V1dCM28yVlRXQ2Q2Nk1OeDhuY3pGQ1YxdkNZejh3dXBWemRELW1zd3gzV0lWdFY1R0lSRHJzS29vUmtQMTB6WDQ4ZVFVWnM2OFhVYWJucG05b3RMZ3lTa19OY2ZQRENDa3lxejk4SEhGU1hVU0lkclpoS1BwZWhjdEQ2UEltc3plWXQwSmY0M3J1MzhiWjA0enpPS1E?oc=5"
     },
     {
       "name": "Sam Altman",
@@ -440,41 +335,41 @@
       "cat": "Investor",
       "date": "2026-11-25",
       "published": "Wed, 25 Nov 2026 17:28:35 GMT",
-      "source_name": "Barchart.com",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Nvidia Stock and Cathie Wood Collide as Ark Sells $107 Million in NVDA Shares - Barchart.com",
+          "t": "Headline signal (not a direct quote): Nvidia Stock and Cathie Wood Collide as Ark Sells $107 Million in NVDA Shares - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN3k1V0VoQW1OQzZwd29obkdIT28wNk5rVHZWNjVQZjBGSWgtcmZCS2pUaWpzTExPMDRKdjFaTk1BeWhRX2FkTGxQYWZMVlJGQU0tSWd4Z2JvNF95UjN6TFpXdVJrOHp5M19yd3VyTkdYY0JhUWtWd2hTZVZjdFR3NnNWYzNYbVlRZDRRRlFwUGF0aXk3OXpVZ1NNSWxJR2FVemhETUJZcDVBMjZvalducWxmczg1RXhuSmN2TQ?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaWRqYmMwc051S3Zaa0xNYksxMl9tUkhOTUdLc2drUEp4OWxNUTAzeEtPSldLaTdGS3dPYTR0SmdDOF9iZmFnZWFUZlNWNDhBYldfbWYxYS0zRUpDU0s5WDBfR2lqcURJcm0wRVJneUhMQkRGNE1NYkZvbWZDMVlVdlZlSnZrcDJOVEM5Y1BhbWxHQ0kwWFFYVTBWellOQQ?oc=5"
     },
     {
       "name": "Jim Cramer",
       "role": "Host",
       "org": "CNBC",
       "cat": "Analyst",
-      "date": "2026-11-25",
-      "published": "Tue, 24 Nov 2026 23:23:34 GMT",
-      "source_name": "CNBC",
+      "date": "2026-11-26",
+      "published": "Wed, 25 Nov 2026 18:49:14 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 11,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer says Tuesday's market pullback is an encouraging sign. Here's why - CNBC",
+          "t": "Headline signal (not a direct quote): Jim Cramer’s 5 Long-Term Stock Picks - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zZEdIRVZlZFI5Z1VJV1ljMFJDMXN2d0g1TkhmODhaUjJNMWhTZllHTzl5OUg2LWRkWldCUVFiWGU2aUNIUFRJZEVWbDIyZm9GUkFqd0ctdzNxR2gyeTBLQmh3NEdzTzhEcDVTcnZpa0jSAXZBVV95cUxQUmFiRV9nQ2xwRVF2d3V1U2xwUU9IM3Y2anQ2aV8taWlDOWtHNmZUVWRQMTMzeHl1U09FRzV0Ti1YZERSVGsyRGtycmU5akxpbEtXZmFCNl9LUGZIcWd5ZTRUTXd6SWZyeklxQmF4Yk45dHR2OTZR?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOVNfTnVYc2lEdHVENUFrV3V4V2lqWW9oRnZ3XzBaUFllTlVlNGhuM25QYllyOFZnWHBHUUVnSEliOWJDU29yeGRQMDJVWDhhZXM4NU95NlRrcmo4bm5Ed1IyaXJqNDk2cVB5YnpkbTRlcHdnOEt1R21nQmFnZU1TRVkyRkZVdkFGRV9oTmhDMWc?oc=5"
     },
     {
       "name": "Stacy Rasgon",
@@ -523,7 +418,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 24,
+  "fresh_signal_count": 19,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
