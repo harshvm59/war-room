@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T06:36:19.417691+05:30",
+  "updated_at": "2026-11-26T18:30:54.210612+05:30",
   "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
@@ -8,42 +8,42 @@
       "org": "Nvidia",
       "cat": "CEO",
       "date": "2026-11-26",
-      "published": "Wed, 25 Nov 2026 23:01:09 GMT",
-      "source_name": "NPR",
+      "published": "Thu, 26 Nov 2026 02:15:00 GMT",
+      "source_name": "CNBC",
       "signal_type": "source-linked headline",
-      "relevance_score": 11,
+      "relevance_score": 17,
       "themes": [
         "#AI",
         "#NVDA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): How Jensen Huang's return as NVIDIA’s CEO is going over in China - NPR",
+          "t": "Headline signal (not a direct quote): ‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO - CNBC",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX25mOUxzWDkwQ21WZ2o0V1dCM28yVlRXQ2Q2Nk1OeDhuY3pGQ1YxdkNZejh3dXBWemRELW1zd3gzV0lWdFY1R0lSRHJzS29vUmtQMTB6WDQ4ZVFVWnM2OFhVYWJucG05b3RMZ3lTa19OY2ZQRENDa3lxejk4SEhGU1hVU0lkclpoS1BwZWhjdEQ2UEltc3plWXQwSmY0M3J1MzhiWjA0enpPS1E?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XLUdDX1cxTnFzZl95T2dMX0lKR2VPY0xNZkpQby1qbGR6M0xWYkJNc2pCNGhNZWNvZWQzM2lSazRPcDh2bk1hdnE4QjdTRFhaZUVQVElNQzdNb3NEaEJrdjJyY3ZGeXNPcUx0dVNQcETSAXZBVV95cUxObktpNGV4RWJzSEZJV2thdzUwTTZVaFB4NER2VTJrQlRoQXl4MS1OcU5wdzBtdDJmYVpSYm9zU2R5SS1rTjIxQ3Y1eVJGSU1tMlhPY25OWHVkSi0yVGt6b3lNNjRMSFlZb2tJSUdHSVJtTC01VXJ3?oc=5"
     },
     {
       "name": "Sam Altman",
       "role": "CEO",
       "org": "OpenAI",
       "cat": "CEO",
-      "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 06:54:15 GMT",
-      "source_name": "DD News",
+      "date": "2026-11-26",
+      "published": "Thu, 26 Nov 2026 10:03:00 GMT",
+      "source_name": "Fortune",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "themes": [
         "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): “Love PM Modi’s vision on AI”: OpenAI CEO Sam Altman - DD News",
+          "t": "Headline signal (not a direct quote): Sam Altman needs a physical AI device because Apple won't give OpenAI data for ChatGPT—Tony Fadell - Fortune",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qakVvN3BPWXdjNDhuajlxeGlCbjFpckItc0FQNjZUTmVZdXZNM3U1VGVpbjVKd20zOG1WODFPeGF4c2ZzbkFCN3dWM0tzZWFCQ3JxaXhjcy1KUTNoZWgyLS1vVGJIWUFNVlE3RHUtQWZROXk5dTB2OW1HZGVuaGs?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNOC1ablRUWlFkY1k3MWlpZ0RZYzh2LTVfb01ZRUFTeFMxWXBzWElBVmhpMEVwd3JRbXBXR0ZGdTRRc19BMFdtQlBqODZZZ09OeXhfRlU2Nzk3d1pCVTVHdlpld1VYOUVNWjZMckluZTg4dnJWaEpOdUYtMVRHLXhyRHBiSDk5QnUtRTBKM2ZRRU5JMDlDZmFCYTdabGFEUUdQMHlDWWR4cVJGeFNSVUxrUkthd0VVTWZkVTZTWTY5b3UwQ3I4LVljODZrbmlFYXNqQUMxeGR6YklKOEw5ZF9YQ0NxX1pDMlNsUWpVblJTamp0b3lZOFlrMmpORkZ6ejZUUnJ6RGM5OA?oc=5"
     },
     {
       "name": "Dan Ives",
@@ -90,48 +90,25 @@
       "src": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOVjdUTFU0ekNKZTcwbWE2Y3dUb2dVWmNjRjFRSXdraElFMTRfeUdYVVE4NGR2dGg4d09JclM4bWxyS0YydGkwLXdYSGwtbWd1WUF3OXg2cllxQ2hPamE5MTRBSmtZLW9yS0xDN0JMZDFzbVR6NlVOX1F0MzdEZEdRclNJcG9ab1VnMFJZYnA3QzU2bXpvMHd1c21zZV9MRE9RY0sza0lCOWZGM09lc2RYZklUVEdSZ1BBTllNRU1oYURQT09CcnI4NDJ2ZXNkT2cyTG0xSjk5aFcyVHl4eTh6aXdrNGRzLVNYd2IyX0NsM0JEUjFKNmttWVlEdjg1cTBCZElRTW5nazJISHFUWThsTkY5cVcwVkc3cjcxbXJlLU1vOEJsYldLbVMwVTdrSmpQTXZZVkNKb3E5bjladHc?oc=5"
     },
     {
-      "name": "Lisa Su",
-      "role": "CEO",
-      "org": "AMD",
-      "cat": "CEO",
-      "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 11:39:41 GMT",
-      "source_name": "Dealroom",
-      "signal_type": "source-linked headline",
-      "relevance_score": 15,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): AI demand looks generational, not cyclical, and the CPU market could reach $220B as agents spread, says AMD's Lisa Su - Dealroom",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSEROLWhBclVHQVBLdW8yQ3lISWljam9raDBaV3BHSkZzNUdzR0hFN2RKQmN3eVdDbzJERDY5aVh0d2t3RTJ3b0pTUGRoS19uSEdGYmdPVVM1czN0dVVLSVFXSHdWV3Z6aVU3bURSSUN2Y3QtNVFnTklzcm9TdkFmZWgxay1ST2l1REdYQ2phVTNwYUNZMV9HVmtjQVBkOGQ5QVpBSmdqZjFMQVpvVHpOQUdpQm45TkxxZVpab1FkNlZ2Tk9jS1RqVjJfcDJZSjExOHpxR1NZRC1tVXFldmNuYg?oc=5"
-    },
-    {
       "name": "Chamath Palihapitiya",
       "role": "Investor",
       "org": "Social Capital",
       "cat": "Investor",
-      "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 11:45:07 GMT",
-      "source_name": "Yahoo Finance",
+      "date": "2026-11-26",
+      "published": "Thu, 26 Nov 2026 10:44:35 GMT",
+      "source_name": "TradingView",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 9,
       "themes": [
-        "#AI",
-        "#NVDA"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jensen Huang's Reported Humiliation Tactics at Nvidia Draw Praise From Chamath Palihapitiya: 'This Makes Me Want to Work for Him MORE' - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Chamath Palihapitiya Says Anthropic’s Valuation in Near-Term Has ‘Mostly Nothing to Do’ With ANT Stock as Market Risks Mount: ‘Things Could Still Rip in Your Face’ - TradingView",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNzJNNFZndWFza09JekhzNFhZbUV5OG9OWDZldDRaMHNicVZRSkRXZHljUEl6TzhjS3RsODVvaDBSY2E3Rm4wdEx2NlQzci1vbUhPb3dqRFhjR29nUGhKTks0cHZaVXFvaUJ1TU02SE5yTWJwS0szbE5VX3VLRlJmVmZCRi1OX3ByT1BOWV9pbGdqYVdNNzRKb3ZfT0NrZ2dQTDc5Vk9R?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOeG0zdnFac1BRM1ZSTzNVMWhsbUVwWG9UbkxRak9oVXpvY3RSV2pDaUE4ajZOSDZYcDdNa3FFdUdZODA0aXhDVnJGY2d1UHJKYTZuV3V5dEtmS1ZhcHJFTkpSa0owM1BoQy1QMFlqaFpSYi1aOEdkcUFFaXdwemtSVzc0WmZVSURfVVVfaGctNVhHcUlJQ0VxZEZvdWZUV2Z3VzZkOXdkQTNIS0ZidUw2Ykd2Z1ZDWU9taF9RUHNDbm9zYUZwcnAtRUlTY2pFRWJ5al9oaEVLcWFvcC0tR0dsTEZBV1FCSTdOY0pVbjRxVlp4cU52Z1AtdU9WbmV4N3JOYWQxU29LYXdCUDdmbElyXzNmdDRPeTFubjdKbEZ4dHotMUY5UG1kMUF6aEZ6a21XWVQ0dkowc3F1OFNtZ1E?oc=5"
     },
     {
       "name": "Alex Karp",
@@ -139,21 +116,21 @@
       "org": "Palantir",
       "cat": "CEO",
       "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 10:35:30 GMT",
-      "source_name": "The Cryptonomist",
+      "published": "Wed, 25 Nov 2026 13:53:47 GMT",
+      "source_name": "Yahoo Finance",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 13,
       "themes": [
         "#AI",
         "#PLTR"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Alex Karp Palantir Stock Sales and Insider Trades - The Cryptonomist",
+          "t": "Headline signal (not a direct quote): Palantir’s CEO Alex Karp Sold $75 Million. Co-Founder Peter Thiel Bought $122 Million - Yahoo Finance",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRVnp1MDRfYUpFVWw1eU5oeFpicjJpMUROSU5ua053ODZlY3JTZ1ExXzUwRm55dTd5YkdHM1RyWHEwVW5ZdlF6YWkwSFJfMkdGT1E0RjNkRGdYSWZaQTlyNjF1WmF1enB1R0Y1SVliRy0?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQXF0d1VwVFByRnNXM3czbHlIZzFUUkJ0UkJ3SlNYUUk2TzNlOWJyQXRWdzYzZDNzUHFEMnNyZWZXVlFQT3RiQmdXQngwY1FWR3hNcGZ4Z0dOcC1RVXZvZHRMNFgzam9lRGxSdGNwNXgzY0M4MUJUY195Q09MZERrck5fdEZYX3JKRnBJTTJEekJSUU1vNndR?oc=5"
     },
     {
       "name": "Elon Musk",
@@ -161,29 +138,30 @@
       "org": "Tesla / xAI / SpaceX",
       "cat": "CEO",
       "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 04:20:49 GMT",
-      "source_name": "India Today",
+      "published": "Wed, 25 Nov 2026 14:31:08 GMT",
+      "source_name": "UA.NEWS",
       "signal_type": "source-linked headline",
-      "relevance_score": 12,
+      "relevance_score": 11,
       "themes": [
-        "#AI"
+        "#AI",
+        "#TSLA"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): They built xAI with Elon Musk, walked away and now want AI to predict the future - India Today",
+          "t": "Headline signal (not a direct quote): The Tesla-SpaceX Merger: Why Does Elon Musk Want a Megacorporation, and Who Might Stand in the Way of Its Creation? - UA.NEWS",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZkpsWnBHeXlvSm94TXVzLWpiVFJFLXFJUFo0Z3BYMnUtbDJScjlzT2ZOeGJwbktjVFNQbFdpRXQxZE5JYzl3OTdhSE1VSjhPNFQ2RGtXdjZHZHRBZVRoS053V1NzemducEk5S2hRX2Z6RXpjekc5cUZKNjRieFplNE94Y1ZtVkpYWkVKRm1QYkhwNFNYMGw2d1RRUzExOUpOWHZxMHNVWTV0QXl5ZTlzQmVfQS1nbVlxNGxXbFhCdU1YWDhISnhFYjFWZzk3WVliTEs0bThPeXpGaU1Vb3pR0gHkAUFVX3lxTFB6RHRVVDRLWUNlSnpFeTloOUk2c2NUd1FQV3c5N3NfYWZMVVJmWXR1SmxOREJuaVJ5MHA2Ylh3UW5GT1V6WDN1b0hpRDJRLVB0SDItbzFIS290ZE1RVWNzc2pPUEZFSkZIQm1Uam9HamxnUTdGUW9CaEFUclVkcm43NExvWUVsNU16OHZLMHJFQlA4MlljTk1GYnJFUXROVndiY2FybzBlTGh6Ykk5V21IQkRNR1NOUTE2MzdkVWlEM25YcnVzUVdlanZ4Tm16clNXYTJwcnZfN1B5VmtaS3FUNmZnSw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQS2oxZTFpdzQydThING54VEhTbG9vcUZpOFVXaFJGQnRNSDJGYVFsNHBISXdCRnY2NTVybnNJdGhDT2VjTFN6NS15VmZWakxXOEpRZGlJUmxxbmUxWFFMUmNFeFI2MGRYd1JfTXlheTcyMTR1eUJtbzNOcE5WMUYwMWJiTVpMTlBibmlnRWJSeU5rVlBuWks2UjhKay1hMXlyVV9GbnBFbVFYTXZKbGNvZGFyV2pERTVhMDVTSkxDVmNMNFFI?oc=5"
     },
     {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
       "cat": "CEO",
-      "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 10:59:34 GMT",
-      "source_name": "Tokenist",
+      "date": "2026-11-26",
+      "published": "Thu, 26 Nov 2026 05:02:00 GMT",
+      "source_name": "The Times of India",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
       "themes": [
@@ -192,33 +170,33 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Mark Zuckerberg’s Meta AI Predicts a Wild Anthropic Price - Tokenist",
+          "t": "Headline signal (not a direct quote): Meta AI head Alexandr Wang says that he and Mark Zuckerberg are talking a lot, chatting a lot as we need - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaEg4bThlMFoySlFmenFETHhnR3JZUllOakRKMjNrb2FrSlhsMEEzd1NLSGtqWHdKeUFOcFdoS0s4Wmx6YTZwRlZHOGlEV1RUUWpSMlNyLS0xMUtyRlg1U3J2NlMzQTlPbUh5QThvTHE0aWVQUlowbTAxZjB3MEcySnFvSkg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPaEcwRndUSmVYdUZYcXcxSk1GLUlScmtoTmxrV2QyLUFqMGl1ek5Wa3QtczFYaGdCdWM3bnp0NlNfMmRpZGJqSk1TOW9KR01uZThGNk5vZEpINm8wU0tyVnAxbXZnM3Q1TXVhV1ktSFN1aTFjb2twN0t0aUZqWjhJWkZDand1X0ZFaUtXQV9nbHhOX1V6ZW5HSGFkemFjWGJTXzI4Z3R4SWVNY1VqZDg5eXBjWTdCWno1NU9HM3BobWpoRnBIOUVZRXBBSlp6MHJubjRuX1FmSGZDemlsdTA2eFNLT01VMmdzSm1yRVAtdGpWUW11cjVmVHk5a2RRQ1gzZ0JfZlRjV05wR2RMbzFwS1A0c09ReTlfQmhoSzBHcnhmbk95UTNKWXBiNmZscW9iWVZCSEtYX0EySWFTUG9Hdk9NUzU2TFlf0gHOAkFVX3lxTFBINkVRVTE1cDVHbDRwMnZHcldxSjVoUzloTzlUNDdlZXhIdGVCYVE4d2ZmX0Yyd1N3T0o1bkV1cnRodUE3X2N4ZE1IRTBfSFlUMHNwZE9UdUlfTW1TcV9FZFFOYW91TzhiMXRFMzZ4aFV5LXB6c3h1U3YydlNhWktvNVdtd2ZkWkt3ZVRydU4wc3MtcXp4YkxYN05OZXpyS3VYeURLTnNoSzBjMW5yTk54elFyckk2RDkxUTN3UV9JNklmZENNcFgtSWJYbVplWVk5NjVaSnpTalhFRUM1YzhERGhfQm0wSVJjUWFiM1ExVXdyUXFzYXhBbzRidUxRaWpDMVVhNHQySnkydDlHankySzNfX25UVnZTVGtLOVMyMXBzbmZndHppSFRYNmNzeXMxSGR3c3BfTnlYZzlNeHBHck1XSm1xRWNObFR2MHc?oc=5"
     },
     {
       "name": "Sundar Pichai",
       "role": "CEO",
       "org": "Alphabet",
       "cat": "CEO",
-      "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 15:23:00 GMT",
+      "date": "2026-11-26",
+      "published": "Thu, 26 Nov 2026 03:08:00 GMT",
       "source_name": "The Times of India",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
         "#AI",
-        "#GOOGL"
+        "#BE"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Elon Musk says 'impressive work by Google', as CEO Sundar Pichai shares Neon's new Day record and thanks - The Times of India",
+          "t": "Headline signal (not a direct quote): Google CEO Sundar Pichai shares a 'thanksgiving' game, shares his score; says: Let's see if anyone can be - The Times of India",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPTDg2cnhlSUN1R1hKaHlEWjBvdTNFMUZxTHU2MjhtTmRQdG1KSGU0OU5HekRDZUJHUXQxWHBBcVlmLXpmUWhLd3VEZ0VoRWRZX2R0N0RVeUlfY2xqMmxwRm16cDFLV05feHZ5MjJ4WnlJcmtEaTZ4RlZpa3RDYXFpenk3emtXeWRBeVZ0YkhWNFVkWGs5VkxkQ2RqVHNuLXlIOXdLR1JnLVd6MEh5cTVTbmlPV0k1RFl6UEptanVPYkFVRFJldVpEMGFVQThOVnN5UDRXUlppUkoyVzAtSmRmR1Vfa3ZJUUNvQVBYblB2TTlsYnNISTJiX052RUdESkxWemJCdkRaU3h2bnBLS25MM2lhd2xITS1VMFJUNjFSVWFybUHSAagCQVVfeXFMT3VMVlpSVVZIc3h1eUZhdVdCZk1ta3JZb0NDQUJ0UW43REQ5MmdzYl9RdGxOUkctLUhISGRKY0J5bGl6WTRKZS1rek1qTVVPTzBpRGk4cEQtLVNzMDh5MDdhWWJ3R01ZTDlyeFNadkstZ2MycWlrR29tdUJGV0xncEM0OUd1OTVhcGFCT0ZRdXVxUlVCMHhTV2tvSnJsVFZsWjAzaThsTkFmUzRtWDhxYlhhMFJFeUZZY0Fhd3M3QzB4VE10N0RfalNSZ2JBellTS1NPRTBZbFlLY3VoZXZTT2xWdTNXa1Bhd3lXR1IzUVBNNVo5X3I1VU5aT1ZrQm5WZGt1c2FiUWEzVVlTRjlFVHpkWUx4WW5pbk9kU1RwN0hzMmdVaERfdzc?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQaF9oR1dGb2o2WWZ3NVI1MjExVV9Ram1DTVRaUENXR3BtdUNnaHFGaVY3Ry1GSU9OQmlfUlF2VEV1Tnd0c1lab3EyN3ZrLWJha3U0cGxZWFJwdmJUaGpKelctbXpxTDNLODFwdVV1S001QVlCdjhNeW5JdDkzNDltR2N1dkZKNGUwekxTWlJWVFNvcHc5dTNEMk1DaDRuRGE3QnZmTUFRQVVtUVdPTmx6TFE5M0V0N1REQTNxbkFIMlVQeWEtTzF6UEZpeHV5YWV0bXUzQ3FSc3RiMm1EMlhiR0hrRlNZejFtVl9Na01UcjkySkFIX2F3bWVFc204YkFKNGVKZC1hTThUZmRlQnNuM1lZSWNVZ9IBmwJBVV95cUxPbjNKWEhfQlYyWEZSRFhNclFJMTlxTE55RFh5TXlZeldlSnF4RFlHaGtCS3FRTk5UX1hPeUtWM2U1aW1lYkwyVzJjVEdVa3dWSkxIbDkyOUtHT1Zrb1dURmRKNmVTZmNRNUFybWd4eGQ5YVNpQ0h3aW9WOXBEVlRIUVJ5dmg4M01UbDR0bDlKb0VJdTdqeV95c1hPYmFDRVZMWVZnZDJ2MDBwaERhWW92aG9qemJyYXkxd29lR2FQTTB1aWNKdVdmVTZHMnE2d2pDSEk5YUdXa0JWTFdTTkZVdExkQ0Q0ek1XVEN3Umt1SWdFdjFxdUxUeFJZNEhOb3plOVB4dHNZbHpjZDI0MmVzOHRPQi12RkJVRFBv?oc=5"
     },
     {
       "name": "Sanjay Mehrotra",
@@ -226,21 +204,21 @@
       "org": "Micron",
       "cat": "CEO",
       "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 07:08:15 GMT",
-      "source_name": "Seeking Alpha",
+      "published": "Wed, 25 Nov 2026 15:01:00 GMT",
+      "source_name": "MarketWatch",
       "signal_type": "source-linked headline",
-      "relevance_score": 17,
+      "relevance_score": 15,
       "themes": [
         "#AI",
         "#MU"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Micron raises CEO Sanjay Mehrotra’s security spending by more than 2,000% (MU:NASDAQ) - Seeking Alpha",
+          "t": "Headline signal (not a direct quote): Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows - MarketWatch",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVFZ6ZzVtMHV1UjRLb2NfU0J1dnBONFBldTJCd3NWdTRiSlg3T0JUTUp5aXd2Q1Y3YkNtY3l6cVZ0eUNBMUczQTh6cEVacVd0MnI1djIyT1lhQnNDR2dYcUcyV3lVQm1MRG5VNWtBaFpwSUlLRlVuYzl6VThsa2EtWExMNEx3SFE4dHRaU01xalVxVm95TW1VTFZMM2NYR1NrUEtEWWpsdXhEMlFm?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRnpwTTlhRF9HOHJIRUpwMDlGV1RfaklpS2JpN294dndhLUFaQXZZN1dIZG81dXhoa21rNEU5VHFiaEg3QlI3WjhWVlRFaFNxZXNfX0E2T1hSSW14OG40S2RYaXEyWWpKUlpkR045WThlbEQyRWRVa0ZhSi1YRjN6cHNUTnRtd0EtOFplYlVYdVdLZ1piYlVwc1JHWVYzc3Bvbzh2Ni1zU1VVVDlQRUhWRFItUFU1M0xhaXNJcA?oc=5"
     },
     {
       "name": "C. C. Wei",
@@ -269,22 +247,21 @@
       "role": "CEO",
       "org": "Intel",
       "cat": "CEO",
-      "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 11:43:43 GMT",
+      "date": "2026-11-26",
+      "published": "Wed, 25 Nov 2026 18:33:18 GMT",
       "source_name": "Dealroom",
       "signal_type": "source-linked headline",
-      "relevance_score": 15,
+      "relevance_score": 12,
       "themes": [
-        "#AI",
-        "#BE"
+        "#AI"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Intel's own chips will be on par with TSMC's leading process by late 2027 or 2028 on 14A, and 18A yields are now about 70%, says Lip-Bu Tan - Dealroom",
+          "t": "Headline signal (not a direct quote): AI data centres now buy about as many CPUs as GPUs, down from a ratio of 8 to 1, as inference and agents take over, says Intel's Lip-Bu Tan - Dealroom",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVXpLaVpoaFJTUDVtS25IYzFHOUNqbEZpaGNlNTBrUVRUeXVsWDBqNlBZYjJBSmFUbXFOV0U3UklWNmFuajZBQTZEbl8wZDY2NHRnT3NwclBVTEdaY2Nvc1U2Y29GcU9TdkJzNXpOWjdkWU1XWjg3dDRFdDVhbEZMX1ZEcGR1N21sX3ktMHNDUV9kTGFTMEZzOEV5ZXN3ZDRRWm9Qd0dNdGtlaUs2RnM0LVRoMFhkVGc5eXFVaHR6QkZsNUp2UHRBLWowNG11elRicWN2bHo1ckluNk0tRzYyeWNzaXZhd0FCRzVCcDlYUGlfZm1adWZNdnJ5dTFPMTg?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYjI1UEwydnRaaGpHVWpXdTlxWXl0NnhQZEowTWZIMWVzVkJJX280TUVCaUtaWmNyVUQxMzh2VXhUb3I2U1R3MmlfaGpBUUpjYjE4MWZiVnFVTnhyeTc4LTJlbVpkZk9hS3FIbWVKS0FrUVh5cVI1dVBLMGk0bXE5MkMtWHNiZkI3bHBTTjFFNEdyZF9FZHFmS3ptODhwdXdUVXFfN0FhZWtzN0RNQ1JSVmJhRXdxYjBJbzNzLVlvUTRpWFM1c08wbW1tcTQzXzYtcU1KdGw5WFhaTWlReHViM0hSZGNfZzN0aUNSd3dXUEFCY0l5QjNadHlvTU90N1E?oc=5"
     },
     {
       "name": "Arvind Krishna",
@@ -312,9 +289,9 @@
       "role": "Chairman and CTO",
       "org": "Oracle",
       "cat": "CEO",
-      "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 04:27:29 GMT",
-      "source_name": "CryptoRank",
+      "date": "2026-11-26",
+      "published": "Thu, 26 Nov 2026 05:06:04 GMT",
+      "source_name": "www.tokenpost.com",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -322,11 +299,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Larry Ellison overrode Oracle vote against his $131M payout - CryptoRank",
+          "t": "Headline signal (not a direct quote): Larry Ellison’s Oracle Shares Helped Pass Executive Pay Vote - www.tokenpost.com",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNVNTdHM5bVdPNUF4X0E3dmVCSWJwX0J0NWx5cE0yYlJBb3hLQ1UxNDNZWm9sODBaYU9QMl9XdGxNeldZa0VWeUdfejFKa0tfb0hGRW42WHF5c2c4aktreTVOR0ZYYlRIRUR1cDVRNVBFWXM1X1JGMjA4OEVBNnU4MnloZDRSMDVvTFhBdW5kTkxWUDlMa0xETWJTRjM?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBkV0tvSW55djF3M1hTNm5US0Eya0k3cmEySVBkZ3JNVzJDQ3I1cnl2RjYtV01ueXlqckRTMDhaaXVRSl9kZ1lyZUhrdjdGRVlKaER0N2loN2g?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -370,55 +347,11 @@
         }
       ],
       "src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOVNfTnVYc2lEdHVENUFrV3V4V2lqWW9oRnZ3XzBaUFllTlVlNGhuM25QYllyOFZnWHBHUUVnSEliOWJDU29yeGRQMDJVWDhhZXM4NU95NlRrcmo4bm5Ed1IyaXJqNDk2cVB5YnpkbTRlcHdnOEt1R21nQmFnZU1TRVkyRkZVdkFGRV9oTmhDMWc?oc=5"
-    },
-    {
-      "name": "Stacy Rasgon",
-      "role": "Senior Analyst",
-      "org": "Bernstein",
-      "cat": "Analyst",
-      "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 09:09:36 GMT",
-      "source_name": "marketscreener.com",
-      "signal_type": "source-linked headline",
-      "relevance_score": 10,
-      "themes": [
-        "#AI",
-        "#NVDA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Bernstein's Rasgon on What Jensen Huang's Return Means for NVDA - marketscreener.com",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY3VianF4dUxXTlpNQ0F2bER0NDA2R2k3R21pNjNacGM0eDI5UXRVaHpTS2dsUUc4NFo2MHg5LXg2SG1obmQ0TjVOc29fWWxxR21CaE56dTdPdHhKbHZpSDU0ZTVOdDRBRVNKWjJ5a2hOWm44WGI5VEdRaGxVX1hWdGxDcFc0bE80UjNzUjJwUU16eGxQbGoycE0zNFdJZVZHYlVralRRMXIyM2dEQWpIUHlqcEVQRjA?oc=5"
-    },
-    {
-      "name": "Patrick Moorhead",
-      "role": "CEO and Chief Analyst",
-      "org": "Moor Insights and Strategy",
-      "cat": "Analyst",
-      "date": "2026-11-25",
-      "published": "Wed, 25 Nov 2026 10:19:08 GMT",
-      "source_name": "TradingView",
-      "signal_type": "source-linked headline",
-      "relevance_score": 11,
-      "themes": [
-        "#AI",
-        "#AMD"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Intel Wasn't an 'Outlier' in PC Slump, Says Patrick Moorhead, as Dell, AMD, Lenovo and HP Reports Echo Industry Weakness: 'Good News Is That...' - TradingView",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNQm90ZEFFY2dIeW4xWWs4ZVdfbXBkWnNoQ0dHOTdVRWM5ODVXbEtZSTdiQkFVWV9odUt0aVlyZkJZaEl5WGZRMnhGaDlCSlhrZWdBMTE1LTVTX0EtbzJhdzI1U2Q5UlhlM01PVzJ4TE9nUmd6VVdFeVNzZ2JLdkxEZTA3VmZHSkpQT2FXdlJ2ZnhnLXRsQ0txNHpnQmdsR3VnaHRkWFZIcktWcUFfWVFPVFROUkRObDNRSi02S3FTR1lRZHpaa09wMlcwckdUS3J6WF9RY1oxbnF5NFNsY1A1cDVneDFrRWFFQVpiUVNZdWRzWTJyQmU0SFhEMTFuZXdyS21ZWl82WEFfczNYSWV4SU0tUUlmX2p4RVAw?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 19,
+  "fresh_signal_count": 16,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
   "provider_error": {
     "code": "daily_research_limit",
