@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-27T04:02:50.024475+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-27T06:37:42.624905+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
     {
       "name": "Jensen Huang",
@@ -132,28 +132,6 @@
       "src": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOeG0zdnFac1BRM1ZSTzNVMWhsbUVwWG9UbkxRak9oVXpvY3RSV2pDaUE4ajZOSDZYcDdNa3FFdUdZODA0aXhDVnJGY2d1UHJKYTZuV3V5dEtmS1ZhcHJFTkpSa0owM1BoQy1QMFlqaFpSYi1aOEdkcUFFaXdwemtSVzc0WmZVSURfVVVfaGctNVhHcUlJQ0VxZEZvdWZUV2Z3VzZkOXdkQTNIS0ZidUw2Ykd2Z1ZDWU9taF9RUHNDbm9zYUZwcnAtRUlTY2pFRWJ5al9oaEVLcWFvcC0tR0dsTEZBV1FCSTdOY0pVbjRxVlp4cU52Z1AtdU9WbmV4N3JOYWQxU29LYXdCUDdmbElyXzNmdDRPeTFubjdKbEZ4dHotMUY5UG1kMUF6aEZ6a21XWVQ0dkowc3F1OFNtZ1E?oc=5"
     },
     {
-      "name": "Elon Musk",
-      "role": "CEO",
-      "org": "Tesla / xAI / SpaceX",
-      "cat": "CEO",
-      "date": "2026-11-26",
-      "published": "Thu, 26 Nov 2026 00:05:53 GMT",
-      "source_name": "BASENOR - Tesla Accessories",
-      "signal_type": "source-linked headline",
-      "relevance_score": 10,
-      "themes": [
-        "#AI",
-        "#TSLA"
-      ],
-      "quotes": [
-        {
-          "t": "Headline signal (not a direct quote): Musk's Terafab Targets Test Chips by June 2027, Volume by 2028 - BASENOR - Tesla Accessories",
-          "k": true
-        }
-      ],
-      "src": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR1BSQ0N0NF91dDZTSFhNVVYzQWd0VEZIbkNYNmRnTExQdFptTGpZR0pfXzltZnY5TEdLTXZEeU5abkx3NFNEeUh3M1FrS1RBOC0zTjJzeV9PSE1NX0RPN0hfV1BBU01IM0VRSjJDdHVWaWp3Z2xqenFCU3RQQ1c4MFZYZkNHV1JnTERaNWtSRFljWXNXZjZleG5naw?oc=5"
-    },
-    {
       "name": "Mark Zuckerberg",
       "role": "CEO",
       "org": "Meta",
@@ -223,9 +201,9 @@
       "role": "Chairman and CTO",
       "org": "Oracle",
       "cat": "CEO",
-      "date": "2026-11-26",
-      "published": "Thu, 26 Nov 2026 05:06:04 GMT",
-      "source_name": "TOKENPOST",
+      "date": "2026-11-27",
+      "published": "Thu, 26 Nov 2026 23:16:12 GMT",
+      "source_name": "Billionaires.Africa",
       "signal_type": "source-linked headline",
       "relevance_score": 12,
       "themes": [
@@ -233,11 +211,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Larry Ellison’s Oracle Shares Helped Pass Executive Pay Vote - TOKENPOST",
+          "t": "Headline signal (not a direct quote): American billionaire Larry Ellison's own votes carry Oracle's $884 million pay plan - Billionaires.Africa",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBkV0tvSW55djF3M1hTNm5US0Eya0k3cmEySVBkZ3JNVzJDQ3I1cnl2RjYtV01ueXlqckRTMDhaaXVRSl9kZ1lyZUhrdjdGRVlKaER0N2loN2g?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOanFqYVhlRl9LVFJlWGZqYkV5bWJpdDBwN1pYWXlKalhab0tDS2FxbjRrbUQ5bDdpOWxjaHBMX2N4YlZKNFBQb2JsZjRWaEtSUXFTd2pHbUR2R0UtSUFtUFZEbmc3R3BiVkdJYW96cmtYLUVuOEpXcEdVOHIzV0d3eG1hbTZ3QjdteFA1VDFSRzF1TWVibGNjRlpWTi1nVVpFYlh6YngyN2JXOVc2SzdzdU52MFI3aGNMbzh2Q0NoczVHZw?oc=5"
     },
     {
       "name": "Cathie Wood",
@@ -267,26 +245,29 @@
       "org": "CNBC",
       "cat": "Analyst",
       "date": "2026-11-26",
-      "published": "Thu, 26 Nov 2026 13:53:39 GMT",
-      "source_name": "Yahoo Finance",
+      "published": "Thu, 26 Nov 2026 13:53:00 GMT",
+      "source_name": "24/7 Wall St.",
       "signal_type": "source-linked headline",
-      "relevance_score": 14,
+      "relevance_score": 12,
       "themes": [
         "#AI",
         "#MU"
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Jim Cramer Says Micron Stock Is “Comically Cheap” at About 3 Times Earnings - Yahoo Finance",
+          "t": "Headline signal (not a direct quote): Jim Cramer Says Micron Stock Is \"Comically Cheap\" at About 3 Times Earnings - 24/7 Wall St.",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTkNkQWRRRS1zTGJ3VDFkOUNkTmpqTTJ5aE5UZi1iY2lsTm9VX1pEZ1Z6T2tsd1pvN2w0Z05XV1dlckxaWHRVM01mblBqZEZxNlk5bU1fbjdCb3Brc0E2aFlROGp6QldQTWdnQXM3UEJxT1RVc2xMOVd0TFZoSGVSZGZKYTJmYjdDMVJEWU9KanRLNGRnbTVjaw?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQN3p6Qi1xSnJBN2ozd3BlZ2VXT3BpRjl3SnNQaW9lbnlYX0xlVm9yUUhEZUxtcnFIUTlMeUpvc0NWd2E3RWhPUVpzZGlWSzIzLXlfaGt0QXQ0eW1leXdIamMyQ2l3NjVqZWh6U2FIZkd4MjNYYmRXWEhoMl9VenRkTlBIX0U5TFlrdkZpTGNHQzRHN3ozRGMxdldVTi0zaWdmRlpMbjBrR2ZyY0VHcWFEVTNncG9WcXl1?oc=5"
     }
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 13,
+  "fresh_signal_count": 12,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
