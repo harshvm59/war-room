@@ -1,83 +1,44 @@
 {
-  "updated_at": "2026-11-27T18:28:36.689099+05:30",
-  "source": "google-news-rss-fallback",
+  "updated_at": "2026-11-28T03:47:33.133036+05:30",
+  "source": "openai+web_search",
   "items": [
     {
-      "ticker": "AMD",
-      "headline": "Broadcom Makes More AI Money Than AMD—So Why Is AMD’s Stock Crushing It? - 24/7 Wall St.",
+      "ticker": "ANT",
+      "headline": "Anthropic shares rebound nearly 11% after recent post-IPO weakness",
       "date": "2026-11-27",
-      "published": "Fri, 27 Nov 2026 12:15:00 GMT",
-      "summary": "Automated RSS market signal from 24/7 Wall St.. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSVlVaEZQaUJpeFNkUWc0MEEyQ1dWUG5vSDdYY0NQSkVPeVJBS2o2X0NFM0JXcFg1NWlTRkQxZVdFb2tzN0wtZ09QWDVrWm40eEJTaVVmaUNPMFY2cXRhOFR1Ml93eE9oVWtJY2sxMkhQc3FJamJqX0ZQMGpCUkJsWlFsam5EZTR0VUNmeW1YWGNzNy1sWVZ2dzZoeUU3SWZ0X2kzbTNoRnpPeklIeTlidS01dnI?oc=5"
+      "published": "2026-11-27T14:32:17Z",
+      "summary": "Anthropic shares rose nearly 11% during Friday’s shortened U.S. session, while Nasdaq, the S&P 500 and Dow also gained. The report links the week’s volatility to AI-company developments and Nvidia leadership concerns.",
+      "tag": "AI stocks",
+      "url": "https://e24.no/boers-og-finans/i/JnJWob/usa-boersene-stiger"
     },
     {
       "ticker": "NVDA",
-      "headline": "Fed Blames High Stock Prices Partly on “Enthusiasm for Super Intelligence.” Microsoft Has More to Lose Than Nvidia - TIKR.com",
+      "headline": "Nvidia rises as broader technology shares lead Wall Street rebound",
       "date": "2026-11-27",
-      "published": "Fri, 27 Nov 2026 12:12:09 GMT",
-      "summary": "Automated RSS market signal from TIKR.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPd1JGV0c0VExfUEZsYmdCNnVUMWZRVmFfT1RoYl9BTXp5ZG1nWjlha1RjUWh2a0drUVZmNWptakdJSWJHUjJRM3V5WXJsd2RmYmpfUE1iUDQ5bmtUMXNyVkZnd2hnblNteVNfU1ZXRjRzQ05rM19LMnBrQUFGUU1FcW13ZkxDTWRxdnpKTXR6cE9yUjFUMHIxVGpRYnF1eTV0TG9uREtIZ0VFa21XOVBCelVHS2xobDBVZmxsQmZGNzRVUHRNQ2tVQUdtUlpXZnV2NHNSdzRGcVFZR0tYbWVMYTdXd19tN2Jnak9INXZScnM5ZDBMb09SQ0xzVWlTNTRQeEc1WlBoMkc1dw?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
-      "date": "2026-11-27",
-      "published": "Thu, 26 Nov 2026 23:31:05 GMT",
-      "summary": "Automated RSS market signal from Yahoo Finance UK. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5"
+      "published": "2026-11-27T14:14:00Z",
+      "summary": "AT Pulse reported that Nvidia’s leadership turmoil and Jensen Huang’s return remained central to the day’s AI-market narrative, while technology shares helped drive the broader market higher.",
+      "tag": "AI infrastructure",
+      "url": "https://www.at-pulse.com/editions/2026-11-27/"
     },
     {
       "ticker": "MSFT",
-      "headline": "Tech Stock Sell-Off: Down 13%, Is Microsoft a Buy Now? - The Globe and Mail",
+      "headline": "Microsoft and Broadcom participate in broad AI-led market rebound",
       "date": "2026-11-27",
-      "published": "Thu, 26 Nov 2026 22:28:50 GMT",
-      "summary": "Automated RSS market signal from The Globe and Mail. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONS1SQmFKSVJVX1Y5QUVqeWJqZjg1MkJ1T05fZ181RURrZkd2eEhVU2UzaVotYVVkbjUtVmxPX0RsTnh4WmZOYXVjZlZEQUxQVTFlM0ZfVjlraU4wdGo3UUUySDVYUVZ2RGZVYlQydFlONEpmVHc4dVIyeE5SbGJ6cWRCbjdjSEdTOUxXT0ktcU1KYzBNTFIyR3VjMW1vVkxLMkdEb1JXZExIZlRQLTlELTBsVnJ6dEpDeFdGSHFsN3o3RFpTaVhwTHFKYTVzN0kw?oc=5"
+      "published": "2026-11-27T14:14:00Z",
+      "summary": "AT Pulse described listed AI names as pressured by high real yields and valuation concerns, while also reporting that Microsoft and Broadcom were among companies involved in the day’s technology-market moves.",
+      "tag": "AI equities",
+      "url": "https://www.at-pulse.com/editions/2026-11-27/"
     },
     {
-      "ticker": "AI",
-      "headline": "Trump discloses 21,000 securities trades during first year in office - ABC News - Breaking News, Latest News and Videos",
+      "ticker": "CRWD",
+      "headline": "CrowdStrike’s reported Zscaler acquisition highlighted in daily AI-investing brief",
       "date": "2026-11-27",
-      "published": "Thu, 26 Nov 2026 19:20:40 GMT",
-      "summary": "Automated RSS market signal from ABC News - Breaking News, Latest News and Videos. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRXRKN3Z0andHTXp5WjRNQ2xkUjcxS2tCeHpfdG9EeFRpaGM1Q2IxZFM4akNkQm5IZkt6NnEwRFNsNUQ2VUpYaXdaQW5LZEFsNC1OcHhKNWczS0QxSDZ6RE9qbGFieUdvaHpsNldGczhQa1hTQjF2aGZiSl9wcUhlaENId0I5VWx1cGJFZ1NCM0IyY2M2LWtKRkVDX3I4WDYz0gGmAUFVX3lxTE9Dc2ZEcnpkNmxPUVphbjRJcnBpaGNsM0EyVXlsQTFwdmg3TWZXekcxSUR0cGp3RWttdU5NMkRFVkZlV280MHV1V0RQOWtrTzlLQTlRQkE5eGpXaF9Yajh2NC1ITkdqSmhYcFY2ZFlLeE9nTjFKWUdKaG12WDlVTzl3VWIxeTdJRldpOFpsbEdXM29abG1KejFLLWdnWVBBVEtXSHdtU2c?oc=5"
-    },
-    {
-      "ticker": "AI",
-      "headline": "Retail Investors Bet approximately $219.8 Million on IREN's 70% Plunge; Wall Street Sees 340% Upside - BigGo Finance",
-      "date": "2026-11-27",
-      "published": "Thu, 26 Nov 2026 20:55:00 GMT",
-      "summary": "Automated RSS market signal from BigGo Finance. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VXZYa3VkeUx5dWhKOHA2Z1lKWTZqTnBWYS1iUHpPWGhXY0tNYmo1b296UDVhaFlKa2dDaHdmOHM1ZllnbC1ZWVY4blRyNnd4V1RTYVhTZ3YxUkVHWUxZZUg2Yy1FY1hkVENwTTZMc1BNWktWdkE?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "Dow Jones AI Stocks: Nvidia, Microsoft, Amazon and the Future of the Dow - CryptoRank",
-      "date": "2026-11-26",
-      "published": "Thu, 26 Nov 2026 17:21:26 GMT",
-      "summary": "Automated RSS market signal from CryptoRank. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd0dDRUxNRHZ5UDVGekZRbjVMdHJqSThwbFBLY09UQW9fVFNTdjRXVjl1bUV5bFN5WFdSaWlZNm5idGM4ZWNfY2E3eTZjUEE4aWkyT1RPaUFZNXh0NS1DOUNoaHZkbFBEQ05ic2txYm1TalBwOUpwc3Y5LU9aWXV1cHF2OFdZMUgxRVNrVUpfT082dmF4Rk9wb1dvU0V3SDdXZTZweHQxdmFOdW8?oc=5"
-    },
-    {
-      "ticker": "NVDA",
-      "headline": "David Tepper, Cathie Wood and 4 Other Famous Investors Own Nvidia. Here’s Who Bought Recently - TIKR.com",
-      "date": "2026-11-27",
-      "published": "Thu, 26 Nov 2026 21:55:09 GMT",
-      "summary": "Automated RSS market signal from TIKR.com. Open the linked source for full context before acting.",
-      "tag": "market",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb2tCVHNub2RFcFBKQk12ZjRaOW5USElWVEt3OVRmRER1VXFHSkpDVloySVpiN2s3WUdHbkxDZ2ZTREg2b004ZnJ6ZEgwSHd3azZmTmNZZElZcU5fT0QxLVYtTVRELWV3MExPWlBlZGZYend5X2hQUGVDNzZnTUZiT1hhTmRFR3ZLSHg3TkRBRzVhUVQzVTA3QnY1VWhuWHdtTXUyM0hFejVFazBqMjFkMm52X2lMY3M?oc=5"
+      "published": "2026-11-27T14:14:00Z",
+      "summary": "AT Pulse included CrowdStrike’s reported acquisition of Zscaler among the day’s investment-relevant AI and cybersecurity developments.",
+      "tag": "cybersecurity M&A",
+      "url": "https://www.at-pulse.com/editions/2026-11-27/"
     }
   ],
-  "provider_error": {
-    "code": "daily_research_limit",
-    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
-  },
+  "provider_error": null,
   "fresh_window_hours": 24
 }
