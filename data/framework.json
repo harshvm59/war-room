@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T09:52:38.739608+05:30",
+  "updated_at": "2026-11-28T09:32:55.293666+05:30",
   "source": "openai+web_search+yahoo-chart+tom-7q",
   "items": [
     {
@@ -7,32 +7,40 @@
       "company": "Nvidia Corporation",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 2,
+      "score": 3,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
-          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+          "title": "NVIDIA Corporation Form 10-Q",
           "published": "2026-08-26",
-          "reporting_period": "Fiscal Q2 2027 ended 2026-07-26"
+          "reporting_period": "Quarter ended July 26, 2026"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000038/a2026-annualxreportxwebxfi.pdf",
+          "title": "NVIDIA Corporation Annual Report",
+          "published": null,
+          "reporting_period": "Fiscal year 2026"
         }
       ],
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue was $96.2 billion, up 106% year over year; data-center revenue was $89.0 billion, up 117%.",
+          "note": "Fiscal 2026 revenue increased 65% year over year to $215.9 billion.",
           "evidence_status": "supported",
           "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+            "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000038/a2026-annualxreportxwebxfi.pdf"
           ],
-          "reporting_period": "Fiscal Q2 2027 ended 2026-07-26"
+          "reporting_period": "Fiscal year 2026"
         },
         "moat": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "The annual filing describes continued platform momentum in accelerated computing, AI, Blackwell and networking.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000038/a2026-annualxreportxwebxfi.pdf"
+          ],
+          "reporting_period": "Fiscal year 2026"
         },
         "management": {
           "verdict": "CAUTION",
@@ -42,13 +50,11 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "GAAP and non-GAAP gross margins were both 75.0%.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
-          ],
-          "reporting_period": "Fiscal Q2 2027 ended 2026-07-26"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "cash": {
           "verdict": "CAUTION",
@@ -58,11 +64,13 @@
           "reporting_period": null
         },
         "risk": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "The quarterly filing provides current risk disclosures relevant to the business and semiconductor supply chain.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+          ],
+          "reporting_period": "Quarter ended July 26, 2026"
         },
         "timing": {
           "verdict": "CAUTION",
@@ -78,25 +86,16 @@
       "company": "Taiwan Semiconductor",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 1,
+      "score": 0,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
-      "sources": [
-        {
-          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
-          "title": "3Q26 Earnings Release",
-          "published": "2026-10-15",
-          "reporting_period": "Q3 2026 ended 2026-09-30"
-        }
-      ],
+      "sources": [],
       "questions": {
         "growing": {
-          "verdict": "PASS",
-          "note": "Consolidated revenue was NT$1,494.24 billion and increased 17.6% from Q2 2026.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf"
-          ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
         },
         "moat": {
           "verdict": "CAUTION",
@@ -147,23 +146,25 @@
       "company": "Tesla Inc",
       "overall": "REVIEW",
       "overall_color": "#c9a84c",
-      "score": 1,
+      "score": 3,
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf",
-          "title": "Tesla Q3 2026 Financial Results",
-          "published": "2026-10-21",
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+          "title": "Tesla Inc Form 10-Q",
+          "published": "2026-10-29",
+          "reporting_period": "Quarter and nine months ended September 30, 2026"
         }
       ],
       "questions": {
         "growing": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "Nine-month 2026 revenue increased $8.74 billion year over year to $78.67 billion.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm"
+          ],
+          "reporting_period": "Nine months ended September 30, 2026"
         },
         "moat": {
           "verdict": "CAUTION",
@@ -180,27 +181,31 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "FAIL",
+          "note": "Nine-month 2026 net income attributable to common stockholders declined year over year.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm"
+          ],
+          "reporting_period": "Nine months ended September 30, 2026"
         },
         "cash": {
           "verdict": "PASS",
-          "note": "Operating cash flow was reported at $6.3 billion for Q3 2026.",
+          "note": "Operating cash flow increased to $14.90 billion for the nine months ended September 30, 2026.",
           "evidence_status": "supported",
           "source_urls": [
-            "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf"
+            "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm"
           ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "reporting_period": "Nine months ended September 30, 2026"
         },
         "risk": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "The filing discloses ongoing litigation and execution risks involving products, operations and corporate matters.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm"
+          ],
+          "reporting_period": "Quarter ended September 30, 2026"
         },
         "timing": {
           "verdict": "CAUTION",
@@ -220,28 +225,30 @@
       "summary": "Evidence is incomplete; review the linked disclosures before any investment decision.",
       "sources": [
         {
-          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
-          "title": "Meta Reports Third Quarter 2026 Results",
-          "published": "2026-10-21",
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+          "title": "Meta Platforms Inc Form 10-Q",
+          "published": "2026-07-30",
+          "reporting_period": "Quarter and six months ended June 30, 2026"
         }
       ],
       "questions": {
         "growing": {
           "verdict": "PASS",
-          "note": "Revenue was $64.60 billion, up 26% year over year; ad impressions rose 10% and average price per ad rose 14%.",
+          "note": "Second-quarter 2026 revenue was $60.80 billion, up 28% year over year.",
           "evidence_status": "supported",
           "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
           ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
+          "reporting_period": "Quarter ended June 30, 2026"
         },
         "moat": {
-          "verdict": "CAUTION",
-          "note": "Evidence unavailable or insufficient for this question; review required.",
-          "evidence_status": "unknown",
-          "source_urls": [],
-          "reporting_period": null
+          "verdict": "PASS",
+          "note": "The filing attributes revenue growth primarily to advertising revenue and describes continued platform-scale operations.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
+          ],
+          "reporting_period": "Quarter ended June 30, 2026"
         },
         "management": {
           "verdict": "CAUTION",
@@ -251,29 +258,27 @@
           "reporting_period": null
         },
         "margins": {
-          "verdict": "PASS",
-          "note": "Operating margin was 20%; the release identifies a $9.89 billion litigation charge affecting expenses.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
-          ],
-          "reporting_period": "Q3 2026 ended 2026-09-30"
-        },
-        "cash": {
-          "verdict": "PASS",
-          "note": "Cash, cash equivalents, and marketable securities were $82.45 billion at September 30, 2026.",
-          "evidence_status": "supported",
-          "source_urls": [
-            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
-          ],
-          "reporting_period": "As of 2026-09-30"
-        },
-        "risk": {
           "verdict": "CAUTION",
           "note": "Evidence unavailable or insufficient for this question; review required.",
           "evidence_status": "unknown",
           "source_urls": [],
           "reporting_period": null
+        },
+        "cash": {
+          "verdict": "CAUTION",
+          "note": "Evidence unavailable or insufficient for this question; review required.",
+          "evidence_status": "unknown",
+          "source_urls": [],
+          "reporting_period": null
+        },
+        "risk": {
+          "verdict": "PASS",
+          "note": "The quarterly filing contains current risk-factor disclosures covering infrastructure investment and operating risks.",
+          "evidence_status": "supported",
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
+          ],
+          "reporting_period": "Quarter ended June 30, 2026"
         },
         "timing": {
           "verdict": "CAUTION",
