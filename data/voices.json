@@ -1,49 +1,7 @@
 {
-  "updated_at": "2026-11-28T03:47:33.132677+05:30",
-  "source": "openai+web_search+30-leader-monitor",
+  "updated_at": "2026-11-28T06:09:39.077082+05:30",
+  "source": "google-news-rss-fallback+30-leader-monitor",
   "items": [
-    {
-      "name": "Maria Qundos",
-      "role": "Head of Asset Allocation",
-      "org": "Skandia",
-      "cat": "market concentration and AI risk",
-      "date": "2026-11-27",
-      "published": "2026-11-27T08:02:00+01:00",
-      "themes": [
-        "AI-stock concentration",
-        "Nvidia leadership risk",
-        "market volatility"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Qundos said the market’s dependence on a small number of companies and individuals highlights excessive concentration risk.",
-          "k": true
-        }
-      ],
-      "src": "https://omni.se/experter-skakig-marknad-hanger-pa-federal-reserve/a/GPGzKm",
-      "signal_type": "source-linked signal"
-    },
-    {
-      "name": "Mattias Sundling",
-      "role": "Chief Equity Strategist",
-      "org": "Handelsbanken",
-      "cat": "AI capital spending and rates",
-      "date": "2026-11-27",
-      "published": "2026-11-27T08:02:00+01:00",
-      "themes": [
-        "AI spending",
-        "Federal Reserve",
-        "market direction"
-      ],
-      "quotes": [
-        {
-          "t": "Source-linked summary (not a direct quote): Sundling said investors are uncertain whether markets would prefer AI companies to increase investment or reduce spending, while future Federal Reserve rate increases remain important.",
-          "k": true
-        }
-      ],
-      "src": "https://omni.se/experter-skakig-marknad-hanger-pa-federal-reserve/a/GPGzKm",
-      "signal_type": "source-linked signal"
-    },
     {
       "name": "Jensen Huang",
       "role": "CEO",
@@ -93,7 +51,7 @@
       "org": "Wedbush",
       "cat": "Analyst",
       "date": "2026-11-27",
-      "published": "Fri, 27 Nov 2026 07:26:37 GMT",
+      "published": "Fri, 27 Nov 2026 07:04:14 GMT",
       "source_name": "Yahoo Finance UK",
       "signal_type": "source-linked headline",
       "relevance_score": 14,
@@ -102,11 +60,11 @@
       ],
       "quotes": [
         {
-          "t": "Headline signal (not a direct quote): Dan Ives Wedbush AI Autocallable Income ETF (IVEA) options chain - Yahoo Finance UK",
+          "t": "Headline signal (not a direct quote): Dan Ives Wedbush AI Autocallable Income ETF (IVEA) income statement - Yahoo Finance UK",
           "k": true
         }
       ],
-      "src": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QMHZmQ21oenNabXhkanZoeXV6Mng5UXRvdW11Wjl5T2VVY2MwS0l6b3BKTXVUejFpSGhzOG5iVTJPTnRDTGZXc3ZHanZSM1RRNC1seWI2TUhuZkN5?oc=5"
+      "src": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE91WTV3MkZ6X0FpTlpZVzBwdWljYk41VTVKbmFZU2FYTWVwQXE0ZUd6RUxyRzZVc0doOWhDQTFzOTM2XzFBd21jLTc3WlZMODJ5Zy1WS0pyQ1pLMmFfVnBKTg?oc=5"
     },
     {
       "name": "Satya Nadella",
@@ -158,7 +116,7 @@
       "org": "Meta",
       "cat": "CEO",
       "date": "2026-11-27",
-      "published": "Fri, 27 Nov 2026 12:02:44 GMT",
+      "published": "Fri, 27 Nov 2026 12:02:00 GMT",
       "source_name": "Business Insider",
       "signal_type": "source-linked headline",
       "relevance_score": 15,
@@ -285,7 +243,10 @@
   ],
   "monitored_leaders": 30,
   "fresh_window_hours": 24,
-  "fresh_signal_count": 13,
+  "fresh_signal_count": 11,
   "quality_gate": "24h source-linked + portfolio relevance score >= 7",
-  "provider_error": null
+  "provider_error": {
+    "code": "daily_research_limit",
+    "message": "Today's paid research attempt for this feed is already reserved or used; the next attempt is on the next IST date."
+  }
 }
